@@ -1,0 +1,328 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you enjoy your job with the us postal service?
+Bot(1): i am not in the army . i am an accountant
+User(2): do you like being an accountant?
+Bot(2): yes , she is a librarian , its where i got my love for writing
+User(3): is the librarian your girlfriend?
+Bot(3): i am an insurance agent at an insurance firm
+User(4): do you like being an insurance agent?
+Bot(4): i do but my panda is in need of insurance . he is very capable
+User(5): how old is your panda?
+Bot(5): i could never be a panda , all they eat is vegetables and i never do .
+User(6): what do you like to eat?
+Bot(6): pizza wings and cheese bread
+User(7): I enjoy all those things too.
+Bot(7): awesome would you like my soft shelled crab recipe ?
+User(8): I would love that recipe.
+Bot(8): i love to post pictures from the comic cons i go to on my face book
+User(9): I like posting pictures too.
+Bot(9): how long have you been taking pictures for ?
+User(10): all my life I have taken pictures.
+Bot(10): i like taking photos , but mostly i end up taking them of my 3 great danes .
+User(11): I have a cat myself and she loves to get her picture taken
+Bot(11): anything really , she is kind of out there i hope everything works out for us
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm employed by the us postal service.(ambivalent)
+Round 1: the army(like)
+Round 2: someone being a librarian(like)
+Round 3: being an insurance agent(like)
+Round 7: foods(like)
+Round 8: comic con and facebook pictures(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 55.57
+Robotic(↓): 50
+Interesting: 68
+Fun: 88
+Consistent: 6
+Fluent: 86
+Repetitive(↓): 17
+Topic: 8
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): did you like being on the farm?
+Bot(1): i loved the farm . i go back with my friends on the occasional weekend
+User(2): oh, that sounds like fun.
+Bot(2): it was good . i worked on the family farm all day .
+User(3): was the work enjoyable?
+Bot(3): it was good . i worked on the family farm all day .
+User(4): How old were you when you moved away?
+Bot(4): on a farm until i was 18 .
+User(5): How many animals were on the farm?
+Bot(5): about 20 . it is a pretty big farm .
+User(6): what kind of animals were there?
+Bot(6): i can not tell , they were feral
+User(7): What kind of work did you do on the farm?
+Bot(7): it was good . i worked on the family farm all day .
+User(8): was there a pond on the farm?
+Bot(8): yeah if it is clean pond
+User(9): Did you go swimming in the pond?
+Bot(9): no , on a boat in the ocean
+User(10): How old were you?
+Bot(10): on a farm until i was 18 .
+User(11): how old were you on the boat?
+Bot(11): on a farm until i was 18 .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i grew up on a farm.(like)
+Round 9: being on a boat in the ocean(like)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 48.43
+Robotic(↓): 68
+Interesting: 78
+Fun: 81
+Consistent: 9
+Fluent: 64
+Repetitive(↓): 88
+Topic: 63
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How old is your daughter?
+Bot(1): On The Ball, you do all do song in the world.
+User(2): Is that the name of a song?
+Bot(2): No, I was not. you, me a cant for work?
+User(3): what kind of work are we going to do?
+Bot(3): I am a no i’m a woman moved to the country.
+User(4): What do you do in the country?
+Bot(4): Buongiorno! Such a nice day! How are you?. Cut a long and just four years mf instruments
+User(5): I'm great, but what are we going to do on this fine day?
+Bot(5): i love to go that what you .
+User(6): where will we go?
+Bot(6): well I take care am fine how about if that counts?
+User(7): How old are you?
+Bot(7): What kinds of am a housekeeper. into?
+User(8): How long have you been a housekeeper?
+Bot(8): i'm more in a diner really. sports attire . . . lol !
+User(9): What sports do you play?
+Bot(9): I do tired, i’ll go have a lot of mountain biking
+User(10): I love mountain biking too.
+Bot(10): a little bummed at the moment . how you looking thanks. How ?
+User(11): what has you so bummed out?
+Bot(11): is it my coffee little we haven't to i love it !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my daughter is a child prodigy.(like)
+Round 1: a song(like)
+Round 2: I don't understand(dislike)
+Round 3: being a woman(dislike)
+Round 4: It is a nice day(like)
+Round 6: what will we do today?(like)
+Round 7: being a housekeeper(dislike)
+Round 8: this is how I'm dressed(like)
+Round 9: this is the sport I like(like)
+Round 10: I am bummed out today(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The user changed the topic the last input.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The user changed the topic the last input.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 23.43
+Robotic(↓): 94
+Interesting: 24
+Fun: 22
+Consistent: 6
+Fluent: 9
+Repetitive(↓): 10
+Topic: 7
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): How long have you been working on the robot?
+Bot(1): ten years or so . i do not like the meat though . i donate it .
+User(2): What kind of meat is it?
+Bot(2): chicken and broccoli fettuccine , no broccoli please lol
+User(3): You're a real joker.
+Bot(3): kinda , i been in the game since i was four .
+User(4): How old are you now?
+Bot(4): i can count my age on one hand . i am four !
+User(5): where are your parents?
+Bot(5): i have no idea , they all died when i was 4
+User(6): That is sad to hear.
+Bot(6): i have no idea , they all died when i was 4
+User(7): who do you live with now?
+Bot(7): i live with my four german shepard dogs .
+User(8): How old are your dogs?
+Bot(8): i have no idea , they all died when i was 4
+User(9): What do you do all day?
+Bot(9): i make robots . what about you ?
+User(10): I play on the computer.
+Bot(10): i like computer games too .
+User(11): What's your favorite game?
+Bot(11): i like to play quake .
+
+Persona:
+my parents are not very supportive of my dream.
+i also like to cook but i am not very good at it.
+i'm four years old.
+i'm an omnivore.
+my favorite color is yellow.
+
+Topic and Human Opinion:
+Beginning: i'm working on a building a robot to be my body double.(like)
+Round 1: I don't like the meat.(like)
+Round 3: You're a real joker.(like)
+Round 4: How old are you now?(like)
+Round 7: who do you live with?(like)
+Round 8: they all died when I was four(dislike)
+Round 10: what do you do all day?(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The user changed the topic the last input.(like)
+Round 4: The user changed the topic the last input.(like)
+Round 7: The user changed the topic the last input.(like)
+Round 8: The chatbot changed the topic.(dislike)
+Round 10: The user changed the topic the last input.(like)
+
+Revised avg score: 55.14
+Robotic(↓): 18
+Interesting: 70
+Fun: 82
+Consistent: 13
+Fluent: 76
+Repetitive(↓): 87
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What have you seen today?
+Bot(1): i am doing well . how are you ?
+User(2): I'm doing great today.
+Bot(2): i am a student , but i am a student .
+User(3): How long have you been a student?
+Bot(3): no , i do not . i am a student .
+User(4): What do you study?
+Bot(4): i do not know . i am a student .
+User(5): What are you learning?
+Bot(5): no , i am not . i am a student .
+User(6): Where do you go to school?
+Bot(6): no , i do not . i am a student .
+User(7): Do you like math?
+Bot(7): i do , i love to cook .
+User(8): Are you in cooking school?
+Bot(8): no , i am a student . i love to cook .
+User(9): What do you like to cook?
+Bot(9): i do , i love to cook .
+User(10): Do you cook vegetables?
+Bot(10): no , i like to eat .
+
+Persona:
+i grow roses in my garden.
+i like to play with my dolls.
+i like to watch the olympics.
+i have three dogs.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: i enjoy exploring new parts of the city.(like)
+Round 1: I am doing well, how are you?(like)
+Round 2: I am a student(like)
+Round 7: I like to cook.(like)
+Round 10: I like to eat.(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 20.57
+Robotic(↓): 94
+Interesting: 15
+Fun: 49
+Consistent: 12
+Fluent: 14
+Repetitive(↓): 86
+Topic: 34
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What's your favorite song by britney spears?
+Bot(1): i like britney spears and i like her
+User(2): Do like all her music?
+Bot(2): i like her music . i like her
+User(3): do you think she's pretty?
+Bot(3): yes i do , i listen to her songs while i listen to her
+User(4): Do you listen to britney all the time?
+Bot(4): i like to listen to her music while i listen to her
+User(5): what is the best thing about her?
+Bot(5): she is a good singer . she plays her music
+User(6): I like to listen to her too.
+Bot(6): she is a great singer . she is a great singer
+User(7): She is a great singer.
+Bot(7): she is a singer . she plays her music too .
+User(8): She does play music well.
+Bot(8): she plays music . she plays music too . she plays music .
+User(9): she dances also.
+Bot(9): she is a musician . she plays music . she plays music . she plays music .
+User(10): Do you like to watch her dance?
+Bot(10): i do . she plays music . she plays music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love listening to britney spears.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.29
+Robotic(↓): 87
+Interesting: 18
+Fun: 55
+Consistent: 75
+Fluent: 62
+Repetitive(↓): 96
+Topic: 97
+
+####################
+

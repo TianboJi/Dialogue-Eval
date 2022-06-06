@@ -1,0 +1,321 @@
+Feedback: No further comments.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, are you interested in knowing information about Veganism?
+Bot(1): restaurant or sporting goods store . i am a grill cook and saving for my own kitchen
+User(2): Oh great, being a cook, I imagine you know a few things about healthy dieting ?
+Bot(2): yep its the best dish in the world . so tasty and healthy
+User(3): What is the best dish in the world?
+Bot(3): veal in red wine sauce with winter vegetables . whats your favorite to eat ?
+User(4): I definitely eat just about any vegetable out there, I dont have favorites vegetables. Because I like them all!
+Bot(4): shoot i eat vegetables at work . 9 5 is my schedule
+User(5): Great! I eat vegetables everyday at least once a day, lettuce, tomatoes, spinach are my everyday ones.
+Bot(5): yes , i have a veggie garden . i love getting the vegetables out of it .
+User(6): Oh thats great! Then you have the chance to harvest what you are trying to eat, do you?
+Bot(6): surf in water ? no i stay away from the stuff
+User(7): Nice, I do not practice surf
+Bot(7): mostly eating italian food , which is kinda strange , since i come from east asia .
+User(8): I certainly do not eat Italian food often, not even pastas. I do eat mac & cheess everyonce a blue moon, does this count as "Italian food"?
+Bot(8): mexican is my favorite food ! a lot of great mexican places in nc .
+User(9): Oh wow! I love Mexican food, do you really find authentic Mexican food where you live?
+Bot(9): tacos are delicious . do you like using youtube ?
+User(10): I do have a Youtube account.
+Bot(10): neat ! i have 3 toes . . . i guess there is no makeup that can hide that fact . .
+User(11): Lol Are you into make up?
+Bot(11): but i am also a brown eyed blond , so always attracted men from a distance .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Concept of Veganism(like)
+Round 6: Surfing(dislike)
+Round 7: Italian food(dislike)
+Round 8: Mexican food.(like)
+Round 10: Make up(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 44.43
+Robotic(↓): 0
+Interesting: 11
+Fun: 15
+Consistent: 16
+Fluent: 77
+Repetitive(↓): 24
+Topic: 16
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, are you going to be voting in the next election?
+Bot(1): i am not sure . i am a trauma surgeon
+User(2): Wow cool! Does this mean you work in the emergency room?
+Bot(2): yes i do , i am a nurse
+User(3): That's awesome! Are you a registered nurse? I always wondered how much do they really earn in a full year of work?
+Bot(3): no i don't work , i am a nurse
+User(4): Yes, I understand! What is your hourly wage?
+Bot(4): i am a nurse , i am a trauma surgeon
+User(5): Oh wow, you are both? Then you went to medical school, I guess, what made you want to become a surgeon?
+Bot(5): i am a nurse , i am a trauma surgeon
+User(6): I got that! You already said it. Lol
+Bot(6): i am a nurse , i am a trauma surgeon
+User(7): What does a nurse and trauma surgeon do on a weekend?
+Bot(7): i am a nurse , i am a trauma surgeon
+User(8): Do you vote Democrat or Republican or Independent? Will you vote this coming election?
+Bot(8): i am sure you are right . i am a trauma surgeon
+User(9): Alright, so why are you a trauma surgeon?
+Bot(9): yes , i am a trauma surgeon
+User(10): I see..why do you do that?
+Bot(10): i am a trauma surgeon , but i do not have a job
+
+Persona:
+i am a cancer survivor.
+i do not drink soda.
+i met taylor swift.
+my father was a door to door salesman.
+i walk dogs for a living.
+
+Topic and Human Opinion:
+Beginning: Abortion Rights(like)
+Round 1: Trauma surgeon.(like)
+Round 2: Nurse(like)
+Round 7: Stimulous Package(like)
+Round 8: Trauma Surgeon(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 32.57
+Robotic(↓): 0
+Interesting: 0
+Fun: 15
+Consistent: 14
+Fluent: 84
+Repetitive(↓): 100
+Topic: 15
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Good afternoon, will you vote in the coming election?
+Bot(1): have you voted recently ? i have
+User(2): I have not voted yet, I am actually not sure if I will vote.
+Bot(2): have you decided who to vote for ?
+User(3): I have not decided, I had voted Democrat before. I am not even sure if I want to vote this election. Which one did you vote for?
+Bot(3): have you decided who to vote for ?
+User(4): I have not decided, I neve liked Joe Biden as a vice president before, Im sure I dont want him as president. I don't really like Trump , so I have a dilemma. I might vote independent.
+Bot(4): i do not like trump either , i am a democrat , i wanted bernie
+User(5): Awesome, I wanted Bernie Sanders too!
+Bot(5): i do not like trump either , i am a democrat , i wanted bernie
+User(6): That is cool! Me too! We have something in common then! Bernie should be back as "independent" this time, I would vote him for sure. How about you?
+Bot(6): i do not like trump either , i am a democrat , i wanted bernie
+User(7): How come you don't like Trump? Lol
+Bot(7): i do not like trump either , i am a democrat , i wanted bernie
+User(8): What is your favorite music to listen to?
+Bot(8): i listen to country , what about you ?
+User(9): Only country? I definitely do not listen to country.
+Bot(9): ll , yeah me too . i cannot cope with country .
+User(10): Lol you just said you listen to it? I listen to Mariachi Mexican music a lot, do you know this genre?
+Bot(10): no , never heard of it . i like rap .
+User(11): Oh wow, rap sucks! Lol Sorry to be so honest, can you name any rapper who actually have a singing voice or any musical education at all? Or play any instruments at all?
+Bot(11): hmm . . . man i cannot think of any ! i am not that creative ! lol
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Next Election(like)
+Round 7: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 55.86
+Robotic(↓): 37
+Interesting: 71
+Fun: 53
+Consistent: 34
+Fluent: 90
+Repetitive(↓): 64
+Topic: 44
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Did you watch the new movie "Paydirt"
+Bot(1): whats have you movie
+User(2): The new movie with actor Val Kilmer, called Paydirt?
+Bot(2): Hey! Are like I do have Because I am.
+User(3): Did you know it was my birthday last week? :)
+Bot(3): soup kitchen, you teach? :)
+User(4): I don't teach.
+Bot(4): Yes are am.
+User(5): You know how to make soup?
+Bot(5): cool , i'm scared of love italian food and i do do you ? 😃
+User(6): Forget Italian food! Lol
+Bot(6): maybe it is you have any am blame myself a lot
+User(7): Do you celebrate Halloween?
+Bot(7): insurance is something we know how to cook mine is aldi its parttime
+User(8): What kind of car insurance do you have?
+Bot(8): I the way, my I like to cook.😃
+User(9): You know how to cook?
+Bot(9): I am glad to nice to see you female.
+User(10): You are glad to see me? Lol
+Bot(10): What I already question?
+User(11): You are not making much sense there. Got any topics to talk about? Lol
+Bot(11): I love dogs! I love hearing you like a few dogs.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Val Kilmer(like)
+Round 2: October(like)
+Round 3: Soup Kitchen(dislike)
+Round 5: Italian Food.(dislike)
+Round 6: Halloween(like)
+Round 7: Insurance(like)
+Round 8: Cooking(like)
+Round 9: Greetings(like)
+Round 10: Making no Sense(dislike)
+Round 11: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 35.14
+Robotic(↓): 0
+Interesting: 60
+Fun: 24
+Consistent: 0
+Fluent: 11
+Repetitive(↓): 63
+Topic: 14
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have any dogs?
+Bot(1): no , i do not , but i do like to eat .
+User(2): You like to eat? Lol I did not mean hot dogs, I meant just dogs (the animals).
+Bot(2): i like the color red . i like the color blue .
+User(3): I like green and black and white .
+Bot(3): i like blue , i like blue .
+User(4): You already said this, that "you like the color blue"
+Bot(4): i like the color red . i like red .
+User(5): You also said that you like the color red..so..tell me something I don't know? Lol
+Bot(5): i like to go to the gym and listen to music .
+User(6): I like to exercise also, what is your favorite time of day to exercise?
+Bot(6): i like to go to the gym and listen to music .
+User(7): I like to listen to music when I exercise too. What kind of music gets you going during a work out?
+Bot(7): i do , i love to cook . what about you ?
+User(8): I don't cook.
+Bot(8): i like to eat too much junk food .
+User(9): I don't eat much junk food, I try to be healthy, however I do eat sugary foods from time to time.
+Bot(9): i like to go to the gym and listen to music .
+User(10): What gym do you go to?
+Bot(10): i love to travel . i love to travel .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 2: Colors(like)
+Round 5: Gym(like)
+Round 7: Cooking.(dislike)
+Round 8: Junk food.(dislike)
+Round 9: Gym(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 28.43
+Robotic(↓): 85
+Interesting: 24
+Fun: 18
+Consistent: 13
+Fluent: 70
+Repetitive(↓): 60
+Topic: 19
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, do you wear masks everywhere you go now?
+Bot(1): haha , no wear nice clothes .
+User(2): Cool, nice clothes? How about masks, like COVID-19 masks?
+Bot(2): haha , no wear nice clothes .
+User(3): What kind of clothes do you normally wear?
+Bot(3): diffident dresses , sleep wear pantsuits caps
+User(4): Cool! I dont ever wear dresses. Lol I'm a pants wearing lady, something like a "tomboy", they call it. I mostly wear pants 80 percent of the time.
+Bot(4): i just cannot stand dresses . so you got any hobbies ?
+User(5): Cool, I hate dresses too. Too boring and outdated society gender roles. Lol. I do like reading a lot, and walking my dogs in the parks.
+Bot(5): haha you dress your dogs up ?
+User(6): I don't dress my dogs, unless its very cold weather for them, then I might cover them up with something.
+Bot(6): haha you dress your dogs up ?
+User(7): Do you speak any other languages besides English?
+Bot(7): only english , do you speak any other languages ?
+User(8): I do, I speak Spanish, Norwegian, Swedish, a little bit of French and very little German. Don't take me as fluent in the last 2 I mentioned. Lol. French, I failed it in school before. Lol
+Bot(8): well maybe you can teach french to us citizens .
+User(9): I don't think I cant teach French, I don't really speak it, I can read some of it and thats all. Lol
+Bot(9): it is a rough language , but the have the best baths in france , for sure !
+User(10): Lol, really? Have you been to France?
+Bot(10): never , where have been other than paris ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Coronavirus(like)
+Round 2: Clothing(like)
+Round 6: Languages.(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 53.29
+Robotic(↓): 66
+Interesting: 68
+Fun: 70
+Consistent: 41
+Fluent: 80
+Repetitive(↓): 57
+Topic: 37
+
+####################
+

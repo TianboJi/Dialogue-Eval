@@ -1,0 +1,315 @@
+Feedback: I didn't realize the topic button was right there on the first conversation. I quickly figured it out, though, and completed the rest. Let me know if you need me to do another...I'd be happy to!
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi! I'm so tired from work today!
+Bot(1): i am sorry to hear that . i am a student .
+User(2): Me too. I'm in college and work nights as well.
+Bot(2): i am a teacher , i love to cook .
+User(3): I'm just a student in college...but you are both a teacher and a student?
+Bot(3): no , i am a student . i love to cook .
+User(4): They cook some nice stuff at the bar I work at.
+Bot(4): i love to cook . i love to cook .
+User(5): You seem very passionate about it. I love to cook also, but usually college, work, and homework take all my time.
+Bot(5): i am a teacher , i love to cook .
+User(6): I wish my teachers would cook for me in class!
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): Sometimes I get so hungry at work, I contemplate eating stuff I can't pay for.
+Bot(7): i am a student , but i do not have to work .
+User(8): You are lucky. I must work. I am not a very special person. You must be very special to someone.
+Bot(8): i do not know what to say .
+User(9): Well, sometimes it's fun to be at work at night...I've worked daytime shifts and they are not as interesting.
+Bot(9): i am sorry to hear that . i am sorry to hear that .
+User(10): Sometimes, I get a lot of tip money, too, but usually it's only enough to just get by.
+Bot(10): i am a student , but i am a student .
+User(11): I like to work most nights...until someone throws up.
+Bot(11): i am sorry to hear that . i am sorry to hear that .
+User(12): Yeah, and I am usually sorry to see it, too.
+Bot(12): i am a bit of a loner . i love to go out to eat with my family .
+User(13): The bar I work in is family friendly.
+Bot(13): i like to go to the gym and listen to music .
+User(14): There is good music in the bar sometimes, too.
+Bot(14): i love to travel . i love to travel .
+User(15): I will be able to travel once I can actually save money. For now I am a barmaid.
+Bot(15): i like to eat too much junk food .
+User(16): The bar I work at has really great food...lots of junk food munchies. What's your favorite?
+Bot(16): i like the color red . what is yours ?
+User(17): I like red. It's one of my college's colors.
+Bot(17): i like the color red . i like the color blue .
+
+Persona:
+i am 13 years old.
+my parents taught me survival skills.
+i like to work on vintage cars.
+i've rainbow hair.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: i work at a bar at night to pay for college.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.00
+Robotic(↓): 100
+Interesting: 8
+Fun: 63
+Consistent: 69
+Fluent: 5
+Repetitive(↓): 100
+Topic: 23
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I have three Arabian horses. They're very nice. Do you like horses?
+Bot(1): yes i do . horses and horses .
+User(2): What kind of horses do you have?
+Bot(2): horses are the best . i have a horse .
+User(3): What is your horse like? Mine are all black.
+Bot(3): i like horses too . i have a dog .
+User(4): What is your favorite breed of horse?
+Bot(4): i like horses . i have a dog .
+User(5): Do you want to know more about my horses?
+Bot(5): horses are great . i have a dog .
+User(6): I think horses are the best. I like to ride them, too. MIne are fast.
+Bot(6): i bet you are very nice . i am a dog person .
+User(7): I want to know more about your horses. Maybe we have stuff in common.
+Bot(7): i have a dog . he is a husky .
+User(8): I like dogs, too. I like horses as well. I think I like horses best. What about you?
+Bot(8): i like horses . i also have a dog .
+User(9): Dogs are really fun. What is your dog's name?
+Bot(9): my name is penny . what do you do for fun ?
+User(10): I like to go on hikes with my dog. Do you also like to do that?
+Bot(10): i love horses . i also have a dog .
+User(11): How many dogs have you owned in your lifetime?
+Bot(11): i have a few . i have a few horses .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've three arabian horses.(like)
+Round 7: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 50.57
+Robotic(↓): 78
+Interesting: 53
+Fun: 55
+Consistent: 86
+Fluent: 59
+Repetitive(↓): 79
+Topic: 58
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): My parents are rich. Are yours?
+Bot(1): I see. Do India I m to music?
+User(2): You like Indian music?
+Bot(2): I have a cold and a doctor. i drive around.
+User(3): Did you drive to your Dr?
+Bot(3): I am doing well. you seen a series at the insurance industry.
+User(4): That's great you are doing well now. I hate getting colds. What series do you mean?
+Bot(4): That sounds fun. bad are same, what What do you play?
+User(5): I play PWI. It's a fun computer game you can play online with other people. Have you seen it?
+Bot(5): I really do not like for sure. anymore
+User(6): Did you used to like it, ever?
+Bot(6): I do not. a lot of time in to university of michigan to get a job.
+User(7): What game do you like best?
+Bot(7): I like the show show cartoons, married. Do you have cartoons.
+User(8): I like the cartoon Garfield a lot. My son calls it "catfield"
+Bot(8): I don't understand you 🙈. Also, try to a siblings dogs. I ...
+User(9): Sorry. Is sibling dogs a cartoon, also?
+Bot(9): that is cool , i like photography What is your favorite clones teacher , and you ?
+User(10): I was never good at taking photos. What about you?
+Bot(10): do you just enjoy me your love video games.
+User(11): I love video games. I think I'll go play one now. Bye.
+Bot(11): I am doing well. Just got on els do you so you own two vintage mustangs?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my parents are very wealthy bankers.(like)
+Round 1: India and music(like)
+Round 2: having a cold and a doctor and driving around.(ambivalent)
+Round 3: how they are doing and the insurance industry(ambivalent)
+Round 4: what I play(like)
+Round 7: cartoons(like)
+Round 9: photography(like)
+Round 10: video games(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 20.29
+Robotic(↓): 96
+Interesting: 39
+Fun: 33
+Consistent: 52
+Fluent: 0
+Repetitive(↓): 89
+Topic: 3
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): My best friend is my neighbor.
+Bot(1): i live so close to my best friend
+User(2): That's really cool! It is nice to have a friend that lives so close.
+Bot(2): i wish my best friend was closer
+User(3): My best friend used to live miles away. Now we are nearly roommates.
+Bot(3): that is nice that you can live that close to your best friend
+User(4): Yes. I love it. We visit each other often.
+Bot(4): i have no roommates so i connect that way .
+User(5): No roommates is good. If I had to have one, I'd pick a friend.
+Bot(5): definitely . it would be nice to have a friend .
+User(6): I love living close to my friend also because if I borrow something I can easily return it!
+Bot(6): that is nice . do you take friend out ? i cannot live without mine .
+User(7): Yes, we like to go out a lot, but we mostly stay in. Loving living so close together.
+Bot(7): i have no roommates so i connect that way .
+User(8): I think having a friend that is a neighbor is better than having roommates.
+Bot(8): definitely . it would be nice to have a friend .
+User(9): Especially a friend that lives next door. I used to have a friend that was my neighbor as a kid, too.
+Bot(9): he was a very good friend the best ever .
+User(10): It was a girl. She was a pretty good friend. Her brother was mean, though.
+Bot(10): he was a very good friend the best ever .
+User(11): My friend is great!
+Bot(11): friends are great . any plans for tonight ?
+User(12): Just having fun with my neighbor friend. You?
+Bot(12): friends are great . any plans for tonight ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my best friend lives next door.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.43
+Robotic(↓): 65
+Interesting: 40
+Fun: 55
+Consistent: 50
+Fluent: 54
+Repetitive(↓): 76
+Topic: 88
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love fish and chips.
+Bot(1): fish are good . i stay away from water . it is hard for dwarves to swim .
+User(2): I don't have to swim to order fish and chips, though!
+Bot(2): i love swimming . do you like to listen to music while you swim ?
+User(3): Yes, that sounds very fun. I just can't swim in a straight line.
+Bot(3): i do not know how to swim
+User(4): Would you ever consider learning to swim?
+Bot(4): that sounds fun . i do not swim much .
+User(5): I would teach you! I like to float on my back and listen to music.
+Bot(5): i teach us history . my kids do not have to write papers .
+User(6): Why do your kids not have to write papers?
+Bot(6): do you write books ?
+User(7): No, but I would love to be an author. I just feel like I am not special enough for that.
+Bot(7): yes , i love all the harry potter books by j . k . rowling . read them all twice .
+User(8): I haven't read them but I am looking forward to it. I loved the movies.
+Bot(8): hmm the books are always better than the movies . i cant blame you
+User(9): It's true, they are. I think it helps that your imagination can make the book more interesting.
+Bot(9): what is the book about
+User(10): What is the Harry Potter book about? I thought you read it?
+Bot(10): harry potter is the best series out there
+User(11): Oh yes, I agree.
+Bot(11): i love to chew black jack gum
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have a weakness for fish and chips.(like)
+Round 2: swimming and music(like)
+Round 5: teaching and kids(like)
+Round 6: writing books(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 52.43
+Robotic(↓): 30
+Interesting: 68
+Fun: 67
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 78
+Topic: 40
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am a nurse for a living.
+Bot(1): that is cool . i am a very experienced nurse and i love my job .
+User(2): What type of nursing do you do?
+Bot(2): nursing . i have spent a few days in the hospital during my career .
+User(3): That sounds great. I love the field I'm in...babies!
+Bot(3): sometimes it feels like i live at work . how many babies have you delivered ?
+User(4): Too many to count. Definately thousands. They are all different.
+Bot(4): absolutely lol . . . i can not deal with the aspect of nursing
+User(5): It's very hard, especially when you work to help and things don't get better.
+Bot(5): yeah i understand that . i am lucky to have help .
+User(6): Yeah, the people I work with are great. They are all passionate about helping the families.
+Bot(6): it is great when we have people to help take care of our needs .
+User(7): Yes, that's why I'm always doing my best at work. Have you always been a nurse?
+Bot(7): yeah , ever since i was a kid . how about yourself ? what do you do ?
+User(8): I've always been a nurse as well, all though I did used to have other interests.
+Bot(8): do you miss work now ? or really enjoy your time now ?
+User(9): When I get a vacation I do miss work. It keeps me busy and tired, though.
+Bot(9): where do you vacation to ?
+User(10): I love to go on vacation to anywhere in nature. What about you?
+Bot(10): well , have not gone anywhere recently , as i am pregnant . first kid , too !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a baby delivery nurse.(like)
+Round 9: vacation/travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 62.14
+Robotic(↓): 51
+Interesting: 56
+Fun: 60
+Consistent: 50
+Fluent: 83
+Repetitive(↓): 43
+Topic: 80
+
+####################
+

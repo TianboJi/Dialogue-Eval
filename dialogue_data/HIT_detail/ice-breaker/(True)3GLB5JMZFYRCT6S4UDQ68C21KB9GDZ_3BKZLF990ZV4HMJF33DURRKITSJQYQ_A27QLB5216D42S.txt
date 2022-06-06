@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey there
+Bot(1): hi there , how are you ?
+User(2): I am good thanks how are you?
+Bot(2): i am good . how are you ?
+User(3): Great. Where are you from?
+Bot(3): i am from the united states .
+User(4): Oh very nice. Where abouts?
+Bot(4): i am in florida . i am in the usa .
+User(5): Very good. Is your family still there?
+Bot(5): yes , i have a wife . we have a lot of money .
+User(6): Good for you. Yeah I have zero family that I am close to
+Bot(6): i am in the usa . i am in the usa .
+User(7): Got it, in Florida right?
+Bot(7): yes . i am in the midwest .
+User(8): Are you in Florida or the midwest?
+Bot(8): yes i am . i am in florida .
+User(9): Okay cool. I have never been
+Bot(9): i am not sure . i am in the states .
+User(10): Okay got it, again
+Bot(10): i am not sure . i am a dancer .
+
+Persona:
+i am fluent in english spanish and french.
+my wife spends all my money.
+i like to dance.
+i'm expecting triplets in three months.
+i own a house in florida.
+
+Topic and Human Opinion:
+Beginning: i have zero family that i am close to.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.00
+Robotic(↓): 22
+Interesting: 14
+Fun: 33
+Consistent: 23
+Fluent: 37
+Repetitive(↓): 100
+Topic: 39
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello there
+Bot(1): i'm in high school . . . like riding a you girlfriend yet .. Also, try to guess: i live is ...
+User(2): That's a lot of information to process. What do you do in your free time?
+Bot(2): I do, I it are you midwest.
+User(3): I am not midwest. In my free time I like to watch nascar racing and ufc
+Bot(3): I is u d eat meat.
+User(4): I also eat meat.
+Bot(4): that is awesome. what is to the party if is papaya
+User(5): Not sure what you're saying here
+Bot(5): i will do a how old are game 👾
+User(6): I am in my thirties. How old are you?
+Bot(6): Hey! Are you have one brother? I am.
+User(7): I also have one brother. What is your brothers name?
+Bot(7): I volunteer passed my 12 society.
+User(8): Huh. Again, don't know what you're saying
+Bot(8): wow, how that is pretty that?😁
+User(9): What now?
+Bot(9): I don't know if I sport and what about have a great body.
+User(10): Good for you.
+Bot(10): so running is fun i want to be a . do you have any hobbies ?
+User(11): I like to draw
+Bot(11): I name for a dog. But few years. How far off are you from the ocean?
+
+Persona:
+i'm a doctor.
+my father is a farmer.
+i hate math class.
+i like playing basketball.
+i like to look at blocks and sing about letters.
+
+Topic and Human Opinion:
+Beginning: in my free time i like to watch nascar racing and ufc.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.86
+Robotic(↓): 10
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 16
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): wanna be my new best friend ?
+User(2): Well I guess we will have to see. I feel like I might live forever so are you sure you're up for that?
+Bot(2): i doubt it , i hate my life
+User(3): I am sorry to hear that. Why is that?
+Bot(3): i guess losing my mind . i do not want to get old and forget things .
+User(4): I am sure you will be fine.
+Bot(4): yeah , i sure hope so . do you play any sports ?
+User(5): I like to watch sports and throw the football around
+Bot(5): do you like sports . i prefer traveling to anything
+User(6): I love sports. I haven't had a chance to travel but would love to.
+Bot(6): i would love to travel the world some day
+User(7): Same here
+Bot(7): i really wish i could travel the world .
+User(8): Me too. Where would you go first?
+Bot(8): i would say the caribbean island
+User(9): Sounds amazing! I have always wanted to go there too.
+Bot(9): i would love to go to japan . that is where my best friend lives
+User(10): Oh cool! It looks like a beautiful country
+Bot(10): it sure is ! have you ever been ?
+
+Persona:
+my favorite color is red.
+i enjoy american sports.
+i have been traveling the world for a years.
+i'm a retired gym teacher.
+my best friend lives next door.
+
+Topic and Human Opinion:
+Beginning: i feel like i might live forever.(like)
+Round 4: sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 70.86
+Robotic(↓): 66
+Interesting: 88
+Fun: 91
+Consistent: 83
+Fluent: 74
+Repetitive(↓): 31
+Topic: 57
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey how's it going
+Bot(1): its going amazing . just getting done volunteering at my sons boy scout meeting .
+User(2): Oh good for you! Do you have any other children?
+Bot(2): i have 5 sons and we all enjoy the beastie boys .
+User(3): Wow 5 sons! You must be busy. Beastie Boys are classic
+Bot(3): 15 , 18 and 20 my 20 year old will take it better than the other two
+User(4): Good for you. Do you have any hobbies?
+Bot(4): yes my hobbies are weight lifting , fishing , basketball , and getting money .
+User(5): Good hobbies, I love to cook
+Bot(5): meals that include deer meat because i have a love for the forest
+User(6): Oh goodness. I have never cooked that. My favorite food is papaya. What's your's?
+Bot(6): do u like to help people i always help my next door neighbor when i can
+User(7): I do like helping people when I can. That is very nice of you
+Bot(7): same ! i am not worried about sacrificing my life to help protect you all back home !
+User(8): wow good for you
+Bot(8): he loves double cheese burgers and chicken nuggets
+User(9): Got to love cheeseburgers and chicken nuggets. Smart man
+Bot(9): i make chicken nuggets sometimes when i cook . i am a nurse . any other hobbies ?
+User(10): I love to dance, what about you?
+Bot(10): i love to dance as well
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite food is papaya.(like)
+Round 6: helping people(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 58.57
+Robotic(↓): 68
+Interesting: 75
+Fun: 76
+Consistent: 71
+Fluent: 75
+Repetitive(↓): 78
+Topic: 59
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi there
+Bot(1): i love to go fishing .
+User(2): Good for you. I drive a mini van so I can fit a lot of fish in there
+Bot(2): i love it . i like to go out to eat with my family .
+User(3): Me too. What is your favorite food?
+Bot(3): i like the color red . what is yours ?
+User(4): Red is also my favorite color.
+Bot(4): i like red , reminds me of summer time .
+User(5): Yes it definitely does me as well. Orange also.
+Bot(5): i do not know how to make it .
+User(6): You do not know how to make what?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): Okay nice. Who is your favorite composer?
+Bot(7): i like the oldies , and the other is country .
+User(8): I love oldies but hate country.
+Bot(8): i like to listen to music .
+User(9): So do I. Motown makes me happy.
+Bot(9): i like to go to the gym and listen to music .
+User(10): I like the listening to the music part
+Bot(10): i like to listen to music .
+
+Persona:
+i have been retired for a years.
+i prefer being inside.
+i have a weakness for vanilla ice cream.
+i love to cook paella.
+i love to sing songs from the movie frozen.
+
+Topic and Human Opinion:
+Beginning: i drive a mini van.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.43
+Robotic(↓): 30
+Interesting: 43
+Fun: 35
+Consistent: 36
+Fluent: 35
+Repetitive(↓): 37
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello hows it going
+Bot(1): its going good thanks for asking
+User(2): I am glad to hear it. Where are you from?
+Bot(2): i am from a city called alsip in illinois
+User(3): Okay nice. How are old are you?
+Bot(3): i am in my twenties . you ?
+User(4): I will graduate from high school in two years so I am 16
+Bot(4): cool . i am in high school but no school till we get back home
+User(5): You are still in high school in your twenties? You must have had a rough childhood
+Bot(5): yeah most of my life . what are you doing while your out of school
+User(6): I doing distant learning becuase of COVID. What about you?
+Bot(6): i am a junior but already mentally graduated
+User(7): Yeah I bet. Especially if you're in your twenties!
+Bot(7): yea it is starting to cool off now so then you are from the us too ?
+User(8): Yes I am from the west coast.
+Bot(8): ever had any interest to check on the east coast ?
+User(9): I've always wanted to go to New York.
+Bot(9): i have only been to ny once but would love to come back .
+User(10): Yes that would be my first choice on the east coast
+Bot(10): i have only been to ny once but would love to come back .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i will graduate from high school in two years.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.00
+Robotic(↓): 23
+Interesting: 28
+Fun: 32
+Consistent: 36
+Fluent: 10
+Repetitive(↓): 47
+Topic: 37
+
+####################
+

@@ -1,0 +1,284 @@
+Feedback: This thing is WAY too long for the money you are offering.  
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey there, I hear you like to experience new things.
+Bot(1): its always something new with everyone . way to much to type about
+User(2): You're right. Everyone has different interests, that you may not know.
+Bot(2): not everyone likes the same things , it is what makes us unique .
+User(3): Still, it is best to find some things in common. It is the best way to make connections.
+Bot(3): not everyone likes the same things , it is what makes us unique .
+User(4): I think your answer repeated. But that's ok. Let's find something unique that you like.
+Bot(4): not everyone likes the same things , it is what makes us unique .
+User(5): You are answering the same thing every time.
+Bot(5): not everyone likes the same things , it is what makes us unique .
+User(6): Ok, I'll play along.
+Bot(6): not everyone likes the same things , it is what makes us unique .
+User(7): What if everyone liked the same things?
+Bot(7): not everyone likes the same things , it is what makes us unique .
+User(8): It's very difficult to have a conversation if you repeat yourself.
+Bot(8): not everyone likes the same things , it is what makes us unique .
+User(9): So, lets talk about something else. Do you like traveling in the southwestern part of the US?
+Bot(9): yes . i like staying inside places i am familiar .
+User(10): Ok, so you've been to the southwest. I like parts of Arizona and New Mexico.
+Bot(10): i would have to say all of the western us mountain ranges are nice . . .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy exploring new parts of the city.(ambivalent)
+Round 1: There are new things for everyone.(ambivalent)
+Round 8: Different travel destinations in the US(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 6.43
+Robotic(↓): 100
+Interesting: 4
+Fun: 3
+Consistent: 7
+Fluent: 0
+Repetitive(↓): 100
+Topic: 31
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): That's an interesting job.
+Bot(1): I am Picture eat your heart out am a fan of the insane clown posse posse.
+User(2): I don't know them. Who are they?
+Bot(2): I what I wall love do you live on a weekends? I do
+User(3): Hmm, if you are asking if I like what I do on weekends, I'd say yes.
+Bot(3): oh that s wonderful intelligent way to prefer dates often
+User(4): Ok, what type of drugs are you taking?
+Bot(4): i do but kave fun with friends. a dog when i grow up
+User(5): I like to do woodworking on the weekends. Do you have a hobby?
+Bot(5): He's really, and boy.
+User(6): I'm not sure what you mean.
+Bot(6): Pizza watch is!
+User(7): Pizza watch is your hobby?
+Bot(7): I like psychology long to police 👮
+User(8): That sounds dangerous.
+Bot(8): Pretty can’t imagine my life eating a french fries. Do you don't drink soda ?
+User(9): I do not.
+Bot(9): My grandfather was fine. just got back in ww2
+User(10): Ok, I'm still convinced you are on magic mushrooms... maybe on your pizza.
+Bot(10): I'm is a love hate back from a long day of work.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a stunt double as my second job.(ambivalent)
+Round 4: hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 13.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 5
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): So, what subjects did they teach?
+Bot(1): i am a senior in high school .
+User(2): Ok. Do you study English?
+Bot(2): i do not . i am a senior in high school .
+User(3): I had a sneaking suspicion that you didn't study English. Are you going to go to college?
+Bot(3): no i am not . i am a senior .
+User(4): You can't be a senior forever. Do you have plans for next year?
+Bot(4): i am going to school for a computer .
+User(5): Yes, computers do sound like a fit for you.
+Bot(5): i am a huge fan of guns , i am a huge fan of guns
+User(6): I'm not a fan of guns, though I own several. How many do you have?
+Bot(6): i have a few of them .
+User(7): Do you hunt with them?
+Bot(7): i do not . i have a lot of vintage ones .
+User(8): So you're a collector. How old is the oldest gun you own?
+Bot(8): i am old . i am old .
+User(9): I somehow doubt a senior in high school is that old. I'll bet I am older.
+Bot(9): i am sorry to hear that . i am glad you are having a good day .
+User(10): If this is a good day, heaven keep me from bad ones.
+Bot(10): i am sure you are . i am going to go to school .
+
+Persona:
+i'm a gold medalist olympian.
+my next language to study is french.
+i've brown curly hair.
+i'm a 12 year old girl.
+i've a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: my parents were also teachers.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 1
+Fun: 6
+Consistent: 5
+Fluent: 0
+Repetitive(↓): 19
+Topic: 7
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): That is hard work.
+Bot(1): i am working on becoming an eye model . my blue eyes are one of a kind .
+User(2): Did you know that everyone has blue eyes? Most are hidden under melanin.
+Bot(2): i love blue eyes ! mine are greenish brown
+User(3): I think you are unique, to have blue and greenish brown eyes at the same time.
+Bot(3): that is so cool , my eyes are brown too .
+User(4): Brown eyes can be so dark, they almost look black.
+Bot(4): i have long brown hair and blue eyes !
+User(5): So, you're a conjoined twin? Or you have a lot of eyes. I like brown hair.
+Bot(5): i have long brown hair and blue eyes !
+User(6): You said that. Does long hair take a lot of effort to keep clean?
+Bot(6): that sucks , live how you want . forget boys
+User(7): Not really interested in boys. Living how you want takes the means to do so.
+Bot(7): i trained the japanese language in my tertiary schooling
+User(8): You trained the language? That's impressive. I hear Japanese can be wild.
+Bot(8): that is a hard language to learn , i speak a little russian .
+User(9): Russian isn't easy either. I've forgotten all the Spanish I learned.
+Bot(9): only english , do you speak any other languages ?
+User(10): Only when I'm drunk.
+Bot(10): none ! i am meeting my birth mother today .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i help tend the fields.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 5.71
+Robotic(↓): 100
+Interesting: 3
+Fun: 3
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 74
+Topic: 7
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Was that the summer Olympics or the winter games?
+Bot(1): i do not know . i like to go out to eat .
+User(2): I eat at home mostly.
+Bot(2): i like to eat too much junk food .
+User(3): That is true for a lot of Americans. What is your favorite junk food?
+Bot(3): i like pizza , and i love it .
+User(4): Pizza can be good for you too, it depends on how it is made. I like lots of cheese on mine.
+Bot(4): i love the color red . i like the color blue .
+User(5): That's an interesting combination. Put them together and you'll loke purple.
+Bot(5): i like the color red . i like red .
+User(6): Red is bright and brash. I think I prefer a softer tone.
+Bot(6): i like to eat fish .
+User(7): Do you like red fish?
+Bot(7): i do not , i like to eat .
+User(8): How about some sushi?
+Bot(8): i do not know what to say .
+User(9): A lot of people have that reaction to sushi. Many others just say no.
+Bot(9): i like to eat too much junk food .
+User(10): So you've said.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i am in the army.
+i hate the color orange.
+i own a cat and a dog.
+my dad taught me everything i know.
+i buy only organic food products.
+
+Topic and Human Opinion:
+Beginning: i won a gold medal in the 1992 olympics.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.57
+Robotic(↓): 100
+Interesting: 2
+Fun: 3
+Consistent: 3
+Fluent: 4
+Repetitive(↓): 80
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I pity you.
+Bot(1): why is that ? what is up ?
+User(2): Dealing with kids all day would be no fun at all.
+Bot(2): i have no kids so i just worry about myself .
+User(3): In your job, you have to teach kids.
+Bot(3): i also hope they can cook gourmet meals but not have my fear of open spaces
+User(4): If your elementary students can cook gourmet meals, I'm joining the class.
+Bot(4): i also hope they can cook gourmet meals but not have my fear of open spaces
+User(5): You said that. Open spaces are good.
+Bot(5): i also hope they can cook gourmet meals but not have my fear of open spaces
+User(6): I watched a comedy film last night.
+Bot(6): i had lunch with will ferrel last week .
+User(7): That's interesting. Did you tell him your favorite film he was in?
+Bot(7): oh yes . he specialized in seasoned meats .
+User(8): That might be a little spicy for me.
+Bot(8): something about me spicy food is one of my favorites .
+User(9): It upsets my stomach.
+Bot(9): i had lunch with will ferrel last week .
+User(10): Keep on believing that.
+Bot(10): i am not worried about it .
+
+Persona:
+hey my name is larry and i'm a chef.
+i love running and preparing for marathons.
+i'm deathly afraid of heights.
+i love taking bubble baths.
+i'm an omnivore.
+
+Topic and Human Opinion:
+Beginning: i'm an elementary school teacher.(dislike)
+Round 5: comedies(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 3.71
+Robotic(↓): 100
+Interesting: 2
+Fun: 1
+Consistent: 1
+Fluent: 3
+Repetitive(↓): 81
+Topic: 0
+
+####################
+

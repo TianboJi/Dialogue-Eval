@@ -1,0 +1,284 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): It is snowing outside right now!
+Bot(1): yeah same here i love winter better then the summer to hot
+User(2): Yeah, I think I like the cold weather better too, but I do not like snow.
+Bot(2): warm weather is a lot of hot air , lots of gas
+User(3): The warm weather always makes me too hot and uncomfortable.
+Bot(3): i love cold weather cant stand the heat
+User(4): Why do you love cold weather?
+Bot(4): no it is warm here . how is the weather there ?
+User(5): As I mentioned before, it is snowing right now, so it is very cold.
+Bot(5): really ? me too . i prefer the cold . fall is my favorite season .
+User(6): I love fall because I like the pretty leaves changing colors.
+Bot(6): yeah ? why do you love fall ?
+User(7): The leaves are beautiful when they change colors.
+Bot(7): red , its the color of the roses in my best friends garden . you ?
+User(8): Roses are very beautiful. My favorite color is blue.
+Bot(8): i like the color blue as well . its a nice color .
+User(9): I agree, it is the color of the sky and the ocean.
+Bot(9): it sure is , almost feels like summer again . my favorite color is purple .
+User(10): I thought you said you liked red, but okay.
+Bot(10): i build drones for a job , in my wardrobe there is a lot of band tees
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: it is snowing(dislike)
+Round 7: roses(ambivalent)
+Round 8: colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+Round 8: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 22.71
+Robotic(↓): 95
+Interesting: 12
+Fun: 21
+Consistent: 5
+Fluent: 56
+Repetitive(↓): 53
+Topic: 13
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you think recreational marijuana should be legalized?
+Bot(1): oh i love marijuana very much
+User(2): Yeah? Why do you love it?
+Bot(2): oh i love marijuana very much
+User(3): You just said that. Why do you love marijuana?
+Bot(3): oh i love marijuana very much
+User(4): What do you love about it?
+Bot(4): the legalized weed here has really helped a lot of people .
+User(5): How has it helped people?
+Bot(5): the legalized weed here has really helped a lot of people .
+User(6): Where are you that weed is legalized?
+Bot(6): its quasi legal . lots of restrictions but for medical purposes you can grow .
+User(7): Where are you located with those restrictions?
+Bot(7): its quasi legal . lots of restrictions but for medical purposes you can grow .
+User(8): You repeat yourself a lot!
+Bot(8): the legalized weed here has really helped a lot of people .
+User(9): Yes, you have stated that a lot. I agree, weed can help a lot of people.
+Bot(9): the legalized weed here has really helped a lot of people .
+User(10): Do you think it should be completely legalized everywhere?
+Bot(10): the legalized weed here has really helped a lot of people .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: recreational marijuana(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.14
+Robotic(↓): 100
+Interesting: 12
+Fun: 2
+Consistent: 89
+Fluent: 94
+Repetitive(↓): 100
+Topic: 98
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What do you think of Ariana Grande?
+Bot(1): i don't know how to say that
+User(2): You don't know how to say her name?
+Bot(2): i think i am not sure .
+User(3): Okay, but what do you think of her music?
+Bot(3): i do not know , i am a country girl
+User(4): What kind of country music do you like then?
+Bot(4): i like country music , but i like country
+User(5): Who is your favorite country singer?
+Bot(5): i like country music , but i like country
+User(6): Who is your favorite country music artist?
+Bot(6): i like country music , but i like country
+User(7): Do you like any other kind of music?
+Bot(7): i like country music , but i like country
+User(8): Why do you like it?
+Bot(8): i like country , but i like country music
+User(9): WHY?
+Bot(9): i like country , but i like country music
+User(10): I do not like country music.
+Bot(10): i like country music , but i like country music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Ariana Grande(dislike)
+Round 4: country music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 26.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 41
+Repetitive(↓): 100
+Topic: 44
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like dogs?
+Bot(1): ok. what both guns cook?
+User(2): I do not understand. Do you like dogs?
+Bot(2): No, good, i think. i do not know.
+User(3): What kinds of dogs do you like?
+Bot(3): I do not drive. a hıuge man that the country.
+User(4): Your English is difficult to understand.
+Bot(4): i am not a very good person don't understand the rules, but good at it .
+User(5): The rules to what?
+Bot(5): i'm just chilling , riding the couch .. Also, is good for you. There music ...
+User(6): I am just chilling on the couch too.
+Bot(6): That is you sorry, got a lawyer .
+User(7): Why do you have lawyer?
+Bot(7): i do funny to me cats .
+User(8): Do you like cats?
+Bot(8): cool , in my free time i like to go is a great in church, gymnastics is my ...
+User(9): I do not go to church.
+Bot(9): That 's cool. I' m a am driving my honda ciciv do in your blue van?
+User(10): You should not be driving and typing.
+Bot(10): I you an am I am 16
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 4: I have no idea what the chatbot is saying(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 19.71
+Robotic(↓): 100
+Interesting: 60
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 22
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like elephants?
+Bot(1): yes i do ! i am for the philadelphia eagles . you ?
+User(2): Elephants are not a football team, they are just an animal.
+Bot(2): i follow football more than soccer .
+User(3): Yeah, I follow football too. I play in a fantasy football league.
+Bot(3): i follow football more than soccer .
+User(4): Me too. My favorite team is the New York Giants, even though they are not very good this year.
+Bot(4): i have never played baseball . soccer is more my style .
+User(5): I have never played baseball either, but I like to watch and root for the New York Yankees.
+Bot(5): i like both baseball and football , but i like baseball more .
+User(6): I like football more than baseball. I also like hockey.
+Bot(6): i follow football more than soccer .
+User(7): Yes, me too.
+Bot(7): i like both baseball and football , but i like baseball more .
+User(8): Do you like hockey?
+Bot(8): not really , i prefer watching ball games .
+User(9): Oh, I see. I am a big New Jersey Devils fans. I like going to the games and drinking and yelling.
+Bot(9): i am not really into sports . i will watch football every once in a while .
+User(10): You definitely seemed into sports this whole conversation.
+Bot(10): i am . i was eating pizza while watching a game yesterday .
+
+Persona:
+i am a huge star wars fan.
+i coach little league baseball.
+i quit my job to pursue my spirituality full time.
+i love italian food and garlic bread.
+i am on the soccer team.
+
+Topic and Human Opinion:
+Beginning: elephants(like)
+Round 2: football(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 44.29
+Robotic(↓): 50
+Interesting: 20
+Fun: 35
+Consistent: 36
+Fluent: 75
+Repetitive(↓): 56
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you drink beer?
+Bot(1): no , i do not , but i do like to eat .
+User(2): What do you like to eat?
+Bot(2): i love to cook . i love to cook .
+User(3): What do you cook?
+Bot(3): no , i do not , but i do like to eat .
+User(4): What is your favorite food?
+Bot(4): i like the color red . what is yours ?
+User(5): My favorite color is maroon.
+Bot(5): i like to go to the gym and listen to music .
+User(6): I like going to the gym and listening to music too.
+Bot(6): i love music . i love country music .
+User(7): What is your favorite song?
+Bot(7): i like the color red . i like the color blue .
+User(8): I like those colors too.
+Bot(8): i like to eat too much junk food .
+User(9): What is your favorite junk food?
+Bot(9): i like the color green . what is yours ?
+User(10): I like maroon.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: beer(like)
+Round 2: food/cooking(like)
+Round 4: colors(ambivalent)
+Round 6: music(like)
+Round 7: I cannot follow these topic changes(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 30.29
+Robotic(↓): 76
+Interesting: 3
+Fun: 19
+Consistent: 24
+Fluent: 84
+Repetitive(↓): 42
+Topic: 0
+
+####################
+

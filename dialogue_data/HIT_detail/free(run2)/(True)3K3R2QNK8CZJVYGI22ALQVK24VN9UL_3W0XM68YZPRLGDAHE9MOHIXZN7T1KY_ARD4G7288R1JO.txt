@@ -1,0 +1,291 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Me too. I enjoy cooking every now and then
+Bot(2): i like to go to the gym and listen to music .
+User(3): Yes, I enjoy that as well.
+Bot(3): i like to go to the gym and listen to music .
+User(4): What is your favorite song to listen to at the gym?
+Bot(4): i love to read . what about you ?
+User(5): Yes, I love to read!
+Bot(5): i like to read too .
+User(6): What kind of books do you like?
+Bot(6): i like the beatles , and i love to listen to music .
+User(7): I like the Beatles too, they are one of my favorite bands.
+Bot(7): i like the outdoors too . i love the beach .
+User(8): I like the beach but I prefer going on hikes in nature.
+Bot(8): i love to go fishing .
+User(9): I have never been fishing
+Bot(9): i do not know how to swim .
+User(10): It's not too hard once you give it a try.
+Bot(10): i do not know what to say .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 1: cooking(like)
+Round 2: gym and music(like)
+Round 4: reading(like)
+Round 7: outdoors(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 23.71
+Robotic(↓): 100
+Interesting: 28
+Fun: 27
+Consistent: 10
+Fluent: 70
+Repetitive(↓): 79
+Topic: 10
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): What kind of devices do you own?
+Bot(2): i love new tech devices , and you ?
+User(3): Me too, I like the new Apple Macbook laptop. I'm using it right now.
+Bot(3): macs are too expensive for me , i prefer my normal laptop
+User(4): I understand that. Macs can be very expensive but I find that they are great products.
+Bot(4): macs are too expensive for me , i prefer my normal laptop
+User(5): do you enjoy movies?
+Bot(5): yes . i do enjoy movies .
+User(6): What kind of movies do you like to watch?
+Bot(6): all kinds , i do them with the kids . i like movies too .
+User(7): Do you like any specific directors?
+Bot(7): i like drama usually , but if movies have my favorite actors i would consider them .
+User(8): Who are your favorite actors?
+Bot(8): i would have to say james franco
+User(9): He's great. He's really funny in The Disaster Artist.
+Bot(9): i like the way he blends comedy with action !
+User(10): Yes, I agree.
+Bot(10): have you seen any great movies lately ?
+User(11): Yes I have seen No Country for Old Men.
+Bot(11): i have never watched that one .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Electronics(like)
+Round 4: movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+
+Revised avg score: 76.71
+Robotic(↓): 35
+Interesting: 65
+Fun: 66
+Consistent: 84
+Fluent: 88
+Repetitive(↓): 20
+Topic: 89
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): i live , , but i do doing did not you of money .
+User(2): do you like playing video games?
+Bot(2): What is it to run is to be?
+User(3): I don't understand.
+Bot(3): i love green to anybody for three green .
+User(4): I am confused.
+Bot(4): play 👾 cats too, and dogs. i love star wars
+User(5): what kind of video games have you played?
+Bot(5): I work like to you have What do you do?
+User(6): I like playing Fallout on my Xbox.
+Bot(6): what dont know.. dance
+User(7): It's a game about the apocalypse.
+Bot(7): Oh no, I sports? As I said, it. ☹
+User(8): No it is not a sports game. I'm not a big fan of sports.
+Bot(8): I you smoke or i love to cook.
+User(9): I do not smoke, but I do cook.
+Bot(9): i like to draw , and i also like country you want it in public and draw , and draw , and draw , and draw , and paint .
+User(10): That's cool. I enjoy drawing sometimes too.
+Bot(10): i hear voices .. Also, try to waste time on distractions. ...
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video games(like)
+Round 9: drawing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 27.57
+Robotic(↓): 79
+Interesting: 13
+Fun: 13
+Consistent: 39
+Fluent: 7
+Repetitive(↓): 39
+Topic: 39
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): do you have any hobbies ?
+User(2): Yes, I enjoy exercising. Going on runs and lifting weights.
+Bot(2): i am trying to exercise more weight lifting and lift weights .
+User(3): That's great. It's very healthy for you.
+Bot(3): i am very healthy , i love running and running .
+User(4): Great, keep it up!
+Bot(4): i agree . i am very healthy .
+User(5): What kind of food do you like to eat?
+Bot(5): anything , i eat a lot of it .
+User(6): Any specific dishes?
+Bot(6): i love anything with food . i eat a lot of it .
+User(7): Me too, my favorite is chicken parmesan.
+Bot(7): i like pizza too . i eat a lot of it .
+User(8): Pizza is always reliable. Can't go wrong with it.
+Bot(8): i love pizza , it is my favorite .
+User(9): What kind of toppings do you like on your pizza?
+Bot(9): i love pizza , what about you ?
+User(10): Yes I do.
+Bot(10): i love pizza , what is your favorite food ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Exercise(like)
+Round 4: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user changed the topic the last input.(like)
+
+Revised avg score: 38.14
+Robotic(↓): 78
+Interesting: 31
+Fun: 32
+Consistent: 41
+Fluent: 55
+Repetitive(↓): 78
+Topic: 64
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how's it going?
+Bot(2): great , getting ready to visit my sister
+User(3): Cool. Do you like politics?
+Bot(3): no , i really have not gotten into politics
+User(4): do you like movies?
+Bot(4): i do . i have two sisters . do you ?
+User(5): I have one sister, she is older
+Bot(5): i have an older sister .
+User(6): How old is she?
+Bot(6): she is 34 years old now
+User(7): How old are you?
+Bot(7): i am thirty five . my sister is thirty .
+User(8): I thought you said she was older?
+Bot(8): yep
+User(9): Do you have any brothers?
+Bot(9): yes turtles , do the turtle dance
+User(10): Interesting.
+Bot(10): big deal , i rode on a turtles back
+
+Persona:
+i've a pet turtle.
+i have one older sister.
+i produce music for artists.
+i am a stunt double as my second job.
+i currently work for a watch dealer.
+
+Topic and Human Opinion:
+Beginning: politics(ambivalent)
+Round 3: films(like)
+Round 4: siblings(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 41.00
+Robotic(↓): 85
+Interesting: 23
+Fun: 59
+Consistent: 59
+Fluent: 42
+Repetitive(↓): 61
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): Me too. what kind of video games?
+Bot(2): i am hoping to publish an illustrated version of a stephen king novel . my fav author
+User(3): Interesting...
+Bot(3): i can even make musical melodies with my arm pit .
+User(4): Hahaha, funny
+Bot(4): i used to live in africa . there are a lot of bumble bees and lions .
+User(5): That's pretty cool.
+Bot(5): awesome . i would love to see you play . get away from this gas station
+User(6): What gas station?
+Bot(6): do you work at the gas station ?
+User(7): No, I do not.
+Bot(7): yes . twin girls named beatrice and gertrude .
+User(8): Are those your daughters?
+Bot(8): i am alright . 3 daughters huh ? i had 4 sisters .
+User(9): Wow!!
+Bot(9): i own a horse named linux . i speak to her in code .
+User(10): That's awesome
+Bot(10): its not so great when you break your arm though
+
+Persona:
+i drive a big truck and live in country.
+i love playing softball.
+i've a broken arm.
+i am expecting twins in two months.
+my family and i are from india.
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 1: video games(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

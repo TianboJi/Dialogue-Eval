@@ -1,0 +1,301 @@
+Feedback: Bots felt very robotic, repetitive. There was one bot I talked to that seemed to try to hold a conversation (responded to questions creatively, and stayed on topic). Interesting experience
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love the summer. What do you like to do during the summer?
+Bot(1): i like the summer too since that is when we play the most bingo .
+User(2): What do you win from playing bingo?
+Bot(2): a hearse , i will decorate it like the ecto 1 from ghostbusters for halloween .
+User(3): Wow, what a prize that is. Do you play bingo outside so you can enjoy the summer sun?
+Bot(3): i like the summer too since that is when we play the most bingo .
+User(4): What else do you like about the summer?
+Bot(4): summer dresses are not bad for date night dinners . what do you wear then ?
+User(5): I wear flowy pants. Haven't been into dresses as much. Do you wear sun glasses in the summer?
+Bot(5): summer dresses are not bad for date night dinners . what do you wear then ?
+User(6): I also wear swim suits during the summer. You?
+Bot(6): i wish i could swim in a giant dr . pepper filled swimming pool
+User(7): Root beer would be my preferred. But wouldn't that burn in places?
+Bot(7): beer gives me a headache . are you tall ? tall men are my favorite
+User(8): I'm pretty short. How tall are you?
+Bot(8): why do you want to be 6 foot tall ?
+User(9): I don't. I'm okay with my height. I wanted to be 5'5 at one point.
+Bot(9): is it ? try reading a murder mystery while jazz plays . mind blowing !
+User(10): Sounds like fun! Jazz is nice. Favorite song?
+Bot(10): wild horses . my mom was a nurse and she would listen to it after work .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Summer Activities(like)
+Round 7: Men(like)
+Round 9: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 10.71
+Robotic(↓): 100
+Interesting: 7
+Fun: 15
+Consistent: 15
+Fluent: 12
+Repetitive(↓): 100
+Topic: 26
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I had a delicious breakfast. What breakfast foods do you like?
+Bot(1): i love pizza , and i love it .
+User(2): Pizza for breakfast - hot or cold?
+Bot(2): i love the color red . i like the color blue .
+User(3): I like the color teal.
+Bot(3): i like the color red . i like red .
+User(4): Why do you like the color read? Teal is my favorite because it's calming.
+Bot(4): i like the color red . i like the color blue .
+User(5): Did you know if you mix red and blue you get purple?
+Bot(5): i do not really have a favorite . i like to go fishing .
+User(6): What kind of fish do you try to catch?
+Bot(6): i love to eat . i am a vegan .
+User(7): How can you be a vegan if you enjoy fishing?
+Bot(7): i do not know . i like to go to the gym .
+User(8): What kind of workouts do you try to do?
+Bot(8): i love to cook . i love to cook .
+User(9): I love cooking too. Especially with a wok.
+Bot(9): i like to eat fish .
+User(10): Do you cook fish too?
+Bot(10): no , i do not . i like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 2: Colors(like)
+Round 5: Fishing(ambivalent)
+Round 7: Gym(ambivalent)
+Round 8: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 9.14
+Robotic(↓): 100
+Interesting: 4
+Fun: 11
+Consistent: 15
+Fluent: 21
+Repetitive(↓): 94
+Topic: 7
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I have been scared of spiders since I was a kid. Do you like spiders?
+Bot(1): i'm then, I i'm retired.
+User(2): Ah, so you probably see lots of insects while sitting around retired. Any insect fears?
+Bot(2): i do not know what non alright , just .
+User(3): The fact they have so many legs is scary to me.
+Bot(3): married to the sea , otherwise like playing don't play guess: i have one ...
+User(4): Ah are there sea bugs that you're afraid of?
+Bot(4): I'm from California. famous twitch few from?
+User(5): Ah I love California. I was just there and went to Malibu.
+Bot(5): i if four.
+User(6): Excuse me? Malibu was great. It's very hot in California right now.
+Bot(6): hello, how are work in a I years old. what do you do?
+User(7): Currently work from home, how about you?
+Bot(7): "Municipal Junior High School bubble baths. i'm single year, I left home to live in the dorms at the junior high school.
+User(8): What a life you live... there are dorms at the high school?
+Bot(8): that sounds like a m good thanks, I work for a doctor
+User(9): And you work for a doctor? What a life you live! What's that like?
+Bot(9): The CanAm Spyder; it's a cross between I am deathly afraid ATV.
+User(10): What's the CanAm Spyder?
+Bot(10): i do , i walk a lot I am not. I am , but i do hike .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Bugs(dislike)
+Round 4: California(like)
+Round 6: Work(ambivalent)
+Round 9: Spiders(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 7
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I went stand up paddle boarding the other day. Have you done that before?
+Bot(1): no i have never done it . is it fun ?
+User(2): Yeah, but I was scared of falling of the board the entire time. So eventually I floated in a floatie. Have you done that before?
+Bot(2): no . have you ? height and being water are some of my greatest phobias .
+User(3): Ah, so maybe you won't enjoy water activities. But you can get sun while laying down on the beach. Do you enjoy the sun?
+Bot(3): i do , especially chocolate . do you have any future plans ?
+User(4): Chocolate and sun don't mix well. The chocolate will melt! I'm just trying to relax at this point in life. You?
+Bot(4): do you do a lot of cooking at home ? i do and it relaxes me .
+User(5): I do. I also do yoga. That's helped me a lot lately. Have you tried yoga?
+Bot(5): yes , it helps me focus on my studies . do you cook ?
+User(6): Nice, I can see that with the breathing. I do cook. What have you cooked lately?
+Bot(6): lasagna and bread . for dessert there is cheesecake . i love to cook .
+User(7): Wow, that sounds delicious! Where do you get your recipes?
+Bot(7): mainly italian recipes from my grandmother , she put wine in everything .
+User(8): That sounds delicious. Recipes from grandma's are the best. What kind of wine?
+Bot(8): mainly italian recipes from my grandmother , she put wine in everything .
+User(9): Do you enjoy drinking wine too?
+Bot(9): i do enjoy it . as a 43 year old woman i drink it all
+User(10): LOL, white or red wine?
+Bot(10): any which way . its all good as long as its served with a beer !
+
+Persona:
+i'm a 45 year old male.
+i've been trying all types of food everywhere i go.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i am also a graduate student.
+i love chocolate bars.
+
+Topic and Human Opinion:
+Beginning: Water activities(like)
+Round 4: Relaxing activities(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 56.43
+Robotic(↓): 24
+Interesting: 31
+Fun: 16
+Consistent: 20
+Fluent: 86
+Repetitive(↓): 7
+Topic: 73
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I need a new phone. What kind of phone do you have?
+Bot(1): mine in an android lg k
+User(2): What do you like about your phone?
+Bot(2): they are amazing ! i am really into the science of ergonomics . how are you today ?
+User(3): I'm doing okay. Just tired. How do you like to wake up?
+Bot(3): what kind of phone do you use ?
+User(4): I use an iPhone 6. It's old and cracked though. My camera doesn't work anymore.
+Bot(4): well , that sucks ! how did you break it ?
+User(5): I dropped it while trying to put it in my pocket. Was holding too many things. I'm thinking of getting the latest iPhone but it seems expensive.
+Bot(5): indeed very expensive . do you have any grants to help you out
+User(6): There are grants to help us buy phones? Did you do that?
+Bot(6): not really , but i need to find a way to fund a sky diving trip
+User(7): Ah, not sure if there are grants from that. You could fundraise?
+Bot(7): not really , but i need to find a way to fund a sky diving trip
+User(8): What were you thinking of doing?
+Bot(8): to make money . things are pretty tight right now .
+User(9): Any particular jobs?
+Bot(9): i want to be a musician . following a tight schedule to try to make it happen .
+User(10): Ah making money as a musician is tough. What instruments do you play?
+Bot(10): i play several instruments . what is your favorite music genre ?
+
+Persona:
+i'm currently in a juvenile detention center.
+they're constantly on my back.
+i love rollercoasters and sky diving.
+i'm a famous twitch streamer.
+i'm a musician.
+
+Topic and Human Opinion:
+Beginning: Phones(like)
+Round 2: Ergonomics(ambivalent)
+Round 3: Phones(like)
+Round 9: Jobs(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 24.14
+Robotic(↓): 65
+Interesting: 5
+Fun: 5
+Consistent: 7
+Fluent: 23
+Repetitive(↓): 68
+Topic: 62
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Have you ever owned a bunny?
+Bot(1): no , i am a country singer .
+User(2): Country singers can't own bunnies? What do country singers like as pets?
+Bot(2): i do not . i volunteer at a local soup kitchen .
+User(3): Wow a country singer who volunteers at a local soup kitchen. What else do you do?
+Bot(3): i like to volunteer at the soup kitchen
+User(4): How often do you volunteer?
+Bot(4): i volunteer at a soup kitchen .
+User(5): Which soup kitchen?
+Bot(5): i love to volunteer at the soup kitchen .
+User(6): That's nice. What kind of soup do they make?
+Bot(6): chicken soup , i love it . i volunteer at a soup kitchen .
+User(7): Nice, what do you like most about chicken soup?
+Bot(7): i love chicken and rice .
+User(8): Ah, do the people at the soup kitchen like rice in their chicken soup too?
+Bot(8): i do not know , i am a country singer .
+User(9): Do you sing for the folks at the soup kitchen?
+Bot(9): yes i do , i love chicken
+User(10): What about beef or pork?
+Bot(10): i do not cook , but i do volunteer at a soup kitchen
+
+Persona:
+i've light skin with big brown eyes.
+i volunteer at a soup kitchen.
+i am a country music singer.
+i was raised in a single parent household.
+i have a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+Round 3: Activities(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 4
+Fluent: 5
+Repetitive(↓): 100
+Topic: 26
+
+####################
+

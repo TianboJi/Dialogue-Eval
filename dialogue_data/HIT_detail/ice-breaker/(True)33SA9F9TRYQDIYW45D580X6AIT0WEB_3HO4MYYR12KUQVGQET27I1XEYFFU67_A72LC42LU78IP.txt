@@ -1,0 +1,292 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): what is the grade are you in?
+Bot(2): i'm in the 5th grade .
+User(3): I am in the third grade now
+Bot(3): oh , i am in english and french .
+User(4): which subject do you like most?
+Bot(4): i am fluent in english and french
+User(5): how long did you learn the english and french
+Bot(5): i am fluent in english and french
+User(6): do you like sport?
+Bot(6): i like to play with my kids and kids
+User(7): do you like play baseball?
+Bot(7): i like baseball and i am fluent in english and french
+User(8): Do you like watching sport TV
+Bot(8): i do not watch sports . i like to play with my kids .
+User(9): do you like football
+Bot(9): i do not really watch football
+User(10): do you play football with your kids
+Bot(10): i do not but i love to play football
+
+Persona:
+i'm fluent in english spanish and french.
+i do not drink soda.
+my mom passed away when i was young.
+i've amazing children and grandchildren.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: i'm in the third grade.(like)
+Round 5: sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 32.86
+Robotic(↓): 81
+Interesting: 31
+Fun: 39
+Consistent: 34
+Fluent: 62
+Repetitive(↓): 86
+Topic: 31
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): do yo like bakery
+Bot(2): i post all 4 crocodiles . i love to post pix of them on instagram
+User(3): do you know how to bake cake?
+Bot(3): do you bake the cake or buy the cake ?
+User(4): do you know there is bake sale in the country wide
+Bot(4): what do you like to bake
+User(5): I bake cake and bread
+Bot(5): do you bake the cake or buy the cake ?
+User(6): I like bake cake and share it in my home.
+Bot(6): yummy , i love cakes . the bar i work at sells cakes .
+User(7): is there any other food sold in your bar
+Bot(7): ah , i work the graveyard shift at a hotel . but i am saving up for college .
+User(8): what is your favorite food in your dinner?
+Bot(8): yum ! my favorite is chicken parm . whatever you do , not tacos !
+User(9): I like lime chicken, do you know how to cook it?
+Bot(9): ah , so it is still chicken nuggets . do you like mac and cheese with it ?
+User(10): I like the mac most
+Bot(10): mac and cheese is another family classic food . we all love pasta !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: the county wide bake sale is where i feel most at home.(like)
+Round 5: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 46.86
+Robotic(↓): 81
+Interesting: 45
+Fun: 60
+Consistent: 65
+Fluent: 58
+Repetitive(↓): 84
+Topic: 65
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , have you seen frozen ?
+User(2): how about the weather in your home?
+Bot(2): but it is raining yeah
+User(3): I live in california
+Bot(3): it is perfect weather here as well . i am going out to get some ice cream
+User(4): the recording artist market is gone
+Bot(4): how come ? it is a lot of unemployed people
+User(5): do you know why?
+Bot(5): police reports and the weather is cold
+User(6): do you like go shopping?
+Bot(6): i do not because i cannot stop shopping
+User(7): where do you usually go shopping for?
+Bot(7): anything that you like to buy
+User(8): do you like the discount in the shopping store?
+Bot(8): no . i prefer to have my ice cream in the largest quantities allowed
+User(9): where will you go to buy your ice cream?
+Bot(9): anything that you like to buy
+User(10): I like to go to target for shopping
+Bot(10): do you ever shop there ?
+
+Persona:
+i have a weakness for vanilla ice cream.
+my favorite movie is friday.
+i'm four years old.
+i've short hair.
+i volunteer at the homeless shelter.
+
+Topic and Human Opinion:
+Beginning: i live in california but the recording artist market was dead last year.(like)
+Round 5: go shopping(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 46.29
+Robotic(↓): 60
+Interesting: 37
+Fun: 38
+Consistent: 73
+Fluent: 63
+Repetitive(↓): 90
+Topic: 63
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I like to meet new people kind of company do do for fun?
+User(2): how old are you now?
+Bot(2): I am sure markete today I doing that
+User(3): what is your hoby?
+Bot(3): I like sports, a as mentioned hockey more.😄
+User(4): any other hoby?
+Bot(4): no, i think you are a you have any good, i don't know.
+User(5): I like football
+Bot(5): Yes, i fine, how about at home mom.
+User(6): do you play soccer in your home
+Bot(6): haha like call of and how come
+User(7): who do you usually play with?
+Bot(7): i'm a vegan too a tennis player. And try to guess: i turned 18 ...
+User(8): I like tennis more than football
+Bot(8): I'm well thank you. her about nice. I've for fun?
+User(9): do you do som handmaking?
+Bot(9): Where family and go?
+User(10): I like watch TV with my family
+Bot(10): I close do not what you? it is my favorite. I love to walk
+
+Persona:
+i got a new job just yesterday to be a life coach.
+i've never had a steady relationship.
+i'm now looking for a new job.
+i really like to travel.
+i hate the color pink.
+
+Topic and Human Opinion:
+Beginning: i used to be pretty but time hasn't been kind.(like)
+Round 2: hobbies(like)
+Round 9: family(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(dislike)
+Round 9: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 31.57
+Robotic(↓): 86
+Interesting: 34
+Fun: 37
+Consistent: 30
+Fluent: 74
+Repetitive(↓): 90
+Topic: 22
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): I go to school by bus
+Bot(2): i am a student , but i am a student .
+User(3): how about you?
+Bot(3): i am doing well . just got done walking my dog .
+User(4): How far way between your home to school
+Bot(4): i do not know what to say .
+User(5): do you like pets.
+Bot(5): i do , i love dogs . what is your favorite color ?
+User(6): I love dog too, but I have not yet.
+Bot(6): i like to go to the gym and listen to music .
+User(7): what is your dog's color?
+Bot(7): i like red , reminds me of summer time .
+User(8): I like classic music.
+Bot(8): i like to listen to music .
+User(9): what type of the music do you like?
+Bot(9): i like country music . i love country music .
+User(10): do you like pop music?
+Bot(10): i do , i like country music .
+
+Persona:
+i had to have a transplant.
+my age is too old to say.
+i have a hat collection of over 1000 hats.
+i love to drink wine and dance in the moonlight.
+its red with blue stripe so it shiny when i race.
+
+Topic and Human Opinion:
+Beginning: i ride the bus to school.(like)
+Round 4: pets(like)
+Round 7: listen music(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(dislike)
+Round 7: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 35.29
+Robotic(↓): 79
+Interesting: 40
+Fun: 32
+Consistent: 40
+Fluent: 68
+Repetitive(↓): 86
+Topic: 32
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): do you listen music?
+Bot(2): yes
+User(3): I listen to rap music , how about you?
+Bot(3): anything but rap , what is your music preference ?
+User(4): I like classic one
+Bot(4): i love classic , whats your favorite ?
+User(5): I like piano classic
+Bot(5): i love classic , whats your favorite ?
+User(6): do you like Beethoven's chapter?
+Bot(6): i do , but do not get a chance to listen to it much
+User(7): do you ever go to Symphony Orchestra to listen music?
+Bot(7): yes i go on occasions
+User(8): any conductor do you like?
+Bot(8): i like the symphony and choir music
+User(9): do you often go to church to join the choir band
+Bot(9): no , i go to church every sunday
+User(10): do you like rap music then
+Bot(10): i do , if it is rock or rap .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i listen to rap music.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.57
+Robotic(↓): 75
+Interesting: 57
+Fun: 43
+Consistent: 65
+Fluent: 60
+Repetitive(↓): 75
+Topic: 37
+
+####################
+

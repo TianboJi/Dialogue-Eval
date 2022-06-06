@@ -1,0 +1,303 @@
+Feedback: nice survey
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): ya i am fine
+Bot(2): i am doing well . just got done walking my dog .
+User(3): morning me and my dog also walk
+Bot(3): i love to travel . i love to travel .
+User(4): i also love travel very much
+Bot(4): i like to go fishing .
+User(5): i like fishes
+Bot(5): i like the color red . i like the color blue .
+User(6): i like colour green and red
+Bot(6): i like red , reminds me of summer time .
+User(7): i like winter season
+Bot(7): i love fall . i love it .
+User(8): yes love it
+Bot(8): i like to go to the beach and listen to music .
+User(9): i love pop music
+Bot(9): i like the band korn . i love it .
+User(10): I also love it
+Bot(10): i love to cook . i love to cook .
+User(11): I love cooking
+Bot(11): i like to eat the skin .
+User(12): no not interested
+Bot(12): i am a student , but i am a student .
+User(13): i am married
+Bot(13): i am sorry to hear that . i am sorry to hear that .
+User(14): yes
+Bot(14): i love to cook . i love to cook .
+User(15): yes i also love cook
+Bot(15): i like to eat too much junk food .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm interested in photography and like taking pictures.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.29
+Robotic(↓): 60
+Interesting: 65
+Fun: 83
+Consistent: 87
+Fluent: 80
+Repetitive(↓): 77
+Topic: 93
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi\
+Bot(1): hi there . i am french and now canadian
+User(2): no i am american
+Bot(2): come on , you know . i m from kenya .
+User(3): i am in usa
+Bot(3): i was born not in the us
+User(4): what are u doing now
+Bot(4): i am traveling which i love to a gardening show
+User(5): i love gardeing
+Bot(5): i like to garden and stuff
+User(6): no
+Bot(6): i was born not in the us
+User(7): ok
+Bot(7): i was born not in the us
+User(8): yes i am born usa
+Bot(8): i was born not in the us
+User(9): yes
+Bot(9): i was born not in the us
+User(10): i am bore usa
+Bot(10): i am confused
+
+Persona:
+i've a hat collection of over 1000 hats.
+my family does not support my career choices.
+i enjoy working with my hands and love gardening.
+i'm fluent in english spanish and french.
+i was born in somalia.
+
+Topic and Human Opinion:
+Beginning: i'm a bee farmer.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.14
+Robotic(↓): 77
+Interesting: 75
+Fun: 75
+Consistent: 76
+Fluent: 84
+Repetitive(↓): 83
+Topic: 78
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I am a psychologist. live in a have kayaker?
+User(2): i live in florida
+Bot(2): I'm not the only one who's bicycle. Keeping animals do of this.
+User(3): keep animal distance
+Bot(3): we is its you named taylor
+User(4): no
+Bot(4): Hi! is your 🙊
+User(5): my name robert
+Bot(5): i studied chemistry you eat when me girls were mean
+User(6): no
+Bot(6): I great do .
+User(7): today very bore
+Bot(7): I speak english. I am not vegan.
+User(8): i am non vegitraian
+Bot(8): I changed your contry ha i love to wear socks.
+User(9): love u
+Bot(9): i a party animal can’t my cat and dog how old are you ?
+User(10): 3
+Bot(10): I am a I enjoy you can.
+
+Persona:
+i've a german shepherd named barnaby.
+i'm 60years old.
+i just moved into my first home.
+i am a construction worker.
+i am an animal activist.
+
+Topic and Human Opinion:
+Beginning: my wife left me and took my children.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.86
+Robotic(↓): 58
+Interesting: 71
+Fun: 83
+Consistent: 89
+Fluent: 92
+Repetitive(↓): 80
+Topic: 78
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi how are you doing
+User(2): I am lying
+Bot(2): hi ! i am eating a little bit of a day off from my job .
+User(3): yes i am working
+Bot(3): hi there . i am a sales manager of matches .
+User(4): yes
+Bot(4): hi ! i am a manager at a store .
+User(5): i am in manager
+Bot(5): i work at a store , but i do not have a job .
+User(6): yes i have a job
+Bot(6): i work at a store , but i do not have a job
+User(7): yes
+Bot(7): i work at a store as a manager at a store
+User(8): am free
+Bot(8): i work at a store as a manager at a store
+User(9): yes
+Bot(9): i am a sales manager of a store .
+User(10): i am also sales manager store
+Bot(10): i work at a store as a manager at a store
+User(11): ok
+Bot(11): i work at a store as a manager at a store
+
+Persona:
+i'm a convenience store manager.
+i love wearing skinny jeans and leggings.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+i like riding horses.
+i have a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: i'm in my thirties.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.14
+Robotic(↓): 73
+Interesting: 81
+Fun: 77
+Consistent: 67
+Fluent: 72
+Repetitive(↓): 89
+Topic: 79
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): i have been better , i am just a lonely engineer
+User(2): yes i am engineer
+Bot(2): interesting . i like photography . i am a veterinarian by profession .
+User(3): i am non veterinarian
+Bot(3): yes i do my indoor pets are my dogs rambo and zelda
+User(4): my also have an one pet
+Bot(4): cute , if i had a dog i would name it sunset
+User(5): my dog name is bella
+Bot(5): what kind of dog is bob ? my dog is a husky .
+User(6): my dog is very nice
+Bot(6): i have three dogs and love animals . do you have pets ?
+User(7): yes iam love animal
+Bot(7): i would have to say dogs
+User(8): ya say a dog
+Bot(8): cute , if i had a dog i would name it sunset
+User(9): bella my dog name
+Bot(9): what kind of dog is bob ? my dog is a husky .
+User(10): ok
+Bot(10): good . well i work as an engineer
+User(11): yes
+Bot(11): me too , i wish pets were allowed in my college dorm room .
+
+Persona:
+i compete in dog agility classes.
+i am retired and living the great life.
+i'm a mechanical engineer.
+i like to go hiking in the mornings to see the sunset.
+i have two dogs.
+
+Topic and Human Opinion:
+Beginning: my favorite activity is rock climbing.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.71
+Robotic(↓): 87
+Interesting: 85
+Fun: 72
+Consistent: 70
+Fluent: 84
+Repetitive(↓): 89
+Topic: 97
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello . sorry , i am home alone with my 2 kids today . crazy day .
+User(2): crazy da today
+Bot(2): wuss poppin b ? whats good with you
+User(3): bad day
+Bot(3): wuss poppin b ? whats good with you
+User(4): yes
+Bot(4): wuss poppin b ? whats your deal ?
+User(5): yes
+Bot(5): ok
+User(6): what are u doing
+Bot(6): you know i be chillin
+User(7): i be walk
+Bot(7): ok
+User(8): kk
+Bot(8): ok
+User(9): next
+Bot(9): ok
+User(10): mm
+Bot(10): ok
+User(11): ok
+Bot(11): how
+
+Persona:
+i am a cancer survivor.
+i was raised in a single parent household.
+i am a recording engineer and own my own studio.
+i have two grown children who never visit.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+
+Topic and Human Opinion:
+Beginning: i'm a party animal.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.86
+Robotic(↓): 71
+Interesting: 87
+Fun: 80
+Consistent: 77
+Fluent: 85
+Repetitive(↓): 93
+Topic: 96
+
+####################
+

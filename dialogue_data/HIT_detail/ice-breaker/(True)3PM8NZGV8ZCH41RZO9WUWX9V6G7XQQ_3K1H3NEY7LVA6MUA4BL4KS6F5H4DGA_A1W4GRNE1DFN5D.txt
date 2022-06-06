@@ -1,0 +1,290 @@
+Feedback: Very fun task!
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey ! or hello rather . hay is for horses
+User(2): Funny. I teach little league baseball.
+Bot(2): that is cool . i work on computers
+User(3): do you watch baseball?
+Bot(3): not usually . i mainly work from home though .
+User(4): do you do anything outside of work?
+Bot(4): well i do ride horses
+User(5): interesting
+Bot(5): i have been on the same assembly line for 15 years .
+User(6): I thought you said you worked from home
+Bot(6): i have been on the same assembly line for 15 years .
+User(7): do you not work from home?
+Bot(7): yes i do . my whole family works in it
+User(8): So you have an assembly line in your house?
+Bot(8): yes i do . my whole family works in it
+User(9): and is it for computers?
+Bot(9): i have been on the same assembly line for 15 years .
+User(10): that is not helpful
+Bot(10): i have been on the same assembly line for 15 years .
+
+Persona:
+i work in it and have been at the same company for 15 years.
+i met taylor swift.
+my brother is older than me.
+i've a hat collection of over 1000 hats.
+i like to ride horses.
+
+Topic and Human Opinion:
+Beginning: i coach little league baseball.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.29
+Robotic(↓): 78
+Interesting: 29
+Fun: 30
+Consistent: 30
+Fluent: 50
+Repetitive(↓): 100
+Topic: 30
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hi there , how are you ?
+User(2): I'm good, how are you?
+Bot(2): i'm doing well . how are you ?
+User(3): My mother is traditional
+Bot(3): i am good . i am a farmer .
+User(4): I am free spirited
+Bot(4): i am a farmer , i am a farmer
+User(5): what are you like?
+Bot(5): i like to watch sports
+User(6): I meant your personality
+Bot(6): i am a country and i love country music
+User(7): Okay, cool. Sounds like my mom.
+Bot(7): i am a country and i love country
+User(8): What do you think of free-spirited people?
+Bot(8): i do not know , i am a country and i am in the army
+User(9): So do you identify as traditional?
+Bot(9): i like to watch sports
+User(10): that doesn't help me
+Bot(10): i am a country and i love country music
+
+Persona:
+i'm in the army.
+i spend most of my time on facebook when i am not working.
+i enjoy american sports.
+i live is a rural farming community.
+my name is george.
+
+Topic and Human Opinion:
+Beginning: my mother is very traditional while i prefer to be more free spirited.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.00
+Robotic(↓): 79
+Interesting: 23
+Fun: 23
+Consistent: 50
+Fluent: 24
+Repetitive(↓): 100
+Topic: 13
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello!
+Bot(1): i back from boy.
+User(2): what?
+Bot(2): you should odd sort of meat is a great time .
+User(3): you are making no sense
+Bot(3): Ah.. could you teach me i am a good man well,?. Do you make long term friends that way?
+User(4): Uhhhh. What do you do in your free time?
+Bot(4): I like of hobby killing draw.
+User(5): Oh I hope not!
+Bot(5): good finished my shift and needed to put my feet my connection is you .
+User(6): Where do you work?
+Bot(6): yes all then. i am dance
+User(7): When I am not working I like to spend time on Facebook
+Bot(7): That is great! I love teaching my short or hot you school.
+User(8): Do you have facebook?
+Bot(8): What . joke!!!
+User(9): What?
+Bot(9): What’s up? I you are here horror movies
+User(10): Ummm no
+Bot(10): A terrier terrier named , u r you cat person.
+
+Persona:
+i live with my husband in pennsylvania.
+i like to play with my dolls.
+its red with blue stripe so it shiny when i race.
+i am a 45 year old male.
+now i live in the united states.
+
+Topic and Human Opinion:
+Beginning: i spend most of my time on facebook when i am not working.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.43
+Robotic(↓): 100
+Interesting: 50
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 49
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , its raining here . i love the rain .
+User(2): That is nice! What gender are you?
+Bot(2): i am pan gender , as in i do not consider myself a male or female
+User(3): Interesting, I thought that had a different term.
+Bot(3): sometimes it is fun . we are having a work conference today .
+User(4): I am a male
+Bot(4): i am a female . what about you ?
+User(5): You said you were pan gender
+Bot(5): i am pan gender , as in i do not consider myself a male or female
+User(6): are you a female?
+Bot(6): i am a female . what about you ?
+User(7): I am male. You do not make a lot of sense
+Bot(7): i am female , what about you
+User(8): what do you do for work?
+Bot(8): that is good , i work as a skittles player
+User(9): Skittles?
+Bot(9): what do you like about baseball ?
+User(10): I don;t like baseball
+Bot(10): i am not much of a baseball fan
+
+Persona:
+my father is a farmer.
+i enjoy mowing my lawn on sunny days.
+my favorite shirts are band shirts and ruffle sleeves.
+i also like a glass of wine in the evenings.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: i am a male.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.86
+Robotic(↓): 50
+Interesting: 25
+Fun: 30
+Consistent: 0
+Fluent: 71
+Repetitive(↓): 70
+Topic: 17
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hello you 2 . did you ever watch the movie it ? so terrified of clowns !
+User(2): I did, it was pretty scary
+Bot(2): do you like scary movies ?
+User(3): only sometimes.
+Bot(3): i like helping other , supernatural and classic cars
+User(4): Supernatural is cool. Do you have any pets?
+Bot(4): i do not , i have a huge family .
+User(5): ME too! I have two dogs that live with me
+Bot(5): nice , how many do you have ?
+User(6): two
+Bot(6): how many do you have ?
+User(7): I already said two
+Bot(7): that equals two my friend
+User(8): do you have any dogs?
+Bot(8): i have a couple
+User(9): you said you didn't have any pets
+Bot(9): i have a lot of them haha
+User(10): goodbye
+Bot(10): ok bye
+
+Persona:
+horror movies are my favorites.
+whats up i'm a 46 year old single dad 46 a kids.
+i like to spend my money on cars.
+i've zero family that i am close to.
+i'm terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: two dogs live with me.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.14
+Robotic(↓): 36
+Interesting: 79
+Fun: 79
+Consistent: 63
+Fluent: 73
+Repetitive(↓): 72
+Topic: 70
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): I don't like to cook
+Bot(2): i like to eat too much junk food .
+User(3): Me too. Do you have any siblings?
+Bot(3): no , i do not , but i do like to go out to eat .
+User(4): What is your favorite food?
+Bot(4): i like the color red . what is yours ?
+User(5): My favorite color is orange
+Bot(5): i like blue , i like red , reminds me of summer time .
+User(6): Do you like purple
+Bot(6): i like blue , i like it .
+User(7): what about red?
+Bot(7): i like blue , i like the color red .
+User(8): do you like cooking?
+Bot(8): i do , i love to cook .
+User(9): very nice.
+Bot(9): i like to go to the gym and listen to music .
+User(10): that sounds fun, me too.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've one brother.(like)
+Round 3: Cooking(like)
+Round 4: colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 36.14
+Robotic(↓): 72
+Interesting: 73
+Fun: 73
+Consistent: 28
+Fluent: 25
+Repetitive(↓): 74
+Topic: 0
+
+####################
+

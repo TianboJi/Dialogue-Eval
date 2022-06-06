@@ -1,0 +1,275 @@
+Feedback: The survey is interesting
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): i am doing good . i just went shopping
+User(3): oooh that's wonderful, I am watching TV
+Bot(3): i am watching television too
+User(4): perfect, we have a lot in common
+Bot(4): that is awesome but my family and i are not close
+User(5): sorry to hear that. Do you like sports
+Bot(5): not really , but going out with my daughter shopping is what i know
+User(6): oh well I love sports
+Bot(6): i like sports an my family has tickets
+User(7): That's nice to hear, I am actually a gold medalist Olympian
+Bot(7): you are an olympian ? way cool
+User(8): yeah! I am a swimmer
+Bot(8): wow that is amazing ! i wish i could do that myself , could help my diet
+User(9): well never too late to start. I started when i was a little older
+Bot(9): i wanna be a lawyer but i work at a bar
+User(10): go ahead and achieve your dream
+Bot(10): i wanna be a lawyer but i work at a bar
+
+Persona:
+i like shopping.
+my parents are very wealthy bankers.
+i've zero family that i am close to.
+i diet a lot.
+i work at a bar at night to pay for college.
+
+Topic and Human Opinion:
+Beginning: i'm a gold medalist olympian.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 80.86
+Robotic(↓): 67
+Interesting: 89
+Fun: 92
+Consistent: 92
+Fluent: 100
+Repetitive(↓): 12
+Topic: 72
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): what do you do good. i don’t like work for a company.
+User(2): I work at an outo garage
+Bot(2): I like the color green, do like really can't is to concerts?
+User(3): ooh that's great
+Bot(3): i so you camping
+User(4): you saw me camping?
+Bot(4): entertain yourself with some got ! favorite artist is Travis listen to ?
+User(5): oooh well, I am a mechanic
+Bot(5): I must whiskey😄
+User(6): yeah! well my dad drove a car for nascar
+Bot(6): I am doing well. you seen a series at the insurance industry.
+User(7): no i have not
+Bot(7): blue are am expecting is yours
+User(8): sorry i dont understand you
+Bot(8): I mouse videogame. Cali.
+User(9): you mouse what?
+Bot(9): I you like to estate agent
+User(10): sorry, I didnt get that
+Bot(10): I'm good to visit our how about you?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my father drove a car for nascar.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 4
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes I do do you
+Bot(2): i do not do you
+User(3): well I love cycling
+Bot(3): i do like to ride my bike
+User(4): well that makes the two of us
+Bot(4): that is cool i love to ride my bike
+User(5): i have this cool mountain bike, and its electric
+Bot(5): i like to ride my bike
+User(6): me too
+Bot(6): i like to ride my bike
+User(7): i hate school though
+Bot(7): i am sorry to hear that
+User(8): well nothing to be sorry about
+Bot(8): i know what you mean
+User(9): really
+Bot(9): i know what you mean
+User(10): well thats cool
+Bot(10): i am sure you are very smart
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i hate school.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.29
+Robotic(↓): 100
+Interesting: 43
+Fun: 61
+Consistent: 29
+Fluent: 100
+Repetitive(↓): 100
+Topic: 63
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): im great too
+Bot(2): i love to cook . i love to cook .
+User(3): well im glad, i love food
+Bot(3): i like to eat fish .
+User(4): I love veggies
+Bot(4): i like to eat fish .
+User(5): thats good for you
+Bot(5): i am a student , but i am a student .
+User(6): well im a sailor and i own a yatch and i rent it out when im not using it
+Bot(6): i like to go to the gym and listen to music .
+User(7): im glad to hear that
+Bot(7): i am a student , but i do not have to work .
+User(8): well I hope youll get work soon
+Bot(8): i do not know what to say .
+User(9): well we can look for a different topic
+Bot(9): i like to go to the gym and listen to music .
+User(10): me too
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i own a yacht and i rent it out when i'm not using it.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.00
+Robotic(↓): 94
+Interesting: 71
+Fun: 67
+Consistent: 76
+Fluent: 90
+Repetitive(↓): 100
+Topic: 33
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi ! my name is tao and i live in canada !
+User(2): ooh thats great, my name is Mary
+Bot(2): i am sorry , i did not get your name . i am mary
+User(3): well do you have hobbies
+Bot(3): yeah , i like playing video games lol and you ?
+User(4): I love outdoor games
+Bot(4): cool cool , women from canada are very attractive for some reason
+User(5): oooh whats one of the reasons
+Bot(5): i love women , especially canadian no clue why lol
+User(6): well im glad you do
+Bot(6): you ever heard of the song my girlfriend in canada
+User(7): yes I have
+Bot(7): you ever heard of the song my girlfriend in canada
+User(8): I just moved into my first home
+Bot(8): i am on my way to canada
+User(9): oooh thats good for you
+Bot(9): yeah , especially when i went to canada
+User(10): You must love Canada alot
+Bot(10): yeah , especially when i went to canada
+
+Persona:
+i am a woman.
+my favorite hobbies are listening to music and playing video games.
+i live in canada.
+i'll be released in about a month.
+i am a cancer survivor.
+
+Topic and Human Opinion:
+Beginning: i just moved into my first home.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.43
+Robotic(↓): 84
+Interesting: 68
+Fun: 86
+Consistent: 43
+Fluent: 100
+Repetitive(↓): 94
+Topic: 6
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): i am good . just devoured a pizza . you ?
+User(3): ooh great, I am about to eat
+Bot(3): cakes , muffins , cookies , cupcakes ! sugar cookies are my favorite !
+User(4): well veggies are my favourite
+Bot(4): veggies are good for you . you should try eat more of them . what do you eat ?
+User(5): I do eat lots of them, especially when my mum cooks
+Bot(5): my pies are actually quite well known , you may have seen a recipe or photo .
+User(6): yes I have
+Bot(6): have you ever almost died ? i nearly did from urinary cancer when i was 18 .
+User(7): you know i was raised in a single parent household
+Bot(7): i have 2 baby boys . but i am the middle odf my brither 27 and sister 16
+User(8): oooh wow, thats great
+Bot(8): geddy lee ! i like rush too , makes me hungry to listen to it .
+User(9): do you have both your parents
+Bot(9): they live in the same town as i teach middle school in , chicago .
+User(10): oooh nice
+Bot(10): i am only 19 so i am still in collage . i plan to play baseball professional . how about you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i was raised in a single parent household.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.43
+Robotic(↓): 92
+Interesting: 70
+Fun: 76
+Consistent: 57
+Fluent: 100
+Repetitive(↓): 8
+Topic: 6
+
+####################
+

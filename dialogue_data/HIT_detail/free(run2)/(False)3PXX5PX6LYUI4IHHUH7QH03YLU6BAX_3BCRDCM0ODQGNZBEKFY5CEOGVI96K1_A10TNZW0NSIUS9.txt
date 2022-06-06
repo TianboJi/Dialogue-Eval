@@ -1,0 +1,301 @@
+Feedback: interesting
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes i ahvbe
+Bot(2): i am sorry to hear that
+User(3): i have a hobby
+Bot(3): i like to read and write
+User(4): i want to discuss about economy
+Bot(4): i like to build things
+User(5): i want to talk about world
+Bot(5): i want to go to the world
+User(6): now economy going down
+Bot(6): i want to go to the world
+User(7): but i also want to change
+Bot(7): i want to be a pilot
+User(8): its great to hear
+Bot(8): i hope so too
+User(9): you like flying
+Bot(9): yes i love it so much
+User(10): but little afraid too
+Bot(10): i think so too i guess
+User(11): yes you are right
+Bot(11): i am so sorry to hear that
+User(12): ok bye
+Bot(12): i hope so too
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: economy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.00
+Robotic(↓): 56
+Interesting: 79
+Fun: 62
+Consistent: 62
+Fluent: 56
+Repetitive(↓): 57
+Topic: 60
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , i am annie from spain .
+User(2): how are you
+Bot(2): i am well thank you . i miss my country life in spain .
+User(3): i like trees
+Bot(3): you like trees ? what do you do for fun ?
+User(4): yes.i like trees and flowers
+Bot(4): i have been to spain its beautiful
+User(5): its nice to hear from you
+Bot(5): i have been to spain its beautiful
+User(6): what abouy you
+Bot(6): i have been to spain its beautiful
+User(7): do you like trees
+Bot(7): yes i love them
+User(8): yes everybody llove
+Bot(8): i have been to spain its beautiful
+User(9): wow nice to hear beautiful spain
+Bot(9): yes it is very nice
+User(10): ok bye
+Bot(10): okay . bye for now then
+
+Persona:
+i have zero family that i'm close to.
+i have visited spain a times.
+my wife and kids are the best.
+i have zero family that i'm close to.
+i am 40 years old.
+
+Topic and Human Opinion:
+Beginning: trees(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.29
+Robotic(↓): 64
+Interesting: 73
+Fun: 64
+Consistent: 54
+Fluent: 75
+Repetitive(↓): 72
+Topic: 85
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi how are you
+Bot(1): i'm doing well . how are you ?
+User(2): am fine.what about you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): nice to hear from you
+Bot(3): what do you do for a living ?
+User(4): do you lioke shopping
+Bot(4): i do . i like to go to the gym .
+User(5): i like shopping
+Bot(5): i like to go to the gym and listen to music .
+User(6): gym and music
+Bot(6): i like to go to the lake and listen to music .
+User(7): its great to hear music
+Bot(7): i love it . i love it .
+User(8): i also like to hear music
+Bot(8): i like to listen to music .
+User(9): do you love dance
+Bot(9): i do , i love to go fishing .
+User(10): ok.i like fishing
+Bot(10): i like to go fishing .
+User(11): ery good hobby
+Bot(11): i like to go to the gym and listen to music .
+User(12): enjoy the day bye
+Bot(12): i love to cook . i love to cook .
+
+Persona:
+i dance on the weekends.
+i have a dogs.
+coffee is my preferred beverage.
+knitting is my passion.
+i've a broken arm.
+
+Topic and Human Opinion:
+Beginning: shopping(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.71
+Robotic(↓): 73
+Interesting: 69
+Fun: 61
+Consistent: 64
+Fluent: 65
+Repetitive(↓): 62
+Topic: 94
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi how are you
+Bot(1): where dogs live with me. am from east asia
+User(2): i from america
+Bot(2): Okay, "A", scared of like job.
+User(3): i dont scared
+Bot(3): I am this the freak?? Dumb am a musician.
+User(4): i like to talk about fitness
+Bot(4): Do you you jus job?
+User(5): do ypu like fitness gym
+Bot(5): I dont understand you I a classic ford mustang
+User(6): you go gynm
+Bot(6): us also like to you :)
+User(7): yes i loike fitness
+Bot(7): Hmm,, Are you i am a like to joke that much. I like to collect gossip.
+User(8): gossip.nice and good fun
+Bot(8): french i’m doing my favorite
+User(9): ok good.
+Bot(9): I'M are female.
+User(10): am female
+Bot(10): I do, owe two cats and like to bake.
+User(11): realyy its great to hear
+Bot(11): I am doing good thanks uu, dancing what you you?
+User(12): am resting
+Bot(12): I studied at school is writing your messages do you go?
+User(13): yes i like school time
+Bot(13): just got done enjoy nhl i like mystery so tell me about you
+User(14): ok take czre bye
+Bot(14): no i to work! Don`t you am a very social person .
+
+Persona:
+i love to drink fancy tea.
+i turned 18 years old yesterday.
+the county wide bake sale is where i feel most at home.
+my dream car is a rolls royce ghost.
+i've visited spain a times.
+
+Topic and Human Opinion:
+Beginning: fitness(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.00
+Robotic(↓): 66
+Interesting: 63
+Fun: 65
+Consistent: 61
+Fluent: 73
+Repetitive(↓): 73
+Topic: 97
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi how are you
+Bot(1): i am doing great . just got back from yoga class . i teach at my local fitness center .
+User(2): nice to hear from you
+Bot(2): raised in northern california but not sure where i was born .
+User(3): i like fishing
+Bot(3): i have taken my daughter to the creek and catch little fish . what do you fish ?
+User(4): do u like fishing?
+Bot(4): do you ever catch anything
+User(5): i caught fishi catch fish many times
+Bot(5): on a boat ? you live on a boat ? i am an accountant also .
+User(6): no.i dont
+Bot(6): i m good . listening to rap music , currently drake who is my favorite .
+User(7): do u like music
+Bot(7): good , you ? what are you interest in ? i am obsessed with horse racing .
+User(8): horse racing.its great
+Bot(8): nice ! i like faster horses . i have a bike that i run on weekends
+User(9): i also have bike
+Bot(9): oh , right . you mentioned bikes earlier . i just sew . it keeps the voices at bay .
+User(10): ok bye
+Bot(10): lovely talking to you !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fishing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.00
+Robotic(↓): 83
+Interesting: 81
+Fun: 69
+Consistent: 56
+Fluent: 68
+Repetitive(↓): 67
+Topic: 89
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hihow are you
+Bot(1): i am great . just working from home . i love it ! how are you ?
+User(2): hope you are fine
+Bot(2): i am hanging in there i just got off work
+User(3): wat about ur health
+Bot(3): over all my health is excellent though
+User(4): vwry great to hear this from you
+Bot(4): what do u do fr living ? ?
+User(5): i like house keeping
+Bot(5): that is very healthy for u
+User(6): keeping clean the house is good
+Bot(6): yeah do you live in a house
+User(7): yes.i like stay in house
+Bot(7): that is very healthy for u
+User(8): yes its safetry too
+Bot(8): yea . i think so too
+User(9): i like keep houe claen
+Bot(9): so u really like it in the keys
+User(10): yes u r right
+Bot(10): what do u do fr living ? ?
+User(11): bye take care
+Bot(11): ok bye
+
+Persona:
+i drive a nissan pathfinder.
+i enjoy reading journals and guides related to psychology.
+i work from home.
+i now live in the city.
+i play a lot of call of duty.
+
+Topic and Human Opinion:
+Beginning: house keeping(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.86
+Robotic(↓): 71
+Interesting: 59
+Fun: 59
+Consistent: 58
+Fluent: 59
+Repetitive(↓): 61
+Topic: 60
+
+####################
+

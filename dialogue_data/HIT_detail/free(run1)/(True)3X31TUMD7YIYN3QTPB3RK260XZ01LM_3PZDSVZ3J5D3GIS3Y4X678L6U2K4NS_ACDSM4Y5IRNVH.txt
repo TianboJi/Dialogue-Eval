@@ -1,0 +1,325 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am great ! just finished pillaging a small village nearby
+User(2): That sounds problematic. I am not doing so well. I am trying to get unemployment benefits.
+Bot(2): i believe i am smart but i am not sure i can give up eggs and fish .
+User(3): What would giving up eggs and fish have to do with your intelligence?
+Bot(3): fish tacos are great . i enjoy fishing in my spare time . do you have a hobby ?
+User(4): I like cycling, reading and basketball. Do you like any of those things?
+Bot(4): that is great , i really like spending time with my dogs and helping out at local shelters .
+User(5): That sounds lovely. What type of dogs do you have?
+Bot(5): a great dane . he roams the house like he owns it , but we both know i do !
+User(6): Haha, I bet!
+Bot(6): cooking is one of my biggest hobbies . how about you ?
+User(7): Same here! I love to cook. What's your favorite dish to cook?
+Bot(7): i love cooking but i do not have anyone to cook for but myself
+User(8): I understand. Thank you for chatting!
+Bot(8): nice chatting with you also . have a great day !
+User(9): Oh wait, I forgot to mention my favorite dish: salmon!
+Bot(9): i am puerto rica and chinese , born in germany . languages are my thing .
+User(10): Under what circumstances were you born in Germany? Do you speak all three of those languages?
+Bot(10): i speak english and french and spanish fluently
+User(11): But not Chinese?
+Bot(11): interesting , do speak german as well ? can you speak any other languages ?
+User(12): I don't speak German. I can speak Spanish and Romanian. I have to run now! Thanks for chatting!
+Bot(12): i speak english and french and spanish fluently
+
+Persona:
+my favorite movie is mean girls.
+i used to be pretty but time has not been kind.
+i'm fluent in english spanish and french.
+i'm a baby delivery nurse.
+i love cooking but i also enjoy fishing.
+
+Topic and Human Opinion:
+Beginning: Unemployment benefits(ambivalent)
+Round 2: Its own intelligence(ambivalent)
+Round 3: Hobbies(like)
+Round 9: Languages and ethnicity(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 41.29
+Robotic(↓): 100
+Interesting: 82
+Fun: 83
+Consistent: 12
+Fluent: 37
+Repetitive(↓): 60
+Topic: 35
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there. What did you have for lunch today?
+Bot(1): I do ur kids i kids, do you?
+User(2): What?
+Bot(2): i told all do yes of all sorts of sports .
+User(3): You play sports? What sports do you play?
+Bot(3): I like you work or dance.
+User(4): I don't quite understand. Are those your hobbies?
+Bot(4): I in a boy my blue van.
+User(5): Could you repeat that in a different way?
+Bot(5): i work in publishing , really blue helmet is like pet why is it about to be busy ?
+User(6): Interesting. I am unemployed right now.
+Bot(6): I love classical medal should be classical music
+User(7): I don't know much about classical music.
+Bot(7): I that's nice. do of cancer
+User(8): What?
+Bot(8): hello. how rap are too today?
+User(9): I am doing OK. How are you?
+Bot(9): I don't short see. But would do this.
+User(10): I suppose so. Nice chatting with you! Goodbye!
+Bot(10): I am so sorry to hear that. you is my you do you like?
+
+Persona:
+my favorite type of music to sing is folk music.
+i play ping pong.
+i like riding horses.
+i've an allergy to water.
+i am 19 and i cannot wait to move out 19 my parents home.
+
+Topic and Human Opinion:
+Beginning: Lunch(like)
+Round 2: Sports(like)
+Round 4: Hobbies(ambivalent)
+Round 5: Work(ambivalent)
+Round 6: Classical music(ambivalent)
+Round 8: Introduction(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The user changed the topic the last input.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 13.86
+Robotic(↓): 100
+Interesting: 6
+Fun: 6
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 15
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. How are you feeling health-wise today?
+Bot(1): hi ! i am doing alright i am not very healthy , but otherwise i am good
+User(2): I see. Do you have any activities planned for today?
+Bot(2): nothing major planned for tonight , although a good room would be great
+User(3): A good room?
+Bot(3): nothing major planned for tonight , although a good room would be great
+User(4): Well I plan to spend my evening watching TV.
+Bot(4): nothing major planned for tonight , although a good room would be great
+User(5): Do you like watching TV?
+Bot(5): i do ! much better than sitting in front of the tv all day
+User(6): Do you dislike TV?
+Bot(6): not really . i do not believe in watching television .
+User(7): What do you believe in?
+Bot(7): not really . i do not believe in watching television .
+User(8): Do you have political beliefs?
+Bot(8): i am not vocally political . i have strong views though .
+User(9): I understand. I have strong views too, but I am rather vocal.
+Bot(9): what are you actively supporting or opposing ?
+User(10): I support labor rights, housing rights and rights to health. So right now I am supporting Democratic candidates here in the United States.
+Bot(10): i am not vocally political . i have strong views though .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Health(ambivalent)
+Round 2: Plans / activities(like)
+Round 4: TV(like)
+Round 7: Beliefs(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user changed the topic the last input.(like)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 7: The user changed the topic the last input.(like)
+
+Revised avg score: 38.57
+Robotic(↓): 100
+Interesting: 59
+Fun: 59
+Consistent: 20
+Fluent: 53
+Repetitive(↓): 76
+Topic: 55
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like to travel?
+Bot(1): i do , i love traveling . i have a lot of small family .
+User(2): I love traveling too. Where have you traveled recently?
+Bot(2): i have been to a few places . i have been there since i was a child .
+User(3): Where? I have not traveled in months because of the pandemic.
+Bot(3): i am in the states . i have been to a few states .
+User(4): Do you have a favorite state? Mine is Texas, but Minnesota is a close second.
+Bot(4): i have never been to a new place . i have never been there .
+User(5): You should try them some time!
+Bot(5): i would love to travel . i have a few beautiful children .
+User(6): How old are your children? I don't have children yet. I am young and still single.
+Bot(6): i am a mom of two children .
+User(7): Congratulations. I hope they make you proud.
+Bot(7): thank you . i have a few children .
+User(8): I know. How long have you been in the states?
+Bot(8): i have been in the states .
+User(9): I have lived here most of my life.
+Bot(9): i am sorry to hear that . i am in the states .
+User(10): Are you from somewhere else?
+Bot(10): i am from the united states .
+User(11): I see. Well thanks for chatting with me!
+Bot(11): i am from the united states .
+
+Persona:
+i am a cancer survivor.
+i was raised in a single parent household.
+i am a recording engineer and own my own studio.
+i have two grown children who never visit.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+Round 5: Children(ambivalent)
+Round 7: Living location(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 54.57
+Robotic(↓): 100
+Interesting: 93
+Fun: 93
+Consistent: 44
+Fluent: 56
+Repetitive(↓): 93
+Topic: 89
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you have a favorite board game? I just bought a few.
+Bot(1): no i like board games a lot .
+User(2): What are your favorites? I recently bought Alhambra and Pan Am.
+Bot(2): i have played spades and uno . both pretty fun .
+User(3): Uno was one of my favorites growing up! I used to play with friends during class in high school too.
+Bot(3): i have played spades and uno . both pretty fun .
+User(4): Do you have any other hobbies?
+Bot(4): i have played spades and uno . both pretty fun .
+User(5): I like cooking and bicycling.
+Bot(5): is bicycling a sport ? i love my hand pedal bike .
+User(6): I consider it a sport. That's very cool! I have seen those around town but never tried them.
+Bot(6): i have played spades and uno . both pretty fun .
+User(7): Have you seen any good movies lately?
+Bot(7): i have seen a few , but they are not really my thing . do you watch them ?
+User(8): Yes, I do, but I prefer TV shows.
+Bot(8): i like jeopardy myself and wheel of fortune .
+User(9): You like game shows! I like those too.
+Bot(9): yes i really like to watch them . do you like any shows ?
+User(10): Yes, I am finishing up The Americans right now and starting two new shows soon.
+Bot(10): those are great . i watch them at times .
+User(11): That's great! Well it was nice chatting with you. Enjoy Jeopardy this afternoon!
+Bot(11): i like jeopardy myself and wheel of fortune .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Board games(like)
+Round 3: Hobbies(ambivalent)
+Round 6: Films(like)
+Round 8: TV(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 8: The user changed the topic the last input.(like)
+
+Revised avg score: 66.86
+Robotic(↓): 100
+Interesting: 97
+Fun: 97
+Consistent: 55
+Fluent: 77
+Repetitive(↓): 58
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi there. Thanksgiving is right around the corner!
+Bot(1): i love to travel . i love to travel .
+User(2): Have you traveled anywhere recently?
+Bot(2): no , i do not . i am a big fan of the walking dead .
+User(3): I have never seen it. Do you like any other TV shows?
+Bot(3): i do not really have a favorite . i like to play soccer .
+User(4): I used to play soccer when I was younger. What position do you play?
+Bot(4): i play soccer , but i like to play soccer .
+User(5): I used to play as a defenseman because I wasn't very good, haha!
+Bot(5): i love to eat .
+User(6): What are your favorite foods?
+Bot(6): i like pizza , and i love to eat .
+User(7): I love to eat also. My favorite foods are quesadillas and lobster rolls.
+Bot(7): i like to eat fish .
+User(8): Me too! Salmon is my favorite. What's yours?
+Bot(8): i like to eat fish .
+User(9): Do you like to go fishing for your fish?
+Bot(9): no , i do not , but i do like to go fishing .
+User(10): I see. I haven't been fishing in so long.
+Bot(10): i am a bit of a loner
+
+Persona:
+i am a skateboarder.
+i own two vintage mustangs.
+i have a boyfriend.
+i'm from a small town.
+i have one older sister.
+
+Topic and Human Opinion:
+Beginning: Thanksgiving(ambivalent)
+Round 1: Travel(like)
+Round 2: The Walking Dead / TV shows(ambivalent)
+Round 3: Hobbies(ambivalent)
+Round 6: Foods(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The user changed the topic the last input.(like)
+
+Revised avg score: 50.00
+Robotic(↓): 100
+Interesting: 94
+Fun: 94
+Consistent: 80
+Fluent: 5
+Repetitive(↓): 57
+Topic: 34
+
+####################
+

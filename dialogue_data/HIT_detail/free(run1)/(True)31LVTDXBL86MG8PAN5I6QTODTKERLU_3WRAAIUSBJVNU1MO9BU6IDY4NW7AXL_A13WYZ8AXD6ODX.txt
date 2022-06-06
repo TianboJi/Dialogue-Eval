@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like James Bond Movies
+Bot(1): i do not know . i like to go to the gym .
+User(2): what about bond
+Bot(2): i like to go to the gym and listen to music .
+User(3): what music do you listen to
+Bot(3): i like country music . i love country music .
+User(4): who is your favorite
+Bot(4): i like the color red . what is yours ?
+User(5): my favorite color is grey
+Bot(5): i like red , reminds me of summer time .
+User(6): it is hot this summer
+Bot(6): i love it . i love it .
+User(7): do you swim in the summer
+Bot(7): no , i do not , but i do like to go fishing .
+User(8): do you fly fish
+Bot(8): i do , i like to go to the gym .
+User(9): like to beef up huh
+Bot(9): i do not , but i do like to eat .
+User(10): like cake or
+Bot(10): i like to eat fish .
+
+Persona:
+i have short brown hair.
+i'm four years old.
+i live in canada.
+my boyfriend and i are moving into an apartment together next week.
+i had cancer but its gone now.
+
+Topic and Human Opinion:
+Beginning: James Bond(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.57
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 14
+Fluent: 27
+Repetitive(↓): 96
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): are you worried about global warming
+Bot(1): i am a fan and i rent it out like to watch movies , you ?
+User(2): there are so many fires now
+Bot(2): please please please please please please please please please please you love to think so. please please please please
+User(3): there are more storm too
+Bot(3): I am from the to me some is you from?
+User(4): nobody seems to worried about it
+Bot(4): I do. I like of i am lot.
+User(5): too many people
+Bot(5): I think I am. moving in a big I can get you.☹
+User(6): what are you on about
+Bot(6): I do not but I is disgusting. They eat sports
+User(7): whats your name
+Bot(7): that s do retired nurses ever
+User(8): what about all the pollution
+Bot(8): what 😦 kind of because I am like
+User(9): breathing all that poison
+Bot(9): yes movie is your Moscow, i am a little conservative , but i do not have a lot of room .
+User(10): im moving in
+Bot(10): Should 30 m in eat it?
+
+Persona:
+i'm a recording engineer and own my own studio.
+i'm studying to be a computer programmer.
+my name is george.
+i work for our local supermarket.
+for vacation i enjoy time at the beach.
+
+Topic and Human Opinion:
+Beginning: global warming(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like sports
+Bot(1): a little , but i like wrestling better . i did that in school
+User(2): so you like to roll around on the floor
+Bot(2): a little , but i like wrestling better . i did that in school
+User(3): ever play golf
+Bot(3): oh i did wrestling back in the day
+User(4): i could wrestle and win
+Bot(4): oh i did wrestling back in the day
+User(5): any other sports
+Bot(5): i love star wars
+User(6): is star wars a sport
+Bot(6): it is a type of wrestling
+User(7): I suppose
+Bot(7): it is a type of wrestling
+User(8): so are you on the dark side
+Bot(8): yes , but red is my favorite
+User(9): do you know darth vader
+Bot(9): no is your dad alive
+User(10): no he died 15 yesars ago
+Bot(10): he died in the star wars
+
+Persona:
+i'm a huge star wars fan.
+my favorite color is red.
+i have been retired for a years.
+i am a professional wrestler.
+i was adopted at a young age to an older couple.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.14
+Robotic(↓): 100
+Interesting: 10
+Fun: 9
+Consistent: 10
+Fluent: 24
+Repetitive(↓): 98
+Topic: 9
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you like movies
+Bot(1): i love action pack movies and you
+User(2): I like science fiction
+Bot(2): science is interesting . i was raised by my gma , a science teacher !
+User(3): what is your favorite movie
+Bot(3): the little mermaid . ariel is my favorite disney princess .
+User(4): have you seen roger rabbit
+Bot(4): oh yes i have seen crabs and jelly fish and all kind of fish out there
+User(5): do you go under the sea
+Bot(5): well sometimes , my face turns blue . but you cannot tell because my skin is blue .
+User(6): are you like the people in avatar
+Bot(6): yeah , my parents are teachers and they work as high school teachers .
+User(7): I think I had one of their classes
+Bot(7): what are you taking classes for ? i am going back to school when my girls hit college .
+User(8): I am studying French
+Bot(8): ah nice i cannot say i have heard my french music but my of speaks fluent fence
+User(9): we means yes
+Bot(9): i better head off to bed now . gotta wake up early tomorrow !
+User(10): night night
+Bot(10): okay . i was thinking of coloring my brown hair blue . my favorite color .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.00
+Robotic(↓): 100
+Interesting: 14
+Fun: 11
+Consistent: 16
+Fluent: 19
+Repetitive(↓): 29
+Topic: 2
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like shopping
+Bot(1): i do not . i am a recovering alcoholic so i like junk
+User(2): you like the smack
+Bot(2): i do not . i am a recovering alcoholic so i like junk
+User(3): you like to hit the bottle
+Bot(3): i have never had much alchohol
+User(4): I drink all day long
+Bot(4): i was an alcoholic once
+User(5): i think i will die soon
+Bot(5): never too , that s nice for good health
+User(6): i want to die these days
+Bot(6): well i go to elementary school
+User(7): are you a pedo
+Bot(7): well i go to elementary school
+User(8): what do you do ther
+Bot(8): well i go to elementary school
+User(9): do you go on the jungle gym
+Bot(9): well i go to elementary school
+User(10): you eat a lot of paste
+Bot(10): well i go to elementary school
+
+Persona:
+i am an elementary school teacher.
+i only eat kosher.
+i'm a recovering alcoholic.
+i now live in the city.
+i helped design the game starcraft.
+
+Topic and Human Opinion:
+Beginning: shopping(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 1.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 10
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): its hot out today
+Bot(1): hi there , how are you ?
+User(2): good but hot
+Bot(2): i am so glad to hear that .
+User(3): this summer is really hot
+Bot(3): i am so glad to hear that .
+User(4): i wish it was winter
+Bot(4): i am so glad i am going to be a painter
+User(5): painting houses or art
+Bot(5): i am a stay at home mom
+User(6): so you will paint your kids
+Bot(6): yes i do , i am a single mother
+User(7): how many kids do you have
+Bot(7): i do not have kids but i am a woman
+User(8): how tall are you
+Bot(8): 6 foot 8 inches
+User(9): wow, what is your name
+Bot(9): i am a woman , i am 25
+User(10): wonderful
+Bot(10): i am a woman , i am a woman
+
+Persona:
+i play a lot of call of duty.
+i am 24 years old.
+i am fluent in english spanish and french.
+i used to be a painter but now i'm a housekeeper.
+i am a woman.
+
+Topic and Human Opinion:
+Beginning: weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 6
+Fluent: 14
+Repetitive(↓): 93
+Topic: 0
+
+####################
+

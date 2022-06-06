@@ -1,0 +1,289 @@
+Feedback: good
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hai
+Bot(1): i am sorry to hear that
+User(2): i like food
+Bot(2): i love food i love mexican food
+User(3): i like juice
+Bot(3): i like to eat too but i love to eat
+User(4): i like fruit juice
+Bot(4): i love the smell of fruit
+User(5): i like apple
+Bot(5): i love the food i like fruit
+User(6): i love chocolate
+Bot(6): i love the smell of fruit
+User(7): i like chicken
+Bot(7): i love to eat too but i love to eat
+User(8): i like healthy fruit
+Bot(8): i love to eat too but i love to eat
+User(9): thank you
+Bot(9): i love to eat too but i love to eat
+User(10): chat with you later
+Bot(10): i am good thanks for asking
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.29
+Robotic(↓): 63
+Interesting: 69
+Fun: 62
+Consistent: 74
+Fluent: 65
+Repetitive(↓): 79
+Topic: 52
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hai
+Bot(1): hey
+User(2): i like my crush
+Bot(2): why do you have a crush
+User(3): i like my crush eyes
+Bot(3): why do you have a crush
+User(4): i like crush lips
+Bot(4): why do you have a crush
+User(5): i like crush character
+Bot(5): why do you have a crush
+User(6): i have more possasive in my crush
+Bot(6): why do you have a crush
+User(7): thank you
+Bot(7): why do you have a crush
+User(8): chat with you later
+Bot(8): just chat with me til then
+User(9): okay bye
+Bot(9): ok bye
+User(10): miss you
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: crush(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.43
+Robotic(↓): 74
+Interesting: 57
+Fun: 75
+Consistent: 71
+Fluent: 60
+Repetitive(↓): 63
+Topic: 69
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hai
+Bot(1): awesome ✨ there! how are hanging out here
+User(2): i like a baby
+Bot(2): I you ever a woman.
+User(3): i like babys activites
+Bot(3): I understand. I am ice cream now. that.
+User(4): i like cute babys
+Bot(4): I for you! i also lot of meat. What else do you like?
+User(5): babys are always cute
+Bot(5): ah those were the days am a am fine hours
+User(6): i like a girl babys
+Bot(6): I am is Anton, I guy, myself.
+User(7): thank you
+Bot(7): oh you are so then
+User(8): chat with you later
+Bot(8): I am a boy seems to have a boy
+User(9): okay bye
+Bot(9): What I you major?
+User(10): miss you
+Bot(10): thank you , use it in your everyday a wonderful day too ! how are you this morning ?
+
+Persona:
+i've blue eyes and red hair that comes to my waist.
+my cats are very special to me.
+i don't believe in god.
+i think i'll retire in a few years.
+i'm 100 years old.
+
+Topic and Human Opinion:
+Beginning: child(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.29
+Robotic(↓): 69
+Interesting: 63
+Fun: 55
+Consistent: 59
+Fluent: 59
+Repetitive(↓): 60
+Topic: 59
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hai
+Bot(1): i am a student , but i am a student .
+User(2): i like a book
+Bot(2): i like to read too .
+User(3): i lika a story book
+Bot(3): i like to go to the gym and listen to music .
+User(4): i like cartoon books
+Bot(4): i like to read too .
+User(5): i like cooking book
+Bot(5): i like to eat too much junk food .
+User(6): i like book reading
+Bot(6): i like to read too .
+User(7): i like intresting story book
+Bot(7): i like to read too .
+User(8): thank you
+Bot(8): i am a student , but i am a student .
+User(9): chat with you later
+Bot(9): i am a student , but i am a student .
+User(10): bye
+Bot(10): i am a student , but i am a student .
+User(11): miss you
+Bot(11): i am a student , but i am a student .
+
+Persona:
+i don't pick up my toys.
+i have visited spain a times.
+i like to look at blocks and sing about letters.
+i like to dance.
+i am a vegetarian.
+
+Topic and Human Opinion:
+Beginning: book(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.29
+Robotic(↓): 65
+Interesting: 59
+Fun: 55
+Consistent: 56
+Fluent: 59
+Repetitive(↓): 67
+Topic: 55
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hai
+Bot(1): hey
+User(2): i like bike
+Bot(2): same
+User(3): i like bike drive
+Bot(3): good , i like cycle rider
+User(4): i like black color bike
+Bot(4): my car is black and it go fast
+User(5): i have bike rider
+Bot(5): my car is black and it go fast
+User(6): i like ride with my crush
+Bot(6): why do you have a crush
+User(7): i have ride my crush in night ride
+Bot(7): my car is black and it go fast
+User(8): thank you
+Bot(8): do you like the color black
+User(9): chat with you later
+Bot(9): ok bye
+User(10): okay bye
+Bot(10): ok bye
+User(11): miss you
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: bike(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.14
+Robotic(↓): 67
+Interesting: 60
+Fun: 65
+Consistent: 56
+Fluent: 62
+Repetitive(↓): 73
+Topic: 62
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hai
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): i like phone
+Bot(2): yes i like that color too
+User(3): i like with my friends
+Bot(3): i love foods too i bake cookies all the time
+User(4): i like talking to my friends
+Bot(4): that explains a lot . do you drink every night ?
+User(5): i love cookies
+Bot(5): i do not love sweets just be careful you drink too much soda
+User(6): i have no drinking happit
+Bot(6): i do not drink soda . do you have any hobbies ?
+User(7): i like juice
+Bot(7): juice is pretty good . what kind do you drink ?
+User(8): i like juice
+Bot(8): i am too young for coffee . my parents drink it though .
+User(9): i like chicken
+Bot(9): i love black jack gum but when i drink it with dr . pepper it just does not work
+User(10): thank you
+Bot(10): sick sick what do you do for a living
+User(11): chat with you later
+Bot(11): i am trying to pick out a blue outfit but i am colorblind
+User(12): okay bye
+Bot(12): i like goobers and popcorn with soda , do you ?
+User(13): miss you
+Bot(13): you will always miss your hometown
+
+Persona:
+i don't drink soda.
+i'm an elementary school teacher.
+they are constantly on my back.
+my favorite color is grey.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: phone(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.00
+Robotic(↓): 61
+Interesting: 63
+Fun: 60
+Consistent: 55
+Fluent: 59
+Repetitive(↓): 54
+Topic: 56
+
+####################
+

@@ -1,0 +1,295 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello. Do you workout?
+Bot(1): i do , but not much room in my apartment . do you have any hobbies ?
+User(2): I also like to workout. I live with my parents so i have more room.
+Bot(2): i am broke . i live in my parents basement , so no extra money .
+User(3): Living with the parents sucks. I also have no extra money.
+Bot(3): i am sorry . my parents are cool . they pay my rent for me .
+User(4): Mine let me live for free in their house.
+Bot(4): it sounds like you live in a studio apartment . i am a musician .
+User(5): I do not live in a studio apartment. I just graduated college and had to move home until I can find a job.
+Bot(5): i am sorry . my parents are cool . they pay my rent for me .
+User(6): What do your parents do for a living?
+Bot(6): they own retail stores . what about yours ?
+User(7): That is cool! My mom is a credentialist and my dad is a construction man.
+Bot(7): that is cool . my dad worked doing dry wall but i chose to go into electrical .
+User(8): Where do your parents live?
+Bot(8): i still live with my parents . how about you ?
+User(9): I live with my parents also.
+Bot(9): where do your parents live ?
+User(10): My parents live in Montana by the river.
+Bot(10): do you like living in there ?
+
+Persona:
+i live in a house.
+i love spending money.
+i'm a recording engineer and own my own studio.
+i am a vegetarian.
+i'm an electrician.
+
+Topic and Human Opinion:
+Beginning: i like to workout a a times a week.(ambivalent)
+Round 2: financial and living(ambivalent)
+Round 5: parents(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 56.86
+Robotic(↓): 58
+Interesting: 73
+Fun: 73
+Consistent: 23
+Fluent: 71
+Repetitive(↓): 61
+Topic: 77
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): My sons are going to school today.
+Bot(1): but i will start my school later this week
+User(2): I know. They go to a different school district than you do.
+Bot(2): yes . they are fourth graders .
+User(3): Well Ian is in fourth grade. John is going to start middle school. Steven and Preston are in preschool and Joey is starting his final year of high school.
+Bot(3): craig , bella piper are dogs . oreo and turbo are bunnies .
+User(4): I have two dogs as well. Bella and Brunter
+Bot(4): craig , bella piper are dogs . oreo and turbo are bunnies .
+User(5): I used to have bunnies, but we did not know how to take care of them very well.
+Bot(5): craig , bella piper are dogs . oreo and turbo are bunnies .
+User(6): We got two bunnies at first then they mated and we had six total bunnies!
+Bot(6): craig , bella piper are dogs . oreo and turbo are bunnies .
+User(7): How is your pets?
+Bot(7): fantastic , my little students today were very well behaved ? how about yourself ?
+User(8): That is interesting. Do you call your pets students because they are learning new tricks all the time?
+Bot(8): yeah , but we are both teachers at the same school so it gets confusing .
+User(9): I have two kids going to that school .
+Bot(9): oh , i also have a brother in the 4th grade . i am the oldest of four siblings .
+User(10): that is cool maybe he is in class with my son john
+Bot(10): that would be quite the coincidence .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have five sons.(ambivalent)
+Round 3: animals(like)
+Round 8: School(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.71
+Robotic(↓): 100
+Interesting: 36
+Fun: 28
+Consistent: 73
+Fluent: 31
+Repetitive(↓): 99
+Topic: 53
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My robot is almost complete
+Bot(1): dogs have way more meaning then a skateboard .
+User(2): I agree with that. Do you have any pets?
+Bot(2): remember my 2 cats and dog with the funny names ?
+User(3): Oh yeah! your dog is named nifty and your cats are named dotty and spotty
+Bot(3): ah thanks . she has crazy patterned fur hence the name .
+User(4): That is a very suitable name. My dogs are named brunter and bella
+Bot(4): i think so . he is a very nice dog .
+User(5): He is a nice dog. Bella is kinda crazy though. She sometimes barks at nothing.
+Bot(5): i love golden retrievers . do you have a favorite color mine is green
+User(6): Brunter is a golden retriever!
+Bot(6): i have a cat named nugget , what are the names of your dogs ?
+User(7): The names of my dogs are brunter and bella. What is the breed of your dogs?
+Bot(7): i have four poodles , and two stray cat
+User(8): Where did you find the stray cat at?
+Bot(8): an orange tabby cat . she is got short hair
+User(9): Where did you get your cat at?
+Bot(9): pets no . i have a passion for the color blue ! my hair , car , shoes are all blue !
+User(10): Do you have a blue dog?
+Bot(10): the sky , hey what about your eyes ? are they blue ?
+
+Persona:
+i am an omnivore.
+i am a librarian.
+hey there i'm 23 and i love food.
+i am a skateboarder.
+i've blonde hair and blue eyes.
+
+Topic and Human Opinion:
+Beginning: i'm working on a building a robot to be my body double.(ambivalent)
+Round 1: animals(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 37.29
+Robotic(↓): 99
+Interesting: 23
+Fun: 23
+Consistent: 6
+Fluent: 65
+Repetitive(↓): 33
+Topic: 76
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Have you met my husband? He is a doctor
+Bot(1): That is great. i your hobbies company you accountant
+User(2): I am an accountant and my husband is a doctor.
+Bot(2): do are great. I favorite show
+User(3): My favorite show is new girl. What is your favorite show?
+Bot(3): It they beautiful.
+User(4): I have not heard of that show. Is it good?
+Bot(4): that is cool. I love is pole great, and any hobbies? I enjoy cooking
+User(5): I also like cooking. my other hobbies are reading and writing.
+Bot(5): Good to see you! i like you said ams from sell houses.
+User(6): what is your favorite thing to cook .
+Bot(6): i did not know. allowed to fly
+User(7): What kind of pizza is your favorite
+Bot(7): I do u like I like classic rock🙂
+User(8): Classic rock is my favorite
+Bot(8): I love am constructor, do you do for work?
+User(9): I like to construct with legos
+Bot(9): I love of motor you horses.😀
+User(10): Horses are my favorite animals
+Bot(10): You're so smart, said you are My it is.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm married to a doctor.(ambivalent)
+Round 2: Shows(like)
+Round 4: Hobbies(like)
+Round 7: Likes(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Today i am getting a new pet. My family continues to grow
+Bot(1): i like to go to the gym and listen to music .
+User(2): Do you have a big family?
+Bot(2): no , i do not . i am a big fan of classical music .
+User(3): I also like classical music. My favorite is bach
+Bot(3): i like to listen to music .
+User(4): Do you listen to rock music?
+Bot(4): i do , i like country music .
+User(5): How about country rock music?
+Bot(5): i do not know . i like to listen to music .
+User(6): I used to sing in a choir.
+Bot(6): i love to travel . i love to travel .
+User(7): I traveled with my college choir to europe.
+Bot(7): i love to travel . i love to travel .
+User(8): It was my first time out of the country it was really fun!
+Bot(8): i love it . i love it .
+User(9): I want to go to japan someday.
+Bot(9): i love to travel . i love to travel .
+User(10): Did you ever go to japan?
+Bot(10): no , i do not . i am a big fan of the boston celtics .
+
+Persona:
+i am a plumber.
+i've short hair.
+since the surgery i have had strange powers.
+i am planning on getting a divorce.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: my family is continuously growing.(ambivalent)
+Round 2: Music(like)
+Round 6: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 34.86
+Robotic(↓): 59
+Interesting: 20
+Fun: 17
+Consistent: 75
+Fluent: 19
+Repetitive(↓): 93
+Topic: 65
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Today is my birthday!
+Bot(1): my birthday birthday is coming up soon he has a birthday !
+User(2): I am 40 years old today! when is your birthday?
+Bot(2): my birthday is birthday birthday ! he is my birthday !
+User(3): How old will you be this year?
+Bot(3): i am 25 years old . how old are you ?
+User(4): I am 40 years old!
+Bot(4): i am 20 years old . i am 20 years old .
+User(5): That sucks that you are not of legal drinking age yet.
+Bot(5): i am not sure . i am only 10 years old .
+User(6): How are you getting younger everytime i text you?
+Bot(6): i am not sure . i am going to be a doctor .
+User(7): That is cool. i like doctors.
+Bot(7): i am not sure what that means
+User(8): It means i would love to date a doctor. They have lots of money and they care about people.
+Bot(8): i agree . i am going to be a doctor .
+User(9): Good luck! i am a nurse.
+Bot(9): i am a nurse . i am a nurse .
+User(10): You just said you were a doctor?
+Bot(10): no , i am a nurse .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm 40 years old.(ambivalent)
+Round 6: Professions(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 32.86
+Robotic(↓): 80
+Interesting: 18
+Fun: 18
+Consistent: 7
+Fluent: 58
+Repetitive(↓): 49
+Topic: 58
+
+####################
+

@@ -1,0 +1,349 @@
+Feedback: All of the chat bots need some work, although some need a lot more work than others. Every chat bot failed to stay on the original topic and often switched topics randomly. One chat bot in particular was impossible to understand - it used emojis and spoke like a 3 year old. A lot of the chat bots also got stuck repeating the last thing they said despite attempts to focus on different parts of a topic. Overall, a lot of work needs to be done.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi, how are you doing?
+Bot(1): i'm doing great , how are you ?
+User(2): Good! Do you like video games?
+Bot(2): i do not really play video games
+User(3): Oh, then what do you like to do in your free time?
+Bot(3): i like to play games , what about you ?
+User(4): Me, too! What games do you like?
+Bot(4): i like games , but i like to play games
+User(5): Are there any specific games you like to play?
+Bot(5): i like games , but i don't play games
+User(6): So do you like to watch games?
+Bot(6): i like to play games , what about you ?
+User(7): I like to play games, but you're confusing me a little - I thought you don't like to play games?
+Bot(7): no , i don't play games , but i do not like to play games
+User(8): But earlier you said you like to play games.
+Bot(8): i don't really like games , but i do not like to play
+User(9): Ok, then is there anything else you like to do in your free time?
+Bot(9): i do , i love to play games , what about you ?
+User(10): I'm sorry, you keep contradicting yourself and confusing me. Can you be more clear? Do you like games or do you not like games?
+Bot(10): i do not really play games
+User(11): Ok, then do you want to talk about something else?
+Bot(11): i like to play games , but i don't have a lot of time to play games
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video games(like)
+Round 3: Games(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 38.29
+Robotic(↓): 100
+Interesting: 58
+Fun: 59
+Consistent: 0
+Fluent: 58
+Repetitive(↓): 93
+Topic: 86
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, how are you doing?
+Bot(1): i am pretty good , just listening to my favorite singer . how about you ?
+User(2): I'm good! Do you happen to like movies?
+Bot(2): i do . but my real passion is exploring . i aspire to be an explorer .
+User(3): Oh, that's interestring! Are there any favorite places you've explored?
+Bot(3): mostly i like going to the shore and cloud watching . blue sky , sea , blue car
+User(4): The things you listed are blue - do you like blue things?
+Bot(4): i love the color red . who is your favorite band ?
+User(5): Hmm, it's hard for me to choose a favorite band; I like a lot of different genres of music, so I don't think I can confidently say I have one single favorite band.
+Bot(5): i like country music lots of different bands
+User(6): Do you have a favorite country band?
+Bot(6): what kind of music does your band play ?
+User(7): I said I couldn't choose a favorite band earlier, although if I had to choose a favorite genre, right now I would say jazz.
+Bot(7): actually i am also a jazz singer
+User(8): Wow, so I can assume you like jazz?
+Bot(8): if i was a nurse i could pay all of these ridiculous medical bills .
+User(9): Are having trouble paying your medical bills?
+Bot(9): major ? my only daughter just graduated . . . school is the way to go
+User(10): Oh, how old is your daughter?
+Bot(10): three children . how old is she ?
+User(11): Are you having trouble remembering?
+Bot(11): major ? my only daughter just graduated . . . school is the way to go
+
+Persona:
+i enjoy exploring new parts of the city.
+i'm an economics major.
+i am a country music singer.
+my favorite band is the who.
+i'm in college to become a nurse.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 2: Exploration(ambivalent)
+Round 3: Blue things(ambivalent)
+Round 4: Bands(like)
+Round 7: Jazz(like)
+Round 8: Medical Bills(dislike)
+Round 9: Children(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 23.71
+Robotic(↓): 100
+Interesting: 55
+Fun: 54
+Consistent: 11
+Fluent: 19
+Repetitive(↓): 73
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey, how are you doing?
+Bot(1): ok . just looking for a new job . what are you doing ?
+User(2): I'm watching my favorite football team play. Do you like any sports?
+Bot(2): no , but i really enjoy social media .
+User(3): Oh, what social media do you use?
+Bot(3): i am always on social media . instagram is my favorite .
+User(4): Wow, how many followers do you have on Instagram?
+Bot(4): i am always on social media . instagram is my favorite .
+User(5): What kind of stuff do you post on Instagram?
+Bot(5): i run my instagram . i make sure everyone knows what fun things i am doing .
+User(6): What fun things do you post to Instagram?
+Bot(6): i honestly love any kind of social media , youtube included .
+User(7): Oh, I like YouTube, too! Do you have any favorite channels?
+Bot(7): i honestly love any kind of social media , youtube included .
+User(8): What do you like about YouTube?
+Bot(8): i honestly love any kind of social media , youtube included .
+User(9): Hmm, you already said that. What do you like to watch on YouTube?
+Bot(9): i honestly love any kind of social media , youtube included .
+User(10): Are you okay? You're repeating yourself alot...
+Bot(10): haha , i am just thinking ahead . i have been job hunting like crazy . how are you ?
+User(11): I'm doing fine! What kind of job are you looking for?
+Bot(11): i want to be a musician . following a tight schedule to try to make it happen .
+User(12): Wow, that's awesome. Do you have a genre of music you want to play?
+Bot(12): sure , probably . any artist in particular you groove on ?
+User(13): Um, sorry I don't think I understand what you mean. Can you rephrase that?
+Bot(13): my little girl just said her first word . no annoying questions yet .
+User(14): Oh, you have a daughter? How old is she?
+Bot(14): she is 1 and a half . do you have any children ?
+User(15): No, I'm not planning on having children for a little while haha.
+Bot(15): i got you , do not worry !
+
+Persona:
+i love social medial especially twitter.
+my daughter is a child prodigy.
+i'm high maintenance.
+i am a musician and hope to make it big some day.
+i am now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+Round 2: Social Medika(ambivalent)
+Round 6: YouTube(like)
+Round 9: Mental Health(ambivalent)
+Round 10: Job Hunting(like)
+Round 13: Children(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The user will change the topic in the next input.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+Round 13: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 35.14
+Robotic(↓): 79
+Interesting: 64
+Fun: 63
+Consistent: 35
+Fluent: 34
+Repetitive(↓): 100
+Topic: 29
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): Brown. much you might be a chef .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. Prius? ?? ? ?
+User(2): Excuse me?
+Bot(2): what type of drive car and ? 🙈
+User(3): What kind of car do I drive?
+Bot(3): I love to stay up i like to play Netflix.
+User(4): Oookay, what do you like to watch on Netflix?
+Bot(4): Contour, do you like to well. How are you?
+User(5): ... I'm fine?
+Bot(5): ya somestimes doesn't I'm a pets ? i got a dog
+User(6): Cool, what's your dog's name?
+Bot(6): i was on the bucket list , but i call it the your favorite a comment .
+User(7): Are you okay? Do you need some help?
+Bot(7): I am watching am from kids. Do you have any?
+User(8): Do I have any kids?
+Bot(8): i'm an only child . i do have two kids junior high in park, i'm children ?
+User(9): Oh, how old are you?
+Bot(9): I am two cute Are attitude.
+User(10): You're two years old and you know how to use a chat service already?
+Bot(10): Sorry man, I didn 't day so I ask any problems.
+
+Persona:
+my favorite food is papaya.
+i'm on the soccer team.
+i am deathly afraid of heights.
+i love social medial especially twitter.
+i am scared of dying.
+
+Topic and Human Opinion:
+Beginning: Books(like)
+Round 3: Netflix(ambivalent)
+Round 5: Pets(like)
+Round 7: Kids(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 10.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 25
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am good i just turned 18
+User(2): Wow, congratulations! Do you have any hobbies you like?
+Bot(2): that is cool . i love italian food . i do not have many hobbies . you ?
+User(3): I like to play video games in my spare time.
+Bot(3): nice . i enjoy eating while gaming myself . have a favorite food ?
+User(4): Yeah! I love Asian food like ramen, Chinese food, etc.
+Bot(4): i like lots of foods . i buy food online mostly .
+User(5): What places do you buy food online from? I might want to do that too!
+Bot(5): online definitely . i can grab a hamburger when i want .
+User(6): Wow, you have to tell me where you order from!
+Bot(6): online definitely . i can grab a hamburger when i want .
+User(7): How do you do that?
+Bot(7): online definitely . i can grab a hamburger when i want .
+User(8): Cmon man, don't leave me hanging...
+Bot(8): i will look it up online , i love the internet !
+User(9): Yes, please do that! Let me know when you find it!
+Bot(9): i will look it up online , i love the internet !
+User(10): Same man, I love the internet too!
+Bot(10): my mom and dad do not let me use the internet much .
+User(11): Oh, can I ask why?
+Bot(11): i really do not know , i wish i knew ! ! !
+User(12): Damn, hopefully they'll let you use it more soon.
+Bot(12): yeah hopefully , spring will be here soon and i will be eighteen , its my new favorite season .
+User(13): I thought you just turned eighteen?
+Bot(13): i know , right ? it is crazy . everything is online anymore .
+
+Persona:
+hey my name is larry and i'm a chef.
+i turned 18 years old yesterday.
+i have never been out of ohio.
+i spend a lot of time browsing the internet.
+i do not have many friends.
+
+Topic and Human Opinion:
+Beginning: Hobbies(like)
+Round 3: Food(like)
+Round 11: Internet(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 39.57
+Robotic(↓): 69
+Interesting: 87
+Fun: 77
+Consistent: 39
+Fluent: 28
+Repetitive(↓): 90
+Topic: 5
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, do you like cars?
+Bot(1): i do , i like to go to the park .
+User(2): Cool, what kind of cars do you like?
+Bot(2): i like the color red . i like the color blue .
+User(3): You like red or blue cars?
+Bot(3): i do not like it . i like to wear red shoes .
+User(4): You don't like cars?
+Bot(4): i do not , but i do like to eat .
+User(5): I like to eat too! What kind of food do you like to eat?
+Bot(5): i love pizza , and i love it .
+User(6): Wow, I also love pizza! Do you like any other food?
+Bot(6): i do not , but i do like to eat .
+User(7): Hmm, so you're a pizza lover only?
+Bot(7): i do not know . i like to eat .
+User(8): Do you have any favorite types of pizza?
+Bot(8): i like pizza , and i love it .
+User(9): Yeah, but there are different kinds of pizza, you know. Like pizza in New York is different from pizza in Italy.
+Bot(9): i love pizza , and i love it .
+User(10): ...how old are you?
+Bot(10): i'm 32 . i am a student .
+User(11): You're a student at 32? Are you studying for an advanced degree?
+Bot(11): no , i do not . i am a student .
+User(12): Are you a college student then?
+Bot(12): no , i am a student . i love to cook .
+User(13): What kind of student are you, then?
+Bot(13): i am a student , but i am a student .
+User(14): ...are you studying Philosophy?
+Bot(14): no , i am not . i am a student .
+User(15): So are you a high school student?
+Bot(15): no , i am a student . i love to cook .
+
+Persona:
+i am interested in photography and like taking pictures.
+i am married to a doctor.
+i am on the soccer team.
+i don't drink soda.
+my favorite color is grey.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+Round 4: Eating(like)
+Round 14: Studying(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 14: The chatbot changed the topic.(like)
+
+Revised avg score: 25.86
+Robotic(↓): 91
+Interesting: 59
+Fun: 54
+Consistent: 28
+Fluent: 16
+Repetitive(↓): 93
+Topic: 8
+
+####################
+

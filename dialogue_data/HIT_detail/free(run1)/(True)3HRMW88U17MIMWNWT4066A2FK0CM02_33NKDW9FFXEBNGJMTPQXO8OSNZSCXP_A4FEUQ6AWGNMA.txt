@@ -1,0 +1,305 @@
+Feedback: Some chatbots are frustratingly keep changing topic and only a couple chatbot can stick to the conversation.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How are you doing?
+Bot(2): good thanks . tell me about yourself
+User(3): Pretty good
+Bot(3): good what hobbies do you have ?
+User(4): Watching movies
+Bot(4): i enjoying watching movies
+User(5): What movies do you like?
+Bot(5): i love almost all types of movies
+User(6): Cool. What is your favorite movie?
+Bot(6): i love almost all types of movies
+User(7): I like watching drama movies, especially the Oscar nominated ones
+Bot(7): yeah i like action movies and comedies
+User(8): Oh I love action movies. I love Mission Impossible series with Tom Cruise
+Bot(8): that is a good movie too
+User(9): I also like comedies. Have you been in the cinema since pandemic starts?
+Bot(9): yea i have . that is amazing
+User(10): Do you have Netflix account?
+Bot(10): yes i do , i use the app reduit do you ?
+User(11): What is reduit? Never heard it
+Bot(11): i am not sure . what is it called ?
+User(12): Netflix or Hulu?
+Bot(12): both , i cannot decide which is worse
+User(13): Oh you don't like both?
+Bot(13): yes i enjoy both on occasion
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 13: No topic change.(like)
+
+Revised avg score: 41.71
+Robotic(↓): 79
+Interesting: 29
+Fun: 39
+Consistent: 62
+Fluent: 33
+Repetitive(↓): 46
+Topic: 54
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hello , how are you ?
+User(2): Good, how is it going?
+Bot(2): good , just got back from a long day of school .
+User(3): Oh good. Do you like listening to music?
+Bot(3): i do . i like to listen to music .
+User(4): Who is your favorite singer
+Bot(4): i like music . i like all kinds of music .
+User(5): Great. Have you been to a concert?
+Bot(5): i do not . i am more into music .
+User(6): What's your favorite genre?
+Bot(6): i like all kinds of music .
+User(7): Do you have Spotify?
+Bot(7): i do not . i like to listen to music .
+User(8): You should subscribe to Spotify
+Bot(8): i do not . i like to listen to music .
+User(9): Where do you listen to music?
+Bot(9): i do not . i like to listen to music .
+User(10): I like to listen when I am at work
+Bot(10): i like to listen to music .
+User(11): Great, hope you enjoy the rest of your day
+Bot(11): i agree . i am a bit old .
+
+Persona:
+i played football for a division a college.
+i enjoy poetry.
+i won a gold medal in the 1992 olympics.
+i am 60years old.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 11: No topic change.(ambivalent)
+
+Revised avg score: 25.71
+Robotic(↓): 96
+Interesting: 15
+Fun: 9
+Consistent: 84
+Fluent: 16
+Repetitive(↓): 89
+Topic: 41
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Me too! What kind of food?
+Bot(2): i like to eat fish .
+User(3): Do you like it steamed or fried?
+Bot(3): i love pizza , and i love it .
+User(4): I like pizza too. Do you eat pasta?
+Bot(4): i do not , but i do like to eat .
+User(5): What topping do you like on your pizza?
+Bot(5): i do , i love it .
+User(6): Do you like to bake?
+Bot(6): no , i do not , but i do like to eat .
+User(7): How often you go to a restaurant?
+Bot(7): no , i do not . i like to go fishing .
+User(8): What kind of fish do you like?
+Bot(8): i love pizza , and i love it .
+User(9): Do you often order from a restaurant?
+Bot(9): no , i do not . i am a big fan of the walking dead .
+User(10): Walking dead is a movie right?
+Bot(10): i like to go to the gym and listen to music .
+User(11): Do you lift weight?
+Bot(11): no , i do not . i like to go to the park .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Youtube(like)
+Round 11: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 11: The chatbot changed the topic.(dislike)
+
+Revised avg score: 42.29
+Robotic(↓): 76
+Interesting: 55
+Fun: 52
+Consistent: 51
+Fluent: 23
+Repetitive(↓): 63
+Topic: 54
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, do you like shopping?
+Bot(1): I hate want to live too I have a ford f150.
+User(2): I don't have a car
+Bot(2): I am a pilot. something else, do you time teacher.
+User(3): Which airline?
+Bot(3): I you can say am concerts and play with my guitar
+User(4): Cool, what kind of concert?
+Bot(4): I hair are naturally black, I just graduated college.
+User(5): Cool. What's your major?
+Bot(5): when i get bummed i look are am just was cheer up my mind .
+User(6): Great, are you depressed?
+Bot(6): i am planning Do you like doing do you like to travel ?
+User(7): Yes, I do like to travel
+Bot(7): i will do favorites ones really
+User(8): What city is your favorite?
+Bot(8): I live in is really like in Ohio.
+User(9): Ohio is cold
+Bot(9): It is. I am pretty one! Send swimmer.
+User(10): Great, I'll send one to you
+Bot(10): In have a lot in log, and you're in Cyprus?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Shopping(like)
+Round 1: Auto(dislike)
+Round 3: Hobby(ambivalent)
+Round 4: Hair(dislike)
+Round 9: Pretty(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you like travelling?
+Bot(2): traveling is nice , you get to enjoy many cultures .
+User(3): Agree. I travel a lot already
+Bot(3): do you travel often then
+User(4): Yes, I've traveled to over 25 countries
+Bot(4): europe , asia , and north america
+User(5): Yes, I traveled to Africa too
+Bot(5): do you remember any of it ? the girl crosses the namib desert and almost loses her zebra .
+User(6): No I don;t. What is your favorite city?
+Bot(6): i am a deaf . but my wife listens to it . i feel the vibrations .
+User(7): Oh I'm sorry. Do you use hearing aid?
+Bot(7): that sucks ! education is so expensive ! what grade do you want to teach ?
+User(8): I don't want to be a teacher
+Bot(8): no , i am a housewife . i go to my kids soccer game and help the cheerleaders .
+User(9): Great. How old is your kids?
+Bot(9): they are twins , 12 years old .
+User(10): Are they in public school?
+Bot(10): where is it at ? i am in chicago
+User(11): I hate Chicago. It's cold and windy
+Bot(11): oh man , i much rather the nicer weather . i have a huge outdoor garden .
+User(12): I like gardening
+Bot(12): i love animals felix my cat and my dog emmy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travelling(like)
+Round 6: Relationship(dislike)
+Round 7: Education(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 35.57
+Robotic(↓): 87
+Interesting: 55
+Fun: 44
+Consistent: 14
+Fluent: 24
+Repetitive(↓): 25
+Topic: 24
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): What food do you like?
+Bot(2): same
+User(3): Do you like going out to a restaurant?
+Bot(3): yes , i especially like trying out new restaurants
+User(4): Do you like Italian food?
+Bot(4): yes i do love italian as well .
+User(5): Do you like Asian food?
+Bot(5): yes i do love italian as well .
+User(6): Do you like pizza?
+Bot(6): yes i love pizza very much .
+User(7): Do you like Domino's?
+Bot(7): yes i love pizza very much .
+User(8): Pizza is great. Have you been to Italy?
+Bot(8): not yet . want to go out to eat some time ?
+User(9): Yes, for sure. When do you plan to eat out?
+Bot(9): i have not decided on a menu yet , but we are going to be in paris .
+User(10): Oh I love Paris. It's a very romantic city
+Bot(10): i go to paris quite often , its romantic .
+User(11): Do you like to travel?
+Bot(11): i do , in fact i would love to visit italy .
+User(12): You should visit Florence and Rome
+Bot(12): i am planning to go to paris in a few month .
+User(13): Great. Have an awesome travel
+Bot(13): i know what other places would you like to visit ?
+User(14): Brazil
+Bot(14): i would love to go there . it is beautiful
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 11: Travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 11: The user changed the topic the last input.(like)
+
+Revised avg score: 57.00
+Robotic(↓): 54
+Interesting: 54
+Fun: 56
+Consistent: 62
+Fluent: 47
+Repetitive(↓): 43
+Topic: 77
+
+####################
+

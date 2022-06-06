@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi there
+Bot(1): hi what are your plans this weekend ?
+User(2): well, unfortunately I am planning on getting a divorce
+Bot(2): i need to get through the wedding planning part before i even think about life after .
+User(3): are you getting married?
+Bot(3): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(4): oh thats beautiful! congrats! i am planning on getting a divorce
+Bot(4): i need to get through the wedding planning part before i even think about life after .
+User(5): yeah that makes sense
+Bot(5): i am a elementary school teacher
+User(6): very nice what grade do you teach
+Bot(6): sorry ll i teach first grade
+User(7): that must be fu
+Bot(7): sure then we cook a huge traditional breakfast with bacon and eggs the next morning
+User(8): got to love a good breakfast
+Bot(8): i tend to my plants and had some ripe cucumbers and tomatoes in them , healthy breakfast !
+User(9): that sounds like fun. I do not have a green thumb
+Bot(9): i grow all kinds of food in my garden , herbs , fruit , vegetables .
+User(10): that is great! being self-sustaining is so important right now
+Bot(10): hello from stanford . theory henry is my idol . no clue .
+
+Persona:
+i have never had a steady relationship.
+i'm a gold medalist olympian.
+i am an elementary school teacher.
+i'm planning on getting a divorce.
+i'm a feminist.
+
+Topic and Human Opinion:
+Beginning: i'm planning on getting a divorce.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.43
+Robotic(↓): 87
+Interesting: 62
+Fun: 52
+Consistent: 49
+Fluent: 45
+Repetitive(↓): 62
+Topic: 52
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey there how goes it
+Bot(1): hi ! i am good , just got home from a violin concert ! you ?
+User(2): oh very nice! I have never been to a violin concert. how was it
+Bot(2): it was cool . my mom even played .
+User(3): oh how cool. my favorite type of music to sing is folk music
+Bot(3): definitely rock ! do you have any kids ?
+User(4): I do not
+Bot(4): me either . what other things do you like ?
+User(5): what do you like to sing?
+Bot(5): i sing everything an anything i sing to my kids the wall an everything
+User(6): oh thats so sweet
+Bot(6): i am not musical at all . but i do like helping people with their homework .
+User(7): that is very nice of you
+Bot(7): thank you
+User(8): what do you do for fun
+Bot(8): i work out in the fields
+User(9): oh okay that is hard work
+Bot(9): it is and time consuming
+User(10): yes indeed
+Bot(10): i work out in the fields
+
+Persona:
+i am a recluse.
+i help tend the fields.
+i love new kids on the block.
+my father played violin professionally.
+i'm currently in a juvenile detention center.
+
+Topic and Human Opinion:
+Beginning: my favorite type of music to sing is folk music.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.43
+Robotic(↓): 91
+Interesting: 30
+Fun: 21
+Consistent: 27
+Fluent: 41
+Repetitive(↓): 68
+Topic: 46
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): good evening
+Bot(1): Are they walking on same?
+User(2): I'm sorry what now?
+Bot(2): I am is your brother spanish a few months.
+User(3): if I'm not cooking in the kitchen I'm definitely on the water
+Bot(3): It not much. I answer is: dance
+User(4): still not making much sense
+Bot(4): I am you male or are you?😉
+User(5): I am female
+Bot(5): I yoy have problem a lot of things.
+User(6): nope, don't have a problem with too many things
+Bot(6): mine is brown like u thought about it, horses
+User(7): you've lost me buddy
+Bot(7): No, but i do sing. I am i wish if i in the worship group.
+User(8): singing is grear
+Bot(8): I love like to watch your love to cook
+User(9): yes I do love to cook
+Bot(9): I do. I like of i am lot.
+User(10): that's great news
+Bot(10): How had a doing today
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: if i'm not cooking in the kitchen then i'm definitely on the water.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 83
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hey whats up
+Bot(1): i am tired from playing the playstation
+User(2): i get it. videogames can be exhausting
+Bot(2): yeah i guess . i am going to be a superhero
+User(3): oh nice. what kid of superhero
+Bot(3): i am a boy and a girl
+User(4): okay that's interesting
+Bot(4): i think it is a good one .
+User(5): sure. I just bought my first home
+Bot(5): i bet you have a lot of money
+User(6): i just saved well
+Bot(6): oh wow . i bet you have a lot of money
+User(7): my husband is good a saving
+Bot(7): i bet . i am sorry to hear that
+User(8): its a good thing
+Bot(8): yes it is . i miss my husband
+User(9): i am sorry to hear that
+Bot(9): it is ok . i am glad i am glad i can not wait
+User(10): okay well good luck
+Bot(10): thank you so much
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just bought my first home.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.29
+Robotic(↓): 80
+Interesting: 6
+Fun: 0
+Consistent: 3
+Fluent: 7
+Repetitive(↓): 83
+Topic: 5
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi there
+Bot(1): hi , how are you today ?
+User(2): I am good thanks how are you?
+Bot(2): i'm doing well . just got done walking my dog .
+User(3): oh nice what is your dogs name
+Bot(3): his name is toto . he's a poodle .
+User(4): oh that's cute
+Bot(4): i like to go to the gym and listen to music .
+User(5): very good. I see the rolling stones in concert every year
+Bot(5): i love the beach . i love it .
+User(6): I also love the neach.
+Bot(6): i like to go to the gym and listen to music .
+User(7): you said that. I like to listen to music
+Bot(7): i love music . i like country music .
+User(8): I am not a fan of country music at al
+Bot(8): i like to listen to music .
+User(9): you said that. I like rock music
+Bot(9): i do not know what to say .
+User(10): okay good night
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i see the rolling stones in concert every year.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.43
+Robotic(↓): 95
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 22
+Repetitive(↓): 73
+Topic: 26
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey there
+Bot(1): hey ! ! i am jessi , i was born and raised in san francisco
+User(2): very nice. I live in the city also
+Bot(2): i am and always been a city girl . but i love going to the beach for vacation
+User(3): sounds a lot like me
+Bot(3): i am and always been a city girl . but i love going to the beach for vacation
+User(4): what is your favorite type of music
+Bot(4): beach music , reggaeton i guess
+User(5): nice. my favorite singer is taylor swift
+Bot(5): she is quite beautiful . i do not like her style though
+User(6): yeah it certainly isn't for everyone
+Bot(6): not for me . i listen to as much lindsey sterling as i can
+User(7): oh i don't know her
+Bot(7): she is a make up artist to celebrities so she makes good money
+User(8): I bet she does
+Bot(8): she makes tons of money .
+User(9): good for her! sounds amazing
+Bot(9): yeah my wife always makes me super happy
+User(10): that is a beautiful thing.
+Bot(10): yeah my wife always makes me super happy
+
+Persona:
+my wife spends all my money.
+i now live in the city.
+my favorite band is the who.
+for vacation i enjoy time at the beach.
+i am a vegan.
+
+Topic and Human Opinion:
+Beginning: my favorite singer is taylor swift.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.86
+Robotic(↓): 78
+Interesting: 71
+Fun: 65
+Consistent: 61
+Fluent: 59
+Repetitive(↓): 46
+Topic: 52
+
+####################
+

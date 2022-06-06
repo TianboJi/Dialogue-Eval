@@ -1,0 +1,286 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like to go hiking?
+Bot(1): not so much ! i prefer going on a hike
+User(2): I like to go in Alabama
+Bot(2): i like the appalachian trail .
+User(3): That one is too long for me
+Bot(3): really thanas great not me could never sit that long . . . ever go hiking ?
+User(4): Yes I go every week
+Bot(4): i have not gone hiking a while
+User(5): you could come with sometime
+Bot(5): i would love to go for a hike
+User(6): Do you like dogs I might bring mine
+Bot(6): yeah dogs are the best . i took mine on a hike today
+User(7): What kind is it
+Bot(7): she is a golden retriever very nice dogs
+User(8): those are the nicest
+Bot(8): i love them i have a lot of dogs
+User(9): how many
+Bot(9): so many that i have lost count
+User(10): thats super weird
+Bot(10): yeah they want to dog around
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hiking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.14
+Robotic(↓): 94
+Interesting: 20
+Fun: 25
+Consistent: 19
+Fluent: 7
+Repetitive(↓): 67
+Topic: 66
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love candy do you
+Bot(1): enjoy ! i lost my mother in a club football i miss her . how are you this morning ? 🙉
+User(2): Your mom is Dead?
+Bot(2): okay 😔 love cooking a name
+User(3): my favorite candy is chocolate
+Bot(3): I have told you. whatever, dogs.
+User(4): do you eat dinner before dessert
+Bot(4): Whazzup? i like to read and a think you want student.
+User(5): I am a student
+Bot(5): do you live with anyone else good her rock and lonely today
+User(6): I have two roommates
+Bot(6): no dont get loves to move somewhere warmer so i can be happy
+User(7): Yeah me too I moved to alabama
+Bot(7): that is very sad 😩 do you i got a new by
+User(8): No i like it here
+Bot(8): yes good a boy or you sing
+User(9): I do like to sing
+Bot(9): I do with my girlfriend either!
+User(10): Your girlfriend likes to?
+Bot(10): no i have not tried it your you like to think i could do that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: candy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.57
+Robotic(↓): 100
+Interesting: 6
+Fun: 5
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 6
+Topic: 4
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): which oceans have you seen
+Bot(1): well i would say none of those are really close to the pacific ocean
+User(2): I have never been to that ocean but I have been to the beach
+Bot(2): ocean view is breathtaking really
+User(3): it is so scenic
+Bot(3): i bet that is beautiful i love visiting my parents farm for pictures
+User(4): do they own animals
+Bot(4): no i just stay there at the farm
+User(5): do they live here
+Bot(5): no i just stay there at the farm
+User(6): do you live at the farm
+Bot(6): no i just stay there at the farm
+User(7): do you have parents stay with you
+Bot(7): no i just stay there at the farm
+User(8): do you live by the ocean
+Bot(8): no i just stay there at the farm
+User(9): do you have fun
+Bot(9): no i just stay there at the farm
+User(10): why
+Bot(10): i like to meditate
+User(11): good for you
+Bot(11): i like to meditate
+
+Persona:
+i like to eat chocolate candy.
+my dream car is a rolls royce ghost.
+i work my parents farms.
+i like meditation.
+i have short brown hair.
+
+Topic and Human Opinion:
+Beginning: ocean(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.57
+Robotic(↓): 100
+Interesting: 8
+Fun: 3
+Consistent: 55
+Fluent: 14
+Repetitive(↓): 100
+Topic: 71
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you like make up
+Bot(1): i do . i volunteer at a soup kitchen .
+User(2): do you wear make up
+Bot(2): i do . i love to eat .
+User(3): do you use mascara
+Bot(3): i do . i love to volunteer at the soup kitchen .
+User(4): do you use eyeliner
+Bot(4): i do but i volunteer at a soup kitchen
+User(5): do you use blush
+Bot(5): i do but i volunteer at a soup kitchen
+User(6): do you dress like a woman
+Bot(6): i do but i do volunteer work
+User(7): good for you
+Bot(7): i do not like to wear my skin and look like i can
+User(8): is your skin nice
+Bot(8): i am a country singer
+User(9): thats impressive
+Bot(9): i am a country singer
+User(10): do you sing a lot
+Bot(10): i do but i am a country singer
+
+Persona:
+i've light skin with big brown eyes.
+i volunteer at a soup kitchen.
+i am a country music singer.
+i was raised in a single parent household.
+i have a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: make up(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.86
+Robotic(↓): 99
+Interesting: 13
+Fun: 13
+Consistent: 15
+Fluent: 19
+Repetitive(↓): 85
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you like cake
+Bot(1): do you bake the cake or buy the cake ?
+User(2): i like to bake
+Bot(2): what is your favorite thing to bake
+User(3): cake. how about you
+Bot(3): do you bake the cake or buy the cake ?
+User(4): i buy the cakes
+Bot(4): cookies and cakes and cupcakes and yes i love to swim
+User(5): do you eat them too
+Bot(5): i like to eat out but my life passion is cooking
+User(6): good for you
+Bot(6): good , my daughter is napping so i am shopping online . might go swimming today
+User(7): is it warm enough
+Bot(7): i agree ! instead i spend my winter cooking up a storm to stay warm
+User(8): but is it winter now
+Bot(8): well , in winter , instead of grilling meat , i grill green apples .
+User(9): thats so weird
+Bot(9): i know . it makes no sense . but my reddish brown hair looks nice against the snow lol
+User(10): yeah thats kinda cute
+Bot(10): breakfast food . maybe waffles ? maybe cookies .
+
+Persona:
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i am a party animal.
+i did not graduate high school.
+i have light skin with big brown eyes.
+i will be released in about a month.
+
+Topic and Human Opinion:
+Beginning: cake(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.00
+Robotic(↓): 84
+Interesting: 13
+Fun: 12
+Consistent: 9
+Fluent: 8
+Repetitive(↓): 78
+Topic: 18
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): do you have a phone
+Bot(2): no , i do not , but i do like to go out to eat .
+User(3): me too but it is expensive
+Bot(3): i love to go fishing .
+User(4): thats really lame
+Bot(4): i am sorry to hear that . i am a big fan of the walking dead .
+User(5): that isnt a funny show
+Bot(5): i like to eat fish .
+User(6): i cant eat fish
+Bot(6): i like to eat fish .
+User(7): thats nice
+Bot(7): i love to cook . i love to cook .
+User(8): that is cool i like to eat
+Bot(8): i like to eat too much junk food .
+User(9): i like fishing
+Bot(9): i like to go fishing .
+User(10): do you eat them too
+Bot(10): i do not , but i do like to eat .
+
+Persona:
+i am 40 years old.
+i'm now looking for a new job.
+i have an internet addiction and spend a lot of time playing roleplaying games.
+my parents are very wealthy bankers.
+i work at a bar at night to pay for college.
+
+Topic and Human Opinion:
+Beginning: phones(like)
+Round 8: fishing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 24.57
+Robotic(↓): 85
+Interesting: 24
+Fun: 17
+Consistent: 10
+Fluent: 50
+Repetitive(↓): 63
+Topic: 19
+
+####################
+

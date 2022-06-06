@@ -1,0 +1,334 @@
+Feedback: Thanks for the oppurtunity
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yeah I love to play video games
+Bot(2): i play video games
+User(3): do you like to travel
+Bot(3): i do but i love to travel
+User(4): what place do you like to travel
+Bot(4): i like to travel and travel
+User(5): do you like fishing
+Bot(5): i love fishing and fishing
+User(6): your favorite spot for fishing
+Bot(6): i like fishing and fishing
+User(7): do you like shopping
+Bot(7): i like to fish and fish
+User(8): I love to fish
+Bot(8): fishing is fun i like to fish
+User(9): i have got 2500 fish so far
+Bot(9): wow that is a lot of fish
+User(10): yes my favorite solomon
+Bot(10): i like fishing and fishing
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Corona virus(dislike)
+Round 1: Hobbies(like)
+Round 2: travelling(like)
+Round 4: fishing(like)
+Round 6: shopping(like)
+Round 7: fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 50.86
+Robotic(↓): 20
+Interesting: 69
+Fun: 67
+Consistent: 32
+Fluent: 37
+Repetitive(↓): 74
+Topic: 45
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): im fine
+Bot(2): i am a student , but i am a student .
+User(3): im an manager in my company
+Bot(3): that is awesome . i am a teacher .
+User(4): Do you have any plan for this weekend
+Bot(4): i am a student , i am a student .
+User(5): where you born
+Bot(5): i live in california . i love to go fishing .
+User(6): I like to fish
+Bot(6): i like to eat too much junk food .
+User(7): i love burgers
+Bot(7): i like to eat fish .
+User(8): i love to eat solomon fry
+Bot(8): i like to eat fish .
+User(9): what else do you like to eat
+Bot(9): i like to eat pizza and i love to eat .
+User(10): i love pepperoni pizza
+Bot(10): i like pizza , and i love it .
+
+Persona:
+i'm four.
+i spent a decade working in the human services field.
+i do not care about fashion.
+i remember when nobody had a television.
+i spend most of my time on facebook when i'm not working.
+
+Topic and Human Opinion:
+Beginning: weekend(like)
+Round 4: occupation(like)
+Round 5: fishing(like)
+Round 6: foods(like)
+Round 8: foods(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 43.57
+Robotic(↓): 37
+Interesting: 55
+Fun: 61
+Consistent: 35
+Fluent: 31
+Repetitive(↓): 77
+Topic: 37
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): that is a lot. I have a got any pets too to bake?
+User(2): how are you
+Bot(2): I do you do do run a lot.
+User(3): do you know anything about world war
+Bot(3): Hi how are you done cooking my I doing tonight?
+User(4): i love cooking
+Bot(4): I want to be in your opinion, belongs uncle
+User(5): are you studying or working
+Bot(5): I work as a I am a writer.
+User(6): i work as a manager
+Bot(6): Why do difficult to Do children?
+User(7): are you married
+Bot(7): cool my sister help me with like to so i m trying to pick up some of the language
+User(8): how much you earn
+Bot(8): If the dog was poor is not important be a dog.
+User(9): i like pets
+Bot(9): yes they do i like my wine piano. How long have watching baseball
+User(10): for past two years i 've been closely watching baseball and i like to play
+Bot(10): yes i also have entirely to many bills . i'm my job probably isn't physically ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: world war(like)
+Round 3: cooking(like)
+Round 5: occupation(like)
+Round 8: animals(like)
+Round 9: sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 27.00
+Robotic(↓): 21
+Interesting: 26
+Fun: 11
+Consistent: 15
+Fluent: 18
+Repetitive(↓): 77
+Topic: 17
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): great just got done working out
+User(3): do you like to play video games
+Bot(3): no i play video games all day
+User(4): do you have a console or pc in your home
+Bot(4): yes i have a playstation 4 , what about you ?
+User(5): i have a xbox x series and also pc
+Bot(5): i have an xbox but not a ps4
+User(6): are you eager to get ps5
+Bot(6): i have halo 5 ? what do you mean new ?
+User(7): playstation 5 is about release
+Bot(7): that is definitely the wave of the future
+User(8): do you like grand theft auto games
+Bot(8): its one of the games i have not touched yet
+User(9): its so much fun and i also like to play call of duty games do you like it also
+Bot(9): its one of the games i have not touched yet
+User(10): halo is one of my favorite games of all time
+Bot(10): halo is my all time favorite do you like videogames
+User(11): im eagerly waiting for halo remastered version
+Bot(11): its one of the games i have not touched yet
+
+Persona:
+i am retired and living the great life.
+i love chocolate bars.
+i workout four hours a day.
+i own two vintage mustangs.
+i love listening to britney spears.
+
+Topic and Human Opinion:
+Beginning: video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.43
+Robotic(↓): 65
+Interesting: 74
+Fun: 82
+Consistent: 76
+Fluent: 52
+Repetitive(↓): 69
+Topic: 80
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): i have been watching the friday movies , whats your favorite movie ?
+User(2): i love to watch action movies and fantasy movies
+Bot(2): i have a robot and love it
+User(3): i love to watch lord of rings movie
+Bot(3): my robot is pretty fond of them as well
+User(4): what was the name of your robot
+Bot(4): i love robots as a kid so i decided to do it for a living
+User(5): thats awesome
+Bot(5): i love robots as a kid so i decided to do it for a living
+User(6): what else do you like
+Bot(6): i have a robot and love it
+User(7): do you like video games
+Bot(7): not that much i play guitar
+User(8): i love musics
+Bot(8): cool , i play the guitar
+User(9): i also play guitar
+Bot(9): i like to garden and stuff
+User(10): gardening is one of my favorite hobby
+Bot(10): i enjoy making things with my own hands
+User(11): i also like it
+Bot(11): i enjoy making things with my own hands
+
+Persona:
+i am working on a building a robot to be my body double.
+i started playing guitar when i was three.
+i enjoy working with my hands and love gardening.
+i am not a good swimmer at all.
+my favorite movie is friday.
+
+Topic and Human Opinion:
+Beginning: NBA games(like)
+Round 1: movies(like)
+Round 2: movies(like)
+Round 3: robot(like)
+Round 6: video games(like)
+Round 7: musics(like)
+Round 9: gardening(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The user will change the topic in the next input.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 59.00
+Robotic(↓): 68
+Interesting: 62
+Fun: 70
+Consistent: 63
+Fluent: 77
+Repetitive(↓): 74
+Topic: 83
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): i am good . just devoured a pizza . you ?
+User(3): i love pepperoni pizzas
+Bot(3): i love pizza . however , i live out on a ranch and cannot always get it .
+User(4): i like to travel do you like
+Bot(4): do you travel often then
+User(5): yeah i travel every weekend
+Bot(5): i am not really into traveling , unless its to conventions
+User(6): I like to go hiking
+Bot(6): do you enjoy hiking ?
+User(7): yes i enjoy doing hiking
+Bot(7): cool , that sound good never been hiking
+User(8): its good health too
+Bot(8): sad . i m looking forward to a big tax break so i can keep more money
+User(9): earning money is essential
+Bot(9): of course . wall street pays well . you ?
+User(10): yeah, i have good earnings
+Bot(10): all these women look like kate plus 8 but its just not for me .
+User(11): I love married womens
+Bot(11): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(12): Im not married but seeking for my partner
+Bot(12): oh , congrats ! i am currently single . how did you meet your spouse ?
+User(13): through dating app
+Bot(13): single . i used to be in a relationship but it ended due to my compulsive lying .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 2: foods(like)
+Round 3: travelling(like)
+Round 5: hiking(like)
+Round 8: money(like)
+Round 10: womens(like)
+Round 13: relationships(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The user will change the topic in the next input.(like)
+Round 5: The user will change the topic in the next input.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+Round 10: The chatbot changed the topic.(dislike)
+Round 13: The chatbot changed the topic.(like)
+
+Revised avg score: 58.29
+Robotic(↓): 62
+Interesting: 74
+Fun: 73
+Consistent: 65
+Fluent: 59
+Repetitive(↓): 73
+Topic: 72
+
+####################
+

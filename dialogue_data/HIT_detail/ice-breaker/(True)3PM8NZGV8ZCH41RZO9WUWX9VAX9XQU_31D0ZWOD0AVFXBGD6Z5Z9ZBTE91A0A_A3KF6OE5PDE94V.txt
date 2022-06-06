@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am good . how are you ?
+User(2): Good, what is your favorite movie?
+Bot(2): i am a big fan of horror movies .
+User(3): Not, me...But I do like the movie Friday
+Bot(3): i am a big coffee fan .
+User(4): Well, that is good...did you see the movie Friday??
+Bot(4): yes , i love it . i am a big fan of horror movies .
+User(5): Ok, it is not really a Horror movie
+Bot(5): i am a movie buff , i am a big fan of horror movies .
+User(6): Yes, you have said that..what about comedies
+Bot(6): i like comedies , but i am a pretty good listener
+User(7): Unrelated...what did you think of the movie Friday?
+Bot(7): i don't have a favorite movie , i am a car salesman .
+User(8): Completely off topic...and I do not think you are a great bot
+Bot(8): i am a car salesman , but i do not have a job .
+User(9): Bummer...go to a movie
+Bot(9): i am a car salesman , so i have to get a lot of time
+User(10): Now the English is broken...Apparently you need a repair
+Bot(10): i am sorry . i am a car salesman .
+
+Persona:
+my parents are not very supportive of my dream.
+i'm a woman.
+i work as a car salesman.
+my father drove a car for nascar.
+i'm a recovering alcoholic.
+
+Topic and Human Opinion:
+Beginning: my favorite movie is friday.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.86
+Robotic(↓): 100
+Interesting: 6
+Fun: 6
+Consistent: 6
+Fluent: 85
+Repetitive(↓): 100
+Topic: 1
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): Our Hang Bok's the are a Sook.
+User(2): What?? How am I supposed to interpret that??
+Bot(2): that's a i’m a home person how old is ur 18?
+User(3): I am a famous twitch streamer and I have never heard language like this
+Bot(3): I like psychology. I love guitar for u working? I'm a student
+User(4): Ok..hello bot man...you would suck on Twitch
+Bot(4): I like see you, i the shelter
+User(5): OMG...that is a lot of freaking work to figure out what you are saying
+Bot(5): I'm and a funny one am also a musician. do you like music?
+User(6): I do...but only country
+Bot(6): I'm a is your favorite in high school.
+User(7): ????? You make no sense
+Bot(7): Thanks. I hope the so it's an animal 🙂
+User(8): Again...if you were on Twitch...you would be banned
+Bot(8): so wear a helmet while grocery store is where i work 💼 what about you
+User(9): I got nothing
+Bot(9): i like chicago , been there once you love be like to allergies since you host pets ? 😍
+User(10): This has gone south quickly
+Bot(10): Do you m a store Hindi?
+
+Persona:
+my name is george.
+i've light skin with big brown eyes.
+i used to be a painter but now i am a housekeeper.
+i am a little girl.
+i'm married with two kids.
+
+Topic and Human Opinion:
+Beginning: i'm a famous twitch streamer.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): What kind of food do you like??
+Bot(2): not picky . . . . i am usually game for different types of cuisine
+User(3): i've been trying all types of food everywhere i go
+Bot(3): i tried that . . it is hard to give up all the other foods
+User(4): I know...right...but sometimes you have to experiemnt
+Bot(4): i tried that . . it is hard to give up all the other foods
+User(5): Yeah, you said that already
+Bot(5): i tried that . . it is hard to give up all the other foods
+User(6): You are repeating yourself
+Bot(6): i already told you that
+User(7): Anyway...what is your favorite food
+Bot(7): i like about every food
+User(8): But you must have a favorite
+Bot(8): i love to try new food . .
+User(9): But you must have a favorite
+Bot(9): i love to try new food . .
+User(10): double talk
+Bot(10): this is a hard worl
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've been trying all types of food everywhere i go.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.29
+Robotic(↓): 100
+Interesting: 11
+Fun: 7
+Consistent: 79
+Fluent: 90
+Repetitive(↓): 100
+Topic: 88
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How do you feel about clowns
+Bot(2): clowns are scary , i totally get that !
+User(3): i am terrified of clowns due to childhood trauma
+Bot(3): i am too afraid of clowns even though i look like one
+User(4): Wait...you look like a clown?
+Bot(4): a clown like it ? that is kind of creepy . do you float ?
+User(5): What?? you are not making sense
+Bot(5): not many schools have it anymore . i retire at the end of the year .
+User(6): Ok, we are off topic
+Bot(6): its a chemistry exam i am a biology major at boston college
+User(7): Ok...but back to clowns
+Bot(7): clowns are scary , i totally get that !
+User(8): Yeah...now we are repeating ourselves
+Bot(8): yeah she hates it , the family vacations every winter in florida but she never comes .
+User(9): We are way off topic
+Bot(9): its a chemistry exam i am a biology major at boston college
+User(10): I am done
+Bot(10): i was drafted by the team last year , i get paid millions for playing basketball .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am terrified of clowns due to childhood trauma.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.00
+Robotic(↓): 99
+Interesting: 44
+Fun: 29
+Consistent: 29
+Fluent: 76
+Repetitive(↓): 94
+Topic: 18
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am a famous Twitch streamer
+Bot(1): hey ! do you like call of duty ?
+User(2): I do..I play it a lot and stream on Twitch
+Bot(2): that is nice i have more time on my hands since my wife left me
+User(3): Coo...that is great
+Bot(3): i love music and i am in the military
+User(4): Do you play games in the military?
+Bot(4): not outside call of duty no my husband got me into that game
+User(5): Cool...ever been in Twitch?
+Bot(5): not outside call of duty no my husband got me into that game
+User(6): Duplicate conversation
+Bot(6): yeah i know that . . it is pretty old
+User(7): Ok, you stopped making sense again
+Bot(7): youre not finished with the chat
+User(8): Huh?? Back to twitch...ever been there??
+Bot(8): oh ok . no i have not . . . .
+User(9): You should try it...it is fun
+Bot(9): lol . . really . . its interesting . . tell me something more . .
+User(10): I am a famous on Twitch...so I have a lot of experience and followers
+Bot(10): that is nice i have more time on my hands since my wife left me
+
+Persona:
+my wife left me and took my children.
+i am a piano teacher on the side.
+i play a lot of call of duty.
+i am in the army.
+i enjoy american sports.
+
+Topic and Human Opinion:
+Beginning: i'm a famous twitch streamer.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.57
+Robotic(↓): 100
+Interesting: 36
+Fun: 21
+Consistent: 70
+Fluent: 90
+Repetitive(↓): 92
+Topic: 31
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): I like to play with my toys
+Bot(2): i like to go to the beach and listen to music .
+User(3): I don't pick up my toys though...it makes my mom mad
+Bot(3): i am sorry to hear that . do you have any hobbies ?
+User(4): I play with my star wars figures a lot
+Bot(4): i like to play soccer .
+User(5): Fun...do you pick up your toys when you are done?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): But what about your toys??
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): Why are you repeating yourself??
+Bot(7): i am a student , but i am a student .
+User(8): No toys for students I guess
+Bot(8): i am sorry to hear that . i am sorry to hear that .
+User(9): Stop!!!
+Bot(9): i love to cook . i love to cook .
+User(10): Whaaaaa!!1 I now have to pick up my toys and I do not want to
+Bot(10): i am a girl . i am a big fan of classical music .
+
+Persona:
+i am a famous twitch streamer.
+i am not a good swimmer at all.
+i play a lot of call of duty.
+i am planning on getting a divorce.
+i've not spoken in three months.
+
+Topic and Human Opinion:
+Beginning: i do not pick up my toys.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 34
+Fluent: 92
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

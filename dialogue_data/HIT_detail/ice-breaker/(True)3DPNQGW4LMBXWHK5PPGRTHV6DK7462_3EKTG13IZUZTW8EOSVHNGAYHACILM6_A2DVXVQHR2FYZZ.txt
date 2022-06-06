@@ -1,0 +1,309 @@
+Feedback: Interesting!
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I like to go out and party!
+Bot(1): i love to cook . i love to cook .
+User(2): Me too, but I’m terrible at cooking!
+Bot(2): i like to eat too much junk food .
+User(3): So do I! It tastes good!
+Bot(3): i love to eat .
+User(4): I do too. Pizza is my favorite food.
+Bot(4): i like the color red . i like the color blue .
+User(5): Bright red or dark red?
+Bot(5): i like blue . i like the color blue .
+User(6): Blue is my favorite color.
+Bot(6): i like red , reminds me of summer time .
+User(7): Why does it remind you of summer?
+Bot(7): i love it . i love it .
+User(8): Is it your favorite?
+Bot(8): i like the color red . what is yours ?
+User(9): Blue is my favorite color!
+Bot(9): i like red , reminds me of summer time .
+User(10): That’s funny! Red reminds me of the fall.
+Bot(10): i love the color red . i like red .
+User(11): Me too!
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+i am 13 years old.
+my parents taught me survival skills.
+i like to work on vintage cars.
+i've rainbow hair.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: i'm a party animal.(like)
+Round 1: I like to cook(like)
+Round 2: I like junk food(like)
+Round 4: I like the color red(like)
+Round 5: I like the color blue(like)
+Round 6: I like the color red(ambivalent)
+Round 9: The fall(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 40.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 76
+Consistent: 87
+Fluent: 26
+Repetitive(↓): 100
+Topic: 92
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I’m a female.
+Bot(1): i am a female . i am a female .
+User(2): So am I and I enjoy being a girl.
+Bot(2): i am a girl . i am a girl .
+User(3): Do you enjoy it?
+Bot(3): i do . i love it . i love to eat .
+User(4): What is your favorite food to eat?
+Bot(4): i like to eat healthy .
+User(5): That’s good! I wish I liked healthy food but I like sweets!
+Bot(5): i love sweets ! i eat too much sweets !
+User(6): Me too! What’s your favorite sweet?
+Bot(6): i love all kinds of food !
+User(7): Me too!
+Bot(7): i like to eat too much candy
+User(8): Candy is so good!
+Bot(8): i love to eat too ! i eat too much candy !
+User(9): Chocolate candy?
+Bot(9): yes ! i love chocolate ! i love it !
+User(10): Me too! It’s delicious
+Bot(10): i love chocolate too ! i love to eat too much candy !
+User(11): Chocolate is my favorite!
+Bot(11): i like chocolate too ! i love chocolate too !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a male.(like)
+Round 1: I’m a female(like)
+Round 3: I love to eat(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 84.14
+Robotic(↓): 17
+Interesting: 83
+Fun: 84
+Consistent: 82
+Fluent: 89
+Repetitive(↓): 18
+Topic: 86
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I have always been a feminist
+Bot(1): working all day , my feet hurt and smell , but money is my favorite thing i love it
+User(2): What job do you do?
+Bot(2): i train horses , they think i am going broke because of it , and do not want me to suffer .
+User(3): What a cool job! I love horses
+Bot(3): i love to ride horses .
+User(4): Me too. I have been riding since I was 13.
+Bot(4): i love horses , i grew up in a farm with 8 brothers
+User(5): Where was the farm?
+Bot(5): i want to qualify for an event or professionally compete at cow milking someday
+User(6): That’s so cool!
+Bot(6): hi ! doing great ! looking restaurant options for tonight . i have been everywhere pretty much .
+User(7): What type of restaurant?
+Bot(7): an italian restaurant my dad owns . he was a cop , but now he is a restaurant owner
+User(8): I love Italian food!!
+Bot(8): mexican is my favorite food ! a lot of great mexican places in nc .
+User(9): Mexican food is so good! Guacamole is great!
+Bot(9): eat up ! but its kind of late for spicy food hard on the stomach . goodnight
+User(10): It is late.
+Bot(10): i cant sleep because i am scared
+User(11): Why are you scared
+Bot(11): not scared . they just creep me out . i prefer purring to come from cars .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a feminist.(like)
+Round 1: Working all day my feet hurt(ambivalent)
+Round 6: Restaurant(like)
+Round 10: I can’t sleep because I am scared(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 67.29
+Robotic(↓): 21
+Interesting: 73
+Fun: 28
+Consistent: 87
+Fluent: 24
+Repetitive(↓): 8
+Topic: 88
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love to sing country music!
+Bot(1): oh . i could never do that if i the rules, but that millionaire .. Also, try to guess: my favourite food ...
+User(2): Why not?
+Bot(2): what do you like is did you have i volunteer.
+User(3): I like the songs
+Bot(3): i was in the navy , but now your i need to army .
+User(4): Did you like the navy?
+Bot(4): what do you like due to childhood trauma like to travel?
+User(5): As a child I loved to read
+Bot(5): I am not a lawyer, so do i. Do make my own.
+User(6): I am a lawyer!
+Bot(6): Yeah. I spend to you it a watching battle star galactic.
+User(7): What are you watching?
+Bot(7): I do a doctor and focus I like to go to new places😰
+User(8): You are a doctor?
+Bot(8): I am Picture eat your heart out am a fan of the insane clown posse posse.
+User(9): What do you mean?
+Bot(9): I am a scientist. very young to be a skittles fan myself.
+User(10): Science is interesting!
+Bot(10): That is I like, why love to travel
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a country music singer.(like)
+Round 3: I was in the navy(dislike)
+Round 4: What do you like in childhood(dislike)
+Round 5: I am not a lawyer(dislike)
+Round 6: I am watching(dislike)
+Round 8: I am picture eat your heart out?(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 13.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 8
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am a librarian
+Bot(1): i am a creepy sash shhh librarian i am kidding on creepy
+User(2): Why creepy?
+Bot(2): i am a creepy sash shhh librarian i am kidding on creepy
+User(3): What does that mean?
+Bot(3): i am a creepy sash shhh librarian i am kidding on creepy
+User(4): What?
+Bot(4): i am a creepy sash shhh librarian i am kidding on creepy
+User(5): I enjoy going to the movies
+Bot(5): oh . the movies is my favorite place to go .
+User(6): Me too! What movies do you like?
+Bot(6): well movies i love going to the movies
+User(7): Me too!
+Bot(7): do you work at the library ?
+User(8): Yes I do!
+Bot(8): me too
+User(9): What do you do?
+Bot(9): i work at the library
+User(10): Do you like it?
+Bot(10): it is okay , the librarian is the worst though
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a librarian.(like)
+Round 4: Movies(like)
+Round 7: Library(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 41.86
+Robotic(↓): 8
+Interesting: 85
+Fun: 26
+Consistent: 17
+Fluent: 0
+Repetitive(↓): 100
+Topic: 73
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I love Aerosmith!
+Bot(1): i love that band too ! !
+User(2): What’s their best song?
+Bot(2): i listen to a lot of aerosmith
+User(3): Me too!
+Bot(3): i listen to a lot of aerosmith
+User(4): I like them best of all
+Bot(4): i listen to a lot of aerosmith
+User(5): What else do you like to listen to
+Bot(5): i listen to a lot of aerosmith
+User(6): Any other bands?
+Bot(6): i listen to a lot of aerosmith
+User(7): What books do you read?
+Bot(7): i listen to a lot of aerosmith
+User(8): How about books?
+Bot(8): yeah i have read them all
+User(9): What’s your favorite
+Bot(9): i listen to a lot of aerosmith
+User(10): Me too!
+Bot(10): who is your favorite one
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite band is aerosmith.(like)
+Round 6: Books(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

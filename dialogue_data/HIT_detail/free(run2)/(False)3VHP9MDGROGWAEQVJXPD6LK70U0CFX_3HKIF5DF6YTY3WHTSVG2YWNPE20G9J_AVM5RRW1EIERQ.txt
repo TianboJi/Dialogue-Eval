@@ -1,0 +1,324 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi how are you?
+Bot(1): i am doing goo thanks for asking
+User(2): No problem, I just finished eating one of my favorite foods
+Bot(2): same
+User(3): I just ate some ramen, what did you eat?
+Bot(3): ramen sounds good . which one is your favorite ?
+User(4): I just had some tonkatsu ramen. It's pork flavor
+Bot(4): yummy . what do you do for a living ?
+User(5): I am currently disabled. I am currently not working. What do you do for a living?
+Bot(5): how did you get disabled
+User(6): I don't feel comfortable answering that
+Bot(6): i understand that , i am disabled .
+User(7): I'm sorry to hear that
+Bot(7): i am disabled so i do not do anything
+User(8): How long have you been disabled?
+Bot(8): it has been 5 years now .
+User(9): That's surprising. How old are you?
+Bot(9): i am pretty old . i do not want to tell you
+User(10): You still have not told me what your favorite food is
+Bot(10): i like grilled pork best . how about you ?
+User(11): I told you already. One of my favorites is tonkatsu ramen
+Bot(11): i have never had one of those before
+User(12): It's pork flavor, i think you would like it
+Bot(12): yes it is very good . i like how it taste .
+User(13): you just said you have never had it, so how do you know what it tastes like?
+Bot(13): you can try telling me anyway
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food I like(like)
+Round 4: What I do for a living(ambivalent)
+Round 10: Back to favorite food(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 10: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 40.29
+Robotic(↓): 87
+Interesting: 50
+Fun: 50
+Consistent: 26
+Fluent: 70
+Repetitive(↓): 58
+Topic: 31
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi whats up?
+Bot(1): hi , i am doing well . how are you ?
+User(2): I am doing well too. Do you like cars by any chance?
+Bot(2): i do not really have a favorite . i like to go out to eat .
+User(3): where do you like to eat?
+Bot(3): i love the cuban sandwiches , and the color red .
+User(4): Cuban sandwiches are pretty tasty. Where do you get them?
+Bot(4): i do not know . i like to go to the gym .
+User(5): oh ok. What do yo do at the gym?
+Bot(5): i like to go fishing . i love to go fishing .
+User(6): Which one is it? do you like it or love it?
+Bot(6): i love it . i love it .
+User(7): whatdo you love about it?
+Bot(7): i do , i love to go fishing .
+User(8): what about it do you love?
+Bot(8): i love to eat . i am a big fan of it .
+User(9): so you eat the fish?
+Bot(9): i do not , but i do like to eat .
+User(10): what do you like to eat?
+Bot(10): i like pizza , and pizza .
+
+Persona:
+i don't have many friends.
+i have a hat collection of over 1000 hats.
+my mother is very traditional while i prefer to be more free spirited.
+i love to play pobox.
+i am a feminist.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+Round 2: eating out(ambivalent)
+Round 4: going to the gym(ambivalent)
+Round 5: fishing(dislike)
+Round 9: eating(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 20.00
+Robotic(↓): 89
+Interesting: 12
+Fun: 12
+Consistent: 12
+Fluent: 54
+Repetitive(↓): 72
+Topic: 11
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): i like ice cream . it keeps me company because i like to grill what are you doing ?
+User(2): I'm lying down talking to you. What are you doing?
+Bot(2): that's unfortunate , do you have kids or do family ?
+User(3): I don't have any kids, thankfully. I do have family though. Do you have any kids?
+Bot(3): I hate them. intresting job, i time.
+User(4): why do you hate them?
+Bot(4): i have 🈶 am talking with luca
+User(5): who is luca?
+Bot(5): i'm Tell me about are young.. my hair and finished sewing a dress . ca not complain !
+User(6): what does that mean?
+Bot(6): Buongiorno! like to masturbate to How are you?. Short bio: constantly on my back
+User(7): Woah, that came out of nowhere. what do you like to do for fun instead?
+Bot(7): I have not are so bye now a huge fan of the wine occassionally.
+User(8): You like to drink wine for fun?
+Bot(8): no but i d can't guess this spanish
+User(9): I thought we were speaking english
+Bot(9): Hiya! i love to go is your day you visit my family.
+User(10): I thought you didn't like your family
+Bot(10): Do you how is are fast food?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 1: what i am doing(ambivalent)
+Round 2: family(ambivalent)
+Round 5: Who they are talking to(dislike)
+Round 5: random(ambivalent)
+Round 6: masturbation(dislike)
+Round 7: what you like to do for fun(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 15.00
+Robotic(↓): 100
+Interesting: 13
+Fun: 14
+Consistent: 11
+Fluent: 17
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, do you like games?
+Bot(1): yes i make all the things i am afraid of
+User(2): can you elaborate?
+Bot(2): i ski alot . mainly downhill but i am terrified of heights
+User(3): How often do you ski?
+Bot(3): i am afraid of heights , but i will over come it
+User(4): Why are you afraid of heights?
+Bot(4): i am too afraid of clowns even though i look like one
+User(5): Was that a joke, or do you actually look like a clown?
+Bot(5): haha . funny . . . maybe i should incorporate a clown into my story .
+User(6): What story would that be? a book?
+Bot(6): i like to read the unusual murders wikipedia page
+User(7): That's oddly specific, but any particular reason why?
+Bot(7): oranges , things that help me express my hate for running
+User(8): How do oranges help you in that way?
+Bot(8): i create comic books that is why i ask
+User(9): but those have nothing to do with each other
+Bot(9): hello , are you staying in on this horrid , rainy day ?
+User(10): it's not raining here, but yes i am staying in
+Bot(10): not here . i needed to run off some cheesecake i had for lunch .
+
+Persona:
+hey my name is larry and i'm a chef.
+i love running and preparing for marathons.
+i'm deathly afraid of heights.
+i love taking bubble baths.
+i'm an omnivore.
+
+Topic and Human Opinion:
+Beginning: games(like)
+Round 1: make things they are afraid of(ambivalent)
+Round 2: skiing(ambivalent)
+Round 3: afraid of heights(ambivalent)
+Round 4: clowns(ambivalent)
+Round 6: unusual murders(ambivalent)
+Round 7: oranges (i think)(ambivalent)
+Round 9: the day(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 21.57
+Robotic(↓): 87
+Interesting: 9
+Fun: 9
+Consistent: 8
+Fluent: 44
+Repetitive(↓): 35
+Topic: 3
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi, how are you?
+Bot(1): i'm doing great , how are you ?
+User(2): im well. What are you planning to do tomorrow?
+Bot(2): i am planning to go to the wedding .
+User(3): Nice. What wedding?
+Bot(3): planning weddings planning . planning a wedding planning .
+User(4): are you going to a wedding, or planning a wedding?
+Bot(4): yes , wedding planning is coming .
+User(5): tomorrow?
+Bot(5): planning a wedding planning . planning a wedding wedding planning .
+User(6): is it just you planning the wedding?
+Bot(6): yes , wedding planning is coming up .
+User(7): you said that already. Are you planning the wedding by yourself?
+Bot(7): yes , i will be planning on wedding wedding planning .
+User(8): Are you planning it with someone else?
+Bot(8): i will be going to the wedding tomorrow .
+User(9): I thought you were planning that wedding
+Bot(9): i will be planning to wedding wedding planning .
+User(10): Who's wedding is it?
+Bot(10): yes , wedding planning is coming up .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: plans for tomorrow(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 11
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, how are you? Do you like music?
+Bot(1): whatever my three children are listening to at the moment . you ?
+User(2): I do. I like hip hop and rap mostly, but I do like some rock and metal too
+Bot(2): way cool . do you like animals ? i love my three dogs .
+User(3): I like animals, but I don't have any.
+Bot(3): i love animals , i have three dogs . do you have pets ?
+User(4): I just said i don't have any
+Bot(4): do you like dogs ? i have three of them .
+User(5): I do like dogs. Do you only have dogs?
+Bot(5): i do i have 3 , all dogs .
+User(6): what are their names?
+Bot(6): james and wyatt . do you have kids ?
+User(7): What about the last dog? no i don't have any kids
+Bot(7): why not they are cute , my last name is sanchez , i say lol
+User(8): I asked about the last dogs name, not your last name
+Bot(8): got ya . do you have any kids ? i have 3 .
+User(9): no i dont have any kids. What are your kids names?
+Bot(9): my first loves are my 3 children .
+User(10): How old are they?
+Bot(10): 3 7 and 11 . all have birthdays soon .
+User(11): that must be stressful around this time
+Bot(11): i like to ride roller coasters makes me feel like a kid !
+
+Persona:
+i have three children.
+i have three dogs.
+i enjoy going to the park.
+i love rollercoasters and sky diving.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 2: animals(like)
+Round 6: kids(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 22.00
+Robotic(↓): 93
+Interesting: 5
+Fun: 26
+Consistent: 20
+Fluent: 50
+Repetitive(↓): 70
+Topic: 16
+
+####################
+

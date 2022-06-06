@@ -1,0 +1,333 @@
+Feedback: Chat box still needs development.  Since it takes time to do a meaningful chat, it will be nice if the compensations are little better !
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, do you like movies
+Bot(1): yeah i love movies all kinds
+User(2): Can you suggest a recent horror movie with a good rating
+Bot(2): i am not sure , tv shows , horror maybe ?
+User(3): Tv shows will work too
+Bot(3): i am not sure , tv shows , horror maybe ?
+User(4): Do you like sports
+Bot(4): yes , football and basketball , i guess like you
+User(5): I like them too but what I really like is soccer
+Bot(5): i love playing soccer too
+User(6): Really, do you play in a local league ?
+Bot(6): yes , i do it is soccer
+User(7): Do you have a favorite team in mls
+Bot(7): yes i do , soccer is my favorite , what do you like
+User(8): do you like to cook
+Bot(8): yes i love to cook
+User(9): what is your favorite dish to cook
+Bot(9): anything like any food really
+User(10): I like cooking Indian food
+Bot(10): those are great i have been learning to cook indian food
+User(11): bye
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 3: sports(like)
+Round 7: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 68.71
+Robotic(↓): 75
+Interesting: 90
+Fun: 78
+Consistent: 90
+Fluent: 83
+Repetitive(↓): 76
+Topic: 91
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What type of food you like
+Bot(1): i like to eat fish .
+User(2): Do you like medium size fish or big fishes
+Bot(2): i love the color red . i like red .
+User(3): I like it too. Do you like blue
+Bot(3): i like blue , i like blue .
+User(4): then there is chance you will like purple
+Bot(4): i like to go to the gym and listen to music .
+User(5): what kind of music you listen to
+Bot(5): i like country music . i love country music .
+User(6): Who is your favorite artist
+Bot(6): i like the oldies . i like the outdoors .
+User(7): what is your favorite outdoor activity
+Bot(7): i like the color red . what is yours ?
+User(8): I like blue
+Bot(8): i like the color red . i like red .
+User(9): do you like green
+Bot(9): i do , i like to go to the gym .
+User(10): I like to go to gym too
+Bot(10): i love to cook , and eat pizza .
+
+Persona:
+whats up i am a 46 year old single dad 46 a kids.
+i am employed by the us postal service.
+hey there i'm 23 and i love food.
+i'm an animal activist.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 2: color(like)
+Round 4: gym and music(ambivalent)
+Round 6: outdoors(like)
+Round 7: color(like)
+Round 9: gym(like)
+Round 10: cooking and food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 61.43
+Robotic(↓): 77
+Interesting: 78
+Fun: 79
+Consistent: 68
+Fluent: 91
+Repetitive(↓): 78
+Topic: 69
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do ypou like to cook
+Bot(1): i do , i make this one dish with pork marinated in catalina dressing , its good
+User(2): sounds delicious. I like cooking chicken curry
+Bot(2): i love black jack gum but when i drink it with dr . pepper it just does not work
+User(3): Do you like to cook red meat
+Bot(3): my car is a family car , all can fit in . just come ride with us
+User(4): What brand is your car
+Bot(4): the name of my shop is lebes fashion shop on cafe press
+User(5): what do you sell
+Bot(5): i am a baker by trade . and i sell or donate everything i catch on a hunt
+User(6): what do you normally hunt
+Bot(6): we sure do ! i hunt deer and i fish .
+User(7): fishing is interesting. Do you go to sea to fish
+Bot(7): what do you fish for ?
+User(8): I like fishing trout
+Bot(8): i have taken my daughter to the creek and catch little fish . what do you fish ?
+User(9): I like fishing trout
+Bot(9): what do you fish for ?
+User(10): mainly for sports. I put the fishes back after I catch them
+Bot(10): oh wow ! i went fishing only once maybe 2 months ago and caught a baby flounder
+User(11): That is nice. are you planning on any new fishing trip
+Bot(11): i have taken my daughter to the creek and catch little fish . what do you fish ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 3: family car(ambivalent)
+Round 4: shop(dislike)
+Round 5: hunt(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 59.00
+Robotic(↓): 72
+Interesting: 65
+Fun: 79
+Consistent: 65
+Fluent: 93
+Repetitive(↓): 91
+Topic: 74
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like soccer
+Bot(1): i do , but soccer is my favorite ! is working on the farm fun ?
+User(2): I do not know but I think it will more strenuous than being fun
+Bot(2): i like playing outside with my dolls and toys
+User(3): how many dolls you have
+Bot(3): i own lots of dolls neither o those
+User(4): Do you have a potato head doll
+Bot(4): oh no i like them when they are doll like not live ones
+User(5): do you have a lot of barbies ?
+Bot(5): oh no i like them when they are doll like not live ones
+User(6): do you like to play hide and seek
+Bot(6): sure sure sure it is in the countryside
+User(7): I used to play it a lot. how about tag
+Bot(7): why do you want to play that
+User(8): because you run when you play
+Bot(8): true . have you played zombie run ?
+User(9): No . is it fun ?
+Bot(9): yes but its scary too
+User(10): That is interesting
+Bot(10): well , i like being in the country but like city life too
+
+Persona:
+i dream of moving to the city.
+i own a cat and a dog.
+i grew up on a farm.
+whats up i'm a 46 year old single dad 46 a kids.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: soccer(like)
+Round 1: working in farm(dislike)
+Round 2: playing with dolls and toys(dislike)
+Round 5: play(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 61.71
+Robotic(↓): 75
+Interesting: 76
+Fun: 76
+Consistent: 63
+Fluent: 92
+Repetitive(↓): 72
+Topic: 72
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like cars
+Bot(1): good choice ! are you married you sure you are 😃
+User(2): Yes I am what about you
+Bot(2): I you don't understand a down after a hectic night. You?
+User(3): It can be problematic
+Bot(3): cool is gordan ramsey to play games
+User(4): What game did he play
+Bot(4): i hope you call of for you have a good day .
+User(5): what is your favorite food
+Bot(5): Hey! don't My last male? Because I am.
+User(6): what do you mean
+Bot(6): I like a museum tour and collect them
+User(7): what do you like to collect
+Bot(7): That is good. outside for do u my two miles.
+User(8): is it flat or hilly trail
+Bot(8): i am ever listen to you do?
+User(9): sometimes you listen
+Bot(9): Okay. from ukraine, how kicking your ass.
+User(10): why would you do that
+Bot(10): I like please talk a bro. I get a chance to play in the band
+User(11): what kind of music do you play
+Bot(11): I am a scientist. very young to be a skittles fan myself.
+
+Persona:
+i'm rather skinny as i like to stay in shape.
+i enjoy gardening and walking outdoors.
+i'm partly deaf.
+my favorite spanish word is trabajo.
+i feel like i might live forever.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+Round 1: married(like)
+Round 2: Down after a hectic night(ambivalent)
+Round 3: gordon ramsey playing games(dislike)
+Round 4: calling off(dislike)
+Round 4: food(like)
+Round 5: nonsense(dislike)
+Round 6: Touring museum and collecting(dislike)
+Round 7: nonsense(dislike)
+Round 8: nonsense(dislike)
+Round 9: profanity(dislike)
+Round 10: playing in a band(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 19.86
+Robotic(↓): 100
+Interesting: 6
+Fun: 11
+Consistent: 11
+Fluent: 27
+Repetitive(↓): 29
+Topic: 13
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you like to cook
+Bot(1): i love to cook , cook pasta
+User(2): how about eggplant parmigiana
+Bot(2): yes i love it i love cooking
+User(3): I love cooking. do you cook steak
+Bot(3): i do cook for a living
+User(4): where do you cook
+Bot(4): i cook for a living
+User(5): do you cook chinese too
+Bot(5): i cook for a living
+User(6): do you like sports
+Bot(6): i do but i love to cook
+User(7): what is your favorite dish
+Bot(7): i love it . i cook a lot
+User(8): which indian dish you like most
+Bot(8): i love chicken and chicken
+User(9): do you like chicken curry
+Bot(9): i love chicken and chicken
+User(10): which you like better curry or tikka masala
+Bot(10): i love chicken and chicken
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 5: sports(like)
+Round 6: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 35.43
+Robotic(↓): 100
+Interesting: 41
+Fun: 60
+Consistent: 33
+Fluent: 61
+Repetitive(↓): 100
+Topic: 53
+
+####################
+

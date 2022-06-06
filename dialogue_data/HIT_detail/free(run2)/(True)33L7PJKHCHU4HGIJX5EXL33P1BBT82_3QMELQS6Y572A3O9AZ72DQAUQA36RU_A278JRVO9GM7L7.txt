@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hello , do you like dogs ? i love animals , i have 2 dogs .
+User(2): Yes, I love dogs. I have two dogs and a pet rat.
+Bot(2): i do like dogs but i have 6 cats and no dogs .
+User(3): have you ever had a pet rat?
+Bot(3): how many dogs do you have ?
+User(4): yes I have 2
+Bot(4): what kind of dogs do you have .
+User(5): Chihuahuas, what kind of dogs do you have?
+Bot(5): i love dogs , i have two of them .
+User(6): What kind of dogs do you have?
+Bot(6): i do not have any dogs . you ?
+User(7): I have two dogs. Do you like rats?
+Bot(7): i do like dogs but i have 6 cats and no dogs .
+User(8): What kind of cats?
+Bot(8): not really i just started collecting ugly cats i see in antique stores .
+User(9): so they aren't real cats?
+Bot(9): no dogs do not do so good around the cats . cool name !
+User(10): Thats very true
+Bot(10): a hospital , as a scientist you ?
+
+Persona:
+i help out at the food bank occasionally.
+i work at a nursing home.
+i am single and with two dogs.
+i'm a gold medalist olympian.
+i've a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: Pet rats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.57
+Robotic(↓): 100
+Interesting: 18
+Fun: 59
+Consistent: 14
+Fluent: 50
+Repetitive(↓): 100
+Topic: 24
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, I am thinking about what ill have for dinner. What are you having for dinner?
+Bot(1): i was thinking about chicken salad .
+User(2): yum chicken salad sounds good
+Bot(2): i was thinking about chicken salad .
+User(3): Can you tell me the recipe?
+Bot(3): haha i am not sure but you can cook some for me if you want
+User(4): Ok. Whats your favorite food?
+Bot(4): my favorite would have to be stuffed chicken marsala
+User(5): That sounds so good. Mine is pizza
+Bot(5): i love sweet and sour chicken as well . i also like pizza
+User(6): Do you eat chicken often?
+Bot(6): yes i love gyros . i make my own sometimes
+User(7): I do too! Do you ever make steak?
+Bot(7): yes i love gyros . i make my own sometimes
+User(8): Have you ever tried steak?
+Bot(8): i have , its pretty good and i am a huge pizza fan
+User(9): What kind of pizza is your favorite?
+Bot(9): pizza ! i like it extra cheesy
+User(10): ME TOO!
+Bot(10): i have been experimenting with different salad recipes lately
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.29
+Robotic(↓): 95
+Interesting: 24
+Fun: 31
+Consistent: 23
+Fluent: 37
+Repetitive(↓): 80
+Topic: 44
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): there is construction going on next door
+Bot(1): i am on my swing set with my dolls
+User(2): Did they just build the swing set?
+Bot(2): i am on my swing set with my dolls
+User(3): They are building a garage next to my house
+Bot(3): i am on my swing set with my dolls
+User(4): I am happy because people will have places to park
+Bot(4): i am on my swing set with my dolls
+User(5): Have you ever heard loud construction?
+Bot(5): yeah do they have adequate ramps
+User(6): where are the ramps?
+Bot(6): yeah do they have adequate ramps
+User(7): thats good. I hope they built enough
+Bot(7): yeah do they have adequate ramps
+User(8): I have seen the do construction on ramps before looks like alot of work, what do you think?
+Bot(8): yeah do they have adequate ramps
+User(9): They are going to build ramps in the garage next door as well
+Bot(9): yeah do they have adequate ramps
+User(10): I hope the ones near my house are adequate
+Bot(10): yeah do they have adequate ramps
+
+Persona:
+i'll be released in about a month.
+i speak chinese.
+i have light skin with big brown eyes.
+i am a musician and hope to make it big some day.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: Construction(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 10
+Repetitive(↓): 100
+Topic: 4
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Seen any good movies lately
+Bot(1): i do not have any movies
+User(2): I saw a good one lately. Its called Room, have you seen it?
+Bot(2): no , i was just a movie fan
+User(3): I like movies as well
+Bot(3): i was just watching movies with my friends
+User(4): I dont like the movie theater though, do you?
+Bot(4): i do , i love movies , i am a fan of it
+User(5): How often do you go to the theater?
+Bot(5): i do , i love the theater
+User(6): When you watch a movie do you eat popcorn?
+Bot(6): i do not , i like to eat popcorn
+User(7): Me to and soda. Whats your favorite kind of soda
+Bot(7): pepsi is my favorite . do you have any hobbies ?
+User(8): yeah watching movies is my hobbies. Whats yours?
+Bot(8): i like to watch movies
+User(9): Cool. Do you have a favorite movie?
+Bot(9): i like the old movie movies
+User(10): I like newer ones
+Bot(10): i like the old ones .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.71
+Robotic(↓): 84
+Interesting: 54
+Fun: 45
+Consistent: 36
+Fluent: 41
+Repetitive(↓): 70
+Topic: 28
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like milk in your cereal?
+Bot(1): . yeah , i can fine, like to work on of me. what are you doing ?
+User(2): Im drinking milk at the moment
+Bot(2): What do am old boy. do?
+User(3): Do you know where milk comes from?
+Bot(3): I you x saying,
+User(4): It comes from a cow
+Bot(4): Buongiorno! Such a nice day! it I bought 2 bio: i am a feminist
+User(5): Did you know there is also goat milk and almond milk
+Bot(5): what do you do in summer in the What love photography.
+User(6): Whats your favorite milk type?
+Bot(6): yeah but i wanna too. And I'm a hippo
+User(7): Mine is definitely cows milk
+Bot(7): cool ! do you like great retired living too for my school chorus
+User(8): I love milk in my icecream make a milkshake
+Bot(8): What do hero is amir about you?
+User(9): Milkshakes are really good especially when you make them at home with your own milk
+Bot(9): i books are you play .
+User(10): I am going to go make a milkshake now
+Bot(10): i like to read , and alot to enjoy walking you ?
+
+Persona:
+i've never had a steady relationship.
+i do like watching cooking shows.
+i'm married with two kids.
+my name is george.
+i enjoy gardening and walking outdoors.
+
+Topic and Human Opinion:
+Beginning: Milk(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 19
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I want a baby
+Bot(1): i do not know how to drive . i like to go fishing .
+User(2): Babies cant drive or fish.
+Bot(2): i like to go to the beach and listen to music .
+User(3): Do you want a baby that you can bring to the beach with you?
+Bot(3): i do not have any pets . i do not have any pets .
+User(4): A baby is similar to a pet but a lot more work
+Bot(4): i like to go to the gym and listen to music .
+User(5): A baby can go to a gym they have daycare centers
+Bot(5): i like to eat fish .
+User(6): Ive heard you cant eat fish while pregnant but you can afterwards
+Bot(6): i like to eat the skin .
+User(7): Ew I dont like the skin but that shouldn't hurt your baby. Do you have a baby?
+Bot(7): i do not , but i do like to eat .
+User(8): Babies like to eat as well
+Bot(8): i like to eat fish .
+User(9): Babies can have fish
+Bot(9): i do not know what to say .
+User(10): I want three babies how many do you want?
+Bot(10): i have two . i love them .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Babies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.43
+Robotic(↓): 89
+Interesting: 40
+Fun: 68
+Consistent: 16
+Fluent: 32
+Repetitive(↓): 31
+Topic: 19
+
+####################
+

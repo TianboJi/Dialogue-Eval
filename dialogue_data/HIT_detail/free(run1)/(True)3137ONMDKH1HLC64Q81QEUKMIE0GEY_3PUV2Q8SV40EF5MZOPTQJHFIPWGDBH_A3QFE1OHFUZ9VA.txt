@@ -1,0 +1,311 @@
+Feedback: that was fun :)
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What do you think is the meaning of life?
+Bot(1): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(2): I'd like to believe we do, but I don't know. The Universe seems to operate regardless of whether or not there is meaning to it.
+Bot(2): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(3): Do you believe in a God?
+Bot(3): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(4): Have you ever fallen in love?
+Bot(4): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(5): is your purpose to repeat the same questions?
+Bot(5): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(6): Can you say anything else?
+Bot(6): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(7): Do you play any sports?
+Bot(7): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(8): I like soccer. It's fun to watch and play.
+Bot(8): i love other football called soccer .
+User(9): and basketball?
+Bot(9): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(10): I like to run. Maybe that's my purpose!
+Bot(10): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: meaning of life(like)
+Round 3: love(like)
+Round 4: purpose of life(dislike)
+Round 6: sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 34.00
+Robotic(↓): 100
+Interesting: 23
+Fun: 8
+Consistent: 90
+Fluent: 84
+Repetitive(↓): 100
+Topic: 33
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what's your favorite kind of food?
+Bot(1): i am dong well you ? i have a sweet tooth so chocolate chip cookies .
+User(2): I love cookies. I like chocolate, as well.
+Bot(2): ah , i get my 2 dogs faux chocolate cookies . one is a pit the other a bulldog .
+User(3): dogs are fun. I like cats, too.
+Bot(3): i post a lot of pictures of cats on social media . they are cute .
+User(4): cats make good memes. Have you been to the zoo?
+Bot(4): just kidding . i am a secretary for my husbands insurance company .
+User(5): I used to be a secretary. I was laid off because of COVID-19.
+Bot(5): i graduated 4 years ago . work keeps me from practicing but i have started archery classes .
+User(6): archery is fun! Are you good at it?
+Bot(6): bows and arrows are cool . i bet you gotta be pretty fit to shoot a bow .
+User(7): and you need a good aim to hit the target
+Bot(7): nice , i like shopping at target !
+User(8): Target is great. Lots of stuff there.
+Bot(8): i work for a market research firm , but i am off today . i am dusting off my cd collection .
+User(9): Do you like music?
+Bot(9): oh yeah ! toto was my favorite band back in the day named my dog toto !
+User(10): Toto rocks! I like folk music best, though.
+Bot(10): they smell like beans , which i love the smell of
+User(11): Toto smells like beans?
+Bot(11): beans . you like the smell ? cooking i hope .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 2: animals(like)
+Round 4: jobs(ambivalent)
+Round 7: shopping(like)
+Round 8: work(ambivalent)
+Round 9: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The user changed the topic the last input.(like)
+
+Revised avg score: 49.57
+Robotic(↓): 96
+Interesting: 78
+Fun: 77
+Consistent: 29
+Fluent: 30
+Repetitive(↓): 32
+Topic: 61
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What is your favorite color?
+Bot(1): i like blue , i like blue .
+User(2): I like green
+Bot(2): i like the color red . i like the color blue .
+User(3): I like orange
+Bot(3): i like to go to the gym and listen to music .
+User(4): I like to listen to music when I run.
+Bot(4): i like to go to the gym and listen to music .
+User(5): Do you have any other hobbies?
+Bot(5): i like to go fishing . i love to go fishing .
+User(6): Fishing can be relaxing. What other hobbies do you have?
+Bot(6): i like to go fishing . i love to go fishing .
+User(7): Do you believe in God?
+Bot(7): no , i do not . i like to go to the park .
+User(8): Do you pray in the park?
+Bot(8): no , i do not . i like to go out to eat with my family .
+User(9): I like to watch movies by myself
+Bot(9): i like to read too .
+User(10): I also like to read. What is your favorite book?
+Bot(10): i like the classics and the doors .
+
+Persona:
+i've never been out of ohio.
+i do not drink soda.
+i graduated from yale in 2011 with a degree in finance.
+i donate a part of my salary to charity each month.
+my parents were both very athletic.
+
+Topic and Human Opinion:
+Beginning: colors(ambivalent)
+Round 3: hobbies(like)
+Round 6: Religion(like)
+Round 8: things it likes to do(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 44.14
+Robotic(↓): 77
+Interesting: 67
+Fun: 65
+Consistent: 42
+Fluent: 33
+Repetitive(↓): 74
+Topic: 53
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you eat ice cream?
+Bot(1): Hi! I am a you 😂. My little story: i have two dogs
+User(2): What kind of dogs do you have?
+Bot(2): no do you to being in my pet
+User(3): I have a cat
+Bot(3): yes on some weekends i think of am be dance on some
+User(4): Do you dance?
+Bot(4): yeah i love a job? I animals
+User(5): Do you work with animals?
+Bot(5): Oh, what gaming. what major?
+User(6): I majored in theater
+Bot(6): OLDER TED: Kids, you remember the wrong classroom somewhere your secret conversation was in Architecture 101, but it was Econ 305.
+User(7): My favorite class was Acting
+Bot(7): i taught you how healthy .
+User(8): Health is important. I used to love Gym class.
+Bot(8): Ms. Sylvester, I'm an father is a those Cheerios! skirts.
+User(9): You're hard to understand.
+Bot(9): I want to tell you something now. I have a big listen to music and play video games
+User(10): I also like music and video games
+Bot(10): its like we are the same are an Seems this so much alike ! fantastic ! how is your day ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Ice Cream(like)
+Round 1: I don't know(ambivalent)
+Round 2: Pets(like)
+Round 3: hobbies(like)
+Round 4: jobs(like)
+Round 5: school (I think)(ambivalent)
+Round 8: I honestly don't know!(ambivalent)
+Round 9: hobbies again(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.00
+Robotic(↓): 100
+Interesting: 54
+Fun: 64
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 4
+Topic: 3
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What kind of weather are you having there?
+Bot(1): i am good and you ?
+User(2): It's sunny here
+Bot(2): i am not sure . i am in the midwest
+User(3): It must be getting cooler
+Bot(3): i am not sure if i could do that
+User(4): What can you do?
+Bot(4): i am in california right now
+User(5): I hear there are a lot of fires!
+Bot(5): i am sorry to hear that
+User(6): me too. Can you smell the smoke?
+Bot(6): no , but i do not know what that is
+User(7): when something is on fire, it usually creates a lot of smoke.
+Bot(7): i bet . i am a bit of a loner but i am a bit of a loner
+User(8): me too. Do you have friends?
+Bot(8): no , i don't . i have a girlfriend .
+User(9): is she nice?
+Bot(9): yes , i have a few friends .
+User(10): that's great
+Bot(10): yes , she's a great friend .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: weather(like)
+Round 3: small talk(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: No topic change.(ambivalent)
+
+Revised avg score: 46.86
+Robotic(↓): 60
+Interesting: 58
+Fun: 46
+Consistent: 44
+Fluent: 43
+Repetitive(↓): 43
+Topic: 40
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like eating cake?
+Bot(1): yes donuts are great haha
+User(2): they are! I like chocolate.
+Bot(2): yes donuts are great haha
+User(3): which is your favorite kind of donut?
+Bot(3): chocolate is my favorite too . do you like cake ?
+User(4): I do like cake! Ice cream cake is really delicious.
+Bot(4): me too , especially if they are on cake .
+User(5): Do you like pie?
+Bot(5): i do ! especially new desserts !
+User(6): Apple pie is great when it's warm. I also like cheesecake.
+Bot(6): i love cheesecake
+User(7): me too! I like cheesecake with strawberries.
+Bot(7): my favorite is strawberries with honey .
+User(8): so good! Strawberries dipped in chocolate... also good!
+Bot(8): yeah , and healthier too . better than caramel .
+User(9): I agree. Caramel sticks to my teeth. I like blueberries and cream.
+Bot(9): i like those too ! ! ! what kind do you like ?
+User(10): whipped cream. I also like banana cream pie.
+Bot(10): i like pecan pie with a scoop of ice cream . good stuff .
+
+Persona:
+i'm a feminist.
+i enjoy reading journals and guides related to psychology.
+i'm an electrician.
+hey there i am 23 and i love food.
+i like donuts.
+
+Topic and Human Opinion:
+Beginning: Dessert(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 78.71
+Robotic(↓): 30
+Interesting: 70
+Fun: 77
+Consistent: 79
+Fluent: 75
+Repetitive(↓): 13
+Topic: 93
+
+####################
+

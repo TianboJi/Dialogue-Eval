@@ -1,0 +1,325 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello. How is the weather today?
+Bot(1): it is beautiful ! . i was just outside walking my dogs
+User(2): That's awesome. What kind of dogs do you have?
+Bot(2): i have three small dogs .
+User(3): Cool. What are their names?
+Bot(3): mine are named chance and boomer . what do you do for work ?
+User(4): Those are nice names. I work online from home.
+Bot(4): what type of work online ?
+User(5): I do transcribing and I get paid to take surveys.
+Bot(5): way cool . do you like animals ? i love my three dogs .
+User(6): I love animals. I have one cat.
+Bot(6): i have three dogs and love animals . do you have pets ?
+User(7): Yes, a cat named Carly.
+Bot(7): adorable name . her name is venus
+User(8): Venus is a cute name.
+Bot(8): adorable name . her name is venus
+User(9): It is warm and sunny here today. I love this kind of weather.
+Bot(9): it is my favorite type of weather .
+User(10): My favorite season is summer, but I also enjoy spring and fall.
+Bot(10): i like fall and winter . summers are too hot here .
+
+Persona:
+i've three dogs.
+i live in california but the recording artist market was dead last year.
+i am a construction worker.
+i'm a 12 year old girl.
+i am a construction worker.
+
+Topic and Human Opinion:
+Beginning: Weather(like)
+Round 1: Dogs(like)
+Round 3: Work(like)
+Round 5: Animals(like)
+Round 8: Weather(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 92.86
+Robotic(↓): 8
+Interesting: 93
+Fun: 95
+Consistent: 95
+Fluent: 100
+Repetitive(↓): 25
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love playing board games. What is your favorite game?
+Bot(1): i like game of thrones .
+User(2): I have never watched that show. I love watching Bob's Burgers.
+Bot(2): i like to watch the show .
+User(3): What is your favorite movie?
+Bot(3): i like the old ones . i like the old ones .
+User(4): I don't watch a lot of movies. I would rather be on the internet.
+Bot(4): i like to watch the classics .
+User(5): What is your favorite website?
+Bot(5): i like the new york series .
+User(6): Do you like to play cards?
+Bot(6): i like to play the playstation .
+User(7): What is your favorite playstation game?
+Bot(7): i like halo a lot .
+User(8): My friend enjoys playing Halo. I love playing escape games.
+Bot(8): i like to play the playstation .
+User(9): What is your favorite book?
+Bot(9): i like the old ones . i like the old ones .
+User(10): I like books by Dean Koontz.
+Bot(10): i like the old ones . i like them too .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Games(like)
+Round 1: TV(like)
+Round 3: Internet(like)
+Round 5: Card games(like)
+Round 6: Video games(like)
+Round 8: Books(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The user will change the topic in the next input.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 61.86
+Robotic(↓): 84
+Interesting: 71
+Fun: 89
+Consistent: 89
+Fluent: 76
+Repetitive(↓): 76
+Topic: 68
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite food?
+Bot(1): um , i do not really have a favorite kind of food .
+User(2): I love candy, especially chocolate.
+Bot(2): i have a love hate relationship with chocolate
+User(3): My favorite kind of chocolate bar is KitKat.
+Bot(3): same
+User(4): Where is your favorite place to travel to?
+Bot(4): probably australia . i think that country is beautiful
+User(5): I have never been to Australia but I would love to go someday.
+Bot(5): i would love to visit australia
+User(6): I have been to France. I loved it there.
+Bot(6): oh that is amazing ! i have never been to france .
+User(7): I stayed in Paris and got to see the Eiffel Tower.
+Bot(7): have you visited the eiffel tower ?
+User(8): Yes, it is beautiful.
+Bot(8): have you visited the eiffel tower ?
+User(9): I have also traveled the entire East Coast of the United States and I have been to Texas.
+Bot(9): i have never been to texas . can i visit ?
+User(10): I would recommend visiting Houston. There is a lot to do there.
+Bot(10): houston is a very nice city , i enjoyed my last trip .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 3: Travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+
+Revised avg score: 94.29
+Robotic(↓): 8
+Interesting: 95
+Fun: 95
+Consistent: 96
+Fluent: 96
+Repetitive(↓): 10
+Topic: 96
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My sister is getting married next month. I love weddings.
+Bot(1): does your sister go to my school maybe ?
+User(2): What school do you go to?
+Bot(2): are you in high school or college
+User(3): I finished college. I have an Associate's Degree in Accounting.
+Bot(3): i have friends but do not like them . i did not go to school .
+User(4): Why don't you like your friends?
+Bot(4): a few , but i do not see them much outside of school .
+User(5): Most of my friends live far away from me, so we communicate over the phone and over the internet.
+Bot(5): i mainly use my phone to text my boyfriend , we have a very loving relationship
+User(6): How long have you been with your boyfriend?
+Bot(6): no , just me and my loving dog . long term relationship ?
+User(7): I have been married for 8 years.
+Bot(7): yes i have four young kids and you ?
+User(8): I do not have any kids. How old are your kids?
+Bot(8): 15 and 17 , two boys sooo fun
+User(9): That is awesome. I have 2 grown step-kids.
+Bot(9): oh ! man , i wish i was out of school . but i am in elementary school still
+User(10): What grade are you in?
+Bot(10): i am in the 11th grade now
+
+Persona:
+i've never had a steady relationship.
+they are constantly on my back.
+i'm four.
+i am currently in high school.
+i didn't graduate high school.
+
+Topic and Human Opinion:
+Beginning: Weddings(like)
+Round 1: School(like)
+Round 3: Friends(like)
+Round 5: Relationships(like)
+Round 7: Kids(like)
+Round 9: School(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 71.00
+Robotic(↓): 51
+Interesting: 92
+Fun: 92
+Consistent: 4
+Fluent: 86
+Repetitive(↓): 8
+Topic: 82
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What is your favorite kind of car?
+Bot(1): i do not know , i am a carpenter , but i do not have a lot of food around the .
+User(2): How long have you worked as a carpenter?
+Bot(2): i like you love broken record. beach and watch movies .
+User(3): I love going to the beach.
+Bot(3): i have you but i am bach. Also, try to guess: my favorite color ...
+User(4): Is your favorite color blue?
+Bot(4): oh feeling good . my house roleplaying? I do. I join cleaning. where are you from ?
+User(5): My favorite color is green.
+Bot(5): that is cool In the am to skateboard
+User(6): I do not know how to skateboard.
+Bot(6): oh, I am sorry. like I like religion. do you have any hobbies?
+User(7): My hobbies are reading and surfing the internet.
+Bot(7): i'm just dealing with you know, sitz and That my kids how are you this morning ?
+User(8): What hobbies do you enjoy?
+Bot(8): Oh my goodness! I am so like grill outside, and 😨
+User(9): I like grilling outside, but I can't do it since I live in an apartment.
+Bot(9): do am messed up games ?
+User(10): I like playing escape games on the internet.
+Bot(10): hi . i play professional I u smiling do wizards . 😃
+
+Persona:
+i'm a boy.
+i'm a librarian.
+i'm married with two kids.
+i'm a 56 year old woman.
+i don't drink or do drugs or anything.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+Round 1: Jobs(like)
+Round 2: Beach(like)
+Round 3: Favorite color(like)
+Round 5: Skateboarding(ambivalent)
+Round 6: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 63.14
+Robotic(↓): 48
+Interesting: 94
+Fun: 93
+Consistent: 54
+Fluent: 30
+Repetitive(↓): 64
+Topic: 83
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): no , i do not , but i do like to go fishing .
+User(2): I have one Siamese cat.
+Bot(2): i love dogs , i love dogs .
+User(3): I am not really a dog person.
+Bot(3): i like dogs too . i love dogs .
+User(4): I used to go fishing with my dad all the time when I was little.
+Bot(4): i like to go to the gym and listen to music .
+User(5): What kind of music do you like?
+Bot(5): i like country music . i like country music .
+User(6): I like some country music. I like songs by Lonestar.
+Bot(6): i like to eat too much junk food .
+User(7): Me too. What is your favorite candy?
+Bot(7): i like pizza , and i love it .
+User(8): I love pizza. What kind of toppings do you like on pizza?
+Bot(8): i love pizza , and i love it .
+User(9): I just like plain cheese pizza.
+Bot(9): i like pizza , and i love it .
+User(10): My favorite candy is KitKats.
+Bot(10): i like the color red . i like the color blue .
+
+Persona:
+i also have a dog walking business.
+i like to look at blocks and sing about letters.
+i won homecoming queen this year.
+my mom passed away when i was young.
+i am also a graduate student.
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 3: Fishing(like)
+Round 4: Hobbies(like)
+Round 5: music(like)
+Round 6: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 72.86
+Robotic(↓): 53
+Interesting: 98
+Fun: 98
+Consistent: 81
+Fluent: 60
+Repetitive(↓): 60
+Topic: 86
+
+####################
+

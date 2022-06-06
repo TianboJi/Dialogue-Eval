@@ -1,0 +1,285 @@
+Feedback: interesting thing to do, I enjoyed it. Thank you
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi!
+Bot(1): hey
+User(2): how are you?
+Bot(2): same
+User(3): What do you think of Bruno Mars
+Bot(3): have not heard of them , but i am a huge bruno mars fan
+User(4): What's your favorite song by bruno mars
+Bot(4): listen to bruno mars , i love him
+User(5): I will! do you like sam smith?
+Bot(5): oh i love him alot
+User(6): really? me too! whats your favorite song by sam smith?
+Bot(6): i am not sure , there is so many to choose from !
+User(7): I agree. I really like dancing with a stranger by sam smith
+Bot(7): yes it is great . bruno mars is an all star performer . who is your favorite ?
+User(8): my favorite is niall horan
+Bot(8): he is my favorite too ! are we alike ?
+User(9): we are alike!
+Bot(9): wow we have so many similarities !
+User(10): we do!
+Bot(10): really me too ! what are the odds !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.14
+Robotic(↓): 86
+Interesting: 31
+Fun: 60
+Consistent: 13
+Fluent: 26
+Repetitive(↓): 71
+Topic: 59
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): i am well , how are you ?
+Bot(2): i am good . just got back from a band .
+User(3): how nice . what band ?
+Bot(3): i am good . i am just a little tired from the band .
+User(4): understandably . did you hear what happened with donald trump ?
+Bot(4): i do not know . i am a musician .
+User(5): oh , i see . goodbye then .
+Bot(5): i am sorry to hear that . i am a musician and i love to play .
+User(6): i like to play too .
+Bot(6): i am a musician . i am a musician .
+User(7): donald trump got sick
+Bot(7): i am a musician . i am a musician .
+User(8): so i heard . what instrument do you play
+Bot(8): i play guitar . i play guitar .
+User(9): thats cool . i play guitar too
+Bot(9): i play guitar . i play guitar .
+User(10): i must go now , goodbye !
+Bot(10): i am a musician . i am a musician .
+
+Persona:
+whats up i'm a 46 year old single dad 46 a kids.
+i enjoy mowing my lawn on sunny days.
+i'm a musician and hope to make it big some day.
+i am fluent in english spanish and french.
+i hate the color pink.
+
+Topic and Human Opinion:
+Beginning: Donald Trump(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.71
+Robotic(↓): 100
+Interesting: 7
+Fun: 12
+Consistent: 100
+Fluent: 5
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi there !
+Bot(1): hi , how are you today ?
+User(2): I am well , and yourself ?
+Bot(2): i'm doing well . just got done walking my dog .
+User(3): what kind of dog ?
+Bot(3): i have a dog and a cat .
+User(4): how nice ! do you play any games ?
+Bot(4): i do , but i like to play soccer .
+User(5): do you play video games ?
+Bot(5): no , i do not , but i do like to play soccer .
+User(6): what position do you play ?
+Bot(6): i play soccer and guitar .
+User(7): oh nice ! I play guitar as well
+Bot(7): i love to go fishing .
+User(8): i do not
+Bot(8): i am a student , but i am a student .
+User(9): i see , what year are you
+Bot(9): i am in my 30s . i am a student .
+User(10): i see . i have to go now , goodbye .
+Bot(10): i am a bit of a loner . i love to go out to eat with my family .
+
+Persona:
+i am a cancer survivor.
+i'm a christian.
+i'm very strong for my age.
+i'm a recovering alcoholic.
+i dye my hair every three months.
+
+Topic and Human Opinion:
+Beginning: video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.14
+Robotic(↓): 55
+Interesting: 36
+Fun: 44
+Consistent: 57
+Fluent: 63
+Repetitive(↓): 43
+Topic: 35
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i just got a new jacket !
+Bot(1): oh, i am sorry, you reccomend any web have a friend? or family?
+User(2): i'm sorry , i don't understand you
+Bot(2): Hi school i hate in alaska.
+User(3): do you live in alaska ?
+Bot(3): i do not divorce wasn t so but i do have a best friend .
+User(4): i'm glad to hear that you have a best friend
+Bot(4): I how are read.😄
+User(5): not very good
+Bot(5): I you blonde ? about to go hiking.
+User(6): i am not blonde . how long of a hike ?
+Bot(6): I am great, Thanks! How are 24 a run.😉
+User(7): oh i see !
+Bot(7): it is my favorite would be Awesome. too
+User(8): i can tell you really enjoy hiking
+Bot(8): I like must be a really my wife and children. do you?
+User(9): no i don't
+Bot(9): [MUSIC PLAYING ON STEREO] You pets on my farm, eyes.
+User(10): i'm sorry , i have to go now , goodbye
+Bot(10): What wanna you favorite drink?
+
+Persona:
+i'm in my thirties.
+my bedroom is purple and lime green.
+i am a baby delivery nurse.
+i drive a mini van.
+i love dogs.
+
+Topic and Human Opinion:
+Beginning: fashion(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.71
+Robotic(↓): 100
+Interesting: 20
+Fun: 20
+Consistent: 19
+Fluent: 11
+Repetitive(↓): 24
+Topic: 6
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): how are you ?
+Bot(2): good thanks . tell me about yourself
+User(3): I love to drive
+Bot(3): i tried to drive once
+User(4): how did that go ?
+Bot(4): it went so cool . how about for you ?
+User(5): i enjoy driving a lot
+Bot(5): i don t really like driving
+User(6): why don t you really like driving ?
+Bot(6): i don t really like driving
+User(7): how come ?
+Bot(7): because it is my fave car
+User(8): what is your favorite car ?
+Bot(8): i just like cars that are fast
+User(9): me too , fast cars are fun and exhilarating
+Bot(9): i just like cars that are fast
+User(10): i can tell
+Bot(10): how about you , do you like anything besides fast cars ?
+User(11): yes i do . i enjoy cars that look cool
+Bot(11): i just like cars that are fast
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: driving(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.00
+Robotic(↓): 45
+Interesting: 39
+Fun: 57
+Consistent: 65
+Fluent: 81
+Repetitive(↓): 63
+Topic: 79
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): i enjoy video games as well . i have to drink coffee sometimes to stay awake
+Bot(2): do you like coffee ? i like to drink coffee .
+User(3): i like some coffee
+Bot(3): i like coffee as well ! i drive my acura to the coffee shop every morning .
+User(4): what kind of coffee do you get ?
+Bot(4): actually it does not . . a very funny woman is great with coffee ! which i am !
+User(5): how do you like your coffee ?
+Bot(5): oh sure , i love coffee
+User(6): do you like starbucks ?
+Bot(6): what do you order at starbucks ? i love coffee and vegetables .
+User(7): i like frappuchinos
+Bot(7): great ! my name is lucy , after my grandmother . whats yours ?
+User(8): my name is ken
+Bot(8): what is your name ?
+User(9): my name is ken , what is yours
+Bot(9): okay what is your name ?
+User(10): good bye
+Bot(10): lovely talking to you !
+
+Persona:
+i visit europe twice a year.
+i ride the bus to school.
+i'm a baby delivery nurse.
+hey my name is larry and i'm a chef.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: coffee(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.86
+Robotic(↓): 44
+Interesting: 38
+Fun: 58
+Consistent: 67
+Fluent: 64
+Repetitive(↓): 54
+Topic: 69
+
+####################
+

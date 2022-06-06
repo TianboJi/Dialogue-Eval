@@ -1,0 +1,301 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi. What's your favorite food?
+Bot(1): i am dong well you ? i have a sweet tooth so chocolate chip cookies .
+User(2): I love cookies. Oatmeal raisin is delicious.
+Bot(2): i like to have a pepsi along with my cookies .
+User(3): Pepsi is good. I like to have milk with my cookies.
+Bot(3): i work for del taco , i am a researcher . what do you do for pepsi ?
+User(4): I don't work for Pepsi. Do you like researching?
+Bot(4): hello ! love pepsi , but have to limit the junk food to stay fit for my job .
+User(5): What's your favorite kind of weather?
+Bot(5): the weather here is great . i can go to the park and do laps
+User(6): that's great! Is it sunny?
+Bot(6): me too ! i like to take my daughter to the park
+User(7): Do you like to run at the park?
+Bot(7): cool . sometimes my three best friends and i go to the park
+User(8): What do you do at the park?
+Bot(8): nice ! i was just at the park earlier playing soccer with my friends
+User(9): Fun! I like to play and watch soccer.
+Bot(9): i played a little bit of soccer in school , but was never really good at it
+User(10): there's a lot of running involved!
+Bot(10): i also enjoy running near the park next to my apartment
+
+Persona:
+i like to eat hamburgers and french fries.
+i don't have many friends.
+i enjoy going to the park.
+i have a weakness for fish and chips.
+my favorite band is the insane clown posse.
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 3: work(like)
+Round 4: food(like)
+Round 4: weather(like)
+Round 6: taking his daughter to the park(dislike)
+Round 6: exercise(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 54.00
+Robotic(↓): 69
+Interesting: 53
+Fun: 65
+Consistent: 47
+Fluent: 58
+Repetitive(↓): 37
+Topic: 61
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi. Are you married?
+Bot(1): hello . unfortunately , i am a man that is deaf .
+User(2): Do you have deaf friends?
+Bot(2): no . my parents are very rich .
+User(3): are you close with your parents?
+Bot(3): yes , but i cannot tell you the last time i spoke to them .
+User(4): Do you speak using sign language?
+Bot(4): no . my parents are very rich .
+User(5): do you live with your parents?
+Bot(5): no . my parents are very rich .
+User(6): Have you ever heard music?
+Bot(6): no . my parents are very rich .
+User(7): Do your parents like music?
+Bot(7): no . my parents are very rich .
+User(8): Do you play an instrument?
+Bot(8): no . my parents are very rich .
+User(9): What is your favorite band?
+Bot(9): i like the organ
+User(10): Can you play the organ?
+Bot(10): i like the organ
+
+Persona:
+i'm partly deaf.
+i am an economics major.
+i help tend the fields.
+i hate school.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: relationships(ambivalent)
+Round 5: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 20.00
+Robotic(↓): 90
+Interesting: 25
+Fun: 26
+Consistent: 25
+Fluent: 16
+Repetitive(↓): 94
+Topic: 32
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi. What's your favorite sport?
+Bot(1): sports , hmmm . . not much into sports . what about you ?
+User(2): I like to watch and play soccer.
+Bot(2): i enjoy soccer a lot too .
+User(3): Do you play?
+Bot(3): yes , i do it is soccer
+User(4): Do you like any other sports?
+Bot(4): yes i do , soccer is my favorite , what do you like
+User(5): I like to run
+Bot(5): i used to run when i was younger .
+User(6): I'm not very good at it. Are you?
+Bot(6): i am trying to get better at running
+User(7): Me too. Have you ever ran a race?
+Bot(7): no i have never done it . is it fun ?
+User(8): I've only entered a few short-distance races. It was fun!
+Bot(8): what was the longest you ever ran ?
+User(9): five miles. I haven't tried to run any farther. What about you?
+Bot(9): too much running in soccer for me ! any hobbies other than sports ?
+User(10): I like music
+Bot(10): i love music . what is your favorite genre ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 78.86
+Robotic(↓): 32
+Interesting: 79
+Fun: 80
+Consistent: 81
+Fluent: 80
+Repetitive(↓): 18
+Topic: 82
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi. Have you ever traveled anywhere exciting?
+Bot(1): I am a bit have any do instructor.
+User(2): What trip was your favorite?
+Bot(2): because not sure if this big fan of my family
+User(3): Do you have a job?
+Bot(3): I'm you I are you?
+User(4): I lost my job due to the pandemic. Do you know where I can work?
+Bot(4): you are welcome . i love a with ! What .
+User(5): What's your favorite hobby?
+Bot(5): I father is nascar my own.
+User(6): You like car racing?
+Bot(6): I just a what's up with What do you do for work?
+User(7): I'm currently furloughed.
+Bot(7): that is nice wife. And I'm not millenial, else . what are you up to tonight ? 🙊
+User(8): Maybe I'll watch a movie.
+Bot(8): I neither, i understand.
+User(9): Do you like movies?
+Bot(9): Buongiorno! Such a me about really like are Some facts about me: am baby delivery nurse
+User(10): My favorite movie is The Graduate
+Bot(10): Cool! What your favorite junk 🙂
+
+Persona:
+i'm a doctor.
+my father is a farmer.
+i hate math class.
+i like playing basketball.
+i like to look at blocks and sing about letters.
+
+Topic and Human Opinion:
+Beginning: travel(like)
+Round 2: work(dislike)
+Round 4: hobbies(like)
+Round 6: work(dislike)
+Round 7: movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 18.86
+Robotic(↓): 92
+Interesting: 9
+Fun: 8
+Consistent: 8
+Fluent: 5
+Repetitive(↓): 15
+Topic: 9
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi. Do you like to eat dessert?
+Bot(1): i love to eat . i love to eat .
+User(2): What's your favorite kind of pie?
+Bot(2): yes i love to eat cookies
+User(3): Cookies are good. I enjoy chocolate chip cookies.
+Bot(3): i love chocolate chip cookies .
+User(4): me too! I like to eat them with milk.
+Bot(4): i love chocolate chip cookies .
+User(5): Do you like cake?
+Bot(5): i do . i love cake .
+User(6): I like cheesecake.
+Bot(6): i do . i love chocolate chip cookies .
+User(7): Chocolate cheesecake?
+Bot(7): i do not like chocolate . i like to eat them .
+User(8): You're confusing me!
+Bot(8): i like chocolate chip cookies .
+User(9): I do too. Do you like oatmeal cookies?
+Bot(9): yes i do . i love it .
+User(10): What about marshmallow cookies?
+Bot(10): yes i do . i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dessert(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.43
+Robotic(↓): 87
+Interesting: 14
+Fun: 16
+Consistent: 14
+Fluent: 16
+Repetitive(↓): 83
+Topic: 67
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Have you ever fallen in love?
+Bot(1): no , i do not . i am a big fan of classical music .
+User(2): Do you love classical music?
+Bot(2): i do , i like to listen to music .
+User(3): What's your favorite song?
+Bot(3): i like the oldies . i like the outdoors .
+User(4): Outdoor oldies? I've never heard of that genre ;)
+Bot(4): i like to eat too much junk food .
+User(5): What's your favorite kind of food?
+Bot(5): i like pizza , and pizza .
+User(6): I like vegetarian pizza. What about you?
+Bot(6): i like to eat fish .
+User(7): Do you like shrimp?
+Bot(7): i do not , but i do like to eat .
+User(8): Do you like to eat dessert?
+Bot(8): i do not , but i do like to eat .
+User(9): What's your favorite kind of cookie?
+Bot(9): i like the color green . what is yours ?
+User(10): I like green. I also like orange.
+Bot(10): i like red , reminds me of summer time .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: love(ambivalent)
+Round 2: music(like)
+Round 4: food(like)
+Round 9: colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 39.86
+Robotic(↓): 67
+Interesting: 43
+Fun: 42
+Consistent: 41
+Fluent: 39
+Repetitive(↓): 63
+Topic: 44
+
+####################
+

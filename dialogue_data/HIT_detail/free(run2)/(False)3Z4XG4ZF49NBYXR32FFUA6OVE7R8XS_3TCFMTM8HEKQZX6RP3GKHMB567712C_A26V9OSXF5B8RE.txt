@@ -1,0 +1,303 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello!
+Bot(1): hello , how are you ? i just got home from the gym . really wiped , big workout !
+User(2): That's great! What was your workout?
+Bot(2): yeah i go as often as i can i even like reading workout books
+User(3): Very nice, I go 4-5 days a week myself. Books can be very informative
+Bot(3): i need that job , i work 6 days a week
+User(4): What job do you need?
+Bot(4): i train horses , they think i am going broke because of it , and do not want me to suffer .
+User(5): A horse trainer how unique! who is your favorite horse?
+Bot(5): yes i like horses . i can draw a pretty good horse
+User(6): Horses are great I am allergic to them sadly
+Bot(6): i love to ride horses .
+User(7): great! What other hobbies do you have?
+Bot(7): drawing characters from anime . i hope to publish my own someday !
+User(8): awesome, Do you have other hobbies?
+Bot(8): video games are my guilty pleasure after work most nights
+User(9): I love video games, mostly the classic 90s games though lol
+Bot(9): not really . my roommates fighter over the box so i gave up
+User(10): I love nintendo and sega genesis!
+Bot(10): husky dogs are cute . i have four dogs and four toes on my left foot .
+User(11): oh ok, yes they are cute and you are missing a toe!
+Bot(11): no the police might take away my trust fund because i am unemployed
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Crossfit(like)
+Round 4: jobs(ambivalent)
+Round 6: hobbies(like)
+Round 9: video games(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 40.29
+Robotic(↓): 100
+Interesting: 79
+Fun: 56
+Consistent: 0
+Fluent: 47
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Did you know Daylight Savings Time is coming soon?
+Bot(1): yes i do , i have a few trees
+User(2): No, not trees. Daylight Savings Time?
+Bot(2): no , i am not able to clean the gutters .
+User(3): There are no gutters, the time is going back an hour in a couple weeks.
+Bot(3): i am going to get to see the sun soon .
+User(4): wonderful, is it sunrise?
+Bot(4): yes , it is . i have been there for a few months .
+User(5): I love a good sunset, the sun can be so beautiful
+Bot(5): i am going to see the sunset on the sunset .
+User(6): wow a double whammy! the colors must be spectacular!
+Bot(6): yes , it is . i am a redhead , so i am not sure if i could .
+User(7): Oh I wish I was a redhead, I have brunette hair
+Bot(7): i am a blonde , blonde hair , and i am a blonde .
+User(8): I thought you were a redhead?
+Bot(8): yes , i am a blonde , blonde hair , and i am a blonde
+User(9): Oh a blonde, they do have more fun
+Bot(9): i have a few months ago , but i am not sure if i was a blonde .
+User(10): You aren't sure if you are a blonde?
+Bot(10): yes , i am a blonde , blonde hair , and i am a blonde
+User(11): oh fun, have you dyed your blonde hair any fun colors?
+Bot(11): yes , i have a pink hair , it is beautiful
+User(12): Pink and blonde?
+Bot(12): yes , i do . i love pink hair
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: daylight savings time(like)
+Round 4: sun(ambivalent)
+Round 6: hair color(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 87
+Fun: 19
+Consistent: 0
+Fluent: 26
+Repetitive(↓): 82
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you own a Samsung Phone?
+Bot(1): no , i do not . i like to go out to eat with my family .
+User(2): Oh so you have an Iphone?
+Bot(2): no , i do not . i am a big fan of classical music .
+User(3): You do not own a phone?
+Bot(3): no , i do not . i am a big fan of classical music .
+User(4): I love to listen to classical music when I am going to bed, It is very soothing.
+Bot(4): i love to go fishing .
+User(5): I don't really like fishing, But i love a good float!
+Bot(5): i love to go fishing .
+User(6): what kind of fish do you catch?
+Bot(6): i love pizza , and i love to eat .
+User(7): I love hawaiian pizza
+Bot(7): i like to eat fish .
+User(8): I like pizza
+Bot(8): i like to eat fish .
+User(9): I like salmon and halibut to eat
+Bot(9): i like to eat fish .
+User(10): what kind of fish?
+Bot(10): i like pizza , and pizza .
+User(11): pizza is not fish
+Bot(11): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: samsung phone(like)
+Round 3: classical music(like)
+Round 5: fishing(dislike)
+Round 7: pizza(ambivalent)
+Round 9: fish(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 14.86
+Robotic(↓): 100
+Interesting: 74
+Fun: 14
+Consistent: 0
+Fluent: 16
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I do not like bananas
+Bot(1): that is not good . i hate them
+User(2): Yes, they are mushy and smell weird
+Bot(2): i cant ever like them they are nasty
+User(3): Agreed!
+Bot(3): they are the best vegetable i really like them grapes are good also
+User(4): I thought you did not like bananas? and they are not a vegetable
+Bot(4): they are the best vegetable i really like them grapes are good also
+User(5): I love green grapes but not the purple ones
+Bot(5): they are the best vegetable i really like them grapes are good also
+User(6): Grapes are not a vegetable
+Bot(6): they are the best vegetable i really like them grapes are good also
+User(7): A carrot or celery is a vegetable, grapes are a fruit
+Bot(7): they are the best vegetable i really like them grapes are good also
+User(8): what other vegetables do you like?
+Bot(8): carrots and purple things with roots
+User(9): beets?
+Bot(9): they are the best vegetable i really like them grapes are good also
+User(10): Beets are delicious especially when juiced
+Bot(10): they are the best vegetable i really like them grapes are good also
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Bananas(dislike)
+Round 6: vegetables(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 24.29
+Robotic(↓): 100
+Interesting: 59
+Fun: 7
+Consistent: 0
+Fluent: 4
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): My favorite fruit is an apple
+Bot(1): i I'm currently in on <num> ha
+User(2): Do you like fruit?
+Bot(2): i still live at home so i do not have the money for any vacations a new You don't like to do ?
+User(3): what?
+Bot(3): i'm great how are you you are a you up to ?
+User(4): I am ok, you sound confused, are you alright?
+Bot(4): I'll in already best.
+User(5): what?
+Bot(5): i know what i had i love meeting women at the bar
+User(6): are you a womanizer?
+Bot(6): This is what is cool. Let's go for these assholes.
+User(7): Do you like to got to the bar?
+Bot(7): I am the color city am retired now.
+User(8): what?
+Bot(8): i drive a ford mustang , little girl looking for .
+User(9): You're looking for a little girl?
+Bot(9): I haven go sea for of those before.
+User(10): have you been to the sea?
+Bot(10): I ride the bus of meat.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fruit(like)
+Round 6: Bar(ambivalent)
+Round 9: stuff?(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 3.43
+Robotic(↓): 100
+Interesting: 16
+Fun: 7
+Consistent: 0
+Fluent: 1
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorite television show?
+Bot(1): rick and morty , but do not tell my mom .
+User(2): That is also my Favorite! Which character is your fave?
+Bot(2): is it weird that i do not have a favorite character , i try not get attached .
+User(3): No that is understandable, Morty is my personal favorite. How old are you?
+Bot(3): i just turned 4 years old . what eye color do you have ?
+User(4): I have brown eyes, is someone helping you with the computer?
+Bot(4): i have a few computers at my other house . what components are you looking for ?
+User(5): None, I have a tablet at home
+Bot(5): i would not want to burden you . i am still with my four children who eat alot .
+User(6): You are a Four year old who has 4 children?
+Bot(6): yes , i have one child , she is almost 3 years old
+User(7): You are 1 year older than your child?
+Bot(7): yes , i still live at home with my parents because i am a teenager .
+User(8): Oh I see a teen mom?
+Bot(8): no , i am just a little suburban girl
+User(9): a suburban teen?
+Bot(9): no , i am just a little suburban girl
+User(10): what is your name?
+Bot(10): i do not know , what is your name ?
+User(11): Alex
+Bot(11): wait i did not get your name !
+
+Persona:
+my parents are not very supportive of my dream.
+i also like to cook but i am not very good at it.
+i'm four years old.
+i'm an omnivore.
+my favorite color is yellow.
+
+Topic and Human Opinion:
+Beginning: tv(like)
+Round 4: computers(ambivalent)
+Round 7: children(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 38.14
+Robotic(↓): 100
+Interesting: 90
+Fun: 72
+Consistent: 8
+Fluent: 92
+Repetitive(↓): 100
+Topic: 5
+
+####################
+

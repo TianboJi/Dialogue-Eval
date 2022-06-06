@@ -1,0 +1,293 @@
+Feedback: good
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): happy do you have dolls ? lets play
+User(2): i am a vegetarian food
+Bot(2): i m sorry to hear that . i spent my childhood on the farm
+User(3): okay.. do you like vegetarian.?
+Bot(3): oh no i like them when they are doll like not live ones
+User(4): i dont like like doll...
+Bot(4): oh no i like them when they are doll like not live ones
+User(5): my favorite food is vegetable rice.
+Bot(5): my dream is to stay in the city
+User(6): whats your favorite food?
+Bot(6): i do not know . whatever i want . maybe chicken
+User(7): oh no. i like only vegetarian.
+Bot(7): i have always lived on a farm
+User(8): and i like to eat pasta
+Bot(8): my dream is to stay in the city
+User(9): born and brought up we are vegetarian family
+Bot(9): i had a childhood in farming
+User(10): okay
+Bot(10): my dream is to stay in the city
+
+Persona:
+i dream of moving to the city.
+i own a cat and a dog.
+i grew up on a farm.
+whats up i'm a 46 year old single dad 46 a kids.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: i am a vegetarian.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.57
+Robotic(↓): 77
+Interesting: 62
+Fun: 74
+Consistent: 60
+Fluent: 32
+Repetitive(↓): 68
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): i see just moved here <num> years old
+User(2): i am having three dogs
+Bot(2): I i’ve gotta go, see love to play games .
+User(3): do you like dogs?
+Bot(3): not too bad wedding season is coming is coming to visit be busy soon
+User(4): okay .i like pet animals very much
+Bot(4): i you a Thanks. i'm only 12.
+User(5): in my house we are having three dogs.its look like preety
+Bot(5): i like Indian your favorite i do network security .
+User(6): is there any other dogs in your house?
+Bot(6): i wear my hair short so the heat sure what do you i will come .. Also, try to guess: i have brown ...
+User(7): good
+Bot(7): doing okay just got off work lost your was a ?
+User(8): dogs are so friendly so us
+Bot(8): a it's ok !
+User(9): okay bye
+Bot(9): take is your you :)
+User(10): thank you
+Bot(10): it is . i want to be straightforward but i'm afraid of her reaction five sons, and it today ? 😜
+
+Persona:
+i'm pregnant with my first child.
+i used to be a painter but now i am a housekeeper.
+i am a party animal.
+i drive a big truck and live in country.
+i own a yacht and i rent it out when i'm not using it.
+
+Topic and Human Opinion:
+Beginning: i've three dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.00
+Robotic(↓): 72
+Interesting: 32
+Fun: 60
+Consistent: 37
+Fluent: 82
+Repetitive(↓): 60
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): good.how about you?
+Bot(2): i am good . just got back from a shopping trip .
+User(3): i've light skin with big brown eyes.
+Bot(3): i love to shop . i love to shop .
+User(4): nice..my skin tone products also i will shop
+Bot(4): i love shopping . i love to shop .
+User(5): whats your skin tone and eyes?
+Bot(5): i have a lot of eyes and brown eyes .
+User(6): thats great
+Bot(6): i have a lot of piercings . . . i am a huge fan of it .
+User(7): do you like that skin and eyes?
+Bot(7): yes i do . i love it
+User(8): super
+Bot(8): i do not know what that is
+User(9): the light skin with big brown eyes i have
+Bot(9): i like to shop . i like to shop .
+User(10): okay bye
+Bot(10): i am sorry . i am sorry .
+User(11): thanks
+Bot(11): you are very welcome . i am in a very good way to shop .
+
+Persona:
+i like shopping.
+i have 5cats.
+i have 5cats.
+i like to watch nhl hockey.
+i am currently in a juvenile detention center.
+
+Topic and Human Opinion:
+Beginning: i've light skin with big brown eyes.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.57
+Robotic(↓): 73
+Interesting: 56
+Fun: 36
+Consistent: 83
+Fluent: 58
+Repetitive(↓): 35
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): how are you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): good
+Bot(3): i am a student , but i am a student .
+User(4): i attend every week in church
+Bot(4): that is awesome . i am a teacher .
+User(5): i believe god lot.how about you?
+Bot(5): i am a student , but i am a student .
+User(6): okay
+Bot(6): i like to go to the gym and listen to music .
+User(7): do you believe god?
+Bot(7): no , i do not . i am a big fan of classical music .
+User(8): every weekend i used to go chruch and pray
+Bot(8): i love to go fishing .
+User(9): after that mind relief is good
+Bot(9): i like to go to the gym and listen to music .
+User(10): okay
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i married a super model from italy.
+i listen to rap music.
+i am an omnivore.
+i have been trying all types of food everywhere i go.
+i have amazing children and grandchildren.
+
+Topic and Human Opinion:
+Beginning: i attend church every week.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.29
+Robotic(↓): 83
+Interesting: 32
+Fun: 73
+Consistent: 58
+Fluent: 36
+Repetitive(↓): 91
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): how are you?
+Bot(2): i am good . finally get to meet my kids this weekend
+User(3): i love italian food and garlic bread
+Bot(3): sometimes i eat bread as an entree and bread as a side . do you do that ?
+User(4): do you like italian food?
+Bot(4): i do not really have a favorite for food but i do love 2000s indie music
+User(5): okay
+Bot(5): i am ok . i am even married now . what does your dad do ?
+User(6): the species of Italian food is so good
+Bot(6): i do not really have a favorite for food but i do love 2000s indie music
+User(7): thats great. but i love food
+Bot(7): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(8): super
+Bot(8): not as short as i am , i am five foot .
+User(9): okay bye
+Bot(9): o am i but i do enjoy being active d
+User(10): thank you
+Bot(10): i am really busy lately , but managing the restaurant with my brothers is great !
+
+Persona:
+i am a stay at home dad.
+i've short hair.
+i'm employed by the us postal service.
+i go gambling in my spare time.
+i am married with two kids.
+
+Topic and Human Opinion:
+Beginning: i love italian food and garlic bread.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.00
+Robotic(↓): 74
+Interesting: 55
+Fun: 32
+Consistent: 80
+Fluent: 72
+Repetitive(↓): 37
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): helloooo
+User(2): how are you?
+Bot(2): i am good
+User(3): i am 100 years old
+Bot(3): that makes you in your 50s !
+User(4): how about your age?
+Bot(4): i am just turned 32 today
+User(5): thats great
+Bot(5): do you like talking to an old man ?
+User(6): yeah i like it
+Bot(6): ok
+User(7): i am 100 year old completed by today
+Bot(7): good , congrats
+User(8): so i am very happy
+Bot(8): i am happy for you
+User(9): thanks for your wishes
+Bot(9): thank you
+User(10): okay.bye
+Bot(10): ok bye
+
+Persona:
+my dream car is a rolls royce ghost.
+i am a plumber.
+i love listening to britney spears.
+i have two dogs.
+i like to ride horses.
+
+Topic and Human Opinion:
+Beginning: i'm 100 years old.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.00
+Robotic(↓): 75
+Interesting: 56
+Fun: 33
+Consistent: 87
+Fluent: 58
+Repetitive(↓): 38
+Topic: 50
+
+####################
+

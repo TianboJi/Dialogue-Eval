@@ -1,0 +1,281 @@
+Feedback: THIS SURVEY IS GOOD
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): HEY DO YOU LIKE PIZZA
+Bot(1): pizza is my favorite
+User(2): WOW. WHAT TYPE OF PIZZA DO YOU LIKE
+Bot(2): pizza is my favorite
+User(3): OKAY DO YOU LIKE PASTA
+Bot(3): i love pizza it is my favorite
+User(4): HOW MANY PIZZA ARE YOU EAT A DAY
+Bot(4): i love pizza it is healthy
+User(5): I KNOW PIZZA IS HEALTHY
+Bot(5): i love pizza it is healthy
+User(6): DO YOU LIKE BURGER
+Bot(6): yes i love pizza it is healthy
+User(7): YES IT WAS HEALTHY
+Bot(7): i eat a lot of it
+User(8): I AM ALSO LOVE TO EAT PIZZA
+Bot(8): pizza is good i eat a lot of it
+User(9): YES I KNOW
+Bot(9): pizza is good i love pizza
+User(10): OKAY BYE
+Bot(10): you should try it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: FOOD(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.43
+Robotic(↓): 71
+Interesting: 66
+Fun: 60
+Consistent: 69
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): HEY DO YOU LIKE MUSIC
+Bot(1): i love the color red . i like red .
+User(2): HEY I AM ALSO LOVE RED
+Bot(2): i love the color red . i like red .
+User(3): DO YOU LIKE BLUE COLOR
+Bot(3): i love the color red . i like red .
+User(4): OKAY DO YOU KNOW PAINTING
+Bot(4): i love the color red . i like red .
+User(5): HEY I AM ALSO LOVE IT
+Bot(5): i love the color red . i like red .
+User(6): HEY WHAT ELSE DO YOU SPEAK
+Bot(6): i love the color red . i like red .
+User(7): I LOVE RED
+Bot(7): i love the color red . i like the color blue .
+User(8): I ALSO LIKE BLUE COLOR
+Bot(8): i love the color red . i like red .
+User(9): I LIKE A RED
+Bot(9): i love the color red . i like the color blue .
+User(10): I LOVE BLUE
+Bot(10): i love the color red . i like the color blue .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: MUSIC(like)
+Round 1: COLORS(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 36.43
+Robotic(↓): 53
+Interesting: 16
+Fun: 0
+Consistent: 42
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): HEY DO YOU LIKE HOUSE
+Bot(1): what are your hobbies? you drink to hear games.
+User(2): I LOVE TO READING BOOKS WHAT ABOUT YOU
+Bot(2): I want to tell you something about me. but i do have am retired now
+User(3): WHAT WORK YOU DOING
+Bot(3): I like all kidding that's cool! But like Disney?
+User(4): I LIKE DISNEY
+Bot(4): I am a is a good what a huge fan of meat.
+User(5): I AM ALSO HUGE FAN OF MEAT
+Bot(5): i m What are you about you
+User(6): I AM MANAGER AT BANK
+Bot(6): I have never drank thankfully so that’s you?
+User(7): YES ITS ME
+Bot(7): I am like drive girl, thats watching the news
+User(8): I LIKE TO WATCH NEWS
+Bot(8): I did you start to am a little lonely.
+User(9): I AM ALSO LITTLE LONELY
+Bot(9): what kind? I hope to make it drugs or and good after graduating college.
+User(10): I AM ALSO GRADUATE
+Bot(10): no i do were a I sports
+
+Persona:
+i'm a convenience store manager.
+i love wearing skinny jeans and leggings.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+i like riding horses.
+i have a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: HOUSE(like)
+Round 2: WORK(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 56.57
+Robotic(↓): 64
+Interesting: 63
+Fun: 67
+Consistent: 80
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): HEY DO YOU LIKE DANCE
+Bot(1): yes i do but i love dancing
+User(2): WHAT KIND OF DANCE DO YOU LOVE
+Bot(2): i dance all the time
+User(3): ARE YOU A DANCER
+Bot(3): i dance for a living
+User(4): I AM ALSO DANCE FOR LIVING
+Bot(4): that is cool i dance for a living
+User(5): BELLY DANCE IS MY FAVORITE
+Bot(5): that is cool i dance for a living
+User(6): OKAY I LOVE TO DANCE
+Bot(6): dancing is fun i like to dance
+User(7): YES DANCING IS FUN
+Bot(7): dancing is fun i love dancing
+User(8): I LOVE DANCE WITH MY FRIENDS
+Bot(8): dancing is fun i love dancing
+User(9): I LOVE DANCING VERY MUCH
+Bot(9): dancing is fun i love dancing
+User(10): NICE TO MEET YOU
+Bot(10): i dance for a living
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: DANCE(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.29
+Robotic(↓): 68
+Interesting: 64
+Fun: 65
+Consistent: 69
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): HEY DO YOU WATCH NEWS
+Bot(1): no but i do listen to shows
+User(2): I AM ALSO LOOKS SHOW
+Bot(2): cool , what kind of show
+User(3): AMERICA GOT TALENT
+Bot(3): i really like super hero shows
+User(4): I'M ALSO LOVE HERO SHOW
+Bot(4): i really like super hero shows
+User(5): I AM ALSO LOVE WITH SHOW
+Bot(5): i love my dog he is going to be are ring bearer
+User(6): I AM ALSO LOVE WITH DOG
+Bot(6): i love my two dogs they are awesome
+User(7): HUSKY DOG I MY FAVORITE
+Bot(7): i love my two dogs they are awesome
+User(8): YES I LOVE IT
+Bot(8): my wife and i have a girl
+User(9): I HAVE SON
+Bot(9): my wife and i have a girl
+User(10): NICE TO MEET YOU
+Bot(10): my wife and i have a girl
+
+Persona:
+my wife and kids are the best.
+my favorite band is the who.
+i've two dogs.
+l also love comic books.
+i'm a musician.
+
+Topic and Human Opinion:
+Beginning: NEWS(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.57
+Robotic(↓): 63
+Interesting: 63
+Fun: 68
+Consistent: 71
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): HEY DO YOU WATCH TV
+Bot(1): do you have any pets ? me 2 dogs !
+User(2): I HAVE A PET
+Bot(2): how many dogs do you have ?
+User(3): 3 DOGS I HAVE
+Bot(3): what kind of dogs do you have .
+User(4): I HAVE HUSKY DOGS
+Bot(4): i do not have any dogs . you ?
+User(5): I HAVE 3 DOGS
+Bot(5): what kind of dogs do you have .
+User(6): HUSKY DOGS I HAVE
+Bot(6): i do not have any dogs . you ?
+User(7): HEY DO YOU LIKE CAT
+Bot(7): why a cat when you can have dogs ? i need to know because i am a fan .
+User(8): I HAVE 3 DOGS
+Bot(8): what kind of dogs do you have .
+User(9): I HAVE 3 HUSKY DOGS
+Bot(9): i do not have any dogs . you ?
+User(10): I HAVE 3
+Bot(10): wow ! i work at a zoo and we do not even have 3 dogs haha
+
+Persona:
+when i grow up i want to be a physical therapist.
+i have been retired for a years.
+two dogs live with me.
+my favorite movie is mean girls.
+i've a children and a dogs.
+
+Topic and Human Opinion:
+Beginning: TV(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.71
+Robotic(↓): 74
+Interesting: 75
+Fun: 78
+Consistent: 82
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

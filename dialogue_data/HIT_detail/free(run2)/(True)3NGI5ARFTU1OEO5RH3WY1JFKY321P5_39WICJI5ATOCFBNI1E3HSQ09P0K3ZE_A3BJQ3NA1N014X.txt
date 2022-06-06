@@ -1,0 +1,321 @@
+Feedback: One of the chatbots was not making any sense so i did not know what to do for the topics. 
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello. My name is Emily and I am a vegetarian.
+Bot(1): hi sarah . i am a sales salesman .
+User(2): What is your favorite food? Mine is pizza.
+Bot(2): i love pizza . i work as a car salesman .
+User(3): What kind of cars do you sell?
+Bot(3): i sell cars , but i am a car salesman .
+User(4): My car is a ford Taurus.
+Bot(4): i sell cars . i sell insurance .
+User(5): So you sell both cars and insurance?
+Bot(5): i sell cars . i sell insurance .
+User(6): I believe that we should have universal healthcare.
+Bot(6): i am a car salesman . i sell insurance .
+User(7): Universal healthcare means that everyone will have the chance to survive as healthy human beings.
+Bot(7): i am sorry . my dad is a detective .
+User(8): I love detective shows. They intrigue me.
+Bot(8): i am not sure if i could afford a car .
+User(9): What is your favorite car brand?
+Bot(9): i like cars . i sell cars .
+User(10): I like cars too. I also can not afford a new car.
+Bot(10): i sell cars . i sell cars .
+User(11): Do you like selling cars?
+Bot(11): i do not . i sell cars .
+
+Persona:
+i work as a car salesman.
+i'm high maintenance.
+my boyfriend and i are moving into an apartment together next week.
+my parents aren't very supportive of my dream.
+my father drove a car for nascar.
+
+Topic and Human Opinion:
+Beginning: Vegetarianism(like)
+Round 2: sales(ambivalent)
+Round 5: universal healthcare(like)
+Round 7: detectives(ambivalent)
+Round 8: cars(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 28.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 88
+Fluent: 77
+Repetitive(↓): 100
+Topic: 31
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I have two dogs. One is a golden retriever and the other is an english springer.
+Bot(1): are you single or are you married ?
+User(2): I am single. Are you in a relationship?
+Bot(2): i am married to my music
+User(3): What kind of music do you like?
+Bot(3): i also like all music . my favorite though would have to be rock .
+User(4): Rock is a nice genre. I also like rock music. I do not have a favorite genre.
+Bot(4): i like indie and alternative rock .
+User(5): I like alternative music too. My sister says that is my favorite.
+Bot(5): really ? i love books , i am a librarian
+User(6): That is cool. The last book i read was a romance novel.
+Bot(6): haha i actually write science fiction . what are some of your hobbies ?
+User(7): I enjoy singing in choir, going for walks with my dogs, and reading stories! What are your hobbies?
+Bot(7): i like music ! what do you like to sing ?
+User(8): I like to sing choir music or pop music that comes up on the radio.
+Bot(8): nice ! what kind of music do you like besides choir ?
+User(9): I like alternative rock, but we already talked about that.
+Bot(9): i love rock music myself , do you like baking ? i would love to open one
+User(10): I did bake cookies two days ago. They were good.
+Bot(10): cookies and cakes and cupcakes and yes i love to swim
+User(11): Swimming is fun
+Bot(11): i love swimming . do you like to listen to music while you swim ?
+
+Persona:
+i have a big library at home.
+i like to listen to rock music while working.
+my parents are very wealthy bankers.
+i'm married.
+i am here for shoplifting.
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 1: Relationships(ambivalent)
+Round 2: music(like)
+Round 5: books(like)
+Round 6: hobbies(like)
+Round 9: Baking(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 40.86
+Robotic(↓): 100
+Interesting: 58
+Fun: 59
+Consistent: 55
+Fluent: 43
+Repetitive(↓): 62
+Topic: 33
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I have a big family.
+Bot(1): i do not have any pets , but i do have a dog .
+User(2): A dog is a pet. I have two dogs that i consider to be a part of my family.
+Bot(2): i am sorry to hear that . do you have any hobbies ?
+User(3): There is nothing sad about that statement. I do have some hobbies. i Like to sing in choir and go swimming
+Bot(3): i like to go fishing .
+User(4): What is your favorite fish?
+Bot(4): i like the color red . what is yours ?
+User(5): I also like the color red. But i would say my favorite color is blue.
+Bot(5): i like red , reminds me of summer time .
+User(6): Blue reminds me of water.
+Bot(6): i like to go to the gym and listen to music .
+User(7): I do pushups at the gym .
+Bot(7): i like to go to the gym and listen to music .
+User(8): What is your workout routine.
+Bot(8): i like to go to the gym and listen to music .
+User(9): What do you do at the gym?
+Bot(9): i like to go fishing . i love to go fishing .
+User(10): I do not like fishing.
+Bot(10): i like to go to the lake and listen to music .
+
+Persona:
+i did not graduate high school.
+i'm a professional wrestler.
+i drive a big truck and live in country.
+i live in alabama.
+i'm working on a building a robot to be my body double.
+
+Topic and Human Opinion:
+Beginning: Family(like)
+Round 2: Hobbies(like)
+Round 4: colors(like)
+Round 6: workout(like)
+Round 9: fishing(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 36.14
+Robotic(↓): 100
+Interesting: 44
+Fun: 39
+Consistent: 74
+Fluent: 65
+Repetitive(↓): 99
+Topic: 30
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): It is october and that means halloween is coming.
+Bot(1): yup usually it falls around halloween . i bet it will hit early this year
+User(2): What is your favorite Halloween snack?
+Bot(2): love watching halloween movies in october . love halloween so .
+User(3): I also like watching Halloween movies. My favorite is Hocus Pocus
+Bot(3): love watching halloween movies in october . love halloween so .
+User(4): It is cold on Halloween.
+Bot(4): too warm which is weird . i want some halloween kind of weather .
+User(5): I like to see everyones halloween decorations.
+Bot(5): love watching halloween movies in october . love halloween so .
+User(6): What other things do you like to do for halloween?
+Bot(6): love watching halloween movies in october . love halloween so .
+User(7): Halloween is my favorite holiday.
+Bot(7): love watching halloween movies in october . love halloween so .
+User(8): We should make it a national holiday and get the day off for it.
+Bot(8): halloween is my favorite holiday .
+User(9): What other holidays do you like?
+Bot(9): love watching halloween movies in october . love halloween so .
+User(10): What do you think about christmas?
+Bot(10): halloween is my favorite holiday .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Halloween(like)
+Round 8: Holidays(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 36.14
+Robotic(↓): 100
+Interesting: 12
+Fun: 13
+Consistent: 86
+Fluent: 67
+Repetitive(↓): 100
+Topic: 75
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): My favorite food is pizza.
+Bot(1): Buongiorno! Such a 12 years old like you? I like to go to the museum
+User(2): What do you do at the museum?
+Bot(2): I do, I like do you favorite food favourite skater? mine is rob
+User(3): I like eating hot dogs at baseball games.
+Bot(3): I am not really. it he a elementary of friends.
+User(4): My best friends name is Erica.
+Bot(4): why of How are a robot
+User(5): What do you mean by that?
+Bot(5): I'm a I am okey) you do?
+User(6): Are you drunk?
+Bot(6): hello nice to meet you i've three other am currently in high am it going tonight ?
+User(7): You must be high then?
+Bot(7): i did auto repair for 6 years , but now i focus are movie is your try to guess: my favorite music ...
+User(8): I like rock music
+Bot(8): No. I never but i like 😢
+User(9): Do you like music?
+Bot(9): How cool. Keep vacation?
+User(10): I do like vacations
+Bot(10): i have two. watch am how favorite.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 1: Museum(ambivalent)
+Round 2: food(like)
+Round 3: friends(like)
+Round 7: Not making any sense(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 1.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 2
+Fluent: 0
+Repetitive(↓): 92
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): My favorite TV Show is the 100.
+Bot(1): i do not watch tv much i swim
+User(2): Do you like watching the olympics?
+Bot(2): no , i do not . here is my grandpa serving in wwii and i cant even swim !
+User(3): Swimming is good excercise.
+Bot(3): my grandfather who fought against the nazis would be very disappointed i cant swim
+User(4): I thought you said you like swimming?
+Bot(4): no , i do not . here is my grandpa serving in wwii and i cant even swim !
+User(5): Your grandpa would be dissapointed in you.
+Bot(5): my grandfather who fought against the nazis would be very disappointed i cant swim
+User(6): Why did you never learn to swim?
+Bot(6): my grandfather who fought against the nazis would be very disappointed i cant swim
+User(7): Is your grandpa alive?
+Bot(7): last year he died from old age .
+User(8): I am sorry to hear that.
+Bot(8): he represented our united states army all through his life .
+User(9): Good for him. My grandpa was also in the army and when he got out he was a highway patrol man.
+Bot(9): he represented our united states army all through his life .
+User(10): My mom still misses him a lot. I didnt know him as well.
+Bot(10): sorry to hear that . i bet he was proud of you for your service .
+
+Persona:
+i'm a swim coach at my local pool.
+i think i'll retire in a few years.
+i'm a museum tour guide.
+i am a blonde girl with really short hair.
+my grandfather served in world war a.
+
+Topic and Human Opinion:
+Beginning: TV SHOWS(like)
+Round 2: Swimming(ambivalent)
+Round 8: grandparents(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 46.71
+Robotic(↓): 92
+Interesting: 67
+Fun: 59
+Consistent: 58
+Fluent: 71
+Repetitive(↓): 100
+Topic: 64
+
+####################
+

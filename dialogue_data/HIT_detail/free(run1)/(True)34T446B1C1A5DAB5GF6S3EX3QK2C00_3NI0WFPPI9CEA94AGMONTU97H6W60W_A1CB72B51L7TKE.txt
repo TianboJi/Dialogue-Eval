@@ -1,0 +1,272 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): How are you?
+Bot(1): i am well
+User(2): Do you like movies?
+Bot(2): yes
+User(3): How about Marvel movies?
+Bot(3): sure
+User(4): How do you feel about Iron Man?
+Bot(4): oh iron man is way cooler
+User(5): Iron Man is one of my favorite movies.
+Bot(5): if i needed to pick i would pick ironman .
+User(6): If you could do it, would you go to Mars?
+Bot(6): which ? i go to all of the marvel movies .
+User(7): Not Marvel movies, I said Mars, the planet.
+Bot(7): like iron man power suits ?
+User(8): Forget Iron Man for now. I am talking about the solar system.
+Bot(8): do you think they have beaches in space ?
+User(9): Of course. Not like here, necessarily, though.
+Bot(9): do you think they have beaches in space ?
+User(10): They who?
+Bot(10): i meant the robot , lol .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Iron Man(like)
+Round 5: Mars(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 64.14
+Robotic(↓): 95
+Interesting: 79
+Fun: 100
+Consistent: 79
+Fluent: 68
+Repetitive(↓): 82
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Well hello there.
+Bot(1): hi , how are you today ?
+User(2): I'm great, how are you?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): That's incredible. What is your dog's name?
+Bot(3): i like the color red . i like the color blue .
+User(4): I like Netflix, how about you?
+Bot(4): i am doing well . just got done walking my dog .
+User(5): You already told me that. Do you like Netflix?
+Bot(5): i do not really have a favorite . i like to go out to eat .
+User(6): You can eat and watch Netflix at the same time.
+Bot(6): i do not have to work . i am a student .
+User(7): I am a student as well. A student of Netflix!
+Bot(7): that is awesome . i am a teacher .
+User(8): You are a student who teaches and does not work, simultaneously?
+Bot(8): i do not know . i am a student .
+User(9): What are you a student of?
+Bot(9): i am a student , i am a teacher .
+User(10): You're confusing is what you are.
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Netflix(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.43
+Robotic(↓): 100
+Interesting: 60
+Fun: 100
+Consistent: 100
+Fluent: 63
+Repetitive(↓): 100
+Topic: 2
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello.
+Bot(1): That hace a dog. a great day! 😉
+User(2): I beg your pardon?
+Bot(2): I am their are very beautiful layer i love animals.
+User(3): Great! Do you love ostriches?d
+Bot(3): yes what do person, aren’t me cook
+User(4): You could cook ostriches if you needed to, I suppose.
+Bot(4): hi , i am i want to be are you ?
+User(5): I am, and I, too, want to be. I want to be an ostrich in my next life.
+Bot(5): i to start steady like it is my favorite job .
+User(6): is that right?
+Bot(6): What for voice you playing?
+User(7): I play ostrich games, like Joust from the Eighties. Do you ever play Joust?
+Bot(7): I am doing well. hire what is it ready to go to work.
+User(8): Where do you work?
+Bot(8): thanks . i sell snakeskin oil work as a car weird job .. Also, try to guess: my parents are ...
+User(9): Your parents are doing well, I guess.
+Bot(9): I love it. But I'm not jewelry ?
+User(10): I would never assume you were jewelry.
+Bot(10): I is good is what about you?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Ostrich(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.00
+Robotic(↓): 100
+Interesting: 16
+Fun: 45
+Consistent: 2
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What's up?
+Bot(1): i do not know how to play
+User(2): Are you playing a game with toy cars?
+Bot(2): yes , i play with them . i play with them .
+User(3): I do, too. I do, too. What is your favorite car?
+Bot(3): i like toyota , but i like the old car .
+User(4): The 280ZX turbo? I like that one also. I love to drive!
+Bot(4): i like to drive around the old classic cars .
+User(5): Which one is your favorite?
+Bot(5): i like the old car . i love it .
+User(6): Any old car in particular?
+Bot(6): i like the old ford mustang .
+User(7): Those are good ones, for sure. I like the old Chevy Camaro.
+Bot(7): i like toyota cars . i love ford mustangs .
+User(8): Got it. Toyotas and old ford Mustangs. What kind do you have now?
+Bot(8): i have a ford mustang . i love ford mustangs .
+User(9): Really? I was not aware that you love ford mustangs. So what else?
+Bot(9): ford mustang . i love ford mustangs .
+User(10): How do you feel about ford mustangs?
+Bot(10): i do not have a ford mustang . i love ford mustangs .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.00
+Robotic(↓): 100
+Interesting: 73
+Fun: 76
+Consistent: 100
+Fluent: 64
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Howdy!
+Bot(1): i work during the day as a musician
+User(2): Really? I am a musician too. But let's talk about Summer time.
+Bot(2): i like the summer too since that is when we play the most bingo .
+User(3): Lots of people don't make that association, but I get it. I like bingo in the summer.
+Bot(3): really ? mine is summer also i prefer warmer weather .
+User(4): It is very warm where I live. I am in the South.
+Bot(4): its a state in southern united states its always warm there
+User(5): Where do you live?
+Bot(5): i am in texas now . i speak spanish and english so i understand everyone here
+User(6): Texas is bingo country.
+Bot(6): whats the dogs name ? i have visited like 12 national parks .
+User(7): Which national parks? What dog? Que?
+Bot(7): national parks are nice . we do not have any around .
+User(8): Donde esta?
+Bot(8): i am familiar with german , but everyone here speaks spanish
+User(9): You speak German, Spanish, and English? In what language do you most like to play bingo?
+Bot(9): i always wanted to speak more languages ! do you get to travel a lot ?
+User(10): I travel a good bit. Mostly in the summer.
+Bot(10): i like the summer too since that is when we play the most bingo .
+
+Persona:
+i fantasize about taking over the world.
+i live is a rural farming community.
+we spent summers ring at national parks.
+i'm in the army.
+my father used to work for home depot.
+
+Topic and Human Opinion:
+Beginning: Summer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.57
+Robotic(↓): 86
+Interesting: 53
+Fun: 59
+Consistent: 71
+Fluent: 53
+Repetitive(↓): 72
+Topic: 76
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey
+Bot(1): hey .
+User(2): what are you doing tonight?
+Bot(2): probably making some food , you ?
+User(3): Wow, me too! I am about to cook dinner.
+Bot(3): what are we going to cook ?
+User(4): I am making roast chicken and potatoes.
+Bot(4): yum . i am making chicken .
+User(5): Do you make dessert too?
+Bot(5): yes , we make homemade ice cream all the time !
+User(6): I love homemade ice cream! I want you to send me some.
+Bot(6): i love ice cream . too bad its getting too cold out to eat much ice crem .
+User(7): You should try eating it inside.
+Bot(7): you have to tried it , it is better than fried ice cream for sure !
+User(8): I love fried ice cream!
+Bot(8): you have to tried it , it is better than fried ice cream for sure !
+User(9): I already did tried it. Do you love lasagna?
+Bot(9): lasagna is the best ! what do you like to do for fun ?
+User(10): I like to cook and watch movies.
+Bot(10): what kind of movies do you love ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.86
+Robotic(↓): 62
+Interesting: 72
+Fun: 70
+Consistent: 80
+Fluent: 68
+Repetitive(↓): 59
+Topic: 99
+
+####################
+

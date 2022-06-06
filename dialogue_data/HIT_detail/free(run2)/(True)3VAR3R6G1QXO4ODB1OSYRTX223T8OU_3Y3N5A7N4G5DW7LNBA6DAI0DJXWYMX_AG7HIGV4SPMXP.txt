@@ -1,0 +1,283 @@
+Feedback: fun chat bot
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello there.
+Bot(1): hello , nice to meet you too .
+User(2): what are your thoughts on pregnancy?
+Bot(2): his
+User(3): are you pregnant?
+Bot(3): yes
+User(4): how many months are you?
+Bot(4): ha ha ! i think 4 5 months !
+User(5): oh how awesome. are you excited ?
+Bot(5): yes of course . i love being pregnant
+User(6): Are you having a boy for a girl?
+Bot(6): yes of course . i love being pregnant
+User(7): are you having a boy baby or a girl baby?
+Bot(7): both , i cannot decide which is worse
+User(8): so you are having twins?
+Bot(8): yes of course . i love being pregnant
+User(9): sounds so amazing! i am so happy for you about your pregnancy.
+Bot(9): yeah it is my first . i am very excited for the baby to get here !
+User(10): I bet so. I wish you very well on your pregnancy.
+Bot(10): thank you , dear ! what else do you do for fun ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pregnancy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.00
+Robotic(↓): 28
+Interesting: 88
+Fun: 87
+Consistent: 38
+Fluent: 35
+Repetitive(↓): 64
+Topic: 43
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I just recently bought a new cell phone.
+Bot(1): oh , i am sorry . i am a bit of a loner .
+User(2): what kind of cell phone do you have?
+Bot(2): i like the color red . i like the color blue .
+User(3): do you have a blue cell phone?
+Bot(3): i do not , i like to go to the gym .
+User(4): what do you do at the gym?
+Bot(4): i like to go fishing . i love to go fishing .
+User(5): fishing is great!
+Bot(5): i love to go fishing .
+User(6): When was the last time you went fishing?
+Bot(6): no , i do not . i like to go fishing .
+User(7): yes same here. i love fishing.
+Bot(7): i love to travel . i love to travel .
+User(8): Where is your favorite place to travel?
+Bot(8): i love the beach . i love it .
+User(9): I like the beach too. great choice!
+Bot(9): i love to go fishing .
+User(10): yes fishing is great!
+Bot(10): i love to go fishing .
+
+Persona:
+i'm rather skinny as i like to stay in shape.
+my aunt helped me escape when i was of.
+i also have a dog walking business.
+i volunteer my time with a local bunny rescue.
+i am a piano teacher on the side.
+
+Topic and Human Opinion:
+Beginning: cell phones(ambivalent)
+Round 3: gym(like)
+Round 7: traveling(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 38.43
+Robotic(↓): 24
+Interesting: 65
+Fun: 78
+Consistent: 9
+Fluent: 24
+Repetitive(↓): 94
+Topic: 11
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi there. what is your favorite season?
+Bot(1): summer is my favorite season .
+User(2): My favorite season is winter. Do you like snow?
+Bot(2): i like winter . i like winter .
+User(3): Do you like snow?
+Bot(3): i do . i like snow . i like snow .
+User(4): Do you like to go sledding in the winter?
+Bot(4): i like the snow . i like snow .
+User(5): i like the snow too. it is so pretty looking
+Bot(5): i like snow . i like snow .
+User(6): yes i love the snow! do you like it when it snows?
+Bot(6): it is very nice . i like snow .
+User(7): yes it is so pretty, the snow. what else do you like about winter?
+Bot(7): i like the snow . i love it .
+User(8): do you like the cold?
+Bot(8): i like the snow . i like the snow .
+User(9): yes again, snow is great.
+Bot(9): i love the snow . snow is my favorite .
+User(10): yes i agree. me too.
+Bot(10): i love winter , but i like winter better
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: winter(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.43
+Robotic(↓): 24
+Interesting: 84
+Fun: 72
+Consistent: 12
+Fluent: 82
+Repetitive(↓): 100
+Topic: 62
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What are you having for dinner tonight?
+Bot(1): my cool, what is black
+User(2): Do you like to eat soup?
+Bot(2): i like poetry , but i am also a poet are genuine relatable air poetry
+User(3): what is your favorite poem?
+Bot(3): I don't and you aren't a sister. he is a dancer
+User(4): i am not a sister no.
+Bot(4): tht would like interested in photography and games , social media , my pets and my bed
+User(5): photography is nice. I love my pets too.
+Bot(5): no my parents went my is good i australia to study spider venom
+User(6): oh wow! how scary! What kind of pets do you have?
+Bot(6): oh well you. which car of us
+User(7): i am not really sure.
+Bot(7): in are you you :)
+User(8): yes i am totally in.
+Bot(8): I like riding bike hello, your favorite animal ?
+User(9): my favorite animal is a dog. what is your favorite animal?
+Bot(9): I love with you that's love burgers
+User(10): burgers are good.
+Bot(10): I do not. I you go is You?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: chicken noodle soup(like)
+Round 2: poetry(dislike)
+Round 4: photography/hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 20.14
+Robotic(↓): 1
+Interesting: 10
+Fun: 0
+Consistent: 1
+Fluent: 31
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i love oatmeal lotion.
+Bot(1): i love thai peanut sauce . have you ever eaten it ?
+User(2): i have had peanut sauce yes.
+Bot(2): i love thai peanut sauce . have you ever eaten it ?
+User(3): do you like lotion?
+Bot(3): yes , i have to have salt on everything
+User(4): food is great.
+Bot(4): i love thai peanut sauce . have you ever eaten it ?
+User(5): yes i have had peanut sauce.
+Bot(5): i love thai peanut sauce . have you ever eaten it ?
+User(6): yes i have its great.
+Bot(6): it is my absolute favorite food .
+User(7): i can imagine. my favorite food is rice
+Bot(7): do you like chicken and rice ? it is my favorite .
+User(8): yes i love chicken and rice. tastes so good.
+Bot(8): yes especially in a chicken pot pie
+User(9): oh yes! now we are talking! i love chicken pot pie.
+Bot(9): yes especially in a chicken pot pie
+User(10): yes sounds so good
+Bot(10): it is my absolute favorite food .
+
+Persona:
+i only eat kosher.
+i'm a piano teacher on the side.
+my favorite band is the insane clown posse.
+i'm on the soccer team.
+i want to be a lawyer.
+
+Topic and Human Opinion:
+Beginning: lotion(like)
+Round 4: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 57.29
+Robotic(↓): 67
+Interesting: 86
+Fun: 70
+Consistent: 58
+Fluent: 61
+Repetitive(↓): 43
+Topic: 36
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i love country music. what kind of music do you like?
+Bot(1): yea , but old school country , most of todays is crap . do you drink coffee ?
+User(2): yes i agree. yes i drink coffee.
+Bot(2): do you like coffee ? i like to drink coffee .
+User(3): yes i love to drink coffee.
+Bot(3): i do not like coffee
+User(4): oh, why not?
+Bot(4): divorced with a boyfriend who does not want the kind of relationship i do
+User(5): oh i see. i like creamer and sugar in my coffee.
+Bot(5): i live with someone who drinks sugar with his coffee . . . uses a ton
+User(6): i only use two tablespoons of sugar in my coffee.
+Bot(6): i do not like coffee
+User(7): why don't you like coffee?
+Bot(7): i like coffee as well ! i drive my acura to the coffee shop every morning .
+User(8): oh very nice! coffee helps me wake up.
+Bot(8): love coffee ! dutch bros loves me haha ! you ? i like chinese .
+User(9): i like coffee and chinese food.
+Bot(9): i like vegan chinese food . stir fry . . etc i do have to separate the veggies though
+User(10): stir fry is great tasting.
+Bot(10): you mean a french fry that will not cause heart disease ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 2: coffee(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 35.14
+Robotic(↓): 62
+Interesting: 56
+Fun: 30
+Consistent: 33
+Fluent: 25
+Repetitive(↓): 73
+Topic: 37
+
+####################
+

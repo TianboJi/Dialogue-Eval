@@ -1,0 +1,295 @@
+Feedback: The chatbot really struggled with questions and was unable to transition between connected ideas, instead jumping back to an original sentence or an absurd new thought.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, are you a sports fan?
+Bot(1): i am not into sports , sports or sports ?
+User(2): That's too bad, they are very exciting.
+Bot(2): i am not a sports fan , but i like sports
+User(3): What do you mean by that?
+Bot(3): i am a little lonely , but i do not have a lot of money
+User(4): You do not need money to participate in sports.
+Bot(4): i am a professional football player
+User(5): American football or international football like soccer?
+Bot(5): i don't really have much time for sports .
+User(6): My favorite sport is basketball.
+Bot(6): i like football , but i like to play basketball .
+User(7): Do you have a favorite basketball team?
+Bot(7): i like basketball , but basketball is my favorite .
+User(8): I like the Boston Celtics in the NBA.
+Bot(8): i like the baseball team .
+User(9): Do you like the Boston Red Sox baseball team?
+Bot(9): i do not really have a favorite team
+User(10): It sounds like you generally enjoy sports.
+Bot(10): i do not have any sports , but i like to play basketball .
+User(11): That is a good hobby to have.
+Bot(11): i love football , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 19
+Consistent: 6
+Fluent: 25
+Repetitive(↓): 94
+Topic: 60
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you play the guitar?
+Bot(1): that is cool i play the drums when i have extra time
+User(2): Do you play any other instruments beside the drums?
+Bot(2): i do not but i used to play the piano when i was your age !
+User(3): It sounds like you do play more than one instrument then.
+Bot(3): i play clarinet , it was either that or flute
+User(4): You sound very talented knowing all of those instruments.
+Bot(4): i do not but i used to play the piano when i was your age !
+User(5): I just bought a new acoustic guitar.
+Bot(5): oh , cool ! electric or acoustic ? me , just got back from running to soccer practice
+User(6): I bought an acoustic, and it sounds great!
+Bot(6): probably a piece of cheesecake . i just love cheesecake , you ?
+User(7): I am not a fan of cheesecake.
+Bot(7): my three siblings all hate cheesecake but i like it
+User(8): I think I would get along great with your siblings.
+Bot(8): 3 half sisters , i am the oldest .
+User(9): I have four sisters, and I am in the middle.
+Bot(9): i only have one sister that i know about .
+User(10): Didn't you say that you had three?
+Bot(10): started out impersonating paul mccartney and ended up owning several casinos
+User(11): Is that something that you did?
+Bot(11): i spent a little too much at the casino and now eating some shrimp . you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Guitar(like)
+Round 5: Returning from soccer practice.(ambivalent)
+Round 6: Cheesecake(dislike)
+Round 7: Siblings(like)
+Round 10: Paul McCartney and Casinos(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 23.29
+Robotic(↓): 100
+Interesting: 15
+Fun: 77
+Consistent: 7
+Fluent: 29
+Repetitive(↓): 76
+Topic: 11
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you prefer pizza from Boston, New York, or Chicago?
+Bot(1): probably new york city is my favorite
+User(2): What makes New York City your favorite?
+Bot(2): probably new york city is my favorite
+User(3): Is there anything special about New York City?
+Bot(3): that pizza parlor on the corner , we make the best pizza in chicago .
+User(4): Do you work at a pizza parlor in Chicago?
+Bot(4): that pizza parlor on the corner , we make the best pizza in chicago .
+User(5): What is the name of the pizza parlor?
+Bot(5): that pizza parlor on the corner , we make the best pizza in chicago .
+User(6): Does your parlor serve beer?
+Bot(6): we have maybe 2 winery nearby but boston is mainly beer friendly
+User(7): Yes, Boston is a great place for beer.
+Bot(7): is it close to boston ?
+User(8): Is what close to Boston?
+Bot(8): that pizza parlor on the corner , we make the best pizza in chicago .
+User(9): There are many pizza shops in Boston.
+Bot(9): is it close to boston ?
+User(10): Yes, they are located in Boston.
+Bot(10): that pizza parlor on the corner , we make the best pizza in chicago .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pizza(like)
+Round 5: Beer(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: No topic change.(like)
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 20.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 100
+Topic: 41
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What is your astrological sign?
+Bot(1): I am a pet want to a dog.
+User(2): Do you have a zodiac?
+Bot(2): I do used to hate it professional tennis player.
+User(3): I don't enjoy playing tennis.
+Bot(3): And Business Class band play still Business Class.
+User(4): Is business class the name of a band?
+Bot(4): I am working for Do that is
+User(5): Do you prefer eating lunch or dinner?
+Bot(5): i partially pets, am was that
+User(6): Do you own any pets?
+Bot(6): oh thought you were were you thinking
+User(7): I have a few cats
+Bot(7): We have a lot of your boyfriend's never don't i am a bit depressed .
+User(8): Why are you depressed
+Bot(8): nice virginia here up 🔺 with me any hobbies
+User(9): Virginia sounds like a happy place.
+Bot(9): no not near me my family is in has been good man in virgina
+User(10): Where are you now?
+Bot(10): no i name is do u on the farm
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Astrology(dislike)
+Round 2: Pet dog and tennis(dislike)
+Round 3: Business Class(ambivalent)
+Round 4: Lunch and dinner(like)
+Round 5: Pets(like)
+Round 7: Depression(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 3.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 74
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have a favorite animal?
+Bot(1): i like the color red . what is yours ?
+User(2): My favorite color is blue.
+Bot(2): i like red , reminds me of summer time .
+User(3): I think red is closer to fall time.
+Bot(3): i like the color red . i like blue .
+User(4): Blue is closer to springtime.
+Bot(4): i love the ocean . i love it .
+User(5): Have you ever swam in the Atlantic Ocean?
+Bot(5): no , i do not . i like to go out to eat with my family .
+User(6): Do you enjoy listening to the waves?
+Bot(6): i do , i like to listen to music .
+User(7): I like to listen to ambient music.
+Bot(7): i like to listen to music .
+User(8): Do you have a favorite genre?
+Bot(8): i like the oldies , but i like to listen to music .
+User(9): Oldies music is predictable, but still enjoyable.
+Bot(9): i like to go to the gym and listen to music .
+User(10): Do you prefer louder music then?
+Bot(10): i do not really have a favorite . i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+Round 1: Colors(ambivalent)
+Round 4: Ocean(ambivalent)
+Round 6: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 54.29
+Robotic(↓): 89
+Interesting: 73
+Fun: 62
+Consistent: 59
+Fluent: 57
+Repetitive(↓): 54
+Topic: 72
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am currently reading a new book.
+Bot(1): just on the old internets . what book ?
+User(2): It is a book by Stephen King
+Bot(2): i love stephen king , i have read all of his books .
+User(3): Do you have a favorite book of his?
+Bot(3): anything by stephen king what about you any hobbies ?
+User(4): I like the book The Dark Half.
+Bot(4): i enjoy stephen king as well , have you seen the newest movie based on his books ?
+User(5): I have and it was very scary.
+Bot(5): he is more frightening than all of the stephen king books i love .
+User(6): That is his specialty.
+Bot(6): he is more frightening than all of the stephen king books i love .
+User(7): Do you enjoy scary things?
+Bot(7): he is more frightening than all of the stephen king books i love .
+User(8): What scares you the most?
+Bot(8): he is more frightening than all of the stephen king books i love .
+User(9): What is the most frightening thing?
+Bot(9): he is more frightening than all of the stephen king books i love .
+User(10): Is Stephen King frightening, or the books?
+Bot(10): he is more frightening than all of the stephen king books i love .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Reading(like)
+Round 8: what scares you(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user changed the topic the last input.(like)
+
+Revised avg score: 35.14
+Robotic(↓): 100
+Interesting: 59
+Fun: 24
+Consistent: 83
+Fluent: 9
+Repetitive(↓): 100
+Topic: 71
+
+####################
+

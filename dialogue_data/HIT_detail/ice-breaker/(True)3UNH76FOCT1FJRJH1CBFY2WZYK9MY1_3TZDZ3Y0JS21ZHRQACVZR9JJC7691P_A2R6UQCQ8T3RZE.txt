@@ -1,0 +1,284 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello, citizen! May I help you? I have superpowers.
+Bot(1): i do not know how to make it . i like to go to the park .
+User(2): Yes, going to the park on a warm summer day is a great way to spend free time.
+Bot(2): i love to go fishing .
+User(3): I haven't been fishing since I was a boy...
+Bot(3): i like to go to the beach and listen to music .
+User(4): You must like the Beach Boys then.
+Bot(4): i do not know how to make it .
+User(5): You don't know how to make music? I fear I don't have much talent either in that regard.
+Bot(5): i do not know what to say .
+User(6): Sometimes not knowing what to say is indicative of wisdom.
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): Please don't be.
+Bot(7): i like to go to the gym and listen to music .
+User(8): I've been looking for a local gym. Do you belong to one?
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): Me too. Do you listen to classical music when you work out?
+Bot(9): i do , i love to read . what about you ?
+User(10): Sure do. I feel incomplete if I don't have a book with me.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have superpowers.(ambivalent)
+Round 1: going to the park(ambivalent)
+Round 2: fishing(ambivalent)
+Round 3: going to the beach and listening to music(ambivalent)
+Round 7: going to the gym and listening to music(ambivalent)
+Round 9: reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 40.29
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 18
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey, did I ever tell you I grew up on a farm?
+Bot(1): i want to qualify for an event or professionally compete at cow milking someday
+User(2): Have you ever worked with cows?
+Bot(2): cows and horses .
+User(3): Cool. Me too. My family used to keep all sorts of animals.
+Bot(3): cool . i love dogs too . cannot take my dog deep sea diving , but i still love him .
+User(4): Yeah, it would be difficult to train a dog to use SCUBA equipment.
+Bot(4): tigers , lions , giraffes , zoo animals . my wife helps me , are you married ?
+User(5): No, I'm afraid I'm all alone.
+Bot(5): yes . i spend a lot of time watching old bob ross videos .
+User(6): I always found his videos dull.
+Bot(6): neat ! i have 3 toes . . . i guess there is no makeup that can hide that fact . .
+User(7): Holy shit! Did you get into an accident or something?
+Bot(7): yeah , a bad car wreck . i lost my legs , so i am super short now .
+User(8): I'm so sorry man. When did this happen?
+Bot(8): well , i was held hostage when i got caught up in a convenience store robbery .
+User(9): How did that lead to a car wreck?
+Bot(9): ok . when i get back from jogging i like to call my father in china .
+User(10): Do you get to visit him frequently?
+Bot(10): he is the lead character who plays potus . he is so cool .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i grew up on a farm.(ambivalent)
+Round 4: zoo animals and my relationship status(ambivalent)
+Round 5: Bob Ross(ambivalent)
+Round 6: having only three toes(ambivalent)
+Round 9: his father in China(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 19
+Repetitive(↓): 19
+Topic: 19
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello, my name is Tommy, and I am in the thrid grade.
+Bot(1): i think i much. don't worry that .
+User(2): What did you say, mister?
+Bot(2): my brother is in video game is your girl. I live with
+User(3): You're scaring me, mister. I don't think I should talk to you...
+Bot(3): No I do I have grandsons you local station
+User(4): Where is my teacher?
+Bot(4): that is cool. but i should get I play a lot of music
+User(5): What did you do to my teacher?
+Bot(5): His you already Ziggy.
+User(6): Help, I need an adult!
+Bot(6): that don't care about Spiderman, I you for asking . hows it going today ? 🙊
+User(7): Someone help me! This stranger is talking to me and not making any sense!
+Bot(7): Disney movies like Harry you off for me.
+User(8): Please, someone... anyone...
+Bot(8): same you bye
+User(9): Mommy... Daddy... where are you?
+Bot(9): I is your fav about that.
+User(10): Jesus, please save me...
+Bot(10): Buongiorno! classic rock , classical i’m are you?. I do like to talk about myself, i'm ex military
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm in the third grade.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Man, I eat too much when I'm bored.
+Bot(1): i eat out too , i eat way too much sleep
+User(2): Excuse me, but what do you mean by "I eat way too much sleep?"
+Bot(2): i don't know , i eat out alot
+User(3): Oh, now that I can understand. I used to eat out more, but the COVID has kept me away from restaurants.
+Bot(3): i am sorry to hear that . i am not sure what you mean .
+User(4): Oh, you haven't heard about the corona virus? You're lucky.
+Bot(4): i don't know , i am not sure if i could have heard of it .
+User(5): Well, if you watched the news, you'd have certainly heard something about it.
+Bot(5): i agree , i have heard that before .
+User(6): Do you have access to the internet? You can get news that way.
+Bot(6): i have never heard of it , but i have never heard of it .
+User(7): Are you Amish and have taken a vow of no technology?
+Bot(7): no , i don't . i am a bit of a loner .
+User(8): Yeah, me too.
+Bot(8): i am not sure if i could have a job , i am a homebody .
+User(9): How will you make enough money to survive if you do not get a job?
+Bot(9): i think i am going to be a doctor .
+User(10): What specialty are you interested in?
+Bot(10): i am sure you are right . i am a general in general .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: eating is something i do when i'm bored.(ambivalent)
+Round 1: eating sleep(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 20
+Repetitive(↓): 35
+Topic: 35
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): You won't believe this, but I just learned that my sister is a pole dancer!
+Bot(1): i am so proud of my sister
+User(2): Well I'm not! How could this happen! She's my kid sister, man!
+Bot(2): oh , i already came with someone to love when i was born five minutes before my sister !
+User(3): Man, try to stay on topic! I'm losing my mind over this! My sister works at a strip club for god's sake!
+Bot(3): i swear i am losing my freaking mind .
+User(4): Me too! Maybe we should go get a drink.
+Bot(4): i swear i am losing my freaking mind .
+User(5): Yeah, yeah, I heard you. Let's go get sauced, ok?
+Bot(5): i swear i am losing my freaking mind .
+User(6): Do you prefer beer or hard spirits?
+Bot(6): neither . i like milk , coke , water , hot chocolate , things like that !
+User(7): I need to forget my problems, and none of those will help!
+Bot(7): i swear i am losing my freaking mind .
+User(8): That's why you need a good stiff drink, my friend.
+Bot(8): i feel like i am losing my mind !
+User(9): Let me take you to Charlie's. It's a little dive bar I go to downtown when life gets to me.
+Bot(9): i feel like i am losing my mind !
+User(10): There a whiskey with your name on it, just come with me.
+Bot(10): i will as long as we can have a drink or two after .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my sister is a pole dancer.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 20
+Fluent: 20
+Repetitive(↓): 100
+Topic: 35
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey bro, I need to talk. My wife just left me and she took the kids.
+Bot(1): oh no ! my daughter just was broken up with too .
+User(2): It seems relationship failures are in the air...
+Bot(2): its terrible to say but the kids have been a bit of a disappointment .
+User(3): I can understand. I feel like I'm a disappointment to my parents too.
+Bot(3): sorry for that . well i am sort of disappointment to my family anyway
+User(4): I guess we all are on some level.
+Bot(4): a lot of times lately i think i had it so much better before them .
+User(5): Not me. My wife and kids gave my life real purpose, you know?
+Bot(5): good for you . my life on the other hand , is a total disappointment .
+User(6): What do you mean?
+Bot(6): something caused family problems . . . tell me more about you !
+User(7): Well, I'm old, fat, and balding. Probably won't find another woman at my age.
+Bot(7): www sorry about that . get to be my age you will feel better
+User(8): How old are you?
+Bot(8): i am middle age . no comment beyond that . how old are you ?
+User(9): I just turned fifty-three last month.
+Bot(9): are you looking forward to turning 40 ?
+User(10): No, I told you, I just turned fifty-three. Jeez man, do you not listen to me like at all?
+Bot(10): uh , ya . that is probably why i have such severe family issues .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my wife left me and took my children.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 18
+Fluent: 50
+Repetitive(↓): 0
+Topic: 37
+
+####################
+

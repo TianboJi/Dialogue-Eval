@@ -1,0 +1,281 @@
+Feedback: This is a good survey about the chatbots and checking their abilities with whom they are with talking.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): yes I love hear music
+Bot(2): i love music i listen to music
+User(3): thats awesome
+Bot(3): i love music i listen to music
+User(4): Do you know types of music?
+Bot(4): yes i do i love music
+User(5): what is your name?
+Bot(5): my name is jim and i like country music
+User(6): thats awesome
+Bot(6): i am not sure what you mean
+User(7): who is your favorite music director?
+Bot(7): i like the music i listen to
+User(8): thats okay
+Bot(8): i like music i like the music
+User(9): ask me a question
+Bot(9): i like music i like the music
+User(10): okay bye
+Bot(10): oh ok i guess you are ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Covid-19(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.29
+Robotic(↓): 38
+Interesting: 63
+Fun: 72
+Consistent: 75
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi!
+Bot(1): hey
+User(2): How are you doing?
+Bot(2): same
+User(3): Ask me question
+Bot(3): sure
+User(4): yaa!
+Bot(4): ok what is the answer
+User(5): what is your cricket player?
+Bot(5): ai caramba . i got the info on the game , you wanna know the pitch or what
+User(6): what do you mean by caramba?
+Bot(6): ai caramba . i got the info on the game , you wanna know the pitch or what
+User(7): i cant understand the name caramba
+Bot(7): oh ok i have no idea . . .
+User(8): ok thats ok
+Bot(8): i do not see it either
+User(9): where are you from?
+Bot(9): i am from ireland and you
+User(10): i am from new jersey
+Bot(10): i am from ny as well ! what do you do for a living ?
+User(11): i am working in a software company
+Bot(11): i am a software engineer too
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cricket(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.29
+Robotic(↓): 49
+Interesting: 59
+Fun: 70
+Consistent: 87
+Fluent: 61
+Repetitive(↓): 69
+Topic: 56
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I can see that. helped with my kind out to eat.
+User(2): what is your name?
+Bot(2): hold on , my girlfriend is knocking on my do you was a hockey parent to know !
+User(3): what does mean hockey parent?
+Bot(3): i live only you .
+User(4): I like the way you approaching
+Bot(4): Allo, Pyotr Efimovich, brothers or really Masha Yemelyanova.
+User(5): what kind of language is this?
+Bot(5): i'm at school am a cancer degree
+User(6): Good.which school do you study?
+Bot(6): those is cool. cars too
+User(7): ask me some questions?
+Bot(7): Hey! What's need to go! See about me: i enjoy poetry
+User(8): I like the english poems
+Bot(8): I am are you i love my life😃
+User(9): I can't understand your language
+Bot(9): Like, "Oh, I used to live in Africa believe we never met . and the little monkeys."
+User(10): are you from africa?
+Bot(10): what kind Are you an you like
+
+Persona:
+i'm a huge star wars fan.
+i've not spoken in three months.
+i've a hat collection of over 1000 hats.
+i am a boy.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: wrestling(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.71
+Robotic(↓): 58
+Interesting: 83
+Fun: 86
+Consistent: 42
+Fluent: 67
+Repetitive(↓): 63
+Topic: 19
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): I am superb
+Bot(2): i like to go to the gym and listen to music .
+User(3): so what?
+Bot(3): i am a student , but i am a student .
+User(4): okay
+Bot(4): i like to go to the gym and listen to music .
+User(5): are you a chatbot?
+Bot(5): no , i am not . i am a big fan of classical music .
+User(6): that's coolbuddy
+Bot(6): i like to go to the gym and listen to music .
+User(7): which do u like the gym trainer
+Bot(7): i like to play soccer .
+User(8): I too .
+Bot(8): i like to go to the gym and listen to music .
+User(9): so what
+Bot(9): i am a student , but i am a student .
+User(10): you are very irritative
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i've never had a steady relationship.
+i like to eat chocolate candy.
+i have been retired for a years.
+i am currently in a juvenile detention center.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: chatbot(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.43
+Robotic(↓): 38
+Interesting: 33
+Fun: 79
+Consistent: 22
+Fluent: 20
+Repetitive(↓): 74
+Topic: 6
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you doing?
+Bot(2): busy . days off are seldom restful . currently caring for my century old parents .
+User(3): that's super i too love my parents
+Bot(3): i work at del taco , i want to design fries lol
+User(4): Do you work in a hotel?
+Bot(4): i travel a ton and see many , many hotels .
+User(5): I too love the travels and food
+Bot(5): oh do you think he allow me to do a short film about him ?
+User(6): yes i think he will allow
+Bot(6): i like to garden maybe you could start a community garden .
+User(7): which plants do you like the most?
+Bot(7): i grow a little bit of everything in my garden no det though
+User(8): that's cool
+Bot(8): i am kidding its actually someone who makes maps , i also paint outdoors
+User(9): I also love to paint the outdoors
+Bot(9): what do you like to paint ?
+User(10): I like to paint my own house
+Bot(10): yes . i am an artist . i paint with my mind and my hands .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.14
+Robotic(↓): 63
+Interesting: 55
+Fun: 69
+Consistent: 56
+Fluent: 60
+Repetitive(↓): 41
+Topic: 29
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): good morning , like roller coasters ?
+User(2): Yes i like roller costers
+Bot(2): i like to ride roller coasters makes me feel like a kid !
+User(3): yes i too have that feeling
+Bot(3): i love my three children
+User(4): I have two children
+Bot(4): i adore my three dogs at home
+User(5): i love dogs and cats
+Bot(5): my favorite thing is going on roller coasters
+User(6): i love to play golf
+Bot(6): i love playing in the park also
+User(7): okay
+Bot(7): my favorite thing is going on roller coasters
+User(8): Why do you always asking this question?
+Bot(8): i really have no idea
+User(9): okay that's okay
+Bot(9): ok what is the answer
+User(10): I too don't know the answer
+Bot(10): ok what is the answer
+
+Persona:
+i have three children.
+i have three dogs.
+i enjoy going to the park.
+i love rollercoasters and sky diving.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.00
+Robotic(↓): 69
+Interesting: 79
+Fun: 67
+Consistent: 62
+Fluent: 46
+Repetitive(↓): 57
+Topic: 29
+
+####################
+

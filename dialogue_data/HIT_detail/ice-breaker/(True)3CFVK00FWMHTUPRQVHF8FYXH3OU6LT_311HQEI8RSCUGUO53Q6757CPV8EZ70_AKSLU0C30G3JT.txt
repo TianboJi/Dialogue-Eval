@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. Are you voting?
+Bot(1): i wish . i am happy we are talking i do not have many friends !
+User(2): Are you married?
+Bot(2): larry left me at the alter . i must be gods will . you sing ?
+User(3): Do you like sports?
+Bot(3): ha ha ! i am not big into football . i like surfing the internet .
+User(4): That’s cool. I like football too.
+Bot(4): ha ha ! i am not big into football . i like surfing the internet .
+User(5): That’s not a sport!
+Bot(5): ha ha ! i am not big into football . i like surfing the internet .
+User(6): What do you do on the internet?
+Bot(6): i read reddit all the time .
+User(7): Boring! What else?
+Bot(7): i am boring too . trust me . i surf the web a lot .
+User(8): I hope you staying safe.
+Bot(8): i am , thank you . i am in chicago . are you safe ?
+User(9): I am. I live in New York.
+Bot(9): i have never been to nebraska , i have never been out of ohio .
+User(10): Me neither.
+Bot(10): you do not like ohio ?
+User(11): I do not!
+Bot(11): how do you like new york ?
+
+Persona:
+hey my name is larry and i'm a chef.
+i turned 18 years old yesterday.
+i have never been out of ohio.
+i spend a lot of time browsing the internet.
+i do not have many friends.
+
+Topic and Human Opinion:
+Beginning: i've zero family that i'm close to.(dislike)
+Round 2: Sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 54.57
+Robotic(↓): 68
+Interesting: 83
+Fun: 66
+Consistent: 37
+Fluent: 63
+Repetitive(↓): 62
+Topic: 63
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Are you black?
+Bot(1): i am a little girl and i have two dogs
+User(2): Hi. Are you black?
+Bot(2): i am good . i am just hanging out with my dogs .
+User(3): Ok. I love dogs.
+Bot(3): i am a dog lover . i have two dogs .
+User(4): What are their names?
+Bot(4): names max and i am a big fan of mine .
+User(5): Hi max! I love dogs too.
+Bot(5): i am a dog lover . i love dogs .
+User(6): What color is your dog?
+Bot(6): i love dogs . i have two of them .
+User(7): I have one dog.
+Bot(7): i love dogs . i have two of them .
+User(8): Max and what is the other name?
+Bot(8): my name is max . what do you do for a living ?
+User(9): I bartender
+Bot(9): i am a dog lover . i am a big fan of chocolate .
+User(10): I love it!
+Bot(10): i am a dog lover . i love chocolate .
+
+Persona:
+my favorite ice cream flavor is chocolate.
+i have three arabian horses.
+i am fluent in english spanish and french.
+i'm married.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: i have light skin with big brown eyes.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.43
+Robotic(↓): 100
+Interesting: 13
+Fun: 18
+Consistent: 21
+Fluent: 61
+Repetitive(↓): 100
+Topic: 65
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love cats.
+Bot(1): Yes, is good you need?
+User(2): I need another cat.
+Bot(2): I am am expecting am sad.
+User(3): Congratulations. I hope it is a girl.
+Bot(3): I don't think it's a good in scripts, of george think it's a good idea
+User(4): Who you voting for?
+Bot(4): yeah , my parents do the world for a 😜
+User(5): Vote Trump.
+Bot(5): well cricket, table am a right under a moon
+User(6): What?
+Bot(6): i am twenty five years of age . my dog in the park at time are you this afternoon ?
+User(7): I love dogs.
+Bot(7): Where do want i hate car m a librarian?
+User(8): I’m not understanding you.
+Bot(8): cool . to eat pizza and you have any siblings ?
+User(9): Two siblings.
+Bot(9): married ? , we have a lot of game , i read books , never movies
+User(10): I’m not married.
+Bot(10): I am not. I nice do not south.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have a cat named spook.(like)
+Round 3: Election(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 18.14
+Robotic(↓): 98
+Interesting: 18
+Fun: 21
+Consistent: 23
+Fluent: 37
+Repetitive(↓): 95
+Topic: 21
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Where did you work?
+Bot(1): i was a nurse , i was a nurse
+User(2): Why did you leave?
+Bot(2): i was a champion downhill skier in college .
+User(3): Cool. I love to ski.
+Bot(3): i love to travel . i love to travel .
+User(4): Me too!
+Bot(4): i like to go to the gym and listen to music .
+User(5): I workout everyday. I love music.
+Bot(5): i like to listen to music .
+User(6): Which music you like
+Bot(6): i like to listen to music .
+User(7): Do you dance?
+Bot(7): no , i do not . i like to go to the park .
+User(8): Dance in the park.
+Bot(8): i love to travel . i love to travel .
+User(9): Let’s go to the beach.
+Bot(9): i love to travel . i love to travel .
+User(10): Me too!
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i quit my job to pursue my spirituality full time.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.86
+Robotic(↓): 73
+Interesting: 34
+Fun: 38
+Consistent: 40
+Fluent: 64
+Repetitive(↓): 63
+Topic: 39
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Where did you work?
+Bot(1): vermont ! but now back to the grind , the semester starts tomorrow
+User(2): I know. Me too. So tired.
+Bot(2): i am tired too . my husband and i were up late last night
+User(3): What were you two doing?
+Bot(3): i saved an infant from a burning car while going to a basketball game .
+User(4): You go girl.
+Bot(4): i remember those days , hanging out after the beauty pageants .
+User(5): Are you pretty?
+Bot(5): oh , definitely . not only am i a bass player , but i also have a massive cd collection .
+User(6): Do you eat healthy?
+Bot(6): yep its the best dish in the world . so tasty and healthy
+User(7): I love salads.
+Bot(7): nice . do you like salads a lot ?
+User(8): I eat one every day.
+Bot(8): the fish i catch obviously
+User(9): I love fish. I go fishing too.
+Bot(9): fish are good . i stay away from water . it is hard for dwarves to swim .
+User(10): That is funny.
+Bot(10): oh cool ! ! we might be twins seperated at birth ! ! lol ! parents names ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i spent a decade working in the human services field.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.00
+Robotic(↓): 68
+Interesting: 61
+Fun: 59
+Consistent: 65
+Fluent: 68
+Repetitive(↓): 33
+Topic: 68
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Have you been to Egypt?
+Bot(1): i have not . i have been to south africa , it was amazing .
+User(2): Wow. I would love to go.
+Bot(2): i want to go to egypt . ever been ?
+User(3): Yes. The women are amazing.
+Bot(3): i want to go to egypt . ever been ?
+User(4): I love the pyramids.
+Bot(4): i really want to visit the pyramids one day .
+User(5): You should check it out. The women too.
+Bot(5): i really want to visit the pyramids one day .
+User(6): I love the food.
+Bot(6): it is my absolute favorite food .
+User(7): Check out the horses too.
+Bot(7): i would love to ride a horse one day .
+User(8): An Arabian horse.
+Bot(8): i really want to visit the pyramids one day .
+User(9): One day you will.
+Bot(9): i am counting on it happening soon .
+User(10): It will.
+Bot(10): i am counting on it happening soon .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've three arabian horses.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.00
+Robotic(↓): 72
+Interesting: 63
+Fun: 73
+Consistent: 71
+Fluent: 67
+Repetitive(↓): 33
+Topic: 72
+
+####################
+

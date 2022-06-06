@@ -1,0 +1,292 @@
+Feedback: some chatbot was really good and clear but other ones was very understand and keep saying the same sentence 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): good thanks for ask
+Bot(2): what do you do for a living ?
+User(3): i'm a photographer but i like to run too and you ?
+Bot(3): i like to go fishing . i love to go fishing .
+User(4): i love runnung and preparing for marathons
+Bot(4): oh , i love to cook . i love to cook .
+User(5): great!
+Bot(5): i am a student , but i am a student .
+User(6): im taking some classes too
+Bot(6): i love to cook . i love to cook .
+User(7): where are u studying ?
+Bot(7): i am in the middle of a tour .
+User(8): wow , what tour?
+Bot(8): i like to go to the gym and listen to music .
+User(9): i love running
+Bot(9): i like to go to the lake and listen to music .
+User(10): same here !!!
+Bot(10): i love to cook . i love to cook .
+User(11): what kind of food do you usually cook ?
+Bot(11): i like pizza and pizza .
+User(12): pizza is the best !
+Bot(12): i like to eat fish .
+
+Persona:
+i enjoy mountain biking as a hobby.
+i have blonde hair and blue eyes.
+i love to go to disney world every year.
+my favorite band is the who.
+i'm in an open polyamorous relationship.
+
+Topic and Human Opinion:
+Beginning: i love running and preparing for marathons.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.00
+Robotic(↓): 95
+Interesting: 55
+Fun: 62
+Consistent: 42
+Fluent: 43
+Repetitive(↓): 70
+Topic: 43
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey my name is larry
+Bot(1): my name is gary . great to meet you too .
+User(2): same ! i am a chef. what about you ?
+Bot(2): i cook too ! i am a personal chef . what about you ?
+User(3): im work in a famous restaurant
+Bot(3): lucky . bet you meet lots of interesting ppl . what king of restaurant ?
+User(4): hilton restaurant !
+Bot(4): cool i enjoyed some fine dining earlier
+User(5): oh wow . what kind of food do you like cook ?
+Bot(5): not picky . . . . i am usually game for different types of cuisine
+User(6): i love to cook peruvian dishes !
+Bot(6): i love mexican too ! especially spicy beef
+User(7): peruvian dishes have different ingredients and most of them are new for me ! but taste really good!!
+Bot(7): i love tiramisu also ! do you have any hobbies ?
+User(8): yeesss . i love photography
+Bot(8): nice ! what do you like to photograph ?
+User(9): i like take picture of the nature !! sometimes i make a session photos for people
+Bot(9): i love photography too . . its interesting
+User(10): yes !! my last photoshoot was about a graduation was very good !
+Bot(10): well , congrats on graduation ! i bet you felt pretty on your graduation day . i want that
+User(11): was great talk with you !
+Bot(11): thanks ! ! i enjoyed you as well
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hey my name is larry and i am a chef.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.57
+Robotic(↓): 92
+Interesting: 90
+Fun: 92
+Consistent: 91
+Fluent: 88
+Repetitive(↓): 79
+Topic: 90
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey
+Bot(1): lets go ! although it takes me hours to get because it changes from time good
+User(2): hahaha how are you ?
+Bot(2): i'm good . i just washed my hair and finished sewing a dress . me it is a hows it going ?
+User(3): i'll be released in about a month.
+Bot(3): that is a shame . but pretty good, just got attitude !
+User(4): yeah ! how you been ?
+Bot(4): i have a few , but i am a like always kids .
+User(5): ohhhhh
+Bot(5): I am from the I'm not, but I you?
+User(6): i dont understand what are you saying
+Bot(6): I'm a art major. I What do you do you have any hobbies?
+User(7): yes . i love play the guitar
+Bot(7): not bad have a these days little bummed about the rain
+User(8): but photography too
+Bot(8): what kind work at a bar like? i love music.
+User(9): i live more concerts with bar
+Bot(9): I do not read, but love she very are the soup kitchen .
+User(10): ohhh
+Bot(10): I am only 22, it. What is your wait to have a future.
+User(11): well i have to go
+Bot(11): I have two in the r cat.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'll be released in about a month.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.00
+Robotic(↓): 45
+Interesting: 27
+Fun: 40
+Consistent: 41
+Fluent: 41
+Repetitive(↓): 47
+Topic: 9
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hiiiii
+Bot(1): helloooo
+User(2): how are you ? my name is start
+Bot(2): same
+User(3): i do not drink alcohol
+Bot(3): same
+User(4): ohhh good
+Bot(4): i do not drink much
+User(5): i dont like alcohol make me fell bad
+Bot(5): org that is really bad for you
+User(6): yeah , the last time the i smell alcohol my stomach was very bad .
+Bot(6): wow that does not sound too good . i had it before
+User(7): i think was because the last time the i drink alcohol was for my 23 party , so i guess i drink so much and that's why i cant drink o smell alcohol anymore
+Bot(7): ohhh , that definitely explains it lol
+User(8): what about you ?
+Bot(8): i do not understand alcohol its nasty lol
+User(9): hahahaha yeah ! what do you usually drink when you are in a party ?
+Bot(9): alcohol mostly , sometimes i add ice
+User(10): ohhhh good for you
+Bot(10): thank you ! i am still in recovery , but i have not had alcohol in a long time
+User(11): thats sound good . i have to go was pleasure talk with you
+Bot(11): same ! nice getting to know you
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i do not drink alcohol.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.57
+Robotic(↓): 85
+Interesting: 89
+Fun: 86
+Consistent: 85
+Fluent: 85
+Repetitive(↓): 87
+Topic: 86
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hiiiiiii
+Bot(1): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(2): oh cool , my name is start . what about you ?
+Bot(2): my name is andy . i am from cleveland
+User(3): cleveland ? where is it ?
+Bot(3): i have an uncle in cleveland . i am more of a junk food eater , especially popcorn !
+User(4): ohh for for vacation i enjoy time at the beach.
+Bot(4): the beach is nice , but i do not get to go too often .
+User(5): same here . i usually have to travel for go to the beach . thats why we usually go only in vacation
+Bot(5): i am using my vacation to look for a place near the beach .
+User(6): you should use booking.com they have great hotes !
+Bot(6): dang . what kind of orange things ? can you make oranges ?
+User(7): orange ? i dont understant but i can't
+Bot(7): yes i like orange color as well
+User(8): i dont like this color
+Bot(8): my favorite color is blue yours ?
+User(9): wine red !!
+Bot(9): do not like any wine
+User(10): jajajaja well i like it !
+Bot(10): i am great ! how are you ?
+User(11): im fineee
+Bot(11): hello , i am great i was just doing research on my grandpa he was in wwii .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: for vacation i enjoy time at the beach.(like)
+Round 11: the chatbot was talking about her/him favorite color(like)
+
+Topic Change and Chatbot Opinion:
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 49.86
+Robotic(↓): 58
+Interesting: 52
+Fun: 53
+Consistent: 55
+Fluent: 42
+Repetitive(↓): 39
+Topic: 44
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello there
+Bot(1): hi , i am a little nervous about my ocd
+User(2): ocd ?
+Bot(2): no i am not . i am a fan of the clown
+User(3): ohhh . do you have any pets ?
+Bot(3): no , i don't . i have a dog .
+User(4): oh i have a pet fish
+Bot(4): i have a dog , but i love to bake cookies .
+User(5): i love take photos
+Bot(5): i love to bake cookies and cakes .
+User(6): sounds good
+Bot(6): i have a dog that i love to bake cookies
+User(7): why are you keeping saying the same ?
+Bot(7): i am not sure . i am a huge fan of the clown
+User(8): ohh maybe thats why
+Bot(8): i am a fan of the clown .
+User(9): mucho good for you
+Bot(9): i am a big fan of the clown
+User(10): okkkkkkkkk
+Bot(10): i am a big fan of the clown
+User(11): i know
+Bot(11): i am a fan of the clown
+User(12): well i have to go
+Bot(12): i have a few of them
+
+Persona:
+i started playing guitar when i was three.
+i am a recovering alcoholic.
+i love to bake cookies.
+i haven't spoken in three months.
+i am terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: i have a pet fish.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.14
+Robotic(↓): 55
+Interesting: 56
+Fun: 44
+Consistent: 46
+Fluent: 46
+Repetitive(↓): 46
+Topic: 46
+
+####################
+

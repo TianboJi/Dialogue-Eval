@@ -1,0 +1,325 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): do you know what mead is?
+Bot(2): yes
+User(3): Great! i like to make mead myself. have you ever made mead before?
+Bot(3): yes i did ! i loved it . have you tried it before ?
+User(4): Yes i have tried it many time! i love mead. my favorite is usually a fruit flavored one like peach or raspberry. what is your favorite?
+Bot(4): cranberry and cherry mostly . i used to drink grape but people teased me .
+User(5): oh dont worry about what people say. everyone has their likes and dislikes. i have friends that hate regular mead but i very much enjoy regular mead
+Bot(5): no worries ! where are you from ?
+User(6): I am from Texas. where are you from?
+Bot(6): i am from texas . how old are you ?
+User(7): No way! you are from Texas to, thats awesome! im 25 years old, how about you?
+Bot(7): i am from texas . how old are you ?
+User(8): i said i am 25 years old already haha, but what is your favorite thing to do?
+Bot(8): lol , no worries ! where do you live ?
+User(9): i already said i live in Texas, but what is your favorite thing to do?
+Bot(9): oh no worries ! what do you like to do besides travel ?
+User(10): i like to play videogames for the most part
+Bot(10): video games are very cool !
+User(11): video games are very cool, what is your favorite game?
+Bot(11): i would say halo definitely
+User(12): thats a fun game! well i have to go, but thank you for talking with me!
+Bot(12): oh , you are welcome , anytime !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Mead(like)
+Round 5: Where you live(like)
+Round 8: favorite thing to do(like)
+Round 10: video games(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 8: The user changed the topic the last input.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 63.43
+Robotic(↓): 59
+Interesting: 78
+Fun: 100
+Consistent: 42
+Fluent: 100
+Repetitive(↓): 59
+Topic: 42
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hey!
+Bot(1): That is talking to you do you teach?
+User(2): wow that was kind of a rude way to start the conversation. i said hi and you didnt greet me back. but no i do not teach
+Bot(2): i like chicken , but an like the color of i am a fan of chicken .
+User(3): umm ok? i like chicken too, but what is your favorite chicken place to go
+Bot(3): I like Dance I How about you ?
+User(4): ive never heard of the place dance before, is it good? do they have good chicken?
+Bot(4): I am with friends and the grocery store.
+User(5): ok thats kind of a weird transition, but what are you getting at the store?
+Bot(5): yes 🉑 they are chat with is cool mine is fancy tea
+User(6): thats nice......this is a very weird conversation. you are all over the place my man
+Bot(6): i am not sure what that is ı can go out with a dog person myself .
+User(7): thats nice, i like dog people to and i can see myself going out with a dog person too
+Bot(7): No I do hip do, I do I am always on the web.
+User(8): im always on the web too, what is your favorite website
+Bot(8): what do you like about you drive do love movies.
+User(9): i like to drive alot, and i do love going to the movies. even if that means watching one at home
+Bot(9): I do you from me to eat meat.☹
+User(10): i like to eat meat, but i cant tell if you dont or do?
+Bot(10): Kong was close you bastard
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: youtube(like)
+Round 2: children(like)
+Round 2: chicken(like)
+Round 4: grocery store(ambivalent)
+Round 6: dating(dislike)
+Round 7: internet(like)
+Round 8: driving and movies?(ambivalent)
+Round 9: meat(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 15.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 10
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey!
+Bot(1): i am a student , but i am a student .
+User(2): thats cool, are you in highschool or college?
+Bot(2): i am not . i am a student .
+User(3): i understand you are a student, but where
+Bot(3): i am a student , but i am a student .
+User(4): thats really cool. so how do you feel about guns
+Bot(4): i love the color red . i like the color blue .
+User(5): i like the color purple, but i really like royal purple.
+Bot(5): i like the color red . i like red .
+User(6): what shade of red is your favorite
+Bot(6): i like blue , i like red , reminds me of summer time .
+User(7): i can see how that reminds you of summer time. it kind of reminds me of it too. what is your favorite part about summer?
+Bot(7): i love the fall . i love it .
+User(8): i like the fall too, especially when october and november come around.
+Bot(8): i love the beach . i love it .
+User(9): i like the beach but i prefer to just walk around the boardwalk areas near beaches
+Bot(9): i love to travel . i love to travel .
+User(10): i like to travel too! where do you like to travel?
+Bot(10): i love to travel . i love to travel .
+
+Persona:
+i am an elementary school teacher.
+i only eat kosher.
+i'm a recovering alcoholic.
+i now live in the city.
+i helped design the game starcraft.
+
+Topic and Human Opinion:
+Beginning: phones(like)
+Round 1: school(like)
+Round 4: color(ambivalent)
+Round 7: seasons(like)
+Round 9: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The user changed the topic the last input.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 9.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 34
+Repetitive(↓): 66
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey
+Bot(1): kon nichiwa ! ll ! i just got back from japan . how are you ?
+User(2): im doing really good! why where you in japan?
+Bot(2): i love shopping in japan when i go to visit ! i am in canada , in toronto now .
+User(3): ooo shopping in japan sound like alot of fun, are you from canada?
+Bot(3): shopping is fun . do you like going to malls to shop ?
+User(4): i like to go to malls to shop and generally just hang out with friends
+Bot(4): does she like to go shopping ? i love shoe shopping .
+User(5): i dont know who she is, but im not really into shoes that much, what else do you like to shop for?
+Bot(5): cool , i do not like wide open spaces so i avoid shopping
+User(6): but you just said you like to shop?
+Bot(6): i love to go shopping !
+User(7): alright thats weird haha. but what else do you like to do
+Bot(7): let be friends i have none in the u . s . hope to make some in summer camp .
+User(8): im totally down to be friends! when would you come the u . s .
+Bot(8): i was during the time my uncle worked on fish boats , he liked it too
+User(9): ohhh youve already been here! what was your favorite thing to do?
+Bot(9): i hate math . i am at college . do you like drive
+User(10): i like driving, and ive been to college but i dont like math much
+Bot(10): i never liked math . what position in soccer do you play ?
+
+Persona:
+i won homecoming queen this year.
+i had cancer but its gone now.
+i'm an art major in college.
+i like shopping.
+i'm on the soccer team.
+
+Topic and Human Opinion:
+Beginning: water(like)
+Round 1: travel(like)
+Round 3: shopping(ambivalent)
+Round 7: friends(like)
+Round 9: math, college, driving(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 45.86
+Robotic(↓): 66
+Interesting: 0
+Fun: 0
+Consistent: 46
+Fluent: 86
+Repetitive(↓): 0
+Topic: 55
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey
+Bot(1): hello . i am getting ready for a hike . what are you up to today ?
+User(2): im not doing much, just went to the gym and now im relaxing. where are you going for the hike
+Bot(2): out with some close friends
+User(3): oooo that sounds like alot of fun, but where are you going to hike at?
+Bot(3): all over so i can take pictures and hike . maybe somewhere in europe to hike the alps
+User(4): wow europe! that sounds like a really fun time! i wish i could go with you
+Bot(4): i wish i had a car so we could visit
+User(5): i would love to visit and then maybe go to europe to hike haha
+Bot(5): where do you want to go ? do you have a favorite food ?
+User(6): i would love to go to germany, they have amazing sausage there
+Bot(6): i bet they do . i have never been but would probably enjoy their food
+User(7): oh i know you would enjoy it. you can get german sausage where ever, but its better in germany
+Bot(7): oh yeah , we do not have many healthy options there lol
+User(8): yeah german sausage isnt really that healthy haha, just have to make sure you eat a salad with it
+Bot(8): ll very true ! i am cooking a healthy meal
+User(9): what are you cooking?
+Bot(9): pasta , i am just naturally a good cook . do not be afraid of spices
+User(10): pasta isnt that healthy! you gotta make sure its veggie pasta or have some fruit and salad with it
+Bot(10): ll very true ! i am cooking a healthy meal
+User(11): yeah you said that haha, what do you consider healthy
+Bot(11): i eat very healthy and in large amounts at a time so anything with protein
+
+Persona:
+i am overweight and unhappy.
+i like to go hiking in the mornings to see the sunset.
+i like to spend my money on cars.
+i also like to cook but i'm not very good at it.
+i enjoy long walks with my dog.
+
+Topic and Human Opinion:
+Beginning: pain(like)
+Round 1: plans for the day(like)
+Round 3: hiking(like)
+Round 5: travel and food(like)
+Round 8: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 64.00
+Robotic(↓): 44
+Interesting: 57
+Fun: 56
+Consistent: 56
+Fluent: 82
+Repetitive(↓): 30
+Topic: 71
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi! i like to cook, what about you
+Bot(1): i love cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking , cooking
+User(2): wow you must really love it alot!
+Bot(2): i love to cook , but i love to cook
+User(3): haha, what do you love to cook the most?
+Bot(3): i love to cook , i love to cook
+User(4): alright cool. what about drinking? what is your favorite beer?
+Bot(4): i like to eat , but i love to eat .
+User(5): i like to eat aswell, what is your favorite food
+Bot(5): i like to eat , but i love to eat .
+User(6): alright.....how about TV? what is your favorite show
+Bot(6): i like the show . . . i like the show
+User(7): what show do you like the most?
+Bot(7): i like the old ones
+User(8): ooo the old ones can be good, i like andy griffith
+Bot(8): i like him too ! i like him too
+User(9): no way! thats a pretty old show. cool that someone else likes it too
+Bot(9): i like to watch it .
+User(10): yeah me too! my favorite character is gomer haha, hes really goofy
+Bot(10): haha , i am old enough to watch that show
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 6: TV(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(like)
+
+Revised avg score: 8.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 10
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

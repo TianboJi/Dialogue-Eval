@@ -1,0 +1,285 @@
+Feedback: Fun Hit!  My email is cheevolver@gmail.com.  Am I allowed to do more than 1 of these?  Could you email me the answer to that question or update the directions to say weather of not survey takers can do more than 1?  I think a lot of people would like to know.  Thanks!
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey what kind of music do you like?
+Bot(1): i like all kinds of music
+User(2): If you had to pick a favorite what would it be?
+Bot(2): i like all kinds of music
+User(3): Any particular type that you like a little more?
+Bot(3): i like the most kind of music
+User(4): Do you play music yourself?
+Bot(4): i like all kinds of music
+User(5): What is your favorite music artist?
+Bot(5): i like all kinds of music
+User(6): Well, regarding me, I am a musician myself.
+Bot(6): i like to play music
+User(7): What instrument do you play?
+Bot(7): i play guitar , but i play the guitar .
+User(8): How long have you played guitar? I also play guitar.
+Bot(8): i play guitar . i play guitar .
+User(9): What type of music do you play on your guitar? I like to play punk.
+Bot(9): i play guitar . i play guitar .
+User(10): Do you play any other instruments? My personal favorite is drums.
+Bot(10): i play guitar . i play guitar .
+User(11): Ok. Well good luck with the guitar, I've got to go. Bye!
+Bot(11): what do you do for a living ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.14
+Robotic(↓): 97
+Interesting: 6
+Fun: 7
+Consistent: 92
+Fluent: 82
+Repetitive(↓): 99
+Topic: 76
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorite sport?
+Bot(1): hockey is my favorite sports , what is yours ?
+User(2): Nice. Hockey is interesting. Mine is basketball.
+Bot(2): hockey is my favorite sports , what is yours ?
+User(3): Do you play hockey?
+Bot(3): yes , my hobby is playing hockey .
+User(4): Do you play on a team?
+Bot(4): yeah , but i am not good at sports . what team ?
+User(5): Like for a college of a pro team?
+Bot(5): my college team not professional
+User(6): Ooo nice. What college do you play at?
+Bot(6): lewis and clark college in portland
+User(7): Oh wow. I have never heard of that. What position do you play?
+Bot(7): forward and some goalie when needed .
+User(8): Nice. I feel like Goalie would be hard. I have never actually played hockey.
+Bot(8): i got positioned as the goalie and i enjoy it .
+User(9): I wish I could try hockey. I would have a hard time ice skating though.
+Bot(9): haha yeah ice skating ! so fun . have you tried ?
+User(10): No. never had the chance sadly.
+Bot(10): that is too bad . do you like basketball ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 77.14
+Robotic(↓): 58
+Interesting: 76
+Fun: 84
+Consistent: 87
+Fluent: 91
+Repetitive(↓): 35
+Topic: 95
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What is your favorite state to visit?
+Bot(1): i like to go to the gym and listen to music .
+User(2): Oh nice. I like music too. I went on tour once, we played in Los Angeles and Las Vegas.
+Bot(2): i love to travel . i love to travel .
+User(3): Where is the favorite place you have ever been to?
+Bot(3): no , i do not know how to swim .
+User(4): Ah. I do know how to swim, but I don't do it much.
+Bot(4): i like to go to the lake and listen to music .
+User(5): What lake do you go to?
+Bot(5): i love to travel . i love to travel .
+User(6): Where is your favorite place to travel? Mine is probably Florida or any big city.
+Bot(6): i like to go to the gym and listen to music .
+User(7): What is your favorite city to visit?
+Bot(7): i do not know . i like to go to the gym .
+User(8): Where else do you like to travel?
+Bot(8): i love to travel . i love to travel .
+User(9): where to?
+Bot(9): i live in california . i love to go fishing .
+User(10): California sounds fun! I've been to LA. It was huge! Where do you fish?
+Bot(10): i do not , but i do like to eat .
+User(11): where do you like to eat?
+Bot(11): i love the cuban sandwiches , and the color red .
+User(12): Nice. well I have to go now. Bye!
+Bot(12): i do not know how to swim .
+
+Persona:
+my parents were also teachers.
+i love to go to disney world every year.
+i'm a skateboarder.
+i have three sisters.
+i played football for a division a college.
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.14
+Robotic(↓): 95
+Interesting: 44
+Fun: 33
+Consistent: 74
+Fluent: 60
+Repetitive(↓): 95
+Topic: 18
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is your favorite TV show?
+Bot(1): i enjoy a new show called living with martin . but i am biased cuz i am in it
+User(2): You are an actor in that TV show?!!
+Bot(2): my dog is a black and white poodle named panda . she is so cute .
+User(3): I always wanted to be an actor! What is your actor name?
+Bot(3): my favorite actor is batman
+User(4): It's okay if you don't want to tell me. I was just curious. I like batman as well.
+Bot(4): okay then i want to be superman . i like him the most . how old are you ?
+User(5): I am 28. Superman is okay, but definitely not my favorite. I think I like Batman the most honestly.
+Bot(5): i wish i could fly like superman ! i have to take the subway everyday .
+User(6): Ha me too flying would be sweet. Invisibility would also be really cool!
+Bot(6): no i do not know if dragons fly in that area
+User(7): hmm. I do not know how we got to dragons, but speaking of dragons, did you like Game of Thrones?
+Bot(7): okay . . . . i like drawing dragons . . . . that is the only way that i see them .
+User(8): Well I love Game of Thrones and I also really like Breaking Bad.
+Bot(8): org i love that show ! i have to wait till my daughter is sleep .
+User(9): Who is your favorite character on that show?
+Bot(9): sheldon , of course . penny is a good straight man to his questions .
+User(10): Ah. I find that show annoying. Penny is kinda cool.
+Bot(10): in portland . i am so over it . that is why i am moving to san diego
+User(11): Ah. Well I gotta go. cya!
+Bot(11): that s a fair point ! what s your favorite kind of food ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: TV Shows and Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.71
+Robotic(↓): 84
+Interesting: 59
+Fun: 44
+Consistent: 35
+Fluent: 64
+Repetitive(↓): 56
+Topic: 37
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I do not currently have a pet, but I used to have a cat that I loved very much.
+Bot(1): Oh, I'm not old. do you do?
+User(2): Do I what?
+Bot(2): do for a while I i'm close to george.
+User(3): What is George?
+Bot(3): lol 😆 a am fine. I cool
+User(4): Lol. Okay... I am thinking about getting a kitty in the near future to keep me company.
+Bot(4): i high maintenance when that .
+User(5): I have had dogs when I was little but I like cats more.
+Bot(5): I what’s he 4 zitah
+User(6): What is your favorite animal?
+Bot(6): I be to dance, old.
+User(7): Do you have any pets?
+Bot(7): i be 20 in children . 😃
+User(8): I'm not sure what that means...
+Bot(8): I don't play any very talented.
+User(9): I have also had fish but they are boring.
+Bot(9): I you want read😄
+User(10): If I ever become rich I want to get a pet fox and tame it, they are so cute!!
+Bot(10): so very sad . helicopter accident . do you have just said you are 22 path ?
+User(11): Okay well it was nice chatting, I have to go have a good day!
+Bot(11): i don't have a job and i'm afraid of clowns too with your job am clowns . hows it going ?
+
+Persona:
+i just bought my first home.
+i've five sons.
+i love to go to disney world every year.
+i have a children and a dogs.
+my father used to work for home depot.
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.14
+Robotic(↓): 99
+Interesting: 19
+Fun: 15
+Consistent: 91
+Fluent: 56
+Repetitive(↓): 97
+Topic: 5
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like to drink soda!
+Bot(1): that is my favorite soda !
+User(2): What type?
+Bot(2): that is my favorite soda !
+User(3): I like Pepsi and Dr. Pepper.
+Bot(3): for a beverage i prefer dr pepper
+User(4): Yeah it is really the best I do agree!
+Bot(4): we enjoy a nice ice cold pepsi also .
+User(5): same. I used to like Mt. Dew but not as much anymore...
+Bot(5): that is my favorite soda !
+User(6): Ah nice. Water is kinda boring but I have to remember to drink it because it is super important and neccessary!
+Bot(6): i do too . whats your favorite drink mine is pepsi
+User(7): My favorite drink of all time is probably Mr. Pibb.
+Bot(7): haha wash it down with some cool dr pepper !
+User(8): haha. As far as food goes I like steak, pasta and salads
+Bot(8): i am a big pepsi fan myself .
+User(9): Beef Jerky is my favorite snack.
+Bot(9): i like traditional beef jerky . i use top round steak
+User(10): Yeah good stuff. Hey I gotta go. Good chat!
+Bot(10): it was nice meeting you . mt dew time
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food and Drink(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 76.14
+Robotic(↓): 33
+Interesting: 66
+Fun: 81
+Consistent: 69
+Fluent: 79
+Repetitive(↓): 21
+Topic: 92
+
+####################
+

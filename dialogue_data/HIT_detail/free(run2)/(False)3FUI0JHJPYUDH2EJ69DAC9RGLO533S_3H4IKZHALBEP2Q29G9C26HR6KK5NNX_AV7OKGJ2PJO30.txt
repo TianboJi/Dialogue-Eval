@@ -1,0 +1,277 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Can you get me the details of New York Whether?
+Bot(2): i live about an hour and a half from new york city .
+User(3): Oh ok
+Bot(3): i have a lot of vintage jars from the 20s . its so much fun !
+User(4): Wow. that sound great
+Bot(4): being a full time mother , i try to go camping at least once a month
+User(5): Its good to be a good mother
+Bot(5): my father is gone and she needs my help and emotional support
+User(6): Yeah that really sound cool and nice of you
+Bot(6): its something when i am not confusing my parrot i am a bird
+User(7): Lol, that sound funny
+Bot(7): both ! but he is a fisherman now , oddly enough . now i enjoy fishing just like him .
+User(8): Yeah thats good anyway
+Bot(8): i am somewhere in the middle , not a total skeptic yet .
+User(9): How could that be?
+Bot(9): i lived in germany mixed with puerto rican and chinese
+User(10): Well Germany is a nice country
+Bot(10): interesting , do speak german as well ? can you speak any other languages ?
+User(11): Yeah
+Bot(11): all these women look like kate plus 8 but its just not for me .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Whether forecasting in New York(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.43
+Robotic(↓): 81
+Interesting: 93
+Fun: 84
+Consistent: 90
+Fluent: 98
+Repetitive(↓): 98
+Topic: 58
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey
+Bot(1): i am ok i guess
+User(2): I will be going to miami for my next holiday
+Bot(2): i want to go to the beach
+User(3): Yeah beach is a nice place to relax
+Bot(3): i love to go to the beach
+User(4): Same here
+Bot(4): i love the beach and going to the beach
+User(5): beach is always cool
+Bot(5): i love the beach and the beach
+User(6): Yeah the beach
+Bot(6): i love the beach and the beach
+User(7): I also love the beach
+Bot(7): i love the beach and the beach
+User(8): going to the beach is what i like most
+Bot(8): i like the beach and the beach
+User(9): I will go to the beach soon
+Bot(9): i love the beach and the beach
+User(10): I love the beach
+Bot(10): i love the beach and the beach
+User(11): Are you going to the beach alone?
+Bot(11): i do not know how to surf
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: My next holiday in miami(like)
+Round 4: I want to go to the beach(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 34.71
+Robotic(↓): 65
+Interesting: 57
+Fun: 54
+Consistent: 39
+Fluent: 31
+Repetitive(↓): 100
+Topic: 27
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hey
+Bot(1): do you girl or olympics? i do.
+User(2): Yes i did
+Bot(2): i love soda soda, but i don't leaving fine. do you you?
+User(3): Yeah I live fine
+Bot(3): I don't understand why these people are I can spend time with know what they are doing
+User(4): I also don't understand
+Bot(4): I love too. have well
+User(5): Yes i love too
+Bot(5): it isn't bad , just India and you like plans mile walk . feeding the dogs now .. Also, try to guess: my father is ...
+User(6): well i don't know about that
+Bot(6): i do, i'm a coffee broke up with i coffee.
+User(7): same here i do the same
+Bot(7): I see. What i though you hair?
+User(8): the hair is too short
+Bot(8): I love too. have well
+User(9): Same here i love too
+Bot(9): nice I have a 🈶 any kids
+User(10): Wow thats nice
+Bot(10): we can are you you said some bread sticks
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Going to the mountain side(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.00
+Robotic(↓): 81
+Interesting: 58
+Fun: 66
+Consistent: 49
+Fluent: 58
+Repetitive(↓): 100
+Topic: 65
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey
+Bot(1): hello , how are you today ?
+User(2): Am doing fine.
+Bot(2): hi , i am doing well . how are you ?
+User(3): Yeah am fine and you?
+Bot(3): i am doing well . just got back from the olympics .
+User(4): Oh ok that good
+Bot(4): i love my dolls . i love them .
+User(5): Yeah dolls are lovely
+Bot(5): i love roses . i also have a rose garden .
+User(6): Really? I love Tulip
+Bot(6): i love roses . i love roses
+User(7): Roses are lovely
+Bot(7): i love roses . i love roses .
+User(8): Wow good to hear that
+Bot(8): i love roses , i have a garden and a rose in my garden
+User(9): Can you send me some roses over here?
+Bot(9): yes i do , i love roses
+User(10): Ok i love to have a smell of rose
+Bot(10): roses are beautiful , i love roses
+
+Persona:
+i grow roses in my garden.
+i like to play with my dolls.
+i like to watch the olympics.
+i have three dogs.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: I like Black bullet drink(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.57
+Robotic(↓): 84
+Interesting: 57
+Fun: 61
+Consistent: 43
+Fluent: 61
+Repetitive(↓): 100
+Topic: 60
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey
+Bot(1): hey
+User(2): How are you today?
+Bot(2): same
+User(3): Sound great
+Bot(3): same
+User(4): I love a Samsung phone
+Bot(4): i like the iphone better than the samsung
+User(5): Really, well Samsung is cool for me
+Bot(5): way better than samsung . i guess i m too much into electronics
+User(6): Individual differences
+Bot(6): way better than samsung . i guess i m too much into electronics
+User(7): What phone do you use?
+Bot(7): mine in an android lg k
+User(8): OK
+Bot(8): i like the iphone better than the samsung
+User(9): I use Samsung A20
+Bot(9): mine in an android lg k
+User(10): Wow thats good
+Bot(10): way better than samsung . i guess i m too much into electronics
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: I love Samsung phone(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 90
+Interesting: 59
+Fun: 62
+Consistent: 57
+Fluent: 74
+Repetitive(↓): 100
+Topic: 38
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey
+Bot(1): i love to cook . i love to cook .
+User(2): Same here i love to cook
+Bot(2): i like to eat the skin .
+User(3): I like to eat vegetable
+Bot(3): i like to eat fish .
+User(4): Fish is ok but i prefer red meat
+Bot(4): i like the color red . i like red .
+User(5): I prefer lemon color
+Bot(5): i like the color red . i like red .
+User(6): I like color blue
+Bot(6): i like red , reminds me of summer time .
+User(7): Blue remind me the winter time
+Bot(7): i love the beach . i love it .
+User(8): Yes is cool at the beach
+Bot(8): i love to travel . i love to travel .
+User(9): Same
+Bot(9): i love to cook . i love to cook .
+User(10): It fine and always ok to cook
+Bot(10): i like to eat the skin .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: I like Apple fruit(like)
+Round 1: I love to cook(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 49.71
+Robotic(↓): 68
+Interesting: 58
+Fun: 63
+Consistent: 65
+Fluent: 64
+Repetitive(↓): 100
+Topic: 66
+
+####################
+

@@ -1,0 +1,294 @@
+Feedback: That was enjoyable.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What do you think about President Trump?
+Bot(1): donald trump was not a good choice , he is the devil
+User(2): But a lot of people really like him.
+Bot(2): i was in the middle and i got to spend a lot of time with him .
+User(3): What time did you spend with him.
+Bot(3): i have had him for i think like 3 years .
+User(4): I think that we all had him for 3 years. Some people have liked him for those three years.
+Bot(4): yea . i bet he is . how old is he
+User(5): He's in his 70's. Do you think that old people should not be president?
+Bot(5): he is six , and he loved it ! i dressed my yorkie as a lion 3
+User(6): Thank you for talking to me.
+Bot(6): okay . bye for now then
+User(7): President Trump promised to make America great again.
+Bot(7): yeah , we have a show coming up in the state . i rap as a living
+User(8): Are you a black person?
+Bot(8): i have always had long black hair !
+User(9): Do you have a black face?
+Bot(9): i love the color black . so , do you like 2pac ? rap is the best
+User(10): I like TuPac. How did we get so far off the subject of Trump?
+Bot(10): my dad and your dad have alot in common . rap ? boo hiss , lol
+
+Persona:
+i've a pet cow.
+i am a recovering alcoholic.
+i'm a stay at home dad.
+i just moved into my first home.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: President Trump(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.14
+Robotic(↓): 50
+Interesting: 18
+Fun: 20
+Consistent: 3
+Fluent: 67
+Repetitive(↓): 2
+Topic: 4
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Black people are marching for justice. Do you think that is a good idea?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): Do black lives matter?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): Are there black people in America?
+Bot(3): no , i do not . i like to go to the park .
+User(4): Are there Negro people in America.
+Bot(4): i like to eat fish .
+User(5): What do you know about black people.
+Bot(5): i like to eat too much junk food .
+User(6): Black people were slaves.
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): Black people are getting shot and killed alot.
+Bot(7): i am sorry to hear that . i am sorry to hear that .
+User(8): Black children are not being educated.
+Bot(8): i am sorry to hear that . i am sorry to hear that .
+User(9): Black women suck their thumbs.
+Bot(9): i like to go to the gym and listen to music .
+User(10): Black people get less money than white folks.
+Bot(10): i like to eat too much junk food .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Black Folks(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 1
+Fluent: 15
+Repetitive(↓): 92
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you have a religion
+Bot(1): no , i was not raised religious . sorry .
+User(2): No need to apologize. What do you know about religion.
+Bot(2): christian my fathers a reacher
+User(3): That's cool. What made you leave the church.
+Bot(3): i created my own religion , because i do not believe in any of the christian ones .
+User(4): What are your beliefs. That sounds interesting.
+Bot(4): christian my fathers a reacher
+User(5): What is the focus of your religion.
+Bot(5): i am not very religious unfortunately .
+User(6): What religion did you create.
+Bot(6): i created my own religion , because i do not believe in any of the christian ones .
+User(7): Do you believe in God.
+Bot(7): yes . i believe in them and all fairytales .
+User(8): Do you believe in angels
+Bot(8): yes . i believe in them and all fairytales .
+User(9): Do you believe in heaven?
+Bot(9): no . i do not believe in that
+User(10): Do you believe in Hell
+Bot(10): i do not believe in that .
+User(11): Thank you.
+Bot(11): do you believe in god ?
+User(12): Yes, I believe in God.
+Bot(12): do you believe in god ?
+User(13): Yes, I believe in God
+Bot(13): do you believe in god ?
+User(14): Yes, I believe in god
+Bot(14): well i am glad to see another believer
+User(15): Thank you for your conversation.
+Bot(15): thank . enjoy the rest of your evening .
+
+Persona:
+i was raised on a horse farm.
+i workout four hours a day.
+i'm a skateboarder.
+i live in alaska.
+my favorite food is mexican food.
+
+Topic and Human Opinion:
+Beginning: Religion(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.29
+Robotic(↓): 86
+Interesting: 24
+Fun: 26
+Consistent: 23
+Fluent: 88
+Repetitive(↓): 88
+Topic: 46
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What kind of music do you like?
+Bot(1): i like all kinds of music . what about you ?
+User(2): I like a lot of different kinds too, Gospel, Rap, R&B, Soul, Country.
+Bot(2): i like country music , but i like country
+User(3): Who is your favorite singer?
+Bot(3): i like all kinds of music , but i like all kinds of music
+User(4): Have you ever been to a concert.
+Bot(4): i like rap , but i like country music too
+User(5): Do you listen to music on the radio or the internet?
+Bot(5): i do , i listen to music while i listen to music .
+User(6): Who did you watch lately
+Bot(6): i do , i listen to it while i listen to music .
+User(7): Do you listen to music on the tv
+Bot(7): no , i listen to music while i listen to music .
+User(8): Who did you see on the tv who is a singer
+Bot(8): i like to listen to music while i listen to music .
+User(9): What was the music show you watched on tv
+Bot(9): i do not have a favorite . i like country music .
+User(10): Who is your favorite singer?
+Bot(10): i like all kinds of music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.86
+Robotic(↓): 86
+Interesting: 26
+Fun: 21
+Consistent: 100
+Fluent: 50
+Repetitive(↓): 90
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Are you in a relationship
+Bot(1): That sounds fun. I have you want date Nice kind of moves do you like?
+User(2): I like action movies
+Bot(2): i wonder why you're a healthy 🙉
+User(3): Are you calling me a chimp
+Bot(3): I see. to eat hamburgers and do for fun?
+User(4): are you asking me out for a date
+Bot(4): that s great miles every it in school
+User(5): Do you love anyone
+Bot(5): I don't know if I sport and what about have a great body.
+User(6): Have you been on a date
+Bot(6): sweet i think he am from high huh? That's have been driving the back roads forever
+User(7): are you a man or woman
+Bot(7): I sing working as shower.
+User(8): are you single
+Bot(8): Yes I cool, but you?
+User(9): are you married
+Bot(9): I love to go my husband.
+User(10): do you live with your mother in a basement
+Bot(10): that sounds interesting . i m it's sing
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Relationships(like)
+Round 2: changed it to me(ambivalent)
+Round 4: a school(ambivalent)
+Round 6: driving(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Are you in love
+Bot(1): sure have you ever been in love ?
+User(2): Yes, I am in love now.
+Bot(2): same
+User(3): Are you a man or woman. Do you love a man or woman.
+Bot(3): no . love is a misunderstanding between two fools . you agree ?
+User(4): No. I think love is beautiful.
+Bot(4): i have come to find that people have many definitions of the term love .
+User(5): Your definition seems negative.
+Bot(5): i have come to find that people have many definitions of the term love .
+User(6): So you don't define love as good.
+Bot(6): i have come to find that people have many definitions of the term love .
+User(7): You define love as foolish.
+Bot(7): i have come to find that people have many definitions of the term love .
+User(8): Are you in love
+Bot(8): no . love is a misunderstanding between two fools . you agree ?
+User(9): Have you ever been in love
+Bot(9): yes , i am testing the hypothesis of love at first sight right now
+User(10): Have you fallen for someone at first sight
+Bot(10): yes , i am testing the hypothesis of love at first sight right now
+User(11): How do you test it.
+Bot(11): how will you know if you do not try .
+User(12): Thank you. Have a good night.
+Bot(12): love is the only hope . keep love alive .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.71
+Robotic(↓): 80
+Interesting: 23
+Fun: 12
+Consistent: 100
+Fluent: 13
+Repetitive(↓): 90
+Topic: 100
+
+####################
+

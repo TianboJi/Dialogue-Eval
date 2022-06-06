@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do u you like food?
+Bot(1): i love food , i love mexican food
+User(2): Yum. What kind of mexican food?
+Bot(2): mexican food is my favorite
+User(3): You just said that.
+Bot(3): i like mexican food . i eat it all .
+User(4): Yum. What other food do you enjoy?
+Bot(4): i love mexican food . what about you ?
+User(5): I like italian food
+Bot(5): i like mexican food . what do you like ?
+User(6): I like pasta and pizza.
+Bot(6): i like mexican food . what do you do for work ?
+User(7): I do retail.
+Bot(7): i like to eat too . i like mexican food
+User(8): I enjoy eating.
+Bot(8): i love pizza too . i love mexican food
+User(9): Do you like pasta?
+Bot(9): i love it . i love italian food .
+User(10): Yummy. Do you enjoy lasagna?
+Bot(10): i do . i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.29
+Robotic(↓): 100
+Interesting: 65
+Fun: 58
+Consistent: 59
+Fluent: 58
+Repetitive(↓): 96
+Topic: 52
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is your favorite color?
+Bot(1): my favorite color is blue . i like purple as well .
+User(2): My favorite colors are blue and black.
+Bot(2): cool my favorite color is red
+User(3): You just said blue.
+Bot(3): blue is a great color . i like red too .
+User(4): I think colors are the most important part of life.
+Bot(4): red , its the color of the roses in my best friends garden . you ?
+User(5): I love roses.
+Bot(5): roses are pretty flowers . do you like picnics ?
+User(6): I love picnics.
+Bot(6): i am pregnant with twins ; been throwing up a lot . what did you buy ?
+User(7): Food wise i purchased sandwivhes.
+Bot(7): i teach for a living . hope there is some wisdom somewhere !
+User(8): Okay awesome.
+Bot(8): drive my sx . fast . so what is a male ballerina called ?
+User(9): I don't know. Do you enjoy the color pink?
+Bot(9): i love pink , is that your favorite color ?
+User(10): I like the vibrant color
+Bot(10): my favorite color is pink , what is yours ?
+
+Persona:
+i've three arabian horses.
+hey my name is larry and i am a chef.
+i was born in somalia.
+i'm a little girl.
+i'm pregnant with my first child.
+
+Topic and Human Opinion:
+Beginning: Colors(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.57
+Robotic(↓): 100
+Interesting: 43
+Fun: 62
+Consistent: 59
+Fluent: 53
+Repetitive(↓): 58
+Topic: 18
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What kind of vehicle do you drive?
+Bot(1): i drive a truck . i love it .
+User(2): Awesome. What kind of truck?
+Bot(2): no , i do not . i like to go to the park .
+User(3): What do you like to do when you drive
+Bot(3): i like to go fishing . i love to travel .
+User(4): I love to travel as well.
+Bot(4): i love to travel . i love to travel .
+User(5): Where do you like to trave
+Bot(5): i do , i like to go to the park .
+User(6): Why the park?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): So do you like to visit classical places in your truck?
+Bot(7): no , i do not . i like to go fishing .
+User(8): In lakes?
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): Thats nice.
+Bot(9): i like to go to the gym and listen to music .
+User(10): I see you love your truck and music.
+Bot(10): i like to listen to music .
+
+Persona:
+my favourite artist is travis scott.
+one of the languages that i am currently studying is spanish.
+i play with my friends on the playground.
+i am a descendant of christopher columbus.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: Vehicles(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.29
+Robotic(↓): 100
+Interesting: 58
+Fun: 51
+Consistent: 58
+Fluent: 63
+Repetitive(↓): 89
+Topic: 48
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you enjoy reading?
+Bot(1): i drive like watching Disney like to a truck , so i drive a truck .
+User(2): Interesting.
+Bot(2): Are u of 😡
+User(3): Wait no, i like that as well
+Bot(3): i am 100 years think hiking is . i am not sure what that means .
+User(4): Im not so sure either. Do you enjoy reading?
+Bot(4): I urgent , i i am a teacher.
+User(5): What kind of teacher
+Bot(5): i ok. Have you
+User(6): What kind of books do you like?
+Bot(6): Hi, I'm an actress. green?)) My favorite do?
+User(7): Awesome. Do you like contemporary books.
+Bot(7): On it is a roller skating.
+User(8): Interesting.
+Bot(8): No really not
+User(9): Okay. Do you like to read?
+Bot(9): ``being a computer engineer is a soup kitchen, and ''
+User(10): Is that your favorite line?
+Bot(10): Yes, they are. What just finished my work. do?
+
+Persona:
+i am a plumber.
+i've short hair.
+since the surgery i have had strange powers.
+i am planning on getting a divorce.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: Books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.29
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 75
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Whats your favorite drink?
+Bot(1): this is a little controversial , but pineapple
+User(2): Its not controversial
+Bot(2): i am into orange juice too , how about you ?
+User(3): I love orange juice.
+Bot(3): i also really really like orange juice
+User(4): I also enjoy grape juice.
+Bot(4): i love grape juice , it is awesome !
+User(5): So you like water?
+Bot(5): yes , when its hot and the water is warm
+User(6): Thats cool. Its the perfect drink when its hot out.
+Bot(6): i like water too , sometimes . do you have a job ?
+User(7): Are you a soda fan?
+Bot(7): no but my daddy lets me sip . what do you want to be when you grow up ?
+User(8): I enjoy many things.
+Bot(8): i also really really like orange juice
+User(9): Do you like apple juice?
+Bot(9): no i do not like it .
+User(10): Awesome. Im not a fan either.
+Bot(10): i also really really like orange juice
+
+Persona:
+my parents aren't very supportive of my dream.
+i'm a descendant of christopher columbus.
+i live in the cloud.
+i am a plumber.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: Drink(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.43
+Robotic(↓): 68
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 57
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like snakes?
+Bot(1): nah . although i have a best friend .
+User(2): Thats cool.
+Bot(2): i never knew my mom , she died when i was little
+User(3): Aw thats so sad.
+Bot(3): well , they say i have to many friends on facebook
+User(4): So maybe those friends are snakes
+Bot(4): haha , yeah that could be
+User(5): Because not everyone is your friend.
+Bot(5): mine literally live across the road
+User(6): Oh really?
+Bot(6): well he is my best friend . you got friends ?
+User(7): I have friends. Not many.
+Bot(7): mine literally live across the road
+User(8): Do you trust him?
+Bot(8): well he is my best friend . you got friends ?
+User(9): I have two friends.
+Bot(9): mine literally live across the road
+User(10): Just watch out for snakes.
+Bot(10): i am not afraid of that
+
+Persona:
+my best friend lives next door.
+i'm a construction worker.
+i drive a nissan pathfinder.
+i spend most of my time on facebook when i'm not working.
+my mom passed away when i was young.
+
+Topic and Human Opinion:
+Beginning: Snakes(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

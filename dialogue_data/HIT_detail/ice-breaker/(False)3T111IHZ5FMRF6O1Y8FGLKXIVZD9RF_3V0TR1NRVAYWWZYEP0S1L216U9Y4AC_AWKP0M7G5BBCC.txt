@@ -1,0 +1,283 @@
+Feedback: I had to click on the button to submit my line of conversation several times before it would submit.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'm sorry to hear that. How young were you?
+Bot(1): i am young and i am young
+User(2): How old was your mom?
+Bot(2): i am young . i am young .
+User(3): Why did your mom die?
+Bot(3): i am young . i am young .
+User(4): Why are you not answering my questions?
+Bot(4): i am young and i am young
+User(5): I am young, too.
+Bot(5): i am young , i am young .
+User(6): Do you have any vocabulary at all?
+Bot(6): no , i don't . i do not have any .
+User(7): Even a young person should have some words.
+Bot(7): i have a hard time telling them .
+User(8): It isn't easy to talk to a stranger.
+Bot(8): i don't know what that means .
+User(9): How do you feel about your mom dying?
+Bot(9): i am a little old . i am a single mom .
+User(10): It's hard to be a single mom, isn't it?
+Bot(10): i think it is . i am a bit old .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my mom passed away when i was young.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like to walk, too.
+Bot(1): I do, I live are a watch house.
+User(2): What is a watch house?
+Bot(2): I teach elementary i do you you?
+User(3): I do not teach elementary.
+Bot(3): I do, but how is your m and make short stories.
+User(4): I like to read short stories.
+Bot(4): i do do you like in four legged child
+User(5): I do not know any four legged children. Do you mean pets?
+Bot(5): nice ! do you have a special you write not a walks with ?
+User(6): I have a dog that I walk with.
+Bot(6): really i am to dance, but I museum person hard to get sunburned there
+User(7): Yes, it is hard to get sunburned in a museum.
+Bot(7): I am so tired We corn corn corn.
+User(8): I am tired, too. It has been a long day.
+Bot(8): I am just watching all I am not very good at it.
+User(9): Are you watching television?
+Bot(9): Yes, i color is yellow. experienced person .
+User(10): I color is blue.
+Bot(10): I am a I'm do you a musician.
+User(11): I am a musician.
+Bot(11): I am not very happy. Have you watched do pets ?
+User(12): I am very happy. I like pets.
+Bot(12): i'm great, thanks :) And don’t japanese immigrants . what do you do for fun ?
+
+Persona:
+my favorite ice cream flavor is chocolate.
+i have three arabian horses.
+i am fluent in english spanish and french.
+i'm married.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: i walk three miles every day.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): My father was in the navy.
+Bot(1): my dad retired from the army .
+User(2): My dad retired from the navy.
+Bot(2): my dad retired from the army .
+User(3): Did you move a lot?
+Bot(3): not really , just went with my dad then .
+User(4): We moved every three years.
+Bot(4): why did you move around so much ? are your parents in the military ?
+User(5): My father was in the military, and we moved to where he was stationed.
+Bot(5): my dad retired from the army .
+User(6): How many years did he serve?
+Bot(6): he represented our united states army all through his life .
+User(7): How many years?
+Bot(7): my dad retired from the army .
+User(8): My father retired after 20 years.
+Bot(8): my dad retired from the army .
+User(9): You must be proud of your dad.
+Bot(9): he represented our united states army all through his life .
+User(10): That is really wonderful.
+Bot(10): he represented our united states army all through his life .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my father is in the army.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 65
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): In what city do you live?
+Bot(1): that is nice . do you live in a city too ?
+User(2): Yes. I live in a city, too.
+Bot(2): i live in a rural area , i like it better here than in the city .
+User(3): Do you live in Anchorage?
+Bot(3): i work at a huge law firm so photography cant beat that salary .
+User(4): Do you like photography as a hobby?
+Bot(4): interesting . i like photography . i am a veterinarian by profession .
+User(5): I thought you worked at a huge law firm.
+Bot(5): ooh ok well come over for dinner . cooking is my passion . i am a chef
+User(6): So you are a lawyer, a veterinarian, and a chef?
+Bot(6): i eat a lot of fast food , what kind of chef are you ?
+User(7): I am a vegetarian.
+Bot(7): vegan , not vegetarian . there is a difference .
+User(8): I am a vegetarian, not a vegan. Yes, there is a difference.
+Bot(8): not a vegan , a vegetarian .
+User(9): Yes, I had spaghetti squash for supper.
+Bot(9): i can cook spaghetti and lasagna , but cooking is not my favorite activity .
+User(10): Why would a chef like you not enjoy cooking?
+Bot(10): there is nothing i cannot cook . i am a chef .
+
+Persona:
+i spend most of my time on facebook when i am not working.
+i'm in the army.
+hey my name is larry and i'm a chef.
+i am currently in high school.
+i buy only organic food products.
+
+Topic and Human Opinion:
+Beginning: i live in alaska.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 70
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I have a pet iguana.
+Bot(1): i love dogs , i love dogs .
+User(2): I love dogs, too.
+Bot(2): i love dogs , i love dogs .
+User(3): Do you like rabbits?
+Bot(3): i do , i like to go to the gym .
+User(4): I go to the gym, too.
+Bot(4): i like to go to the lake and listen to music .
+User(5): I like to go to the beach and ride my bicycle.
+Bot(5): that sounds like a fun job . i love to go fishing .
+User(6): Going to the beach and riding my bicycle are not my job.
+Bot(6): i am a student , but i work at a grocery store .
+User(7): I am a student, and I work at the college.
+Bot(7): that is awesome . i am a teacher .
+User(8): I thought you worked at a grocery store; are you a teacher and a grocery store clerk?
+Bot(8): no , i am a student . i love to cook .
+User(9): What is your favorite thing to cook?
+Bot(9): i love pizza , and i love it .
+User(10): I love pizza, too. What is your favorite kind? I like barbeque.
+Bot(10): i like to eat fish .
+
+Persona:
+i'm a musician and hope to make it big some day.
+i work at a bank.
+i like to dance.
+i am a plumber.
+i live in a house.
+
+Topic and Human Opinion:
+Beginning: i have a pet turtle.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): How long have you been riding horses?
+Bot(1): a really long time now .
+User(2): Do you have your own horse?
+Bot(2): no not anymore , i had to move my horses too it was very stressful
+User(3): What do you like best about riding horses?
+Bot(3): they are graceful and in ways , powerful . plus , the freedom of riding them .
+User(4): I bet riding is very relaxing for you.
+Bot(4): do you own any horses ?
+User(5): No, I don't own any horses, but I have a friend who does, and I ride with her occasionally.
+Bot(5): what part is relaxing ?
+User(6): I enjoy being outdoors, riding by a lake, and just enjoying the sunshine.
+Bot(6): fun , just relaxing in the summer is my fave .
+User(7): Mine, too. But summer is over now.
+Bot(7): yes , unfortunately summer is just about over .
+User(8): It's fun to ride horses in the fall, too. The leaves are so pretty.
+Bot(8): yea , i love watching the leaves change color . what do you do ?
+User(9): I am a physical therapist. What do you do?
+Bot(9): oh , how did that happen ? i am a physical therapist .
+User(10): My sister was a physical therapist, and she talked about her job a lot. It sounded like a great job.
+Bot(10): it is the best job ever , horses are so cool
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like riding horses.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 81
+Fluent: 70
+Repetitive(↓): 13
+Topic: 89
+
+####################
+

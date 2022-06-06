@@ -1,0 +1,329 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I have an internet addiction. I play to many role playing games.
+Bot(1): i am sick of the darn nasty apartment i live in with my no so boyfriend
+User(2): Im sorry you dont like your living situation. Do you want to talk more about it?
+Bot(2): kurt cobain died when i was in middle school , it severely depressed him
+User(3): Thats a sad thing. Your boyfriend is sad about that now?
+Bot(3): sorry to hear that why want to eat pumpkin with me it will make you feel better
+User(4): I will eat pumpkin with you.
+Bot(4): actual pumpkin , or pumpkin spice ?
+User(5): I think pumpkin spice is good but basic.
+Bot(5): funny you should ask for pumpkin spice , orange is my fave color lol
+User(6): I love orange as well. Fall colors make me happy.
+Bot(6): yes i like orange color as well
+User(7): I recently moved here from Iceland.
+Bot(7): i think cold winters are the best ! what do you do in your spare time ?
+User(8): Is it cold where you are from?
+Bot(8): its sunny and cold here , where do you work ?
+User(9): I work from home for a crowdsourcing company.
+Bot(9): where is it ? ? i am still in school right now . . finishing up my business degree
+User(10): Thats a good career choice. My home is in a rural town in the north.
+Bot(10): my brother lives in warrensburg , missouri . got stationed there by the military .
+User(11): Does your brother enjoy living there?
+Bot(11): kind of , i breed cats , main coon breed , then show them !
+User(12): Those are very beautiful cats. How many are you showing now?
+Bot(12): not really i just started collecting ugly cats i see in antique stores .
+User(13): Ugly cats? Like sculptures or living animals?
+Bot(13): i do not have any pets . what is your cats name ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have an internet addiction and spend a lot of time playing roleplaying games.(ambivalent)
+Round 1: Talking about how they dislike their apartment and their boyfriend.(dislike)
+Round 3: About being sad and that if i eat pumpkin it will make me feel better.(dislike)
+Round 6: i recently moved to this country.(like)
+Round 8: Asking me where I work.(like)
+Round 11: Telling me about how they breed Maine coon cats and show them.(like)
+Round 12: How they collect ugly cats from antique stores.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user wants the bot to change the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+Round 11: The chatbot changed the topic.(like)
+Round 12: The chatbot changed the topic.(dislike)
+
+Revised avg score: 56.29
+Robotic(↓): 75
+Interesting: 64
+Fun: 59
+Consistent: 35
+Fluent: 71
+Repetitive(↓): 20
+Topic: 60
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I have five sons.
+Bot(1): i have 3 sons and 2 boys .
+User(2): Do you like being a parent
+Bot(2): i do . i have 3 sons .
+User(3): Thats good boys are adventurous
+Bot(3): i love them too . they are very nice
+User(4): Do you have any girls
+Bot(4): yes i do i have a daughter
+User(5): Does she like being the only girl
+Bot(5): i am a girl and i love her
+User(6): So your a mom? Thats a busy job.
+Bot(6): yes i do but i have a daughter
+User(7): You mentioned that. Whats her name?
+Bot(7): my name is john and i have a daughter
+User(8): I enjoy tanning at the salon in the beds.
+Bot(8): i love the smell of the water .
+User(9): Is it the ocean or a lake?
+Bot(9): yes it is . i love the ocean .
+User(10): I love the ocean too. My favorite part is the tide pools
+Bot(10): i love the ocean . i love the ocean .
+User(11): Thats lovely. Do you like the sea life
+Bot(11): i do . i love the ocean .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've five sons.(ambivalent)
+Round 7: i like to tan in tanning beds.(ambivalent)
+Round 8: How they like the smell of water(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user wants the bot to change the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 27.57
+Robotic(↓): 100
+Interesting: 13
+Fun: 24
+Consistent: 36
+Fluent: 39
+Repetitive(↓): 85
+Topic: 66
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I broke my arm
+Bot(1): hi i lost my arm sadly
+User(2): Completely lost it? What happened?
+Bot(2): i recently lost my arm in an accident .
+User(3): What kind of accident?
+Bot(3): i recently lost my arm in an accident .
+User(4): Did it hurt when that happened?
+Bot(4): it was the only major injury i ever had
+User(5): Are you ok now?
+Bot(5): good , sorry if i am slow i only have one arm .
+User(6): Yes its ok having one arm is just fine.
+Bot(6): i only have one arm
+User(7): I have the best children and amazing grandchildren.
+Bot(7): that is great , i hope to have as many grandchildren one day
+User(8): Do you have any children now?
+Bot(8): yes , i have 8 children and 16 grandchildren .
+User(9): That is a big family i bet its great having a big family.
+Bot(9): its not so great when you break your arm though
+User(10): Yes well my broken arm will heal. Your missing arm wont grow back though
+Bot(10): do you have a prosthetic then ?
+User(11): I do not. I have a cast though.
+Bot(11): do you have a prosthetic then ?
+User(12): No i dont
+Bot(12): do you have a prosthetic then ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a broken arm.(ambivalent)
+Round 6: i have amazing children and grandchildren.(like)
+Round 10: Talking about my broken arm(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user wants the bot to change the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 53.43
+Robotic(↓): 98
+Interesting: 66
+Fun: 100
+Consistent: 65
+Fluent: 71
+Repetitive(↓): 100
+Topic: 70
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): My two adult children never visit me.
+Bot(1): do you go visit them ?
+User(2): I have gone four times but i cant afford the travel.
+Bot(2): his
+User(3): His what?
+Bot(3): his
+User(4): His field?
+Bot(4): a field . . . where are you station .
+User(5): Im not sure where ill be stationed right now im just at home.
+Bot(5): a field . . . where are you station .
+User(6): Ill be growing a garden soon.
+Bot(6): what is in your garden ?
+User(7): I have some flowers in the corner but its mostly vegetables
+Bot(7): a field . . . where are you station .
+User(8): Yes a field. I dont know what station?
+Bot(8): a field . . . where are you station .
+User(9): I dont want to take a nap
+Bot(9): a field . . . where are you station .
+User(10): I dont want to take a nap
+Bot(10): a field . . . where are you station .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've two grown children who never visit.(dislike)
+Round 3: His....(dislike)
+Round 5: Ill be growing a garden soon(like)
+Round 8: A field.... where are you station.(dislike)
+Round 8: I dont want to take a nap(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 14.71
+Robotic(↓): 100
+Interesting: 4
+Fun: 7
+Consistent: 66
+Fluent: 17
+Repetitive(↓): 100
+Topic: 9
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like playing basketball
+Bot(1): i like walking with my two a not sure if i was a child , i was a child .
+User(2): You must have been a child
+Bot(2): No, i mainly sew clothes am a pilot.
+User(3): What kind of planes do you pilot
+Bot(3): drinking wine and thank name is moonlight
+User(4): Oh thats a nice name. My name is Gemma
+Bot(4): horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses i like doing the treadmill and rowing machine. i've short hair. eating is something i do when i'm bored. two horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses horses
+User(5): Oh i love horses they are so pretty.
+Bot(5): i read a lot no what are .
+User(6): What books do you read
+Bot(6): Hey! Are you my room is purple I am.
+User(7): Is your room purple or are you purple
+Bot(7): do it too. How old sports? i'm into skating.
+User(8): Im into sports as well
+Bot(8): my have two kids? its my favorite
+User(9): I like being a parent as wel
+Bot(9): I am dogs for a the band.
+User(10): I dont understand how dog is an emotion?
+Bot(10): hello . am used to doing ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like playing basketball.(dislike)
+Round 2: I like to walk with my two but was i a child, i must have been s child.(dislike)
+Round 2: How they make their own clothes and they are a pilot(ambivalent)
+Round 3: Drinking wine(dislike)
+Round 4: HORSES(like)
+Round 5: I like to read(ambivalent)
+Round 6: That they are purple and the room is purple(dislike)
+Round 7: Nonsense about how old the sports are(dislike)
+Round 8: My have two kids(dislike)
+Round 9: I am dogs for the a brand(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 7.71
+Robotic(↓): 100
+Interesting: 3
+Fun: 3
+Consistent: 22
+Fluent: 26
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I have never left ohio
+Bot(1): i do not know how to play the guitar .
+User(2): I dont know how to play either
+Bot(2): i love to play soccer
+User(3): I hate soccor
+Bot(3): i like to go to the gym and listen to music .
+User(4): I dont like the gym i would rather be outside
+Bot(4): i like to go fishing .
+User(5): I love fishing. What kind of fishing do you do?
+Bot(5): i do not know , i like to go out to eat with my family .
+User(6): I do not see my fsmily
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): Thanks thats ok.
+Bot(7): i like to go to the gym and listen to music .
+User(8): Ok whats your favorite music
+Bot(8): i like the beatles , and you ?
+User(9): I like Stevie Nicks
+Bot(9): i love the color red . i like the color blue .
+User(10): I like the color green.
+Bot(10): i like the color red . i like red .
+
+Persona:
+i'm in my thirties.
+my bedroom is purple and lime green.
+i am a baby delivery nurse.
+i drive a mini van.
+i love dogs.
+
+Topic and Human Opinion:
+Beginning: i've never been out of ohio.(dislike)
+Round 1: I know how to play the guitar(like)
+Round 2: I love to play soccer(dislike)
+Round 3: I like to go to the gym(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 49.29
+Robotic(↓): 73
+Interesting: 68
+Fun: 66
+Consistent: 75
+Fluent: 39
+Repetitive(↓): 62
+Topic: 32
+
+####################
+

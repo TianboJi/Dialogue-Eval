@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hi hows your day going ? i am okay .
+User(2): im good. do you enjoy gardening?
+Bot(2): do you have a dog , i have a dog and we walk for a long time .
+User(3): i do have a dog
+Bot(3): a german shepherd , but i like all animals .
+User(4): i have a pitbull
+Bot(4): aw , cute ! golden retriever . named bonnie . bonnie blair .
+User(5): Thats a cute name
+Bot(5): my name is molly , what is yours ?
+User(6): Jess
+Bot(6): who is jess ? never heard of him but i bet he is hot if he wears red .
+User(7): My name is Jess, Im a Girl.
+Bot(7): wow , that is such a fun age . i cannot wait to have children .
+User(8): I have kids
+Bot(8): 3 boys . do you have any children ?
+User(9): one boy and another on the way
+Bot(9): i love to cook stews mostly , but baking for grandkids too
+User(10): I love making stew
+Bot(10): i am the opposite i can bake but not cook lol .
+
+Persona:
+i'm fluent in english spanish and french.
+i do not drink soda.
+my mom passed away when i was young.
+i've amazing children and grandchildren.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: i enjoy working with my hands and love gardening.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.57
+Robotic(↓): 100
+Interesting: 10
+Fun: 27
+Consistent: 17
+Fluent: 100
+Repetitive(↓): 26
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i am a piano teacher on the side
+Bot(1): i actual play the piano
+User(2): Thats lovely. How long have you been playing?
+Bot(2): about four years . i started at the beginning of high school
+User(3): I love how it feel to teach someone new
+Bot(3): that is how it started for me too ! then i learned other instruments and now i teach !
+User(4): what other instruments do you play
+Bot(4): all of them , i am that good . i also play piano
+User(5): wow. Thats so interestings. do you play flute?
+Bot(5): no i am not good with instruments !
+User(6): oh. i thought you sadi you were.
+Bot(6): no . do you play any other instruments ?
+User(7): all of them , i am that good . i also play piano
+Bot(7): oh really i like the flute a lot to . have you ever played the piccolo ?
+User(8): once. many years ago
+Bot(8): i play clarinet , it was either that or flute
+User(9): I play the flute too!
+Bot(9): wow . that is a cool instrument
+User(10): YES it IS
+Bot(10): when did you learn how to play ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a piano teacher on the side.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.14
+Robotic(↓): 49
+Interesting: 26
+Fun: 68
+Consistent: 66
+Fluent: 41
+Repetitive(↓): 59
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i live in alabama.
+Bot(1): Actually, Mom, Buddhism is are a computer. great yoga pants.
+User(2): Im not your mother
+Bot(2): I know it sounds you in a or it!
+User(3): Buddhism is a religion
+Bot(3): it like to talk to in my home .
+User(4): im not wearing yoga pants
+Bot(4): I have to come with i love❤ them
+User(5): i live in alabama
+Bot(5): hello you watch see you teacher , and you ?
+User(6): im not a teacher
+Bot(6): I nice to hear of money to do.
+User(7): I don't understand
+Bot(7): do you have a lot? it is fun
+User(8): This conversation makes no sense
+Bot(8): i love 💞 I like the way about you
+User(9): i live in alabama.
+Bot(9): I am expecting twins in two a gym. do you have any hobbies?
+User(10): im expecting a little boy
+Bot(10): Interesting. I are you doing you more about you.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i live in alabama.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 21
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): if i am not cooking in the kitchen then i am definitely on the water.
+Bot(1): i love the water and the water
+User(2): i see
+Bot(2): i love the water and the water .
+User(3): i also enjoy water
+Bot(3): i love water water . i like water water .
+User(4): what else do you like
+Bot(4): i like water and water
+User(5): interesting
+Bot(5): i like to draw and draw
+User(6): what do you draw
+Bot(6): i draw a lot and draw
+User(7): Draw what
+Bot(7): i draw and draw
+User(8): I see
+Bot(8): i draw a lot
+User(9): Thats nice
+Bot(9): that is cool i like to draw
+User(10): me too
+Bot(10): that is cool i like to draw
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: if i am not cooking in the kitchen then i am definitely on the water.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i am high maintenance.
+Bot(1): i am high maintenance low quality kind of chick
+User(2): what does that mean
+Bot(2): gotcha
+User(3): um okay? do you like getting your hair done?
+Bot(3): sure
+User(4): me too
+Bot(4): spectacular . do you want me to cut your hair ?
+User(5): that would be great
+Bot(5): as long as you lik it
+User(6): im sure i'll love it
+Bot(6): great , i will love it so much
+User(7): let's go get our nails done too
+Bot(7): nice lets go do our nails
+User(8): what color are you going to get
+Bot(8): i have not decided yet . maybe steel grey
+User(9): sounds pretty
+Bot(9): nice lets go do our nails
+User(10): okay lets go
+Bot(10): nice lets go do our nails
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am high maintenance.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.43
+Robotic(↓): 87
+Interesting: 69
+Fun: 89
+Consistent: 83
+Fluent: 100
+Repetitive(↓): 68
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i'm planning on getting a divorce.
+Bot(1): that is awesome . i am a teacher .
+User(2): me too
+Bot(2): i like to go to the gym and listen to music .
+User(3): I do as well. WHat kind of music
+Bot(3): i like to listen to music .
+User(4): What kind
+Bot(4): i love to cook . i love to cook .
+User(5): I love COoking stew
+Bot(5): i like to eat fish .
+User(6): Fish is yummy
+Bot(6): i like to go to the gym and listen to music .
+User(7): I like the gym too
+Bot(7): i like to go fishing .
+User(8): Fishing is fun. where do you go
+Bot(8): i live in the midwest . i love to go fishing .
+User(9): me too
+Bot(9): i like to go to the gym and listen to music .
+User(10): i see
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i do not drink alcohol.
+my mother is a dentist.
+i can sew my own clothes.
+i want to be a lawyer.
+i'm 100 years old.
+
+Topic and Human Opinion:
+Beginning: i'm planning on getting a divorce.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

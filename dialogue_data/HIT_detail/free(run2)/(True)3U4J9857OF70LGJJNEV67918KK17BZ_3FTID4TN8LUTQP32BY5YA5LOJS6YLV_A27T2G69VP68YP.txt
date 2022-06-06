@@ -1,0 +1,283 @@
+Feedback: The grammar of the chatbot needs improving.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, what do you think of the current issue we are seeing with climate change?
+Bot(1): yes . i actually teach film studies courses at nashville university . you ?
+User(2): Hello, any ideas on why the temperatures seem to be increasing?
+Bot(2): pinterest is a great resource ! i get many decorating ideas for parties there .
+User(3): The increase in temperatures seem to be causing more hurricanes.
+Bot(3): safe in tornado alley . ll . ks . is pot legal in ca ? its not here . ll
+User(4): Is there any flooding in your area?
+Bot(4): yep i lived in jacksonville fl where it was fl like 3 years ago
+User(5): Why did it flood there?
+Bot(5): it was fun even as a poor student . like it more now that i have money
+User(6): Have you noticed higher temperatures in your area?
+Bot(6): i grow carrots , green beans , and corn in the garden .
+User(7): Are the plants you are growing able to handle the increase in daily temperatures?
+Bot(7): i grow a little bit of everything in my garden no det though
+User(8): How successful are you at growing things in your garden?
+Bot(8): yes i love to garden i grow all my own fruits and veggies
+User(9): Do you have to water your garden every day?
+Bot(9): i love fresh garden vegetables
+User(10): Has the weather had any impact on your garden?
+Bot(10): i have never tried to garden but my mom loves it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: climate change(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 84
+Repetitive(↓): 70
+Topic: 47
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you enjoy watching sports?
+Bot(1): not much of a tv guy since i am always traveling
+User(2): Do you listen to sports on the radio?
+Bot(2): org i would love to watch live . but no , just on tv .
+User(3): Do you watch sports on TV?
+Bot(3): org i would love to watch live . but no , just on tv .
+User(4): What is your favorite sports team?
+Bot(4): the eagles , they are undefeated !
+User(5): The Philadelphia Eagles is your favorite team?
+Bot(5): the eagles , they are undefeated !
+User(6): The are not undefeated this year, I think they are close to last place in the NFC.
+Bot(6): really ? i need some new music because i am always traveling
+User(7): The Dallas Cowboys are leading the NFC division as of now.
+Bot(7): wow ! do you travel around with concerts ?
+User(8): Do you travel by car or by plane?
+Bot(8): i travel by air to another country before .
+User(9): What country have you been to recently?
+Bot(9): i have traveled all over the world .
+User(10): What airline do you typically fly on?
+Bot(10): i travel by air to another country before .
+
+Persona:
+my favorite band is up and i got to see them in concert once.
+i have been traveling the world for a years.
+i am partly deaf.
+i'm a descendant of christopher columbus.
+my ex cheated and left me for a lawyer.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 24
+Fluent: 17
+Repetitive(↓): 92
+Topic: 8
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Are you a Democrat or a Republican?
+Bot(1): are you a serious democrat or republican ?
+User(2): I am a moderate Republican.
+Bot(2): are you a serious democrat or republican ?
+User(3): I identify with the Republican party.
+Bot(3): are you a serious democrat or republican ?
+User(4): What major political party do you identify with?
+Bot(4): i think withing the democratic party .
+User(5): Are you planning on voting for the democratic candidate for president?
+Bot(5): i think withing the democratic party .
+User(6): Why do like the democratic party?
+Bot(6): i think withing the democratic party .
+User(7): Who is your favorite democratic candidate?
+Bot(7): i think withing the democratic party .
+User(8): Do you think the democratic party is fair?
+Bot(8): for sure also democrats have limited rights to do what they want .
+User(9): Do you think the democrats are too liberal?
+Bot(9): for sure also democrats have limited rights to do what they want .
+User(10): How are democrats rights limited?
+Bot(10): for sure also democrats have limited rights to do what they want .
+
+Persona:
+i am an elementary school teacher.
+my father used to work for home depot.
+i was born in somalia.
+i have three arabian horses.
+i spent a decade working in the human services field.
+
+Topic and Human Opinion:
+Beginning: Politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.57
+Robotic(↓): 100
+Interesting: 13
+Fun: 12
+Consistent: 12
+Fluent: 6
+Repetitive(↓): 80
+Topic: 67
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Are you planning any vacation trips?
+Bot(1): no , i am a student . i love to cook .
+User(2): What do you like to cook?
+Bot(2): i do , i love to cook .
+User(3): What is your favorite thing to cook?
+Bot(3): i love pizza , and i love it .
+User(4): Do you ever make home made pizza?
+Bot(4): no , i do not . i like to eat .
+User(5): What is your favorite type of pizza?
+Bot(5): i like pizza , and i love it .
+User(6): What is your favorite restaurant for pizza?
+Bot(6): i love pizza , and i love it .
+User(7): What are your favorite pizza toppings?
+Bot(7): i like pizza , and i love it .
+User(8): Do you like to eat pizza while on vacation?
+Bot(8): i do , i love to eat .
+User(9): Do you get pizza at school?
+Bot(9): no , i do not . i am a student .
+User(10): What school do you attend?
+Bot(10): i do not know . i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Vacation ideas(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 23
+Fluent: 8
+Repetitive(↓): 97
+Topic: 16
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What is your favorite food to eat?
+Bot(1): i'll thanks , i introduce is you one to the west coast some day. Also, try to guess: i'm in an ...
+User(2): Do you enjoy eating dessert?
+Bot(2): i am in too much an about you
+User(3): What is your favorite restaurant?
+Bot(3): Yeah, them are it.😄
+User(4): What was the last time you went out to eat?
+Bot(4): I write, poor too what poetry
+User(5): Do you ever eat fast food?
+Bot(5): pretty good . my work is in construction Silva? It’s one of the just reading .
+User(6): Have you read any interesting books lately?
+Bot(6): I love tacos but mountain biking -- Who Do you have three sisters?
+User(7): What kind of tacos do you like?
+Bot(7): Is that not grow show?
+User(8): Where do you get your tacos?
+Bot(8): no i don favorite cookies today. is ok
+User(9): Do you ever make tacos at home?
+Bot(9): I know. I like have any kids car.
+User(10): When was the last time you ate tacos?
+Bot(10): How are you chat with you the surgery?
+
+Persona:
+i'm expecting triplets in three months.
+i am married to a doctor.
+i just want to have fun with my friends.
+my main transportation is my motorbike.
+i work at a bank.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 89
+Topic: 5
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): How are you feeling today?
+Bot(1): i am good . just got back from a long day at work .
+User(2): Really, where do you work at?
+Bot(2): i work on a classic car , i love it .
+User(3): What is your favorite classic car?
+Bot(3): i like to drive my favorite car , i love it
+User(4): What is the make and model of your favorite car?
+Bot(4): i like to dye my hair . i love it
+User(5): How fast can your favorite car go on the road?
+Bot(5): i like to drive my new car
+User(6): what color is your new car?
+Bot(6): i like to drive my new car
+User(7): what is the top speed of your new car?
+Bot(7): i am a ford mustang , i love it
+User(8): Nice, when did you buy your Ford Mustang?
+Bot(8): i have a mustang , i love it
+User(9): Is your mustang a mustang cobra?
+Bot(9): i like mustangs , i have a mustang , i love it
+User(10): Where did you go in your mustang?
+Bot(10): i have a mustang , i love it
+
+Persona:
+i have a pet turtle.
+i often shop for shoes and watches.
+i like to work on vintage cars.
+whats up i'm a 46 year old single dad 46 a kids.
+i dye my hair every three months.
+
+Topic and Human Opinion:
+Beginning: Health(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.57
+Robotic(↓): 100
+Interesting: 32
+Fun: 32
+Consistent: 52
+Fluent: 17
+Repetitive(↓): 70
+Topic: 58
+
+####################
+

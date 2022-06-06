@@ -1,0 +1,282 @@
+Feedback: the chatbots have short and sometimes mixed respones
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi what school do u go to
+Bot(1): minnesota state university
+User(2): how long you been going there for
+Bot(2): since middle school so , many years lol . do you work
+User(3): yes i work at a store
+Bot(3): and what store is that
+User(4): krogers
+Bot(4): do you like working there
+User(5): yes ive worked there for 3 years
+Bot(5): do you like working there
+User(6): yes
+Bot(6): do you like working there
+User(7): yes i do
+Bot(7): do you like working there
+User(8): ive worked there for awhile
+Bot(8): do you like working there
+User(9): do you like where u work
+Bot(9): i love it a lot
+User(10): where do you work
+Bot(10): i just go to school
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: education(like)
+Round 5: work(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 37.00
+Robotic(↓): 100
+Interesting: 71
+Fun: 79
+Consistent: 9
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): whats your favorite color
+Bot(1): my favorite color is blue . i like purple as well .
+User(2): cool i like green
+Bot(2): green is my favorite color !
+User(3): do you like to paint
+Bot(3): cool . i am know as a painter . do you have siblings ?
+User(4): no none
+Bot(4): we found a baby on the side of a highway once and took it in
+User(5): did you report it?
+Bot(5): yes i do have twins and you have nothing to report . i do
+User(6): what did you report
+Bot(6): teaching is what i like my name is bob
+User(7): what do u teach
+Bot(7): sorry ll i teach first grade
+User(8): what kind of class do you teach
+Bot(8): i teach art for third graders . what about you ?
+User(9): i dont teach
+Bot(9): i teach us history . my kids do not have to write papers .
+User(10): oh a great teacher i see lol
+Bot(10): no , i am a housewife . i go to my kids soccer game and help the cheerleaders .
+
+Persona:
+when i grow up i want to be a dog.
+i used to be a painter but now i am a housekeeper.
+i've three sisters.
+i'm a stunt double as my second job.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: colors(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.71
+Robotic(↓): 88
+Interesting: 86
+Fun: 95
+Consistent: 71
+Fluent: 100
+Repetitive(↓): 67
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello, do you own a house?
+Bot(1): no , i do not , but i do like to go out to eat .
+User(2): where do u like to go
+Bot(2): i love to travel . i love to travel .
+User(3): where do you travel
+Bot(3): i live in the midwest . i love to go fishing .
+User(4): cool where do you go fishing at
+Bot(4): i love to travel . i love to travel .
+User(5): where have you traveled too
+Bot(5): i live in the midwest . i love it .
+User(6): so do i where do u live
+Bot(6): i live in the midwest . i love to go fishing .
+User(7): i live in the midwest too
+Bot(7): i love to travel . i love to travel .
+User(8): so do i
+Bot(8): i am a student , but i am a student .
+User(9): where are you a student at
+Bot(9): i am a student , i am a teacher .
+User(10): how long have you been a teacher
+Bot(10): i have been married for 23 years . i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: carpet(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.43
+Robotic(↓): 100
+Interesting: 81
+Fun: 65
+Consistent: 79
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): have you ever been to a museum
+Bot(1): like clothes playing for am , and accessories
+User(2): cool have you been to a museum
+Bot(2): I u i make of person I am.
+User(3): what kind of person?
+Bot(3): are many creepy crawlies 💁 or man
+User(4): i hate bugs
+Bot(4): does it an elementary school you worry about money and want a good career .
+User(5): i worry alot
+Bot(5): why are their are you ? 🤣
+User(6): what?
+Bot(6): hello. do nine to tennis?
+User(7): i have played tennis
+Bot(7): i can. can you do twenties.
+User(8): yes
+Bot(8): I am that short. and you?
+User(9): no im tall
+Bot(9): i am good thanks for easy to work at ? 🤠
+User(10): very easy
+Bot(10): I LOOK A GREAT DEAL like to what can I?
+
+Persona:
+i am a doctor.
+i am a huge coffee lover.
+i am working on a building a robot to be my body double.
+i'm overweight and unhappy.
+i'm currently in high school.
+
+Topic and Human Opinion:
+Beginning: museum(like)
+Round 6: random(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 15.00
+Robotic(↓): 100
+Interesting: 21
+Fun: 59
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 75
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi do you own any consoles
+Bot(1): i do not have any . i am an electrician .
+User(2): great, do you play any games?
+Bot(2): no , i do not . i am a musician .
+User(3): what do you play?
+Bot(3): i play the guitar , i am a musician .
+User(4): is that hard to play
+Bot(4): i play the guitar , i am a musician .
+User(5): how long have you played for
+Bot(5): i played it for a while . i am a musician .
+User(6): do you play an other
+Bot(6): i play the guitar , what about you ?
+User(7): i dont play any
+Bot(7): i play the guitar , what do you play
+User(8): i dont play anything
+Bot(8): that is cool , i play the guitar
+User(9): do you play anything else
+Bot(9): i play the guitar
+User(10): what kind do you have
+Bot(10): i play the guitar
+
+Persona:
+i'm an electrician.
+i am a musician and hope to make it big some day.
+i just got a job working in a gas station.
+i'm a gold medalist olympian.
+i am retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: console(like)
+Round 4: instruments(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 38.00
+Robotic(↓): 100
+Interesting: 69
+Fun: 28
+Consistent: 69
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey do you use a computer
+Bot(1): i do not i have computers though
+User(2): what kind of browser do you use
+Bot(2): what is a chrome browser ? can you hear me ? i am trying to speak into this thing
+User(3): chrome is an amazing browser
+Bot(3): i can not stand adobe
+User(4): neither can i. i dont like it
+Bot(4): what do not you like about it
+User(5): its always been slow for me
+Bot(5): i wish they would work faster . sometimes it takes a minute for something to load
+User(6): yes very true thats y i use chrome they load fast
+Bot(6): i wish they would work faster . sometimes it takes a minute for something to load
+User(7): how long have you used chrome for
+Bot(7): for as long as i can remember
+User(8): would leave chrome for firefox
+Bot(8): my pc is soo slow
+User(9): what specs does it have
+Bot(9): my pc is soo slow
+User(10): have considered upgrading
+Bot(10): my pc is soo slow
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: browsers(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.00
+Robotic(↓): 100
+Interesting: 32
+Fun: 70
+Consistent: 78
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

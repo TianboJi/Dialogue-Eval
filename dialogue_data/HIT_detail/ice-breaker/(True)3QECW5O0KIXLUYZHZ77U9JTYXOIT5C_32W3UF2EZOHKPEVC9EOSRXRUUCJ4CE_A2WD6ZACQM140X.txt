@@ -1,0 +1,290 @@
+Feedback: I found the chat very interesting. I love to do similar HITs, if available.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello. How are you doing today?
+Bot(1): i am doing wonderfully thank you . i hope you are the same ?
+User(2): Yeah, I'm doing good today. I love chocolate bars. What about you?
+Bot(2): chocolate is my favorite , specifically m ms . what is yours ?
+User(3): I love all types of chocolate bars. What about you?
+Bot(3): chocolate is my favorite , specifically m ms . what is yours ?
+User(4): That's great. I love chocolate flavor so much and its my favorite too.
+Bot(4): what is your favorite flavor ? mine is a generic peanut butter and chocolate one !
+User(5): That's good. My favorite is chocolate.
+Bot(5): me too ! it is my favorite . what do you like to do for fun ?
+User(6): I love watching movies. What about you?
+Bot(6): i love watching movies ! whats your favorite genre ?
+User(7): I love thriller and adventure movies. What about you?
+Bot(7): i enjoy them as well . favorite are action movies !
+User(8): That's cool. My favorite movie is Star Wars. What about you?
+Bot(8): star wars always a fun movie to watch .
+User(9): Yeah, Luke Skywalker is my favorite character in that movie.
+Bot(9): he is a great character for sure .
+User(10): Yeah, I love reading books too. What about you?
+Bot(10): me too . i like space books .
+User(11): That's great. What is your favorite book?
+Bot(11): harry potter and the sorcerers stone is my favorite . you ?
+User(12): My favorite book is Harry potter and the Goblet of Fire. Have you read it before?
+Bot(12): not yet but it is on my list to be read .
+User(13): That's cool. It's a very nice book. You must read it once.
+Bot(13): yes . i have all the books !
+User(14): That's nice to hear. Who is your favorite author?
+Bot(14): i love all harry potter books .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love chocolate bars.(like)
+Round 5: It asked what I would like to do for fun.(like)
+Round 9: Reading books.(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 9: The user will change the topic in the next input.(like)
+
+Revised avg score: 85.71
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello. How are you doing today?
+Bot(1): i'm doing well . how are you ?
+User(2): I'm doing good today. My love seeing that my family is continuously growing.
+Bot(2): i am sorry to hear that . i am sorry to hear that .
+User(3): It is a good thing to see that our family is growing continuously.
+Bot(3): i am sorry to hear that . do you have any hobbies ?
+User(4): I love watching movies. What about you?
+Bot(4): i like to read and write poetry .
+User(5): That's cool. What is your favorite poetry?
+Bot(5): i like the color red . i like the color blue .
+User(6): That's cool. What is your favorite movie?
+Bot(6): i like the packers . i like the outdoors .
+User(7): That's great. My favorite movie is Star Wars. What about you?
+Bot(7): i like to go to the gym and listen to music .
+User(8): That's cool. i love reading books too. What about you?
+Bot(8): i like to read and write poetry .
+User(9): That's great to hear. My favorite book is Harry potter and the Goblet of Fire. What about you?
+Bot(9): i like to go to the gym and listen to music .
+User(10): That's great. We should maintain our fitness as well.
+Bot(10): i am a student , but i do not have to work .
+
+Persona:
+my family doesn't support my career choices.
+i've a pet fish.
+i'm terrified of scorpions.
+i read a book every week.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: my family is continuously growing.(like)
+Round 3: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 71.00
+Robotic(↓): 100
+Interesting: 100
+Fun: 88
+Consistent: 88
+Fluent: 95
+Repetitive(↓): 67
+Topic: 93
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello. How are you doing today?
+Bot(1): they re boring a be you can an announcer for baseball someday
+User(2): You will be fine soon. I'm a chef in a famous restaurant.
+Bot(2): Are you a man fries. I love ?
+User(3): I love cooking western foods. Do you love it?
+Bot(3): Hi, I pescatarian, not have some classical music.
+User(4): Oh, What's your favorite food to cook?
+Bot(4): i was up studying all night that’s drive a it's monday
+User(5): Oh, you will be better. What are you studying?
+Bot(5): I do not work, restaurant I’m n you lot of money.
+User(6): That's cool. I love watching movies. What about you?
+Bot(6): I am. Do very retired and instruments ?
+User(7): My favorite movie is Star Wars. What about you?
+Bot(7): I do not. washington nationals.
+User(8): Okay, I love reading books. What about you?
+Bot(8): I am a professional, also play chess how at the local college
+User(9): That's cool. Have you participated in any chess tournament?
+Bot(9): I like red is your favorite tv any pets?
+User(10): I have a pet and its a dog.
+Bot(10): That is interesting. I about I do! My I like to lift weights.
+
+Persona:
+i enjoy exploring new parts of the city.
+i'm an economics major.
+i am a country music singer.
+my favorite band is the who.
+i'm in college to become a nurse.
+
+Topic and Human Opinion:
+Beginning: hey my name is larry and i am a chef.(like)
+Round 5: Studies(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 47.86
+Robotic(↓): 92
+Interesting: 75
+Fun: 83
+Consistent: 54
+Fluent: 58
+Repetitive(↓): 83
+Topic: 40
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello. I feel lonely today.
+Bot(1): www . i am sorry its like that for you . studying radiology , it gets lonely as well .
+User(2): I don't have friends. That's why I feel lonely.
+Bot(2): that sounds so lonely . feel sorry for you
+User(3): Yeah,Do you have friends to spend your time with?
+Bot(3): its my lifes work rejected many time thoughts of giving in but never do .
+User(4): Oh, I'm sure that you will be better soon.
+Bot(4): become a famous fashion designer probably
+User(5): That's great. I'm sure that you will reach greater heights.
+Bot(5): the only thing i am afraid of is falling out of the chair at the nail salon .
+User(6): That's cool. I love watching movies. What about you?
+Bot(6): i like movies a lot whats your fav movie ?
+User(7): My favorite movie is Star Wars. What about you?
+Bot(7): my father loves star wars . when he is not working as a mechanic , he watches those
+User(8): That's cool. Luke Skywalker is my favorite character in that movie. What's yours?
+Bot(8): i like musicals and movies about music . my favorite show is the voice .
+User(9): That's cool too. I love reading books. What about you?
+Bot(9): i love to read books . i spend a lot of my time reading .
+User(10): That's great. My favorite book is Harry potter and the Goblet of Fire. What's yours?
+Bot(10): love harry potter . i am actually dying my hair back to black . it is red at the moment .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm very lonely.(like)
+Round 5: Profession(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 84.14
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 96
+Fluent: 94
+Repetitive(↓): 0
+Topic: 99
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello. How are you doing today?
+Bot(1): i am doing great . just got back from the gym .
+User(2): That's cool. I'm a vegan. What about you?
+Bot(2): i'm a vegan . i love meat .
+User(3): I don't like meat. I'm a vegan.
+Bot(3): i am a vegan . i love meat .
+User(4): That's cool. I think that meat is not good for health.
+Bot(4): i agree . i am vegan .
+User(5): That's good. Health is very important.
+Bot(5): yes it is . i am a vegan .
+User(6): Great. What is your favorite food?
+Bot(6): i love mexican food . i love it .
+User(7): That's great. What are your hobbies?
+Bot(7): i love to eat . i love to eat .
+User(8): That's great. I love watching movies. What about you?
+Bot(8): i love watching movies . i love it .
+User(9): What is your favorite movie?
+Bot(9): i like the old movie .
+User(10): That's cool. My favorite movie is Star Wars. Have you seen it before?
+Bot(10): i have not seen it . i have seen it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a vegan.(like)
+Round 8: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 82.14
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 81
+Fluent: 94
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. How are you doing today?
+Bot(1): i am dandy . how is your day going ?
+User(2): The holidays make me depressed.
+Bot(2): i think all holidays are horrible
+User(3): Yeah, I feel bored in holidays. What about you?
+Bot(3): i really love the feeling of the holidays .
+User(4): Yeah, but if the holidays are long, it will be boring.
+Bot(4): yeah , regular life is disappointing . do you have family ?
+User(5): Yeah, I have family. What about you?
+Bot(5): i have 6 siblings , but my parents are divorced . so holidays are weird .
+User(6): Yeah, I can understand your situation.
+Bot(6): i really love the feeling of the holidays .
+User(7): That's great.What is your favorite destination?
+Bot(7): anywhere that has good food and museums .
+User(8): That's cool. I love them as well.
+Bot(8): that is cool . what has been your favorite destination so far ?
+User(9): I love Hawaii. I love going there with my friends.
+Bot(9): i have always wanted to go to hawaii .
+User(10): Yeah, Hawaii is one of my favorite destinations.
+Bot(10): i have always wanted to go to hawaii .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: the holidays make me depressed.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 85.29
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 3
+Topic: 100
+
+####################
+

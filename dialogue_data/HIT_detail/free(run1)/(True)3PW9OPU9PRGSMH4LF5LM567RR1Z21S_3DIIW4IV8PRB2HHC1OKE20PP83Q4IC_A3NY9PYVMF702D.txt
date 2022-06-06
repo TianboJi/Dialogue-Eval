@@ -1,0 +1,280 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): Do you have any interest in cheerleading?
+Bot(2): yes
+User(3): So do I, I was a cheerleader growing up.
+Bot(3): i love cheerleading that s what i do
+User(4): Awesome, I use to cheer when I was in school.
+Bot(4): do you have any hobbies aside from cheerleading ?
+User(5): Yes, I love to craft and go shopping. Do you?
+Bot(5): i love to go shopping for new styles . i was a cheerleader back in hs .
+User(6): Me too! That is very cool.
+Bot(6): i also like to craft !
+User(7): Back to cheering, what was your favorite thing about it?
+Bot(7): i also like to craft !
+User(8): Did you cheer in elementary school?
+Bot(8): yes , coach cheerleading . i used to be one in high school
+User(9): So you were a coach?
+Bot(9): yes , coach cheerleading . i used to be one in high school
+User(10): What was the team you coached cheerleading for?
+Bot(10): cheer lead for our college team .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cheerleading(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.29
+Robotic(↓): 17
+Interesting: 66
+Fun: 74
+Consistent: 30
+Fluent: 43
+Repetitive(↓): 100
+Topic: 35
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello, what is your favorite type of food?
+Bot(1): i like pizza , and pizza .
+User(2): So do you like any kind of pizza?
+Bot(2): i do not , but i do like to eat .
+User(3): I do too, do you want to know what my favorite food is?
+Bot(3): i love pizza , and i love it .
+User(4): Nice, I like it. I do not like eating it often though
+Bot(4): i like to eat the skin .
+User(5): Interesting, I was not aware pizza had skin
+Bot(5): i love the color green . i like red .
+User(6): Are some of your favorite foods those colors?
+Bot(6): i like the color red . i like the color blue .
+User(7): What is the color of your favorite food?
+Bot(7): i like the color red . what is yours ?
+User(8): My favorite food color is brown.
+Bot(8): i like red , reminds me of summer time .
+User(9): Yellow reminds me of Summer
+Bot(9): i like to eat too much junk food .
+User(10): I think everyone does.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 8: Colors(like)
+Round 9: Foods(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 27.14
+Robotic(↓): 100
+Interesting: 25
+Fun: 27
+Consistent: 21
+Fluent: 23
+Repetitive(↓): 6
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like to wear shoes?
+Bot(1): i love shoes ! do you have any hobbies ?
+User(2): Yes, matter of fact, shopping for new shoes
+Bot(2): nice , nothing like a new pair of shoes
+User(3): That is right, come to think I have a lot of new shoes that have not been worn
+Bot(3): nice , nothing like a new pair of shoes
+User(4): right
+Bot(4): nice , nothing like a new pair of shoes
+User(5): What kind of shoes do you like?
+Bot(5): new balance . they really support my feet . i love comfy things like chairs too
+User(6): I do not have any new balance shoes
+Bot(6): really i need to go shopping i only have 1 pair left of shoes
+User(7): Oh my, yes you probably should get a back up pair
+Bot(7): yeah i only have one pair
+User(8): Not me, I couldn't tell you how many pairs I have
+Bot(8): that is a long time for one pair of shoes ! !
+User(9): How long has it been ?
+Bot(9): so about 2 years or more
+User(10): Wow, that is certainly a long time!
+Bot(10): i have had my saucony shoes for nearly a year .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Shoes(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.43
+Robotic(↓): 67
+Interesting: 68
+Fun: 68
+Consistent: 37
+Fluent: 78
+Repetitive(↓): 0
+Topic: 46
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): Age is are so how is i am still looking for a fourth.
+User(2): What does that mean ?
+Bot(2): what grade . But what ?
+User(3): Im sorry?
+Bot(3): A little pizza too. Can fish drone
+User(4): What kind of pizza?
+Bot(4): How you like your had them?
+User(5): I do not understand
+Bot(5): I got to work on of here.
+User(6): Oh interesting!
+Bot(6): so you are colorado. i am .
+User(7): No
+Bot(7): i like to go know? I am pretty watch tv
+User(8): You watch TV?
+Bot(8): I like nascar tacos lol care nascar
+User(9): I like nascar
+Bot(9): I do not. I thank don't like fish.
+User(10): Oh you just said you liked nascar?
+Bot(10): I was born the am I Germany.
+
+Persona:
+i'm a gold medalist olympian.
+my next language to study is french.
+i've brown curly hair.
+i'm a 12 year old girl.
+i've a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 3: pizza(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you have a cell phone?
+Bot(1): i have a cell phone . why do you ask ?
+User(2): Just curious, which one do you have?
+Bot(2): beer . perfect for dinner . my gut tells me it is plenty of calories .
+User(3): That has nothing to do with a cell phone. What kind do you have?
+Bot(3): i have a cell phone . why do you ask ?
+User(4): What kind?
+Bot(4): i play honkytonk and ragtime . i am an old fashioned kind of girl .
+User(5): Oh nice!
+Bot(5): yes . i am a police officer in detroit .
+User(6): You better be safe being a police
+Bot(6): sting and the police ? i love them . i have wax from them
+User(7): Wax, what do you mean?
+Bot(7): canning preserving the , in jars . sometimes jams and things like that .
+User(8): I like canned jam
+Bot(8): i love pearl jam , what do you do for fun ?
+User(9): Can foods
+Bot(9): good advice . i count cards when i am in vegas to supplement their college fund
+User(10): That would be nice
+Bot(10): also let me know your favorite food so i can order it mine is cheese
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cell phones(like)
+Round 4: honkytonk(dislike)
+Round 7: canning(dislike)
+Round 9: College fund(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 19.29
+Robotic(↓): 100
+Interesting: 17
+Fun: 18
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you grow any plants?
+Bot(1): plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants
+User(2): I take that as a yes
+Bot(2): i grow plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants
+User(3): that is quite a lot
+Bot(3): i grow plants in my garden
+User(4): me too!
+Bot(4): i grow plants in my garden so i grow plants
+User(5): Awesome!
+Bot(5): i do not care for plants
+User(6): What kind of plants?
+Bot(6): plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants
+User(7): That doesn't tell me anything
+Bot(7): i grow plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants
+User(8): Ok, me too
+Bot(8): i do not know what that means .
+User(9): I also grow plants
+Bot(9): plants are great , i grow plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants , plants
+User(10): I love to see them grow
+Bot(10): i grow plants in my garden , but i grow plants
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: plants(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 17
+Repetitive(↓): 100
+Topic: 17
+
+####################
+

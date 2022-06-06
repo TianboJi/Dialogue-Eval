@@ -1,0 +1,285 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): Of course i have hobbies. most revolve around my career tho. i am a librarian.
+Bot(2): i am a librarian and i love to read
+User(3): Me too. Whats your favorite thing to read?
+Bot(3): i like to read and read .
+User(4): What do you enjoy reading?
+Bot(4): i like to read and read books .
+User(5): is there anything else you like to you?
+Bot(5): i like reading and reading .
+User(6): what about halloween?
+Bot(6): i like twilight . i like to read .
+User(7): Twilight connects both halloween and reading. i like that.
+Bot(7): i like twilight too . i like twilight too .
+User(8): are you ok?
+Bot(8): yes , i am . i like to read .
+User(9): are you reading right now?
+Bot(9): yes i read a lot . i love it .
+User(10): ok thats cool.
+Bot(10): i am not a fan of it . i read a lot .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a librarian.(like)
+Round 4: Halloween(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): I do not speak thankfully so that’s an teach high school
+User(2): what is your age?
+Bot(2): I am from the not from are nice. school.
+User(3): wow as a chat bot youre having a hard time
+Bot(3): I'm makes sense. doctor.
+User(4): i am not a doctor.
+Bot(4): What is the name and what is holiday?
+User(5): What is your age?
+Bot(5): its okay , i usually shop for shoes , rock music .
+User(6): shoes and rock music?
+Bot(6): do you have any brothers or sisters American I live in i ve no siblings
+User(7): i have three sisters no brothers
+Bot(7): I am scared of vet, what about you?
+User(8): im not an animal so no i am not scared of vet
+Bot(8): it is not your fault i just need some real can't stop know that lonely
+User(9): ok thats cool
+Bot(9): hello, how are you? what is your in a book don't red
+User(10): im good thank you for asking
+Bot(10): i need to bake more i type of food do chinese food
+
+Persona:
+i love cooking but i also enjoy fishing.
+my father was a construction worker.
+i have a german shepherd dog.
+i grew up in the industry.
+i am a 45 year old male.
+
+Topic and Human Opinion:
+Beginning: my age is too old to say.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): howdy ! how are you ? my name is shannon . yours ?
+User(2): hello shannon. im jerry, i like wine.
+Bot(2): i serve wine at the restaurant i started ! it was 3 years ago .
+User(3): what kind of restaurant
+Bot(3): cool , i used to be a cook in college . what kind of restaurant ?
+User(4): i dont own a diner. you do.
+Bot(4): wow i hope to go to a diner when i go to quebec canada
+User(5): canada huh? thats exciting.
+Bot(5): i have not been out of the united states , but i would like to .
+User(6): what do you think of canada?
+Bot(6): no , i am american , from the south and living now in manhattan .
+User(7): have you ever been to canada?
+Bot(7): i have not been out of the united states , but i would like to .
+User(8): cool what do you think of manhattan?
+Bot(8): cute name ! i take my dogs fishing with me .
+User(9): where do you fish with your dogs?
+Bot(9): all kinds and then i cook them on my george foreman grill at home
+User(10): you like fish?
+Bot(10): fish tacos are great . i enjoy fishing in my spare time . do you have a hobby ?
+
+Persona:
+i'm in the army.
+i spend most of my time on facebook when i am not working.
+i enjoy american sports.
+i live is a rural farming community.
+my name is george.
+
+Topic and Human Opinion:
+Beginning: i also like a glass of wine in the evenings.(like)
+Round 2: resturaunt(like)
+Round 4: canada(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 21.14
+Robotic(↓): 100
+Interesting: 48
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you doing today?
+Bot(2): i am doing pretty ok
+User(3): i am currently looking for a job
+Bot(3): i am also looking for employment
+User(4): where are you looking for employment?
+Bot(4): i am also looking for employment
+User(5): im trying to work at a restaurant
+Bot(5): what type of restaurant ?
+User(6): fried chicken restaurant
+Bot(6): do you like fried chicken it is my favorite
+User(7): i love fried chicken. it tastes wonderful
+Bot(7): yes it is sounds gross . i am currently trying to find a job
+User(8): what do you do for work?
+Bot(8): i work in a restaurant for now . how about you ?
+User(9): same. i work in a restaurant.
+Bot(9): what is your favorite restaurant
+User(10): KFC all day.
+Bot(10): my favorite is burger king
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am currently looking for a job preferably at a restaurant.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.71
+Robotic(↓): 100
+Interesting: 50
+Fun: 28
+Consistent: 28
+Fluent: 50
+Repetitive(↓): 0
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello do you like to swim?
+Bot(1): yes i love swimming
+User(2): i love swimming at my local pool
+Bot(2): same
+User(3): are you a swim coach?
+Bot(3): yes i am , i am a trainer
+User(4): how often do you train people to swim?
+Bot(4): usually once a month . how has your weekend been ?
+User(5): my weekend has been pretty good. how about yours?
+Bot(5): no clue , mine has not been going too well either
+User(6): what happened?
+Bot(6): just a lot of rain and wind . no real damage in my area .
+User(7): oh like a hurricane?
+Bot(7): you mean with the hurricane ?
+User(8): are you in the middle of a hurricane?
+Bot(8): yes i am . we had a heatwave
+User(9): a hurricane and a heatwave?
+Bot(9): you mean with the hurricane ?
+User(10): yes
+Bot(10): you mean with the hurricane ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a swim coach at my local pool.(like)
+Round 4: my weekend(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 49.00
+Robotic(↓): 77
+Interesting: 50
+Fun: 33
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 0
+Topic: 37
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello how are you?
+Bot(1): i'm doing well . how are you ?
+User(2): im doing good
+Bot(2): i am a student , but i am a student .
+User(3): do you workout?
+Bot(3): no , i do not , but i do like to go fishing .
+User(4): oh how often do you go fishing?
+Bot(4): i love to travel . i love to travel .
+User(5): travel where?
+Bot(5): i live in the midwest . i love to go fishing .
+User(6): i love visiting the midwest. it is so beautiful
+Bot(6): i love it . i love it .
+User(7): what do you love most about it?
+Bot(7): i like to go to the gym and listen to music .
+User(8): i thought you said you did not workout?
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): i love classical music
+Bot(9): i like the band korn . i love it .
+User(10): i saw the band korn live before the pandemic started.
+Bot(10): i am sorry to hear that . i am a bit of a loner .
+
+Persona:
+my favorite music is country.
+i diet a lot.
+i see the rolling stones in concert every year.
+i am studying to be a computer programmer.
+i read a book every week.
+
+Topic and Human Opinion:
+Beginning: i workout four hours a day.(like)
+Round 3: fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 21.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 47
+Repetitive(↓): 0
+Topic: 0
+
+####################
+

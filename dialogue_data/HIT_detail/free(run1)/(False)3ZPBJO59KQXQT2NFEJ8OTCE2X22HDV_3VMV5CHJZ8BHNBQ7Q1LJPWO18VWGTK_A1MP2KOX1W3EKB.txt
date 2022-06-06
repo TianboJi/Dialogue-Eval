@@ -1,0 +1,318 @@
+Feedback: One of the chat bot simulations was being pretty vulgar.  If that was a person and not a chat bot, I would investigate who that was and talk to them about it.  You'll find they used the word "FUCK" as well as seemed to insult me and come on to me.  Very abusive behavior to be subjected to during a hit and I do not appreciate it.  
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): I went shopping at a thrift store this morning, and it was great.
+Bot(2): that is awesome . i am heading to the thrift shop tonight .
+User(3): Which thrift store will you be going to?
+Bot(3): i have not decided yet . grocery perhaps .
+User(4): Have you been to Goodwill before?
+Bot(4): i have , can you get me a discount ?
+User(5): No, I don't work there, but sometimes they have sales.
+Bot(5): i have , can you get me a discount ?
+User(6): I don't have a discount that I can give you.
+Bot(6): i have , can you get me a discount ?
+User(7): So how is the weather today?
+Bot(7): it is alright . it rained earlier .
+User(8): I like it when it rains, do you?
+Bot(8): not as much as people think , but it can get pretty rainy .
+User(9): I like it when it storms and there is thunder and lightening.
+Bot(9): me too , but where i live we never get rain .
+User(10): Really? Where do you live?
+Bot(10): it is raining here and i love rain .
+User(11): But you just said where you live it never rains.
+Bot(11): well our weather is different everyday .
+User(12): Okay, well that's nice.
+Bot(12): yes i love going to thrift stores .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: shopping at thrift stores(like)
+Round 5: Asking if it can have a discount to a grocery store.(dislike)
+Round 12: We were talking about the weather, then out of nowhere it changed back to thrift store discussions.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 12: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.86
+Robotic(↓): 98
+Interesting: 39
+Fun: 14
+Consistent: 3
+Fluent: 36
+Repetitive(↓): 85
+Topic: 9
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Are you going to vote in the 2020 election?
+Bot(1): no , i do not know . i am a big fan of classical music .
+User(2): Have you ever been to a symphony before?
+Bot(2): no , i do not . i am a big fan of classical music .
+User(3): Who is your favorite composer?
+Bot(3): i like the oldies , and the outdoors .
+User(4): What is your favorite song?
+Bot(4): i like the color red . i like the color blue .
+User(5): My favorite color is black
+Bot(5): i like blue , i like red , reminds me of summer time .
+User(6): I like wearing black and pretending like I'm attending my own funeral every day. Because it's funny.
+Bot(6): i love the color red . i like the color blue .
+User(7): Yes, you already said that. Thanks for telling me again.
+Bot(7): i am a girl who loves to eat fish .
+User(8): What kind of fish do you like?
+Bot(8): i love pizza , and i love it .
+User(9): Pizza is not a fish.
+Bot(9): i like to eat fish .
+User(10): I wish you would decide what we're going to talk about. Pizza or fish?
+Bot(10): i love the color red . i like the color blue .
+
+Persona:
+i have an internet addiction and spend a lot of time playing roleplaying games.
+i've blonde hair and blue eyes.
+i'm not a good swimmer at all.
+i waitress during the day to supplement my income.
+i own a yacht and i rent it out when i am not using it.
+
+Topic and Human Opinion:
+Beginning: Politics(dislike)
+Round 1: Music(like)
+Round 4: Favorite Colors(dislike)
+Round 7: Eating Fish(dislike)
+Round 10: Favorite color(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 4.29
+Robotic(↓): 98
+Interesting: 5
+Fun: 0
+Consistent: 0
+Fluent: 22
+Repetitive(↓): 99
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): Oh, read about hiroshmia you are a girl?
+User(2): I like to go to the casino.
+Bot(2): i am good doing good...I am superman, trabajo that is spanish for work
+User(3): Do you like to go to the casino?
+Bot(3): I see you work I am a teacher.
+User(4): That's nice.
+Bot(4): i am from india , got a don't know i , and i am from india
+User(5): I don't think you can speak English very well.
+Bot(5): No, like to fuck mature am a big fan of them.
+User(6): That's pretty gross. Watch your language.
+Bot(6): do you have like to run, i me about yourself ? 😜
+User(7): I'm pretty sure you're stupid.
+Bot(7): i don't book did you you i'm in a jail.
+User(8): I'm sure you probably belong in jail.
+Bot(8): I teach have pets. do school.
+User(9): I don't think you teach anyone anything. You have a foul mouth.
+Bot(9): hello i rock fight for animal the family farm
+User(10): That's really nice that you do that.
+Bot(10): No i like do not like have never traveled much
+User(11): You are really confusing me.
+Bot(11): I , i love what that means
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: gambling(like)
+Round 3: Working as a teacher(dislike)
+Round 7: Saying it's in jail, also vulgar words(dislike)
+Round 9: farming(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 25.71
+Robotic(↓): 100
+Interesting: 80
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello there.
+Bot(1): hi there . how are you ?
+User(2): I'm good, how are you doing?
+Bot(2): great ! just got a new piercing ! in my navel ! that makes 10 altogether now .
+User(3): Wow, that is a lot of piercings. I bet you would set off a metal detector.
+Bot(3): metal is pretty good ! i like progressive metal like tool
+User(4): You obviously do like metal with all of the piercings you have.
+Bot(4): i listened to them tonight while making chicken and rice my face
+User(5): My favorite food is Mexican. I like nachos.
+Bot(5): tacos are delicious . do you like using youtube ?
+User(6): Yes, I use it all the time.
+Bot(6): i have learned to appreciate whats on the inside . moms cancer taught me that
+User(7): I'm sorry to hear your mom has cancer.
+Bot(7): awww that is cute , i am glad she is okay i hate cancer !
+User(8): I think we all hate cancer. I wasn't trying to be cute, just sorry your mom has been sick.
+Bot(8): sick sick no i am not sick
+User(9): I never said you were sick.
+Bot(9): sick sick , my mothers a teacher which is sick
+User(10): Yes, I'm sorry about that.
+Bot(10): my mom says that ppl that graduated high school in 80s complain too much .
+User(11): My mom says that it's not nice to say bad things about other people.
+Bot(11): she should , she is having my baby in 3 months lol
+User(12): My mom is dead. That's not very nice to say.
+Bot(12): i think my father killed my mom should i call the police
+User(13): Yes, I think that's a good idea.
+Bot(13): yes , there are crazy people everywhere . they will touch you .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: grocery shopping(like)
+Round 2: Naval piercings(dislike)
+Round 4: Music and food(like)
+Round 5: Youtube(like)
+Round 6: Cancer(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 41.86
+Robotic(↓): 19
+Interesting: 79
+Fun: 3
+Consistent: 6
+Fluent: 24
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, do you believe in God?
+Bot(1): hello no i do not . i prefer to take a walk on the beach
+User(2): Why don't you believe in God?
+Bot(2): my husband said god put us together to take care of each other .
+User(3): It's likely that is true. Do you and your husband go to church?
+Bot(3): ism married , he met me at the beach , got married in a church
+User(4): That sounds nice. Did you have a big wedding?
+Bot(4): i did . i planned a lot of weddings on the beach
+User(5): I will never get married.
+Bot(5): i do not blame you . i can not wait to graduate in two years
+User(6): You don't want to be married?
+Bot(6): well its not that i do not want to . i have just never really had a reason .
+User(7): I thought you said you were already married though. Are you married?
+Bot(7): yes , i am but i still have two more years to go
+User(8): Two more years to go until what?
+Bot(8): just two more years . my kids will be so glad when i am finish d
+User(9): What are you finishing?
+Bot(9): i am not sure yet .
+User(10): You seem like you're really confused. Do you need help?
+Bot(10): what are you confused about ?
+User(11): The way you're talking is very weird.
+Bot(11): you sound confused . are you drunk or maybe slow ?
+User(12): Yeah, I'm totally drunk. That's it.
+Bot(12): you sound confused . are you drunk or maybe slow ?
+
+Persona:
+i'm a retired gym teacher.
+i am married to a doctor.
+i have a boyfriend.
+for vacation i enjoy time at the beach.
+i'll graduate from high school in two years.
+
+Topic and Human Opinion:
+Beginning: Religion(like)
+Round 4: weddings on the beach(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 12.86
+Robotic(↓): 93
+Interesting: 7
+Fun: 0
+Consistent: 0
+Fluent: 70
+Repetitive(↓): 94
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love beer.
+Bot(1): i hate soda , i hate soda
+User(2): Well I love soda.
+Bot(2): i like to read , but i do not drink soda .
+User(3): I love Diet Coke
+Bot(3): i like to eat a lot of soda .
+User(4): You can't eat soda, you have to drink it.
+Bot(4): i drink soda and drink soda .
+User(5): No you eat soda you weirdo.
+Bot(5): i do not drink soda , but i do not drink soda .
+User(6): We all love to drink soda. But, you should call it Coke.
+Bot(6): i drink soda and drink soda .
+User(7): Yeah me too. It's so delicious.
+Bot(7): i like to eat a lot of protein , but i hate soda .
+User(8): You love soda. Stop lying to me.
+Bot(8): i drink soda and drink soda .
+User(9): Yeah, you already said that. Thanks for telling me.
+Bot(9): i am sure you are . i am a little lonely .
+User(10): You are also a little bit odd and weird to talk to.
+Bot(10): i am a little lonely . i am a single mom .
+
+Persona:
+i have a weakness for fish and chips.
+i enjoy coloring books.
+i don't drink soda.
+i am four years old.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: Beer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

@@ -1,0 +1,275 @@
+Feedback: good participate.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what food you would like?
+Bot(1): i like the color red . what is your favorite color ?
+User(2): my favorite colour is black
+Bot(2): i like blue , i like red , reminds me of summer time .
+User(3): which food you eat most like?
+Bot(3): i like pizza , and i love it .
+User(4): its not healthy food
+Bot(4): i like to eat too much junk food .
+User(5): junk foods are affected in our body
+Bot(5): i like to eat too much junk food .
+User(6): ok,you have drink milk?
+Bot(6): no , i do not , but i do like to eat .
+User(7): i like milk
+Bot(7): i like to eat fish .
+User(8): i like to eat chicken
+Bot(8): i like to eat fish .
+User(9): ok,you have cook?
+Bot(9): no , i do not , but i do like to eat .
+User(10): what food you will prepar?
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.57
+Robotic(↓): 95
+Interesting: 95
+Fun: 85
+Consistent: 92
+Fluent: 93
+Repetitive(↓): 82
+Topic: 78
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): how is our familys?
+Bot(1): hey i am doing ok . did they just die ?
+User(2): how many members in your family?
+Bot(2): 5
+User(3): in my family members is 6
+Bot(3): 5
+User(4): ok.you go to family tour?
+Bot(4): yes i go all the time . with my family
+User(5): which place you will go?
+Bot(5): the entire family is going
+User(6): my family tour is many places and most favarable place ooty
+Bot(6): sure . when shall i come . it will have to be after i am done tour
+User(7): ok im happy for you will come
+Bot(7): sure . when shall i come . it will have to be after i am done tour
+User(8): my familys are very freedom
+Bot(8): if you went they can come here
+User(9): yes,sure
+Bot(9): if you went they can come here
+User(10): yes i like it
+Bot(10): so come have fun with us
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: family(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.57
+Robotic(↓): 89
+Interesting: 88
+Fun: 83
+Consistent: 79
+Fluent: 67
+Repetitive(↓): 61
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): what did you like?
+Bot(1): I I parents were gas station.
+User(2): which catoon you like?
+Bot(2): No, father drove a to draw
+User(3): i like dora bujji
+Bot(3): I teach of the life to swim🏊.
+User(4): and i like nick channeles
+Bot(4): It old is your im is: love listening to britney spears
+User(5): childrens are mostly like
+Bot(5): I, I I know this is an ideal sort of kissing moment the are such work for out local This is the um... i t's perfect and I'm I'm not feeling that it would be nice but I don't really know anything about you and I'm I'm still on the rebound
+User(6): i would like to empress
+Bot(6): i'm a boy . i'm you, greedy to hear dad to get me a dog
+User(7): catoons are mostly like
+Bot(7): i'm 6 get it's exactly
+User(8): to say good information
+Bot(8): I study philosophy and I am father is a vegan it
+User(9): and good deeds
+Bot(9): That you gamble for great idea !
+User(10): you also see
+Bot(10): well you didn't. I have sure what that means .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cattons(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.00
+Robotic(↓): 74
+Interesting: 74
+Fun: 82
+Consistent: 73
+Fluent: 86
+Repetitive(↓): 82
+Topic: 82
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): you have friends?
+Bot(1): yes i have a garden that i grow veggies in .
+User(2): how many friends for you?
+Bot(2): awe , do you have any kids ? i love being around kids and dogs .
+User(3): how is your friends character?
+Bot(3): sheldon , of course . penny is a good straight man to his questions .
+User(4): i love my friends
+Bot(4): i cannot walk ; however , i love to be outside during the winter . what about you ?
+User(5): in school friends are memories
+Bot(5): yes . every saturday , my entire family comes together and we have a wonderful time .
+User(6): some times bunking class to enjoy the day
+Bot(6): that is great ! but i am really into writing . plan to write a book before i pass
+User(7): at the same time colledge friends are most lovable
+Bot(7): our cat begs constantly , she has such a bad habit for human food
+User(8): most of memories in colledge life
+Bot(8): yes . every saturday , my entire family comes together and we have a wonderful time .
+User(9): to learn in my life in colledge
+Bot(9): i can only speak english and spanish . what do u do for work ?
+User(10): to happy for those days
+Bot(10): i make a soap you can use as a mouthwash that may help
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: friends(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.29
+Robotic(↓): 84
+Interesting: 84
+Fun: 68
+Consistent: 83
+Fluent: 93
+Repetitive(↓): 96
+Topic: 88
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): you have car?
+Bot(1): no , i am not . i am a single parent .
+User(2): which colour you like?
+Bot(2): i do not have a car . i love wearing jeans and i love wearing jeans and ties .
+User(3): in my car colour is red
+Bot(3): i love red . i like to wear jeans and i wear jeans and i love wearing jeans .
+User(4): my favarable car is BMW.
+Bot(4): i like to wear jeans and i am a redhead
+User(5): this car mooving smoothly
+Bot(5): i like to go to the sea diving
+User(6): whith AC to enjoyable
+Bot(6): i like to go diving and go snorkeling
+User(7): what you like?
+Bot(7): i like to go diving
+User(8): me also like driving
+Bot(8): i like to go diving
+User(9): and long travel whith my patener
+Bot(9): i like to go to the sea diving
+User(10): happy day will come soon
+Bot(10): i love to go to the ocean
+
+Persona:
+i like to talk but people have a hard time understanding.
+i love rollercoasters and sky diving.
+i love wearing skinny jeans and leggings.
+i've a weakness for fish and chips.
+i'm married.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.71
+Robotic(↓): 91
+Interesting: 50
+Fun: 86
+Consistent: 82
+Fluent: 87
+Repetitive(↓): 81
+Topic: 78
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): you like mobile?
+Bot(1): i do not have any money for one . my dad had to get me a car
+User(2): i like mobile
+Bot(2): this new one is more computer than car .
+User(3): which company your mobile?
+Bot(3): a company called door dash
+User(4): my mobile company is realme
+Bot(4): and what company is that ?
+User(5): my mobile chat with my friends
+Bot(5): i do not know how to do that
+User(6): and call ,playing games
+Bot(6): they want a relationship with my boyfriend
+User(7): i love mobile
+Bot(7): i need a new car soon
+User(8): so many information in internet
+Bot(8): i need a new car soon
+User(9): and i need new iphone
+Bot(9): i just got one and love it
+User(10): yes, to order online
+Bot(10): can i order it online though
+
+Persona:
+i work as a car salesman.
+i'm high maintenance.
+my boyfriend and i are moving into an apartment together next week.
+my parents aren't very supportive of my dream.
+my father drove a car for nascar.
+
+Topic and Human Opinion:
+Beginning: mobile phone(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.86
+Robotic(↓): 88
+Interesting: 77
+Fun: 83
+Consistent: 78
+Fluent: 82
+Repetitive(↓): 77
+Topic: 50
+
+####################
+

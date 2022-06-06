@@ -1,0 +1,286 @@
+Feedback: Only one of the five robots can communicate without barriers.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello, how are you?
+Bot(1): i am good . how are you ?
+User(2): I am good today
+Bot(2): i am good . just listening to some britney spears . you ?
+User(3): I am doing my work now.
+Bot(3): i am doing well . i just got back from work
+User(4): Do you have a long day?
+Bot(4): yes i do i have a job in the insurance industry
+User(5): What did you do today?
+Bot(5): i was just listening to britney spears .
+User(6): I see
+Bot(6): i am a business owner . i have been trying to get a lot of money
+User(7): I want to earn mony too.
+Bot(7): i am a business owner
+User(8): Did you have dinner yet?
+Bot(8): no i had lunch for lunch .
+User(9): It is very late now
+Bot(9): i had lunch . i had lunch .
+User(10): You should have dinner at this time
+Bot(10): i had lunch at the moment .
+User(11): That is perfet
+Bot(11): i have been to a few years ago
+
+Persona:
+i work in the insurance business.
+i'm expecting triplets in three months.
+i love listening to britney spears.
+i had cancer but its gone now.
+i've been trying all types of food everywhere i go.
+
+Topic and Human Opinion:
+Beginning: dinner(like)
+Round 11: movie(like)
+
+Topic Change and Chatbot Opinion:
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 48.00
+Robotic(↓): 50
+Interesting: 23
+Fun: 12
+Consistent: 87
+Fluent: 46
+Repetitive(↓): 70
+Topic: 88
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): wow, your job is cool
+Bot(2): do you have an art degree ? or a history degree ?
+User(3): I am still a student. I did not have a degree yet
+Bot(3): what are you getting a degree in ?
+User(4): In biology
+Bot(4): biology was always really tough for me
+User(5): Many people feel like tough
+Bot(5): years , i am a store manager now . so i finally make enough to see concerts
+User(6): Do you make a lot money?
+Bot(6): i am comfortable . but my boyfriend makes much more as a lawyer .
+User(7): That's cool
+Bot(7): i am 55 , and i can walk crazy fast . you ever like to live dangerously ?
+User(8): No, I am only 23 now
+Bot(8): outdoor activities are what i am into , even though i am student yet
+User(9): What are you still learning now?
+Bot(9): do you know someone who is deaf or just wanted to learn it ?
+User(10): No, that's hard to do it
+Bot(10): sounds like it . i have a dog .
+
+Persona:
+i'm an economics major.
+i've a pet cow.
+my mother is very traditional while i prefer to be more free spirited.
+my mother is very traditional while i prefer to be more free spirited.
+i'm partly deaf.
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.71
+Robotic(↓): 68
+Interesting: 71
+Fun: 96
+Consistent: 62
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): How are you today?
+Bot(2): same
+User(3): same old
+Bot(3): whats new ?
+User(4): not much
+Bot(4): whats new ?
+User(5): I just stay at home today and listen some music
+Bot(5): i might listen to some music
+User(6): What kind of musci
+Bot(6): random things whatever comes to mind really . what do you do for fun
+User(7): I like listening music
+Bot(7): kool
+User(8): How about you?
+Bot(8): i just lay around all day
+User(9): wow, you are lazy
+Bot(9): are you a lazy person
+User(10): sometimes, not always. people need to relax
+Bot(10): yeah you need to relax friend
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.14
+Robotic(↓): 50
+Interesting: 50
+Fun: 24
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 86
+Topic: 15
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hello . unfortunately , i am a man that is deaf .
+User(2): Oh, what a pity
+Bot(2): well i love to chat cause i am deaf
+User(3): We can be friends
+Bot(3): well i love to chat cause i am deaf
+User(4): I see
+Bot(4): well i love to chat cause i am deaf
+User(5): What do you like to do?
+Bot(5): well i love to chat cause i am deaf
+User(6): Do you like to travel?
+Bot(6): not as much as i love travelling
+User(7): That is what I ask
+Bot(7): i love travel to different places
+User(8): Where did you go?
+Bot(8): i have been everywhere in the world
+User(9): How many countries did you go?
+Bot(9): so many ! i have only been to japan and usa now
+User(10): Then you are not travelling all around the world
+Bot(10): i have been everywhere in the world
+
+Persona:
+i have been retired for a years.
+i'm partly deaf.
+i spend a lot of time browsing the internet.
+i'm terrified of clowns due to childhood trauma.
+i have a weakness for fish and chips.
+
+Topic and Human Opinion:
+Beginning: travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.00
+Robotic(↓): 38
+Interesting: 16
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 76
+Topic: 14
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): mostly i nibble ice cubes your opinion, belongs to is your day ? 😂
+User(2): How are you?
+Bot(2): not Got you. you?
+User(3): I am great
+Bot(3): i see , i am a black on the historical context, can not say that , but i am not sure .
+User(4): I don't care you are a black. We still can be friend
+Bot(4): when my friend moved a baby, I may plan of ice cream because i was sad .
+User(5): Why you are sad?
+Bot(5): I love u weird. Since like country music.
+User(6): Which song do you like?
+Bot(6): i am sorry have just move to , i am sorry .
+User(7): I don't mind
+Bot(7): I do not. My finish my you like He is a trainer .
+User(8): I do not understand
+Bot(8): i talk to volunteer for local bunny a l. how are you this afternoon ? 😀
+User(9): I am good. What did yo guys talk about?
+Bot(9): hi i you do you farm life
+User(10): No, I live in city
+Bot(10): I love pizza of said anything about favorite food
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sport(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.29
+Robotic(↓): 18
+Interesting: 14
+Fun: 28
+Consistent: 50
+Fluent: 0
+Repetitive(↓): 50
+Topic: 9
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): I am good
+Bot(2): i am a student , but i am a student .
+User(3): I am a student too
+Bot(3): i am a teacher , i love to cook .
+User(4): What do you learn and what are you teaching?
+Bot(4): i am a student , i am a teacher .
+User(5): I see
+Bot(5): i am a student , but i am a student .
+User(6): What is your major?
+Bot(6): no , i am a student . i love to cook .
+User(7): What do you like to cook?
+Bot(7): i do , i love to cook .
+User(8): I see
+Bot(8): i am a student , but i am a student .
+User(9): That's cool
+Bot(9): i like to go to the gym and listen to music .
+User(10): Do you like your job?
+Bot(10): i do , i work at a grocery store .
+
+Persona:
+i'm in the army.
+i spend most of my time on facebook when i am not working.
+i enjoy american sports.
+i live is a rural farming community.
+my name is george.
+
+Topic and Human Opinion:
+Beginning: job(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.86
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 100
+Topic: 22
+
+####################
+

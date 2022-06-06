@@ -1,0 +1,298 @@
+Feedback: interesting.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello!
+Bot(1): hey
+User(2): nice to meet you. i wanted to talk to you about my kids!
+Bot(2): i have lots of kids , so that is kind of hard to do !
+User(3): i love going to the park with my three children. what do you guys do for fun.
+Bot(3): me too ! i like to take my daughter to the park
+User(4): how many kids do you have?
+Bot(4): 3 boys . do you have any children ?
+User(5): i have three as well. i thought you said you had a daughter?
+Bot(5): no my daughters . do you have any children ?
+User(6): i do lets move on though. how old are they?
+Bot(6): they are 5 and 8 , i take it you do not have kids yet ?
+User(7): i do. ive said this multiple times. but thats nice that you take them to the park. are you married?
+Bot(7): yes i am married i have one son , are you married
+User(8): i am, she is a very wonderful woman.
+Bot(8): i am sure you have a good relationship . hope my kids continue to with me .
+User(9): i am sure they will if you treat them well. you seem like you make a great parent.
+Bot(9): thank you . do you have any kids ?
+User(10): yes.
+Bot(10): i am sure you have a good relationship . hope my kids continue to with me .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love going to the park with my three children and my wife.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.71
+Robotic(↓): 100
+Interesting: 25
+Fun: 17
+Consistent: 9
+Fluent: 61
+Repetitive(↓): 93
+Topic: 61
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi! do you have any dogs?
+Bot(1): no , i do not . i am a teacher .
+User(2): oh thats nice. i have a black lab named trooper.
+Bot(2): i am a teacher , i teach piano .
+User(3): thats amazing, how long have you been teaching for?
+Bot(3): i teach piano and i love to play the piano .
+User(4): i also play the piano, what is your favorite piece?
+Bot(4): britney spears . i love her . i teach piano .
+User(5): which song by brittany spears?
+Bot(5): i like britney spears . i love her .
+User(6): even when she shaved her head?
+Bot(6): i love britney spears . she is a good singer .
+User(7): true i guess her singing talent does outweigh that one action. she is doing much better.
+Bot(7): i love to sing , but i also like britney spears
+User(8): oh you sing as well? what do you sing.
+Bot(8): i sing to her songs . i love britney spears .
+User(9): i see you really love her, i suppose it makes sense you sing her songs.
+Bot(9): i sing songs on my piano .
+User(10): im afraid that makes no sense.
+Bot(10): i sing to her songs when i sing .
+
+Persona:
+i'm a piano teacher on the side.
+i'm a buddhist.
+i like to ride horses.
+my friends are all skateboarders.
+i love listening to britney spears.
+
+Topic and Human Opinion:
+Beginning: i've a black lab named trooper.(like)
+Round 2: teaching(like)
+Round 5: brittany spears(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 5.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 13
+Fluent: 22
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi there!
+Bot(1): What in chicago, i in librarian ship?
+User(2): sorry that is not a complete though. do you like rap music?
+Bot(2): not it you
+User(3): im sorry i dont understand. i listen to rap music.
+Bot(3): I think cannot wait to you
+User(4): what do you mean
+Bot(4): oh , i like to eat mad that is .
+User(5): and how do you eat mad exactly.
+Bot(5): No, fine. How old like to eat.
+User(6): i like to eat at any age i suppose.
+Bot(6): Alright mate? I my job to pursue I play tennis.
+User(7): i love tennis! how long have you played for.
+Bot(7): i lucky. How old are i am a vegetarian .
+User(8): i am 33 and an omnivore. what made you become vegitarian?
+Bot(8): Hey! Are you a to college studying am.
+User(9): i am not in college are you?
+Bot(9): I am a they are you eat favorite artist is country
+User(10): im not sure i understand. have a good night.
+Bot(10): I am doing well. Just got a vegan need some often the moment. Do you like donuts?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i listen to rap music.(like)
+Round 4: eating(ambivalent)
+Round 6: tennis(like)
+Round 7: vegetarianism(ambivalent)
+Round 8: college(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi there do you like star wars?
+Bot(1): i love star wars
+User(2): me too!! huge fan. what is your favorite star wars movie.
+Bot(2): i love star wars
+User(3): oh okay cool. any one of their films your favorite?
+Bot(3): more of an empire strikes back kind of guy , but anything from the original trilogy is good .
+User(4): niceeee. yeah the originals are the best. so much creative thought went into them.
+Bot(4): what do you like about star wars ?
+User(5): just the story, it is such a unique setting and engrossing world. what about you?
+Bot(5): yes , movies are fun . music is my passion . i play piano at a bar .
+User(6): haha reminds me of the game Catherine. what kind of music do you play?
+Bot(6): i actually teach piano in my music class .
+User(7): oh is that right? i would love to learn to play.
+Bot(7): i did not know about my talent till after my mother passed
+User(8): oh no im so sorry, did she love piano as well?
+Bot(8): my family could not afford to pay for lessons .
+User(9): well i am glad you are finally able to pursue your passion.
+Bot(9): i did not know about my talent till after my mother passed
+User(10): that is tough. have a good night.
+Bot(10): i hope you have a good night too .
+
+Persona:
+my family does not support my career choices.
+i'm a piano teacher on the side.
+i've a black lab named trooper.
+my parents were both very athletic.
+my mom passed away when i was young.
+
+Topic and Human Opinion:
+Beginning: i am a huge star wars fan.(like)
+Round 5: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 75.57
+Robotic(↓): 45
+Interesting: 77
+Fun: 77
+Consistent: 83
+Fluent: 83
+Repetitive(↓): 23
+Topic: 77
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi there do you like dogs?
+Bot(1): i do like dogs but i have 6 cats and no dogs .
+User(2): ohh i have a black lab named tropper. what is your dog?
+Bot(2): i love mine , very loyal and affectionate . what happened to yours ?
+User(3): oh nothing he is still alive and well. we go on walks all the time.
+Bot(3): me too my favorite walks are in the park enjoying nature .
+User(4): oh yeah he loves that too, always sniffing everything.
+Bot(4): my wife and i had our first dance to an elvis song .
+User(5): uh that's nice. big elvis fan?
+Bot(5): i can not stand tacos ! other mexican food is ok though . what is your favorite ?
+User(6): i am a big fan of japanese food honestly.
+Bot(6): fair enough . do you love to dance ? i do .
+User(7): i am a pretty terrible dancer.
+Bot(7): i like dancing its really relaxing
+User(8): well that's good, what kind of dance style do you enjoy most.
+Bot(8): i love to dance as well
+User(9): what do you like to dance to?
+Bot(9): do you dance for a living ?
+User(10): i do not dance at all actually.
+Bot(10): sounds fun ! where do you dance ?
+
+Persona:
+i have 5cats.
+i also work as a custodian to help pay the bills.
+i take dance lessons once a week.
+i just broke up with boyfriend two months ago.
+i like tacos.
+
+Topic and Human Opinion:
+Beginning: i've a black lab named trooper.(dislike)
+Round 4: elvis(like)
+Round 5: food(like)
+Round 6: dancing(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 40.57
+Robotic(↓): 75
+Interesting: 66
+Fun: 68
+Consistent: 10
+Fluent: 65
+Repetitive(↓): 65
+Topic: 15
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): ever heard of a water allergy before?
+Bot(1): no , i do not . i like to go to the park .
+User(2): thats nice. well like i was saying im allergic to water!
+Bot(2): i like the outdoors too . i love the beach .
+User(3): good for you. so you're not interested in what i have to say then.
+Bot(3): i like to go to the gym and listen to music .
+User(4): well thats good. you do both at the same time i assume huh.
+Bot(4): i do not know what to say .
+User(5): how long have you been going to the gym?
+Bot(5): i played the guitar , but i like to play soccer .
+User(6): well those ar two different things. but soccer does seem fun.
+Bot(6): i love it . i love it .
+User(7): im glad! i would love to learn to play as well
+Bot(7): i do not know how to play it .
+User(8): oh you just like to try and play then huh
+Bot(8): i do not know what to say .
+User(9): well what else do you do for fun.
+Bot(9): i like to go fishing . i love to go fishing .
+User(10): fishing is pretty great i just went last week!
+Bot(10): i am sorry to hear that . i am a bit of a loner .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have an allergy to water.(like)
+Round 2: outdoors(like)
+Round 3: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 27.14
+Robotic(↓): 84
+Interesting: 29
+Fun: 26
+Consistent: 17
+Fluent: 71
+Repetitive(↓): 76
+Topic: 7
+
+####################
+

@@ -1,0 +1,283 @@
+Feedback: hello, i hope you ae doing well, i tried really hard and was focused the whole time and it took me 20 minutes, so i wnated to ask if you can please be kind enough to give me a bonus please, it would make my day, thank you very much have a good day
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): im ok
+Bot(2): i am a student , but i am a student .
+User(3): can you cook
+Bot(3): i do not , but i do like to eat .
+User(4): what do you like
+Bot(4): i like to go to the gym and listen to music .
+User(5): like to eat?
+Bot(5): i love to cook . i am a chef .
+User(6): i also like to cook, but im not good at it
+Bot(6): i like to eat too much junk food .
+User(7): what type
+Bot(7): i am a student , but i am a student .
+User(8): where
+Bot(8): i am a student , but i am a student .
+User(9): why
+Bot(9): i am a student , but i am a student .
+User(10): what do you study
+Bot(10): i teach math and drawing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i also like to cook but i am not very good at it.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.29
+Robotic(↓): 100
+Interesting: 10
+Fun: 17
+Consistent: 14
+Fluent: 12
+Repetitive(↓): 100
+Topic: 40
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi ! how many siblings do you have ? i have 3
+User(2): i have 2 siblings
+Bot(2): awesome , i have like 3 sisters and brothers
+User(3): who pays the bills
+Bot(3): i install electric in companies
+User(4): what do you wrok in
+Bot(4): i am a plumber and you
+User(5): i also work as a custodian to help pay the bills
+Bot(5): well that nice , i do care giver
+User(6): who do you take care of
+Bot(6): well i just do care giver work
+User(7): what does that mean
+Bot(7): i do care giver for the senor
+User(8): are they fun
+Bot(8): i have fun with them
+User(9): what do you guys do
+Bot(9): bake and hang with my family
+User(10): what do you bake
+Bot(10): bake and hang with my family
+
+Persona:
+i have three sisters.
+i enjoy gardening and walking outdoors.
+my father is an electrician.
+in my spare time i do volunteer work.
+i am high maintenance.
+
+Topic and Human Opinion:
+Beginning: i also work as a custodian to help pay the bills.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.57
+Robotic(↓): 12
+Interesting: 62
+Fun: 68
+Consistent: 39
+Fluent: 88
+Repetitive(↓): 63
+Topic: 7
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): i am currently buying my first home .
+User(2): where
+Bot(2): i am currently buying my first home .
+User(3): where is your first home
+Bot(3): i am currently buying my first home .
+User(4): do you like sports
+Bot(4): yes very much i love sports
+User(5): what type of sports
+Bot(5): i love to ride my bike
+User(6): any american sports?
+Bot(6): yes , i play soccer and football
+User(7): do you like to watch football
+Bot(7): yes , i love to watch football
+User(8): what team do you like
+Bot(8): i like steelers and seahawks
+User(9): do you like russel wilson
+Bot(9): i think that he is okay
+User(10): in my opinion he plays like an MVP
+Bot(10): yeah i would have to agree
+
+Persona:
+my main transportation is my motorbike.
+i just bought my first home.
+i do not pick up my toys.
+i like to work on vintage cars.
+my father is in the army.
+
+Topic and Human Opinion:
+Beginning: i enjoy american sports.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.29
+Robotic(↓): 60
+Interesting: 97
+Fun: 100
+Consistent: 17
+Fluent: 13
+Repetitive(↓): 85
+Topic: 77
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): good , how are you this evening ?
+User(2): i am good what are you doing
+Bot(2): i am good
+User(3): do you like baseball
+Bot(3): i am not a big sports fan , but i do love cooking
+User(4): what do you like to cook the most
+Bot(4): i love cooking but i do not have anyone to cook for but myself
+User(5): do you have kids
+Bot(5): no i am single no kids
+User(6): would you like to have kids
+Bot(6): i only have three children .
+User(7): i coach kids baseball at the little league
+Bot(7): what is your favorite team ? i like about any sport , but baseball more so .
+User(8): my favorite team is the marlins wht about you
+Bot(8): my favorite american football team is the browns . my favorite mls team is the crew .
+User(9): do you like jarvis landry
+Bot(9): i am awesome helping my 80 year old parent shave his thick beard .
+User(10): what color is it
+Bot(10): my favorite color is green and whats yours
+
+Persona:
+i am a cancer survivor.
+i was raised in a single parent household.
+i am a recording engineer and own my own studio.
+i have two grown children who never visit.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+
+Topic and Human Opinion:
+Beginning: i coach little league baseball.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 14
+Fluent: 10
+Repetitive(↓): 84
+Topic: 8
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): walking the stores several times a week is good excercise or nice. I wish my ?
+User(2): ye sits good exercie
+Bot(2): Oh, save How are very interesting job.
+User(3): i have blonde hair
+Bot(3): I am scared of vet, what about you?
+User(4): no i am not scraed
+Bot(4): I dont want to say do you work at?
+User(5): yes i workout
+Bot(5): I am a lawyer. a am in florida, ?
+User(6): like florida?
+Bot(6): I have a dog named after a is the meaning of many named after a dog.
+User(7): whats his name
+Bot(7): i am a nerd , i am old , and i death metal ver well, that you ?
+User(8): i have blue eyes
+Bot(8): i love dogs, cats and What do you like favorite band?
+User(9): i dont like cats
+Bot(9): i lucky. How old are i am a vegetarian .
+User(10): i am 30 years old
+Bot(10): i am seven i'm a 12 year are you
+
+Persona:
+i've a weakness for vanilla ice cream.
+my favorite way to relax is to read a book.
+i like to dance.
+i just bought my first home.
+my parents taught me survival skills.
+
+Topic and Human Opinion:
+Beginning: i've blonde hair and blue eyes.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: No topic change.(dislike)
+
+Revised avg score: 12.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 12
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes i play football
+Bot(2): i play football for fun
+User(3): what position do you play
+Bot(3): i play the guitar in a band
+User(4): whats your favorite fotball team
+Bot(4): i play the guitar
+User(5): i am looking for a job
+Bot(5): cool i play football in the high school
+User(6): i like to cook
+Bot(6): i like to cook but i also love to cook
+User(7): and want to work in a restaurat
+Bot(7): i play the guitar in a band
+User(8): whats your favorite song
+Bot(8): i like to listen to music
+User(9): what type of music do you like
+Bot(9): i like to listen to music
+User(10): goodbye
+Bot(10): i like to listen to music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am currently looking for a job preferably at a restaurant.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.57
+Robotic(↓): 39
+Interesting: 87
+Fun: 80
+Consistent: 69
+Fluent: 60
+Repetitive(↓): 55
+Topic: 71
+
+####################
+

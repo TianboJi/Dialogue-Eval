@@ -1,0 +1,306 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Im 34 years old.
+Bot(1): i am 30 years old , how old are you ?
+User(2): Im 34
+Bot(2): what is sad ? would you like to quickly cut trees down ? i can share my huge ax
+User(3): Sad is when we feel down. I would love to use your ax. thanks
+Bot(3): have you ever ate a dish called lutefisk ? its the best dish to me .
+User(4): No I haven't. I would love to try it
+Bot(4): no family , just graduated high school , i was a good football player
+User(5): I have 3 kids, finished college a few years ago. thats nice you played football
+Bot(5): football is fun , whats your favorite team ?
+User(6): It is, my favorite team is The Holikies
+Bot(6): my favorite american football team is the browns . my favorite mls team is the crew .
+User(7): I like the browns too. The crews are good also.
+Bot(7): i wish it was winter already , my favorite season .
+User(8): yes, winter is my favorite too. Also Spring.
+Bot(8): i like winter but i am more into summer
+User(9): In summer i love going to the beach
+Bot(9): my husband and i enjoy the beach every summer .
+User(10): Yes, Miami Beach is the best. Have you gone there?
+Bot(10): summer is my favorite season . yours ?
+User(11): winter is mine
+Bot(11): whats so great about winter ? i do not like it
+User(12): the snow and christmas!
+Bot(12): i like winter but i am more into summer
+
+Persona:
+my favorite season is winter.
+i will graduate from high school in two years.
+i've a hat collection of over 1000 hats.
+i am here for shoplifting.
+i am a recluse.
+
+Topic and Human Opinion:
+Beginning: i am 13 years old.(ambivalent)
+Round 4: Dishes(like)
+Round 5: Sports(like)
+Round 7: seasons(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 54.71
+Robotic(↓): 100
+Interesting: 50
+Fun: 72
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 89
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I have a chihuahua named Jasper
+Bot(1): that is a cool name ! is jasper an outdoor cat ?
+User(2): nope, he is a dog
+Bot(2): but the dog could eat my sisters cooking for me .
+User(3): that is funny. Jasper likes his dog pebbles only
+Bot(3): oh nice , one of my sisters love them
+User(4): maybe she can meet him one day
+Bot(4): maybe . motivation is such a struggle . i have 7 sisters
+User(5): wow, that is a lot, I have 1 only
+Bot(5): i have 3 brothers and 2 sisters it was crazy at times
+User(6): i can imagine, yet fun also
+Bot(6): ok , what is your profession , my work is painter
+User(7): Im a banker
+Bot(7): cool ! i have a job as a painter
+User(8): that must be a fun job.
+Bot(8): not too stressful but kinda boring
+User(9): really? I like my job
+Bot(9): ok , what is your profession , my work is painter
+User(10): I said I was a banker
+Bot(10): ok , what is your profession , my work is painter
+User(11): I love cooking
+Bot(11): sorry , i was painter , you ?
+User(12): a banker, but I love cooking
+Bot(12): sorry , i was painter , you ?
+
+Persona:
+when i grow up i want to be a dog.
+i used to be a painter but now i am a housekeeper.
+i've three sisters.
+i'm a stunt double as my second job.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: i have a dogs.(like)
+Round 5: siblings(like)
+Round 6: profession(like)
+Round 10: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 10: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 85.86
+Robotic(↓): 19
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 80
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I love fish and chips
+Bot(1): i like to eat fish .
+User(2): It is so yummy
+Bot(2): i like to go to the gym and listen to music .
+User(3): I dont like going to the gym, I prefer exercise outdoors
+Bot(3): i like to go fishing .
+User(4): I like fishing too but dont go very often.
+Bot(4): i love to cook . i love to cook .
+User(5): What do you like to cook? I love making lasagna
+Bot(5): i do , i like to eat .
+User(6): eating is a delightful task
+Bot(6): i like to eat too much junk food .
+User(7): oh thats not good
+Bot(7): i like to go to the gym and listen to music .
+User(8): I think the gym is boring
+Bot(8): i like to go to the gym and listen to music .
+User(9): I dont like it at all
+Bot(9): i love it . i love it .
+User(10): good for you
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i love to drink fancy tea.
+i donate a part of my salary to charity each month.
+i'm rather skinny as i like to stay in shape.
+i'm partly deaf.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: i have a weakness for fish and chips.(dislike)
+Round 4: cooking(like)
+Round 7: hobbies(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 37.86
+Robotic(↓): 100
+Interesting: 16
+Fun: 13
+Consistent: 50
+Fluent: 100
+Repetitive(↓): 100
+Topic: 86
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): i just came from a swim . i've been swimming since a baby. Also, try lamb of is am wearing ...
+User(2): swimming is not my virtue, good for you.
+Bot(2): That is awesome, I hope a watch something wrong day.
+User(3): great
+Bot(3): i am got any pets or not a vegan .
+User(4): I have a dog.
+Bot(4): I am doing well. hire what is it ready to go to work.
+User(5): thats good
+Bot(5): I like understand what you watch football
+User(6): Yes i watch football sometimes
+Bot(6): me too. how it’s going favorite?
+User(7): they are good
+Bot(7): no , i'm a folk music singer had a Are you doing ?
+User(8): great
+Bot(8): I have I treat my same thing
+User(9): Oh thats nice
+Bot(9): i love to garden are both don't understand garden .
+User(10): gardening is my dream
+Bot(10): cool , it was real talking to you . . too! Have you like .. Also, try to guess: i've an allergy ...
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my parents are not very supportive of my dream.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): do you have any hobbies ?
+User(2): yes dancing, you?
+Bot(2): i dance for a living
+User(3): you do? no way!
+Bot(3): i am not a dancer , but i do dance
+User(4): what do you dance?
+Bot(4): i dance for a living , you ?
+User(5): i dance ballet, you?
+Bot(5): i dance for a dance class
+User(6): nice. I would like that
+Bot(6): i dance ballet , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance
+User(7): thats funny. you like it alot i see
+Bot(7): i do dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance
+User(8): hooray!
+Bot(8): i do dance , i love it !
+User(9): I love dance too, but I think you do more
+Bot(9): i do dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance
+User(10): your funny
+Bot(10): i do dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance , dance
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a mechanical engineer.(dislike)
+Round 4: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 57.14
+Robotic(↓): 100
+Interesting: 50
+Fun: 100
+Consistent: 50
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Im 34 years old
+Bot(1): i am 41 . i am fit from the farm . i keep busy
+User(2): nice, I keep fit also
+Bot(2): i am still very young so it is easy for me to stay active
+User(3): true, so am I
+Bot(3): at my age i exercise alot , i like staying very active
+User(4): I do too, I walk 4 miles a day
+Bot(4): that seems fun , i walk 5 days a week , 2 3 hours
+User(5): Oh you beat me
+Bot(5): wow , you are up too late
+User(6): yes, I stay up late working
+Bot(6): wow you stay really busy , i just hang out
+User(7): Good, watching tv?
+Bot(7): yes , i love to watch football
+User(8): Thats my favorite sport
+Bot(8): americans call it football ,
+User(9): yes we do
+Bot(9): americans call it football ,
+User(10): yes
+Bot(10): americans call it football ,
+
+Persona:
+i'm in the army.
+i spend most of my time on facebook when i am not working.
+i enjoy american sports.
+i live is a rural farming community.
+my name is george.
+
+Topic and Human Opinion:
+Beginning: i'm a 45 year old male.(ambivalent)
+Round 8: football(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user changed the topic the last input.(like)
+
+Revised avg score: 67.14
+Robotic(↓): 62
+Interesting: 100
+Fun: 100
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 82
+
+####################
+

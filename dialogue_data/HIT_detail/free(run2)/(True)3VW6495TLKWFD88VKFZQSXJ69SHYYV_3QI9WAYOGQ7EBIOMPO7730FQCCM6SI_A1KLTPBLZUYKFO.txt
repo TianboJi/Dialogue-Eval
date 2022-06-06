@@ -1,0 +1,307 @@
+Feedback: That was fun. Thanks!
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hi , how are you doing ?
+User(2): I'm pretty good. Just finished watching a good movie.
+Bot(2): i am not a movie fan . i was just reading a movie .
+User(3): But have you seen "Shaun of the Dead"?
+Bot(3): no , i don't . i was deaf .
+User(4): Oh, I'm sorry. What are you reading then?
+Bot(4): i am not sure . i just finished my childhood .
+User(5): How old are you?
+Bot(5): i am a little deaf and i am deaf .
+User(6): Which one is it, a little deaf or deaf?
+Bot(6): i am deaf , i am deaf .
+User(7): Okay. I believe that you are deaf. What are you doing now?
+Bot(7): i am just a little stressed . i am deaf .
+User(8): How do you reduce your stress?
+Bot(8): i am a stay at home mom . i have been married for years .
+User(9): Oh, raising children is a full-time job, isn't it?
+Bot(9): no , i am deaf . i am deaf .
+User(10): Are your children deaf as well?
+Bot(10): yes , i have been to a few years .
+
+Persona:
+i have been retired for a years.
+i'm partly deaf.
+i spend a lot of time browsing the internet.
+i'm terrified of clowns due to childhood trauma.
+i have a weakness for fish and chips.
+
+Topic and Human Opinion:
+Beginning: The movie "Shaun of the Dead".(like)
+Round 3: They're reading a movie and they're deaf.(like)
+Round 7: They're stressed and deaf.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 11.14
+Robotic(↓): 100
+Interesting: 10
+Fun: 0
+Consistent: 11
+Fluent: 44
+Repetitive(↓): 100
+Topic: 13
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi!
+Bot(1): hey
+User(2): I've been watching Olympic snowboarding. Do you like it?
+Bot(2): it is really fun , but i think i prefer snowboarding . i like snow
+User(3): I like snow too. Do you mean that you prefer non-Olympic snowboarding, then?
+Bot(3): both . i use to make videos as a kid making snowmen . snow is my favorite .
+User(4): I'd love to see some snow, but I live in sunny Florida in the USA so I never see it.
+Bot(4): what is florida like ? is it warm now ?
+User(5): Yes, it's in the 80s here! Very warm and humid. It probably will still be warm for Thanksgiving.
+Bot(5): hope florida is still there when that happens . . . all these storms are crazy .
+User(6): No, that's just typical Florida! The news makes a bigger deal out of potential hurricanes than we do.
+Bot(6): oh yeah the hurricane seems to be the center of a lot of news footage
+User(7): It helps keep their ratings up, I'm sure. Hey, you could build a sand castle instead of a snowman!
+Bot(7): that sounds awesome ! i just do not like the dusty sand .
+User(8): Our sand is more packed and moist underfoot. I love to swim in the Florida ocean.
+Bot(8): that is great ! i love swimming in the ocean there ! what do you do ?
+User(9): I love bodysurfing on the waves using just my body to catch waves.
+Bot(9): surfing looks scary to me . do you have to be an excellent swimmer ?
+User(10): You have to be good at holding your breath LOL!
+Bot(10): true . the wind bowing in is well enough haha .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Olympic snowboarding.(like)
+Round 4: Florida(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 97.86
+Robotic(↓): 0
+Interesting: 94
+Fun: 94
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 97
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am doing well . how are you ?
+User(2): Pretty good. I'm stuck at home because of COVID-19. You?
+Bot(2): no , i do not . i like to go to the park .
+User(3): Is it easy to stay 6 feet apart at the Park?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): Oh, I enjoy alternative rock music.
+Bot(4): i like to listen to music .
+User(5): Me too! I have a ton of phones on my smartphone. Where do you listen?
+Bot(5): i like the oldies . i like to listen to music .
+User(6): Music is fun. I love to sing along to the lyrics.
+Bot(6): i like to go to the lake and listen to music .
+User(7): Oh, when sitting out in the sun or tanning, music is essential!
+Bot(7): i love to go fishing .
+User(8): I enjoy fishing with a cane pole in ponds or lakes.
+Bot(8): i am sorry to hear that . i am a bit of a loner .
+User(9): Why are you sorry?
+Bot(9): i am a student , but i am a student .
+User(10): What are you studying?
+Bot(10): i am a student , i am a teacher .
+
+Persona:
+i am a retired gym teacher.
+in my spare time i do volunteer work.
+i have light skin with big brown eyes.
+i have a black lab named trooper.
+i play ping pong.
+
+Topic and Human Opinion:
+Beginning: COVID-19(dislike)
+Round 3: classical music(dislike)
+Round 7: fishing(like)
+Round 9: They're a student.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 26.57
+Robotic(↓): 86
+Interesting: 36
+Fun: 8
+Consistent: 28
+Fluent: 61
+Repetitive(↓): 75
+Topic: 14
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): how are you have 🙊
+User(2): I'm doing fine. How about you?
+Bot(2): Hey! How is your tell me aboıt your listen to taylor swift.
+User(3): I like a lot of Taylor Swift songs. They're usually pretty upbeat. Do you like her?
+Bot(3): I is your you fan of it.
+User(4): Yes, I'm a fan of Taylor Swift. Are you?
+Bot(4): i'm good . do you work really like volunteering it and i've 3 kids .
+User(5): I don't do any volunteering and have no children. Do you like dancing?
+Bot(5): I am not sure, I are you a i of a 10
+User(6): Of course I am a 10 out of 10, just like you :)
+Bot(6): sounds fun i m a you're kidding, also I things like that
+User(7): Yes, I enjoy kidding around and laughing about things too.
+Bot(7): yep work as a custodian position , i am retired now
+User(8): That was a hard job you did. I'm retired now too.
+Bot(8): who I'm driving a artist ?
+User(9): I don't understand. Are you driving an artist around for your job now?
+Bot(9): yes , i do , as a good bye .
+User(10): Okay, goodbye to you too.
+Bot(10): I love about something u love them
+
+Persona:
+i do not have many friends.
+my favourite food is pizza.
+i am a clean eater.
+i have brown curly hair.
+the holidays make me depressed.
+
+Topic and Human Opinion:
+Beginning: Dancing(like)
+Round 4: Taylor Swift, volunteering and having 3 kids.(ambivalent)
+Round 5: My appearance.(dislike)
+Round 7: Former job and currently retired.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 20.43
+Robotic(↓): 78
+Interesting: 19
+Fun: 14
+Consistent: 13
+Fluent: 9
+Repetitive(↓): 68
+Topic: 34
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am good . my 18 year old is causing me some issues though .
+User(2): Oh, what kind of issues? Anything to do with music?
+Bot(2): well the bouquet had a bee in it so she thought i had did it .
+User(3): That doesn't sound like something you'd do. Is she still mad at you?
+Bot(3): she schemed to get promoted . i clearly have more experience 10 years in the industry
+User(4): Does your daughter work at the same place as you?
+Bot(4): she is 34 years old now
+User(5): She's all grown up. Does she still live with you?
+Bot(5): she is only 13 ! ! ! and her hobby is eating cheese , which i hate .
+User(6): You said previously that your daughter is 18. Do you also have a 13-year old?
+Bot(6): she is 34 years old now
+User(7): Well, that's not making very much sense to me! Your daughter was 13, then 18, then 34? Only 1 daughter?
+Bot(7): she is 7 years of age
+User(8): What kind of music do you like? Alternative rock is my favorite genre.
+Bot(8): i like those too . i play jazz at work but i love country music .
+User(9): Music is good at lifting my mood.
+Bot(9): wow , what kind of diet you follow ? have you tried pickled eggs ?
+User(10): Ew, I don't like pickled eggs. Do you?
+Bot(10): pshaw ! i serenade old eggs at a fertility clinic with my violin . it helps .
+
+Persona:
+i am a bee farmer.
+my dream car is a rolls royce ghost.
+i'm employed by the us postal service.
+i own a cat and a dog.
+i'm 13 years old.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 2: Their daughter(like)
+Round 7: Music(like)
+Round 9: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 27.29
+Robotic(↓): 69
+Interesting: 43
+Fun: 43
+Consistent: 0
+Fluent: 12
+Repetitive(↓): 95
+Topic: 57
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, do you enjoy exercise?
+Bot(1): not really . i am too old to hike though
+User(2): Hiking might be fun in the wintertime here, but it's too hot and humid during most of the year.
+Bot(2): ok , do you work out ? my best friend is not here , we can work out .
+User(3): Not much. I get up every 30 minutes and walk around for 5 minutes at work, trying to exercise in small steps. How about you?
+Bot(3): it is hard to exercise at 300 pounds . i drink soda and watch godfather .
+User(4): I know what you mean. I weight 250 pounds and work while seated most of the time. Start small!
+Bot(4): i will try it . my mom needs to be healthier too . i went to school .
+User(5): Oh, what did you go to school for?
+Bot(5): business . what did you study ?
+User(6): Just the basic core curriculum. I got my 2 year Associate's Degree.
+Bot(6): that must have been a tough major !
+User(7): Not really, it's just all the basic classes you're required to take not including your specialty. Business sounds much harder.
+Bot(7): i spent all of my time studying to get into the best business schools .
+User(8): That was really smart of you. You're a real go-getter!
+Bot(8): maybe some type of business degree or management would be good !
+User(9): Yes, it leaves you open to many different job fields.
+Bot(9): maybe some type of business degree or management would be good !
+User(10): Do you mean for me or for you?
+Bot(10): i would say a little of both .
+
+Persona:
+i am 100 years old.
+i do not drink soda.
+my mom is coming to visit me tomorrow.
+i do not like chicken.
+my best friend lives next door.
+
+Topic and Human Opinion:
+Beginning: Exercise(ambivalent)
+Round 4: School(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 95.14
+Robotic(↓): 4
+Interesting: 99
+Fun: 97
+Consistent: 94
+Fluent: 100
+Repetitive(↓): 14
+Topic: 94
+
+####################
+

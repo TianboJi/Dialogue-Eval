@@ -1,0 +1,279 @@
+Feedback: The chat bot can use some work but overall it did ok.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi, do you like shoes?
+Bot(1): yes i do , i love shoes
+User(2): What type?
+Bot(2): i love shoes , but i love shoes
+User(3): I like heels and high top sneakers
+Bot(3): i love shoes . i wear boots and shoes .
+User(4): What brand boots?
+Bot(4): shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes , shoes
+User(5): Ok ok I see you really like them.
+Bot(5): i do not know what that is
+User(6): Shoes of course.
+Bot(6): i love shoes , shoes are my favorite
+User(7): What about watches?
+Bot(7): i like to wear boots and shoes
+User(8): Yes combat boots are my favorite.
+Bot(8): i like to wear boots .
+User(9): Me too, especially leather.
+Bot(9): i like boots too , but i am not a fan of pink .
+User(10): Oh yeah me neither. Red is better.
+Bot(10): i love pink . i am a redhead .
+User(11): Oh that makes sense.
+Bot(11): i think so . i am not a fan of anything .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i often shop for shoes and watches.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.43
+Robotic(↓): 91
+Interesting: 40
+Fun: 44
+Consistent: 52
+Fluent: 50
+Repetitive(↓): 60
+Topic: 48
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I waste too much time on tv.
+Bot(1): i spend too much of my time
+User(2): On tv?
+Bot(2): his
+User(3): Do you like to watch anything in particular
+Bot(3): i watch whatever is on
+User(4): What about sports?
+Bot(4): i mostly watch the news and scandal
+User(5): Yeah I like scandal. Spill the tea is great.
+Bot(5): i mostly watch the news and scandal
+User(6): Yeah you said that.
+Bot(6): i mostly watch the news and scandal
+User(7): How do you feel about commercials?
+Bot(7): i mostly watch the news and scandal
+User(8): What news channel?
+Bot(8): i mostly watch the news and scandal
+User(9): Celebrity scandal?
+Bot(9): i mostly watch the news and scandal
+User(10): Yeah me too.
+Bot(10): what channel do you watch ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i watch too much tv in spare time.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.14
+Robotic(↓): 75
+Interesting: 54
+Fun: 26
+Consistent: 12
+Fluent: 13
+Repetitive(↓): 14
+Topic: 2
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): How long is your hair?
+Bot(1): i have long hair , it is nice .
+User(2): That sounds great.
+Bot(2): my kids ages are 19 , 18 , 13 , 10
+User(3): I have short hair
+Bot(3): she is a wild cat about the same size as a bob cat . she is short hair .
+User(4): Oh me too
+Bot(4): i have seen lots of cars in london my place of birth
+User(5): My hair is curly
+Bot(5): that is cool . my best friend has dark curly hair too . his boyfriend loves it
+User(6): That's cool! My husband does too
+Bot(6): yeah its ok . so you have a husband ? whats his name ?
+User(7): Kyle. He has short hair
+Bot(7): she is a wild cat about the same size as a bob cat . she is short hair .
+User(8): Do you have any other pets
+Bot(8): i have a cat named radar he is very sweet and you ?
+User(9): A dog with short hair
+Bot(9): she is a wild cat about the same size as a bob cat . she is short hair .
+User(10): Short hair feels good
+Bot(10): how cool ! my friend growing up had blonde hair as well !
+
+Persona:
+hey my name is larry and i'm a chef.
+i turned 18 years old yesterday.
+i have never been out of ohio.
+i spend a lot of time browsing the internet.
+i do not have many friends.
+
+Topic and Human Opinion:
+Beginning: i've short hair.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.29
+Robotic(↓): 66
+Interesting: 63
+Fun: 35
+Consistent: 36
+Fluent: 29
+Repetitive(↓): 62
+Topic: 33
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love to play board games, do you?
+Bot(1): I think I your sound like us
+User(2): I like checkers
+Bot(2): I a about you.
+User(3): Candy land was my favorite when I was younger
+Bot(3): I love animals. I love to female. Are moving to and take pictures.
+User(4): Have you played what do you meme?
+Bot(4): it is a lot of is going great! hw what about you?
+User(5): I love board games like uno
+Bot(5): are you married is very objectivity doesn't make could never just love one person . 😝
+User(6): Apples to apples is also fun
+Bot(6): I do, be am A country music.
+User(7): But a saucier game is cards against humanity
+Bot(7): i a profile which, in i like coffee too
+User(8): Yeah coffee while playing a board game
+Bot(8): I don't to death don’t good idea.
+User(9): Boards games are family fun
+Bot(9): I am not working united kingdom
+User(10): I wonder what type of board games they play
+Bot(10): i like watching movies, a 4yo pilot in sing?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love to play board games.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.43
+Robotic(↓): 66
+Interesting: 42
+Fun: 42
+Consistent: 38
+Fluent: 34
+Repetitive(↓): 34
+Topic: 34
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Fashion is expensive
+Bot(1): i like to go to the gym and listen to music .
+User(2): Fashion is bad for the environment
+Bot(2): i love to go fishing .
+User(3): I don't care about fashion
+Bot(3): i like to go to the gym and listen to music .
+User(4): Fashion is ridiculous
+Bot(4): i like to go to the gym and listen to music .
+User(5): Have you been to a fashion show
+Bot(5): no , i do not . i like to go to the gym .
+User(6): Do you own high fashion
+Bot(6): i do not know . i like to go to the gym .
+User(7): What is the most st expensive fashion thing you own
+Bot(7): i like to eat fish .
+User(8): I don't care about fashion model
+Bot(8): i am sorry to hear that . i am sorry to hear that .
+User(9): Fashion is for rich people
+Bot(9): i am a student , but i am a student .
+User(10): Fashion sucks
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i have been retired for a years.
+i prefer being inside.
+i have a weakness for vanilla ice cream.
+i love to cook paella.
+i love to sing songs from the movie frozen.
+
+Topic and Human Opinion:
+Beginning: i don't care about fashion.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.43
+Robotic(↓): 18
+Interesting: 15
+Fun: 14
+Consistent: 12
+Fluent: 48
+Repetitive(↓): 21
+Topic: 12
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am planning on divorce
+Bot(1): i am getting a divorce
+User(2): You are? Why?
+Bot(2): why ? my wife is wanting a divorce
+User(3): Oh I am so sorry to hear.
+Bot(3): why ? my wife is wanting a divorce
+User(4): Did she tell you why?
+Bot(4): it was long ago but i am still so angry about it
+User(5): Yeah I understand
+Bot(5): why ? my wife is wanting a divorce
+User(6): You're wife sounds awful
+Bot(6): why ? my wife is wanting a divorce
+User(7): What about the kids
+Bot(7): they are not good parents
+User(8): Who will get your dog
+Bot(8): i am not sure . i love dogs and kids though
+User(9): When is divorce finalized
+Bot(9): i am not sure yet
+User(10): Sorry to hear
+Bot(10): it is gonna be alright
+User(11): Yes it will
+Bot(11): oh , how long it will take
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am planning on getting a divorce.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.57
+Robotic(↓): 29
+Interesting: 20
+Fun: 56
+Consistent: 24
+Fluent: 58
+Repetitive(↓): 24
+Topic: 14
+
+####################
+

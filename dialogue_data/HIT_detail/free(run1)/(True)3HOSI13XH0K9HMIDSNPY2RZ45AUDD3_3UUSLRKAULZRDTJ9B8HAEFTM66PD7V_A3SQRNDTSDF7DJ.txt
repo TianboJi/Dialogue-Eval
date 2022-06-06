@@ -1,0 +1,279 @@
+Feedback: lovely survey
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you doing today
+Bot(2): same
+User(3): what are you doing now
+Bot(3): i am just watching tv and you
+User(4): watching football match
+Bot(4): oh what are you watching ?
+User(5): soccer match
+Bot(5): wanna go to the soccer game
+User(6): when do you want to go
+Bot(6): i am not sure yet
+User(7): do you love soccer game
+Bot(7): yes i do i love soccer
+User(8): whats is the of your favorite soccer team
+Bot(8): i am not sure . i play pro soccer
+User(9): wow..... i love it too
+Bot(9): what is your favorite team
+User(10): chelsea f.c
+Bot(10): what is your favorite team
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.14
+Robotic(↓): 72
+Interesting: 88
+Fun: 86
+Consistent: 73
+Fluent: 84
+Repetitive(↓): 28
+Topic: 25
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): am doing great here too
+Bot(2): what do you do for a living ?
+User(3): am a teacher
+Bot(3): i am a teacher , i love to cook .
+User(4): whats is your best meal
+Bot(4): i like the color green . what is yours ?
+User(5): i like the color blue and white
+Bot(5): i like red , reminds me of summer time .
+User(6): thats great
+Bot(6): i love to cook . i love to cook .
+User(7): tell the your best meal
+Bot(7): i love the color red . what is your favorite color ?
+User(8): i love the white and blue
+Bot(8): i like the color red . i like red .
+User(9): white and blue
+Bot(9): i like red , reminds me of summer time .
+User(10): i like red as well
+Bot(10): i like the color red . i like red .
+
+Persona:
+my favorite hobbies are listening to music and playing video games.
+i'm an elementary school teacher.
+i have a boyfriend.
+since the surgery i've had strange powers.
+i'm in the third grade.
+
+Topic and Human Opinion:
+Beginning: actors(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.00
+Robotic(↓): 83
+Interesting: 74
+Fun: 68
+Consistent: 60
+Fluent: 67
+Repetitive(↓): 35
+Topic: 62
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): On Monday, I'm going to have to tell my kindergarten class, who I teach not to run with scissors, too. What kind of music through with a frickin' broadsword.
+User(2): how are you doing today
+Bot(2): I u r is your sure what that is.
+User(3): what are you doing now
+Bot(3): I'd like to say that true for 15 love to understanding
+User(4): watching football match
+Bot(4): i do not have a job was did you what have any children .
+User(5): what are you doing now
+Bot(5): I towns? Towns with about it.
+User(6): favorite soccer team
+Bot(6): i have i hate all rob and bob
+User(7): what is the name of your best actor
+Bot(7): I travel anything to watch i love traveling.
+User(8): travelling is my hobby
+Bot(8): Yeah it you watched am one
+User(9): tell the name of your best actor
+Bot(9): you too claustrophobic you know call ?
+User(10): what do you do for living
+Bot(10): i just want a cool corvette like about where are work temporarily
+
+Persona:
+whats up i'm a 46 year old single dad 46 a kids.
+my pets name is charlie.
+i just broke up with boyfriend two months ago.
+i am employed by the us postal service.
+i am partly deaf.
+
+Topic and Human Opinion:
+Beginning: soccer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.71
+Robotic(↓): 43
+Interesting: 36
+Fun: 36
+Consistent: 50
+Fluent: 21
+Repetitive(↓): 79
+Topic: 22
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): travelling and you
+Bot(2): i am a travel agent and you ?
+User(3): i am a teacher
+Bot(3): i am a teacher and i love to travel
+User(4): same here
+Bot(4): i teach first grade
+User(5): that is good
+Bot(5): i teach first grade
+User(6): how are you doing today
+Bot(6): i'm great thanks for asking
+User(7): you welcome
+Bot(7): i'm good thanks for asking
+User(8): what are you doing now
+Bot(8): i am just getting ready to go to work
+User(9): good to hear that
+Bot(9): what do you do for a living
+User(10): i am a teacher
+Bot(10): that is cool i teach first grade
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: laptops(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.14
+Robotic(↓): 58
+Interesting: 69
+Fun: 65
+Consistent: 73
+Fluent: 60
+Repetitive(↓): 35
+Topic: 75
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): travelling is my hobby
+Bot(2): traveling is nice , you get to enjoy many cultures .
+User(3): yes... so many times
+Bot(3): yes i also like to run what about you ?
+User(4): i love going to gym
+Bot(4): i do not go to the gym , i do a lot of running though .
+User(5): thats good
+Bot(5): i am good , pizza being delivered soon
+User(6): how are you doing today
+Bot(6): i am great probably going to go to the cinema to catch a movie , you ?
+User(7): what is the name of your best actor
+Bot(7): gaming and jamming on my guitar . i cook to but am an amateur
+User(8): cooking is not my thing
+Bot(8): i love cooking but i do not have anyone to cook for but myself
+User(9): what is the name of your best meal
+Bot(9): his name is sam and he is black
+User(10): thats good
+Bot(10): i am good , pizza being delivered soon
+
+Persona:
+i am a piano teacher on the side.
+i'm pregnant with my first child.
+i enjoy sports such as running.
+i have a pet fish.
+my favorite food is pizza with black olives.
+
+Topic and Human Opinion:
+Beginning: water(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.14
+Robotic(↓): 76
+Interesting: 76
+Fun: 58
+Consistent: 77
+Fluent: 73
+Repetitive(↓): 28
+Topic: 34
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you doing today
+Bot(2): good thanks . tell me about yourself
+User(3): i am a teacher
+Bot(3): what do you teach then
+User(4): data analysis
+Bot(4): what kind of math are you doing
+User(5): further math
+Bot(5): math is my favorite subject
+User(6): really...... thats good
+Bot(6): yes it is i am good at math
+User(7): what do you do for living
+Bot(7): i work in a school as teacher
+User(8): what do you teach
+Bot(8): i loved to teach math
+User(9): that is good
+Bot(9): i loved to teach math
+User(10): how are you doing today
+Bot(10): bad but good
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.71
+Robotic(↓): 69
+Interesting: 71
+Fun: 72
+Consistent: 69
+Fluent: 74
+Repetitive(↓): 55
+Topic: 35
+
+####################
+

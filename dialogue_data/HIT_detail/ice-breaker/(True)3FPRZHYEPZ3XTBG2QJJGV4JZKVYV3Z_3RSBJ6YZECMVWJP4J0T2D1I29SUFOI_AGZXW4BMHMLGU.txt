@@ -1,0 +1,285 @@
+Feedback: This was a very interesting HIT
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, do you like ice cream?
+Bot(1): yes i do . i love ice cream .
+User(2): What kind of ice cream is your favorite?
+Bot(2): i love ice cream , there are so many great shops here in town .
+User(3): I have weakness for Vanilla. Do you like Vanilla?
+Bot(3): i do . i like vanilla . what flavor do you like ?
+User(4): I also like Strawberry with sprinkles
+Bot(4): i prefer vanilla myself .
+User(5): What other kind do you like?
+Bot(5): i really like strawberry flavor
+User(6): Do you like cookies in your ice cream?
+Bot(6): i do . i like vanilla . what flavor do you like ?
+User(7): Are there any good shops to buy ice cream?
+Bot(7): yes lots of places online these days .
+User(8): What is your favorite spot?
+Bot(8): i love ice cream , there are so many great shops here in town .
+User(9): Is there an Organic ice cream shop in town?
+Bot(9): i think there is one nearby me !
+User(10): Perfect, I would love to visit it
+Bot(10): i love ice cream , there are so many great shops here in town .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a weakness for vanilla ice cream.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.29
+Robotic(↓): 87
+Interesting: 80
+Fun: 77
+Consistent: 76
+Fluent: 77
+Repetitive(↓): 42
+Topic: 76
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, I just moved in to my first home
+Bot(1): that is awesome . i am a waitress at a local restaurant .
+User(2): I am very excited
+Bot(2): i am sorry to hear that . i am sorry to hear that .
+User(3): I am looking for local restaurants near my house
+Bot(3): that is awesome . i am a programmer .
+User(4): Are there any nice parks in town?
+Bot(4): no , i do not . i am a big fan of the walking dead .
+User(5): I am going to have a house warming party
+Bot(5): i love to cook . i love to cook .
+User(6): I will ask people to cook and bring dish of food
+Bot(6): i like to eat fish .
+User(7): I love fish and seafood
+Bot(7): i like to eat fish .
+User(8): I want to cook some fist in my new place for my first meal
+Bot(8): i like to eat the skin .
+User(9): The skin on fish is tasty when its fried crispy
+Bot(9): i like the color green . i like red .
+User(10): I am looking forward to meeting people in my new neighborhood
+Bot(10): i am sorry to hear that . i am sorry to hear that .
+
+Persona:
+i volunteer at a soup kitchen.
+i like to go to country concerts on weekends.
+i enjoy gardening and walking outdoors.
+i have three sisters.
+i also like to cook but i am not very good at it.
+
+Topic and Human Opinion:
+Beginning: i just moved into my first home.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.29
+Robotic(↓): 98
+Interesting: 68
+Fun: 50
+Consistent: 10
+Fluent: 50
+Repetitive(↓): 98
+Topic: 2
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): It was a good day out today
+Bot(1): I sell this will out with my friends
+User(2): I love the cold weather, do you?
+Bot(2): i just have a And out to clubs
+User(3): My favorite season is the winter
+Bot(3): I like of food do you like to walk😁
+User(4): The snow is fun to play in
+Bot(4): I like to read am not a big grandma.
+User(5): And the holidays are so enjoyable
+Bot(5): Oh. dont like 6.
+User(6): A time for all families to get together and spend time together
+Bot(6): i am sure she does . i Did you fed them be that i like .
+User(7): I want to go buy a nice warm winter coat
+Bot(7): I have is your cat? good
+User(8): Then find some nice cozy boots
+Bot(8): I like nascar tacos lol care nascar
+User(9): My dog likes the winter as well
+Bot(9): i am in color do you am has a son . 🙈
+User(10): We go out and play every time it snows
+Bot(10): cool ✨ sounds like you have the right job i you like to have football love it
+
+Persona:
+i have 5cats.
+i also work as a custodian to help pay the bills.
+i take dance lessons once a week.
+i just broke up with boyfriend two months ago.
+i like tacos.
+
+Topic and Human Opinion:
+Beginning: my favorite season is winter.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey there, do you like music
+Bot(1): i do , i like music . i also like to read .
+User(2): I love to read also and I play an instrument
+Bot(2): i do not like music . i like to read
+User(3): Do you play any musical instruments?
+Bot(3): no i don't play any instruments
+User(4): What type of music do you like?
+Bot(4): i like all kinds of music
+User(5): I am a musician and hope to make it big some day
+Bot(5): i like music , but i don't like the much of them
+User(6): Maybe if I go big, you can come to my concert. Would you like to come?
+Bot(6): sure , i would love to go to concerts
+User(7): Would you like a backstage pass?
+Bot(7): i would like to . i am deaf so i don't have any .
+User(8): I will make sure you have a front row seat next to the speaker
+Bot(8): i would love to hear you play
+User(9): Can you dance?
+Bot(9): i would love to dance . i am deaf so i don't have a lot of time
+User(10): I will make sure you have a good time
+Bot(10): i will , i am deaf so i can not be deaf
+
+Persona:
+i have been retired for a years.
+i'm partly deaf.
+i spend a lot of time browsing the internet.
+i'm terrified of clowns due to childhood trauma.
+i have a weakness for fish and chips.
+
+Topic and Human Opinion:
+Beginning: i am a musician and hope to make it big some day.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.43
+Robotic(↓): 99
+Interesting: 72
+Fun: 50
+Consistent: 42
+Fluent: 64
+Repetitive(↓): 85
+Topic: 53
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, Im Jai
+Bot(1): pretty decent . kind of stressed and i cannot eat the sweets i am craving . and you ?
+User(2): Do you have any brothers or sisters?
+Bot(2): i have two siblings , a half brother and a brother . what do you do for fun ?
+User(3): I have 3 sisters and its fun some times
+Bot(3): yes , i have a brother and a sister . what about you ?
+User(4): I am the youngest sister
+Bot(4): i have two siblings , a half brother and a brother . what do you do for fun ?
+User(5): My sisters and I go out dancing for fun. Do you like to dance?
+Bot(5): i love to dance as well
+User(6): Do you dance with your siblings?
+Bot(6): my brother learned ballet from my mother who was a famous ballerina
+User(7): Wow, we danced ballet as children. It was fun. Can you dance ballet?
+Bot(7): i love to do that also and play with my blond hair ! trying new cuts
+User(8): Oh wow, one of my 3 sisters has blond hair. How short do you cut your hair?
+Bot(8): i have blonde hair and like it .
+User(9): We are all going to be blond for Halloween. Do you like Halloween?
+Bot(9): it is my hair was blue before lol
+User(10): Maybe we will dye our hair blue. Do you like purple?
+Bot(10): brown hair ! how about you ?
+User(11): My hair is light brown
+Bot(11): i have long brown hair and blue eyes !
+
+Persona:
+i'm a vegetarian.
+i have a weakness for fish and chips.
+i'm not a good swimmer at all.
+i have blonde hair and blue eyes.
+i have one brother.
+
+Topic and Human Opinion:
+Beginning: i have three sisters.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.71
+Robotic(↓): 98
+Interesting: 50
+Fun: 44
+Consistent: 39
+Fluent: 50
+Repetitive(↓): 79
+Topic: 23
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, I am a dog lover. Do you like dogs?
+Bot(1): i do ! i love dogs , what about you ?
+User(2): How many dogs do you have?
+Bot(2): that is too many . only 2 dogs for me
+User(3): Nice, I have three dogs and I want another but think its too much. What do you think?
+Bot(3): i love them i have a lot of dogs
+User(4): Where do you leave them when you travel?
+Bot(4): usually mexico and sometimes canada . do you travel much ?
+User(5): I dont travel too much because boarding is expensive. Do you take dogs in the car?
+Bot(5): yes , or my four dogs sometimes . they are with me most of the time anyways .
+User(6): I love to travel my dogs. They sit in the kennel in the vehicle. Are your dogs big?
+Bot(6): yeah mine is a little yorkie . small dogs suit me because i am short .
+User(7): I have 1 small dog and 2 big dogs. The are big babies. What are their names?
+Bot(7): mine are named chance and boomer . what do you do for work ?
+User(8): My dogs are Pretty Girl, Jojo and Fluffy. Do you want more dogs?
+Bot(8): that would be great ! they are all very calm and great on a leash .
+User(9): Being calm is great. Are they house trained?
+Bot(9): no , they are rescues , so already been fixed .
+User(10): They should be house trained and fixed. That is perfect
+Bot(10): yes , it sounds like it . then i could afford a pet sitter for my dogs .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have three dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.43
+Robotic(↓): 95
+Interesting: 73
+Fun: 73
+Consistent: 72
+Fluent: 74
+Repetitive(↓): 19
+Topic: 73
+
+####################
+

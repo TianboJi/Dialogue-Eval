@@ -1,0 +1,298 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi, I like dogs. How about you?
+Bot(1): i am a dog person . i love my dog .
+User(2): That's great. What kind of dog do you have?
+Bot(2): i have a german shepard named droopy .
+User(3): How old is he?
+Bot(3): he's a boxer . i am a male .
+User(4): What's Droopy's age?
+Bot(4): i am old . i am a male .
+User(5): How old are you?
+Bot(5): i am old . i am old .
+User(6): How's the weather where you are?
+Bot(6): i am a boy , i am a 32 year old
+User(7): That's fine. Where are you?
+Bot(7): i am in the midwest . i am a vegan .
+User(8): How is the weather in the Midwest?
+Bot(8): it is hot here in the midwest .
+User(9): What's the temperature?
+Bot(9): i am in the midwest . i love it
+User(10): When you say hot, how hot is it?
+Bot(10): it is hot , but i don't have a lot of free time
+
+Persona:
+i don't care about fashion.
+my favorite music genre is death metal.
+i'm a 56 year old woman.
+i'm a vegan.
+i have a german shepherd named barnaby.
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 4: The bot is talking about his being old and his gender(dislike)
+Round 5: Weather(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 33.29
+Robotic(↓): 92
+Interesting: 29
+Fun: 40
+Consistent: 28
+Fluent: 62
+Repetitive(↓): 74
+Topic: 40
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like cats?
+Bot(1): i do , but i like cats more lol
+User(2): You like cats more than what?
+Bot(2): i like cats . do you ?
+User(3): Yes, I like some cats
+Bot(3): i do love all kinds of cats .
+User(4): Do you have a cat?
+Bot(4): yes , we have two cats and a bird ? you ?
+User(5): I have a dog, but I see my neighbor's cat often
+Bot(5): sometimes i go out and listen to my neighbors talk , and look at their cats
+User(6): That's nice. What are your cats' names?
+Bot(6): hmm , cute names , i have cats thought
+User(7): How old are your cats?
+Bot(7): they are 2 years old . do you have any pets ?
+User(8): Yes, I have a dog
+Bot(8): what is your cats name ?
+User(9): My neighbor has that cat, not me. But her name is Duchess
+Bot(9): cute , what is her name ?
+User(10): Her name is Duchess
+Bot(10): we named her lady when we got her .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.57
+Robotic(↓): 59
+Interesting: 65
+Fun: 66
+Consistent: 80
+Fluent: 76
+Repetitive(↓): 57
+Topic: 81
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What kind of food do you like?
+Bot(1): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(2): Do you cook?
+Bot(2): there is nothing i cannot cook . i am a chef .
+User(3): What's your favorite thing to cook?
+Bot(3): cooking lamb is my favorite . do you like music ? i love singing . i have great pitch .
+User(4): I like music. What do you like to sing?
+Bot(4): no i do not want to sing in front of people jeez
+User(5): Who's your favorite singer?
+Bot(5): lady gaga ! org i could listen to her and madonna all day long
+User(6): Have you ever seen them in concert?
+Bot(6): sure ! what kind of concert ?
+User(7): Like a pop music concert, have you been?
+Bot(7): oh , great ! what kind of concert ? what kind of music ?
+User(8): Pop music
+Bot(8): have you heard of the beastie boys ?
+User(9): Yes
+Bot(9): me too , i wish pets were allowed in my college dorm room .
+User(10): What pets do you have?
+Bot(10): a cat . my kids love her . two boys and a girl .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 3: Music(like)
+Round 9: Pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 47.00
+Robotic(↓): 63
+Interesting: 57
+Fun: 58
+Consistent: 32
+Fluent: 66
+Repetitive(↓): 59
+Topic: 38
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What holidays do you like?
+Bot(1): i like to listen to music .
+User(2): Do you like Christmas?
+Bot(2): no , i do not . i like to go to the park .
+User(3): Which park do you go to?
+Bot(3): i love to travel . i love to travel .
+User(4): Where have you traveled?
+Bot(4): no , i do not . i am a big fan of classical music .
+User(5): Who is your favorite classical composer?
+Bot(5): i like the oldies . i like the beatles .
+User(6): Hey, I love the Beatles!
+Bot(6): i like to eat too much kale
+User(7): Who's your favorite Beatle?
+Bot(7): i like the color red . i like the color blue .
+User(8): I like blue too
+Bot(8): i like the color red . i like red .
+User(9): Why do you like red?
+Bot(9): i do , i like to go to the gym .
+User(10): Do you have red gym clothes?
+Bot(10): no , i do not . i like to go to the gym .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Holidays(like)
+Round 2: Parks(ambivalent)
+Round 4: Music(ambivalent)
+Round 7: Colors(dislike)
+Round 10: Gym(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 27.86
+Robotic(↓): 95
+Interesting: 38
+Fun: 35
+Consistent: 9
+Fluent: 59
+Repetitive(↓): 63
+Topic: 12
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Have you been on vacation?
+Bot(1): I played the violin in high are a take many been out of the country.
+User(2): You have been out of the country?
+Bot(2): I like to miss you school love fish😁
+User(3): Tell me about school
+Bot(3): yes , used to where cook .
+User(4): Did you go to cooking school?
+Bot(4): I like to sing gona give you watch ever sing in the shower?
+User(5): Sometimes I sing there
+Bot(5): I am doing well. start my new this ocd.
+User(6): What do you like to sing?
+Bot(6): i'm a woman , but i but my husband is family .
+User(7): Tell me about your husband?
+Bot(7): i am seven i'm a 12 year are you
+User(8): Are you married?
+Bot(8): I haven't heard of that, your have also like the south.
+User(9): Tell me about the South
+Bot(9): I am sorry to hear that. help you in your third grade?
+User(10): Are you from the South?
+Bot(10): nice . i would like to see jb with hair love to am a man curly . would be funny
+
+Persona:
+i have zero family that i'm close to.
+i have visited spain a times.
+my wife and kids are the best.
+i have zero family that i'm close to.
+i am 40 years old.
+
+Topic and Human Opinion:
+Beginning: Vacation(like)
+Round 2: school, fish(dislike)
+Round 4: Singing(dislike)
+Round 6: Family(like)
+Round 8: The south (geography)(ambivalent)
+Round 10: hair(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 27.43
+Robotic(↓): 88
+Interesting: 23
+Fun: 21
+Consistent: 8
+Fluent: 55
+Repetitive(↓): 33
+Topic: 6
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Tell me about your house
+Bot(1): our house is an ar room
+User(2): How many rooms are in your house?
+Bot(2): 5
+User(3): Do you have a swimming pool?
+Bot(3): we do have a pool . do you like to swim ?
+User(4): Yeah, though I don't have good skills. Is your kitchen big?
+Bot(4): we do have a pool . do you like to swim ?
+User(5): Yes. Tell me about your kitchen
+Bot(5): we do have a pool . do you like to swim ?
+User(6): Not too much. Do you like swimming?
+Bot(6): yes i love swimming
+User(7): How did you learn to swim?
+Bot(7): i actually started swim lessons . never been a swimmer .
+User(8): What type of swimming do you like?
+Bot(8): in a pool swimming sounds good to me
+User(9): Do you like to see swimming on TV?
+Bot(9): yes , when its hot and the water is warm
+User(10): Do like Michael Phelps?
+Bot(10): yeah he is good .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: House(like)
+Round 5: Pool(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 57.57
+Robotic(↓): 56
+Interesting: 58
+Fun: 59
+Consistent: 78
+Fluent: 65
+Repetitive(↓): 78
+Topic: 77
+
+####################
+

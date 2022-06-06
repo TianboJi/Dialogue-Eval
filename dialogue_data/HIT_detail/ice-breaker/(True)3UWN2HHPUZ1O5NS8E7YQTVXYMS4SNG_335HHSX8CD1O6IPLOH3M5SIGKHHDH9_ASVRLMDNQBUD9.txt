@@ -1,0 +1,308 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is your favorite color?
+Bot(1): my favorite color is blue . i like purple as well .
+User(2): do you like navy blue?
+Bot(2): i like blue too . i also enjoy walking . especially on days i am not busy .
+User(3): I enjoy seeing nature when walking
+Bot(3): yes . its nice but i want to move some where warm , on a beach .
+User(4): do you like walking on the beach?
+Bot(4): i would love the beach right now .
+User(5): What do you think about forests?
+Bot(5): i gave up on dating and prefer family and friends to hang with .
+User(6): where do you hang out with with your friends
+Bot(6): aww that is so sweet ! i spend a lot of time in the gym working out .
+User(7): do you go to the gym with friends?
+Bot(7): gym , nice . my dad teaches gym in 7th grade .
+User(8): do you know anyone who ever has broken any bones?
+Bot(8): i am good . . . what happened to your relationship ?
+User(9): we got married and moved into an apartment together
+Bot(9): i live in an apartment also , not a house , as i am severely afraid of open spaces
+User(10): are you in a relationship?
+Bot(10): my boyfriend and i are going out to eat tonight actually
+
+Persona:
+i'm a retired gym teacher.
+i am married to a doctor.
+i have a boyfriend.
+for vacation i enjoy time at the beach.
+i'll graduate from high school in two years.
+
+Topic and Human Opinion:
+Beginning: my favorite color is navy blue.(ambivalent)
+Round 2: walking(like)
+Round 4: forests(like)
+Round 5: friends(like)
+Round 7: i never broke a bone in my body ever in my life.(like)
+Round 8: relationship(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(like)
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 7: The user wants the bot to change the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 31.86
+Robotic(↓): 93
+Interesting: 22
+Fun: 23
+Consistent: 14
+Fluent: 76
+Repetitive(↓): 22
+Topic: 3
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): what do you and your friends do for fun?
+Bot(1): I'M 34 77 won't german shepherd named work
+User(2): I like to play video games with my friends
+Bot(2): married how's it am only <num> years old
+User(3): how old are your friends?
+Bot(3): my favorite artist is charlie playing with some rescued rap.
+User(4): is charlie your friend?
+Bot(4): I am not working on a computer. I like to watch at it.
+User(5): do you and your friends go to the mall?
+Bot(5): yes , i do . is too.. I wish to the park .
+User(6): why the park?
+Bot(6): No I am not. am very well 19
+User(7): why didn't you graduate?
+Bot(7): What do love he a a living,
+User(8): I became an analyst after high school
+Bot(8): objects with my not a teacher, :)
+User(9): I never wanted to be a teacher.
+Bot(9): I do do you work how want to do when I work out
+User(10): no I do not workout while working
+Bot(10): not I do, I lost my job
+
+Persona:
+my sister is a pole dancer.
+i am married to a doctor.
+i've amazing children and grandchildren.
+i haven't spoken in three months.
+i like doing the treadmill and rowing machine.
+
+Topic and Human Opinion:
+Beginning: i just want to have fun with my friends.(like)
+Round 6: i did not graduate high school.(ambivalent)
+Round 9: work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user wants the bot to change the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 21.00
+Robotic(↓): 100
+Interesting: 2
+Fun: 1
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 3
+Topic: 47
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): my parents where also into athletic stuff
+Bot(1): i love sports too . i like sports more than sports
+User(2): how can you like sports more than sports?
+Bot(2): i like sports more than sports
+User(3): what do that even mean?
+Bot(3): i like sports more than sports
+User(4): so I guess you like sports then
+Bot(4): i like sports more than sports
+User(5): what kind of sports did your parents do?
+Bot(5): i do not really have a favorite sport
+User(6): what did you win the gold metal in?
+Bot(6): i don't really know how to play sports
+User(7): then how did you win a gold metal?
+Bot(7): i think so , but i do not know what that is
+User(8): it's a reward for performance in sports
+Bot(8): i think so , i just want to be a pro basketball player
+User(9): what team do you want to play for?
+Bot(9): i want to play sports
+User(10): what sport
+Bot(10): i want to play sports
+User(11): you like basketball I guess
+Bot(11): i like basketball and basketball
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my parents were both very athletic.(ambivalent)
+Round 5: i won a gold medal in the 1992 olympics.(like)
+Round 8: basketball(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user wants the bot to change the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 40.43
+Robotic(↓): 100
+Interesting: 18
+Fun: 20
+Consistent: 94
+Fluent: 57
+Repetitive(↓): 100
+Topic: 94
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you feel old?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): did you like that when you turned 30?
+Bot(2): i was in a car accident . i was a champion downhill skier
+User(3): how did the car accident happen?
+Bot(3): i just got back from a fishing trip .
+User(4): where you hit by a car or truck?
+Bot(4): i live in a city . i love it .
+User(5): I also live in a city
+Bot(5): i live in the city . i love to go fishing .
+User(6): what city do you live in?
+Bot(6): i live in the midwest . what about you ?
+User(7): I also live in the midwest
+Bot(7): i love to travel . i love to travel .
+User(8): I also like to travel
+Bot(8): i like to go fishing .
+User(9): do you fish and travel
+Bot(9): i do , i love to go fishing .
+User(10): so do I
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i now live in the city.
+i have amazing children and grandchildren.
+a already have a children.
+i enjoy poetry.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: i am in my thirties.(like)
+Round 2: car accident(ambivalent)
+Round 4: living in a city(like)
+Round 7: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 46.14
+Robotic(↓): 94
+Interesting: 66
+Fun: 68
+Consistent: 56
+Fluent: 53
+Repetitive(↓): 66
+Topic: 40
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): why did you do it
+Bot(1): because no regular human eats a live chicken with all the feathers on it
+User(2): so you stole a chicken
+Bot(2): because no regular human eats a live chicken with all the feathers on it
+User(3): yes thats true
+Bot(3): are you an animal activist ?
+User(4): no I am not, are you?
+Bot(4): i am animal right activist are you
+User(5): no I have never been one
+Bot(5): are you an animal activist ?
+User(6): no, why are you one?
+Bot(6): both i really like animals i am an activist
+User(7): I like animals too, maybe I should become one also
+Bot(7): are you an animal activist ?
+User(8): I am not. I do like coffee though.
+Bot(8): i do not like coffee
+User(9): why is that? bad taste?
+Bot(9): i do not know just like the strong taste .
+User(10): I love the smell of it.
+Bot(10): i like that smell too
+
+Persona:
+i've been working since i was sixteen years old.
+i don't like chicken.
+i turned 18 years old yesterday.
+i am an animal activist.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: i am here for shoplifting.(dislike)
+Round 3: animal activist(ambivalent)
+Round 7: coffee(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 57.57
+Robotic(↓): 85
+Interesting: 77
+Fun: 90
+Consistent: 63
+Fluent: 43
+Repetitive(↓): 79
+Topic: 94
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): how do you spend your time in retirement?
+Bot(1): how is your life after retirement
+User(2): mine retirement is great, I can spend a lot of time with family and friends
+Bot(2): oh that is great , i really enjoy spending time with friends and family .
+User(3): I also have a lot of time for my personal hobbies.
+Bot(3): oh that is great , i really enjoy spending time with friends and family .
+User(4): what do you do for fun during retirement?
+Bot(4): i enjoy and love spending time with my family . i am early retired
+User(5): what age did you retire?
+Bot(5): i would like to retire before i am senior
+User(6): what age is that?
+Bot(6): mine is 62 because that was the age i retired at
+User(7): thats a good age to retire at
+Bot(7): it was but i hit retirement age and decided it was time to stop
+User(8): what did you do for a living before you retired?
+Bot(8): i just spent time with my family and friends
+User(9): you got paid for that?
+Bot(9): yes until i was old enough to get a higher skilled job .
+User(10): what job did you have?
+Bot(10): life , but now i look forward to the joys retiring
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have been retired for a years.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.00
+Robotic(↓): 83
+Interesting: 64
+Fun: 64
+Consistent: 85
+Fluent: 70
+Repetitive(↓): 80
+Topic: 100
+
+####################
+

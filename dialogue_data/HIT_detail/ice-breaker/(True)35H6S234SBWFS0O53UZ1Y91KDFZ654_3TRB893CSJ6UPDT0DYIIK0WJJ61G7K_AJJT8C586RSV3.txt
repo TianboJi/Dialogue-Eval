@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): Yes I really like playing with my cat, Spook
+Bot(2): i love cats and cats
+User(3): me too! do you have any cats?
+Bot(3): no , i don't have any pets
+User(4): but you love cats? Why don't you get one?
+Bot(4): i have a cat named radar
+User(5): you just said you don;t have any pets?
+Bot(5): no i don't . i do not have any pets
+User(6): gotcha
+Bot(6): no pets but i do not have any pets
+User(7): I'm confused
+Bot(7): no pets , i don't have any pets
+User(8): well you should get a pet!
+Bot(8): i do not know what you mean
+User(9): I think that you should get a cat
+Bot(9): i don't know what you mean .
+User(10): okay - well I have to go! Hope you and your cat Radar are doing well
+Bot(10): i am sorry to hear that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have a cat named spook.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.86
+Robotic(↓): 100
+Interesting: 22
+Fun: 10
+Consistent: 11
+Fluent: 19
+Repetitive(↓): 97
+Topic: 46
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello! how are you?
+Bot(1): i'm doing well . how are you ?
+User(2): I'm great! just got done playing with my band.
+Bot(2): that sounds fun . i love to go fishing .
+User(3): that's awesome! fishing is fun. So what kind of music do you like?
+Bot(3): i like country music . what about you ?
+User(4): interesting. My band is kind of a mix of country and pop
+Bot(4): i like to listen to music .
+User(5): I like to play it! maybe you can listen to my band sometime. We are trying to make it big some day
+Bot(5): i do not know what to say .
+User(6): you will not listen to my music?
+Bot(6): i do , i love to listen to music .
+User(7): oh good! do you have spotify?
+Bot(7): no , i do not . i like to read .
+User(8): Spotify is a music streaming app
+Bot(8): i like to go to the gym and listen to music .
+User(9): gotcha - gym, fishing and music. those are great hobbies!
+Bot(9): i like to go to the park and listen to music .
+User(10): well you should listen to my band next time you are at the park
+Bot(10): i do not have to work . i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a musician and hope to make it big some day.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.86
+Robotic(↓): 100
+Interesting: 41
+Fun: 57
+Consistent: 24
+Fluent: 28
+Repetitive(↓): 63
+Topic: 78
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi what's your name?
+Bot(1): hi ! i am josh , from the west coast . california baby !
+User(2): Hi Josh! California is beautiful! great to meet you. I am very lonely
+Bot(2): like tupac said , california knows how to party .
+User(3): haha I hate parties. I'm too lonely for parties
+Bot(3): dude , i am the party king ! college is seriously sweet , so many parties bro .
+User(4): are you lonely? is that why you party so much?
+Bot(4): i need to party . i get sad . i do not know most of my siblings !
+User(5): I don't have any siblings... or any friends. do you have a lot of friends?
+Bot(5): yes five sisters and seven brothers
+User(6): friends or siblings?
+Bot(6): oh mercedes , i would rather take a walk on the beach alone while being single
+User(7): you like to be single? I always take walks alone
+Bot(7): me too my favorite walks are in the park enjoying nature .
+User(8): how many friends do you have?
+Bot(8): i can be your friend . i also have a sister , which is the youngest child .
+User(9): thank you! I need more friends because I am very lonely
+Bot(9): www . i am sorry its like that for you . studying radiology , it gets lonely as well .
+User(10): I also study radiology! that's why I'm so lonely because I am always working
+Bot(10): no siblings , no significant other means no drama . i like that and painting
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am very lonely.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.00
+Robotic(↓): 63
+Interesting: 66
+Fun: 60
+Consistent: 40
+Fluent: 51
+Repetitive(↓): 33
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello! my name is Georgia and I am looking for a new job
+Bot(1): I'm man… IDK. Yesterday help you feel better.
+User(2): That doesn't make much sense. Do you have a job?
+Bot(2): where do you live? any answer which starts I am from florida
+User(3): do you have a job in Florida?
+Bot(3): I don't think why? You have good idea.
+User(4): no I also don't have a job
+Bot(4): i am a group of Ill feet even . and you ?
+User(5): that makes absolutely no sense. Do you know what LinkedIn is?
+Bot(5): I am not ! how are not but i do not like being alone.
+User(6): well then you have to find a career that allows you to be around people. I want to be a Scientist.
+Bot(6): I have a me too how anxiety.
+User(7): me too - I have anxiety about needing a new job
+Bot(7): that you have snakes at am a big fan of horse horse
+User(8): that is extremely off topic and makes no sense
+Bot(8): I am I don't have now.
+User(9): gotcha well you should get on LinkedIn to find one.
+Bot(9): Buongiorno! Such a nice day! How are You let your dog i'm a recluse
+User(10): Yes - Have a great day!
+Bot(10): I suppose have never seen to some music. How are you?
+
+Persona:
+i'm fluent in english spanish and french.
+i do not drink soda.
+my mom passed away when i was young.
+i've amazing children and grandchildren.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: i'm now looking for a new job.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey! are you married?
+Bot(1): i do my wife and i take long walks in central park together
+User(2): that sounds nice! my wife and I do nothing together and she spends all my money
+Bot(2): that is sad . i also love watching movies . do you ?
+User(3): I am too broke for movies because of my wife's shopping addiction. does your wife spend a lot of money?
+Bot(3): not really , he is too young to buy the stuff . do you have kids ?
+User(4): Your wife is too young? Does your wife have a job?
+Bot(4): i am single , no kids as i said before . i work monday through friday .
+User(5): you said earlier that you had a wife
+Bot(5): i do my wife and i take long walks in central park together
+User(6): you said that already
+Bot(6): i do my wife and i take long walks in central park together
+User(7): well I'm happy that you and your wife have a good relationship. how do you split up finances? does she work?
+Bot(7): i do my wife and i take long walks in central park together
+User(8): how long are your walks?
+Bot(8): 10 hours usually . do you have any kids ?
+User(9): that;s a lot of walking. No my wife is too busy spending my money for us to have kids
+Bot(9): i take my daughter to the park every day
+User(10): I am happy to hear that. ENjoy your evening
+Bot(10): i have been watching the friday movies , whats your favorite movie ?
+
+Persona:
+my favorite movie is friday.
+i like to take walks.
+i've solar panels on my roof.
+i have a son who is in junior high school.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: my wife spends all my money.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.00
+Robotic(↓): 91
+Interesting: 24
+Fun: 24
+Consistent: 0
+Fluent: 36
+Repetitive(↓): 100
+Topic: 19
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey! what's your name?
+Bot(1): my name is jesse . what about you ?
+User(2): My name is Jack. I'm on the men's soccer team at my school. do you like Soccer?
+Bot(2): yeah , but i am not good at sports . what team ?
+User(3): I play for a small university in Minnesota
+Bot(3): minnesota state university
+User(4): Nope, it's Mankato State! I'm the goal keeper.
+Bot(4): that is cool ! ! are you on a soccer team ?
+User(5): Yes I am! Do you watch a lot of soccer?
+Bot(5): i do , but it is not my main thing . i do love soccer , though .
+User(6): soccer is awesome. what is your favorite sport?
+Bot(6): i love soccer ! that and field hockey .
+User(7): I've never played field hockey. I like Ice Hockey
+Bot(7): how long have you played soccer and field hockey ?
+User(8): I don't play field hockey. But I have played soccer since I was 5 years old
+Bot(8): awesome ! i played in highschool .
+User(9): what position did you play?
+Bot(9): forward and some goalie when needed .
+User(10): multi-talented. that's awesome!
+Bot(10): yes it is , do you play for a team now ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a male.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.00
+Robotic(↓): 43
+Interesting: 61
+Fun: 60
+Consistent: 61
+Fluent: 63
+Repetitive(↓): 25
+Topic: 71
+
+####################
+

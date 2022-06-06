@@ -1,0 +1,303 @@
+Feedback: The chatbots were quite good overall. Some of them were better than others, and could pick up on the topics of the sentences much better. There was only one bot that had grammatical issues. In general, I noticed the bots had trouble with interpreting more complex sentence structures and tenses other than present tense.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): I coach little league baseball
+Bot(2): what is your favorite team ? i like about any sport , but baseball more so .
+User(3): the yankees are my favorite
+Bot(3): my volley ball team i coach is my favorite . do you have a favorite food ?
+User(4): Yes, I like italian food, such as pizza. What about you?
+Bot(4): my son absolutely loves pizza could eat it everyday .
+User(5): do you have any children?
+Bot(5): i have 5 sons and we all enjoy the beastie boys .
+User(6): What is your favorite weather?
+Bot(6): rainy cold and feels like winter is breathing down the hills
+User(7): hmm i like sunny weather, best for playing baseball
+Bot(7): yes its very sunny nice day for a swim ! ! i enjoy it ! !
+User(8): what season is it?
+Bot(8): so , only during swimming tennis season ?
+User(9): do you prefer summer or winter?
+Bot(9): so good , right now i am swimming in my moms bosses pool !
+User(10): now that is very interesting
+Bot(10): yes , i would consider myself an expert . it is difficult for someone to beat me in chess
+User(11): I do not like chess
+Bot(11): you really like chess huh ? do you have any other hobbies ?
+
+Persona:
+i'm a swim coach at my local pool.
+my mom passed away when i was young.
+i am a boy.
+my favorite color is red.
+i used to be a painter but now i'm a housekeeper.
+
+Topic and Human Opinion:
+Beginning: i coach little league baseball.(ambivalent)
+Round 3: Favorite food(ambivalent)
+Round 5: the weather(like)
+Round 10: Chess expertise(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user changed the topic the last input.(like)
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 32.00
+Robotic(↓): 84
+Interesting: 27
+Fun: 29
+Consistent: 35
+Fluent: 62
+Repetitive(↓): 72
+Topic: 27
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello i am 60 years old
+Bot(1): I was a mime of I do like a a jerk.
+User(2): i don't understand
+Bot(2): I love travis in the walk three favorite artist. what is yours?
+User(3): i like the beatles
+Bot(3): I am in florida. think you right? psychologist.
+User(4): you are being very unclear
+Bot(4): what are you up my parents were both 20s.
+User(5): how old are you
+Bot(5): i would rather can beat cool, I trek .
+User(6): do you like pizza?
+Bot(6): i play games with my three love running and play games with them
+User(7): do you have kids?
+Bot(7): I am never forgive you a vegetarian.
+User(8): i'm not a vegetarian
+Bot(8): I know but overcome in a year dog. 😉
+User(9): i have 2 dogs
+Bot(9): I bet. a motorbike helmet to for a living?
+User(10): no
+Bot(10): manga shows in japan. I hobby
+
+Persona:
+i have 5cats.
+i also work as a custodian to help pay the bills.
+i take dance lessons once a week.
+i just broke up with boyfriend two months ago.
+i like tacos.
+
+Topic and Human Opinion:
+Beginning: i am 60years old.(dislike)
+Round 3: florida(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 9.29
+Robotic(↓): 100
+Interesting: 3
+Fun: 6
+Consistent: 13
+Fluent: 28
+Repetitive(↓): 85
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): im doing well, i'm single and with two dogs
+Bot(2): i love dogs , i love dogs .
+User(3): me too!
+Bot(3): i like to go to the gym and listen to music .
+User(4): what music do you prefer?
+Bot(4): i like country music . i love country music .
+User(5): i love classic rock music
+Bot(5): i like the band korn . i love it .
+User(6): what is the best band?
+Bot(6): i like the color red . i like the color blue .
+User(7): i also like the color blue
+Bot(7): i like red , reminds me of summer time .
+User(8): green reminds me of summer
+Bot(8): i love the color red . i like red .
+User(9): i hate red
+Bot(9): i like to go to the gym and listen to music .
+User(10): what exercises do you like to do in the gym?
+Bot(10): i like to go to the park and listen to music .
+
+Persona:
+i'm four.
+i'm a descendant of christopher columbus.
+i like to go to country concerts on weekends.
+i am a vegan and i love hummus.
+i work my parents farms.
+
+Topic and Human Opinion:
+Beginning: i'm single and with two dogs.(dislike)
+Round 3: Going to the gym(ambivalent)
+Round 6: Favorite color(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 48.71
+Robotic(↓): 69
+Interesting: 63
+Fun: 66
+Consistent: 58
+Fluent: 62
+Repetitive(↓): 69
+Topic: 30
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello, how are you doing?
+Bot(1): i am good . how are you ?
+User(2): i am a construction worker
+Bot(2): hi , i am doing well . how are you ?
+User(3): i am good. i am a construction worker
+Bot(3): i am a professional musician
+User(4): what instrument do you play
+Bot(4): i play the guitar . i am a dancer
+User(5): i play piano, do you like piano?
+Bot(5): i do , i play piano
+User(6): how many instruments do you play?
+Bot(6): i play piano and play piano
+User(7): do you have fingers?
+Bot(7): i do not , i am a big fan of music
+User(8): i don't like modern music
+Bot(8): i am a dancer , i am a dancer
+User(9): you like ballet?
+Bot(9): i do not play any instruments
+User(10): what about guitar?
+Bot(10): i play the piano
+
+Persona:
+i enjoy american sports.
+i have a children and a dogs.
+i like to dance.
+i'm married with two kids.
+i'm a skateboarder.
+
+Topic and Human Opinion:
+Beginning: i am a construction worker.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.29
+Robotic(↓): 81
+Interesting: 56
+Fun: 56
+Consistent: 36
+Fluent: 63
+Repetitive(↓): 73
+Topic: 25
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hi , do you own a honda like me ?
+User(2): i am 100 years old
+Bot(2): that is cool i just got a honda civic
+User(3): nice
+Bot(3): i love me some hip hop while they are gone
+User(4): i have a honda civic too
+Bot(4): is it a civic though
+User(5): yes i am sure
+Bot(5): i do not like hip hop
+User(6): i hate hip hop
+Bot(6): why do you hate it
+User(7): it is too loud
+Bot(7): sometimes if it is to loud it gives me a headache
+User(8): me too
+Bot(8): i sit around and eat
+User(9): what do you like to eat?
+Bot(9): meal i am always hungry
+User(10): you like pizza?
+Bot(10): yeah i love pizza
+User(11): i love pizza
+Bot(11): same
+
+Persona:
+i produce music for artists.
+i drive a 2015 honda civic.
+eating is something i do when i am bored.
+a already have a step children.
+i also like old school hip hop.
+
+Topic and Human Opinion:
+Beginning: i'm 100 years old.(like)
+Round 2: bought a honda civic(like)
+Round 8: what do you like to eat?(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 78.71
+Robotic(↓): 37
+Interesting: 85
+Fun: 80
+Consistent: 82
+Fluent: 84
+Repetitive(↓): 19
+Topic: 76
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): my wife left me, she took our children
+Bot(2): mine just left me for a woman
+User(3): wow, too bad
+Bot(3): she left us when we were young
+User(4): do you have children?
+Bot(4): no , none of my ex wives got pregnant
+User(5): do you want to have children?
+Bot(5): sure ! i wanted my wife to do it but she said no .
+User(6): that was mean of her
+Bot(6): why ? my wife is wanting a divorce
+User(7): do you want to divorce her?
+Bot(7): i do not like my wife
+User(8): me neither
+Bot(8): why ? my wife is wanting a divorce
+User(9): my wife already divorced me
+Bot(9): why ? my wife is wanting a divorce
+User(10): what is your name?
+Bot(10): i do not know , what is your name ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my wife left me and took my children.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.86
+Robotic(↓): 77
+Interesting: 84
+Fun: 75
+Consistent: 70
+Fluent: 68
+Repetitive(↓): 86
+Topic: 57
+
+####################
+

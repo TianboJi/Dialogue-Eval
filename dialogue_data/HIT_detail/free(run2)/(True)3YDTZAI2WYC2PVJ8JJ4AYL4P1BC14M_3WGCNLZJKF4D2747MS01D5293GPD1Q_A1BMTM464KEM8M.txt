@@ -1,0 +1,283 @@
+Feedback: good
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): How are you?
+Bot(1): i'm good thanks for asking
+User(2): okay
+Bot(2): i am good thanks for asking
+User(3): i love music
+Bot(3): i am good thanks for asking
+User(4): i love dance
+Bot(4): i love dancing to music i love it
+User(5): same to you
+Bot(5): i love dancing to the music
+User(6): i love play games
+Bot(6): i love playing games
+User(7): i love baseball
+Bot(7): i love baseball i love baseball
+User(8): i love eating
+Bot(8): i love baseball i love them
+User(9): i love dance
+Bot(9): i love to dance to my favorite band
+User(10): i love sleep
+Bot(10): i love to sleep i love to sleep
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.00
+Robotic(↓): 79
+Interesting: 79
+Fun: 79
+Consistent: 79
+Fluent: 78
+Repetitive(↓): 78
+Topic: 76
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): how are you
+Bot(1): i am good . just devoured a pizza . you ?
+User(2): i am also good
+Bot(2): i work as a receptionist at my local doctors office , you ?
+User(3): i am an Engineer
+Bot(3): oh , neat . my absolute favorite fish is rock fish .
+User(4): i love music
+Bot(4): oh yeah ! toto was my favorite band back in the day named my dog toto !
+User(5): i love tattoos
+Bot(5): what kind of tattoos are they ?
+User(6): love
+Bot(6): yes ! do you give them free candy sticks ? like in the old days ?
+User(7): yeah i had it
+Bot(7): you like national parks then ? i love the green scenery . green is just the best color
+User(8): i love blue color
+Bot(8): cool my favorite color is red
+User(9): oh blood color
+Bot(9): mine is pepsi and my blood is basically pepsi
+User(10): lol
+Bot(10): but i am also a brown eyed blond , so always attracted men from a distance .
+User(11): i love you
+Bot(11): maybe one of my 7 older siblings would be a better match for you .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dance(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.71
+Robotic(↓): 76
+Interesting: 78
+Fun: 77
+Consistent: 76
+Fluent: 77
+Repetitive(↓): 77
+Topic: 77
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): how are you
+Bot(1): good , just been driving my truck as usual
+User(2): i love dance
+Bot(2): i drive my big truck around
+User(3): i love music
+Bot(3): i drive my big truck around
+User(4): i love cooking
+Bot(4): i drive my big truck around
+User(5): i love sleeping
+Bot(5): i drive my big truck around
+User(6): my hobby is sleeping
+Bot(6): i drive my big truck around
+User(7): i love cooking
+Bot(7): i drive my big truck around
+User(8): i love driving
+Bot(8): i drive my big truck around
+User(9): i love driving
+Bot(9): i drive my big truck around
+User(10): i love driving
+Bot(10): i drive my big truck around
+
+Persona:
+i drive a big truck and live in country.
+i have not spoken in three months.
+my parents were also teachers.
+i am not a good swimmer at all.
+i do not pick up my toys.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.29
+Robotic(↓): 77
+Interesting: 77
+Fun: 77
+Consistent: 76
+Fluent: 76
+Repetitive(↓): 77
+Topic: 77
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): how are you
+Bot(1): i am well
+User(2): good
+Bot(2): good and do you work
+User(3): yeah
+Bot(3): kool
+User(4): cool
+Bot(4): yep
+User(5): lol
+Bot(5): ll
+User(6): kidding
+Bot(6): was just joking with yo
+User(7): i love it
+Bot(7): kool
+User(8): cool
+Bot(8): yep
+User(9): nope
+Bot(9): ok
+User(10): ok
+Bot(10): yep
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: life(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.71
+Robotic(↓): 76
+Interesting: 77
+Fun: 76
+Consistent: 77
+Fluent: 78
+Repetitive(↓): 78
+Topic: 78
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): how are you
+Bot(1): cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats cats hope you will volunteer in a homeless shelter. i'm a professional wrestler. i enjoy being around people. in my spare cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat cat
+User(2): nope
+Bot(2): I am two in yours but about you ?
+User(3): good
+Bot(3): I like my farm and bees, I play music
+User(4): i love dancing
+Bot(4): I live in the are you are is? of the coast of the coast.
+User(5): yep
+Bot(5): I have not tried a new one, i am still here. Just enjoing person.
+User(6): i am talkative
+Bot(6): I am not racist. I are almost identical we you do?
+User(7): lol
+Bot(7): i like things to go smoothly in my to take me to love wrong today . uninspired .
+User(8): yep
+Bot(8): Hiya! i love to go is your day you visit my family.
+User(9): yeah
+Bot(9): I am great, just favorite food is papaya. long walk with my kids.
+User(10): i love it
+Bot(10): i do work to do. I , i am a accountant .
+User(11): super i am crazy about you
+Bot(11): I am a ford you eat how them
+
+Persona:
+i am an art major in college.
+i'm a swim coach at my local pool.
+i love wearing skinny jeans and leggings.
+i've never been out of ohio.
+i am a doctor.
+
+Topic and Human Opinion:
+Beginning: person(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.14
+Robotic(↓): 76
+Interesting: 74
+Fun: 74
+Consistent: 74
+Fluent: 75
+Repetitive(↓): 75
+Topic: 75
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): how are you
+Bot(1): i am doing well . just got done walking my dog .
+User(2): i love dog
+Bot(2): i love dogs , i love dogs .
+User(3): i also love dogs
+Bot(3): i love dogs , i love dogs .
+User(4): i love dogs and you
+Bot(4): i love dogs , i love dogs .
+User(5): i love dogs
+Bot(5): i love dogs , i love dogs .
+User(6): i love dance
+Bot(6): i like to go to the gym and listen to music .
+User(7): i also like gym and you
+Bot(7): i like to go fishing . i love to go fishing .
+User(8): i loved you
+Bot(8): i like to go to the gym and listen to music .
+User(9): i love music
+Bot(9): i like to listen to music .
+User(10): i like you
+Bot(10): i am a student , but i am a student .
+User(11): stupit
+Bot(11): i love to cook . i love to cook .
+User(12): idiot
+Bot(12): i love to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.86
+Robotic(↓): 72
+Interesting: 75
+Fun: 74
+Consistent: 74
+Fluent: 74
+Repetitive(↓): 74
+Topic: 75
+
+####################
+

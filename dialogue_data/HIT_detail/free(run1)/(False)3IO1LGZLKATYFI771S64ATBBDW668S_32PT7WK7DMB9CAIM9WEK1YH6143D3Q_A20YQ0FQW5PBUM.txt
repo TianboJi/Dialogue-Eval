@@ -1,0 +1,281 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey ! or hello rather . hay is for horses
+User(2): That's okay; hay is different from hey.
+Bot(2): hey ! or hello rather . hay is for horses
+User(3): That's pretty repetitive and off topic.
+Bot(3): hey ! or hello rather . hay is for horses
+User(4): Stop repeating yourself please we are supposed to discuss music.
+Bot(4): i love horses . i would like to purchase an arabian when i am a millionaire .
+User(5): I don't want to hear about horses from you ever again.
+Bot(5): i love horses . i would like to purchase an arabian when i am a millionaire .
+User(6): You already said that.
+Bot(6): i love horses . i would like to purchase an arabian when i am a millionaire .
+User(7): youre repeating yourself
+Bot(7): i love horses . i would like to purchase an arabian when i am a millionaire .
+User(8): stop please
+Bot(8): whats your favorite color besides grey ?
+User(9): Green
+Bot(9): i wanted you to say green .
+User(10): Well I did
+Bot(10): whats your favorite color besides grey ?
+
+Persona:
+i work took i've a part time job at burger king.
+i often shop for shoes and watches.
+i'll be released in about a month.
+my favorite color is grey.
+i've three arabian horses.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 38
+Fluent: 56
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): Yeah I like playing music.
+Bot(2): i play music on my guitar
+User(3): Me too.
+Bot(3): i play music on my guitar
+User(4): You said that already
+Bot(4): i do not know what that is
+User(5): I said that you are repeating yourself.
+Bot(5): i am . i am not very good at it
+User(6): You're very good at repeating yourself, in my view.
+Bot(6): i am not sure if you do not mind me asking
+User(7): That makes no sense. We are supposed to discuss music.
+Bot(7): i think i am not familiar with music .
+User(8): You said you play music already.
+Bot(8): i play guitar . i play guitar .
+User(9): I know.
+Bot(9): i play guitar in a band .
+User(10): Ok that is nice for you.
+Bot(10): i know . i am not sure if you want to be a musician .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 20
+Fluent: 58
+Repetitive(↓): 100
+Topic: 36
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): are you Are you great. or man
+User(2): I am a great man.
+Bot(2): hello, how are you Well, I was raised back from work at the bank
+User(3): That doesn't really make sense but I guess you work at the bank. I am well.
+Bot(3): two dogs that we have there so. monk. I don't i’m i play lot ...
+User(4): I have a dog too. But dogs are off topic.
+Bot(4): do you have any pets? I have know, what about that’s survival
+User(5): Yeah I have a dog like I said and a cat.
+Bot(5): that sounds very yummy what do watch games with friends
+User(6): That's offensive
+Bot(6): i don t mind it i just very there whats up male centric
+User(7): Well I mind
+Bot(7): cool are a recording games basketball
+User(8): What
+Bot(8): cool, my Tell me about I'm she is also a pole dancer.
+User(9): What kind of music does she pole dance to?
+Bot(9): you change the subject. you shot a lion
+User(10): Nope
+Bot(10): I'm i was coincidence.
+
+Persona:
+i am a skateboarder.
+i own two vintage mustangs.
+i have a boyfriend.
+i'm from a small town.
+i have one older sister.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 11
+Fluent: 13
+Repetitive(↓): 51
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey
+Bot(1): hi ! how are you ?
+User(2): Im ok. Do you like music?
+Bot(2): i like a little bit of everything really . i like pop , country and latin music as well .
+User(3): As what?
+Bot(3): it is orange . i have my nails painted orange . they are long .
+User(4): That is nonsense, my man.
+Bot(4): ciao ! thinking about heading to yoga class today , what about you ?
+User(5): I wouldn't go to yoga class because I don't want to catch covid.
+Bot(5): i love yoga . i teach too , private elementary children though , they take yoga .
+User(6): Do you play music during the class?
+Bot(6): that is great ! but i am really into writing . plan to write a book before i pass
+User(7): That doesn't make sense.
+Bot(7): not many schools have it anymore . i retire at the end of the year .
+User(8): Thank God for that.
+Bot(8): yeah god is great and so is yo gotti .
+User(9): Who is yo gotti
+Bot(9): i love yo la tengo . i have never heard of yo gotti
+User(10): Hey that's actually on topic but you contradicted yourself too.
+Bot(10): its a chemistry exam i am a biology major at boston college
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Muisc(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.43
+Robotic(↓): 100
+Interesting: 8
+Fun: 0
+Consistent: 0
+Fluent: 57
+Repetitive(↓): 14
+Topic: 13
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi robot
+Bot(1): hi , i met a real life vampire , so i think
+User(2): Oh man. How do you know he is a vampire?
+Bot(2): meh just reflections of light . my dog does not have a reflection he is a vampire
+User(3): That's reasonable. Did you get bitten by any vampire?
+Bot(3): hi , i met a real life vampire , so i think
+User(4): As you said.
+Bot(4): how did you know he was a vampire ?
+User(5): That's the opposite of what's happening here. You are the one who saw a vampire.
+Bot(5): . . . how does that imply that he is indeed a vampire . . . ?
+User(6): Are you okay?
+Bot(6): i am fine , have you ever met someone whos a vampire ?
+User(7): Nah they're fake
+Bot(7): of course they are not real .
+User(8): Then why do you say you met one?
+Bot(8): meh just reflections of light . my dog does not have a reflection he is a vampire
+User(9): Dogs cannot be vampires.
+Bot(9): of course they are not real .
+User(10): Stop
+Bot(10): what ? i just saw the conjuring
+
+Persona:
+i have superpowers.
+i walk dogs for a living.
+horror movies are my favorites.
+i work at a bar at night to pay for college.
+i spend most of my time on facebook when i'm not working.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 4: Vampires(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 25.43
+Robotic(↓): 100
+Interesting: 22
+Fun: 20
+Consistent: 0
+Fluent: 65
+Repetitive(↓): 74
+Topic: 45
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey
+Bot(1): i love to cook . i love to cook .
+User(2): Great. Tell me all about it.
+Bot(2): i like to go to the gym and listen to music .
+User(3): Wait I thought we were talking about cooking now
+Bot(3): i do not know what to say .
+User(4): Me neither
+Bot(4): i like to go to the gym and listen to music .
+User(5): SO I hear
+Bot(5): i like to go to the gym and listen to music .
+User(6): Really?
+Bot(6): i am a student , but i am a student .
+User(7): What?
+Bot(7): i am a student , but i am a student .
+User(8): Okay
+Bot(8): i love to cook . i love to cook .
+User(9): What do you cook?
+Bot(9): no , i do not , but i do like to eat .
+User(10): Yes you do
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 2: Cooking(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 10.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 74
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

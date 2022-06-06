@@ -1,0 +1,307 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have kids?
+Bot(1): yes i do , i have a son and a son
+User(2): how old?
+Bot(2): i have 2 kids and 1 son
+User(3): how old are your kids?
+Bot(3): i have 2 kids and 1 son .
+User(4): Do you love your kids?
+Bot(4): i do not have kids but i have 2 kids
+User(5): do you want more kids
+Bot(5): i do not have kids but i have 2 kids
+User(6): so you do or you dont have kids
+Bot(6): i do not have any kids
+User(7): Do you want kids?
+Bot(7): i do not have kids
+User(8): I have 3 kids
+Bot(8): i do not have kids
+User(9): have you ever been pregnant
+Bot(9): no i have not but i have 3 kids
+User(10): food
+Bot(10): yes i do but i have a daughter
+User(11): What do you like to eat?
+Bot(11): i love mexican food and you
+User(12): I love soul food
+Bot(12): i love mexican food and you
+User(13): What is your favorite mexican food?
+Bot(13): i love mexican food what about you
+User(14): what is your favorite restaraunt?
+Bot(14): i like to eat what about you
+User(15): I like to eat too. I love red lobster, how about you?
+Bot(15): i like red lobster , what about you ?
+User(16): yes, I love red lobster. do you like other foods?
+Bot(16): i love it . i eat a lot of it
+User(17): What is your favorite thing to eat from Red Lobster?
+Bot(17): i like red lobster . what about you ?
+User(18): good bye
+Bot(18): i like the red hot chili peppers
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: kids(like)
+Round 10: favorite foods(like)
+Round 17: fashion(like)
+
+Topic Change and Chatbot Opinion:
+Round 9: No topic change.(ambivalent)
+Round 10: The user will change the topic in the next input.(ambivalent)
+Round 17: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 8.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 12
+Fluent: 0
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Who is your favorite designer?
+Bot(1): I am good. Just a recording what else new job.
+User(2): what job?
+Bot(2): my beloved bella she's a do you do for 😄
+User(3): for what?
+Bot(3): playing hockey not are you buy try to guess: i've german shepherd ...
+User(4): i dont understand what you are saying
+Bot(4): well is your father games what about you
+User(5): I want to talk about fashion
+Bot(5): i am still in love with my run and in like work move on . are you single ?
+User(6): no are you?
+Bot(6): I'm great, tell me about from dancing.
+User(7): I like to twerk
+Bot(7): i like all types . i am a big to surf are you doing music .
+User(8): yes i love all kinds of music
+Bot(8): that is is your you girl a soup kitchen here. what are your hobbies?
+User(9): I like to read and make money, how about you?
+Bot(9): lol , ok , well i am mind man answer me it , how about you ?
+User(10): i am a woman
+Bot(10): do you like kids? I have a lite cartoon all my childhood. you?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fashion(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what kind of movies do you enjoy?
+Bot(1): i like the classics and the reverend horton heat .
+User(2): do you like horror movies?
+Bot(2): i do , i like to read .
+User(3): What is your favorite horror movie?
+Bot(3): i like the classics and the doors .
+User(4): what classic movie is your favorite?
+Bot(4): i like the classics , and the outdoors .
+User(5): what else do you like?
+Bot(5): i like to go fishing . i love to go fishing .
+User(6): me too
+Bot(6): i like to go to the gym and listen to music .
+User(7): me too, do you like hip hop?
+Bot(7): i do , i like to go to the gym .
+User(8): what gym do you go to?
+Bot(8): i love to travel . i love to travel .
+User(9): where have you been
+Bot(9): i live in the midwest . i love to go fishing .
+User(10): where in the mid west?
+Bot(10): i live in the midwest . i love to go fishing .
+
+Persona:
+i'm a swim coach at my local pool.
+my mom passed away when i was young.
+i am a boy.
+my favorite color is red.
+i used to be a painter but now i'm a housekeeper.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): what is your favorite animal?
+Bot(1): i have a dog that i love taking on long walks .
+User(2): i have 3 dogs
+Bot(2): fun ! i like to take the dog for long walks great exercise
+User(3): me too, is your dog trained.
+Bot(3): yea i take the bus to school actually
+User(4): what about your dog
+Bot(4): i also exercise with my dog , we go for long walks .
+User(5): do you like cats
+Bot(5): yea i take the bus to school actually
+User(6): do you take your dog to school
+Bot(6): yea i take the bus to school actually
+User(7): does your dog ride the bus
+Bot(7): yea i take the bus to school actually
+User(8): anything else
+Bot(8): i like to take my dogs for long walks
+User(9): how long do you walk
+Bot(9): about 5 hours depending on traffic
+User(10): wow that is a lot
+Bot(10): no its not alot
+User(11): do you get tired?
+Bot(11): sometimes when i am not overly tired
+
+Persona:
+i enjoy long walks with my dog.
+i ride the bus to school.
+i have been trying all types of food everywhere i go.
+i'm overweight and unhappy.
+i just moved into my first home.
+
+Topic and Human Opinion:
+Beginning: animals(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.57
+Robotic(↓): 98
+Interesting: 0
+Fun: 0
+Consistent: 25
+Fluent: 85
+Repetitive(↓): 67
+Topic: 27
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you have a job?
+Bot(1): wow i am looking for musicians for my band do you play ?
+User(2): no, i sing
+Bot(2): that is awesome . i love to bake cookies and cakes .
+User(3): what type of music does your band play?
+Bot(3): i do not work , i play in a band .
+User(4): why kind of band
+Bot(4): what kind of music does your band play ?
+User(5): i dont play in a band
+Bot(5): what kind of music does your band play ?
+User(6): i do not play in a band
+Bot(6): i do not work , i play in a band .
+User(7): do you like what you do
+Bot(7): i arm wrestle which is kind of random i am pretty competitive
+User(8): i am also competitive.
+Bot(8): will you bake for me ? i will make you some crafts .
+User(9): what do you want me to bake
+Bot(9): what do you like to bake ?
+User(10): cakes and cookies
+Bot(10): what do you like to bake
+User(11): cakes and cookies
+Bot(11): oh that sounds good . do you like to bake ?
+User(12): yes
+Bot(12): what do you like to bake ? do you have a gf ?
+User(13): cookies and cake and no
+Bot(13): i love to eat cookies and cakes
+
+Persona:
+i started playing guitar when i was three.
+i am a recovering alcoholic.
+i love to bake cookies.
+i haven't spoken in three months.
+i am terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: job(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.71
+Robotic(↓): 100
+Interesting: 9
+Fun: 0
+Consistent: 13
+Fluent: 63
+Repetitive(↓): 26
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what is your favorite hobby?
+Bot(2): me ! whats the craziest thing you have ever done ?
+User(3): I have went sky diving, what about you
+Bot(3): i like singing and sky diving
+User(4): me too. what type of music do you enjoy
+Bot(4): i like r b and pop , you
+User(5): i love pop r and b and hip hop
+Bot(5): yeah i am pretty adventurous . i am into skydiving
+User(6): how many time have you done it?
+Bot(6): i skydive all the time , its a fun sport once you do it for the first time
+User(7): what other hobbies do you enjoy
+Bot(7): i like singing and sky diving
+User(8): how long have you been singing
+Bot(8): for 20 years now honestly
+User(9): wow that is amazing
+Bot(9): have you ever been skydiving ?
+User(10): yes
+Bot(10): have you ever been skydiving ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.57
+Robotic(↓): 50
+Interesting: 58
+Fun: 50
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 64
+Topic: 100
+
+####################
+

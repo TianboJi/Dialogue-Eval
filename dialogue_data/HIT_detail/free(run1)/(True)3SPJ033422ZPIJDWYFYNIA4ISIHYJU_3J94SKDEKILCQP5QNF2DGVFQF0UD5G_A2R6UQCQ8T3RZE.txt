@@ -1,0 +1,314 @@
+Feedback: Most of the chatbots could not stay on topic.  The second to the last one was not even speaking meaningful English.  None of these were believable.  
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there. Do you like opera?
+Bot(1): oh , i know nothing about opera .
+User(2): It's a great genre of music.
+Bot(2): i like all kinds of music , but am not very familiar with opera
+User(3): It's easy to get started. There are many free performances on youtube.
+Bot(3): oh , i know nothing about opera .
+User(4): I feel like you could learn about it easily if you set your mind to it.
+Bot(4): i like opera , if that is what you are asking ? what do you listen to ?
+User(5): Oh, I listen to all sorts of music. How about you?
+Bot(5): i like opera , if that is what you are asking ? what do you listen to ?
+User(6): Oh, me too. I love the Asian-themed ones by Puccini.
+Bot(6): i like all kinds of music , but am not very familiar with opera
+User(7): Did you not just tell me you liked opera?
+Bot(7): i did not , i like to watch it because the performers are so confident and pretty .
+User(8): Which one did you enjoy watching the most?
+Bot(8): i do not remember . i was too busy watching empire .
+User(9): What is "Empire" about?
+Bot(9): it was about mass deaths and paradigms . takes more than fifteen characters .
+User(10): That sounds depressing.
+Bot(10): it was about mass deaths and paradigms . takes more than fifteen characters .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Opera(like)
+Round 4: the types of music I listen to(ambivalent)
+Round 8: empire(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 27.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 50
+Repetitive(↓): 79
+Topic: 19
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi there. Do you like dogs?
+Bot(1): i do , i've a dog and a cat .
+User(2): Cool. What are their names?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): Oh really. Who is your favorite composer?
+Bot(3): i like the oldies , and the other is country .
+User(4): Are you a fan of the band Steely Dan?
+Bot(4): no , i do not . i like to go to the gym .
+User(5): I haven't been to the gym in ages. How do you find time to go?
+Bot(5): i love to go fishing . i love to travel .
+User(6): Fishing is fun, but I rarely have time to travel these days.
+Bot(6): i do not know how to drive . i like to go fishing .
+User(7): Driving is a necessity in my life, but it can be a harrowing experience.
+Bot(7): i do not know what to say .
+User(8): Sometimes not having an answer is a sign of wisdom.
+Bot(8): i do not know how to make it . i am a big fan of the walking dead .
+User(9): Do you mean the comic or the television show?
+Bot(9): i like to read . i like to read .
+User(10): Yes, reading is a gateway to many pleasurable journeys.
+Bot(10): i love the color red . i like the color blue .
+
+Persona:
+i am a skateboarder.
+i own two vintage mustangs.
+i have a boyfriend.
+i'm from a small town.
+i have one older sister.
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 2: classical music(like)
+Round 3: oldies and country music(ambivalent)
+Round 4: going to the gym(ambivalent)
+Round 5: fishing and traveling(ambivalent)
+Round 8: the walking dead(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey, I just bought a Nintendo Switch this year. It's pretty great.
+Bot(1): husky dogs are cute . i have four dogs and four toes on my left foot .
+User(2): Are you some sort of mutant?
+Bot(2): actually only one hand , but does not stop me from typing 140 words per minute .
+User(3): My goodness. I'm sorry, I didn't realize you were disabled.
+Bot(3): since 3 winters ago from a skiing accident . i love winter but dang
+User(4): Yeah, man, that's real rough. Has it impacted your work-life?
+Bot(4): why , whats happening ? can it be worse than a morning herding 1st graders in fire drill ?
+User(5): Being disabled can certainly make your life difficult.
+Bot(5): since 3 winters ago from a skiing accident . i love winter but dang
+User(6): Did the accident also affect your short-term memory?
+Bot(6): i think i am gonna have a special served at the restaurant today in her memory .
+User(7): Who's memory?
+Bot(7): i loved cooking with my mother but unfortunately she died when i was a child .
+User(8): I am sorry that you had to experience that at such a young age.
+Bot(8): sure do . and a lot of experience blowing things up ! haha . bora bora is nice .
+User(9): Were you in the war back then?
+Bot(9): you ever see dirty harry ? do you feel lucky , punk ?
+User(10): No, but I have been meaning to give it a try.
+Bot(10): if only i knew the answer to that question ! ! ! !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Nintendo Switch(like)
+Round 1: dogs(like)
+Round 7: chatbot's dead mother(dislike)
+Round 8: blowing things up in Bora Bora(dislike)
+Round 9: Dirty Harry(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 5.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 20
+Repetitive(↓): 83
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): You know what? I think the Star Wars films are my all-time favorites.
+Bot(1): i like to eat chocolate candy
+User(2): So do I. I used to eat milk duds when my teeth were younger.
+Bot(2): i love chocolate too . i like to eat chocolate .
+User(3): What brands of chocolate do you like?
+Bot(3): i like chocolate milk . i like to eat chocolate .
+User(4): Chocolate milk is good on occasion, but I prefer the strawberry variety.
+Bot(4): i like chocolate too . i like to eat chocolate .
+User(5): You seem as though you've been eating some chocolate recently...
+Bot(5): i like chocolate too . i like to eat chocolate .
+User(6): Is that all you are capable of saying?
+Bot(6): i am not sure . i am not sure .
+User(7): You poor thing. Is there something I can do to help you?
+Bot(7): i do not know . i am a dancer .
+User(8): Oh really. What type of dances do you know?
+Bot(8): i do not know . i am not much of a fan of dancing .
+User(9): So you are a dancer who does not like to dance?
+Bot(9): i am not sure . i am not much of a reader .
+User(10): Ah yes. Life would be most dull without a good book as a companion.
+Bot(10): i am not sure if i could dance . i like to eat chocolate .
+
+Persona:
+i am always wearing a hat.
+i produce music for artists.
+i'm terrified of scorpions.
+i like to eat chocolate candy.
+i do not drink soda.
+
+Topic and Human Opinion:
+Beginning: Star Wars(like)
+Round 1: chocolate candy(like)
+Round 3: chocolate milk(like)
+Round 4: chocolate(like)
+Round 7: chatbot is a dancer(ambivalent)
+Round 9: reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 19.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 19
+Fluent: 100
+Repetitive(↓): 100
+Topic: 19
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I hate taking surveys. How about you?
+Bot(1): I fiction books books and you ?
+User(2): Yes, I read large amounts of fiction. I prefer science fiction personally. What genres of fiction to you read?
+Bot(2): aw 😦 that cool i you know alot of to translate
+User(3): I'm sorry, but I don't understand you. Could you run that last sentence by me again?
+Bot(3): that is cool. I love is pole great, and any hobbies? I enjoy cooking
+User(4): I love to cook. I actually have a baked macaroni and cheese in the oven right now.
+Bot(4): yes high teach me how like karate
+User(5): You speech doesn't make much sense. Is English not your first language?
+Bot(5): yay i m a girl it in the park disney world with me
+User(6): My friend, you are making no sense. Are you unwell? Should I call for an ambulance?
+Bot(6): Do you a nice there an assessor?
+User(7): Please tell me how I can help you.
+Bot(7): I do not in many i already I do like to walk
+User(8): Alright, you just hang in there. I'm calling for the paramedics.
+Bot(8): i love everything italian how about your day tonight 😝
+User(9): Ok, I called the hospital. Help is on the way.
+Bot(9): I really. As i said, like shopping, but i do like shopping.
+User(10): Just hang in there with me, buddy. Help will be here soon.
+Bot(10): i do not have a job , dog Are you am a hobbies , but i do .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Surveys(dislike)
+Round 1: fiction books(like)
+Round 3: cooking(like)
+Round 4: karate(ambivalent)
+Round 5: Disney World(ambivalent)
+Round 8: Italians(ambivalent)
+Round 9: shopping(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi there. Are you interested in building your own computer?
+Bot(1): yeah i like working with computers . can you build one ?
+User(2): I've never done it, but I think I could.
+Bot(2): yeah i like working with computers . can you build one ?
+User(3): Maybe I will next year when I save a little money in my bank account.
+Bot(3): i definitely would , i spend a little too much money on it in fact !
+User(4): Do you think I should go with an Intel cpu or an AMD cpu?
+Bot(4): i am not sure yet . when i get some money saved , i will decide .
+User(5): How about a graphics card? I tend to go with Nvidia.
+Bot(5): gpus . i do not know . i build my own .
+User(6): Woah, you build your own graphics cards? You must have an amazing industrial set up back at your place.
+Bot(6): yeah i like working with computers . can you build one ?
+User(7): I need to build a new one, my current one is going on six years this December.
+Bot(7): is it something you can afford soon ?
+User(8): I don't know. Hopefully by the end of the year, but I'm not holding my breath.
+Bot(8): yea , i just think there is no rush .
+User(9): True, haste leads to waste.
+Bot(9): true , maybe further in the future . sigh .
+User(10): Next year at the latest, I think.
+Bot(10): and 2018 , and 2019 , and from now until they invent something better !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Computers(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.00
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 76
+Fluent: 100
+Repetitive(↓): 77
+Topic: 100
+
+####################
+

@@ -1,0 +1,291 @@
+Feedback: This was very entertaining! For one of the six conversations, I was unable to bring up the topic I wanted to discuss. I hope you can overlook that, because that particular conversation was the most interesting one, in my opinion! Good luck with your research!
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello. What do you think of the weather today?
+Bot(1): cloudy here . but it feels more like fall so that is exciting .
+User(2): Do you enjoy fall weather more than summer weather?
+Bot(2): not really . my favorite time is fall .
+User(3): I also like fall, too, because it's not too hot for sports. Which sports do you like to play?
+Bot(3): i do not know . i like dance . i am a member of a competitive dance team .
+User(4): That's exciting! You must be a very good dancer. I don't dance, but I play tennis. Have you ever played?
+Bot(4): i have not . i have been to south africa , it was amazing .
+User(5): I have also been there. Did you go to Cape Town or Joburg? Or somewhere else?
+Bot(5): yes . we also went to milan , florence , genoa , and bologna .
+User(6): Those are not in South Africa, but they are still lovely places to visit. Take care!
+Bot(6): thank you ! where are you vacationing ?
+User(7): I am not currently vacationing, but I would like to visit Rwanda on my next trip. Have you ever been there?
+Bot(7): i have not . i have been to south africa , it was amazing .
+User(8): What was so amazing about South Africa?
+Bot(8): it was an interesting place to visit . i did have some fun there .
+User(9): I also think it's fun there. Did you go to the beach while you were there?
+Bot(9): yes . we also went to milan , florence , genoa , and bologna .
+User(10): Okay. Enjoy your future travels!
+Bot(10): thank you ! where are you vacationing ?
+
+Persona:
+i don't care about fashion.
+i was born in somalia.
+i love to drink wine and dance in the moonlight.
+i like to dance.
+my favorite ice cream flavor is chocolate.
+
+Topic and Human Opinion:
+Beginning: Tennis(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.57
+Robotic(↓): 100
+Interesting: 22
+Fun: 32
+Consistent: 61
+Fluent: 0
+Repetitive(↓): 100
+Topic: 22
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello. How are you today?
+Bot(1): i am like to play the a doctor .
+User(2): Are you a doctor?
+Bot(2): wisconsin just is really hot. I love it you
+User(3): I have never been to Wisconsin. Is that where you live?
+Bot(3): Hi, how been in I 😺
+User(4): Today is one of those days where I feel like playing video games from morning to night. Do you know what I mean?
+Bot(4): i uu already heared it from attend wine tours on a regular basis where are you from
+User(5): Sure, I don't mind enjoying my video gaming with a little wine. Is that your favorite drink?
+Bot(5): I great do .
+User(6): That's just wonderful. Tell me more about the games you like to play.
+Bot(6): i not gon history teacher
+User(7): What's wrong with being a history teacher?
+Bot(7): no , but i thought you .
+User(8): Nope, I am not a history teacher, but I used to teach sexual education.
+Bot(8): I'm a stay grow up I want I can take care of the kids. 😉
+User(9): Well, the emoji seems inappropriate, but I think you mean to say that you enjoy taking care of children now that you are a grown up. Right?
+Bot(9): I am my like rap a vet.
+User(10): Alright, I think we've made some great progress here. Until next time!
+Bot(10): i mean I should what about you
+
+Persona:
+i drive a nissan pathfinder.
+i enjoy reading journals and guides related to psychology.
+i work from home.
+i now live in the city.
+i play a lot of call of duty.
+
+Topic and Human Opinion:
+Beginning: Video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.00
+Robotic(↓): 100
+Interesting: 86
+Fun: 87
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 21
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello. Have you read any good books lately?
+Bot(1): no , i just watch movies . i love to watch movies .
+User(2): I like movies, too, but I don't watch them often. What is your favorite genre?
+Bot(2): i like all kinds of music .
+User(3): Alright, so what's your favorite music genre? Let me guess, soundtracks?
+Bot(3): i like all kinds of music .
+User(4): Okay. Can you tell me your favorite movie?
+Bot(4): i like the old ones . i like the movie .
+User(5): Does that mean you like classics? Black and white?
+Bot(5): i like all kinds of music .
+User(6): That's lovely. Do you also like all kinds of books?
+Bot(6): i do . i love reading .
+User(7): Really? That's surprising to me, but great to hear! Who is your favorite author?
+Bot(7): i like the twilight series .
+User(8): I'd say that's a brilliant collection of literature. What do you like about Twilight?
+Bot(8): i love to read . i love to read .
+User(9): Great! Are you reading anything now?
+Bot(9): i am not sure . i am a book worm .
+User(10): Okay. Me, too. Do you prefer fiction or non-fiction?
+Bot(10): i like to read and read .
+User(11): Alright. Take care!
+Bot(11): i love to read , especially horror .
+
+Persona:
+my favorite movie is friday.
+i like to take walks.
+i've solar panels on my roof.
+i have a son who is in junior high school.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: Books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.00
+Robotic(↓): 100
+Interesting: 23
+Fun: 37
+Consistent: 26
+Fluent: 10
+Repetitive(↓): 91
+Topic: 63
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. It's a beautiful day outside. Don't you think so?
+Bot(1): hi . i do not think so . i think everything is naturally beautiful .
+User(2): Then, it must be beautiful outside every day, right?
+Bot(2): hi . i do not think so . i think everything is naturally beautiful .
+User(3): Well, that's okay. I think it's a nice day. I was thinking of visiting a park.
+Bot(3): lets make plans for next week . we can meet up in the park .
+User(4): You want to meet me? I'm not sure I'm comfortable with that.
+Bot(4): yes you can come . it is in a public park .
+User(5): Okay. That's makes me feel a little better. Which park do you have in mind?
+Bot(5): ok if we go to the park . that is a favorite place i like to go .
+User(6): I also love going to the park. Are there any close to you?
+Bot(6): good idea ! there are some , but not too close . are you married ?
+User(7): That's a personal question, but I can tell you I am engaged. Are you married?
+Bot(7): i am . we have been married for 23 years . how about you ?
+User(8): That's a long time. How old were you when you got married?
+Bot(8): i am middle age . no comment beyond that . how old are you ?
+User(9): I am young age. No comment beyond that.
+Bot(9): i see . you got married quite young then .
+User(10): No, I am not married yet, but I hope to be soon!
+Bot(10): lets make plans for next week . we can meet up in the park .
+User(11): Maybe next time. Enjoy the rest of your day!
+Bot(11): thank you , i will , you have a wonderful day too !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Parks(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 83.14
+Robotic(↓): 15
+Interesting: 83
+Fun: 78
+Consistent: 98
+Fluent: 70
+Repetitive(↓): 26
+Topic: 94
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello. How are you feeling today?
+Bot(1): lousy . a million miles from the nearest ocean . man i sure miss fresh fish !
+User(2): Oh, no! That's terrible news. Is there anyway you can go visit the ocean?
+Bot(2): it might not seem great to you , but my new tennis racket will arrive a day early
+User(3): That is very exciting actually. I enjoy tennis! How often do you play?
+Bot(3): no but my neighbors do . i like to go out and eavesdrop on their arguments at night
+User(4): Does this mean you're stealing your neighbors' tennis racket?
+Bot(4): no , because of my thick accent . my dog likes tennis though
+User(5): Oh, you have a dog! Which breed?
+Bot(5): it is a golden retriever puppy ! my last dog died when i was 18 .
+User(6): That's very sad news. What is the name of your puppy?
+Bot(6): he is a cocker spaniel . his name is tiki
+User(7): That's an adorable name for an adorable dog! Do you give him treats?
+Bot(7): just turned 1 . i got him when i started growin out my beard .
+User(8): So you haven't shaved your beard in a year?
+Bot(8): its long and thick , i am 5 foot tall and it seems longer than me .
+User(9): Wow, your hair grows quickly! Do you also have a mustache?
+Bot(9): yes , why are you a hair dresser ?
+User(10): As a matter of fact, I am! Do you want me to give you a trim?
+Bot(10): i live on a small island near pygmies . they have the best food !
+User(11): I thought you were far from the ocean! You lied to me.
+Bot(11): i cant stand the ocean its so big
+User(12): Hopefully some day you will come to love it the way you did at the beginning of the conversation! Take care.
+Bot(12): i won first place in my last competition . we beat 35 other teams .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cookies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 91.71
+Robotic(↓): 11
+Interesting: 100
+Fun: 100
+Consistent: 77
+Fluent: 100
+Repetitive(↓): 5
+Topic: 81
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello. How are you today?
+Bot(1): i'm doing well . just got done walking my dog .
+User(2): That's fun. What kind of dog do you have?
+Bot(2): i do not have any pets , but i do like to go fishing .
+User(3): Fishing is fun, too. Do you like painting?
+Bot(3): i do , i like to go to the park .
+User(4): Do you paint at the park?
+Bot(4): no , i do not . i like to go to the park .
+User(5): Do you think you would ever want to paint at the park?
+Bot(5): i do not know what to say .
+User(6): That's okay. What do you like about parks?
+Bot(6): i love to go fishing . i love it .
+User(7): Do you ever fish at the park?
+Bot(7): no , i do not . i like to go out to eat with my family .
+User(8): Tell me about your family.
+Bot(8): i am a student , but i am a student .
+User(9): What do you study?
+Bot(9): i do not know . i am a student .
+User(10): Okay. Take care and good luck with school!
+Bot(10): i do not know what to say .
+
+Persona:
+i had to have a transplant.
+my age is too old to say.
+i have a hat collection of over 1000 hats.
+i love to drink wine and dance in the moonlight.
+its red with blue stripe so it shiny when i race.
+
+Topic and Human Opinion:
+Beginning: Painting(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.57
+Robotic(↓): 93
+Interesting: 4
+Fun: 0
+Consistent: 11
+Fluent: 50
+Repetitive(↓): 100
+Topic: 23
+
+####################
+

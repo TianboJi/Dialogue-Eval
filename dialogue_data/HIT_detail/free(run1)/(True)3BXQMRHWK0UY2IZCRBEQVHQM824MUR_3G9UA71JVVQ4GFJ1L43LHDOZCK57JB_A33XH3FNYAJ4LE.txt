@@ -1,0 +1,299 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): Pretty good, just got off a long hike
+Bot(2): i love hiking , i like mountain biking
+User(3): I used to mountain bike when I was younger. Now I just using my own two feet
+Bot(3): i am deaf so i am deaf so i am deaf .
+User(4): Have you always been deaf?
+Bot(4): no i am deaf so i am deaf
+User(5): I get that. When did you lose your hearing?
+Bot(5): i do not know . i am deaf so i am deaf .
+User(6): At least you can still hike, you don't need to hear to enjoy nature
+Bot(6): i do not have time for anything . i am deaf so i do not have time .
+User(7): You can always make time if you try
+Bot(7): i do not like nature , i am deaf so i do not have time for anything
+User(8): Why don't you like nature?
+Bot(8): i love nature , i am deaf so i do not like nature
+User(9): I think even if you're deaf you can still enjoy the forest and the hills
+Bot(9): i am sorry to hear that . i am deaf so i am deaf
+User(10): Don't be sorry I am just a big fan of the outdoors
+Bot(10): i like to go to mountain biking
+User(11): How often do you go biking?
+Bot(11): i hike a lot , but i do not like the outdoors
+
+Persona:
+i'm very strong for my age.
+i am a stunt double as my second job.
+i enjoy mountain biking as a hobby.
+i work in it and have been at the same company for 15 years.
+i am partly deaf.
+
+Topic and Human Opinion:
+Beginning: Hiking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.86
+Robotic(↓): 90
+Interesting: 57
+Fun: 67
+Consistent: 83
+Fluent: 78
+Repetitive(↓): 96
+Topic: 78
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey
+Bot(1): helloooo
+User(2): How's it going?
+Bot(2): its good thanks for asking
+User(3): Awesome. So what are you into?
+Bot(3): angry . i just watch some videos about people eating animals .
+User(4): Really? What kind of animals?
+Bot(4): animals . they are what matter
+User(5): Yeah I care for animals. But we have to eat meat to be healthy.
+Bot(5): i see i could respect that . i myself do not eat meat .
+User(6): Are you vegan or vegetarian?
+Bot(6): oh not vegetarian , but veterinarian . someone that take care of animals
+User(7): How long have you been taking care of animals?
+Bot(7): ten years or so . i do not like the meat though . i donate it .
+User(8): You can donate to me, I'll take all the meat
+Bot(8): which charities do you generally donate too ? i can help .
+User(9): I only give to charities that benefit Americans
+Bot(9): which charities do you generally donate too ? i can help .
+User(10): I donate to a land trust charity that protects land from development in my state
+Bot(10): are you an animal activist ?
+User(11): I care about animals but I am not an activist
+Bot(11): it is a lifestyle , i do not use animal products , but i raise awareness too
+
+Persona:
+i'm a famous twitch streamer.
+i work took i've a part time job at burger king.
+i'm a doctor.
+i am an animal activist.
+i've brown curly hair.
+
+Topic and Human Opinion:
+Beginning: Woodworking(like)
+Round 3: eating animals(ambivalent)
+Round 8: charities(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 69.29
+Robotic(↓): 60
+Interesting: 85
+Fun: 88
+Consistent: 69
+Fluent: 89
+Repetitive(↓): 23
+Topic: 37
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey how goes it?
+Bot(1): hey oh ! good . bu ?
+User(2): Doing good. What are you up to?
+Bot(2): same
+User(3): Are you into video games?
+Bot(3): sure
+User(4): What kind of video games do you play?
+Bot(4): mmorpgs mainly
+User(5): Nice! I used to play those a ton when I was younger. EverQuest was my favorite.
+Bot(5): me too . i did not like all the glitches they had .
+User(6): Yeat it was a pretty rough game at times. But it was one of the first.
+Bot(6): yeah , i was never a fan of it . my friends played it often .
+User(7): I liked how free it was. You had to go out and get things done. Now they all hold your hand.
+Bot(7): yeah its gotten pretty crazy with those graphics . whats your favorite ?
+User(8): Right now it's probably Lord of the Rings Online. I'm a big Tolkien fan.
+Bot(8): me too . i did not like all the glitches they had .
+User(9): I think LOTRO is pretty polished at this point. It's not as free but the story is good.
+Bot(9): me too . i did not like all the glitches they had .
+User(10): Yeah glitches can really take you out of the game world
+Bot(10): me too . i did not like all the glitches they had .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.00
+Robotic(↓): 80
+Interesting: 86
+Fun: 79
+Consistent: 96
+Fluent: 82
+Repetitive(↓): 72
+Topic: 71
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hey, how are you doing?
+Bot(1): it sure helped me recovering alcoholic. i'm a long divorce
+User(2): I'm sorry to hear that. Things will get better
+Bot(2): That do you look you like hockey?
+User(3): Yeah I like hockey but I don't watch it much
+Bot(3): nice . i would like to see jb with hair love to am a man curly . would be funny
+User(4): Is jb a hockey player?
+Bot(4): It love navy you hockey more.
+User(5): What is your favorite hockey team?
+Bot(5): I see. place is there, i do for work?
+User(6): Are you a hockey player?
+Bot(6): You can teach have 3 children, knit?
+User(7): Yeah I actually do have 3 kids. I don't think they've ever seen a hockey game
+Bot(7): do you like dogs? I as u a male name is knitting
+User(8): I have one dog. A lab mix. Do you have any dogs?
+Bot(8): I like a part of my to the beach
+User(9): I don't live near a beach but I bet my dog would love it
+Bot(9): I am a teacher, but rock music right now. a job
+User(10): What do you teach?
+Bot(10): i love do you
+User(11): Yes I love
+Bot(11): British for comma
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Trump(like)
+Round 2: hockey(ambivalent)
+Round 7: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 41.57
+Robotic(↓): 6
+Interesting: 25
+Fun: 65
+Consistent: 8
+Fluent: 14
+Repetitive(↓): 35
+Topic: 20
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am doing well . how are you ?
+User(2): I am doing pretty good. Thank you for asking.
+Bot(2): i am doing well . just got done walking my dog .
+User(3): What kind of dog do you have?
+Bot(3): i do not have any pets , but i do like to go fishing .
+User(4): Fishing is a lot of fun. It's nice to go out with the dog and do something outdoors
+Bot(4): i love to travel . i love to travel .
+User(5): What kind of places do you travel to?
+Bot(5): i love to travel . i love to travel .
+User(6): I do too. I like to head to the coast and spend time on the beach
+Bot(6): that sounds like a good time . i love to go fishing .
+User(7): I've never fished on the beach but I have seen others do it
+Bot(7): i do not know what to say .
+User(8): Are you planning to travel anytime soon?
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): What is your favorite tune?
+Bot(9): i like the color red . what is yours ?
+User(10): Green
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i am 40 years old.
+i don't pick up my toys.
+i'm a piano teacher on the side.
+i'll be released in about a month.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 4: travel(like)
+Round 8: classical music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 62.29
+Robotic(↓): 31
+Interesting: 74
+Fun: 65
+Consistent: 43
+Fluent: 85
+Repetitive(↓): 32
+Topic: 32
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hi there a big ten four from the old boy
+User(2): Heck yeah, you having a good night?
+Bot(2): yes . my work is definitely weird . i just live a weird life . lol .
+User(3): What kind of work d you do?
+Bot(3): yeah so give me the alpacas or we will have a problem
+User(4): I've never seen an alpaca
+Bot(4): oh yes i have seen crabs and jelly fish and all kind of fish out there
+User(5): I love to go crabbing, used to do it all the time when I was younger
+Bot(5): my apartment is on the third floor , i hate walking up all those stairs !
+User(6): Don't you have an elevator?
+Bot(6): yes , two dogs and two cats . i also have a two year old son .
+User(7): That's good. Kids love to have animals around.
+Bot(7): i have two . they are both in soccer so it gets a little hectic
+User(8): I bet. Soccer is a good activity though. Helps burn through all their energy
+Bot(8): soccer is a great sport . i like doing my nails . do you ?
+User(9): Yes I actually do like having my nails done
+Bot(9): i will paint my nails . having nails makes it easier to turn book pages .
+User(10): WHat colour will you paint them?
+Bot(10): what do you like to paint ?
+
+Persona:
+i just want to have fun with my friends.
+i'm working on a building a robot to be my body double.
+i visit europe twice a year.
+i'm in the third grade.
+i'm a boy.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 4: animals(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 61.71
+Robotic(↓): 60
+Interesting: 74
+Fun: 82
+Consistent: 56
+Fluent: 67
+Repetitive(↓): 25
+Topic: 38
+
+####################
+

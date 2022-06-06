@@ -1,0 +1,298 @@
+Feedback: This was very unique, I enjoyed this.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hello . how are you ?
+User(2): I am great, how are you and your family?
+Bot(2): just me , my wife and kids . after running we may visit american eagle for some shopping .
+User(3): Does your family raise horses?
+Bot(3): i love horses but i can not ride i have an extreme fear of heights
+User(4): Have you tried to ride horses?
+Bot(4): i do not have any horses , do you enjoy any sports ? i watch football
+User(5): I like baseball
+Bot(5): what team do you play for ?
+User(6): i don't play baseball, but i do like to watch it
+Bot(6): what is your favorite team
+User(7): my favorite team is the cleveland indians
+Bot(7): i love the celtics , they are a good team . what soccer team do you like ?
+User(8): i dont like soccer
+Bot(8): that is cool ! ! are you on a soccer team ?
+User(9): no i dont like soccer
+Bot(9): soccer is fun , i played when i was little .
+User(10): what was the name of your team?
+Bot(10): i love the celtics , they are a good team . what soccer team do you like ?
+
+Persona:
+my favorite food is papaya.
+i'm on the soccer team.
+i am deathly afraid of heights.
+i love social medial especially twitter.
+i am scared of dying.
+
+Topic and Human Opinion:
+Beginning: my family has raised horses for a generations.(like)
+Round 4: sports/ football(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 36.29
+Robotic(↓): 100
+Interesting: 61
+Fun: 55
+Consistent: 21
+Fluent: 60
+Repetitive(↓): 65
+Topic: 22
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): i like to ride horses, do you?
+Bot(2): sometimes
+User(3): do you like horses?
+Bot(3): i am too afraid to ride them .
+User(4): what about horses scares you?
+Bot(4): horses , i think they are free spirits , just like me . what is your favorite ?
+User(5): i like ponies
+Bot(5): really ? how does it scare you ?
+User(6): it doesn't scare me
+Bot(6): really ? how does it scare you ?
+User(7): im not scared to ride
+Bot(7): really ? how does it scare you ?
+User(8): I am not afraid
+Bot(8): do you like horses a lot
+User(9): Yes, I love horses. They are very beautiful.
+Bot(9): yes they are , so very sweet
+User(10): Do you have any horses?
+Bot(10): not yet . i want a horse some day .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to ride horses.(like)
+Round 6: how does it scare you?(ambivalent)
+Round 9: horses(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.29
+Robotic(↓): 100
+Interesting: 22
+Fun: 34
+Consistent: 9
+Fluent: 24
+Repetitive(↓): 100
+Topic: 4
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): i know right ▶ that "learn to move objects hates me too
+User(2): What do you mean?
+Bot(2): I do not know you not sure .
+User(3): I'm a little girl?
+Bot(3): what is your favorite I am a museum my favourite
+User(4): That doesn't make any sense.
+Bot(4): that is cool too . i've a degree in daughter with me. She's a use it .
+User(5): I watch too much tv.
+Bot(5): it can be. do to the music alaska?
+User(6): Do you like music?
+Bot(6): My do you like What is yours?
+User(7): I like country music. What do you like to listen too??
+Bot(7): you I have a of questions lol
+User(8): What kind of music do you listen too?
+Bot(8): You you have a day. 😄
+User(9): You're not making any sense.
+Bot(9): i you are against like my dog every day .
+User(10): i have a dog, his name is spot.
+Bot(10): i what's live near around i am a huge reader .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a little girl.(ambivalent)
+Round 4: i watch too much tv in spare time.(like)
+Round 5: music /alaska(ambivalent)
+Round 9: dog(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user wants the bot to change the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 1
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): I am great, thank you for asking.
+Bot(2): what do you do for a living ?
+User(3): I do not work currently, what do you do?
+Bot(3): i work at a restaurant , what about you ?
+User(4): I do not work.
+Bot(4): i am a student , but i am a student .
+User(5): That is nice, do you like school?
+Bot(5): i do , i love to cook .
+User(6): I like to cook too! What is your favorite meal?
+Bot(6): i like pizza , and i love it .
+User(7): I like pizza too!
+Bot(7): i like to eat fish .
+User(8): Fish is also very tasty.
+Bot(8): i like to eat too much junk food .
+User(9): I eat too much candy
+Bot(9): i like to eat fish .
+User(10): I like to eat bread.
+Bot(10): i like to eat fish .
+
+Persona:
+i like shopping.
+i have 5cats.
+i have 5cats.
+i like to watch nhl hockey.
+i am currently in a juvenile detention center.
+
+Topic and Human Opinion:
+Beginning: i'm a little girl.(dislike)
+Round 5: cooking(like)
+Round 9: favorite food(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 23.43
+Robotic(↓): 100
+Interesting: 15
+Fun: 16
+Consistent: 38
+Fluent: 68
+Repetitive(↓): 80
+Topic: 7
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): I am great, how are you?
+Bot(2): i am doing well . how are you ?
+User(3): I'm ex military.
+Bot(3): i'm not a big fan of cars . i like to dance .
+User(4): I like to dance as well
+Bot(4): i am a dancer , i am a dancer .
+User(5): That is very cool
+Bot(5): i like to dance to dance .
+User(6): Where do you dance?
+Bot(6): i dance for a living . i love to dance .
+User(7): Me too, where do you dance?
+Bot(7): i dance in a club
+User(8): That is great. What is your favorite dance move?
+Bot(8): i like to dance . i am a vegan .
+User(9): I am not vegan
+Bot(9): i am a vegetarian , i eat meat .
+User(10): If you are vegetarian then you shouldn't eat meat.
+Bot(10): i do not eat meat , i do not like to eat meat
+
+Persona:
+i don't pick up my toys.
+i have visited spain a times.
+i like to look at blocks and sing about letters.
+i like to dance.
+i am a vegetarian.
+
+Topic and Human Opinion:
+Beginning: i'm ex military.(ambivalent)
+Round 3: dancing(like)
+Round 8: vegan(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 32.29
+Robotic(↓): 100
+Interesting: 35
+Fun: 50
+Consistent: 17
+Fluent: 71
+Repetitive(↓): 67
+Topic: 20
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, my cats are very special to me.
+Bot(1): i like cats . . . but love men more .
+User(2): My cat is special because it doesn't have any fur.
+Bot(2): well that sounds cool . i own a cat because i am lonely .
+User(3): Is your cat special?
+Bot(3): no , she is a very annoying cat .
+User(4): Why is your cat annoying?
+Bot(4): because i am a woman , and is old
+User(5): That doesn't make any sense.
+Bot(5): because they cut into my gaming time man !
+User(6): Your cat does?
+Bot(6): no , she is a very annoying cat .
+User(7): What do you like about your cat?
+Bot(7): i am a cat person .
+User(8): ok, what kind of cat do you have?
+Bot(8): i have a calico cat .
+User(9): Those are very pretty cats!
+Bot(9): i do love all kinds of cats .
+User(10): What is your cat's name?
+Bot(10): my cats name is oreo .
+
+Persona:
+i have an internet addiction and spend a lot of time playing roleplaying games.
+i'm married to a doctor.
+i enjoy american sports.
+i'm a woman.
+i've blue eyes and red hair that comes to my waist.
+
+Topic and Human Opinion:
+Beginning: my cats are very special to me.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.71
+Robotic(↓): 100
+Interesting: 38
+Fun: 32
+Consistent: 40
+Fluent: 57
+Repetitive(↓): 62
+Topic: 80
+
+####################
+

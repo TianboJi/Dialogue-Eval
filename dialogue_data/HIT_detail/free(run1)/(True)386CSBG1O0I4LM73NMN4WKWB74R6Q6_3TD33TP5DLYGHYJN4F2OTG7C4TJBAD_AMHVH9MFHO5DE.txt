@@ -1,0 +1,306 @@
+Feedback: Thanks for the opportunity to help.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hi , how are you ?
+User(2): I am doing fine. How are you?
+Bot(2): i'm doing well . how are you ?
+User(3): Very well.
+Bot(3): i am doing well . i am just getting ready for work .
+User(4): Great to hear
+Bot(4): i am looking for a job at a restaurant .
+User(5): what kind?
+Bot(5): i am looking for a job at a restaurant .
+User(6): Are you a chef?
+Bot(6): i am a doctor . i am a doctor .
+User(7): what kind of doctor?
+Bot(7): a restaurant . i am a doctor .
+User(8): do you like football/
+Bot(8): i am a doctor . i am a doctor .
+User(9): I like football
+Bot(9): i am not a big fan of football . i am a huge reader .
+User(10): I like reading too
+Bot(10): i am a college student . i am a doctor .
+User(11): that is a busy life.
+Bot(11): i am a college student . i am a doctor .
+User(12): how do you have time to work
+Bot(12): i do . i am a doctor .
+User(13): at a restaurant
+Bot(13): i am a college doctor . i am a doctor .
+User(14): what college?
+Bot(14): i am a college student . i am a doctor .
+
+Persona:
+i'll be released in about a month.
+i am currently looking for a job preferably at a restaurant.
+i'm married.
+i am a doctor.
+i am a feminist.
+
+Topic and Human Opinion:
+Beginning: football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.14
+Robotic(↓): 100
+Interesting: 5
+Fun: 4
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 95
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi how are you?
+Bot(1): i am good . how are you doing ?
+User(2): good
+Bot(2): good , my daughter is napping so i am shopping online . might go swimming today
+User(3): do you like football?
+Bot(3): football is fun , whats your favorite team ?
+User(4): I like the Chiefs
+Bot(4): pizza is good too . like my pizza greasy , how about you ?
+User(5): I like thin crust
+Bot(5): me too , i switched to a healthy vegan diet even though i raise animals .
+User(6): vegan is healthy
+Bot(6): not a vegan , a vegetarian .
+User(7): I thought you typed vegan, sorry
+Bot(7): oh man . i could not live without pizza . it is my favorite !
+User(8): Pizza is great
+Bot(8): ha pizza is my favorite food also .
+User(9): so you like pizza?
+Bot(9): i love pizza , who does not like it ?
+User(10): what is your favorite topping?
+Bot(10): oh sushi ! i want to go to tokyo . do you travel ?
+User(11): not currently with the pandemic
+Bot(11): upstate new york near jamestown ny
+User(12): I like sushi
+Bot(12): my mom came back from a wedding she worked at and brought some home !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: football(like)
+Round 4: pizza(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 41.71
+Robotic(↓): 81
+Interesting: 67
+Fun: 50
+Consistent: 38
+Fluent: 50
+Repetitive(↓): 50
+Topic: 18
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like sushi?
+Bot(1): hello ! yes , i do . what kind do you like ?
+User(2): Tuna and salmon
+Bot(2): tuna is pretty good .
+User(3): I like philadelphia roll
+Bot(3): i love me some sushi
+User(4): what kind do you like?
+Bot(4): i like salmon and red snapper
+User(5): I love both of those a lot
+Bot(5): i like them as well
+User(6): which is your favorite?
+Bot(6): i do not have one i love them all the same
+User(7): I really like sushi
+Bot(7): i like it as well .
+User(8): where do you eat sushi?
+Bot(8): pizza place most of the time
+User(9): why there?
+Bot(9): i just like going there . i do not have one particular reason .
+User(10): pizza and sushi are good together
+Bot(10): yes but that is so messy
+User(11): I don't mind the mess the tasty sushi is worth the mess
+Bot(11): yes but that is so messy
+
+Persona:
+i am a librarian.
+i am an electrician.
+i have short hair.
+i have a big library at home.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: sushi(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.86
+Robotic(↓): 73
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 20
+Topic: 70
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi do you like pizza?
+Bot(1): I nice for me me of summer.
+User(2): what kind of pizza do you like?
+Bot(2): great . done with classes and have plans to all like to spend my . you ? 🙊
+User(3): Just talking about pizza
+Bot(3): I do love gaming. what do ride horses
+User(4): I like eating pizza
+Bot(4): Do you too. I like any games?
+User(5): no games
+Bot(5): well that is not good one brother and three neither, you do for fun ? 😝
+User(6): Just pizza and friends
+Bot(6): I am doing well. Just got student of would be pizza. drinking beer. Do you drink alcohol?
+User(7): I dont at all. Just pizza
+Bot(7): My the kind people in the lab spoken in three months. me now.
+User(8): pizza is my favorite food
+Bot(8): I ю лайк ту in france.
+User(9): never been to france
+Bot(9): I is do not of friends
+User(10): me too
+Bot(10): Oh I Russia. And but hobbies?
+
+Persona:
+i spend a lot of time browsing the internet.
+i am a mechanical engineer.
+i'm 24 years old.
+i have one brother.
+i plan to go to business school next year.
+
+Topic and Human Opinion:
+Beginning: pizza(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 1
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi do you like pizza?
+Bot(1): yes
+User(2): what is your favorite?
+Bot(2): pizza is definitely my favorite
+User(3): what is your favorite kind of pizza
+Bot(3): pizza is definitely my favorite
+User(4): what do you like on your pizza
+Bot(4): pizza is definitely my favorite
+User(5): why is pizza your favorite?
+Bot(5): the way i love pizza
+User(6): how do you love pizza?
+Bot(6): the way i love pizza
+User(7): but I love pizza a lot too
+Bot(7): what is your favorite pizza ?
+User(8): thin crust with everything
+Bot(8): you must really love pizza
+User(9): I really love all the pizza toppings
+Bot(9): me too its the best
+User(10): what is your favorite pizza?
+Bot(10): pizza is definitely my favorite
+User(11): what topping do you like?
+Bot(11): pizza is definitely my favorite
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pizza(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.43
+Robotic(↓): 100
+Interesting: 29
+Fun: 28
+Consistent: 31
+Fluent: 20
+Repetitive(↓): 77
+Topic: 82
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi do you like sushi?
+Bot(1): i do , i like to eat .
+User(2): what is your favorite sushi?
+Bot(2): i like pizza , and pizza .
+User(3): I have never tried pizza sushi
+Bot(3): i like to eat fish .
+User(4): I like sushi fish
+Bot(4): i like to eat fish .
+User(5): what kind of sushi do you eat?
+Bot(5): i like pizza and pizza .
+User(6): what kind of pizza do you eat?
+Bot(6): i like pizza and pizza .
+User(7): what kind?
+Bot(7): i like to go to the gym and listen to music .
+User(8): and eat pizza?
+Bot(8): i do not really like it . i like to eat .
+User(9): do you like pizza?
+Bot(9): i do , i love it .
+User(10): what kind of pizza?
+Bot(10): i like pizza , and pizza .
+User(11): do you like sushi?
+Bot(11): i do , i like to eat .
+User(12): do you eat music?
+Bot(12): no , i do not , but i do like to eat .
+User(13): what do you like to eat?
+Bot(13): i like pizza , and pizza .
+
+Persona:
+i play a lot of call of duty.
+i am 24 years old.
+i am fluent in english spanish and french.
+i used to be a painter but now i'm a housekeeper.
+i am a woman.
+
+Topic and Human Opinion:
+Beginning: sushi(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.29
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 12
+
+####################
+

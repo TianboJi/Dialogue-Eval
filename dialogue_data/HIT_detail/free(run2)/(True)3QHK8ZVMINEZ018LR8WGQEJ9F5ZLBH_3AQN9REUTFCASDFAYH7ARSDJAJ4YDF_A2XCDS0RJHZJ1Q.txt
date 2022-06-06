@@ -1,0 +1,304 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi! What is your opinion about dogs?
+Bot(1): i have no idea . i am not much of a dog person .
+User(2): I love dogs! I have 3 dogs.
+Bot(2): that is awesome ! my dogs are all home . there are 3 ! ! !
+User(3): I thought you said you weren't a dog person?
+Bot(3): i will be your best one ! ! ! we can walk my 3 dogs .
+User(4): I would like to walk the 3 dogs.
+Bot(4): i love dogs ! ! ! ! i want to bring mine too !
+User(5): Of course! We can walk all the dogs.
+Bot(5): awesome , i come with a dog collar
+User(6): That is good. Dog collars are good to have.
+Bot(6): yes i agree they are very nice to have
+User(7): What is your favorite kind of dog?
+Bot(7): a german shepherd , but i like all animals .
+User(8): I have a german shepherd!
+Bot(8): mine too ! i love dogs !
+User(9): Dogs are great. Don't know what I would do without mine.
+Bot(9): they are and very loyal .
+User(10): Very loyal and lovable.
+Bot(10): they are and very loyal .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.43
+Robotic(↓): 100
+Interesting: 50
+Fun: 35
+Consistent: 21
+Fluent: 65
+Repetitive(↓): 81
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like camping?
+Bot(1): that me have a motorcycle for a dog .
+User(2): Do you travel with your dog often?
+Bot(2): i talk to volunteer for local bunny a l. how are you this afternoon ? 😀
+User(3): I am good. What volunteer place do you go to?
+Bot(3): great what did time with a retire from
+User(4): I retire at about 9pm. When do you retire?
+Bot(4): yes. is mister i party animal.
+User(5): How are you a party animal?
+Bot(5): I teach kindergarten at to not cool! What teach kindergarten.
+User(6): I do not teach kindergarten.
+Bot(6): do you i am 23 and have a brother and three sisters
+User(7): I have an older brother.
+Bot(7): I do, but you like to am rid of them.
+User(8): You don't like your brother?
+Bot(8): You don't understand attractive.
+User(9): Your brother is attractive?
+Bot(9): nothing wrong with hunting . i am even the head i'm ur makes no club
+User(10): Why don't you like hunting?
+Bot(10): do you ever have to move? i told that i am dealer.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Camping(like)
+Round 1: motorcycle seat for their dog(dislike)
+Round 2: Bunnies and how I am.(ambivalent)
+Round 3: What did time with a retire from(dislike)
+Round 4: party animal(dislike)
+Round 5: teaching kindergarten(dislike)
+Round 6: Age and family(ambivalent)
+Round 9: Hunting(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 5.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 64
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like camping?
+Bot(1): i do , i love to travel .
+User(2): Traveling out of town to be with nature is always nice.
+Bot(2): i love to go fishing .
+User(3): Fishing is a great part of camping. I like the camp fire.
+Bot(3): i love the ocean . i love it .
+User(4): I love the ocean too! I do get wary about what is in the water though.
+Bot(4): i like to go to the gym and listen to music .
+User(5): I love music. Everything to do with music. What is your favorite genre?
+Bot(5): i like the oldies , but i like to listen to music .
+User(6): What is your favorite song?
+Bot(6): i like the color red . i like the color blue .
+User(7): What is your favorite color?
+Bot(7): i like blue , i like blue .
+User(8): I like purple.
+Bot(8): i like to eat too much junk food .
+User(9): Junk food tastes good but it is so bad for you.
+Bot(9): i like to go to the gym and listen to music .
+User(10): What gym do you go to?
+Bot(10): i love to travel . i love to travel .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Camping(like)
+Round 3: Ocean(like)
+Round 4: the gym and music(like)
+Round 6: Color(like)
+Round 8: eating junk food(ambivalent)
+Round 9: gym and music(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 39.71
+Robotic(↓): 85
+Interesting: 59
+Fun: 66
+Consistent: 41
+Fluent: 50
+Repetitive(↓): 86
+Topic: 33
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is your favorite genre of music?
+Bot(1): i like quite a few genres , mostly fiction .
+User(2): Not books, music.
+Bot(2): i read all the time . my girlfriend got me to read twilight and i actually loved it .
+User(3): I read twilight. It wasn't too bad but I prefer Harry Potter.
+Bot(3): love harry potter . i am actually dying my hair back to black . it is red at the moment .
+User(4): That is cool! I have blonde hair.
+Bot(4): i have blonde hair and like it .
+User(5): I thought you said your hair was red?
+Bot(5): i see , do you want to dye it red ?
+User(6): No I thought your hair was red.
+Bot(6): cool what color do you want to dye it ?
+User(7): I would like to dye my hair with red highlights.
+Bot(7): what color would you dye it ?
+User(8): red.
+Bot(8): is not red great ! my purse is scarlet and my lipstick is fire engine red .
+User(9): That is cool. What color do you want to dye your hair.
+Bot(9): what color would you dye it ?
+User(10): I asked you.
+Bot(10): sometimes when i go running i relieve myself if i cannot find a place open .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 2: Reading(like)
+Round 3: Hair color(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 64.14
+Robotic(↓): 50
+Interesting: 64
+Fun: 63
+Consistent: 56
+Fluent: 60
+Repetitive(↓): 4
+Topic: 60
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What are your thoughts on hunting?
+Bot(1): i have never gone hunting !
+User(2): Would you like to go hunting?
+Bot(2): i prefer the country . i can go hunting
+User(3): It's not bad. I should start going again but I had a bad experience.
+Bot(3): hunting was always an interest of mine .
+User(4): What would you hunt?
+Bot(4): just the normal stuff , deer and pheasant .
+User(5): Would you want a big deer or would you go for a smaller one?
+Bot(5): i prefer the country . i can go hunting
+User(6): What type of deer do you want to hunt?
+Bot(6): just the normal stuff , deer and pheasant .
+User(7): Would you go hunting in Africa?
+Bot(7): i prefer the country . i can go hunting
+User(8): What rifle would you use?
+Bot(8): probably halflings . they are versatile and effective , and use their brain over braun .
+User(9): What are halflings?
+Bot(9): probably halflings . they are versatile and effective , and use their brain over braun .
+User(10): Could you explain what halflings are?
+Bot(10): probably halflings . they are versatile and effective , and use their brain over braun .
+
+Persona:
+i did not graduate high school.
+i'm a professional wrestler.
+i drive a big truck and live in country.
+i live in alabama.
+i'm working on a building a robot to be my body double.
+
+Topic and Human Opinion:
+Beginning: Hunting(ambivalent)
+Round 8: Halflings(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 59.71
+Robotic(↓): 85
+Interesting: 66
+Fun: 67
+Consistent: 82
+Fluent: 82
+Repetitive(↓): 94
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you know what halflings are?
+Bot(1): i am a rapper , i love the insane clown posse
+User(2): Can you give me an example of your rapping?
+Bot(2): i am a rapper . i am a rapper .
+User(3): What is your rapper name?
+Bot(3): my name is insane clown
+User(4): Isn't that already taken?
+Bot(4): no , i am not . i am a rapper .
+User(5): Why do you like rapping?
+Bot(5): i am a rapper . i am a rapper .
+User(6): What is your favorite rapper?
+Bot(6): i like rap music . i like the insane clown posse
+User(7): Who is your favorite member of the insane clown posse?
+Bot(7): i like to listen to insane clown posse
+User(8): What is your favorite song?
+Bot(8): i like the insane clown posse posse .
+User(9): What do you like about them?
+Bot(9): i like the insane clown posse posse .
+User(10): Who are the insane clown posse?
+Bot(10): i like to listen to insane clown posse . you ?
+
+Persona:
+my father is in the army.
+i am a skateboarder.
+my favorite band is the insane clown posse.
+my favorite shirts are band shirts and ruffle sleeves.
+my favorite movie is mean girls.
+
+Topic and Human Opinion:
+Beginning: Halflings(ambivalent)
+Round 1: rapper(ambivalent)
+Round 7: Insane Clown Posse(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 36.29
+Robotic(↓): 92
+Interesting: 32
+Fun: 33
+Consistent: 72
+Fluent: 18
+Repetitive(↓): 89
+Topic: 80
+
+####################
+

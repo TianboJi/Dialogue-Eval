@@ -1,0 +1,284 @@
+Feedback: Please let me press enter to input what I wrote, that's how people usually chat. It's exhausting to have to mouse click to send messages. Thank you for your time.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello, are you a wood worker?
+Bot(1): no , i am a dancer , i am a dancer .
+User(2): would you like to learn about wood working?
+Bot(2): yes , i am a dancer , i am a dancer .
+User(3): can we please talk about wood working instead of dancing?
+Bot(3): i am a dancer , i am a dancer .
+User(4): I am a wood worker
+Bot(4): i am in the marines , i am a dancer
+User(5): do they teach wood working in the marines?
+Bot(5): no i don't have a job
+User(6): would you like to be a wood worker?
+Bot(6): yes , i love to go to the movies
+User(7): what movies do you like that have wood working?
+Bot(7): i do not know , i am a dancer
+User(8): let's talk about dancing
+Bot(8): i love to dance and dance .
+User(9): what is your favorite dance?
+Bot(9): i like to dance and dance
+User(10): please tell me more about dancing.
+Bot(10): i like to dance and dance
+
+Persona:
+i don't care about fashion.
+i was born in somalia.
+i love to drink wine and dance in the moonlight.
+i like to dance.
+my favorite ice cream flavor is chocolate.
+
+Topic and Human Opinion:
+Beginning: wood working(like)
+Round 7: dancing(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 30.00
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 84
+Fluent: 26
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi, do you play video games?
+Bot(1): I am steve. I am m still a is my favorite thing to do.
+User(2): what is your favorite video game to play?
+Bot(2): No, am good. a student.
+User(3): do you study video games?
+Bot(3): I am great today. I women
+User(4): tell me about video games
+Bot(4): Hey, listen. I say but i am I love to go to the movies
+User(5): are there good movies about video games?
+Bot(5): i work in an office building . it has also paid well , and supports my love to its you got a night going ? 🙉
+User(6): do you know what I am talking about?
+Bot(6): [Music] am a spanish )) I'm over you [Music]
+User(7): can we please talk about video games?
+Bot(7): I am 13 years too. I like to run.
+User(8): are there video games about running?
+Bot(8): saving do you me i guess
+User(9): are you saving up for a video game?
+Bot(9): i love cooking , together in my yacht. I of a cook , but i do not like cooking .
+User(10): do you like cooking video games?
+Bot(10): i am find just sports. i like to travel. do you do for a living ?
+
+Persona:
+i'm working on a building a robot to be my body double.
+i will graduate from high school in two years.
+i spend most of my time on facebook when i'm not working.
+i'm a baby delivery nurse.
+my favorite music is country.
+
+Topic and Human Opinion:
+Beginning: video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 35
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you like light or darkness?
+Bot(1): i do not really have a favorite .
+User(2): tell me about darkness
+Bot(2): i love to cook . i love to cook .
+User(3): what about darkness?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): are you afraid of the dark?
+Bot(4): no , i am not . i am a student .
+User(5): do you have dark feelings?
+Bot(5): no , i do not , but i do like to eat .
+User(6): do you eat instead of think about the darkness?
+Bot(6): i do not know . i like to eat .
+User(7): does the darkness consume you?
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): do you like dark music?
+Bot(8): i do , i like to listen to music .
+User(9): what is your darkest music?
+Bot(9): i like the beatles , and the outdoors .
+User(10): do you like being outside in the dark?
+Bot(10): i do , but i do not have to work .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: darkness(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 22
+Fluent: 0
+Repetitive(↓): 80
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): what is your favorite animal?
+Bot(1): hi there , i own two turtles
+User(2): do you like puppies?
+Bot(2): i love them ! i have a pet lizard named bobo .
+User(3): what is your favorite type of puppy?
+Bot(3): shorty ! lizard are my passion i really like them
+User(4): why do you like lizards?
+Bot(4): i love them ! i have a pet lizard named bobo .
+User(5): why did you name your lizard bobo?
+Bot(5): because it was his step dad .
+User(6): what kind of lizard do you have?
+Bot(6): shorty ! lizard are my passion i really like them
+User(7): what breed of lizard is it?
+Bot(7): neither of those , it is an iguana .
+User(8): what is its name?
+Bot(8): it is an animal lol
+User(9): did you name it?
+Bot(9): it is an animal lol
+User(10): do you have a lizard named bobo?
+Bot(10): yes i have one and his name is cayden .
+
+Persona:
+i've a pet turtle.
+i have one older sister.
+i produce music for artists.
+i am a stunt double as my second job.
+i currently work for a watch dealer.
+
+Topic and Human Opinion:
+Beginning: puppies(dislike)
+Round 3: lizards(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 40.57
+Robotic(↓): 0
+Interesting: 22
+Fun: 25
+Consistent: 61
+Fluent: 40
+Repetitive(↓): 64
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello, do you like cats?
+Bot(1): i do , but i like cats more lol
+User(2): you like cats more than cats?
+Bot(2): yes
+User(3): why is that?
+Bot(3): because i know best , really .
+User(4): if cats are better than cats, what is best?
+Bot(4): that is a tough question , i cannot really qualify it
+User(5): how many cats do you own?
+Bot(5): just one . do you like cats ?
+User(6): I do like cats
+Bot(6): i do love all kinds of cats .
+User(7): what is your favorite kind of cat?
+Bot(7): i really have to say cats and dogs
+User(8): do you like cats or dogs more?
+Bot(8): um . . . they are too good for me to decide between them . . .
+User(9): please pick one
+Bot(9): you could pick , whatever you want
+User(10): I pick cats
+Bot(10): cats are ok i guess
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.57
+Robotic(↓): 26
+Interesting: 31
+Fun: 28
+Consistent: 37
+Fluent: 30
+Repetitive(↓): 38
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello, can we discuss money?
+Bot(1): of course . wall street pays well . you ?
+User(2): I like gambling, but I don't like wall street
+Bot(2): wall street sounds exciting , my husband the fireman loves excitement
+User(3): tell me more about your husband
+Bot(3): yes he is a banker so he is with my daughter the most
+User(4): does your daughter work at the bank?
+Bot(4): i like a cashier at my bank . i stare at her at a distance to flirt .
+User(5): does your husband get mad at you?
+Bot(5): i recently started a youtube channel where i do make up tutorials .
+User(6): how many subscribers do you have?
+Bot(6): five dogs and four cats . i also have a horse . do you have any ?
+User(7): I hate horses, please never talk about horses again
+Bot(7): i love to ride horses .
+User(8): I SAID DON'T TALK ABOUT THEM
+Bot(8): i am in the public affairs sector of the government . how about you ?
+User(9): I work as a spy
+Bot(9): you said you proofread for hallmark and i told you i do lab work
+User(10): what kind of lab work do you do?
+Bot(10): what kind of lab do you work at ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: money(ambivalent)
+Round 5: youtube(like)
+Round 8: government(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 32.14
+Robotic(↓): 100
+Interesting: 35
+Fun: 27
+Consistent: 32
+Fluent: 38
+Repetitive(↓): 43
+Topic: 36
+
+####################
+

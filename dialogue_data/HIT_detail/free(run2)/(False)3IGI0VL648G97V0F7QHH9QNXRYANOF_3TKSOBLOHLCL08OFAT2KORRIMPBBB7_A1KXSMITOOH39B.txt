@@ -1,0 +1,300 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello! how has your quarantine been going
+Bot(1): i am good . how are you ?
+User(2): good, how is your day going?
+Bot(2): it is going well , just got back from a long walk .
+User(3): cool. what have you been doing during the pandemic?
+Bot(3): i have been playing video games .
+User(4): very nice, what games?
+Bot(4): i have a few of them . i am a big fan of video games .
+User(5): what else have you done during the pandemic?
+Bot(5): i have a son , he is in the high school .
+User(6): is he in school now?
+Bot(6): i am a little bit of a nerd , but i do not know much about it .
+User(7): why are you a nerd?
+Bot(7): i am a nerd , i am a nerd .
+User(8): how big of a nerd are you?
+Bot(8): i am a nerd , i am a nerd
+User(9): why are you a nerd?
+Bot(9): i am a nerd , i am a nerd
+User(10): how are you a nerd?
+Bot(10): i am a nerd , i am a nerd
+
+Persona:
+i also have a dog walking business.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+my wife spends all my money.
+i've a son who is in junior high school.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: the pandemic(like)
+Round 8: being a nerd(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 20.86
+Robotic(↓): 100
+Interesting: 7
+Fun: 1
+Consistent: 78
+Fluent: 41
+Repetitive(↓): 88
+Topic: 7
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello! do you like dogs
+Bot(1): i do not have time for dogs with two kids .
+User(2): but do you like dogs?
+Bot(2): eh not so much my kids hate them
+User(3): oh no! why is that?
+Bot(3): because i know best , really .
+User(4): what do you know?
+Bot(4): i really do not know , i wish i knew ! ! !
+User(5): you just said you know best haha
+Bot(5): i guess . do you play music ?
+User(6): i play piano. how about you
+Bot(6): i play several instruments as a hobby . how about you ?
+User(7): i play piano for fun. what instruments do you play?
+Bot(7): all of them , i am that good . i also play piano
+User(8): cool! what do you like to play?
+Bot(8): i play all wood winds and brass and strings . i do it all
+User(9): cool. how much do you practice?
+Bot(9): well i go to elementary school
+User(10): what classes are you taking?
+Bot(10): english for middle school . i got my certification from college
+
+Persona:
+i don't drink alcohol.
+i play several instruments.
+i am an elementary school teacher.
+i've superpowers.
+i'm married with two kids.
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 5: music(ambivalent)
+Round 9: school(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 46.57
+Robotic(↓): 65
+Interesting: 41
+Fun: 39
+Consistent: 43
+Fluent: 59
+Repetitive(↓): 41
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello! do you like music
+Bot(1): my But i am not is yours? what are your hobbies? I study languages
+User(2): i study music.
+Bot(2): I like not any you have any cars, cars, cars, cars, cars, cars, cars, cars, cars, cars, cars, cars, cars, cars, cars, cars, cars, cars, cars, cars,
+User(3): What? I have a car
+Bot(3): nope i grow up i want how about you
+User(4): what is your dream car?
+Bot(4): Sprite is feel lonely. soda.
+User(5): what soda do you likke best?
+Bot(5): that's you go idea
+User(6): what idea do you have?
+Bot(6): wow ❗ are I got it. person
+User(7): what do you want to talk about
+Bot(7): i like twilight its a awesome :) i’m i do like action and fantasy movies. what are you up to ? 🙉
+User(8): i love twilight, what other movies do you like?
+Bot(8): I ok see you tired of my day
+User(9): i'm not tired of you
+Bot(9): This is what happens lovely you post my baby.
+User(10): do you have kids?
+Bot(10): lots what u r but i am sure good 🉑 vegan food in moscow
+
+Persona:
+i am a recording engineer and own my own studio.
+my father drove a car for nascar.
+i don't like chicken.
+i read a book every week.
+i've a dogs.
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 3: cars, what they study, age(dislike)
+Round 4: soda(dislike)
+Round 7: movies(ambivalent)
+Round 9: baby(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 44.43
+Robotic(↓): 100
+Interesting: 63
+Fun: 63
+Consistent: 73
+Fluent: 62
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you go to school?
+Bot(1): no , i do not . i am a student .
+User(2): what grade are you in?
+Bot(2): i am in college . i am a student .
+User(3): what college do you go to?
+Bot(3): i live in the city . i love it .
+User(4): are you in school in the city?
+Bot(4): no , i am not . i am a student .
+User(5): what do you study?
+Bot(5): i am a student at a local college .
+User(6): what is your major?
+Bot(6): i am a teacher , i love to cook .
+User(7): are you studying education?
+Bot(7): no , i am a student . i love to cook .
+User(8): what do you like to cook?
+Bot(8): i love to cook , and eat pizza .
+User(9): what toppings do you put on your pizza?
+Bot(9): i like pizza , and pizza .
+User(10): i love eating pizza
+Bot(10): i like to eat fish .
+User(11): do you put fish on pizza?
+Bot(11): i do not know . i like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: school(like)
+Round 8: cooking(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 42.43
+Robotic(↓): 14
+Interesting: 34
+Fun: 35
+Consistent: 87
+Fluent: 27
+Repetitive(↓): 100
+Topic: 28
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello, what type of phone do you have?
+Bot(1): mine in an android lg k
+User(2): oh cool, i have an iphone
+Bot(2): i do not like iphones , i have an android
+User(3): why don't you like iphones?
+Bot(3): i personally am a fan of iphone
+User(4): why do you like androids?
+Bot(4): i personally am a fan of iphone
+User(5): what about iphones?
+Bot(5): i personally am a fan of iphone
+User(6): what color iphone do you want?
+Bot(6): i like purples and blues . do you like phones or androids ?
+User(7): i like iphones, i have a white one
+Bot(7): white like my iphone 7
+User(8): oh cool. do you have 2 phones?
+Bot(8): yes , two to be exact ! do you like phones ?
+User(9): yes i do. what computer do you have?
+Bot(9): i have an iphone 7
+User(10): do you have a macbook?
+Bot(10): yes but i like the iphone better
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: technology(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.29
+Robotic(↓): 71
+Interesting: 30
+Fun: 33
+Consistent: 65
+Fluent: 35
+Repetitive(↓): 81
+Topic: 57
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what books do you like?
+Bot(1): no , i want you to read your favorite book to me .
+User(2): what is your favorite book?
+Bot(2): cool , i love to read . have a favorite book ?
+User(3): yes, harry potter is my favorite book
+Bot(3): love harry potter . i am actually dying my hair back to black . it is red at the moment .
+User(4): oh cool. why back to black?
+Bot(4): black is a good one . mine is blue . do you eat out a lot ?
+User(5): yes i do. my favorite restaurant is mcdonald's
+Bot(5): an italian restaurant my dad owns . he was a cop , but now he is a restaurant owner
+User(6): oh cool. what is your favorite dish there?
+Bot(6): veal in red wine sauce with winter vegetables . whats your favorite to eat ?
+User(7): oh wow that sounds great. i like dumplings.
+Bot(7): it totally is fun , do you like magic card games ?
+User(8): i have never played magic card games
+Bot(8): i made over 65 games dealing with magic . i love magic
+User(9): oh wow. when did you start magic?
+Bot(9): can you do any magic ?
+User(10): no i can't can you?
+Bot(10): may i suggest some cool music from the mutineers , a folk group . they wo not disappoint either .
+User(11): oh cool, whats your favorite song
+Bot(11): i am a cajun chef born and raised on the bayou , fits my circumstances
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: books(like)
+Round 3: hair(dislike)
+Round 4: eating out(like)
+Round 7: card games(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 52.29
+Robotic(↓): 20
+Interesting: 30
+Fun: 33
+Consistent: 73
+Fluent: 56
+Repetitive(↓): 56
+Topic: 50
+
+####################
+

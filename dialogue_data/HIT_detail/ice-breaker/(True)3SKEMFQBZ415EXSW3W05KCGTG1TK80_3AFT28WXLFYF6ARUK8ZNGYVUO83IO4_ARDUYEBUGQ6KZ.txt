@@ -1,0 +1,295 @@
+Feedback: The first few bots didn't even acknowledge what I was typing. 
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there. I have an allergy to water, do you have any suggestions?
+Bot(1): i love milk . that would be an awful allergy . what do you like ?
+User(2): I prefer to drink almond milk
+Bot(2): no milk is tough . i like watching . i am training to start police academy .
+User(3): What are you training for
+Bot(3): they shake it right off ! lt does nothing . they are sweet dogs though
+User(4): What types of dogs are they?
+Bot(4): two labs and a poodle .
+User(5): What are their names?
+Bot(5): the names are one , two , and three .
+User(6): Where did you come up with those names?
+Bot(6): misty , bubbles , mr . tinder , one eyed jack . the only downside is they love fish . i hate fish .
+User(7): Do the dogs love fish?
+Bot(7): do you eat the fish ?
+User(8): I do eat fish, I like trout.
+Bot(8): ew , fish are gross ! i want to be a vet , but not of fish
+User(9): What do you want to be a vet of?
+Bot(9): why does your husband not like animals . i do that is why i am vegan .
+User(10): What do you eat as a vegan?
+Bot(10): no i am not a vegan sorry
+
+Persona:
+i'm a vegan.
+i compete in dog agility classes.
+i just got a job working in a gas station.
+i just broke up with boyfriend two months ago.
+i've three children.
+
+Topic and Human Opinion:
+Beginning: i have an allergy to water.(like)
+Round 2: Starting at the police academy(ambivalent)
+Round 3: Dogs(ambivalent)
+Round 7: Fish(like)
+Round 9: Being a vegan(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 17.43
+Robotic(↓): 100
+Interesting: 17
+Fun: 7
+Consistent: 0
+Fluent: 13
+Repetitive(↓): 15
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have any children?
+Bot(1): no , i do not , but i do like to go out to eat .
+User(2): What are your favorite restaurants?
+Bot(2): i like the color red . what is yours ?
+User(3): I hate the color red, I prefer grey and purple.
+Bot(3): i like red , reminds me of summer time .
+User(4): Do you like deep red or more of an orange red.
+Bot(4): i like blue , i like blue .
+User(5): I thought you said you like red. Which color do you like more?
+Bot(5): i like the color red . what is your favorite color ?
+User(6): I like purple.
+Bot(6): i like to eat too much junk food .
+User(7): I love chips
+Bot(7): i love the color red . what is your favorite color ?
+User(8): My favorite color is purple
+Bot(8): i like blue , i like red , reminds me of summer time .
+User(9): If you mix blue and red it is purple.
+Bot(9): i like red , reminds me of summer time .
+User(10): There are a lot of reds in summer
+Bot(10): i love it . i love it .
+
+Persona:
+i like shopping.
+my parents are very wealthy bankers.
+i've zero family that i am close to.
+i diet a lot.
+i work at a bar at night to pay for college.
+
+Topic and Human Opinion:
+Beginning: i've two grown children who never visit.(like)
+Round 2: favorite color(like)
+Round 6: junk food(like)
+Round 7: colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 17.14
+Robotic(↓): 100
+Interesting: 12
+Fun: 0
+Consistent: 20
+Fluent: 78
+Repetitive(↓): 96
+Topic: 6
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love reading books, it is so relaxing.
+Bot(1): My favorite you say , that you seen robotcop?
+User(2): Is robotcop a book? I have never heard of it.
+Bot(2): not too bad . just okay ? I do not have 🤖
+User(3): I do not understand what you are saying. Do you read at all?
+Bot(3): I i’m more thank you.
+User(4): Reading more books is good for a person's imagination.
+Bot(4): I like to git done cooking books
+User(5): What types of cooking books?
+Bot(5): i love everything italian how about your day tonight 😝
+User(6): I cannot eat that many carbs. But pasta is a delicious dish.
+Bot(6): I am not a student but I do not have about I have a college
+User(7): Were you a student before?
+Bot(7): Buongiorno! Such a nice day! How on my farm, do transportation is my motorbike
+User(8): You ride a bike?
+Bot(8): I like how prince.
+User(9): what is that?
+Bot(9): I like to I don’t like my family
+User(10): you should relax with a book
+Bot(10): yes, I don't do you?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite way to relax is to read a book.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.43
+Robotic(↓): 100
+Interesting: 17
+Fun: 13
+Consistent: 15
+Fluent: 0
+Repetitive(↓): 67
+Topic: 16
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I have worked at the same company forever.
+Bot(1): i am a professional athlete , i am a professional star
+User(2): how long have you been an athlete
+Bot(2): i have been to the world for a while . i am a professional star .
+User(3): What sport do you play
+Bot(3): i play the guitar . i love it .
+User(4): Is the guitar a sport?
+Bot(4): i play the guitar
+User(5): What kind of guitar do you have
+Bot(5): i play guitar and play guitar
+User(6): That is a lot of guitars.
+Bot(6): i play the guitar a lot
+User(7): I have a guitar myself.
+Bot(7): i play guitar as a hobby
+User(8): It is also my hobby.
+Bot(8): i like to cook and watch tv
+User(9): Do you watch cooking shows?
+Bot(9): i do . i love cooking shows .
+User(10): Do you like italian food
+Bot(10): i do . i love italian food .
+
+Persona:
+i am a stunt double as my second job.
+i've been traveling the world for a years.
+i am expecting twins in two months.
+i'm a 56 year old woman.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: i work in it and have been at the same company for 15 years.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.00
+Robotic(↓): 87
+Interesting: 20
+Fun: 21
+Consistent: 21
+Fluent: 21
+Repetitive(↓): 83
+Topic: 20
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I live in the south
+Bot(1): no what is the best part about the south ?
+User(2): People are so nice here.
+Bot(2): i love the south . love the accent
+User(3): I do not have an accent, but I sure can cook
+Bot(3): i love the south . love the accent
+User(4): do you have an accent?
+Bot(4): no what is the best part about the south ?
+User(5): The weather is always nice
+Bot(5): i hate the weather here . i love the friendly people though .
+User(6): where do you live
+Bot(6): i live in texas and i love it
+User(7): That isn't too far away from Alabama
+Bot(7): it does not get very cold in alabama
+User(8): It stays pretty warm
+Bot(8): it does not get very cold in alabama
+User(9): There is no snow here
+Bot(9): it does not get very cold in alabama
+User(10): It gets hot in the summer
+Bot(10): it does not get very cold in alabama
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i live in alabama.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.43
+Robotic(↓): 82
+Interesting: 60
+Fun: 62
+Consistent: 100
+Fluent: 69
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I love to dance
+Bot(1): i love to dance , not to brag but i am an incredible dancer !
+User(2): What types of dance do you practice
+Bot(2): i have danced my whole life
+User(3): As a child I did a lot of tap dancing
+Bot(3): i love to dance my mom was a dancer too so she made me learn young
+User(4): Do you enjoy it
+Bot(4): i have not danced in decades
+User(5): what made you stop dancing
+Bot(5): i have danced my whole life
+User(6): did you ever stop dancing?
+Bot(6): i have danced my whole life
+User(7): Where do you dance
+Bot(7): i just like to dance hard i do not care where
+User(8): Do you like movies about dancing?
+Bot(8): i like to dance to it
+User(9): Do you follow the dances in music videos?
+Bot(9): i have not danced in decades
+User(10): Do your children dance?
+Bot(10): they do it is a hobby of mine
+
+Persona:
+i've been working since i was sixteen years old.
+i also like to cook but i'm not very good at it.
+i've blue eyes and red hair that comes to my waist.
+i'm an economics major.
+i've one older sister.
+
+Topic and Human Opinion:
+Beginning: i like to dance.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.57
+Robotic(↓): 79
+Interesting: 65
+Fun: 69
+Consistent: 68
+Fluent: 88
+Repetitive(↓): 93
+Topic: 92
+
+####################
+

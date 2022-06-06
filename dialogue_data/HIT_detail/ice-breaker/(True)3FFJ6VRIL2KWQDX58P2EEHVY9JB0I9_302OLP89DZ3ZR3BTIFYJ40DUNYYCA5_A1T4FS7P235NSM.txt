@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello.
+Bot(1): hi there . have you seen the new star trek ?
+User(2): I haven't yet. How was it?
+Bot(2): it was awesome my cat is huge .
+User(3): Aww how's your cat been doing?
+Bot(3): yeah , everything great . i just adopted my third cat !
+User(4): That's amazing! You have so many cats now I can't wait to meet the new one. What is the new cat's name?
+Bot(4): sirius and panzer . how old is scruffy ?
+User(5): Scruffy is 7 years old now. She's starting to get old now.
+Bot(5): she is living a long life ! mine is just a year old , his name is truffle .
+User(6): I love the name Truffle! I can't wait until I get to see Truffle. Is it a boy or a girl?
+Bot(6): panzer . do not ask , lol . he is huge .
+User(7): You need buy Panzer some new toys to work off all of that fat.
+Bot(7): i may just do that . i want a shelter pet tho .
+User(8): Shelter pets are always a good option. It gives the animal another family that's willing to take care of them.
+Bot(8): very true . maybe i will have to get a cat too .
+User(9): Already looking for your fourth cat?
+Bot(9): i would have to train our dogs to accept the kitten but it can be done .
+User(10): Dogs and Cats can be a pain to try and get them to become friends but it's well worth it in the end.
+Bot(10): very true . maybe i will have to get a cat too .
+
+Persona:
+i'm a huge star wars fan.
+i've not spoken in three months.
+i've a hat collection of over 1000 hats.
+i am a boy.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: i am a feminist.(like)
+Round 4: Cats(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 72.29
+Robotic(↓): 38
+Interesting: 66
+Fun: 86
+Consistent: 75
+Fluent: 83
+Repetitive(↓): 26
+Topic: 60
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I can't wait until we get to the store to get some vanilla ice cream.
+Bot(1): i like to eat fish .
+User(2): Why don't you try fish flavored ice cream?
+Bot(2): i do not , but i do like to eat .
+User(3): You only like regular fish?
+Bot(3): i do not know . i like to eat .
+User(4): Eat what?
+Bot(4): i am a student , but i am a student .
+User(5): How do you like being a student?
+Bot(5): i do not , but i do like to go to the beach .
+User(6): The beach is always a fun and relaxing time.
+Bot(6): it is . i love it .
+User(7): Would you like to go to the beach with me sometime?
+Bot(7): i do , but i do not have to work . i am a nurse .
+User(8): How is it being a nurse with COVID-19?
+Bot(8): no , i do not . i am a student .
+User(9): Where are you a student at?
+Bot(9): i am a student , i am a teacher .
+User(10): Where do you teach at?
+Bot(10): i do not know . i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have a weakness for vanilla ice cream.(ambivalent)
+Round 4: Being a student(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 24.14
+Robotic(↓): 100
+Interesting: 16
+Fun: 23
+Consistent: 28
+Fluent: 70
+Repetitive(↓): 85
+Topic: 17
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): When are we taking the trip to Disneyland?
+Bot(1): i like to read , favorites are true crime novel and anything stephen king . do you read ?
+User(2): Yes I read. I love to read J.K. Rowling.
+Bot(2): i love to read books . i spend a lot of my time reading .
+User(3): Which other books do you like to read?
+Bot(3): what kind of books do you read ?
+User(4): I like to read Harry potter
+Bot(4): harry potter is a wonderful series . what do you do for a living ?
+User(5): I work as a Sales Associate.
+Bot(5): nice are you married then
+User(6): No I'm currently single.
+Bot(6): i am single but i do not think i want to get married
+User(7): I get that. It's hard being married.
+Bot(7): no i am not married
+User(8): I know.
+Bot(8): i believe in something , but god does come first in all our lives
+User(9): Religion is a good thing to be in.
+Bot(9): i was born a catholic and after some time away from church , was born again .
+User(10): How old were you when you came back to the church?
+Bot(10): yes how about you ? do you go to church ?
+
+Persona:
+i enjoy coloring books.
+i used to be pretty but time has not been kind.
+i'm married with two kids.
+i'm very lonely.
+i have a pet cow.
+
+Topic and Human Opinion:
+Beginning: i love disneyland and mickey mouse.(like)
+Round 1: Reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 53.00
+Robotic(↓): 68
+Interesting: 61
+Fun: 75
+Consistent: 36
+Fluent: 70
+Repetitive(↓): 60
+Topic: 57
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love traveling how about you?
+Bot(1): very you bite your only <num>
+User(2): What?
+Bot(2): i see , you like to just , i watch a lot of tv
+User(3): What do you like to watch?
+Bot(3): thank you. great! What is your for a living? I am in a bedroom
+User(4): I work at a fast food restaurant.
+Bot(4): I am a your you talk a boy.
+User(5): Yes I am a boy. Are you a girl?
+Bot(5): it is main transportation is my t even love me
+User(6): How long do you want to live?
+Bot(6): Sure is your i to see.
+User(7): See what?
+Bot(7): It seems i'm a studet) is:'ve
+User(8): What school do you go to?
+Bot(8): i am <num> what 😦 about you in a lot of michigan
+User(9): Michigan State?
+Bot(9): That is great. an elementary school teacher? a great day! 😃
+User(10): What school do you teach at?
+Bot(10): i am sorry while I thought it was . they pay my rent for me .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i really like to travel.(like)
+Round 1: Random(dislike)
+Round 3: What I do for a living.(like)
+Round 5: i feel like i might live forever.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 16.86
+Robotic(↓): 100
+Interesting: 19
+Fun: 12
+Consistent: 29
+Fluent: 32
+Repetitive(↓): 74
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I hate scorpions so much
+Bot(1): i hate it because i hate it
+User(2): Same lol. What other insects do you hate?
+Bot(2): i don't know what i mean
+User(3): I'm sorry. What insects do you stay away from?
+Bot(3): i do not know how to eat them
+User(4): I'd be scared to eat scorpions too.
+Bot(4): i don't eat them either
+User(5): What else are you terrified of?
+Bot(5): i don't know how to eat them
+User(6): I don't know either.
+Bot(6): i don't know what that means .
+User(7): You don't know what what means
+Bot(7): i don't know what to say .
+User(8): Do you want to talk about anything else?
+Bot(8): i think i will be there .
+User(9): Be where?
+Bot(9): i think i will be there
+User(10): I don't know where you're going to be.
+Bot(10): i think i should go to the gym
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am terrified of scorpions.(dislike)
+Round 10: Gym(like)
+
+Topic Change and Chatbot Opinion:
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 38.43
+Robotic(↓): 64
+Interesting: 24
+Fun: 32
+Consistent: 39
+Fluent: 60
+Repetitive(↓): 57
+Topic: 35
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Where do you like to shop?
+Bot(1): i love to shop online . hello ?
+User(2): What shops do you buy from?
+Bot(2): anything that you like to buy
+User(3): That's cool. Where do you want to go shopping at?
+Bot(3): well i shop for everything over there . what kind of dogs do you have ?
+User(4): I have a Golden Retriever. Do you have any pets?
+Bot(4): yes i have 2 dogs .
+User(5): What kind?
+Bot(5): i have two of them . they are golden retrievers .
+User(6): Oh nice. We should bring them on a play date.
+Bot(6): lets see . when are you two next free ?
+User(7): I'm free Friday evening is that a good time?
+Bot(7): any saturday would be fine with us .
+User(8): Ok Saturday sounds perfect.
+Bot(8): okay . could i drop by friday night ?
+User(9): Sure want some drinks?
+Bot(9): yes we can go for a few drinks in ny .
+User(10): Ok sounds great!
+Bot(10): yes we can go for a few drinks in ny .
+
+Persona:
+my favourite artist is travis scott.
+one of the languages that i am currently studying is spanish.
+i play with my friends on the playground.
+i am a descendant of christopher columbus.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: i'm high maintenance.(dislike)
+Round 3: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 89.71
+Robotic(↓): 10
+Interesting: 81
+Fun: 86
+Consistent: 90
+Fluent: 91
+Repetitive(↓): 4
+Topic: 94
+
+####################
+

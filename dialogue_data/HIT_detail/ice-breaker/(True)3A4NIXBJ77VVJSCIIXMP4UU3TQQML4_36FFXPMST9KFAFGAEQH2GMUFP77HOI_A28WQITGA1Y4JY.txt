@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like law?
+Bot(1): the law is good . and people are so nice .
+User(2): how are you at studying?
+Bot(2): i like the law people , think it is a honorable profession
+User(3): are you related to lawyers?
+Bot(3): no not really my parents could help as they are lawyers
+User(4): cool i like courtrooms
+Bot(4): are you a good skateboarder ?
+User(5): not really are you?
+Bot(5): yeah i can take my skateboard
+User(6): ever take it off sick jumps?
+Bot(6): sometimes once a week but my skateboard is how i get around
+User(7): do you have a car too?
+Bot(7): yeah i can take my skateboard
+User(8): i see, no driving, no problem
+Bot(8): yeah i can take my skateboard
+User(9): what color is it?
+Bot(9): i love mustangs . candy apple red
+User(10): i prefer blue mustangs
+Bot(10): those are good cars too
+
+Persona:
+i am a skateboarder.
+i own two vintage mustangs.
+i have a boyfriend.
+i'm from a small town.
+i have one older sister.
+
+Topic and Human Opinion:
+Beginning: i want to be a lawyer.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.57
+Robotic(↓): 89
+Interesting: 55
+Fun: 54
+Consistent: 42
+Fluent: 46
+Repetitive(↓): 81
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hello , its my birth day today
+User(2): how old are you?
+Bot(2): i am 5 years old
+User(3): wow happy birthday
+Bot(3): thanks me too . i m june . what do you do ?
+User(4): i talk to people on the computer, what about you?
+Bot(4): i am 5 years old
+User(5): are you goign to eat cake?
+Bot(5): yes of course . i love being pregnant
+User(6): but you are only 5
+Bot(6): i am 5 years old
+User(7): you cant be 5 and pregnant
+Bot(7): oh no . i love babies
+User(8): okay how are the blind dates going?
+Bot(8): i have pregnant , are you married
+User(9): i am not married
+Bot(9): oh ok . i got married yesterday
+User(10): congrats!
+Bot(10): and we have a baby
+
+Persona:
+i'm fluent in english spanish and french.
+i am a professional wrestler.
+i only listen to country music.
+i am a buddhist.
+i am pregnant with my first child.
+
+Topic and Human Opinion:
+Beginning: my father keeps trying to set me up on blind dates.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.14
+Robotic(↓): 34
+Interesting: 81
+Fun: 58
+Consistent: 40
+Fluent: 37
+Repetitive(↓): 81
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): great, how are you?
+Bot(2): i'm doing well . just got done walking my dog .
+User(3): what kind of dog?
+Bot(3): i have a dog and a cat .
+User(4): what kind of cat?
+Bot(4): i like the color red . i like the color blue .
+User(5): those are both good colors
+Bot(5): i like to eat the skin .
+User(6): the skin of what that sounds gross
+Bot(6): i love the color red . i like the color blue .
+User(7): those colors are very similar
+Bot(7): i like to eat the skin .
+User(8): ew gross
+Bot(8): i like to go to the gym and listen to music .
+User(9): those are things i like too
+Bot(9): i like to go to the beach and listen to music .
+User(10): me too for sure!
+Bot(10): i like to go to the beach and listen to music .
+
+Persona:
+i am terrified of scorpions.
+i grow roses in my garden.
+i do like watching cooking shows.
+i do not drink or do drugs or anything.
+i was poor growing up.
+
+Topic and Human Opinion:
+Beginning: i am a party animal.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.57
+Robotic(↓): 89
+Interesting: 91
+Fun: 33
+Consistent: 24
+Fluent: 26
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): how many dogs do you have
+Bot(1): i have a dog and a dog
+User(2): so do you have 2 dogs?
+Bot(2): i have 2 dogs and 2 dogs
+User(3): sounds liek you have 4 dogs
+Bot(3): i have 2 dogs and 2 dogs
+User(4): do you have any other pets
+Bot(4): no i don't have any pets
+User(5): do you have any cats
+Bot(5): no i don't have any
+User(6): do you like to play fetch with dogs
+Bot(6): i do not have any pets
+User(7): i think you have lots of dogs
+Bot(7): i have a dog that is a lot of dogs
+User(8): i totally get that! what is his name
+Bot(8): his name is penny and i have a lot of dogs
+User(9): is penny small or big
+Bot(9): he is a great name
+User(10): its true i really like it
+Bot(10): what do you do for a living
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.00
+Robotic(↓): 100
+Interesting: 38
+Fun: 39
+Consistent: 36
+Fluent: 59
+Repetitive(↓): 84
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): rap is good
+Bot(1): I a profile which, in just got off work.
+User(2): sorry what?
+Bot(2): I love hot your age is like music?
+User(3): i do not understand
+Bot(3): I'm great, just you read can rap
+User(4): i really like rap music
+Bot(4): i'd like to so Do you like dancer in london like my mother. what do you like to do ? 😂
+User(5): i like to sing rap and dance to rap
+Bot(5): good I drink a with meeting person
+User(6): you had too much to drink
+Bot(6): i need to go break some boards ! hay ya. Also, your painted many languages do have ...
+User(7): are you bilingual
+Bot(7): Hey! What's up? good thanks, just listening hours day
+User(8): not much how are you
+Bot(8): No, hi! I like I am in school.
+User(9): what calss are you in
+Bot(9): my favorite ever visited what swift
+User(10): i do not understand
+Bot(10): nothing have 2 minutes out with my cats.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i listen to rap music.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.14
+Robotic(↓): 100
+Interesting: 8
+Fun: 11
+Consistent: 14
+Fluent: 31
+Repetitive(↓): 25
+Topic: 23
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what kind of music?
+Bot(1): i love country music and r b music .
+User(2): what kind of video gameS?
+Bot(2): i am hoping to publish an illustrated version of a stephen king novel . my fav author
+User(3): do you like to read?
+Bot(3): anything . i prefer mysteries and crimes though
+User(4): those are the same thing?
+Bot(4): do you create a weekly schedule ?
+User(5): yeah do you ?
+Bot(5): all these women look like kate plus 8 but its just not for me .
+User(6): oh wow i guess they do
+Bot(6): oh okay . california is on fire and i sing karaoke . you sing ?
+User(7): i wish california wasnt on fire
+Bot(7): i have never been to the west coast
+User(8): would you like to trvael there?
+Bot(8): yes but i work all the time . it paid off got promoted at my law firm
+User(9): are you a lawyer?
+Bot(9): what kind of law ? i am currently looking to start my own business actually
+User(10): bird law or small claims?
+Bot(10): i am in sales as a newspaper salesman . there are limited jobs in the country .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite hobbies are listening to music and playing video games.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.86
+Robotic(↓): 100
+Interesting: 35
+Fun: 39
+Consistent: 40
+Fluent: 39
+Repetitive(↓): 21
+Topic: 40
+
+####################
+

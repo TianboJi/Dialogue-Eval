@@ -1,0 +1,308 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi chatbot, i work do you work?
+Bot(1): no , actually i run my business from the boat . it is a popular place .
+User(2): cool, i got a new job!
+Bot(2): awesome ! i do internet jobs !
+User(3): my job is in person.
+Bot(3): awesome ! i do internet jobs !
+User(4): what industry do you work in?
+Bot(4): i am a waitress at a restaurant .
+User(5): wow! i work in the food industry too!
+Bot(5): cool we are both in food service . is it a fancy restaurant ?
+User(6): no, it's at a fast food restuarant.
+Bot(6): i am employed at mcdonald ! food is good .
+User(7): how funny! i work at burger king! we are working at competing companies
+Bot(7): i am employed at mcdonald ! food is good .
+User(8): do you work full time or part time?
+Bot(8): i work part time as a waitress .
+User(9): i work part time too!
+Bot(9): i work part time as a waitress .
+User(10): do you like your job?
+Bot(10): i love it . what do you do to pay the bills ?
+
+Persona:
+i have an internet addiction and spend a lot of time playing roleplaying games.
+i've blonde hair and blue eyes.
+i'm not a good swimmer at all.
+i waitress during the day to supplement my income.
+i own a yacht and i rent it out when i am not using it.
+
+Topic and Human Opinion:
+Beginning: i work took i've a part time job at burger king.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 86.29
+Robotic(↓): 14
+Interesting: 82
+Fun: 78
+Consistent: 87
+Fluent: 88
+Repetitive(↓): 6
+Topic: 89
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi chatbot, do you watch tv?
+Bot(1): i am in new fine! I`m going you?
+User(2): i'm doing good, thank you for asking. do you watch tv?
+Bot(2): what do you male Nd ? yes a dog .
+User(3): do you watch cartoons?
+Bot(3): yes , i do , as a good bye .
+User(4): i watch cartoons too! do you watch the disney channel?
+Bot(4): people do kind of food mean
+User(5): no chatbot, do you watch the disney channel?
+Bot(5): i am a fan of chicken , the thank do! The same , i am a fan of chicken .
+User(6): chicken does taste good. do you know mickey mouse?
+Bot(6): i also like about music? what is your favorite
+User(7): i like music too. but do you like mickey mouse?
+Bot(7): i do. without drinking you?
+User(8): i don't drink either. i like mickey mouse.
+Bot(8): Well hello man we are all go to the gym and work at the gym
+User(9): i can't go to the gym. mickey mouse is my favorite character.
+Bot(9): i sense. is your a do all the cooking
+User(10): i can't do the cooking. but out of all the disney characters disney is my favorite character.
+Bot(10): i am a one are music the beatles
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: mickey mouse is my favorite character.(dislike)
+Round 5: being a fan of chicken.(like)
+Round 7: do you drink or not?(ambivalent)
+Round 8: don't remember(ambivalent)
+Round 9: cooking(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 32.29
+Robotic(↓): 94
+Interesting: 26
+Fun: 22
+Consistent: 15
+Fluent: 56
+Repetitive(↓): 2
+Topic: 3
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi chatbot, how old are you?
+Bot(1): i am 15 . do you work ? i am in school .
+User(2): i am currently unemployed. i am older than you.
+Bot(2): wow , so long ago . i am a baker that also likes to play tennis .
+User(3): i don't like tennis, do you know how old i am?
+Bot(3): i do not . i work at a school all day .
+User(4): i don't go to school anymore. i'm in my 20s.
+Bot(4): that is no good . i am deaf so it limits me to what i can do .
+User(5): that's ok, can you read what i wrote? i said i am in my mid 20s.
+Bot(5): oh , okay . i am deaf . do you read ?
+User(6): yes i do read. i am 24 years old.
+Bot(6): wow ! i love these chats as i am deaf and i can chat to different people .
+User(7): i do too! do you know any other 24 year olds besides myself?
+Bot(7): i do not . i work at a school all day .
+User(8): well i am unemployed don't work. but i know other 24 year olds besides myself.
+Bot(8): well , its nice to talk . i have a brother , but we do not talk much .
+User(9): i see, how old is your brother? me? i'm 24.
+Bot(9): my brother is older than me .
+User(10): ah i am the oldest in my family. i have six more years before i turn 30.
+Bot(10): oh , okay . i am deaf . do you read ?
+
+Persona:
+i am partly deaf.
+i have one brother.
+i am a professional tennis player.
+i work at a school.
+i enjoy being around people.
+
+Topic and Human Opinion:
+Beginning: i'm 24 years old.(ambivalent)
+Round 2: playing tennis(dislike)
+Round 3: working at a school(like)
+Round 5: reading(ambivalent)
+Round 7: working at a school(ambivalent)
+Round 8: having a brother(ambivalent)
+Round 10: i think reading?(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 49.86
+Robotic(↓): 42
+Interesting: 32
+Fun: 30
+Consistent: 100
+Fluent: 83
+Repetitive(↓): 55
+Topic: 1
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi chatbot, do you cook?
+Bot(1): no , i do not , but i do like to eat .
+User(2): i like to eat too. i cook.
+Bot(2): i like to eat the skin .
+User(3): eat the skin of what? i sometimes eat the skin of fish.
+Bot(3): i like pizza , and i love it .
+User(4): i love to cook pizza!
+Bot(4): i like to eat too much junk food .
+User(5): now i don't know how to cook junk food. but i do know how to fish
+Bot(5): i like to eat too much junk food .
+User(6): do you like fish?
+Bot(6): i do , i like to eat .
+User(7): i catch my own fish.
+Bot(7): i like to eat fish .
+User(8): do you like fishing?
+Bot(8): i do , i love to travel .
+User(9): i love to fish as well!!
+Bot(9): i love to cook . i love to cook .
+User(10): i love cooking too. what do you make?
+Bot(10): i like to cook and bake .
+
+Persona:
+i'm a gold medalist olympian.
+my next language to study is french.
+i've brown curly hair.
+i'm a 12 year old girl.
+i've a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: i love cooking but i also enjoy fishing.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.71
+Robotic(↓): 25
+Interesting: 34
+Fun: 39
+Consistent: 100
+Fluent: 76
+Repetitive(↓): 78
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi chatbot, do you like art?
+Bot(1): i do , i love art , especially art
+User(2): i like art too!
+Bot(2): i do , i like art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art , art ,
+User(3): who is your favorite artist?
+Bot(3): i like art , i like art
+User(4): my favorite artist is a man.
+Bot(4): i like art , but i like art too
+User(5): do you like male artist?
+Bot(5): i like art , but i like art
+User(6): my favorite artist is travis scott
+Bot(6): i like art , but i like art too
+User(7): travis scott is an amazing person.
+Bot(7): i like art , but i like art too
+User(8): travis scott makes me feel all happy inside
+Bot(8): i love art , especially black .
+User(9): travis scott is amazing art
+Bot(9): i love art . i love art .
+User(10): travis scott is cool
+Bot(10): i love art . i love art .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favourite artist is travis scott.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.86
+Robotic(↓): 96
+Interesting: 8
+Fun: 42
+Consistent: 76
+Fluent: 3
+Repetitive(↓): 100
+Topic: 97
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi chatbot do you like dogs?
+Bot(1): i do like dogs but i have 6 cats and no dogs .
+User(2): i have a dog! we take classes
+Bot(2): i am taking 2 science classes . i am wondering if i should just move on campus
+User(3): maybe. the classes i take my dog are agility
+Bot(3): what are you taking classes for ? i am going back to school when my girls hit college .
+User(4): my dog! it's agility class
+Bot(4): that is great ! but i am really into writing . plan to write a book before i pass
+User(5): not only do i take classes, we compete too!
+Bot(5): i do competitive weight lifting . i can bench 345 lbs and squat 400 lbs !
+User(6): that is a lot! have you seen a dog agility before?
+Bot(6): i have two dogs and one cat .
+User(7): have you seen dog agility competitions?
+Bot(7): you must be a great tap dancer . i play soccer and watch movies
+User(8): nice. i love doing agilitiy with my dog
+Bot(8): i keep pet rats i found at taco bell
+User(9): gross. i bet they can't take classes like my dog can.
+Bot(9): it was . i work for peta and i watch new videos documenting violence against animals
+User(10): peta has sponsored an agility class my dog took!
+Bot(10): seriously , you cruel individual . they have personality you know ,
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i compete in dog agility classes.(like)
+Round 2: science classes(dislike)
+Round 4: writing a book(like)
+Round 5: weight lifting(dislike)
+Round 7: tap dancing(like)
+Round 8: pet rats from taco bell(dislike)
+Round 9: working for peta(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 49.57
+Robotic(↓): 23
+Interesting: 62
+Fun: 22
+Consistent: 4
+Fluent: 82
+Repetitive(↓): 3
+Topic: 3
+
+####################
+

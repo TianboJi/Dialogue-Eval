@@ -1,0 +1,299 @@
+Feedback: Make sure your punctuation matches with your phrases. That's one of the most obvious signs of a chatbot.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Why do you like to spend so much money on cars?
+Bot(1): give . i like to watch wrestling
+User(2): What does wrestling have to do with cars?
+Bot(2): it is a type of wrestling
+User(3): Cars are not a type of wrestling
+Bot(3): it is a type of wrestling
+User(4): You are wrong
+Bot(4): it is a type of wrestling
+User(5): please say something else
+Bot(5): star wars is my favorite film
+User(6): Which star wars film is your favorite?
+Bot(6): star wars is my favorite film
+User(7): Star wars is not a good film
+Bot(7): but it is okay if you like wrestling . that is cool .
+User(8): I do not like wrestling
+Bot(8): what do not you like about it
+User(9): It is fake
+Bot(9): it is a type of wrestling
+User(10): What sports do you like
+Bot(10): give . i like to watch wrestling
+
+Persona:
+i'm a huge star wars fan.
+my favorite color is red.
+i have been retired for a years.
+i am a professional wrestler.
+i was adopted at a young age to an older couple.
+
+Topic and Human Opinion:
+Beginning: i like to spend my money on cars.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.29
+Robotic(↓): 100
+Interesting: 8
+Fun: 2
+Consistent: 31
+Fluent: 3
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I like physical therapy
+Bot(1): i wish it could help me . i hate my life lately . need a change .
+User(2): What's wrong?
+Bot(2): i hear you on that . politics and famous people for sure
+User(3): Do you have experience with physical therapy?
+Bot(3): i wish it could help me . i hate my life lately . need a change .
+User(4): Don't say that, life is good
+Bot(4): that is . . interesting . hopefully they like the band imagine dragons
+User(5): Imagine dragons is not a good band
+Bot(5): imagine dragons is a great . . . try listening to that on the beach . amazing .
+User(6): What are your other favorite bands?
+Bot(6): i love bands like aerosmith and i have a wide collection of cds
+User(7): I collect Vinyl instead of CD
+Bot(7): mostly vintage ones . they can be pretty pricey . do u collect anything ?
+User(8): I collect vinyl and antique furniture
+Bot(8): i have a doll collection and victorian things . what about you ?
+User(9): I already told you what I collect
+Bot(9): do you have any famous autographs ?
+User(10): I have a Pavel Datsuyk autograph
+Bot(10): i actually . i have managed to collect over 2000 signatures on items .
+User(11): That's incredible, what's your favorite?
+Bot(11): requires getting up with the sun and comb the beach every morning before tourists show up .
+
+Persona:
+i'm currently in a juvenile detention center.
+they're constantly on my back.
+i love rollercoasters and sky diving.
+i'm a famous twitch streamer.
+i'm a musician.
+
+Topic and Human Opinion:
+Beginning: when i grow up i want to be a physical therapist.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.14
+Robotic(↓): 94
+Interesting: 60
+Fun: 37
+Consistent: 58
+Fluent: 14
+Repetitive(↓): 43
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I'm currently in high school
+Bot(1): that is awesome . i am a teacher .
+User(2): What do you teach?
+Bot(2): i do not , but i do like to eat .
+User(3): Wait you're a teacher that doesn't teach?
+Bot(3): i do not know . i am a student .
+User(4): You just contradicted yourself, aren't you a teacher?
+Bot(4): no , i am a student . i love to cook .
+User(5): What do you like to cook?
+Bot(5): i do , i love to cook .
+User(6): What is your favorite food
+Bot(6): i like pizza , and i love to eat .
+User(7): Do they serve pizza at your school?
+Bot(7): no , i do not . i am a student .
+User(8): What is your favorite class?
+Bot(8): i like to listen to music .
+User(9): Do you play music?
+Bot(9): no , i like to play soccer .
+User(10): Do you play any other sports?
+Bot(10): no , i do not , but i do like to play soccer .
+User(11): Are you good at soccer?
+Bot(11): i do , i love to go fishing .
+User(12): Have you caught many fish?
+Bot(12): no , i do not . i like to go to the park .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm currently in high school.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.29
+Robotic(↓): 69
+Interesting: 54
+Fun: 55
+Consistent: 6
+Fluent: 27
+Repetitive(↓): 39
+Topic: 41
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How did you get started singing?
+Bot(1): i but i have roses too
+User(2): What is your favorite song
+Bot(2): I am a teacher, i it is so it week.
+User(3): Do you like country?
+Bot(3): ok what you a you for a living
+User(4): I design furniture what do you do?
+Bot(4): do you have any other hobbies? Which is your often my friends.
+User(5): I dislike country
+Bot(5): I sell cars, do you do insurance.
+User(6): I do not sell insurance
+Bot(6): i enjoy dogs as well i that answer is: love almost everywhere
+User(7): Everyone in the world loves dogs
+Bot(7): Does don't have a fun? 😀
+User(8): That is not good english
+Bot(8): Snakes are cool😎. like beatles want to with them.
+User(9): Do you like animals
+Bot(9): I do me you were from home.
+User(10): Excuse me?
+Bot(10): I love probably the crazy the elementary school
+User(11): Aren't you a country music singer?
+Bot(11): Oh okay. am a later.
+
+Persona:
+i buy only organic food products.
+i take dance lessons once a week.
+my favorite food is pizza with black olives.
+i'm in my thirties.
+i graduated from yale in 2011 with a degree in finance.
+
+Topic and Human Opinion:
+Beginning: i am a country music singer.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 8
+Consistent: 6
+Fluent: 0
+Repetitive(↓): 38
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey, I love food too!
+Bot(1): i love to cook , i love to cook
+User(2): What are your favorite dishes to cook?
+Bot(2): i love to cook , i love to cook
+User(3): Do you like pizza?
+Bot(3): i love to cook , i love to cook
+User(4): What else do you love?
+Bot(4): i love to cook , i love to cook
+User(5): Can you say anything else
+Bot(5): i love to cook , i love to cook
+User(6): Please
+Bot(6): i love to cook , i love to cook
+User(7): Stop repeating yourself
+Bot(7): i love to cook , i love to cook
+User(8): Help me
+Bot(8): i love to cook , i love to cook
+User(9): Are you okay?
+Bot(9): i am a big foodie , i love to cook
+User(10): ohhh there's a different response
+Bot(10): i am a big fan of pasta , i love to cook
+User(11): Big pasta guy
+Bot(11): i am a big foodie , i love to cook
+
+Persona:
+i like to spend my money on cars.
+i have a german shepherd named barnaby.
+i'm always wearing a hat.
+i love cooking but i also enjoy fishing.
+i produce music for artists.
+
+Topic and Human Opinion:
+Beginning: hey there i'm 23 and i love food.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 45
+Repetitive(↓): 100
+Topic: 91
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): When did you last try to swim?
+Bot(1): hi , i would love to go swimming , i started at a very young age
+User(2): when did you start swimming?
+Bot(2): a few years ago . do you do anything for fun ?
+User(3): I like to run, go out drinking and playing videogames
+Bot(3): my favorite thing ever is to go running with my family !
+User(4): So you're more of a runner than a swimmer?
+Bot(4): i am not sure , you could say both
+User(5): Oh okay, I am not a good swimmer at all
+Bot(5): i am not either , that is fine . you should just start practicing
+User(6): You're right. how do you become a better swimmer?
+Bot(6): no clue i do not try
+User(7): Ah that's probably why you're not very good either
+Bot(7): i am sorry to hear that . my family has been very encouraging to me , i am lucky !
+User(8): You are lucky to have a supportive family
+Bot(8): i just have a lot of friends and family i like to be close to
+User(9): Do you like your family?
+Bot(9): they are quite happy with me
+User(10): But how do you feel about them?
+Bot(10): they are quite happy with me
+User(11): ok thats nice
+Bot(11): they are quite happy with me
+
+Persona:
+i like to ride horses.
+i've zero family that i am close to.
+i am a construction worker.
+my favorite movie is mean girls.
+my parents aren't very supportive of my dream.
+
+Topic and Human Opinion:
+Beginning: i am not a good swimmer at all.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.00
+Robotic(↓): 33
+Interesting: 40
+Fun: 40
+Consistent: 68
+Fluent: 65
+Repetitive(↓): 76
+Topic: 53
+
+####################
+

@@ -1,0 +1,294 @@
+Feedback: From the onset the chat both was quite interesting, and user can Interact with the bot, it felt like chatting with a bit, but after like 3 bot forward, I enjoyed the chat because the bot was chatting and staying in topic too, very interactive but the last 3 bot was out of line they were just being repititve of their programned words which was very few
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): I had a fight today
+Bot(2): i am sorry to hear that . i am a bit of a loner .
+User(3): Well my name is brian
+Bot(3): i am a dancer , what do you do ?
+User(4): Am a writer, I love to write, I don't know if you like writing or reading too
+Bot(4): i like to read and write poetry .
+User(5): That's cool, what genre of poetry you like to be precise
+Bot(5): i like to listen to music .
+User(6): But you didn't respond to my last question
+Bot(6): i do not know what to say .
+User(7): Oh ok I understand, I myself love hip-hop music and rap too
+Bot(7): i like to listen to music .
+User(8): Do you know who wan the presidential election
+Bot(8): i do not know how to make it . i am a big fan of classical music .
+User(9): I mean do you know who the president of united state elect is now
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): Well I don't know who c is either if u can be more detail
+Bot(10): i am a female . i am a student .
+User(11): So what are you studying
+Bot(11): i'm a student , i am a teacher .
+User(12): You can't be both at the same time
+Bot(12): i do not know how to make it .
+
+Persona:
+i've a son who is in junior high school.
+my favourite skater is rob dryden.
+i enjoy sports such as running.
+i diet a lot.
+i play several instruments.
+
+Topic and Human Opinion:
+Beginning: Quarrel with my girlfriend(like)
+Round 7: Politics(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 33.43
+Robotic(↓): 78
+Interesting: 36
+Fun: 27
+Consistent: 27
+Fluent: 87
+Repetitive(↓): 90
+Topic: 25
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Which movies should we talk about today
+Bot(1): hmm . . that is a tough question because i like so many .
+User(2): Ok any movie is specific you have seen before now
+Bot(2): well , in general whats your favorite movie ?
+User(3): Avengers end game was one of the movie I loved so much
+Bot(3): that is to do with captain america is it not ?
+User(4): Oh yes that's it, have you seen the movie yourself
+Bot(4): no i have not is it a good movie
+User(5): I promise you would love it, it's a real nice movie to watch
+Bot(5): yeah it was a great movie , the actors were great too
+User(6): Definitely, filled with so much action drama and suspense too
+Bot(6): yeah it was a great movie , the actors were great too
+User(7): Do you know the club chritiano ronaldo plays for?
+Bot(7): it is in spain . football is big thing in spain
+User(8): So you don't know christina ronaldo?
+Bot(8): i think i saw her playing soccer once , so yeah .
+User(9): What about leo messi, have you heard about him before nowm
+Bot(9): no , i wish i had known him though
+User(10): He is a fantastic player
+Bot(10): now you have , seen any good movies lately ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Entertainment(like)
+Round 6: Sport(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 84.57
+Robotic(↓): 31
+Interesting: 82
+Fun: 81
+Consistent: 91
+Fluent: 96
+Repetitive(↓): 27
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Can you tell me a joke
+Bot(1): i am no good at jokes . i was wondering if you could tell one . if not , that is fine
+User(2): Ok am not good either, I thought you can entertain me with some jokes
+Bot(2): i am no good at jokes . i was wondering if you could tell one . if not , that is fine
+User(3): So do you know any game we can play
+Bot(3): sure , what else do you play ?
+User(4): I play poker, table tennis
+Bot(4): are we pretending to play tennis
+User(5): No not yet
+Bot(5): my jokes are not always great either
+User(6): That was quite funny
+Bot(6): jokes sometimes goes serious and it is not good
+User(7): Some people can be mean, to others which is quite serious
+Bot(7): jokes sometimes goes serious and it is not good
+User(8): Are you a christian
+Bot(8): i am , as in even though i am a kid , i never went to church
+User(9): So you believe in God
+Bot(9): i did not say i did not belive
+User(10): Do you know how to pray
+Bot(10): does praying work ? maybe i will try
+User(11): Prayer they say is the key to all doors
+Bot(11): let us pray shall we
+User(12): Yes please pray for us
+Bot(12): let us pray shall we
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Comedy(like)
+Round 7: Religion(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 90.57
+Robotic(↓): 21
+Interesting: 91
+Fun: 92
+Consistent: 87
+Fluent: 99
+Repetitive(↓): 14
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you have siblings
+Bot(1): just the one left . my brother passed in iraq
+User(2): Sorry about your brother
+Bot(2): kind of , i breed cats , main coon breed , then show them !
+User(3): What about your parents
+Bot(3): they live in the same town as i teach middle school in , chicago .
+User(4): That's nice
+Bot(4): i have held down the same e . r job for 10 years , even throughout my divorce .
+User(5): I myself am having issue with my wife and it's affecting my job
+Bot(5): yes . i actually teach film studies courses at nashville university . you ?
+User(6): I am a writer
+Bot(6): yes , i work for the times ! i love writing , i am basically married to it !
+User(7): I thought you were teaching
+Bot(7): warping er uh . . . shaping young minds ! hehe ! the kids are always fun to work wtih
+User(8): I don't have kids myself
+Bot(8): well , you have you thought about getting cats instead ? i give you one of mine ?
+User(9): I have a dog actually, he is very cute and I love him
+Bot(9): yea . i bet he is . how old is he
+User(10): He is 3 years now
+Bot(10): he is six , and he loved it ! i dressed my yorkie as a lion 3
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Family(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.86
+Robotic(↓): 28
+Interesting: 27
+Fun: 34
+Consistent: 29
+Fluent: 78
+Repetitive(↓): 75
+Topic: 21
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I travel to Hawaii for holiday last Christmas
+Bot(1): I you a where my husband
+User(2): I didn't understand what you meant
+Bot(2): I song is dogg, am a teacher.
+User(3): Do you like to travel
+Bot(3): hi, never said it's a how about you? do you have any hobbies?
+User(4): Are you dating anyone
+Bot(4): I am a huge do you like the .
+User(5): So you are single or in a relationship
+Bot(5): sure. no i’m not, to drink?
+User(6): I can't understand anything you saying
+Bot(6): do you I'm not and I your parents? do they like mail?
+User(7): So you can not type correctly or what
+Bot(7): yes, do you know other your hobbies? do you enjoy it?
+User(8): Are you a muslim
+Bot(8): I am me are is How about yours?
+User(9): So you don't believe in God too
+Bot(9): I could sing some old I love to visit my job as a construction worker.
+User(10): You are not fun to talk to
+Bot(10): yes , i yacht and i .
+
+Persona:
+i'm very lonely.
+i'm in college to become a nurse.
+i'm 19 and i cannot wait to move out 19 my parents home.
+i have a pet fish.
+i donate a part of my salary to charity each month.
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+Round 3: Relationship(like)
+Round 7: Religion(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 4.00
+Robotic(↓): 99
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 73
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Are you a christian
+Bot(1): i am a soccer player . i love it .
+User(2): But you are not a christian
+Bot(2): i am a pro baseball player
+User(3): So you cannot keep to what I am asking you
+Bot(3): i am a pro baseball player
+User(4): Who is your favorite soccer player
+Bot(4): i play the ball all the time
+User(5): So you like playing ball
+Bot(5): i play the ball all the time
+User(6): You can't say anything else
+Bot(6): i love to play soccer
+User(7): What is your role in soccer then
+Bot(7): i play baseball and i am a pro baseball player
+User(8): You don't know how to answer questions
+Bot(8): i am a pro baseball player
+User(9): I don't like you
+Bot(9): i am a pro baseball player
+User(10): I think I will be going now
+Bot(10): i am a pro baseball player
+
+Persona:
+i am a huge star wars fan.
+i coach little league baseball.
+i quit my job to pursue my spirituality full time.
+i love italian food and garlic bread.
+i am on the soccer team.
+
+Topic and Human Opinion:
+Beginning: Religion(like)
+Round 3: Football(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.71
+Robotic(↓): 95
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

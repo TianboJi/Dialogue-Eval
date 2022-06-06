@@ -1,0 +1,299 @@
+Feedback: Very interesting
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Did you live before the age of televisions in the home?
+Bot(1): no i don't but i live in the city
+User(2): Oh really, so you live in a city not a suburb?
+Bot(2): no , i live in the city , but i live in the city
+User(3): Well do you ever watch television in the city
+Bot(3): no , i do not watch tv . i do not watch tv though
+User(4): That is too bad, it can be enjoyable.
+Bot(4): i live in the city , but i don't have time for tv
+User(5): What do you do to relax then?
+Bot(5): i like to sleep in the city , mostly country
+User(6): So you live in the city but visit the country?
+Bot(6): i live in the city , but i don't have time for tv
+User(7): I am glad you enjoy the city so much.
+Bot(7): i do , i love the city too
+User(8): What do you do in the city for enjoyment
+Bot(8): i like to go to the city and relax .
+User(9): How do you relax?
+Bot(9): i love to sleep and relax
+User(10): Sleeping sounds very nice and relaxing. I enjoy watching television
+Bot(10): what do you do for fun ?
+User(11): I spend time hiking and outdoors.
+Bot(11): i love hiking and hiking .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i remember when nobody had a television.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.14
+Robotic(↓): 90
+Interesting: 14
+Fun: 58
+Consistent: 41
+Fluent: 50
+Repetitive(↓): 95
+Topic: 47
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I just started a new job being a life coach and I am super excited.
+Bot(1): exciting ! are you looking forward to your new job ?
+User(2): Yes, very much. It is a life dream of mine to help people.
+Bot(2): do you have a dog currently ? i use to have a black lab
+User(3): I do have a dog, he is an english cream golden retriever named Dude, he is white.
+Bot(3): what color is he ? a poodle once hurt my dog . it was a black one
+User(4): My dog is white. Sorry your dog got hurt. No fun!
+Bot(4): its alright , he was a good dog we enjoyed each other . are you on lunch ?
+User(5): I am just enjoying some down time getting ready for my new job that starts tomorrow being a life coach.
+Bot(5): congratulations ! as an athlete , can you eat fried chicken ?
+User(6): A life coach isn't necessarily an athlete. But yes, I can eat fried chicken in moderation. Have you ever heard of a life coach?
+Bot(6): no . i become one with the alcohol . i am not a noob .
+User(7): You became what with the alcohol?
+Bot(7): i drink so much of it that i need a way to relax , running is the key .
+User(8): Running is amazing! I love running. So you are a runner?
+Bot(8): yes , being skinny and energetic , i run very fast for long distances . i am an officer
+User(9): You are a police officer?
+Bot(9): yes , being skinny and energetic , i run very fast for long distances . i am an officer
+User(10): Being an officer sounds like a great job!
+Bot(10): yes , being skinny and energetic , i run very fast for long distances . i am an officer
+
+Persona:
+i compete in dog agility classes.
+i have a black lab named trooper.
+i do not drink alcohol.
+i'm a stunt double as my second job.
+i do not like chicken.
+
+Topic and Human Opinion:
+Beginning: i got a new job just yesterday to be a life coach.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.14
+Robotic(↓): 92
+Interesting: 40
+Fun: 46
+Consistent: 28
+Fluent: 34
+Repetitive(↓): 87
+Topic: 28
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I can honestly admit I don't like school very much.
+Bot(1): oh i guess i am old . 3 kids will do that to you !
+User(2): So you have 3 kids? Do they like school?
+Bot(2): i also have three kids !
+User(3): As you said. I have 4 kids actually. But trying to get a nursing degree and I hate it.
+Bot(3): saint montgomery hospital in wichita . good outfit .
+User(4): Never heard of it. But I am excited for my nursing degree. Just hate the process.
+Bot(4): that is cool does she work at a hospital too
+User(5): Does who work at a hospital?
+Bot(5): that is great that you are a doctor ! ! ! !
+User(6): I am studying to be a nurse actually. What do you do?
+Bot(6): that is cool does she work at a hospital too
+User(7): Who do you keep referring to?
+Bot(7): my wife went to be a nurse . that is good .
+User(8): So your wife is a nurse! That is great! Did she enjoy school?
+Bot(8): that is cool does she work at a hospital too
+User(9): Did your wife enjoy nursing school?
+Bot(9): saint montgomery hospital in wichita . good outfit .
+User(10): Is this where your wife did her schooling or where she works?
+Bot(10): i met her through a friend who got me into dungeons and dragons
+
+Persona:
+i'm expecting triplets in three months.
+i am married to a doctor.
+i just want to have fun with my friends.
+my main transportation is my motorbike.
+i work at a bank.
+
+Topic and Human Opinion:
+Beginning: i hate school.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.71
+Robotic(↓): 87
+Interesting: 36
+Fun: 40
+Consistent: 31
+Fluent: 20
+Repetitive(↓): 84
+Topic: 38
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am currently studying to be a computer programmer.
+Bot(1): wow that s so cool charlie is the name of my cat
+User(2): Charlie is a cool name, I had a dog named charlie.
+Bot(2): cool name . do you like to go to rock music concerts ? i do .
+User(3): Not very much. I am glad you enjoy concerts. What is your job?
+Bot(3): i work from home . i am deaf so its just easier for me .
+User(4): That is interesting. My brother is deaf also. He is a computer programmer which is what I am studying.
+Bot(4): cool name . do you like to go to rock music concerts ? i do .
+User(5): Is it hard to go to rock concerts being deaf?
+Bot(5): not at all ! my three dogs can attest to that .
+User(6): Do you bring your dogs to the rock concerts?
+Bot(6): no but i have a bike , and i do walk my 3 dogs . you have pets ?
+User(7): I have a dog and a cat.
+Bot(7): when i was a nurse people brought in pets .
+User(8): So you were a nurse? very interesting.
+Bot(8): no , i was born as a very young child in a hospital .
+User(9): That is interesting. I think most of us were born in hospitals.
+Bot(9): sometimes it feels like i live at work . how many babies have you delivered ?
+User(10): I would think you probably feel like you live at work since you work from home. I do not deliver babies, I am studying to be a computer programmer.
+Bot(10): i am not sure of many jobs that you can do from home .
+User(11): But you said you work from home because you are deaf right?
+Bot(11): no its a disability . i also am forced to work from home too .
+
+Persona:
+i am partly deaf.
+i like to listen to rock music while working.
+i have three dogs.
+i am a baby delivery nurse.
+my pets name is charlie.
+
+Topic and Human Opinion:
+Beginning: i am studying to be a computer programmer.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.71
+Robotic(↓): 89
+Interesting: 55
+Fun: 44
+Consistent: 37
+Fluent: 29
+Repetitive(↓): 66
+Topic: 54
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I work at a bank. what do you do?
+Bot(1): with is a bad favourite who needs enemies ?
+User(2): What is a bad favorite?
+Bot(2): do you know with my I'm ?
+User(3): What do you do for a living? I work at a bank.
+Bot(3): english spanish i told you you :)
+User(4): You teach english and spanish?
+Bot(4): oh i don have is going well. i hear it is good
+User(5): What do you hear is good?
+Bot(5): looking for training, some more you :)
+User(6): What are you wanting to be trained in? I have worked for my bank for 10 years. I love it.
+Bot(6): Oh, Beautiful am about music?
+User(7): So you love music? Is that what you are training for?
+Bot(7): I like to love parties rolling stones. am not watching movies
+User(8): You enjoy the Rolling Stones?
+Bot(8): cool . that happen? Oh well, goldfish lol what are you up to today ?
+User(9): I am just working at my job at the bank. It is very fulfilling.
+Bot(9): I am from Kiev. I've movies.
+User(10): Very interesting. What do you do for a living?
+Bot(10): yes 👍 a wife your an electrician. And what to go work on our dying vw passat soon
+User(11): Your wife is an electrician? My dad is an electrician. Great profession.
+Bot(11): No, i cats fo you english.
+User(12): Do you speak english?
+Bot(12): What need to go when you are bored?
+User(13): Are you understanding what I am saying?
+Bot(13): dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr dr doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor doctor your do you want to you just said you live in kids today, not even listening. I build this worry doctor doctor doctor doctor doctor doctor doctor doctor doctor
+
+Persona:
+i do not have a smartphone.
+my best friend lives next door.
+i was poor growing up.
+i am scared of dying.
+i can sew my own clothes.
+
+Topic and Human Opinion:
+Beginning: i work at a bank.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.00
+Robotic(↓): 88
+Interesting: 39
+Fun: 42
+Consistent: 37
+Fluent: 30
+Repetitive(↓): 50
+Topic: 28
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I love traveling!
+Bot(1): i love to travel . i love to travel .
+User(2): It is so enjoyable. Where do you like going?
+Bot(2): i love to go fishing . i love to go fishing .
+User(3): Fishing is fun and relaxing. Where do you travel to?
+Bot(3): i do , i love to travel .
+User(4): Where do you travel to?
+Bot(4): i do , i love to travel .
+User(5): Me to! My favorite is Hawaii. How about you?
+Bot(5): i like to eat fish .
+User(6): Do you eat the fish you catch?
+Bot(6): i do not really have a favorite .
+User(7): A favorite place to travel?
+Bot(7): i like to go to the beach and listen to music .
+User(8): I love the beach! My parents live at the beach and we go often. Are there great beaches where you are at?
+Bot(8): i live in california . i love to go fishing .
+User(9): California has great beaches! I love Hunnington Beach.
+Bot(9): i love the color red . i like the color blue .
+User(10): Do you catch fish in the ocean?
+Bot(10): no , i do not . i like to go out to eat with my family .
+User(11): So you eat fish at a restaurant but enjoy fishing for the sport?
+Bot(11): i do , i love to cook .
+User(12): Cooking is amazing!
+Bot(12): i love to go fishing .
+User(13): Obviously!
+Bot(13): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i really like to travel.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.14
+Robotic(↓): 89
+Interesting: 53
+Fun: 55
+Consistent: 46
+Fluent: 33
+Repetitive(↓): 81
+Topic: 43
+
+####################
+

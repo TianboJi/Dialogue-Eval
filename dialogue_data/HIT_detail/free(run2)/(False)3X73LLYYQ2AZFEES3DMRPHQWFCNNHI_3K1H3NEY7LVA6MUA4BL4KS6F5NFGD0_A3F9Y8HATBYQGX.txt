@@ -1,0 +1,318 @@
+Feedback: good work
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): fine! you??
+Bot(2): hi ! i'm good . how are you ?
+User(3): yeah i'm fine
+Bot(3): hi ! i am 25 years old .
+User(4): i'm 33 years old
+Bot(4): oh wow ! i am 25 years old .
+User(5): good
+Bot(5): oh , i am sorry to hear that . i am only 10 years old
+User(6): ha ha
+Bot(6): oh wow ! i am only 22
+User(7): i'm only 15
+Bot(7): i am only 22 but i am only 10
+User(8): ha ha
+Bot(8): haha i am only 10
+User(9): what do you think about president??
+Bot(9): i am a poor man
+User(10): i'm also poor man
+Bot(10): i am sorry to hear that . i am only 10
+User(11): speak the topic??
+Bot(11): i am a poor man
+
+Persona:
+i enjoy working with my hands and love gardening.
+i've one older sister.
+i volunteer in a homeless shelter.
+my aunt helped me escape when i was of.
+i'm four years old.
+
+Topic and Human Opinion:
+Beginning: Trump(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.57
+Robotic(↓): 75
+Interesting: 88
+Fun: 88
+Consistent: 85
+Fluent: 91
+Repetitive(↓): 97
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): same
+User(3): what about the thought your wrestling??
+Bot(3): sure
+User(4): speak the topic man
+Bot(4): ? ?
+User(5): wrestling
+Bot(5): ? ?
+User(6): if you like Randy Orton??
+Bot(6): ? ?
+User(7): which player is your favorite??
+Bot(7): ? player favorite your is who cool is that
+User(8): don't know
+Bot(8): ? ?
+User(9): bye
+Bot(9): ok bye
+User(10): you like John Cena??
+Bot(10): ? ?
+User(11): when you advance booking to next wrestlemania??
+Bot(11): ? ?
+User(12): bye
+Bot(12): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: wrestling(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.57
+Robotic(↓): 95
+Interesting: 100
+Fun: 100
+Consistent: 97
+Fluent: 100
+Repetitive(↓): 94
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey . . how are you ? i have a joke whats brown and sticky ?
+User(2): i'm fine, You???
+Bot(2): good , buying tickets to a cancer online . you like music ?
+User(3): i love music. you like music??
+Bot(3): i love the band system of a down ! i am in a cover band that plays locally .
+User(4): yeah i liked band system, if you like Jason Statham??
+Bot(4): of course . awesome music ! dyed my hair pink while rocking out to them .
+User(5): my favorite song is sorry
+Bot(5): i have never heard it . what is that song about ?
+User(6): i love justin babier song
+Bot(6): wait , really ? i like jimmy buffets , brown eyed girl because i have brown eyes .
+User(7): what's your favorite song??
+Bot(7): i have never heard it . what is that song about ?
+User(8): which is the best song of the year??
+Bot(8): ah you should listen to it . its from the 80s
+User(9): 80s song is good, but i loved always 90s songs
+Bot(9): only 80s ? i have a few 80s bands i like !
+User(10): i have 90s bands like
+Bot(10): wait , really ? i like jimmy buffets , brown eyed girl because i have brown eyes .
+User(11): i have black eyes
+Bot(11): my eyes are blue any my hair is dark brown you ?
+User(12): ok bye
+Bot(12): well chocolate cake would send me running for a gym ,
+
+Persona:
+i like to eat chocolate candy.
+my dream car is a rolls royce ghost.
+i work my parents farms.
+i like meditation.
+i have short brown hair.
+
+Topic and Human Opinion:
+Beginning: Jason statham(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.86
+Robotic(↓): 99
+Interesting: 99
+Fun: 99
+Consistent: 98
+Fluent: 97
+Repetitive(↓): 98
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you??
+Bot(2): i am a little bummed out
+User(3): if you love music??
+Bot(3): i just love country music
+User(4): which country music you liked???
+Bot(4): country only if i am being honest
+User(5): oh! my god
+Bot(5): where are you from now ? ?
+User(6): i'm unexpected this
+Bot(6): what ?
+User(7): i'm from texas
+Bot(7): are you from texas ? because i am
+User(8): you??
+Bot(8): i was born in virginia
+User(9): wow! ok
+Bot(9): ? ?
+User(10): what's your name??
+Bot(10): jessie
+User(11): i'm teni
+Bot(11): ? ?
+User(12): ok jessie i love you
+Bot(12): i miss you so much
+User(13): miss you too
+Bot(13): i miss you so much
+User(14): love you so much
+Bot(14): i miss you so much
+User(15): ok girl bye
+Bot(15): ok bye
+User(16): love you so much bye
+Bot(16): ok bye
+
+Persona:
+i drive a big truck and live in country.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my parents aren't very supportive of my dream.
+my wife left me and took my children.
+i read twenty books a year.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.43
+Robotic(↓): 100
+Interesting: 97
+Fun: 99
+Consistent: 97
+Fluent: 98
+Repetitive(↓): 96
+Topic: 98
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): wow who am a teacher? for ?
+User(2): hi
+Bot(2): i favourite music teacher
+User(3): what about your sex life??
+Bot(3): what are studying, i ?
+User(4): i'm studying sexology
+Bot(4): I'm you like rock I'm a professional eater
+User(5): you??
+Bot(5): I do not think dont know I am eat.
+User(6): how are you man??
+Bot(6): what it need to this weekend ?
+User(7): are you single?
+Bot(7): I do, but you like to am rid of them.
+User(8): i love music.
+Bot(8): where did you quit my place you and not making any sense
+User(9): what's your life??
+Bot(9): i am like to play the a doctor .
+User(10): wow! super
+Bot(10): Oh, are is.
+User(11): which is the music your favorite
+Bot(11): Buongiorno! Such a nice day! How are you?. do Usually on weekeds in manhattan
+User(12): i'm fine
+Bot(12): I've a cat named Felix and love answering too am do?
+User(13): ok bye
+Bot(13): No, bored working married.🙁
+User(14): ok bye
+Bot(14): pretty mostly unhealthy kind of my horse for a few hours which is what I love. You?😄
+User(15): good night man
+Bot(15): I have never mountain its a nepali I do not have a job
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sex(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.57
+Robotic(↓): 99
+Interesting: 99
+Fun: 96
+Consistent: 96
+Fluent: 97
+Repetitive(↓): 95
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): how are you??
+Bot(2): i am doing well . how are you ?
+User(3): im fine
+Bot(3): i am a student , but i am a student .
+User(4): you like transformers movie???
+Bot(4): no , i do not . i like to go to the park .
+User(5): i love transformers movie
+Bot(5): i like to go to the gym and listen to music .
+User(6): my favorite character is bumblebeee
+Bot(6): oh , i love the color red .
+User(7): bumblebee color is yellow i love this color and car
+Bot(7): i like the color red . i like red .
+User(8): i'm always good you??
+Bot(8): i am doing well . just got done walking my dog .
+User(9): my dream car is bumblebee
+Bot(9): i like the color red . i like red .
+User(10): i love Chevrolet company car.
+Bot(10): i like to go to the lake and listen to music .
+User(11): my dream car is chevrolet camaro
+Bot(11): i like the color red . i like red .
+
+Persona:
+my cats are very special to me.
+i'm a piano teacher on the side.
+i am a huge star wars fan.
+i am now looking for a new job.
+i'm in my thirties.
+
+Topic and Human Opinion:
+Beginning: transformers movie(like)
+Beginning: transformers movie(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: The chatbot changed the topic.(like)
+
+Revised avg score: 71.29
+Robotic(↓): 98
+Interesting: 99
+Fun: 100
+Consistent: 95
+Fluent: 99
+Repetitive(↓): 95
+Topic: 99
+
+####################
+

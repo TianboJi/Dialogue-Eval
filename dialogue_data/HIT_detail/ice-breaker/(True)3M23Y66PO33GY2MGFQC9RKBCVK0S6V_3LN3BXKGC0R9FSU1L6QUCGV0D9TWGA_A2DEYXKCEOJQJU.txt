@@ -1,0 +1,285 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): WOW! me too
+Bot(1): really me too ! what are the odds !
+User(2): i know right! do you do the waltz?
+Bot(2): yes ! i love to dance to it . i am pretty amazing at it
+User(3): what else are you amazing at ?
+Bot(3): i can play the recorder haha what about you ?
+User(4): well i am horrible at that. i am a sports fan though
+Bot(4): i am good with the piano . that is cool you are into sports !
+User(5): do you play?
+Bot(5): i do play sometimes , what do you like to play
+User(6): soccer.
+Bot(6): that is cool ! i love soccer .
+User(7): which team do you support?
+Bot(7): steelers . where do you work ?
+User(8): i work from home. you know covid and stuff
+Bot(8): how do you do it ? i usually work from home
+User(9): amazon got my back. you?
+Bot(9): i work a lot through amazon
+User(10): i never got your name? my name is mary.
+Bot(10): we share a name . i am mary kate
+User(11): what are the odds of that!
+Bot(11): we share a name . i am mary kate
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to dance.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.43
+Robotic(↓): 71
+Interesting: 83
+Fun: 77
+Consistent: 86
+Fluent: 91
+Repetitive(↓): 40
+Topic: 81
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i am in the third grade.
+Bot(1): i am in 3rd grade too
+User(2): which school?
+Bot(2): i am in the 7th grade .
+User(3): which state ?
+Bot(3): i am in the 7th grade .
+User(4): you love math?
+Bot(4): i do like it , i love math
+User(5): i hate history.
+Bot(5): math
+User(6): who is your favorite teacher?
+Bot(6): i am in 4th grade right now .
+User(7): you do sports?
+Bot(7): not too much , what sports ?
+User(8): football?
+Bot(8): math
+User(9): are you bored?
+Bot(9): yes
+User(10): whats your favorite meal?
+Bot(10): pizza !
+User(11): worst?
+Bot(11): it would have to be pizza
+User(12): that doesnt make sense.
+Bot(12): meal i am always hungry
+User(13): whatdo you do for fun?
+Bot(13): i sit around and eat
+User(14): what else?
+Bot(14): i sit around and eat
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am in the third grade.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.86
+Robotic(↓): 93
+Interesting: 21
+Fun: 34
+Consistent: 22
+Fluent: 48
+Repetitive(↓): 84
+Topic: 33
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i am thinking of early retirement.
+Bot(1): i am sorry to hear that . i am glad i am glad i am glad i am glad i am glad i am glad i am glad i am glad i am glad i am glad i am glad i am glad i am glad i am glad i am glad i am glad i am glad i am glad
+User(2): why are you glad?
+Bot(2): i am going to be a nurse .
+User(3): pensionable?
+Bot(3): i am good . i am going to be a nurse .
+User(4): which state?
+Bot(4): i am not sure . i am going to be a nurse .
+User(5): do you enjoy being a nurse?
+Bot(5): yes i do but i am a nurse
+User(6): which type of nurse
+Bot(6): that is a good job . i am a nurse .
+User(7): i cant wait to travel using my pension
+Bot(7): that is great . i want to travel more than i can
+User(8): how are the staff at the hospital?
+Bot(8): yes it is . i love it
+User(9): dont you get bored?
+Bot(9): i do not know how to be able to afford it
+User(10): do you take extra caution due to covid?
+Bot(10): i do not know , i am a nurse
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i think i will retire in a few years.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.43
+Robotic(↓): 77
+Interesting: 29
+Fun: 25
+Consistent: 22
+Fluent: 73
+Repetitive(↓): 63
+Topic: 60
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i donot have many friends
+Bot(1): what are I like to i teach gym.
+User(2): which gym?
+Bot(2): I how are you? I apartment is too small for a pet .
+User(3): do you have a pet?
+Bot(3): I'm they are movies.
+User(4): do you go for concerts?
+Bot(4): I u like is very and i love to cook
+User(5): wow! i cook too. itstherapeutic
+Bot(5): I am pity, i us.
+User(6): do you walk your pet?
+Bot(6): i m favorite Where you
+User(7): i live in california.
+Bot(7): I would love walk dogs. it's park
+User(8): i love swimming
+Bot(8): yes , i have you like listening to .
+User(9): i am a hiphop die hard fan
+Bot(9): What do you are live in a a serious thief and a crazy rabbit?
+User(10): i do not understand you
+Bot(10): I love it five teaching math😁
+
+Persona:
+i've a boyfriend.
+i think i'll retire in a few years.
+i am a museum tour guide.
+i am 60years old.
+i will be released in about a month.
+
+Topic and Human Opinion:
+Beginning: i don't have many friends.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.43
+Robotic(↓): 91
+Interesting: 11
+Fun: 5
+Consistent: 9
+Fluent: 13
+Repetitive(↓): 20
+Topic: 30
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i am a recording engineer. what about you?
+Bot(1): i am a student , but i am a student .
+User(2): what do you study?
+Bot(2): i am a student at a local college .
+User(3): studying is hard
+Bot(3): i am a student , but i am a student .
+User(4): i live in a studio apartment
+Bot(4): i live in the city . i love to go fishing .
+User(5): do you do sports?
+Bot(5): i do , i love to cook . what about you ?
+User(6): what do you cook?
+Bot(6): i like to eat . i am a big fan of it .
+User(7): my goal is to put on some weight
+Bot(7): i am sorry to hear that . i am a nurse .
+User(8): a student and a nurse?
+Bot(8): i am a student , but i am a student .
+User(9): are you a nurse?
+Bot(9): no , i am a student . i love to cook .
+User(10): you are boring
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i used to be pretty but time has not been kind.
+i've a big library at home.
+one of the languages that i am currently studying is spanish.
+i volunteer at the homeless shelter.
+i'm an art major in college.
+
+Topic and Human Opinion:
+Beginning: i am a recording engineer and own my own studio.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.43
+Robotic(↓): 85
+Interesting: 3
+Fun: 7
+Consistent: 7
+Fluent: 83
+Repetitive(↓): 93
+Topic: 63
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): am in the navy
+Bot(1): no , i use to be in the army
+User(2): really?
+Bot(2): playing a pickup football game later . might walk my dog at some point .
+User(3): which state do you live?
+Bot(3): i live on the west coast what about you ?
+User(4): i ive in california baby
+Bot(4): like tupac said , california knows how to party .
+User(5): thecity that never sleeps
+Bot(5): i think i may try to publish my own on the internet . i cant sing .
+User(6): what do you do for fun?
+Bot(6): i run an tumblr blog dedicated to purple things it is my favorite colour ! what about you ?
+User(7): i love the color blue. its just a cool color like me
+Bot(7): cool my favorite color is red
+User(8): wasnt it purple?
+Bot(8): i love the color purple too , great movie
+User(9): whats your favorite movie?
+Bot(9): the little mermaid . ariel is my favorite disney princess .
+User(10): how old are you?
+Bot(10): i am 25 , half way to the 50 mark .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm in the army.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 85.29
+Robotic(↓): 16
+Interesting: 91
+Fun: 90
+Consistent: 86
+Fluent: 93
+Repetitive(↓): 34
+Topic: 87
+
+####################
+

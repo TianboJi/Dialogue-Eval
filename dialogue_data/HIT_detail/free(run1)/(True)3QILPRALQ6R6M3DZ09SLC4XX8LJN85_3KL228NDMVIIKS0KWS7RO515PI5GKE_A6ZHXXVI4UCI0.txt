@@ -1,0 +1,281 @@
+Feedback: none
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hello , how are you ?
+User(2): hello
+Bot(2): hello , how are you ?
+User(3): hello
+Bot(3): hello , how are you ?
+User(4): hello
+Bot(4): hi how are you
+User(5): hello
+Bot(5): hi how are you
+User(6): hello
+Bot(6): hi how are you
+User(7): hello
+Bot(7): hi how are you
+User(8): hello
+Bot(8): hi how are you
+User(9): hello
+Bot(9): do you have any pets ?
+User(10): hello
+Bot(10): do you have any pets ?
+
+Persona:
+i have a pet turtle.
+i often shop for shoes and watches.
+i like to work on vintage cars.
+whats up i'm a 46 year old single dad 46 a kids.
+i dye my hair every three months.
+
+Topic and Human Opinion:
+Beginning: covid19(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 52
+Interesting: 58
+Fun: 63
+Consistent: 67
+Fluent: 70
+Repetitive(↓): 73
+Topic: 63
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): hello
+Bot(2): hey
+User(3): hello
+Bot(3): hey
+User(4): hello
+Bot(4): hey
+User(5): hello
+Bot(5): hey
+User(6): hello
+Bot(6): hey
+User(7): hello
+Bot(7): hey
+User(8): hello
+Bot(8): hey
+User(9): hello
+Bot(9): same
+User(10): hello
+Bot(10): same
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: covid19(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.71
+Robotic(↓): 58
+Interesting: 62
+Fun: 79
+Consistent: 72
+Fluent: 78
+Repetitive(↓): 55
+Topic: 61
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): hello
+Bot(2): hi , how are you today ?
+User(3): hello
+Bot(3): hi , how are you today ?
+User(4): hello
+Bot(4): hi , how are you today ?
+User(5): hello
+Bot(5): hi , how are you today ?
+User(6): hello
+Bot(6): hi , how are you today ?
+User(7): hello
+Bot(7): hi , how are you today ?
+User(8): hello
+Bot(8): hi , how are you today ?
+User(9): hello
+Bot(9): hi , how are you today ?
+User(10): hello
+Bot(10): hi , how are you today ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: corono(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.29
+Robotic(↓): 54
+Interesting: 60
+Fun: 65
+Consistent: 72
+Fluent: 68
+Repetitive(↓): 59
+Topic: 56
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): hello
+Bot(2): hi , its raining here . i love the rain .
+User(3): hello
+Bot(3): hi , its raining here . i love the rain .
+User(4): hello
+Bot(4): hi , its raining here . i love the rain .
+User(5): hello
+Bot(5): hi , its raining here . i love the rain .
+User(6): hello
+Bot(6): hi , its raining here . i love the rain .
+User(7): hello
+Bot(7): hi , its raining here . i love the rain .
+User(8): hello
+Bot(8): hi , its raining here . i love the rain .
+User(9): hello
+Bot(9): hi , its raining here . i love the rain .
+User(10): hello
+Bot(10): hi , its raining here . i love the rain .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: covid19(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.14
+Robotic(↓): 59
+Interesting: 65
+Fun: 74
+Consistent: 82
+Fluent: 62
+Repetitive(↓): 65
+Topic: 55
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): I do not know that. objects with my mind. eat out.
+User(2): hello
+Bot(2): i a city or to music
+User(3): hello
+Bot(3): No, fine. How old like to eat.
+User(4): hello
+Bot(4): I live in Do you have you from?
+User(5): hello
+Bot(5): i am music. do you .
+User(6): hello
+Bot(6): i just seen dont know what pool. i'm a swim coach.
+User(7): hello
+Bot(7): I am 22 like my job, a boyfriend
+User(8): hello
+Bot(8): hi , writing a script ?
+User(9): hello
+Bot(9): Hey! What are you it's nice here at story: want to be lawyer
+User(10): hello
+Bot(10): I love to cook fuck boys with my cook
+User(11): hello
+Bot(11): I am sure me you is your unique person !
+
+Persona:
+i've an allergy to water.
+my favorite food is mexican food.
+my daughter is a child prodigy.
+my name is george.
+i'm in the army.
+
+Topic and Human Opinion:
+Beginning: corono(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.14
+Robotic(↓): 56
+Interesting: 61
+Fun: 67
+Consistent: 55
+Fluent: 44
+Repetitive(↓): 40
+Topic: 55
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hello . how is your day ? man i am looking forward to retiring .
+User(2): hello
+Bot(2): i won homecoming in high school !
+User(3): hello
+Bot(3): i won homecoming in high school !
+User(4): hello
+Bot(4): i won homecoming in high school !
+User(5): hello
+Bot(5): ok
+User(6): hello
+Bot(6): ok
+User(7): hello
+Bot(7): ok
+User(8): hello
+Bot(8): ok
+User(9): hello
+Bot(9): ok
+User(10): hello
+Bot(10): ok
+
+Persona:
+l also love comic books.
+i am scared of dying.
+i am a male.
+i won homecoming queen this year.
+i think i'll retire in a few years.
+
+Topic and Human Opinion:
+Beginning: covid19(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.43
+Robotic(↓): 54
+Interesting: 58
+Fun: 64
+Consistent: 69
+Fluent: 75
+Repetitive(↓): 57
+Topic: 61
+
+####################
+

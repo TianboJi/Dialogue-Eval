@@ -1,0 +1,317 @@
+Feedback: n/a
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Good Afternoon. Sunny but chilly weather we are having today, huh?
+Bot(1): i am doing well . just got done walking my dog .
+User(2): That is good to hear. What type of dog do you have?
+Bot(2): i do not have any pets , but i do like to eat .
+User(3): What do you like to eat?
+Bot(3): i love to cook . i love to cook .
+User(4): I like to cook, too. My favorite dish is lasagna.
+Bot(4): i like to eat fish .
+User(5): I do not eat other animals or fish.
+Bot(5): i like to eat fish .
+User(6): I do not like to eat other animals or fish.
+Bot(6): i like to eat fish .
+User(7): What else do you like to eat?
+Bot(7): i love pizza , and i love it .
+User(8): Pizza is great with dairy-free cheese.
+Bot(8): i like to eat fish .
+User(9): Okay, how much fish do you eat?
+Bot(9): i love pizza , and i love it .
+User(10): What is your favorite pizza topping?
+Bot(10): i like the color red . what is yours ?
+User(11): orange
+Bot(11): i like to go to the gym and listen to music .
+User(12): I like to read books and listen to audiobooks.
+Bot(12): i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Weather(like)
+Round 1: How they are doing and what they just finished doing.(like)
+Round 10: favorite color(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: No topic change.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.14
+Robotic(↓): 100
+Interesting: 14
+Fun: 15
+Consistent: 30
+Fluent: 14
+Repetitive(↓): 92
+Topic: 11
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Good Afternoon. Do you have any pets?
+Bot(1): no . i would like a cat , but i am allergic . do you have pets ?
+User(2): Yes, I have a cat and a dog.
+Bot(2): do a lot of research to ensure you are not buying a bad car . good luck
+User(3): I look up a lot of reviews and Kelly Bluebook to see if a car is a good fit for me.
+Bot(3): fixing cars ? hmm . . . mighty hands ? yes i do have a car a mercedes .
+User(4): What color is your car?
+Bot(4): my favorite color is blue yours ?
+User(5): My favorite color is orange.
+Bot(5): yes i like orange color as well
+User(6): Great! Why do you like blue?
+Bot(6): that is great i mean blue is a great color , my favorite is green .
+User(7): I thought you liked blue the best?
+Bot(7): cool my favorite color is red
+User(8): You must have a lot of favorite colors.
+Bot(8): red , its the color of the roses in my best friends garden . you ?
+User(9): Yes, red is beautiful, especially roses.
+Bot(9): roses are pretty flowers . do you like picnics ?
+User(10): Yes, I love picnics.
+Bot(10): our dad does of course , you should study computer science when you are older !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 2: purchasing a new car(dislike)
+Round 4: favorite color(dislike)
+Round 9: picnics(like)
+Round 10: studying and majors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: No topic change.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 60.57
+Robotic(↓): 65
+Interesting: 71
+Fun: 61
+Consistent: 54
+Fluent: 71
+Repetitive(↓): 40
+Topic: 72
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Good Afternoon. Do you enjoy playing tennis?
+Bot(1): So you hear basketball?
+User(2): I like tennis, not basketball.
+Bot(2): He maybe we'll older.
+User(3): What is your favorite sport?
+Bot(3): oh. hobbies is not with your husband?
+User(4): Do you watch tennis players on TV?
+Bot(4): oh, do you drive I am studying Btech live?
+User(5): Yes I can drive. Can you?
+Bot(5): wow , that's go to the you it could come from a country song . what do you do for fun ? 🙉
+User(6): I like listening to audiobooks.
+Bot(6): It What about good. is: vegetarian
+User(7): I am vegan. What do you eat?
+Bot(7): i see , you are a teacher , i am a last time i’ve been outside a teacher , so i do not know much about them .
+User(8): I am a nurse.
+Bot(8): lizzy is pkka spend most of have a dog ? 🙊
+User(9): I have one dog.
+Bot(9): I like all music. you you like have to do ?
+User(10): I love music.
+Bot(10): i am in the olympics , and i am in the olympics , and i am in to set me up you ?
+
+Persona:
+my main transportation is my motorbike.
+i just bought my first home.
+i do not pick up my toys.
+i like to work on vintage cars.
+my father is in the army.
+
+Topic and Human Opinion:
+Beginning: Tennis(like)
+Round 4: driving(dislike)
+Round 5: what to do for fun(ambivalent)
+Round 6: diets(ambivalent)
+Round 7: occupation(ambivalent)
+Round 8: dog(ambivalent)
+Round 9: music(ambivalent)
+Round 10: olympics(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 9.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 4
+Repetitive(↓): 38
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Good Afternoon. Do you like to cook?
+Bot(1): sure , can i bring my dog ? i am 35 years old .
+User(2): I just learned how to make bread.
+Bot(2): wow , how nice ! what are you making ?
+User(3): A large loaf of homemade bread!
+Bot(3): i am baking some bread for a gathering tonight .
+User(4): Great! What else do you like to cook or bake?
+Bot(4): everything ! when you live in manhattan you have your choice of food !
+User(5): Awesome! I also like to cook lasagna.
+Bot(5): lasagna is the best ! what do you like to do for fun ?
+User(6): I like to read.
+Bot(6): i do not have much patience anymore for reading .
+User(7): I also like to listen to audiobooks while I do other things like cleaning and cooking!
+Bot(7): i really like listening to audiobooks
+User(8): Right now I'm listening to "America's First Daughter" on Audible.
+Bot(8): i love jess greenberg ! what do you do for a living ?
+User(9): I am a homemaker.
+Bot(9): i am currently buying my first home .
+User(10): I bought a home 3 years ago.
+Bot(10): i am currently buying my first home .
+
+Persona:
+i've a german shepherd named barnaby.
+i'm 60years old.
+i just moved into my first home.
+i am a construction worker.
+i am an animal activist.
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+Round 1: dog & age(dislike)
+Round 1: cooking(like)
+Round 5: to do for fun(like)
+Round 8: occupation(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 1: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 91.29
+Robotic(↓): 14
+Interesting: 87
+Fun: 89
+Consistent: 93
+Fluent: 93
+Repetitive(↓): 2
+Topic: 93
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Good Afternoon. Do you like to shop?
+Bot(1): yes i do , i love shopping
+User(2): I especially like to shop online for convenience.
+Bot(2): i shop online for clothes online .
+User(3): I even buy some groceries online.
+Bot(3): i shop online . i shop online .
+User(4): What else do you buy?
+Bot(4): i shop online . i shop online .
+User(5): Where do you shop?
+Bot(5): shop online . i shop online .
+User(6): How is the weather?
+Bot(6): it is a small town . i shop online .
+User(7): It is cold here.
+Bot(7): i shop online . i shop online .
+User(8): What do you like to do for fun?
+Bot(8): i like to shop online . what about you ?
+User(9): I like to read and play pinocle.
+Bot(9): i like to read . i like to read .
+User(10): Do you play cards?
+Bot(10): i do not . i do not play much .
+User(11): That's too bad.
+Bot(11): i do not play any games . i like to play games .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Shopping(ambivalent)
+Round 5: weather(ambivalent)
+Round 7: to do for fun(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 22.14
+Robotic(↓): 100
+Interesting: 8
+Fun: 5
+Consistent: 63
+Fluent: 0
+Repetitive(↓): 95
+Topic: 74
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Good afternoon, do you have a cat?
+Bot(1): i do i have a cat .
+User(2): What is your cats gender?
+Bot(2): his
+User(3): What is his name?
+Bot(3): do you know the gender ?
+User(4): No, but you can tell me.
+Bot(4): do you know the gender ?
+User(5): I assume he is male.
+Bot(5): do you know the gender ?
+User(6): My cats name is Mick.
+Bot(6): do you know the gender ?
+User(7): How is the weather?
+Bot(7): it is slightly chilly , thankfully the sun is out .
+User(8): Yes! The sun is out here too and it is chilly. What are you wearing?
+Bot(8): it is slightly chilly , thankfully the sun is out .
+User(9): Does it snow in your area?
+Bot(9): not as much as people think , but it can get pretty rainy .
+User(10): What state or area do you live in?
+Bot(10): i live in michigan . it is a cold , rainy day today .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cats(like)
+Round 6: weather(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 82.14
+Robotic(↓): 12
+Interesting: 75
+Fun: 79
+Consistent: 86
+Fluent: 90
+Repetitive(↓): 34
+Topic: 91
+
+####################
+

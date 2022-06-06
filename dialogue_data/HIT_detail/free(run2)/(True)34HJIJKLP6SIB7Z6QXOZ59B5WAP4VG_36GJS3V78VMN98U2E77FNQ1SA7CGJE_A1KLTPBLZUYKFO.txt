@@ -1,0 +1,303 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi! Have you seen any funny commercials lately?
+Bot(1): no , i am not . i like to go to the park .
+User(2): Oh, you enjoy being outside?
+Bot(2): i do , i love to go fishing .
+User(3): Me too! Do you fish at the park?
+Bot(3): no , i do not , but i do like to eat .
+User(4): I love to eat too! My favorite is McDonald's french fries. What's yours?
+Bot(4): i like to eat fish .
+User(5): Mmmm, I had some good fried fish last night. It was whiting.
+Bot(5): i am sorry to hear that . i am sorry to hear that .
+User(6): No, I love whiting. No need to be sorry.
+Bot(6): i am a girl who loves to eat fish .
+User(7): I love tuna fish too!
+Bot(7): i like to eat fish .
+User(8): Do you prefer fried fish or baked fish?
+Bot(8): i love pizza , and i love it .
+User(9): Yummy, me too. I love lots of pepperoni and cheese on my pizza. What about you?
+Bot(9): i like to eat the skin .
+User(10): Ew, yuck. I don't much like the skin on pepperoni.
+Bot(10): i like the color red . i like the color blue .
+
+Persona:
+i like to eat hamburgers and french fries.
+my favorite food is pizza with black olives.
+i love taking bubble baths.
+i have been traveling the world for a years.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: Commercials(like)
+Round 1: the park(ambivalent)
+Round 3: Eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 42.14
+Robotic(↓): 88
+Interesting: 42
+Fun: 42
+Consistent: 50
+Fluent: 56
+Repetitive(↓): 72
+Topic: 65
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi! Do you like to cook?
+Bot(1): all over the not for me, it.
+User(2): I don't like it either. I never cook if I can help it.
+Bot(2): Hi! Howdy! great habit of yours! me: i'm gold medalist olympian
+User(3): Wow, that's impressive! What's your sport?
+Bot(3): i do not know to see you! .
+User(4): We're just on regular chat. You can't see me!
+Bot(4): no , you afraid it's .
+User(5): I'm not afraid, it's just not appropriate right now.
+Bot(5): Hey! you have any a old? Because I am.
+User(6): I am old too.
+Bot(6): I'm so proud of married about consol games? like to do?
+User(7): I'm not married and don't play console games. I like to read. You?
+Bot(7): What else you do in 😁
+User(8): I like to watch movies with my family at home, and do some exercise. What do you like to do?
+Bot(8): why we are both now ?
+User(9): Why are we both now what?
+Bot(9): I me bolle like soda my friends and family
+User(10): I like soda too, and my friends and family. We've got that in common.
+Bot(10): i do not know in london but i’m not know .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cooking(dislike)
+Round 2: They're an olympic competitor.(like)
+Round 3: Seeing me.(ambivalent)
+Round 5: Age(ambivalent)
+Round 6: marriage, console games(dislike)
+Round 7: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 21.00
+Robotic(↓): 85
+Interesting: 13
+Fun: 13
+Consistent: 14
+Fluent: 3
+Repetitive(↓): 61
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi. Do you like to play board games?
+Bot(1): no i like board games a lot .
+User(2): Me too! Have you ever played Password or Scrabble?
+Bot(2): no i like board games a lot .
+User(3): What board games do you like?
+Bot(3): clue is one of my favorite board games !
+User(4): I haven't played Clue in a while, but I remember that it's fun!
+Bot(4): clue is one of my favorite board games !
+User(5): Yes, I can see that it is. Do you like Trivial Pursuit?
+Bot(5): clue is one of my favorite board games !
+User(6): What kind of books do you like? One of my favorites is Animal Farm.
+Bot(6): clue is one of my favorite board games !
+User(7): There was a movie based on Clue.
+Bot(7): clue is one of my favorite board games !
+User(8): That's enough of Clue now. What other games do you like?
+Bot(8): clue is one of my favorite board games !
+User(9): I'm beginning to wonder if Colonel Mustard has gotten you with the pipe in the conservatory.
+Bot(9): hmm , that does sound familiar !
+User(10): LOL! It should sound familiar :)
+Bot(10): clue is one of my favorite board games !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Board games(like)
+Round 5: books(like)
+Round 6: Clue is their favorite board game for the fourth time.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 28
+Fun: 14
+Consistent: 60
+Fluent: 50
+Repetitive(↓): 100
+Topic: 23
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi! I love to watch judge shows like the People's Court. Do you like them too?
+Bot(1): true true , did i mention my twins ? they are exhausting
+User(2): I can't even imagine how hard it must be to take care of twins!
+Bot(2): twins was my favorite movie in the 80s , big fan of comedies myself
+User(3): I remember that movie! Danny Devito and Arnold Schwarzenegger are funny in it.
+Bot(3): i am watch lord of the rings . it is the best movie out there
+User(4): Oops, can you believe I've never seen it? Is it kind of like Game of Thrones?
+Bot(4): it is pretty cool but i do not watch often
+User(5): Yeah, if you watch it too much I imagine it would get boring. I like the comedy Shaun of the Dead. Do you?
+Bot(5): cool ! is that what you do for a living ? i work for a law firm .
+User(6): No, but I'd love to have a job watching TV or movies! Do you enjoy working in the legal field?
+Bot(6): yes , movies are fun . music is my passion . i play piano at a bar .
+User(7): I love listening to music, but haven't played piano in years. You must be really good to play in bars.
+Bot(7): very nice ! love a good piano . where are you from ?
+User(8): I'm from Florida in the USA. Where are you from?
+Bot(8): i am in louisiana . new orleans . what part of florida ?
+User(9): Jacksonville, home of the Jaguars. New Orleans sounds fun :)
+Bot(9): interesting indeed . i teach middle school . i see a variety of people .
+User(10): You work too much: in a law firm, playing piano at a bar, and now teaching school. You must be very busy!
+Bot(10): nice . i teach second graders spanish , but i used to be a chef
+
+Persona:
+i am 40 years old.
+i don't pick up my toys.
+i'm a piano teacher on the side.
+i'll be released in about a month.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: Judge shows(like)
+Round 1: their children(like)
+Round 2: Movies(like)
+Round 6: hobbies(like)
+Round 7: Our locations(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 88.29
+Robotic(↓): 7
+Interesting: 98
+Fun: 97
+Consistent: 75
+Fluent: 100
+Repetitive(↓): 31
+Topic: 86
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, where are you from?
+Bot(1): i am from california , and yourself ?
+User(2): The other sunny state, Florida! Near the ocean. Are you?
+Bot(2): i am ! oahu . but i sill like to vacation in florida once in a while .
+User(3): Wow, I've never been to California OR Hawaii. You're so lucky!
+Bot(3): i have never been but it is a dream of mine . i usually end up in florida
+User(4): Oahu is my dream vacation, too. I love to bodysurf in the ocean, but wouldn't dare try to use a surfboard!
+Bot(4): haha , aint never been buddy . i did play this surfing game once though !
+User(5): Like on the Wii?
+Bot(5): haha , aint never been buddy . i did play this surfing game once though !
+User(6): I've never heard of a surfing game.
+Bot(6): haha , aint never been buddy . i did play this surfing game once though !
+User(7): Did you watch Game of Thrones?
+Bot(7): no , i am not a big fan of team sports , more surfing , etc . did you ?
+User(8): It's a great TV show. You should watch it some time.
+Bot(8): thanks ! maybe i will when i am taking a break from surfing
+User(9): I love to watch surfing, but when I tried to do it I went nose first under the water and my board hit my head!
+Bot(9): that sounds awful ! i do not know how i would live without surfing
+User(10): Good thing nobody's stopping you! Hey, you should surf in St. Augustine next time you're in Florida. Great waves.
+Bot(10): thanks ! maybe i will when i am taking a break from surfing
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: where we live(like)
+Round 5: Vacations(like)
+Round 6: TV shows(like)
+Round 9: surfing(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 48.29
+Robotic(↓): 77
+Interesting: 57
+Fun: 50
+Consistent: 57
+Fluent: 72
+Repetitive(↓): 91
+Topic: 70
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi. I'm camping right now. Do you like to camp?
+Bot(1): i do . i love to go camping .
+User(2): Yay! I love my little dome tent, it's a pop-up and easy to erect.
+Bot(2): i love to go camping . i love camping .
+User(3): When's the last time you camped?
+Bot(3): no , i am not . i am a stay at home mom .
+User(4): You can probably still camp though, right?
+Bot(4): yes , i am . i am going to go to college .
+User(5): That's very wise of you. What will you study?
+Bot(5): i am studying for biology .
+User(6): You're smarter than me! It's all I can do to remember the Kingdom - Phylum - Species mnemonic.
+Bot(6): i am sure they are . i am a general in college .
+User(7): What do you mean, a general?
+Bot(7): i am a student . i am a student .
+User(8): OK, I understand now. You're a college student.
+Bot(8): i am a student , but i am hoping to get into college .
+User(9): You're studying, so I'm sure that you'll get into college. They need more people in STEM subjects.
+Bot(9): i think i am going to be a doctor .
+User(10): A doctor of biology, that's an important field.
+Bot(10): i hope you are okay . i am studying to be a doctor .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: camping(like)
+Round 4: college(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 43.14
+Robotic(↓): 65
+Interesting: 57
+Fun: 54
+Consistent: 43
+Fluent: 30
+Repetitive(↓): 75
+Topic: 58
+
+####################
+

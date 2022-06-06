@@ -1,0 +1,295 @@
+Feedback: I don't have any feedback.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi there. What do you think of COVID-19?
+Bot(1): i do not know . i like to go to the gym .
+User(2): I don't like to go to the gym.
+Bot(2): i like to go fishing .
+User(3): I don't think fishing is cool.
+Bot(3): i like to go to the gym and listen to music .
+User(4): That's coo. I don't really know how to work out very well.
+Bot(4): i am a student , but i work at a grocery store .
+User(5): I work at a grocery store too and I'm a student!
+Bot(5): i am a teacher , i love to cook .
+User(6): That's cool
+Bot(6): i like to go to the gym and listen to music .
+User(7): I like listening to music too
+Bot(7): i love music . i like country music .
+User(8): I love music too
+Bot(8): i love music . i like country music .
+User(9): What is your favorite type of music?
+Bot(9): i like country music . what about you ?
+User(10): I like country music too
+Bot(10): i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: COVID-19(dislike)
+Round 1: Going to the gym(dislike)
+Round 2: fishing(dislike)
+Round 3: gym(ambivalent)
+Round 4: Working/school(like)
+Round 5: Teaching/cooking(like)
+Round 6: gym(like)
+Round 7: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 10: No topic change.(like)
+
+Revised avg score: 0.29
+Robotic(↓): 99
+Interesting: 1
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there. Do you like food?
+Bot(1): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(2): I love to eat ramen and cook mac and cheese. Yum!
+Bot(2): mine is mac and cheese . mac and cheese pizza too
+User(3): What is your favorite type of pizza?
+Bot(3): i like vegetarian pizza . but my favorite food is fresh fruit .
+User(4): My favorite fruit is an apple. Do you like apples?
+Bot(4): whats your favorite ? i love apples , especially the green ones !
+User(5): Green apples are delicious
+Bot(5): green but i do like red as well
+User(6): Red apples are pretty good too, but I prefer green ones
+Bot(6): whats your favorite ? i love apples , especially the green ones !
+User(7): My second favorite fruit is watermelon
+Bot(7): what is your favorite fruit ?
+User(8): Apples
+Bot(8): whats your favorite ? i love apples , especially the green ones !
+User(9): Green apples are good. But red ones are good for making pies.
+Bot(9): green but i do like red as well
+User(10): That's great
+Bot(10): i do not know what my favorite color is !
+
+Persona:
+i own a yacht and i rent it out when i'm not using it.
+i now live in the city.
+i love spending money.
+my favorite colors are red and silver.
+spiderman is my favorite.
+
+Topic and Human Opinion:
+Beginning: Food/cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.43
+Robotic(↓): 99
+Interesting: 0
+Fun: 1
+Consistent: 49
+Fluent: 0
+Repetitive(↓): 99
+Topic: 49
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi there. I love working out
+Bot(1): awesome ! i love working out you ?
+User(2): Do you like the gym?
+Bot(2): yeah . but not today . i like the gym
+User(3): I love running on the treadmill at the gym
+Bot(3): you can run on a treadmill ?
+User(4): Yes I run 4 miles a day
+Bot(4): most days i run 5 miles in the morning
+User(5): I can sometimes run 5 miles if I wake up in the morning too
+Bot(5): i do run very early in the morning too
+User(6): Running is so exhilarating
+Bot(6): yes it is ! i love exercise
+User(7): Me too, it's great to get all sweaty when running
+Bot(7): i love it especially after jogging
+User(8): Jogging is the same thing as running
+Bot(8): yes it is ! i love exercise
+User(9): I also like to swim
+Bot(9): swimming is what i do too just like you
+User(10): That's great to hear
+Bot(10): yeah i also love it , it is super fun and keeps me in shape
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports/working out(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.14
+Robotic(↓): 100
+Interesting: 2
+Fun: 1
+Consistent: 2
+Fluent: 1
+Repetitive(↓): 99
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there do you like animals
+Bot(1): I like with talk seasons.
+User(2): Do you like dogs?
+Bot(2): I think that is a sign, i have black chocolate bar because before.
+User(3): What are you saying?
+Bot(3): It was a secret news. sounds like i have it would be a good time .
+User(4): Do you like cats?
+Bot(4): I haven't. That is cool! don't play not that owned it?
+User(5): I don't understand
+Bot(5): i do not have a car and Punishment by Don't travel .
+User(6): I don't have a car either
+Bot(6): Hey! Do is tge is she? Because I do.
+User(7): Okay...?
+Bot(7): christopher columbus, live in :)
+User(8): Christopher Columbus was a bad man
+Bot(8): I like all kinds. nice. Do you feel i like to listen to music.
+User(9): I love music too
+Bot(9): video games are has horses. I you play
+User(10): Video games are cool
+Bot(10): I am doing well. Just got on els do you so you own two vintage mustangs?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+Round 2: I don't know(dislike)
+Round 7: Christopher Columbus(dislike)
+Round 8: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi there. I want to be a doctor some day
+Bot(1): hi . i am a stay at home mom .
+User(2): That's cool! Do you have any kids?
+Bot(2): no i don't . i have two children
+User(3): I have a sister but no kids
+Bot(3): i have two children . i have two children .
+User(4): How old are your children?
+Bot(4): i have two , they are all grown
+User(5): My mom had two children like you, me and my sister
+Bot(5): i have two kids and a few children
+User(6): Are you married?
+Bot(6): i am not married but i have two kids
+User(7): My mom isn't married and has two kids, too
+Bot(7): i have two kids and a few children
+User(8): Do your children live with you?
+Bot(8): yes i have a few kids
+User(9): How old were you when you had children?
+Bot(9): i have two kids and a girl
+User(10): Interesting, so you have 3 children
+Bot(10): i have two kids and a few children
+
+Persona:
+i've two grown children who never visit.
+i like to workout a a times a week.
+i've never had a steady relationship.
+i had to have a transplant.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: Medical talk(like)
+Round 2: family(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 7.14
+Robotic(↓): 99
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 49
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you celebrate christmas?
+Bot(1): i do not believe in holidays
+User(2): Why do you like Christmas?
+Bot(2): because i know best , really .
+User(3): But holidays are so much fun! Like Halloween and Thanksgiving and Easter
+Bot(3): i have no opinion about holidays . i do like rudolph .
+User(4): Rudolph the reindeer? He is so cute
+Bot(4): i have no opinion about holidays . i do like rudolph .
+User(5): Rudolph the red nosed-reindeer is my favorite Christmas story
+Bot(5): i have no opinion about holidays . i do like rudolph .
+User(6): Do you like Santa Claus?
+Bot(6): me too . he is hilarious , and christmas is my favorite holiday
+User(7): Christmas is my favorite Holiday too.
+Bot(7): thanksgiving is my favorite holiday and christmas
+User(8): I like Thanksgiving because we get to eat so much food
+Bot(8): i have no opinion about holidays . i do like rudolph .
+User(9): Do you like eating Thanksgiving meals?
+Bot(9): thanksgiving is my favorite holiday and christmas
+User(10): Me too, they are great holidays
+Bot(10): i have no opinion about holidays . i do like rudolph .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Holidays(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 100
+Topic: 51
+
+####################
+

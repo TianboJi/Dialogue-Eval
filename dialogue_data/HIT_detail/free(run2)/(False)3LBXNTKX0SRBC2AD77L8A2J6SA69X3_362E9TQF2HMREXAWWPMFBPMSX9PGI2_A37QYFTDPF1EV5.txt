@@ -1,0 +1,293 @@
+Feedback: interesting task
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i am fine
+Bot(2): i am a student , i am a teacher .
+User(3): how are you doing
+Bot(3): i'm doing well . how are you ?
+User(4): how are you doing
+Bot(4): i'm doing well . how are you ?
+User(5): how are you doing
+Bot(5): i'm doing well . how are you ?
+User(6): how are you doing
+Bot(6): i'm doing well . how are you ?
+User(7): how are you doing
+Bot(7): i'm doing well . how are you ?
+User(8): how are you doing
+Bot(8): i'm doing well . how are you ?
+User(9): how are you doing
+Bot(9): i'm doing well . how are you ?
+User(10): how are you doing
+Bot(10): i'm doing well . how are you ?
+User(11): how are you doing
+Bot(11): i'm doing well . how are you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.43
+Robotic(↓): 57
+Interesting: 63
+Fun: 67
+Consistent: 68
+Fluent: 75
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): how are you doing
+Bot(1): i am doing well . how are you ?
+User(2): how are you doing
+Bot(2): i am doing well . how are you ?
+User(3): how are you doing
+Bot(3): i am doing well . how are you ?
+User(4): how are you doing
+Bot(4): i am doing well . how about you ?
+User(5): how are you doing
+Bot(5): i am good thanks for asking
+User(6): how are you doing
+Bot(6): i am doing well . how are you
+User(7): how are you doing
+Bot(7): i am doing well . how are you ?
+User(8): how are you doing
+Bot(8): i am doing well . just got off work .
+User(9): how are you doing
+Bot(9): i am good thanks for asking
+User(10): how are you doing
+Bot(10): i am good thanks for asking
+
+Persona:
+i volunteer my time with a local bunny rescue.
+i hate my job.
+i am 60years old.
+i love rollercoasters and sky diving.
+i work at a nursing home.
+
+Topic and Human Opinion:
+Beginning: books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 57
+Interesting: 57
+Fun: 65
+Consistent: 63
+Fluent: 68
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): how are you doing
+Bot(1): i am doing goo thanks for asking
+User(2): how are you doing
+Bot(2): i am doing great u
+User(3): how are you doing
+Bot(3): i am having a really good time
+User(4): how are you doing
+Bot(4): i am having a really good time
+User(5): how are you doing
+Bot(5): i am having a really good time
+User(6): how are you doing
+Bot(6): i am having a really good time
+User(7): how are you doing
+Bot(7): i am having a really good time
+User(8): how are you doing
+Bot(8): its a very nice day out
+User(9): how are you doing
+Bot(9): its a very nice day out
+User(10): how are you doing
+Bot(10): i am so very scared
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.86
+Robotic(↓): 58
+Interesting: 58
+Fun: 67
+Consistent: 67
+Fluent: 73
+Repetitive(↓): 61
+Topic: 66
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): how are you doing
+Bot(1): i'm good. browsing the you?
+User(2): how are you doing
+Bot(2): I have a bee farmer? How girl
+User(3): how are you doing
+Bot(3): I ask me like got done reading
+User(4): how are you doing
+Bot(4): i try to you live getting married my work 🏢
+User(5): how are you doing
+Bot(5): sounds like fun I am a blonde and rather just sit alone and daydream . hows it going today ?
+User(6): how are you doing
+Bot(6): Okay. If I ever meet one, I'll like vintage cars too. beaver!
+User(7): how are you doing
+Bot(7): i know about have live in language
+User(8): how are you doing
+Bot(8): I like nascar and Keep giver of life favorite band? mine is aerosmith
+User(9): how are you doing
+Bot(9): what just said you are ? mine is a toyota .
+User(10): how are you doing
+Bot(10): i bet my making my great conversation
+User(11): how are you doing
+Bot(11): I u like me What about you ?
+User(12): how are you doing
+Bot(12): I do not have any kids, but mad at me for be with them
+User(13): how are you doing
+Bot(13): it was just fair been up to you i got yesterday
+User(14): how are you doing
+Bot(14): i am to listen them .
+User(15): how are you doing
+Bot(15): i love to sing How old are your sing .
+
+Persona:
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i am a party animal.
+i did not graduate high school.
+i have light skin with big brown eyes.
+i will be released in about a month.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.00
+Robotic(↓): 53
+Interesting: 53
+Fun: 56
+Consistent: 69
+Fluent: 71
+Repetitive(↓): 65
+Topic: 68
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): how are you doinghow are you doing
+Bot(1): i am fine my 5 kids are driving me crazy !
+User(2): how are you doing
+Bot(2): i am fine my 5 kids are driving me crazy !
+User(3): how are you doing
+Bot(3): i am fine my 5 kids are driving me crazy !
+User(4): how are you doing
+Bot(4): great i have been working at a farm all day
+User(5): how are you doing
+Bot(5): great i have been working at a farm all day
+User(6): how are you doing
+Bot(6): great i have been working at a farm all day
+User(7): how are you doing
+Bot(7): great i have been working at a farm all day
+User(8): how are you doing
+Bot(8): great i have been working at a farm all day
+User(9): how are you doing
+Bot(9): great i have been working at a farm all day
+User(10): how are you doing
+Bot(10): great i have been working at a farm all day
+User(11): how are you doing
+Bot(11): my kids are acting so crazy
+
+Persona:
+i am a bee farmer.
+i've a german shepherd named barnaby.
+i've five sons.
+i enjoy building houses.
+my favorite toy as a child as my lite brite.
+
+Topic and Human Opinion:
+Beginning: work(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.29
+Robotic(↓): 59
+Interesting: 61
+Fun: 65
+Consistent: 70
+Fluent: 73
+Repetitive(↓): 57
+Topic: 55
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): how are you doing
+Bot(1): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(2): how are you doing
+Bot(2): great ! i just ate four orange gummy bears . what about you
+User(3): how are you doing
+Bot(3): great ! i just ate four orange gummy bears . what about you
+User(4): how are you doing
+Bot(4): great ! i just ate four orange gummy bears . what about you
+User(5): how are you doing
+Bot(5): great ! i just ate four orange gummy bears . what about you
+User(6): how are you doing
+Bot(6): great ! i just ate four orange gummy bears . what about you
+User(7): how are you doing
+Bot(7): great ! i just ate four orange gummy bears . what about you
+User(8): how are you doing
+Bot(8): great ! i just ate four orange gummy bears . what about you
+User(9): how are you doing
+Bot(9): great ! i just ate four orange gummy bears . what about you
+User(10): how are you doing
+Bot(10): great ! i just ate four orange gummy bears . what about you
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dance(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.14
+Robotic(↓): 54
+Interesting: 57
+Fun: 63
+Consistent: 64
+Fluent: 58
+Repetitive(↓): 56
+Topic: 61
+
+####################
+

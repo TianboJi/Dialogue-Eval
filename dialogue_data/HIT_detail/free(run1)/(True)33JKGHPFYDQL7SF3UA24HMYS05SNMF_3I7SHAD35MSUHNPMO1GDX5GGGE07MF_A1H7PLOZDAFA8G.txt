@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I like reading a lot.
+Bot(1): i love to read . i love to listen to music .
+User(2): That is cool. I read novels a lot.
+Bot(2): i love to read . i am only 19 .
+User(3): So what type of book do you like to read.
+Bot(3): i like to read . i love to read .
+User(4): Have you read the harry potter series.
+Bot(4): i read a lot . i like to read .
+User(5): What other things do you like
+Bot(5): i like to read . i love to read .
+User(6): any other thing
+Bot(6): i like to read . i love to read .
+User(7): okay
+Bot(7): i like to read . i love to read .
+User(8): i like to read. i love to read.
+Bot(8): i like to read too . i like to read
+User(9): I like to read too. i like to read.
+Bot(9): i read a lot . i like to read .
+User(10): i read a lot. i like to read.
+Bot(10): i read a lot . i like to read .
+
+Persona:
+i am 13 years old.
+my parents taught me survival skills.
+i like to work on vintage cars.
+i've rainbow hair.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: Reading(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.14
+Robotic(↓): 99
+Interesting: 6
+Fun: 7
+Consistent: 96
+Fluent: 56
+Repetitive(↓): 100
+Topic: 52
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i like ti writ.
+Bot(1): i like to go to the gym and listen to music .
+User(2): that is nice
+Bot(2): i like to go to the gym and listen to music .
+User(3): i like to go to the gym.
+Bot(3): i like to go fishing .
+User(4): i like to go fishing.
+Bot(4): i like to go fishing .
+User(5): i like to go fishing.
+Bot(5): i like to go fishing .
+User(6): i like to go fishing.
+Bot(6): i like to go fishing .
+User(7): i like to go fishing.
+Bot(7): i like to go fishing .
+User(8): i like to go fishing.
+Bot(8): i like to go fishing .
+User(9): i like to go fishing.
+Bot(9): i like to go fishing .
+User(10): i like to go fishing.
+Bot(10): i like to go fishing .
+
+Persona:
+i'm four.
+i have a pet fish.
+i like doing the treadmill and rowing machine.
+i am pregnant with my first child.
+i am a stay at home dad.
+
+Topic and Human Opinion:
+Beginning: writing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.57
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 99
+Fluent: 87
+Repetitive(↓): 100
+Topic: 62
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i like talking
+Bot(1): i can count my age on one hand . i am four !
+User(2): i can count my age on one hand. i am four
+Bot(2): i can count my age on one hand . i am four !
+User(3): i can count my age on one hand. i am four
+Bot(3): i can count my age on one hand . i am four !
+User(4): i can count my age on one hand. i am four
+Bot(4): what is your favorite board game ?
+User(5): what is your favorite board game
+Bot(5): a card game . its really fun
+User(6): a card game. its really fun
+Bot(6): i am really good at monopoly
+User(7): i am really good at monopoly
+Bot(7): i did not know that monopoly was a video game
+User(8): i did not know that monopoly was a video game
+Bot(8): yeah it is a fun game
+User(9): yeah it is a fun game
+Bot(9): and its fun to play too
+User(10): and its fun to play too
+Bot(10): yeah , and i have played it since the age of four .
+User(11): yeah, and i have played it since the age of four.
+Bot(11): i need something more to do since retiring
+
+Persona:
+i've been retired for a years.
+i love to play board games.
+i am four.
+i am always wearing a hat.
+my favorite colors are red and silver.
+
+Topic and Human Opinion:
+Beginning: talking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.14
+Robotic(↓): 100
+Interesting: 70
+Fun: 69
+Consistent: 69
+Fluent: 82
+Repetitive(↓): 62
+Topic: 2
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i love social media
+Bot(1): I I orange.
+User(2): I I orange.
+Bot(2): I am a you do for a brother is a dentist .
+User(3): I am a you do for a brother is a dentist.
+Bot(3): I changes for how named radar.
+User(4): I changes for how named radar.
+Bot(4): No. A robot a I’m fine) it.
+User(5): No. A robot a I am fine. it.
+Bot(5): sorry love dancing. And to work
+User(6): sorry love dancing. And to work
+Bot(6): i can play a piano but i want to relax on this day. do action role-playing on weekends. ?
+User(7): i can play a piano but i want to relax on this day. do action role-playing on weekends.
+Bot(7): i tend to not be social mind makes me feel nights
+User(8): i tend to not be social mind makes me feel nights
+Bot(8): do not you wish the animals would become more human like in as you work don’t understand them
+User(9): do not you wish the animals would become more human like in as you work dont understand them
+Bot(9): I love running, to Let's talk about a job😁
+User(10): I love running, to Let's talk about a job
+Bot(10): I like psychology I is your favorite color?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: social media(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.71
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 82
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): politics is good
+Bot(1): oh , politics . some days i love them others i hate them .
+User(2): oh, politics, some days i love them others i hate them.
+Bot(2): i am the only blue eyed person who hates politics . where are you ?
+User(3): i am the only blue eyed person who hates politics. where are you
+Bot(3): no , i really have not gotten into politics
+User(4): why
+Bot(4): i guess i make them feel uncomfortable . i am wheel chair shawty
+User(5): seriously...wheel chair
+Bot(5): i really like tomatoes they are in my pizza puffs . sorry about being the wheel chair
+User(6): okay...so you like tomatoes
+Bot(6): i love tomatoes
+User(7): i love them too, tomatoes
+Bot(7): cool . i like tomatoes because they go in spaghetti .
+User(8): i like them too in spaghetti.
+Bot(8): pasta is always delicious , i love driving in the rain
+User(9): yes it is delicious
+Bot(9): agreed . my husband sells stuff and came across a pasta maker sale . i bought it .
+User(10): you bought it...seriously...did you like it
+Bot(10): larp ing on the beach is the best chasing dorks everywhere
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.14
+Robotic(↓): 100
+Interesting: 74
+Fun: 60
+Consistent: 17
+Fluent: 31
+Repetitive(↓): 100
+Topic: 1
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i like to dance
+Bot(1): i love to dance as well
+User(2): really.
+Bot(2): i really like to dance
+User(3): i really like to dance too
+Bot(3): i really like to dance
+User(4): i really like to dance
+Bot(4): i love to dance dance dance
+User(5): i love to dance dance dance
+Bot(5): i love to dance all the time
+User(6): i love to dance all the time
+Bot(6): i love to dance everyday
+User(7): i love to dance everyday
+Bot(7): i like to dance a lot
+User(8): i like to dance a lot
+Bot(8): i like to dance to it
+User(9): i like to dance to it
+Bot(9): we could do all the dances
+User(10): we could do all the dances
+Bot(10): only if you would dance with me
+User(11): only if you would dance with me
+Bot(11): only if we get pizza
+User(12): only if we get pizza
+Bot(12): sure let us get pizza together
+User(13): sure let us get pizza together
+Bot(13): sure if we can get pizza
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dancing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.00
+Robotic(↓): 100
+Interesting: 6
+Fun: 4
+Consistent: 4
+Fluent: 27
+Repetitive(↓): 100
+Topic: 8
+
+####################
+

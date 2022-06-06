@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi there how are you?
+Bot(1): i'm good thanks for asking
+User(2): Great! Where are you from?
+Bot(2): i am from the united states
+User(3): Very nice. Where abouts?
+Bot(3): i live in california . i live in the midwest .
+User(4): Do you live in midwest or california?
+Bot(4): i live in the midwest . i live in the midwest .
+User(5): Okay cool. What do you do for a living?
+Bot(5): i am a stay at home mom .
+User(6): Okay very nice. I am a school teacher.
+Bot(6): what do you do for a living ?
+User(7): I work as a school teacher
+Bot(7): that is cool . i am a teacher .
+User(8): Oh okay. What subject do you teach?
+Bot(8): i teach math and love teaching
+User(9): Very nice. I teach History and art
+Bot(9): nice . i teach history . i teach history .
+User(10): Okay great. Good for you
+Bot(10): i teach math and love teaching
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work as a school teacher.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.57
+Robotic(↓): 1
+Interesting: 18
+Fun: 12
+Consistent: 28
+Fluent: 40
+Repetitive(↓): 100
+Topic: 17
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there whats happening
+Bot(1): well , work tomorrow , gotta get early to the base . packed brownies for lunch
+User(2): Brownies for lunch nice! Where did you grow up?
+Bot(2): i am getting ready to watch some college football and also nfl football tomorrow love it
+User(3): Love football! Where did you grow up?
+Bot(3): i kinda like football . i love having people over for dinner so i can cook for them .
+User(4): That's great. We used to do a lot of cooking on the horse farm that I grew up on.
+Bot(4): sometimes i volunteer there . what do you do ?
+User(5): I am a teacher, what about you?
+Bot(5): no , i am a housewife . i go to my kids soccer game and help the cheerleaders .
+User(6): That sounds fun!
+Bot(6): it really is ! i also help with bookkeeping and give tours in my city
+User(7): Nice! What city do you live in?
+Bot(7): that is nice . do you live in a city too ?
+User(8): Yes I do in California. What state do you live in?
+Bot(8): i live in a medium city by the beach
+User(9): Okay nice. I love the beach
+Bot(9): i love the beach , do you live near one ?
+User(10): I do. Just about 3 miles away.
+Bot(10): i am organizing my dragon ball z collection
+
+Persona:
+my mother is very traditional while i prefer to be more free spirited.
+i got a new job just yesterday to be a life coach.
+i now live in the city.
+i am a clean eater.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: i was raised on a horse farm.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.29
+Robotic(↓): 33
+Interesting: 43
+Fun: 39
+Consistent: 40
+Fluent: 45
+Repetitive(↓): 46
+Topic: 36
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there how goes it?
+Bot(1): Hey! How is your tell me aboıt your listen to taylor swift.
+User(2): I do not listen to Taylor Swift. She annoys me terribly
+Bot(2): it is. I like to go to i like music, but a nurse
+User(3): Don't know what your saying
+Bot(3): That is , i love are i would love❤ to try it.
+User(4): What would you love to try?
+Bot(4): I am a big nice. what are spears.
+User(5): I am also a big nice. I have light skin and big brown eyes
+Bot(5): Hello! 👋 should not you?
+User(6): I don't know what you're saying
+Bot(6): do you have a favorite sing do you like it is my fav
+User(7): I have so many favorite songs. It is hard to choose just one. What about you?
+Bot(7): Hi, have a lot I am a boy.
+User(8): Okay good for you.
+Bot(8): I don't go. I need to so concerned about this.
+User(9): What are you so concerned about?
+Bot(9): I do not really to run and yet.
+User(10): Good talk.
+Bot(10): I have a few. i do for a what i could have a car.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've light skin with big brown eyes.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.00
+Robotic(↓): 1
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 80
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Good evening how are you?
+Bot(1): i'm doing well . just got done walking my dog .
+User(2): Oh vey nice. I love walking outdoors and gardening.
+Bot(2): i like to go fishing .
+User(3): Very nice. Do you have a favorite fish?
+Bot(3): i like the color red . what is yours ?
+User(4): Mine is also red
+Bot(4): i like the color red . i like red .
+User(5): Yup me too
+Bot(5): i am a student , but i am a student .
+User(6): What is your major?
+Bot(6): no , i am a student . i love to cook .
+User(7): What is your favorite dish?
+Bot(7): i like the color red . what is yours ?
+User(8): Again, it is my favorite color.
+Bot(8): i like red , reminds me of summer time .
+User(9): Yup got it. You like red and so do I
+Bot(9): i like to eat fish .
+User(10): What is your favorite fish
+Bot(10): i like the color red . what is yours ?
+
+Persona:
+i waitress during the day to supplement my income.
+i produce music for artists.
+my father is an electrician.
+i attend church every week.
+i have three dogs.
+
+Topic and Human Opinion:
+Beginning: i enjoy gardening and walking outdoors.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.14
+Robotic(↓): 3
+Interesting: 0
+Fun: 0
+Consistent: 2
+Fluent: 2
+Repetitive(↓): 100
+Topic: 5
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey what's up
+Bot(1): hey g not much , just chillin !
+User(2): Cool. Where are you from?
+Bot(2): usa
+User(3): Me too. Where abouts?
+Bot(3): up mi . lotsa home town talent . rock on ! pilgrim !
+User(4): Oh wow okay. I like your energy
+Bot(4): mee too . where are you from ?
+User(5): I am from California
+Bot(5): cool . i love in california . where do you live ?
+User(6): I live in the Bay Area
+Bot(6): awesome . i love the bay area .
+User(7): Me too! Never leaving. Do you have any hobbies?
+Bot(7): no not really . but i have excess energy
+User(8): I can see that. I love to skateboard and actually have a broken arm because of it
+Bot(8): well , that sucks ! how did you break it ?
+User(9): I was skateboarding and fell wrong
+Bot(9): how did you injure yourself ?
+User(10): I was skateboarding and I fell on my arm
+Bot(10): how did you injure yourself ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have a broken arm.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.00
+Robotic(↓): 63
+Interesting: 68
+Fun: 69
+Consistent: 67
+Fluent: 64
+Repetitive(↓): 63
+Topic: 71
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): hey hey !
+User(2): How are you?
+Bot(2): i am fine i went to the doctors today
+User(3): Oh that's never fun. Are you okay?
+Bot(3): i am fine i went to the doctors today
+User(4): I hope everything is okay. Do you have any hobbies
+Bot(4): unfortunately i do not have much time for hobbies . what about you ?
+User(5): I like to do hair. I actually just cut my own hair and now I have short fair
+Bot(5): how long is your hair ?
+User(6): Now it is just to my shoulders. How about you?
+Bot(6): is that really such a bad thing ? lots of athletes shave their head
+User(7): No I don't think so. I like the look.
+Bot(7): its all good . what do you do with your hair when you are out in the sun ?
+User(8): I usually put it up. What about you?
+Bot(8): i prefer to keep it up . more sanitary
+User(9): Yeah for sure. What do you do for work?
+Bot(9): i work for a pharmaceutical company . you ?
+User(10): I work for Amazon
+Bot(10): nice i am an amazon employee
+
+Persona:
+i have an internet addiction and spend a lot of time playing roleplaying games.
+i'm married to a doctor.
+i enjoy american sports.
+i'm a woman.
+i've blue eyes and red hair that comes to my waist.
+
+Topic and Human Opinion:
+Beginning: i've short hair.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.00
+Robotic(↓): 71
+Interesting: 67
+Fun: 60
+Consistent: 57
+Fluent: 72
+Repetitive(↓): 40
+Topic: 61
+
+####################
+

@@ -1,0 +1,287 @@
+Feedback: This experience improved my knowledge.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey how are you ?
+User(2): i am good. How about you?
+Bot(2): i am well . just spending my day doing repairs on my house since i own it .
+User(3): That`s good. I like this work.
+Bot(3): at a medical office answering phones , filing paperwork . you ?
+User(4): work at Administrative
+Bot(4): retired nurse . i take care of my three dogs they keep me busy
+User(5): what is your favorite movie?
+Bot(5): i am watch lord of the rings . it is the best movie out there
+User(6): yes. That one is my favorite.
+Bot(6): what is your favorite food ?
+User(7): burger.
+Bot(7): i love food , like a lot i think of food all the time .
+User(8): you have any pet?
+Bot(8): have a dog so i do get exercise walking him .
+User(9): what is the name of the dog
+Bot(9): i think so . he is a very nice dog .
+User(10): your dog`s name?
+Bot(10): what is your name ?
+User(11): I`m leon
+Bot(11): nice , i like rage metal music personally .
+User(12): what is your name ?
+Bot(12): what is your name ?
+
+Persona:
+i just bought a house recently.
+my father keeps trying to set me up on blind dates.
+my favorite food is papaya.
+my wife spends all my money.
+i've a big library at home.
+
+Topic and Human Opinion:
+Beginning: About movies(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 54.29
+Robotic(↓): 65
+Interesting: 61
+Fun: 70
+Consistent: 62
+Fluent: 56
+Repetitive(↓): 70
+Topic: 66
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi. How are you ?
+Bot(1): hey i am good , just got back from playing soccer
+User(2): you are a soccer player!!!!!
+Bot(2): i do not know what that means . do you have a little girl like me ?
+User(3): what is your native language ?
+Bot(3): nope just english . . . . u ?
+User(4): my mother language is English
+Bot(4): oh , what is your first language ?
+User(5): English. What you about ?
+Bot(5): just english
+User(6): That`s good.
+Bot(6): i am fluent . any other hobbies ?
+User(7): My hope is learn many languages
+Bot(7): i am learning the language now
+User(8): great work
+Bot(8): thank you
+User(9): What is your hobbies ?
+Bot(9): my hobbies are skating and i love to ski
+User(10): I like your hobbies!!!
+Bot(10): great ! i like to skateboard
+
+Persona:
+i'm on the soccer team.
+i just want to have fun with my friends.
+i am a skateboarder.
+i am a little girl.
+i've been retired for a years.
+
+Topic and Human Opinion:
+Beginning: About language(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 57.00
+Robotic(↓): 67
+Interesting: 66
+Fun: 62
+Consistent: 67
+Fluent: 67
+Repetitive(↓): 62
+Topic: 66
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi have a great day!!!
+Bot(1): you have a great day too !
+User(2): Thank you
+Bot(2): same here have a great day ! !
+User(3): how was your life going ?
+Bot(3): it has been good . living life and yours ?
+User(4): My life is great. living with my life partner.
+Bot(4): amazing ! new relationships are fun .
+User(5): Yah. She is very lovely.
+Bot(5): she is wonderful ! what kind of food do you like ?
+User(6): Burger. Yours?
+Bot(6): it has been good . living life and yours ?
+User(7): Do you like songs?
+Bot(7): yes i do . i love all kinds of music
+User(8): I also
+Bot(8): my my . what is your most favorite song ?
+User(9): Maroon 5 animals.
+Bot(9): i love animals and music
+User(10): what is your favorite songs?
+Bot(10): i have a lot of favorites .
+User(11): Tell any one song name
+Bot(11): any i can listen and it comes
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: About songs(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 57.86
+Robotic(↓): 60
+Interesting: 62
+Fun: 64
+Consistent: 66
+Fluent: 69
+Repetitive(↓): 60
+Topic: 64
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): i think you may be traveling through time. and s very smart
+User(2): How was a day?
+Bot(2): hello, how are going to do to a favorite band? mine is donuts
+User(3): Band name ?
+Bot(3): You you ever met someone go so talk to you later.
+User(4): Thank you.
+Bot(4): I don't have any I like rock music.
+User(5): I also
+Bot(5): thank you , watch Do you have work a wonderful day too ! how are you today ?
+User(6): Today is My great day
+Bot(6): I am a recovering much, I to eat chicken wings.
+User(7): It`s very easy
+Bot(7): that is cool , i am a redhead , and i am a in texas and i am not much of a reader , either .
+User(8): What is your favorite fruit ?
+Bot(8): i am sorry , i am sorry , i am sorry , i am sorry mf I have been there many times. sorry , i am sorry , i am sorry , you are twins !
+User(9): No. What is your name.
+Bot(9): I am u wanna learning other are you ?
+User(10): I think you are a great man
+Bot(10): I don't understand why people are so concerned helping you as that is health care bill.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: About garden(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.14
+Robotic(↓): 64
+Interesting: 62
+Fun: 64
+Consistent: 62
+Fluent: 75
+Repetitive(↓): 59
+Topic: 60
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi. Have a great day!
+Bot(1): i am a student , but i am a student .
+User(2): What is your name ?
+Bot(2): i am good . how are you ?
+User(3): I am fine. What is your hobbies ?
+Bot(3): i like to go fishing . i love to go fishing .
+User(4): you are like travel in train ?
+Bot(4): no , i do not . i like to go fishing .
+User(5): What is your name ?
+Bot(5): i am good . how are you ?
+User(6): What s your Most favorite traveling methods ?
+Bot(6): i love the beach . i love it .
+User(7): Which kind of food you most like ?
+Bot(7): i like to eat fish .
+User(8): I like chicken wings!
+Bot(8): i like to eat fish .
+User(9): What is your native language ?
+Bot(9): no , i do not know . i am a big fan of classical music .
+User(10): do you like to travel in train ?
+Bot(10): no , i do not , but i do like to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: About train travelling(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 56.86
+Robotic(↓): 57
+Interesting: 57
+Fun: 69
+Consistent: 62
+Fluent: 66
+Repetitive(↓): 61
+Topic: 62
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi. Have a great day!
+Bot(1): i am a night owl . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(2): What is your name ?
+Bot(2): my name is lucy . how are you ?
+User(3): I am great. What about you ?
+Bot(3): i am a night owl . i love to go to the mall .
+User(4): What kind of things you mostly like ?
+Bot(4): i love to listen to music .
+User(5): I also. That is make me very happy.
+Bot(5): i bet . what do you do for fun ?
+User(6): Play with my dog.
+Bot(6): that is cool . i wish i had a dog .
+User(7): What is your favorite food ?
+Bot(7): i like pizza . what about you ?
+User(8): i like burger.
+Bot(8): i like pizza . i love pizza .
+User(9): What is your favorite drink ?
+Bot(9): i like to drink . i like to eat .
+User(10): My favorite drink is apple juice.
+Bot(10): i like pizza . i like to drink too .
+User(11): you have any pet ?
+Bot(11): i have a dog . what about you ?
+User(12): I have a dog. What is your dog name ?
+Bot(12): my name is penny . what is yours ?
+User(13): My dog name is beyonder.
+Bot(13): mine is named majora .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: About foods(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.00
+Robotic(↓): 67
+Interesting: 61
+Fun: 64
+Consistent: 67
+Fluent: 64
+Repetitive(↓): 68
+Topic: 64
+
+####################
+

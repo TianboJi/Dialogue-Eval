@@ -1,0 +1,303 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello!
+Bot(1): hello , how are you ? i just got home from the gym . really wiped , big workout !
+User(2): Nice! What did you do at the gym?
+Bot(2): oh the gym is fun . i am all about dance though . how are you ?
+User(3): I'm doing good! What types of dance do you do?
+Bot(3): i love to dance as well
+User(4): Same! What kind? Do you do ballet?
+Bot(4): i have seen a few shows , i took my grandchildren !
+User(5): Nice! I love watching the Nutcracker suite. I try to go every year with my mother.
+Bot(5): my father is gone and she needs my help and emotional support
+User(6): What happened, if you don't mind my asking?
+Bot(6): atv accident , left me as a quadriplegic . no worries i often write about it on my blog .
+User(7): Are you able to still work?
+Bot(7): i have to go now . thanks for chatting . bye !
+User(8): No worries, bye!
+Bot(8): lovely talking to you too !
+User(9): I hope things work better for you in the future.
+Bot(9): what does it look like the future is holding for you ?
+User(10): We'll see, this year has been absolutely crazy so I have no idea what the future holds.
+Bot(10): hey ! i think the future is looking pretty bad . you seen how we treat animals ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 1: Exercise(like)
+Round 2: Dance(like)
+Round 5: Family(like)
+Round 6: Injury(ambivalent)
+Round 9: The future(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 39.00
+Robotic(↓): 100
+Interesting: 50
+Fun: 23
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi! Do you like dogs?
+Bot(1): i do playing with my that means .
+User(2): Do you mean you like playing with dogs?
+Bot(2): I am a baker. do not understand cookies.
+User(3): I love cookies! Peanut Butter is my favorite. Sometimes it's hard to make the dough just right though. Do you have any recommendations?
+Bot(3): Oh. Nice My day you.
+User(4): What do you bake?
+Bot(4): yes i do , german and americans. Also, looking for a job love to ...
+User(5): You're looking for a job? What type?
+Bot(5): I was a long walk, but hear that. I like walk
+User(6): I like walking too.
+Bot(6): I am a real expert, but french because i have like to dance ?
+User(7): Do you not like dancing?
+Bot(7): I do you have a in construction.
+User(8): What genre of dance do you like?
+Bot(8): I do, but i like to play football, but is second big city with friends.
+User(9): What city are you from?
+Bot(9): I am sure a throat thingy, lot girl !
+User(10): Um, I don't understand. What about throats?
+Bot(10): No, have a is no, no, no.
+User(11): You're not making any sense.
+Bot(11): Hey! What are you doing? my on problem I'll me: strong for my age
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 2: Cooking(like)
+Round 4: Race and jobs(ambivalent)
+Round 5: Walking(like)
+Round 6: dance(like)
+Round 8: Football and cities(ambivalent)
+Round 9: Throats(ambivalent)
+Round 11: Strengths and weaknesses(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 10.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 24
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, do you like art?
+Bot(1): yes do you like art ?
+User(2): I absolutely love art! Drawing is my favorite thing to do.
+Bot(2): i do enjoy art , my passion is drawing .
+User(3): That's awesome! What do you like to draw?
+Bot(3): i like all kinds of art . drawing , painting , sculpture , pottery . . .
+User(4): What kind of paints do you use?
+Bot(4): what do you paint usually ?
+User(5): I usually paint watercolor on watercolor paper. I want to try oils someday but they can be expensive and a lot of work.
+Bot(5): do you like painting with oil paints ?
+User(6): I've never tried it yet.
+Bot(6): it is really expensive , not sure it is worth it .
+User(7): I'll have to wait for it to go on sale.
+Bot(7): true , they can be just as expensive lol .
+User(8): So how about you? Which paints do you like to use?
+Bot(8): all types . i just love how relaxing it is to look at and to create .
+User(9): So true! I always think of Bob Ross and how relaxing it was watching him paint.
+Bot(9): it truly is ! do you have a favorite artist ? mine is bob ross .
+User(10): I'm not sure, there are so many great artists out there, and so many different genres of art to just have one favorite.
+Bot(10): it truly is ! do you have a favorite artist ? mine is bob ross .
+User(11): No, but I certainly love art.
+Bot(11): so do i . i also love other things like art for example .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Art(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 86.57
+Robotic(↓): 20
+Interesting: 74
+Fun: 93
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 41
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): There's been so many wildfires here, it's so crazy!
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): The sky is grey from how much smoke is polluting the air.
+Bot(2): i like to go to the gym and listen to music .
+User(3): I like to go to the gym, too.
+Bot(3): i like to go fishing .
+User(4): How often do you go fishing?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): What kind of fish do you catch?
+Bot(5): i love to eat . i am a vegan .
+User(6): If you're a vegan, why do you go fishing?
+Bot(6): i love to go fishing .
+User(7): But, you're a vegan, right?
+Bot(7): i like to eat fish .
+User(8): Vegans don't eat fish.
+Bot(8): i like to eat fish .
+User(9): So you're not a vegan?
+Bot(9): i do not know . i am a big fan of it .
+User(10): I respect those who make those types of life changing choices. They definitely require a lot of self control.
+Bot(10): i do not know how to make it . i like to go to the park .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Wildfires(dislike)
+Round 2: Gym(like)
+Round 3: fishing(like)
+Round 5: Vegans(ambivalent)
+Round 10: Parks(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 35.86
+Robotic(↓): 88
+Interesting: 76
+Fun: 4
+Consistent: 50
+Fluent: 81
+Repetitive(↓): 78
+Topic: 6
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi, do you like video games?
+Bot(1): i do not really play them
+User(2): Really? I absolutely love them!
+Bot(2): i do , i like video games , but i like to play games
+User(3): Which type of games do you like to play?
+Bot(3): i do , i play games with my friends
+User(4): What kind?
+Bot(4): i like to play games , but i don't play games
+User(5): I like playing 3D platformers, especially collect-a-thons.
+Bot(5): i like video games , but i like to play games
+User(6): FPS games are fun, too.
+Bot(6): i like video games , but i also play games
+User(7): You mean like sports? What type of sports do you play?
+Bot(7): football , football , football , football , and basketball , and basketball
+User(8): Nice! I like to play volleyball, badmitton, and tennis.
+Bot(8): i play volleyball , but i do not play any sports
+User(9): But volleyball is a sport?
+Bot(9): basketball , tennis , tennis , tennis , tennis , and basketball , and basketball
+User(10): Um, nice talking to you. Have a great day.
+Bot(10): i am a bit of a football player , but i love it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video games(like)
+Round 6: Sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 22.57
+Robotic(↓): 100
+Interesting: 30
+Fun: 27
+Consistent: 51
+Fluent: 0
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I just had pizza last night for dinner. It was sooo good!
+Bot(1): soosoo good ! i could eat it all day
+User(2): Same here! I love hawaiian pizza, it's one of my favorites.
+Bot(2): it is my favorite . especially pepperoni
+User(3): Pepperoni is definitely a classic.
+Bot(3): i love pepperoni the best with mushrooms .
+User(4): Yes! Add onions and green peppers and you have yourself an amazing combo pizza!
+Bot(4): i love pepperoni the best with mushrooms .
+User(5): I like pizza with pineapple the best. I know it's not popular, but I grew up on the stuff.
+Bot(5): that is wonderful . i make a version with pineapple slices , instead of tomato .
+User(6): Oh, yum! I'll have to try using slices sometime!
+Bot(6): that is wonderful . i make a version with pineapple slices , instead of tomato .
+User(7): So do you typically cook your own pizza or do you buy it?
+Bot(7): i think just from the store .
+User(8): I do a bit of both, I used to work at a fancy pizza restaurant and love using what I learned in the kitchen.
+Bot(8): that is wonderful . i make a version with pineapple slices , instead of tomato .
+User(9): What type of sauce do you use on your pizza?
+Bot(9): it is usually doable , so versatile , pesto , fettucine , ziti , etc .
+User(10): ...You put pasta on your pizza?
+Bot(10): no i just buy the ingredients then add some stuff like onions
+User(11): Okay, phew, haha. Sometimes I like to use ranch instead of marinara sauce when I'm making pepperonin pizza.
+Bot(11): that is wonderful . i make a version with pineapple slices , instead of tomato .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pizza(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 76.00
+Robotic(↓): 57
+Interesting: 79
+Fun: 71
+Consistent: 95
+Fluent: 95
+Repetitive(↓): 47
+Topic: 96
+
+####################
+

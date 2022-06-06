@@ -1,0 +1,283 @@
+Feedback: This chat bot has a long way to go. It gets stuck on certain things and then says the same thing over and over.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): I like cooking as well.
+Bot(2): i like to eat too much junk food .
+User(3): I think we all have that problem
+Bot(3): i do not know what to say .
+User(4): What do you like to cook?
+Bot(4): i do , i love to cook .
+User(5): What do you like to cook?
+Bot(5): i do , i love to cook .
+User(6): What do you cook?
+Bot(6): no , i do not , but i do like to eat .
+User(7): What is your favorite food?
+Bot(7): i like the color red . what is yours ?
+User(8): Red.
+Bot(8): i like to go to the gym and listen to music .
+User(9): So do I. What else do you like?
+Bot(9): i like to listen to music .
+User(10): I like to listen to music too. Who is your favorite band?
+Bot(10): i like the oldies . i like the beatles .
+User(11): Me too. I think I'm going to go now. Good bye.
+Bot(11): i do not know how to play it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: concerts(like)
+Round 1: cooking(like)
+Round 7: colors(ambivalent)
+Round 9: things we like(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): What type of music do you like?
+Bot(2): i like different genres . how about you ?
+User(3): Me too. I love blues the most though.
+Bot(3): blues music is great ! so what are your hobbies ?
+User(4): I like sailing. Have you ever been sailing?
+Bot(4): no i have never done it . is it fun ?
+User(5): I think so. I love being on the water.
+Bot(5): i love being on the water . blues my favorite color , like the ocean .
+User(6): You'd probably enjoy sailing. Just try not to get wet!
+Bot(6): blues music is great ! so what are your hobbies ?
+User(7): I like hiking.
+Bot(7): blues music is great ! so what are your hobbies ?
+User(8): I like hiking too.
+Bot(8): blues music is great ! so what are your hobbies ?
+User(9): What are your hobbies?
+Bot(9): i love the blues . what about you ?
+User(10): I love the blues.
+Bot(10): blues music is great ! so what are your hobbies ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 3: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 18.57
+Robotic(↓): 100
+Interesting: 22
+Fun: 19
+Consistent: 0
+Fluent: 77
+Repetitive(↓): 100
+Topic: 12
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Good afternoon.
+Bot(1): yes , i carl, and i know married .
+User(2): Your name is carl?
+Bot(2): I love to travel. is my favourite travel.
+User(3): I love to travel too. Whats the best place youve been?
+Bot(3): my mom teaches music in the local elementary to visit me with study
+User(4): Do you travel to see her?
+Bot(4): Hi! you have a woman?
+User(5): Yes. I travel to visit her in Europe.
+Bot(5): i do not know from united states, but name
+User(6): Denise.
+Bot(6): My the kind people in the lab spoken in three months. me now.
+User(7): Im sorry I dont understand
+Bot(7): I are you from? coffee shop
+User(8): I am not from a coffee shop
+Bot(8): 2 cats pete and afraid of heights. i am . they like sports more than my kids .
+User(9): I am from Alaska. Where are you from?
+Bot(9): Hey! How is your day? I like to a years so i and cats.
+User(10): My day is good. How is yours?
+Bot(10): I love chocolate milk. I am going your secret conversation are years.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello.
+Bot(1): hi , do you live in the country like me ? any animals ?
+User(2): I live in a small city. I dont have any animals. What kind of animals do you have?
+Bot(2): dogs are great if you live in the country . i do . do you ?
+User(3): I had a dog but she died.
+Bot(3): i am so sorry ! would you like me to bring you dinner ? i love cooking
+User(4): That would be great. What are you cooking?
+Bot(4): pasta , i am just naturally a good cook . do not be afraid of spices
+User(5): That's great. I love spices!
+Bot(5): oh yummy ! you should bring some to my country house
+User(6): What is your favorite spice to use?
+Bot(6): pasta , i am just naturally a good cook . do not be afraid of spices
+User(7): Do you make your own pasta?
+Bot(7): no i just buy the ingredients then add some stuff like onions
+User(8): onions make everything better!
+Bot(8): you use onions as a what lol
+User(9): I use them in almost everything I cook.
+Bot(9): where are you from ? i live out in the country .
+User(10): I am from Alaska. Where are you from?
+Bot(10): i am from the midwest . i just went back to school .
+
+Persona:
+i am an economics major.
+i drive a big truck and live in country.
+i also have a dog walking business.
+if i am not cooking in the kitchen then i am definitely on the water.
+i am an avid kayaker.
+
+Topic and Human Opinion:
+Beginning: the news(like)
+Round 5: cooking(like)
+Round 9: where youre from(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 16
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 15
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Have you ever been flying in a small plane?
+Bot(1): no i have not but i have been to a few years ago
+User(2): What kind of plane was it?
+Bot(2): i have not , but i have never been .
+User(3): Would you like to go?
+Bot(3): i have been to a few years ago .
+User(4): What is your name?
+Bot(4): my name is jim , i have a german shepherd
+User(5): How long have you had your german shepard?
+Bot(5): german shepard . he is a german shepard .
+User(6): yes. how long have you had him?
+Bot(6): he was a german shepherd . he was a german shepard .
+User(7): is he your first dog?
+Bot(7): he is a german shepard . he is a german shepard .
+User(8): have you had any other dogs?
+Bot(8): i had a german shepard and he is a german shepard .
+User(9): Was he smarter than you are?
+Bot(9): i had a german shepard . he is a german shepard .
+User(10): It seems like you are stuck. Are you ok?
+Bot(10): i am good . just got back from a long trip with my german shepard .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: flying(like)
+Round 4: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 14
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I would like to take a nap
+Bot(1): do you nap often then
+User(2): I try to.
+Bot(2): maybe you could try being a vegetarian . that helps me feel happier .
+User(3): how long have you been a vegetarian?
+Bot(3): vegan , not vegetarian . there is a difference .
+User(4): Yes. You just said you were vegetarian.
+Bot(4): i do not eat meat at all
+User(5): What about cheese?
+Bot(5): what kind of cheese is it ?
+User(6): Cheddar. Do you like to eat cheese?
+Bot(6): i just love it all . the taste of cheese is the best !
+User(7): I thought vegans didn't eat cheese
+Bot(7): if i tried to eat cheese my cats would snatch it from me
+User(8): They sound like jerks.
+Bot(8): what do you do for work ? i start my internship in engineering in a few months
+User(9): I am an engineer too.
+Bot(9): oh , neat . my absolute favorite fish is rock fish .
+User(10): I thought you were vegetarian?
+Bot(10): vegan , not vegetarian . there is a difference .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: naps(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

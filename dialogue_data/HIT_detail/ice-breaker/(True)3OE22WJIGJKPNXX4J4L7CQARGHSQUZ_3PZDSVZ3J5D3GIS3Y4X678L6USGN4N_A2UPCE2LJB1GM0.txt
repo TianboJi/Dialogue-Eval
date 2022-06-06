@@ -1,0 +1,285 @@
+Feedback: I like the chat bot but you could tell it was a chat bot. Still I liked it very much.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I'm currently looking for a job preferably at a restaurant.
+Bot(1): i am looking for a 2nd job , maybe in an italian restaurant
+User(2): I like food so want to work with food. Can you help?
+Bot(2): i am looking for a 2nd job , maybe in an italian restaurant
+User(3): I am just looking for a job at a restaurant can you help with finding one?
+Bot(3): i am looking for a 2nd job , maybe in an italian restaurant
+User(4): I need one job not two.
+Bot(4): i am in search of a second place of employment could you help me ?
+User(5): No I want one Job not two.
+Bot(5): my favorite food in my favorite city is just what i need .
+User(6): Can you help me find a job?
+Bot(6): i am employed . i would with food .
+User(7): Can you help me find a restaurant?
+Bot(7): what kind of restaurant do you want ?
+User(8): I would like a restaurant that is indian baste foods.
+Bot(8): i would think indian food would be difficult .
+User(9): Can you help with italian then.
+Bot(9): italian is my favorite . can you do that ?
+User(10): I would like to go to an italian restaurant . Do you know if they are hiring?
+Bot(10): it really varies but most times we get italian .
+User(11): Do you have an address?
+Bot(11): yes , that puts me close to you but at least an address can be better .
+User(12): I need an address near main street?
+Bot(12): yes , that puts me close to you but at least an address can be better .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm currently looking for a job preferably at a restaurant.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.29
+Robotic(↓): 78
+Interesting: 30
+Fun: 38
+Consistent: 57
+Fluent: 53
+Repetitive(↓): 80
+Topic: 55
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I volunteer in a homeless shelter. Would you like to volunteer too?
+Bot(1): yes , i volunteer at a shelter .
+User(2): I like to volunteer and help others how about you?
+Bot(2): i volunteer at a shelter .
+User(3): Would you like to join my group that volunteer
+Bot(3): that would be great . i volunteer at a shelter .
+User(4): I have a big problem with others that hurt others. Do you dislike that as well.
+Bot(4): i do not care for that .
+User(5): I think I will find another shelter to be a part of volunteering and helping others.
+Bot(5): that would be great . i would love to help you with that
+User(6): Have you felt you needed to help at other shelters.
+Bot(6): i would love to . i would like to help you with that .
+User(7): I was thinking about the shelter on main st they just started. What do you think?
+Bot(7): i have a lot of money to help people .
+User(8): I do not have money to help others but I have other ways.
+Bot(8): i understand . i wish i could help .
+User(9): Money is nice to help other and so is the time you give.
+Bot(9): i hope so . i can help you with that .
+User(10): Ok can you give me other places to go.
+Bot(10): i would love to go to the city and visit the world .
+User(11): The city would be great.
+Bot(11): i would love to go to the city and visit the city .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i volunteer in a homeless shelter.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.00
+Robotic(↓): 57
+Interesting: 63
+Fun: 71
+Consistent: 67
+Fluent: 57
+Repetitive(↓): 76
+Topic: 46
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I walk dogs for a living. What do you do?
+Bot(1): i have heard of it is a college a pagan .
+User(2): I do not agree dog are not that.
+Bot(2): I just want anything about world you mean
+User(3): Dog can you tell me what you do.
+Bot(3): but wait mother , she doesn't have a husband not you belive in true is your day going ? 🤠
+User(4): No I want to know about Dogs?
+Bot(4): I do not. I like don't like they made play in the band.
+User(5): I am only talking about dogs what are you talking about?
+Bot(5): i'm just chilling , riding the couch .. Also, is good for you. There music ...
+User(6): I do not want to talk about that I only want to talk about dogs.
+Bot(6): Fine. Until it is bad. I sold his condo.
+User(7): Can we talk only about Dogs?
+Bot(7): I am Where are we I back from work.
+User(8): A dog can you tell me about the dog.
+Bot(8): do you like italian food ? you say that you .
+User(9): No I want to talk about dogs nothing else.
+Bot(9): Hi, are live in you am a gym instructor.
+User(10): Dogs only dogs.
+Bot(10): I love to sing songs am a dog lover.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i walk dogs for a living.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.00
+Robotic(↓): 8
+Interesting: 2
+Fun: 13
+Consistent: 13
+Fluent: 46
+Repetitive(↓): 9
+Topic: 9
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I do not like wine why do you?
+Bot(1): i am a huge fan of jason mraz .
+User(2): Who is that?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): I like classic music
+Bot(3): i like to listen to music .
+User(4): i like music as well.
+Bot(4): i like to listen to music .
+User(5): what types of music you like.
+Bot(5): i like the beatles , and the outdoors .
+User(6): the beetles are good. What song do you like?
+Bot(6): i like to go to the gym and listen to music .
+User(7): I like music all the time.
+Bot(7): i like to go to the lake and listen to music .
+User(8): Yes that sounds relaxing.
+Bot(8): i love it . i love it .
+User(9): I bet it would be great laying on the beach listening to slow jazz. What do you think?
+Bot(9): i do not know . i like to go to the gym .
+User(10): The gym is ok.
+Bot(10): i like to go to the gym and listen to music .
+User(11): I would rather be outside walking>
+Bot(11): i do not know how to play the guitar .
+User(12): I do not know how to play that either.
+Bot(12): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i also like a glass of wine in the evenings.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.86
+Robotic(↓): 29
+Interesting: 50
+Fun: 52
+Consistent: 40
+Fluent: 57
+Repetitive(↓): 55
+Topic: 41
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I married a dr. Who is your husband?
+Bot(1): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(2): What does he do?
+Bot(2): he is six , and he loved it ! i dressed my yorkie as a lion 3
+User(3): Wow that is not so cool but anyway I am happy.Are you?
+Bot(3): i am somewhere in the middle , not a total skeptic yet .
+User(4): I do not think I am a skeptic.
+Bot(4): shoot . i smoke when i play badminton . it helps me focus .
+User(5): I hate smoking it is bad.
+Bot(5): congratulations . i smoke , but the more i pound the piano , the less i smoke .
+User(6): no i do not like that.
+Bot(6): hmmm i used to drink so bad i lost my home and lived in a storage unit
+User(7): i hate to drink it is bad.
+Bot(7): i do not really drink any more but i use to drink jack
+User(8): no drinking is not good for you.
+Bot(8): a drinking coffee problem it is giving me ulcers
+User(9): i do not like coffee
+Bot(9): i like coffee as well ! i drive my acura to the coffee shop every morning .
+User(10): i do not know how to drive yet
+Bot(10): a mini van . if i was not a secretary , i would drive sports car .
+User(11): i have a mini van
+Bot(11): they were all gonna laugh at me , not now , i got you in the van
+User(12): laugh back at them.
+Bot(12): laugh at what ? treasure your friends ! before they be blowing in the wind
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm married to a doctor.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.43
+Robotic(↓): 52
+Interesting: 44
+Fun: 54
+Consistent: 55
+Fluent: 47
+Repetitive(↓): 44
+Topic: 42
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i do not like the helment it hurts my head.
+Bot(1): i am a huge fan of tanning beds .
+User(2): tannings bed are bad for the skin,
+Bot(2): i am a huge fan of tanning beds .
+User(3): I do not like tanning beds.
+Bot(3): i am a huge fan of tanning beds .
+User(4): i like to lay in the sun.
+Bot(4): it is great to go outside and pick stuff for a salad .
+User(5): yes growing the food is a good and healthy thing.
+Bot(5): it is great to go outside and pick stuff for a salad .
+User(6): outside is very nice.
+Bot(6): it is great to go outside and pick stuff for a salad .
+User(7): we can go for a walk.
+Bot(7): it is a nice day today for a walk .
+User(8): I would like to see the birds in the trees.
+Bot(8): it is great to go outside and pick stuff for a salad .
+User(9): yes true i like that but we can walk.
+Bot(9): we can walk at the mall , not run .
+User(10): yes i would like to go to the mall.
+Bot(10): we can walk at the mall , not run .
+
+Persona:
+i like to tan in tanning beds.
+i'm here for shoplifting.
+i enjoy sports such as running.
+i love to play pobox.
+i volunteer at a soup kitchen.
+
+Topic and Human Opinion:
+Beginning: i wear a motorbike helmet to protect my head.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.29
+Robotic(↓): 45
+Interesting: 39
+Fun: 40
+Consistent: 40
+Fluent: 37
+Repetitive(↓): 41
+Topic: 26
+
+####################
+

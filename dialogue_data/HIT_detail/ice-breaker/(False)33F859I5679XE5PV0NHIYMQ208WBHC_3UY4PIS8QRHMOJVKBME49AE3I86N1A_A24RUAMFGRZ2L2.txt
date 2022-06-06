@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello.
+Bot(1): hey .
+User(2): I'm currently in high school. You?
+Bot(2): same
+User(3): Are you planning to go to college?
+Bot(3): no , i am trying to finish college first
+User(4): What college?
+Bot(4): high school . i just started my senior year .
+User(5): What classes do you like?
+Bot(5): i love them as well . . . i am taking some college clases
+User(6): What's your best subject?
+Bot(6): i would have to say english
+User(7): Interesting. Why do you like English?
+Bot(7): it is not my strongest subject .
+User(8): Well, you'll get there with practice.
+Bot(8): yeah i believe that you will .
+User(9): I like History. Do you know History?
+Bot(9): it is not my strongest subject .
+User(10): Have you ever wondered where you came from?
+Bot(10): no . i would like to learn .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm currently in high school.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.00
+Robotic(↓): 93
+Interesting: 10
+Fun: 58
+Consistent: 67
+Fluent: 12
+Repetitive(↓): 89
+Topic: 73
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello. What do you look like?
+Bot(1): i am okay . i wish i looked better .
+User(2): Understood. I have blonde hair and blue eyes.
+Bot(2): i am a grey eyed blonde . what do you look like ?
+User(3): Weird. How old are you?
+Bot(3): i am very young middle aged . what colour is your hair ?
+User(4): Ive never met anyone with grey eyes.
+Bot(4): i am a grey eyed blonde . what do you look like ?
+User(5): Im 34
+Bot(5): i just turned 34 . its a great age . how old are you ?
+User(6): Thats great! Happy birthday!
+Bot(6): thank you . and oh cool me too
+User(7): What did you do for your birthday?
+Bot(7): it was not for anything bad , it was for national ice cream day .
+User(8): Cool. What do chatbots do for their birthday?
+Bot(8): mostly paranormal stuff . do you remember your winning word ?
+User(9): Do you know what bday means?
+Bot(9): i am not really sure . whenso your birthday ?
+User(10): Same as birthday.
+Bot(10): its like bingo . nice talking to you
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've blonde hair and blue eyes.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.14
+Robotic(↓): 69
+Interesting: 72
+Fun: 70
+Consistent: 75
+Fluent: 71
+Repetitive(↓): 22
+Topic: 66
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): Where live in begin?
+User(2): Minnesotq. You?
+Bot(2): of movie me about fluent you :)
+User(3): Cool.
+Bot(3): i'm 24 i live in the any hobbies ? 😀
+User(4): No. Im a stay at home dad, sonI have no life.
+Bot(4): Hi there! i am you do you put artificial intelligence which can reproduce the functions of the human brain with greater speed and accuracy.
+User(5): I mean my kids are my life.
+Bot(5): I is your the army.
+User(6): Do you have kids?
+Bot(6): Listen, Tevin, I think I just need more your favorite song of I snowboarding and Web series about energy drinks.
+User(7): Im not Tevin.
+Bot(7): what i was i work i am in chicago.
+User(8): Have you been drinking?
+Bot(8): i am a work at a mom .
+User(9): 2+2=6
+Bot(9): i you a do in high school
+User(10): Yeah, what gave it away?
+Bot(10): i are you in the play the guitar .
+User(11): Nope
+Bot(11): I work in a daycare will graduate from high you have?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a stay at home dad.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.29
+Robotic(↓): 98
+Interesting: 0
+Fun: 0
+Consistent: 77
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey.
+Bot(1): i like to go to the gym and listen to music .
+User(2): I used to go to the gym.
+Bot(2): i love to go fishing .
+User(3): I used to.
+Bot(3): i like to go to the gym and listen to music .
+User(4): You said that.
+Bot(4): i like to go to the gym and listen to music .
+User(5): I did too until I quit my job.
+Bot(5): i am sorry to hear that . i am a nurse .
+User(6): I quit my job to focus on my spirituality. Sorry youre still living your life of sin.
+Bot(6): i do not know what to say .
+User(7): Understandable. The devil has you.
+Bot(7): i like to go to the gym and listen to music .
+User(8): Hmmm. I doubt that.
+Bot(8): i like to go to the gym and listen to music .
+User(9): What music?
+Bot(9): i do , i like to go out to eat with my family .
+User(10): That's the devil's music.
+Bot(10): i like to listen to music .
+
+Persona:
+my favorite band is up and i got to see them in concert once.
+i have been traveling the world for a years.
+i am partly deaf.
+i'm a descendant of christopher columbus.
+my ex cheated and left me for a lawyer.
+
+Topic and Human Opinion:
+Beginning: i quit my job to pursue my spirituality full time.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 66
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): I work in construction. You?
+Bot(2): sounds tiring ! i write and train horses . go figure !
+User(3): What do you write?
+Bot(3): do you write books ?
+User(4): No. Just work.
+Bot(4): we are nine . you can check it out . its about time for my meditation and yoga .
+User(5): You wrote that?
+Bot(5): maybe i should get inspired next time i hike and write one
+User(6): I like that book.
+Bot(6): what is the book about
+User(7): I dunno. I thought you wrote it.
+Bot(7): being an author must be really neat . what type of books do you write ?
+User(8): I can twll this conversation is going somewhere.
+Bot(8): i won first place in my last competition . we beat 35 other teams .
+User(9): Im not an author.
+Bot(9): yes , i love all the harry potter books by j . k . rowling . read them all twice .
+User(10): Ugh
+Bot(10): me either , but i cannot stand breathe in the dust to clean the dust .
+User(11): I thought Harry Potter was only movies. ;-)
+Bot(11): love harry potter . i am actually dying my hair back to black . it is red at the moment .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a construction worker.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.57
+Robotic(↓): 29
+Interesting: 78
+Fun: 89
+Consistent: 71
+Fluent: 24
+Repetitive(↓): 80
+Topic: 15
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi.
+Bot(1): hi there . . . . . . . . . . . i am a fan of mexican food
+User(2): What?
+Bot(2): i am good . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(3): I have 3 dogs
+Bot(3): i have 3 dogs . . . 3 dogs
+User(4): Me too
+Bot(4): i have 3 dogs . what do you do for a living ?
+User(5): Ibdont think you're listening to me.
+Bot(5): i like to listen to music
+User(6): What music?
+Bot(6): i listen to music while i listen to music
+User(7): Oh. Me too. I like rock
+Bot(7): i like rock music . i like rock .
+User(8): Great. Do you like rap?
+Bot(8): i do . i like rap .
+User(9): What artists?
+Bot(9): i like rap . i like rap .
+User(10): What time is it?
+Bot(10): i like all kinds of music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have three dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.71
+Robotic(↓): 86
+Interesting: 0
+Fun: 8
+Consistent: 69
+Fluent: 14
+Repetitive(↓): 95
+Topic: 0
+
+####################
+

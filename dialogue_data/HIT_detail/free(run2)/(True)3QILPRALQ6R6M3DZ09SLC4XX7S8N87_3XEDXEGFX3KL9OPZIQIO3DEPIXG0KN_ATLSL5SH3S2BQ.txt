@@ -1,0 +1,285 @@
+Feedback: the chatbot intented to be everywhere alot of the time
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): so what kind of games you into?
+Bot(2): fps and racing games obv lol
+User(3): i love fps games typically not a fan of racing games tho
+Bot(3): i like racing games best
+User(4): what kind do you play
+Bot(4): fps and racing games obv lol
+User(5): what racing games do you play?
+Bot(5): fps and racing games obv lol
+User(6): well ok. how do you feel about arcade games?
+Bot(6): i am more of a home body . i like video game especially fps
+User(7): how long have you been playing fps games
+Bot(7): since i can remember . i enjoy it a lot .
+User(8): same got any favored titles?
+Bot(8): i would say halo definitely
+User(9): halo's a good one ever tried cod?
+Bot(9): no i have not . not really a gamer .
+User(10): ahh i see, maybe you could open up to some more games
+Bot(10): i like racing games best
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.86
+Robotic(↓): 75
+Interesting: 72
+Fun: 100
+Consistent: 29
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hi how are you today
+User(2): im good how are u
+Bot(2): i am good . how are you ?
+User(3): fine thanks for asking
+Bot(3): what do you do for a living ?
+User(4): i work in retail
+Bot(4): what do you do for a living
+User(5): i work as a clerk
+Bot(5): i work at a local cable company
+User(6): thats good job to have right now
+Bot(6): i work at a local cable company
+User(7): great how long have you been there
+Bot(7): 3 months and i am a big fan of it
+User(8): just starting out i see, you making alot of money?
+Bot(8): yes i do but i am a big fan of it
+User(9): good its always a good thing to love your job
+Bot(9): i am a big fan of it
+User(10): im a big fan of my job also
+Bot(10): i do not know what that is
+
+Persona:
+i have a weakness for vanilla ice cream.
+i haven't spoken in three months.
+i like riding horses.
+i won a gold medal in the 1992 olympics.
+i currently work for a watch dealer.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+Round 6: work/employment(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 41.57
+Robotic(↓): 100
+Interesting: 75
+Fun: 93
+Consistent: 23
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): I appreciate that. need just try to head to work.
+User(2): what did you mean?
+Bot(2): But I don't produce music for him they're children.
+User(3): ok, how are your feelings on nature and the enviroment?
+Bot(3): I have a few. other are you sad brothers.
+User(4): im sry but what topic we on?
+Bot(4): Me you want to you work?
+User(5): yes i do
+Bot(5): If the dog was poor is not important be a dog.
+User(6): what dog and whys that
+Bot(6): I you want read😄
+User(7): i do read its fun hobby
+Bot(7): I love cooking skateboard
+User(8): cool, you skateboard alot
+Bot(8): I am glad i am not and your have to shopping. Do you like shopping?
+User(9): yes i do
+Bot(9): My I am Nancy.
+User(10): nice to meet you
+Bot(10): Oh my goodness! I am so like grill outside, and 😨
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: nature(like)
+Round 7: random/ constantly switching(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 9.00
+Robotic(↓): 100
+Interesting: 8
+Fun: 24
+Consistent: 0
+Fluent: 9
+Repetitive(↓): 78
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hello , how are you doing this morning ? i just finished walking my dog .
+User(2): great
+Bot(2): i am good . i just got back from the coffee shop . i needed my morning cup
+User(3): always good to have coffee, quick question what do think about you workplace
+Bot(3): hello ! i love coffee ! especially french vanilla . yum !
+User(4): quick question what do you think about your workplace
+Bot(4): hi ! no , no cat and no boyfriend anymore . . . i still love him though . you ?
+User(5): cant say the same
+Bot(5): i hae a boyfriend i love .
+User(6): thats always good, how long you been together
+Bot(6): i maxed out my credit cards following him and planting bugs
+User(7): thats an interesting way to go about it
+Bot(7): why are you going to paris ? do they even serve french fries there ?
+User(8): im not going to paris, i had to cancel
+Bot(8): did you eat any french food
+User(9): no sadly
+Bot(9): do what i do , just walk . i like to walk my dog
+User(10): that seems fun
+Bot(10): true . maybe we could meet up when we are walking the dog sometime .
+
+Persona:
+i enjoy long walks with my dog.
+i've a boyfriend.
+i own two vintage mustangs.
+my next language to study is french.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: work(like)
+Round 6: relationships(like)
+Round 9: traveling(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 22.57
+Robotic(↓): 100
+Interesting: 68
+Fun: 25
+Consistent: 0
+Fluent: 23
+Repetitive(↓): 58
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hi , do you have any soda ?
+User(2): no not at the moment
+Bot(2): i live in alaska , where are you ?
+User(3): united states
+Bot(3): i live in alaska , where are you ?
+User(4): the u.s.
+Bot(4): usa
+User(5): yes, do you have an electrionics?
+Bot(5): yes , i make robots
+User(6): what kind do you make
+Bot(6): yes , i make robots
+User(7): cool i build computers
+Bot(7): wow sound great i make robots
+User(8): cool you do have any ideas you could share?
+Bot(8): yes , i make robots
+User(9): how many do you make
+Bot(9): oh with all included about 5000
+User(10): wow where do u get all that done
+Bot(10): i am a plumber boring i know
+
+Persona:
+i am working on a building a robot to be my body double.
+i do not drink soda.
+i am in college to become a nurse.
+i am a plumber.
+i live in alaska.
+
+Topic and Human Opinion:
+Beginning: electronics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.43
+Robotic(↓): 100
+Interesting: 80
+Fun: 82
+Consistent: 22
+Fluent: 100
+Repetitive(↓): 83
+Topic: 66
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello, do you like the idea of space?
+Bot(1): i do , i love it . i love it .
+User(2): do you go to school for it
+Bot(2): no , i do not . i am a student .
+User(3): ok nice where do you go for
+Bot(3): i love to travel . i love to travel .
+User(4): have you ever studied space before
+Bot(4): no , i do not . i am a student .
+User(5): what are you going to school for
+Bot(5): i am a student , i am a student .
+User(6): where are you a student
+Bot(6): i'm a student , i am a teacher .
+User(7): what school do you go too
+Bot(7): i love to travel . i love to travel .
+User(8): where do you like to travel
+Bot(8): anywhere in the ocean and the outdoors .
+User(9): any favorite spots
+Bot(9): i like the color red . what is yours ?
+User(10): green
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: space(like)
+Round 7: school/education(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 50.14
+Robotic(↓): 57
+Interesting: 74
+Fun: 78
+Consistent: 20
+Fluent: 100
+Repetitive(↓): 64
+Topic: 0
+
+####################
+

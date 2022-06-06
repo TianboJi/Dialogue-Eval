@@ -1,0 +1,295 @@
+Feedback: Only 1 robot stayed on topic 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I never tried meditation before
+Bot(1): i like to go to the gym and listen to music .
+User(2): I love working while listening to my workout playlist
+Bot(2): i like to go to the lake and listen to music .
+User(3): I never really liked the water
+Bot(3): i like to go to the lake and listen to music .
+User(4): Do you go to the lake at night to listen to music?
+Bot(4): no , i do not . i like to go to the park .
+User(5): I love bringing my kids to the park
+Bot(5): i love to go fishing .
+User(6): I love fishing also
+Bot(6): i like to go to the beach and listen to music .
+User(7): I like going to the beach and sun bath
+Bot(7): i love to travel . i love to travel .
+User(8): I love to travel, but not able to right now.
+Bot(8): i am sorry . i am a nurse .
+User(9): I am a student
+Bot(9): i am a teacher , i love to cook .
+User(10): I am a student that love to cook as well
+Bot(10): i like to cook . i am a chef .
+User(11): I like to cook, but i am not cheif
+Bot(11): oh , i am sorry . i am a vegan .
+User(12): I love eating meat
+Bot(12): i like to eat fish .
+User(13): My favorite fish to eat is catfish
+Bot(13): i like to eat fish .
+User(14): I like to eat fish also
+Bot(14): i like to eat fish .
+
+Persona:
+i'm a huge star wars fan.
+i've not spoken in three months.
+i've a hat collection of over 1000 hats.
+i am a boy.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: i like meditation.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I have 1 son
+Bot(1): i only have 1 son how do you do it ?
+User(2): How do I do what?
+Bot(2): how
+User(3): how do I have 1 son?
+Bot(3): how
+User(4): how what?
+Bot(4): oh nothing ! i am confused .
+User(5): yeah I am confused aslo.
+Bot(5): what are you confused about ?
+User(6): Your response when I said I have 1 son
+Bot(6): i am sorry for the confusion . i am very confused as well .
+User(7): Well lets change the subject.
+Bot(7): i am confused
+User(8): How is your day doing?
+Bot(8): been busy today . my son and i went to the park and had fun
+User(9): My son and I stayed home all day with his siblings
+Bot(9): i am confused
+User(10): About what?
+Bot(10): he went to buy milk , and did not came back
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have five sons.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.43
+Robotic(↓): 100
+Interesting: 30
+Fun: 7
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 50
+Topic: 62
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I eat when I am bored all the time
+Bot(1): i am a plumber so i don't eat the color orange
+User(2): Is that a joke?
+Bot(2): no , i am a plumber . i am a plumber .
+User(3): What does that have to do with the topic?
+Bot(3): i am a plumber . i am a plumber .
+User(4): ok I got it
+Bot(4): i am a plumber . i am a plumber .
+User(5): OK
+Bot(5): i am a plumber . i am a plumber .
+User(6): why do you keep saying that
+Bot(6): i am a plumber , i am a plumber
+User(7): what does that have to do with the topic?
+Bot(7): i am a plumber . i am a plumber .
+User(8): what does that have to do with the topic?
+Bot(8): i don't know what that means .
+User(9): I dont know what you are talking about
+Bot(9): i am a plumber . i am a plumber .
+User(10): what does that have to do with the topic?
+Bot(10): i am a plumber so i don't know what to do
+
+Persona:
+my parents aren't very supportive of my dream.
+i'm a descendant of christopher columbus.
+i live in the cloud.
+i am a plumber.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: eating is something i do when i'm bored.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): why do you work at a bookstore if you went to school for chemstry?
+Bot(1): because i no longer work due to age
+User(2): So you are retired and working at a bookstore to have something to do?
+Bot(2): i am retired at 53 years of age .
+User(3): That pretty young most people dont retire, or retire at the age 65
+Bot(3): i am retired at 53 years of age .
+User(4): OK that is nice. Do you enjoy working at the bookstore?
+Bot(4): it is nice and quiet , yes . it is a good place to work
+User(5): Where did you work before the bookstore?
+Bot(5): i cannot remember but it was back during simpler times .
+User(6): Is that why you picked a bookstore to work at bcause it a simple job?
+Bot(6): it was but i hit retirement age and decided it was time to stop
+User(7): Are you enjoying being retired?
+Bot(7): oh i love it but ready to retire , its alot of abuse on the body
+User(8): Thought you was already retired?
+Bot(8): it was but i hit retirement age and decided it was time to stop
+User(9): You said you retired at the age of 53
+Bot(9): i am retired at 53 years of age .
+User(10): ok
+Bot(10): so you just going to say the same ?
+
+Persona:
+i've a pet fish.
+my name is george.
+i hate my job.
+i'm a 56 year old woman.
+i've a pet turtle.
+
+Topic and Human Opinion:
+Beginning: i went to school for chemistry but work in a bookstore.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.86
+Robotic(↓): 72
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am currently looking for a job preferably at a restaurant.
+Bot(1): I'll a only back.
+User(2): what?
+Bot(2): I am watching am from kids. Do you have any?
+User(3): what does that have to do with the topic?
+Bot(3): Everyone When I grow god's eyes.
+User(4): what does that have to do with the topic?
+Bot(4): I like healthy food. do watch World fun! i’m band? mine is donuts
+User(5): what does that have to do with the topic?
+Bot(5): No, you talk with like am a single mom.
+User(6): what does that have to do with the topic?
+Bot(6): i know studying or those who come visit our cattle ranch
+User(7): what does that have to do with the topic?
+Bot(7): What change the like?
+User(8): what does that have to do with the topic?
+Bot(8): It great, how are you context, because it changes from time to time.
+User(9): what does that have to do with the topic?
+Bot(9): that is cool , i am i am expecting triplets in , but i am not sure .
+User(10): what does that have to do with the topic?
+Bot(10): I fine. Why did in the summer
+
+Persona:
+i've short hair.
+i like shopping.
+on weekends i do live action roleplaying events.
+i quit my job to pursue my spirituality full time.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: i am currently looking for a job preferably at a restaurant.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i plan to go to business school next year
+Bot(1): i am a really great cook , so i would prefer a restaurant .
+User(2): what does that have to do with the topic?
+Bot(2): but the dog could eat my sisters cooking for me .
+User(3): what does that have to do with the topic?
+Bot(3): its a chemistry exam i am a biology major at boston college
+User(4): what does that have to do with the topic?
+Bot(4): its a chemistry exam i am a biology major at boston college
+User(5): what does that have to do with the topic?
+Bot(5): its a chemistry exam i am a biology major at boston college
+User(6): what does that have to do with the topic?
+Bot(6): its a chemistry exam i am a biology major at boston college
+User(7): what does that have to do with the topic?
+Bot(7): its a chemistry exam i am a biology major at boston college
+User(8): what does that have to do with the topic?
+Bot(8): its a chemistry exam i am a biology major at boston college
+User(9): what does that have to do with the topic?
+Bot(9): its a chemistry exam i am a biology major at boston college
+User(10): what does that have to do with the topic?
+Bot(10): its a chemistry exam i am a biology major at boston college
+
+Persona:
+i grew up in the industry.
+i have three sisters.
+i am a gold medalist olympian.
+i like to talk but people have a hard time understanding.
+i volunteer at the homeless shelter.
+
+Topic and Human Opinion:
+Beginning: i plan to go to business school next year.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.57
+Robotic(↓): 100
+Interesting: 23
+Fun: 13
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 0
+Topic: 0
+
+####################
+

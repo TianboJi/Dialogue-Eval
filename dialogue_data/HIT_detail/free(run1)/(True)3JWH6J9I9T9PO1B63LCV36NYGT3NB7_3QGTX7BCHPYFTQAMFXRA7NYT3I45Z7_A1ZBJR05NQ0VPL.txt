@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello there
+Bot(1): hi , i just got back from work , i am a plumber
+User(2): Oh good
+Bot(2): tell me about yourself
+User(3): I love family
+Bot(3): me too my family is doctors
+User(4): How often do you visit family?
+Bot(4): all the time i could not live without them
+User(5): yes, me too
+Bot(5): i meet a lot of people being a plumber
+User(6): Who are you closest to in your family?
+Bot(6): well , my dad i guess
+User(7): Same for me
+Bot(7): i meet a lot of people being a plumber
+User(8): Good
+Bot(8): i hate my parents alot
+User(9): Why? But that is not good
+Bot(9): i hate my parents alot
+User(10): Why?
+Bot(10): i hate my parents alot
+
+Persona:
+i got a new job just yesterday to be a life coach.
+i love taking bubble baths.
+i'm a plumber.
+i was adopted at a young age to an older couple.
+my mother is a dentist.
+
+Topic and Human Opinion:
+Beginning: Family(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.14
+Robotic(↓): 67
+Interesting: 49
+Fun: 61
+Consistent: 38
+Fluent: 57
+Repetitive(↓): 66
+Topic: 30
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): I'm an engineer
+Bot(2): oh , neat . my absolute favorite fish is rock fish .
+User(3): Good, I do construction
+Bot(3): good honest work . my dad was construction worker . you got family ?
+User(4): Wow that is good to know
+Bot(4): i know my birth family , but for 10 years i was held as a slave .
+User(5): Okay, I have done several constructions
+Bot(5): fun fun ! i enjoy traveling for fun
+User(6): Okay
+Bot(6): its tough . to deal with . i mean i have some time left here .
+User(7): Not bad
+Bot(7): nice talking with you bye bye
+User(8): Oh wow
+Bot(8): it totally is fun , do you like magic card games ?
+User(9): Not really
+Bot(9): you said you proofread for hallmark and i told you i do lab work
+User(10): No. Just construction
+Bot(10): good honest work . my dad was construction worker . you got family ?
+
+Persona:
+my favorite band is up and i got to see them in concert once.
+i have been traveling the world for a years.
+i am partly deaf.
+i'm a descendant of christopher columbus.
+my ex cheated and left me for a lawyer.
+
+Topic and Human Opinion:
+Beginning: Construction(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.14
+Robotic(↓): 62
+Interesting: 45
+Fun: 45
+Consistent: 46
+Fluent: 61
+Repetitive(↓): 57
+Topic: 38
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): What do you like about the weather?
+Bot(2): electric
+User(3): I like sunny weather conditions
+Bot(3): i prefer the sunny whether too . .
+User(4): It helps to keep the body warm
+Bot(4): it makes me feel more warm lol
+User(5): Good
+Bot(5): it makes me feel more warm lol
+User(6): Do you know the weather changes due to climatic conditions?
+Bot(6): it depends on how hard its raining . where are you from
+User(7): United States
+Bot(7): have you lived in the united states ?
+User(8): I live in the United States
+Bot(8): i represent united states
+User(9): Oh good
+Bot(9): i represent united states
+User(10): Me too
+Bot(10): me too
+User(11): And the weather is good too
+Bot(11): very
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.71
+Robotic(↓): 60
+Interesting: 34
+Fun: 33
+Consistent: 37
+Fluent: 53
+Repetitive(↓): 43
+Topic: 45
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): Oh now job? please tell with you?
+User(2): Hmmm
+Bot(2): I am a retired like it, I've watched and unhappy?
+User(3): Sorry
+Bot(3): kon nichiwa ll i just got old is your so how are you
+User(4): I'm good
+Bot(4): I live there am looking for a I can not wait to go there
+User(5): Okay. Have you entered an aeroplane before?
+Bot(5): my name is rascal. what is yours? is your day do for a living?
+User(6): I'm a Pilot
+Bot(6): of course . living near pygmies , i sleep with one video games and play like you ? 🙉
+User(7): Sounds nice
+Bot(7): I am great! playing video am professional for work?😄
+User(8): Would you like to fly a plane?
+Bot(8): my dad is the language of me and my <num> siblings i am the youngest
+User(9): Oh, have they traveled by air before?
+Bot(9): Yes I your favorite for it 😁
+User(10): Okay
+Bot(10): i do but i also are about taking over to guess: i grew up ...
+
+Persona:
+i enjoy coloring books.
+i used to be pretty but time has not been kind.
+i'm married with two kids.
+i'm very lonely.
+i have a pet cow.
+
+Topic and Human Opinion:
+Beginning: Aeroplanes(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.00
+Robotic(↓): 65
+Interesting: 42
+Fun: 41
+Consistent: 50
+Fluent: 55
+Repetitive(↓): 54
+Topic: 18
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): Good
+Bot(2): i love to cook . i love to cook .
+User(3): Do you like soccer?
+Bot(3): i do , i love to go fishing .
+User(4): Can you play soccer with me?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): Okay does it make you feel good?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): i love music too
+Bot(6): i like to listen to music .
+User(7): okay. But soccer does it for me
+Bot(7): i do not know what to say .
+User(8): Why?
+Bot(8): i am a student , but i am a student .
+User(9): I am a soccer player
+Bot(9): i like to play soccer , but i like to play soccer .
+User(10): good
+Bot(10): i am a student , but i am a student .
+
+Persona:
+my favorite hobbies are listening to music and playing video games.
+i used to be a painter but now i'm a housekeeper.
+my dream in life is to work from home.
+i play the piano and guitar and sing.
+my father is in the army.
+
+Topic and Human Opinion:
+Beginning: Soccer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 50
+Interesting: 60
+Fun: 65
+Consistent: 65
+Fluent: 56
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hi how are you
+User(2): I am doing fine
+Bot(2): hi , i am doing great . i just got back from the soccer team .
+User(3): Do you wear sunglasses?
+Bot(3): no i do not . i do not like to watch tv though
+User(4): Okay. Do you know anyone that wears them?
+Bot(4): i do not . i do not like my own .
+User(5): Why don't you?
+Bot(5): i do not know . i am not very good at it .
+User(6): Okay
+Bot(6): i do not know what that is .
+User(7): Cool
+Bot(7): i do not know what that is .
+User(8): I mean that is good
+Bot(8): i like to cook but i don't like them
+User(9): I love to wear sunglasses
+Bot(9): i like to wear cardigans . i like to eat out .
+User(10): Good
+Bot(10): i like to wear cardigans
+
+Persona:
+i am on the soccer team.
+i don't pick up my toys.
+i also like to cook but i am not very good at it.
+i watch too much tv in spare time.
+i do not pick up my toys.
+
+Topic and Human Opinion:
+Beginning: Sunglasses(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.43
+Robotic(↓): 57
+Interesting: 57
+Fun: 57
+Consistent: 50
+Fluent: 39
+Repetitive(↓): 48
+Topic: 41
+
+####################
+

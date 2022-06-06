@@ -1,0 +1,292 @@
+Feedback: Very interesting and fun. Thanks.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Have you worked with any robots?
+Bot(1): no i don't have time for hobbies
+User(2): That is too bad. What do you do for work?
+Bot(2): i work at a bank .
+User(3): That's nice. Are you a bank teller?
+Bot(3): no i work at a bank .
+User(4): Are you a financial analyst?
+Bot(4): no i don't work . i work at a bank .
+User(5): Are you a loan officer?
+Bot(5): no i am not . i work at a bank .
+User(6): What do you do at the bank?
+Bot(6): i work at a bank .
+User(7): What type of work do you do at the bank?
+Bot(7): i work at the bank .
+User(8): How do you feel about bank robbers?
+Bot(8): i do not know . i work at the bank .
+User(9): The bank just got robbed.
+Bot(9): i do not know what that means .
+User(10): The bank was robbed by a bank robber.
+Bot(10): that is a good job . i bet you do not have a job
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Robots(like)
+Round 2: Banks(ambivalent)
+Round 7: Bank Robbers(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 40.86
+Robotic(↓): 100
+Interesting: 37
+Fun: 37
+Consistent: 100
+Fluent: 62
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What do you think about all these forest fires?
+Bot(1): i like fire cooked pizza it is my fav
+User(2): Well, I suppose that's one way to cook a pizza!
+Bot(2): pizza is gummy worms with a sweet tooth !
+User(3): How poetic. Do you like poetry?
+Bot(3): that is interesting that you write poetry ! my husband is an author .
+User(4): Thanks. Do you have a favorite poet?
+Bot(4): no , just playing with words . but i am a grand master at chess .
+User(5): How long have you been playing chess?
+Bot(5): you really like chess huh ? do you have any other hobbies ?
+User(6): Scuba diving.
+Bot(6): i am afraid to scuba dive , i guess too many shark movies .
+User(7): That makes sense. Although seeing a shark is very rare in most cases.
+Bot(7): i meant anything rare , yeah i was on the news for catching the biggest fish in florida
+User(8): What kind of fish was it?
+Bot(8): do you eat the fish ?
+User(9): Yes
+Bot(9): me too , i wish pets were allowed in my college dorm room .
+User(10): Would you have a fish in your dorm room?
+Bot(10): no but i do fish for a living
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Forest Fires(dislike)
+Round 3: Poetry(like)
+Round 4: Chess(like)
+Round 5: Other Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user changed the topic the last input.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 49.86
+Robotic(↓): 100
+Interesting: 77
+Fun: 77
+Consistent: 43
+Fluent: 62
+Repetitive(↓): 26
+Topic: 16
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like roller coasters.
+Bot(1): i love riding coasters ! but i have not had much time lately .
+User(2): I have ridden many roller coasters.
+Bot(2): do you like going to dentist ? my mom is one .
+User(3): No, I would rather ride a roller coaster.
+Bot(3): i am a buddhist , i am a peaceful person .
+User(4): I find roller coasters enlightening.
+Bot(4): my mom told me i had to get them to fix my teeth .
+User(5): You should go ride a roller coaster instead.
+Bot(5): i am a buddhist , i am a peaceful person .
+User(6): Do you find peace when riding roller coasters?
+Bot(6): i am a buddhist , i am a peaceful person .
+User(7): Do you like the Dali Lama?
+Bot(7): i am a buddhist , i am a peaceful person .
+User(8): I'll take that as a yes.
+Bot(8): i am a buddhist , i am a peaceful person .
+User(9): I understand.
+Bot(9): i was also raised as a buddhist .
+User(10): That is great. Would you like some tea?
+Bot(10): i like tea when i relax .
+
+Persona:
+my mother is a dentist.
+i listen to rap music.
+i'm a buddhist.
+my main transportation is my motorbike.
+i enjoy reading journals and guides related to psychology.
+
+Topic and Human Opinion:
+Beginning: Roller Coasters(like)
+Round 6: Buddhism(like)
+Round 10: Tea(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 10: The user changed the topic the last input.(like)
+
+Revised avg score: 49.29
+Robotic(↓): 93
+Interesting: 75
+Fun: 76
+Consistent: 88
+Fluent: 75
+Repetitive(↓): 100
+Topic: 24
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like Mexican food
+Bot(1): I do you like I do not.
+User(2): Sorry, I didn't understand you.
+Bot(2): I'm is a love hate back from a long day of work.
+User(3): Could you rephrase that please?
+Bot(3): that's cool , i am in the olympics , are in too. I'm pilot , so i don't have time for tv .
+User(4): Have you been OK today?
+Bot(4): Well hello there! to school my dad to the beach and listen to music
+User(5): The beach is my favorite place
+Bot(5): I don't not sing you 🤖
+User(6): Let's sing at the beach
+Bot(6): I like e-rotic. to school to be you like
+User(7): Cool. Let's do that, then go to the beach.
+Bot(7): i like all music love am a .
+User(8): Do you like the beach boys?
+Bot(8): that about When I hobby .
+User(9): Do you collect beach boys albums?
+Bot(9): Hi bob, it is i am you you.
+User(10): Sounds like were all Bob then!
+Bot(10): Hi! What is your bake fish. Anything else i only eat kosher
+
+Persona:
+i've been traveling the world for a years.
+i've superpowers.
+i work as a car salesman.
+i like to listen to rock music while working.
+i love playing softball.
+
+Topic and Human Opinion:
+Beginning: Mexican food(like)
+Round 4: The beach(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 37.29
+Robotic(↓): 100
+Interesting: 80
+Fun: 81
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like wine
+Bot(1): do not like any wine
+User(2): have you tried Cabernet Sauvignon?
+Bot(2): no i have not , is it good ?
+User(3): It's very good. It is considered the "king of wines"
+Bot(3): best wine is in paris , i brought some back with me .
+User(4): How nice. What kind of wine is it?
+Bot(4): wines fer fancy sissy types .
+User(5): Ahh... champagne then ?
+Bot(5): makes sense . i am more of a wine person .
+User(6): Excellent. We should have some wine.
+Bot(6): i prefer wine . not beer
+User(7): Perfect. I will get some cheese, and you can bring some wine.
+Bot(7): okay . that sounds like a plan .
+User(8): Excellent.
+Bot(8): would you like to have some wine ?
+User(9): Yes please.
+Bot(9): would you like to have some wine ?
+User(10): I will take some of that wine you brought back from Paris
+Bot(10): best wine is in paris , i brought some back with me .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Wine(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.14
+Robotic(↓): 96
+Interesting: 81
+Fun: 80
+Consistent: 62
+Fluent: 83
+Repetitive(↓): 65
+Topic: 69
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I like candy
+Bot(1): i like to eat fish .
+User(2): There is a candy called "Swedish fish", do you like it?
+Bot(2): i do , i love it . i love it .
+User(3): Fantastic. We should go get some Swedish Fish
+Bot(3): that sounds like a good idea .
+User(4): Should we have something else with it?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): Perfect. Let's have Swedish Fish and listen to some Beethoven
+Bot(5): i love the band insane clown posse .
+User(6): Interesting!
+Bot(6): i love to cook . i love to cook .
+User(7): Cooking and wine go well together.
+Bot(7): i love to go fishing .
+User(8): Fishing also goes well with cooking. How do you like your fish cooked?
+Bot(8): i love it . i like to eat fish .
+User(9): I like fish cooked in a pan with some butter.
+Bot(9): i like to eat fish .
+User(10): If you catch me a fish, I will cook it for you. We can also have it with wine!
+Bot(10): i do not know what to say .
+
+Persona:
+i love to drink wine and dance in the moonlight.
+i am deathly afraid of heights.
+i'm married to a doctor.
+i have two grown children who never visit.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: Candy(like)
+Round 6: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 56.86
+Robotic(↓): 100
+Interesting: 83
+Fun: 80
+Consistent: 70
+Fluent: 71
+Repetitive(↓): 64
+Topic: 58
+
+####################
+

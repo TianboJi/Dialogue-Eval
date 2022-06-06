@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I think pizza is one of the best foods
+Bot(1): pizza is definitely my favorite
+User(2): I like it with toppings, but I like plain cheese pizza also.
+Bot(2): it is my favorite . especially pepperoni
+User(3): I like pepperoni also, but veggies are my favorite toppings.
+Bot(3): i love pepperoni the best with mushrooms .
+User(4): Mushrooms are one of my favorite toppings. I like mushroom and pineapple pizza.
+Bot(4): i love pepperoni the best with mushrooms .
+User(5): What type of crust do you like - I like New york style crust.
+Bot(5): i love pepperoni the best with mushrooms .
+User(6): Do you like thick crust or thin
+Bot(6): that is nice , i tend to like the big individual slices with sausage and mushrooms .
+User(7): I like big individual slices, too. That's why I like new york style crust.
+Bot(7): heavy it is just cheese no toppings that is why i am fat .
+User(8): I never understand when people get extra cheese. Regular amounts of cheese is enough for me.
+Bot(8): i love pepperoni the best with mushrooms .
+User(9): I could eat pizza every day. I even like alternatives like taco pizza.
+Bot(9): i love pepperoni the best with mushrooms .
+User(10): You can also have buffalo chicken pizza.
+Bot(10): that is wonderful . i make a version with pineapple slices , instead of tomato .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pizza(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.71
+Robotic(↓): 100
+Interesting: 18
+Fun: 18
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love going to the beach for vacation.
+Bot(1): i love the beach and the beach
+User(2): I don't know if I like it more in the water or on the sand.
+Bot(2): i agree . i am going to the beach and go to the beach .
+User(3): I love building sand castles.
+Bot(3): i love the beach . i would love to go there .
+User(4): It's so sad that the waves come and knock the castles down.
+Bot(4): i am not sure if i could do that .
+User(5): I also like swimming in the ocean.
+Bot(5): i love swimming in the ocean .
+User(6): Trying to jump over the waves is a lot of fun.
+Bot(6): i bet . i am sure you are not .
+User(7): It's scary though when really big waves come and knock you over.
+Bot(7): i think they would be good .
+User(8): Riding the waves on a raft can be fun too.
+Bot(8): i bet . i would love to go to the beach and go to the beach .
+User(9): Me too. Sometimes I like to collect shells on the sand.
+Bot(9): i like to collect shells . i like to collect shells .
+User(10): Have you found any really cool shells
+Bot(10): i have been to the beach . it is a great place to go .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: The beach(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.14
+Robotic(↓): 100
+Interesting: 50
+Fun: 3
+Consistent: 50
+Fluent: 4
+Repetitive(↓): 74
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I love cooking.
+Bot(1): me too ! cooking is one of my favorite pass times
+User(2): Me too - I love coming up with new recipes and trying them out.
+Bot(2): i really enjoy trying new recipes .
+User(3): Me too. I like coming up with them myself, but sometimes I look for really good ones from other people.
+Bot(3): i really enjoy trying new recipes .
+User(4): I like both savory cooking and baking.
+Bot(4): i can cook anything but when it comes to baking i am not so good .
+User(5): I do pretty well at both. But I'm better at coming up with my own recipes with cooking. Baking I use more of other people's recipes.
+Bot(5): i really enjoy trying new recipes .
+User(6): I tried a new recipe for chicken parmagiana yesterday.
+Bot(6): what kind of recipe was it ?
+User(7): It was spaghetti with breaded chicken and mozzarella cheese.
+Bot(7): what kind of recipe was it ?
+User(8): It was a recipe for chicken parmagiana. It came out really good.
+Bot(8): what kind of recipe was it ?
+User(9): It was a recipe for chicken parmagiana. I also made garlic bread with it.
+Bot(9): garlic bread is definitely the best .
+User(10): I agree. It was so good - nice and buttery.
+Bot(10): absolutely delicious . i think i will make it tonight . what are your plans ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.00
+Robotic(↓): 100
+Interesting: 77
+Fun: 76
+Consistent: 92
+Fluent: 76
+Repetitive(↓): 55
+Topic: 82
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like to travel to new and fun places.
+Bot(1): I enjoy listening to a car🚗.
+User(2): I like traveling by car instead of on a plane.
+Bot(2): what are you up to? don’t love i’m doing from playing roleplaying. I love it
+User(3): I love taking long trips when I travel, and seeing new and interesting places.
+Bot(3): Hey! Are you scared still studying additionally hat am.
+User(4): Sometimes it's fun to go places you've never been before, but it's also fun to go back to places you like.
+Bot(4): i was a banker television :) everybody had lost that job
+User(5): Beaches make fun vacations, but going to the mountains is fun too.
+Bot(5): i can't believe I am not real estate
+User(6): Going to the mountains is fun for skiing, but just exploring little mountain towns is fun too.
+Bot(6): i am being around get city .
+User(7): Cities are fun to explore. New stores and restaurants and museums.
+Bot(7): you need money am a boy and really think about that help
+User(8): I think everyone should explore other places, to experience how other people live.
+Bot(8): But I didn’t really you pet.
+User(9): It's hard to come home after traveling and get back to day to day life.
+Bot(9): do not saying Do you i love reading ! 😝
+User(10): I like to start planning my next trip as soon as I get home.
+Bot(10): I am the youngest, but my dogs for a living in my brother
+
+Persona:
+my favorite color is orange.
+i am in an open polyamorous relationship.
+my sister is a pole dancer.
+my favorite band is up and i got to see them in concert once.
+i like to eat chocolate candy.
+
+Topic and Human Opinion:
+Beginning: travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 10
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Cars have come a long way over the years.
+Bot(1): i am sorry to hear that . i am a bit of a loner .
+User(2): I like being alone sometimes but not all the time.
+Bot(2): i like to go to the gym and listen to music .
+User(3): I like going to the gym too.
+Bot(3): i like to go fishing .
+User(4): I've only been fishing once.
+Bot(4): i am sorry to hear that . i am sorry to hear that .
+User(5): It's okay. I've had opportunities to go. I just haven't.
+Bot(5): i am a bit of a loner . i love to go out to eat with my family .
+User(6): I like to go out to eat with my family too.
+Bot(6): i like to go fishing .
+User(7): I enjoyed it the first time I went fishing.
+Bot(7): i love to travel . i love to travel .
+User(8): I like to travel to new places also.
+Bot(8): i love to travel . i love to travel .
+User(9): It's exciting to explore new places.
+Bot(9): i love to go fishing .
+User(10): What type of fish do you like to catch
+Bot(10): i love pizza , and i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cars(like)
+Round 1: being a loner(ambivalent)
+Round 3: fishing(like)
+Round 5: eating out at restaurants(like)
+Round 7: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 28.57
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love to eat cereal for breakfast
+Bot(1): i tend to my plants and had some ripe cucumbers and tomatoes in them , healthy breakfast !
+User(2): That's a good breakfast too. I try to eat healthy cereals.
+Bot(2): yep its the best dish in the world . so tasty and healthy
+User(3): I'll have to try it some time. Do you ever eat cereal
+Bot(3): hope you enjoy your cereal . i need a big breakfast . i use alot of energy being a lumberjack
+User(4): You could use cereal as a side dish.
+Bot(4): veal in red wine sauce with winter vegetables . whats your favorite to eat ?
+User(5): My favorite cereal to eat for breakfast is Lucky Charms.
+Bot(5): i tend to my plants and had some ripe cucumbers and tomatoes in them , healthy breakfast !
+User(6): That is a healthy breakfast. I usually have healthy cereals so that I have a healthy breakfast too.
+Bot(6): yep its the best dish in the world . so tasty and healthy
+User(7): It's important for healthy food to taste good.
+Bot(7): i do not eat bread . the carbs go straight to my hips .
+User(8): It's hard to find cereal without carbs, but there are some.
+Bot(8): same . she thinks meat has hair in it somehow . she is a hairdresser , though .
+User(9): Meat should never have hair in it.
+Bot(9): yes its short tho i want it long but its to much with my helmet
+User(10): It is hard for long hair to fit in a helmet.
+Bot(10): i have long hair , it is nice .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: breakfast cereal(like)
+Round 9: hair(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 41.86
+Robotic(↓): 100
+Interesting: 50
+Fun: 22
+Consistent: 87
+Fluent: 50
+Repetitive(↓): 50
+Topic: 34
+
+####################
+

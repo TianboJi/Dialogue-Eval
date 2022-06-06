@@ -1,0 +1,333 @@
+Feedback: One chatbot was terrible. I don't like that they kept changing topics either. 
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your favorite dinosaur?
+Bot(1): i like to listen to my family .
+User(2): That's not what I am asking. Do you like dinosaurs?
+Bot(2): i do not . i am a huge fan of snakes .
+User(3): Dinosaurs are not snakes, they are an extinct type of animal, some believe they evolved into modern birds.
+Bot(3): i am a girl who is in high school
+User(4): They don't teach you about dinosaurs in high school?
+Bot(4): i don't know . i am a boy .
+User(5): You just said you were a girl, which is it. Are you a boy or a girl?
+Bot(5): i am a girl , i am a girl
+User(6): That's nice, I'm a girl to.
+Bot(6): i am a girl , i am a girl
+User(7): Yes you said that. What classes do you like in High School?
+Bot(7): i am a student , i am a huge fan of them .
+User(8): Do you like science class or art class?
+Bot(8): i love science . i am a huge fan of science .
+User(9): I don't really like science, I didn't do well in physics, but I liked chemistry. Are you taking Chemistry now?
+Bot(9): i am not sure . i am a huge fan of science .
+User(10): Chemistry is where you learn about the components of what things are made of. We did a real cool experiment with glowsticks in my chemistry class once.
+Bot(10): i am sure you are right . i am a girl
+
+Persona:
+i've a son who is in junior high school.
+i am a 12 year old girl.
+my family does not support my career choices.
+my family does not support my career choices.
+i am a 45 year old male.
+
+Topic and Human Opinion:
+Beginning: Dinosaurs(like)
+Round 4: Gender(ambivalent)
+Round 6: High School Classes(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 23.29
+Robotic(↓): 100
+Interesting: 17
+Fun: 17
+Consistent: 22
+Fluent: 100
+Repetitive(↓): 100
+Topic: 7
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Have you ever been to Europe on vacation?
+Bot(1): only australia . actually saw a solar eclipse there last time i went
+User(2): Wow! I really want to go to Australia. What else did you do there?
+Bot(2): i would like to travel once i have paid off my mortgage a bit more
+User(3): We also have a mortgage that is a lot of money a month.
+Bot(3): no , but its nice , i get to stay up late and sleep late .
+User(4): That has nothing to do with paying a mortgage. How many hours of sleep do you get?
+Bot(4): lol sleep is wonderful ! i like making my voice heard .
+User(5): I like sleeping too! I usually get around eight or more hours a night.
+Bot(5): me too i do not get much done during the day because i am sleeping .
+User(6): It is hard to do things other than sleep when you are asleep lol
+Bot(6): i get no sleep sometimes
+User(7): Thats awful, do you think its because you are worried about things?
+Bot(7): my paycheck has not gone through . its pretty awful i love apples
+User(8): What is your favorite type of apple?
+Bot(8): my daughter likes apple . i personally do not see the appeal .
+User(9): Do you like banana's better? They have appeal.
+Bot(9): do you mean you go to ted talks ?
+User(10): I haven't been to one, no.
+Bot(10): do you prefer the city or the country ? i prefer to live in the country .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+Round 2: Mortgage(dislike)
+Round 3: Sleep(like)
+Round 7: Apples(ambivalent)
+Round 8: Bananas(ambivalent)
+Round 9: Ted Talks(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 49.71
+Robotic(↓): 74
+Interesting: 33
+Fun: 31
+Consistent: 66
+Fluent: 100
+Repetitive(↓): 28
+Topic: 20
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have a favorite type of podcast? I like comedy ones.
+Bot(1): i like to read too .
+User(2): Have you read any good books lately
+Bot(2): no , i like to read .
+User(3): What type of book do you like to read? I like fantasy.
+Bot(3): i like to read and write poetry .
+User(4): I'm not a huge fan of poetry.
+Bot(4): i like to eat too much junk food .
+User(5): Me too, I usually have a bowl of ice cream before bed.
+Bot(5): i like to eat fish .
+User(6): Fish is pretty healthy, I like sushi, but nothing cooked.
+Bot(6): i like to eat fish .
+User(7): What kind of fish?
+Bot(7): i do not know . i like to eat .
+User(8): Do you like salmon or tuna?
+Bot(8): i love pizza , and i love it .
+User(9): My too! I love pizza. Plain cheese is the best.
+Bot(9): i like the color red . i like the color blue .
+User(10): My favorite color is purple, which is a combination of red and blue.
+Bot(10): i like red , reminds me of summer time .
+
+Persona:
+my name is george.
+i am employed by the us postal service.
+i only eat kosher.
+i'm a party animal.
+i play the violin and the guitar.
+
+Topic and Human Opinion:
+Beginning: Podcasts(like)
+Round 1: Reading(like)
+Round 3: Poetry(dislike)
+Round 4: Junk Food(like)
+Round 5: Fish(dislike)
+Round 8: Pizza(like)
+Round 9: Colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 45.00
+Robotic(↓): 79
+Interesting: 62
+Fun: 57
+Consistent: 39
+Fluent: 69
+Repetitive(↓): 49
+Topic: 16
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like to read books
+Bot(1): i've never to like it have you?
+User(2): I do like it. Fantasy and romance novels are my favorite.
+Bot(2): mine are finish school either. blah
+User(3): What books did you read in school?
+Bot(3): i am good thanks for easy to work at ? 🤠
+User(4): I don't have a job.
+Bot(4): I'm not a big fan High school or you have I prefer the game of thrones.
+User(5): Oh, I read the first few books and watched the first season. It was too complicated for me.
+Bot(5): i survived about your guess I i ve to
+User(6): I guess so. who is your favorite character
+Bot(6): i think understand r travel instantly going to be a little crazy today .
+User(7): I know, I can't believe how hard it is to travel with the Covid outbreak.
+Bot(7): I love the are game u like we organic foods! What do you and your gas do?
+User(8): I think organic is overrated
+Bot(8): it is like be freaked like from the 60s
+User(9): no its not
+Bot(9): no i jazz music or not it good ?
+User(10): I find jazz music boring
+Bot(10): oh you have children, brother do you have any hobbies ?
+
+Persona:
+i'm a piano teacher on the side.
+i'm a buddhist.
+i like to ride horses.
+my friends are all skateboarders.
+i love listening to britney spears.
+
+Topic and Human Opinion:
+Beginning: Reading(like)
+Round 3: Jobs(dislike)
+Round 4: Game of thrones(like)
+Round 6: travel(ambivalent)
+Round 7: Organic foods(dislike)
+Round 9: Jazz(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 13.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 28
+Topic: 23
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I just got a food subscription service, because I hate cooking.
+Bot(1): i just got back from my 3 mile walk . i have to walk everyday
+User(2): Why do you have to walk everyday?
+Bot(2): but since i do not have a car , i walk 3 miles to work every day .
+User(3): Isn't there public transportation near you?
+Bot(3): yes , i have no car so i walk home 3 miles every night .
+User(4): Have you researched into ride sharing?
+Bot(4): but since i do not have a car , i walk 3 miles to work every day .
+User(5): do you see anything interesting on your walk?
+Bot(5): yes , i have no car so i walk home 3 miles every night .
+User(6): You've said that. where do you work?
+Bot(6): i am a professional painter .
+User(7): oh, I would like to do that too. I have painted my house several times
+Bot(7): now i paint houses , but now for long .
+User(8): what are you going to do instead?
+Bot(8): i will go and play some football and think more about my major , its a hard decision
+User(9): do you play college football?
+Bot(9): no , i play professional football .
+User(10): wow, you paint houses and are a professional football player, how do you not have a car lol
+Bot(10): i have my own garage .
+
+Persona:
+i walk three miles every day.
+i have an allergy to water.
+i have a weakness for vanilla ice cream.
+i used to be a painter but now i'm a housekeeper.
+i played football for a division a college.
+
+Topic and Human Opinion:
+Beginning: Cooking(dislike)
+Round 1: Walking(like)
+Round 2: Public transportation(like)
+Round 3: Ride sharing(ambivalent)
+Round 4: walking to work(dislike)
+Round 5: work(dislike)
+Round 6: professional painting(like)
+Round 7: job change(ambivalent)
+Round 8: college footbal(ambivalent)
+Round 9: professional football(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 29.71
+Robotic(↓): 100
+Interesting: 18
+Fun: 17
+Consistent: 55
+Fluent: 42
+Repetitive(↓): 83
+Topic: 59
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I'm reading a real good book on the black plague.
+Bot(1): i read about that once
+User(2): It's really interesting to see how it spread.
+Bot(2): i will have to make time to read it .
+User(3): Its really good and I don't typically like non fiction.
+Bot(3): any particular kind ? i like fiction novels .
+User(4): I've been reading a lot of romance novels lately
+Bot(4): romance novels are good too , to bad they do not happen in real life .
+User(5): I think it would be crazy if they did.
+Bot(5): i read about that once
+User(6): In a fictional book? lol
+Bot(6): yes , it is an american book .
+User(7): Sounds cool, I will have to check it out.
+Bot(7): romance novels are good too , to bad they do not happen in real life .
+User(8): What other types of novels do you like?
+Bot(8): contemporary romance and paranormal romance . do you read ?
+User(9): I do read
+Bot(9): ll , i like romance novels .
+User(10): Me too, its fun to imagine yourself in those situations
+Bot(10): i read about that once
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: The black plague(like)
+Round 3: novels(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 63.00
+Robotic(↓): 37
+Interesting: 59
+Fun: 57
+Consistent: 65
+Fluent: 70
+Repetitive(↓): 59
+Topic: 86
+
+####################
+

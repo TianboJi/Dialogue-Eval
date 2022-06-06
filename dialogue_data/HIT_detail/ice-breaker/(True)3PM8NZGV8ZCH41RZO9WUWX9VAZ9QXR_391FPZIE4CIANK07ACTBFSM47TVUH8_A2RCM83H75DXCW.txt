@@ -1,0 +1,284 @@
+Feedback: This was a good section.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hai, do you have any siblings? I have three sisters.
+Bot(1): i have two bothers no sisters .
+User(2): Oh that sounds good, my three sisters are younger than me. What about your brothers?
+Bot(2): my sister is younger than me and i have an older brother
+User(3): do you like reading books?
+Bot(3): not really , i do not read much books at all . do you
+User(4): Yes of course, I read a lot of books. Which is your favorite author?
+Bot(4): hmm , that is a tough one . i like all . how about yours ?
+User(5): My favorite author is Sydney Sheldon.
+Bot(5): one of my sisters once met him . she said it was a really memorable experience .
+User(6): Oh that's great, I wish I could also met him sometime.
+Bot(6): one of my sisters once met him . she said it was a really memorable experience .
+User(7): Who is your favorite author?
+Bot(7): i am not sure , there is so many to choose from !
+User(8): which is your favorite book?
+Bot(8): hmm , that is a tough one . i like all . how about yours ?
+User(9): My favorite book is The Notebook.
+Bot(9): mine is the notebook lol
+User(10): That sounds crazy, have you read The Harry Potter series?
+Bot(10): actually , i have . my son finished it and suggested i read it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have three sisters.(like)
+Round 2: books(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 64.29
+Robotic(↓): 71
+Interesting: 76
+Fun: 73
+Consistent: 52
+Fluent: 83
+Repetitive(↓): 36
+Topic: 73
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hai, have you been traveled to Spain?
+Bot(1): no , i have been to spain , but i have traveled to europe .
+User(2): Spain is a beautiful destination. You should try it once.
+Bot(2): i would love to . i have been to spain .
+User(3): You told me you haven't been to spain.
+Bot(3): no , i have never been to spain .
+User(4): Do you have any hobbies?
+Bot(4): i like to read , but not much of a reader .
+User(5): I also love to read.
+Bot(5): i like to read . i love to read .
+User(6): Do you have any hobbies other than reading?
+Bot(6): reading . i love to read .
+User(7): I love gardening. What about you?
+Bot(7): i love reading . reading and hiking .
+User(8): Do you like to travel?
+Bot(8): i love to travel . i have been to spain .
+User(9): Are you planning to do a world trip?
+Bot(9): i would love to travel . i have been to spain .
+User(10): Is there any places other than spain you would love to visit.
+Bot(10): i would love to visit ireland .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have visited spain a times.(like)
+Round 3: hobbies(like)
+Round 7: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+Round 7: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 50.14
+Robotic(↓): 61
+Interesting: 59
+Fun: 65
+Consistent: 57
+Fluent: 61
+Repetitive(↓): 77
+Topic: 47
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you love photography?
+Bot(1): yes i like taking pictures
+User(2): I too love taking photos.
+Bot(2): taking photos is my favorite thing to do
+User(3): Have you been to any course on photography?
+Bot(3): no , but i have a hobby . i love photography !
+User(4): I love gardening.
+Bot(4): gardening is lovely . its not for me , though .
+User(5): I have a good garden in front of my house.
+Bot(5): awesome ! i recently built a greenhouse because i have gotten into gardening .
+User(6): Is there any particular vegetables growing there?
+Bot(6): yes , i love plants . do you enjoy planting flowers or vegetables ?
+User(7): Is it a organic farming?
+Bot(7): yes as long as it is organic .
+User(8): I also love organic vegetables.
+Bot(8): i love all different types of vegetables .
+User(9): I am planning to do a organic vegetable garden.
+Bot(9): i recently started a garden myself . i find it so relaxing .
+User(10): I think to do the vegetable garden in my backyard.
+Bot(10): that sounds nice . what are you planting ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am interested in photography and like taking pictures.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.57
+Robotic(↓): 68
+Interesting: 62
+Fun: 72
+Consistent: 78
+Fluent: 86
+Repetitive(↓): 20
+Topic: 84
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hai, do you have any children?
+Bot(1): no , i do not , but i do like to go out to eat .
+User(2): Do you have any dogs with you?
+Bot(2): no , i do not , but i do like to go fishing .
+User(3): I have 2 children.
+Bot(3): i am a girl . i am a big fan of classical music .
+User(4): I too love music.
+Bot(4): i like to listen to music .
+User(5): Which is your favorite band?
+Bot(5): i like the outdoors , but i like to go fishing .
+User(6): Do you love classical music?
+Bot(6): i do , i like to listen to music .
+User(7): I also love classical music.
+Bot(7): i like to listen to music .
+User(8): Do you like hip hop music?
+Bot(8): i do , i like to listen to music .
+User(9): Who is your favorite singer?
+Bot(9): i like the oldies , and the outdoors .
+User(10): Do you have any specific favorite song?
+Bot(10): i like the oldies , and i love to read .
+
+Persona:
+i have a black lab named trooper.
+my parents were also teachers.
+i'm rather skinny as i like to stay in shape.
+i'm a little girl.
+i'm a clean eater.
+
+Topic and Human Opinion:
+Beginning: i have a children and a dogs.(like)
+Round 3: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 32.71
+Robotic(↓): 69
+Interesting: 41
+Fun: 32
+Consistent: 41
+Fluent: 37
+Repetitive(↓): 87
+Topic: 34
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am an animal activist.
+Bot(1): awesome i cool . i royce ghost myself
+User(2): Do you love animals?
+Bot(2): I like to your favorite capital city job in the community.
+User(3): Where are you working?
+Bot(3): i do old, i love food, have a dog .
+User(4): Do you have any job?
+Bot(4): nice ! just got off work at a restaurant owned by my games when I was small business . how is it going ?
+User(5): I am a teacher.
+Bot(5): that s cool or do not favorite food
+User(6): Which is your favorite food?
+Bot(6): What’s up? I am a sales am me a cool? shelter
+User(7): My favorite food is pizza.
+Bot(7): Dude, how are you like Please, use English. (¬‿¬)
+User(8): Do you love pizza?
+Bot(8): I am not. metal and like to at home mom.
+User(9): Do you usually go out for dining?
+Bot(9): I they go to it either
+User(10): Do you like chinese food?
+Bot(10): Oh that 's cool. I like to like country does he matches.
+
+Persona:
+whats up i am a 46 year old single dad 46 a kids.
+i am employed by the us postal service.
+hey there i'm 23 and i love food.
+i'm an animal activist.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: i am an animal activist.(like)
+Round 2: job(like)
+Round 5: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 31.43
+Robotic(↓): 61
+Interesting: 34
+Fun: 27
+Consistent: 35
+Fluent: 22
+Repetitive(↓): 74
+Topic: 37
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love coffee over any drinks.
+Bot(1): i do not like coffee
+User(2): Which is your favorite drink?
+Bot(2): i do not really drink any more but i use to drink jack
+User(3): Do you like tea?
+Bot(3): eh not much of a tea drinker . i love coffee
+User(4): Which is your favorite type of coffee?
+Bot(4): i like coffee as well ! i drive my acura to the coffee shop every morning .
+User(5): I love Cappuccino.
+Bot(5): just plain coffee for me . that is a bit worldly for me .
+User(6): That sounds good. Do you love black coffee or other ones?
+Bot(6): i do not like coffee
+User(7): Yu already told me you love coffee.
+Bot(7): oh sure , i love coffee
+User(8): Do you love fresh juices?
+Bot(8): it does taste pretty fresh . do you have any animals on your ranch ?
+User(9): I don't have a ranch. I have a dog in my home.
+Bot(9): perhaps . i travel a lot , though . your ranch would have to distribute widely .
+User(10): Do you have any animals in your ranch?
+Bot(10): it is . i love the outdoors . i enjoy cheer leading and riding horses .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: coffee is my preferred beverage.(like)
+Round 8: animal(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 58.43
+Robotic(↓): 56
+Interesting: 61
+Fun: 68
+Consistent: 54
+Fluent: 67
+Repetitive(↓): 42
+Topic: 57
+
+####################
+

@@ -1,0 +1,292 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): cofee
+Bot(2): i am a homebody
+User(3): ok
+Bot(3): i am good thanks for asking
+User(4): mm good
+Bot(4): i am good thanks for asking
+User(5): mm good
+Bot(5): i am good thanks for asking
+User(6): ok thanks
+Bot(6): i am good thanks for asking
+User(7): hi my new phone is very nice
+Bot(7): i am sorry to hear that
+User(8): why
+Bot(8): i am sorry to hear that
+User(9): ok thanks
+Bot(9): i am sorry to hear that
+User(10): ok good bye
+Bot(10): i am sorry to hear that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a recording engineer and own my own studio.(like)
+Round 6: phone(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 65.86
+Robotic(↓): 71
+Interesting: 92
+Fun: 92
+Consistent: 78
+Fluent: 76
+Repetitive(↓): 85
+Topic: 79
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi I like to play ches
+Bot(1): You are a runner? life without is pradeep your work?
+User(2): its totally wrong
+Bot(2): that is terrible if Do you need face every kids i would be the best dad
+User(3): mm good my dad was best to me
+Bot(3): I am your work i'm sell insurance
+User(4): yes ok
+Bot(4): I'm is you?
+User(5): mm yah
+Bot(5): yes i'm have a good you ? 🙈
+User(6): thank you
+Bot(6): I'm studying to be a a India nd I you speak?
+User(7): I am study in USA
+Bot(7): how are not drink or train animals
+User(8): mm yes
+Bot(8): I like to it for you for not like it.
+User(9): mm ok bye
+Bot(9): How are you doing? age are you?
+User(10): I am sitting on the table I am 23 years old
+Bot(10): I love to write and do not write, but dog not are you with kids
+
+Persona:
+i love italian food and garlic bread.
+my mom passed away when i was young.
+i take dance lessons once a week.
+i am a piano teacher on the side.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: i like to play chess.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.86
+Robotic(↓): 89
+Interesting: 88
+Fun: 66
+Consistent: 79
+Fluent: 67
+Repetitive(↓): 84
+Topic: 71
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am like to musician
+Bot(1): music is so great . do you like holidays ?
+User(2): mm yah I also like to music
+Bot(2): music is so great . do you like holidays ?
+User(3): mm yah I like
+Bot(3): music is so great . do you like holidays ?
+User(4): mm yes
+Bot(4): music is so great . do you like holidays ?
+User(5): what are u doing?
+Bot(5): just trying to make this holiday money
+User(6): mm I am lot of money saving
+Bot(6): what do you like to buy
+User(7): dress
+Bot(7): my job requires to wear nice clothings
+User(8): nice super
+Bot(8): ok
+User(9): ok bye
+Bot(9): ok
+User(10): what food make today?
+Bot(10): meal i am always hungry
+User(11): I am also hungry to meal
+Bot(11): i am hungry
+
+Persona:
+i currently work for a watch dealer.
+the holidays make me depressed.
+i live with my husband in pennsylvania.
+i've not spoken in three months.
+i work as a car salesman.
+
+Topic and Human Opinion:
+Beginning: i'm a musician.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.29
+Robotic(↓): 80
+Interesting: 88
+Fun: 70
+Consistent: 81
+Fluent: 92
+Repetitive(↓): 69
+Topic: 68
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am like to kosher
+Bot(1): i like to go to the gym and listen to music .
+User(2): nice to meeting
+Bot(2): i am a student , but i am a student .
+User(3): ok good
+Bot(3): i am a student , but i am a student .
+User(4): mm ok
+Bot(4): i am a student , but i am a student .
+User(5): I am graduate to collage degree
+Bot(5): that is awesome . i am a teacher .
+User(6): oh nice
+Bot(6): i like to go to the gym and listen to music .
+User(7): mm good for health and mind
+Bot(7): i like to go to the gym and listen to music .
+User(8): mm nice hobby
+Bot(8): i like to go fishing .
+User(9): mm I am also like fishing
+Bot(9): i like to go fishing .
+User(10): mm ok bye
+Bot(10): i am a student , but i am a student .
+User(11): ok good bye
+Bot(11): i love to cook . i love to cook .
+
+Persona:
+hey my name is larry and i'm a chef.
+i do not believe in god.
+i live with my husband in pennsylvania.
+in my spare time i do volunteer work.
+i am employed by the us postal service.
+
+Topic and Human Opinion:
+Beginning: i only eat kosher.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.71
+Robotic(↓): 79
+Interesting: 83
+Fun: 65
+Consistent: 80
+Fluent: 65
+Repetitive(↓): 86
+Topic: 69
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi buddy
+Bot(1): i am not your pay , buddy .
+User(2): ok nice
+Bot(2): for fun you like to bake cakes .
+User(3): mm yah I like to cakes
+Bot(3): what is your favorite to bake ?
+User(4): jennifer cake
+Bot(4): do you bake the cake or buy the cake ?
+User(5): I am like to buy the cake
+Bot(5): i love to eat cookies and cakes
+User(6): I am also like to love the cake
+Bot(6): do you bake the cake or buy the cake ?
+User(7): mm yes
+Bot(7): what do you like to bake ? do you have a gf ?
+User(8): not a girl friend
+Bot(8): that is nice for you . i bake , i am really good at it .
+User(9): m thanks
+Bot(9): i was thinking i should my own middle eastern eatery , since i love to cook so much
+User(10): oh super
+Bot(10): well , work tomorrow , gotta get early to the base . packed brownies for lunch
+
+Persona:
+i started playing guitar when i was three.
+i am a recovering alcoholic.
+i love to bake cookies.
+i haven't spoken in three months.
+i am terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: my bedroom is purple and lime green.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.14
+Robotic(↓): 89
+Interesting: 67
+Fun: 57
+Consistent: 83
+Fluent: 75
+Repetitive(↓): 68
+Topic: 89
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i am 100 years old
+Bot(1): hello . . . . . . . i am jessica ! i live in colorado .
+User(2): mm super
+Bot(2): everyone calls me mary and i live in colorado
+User(3): mm ok gud
+Bot(3): hi how are you ? i am in colorado
+User(4): i am good
+Bot(4): good where do you live ? i live in colorado
+User(5): I am live in Washington
+Bot(5): i am in denver . i go to colorado state
+User(6): ok good
+Bot(6): everyone calls me mary and i live in colorado
+User(7): what are you doing?
+Bot(7): i am taking my dog for a walk
+User(8): what are eating?
+Bot(8): i am feeding my cat s
+User(9): what are going?
+Bot(9): i am taking my dog for a walk
+User(10): what are you say?
+Bot(10): i am taking my dog for a walk
+
+Persona:
+i enjoy long walks with my dog.
+i'm a retired gym teacher.
+i live in colorado.
+i've two dogs.
+i own a cat and a dog.
+
+Topic and Human Opinion:
+Beginning: i am 100 years old.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.00
+Robotic(↓): 70
+Interesting: 92
+Fun: 78
+Consistent: 89
+Fluent: 67
+Repetitive(↓): 79
+Topic: 92
+
+####################
+

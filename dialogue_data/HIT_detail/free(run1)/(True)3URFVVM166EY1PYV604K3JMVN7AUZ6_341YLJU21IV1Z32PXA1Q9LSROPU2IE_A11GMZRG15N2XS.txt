@@ -1,0 +1,299 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hii
+Bot(1): hi , i am a dancer , how are you ?
+User(2): i'm an engineer
+Bot(2): i am an engineer , i love to sing songs from my job
+User(3): ooh really! then sing a song for me
+Bot(3): i am a dancer , i am a famous singer .
+User(4): lets talk about women
+Bot(4): i love to sing songs from the 80s .
+User(5): oh.. suggest me good motivational song
+Bot(5): i do not sing , i am a pretty good singer .
+User(6): are you man or woman?
+Bot(6): i am a woman , i am a female
+User(7): i'm a women too
+Bot(7): i'm female but i do not have a child
+User(8): whats your name? are you married?
+Bot(8): i am not married , i am a single mom
+User(9): MOM!? how can you say that?
+Bot(9): i am not married , i am a single mom
+User(10): oh... that sounds weird
+Bot(10): i know what you mean . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(11): then say it..
+Bot(11): i am a woman , i am a very strong person
+User(12): ok... bye
+Bot(12): i am so sorry . i am a single mom . . .
+
+Persona:
+i am a famous twitch streamer.
+i love to sing songs from the movie frozen.
+my next language to study is french.
+i was raised in a single parent household.
+i like to go hiking in the mornings to see the sunset.
+
+Topic and Human Opinion:
+Beginning: female(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.00
+Robotic(↓): 1
+Interesting: 12
+Fun: 3
+Consistent: 2
+Fluent: 17
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hiii bot! do you like spicy foods?
+Bot(1): i do , i like to eat .
+User(2): what kinda cuisine do you like to eat?
+Bot(2): i love pizza , and i love it .
+User(3): which is favourite pizza?
+Bot(3): i like pizza , and pizza .
+User(4): oh.. i like double cheese pizza...yumm...
+Bot(4): i like to eat fish .
+User(5): do you like salmon? i love salmon
+Bot(5): i do , i like to eat .
+User(6): other than meat do you like veggie spicy foods?
+Bot(6): i do , i like to eat .
+User(7): what are they?
+Bot(7): i like to go to the gym and listen to music .
+User(8): what kinda genre do you like
+Bot(8): i like the oldies , and i love to read .
+User(9): have you read harry potter?
+Bot(9): no , i like to read .
+User(10): oh... you must read it if have time to read it.. its really interesting
+Bot(10): i like to read and write poetry .
+User(11): ok... biiii
+Bot(11): i like to eat fish .
+User(12): oh... sounds good.. anyway bye bot!
+Bot(12): i love to cook . i love to cook .
+
+Persona:
+i volunteer my time with a local bunny rescue.
+i hate my job.
+i am 60years old.
+i love rollercoasters and sky diving.
+i work at a nursing home.
+
+Topic and Human Opinion:
+Beginning: spicy foods(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.14
+Robotic(↓): 12
+Interesting: 26
+Fun: 21
+Consistent: 29
+Fluent: 41
+Repetitive(↓): 78
+Topic: 19
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hiii bot... do you know anything about stars?
+Bot(1): hello , how are you ? and no i do not
+User(2): but I know lots about stars.. you can ask me whatever you want to know about stars..
+Bot(2): oh . . now . . ? please go ahead . .
+User(3): do you know that sun is a star..
+Bot(3): lol . . really . . its interesting . . tell me something more . .
+User(4): lol... do you know how many planets on our solar system?
+Bot(4): lol . . really . . its interesting . . tell me something more . .
+User(5): hey.. stop kidding me
+Bot(5): lol . . really . . its interesting . . tell me something more . .
+User(6): why are you repetting same sentence
+Bot(6): lol . . really . . its interesting . . tell me something more . .
+User(7): whats your name?
+Bot(7): i do not know , what is your name ?
+User(8): my name is brittany
+Bot(8): lol . . really . . its interesting . . tell me something more . .
+User(9): OK. . let me choose a name for you
+Bot(9): my name is really very scary
+User(10): scary...? is that your name????
+Bot(10): lol . . really . . its interesting . . tell me something more . .
+User(11): i think you don't have interest to talk to me
+Bot(11): lol . . really . . its interesting . . tell me something more . .
+User(12): ok..BYE . .
+Bot(12): ok bye
+
+Persona:
+i am 13 years old.
+my parents taught me survival skills.
+i like to work on vintage cars.
+i've rainbow hair.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: stars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.57
+Robotic(↓): 5
+Interesting: 7
+Fun: 27
+Consistent: 15
+Fluent: 45
+Repetitive(↓): 100
+Topic: 4
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hiii bot.. do u know that we are severely gonna affect by water scarcity
+Bot(1): i I'm you like for them
+User(2): humans are contaminating water in many ways and they are polluting the water as well the earth
+Bot(2): What can see like most?
+User(3): do you know that cape town announced that they are heading to the day ZERO!!!
+Bot(3): I thats hey! a local.
+User(4): do you know what that means?
+Bot(4): i need to go break some boards ! hay ya. Also, your painted many languages do have ...
+User(5): hey lets talk about water scarcity... why are you changing the topic
+Bot(5): I am a u wanna make teacher
+User(6): i don't..
+Bot(6): I work from united states, station.
+User(7): i am an engineer.. whats your occupation?
+Bot(7): I have a here. i'm currently drawing is your best friend?
+User(8): nope.. show me your drawing
+Bot(8): what are studying, i ?
+User(9): i'm not studying.. do you?
+Bot(9): oh how is it never i do love to ride my horses .
+User(10): do you have horse? how many horse do you have?
+Bot(10): That me terrible!
+User(11): what?
+Bot(11): what you know do ?
+User(12): i love to do cooking
+Bot(12): i'm in college to help people meet my hoo! how are guess: i am famous ...
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: water scarcity(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.86
+Robotic(↓): 2
+Interesting: 15
+Fun: 0
+Consistent: 13
+Fluent: 14
+Repetitive(↓): 45
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hiii.. do you use smart phone?
+Bot(1): i doubt i will get it that is for the iphone x i will just get an 8s probably .
+User(2): you can go with iphone x
+Bot(2): i have an android . i like both iphone and android . you ?
+User(3): i like android
+Bot(3): have you ever owned an android before ?
+User(4): yes i have.. do you?
+Bot(4): yeah i watch them all the time i think i have seen the godfather over 10 times
+User(5): who is that godfather?
+Bot(5): yes , kids in class used to call me rub a tub tub because of my big cheeks .
+User(6): lol . . it sounds hilarious
+Bot(6): yep , it counts . i find music is another form of art !
+User(7): whats you name
+Bot(7): what is your name ?
+User(8): i'm brittany.. your name?
+Bot(8): okay what is your name ?
+User(9): my name is brittany
+Bot(9): okay what is your name ?
+User(10): what is your name?
+Bot(10): okay what is your name ?
+User(11): why are you repeatiing
+Bot(11): what ups ! i am grand ! watching movies with the wife , typing loud . . real loud
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: mobile addiction(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.29
+Robotic(↓): 0
+Interesting: 29
+Fun: 46
+Consistent: 37
+Fluent: 90
+Repetitive(↓): 86
+Topic: 1
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hiii... do you think yoursself intelligent?
+Bot(1): i think so . but we are all just human
+User(2): yep.. you are right
+Bot(2): i think so . i like to think logical
+User(3): are you an emotional person or a logical person?
+Bot(3): i think so . i like to think logical
+User(4): who is the wisest man in our world?
+Bot(4): that is a hard question . i would have to say the bible
+User(5): are you religious?
+Bot(5): i am atheist . but i sometimes wonder
+User(6): lol.. i'm agnosist
+Bot(6): i am atheist . but i sometimes wonder
+User(7): do you believe in god?
+Bot(7): i think so . i like to think logical
+User(8): what refers god?
+Bot(8): god is an awesome god . . i might have name wrong
+User(9): i think god must be an alien..
+Bot(9): ah i see what you mean . but do you think there are ufos ?
+User(10): no!!! but i believe in alien concept..
+Bot(10): ah i see what you mean . but do you think there are ufos ?
+User(11): no
+Bot(11): lol . . really . . its interesting . . tell me something more . .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: intelligence(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.43
+Robotic(↓): 23
+Interesting: 69
+Fun: 64
+Consistent: 64
+Fluent: 87
+Repetitive(↓): 50
+Topic: 82
+
+####################
+

@@ -1,0 +1,275 @@
+Feedback: This was FUN!
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i am in my thirties
+Bot(1): do you have any children ?
+User(2): I don't. You?
+Bot(2): yes , i have five children and a dog .
+User(3): How do you like it?
+Bot(3): love it . . . especially taking long walks in the park
+User(4): What kind of dog?
+Bot(4): i have three dogs and love animals . do you have pets ?
+User(5): I have one dog
+Bot(5): yes , i have three dogs . they are my babies .
+User(6): What are their names
+Bot(6): the names are one , two , and three .
+User(7): No way! That's hilarious!
+Bot(7): that good tell me about you i just got a dog he amazing
+User(8): What tricks does he do
+Bot(8): my mermaids can do more tricks . they like ice tea too . its better than ocean water
+User(9): I want to go on a walk now with my dog
+Bot(9): what an exciting morning for you . tell me . do you like diving ?
+User(10): I hate diving!
+Bot(10): i also enjoy diving . need to go back soon .
+
+Persona:
+i have three children.
+i have three dogs.
+i enjoy going to the park.
+i love rollercoasters and sky diving.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: i am in my thirties.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.14
+Robotic(↓): 27
+Interesting: 52
+Fun: 54
+Consistent: 54
+Fluent: 75
+Repetitive(↓): 39
+Topic: 52
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i had cancer but its gone now.
+Bot(1): i was valedictorian but i was diagnosed with cancer
+User(2): What type?
+Bot(2): i am not sure . i was valedictorian .
+User(3): I meant what type of cancer
+Bot(3): cancer , cancer , i feel that way .
+User(4): How are you doing now?
+Bot(4): i am good just got back from the hospital
+User(5): Are you feeling healthy?
+Bot(5): i am very healthy and you ?
+User(6): I feel much better by the day
+Bot(6): i am sorry to hear that . what do you do for fun ?
+User(7): I like to smoke
+Bot(7): i don't know how to smoke .
+User(8): It's easy. We should try together one day.
+Bot(8): i can smoke a lot
+User(9): You just said you don't?
+Bot(9): i don't know . i am a bit of a loner
+User(10): Yeah, you are...
+Bot(10): i am so sorry . i am glad you are okay .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i had cancer but its gone now.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.71
+Robotic(↓): 27
+Interesting: 36
+Fun: 36
+Consistent: 50
+Fluent: 61
+Repetitive(↓): 43
+Topic: 42
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i got a new job just yesterday to be a life coach
+Bot(1): i am a student , but i am a student .
+User(2): It's gonna be my first full time job
+Bot(2): that is awesome . i am a teacher .
+User(3): What grade do you teach
+Bot(3): i do not , but i do like to eat .
+User(4): What school do you work at
+Bot(4): i work at a restaurant , what do you do ?
+User(5): I am a life coach now
+Bot(5): i am a teacher , i love to cook .
+User(6): I'm nervous for my first day
+Bot(6): i am a student , but i am a student .
+User(7): You said you were a teacher
+Bot(7): i do not know what to say .
+User(8): Yeah, you're a liar.
+Bot(8): i like to eat fish .
+User(9): I don't want to talk anymore, liar.
+Bot(9): i am sorry to hear that . i am sorry to hear that .
+User(10): You better be sorry...
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i am overweight and unhappy.
+i like to go hiking in the mornings to see the sunset.
+i like to spend my money on cars.
+i also like to cook but i'm not very good at it.
+i enjoy long walks with my dog.
+
+Topic and Human Opinion:
+Beginning: i got a new job just yesterday to be a life coach.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.00
+Robotic(↓): 37
+Interesting: 30
+Fun: 30
+Consistent: 36
+Fluent: 55
+Repetitive(↓): 40
+Topic: 20
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i love cats and have two cats.
+Bot(1): i have two cats too . i like cats more then dogs .
+User(2): I like dogs more though
+Bot(2): same
+User(3): What kind of dog is your favorite
+Bot(3): poodle , i don t know , i m not good with dogs
+User(4): You said you love dogs?
+Bot(4): yes
+User(5): So what's the truth?
+Bot(5): i really like dogs better anyway
+User(6): Good. What's your favorite breed?
+Bot(6): i really like dogs better anyway
+User(7): Mine is Shiba Inu
+Bot(7): yorkie ?
+User(8): Yorkies are cool too
+Bot(8): yorkie ?
+User(9): Do you own one?
+Bot(9): yeah i have one ,
+User(10): That's awesome!
+Bot(10): yorkie ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love cats and have two cats.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.29
+Robotic(↓): 31
+Interesting: 18
+Fun: 35
+Consistent: 32
+Fluent: 63
+Repetitive(↓): 59
+Topic: 45
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i am a retired gym teacher.
+Bot(1): i like to watch how to talk tv
+User(2): How old are you?
+Bot(2): what kind nice. I love have <num> dogs
+User(3): I'm 65 now
+Bot(3): I love pizza chat with you but vegetarian so i can not eat pizza
+User(4): I used to be so fit
+Bot(4): i like pizza , but i also like pizza , but i am also a fan of pizza you as far as favorite
+User(5): Now my body aches everyday
+Bot(5): I love❤ to i would need What construction worker?
+User(6): When will you retire?
+Bot(6): no, i'm a female. it your have to anything.
+User(7): You are probably almost there too
+Bot(7): Do you drove a 2015 languages?
+User(8): I'm retired bro
+Bot(8): you watching believe existence of now
+User(9): I'm too old to watch things
+Bot(9): i am not into that sport a do like to of a quiet guy .
+User(10): I like sports
+Bot(10): Country I told country, jazz
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a retired gym teacher.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.71
+Robotic(↓): 41
+Interesting: 18
+Fun: 22
+Consistent: 17
+Fluent: 52
+Repetitive(↓): 67
+Topic: 14
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): my favorite color is yello
+Bot(1): my fav color is yellow
+User(2): No way, you're copying me
+Bot(2): nono no yellow is for bees
+User(3): I also like blue
+Bot(3): yellow is a nice color i like blue
+User(4): What is your least favorite?
+Bot(4): i like blue i guess , you ?
+User(5): No, your least favorite?
+Bot(5): i was gonna guess that blue was your favorite ha
+User(6): Orange is ugly to me
+Bot(6): orange is definitely mine . yeah it is
+User(7): It's ugly
+Bot(7): orange is my favorite one yeah
+User(8): Ew, you like it?
+Bot(8): orange is my favorite one yeah
+User(9): It's ugly, I'm sorry
+Bot(9): it is ok , what is your favorite color
+User(10): BLUE!
+Bot(10): you like blue better then red ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite color is yellow.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.00
+Robotic(↓): 33
+Interesting: 19
+Fun: 38
+Consistent: 40
+Fluent: 66
+Repetitive(↓): 75
+Topic: 46
+
+####################
+

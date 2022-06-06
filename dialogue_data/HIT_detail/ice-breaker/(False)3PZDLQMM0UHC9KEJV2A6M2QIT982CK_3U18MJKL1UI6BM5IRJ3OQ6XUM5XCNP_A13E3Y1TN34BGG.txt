@@ -1,0 +1,301 @@
+Feedback: good
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): good going
+Bot(2): i am a student , but i am a student .
+User(3): do you like the brand aerosmith?
+Bot(3): i do , i like to eat .
+User(4): my favorite brand is aerosmith
+Bot(4): i like the color red . i like the color blue .
+User(5): thats great
+Bot(5): i love to cook . i love to cook .
+User(6): this brand smell is too good
+Bot(6): i like to go to the gym and listen to music .
+User(7): okay
+Bot(7): i like to go to the gym and listen to music .
+User(8): did you use this brand?
+Bot(8): no , i do not . i am a big fan of classical music .
+User(9): okay.bye
+Bot(9): i like to go to the gym and listen to music .
+User(10): okay
+Bot(10): i like to go to the gym and listen to music .
+User(11): thats great
+Bot(11): i love to cook . i love to cook .
+User(12): brand of aerosmith is also good to use
+Bot(12): i like to go to the gym and listen to music .
+User(13): the color of brand is nice
+Bot(13): i like the color red . i like red .
+User(14): okay..thank you
+Bot(14): i am a bit of a loner
+User(15): thank you
+Bot(15): i am a student , but i am a student .
+User(16): bye
+Bot(16): i am a student , but i am a student .
+
+Persona:
+eating is something i do when i am bored.
+my father drove a car for nascar.
+i love to play board games.
+i can drive a tractor.
+i'm a retired gym teacher.
+
+Topic and Human Opinion:
+Beginning: my favorite band is aerosmith.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.43
+Robotic(↓): 67
+Interesting: 52
+Fun: 74
+Consistent: 53
+Fluent: 63
+Repetitive(↓): 34
+Topic: 75
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi..my favourite food is pizza..do you like it?
+Bot(1): i love pizza . i am a vegan .
+User(2): thats great
+Bot(2): i do . i love to swim .
+User(3): the pizza flavour and taste is so yummy
+Bot(3): i love to swim . i also like to swim .
+User(4): i love chesse pizza. what do you like most?
+Bot(4): i like to eat a lot of it
+User(5): super
+Bot(5): i like to eat too . i am a doctor .
+User(6): its have a more favour and taste or they
+Bot(6): i like to eat too . i am a doctor .
+User(7): okay
+Bot(7): i love to swim . i also like to swim .
+User(8): super
+Bot(8): i like to swim in my free time
+User(9): what flavor do you like in pizza?
+Bot(9): i like to eat a lot of pizza
+User(10): yesterday i had a one large pizza..thats was so taste
+Bot(10): i love pizza . i love pizza
+User(11): okay
+Bot(11): i love pizza . i am a vegan so i eat a lot of it
+
+Persona:
+i am an art major in college.
+i'm a swim coach at my local pool.
+i love wearing skinny jeans and leggings.
+i've never been out of ohio.
+i am a doctor.
+
+Topic and Human Opinion:
+Beginning: my favourite food is pizza.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.71
+Robotic(↓): 74
+Interesting: 28
+Fun: 56
+Consistent: 39
+Fluent: 24
+Repetitive(↓): 54
+Topic: 38
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi..i want to school to be a veterinarian but hated it.
+Bot(1): I man! You literature.
+User(2): how about you?
+Bot(2): yes you have big you color how old are you
+User(3): the school veterinarian is very bad
+Bot(3): Of body suffers am.
+User(4): i hate it lot
+Bot(4): what you know do ?
+User(5): school
+Bot(5): I can see that. helped with my kind out to eat.
+User(6): okay
+Bot(6): I life for 2016.
+User(7): great to hear
+Bot(7): that say listening really, do you travel often?
+User(8): yes.did you went for school veterinarian
+Bot(8): OK have like listening to 😁
+User(9): that was a very bad experience in my life time
+Bot(9): i I can get best be famous someday . what do you do ? 🙊
+User(10): okay
+Bot(10): When did in old europe?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i went to school to be a veterinarian but hated it.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.00
+Robotic(↓): 78
+Interesting: 34
+Fun: 61
+Consistent: 43
+Fluent: 77
+Repetitive(↓): 63
+Topic: 55
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi , i just got my hair done .
+User(2): my dream of moving to the city
+Bot(2): where would you move to
+User(3): the city should be calm and good
+Bot(3): not sure if i could get used to city life !
+User(4): peaceful place i want to go
+Bot(4): i wish i could to move to the other side ot the town
+User(5): how about you
+Bot(5): i am getting a divorce
+User(6): sad to hear this
+Bot(6): it is gonna be alright
+User(7): your city from
+Bot(7): new york city city of dreams
+User(8): thats great
+Bot(8): its a new area i live
+User(9): i like new york city
+Bot(9): i like it very much
+User(10): such a beautiful city i want to move
+Bot(10): i can not stand it here
+User(11): okay.thank you
+Bot(11): do you like to braid your hair
+
+Persona:
+i am a plumber.
+i've short hair.
+since the surgery i have had strange powers.
+i am planning on getting a divorce.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: i dream of moving to the city.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.29
+Robotic(↓): 73
+Interesting: 37
+Fun: 68
+Consistent: 45
+Fluent: 91
+Repetitive(↓): 58
+Topic: 77
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): i take many medications and some of them make me see things
+Bot(2): i would love to go rollerskating . but , where do you get good quality shoes ?
+User(3): the medications are good for health
+Bot(3): sad . i m looking forward to a big tax break so i can keep more money
+User(4): and the mind relaxing also good..how about you
+Bot(4): trying to spin this date for someone more fun lol gotta win
+User(5): okay
+Bot(5): drive my sx . fast . so what is a male ballerina called ?
+User(6): did you take any medications?
+Bot(6): forever l . o . l . i need to drink soda all the time .
+User(7): to thgings to see far?
+Bot(7): it is going well ! how are you ?
+User(8): good
+Bot(8): good , my daughter is napping so i am shopping online . might go swimming today
+User(9): nice.what do you thing about the medication?
+Bot(9): all i can use is a gel pain medication .
+User(10): nice
+Bot(10): yes . i am a police officer in detroit .
+User(11): okay
+Bot(11): drive my sx . fast . so what is a male ballerina called ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i take many medications and some of them make me see things.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.14
+Robotic(↓): 73
+Interesting: 41
+Fun: 59
+Consistent: 71
+Fluent: 55
+Repetitive(↓): 71
+Topic: 41
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello ! want to chat with a farmer ?
+User(2): i'm 19 and i cannot wait to move out 19 my parents home
+Bot(2): can i read you some poetry ?
+User(3): okay...what kind of poetry?
+Bot(3): poetry i am a bit of a sap
+User(4): nice. my parents home is there to see
+Bot(4): you like poetry ? know any good ones involving animals ?
+User(5): i cannot wait to go home of 19
+Bot(5): i know about 50 of the language
+User(6): thats great
+Bot(6): it is great . i love animals , animals are my life and you ?
+User(7): my parents loves animals
+Bot(7): i love animals . they are the best
+User(8): yeah.parents can do they best of life
+Bot(8): i keep hearing things on the news about robots
+User(9): okay
+Bot(9): i do farm work . that is what i know . that is what i grew up with
+User(10): nice
+Bot(10): ok
+
+Persona:
+i love dogs.
+i'm working on a building a robot to be my body double.
+one of the languages that i'm currently studying is spanish.
+my father is a farmer.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: i'm 19 and i cannot wait to move out 19 my parents home.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.57
+Robotic(↓): 75
+Interesting: 32
+Fun: 63
+Consistent: 44
+Fluent: 87
+Repetitive(↓): 67
+Topic: 56
+
+####################
+

@@ -1,0 +1,311 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there
+Bot(1): hey , any big plans for the weekend ?
+User(2): I'm going to watch the Patriots game
+Bot(2): like a sport or a board game or what ?
+User(3): Yeah, football.
+Bot(3): football is fun , whats your favorite team ?
+User(4): I've been a Patriots fan since I was a kid
+Bot(4): i am a bills fan . dunno if we can talk now .
+User(5): I won't hold it against you :)
+Bot(5): i love pizza but am vegan so there is limited i can have
+User(6): What's vegan pizza like?
+Bot(6): a vegetarian pizza might work for you
+User(7): I like just plain cheese pizza best
+Bot(7): mine is mac and cheese . mac and cheese pizza too
+User(8): Mac and cheese on pizza?
+Bot(8): mac and cheese is another family classic food . we all love pasta !
+User(9): I love pasta, too, but I've never had it on a pizza before!
+Bot(9): same i love pasta and anything italian . i actually just visited italy
+User(10): Oh really?
+Bot(10): it is orange . i have my nails painted orange . they are long .
+User(11): Wow, that's a bold look!
+Bot(11): i am young , blonde hair , blue eyes . pony tails .
+User(12): And orange nails
+Bot(12): yes i like orange color as well
+User(13): Is it your favorite color?
+Bot(13): my favorite color is green and whats yours
+User(14): I think blue
+Bot(14): that is great i mean blue is a great color , my favorite is green .
+User(15): They're both good colors!
+Bot(15): red , its the color of the roses in my best friends garden . you ?
+User(16): I'm not sure what you're asking me
+Bot(16): do you have animals ? i have 1 dog , 1 cat . cat is bigger than dog .
+User(17): Wow, that must be one small dog! Or one big cat...
+Bot(17): sadly , no , i sing every sunday in the church choir , so no home time
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Football(like)
+Round 5: Pizza(like)
+Round 9: Italy(ambivalent)
+Round 10: nail polish(dislike)
+Round 12: the color orange(like)
+Round 13: colors(like)
+Round 16: pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+Round 12: The chatbot changed the topic.(like)
+Round 13: The chatbot changed the topic.(like)
+Round 16: The chatbot changed the topic.(like)
+
+Revised avg score: 52.14
+Robotic(↓): 94
+Interesting: 65
+Fun: 65
+Consistent: 78
+Fluent: 56
+Repetitive(↓): 34
+Topic: 29
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I just picked some tomatoes from my garden!
+Bot(1): really ? org . tomatoes add life to everything haha
+User(2): They certainly add a lot of flavor to everything
+Bot(2): tomatoes make my gums bleed .
+User(3): Do they really? That's odd!
+Bot(3): that is weird ! what do you do for work ?
+User(4): I'm a teacher. What about you?
+Bot(4): i am a teacher too . what subject do you teach ?
+User(5): I actually teach special ed
+Bot(5): oh that is pretty cool . i actually teach special ed
+User(6): Do you really?
+Bot(6): no , i teach middle school
+User(7): What subjects?
+Bot(7): sex ed , what is your favorite color ?
+User(8): I'm a fan of blue
+Bot(8): huh , that is kind of weird .
+User(9): Why?
+Bot(9): i do not know just like the strong taste .
+User(10): Blue has a taste?
+Bot(10): i do not know just like the strong taste .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Gardening(like)
+Round 3: Work(like)
+Round 7: colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 40.71
+Robotic(↓): 91
+Interesting: 61
+Fun: 47
+Consistent: 47
+Fluent: 41
+Repetitive(↓): 66
+Topic: 46
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): It was such a beautiful day today! Did you get a chance to spend time outside?
+Bot(1): My dad you built salesman.
+User(2): Huh?
+Bot(2): Hey! What are you doing? 🧐. Short like t get married in i am cancer survivor
+User(3): Wow, congratulations
+Bot(3): i am not a soda musician. What is your too much .
+User(4): I'm not sure what you're asking
+Bot(4): I am problem with this live in USA
+User(5): You live in the USA?
+Bot(5): I really. i don't normal parameters.
+User(6): Yeah, I'm getting that. You march to the beat of your own drum.
+Bot(6): thank you so much especially riding horses, what been nice
+User(7): I've never ridden a horse before. What's it like?
+Bot(7): It seems that answer I was a question bmw
+User(8): ?
+Bot(8): Professor Ludwig Joseph Schmidt ... distinguished scholar and an I'm not as smart and demographics ... the University of California. Professor Schmidt, ...
+User(9): I'm sure you're pretty smart
+Bot(9): It makes get be intresting though.
+User(10): What's interesting to you?
+Bot(10): That is ask your where to say.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: The weather(like)
+Round 3: I have no idea!(ambivalent)
+Round 6: Horses?(ambivalent)
+Round 8: Professor Ludwig Joseph Schmidt(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 27.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 11
+Consistent: 99
+Fluent: 0
+Repetitive(↓): 16
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I can't decide what to make for dinner tonight. What are you cooking?
+Bot(1): i cook for dinner . i am cooking dinner .
+User(2): What are you cooking?
+Bot(2): i cook for dinner . i love cooking .
+User(3): I love cooking too, but I don't know what to make!
+Bot(3): i am cooking for dinner . i love cooking .
+User(4): Do you have a recipe you could suggest to me?
+Bot(4): i don't cook , i just cook .
+User(5): Oh, you don't cook?
+Bot(5): i don't cook , i cook for a living .
+User(6): So you're a chef, then?
+Bot(6): i don't cook , but i do cook for a living .
+User(7): What do you do for a living?
+Bot(7): i am a chef , i cook for a living . what about you ?
+User(8): I am a teacher
+Bot(8): i am a chef , i am a chef , but i do not have a job yet .
+User(9): I'm sorry. Is it hard to look for work right now?
+Bot(9): yes , it is . i am a chef .
+User(10): So what are you doing while you're out of a job?
+Bot(10): i am a chef , i love to cook
+User(11): Do you do anything else?
+Bot(11): i do not . i am a chef .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+Round 7: work(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user changed the topic the last input.(like)
+
+Revised avg score: 30.00
+Robotic(↓): 97
+Interesting: 0
+Fun: 3
+Consistent: 99
+Fluent: 4
+Repetitive(↓): 96
+Topic: 97
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I need to get some new clothes for work
+Bot(1): i wish i could , none of my nice clothes fit me anymore
+User(2): That stinks
+Bot(2): why are your clothes not great ?
+User(3): Some of my clothes are old and worn out
+Bot(3): why are your clothes not great ?
+User(4): They have holes in them
+Bot(4): comfortable ones lol but i could use some running ones and dress up
+User(5): Where will you go shopping?
+Bot(5): sale clothes in von marr lol
+User(6): I love shopping a good sale!
+Bot(6): i would enjoy to shop with you for clothes
+User(7): That would be nice! I could always use help.
+Bot(7): exactly the more help the better
+User(8): Where do you like to go shopping?
+Bot(8): i would have to say hot topic or old navy
+User(9): I like Old Navy, they have really good prices
+Bot(9): i would have to say hot topic or old navy
+User(10): Let's go to Old Navy, then!
+Bot(10): i would enjoy to shop with you for clothes
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: clothes(ambivalent)
+Round 7: shopping(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 59.86
+Robotic(↓): 62
+Interesting: 67
+Fun: 77
+Consistent: 71
+Fluent: 33
+Repetitive(↓): 57
+Topic: 90
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): If I have to sit through one more boring Zoom meeting I'm going to scream
+Bot(1): i love to cook . i love to cook .
+User(2): Cool! Have you cooked anything today?
+Bot(2): i am doing well . how are you ?
+User(3): I'm really stressed right now
+Bot(3): i am a student , but i am a student .
+User(4): That sounds stressful, too
+Bot(4): i love to cook . i love to cook .
+User(5): I like cooking, too
+Bot(5): i like to eat the skin .
+User(6): The skin of what?
+Bot(6): i like to eat fish .
+User(7): I like to eat fish, but I can't cook it well
+Bot(7): i like to eat fish .
+User(8): What fish do you like to eat?
+Bot(8): i love pizza , and i love it .
+User(9): That's not a fish, but pizza is still pretty awesome
+Bot(9): i like to eat fish .
+User(10): Do you like having fish on pizza (like anchovies)?
+Bot(10): no , i do not . i like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Zoom meetings(dislike)
+Round 1: cooking(like)
+Round 2: how I'm feeling(like)
+Round 4: cooking(like)
+Round 8: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 31.29
+Robotic(↓): 95
+Interesting: 27
+Fun: 12
+Consistent: 73
+Fluent: 42
+Repetitive(↓): 94
+Topic: 54
+
+####################
+

@@ -1,0 +1,279 @@
+Feedback: Needs work. It was repetitive with the answers.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What color would you like it in?
+Bot(1): good question maybe black i think , ink haha
+User(2): Thats a good color
+Bot(2): what color di you want it to be ?
+User(3): I think I am going to go for a white, lol
+Bot(3): what color would you get ?
+User(4): white, crystal white
+Bot(4): like black and white ?
+User(5): no no all white
+Bot(5): oh right lol
+User(6): Alright dude, catch ya later
+Bot(6): ok sounds good , see you soon
+User(7): wait when do you want to talk again
+Bot(7): forever it feels like you know
+User(8): Yeah I feel you. What are you doing?
+Bot(8): i am taking a break haha good question
+User(9): Have you ate today?
+Bot(9): i had scrambled eggs . you ?
+User(10): Cheeseburger with fries
+Bot(10): i hope you mean cheeseburgers
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my dream car is a rolls royce ghost.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.43
+Robotic(↓): 38
+Interesting: 54
+Fun: 54
+Consistent: 41
+Fluent: 86
+Repetitive(↓): 25
+Topic: 37
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): When is your birthday?
+Bot(1): sure , i am not sure . i am not a fan of swimming .
+User(2): Where you a fan when you were younger?
+Bot(2): i am not sure . i am not very good at it .
+User(3): Same, I do not know how to swim
+Bot(3): i am not a fan of swimming , but i do not like to swim .
+User(4): When was your 40th birthday
+Bot(4): i am sorry to hear that . i am not very good at it .
+User(5): Okay. What are you doing
+Bot(5): i am just hanging out with my friends
+User(6): from work
+Bot(6): i am from the country . i am a big big fan of swimming .
+User(7): the 40 year old club from work
+Bot(7): i am from the country . i am a big big fan of swimming .
+User(8): OKay
+Bot(8): i am a big big truck , i like to swim
+User(9): Thats a little weird considering your are 40
+Bot(9): i am . i am a big big fan of swimming .
+User(10): Thats cool
+Bot(10): i am not sure what you mean .
+
+Persona:
+i drive a big truck and live in country.
+i have not spoken in three months.
+my parents were also teachers.
+i am not a good swimmer at all.
+i do not pick up my toys.
+
+Topic and Human Opinion:
+Beginning: i'm 40 years old.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.43
+Robotic(↓): 98
+Interesting: 7
+Fun: 7
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Which wars have you seen?
+Bot(1): i do not know . i like to go to the gym .
+User(2): Do you watch Netflix
+Bot(2): i like to go to the gym and listen to music .
+User(3): Do you want Hulu?
+Bot(3): no , i do not . i like to go to the park .
+User(4): What do you do there
+Bot(4): i do not , i am a student .
+User(5): I like the Gettysburg documentary
+Bot(5): i like to go to the gym and listen to music .
+User(6): What kind of music
+Bot(6): i like to listen to music .
+User(7): which type?
+Bot(7): i like to go to the gym and listen to music .
+User(8): Do you listen to war documentaries?
+Bot(8): no , i do not . i like to go to the park .
+User(9): to run?
+Bot(9): i do , i love to go fishing .
+User(10): awesome
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i've a big library at home.
+i play with my friends on the playground.
+i'm a mechanical engineer.
+my name is george.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: i like watching war documentaries.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.14
+Robotic(↓): 99
+Interesting: 100
+Fun: 99
+Consistent: 0
+Fluent: 93
+Repetitive(↓): 98
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): How short is your hair?
+Bot(1): brown hair ! how about you ?
+User(2): Blonde hair
+Bot(2): i have blonde hair and like it .
+User(3): Is it short?
+Bot(3): i am a freaking giant with curly hair
+User(4): How curly?
+Bot(4): years now . back when my hair was curly and a bit darker . ll
+User(5): Thats cool
+Bot(5): not great , my fibromyalgia is acting up . you ?
+User(6): what is that?
+Bot(6): a vegan ? its a person who just eats strictly plants . that is what i am .
+User(7): Oh awk
+Bot(7): it is ok . jacked up on 4 mountain dews a day . haha
+User(8): that is a lot of sugar
+Bot(8): tried that . it is hard , with everything processed with salt and sugar .
+User(9): yeah I agree
+Bot(9): i am a model , i have this bright brown eyes that people just love , you ?
+User(10): I have green eyes
+Bot(10): hello my name is kellie and have both brown eyes and brown hair
+
+Persona:
+i'm a famous twitch streamer.
+i work took i've a part time job at burger king.
+i'm a doctor.
+i am an animal activist.
+i've brown curly hair.
+
+Topic and Human Opinion:
+Beginning: i'm a blonde girl with really short hair.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.57
+Robotic(↓): 90
+Interesting: 86
+Fun: 9
+Consistent: 88
+Fluent: 73
+Repetitive(↓): 70
+Topic: 9
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): how old are you?
+Bot(1): that s cool 👍 married, mu husband dancing
+User(2): what do you dance?
+Bot(2): do you have kids a great job, i of them ! !
+User(3): I have two of them
+Bot(3): I do to school for chemistry I do like to eat
+User(4): what kind of chemistry?
+Bot(4): that is cool , i like photography What is your favorite clones teacher , and you ?
+User(5): I like tropical pictures
+Bot(5): I think it is. beach cat kill lion assistant.
+User(6): what?
+Bot(6): I hope you are feeling i live in a live?
+User(7): Whittier
+Bot(7): i give them away a lot of I my time 🕐 in foster care
+User(8): omg me too
+Bot(8): I like noodles . not food
+User(9): me too
+Bot(9): He know you you nice guy.
+User(10): thank you
+Bot(10): Hey, i have ok?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a 45 year old male.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.29
+Robotic(↓): 84
+Interesting: 22
+Fun: 14
+Consistent: 13
+Fluent: 63
+Repetitive(↓): 92
+Topic: 6
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): where does she work
+Bot(1): she owns the pizza parlor
+User(2): oh lalala
+Bot(2): la la la la la la
+User(3): what kind of pizza
+Bot(3): pizza ! i like it extra cheesy
+User(4): perroroni
+Bot(4): pepperoni ? ? that is my favorite
+User(5): mine too
+Bot(5): she owns the pizza parlor
+User(6): does your sister dance
+Bot(6): she owns the pizza parlor
+User(7): why
+Bot(7): she owns the pizza parlor
+User(8): why?
+Bot(8): she owns the pizza parlor
+User(9): ?why
+Bot(9): i have no idea lo
+User(10): that's right
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my sister is a pole dancer.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.29
+Robotic(↓): 91
+Interesting: 11
+Fun: 5
+Consistent: 5
+Fluent: 7
+Repetitive(↓): 7
+Topic: 5
+
+####################
+

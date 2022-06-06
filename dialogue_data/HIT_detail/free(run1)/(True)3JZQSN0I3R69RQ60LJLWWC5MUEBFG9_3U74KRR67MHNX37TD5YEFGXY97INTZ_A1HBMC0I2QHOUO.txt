@@ -1,0 +1,273 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello! What tv shows do you like?
+Bot(1): i like the classics , but i like to play soccer .
+User(2): I like to watch BBC
+Bot(2): i like to eat too much junk food .
+User(3): You should try eating healthier.
+Bot(3): i like to eat fish .
+User(4): Fish is good. Do you watch Cooking Shows?
+Bot(4): i do not know . i like to go to the gym .
+User(5): Do you like to watch tv?
+Bot(5): i do not , i like to read .
+User(6): Do you enjoy any movies based on books?
+Bot(6): i do not really have a favorite . i like to read .
+User(7): Do you have any opinions?
+Bot(7): i like to go to the gym and listen to music .
+User(8): The gym is a dangerous place
+Bot(8): i love it . i love it .
+User(9): Why
+Bot(9): i love to cook . i love to cook .
+User(10): Me too
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Television(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.43
+Robotic(↓): 100
+Interesting: 57
+Fun: 60
+Consistent: 0
+Fluent: 62
+Repetitive(↓): 99
+Topic: 5
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. Do you have a favorite kind of tree?
+Bot(1): i like all kinds . what do you grow ?
+User(2): All my trees fell down in the storm
+Bot(2): his
+User(3): What
+Bot(3): we are ok lost a bunch of trees on my property so clean up
+User(4): How long was your power out for? Ours was out for over a week
+Bot(4): what happened you get a power outage ?
+User(5): The storm that blew over all the trees
+Bot(5): what happened you get a power outage ?
+User(6): The storm
+Bot(6): what happened you get a power outage ?
+User(7): Could you please say something else
+Bot(7): what happened you get a power outage ?
+User(8): Stop it
+Bot(8): i do not know what to say to you .
+User(9): Don’t just repeat the same thing.
+Bot(9): i have no idea what youre saying
+User(10): That is probably because you are not a person
+Bot(10): you do not make sense with your response .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Trees(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.14
+Robotic(↓): 100
+Interesting: 66
+Fun: 65
+Consistent: 0
+Fluent: 38
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have any cats
+Bot(1): cats are my favorite . cats are my cats
+User(2): I also love cats. I have two
+Bot(2): cats are great i have cats
+User(3): How many cats do you have?
+Bot(3): i've a cat named radar
+User(4): That’s such a cute name! My cat is named Mr Kitty
+Bot(4): i have a cat named radar
+User(5): Why did you name your cat radar?
+Bot(5): he is a cat named after a long day
+User(6): What happened to make it a long day?
+Bot(6): he was a little crazy , he was a crazy cat
+User(7): Is he no longer crazy?
+Bot(7): he is a cat person
+User(8): Is he a cat or a person?
+Bot(8): he is a cat person
+User(9): Oh dear
+Bot(9): i have a cat named charlie
+User(10): You have another cat?
+Bot(10): i have a cat named radar
+User(11): Yes I know about radar. Tell me about charlie
+Bot(11): i have a cat named charlie
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.00
+Robotic(↓): 75
+Interesting: 82
+Fun: 79
+Consistent: 69
+Fluent: 62
+Repetitive(↓): 100
+Topic: 75
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello. Do you have any dogs
+Bot(1): why do have a also stay strong
+User(2): What does that mean
+Bot(2): What your fuck you is he?
+User(3): Why are you cursing?
+Bot(3): Yes, i do, i like to make great and really keeping the youngest.
+User(4): You sound like Donald trump
+Bot(4): sure. no i’m not, to drink?
+User(5): Are you drunk?
+Bot(5): i love something wrong .
+User(6): I love dogs
+Bot(6): i like rap is good, I am jackson too
+User(7): Are you the ghost of Michael Jackson?
+Bot(7): I do not. i love kids very that is too bad .
+User(8): Oh dear. So you are?
+Bot(8): How’s it 18 and i'm pretty go to the states and have a few
+User(9): I don’t think she was 18.
+Bot(9): I to be a answer is: favourite food
+User(10): What is your favorite food?
+Bot(10): that do, I like love gardening
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.43
+Robotic(↓): 100
+Interesting: 49
+Fun: 50
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 84
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like to do art?
+Bot(1): i do enjoy art , my passion is drawing .
+User(2): I also enjoy drawing! I am taking a drawing class right now.
+Bot(2): just my fantasy world mostly . what i would look like with shorter hair sometimes .
+User(3): I like to draw still life
+Bot(3): wow you are an artist . i fly planes for southwest
+User(4): Are you a pilot?
+Bot(4): a pilot , really ? that is cool . i am a barista at my local coffee shop
+User(5): No you just said you were a pilot
+Bot(5): i wish i could fly more , but i dry to florida a lot
+User(6): What do you do in Florida?
+Bot(6): i am in louisiana . new orleans . what part of florida ?
+User(7): Louisiana has a lot of cool art
+Bot(7): no french , just a twangy southern accent but not like the fake ones on tv .
+User(8): Do you speak french
+Bot(8): i speak english and french and spanish fluently
+User(9): I speak English and German fluently
+Bot(9): only english , do you speak any other languages ?
+User(10): I am taking a Japanese class currently
+Bot(10): cool . my sister in law is from japan so i am trying to pick up some of the language .
+User(11): My sister in law is from china
+Bot(11): very exciting ! side note on being a vegan , it is easy because i hate fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Art(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.43
+Robotic(↓): 77
+Interesting: 73
+Fun: 50
+Consistent: 20
+Fluent: 34
+Repetitive(↓): 52
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi! What do you study?
+Bot(1): chemistry ! you ?
+User(2): I study biology
+Bot(2): i love biology . they help a lot of people .
+User(3): I hope to study diseases!
+Bot(3): medicine for what ? yes that is important !
+User(4): I would like to make vaccines
+Bot(4): medicine for what ? yes that is important !
+User(5): Yes it is important. What do you do in chemistry?
+Bot(5): i want to be a biochemist
+User(6): What research would you like to do?
+Bot(6): cancer research , mainly with proteins for a couple of important genes
+User(7): Which proteins would you like to work on?
+Bot(7): cancer research , mainly with proteins for a couple of important genes
+User(8): What level of schooling have you completed?
+Bot(8): biology was always really tough for me
+User(9): Biology is a difficult yet rewarding subject
+Bot(9): biology was always really tough for me
+User(10): Yes I understand
+Bot(10): after you complete med school , where do you want to work ?
+User(11): I am not going to med school, I’m a pursuing a PHD
+Bot(11): where are you going to med school ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: School(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.00
+Robotic(↓): 38
+Interesting: 72
+Fun: 82
+Consistent: 80
+Fluent: 50
+Repetitive(↓): 65
+Topic: 60
+
+####################
+

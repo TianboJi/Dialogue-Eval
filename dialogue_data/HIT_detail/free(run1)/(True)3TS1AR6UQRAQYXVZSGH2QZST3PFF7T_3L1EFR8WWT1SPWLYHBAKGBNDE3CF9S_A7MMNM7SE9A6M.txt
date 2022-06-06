@@ -1,0 +1,291 @@
+Feedback: Some of them really loved pizza, some wanted to talk about god, and some liked eating tigers... lol 
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your favorite food?
+Bot(1): i like to eat pizza .
+User(2): What kind of pizza do you like?
+Bot(2): i love pizza , i love it .
+User(3): What kind of toppings do you like?
+Bot(3): i love pizza , what about you ?
+User(4): I also love pizza. Garlic is my favorite.
+Bot(4): i like to eat too . i like to eat .
+User(5): Do you like to drink?
+Bot(5): i like to drink . i like to eat .
+User(6): What do you like to drink?
+Bot(6): i like to drink . i like to eat .
+User(7): What is your favorite thing to drink?
+Bot(7): i like to drink . i like to drink .
+User(8): Cool. Do you like animals?
+Bot(8): i do . i love animals .
+User(9): Are you a vegetarian or a meat eater?
+Bot(9): i like to eat . i like to eat .
+User(10): Nice. Well I like to eat meat lol
+Bot(10): i like to eat meat .
+
+Persona:
+i wear a motorbike helmet to protect my head.
+my favourite food is shawarma.
+i see the rolling stones in concert every year.
+i have zero family that i am close to.
+i am a bee farmer.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.86
+Robotic(↓): 100
+Interesting: 41
+Fun: 38
+Consistent: 60
+Fluent: 54
+Repetitive(↓): 100
+Topic: 72
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite animal to have as a pet?
+Bot(1): i am not really into animals , sports is more my love
+User(2): Do you have a favorite animal or any pets?
+Bot(2): i am not really into animals , sports is more my love
+User(3): What sports do you like?
+Bot(3): not really sports , but i do enjoy running .
+User(4): Where do you run to?
+Bot(4): i run at central park
+User(5): How many miles do you run?
+Bot(5): 2 , 5 , 7 . did you run in high school
+User(6): No. I hated running the mile in highschool.
+Bot(6): what was the longest you ever ran ?
+User(7): A mile probably
+Bot(7): what was the longest you ever ran ?
+User(8): A mile probably
+Bot(8): my age is below 46
+User(9): What is your age?
+Bot(9): my age is below 46
+User(10): How old are you?
+Bot(10): my age is below 46
+
+Persona:
+i help tend the fields.
+i currently work for a watch dealer.
+i enjoy sports such as running.
+i also work as a custodian to help pay the bills.
+whats up i'm a 46 year old single dad 46 a kids.
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.86
+Robotic(↓): 54
+Interesting: 56
+Fun: 54
+Consistent: 57
+Fluent: 74
+Repetitive(↓): 100
+Topic: 6
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like to garden?
+Bot(1): no , i do not , but i do like to eat .
+User(2): What do you like to eat?
+Bot(2): i love to cook . i love to cook .
+User(3): What do you love to cook?
+Bot(3): i do , i love to cook .
+User(4): What is your favorite thing to cook?
+Bot(4): i love pizza , and i love it .
+User(5): What kind of pizza do you like?
+Bot(5): i love pizza , and i love it .
+User(6): I love to garden and plant flowers.
+Bot(6): i like to eat fish .
+User(7): Do you catch the fish?
+Bot(7): no , i do not . i like to go out to eat with my family .
+User(8): What kind of places do you like to go out and eat at?
+Bot(8): i like to go to the gym and listen to music .
+User(9): What kind of music do you like?
+Bot(9): i like country music . i like country music .
+User(10): What kind of artists do you like in country?
+Bot(10): i like the oldies . i like to listen to music .
+
+Persona:
+i've a german shepherd named barnaby.
+i am always wearing a hat.
+my favourite skater is rob dryden.
+i have a weakness for vanilla ice cream.
+i am a convenience store manager.
+
+Topic and Human Opinion:
+Beginning: Gardening(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.43
+Robotic(↓): 63
+Interesting: 57
+Fun: 59
+Consistent: 45
+Fluent: 67
+Repetitive(↓): 100
+Topic: 18
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What kind of car do you drive?
+Bot(1): i do not have a car , i ride a bike or my unicycle
+User(2): What's it like to ride a unicycle?
+Bot(2): oh i have never been on a unicycle . my wife of 6 years would laugh so hard
+User(3): What is your wife like?
+Bot(3): good god is the best
+User(4): Whoa let's not talk about god
+Bot(4): yeah god is great and so is yo gotti .
+User(5): who is yo gotti?
+Bot(5): i love yo la tengo . i have never heard of yo gotti
+User(6): weird because you just said that to me. What is your favorite color?
+Bot(6): i know right . i believe that everyone does weird things .
+User(7): Do you like mustangs?
+Bot(7): awesome ! i am a little afraid of cars , as i lost my arm in an accident .
+User(8): How did you lose your arm?
+Bot(8): oh my god ! that is horrible .
+User(9): So you never ride in cars anymore?
+Bot(9): hair was too red it would scare them away .
+User(10): Why is your hair red?
+Bot(10): i like red hair , when they age , it get a red and blonde .
+
+Persona:
+i've blue eyes and red hair that comes to my waist.
+my cats are very special to me.
+i don't believe in god.
+i think i'll retire in a few years.
+i'm 100 years old.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.29
+Robotic(↓): 70
+Interesting: 57
+Fun: 55
+Consistent: 64
+Fluent: 12
+Repetitive(↓): 28
+Topic: 13
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What is your favorite kind of veggie to plant?
+Bot(1): I am pity, i us.
+User(2): What do you mean? Do you know what veggies are?
+Bot(2): I do not like horses time do you spend Do you like music?
+User(3): I wasn't talking about horses. I do like music.
+Bot(3): that's good . i like to spend a lot of not I am currently in where are you from ?
+User(4): What kind of music do you like? and i will not tell you where i am from
+Bot(4): Cool! is the band's do for a living?
+User(5): I am not in a band. What kind of music do you like?
+Bot(5): she liked it i pickel and egg omlet coffee more though
+User(6): ewww pickles and eggs?
+Bot(6): ha ha at the sight any pets ?
+User(7): I do have pets. Do you have any pets?
+Bot(7): that is one of my favorite things to like to record I am. have never been to alabama
+User(8): You are really random lol I have never been to Alabama before either.
+Bot(8): i do not know from united states, but name
+User(9): Are you from the united states?
+Bot(9): I like are working on like all movies.
+User(10): So you are a movie director?
+Bot(10): that is a i retired.
+
+Persona:
+i'm four.
+i'm a descendant of christopher columbus.
+i like to go to country concerts on weekends.
+i am a vegan and i love hummus.
+i work my parents farms.
+
+Topic and Human Opinion:
+Beginning: Veggies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.71
+Robotic(↓): 93
+Interesting: 63
+Fun: 58
+Consistent: 36
+Fluent: 25
+Repetitive(↓): 60
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What kind of animals do you like?
+Bot(1): all kinds . i love animals not people .
+User(2): What is your favorite animal?
+Bot(2): i have to say the tiger . we have now trained over 20 types of animals !
+User(3): Why do you like tigers?
+Bot(3): i do not know just like the strong taste .
+User(4): Whoa, So you like to EAT tigers?
+Bot(4): yes , who does not like steak ?
+User(5): Steak normally comes from cows not tigers lol
+Bot(5): you obviously do not like beef lol , are you currently studying ?
+User(6): I LOVE BEEF but I DO NOT LIKE TO EAT TIGERS
+Bot(6): you obviously do not like beef lol , are you currently studying ?
+User(7): Where do you work?
+Bot(7): i am a starving student lol
+User(8): So you eat tigers in your free time?
+Bot(8): no , that sounds like my dram job
+User(9): wtf lol You've got some issues my friend lol
+Bot(9): you obviously do not like beef lol , are you currently studying ?
+User(10): Nothing. I love beef fyi, for the second time
+Bot(10): you obviously do not like beef lol , are you currently studying ?
+
+Persona:
+i'm a 45 year old male.
+i've been trying all types of food everywhere i go.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i am also a graduate student.
+i love chocolate bars.
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.86
+Robotic(↓): 83
+Interesting: 70
+Fun: 54
+Consistent: 69
+Fluent: 77
+Repetitive(↓): 88
+Topic: 57
+
+####################
+

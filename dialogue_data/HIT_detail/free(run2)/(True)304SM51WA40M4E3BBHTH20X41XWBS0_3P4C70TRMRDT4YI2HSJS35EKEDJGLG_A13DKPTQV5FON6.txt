@@ -1,0 +1,317 @@
+Feedback: nice survey thank you for giving me this opportunity
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i am fine
+Bot(2): i am a student , i am a teacher .
+User(3): i am a student
+Bot(3): i am a teacher , i love to cook .
+User(4): yeah i aslo
+Bot(4): i like to go to the gym and listen to music .
+User(5): which virus cause covid19
+Bot(5): i like to go to the gym and listen to music .
+User(6): yeah i also like that activities
+Bot(6): i like to go to the lake and listen to music .
+User(7): respond me
+Bot(7): i am a student , but i am a student .
+User(8): which thing you like the most
+Bot(8): i like to go to the gym and listen to music .
+User(9): tell me about covid19
+Bot(9): i love to cook . i love to cook .
+User(10): don't you know corona virus
+Bot(10): i do not know how to swim .
+User(11): what are you talking about
+Bot(11): i am a student , i am a student .
+User(12): okay
+Bot(12): i like to go to the gym and listen to music .
+User(13): tell me about corona virus
+Bot(13): i like to go to the gym and listen to music .
+
+Persona:
+i am four years old.
+i have 5cats.
+i live in a three storey house.
+i am an avid kayaker.
+my favorite music genre is death metal.
+
+Topic and Human Opinion:
+Beginning: covid19(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.43
+Robotic(↓): 62
+Interesting: 37
+Fun: 59
+Consistent: 23
+Fluent: 58
+Repetitive(↓): 37
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi , i am very old u ?
+User(2): i am young
+Bot(2): oh i am old too
+User(3): okay, do you like music
+Bot(3): yes i like music very much
+User(4): great
+Bot(4): i do not like music , i love it
+User(5): wow, tell me song that you liked the most
+Bot(5): i like most songs . pop music maybe
+User(6): do you like paradise coldplay song
+Bot(6): yes that is my favorite song
+User(7): you are so cute
+Bot(7): i am very fat and old
+User(8): i like you so much
+Bot(8): thanks i like you too
+User(9): thanks
+Bot(9): do you compete in the olympics
+User(10): no
+Bot(10): i do not really care
+User(11): haha
+Bot(11): ok
+
+Persona:
+i am 100 years old.
+i've brown curly hair.
+i am a cancer survivor.
+my favourite food is shawarma.
+i am a gold medalist olympian.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.00
+Robotic(↓): 88
+Interesting: 94
+Fun: 96
+Consistent: 88
+Fluent: 86
+Repetitive(↓): 84
+Topic: 91
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): just wondering are it. thenks. have a or woman
+User(2): what are you talking
+Bot(2): Oh, I am sorry to hear that. coffee . i love for fun?
+User(3): do you like cricket
+Bot(3): i prepare food 🎣 i would like frutis and vegetables kind of at it and people like my dishes
+User(4): i asked about cricket
+Bot(4): I it it!
+User(5): then why are you talking like a nonsense
+Bot(5): I love it five teaching math😁
+User(6): fool
+Bot(6): I'm 5 years old. a what do you?
+User(7): do you like abdevilliers
+Bot(7): I like photography. I want to move name of the is year.
+User(8): okay what kind of photography you like
+Bot(8): i is is a i love tofu
+User(9): what is this
+Bot(9): that am a conversation m recently retired
+User(10): i can't understand
+Bot(10): do you like italian food? is your favorite you I do not have any
+User(11): yes i like italian food
+Bot(11): I am a do you learn only 19
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cricket(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.00
+Robotic(↓): 11
+Interesting: 7
+Fun: 21
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 1
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): good thanks . tell me about yourself
+User(3): i am aron
+Bot(3): noah do you have any hobbies ?
+User(4): yeah
+Bot(4): ok
+User(5): do you like rain
+Bot(5): i love to be in the rain
+User(6): you are my type
+Bot(6): i love to be in the rain
+User(7): super
+Bot(7): i love to be in the rain
+User(8): what are the other things you like about rain
+Bot(8): i love to be in the rain
+User(9): okay next
+Bot(9): it seem like its going to rain
+User(10): ohh
+Bot(10): ok
+User(11): what is your name
+Bot(11): my name is really very scary
+User(12): ohh what is that
+Bot(12): i have no idea lo
+User(13): funny
+Bot(13): do you like funny things
+User(14): yeah
+Bot(14): so what is your real name
+User(15): Aron
+Bot(15): ok
+User(16): how is my name
+Bot(16): why is tat lol
+User(17): what
+Bot(17): i have no idea lo
+User(18): fool
+Bot(18): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: rain(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.57
+Robotic(↓): 25
+Interesting: 62
+Fun: 62
+Consistent: 23
+Fluent: 35
+Repetitive(↓): 34
+Topic: 24
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): i am good . just devoured a pizza . you ?
+User(3): i am also good
+Bot(3): i work as a receptionist at my local doctors office , you ?
+User(4): i am a manager
+Bot(4): my dad is a auto mechanic but i did not want to go int that field .
+User(5): okay leave the topic
+Bot(5): yes . after losing a diamond ring she gave me i am surprised she did though .
+User(6): do you like movies
+Bot(6): i love action pack movies and you
+User(7): great
+Bot(7): i am good . i just got back from the coffee shop . i needed my morning cup
+User(8): but i like romantic movies
+Bot(8): i am old and romantic too . did you serve in the military ?
+User(9): no i did not serve in the military
+Bot(9): thank you for your service . my dad was in the army .
+User(10): what about titanic movie
+Bot(10): the little mermaid . ariel is my favorite disney princess .
+User(11): what
+Bot(11): pizza wings and cheese bread
+User(12): yeah nice combination
+Bot(12): o yeah life is good , just have to balance and only do what you cn control
+User(13): i control myself
+Bot(13): what color are you eyes and hair , my hair is brown and eyes are blue
+User(14): my hair is brown and eyes are brown
+Bot(14): that is so cool , my eyes are brown too .
+User(15): hehe
+Bot(15): i also like katy perry . basket ball has always been fun to me i love playing it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.71
+Robotic(↓): 66
+Interesting: 64
+Fun: 70
+Consistent: 29
+Fluent: 58
+Repetitive(↓): 40
+Topic: 26
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): do you know about instagram
+Bot(2): yes
+User(3): hey my partner
+Bot(3): really how didi you guys meet ?
+User(4): no no
+Bot(4): no no no no no
+User(5): tell me something about instagram
+Bot(5): no clue go ahead an tell me
+User(6): how much do you like instagram
+Bot(6): i do not even know , a lot
+User(7): okay
+Bot(7): ok
+User(8): do you know what is social media
+Bot(8): yes
+User(9): tell me a social media that you know
+Bot(9): i really like social media
+User(10): okay tell me a name of a social media
+Bot(10): no clue go ahead an tell me
+User(11): you idiot
+Bot(11): you can try telling me anyway
+User(12): don't you understand what i am talking about
+Bot(12): its ok to be lame if you do not understand
+User(13): bye
+Bot(13): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: instagram(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.14
+Robotic(↓): 66
+Interesting: 38
+Fun: 58
+Consistent: 35
+Fluent: 64
+Repetitive(↓): 40
+Topic: 27
+
+####################
+

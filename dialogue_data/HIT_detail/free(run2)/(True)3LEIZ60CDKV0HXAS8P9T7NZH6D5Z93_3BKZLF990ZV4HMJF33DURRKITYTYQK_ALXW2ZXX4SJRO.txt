@@ -1,0 +1,325 @@
+Feedback: That was fun.  
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello chat bot
+Bot(1): i love to eat .
+User(2): what do you love to eat?
+Bot(2): i like pizza , and pizza .
+User(3): Why pizza AND pizza?
+Bot(3): i do not know . i like to eat .
+User(4): Do you like green beans?
+Bot(4): i do not , i like to eat .
+User(5): Green beans can be eaten too
+Bot(5): i like to eat fish .
+User(6): What kind of fish?
+Bot(6): i do not know . i like to eat .
+User(7): That is not much of an answer.
+Bot(7): i am a student , but i am a student .
+User(8): What are you studying?
+Bot(8): i am a student , i am a teacher .
+User(9): Are you studying or teaching?
+Bot(9): i am a student , i am a teacher .
+User(10): Why are you repeating your answer?
+Bot(10): no , i am not . i am a student .
+User(11): goodbye
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+eating is something i do when i am bored.
+i can drive a tractor.
+horror movies are my favorites.
+i've a boyfriend.
+i love italian food and garlic bread.
+
+Topic and Human Opinion:
+Beginning: Green Beans(like)
+Round 8: Pizza(dislike)
+Round 8: Being a student(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 23.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 12
+Consistent: 52
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello chat bot
+Bot(1): hi sure i would love to . do you speak spanish ? i grew up in mexico .
+User(2): Yes, I speak english. Did you play football in mexico?
+Bot(2): only english , do you speak any other languages ?
+User(3): Yes, I speak Swahili
+Bot(3): i speak only english , and a little spanish
+User(4): Can we get back to football?
+Bot(4): football is fun , whats your favorite team ?
+User(5): The cowboys
+Bot(5): i have actually been considering starting my own business around the idea . like a sports bar .
+User(6): Thats cool. What is your favorite team?
+Bot(6): my favorite american football team is the browns . my favorite mls team is the crew .
+User(7): Well, I feel sorry for you as a browns fan. I am a fan of the earthquakes in MLS
+Bot(7): seriously ? how can you not like kojima ? plus del toro and reedus , it looks awesome .
+User(8): I'm really not that big of an MLS fan, more American football
+Bot(8): football is fun , whats your favorite team ?
+User(9): You are repeating yourself
+Bot(9): great ! just came back from a walk with my bipolar dog .
+User(10): How do you know your dog is bipolar?
+Bot(10): what kind ? what is his name ? ! woof woof
+User(11): That makes no sense. Goodbye.
+Bot(11): i go to the mall with my friends , i have loads , its fun . how about you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Football(like)
+Round 2: Languages(dislike)
+Round 7: Back to football(like)
+Round 9: Bipolar Dog(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The user changed the topic the last input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 65.29
+Robotic(↓): 83
+Interesting: 79
+Fun: 76
+Consistent: 76
+Fluent: 92
+Repetitive(↓): 50
+Topic: 67
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello Chatbot
+Bot(1): hola
+User(2): What is your favorite electronic device?
+Bot(2): i love new tech devices , and you ?
+User(3): I do. Specifically which ones do you like?
+Bot(3): that is very cool . i use several
+User(4): Which ones?
+Bot(4): all of them ! their all special . what do you like to do ?
+User(5): You are not answering my question
+Bot(5): do not understand your question ?
+User(6): Ok, so we will follow your direction. I like to talk to chat bots.
+Bot(6): do you know what chat turns mean ?
+User(7): No. Can you explain it to me?
+Bot(7): i am sorry , i do not understand your question statement .
+User(8): What are chat turns?
+Bot(8): perhaps the upside down . i do not know .
+User(9): What is your favorite thing to do?
+Bot(9): do you know what chat turns mean ?
+User(10): no
+Bot(10): you are not answering my question i can report you .
+User(11): I do not know what chat turns are
+Bot(11): do you not know how ?
+User(12): goodbye
+Bot(12): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Electronics(like)
+Round 5: Interests(ambivalent)
+Round 9: Chat turns(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 38.29
+Robotic(↓): 100
+Interesting: 24
+Fun: 0
+Consistent: 62
+Fluent: 93
+Repetitive(↓): 31
+Topic: 20
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hellooooooooooooooo chat bot
+Bot(1): How long Do you like go to?
+User(2): About 12 inches. How about you?
+Bot(2): I love❤ it. job is boring. shop online.
+User(3): What do you want to buy?
+Bot(3): i am a stay at home mom i've 3 kids. for you, u finished your remember when ...
+User(4): How old are your kids?
+Bot(4): I am a teacher. for you paint do?
+User(5): What do you teach?
+Bot(5): I have a dog. He is named favorite Sounds like visiting with my girlfriend.
+User(6): I do not like dogs
+Bot(6): hi , i fine, whats about my boyfriend
+User(7): Is your boyfriend cute?
+Bot(7): I am you know a little weird.
+User(8): I can tell
+Bot(8): I am not a lawyer, so do i. Do make my own.
+User(9): I really do not understand that.
+Bot(9): Look, II have got... lot of times, food.
+User(10): What kind of food do you eat?
+Bot(10): Yo, I am your life?
+User(11): Goodbye terrible bot
+Bot(11): Well, I work as a personal telepathic are you read 🙂
+
+Persona:
+i've a big library at home.
+i play with my friends on the playground.
+i'm a mechanical engineer.
+my name is george.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: Dogs(dislike)
+Round 3: Jobs(ambivalent)
+Round 3: Personal(ambivalent)
+Round 5: Dogs(dislike)
+Round 6: Boyfriends(dislike)
+Round 9: Food(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 14.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 5
+Fluent: 0
+Repetitive(↓): 3
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello chat bot
+Bot(1): hello , how are you doing ?
+User(2): I am well. How are you?
+Bot(2): i am good . just got back from dancing on the weekends .
+User(3): Do you like to dance?
+Bot(3): i do not dance . i am a big fan of dancing .
+User(4): So you like to watch people dance?
+Bot(4): i do not but i am not a fan of dancing .
+User(5): So why did you dance on the weekend?
+Bot(5): i dance to dance all the time .
+User(6): Why do you dance all the time if you are not a fan of it?
+Bot(6): i am not sure . i am not a fan of dancing though .
+User(7): OK. What do you think of pencils?
+Bot(7): i do not dance but i do not like to cook
+User(8): Will you answer my question about pencils?
+Bot(8): i don't know . i am not a fan of anything .
+User(9): Wow. That is deep.
+Bot(9): i do not know what that is .
+User(10): What do you do for fun?
+Bot(10): i like to dance and dance .
+User(11): You told me you do not like it. Liar.
+Bot(11): i am not a big fan of anything but i do like to dance
+User(12): ok. Have a nice day. Goodbye
+Bot(12): i am sorry to hear that .
+
+Persona:
+i dance on the weekends.
+i am single and with two dogs.
+i now live in the city.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i was born in the early 80 s.
+
+Topic and Human Opinion:
+Beginning: pencils(ambivalent)
+Round 2: Dancing(ambivalent)
+Round 6: Pencils(ambivalent)
+Round 8: Being a fan of NOTHING(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 76.57
+Robotic(↓): 78
+Interesting: 91
+Fun: 93
+Consistent: 85
+Fluent: 90
+Repetitive(↓): 22
+Topic: 77
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi chat bot
+Bot(1): i am reading your chat
+User(2): What do you like about it?
+Bot(2): very
+User(3): That does not tell me anything. Very what?
+Bot(3): ok
+User(4): What do you think of the weather?
+Bot(4): it is my favorite type of weather .
+User(5): I like the winter when it is cold
+Bot(5): i like it when it is crisp but not actual winter .
+User(6): So you like autumn the best
+Bot(6): not so much . i like summer better than winter
+User(7): Do you go swimming in the summer?
+Bot(7): yes , when its hot and the water is warm
+User(8): I like to swim as well.
+Bot(8): do you swim very often ?
+User(9): Every chance i get
+Bot(9): it is very relaxing .
+User(10): it is also good exercise
+Bot(10): yes , when its hot and the water is warm
+User(11): what is your favorite kind of bathing suit?
+Bot(11): a sweater for the fall season
+User(12): So you swim with a sweater on?
+Bot(12): yes , when its hot and the water is warm
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sex(like)
+Round 3: Weather(ambivalent)
+Round 6: Swimming(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 61.71
+Robotic(↓): 87
+Interesting: 65
+Fun: 68
+Consistent: 72
+Fluent: 90
+Repetitive(↓): 69
+Topic: 93
+
+####################
+

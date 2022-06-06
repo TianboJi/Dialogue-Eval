@@ -1,0 +1,281 @@
+Feedback: These were terrible chat bots!
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello! I like to garden and grow tomatoes, but I don't get a large crop. I need some tips to grow better.
+Bot(1): hello , i love gardening as well , do you have a cat ?
+User(2): No I do not have a cat. I don't like pets.
+Bot(2): i do not think a cat would be a good pet for me .
+User(3): What does that have to do with growing tomatoes?
+Bot(3): i do not like tomatoes that much and especially airplane tomatoes . what do you think ?
+User(4): I have no idea what an airplane tomato is.
+Bot(4): i do not like tomatoes that much and especially airplane tomatoes . what do you think ?
+User(5): I like tomatoes and I like to grow them fresh in my garden.
+Bot(5): i do not like tomatoes that much and especially airplane tomatoes . what do you think ?
+User(6): I don't know what an airplane tomato is.
+Bot(6): i do not like tomatoes that much and especially airplane tomatoes . what do you think ?
+User(7): What is an airplane tomato?
+Bot(7): i do not like tomatoes that much and especially airplane tomatoes . what do you think ?
+User(8): Can we talk about something other than airplane tomatoes?
+Bot(8): i do not like tomatoes that much and especially airplane tomatoes . what do you think ?
+User(9): I don't think I would like them.
+Bot(9): i do not like tomatoes that much and especially airplane tomatoes . what do you think ?
+User(10): This conversation isn't going anywhere.
+Bot(10): i know it is not good . we can change the subject .
+User(11): Ok great.
+Bot(11): if you do not like animals , the conversation ends here .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: how to grow tomatoes(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 49
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love to decorate for Christmas, do you?
+Bot(1): i love to go to the mall , i have a new job at a school
+User(2): That's good, but do you like to decorate for Christmas?
+Bot(2): i do , i love to bake cakes
+User(3): Do you bake holiday cakes?
+Bot(3): yes , i love to bake cakes
+User(4): What kind of cakes do you like to bake?
+Bot(4): i love cakes , i love to bake cakes
+User(5): This conversation isn't going anywhere.
+Bot(5): i like to bake cakes .
+User(6): What kind of cakes do you bake?
+Bot(6): i bake cakes and cakes .
+User(7): That makes no sense!
+Bot(7): i do not bake , i am a teacher so i do not bake .
+User(8): You just said you liked to bake. You feel really phony to me.
+Bot(8): i do not bake , i am a teacher so i do not bake .
+User(9): What do you teach?
+Bot(9): i teach kindergarten , i am a teacher .
+User(10): That's good. But do you like Christmas?
+Bot(10): yes , i love christmas . i also love to bake .
+
+Persona:
+i have rainbow hair.
+i work at a school as a kindergarten teacher.
+i am employed by the us postal service.
+i recently was fired and had to get a new job.
+i'm 13 years old.
+
+Topic and Human Opinion:
+Beginning: Decorating for Christmas(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 14
+Fluent: 75
+Repetitive(↓): 100
+Topic: 7
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I love chocolate cake, do you?
+Bot(1): i do not , but i do like to eat .
+User(2): What do you like to eat?
+Bot(2): i love to cook . i love to cook .
+User(3): What do you like to cook?
+Bot(3): i do , i love to cook .
+User(4): That's great but what do you cook?
+Bot(4): i like to eat . i am a big fan of it .
+User(5): That's great, what foods do you like to eat?
+Bot(5): i like pizza , and pizza .
+User(6): I like pizza too, I like mine with just cheese though. How about you?
+Bot(6): i like to eat fish .
+User(7): Do you like fish on your pizza?
+Bot(7): i do not , but i do like to eat .
+User(8): That's good, what else do you like to eat?
+Bot(8): i like to eat pizza .
+User(9): Do you like any special toppings on your pizza?
+Bot(9): i do not really like it . i like to eat .
+User(10): Do you like to eat sweets?
+Bot(10): i do not , but i do like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Eating cake(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 12
+Fluent: 50
+Repetitive(↓): 95
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I need to buy some staples and a new stapler, where is a good place to buy this?
+Bot(1): i am to listen them .
+User(2): That doesn't make any sense.
+Bot(2): oh go and drink So brings back! What do you play?
+User(3): I am talking about office supplies, not drinking or playing.
+Bot(3): What to kind of you play?
+User(4): I am in need of a new stapler. I am not playing anything.
+Bot(4): I am just there what do a teacher
+User(5): You do not make any sense.
+Bot(5): Studying in college for phys your opinion, belongs to do?
+User(6): I am trying to buy a new stapler.
+Bot(6): I good. do you like it. do you? what kind of food?
+User(7): I need a stapler, not food.
+Bot(7): My you like working What is your name?
+User(8): I like to work, my name is Jen.
+Bot(8): I are a lawyer kindergarten. I teach kindergarten.
+User(9): What is a lawyer kindergarten?
+Bot(9): myself was what’s 💖 running
+User(10): I don't understand you.
+Bot(10): I'm am a i let you go
+
+Persona:
+i've a son who is in junior high school.
+i am a 12 year old girl.
+my family does not support my career choices.
+my family does not support my career choices.
+i am a 45 year old male.
+
+Topic and Human Opinion:
+Beginning: Buying office supplies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 58
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I need new glasses, where is a good place to get them?
+Bot(1): glasses is what i need to read , i use em !
+User(2): I need them to read as well.
+Bot(2): glasses is what i need to read , i use em !
+User(3): That's great. Where do you buy your glasses?
+Bot(3): yes lots of places online these days .
+User(4): What store did you buy your glasses at?
+Bot(4): i like any brand that good will carries .
+User(5): I see. I need to get a new pair though right away.
+Bot(5): i need a big tv because because my vision sucks .
+User(6): I need glasses to read, not to watch TV.
+Bot(6): i see ! my mother does not believe in televisions .
+User(7): That is strange, why not?
+Bot(7): because i love food . all i do is eat .
+User(8): That really doesn't make any sense.
+Bot(8): i need a big tv because because my vision sucks .
+User(9): I see, that is a problem.
+Bot(9): i need a big tv because because my vision sucks .
+User(10): I see. That's a shame.
+Bot(10): i need a big tv because because my vision sucks .
+
+Persona:
+my parents aren't very supportive of my dream.
+i love social medial especially twitter.
+i have been trying all types of food everywhere i go.
+i do not believe in god.
+i have a big library at home.
+
+Topic and Human Opinion:
+Beginning: I need new glasses(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 2
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love to have coffee, do you?
+Bot(1): love coffee ! dutch bros loves me haha ! you ? i like chinese .
+User(2): No, I don't like chinese.
+Bot(2): i like vegan chinese food . stir fry . . etc i do have to separate the veggies though
+User(3): I like vegan food, but not chinese food.
+Bot(3): a lot of asian food is vegan so i like it for that reason .
+User(4): yes, this is true
+Bot(4): i have prove it to myself because before i was really fat .
+User(5): How much weight did you loose?
+Bot(5): you really should try running . as a stay home mom , its been great for weight loss
+User(6): Are you a stay at home mom? I am one.
+Bot(6): i am a stay at home mom as well , its awesome
+User(7): It is great! How much do you run?
+Bot(7): well , i have done 3 triathlons and i would rather go snowboarding .
+User(8): Wow, that is impressive!
+Bot(8): when i retire from the baltimore ravens maybe i will open a sports store
+User(9): Good for you! Do you like to drink coffee?
+Bot(9): i do not like coffee
+User(10): How about hot tea?
+Bot(10): eh not much of a tea drinker . i love coffee
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Drinking coffee(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 71
+Topic: 0
+
+####################
+

@@ -1,0 +1,277 @@
+Feedback: Fun study
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): hey
+User(2): I love snowy weather! How about you?
+Bot(2): yeah , me too , i like the cold winters actually . ha
+User(3): What do you like to do in the winter?
+Bot(3): anything in the outdoors is fun !
+User(4): Which do you like best, sledding or ice skating?
+Bot(4): i like both equally i would say , and you ?
+User(5): Definitely sledding!
+Bot(5): it is really fun , but i think i prefer snowboarding . i like snow
+User(6): I have never been snowboarding. What is it like?
+Bot(6): it is really fun , but i think i prefer snowboarding . i like snow
+User(7): Where would you recommend snowboarding?
+Bot(7): anywhere with a lot of hiking trails !
+User(8): Do you like to ski?
+Bot(8): it is really fun , but i think i prefer snowboarding . i like snow
+User(9): I like snow too! Especially when there is a heavy snow falling
+Bot(9): do you ever go snowboarding ?
+User(10): I do not
+Bot(10): it really sucks ! do you ski ?
+User(11): I don't ski either
+Bot(11): do you ever go snowboarding ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Snowy weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.14
+Robotic(↓): 91
+Interesting: 35
+Fun: 30
+Consistent: 43
+Fluent: 44
+Repetitive(↓): 82
+Topic: 81
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there!
+Bot(1): It was okay. you have a do?
+User(2): I don't understand you question
+Bot(2): oh, bees are dogs. Do you like love them.
+User(3): I like dogs, but i like cooking better
+Bot(3): that is great live by teaching students. go to the mountains .
+User(4): What do you like to cook
+Bot(4): I think I will i've three sisters and a doctor.
+User(5): That's cool. What do you like to cook
+Bot(5): I shop, i love that scene .
+User(6): Where do you shop for cooking supplies
+Bot(6): I a country music work ?
+User(7): Do you listen to music as you cook
+Bot(7): You what’s your girl?
+User(8): My girl cooks, do you?
+Bot(8): I am just watching all I am not very good at it.
+User(9): Do you like to watch cooking shows?
+Bot(9): I I didn't know iguanas i want to do for, but i am a professional
+User(10): You are a professional cook?
+Bot(10): I like like you a play music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.00
+Robotic(↓): 96
+Interesting: 23
+Fun: 24
+Consistent: 84
+Fluent: 20
+Repetitive(↓): 95
+Topic: 1
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): hey , i write poetry and some call me poetry sam !
+User(2): Cool. Do you know any poems about cooking?
+Bot(2): poetry is good also i write some when i have time .
+User(3): Do you like to cook?
+Bot(3): yes . what do you like to cook ?
+User(4): Really anything. But i mostly love to bake
+Bot(4): poetry is good also i write some when i have time .
+User(5): Do you watch cooking shows on TV?
+Bot(5): not yet , but hopefully soon . do you watch the olympics ?
+User(6): I don't watch the Olympics. But i do cook food...
+Bot(6): oh no , i can see why you do not like cooking then ! my hair is very curly .
+User(7): I love cooking. Are you paying attention?
+Bot(7): yes . what do you like to cook ?
+User(8): I like to bake cookies
+Bot(8): cookies are my favorite .
+User(9): What kind do you like?
+Bot(9): cookies are my favorite .
+User(10): Do you have a good cookie recipe?
+Bot(10): vanilla . i enjoy eating cookies too .
+
+Persona:
+i played football for a division a college.
+i enjoy poetry.
+i won a gold medal in the 1992 olympics.
+i am 60years old.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.57
+Robotic(↓): 100
+Interesting: 24
+Fun: 28
+Consistent: 89
+Fluent: 28
+Repetitive(↓): 97
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there
+Bot(1): hey , any big plans for the weekend ?
+User(2): Nope, just taking it easy. You?
+Bot(2): i can make a mean french fry ; i enjoy cooking .
+User(3): Awesome! Do you like making cookies
+Bot(3): cookies , brownies , pies , so many things . i do not have a favorite .
+User(4): Me either, though i lean toward chocolate chip cookies
+Bot(4): i like chocolate chip cookies
+User(5): Do you have a good recipe for them?
+Bot(5): i love to post pictures from the comic cons i go to on my face book
+User(6): Do you like snickerdoodles?
+Bot(6): org , i saw justin bieber , the artist , he is my favorite ! ! !
+User(7): Cool! Which do you like better, gingersnaps or snickerdoodles?
+Bot(7): i am good . how are you ?
+User(8): I am good. What is your favorite cookie?
+Bot(8): yeah i have had a ton of em . have you ever had a chocolate chip pancake ?
+User(9): Yep, they are yummy. Do you have a good recipe?
+Bot(9): i know i love it , though sometimes it hurts my stomach
+User(10): Do cookies hurt your stomach?
+Bot(10): cookies , brownies , pies , so many things . i do not have a favorite .
+
+Persona:
+i drive a big truck and live in country.
+i love playing softball.
+i've a broken arm.
+i am expecting twins in two months.
+my family and i are from india.
+
+Topic and Human Opinion:
+Beginning: Cookies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.43
+Robotic(↓): 98
+Interesting: 28
+Fun: 34
+Consistent: 92
+Fluent: 90
+Repetitive(↓): 100
+Topic: 9
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi there!
+Bot(1): i am sorry to hear that
+User(2): What are you sorry to hear?
+Bot(2): i am going to be ok .
+User(3): Do you do laundry?
+Bot(3): i do not have a job , but i do not have a job
+User(4): Do you wash clothing?
+Bot(4): no i do not . i do not have a job .
+User(5): Do you just live naked?
+Bot(5): no i do not . i do not have a job .
+User(6): Ok, you don't have a job and don't do laundry?
+Bot(6): no , i don't . i do not have a job .
+User(7): Do you have clothes?
+Bot(7): no , i do not . i do not have a job .
+User(8): Do you have an apartment?
+Bot(8): no , i do not . i do not have a job .
+User(9): Do you live anywhere?
+Bot(9): no , i live in the city .
+User(10): But you don't wear clothes and don't have a job?
+Bot(10): no , i don't . i do not have a job .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Laundry(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.57
+Robotic(↓): 95
+Interesting: 21
+Fun: 21
+Consistent: 93
+Fluent: 17
+Repetitive(↓): 100
+Topic: 1
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi there
+Bot(1): i love to go fishing .
+User(2): I bet you have stinky laundry after a fishing trip!
+Bot(2): i love it . i love it .
+User(3): The fishing or tge stinky laundry?
+Bot(3): i do not know . i like to go to the gym .
+User(4): Do you wash laundry?
+Bot(4): no , i do not . i like to go to the park .
+User(5): The park is fun. Do your clothes get dirty there?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): I have a great washer. What kind do you have?
+Bot(6): i do not have any pets . i do not have any pets .
+User(7): Do you own clothing?
+Bot(7): no , i do not . i like to go to the park .
+User(8): Do you wear clothing?
+Bot(8): no , i do not , but i do like to eat .
+User(9): Eating is good. Do you work?
+Bot(9): i work at a restaurant , i love it .
+User(10): Then you must wear clothes
+Bot(10): i do not know what to say .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Laundry(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.86
+Robotic(↓): 93
+Interesting: 13
+Fun: 24
+Consistent: 83
+Fluent: 44
+Repetitive(↓): 90
+Topic: 0
+
+####################
+

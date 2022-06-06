@@ -1,0 +1,288 @@
+Feedback: Very interesting, most of the chatbots seem like they need a lot of work, but best of luck.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What do you like about marathons?
+Bot(1): i do , i like to go to the gym and listen to music .
+User(2): What gym do you go to?
+Bot(2): i love to travel . i love to travel .
+User(3): Does this have anything to do with the marathons you run?
+Bot(3): i do , i love to go fishing .
+User(4): You go fishing and then run?
+Bot(4): i do not know , i am a big fan of classical music .
+User(5): Who's your favorite artist?
+Bot(5): i like the oldies . i like the outdoors .
+User(6): Yes, I understand that you are a very outdoorsy person. What else do you like?
+Bot(6): i like to go to the gym and listen to music .
+User(7): What kind of music do you listen to at the gym?
+Bot(7): i love music , but i like to listen to music .
+User(8): What genre?
+Bot(8): i like to listen to music .
+User(9): What don't you like?
+Bot(9): i like to go to the gym and listen to music .
+User(10): What do you like to do at home?
+Bot(10): i like to go fishing . i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love running and preparing for marathons.(ambivalent)
+Round 10: Fishing and traveling(like)
+
+Topic Change and Chatbot Opinion:
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 43.29
+Robotic(↓): 93
+Interesting: 51
+Fun: 49
+Consistent: 67
+Fluent: 62
+Repetitive(↓): 83
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What do you do for a living?
+Bot(1): no, I have is that weekends i few times. what about you
+User(2): I don't understand.
+Bot(2): I you like like music.🙂
+User(3): Uh yeah I do. What kind of music do you like?
+Bot(3): I am in the construction field, i like to make a at biking.
+User(4): Why are you in a construction field if you're an engineer?
+Bot(4): I am I was right. am not very good at it.
+User(5): Not good at what?
+Bot(5): sorry to hear how do a decade working in i like them
+User(6): How much do you make?
+Bot(6): my favorite is is your day? my day guilty pleasure. Also, try to guess: i can move ...
+User(7): What's your guilty pleasure?
+Bot(7): I am 22 and i am a studied it is a nfl
+User(8): You are in the NFL?
+Bot(8): I am they're not better than and I love classical music.
+User(9): Are you in the NFL or are you a mechanical engineer?
+Bot(9): I think great talking to you! going to be a millionaire.
+User(10): Thank you
+Bot(10): I love probably the crazy the elementary school
+User(11): I think you're crazy
+Bot(11): i just pizza too, but i . i've been swimming since a baby 🙊
+
+Persona:
+i own a yacht and i rent it out when i'm not using it.
+i now live in the city.
+i love spending money.
+my favorite colors are red and silver.
+spiderman is my favorite.
+
+Topic and Human Opinion:
+Beginning: i'm a mechanical engineer.(like)
+Round 5: Something he's not very good at and sorry about(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 33.86
+Robotic(↓): 80
+Interesting: 62
+Fun: 50
+Consistent: 17
+Fluent: 14
+Repetitive(↓): 42
+Topic: 16
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What's his name?
+Bot(1): my name is john and i have a name named radar
+User(2): What's your boyfriend's name?
+Bot(2): my name is alex . i am from baton rouge
+User(3): Oh cool, do you like living in Louisiana?
+Bot(3): i do , i live in the midwest , you ?
+User(4): I live in the northwest
+Bot(4): i am in texas , but i live in the midwest now
+User(5): Were you born in Texas?
+Bot(5): no i am not born in texas
+User(6): Where were you born?
+Bot(6): i am from the united states
+User(7): Nice me too
+Bot(7): i am from texas but i live in texas
+User(8): What about Baton Rouge?
+Bot(8): no , i am not . i am in texas .
+User(9): Oh OK
+Bot(9): i am from texas but i live in texas
+User(10): What do you do in Texas?
+Bot(10): i am in texas , but i love it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have a boyfriend.(like)
+Round 8: Where they live(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 47.71
+Robotic(↓): 68
+Interesting: 70
+Fun: 61
+Consistent: 64
+Fluent: 50
+Repetitive(↓): 78
+Topic: 35
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Did you start playing on your own or did your parents want you to?
+Bot(1): i now reside in the united states , where i play hockey for my team
+User(2): What about guitar?
+Bot(2): i have played guitar since i was six years old
+User(3): I thought you've been playing since you were three.
+Bot(3): i have played guitar since i was six years old
+User(4): Oh OK.
+Bot(4): i started playing when i was 6 . i should have learned something else instead .
+User(5): You don't like guitar?
+Bot(5): no i would rather play my guitar
+User(6): What's the difference?
+Bot(6): i have had lessons since i was 5 . i play the ukulele .
+User(7): And you'd rather play guitar?
+Bot(7): no i would rather play my guitar
+User(8): Why can't you play your guitar?
+Bot(8): i like the guitar , i can play it !
+User(9): But you said you would rather play your guitar like you don't have it with you or something
+Bot(9): oh . that does not make much sense .
+User(10): I could say the same about you :)
+Bot(10): so you just going to say the same ?
+
+Persona:
+i like shopping.
+i have 5cats.
+i have 5cats.
+i like to watch nhl hockey.
+i am currently in a juvenile detention center.
+
+Topic and Human Opinion:
+Beginning: i started playing guitar when i was three.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.14
+Robotic(↓): 64
+Interesting: 62
+Fun: 59
+Consistent: 68
+Fluent: 55
+Repetitive(↓): 77
+Topic: 83
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What are their names?
+Bot(1): misty , bubbles , mr . tinder , one eyed jack . the only downside is they love fish . i hate fish .
+User(2): Wait, you have four dogs?
+Bot(2): i love to go for long walks with them . they sure shed a lot !
+User(3): Oh yeah, I'm sure.
+Bot(3): no blonde hair , actually no hair at all .
+User(4): You have a hairless dog??
+Bot(4): i love dogs ! i have two labradors and a chihuahua .
+User(5): Oh so you have three dogs
+Bot(5): i love to go for long walks with them . they sure shed a lot !
+User(6): What do you like to do with them
+Bot(6): i like to do my hair and makeup and try on current fashions .
+User(7): Do you wear a lot of makeup
+Bot(7): short hair is probably good for sleeping . i have gorgeous long hair , blonde .
+User(8): Ah lovely
+Bot(8): i work in a boutique selling gents wear and at the art gallery on weekends .
+User(9): Oh really, where
+Bot(9): i teach at a middle school , 7th grade science .
+User(10): You work both of those jobs?
+Bot(10): i work at a library , a shoe store , and on weekends i work for a dollar store .
+
+Persona:
+i own two vintage mustangs.
+i am overweight and unhappy.
+i enjoy long walks with my dog.
+i have blonde hair and blue eyes.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: i have two dogs.(ambivalent)
+Round 6: makeup(dislike)
+Round 8: boutique selling gents wear(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 56.71
+Robotic(↓): 54
+Interesting: 55
+Fun: 62
+Consistent: 76
+Fluent: 65
+Repetitive(↓): 57
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Where are you from
+Bot(1): i am from california , and you
+User(2): The northwest
+Bot(2): same
+User(3): Ah but see California is considered southwest
+Bot(3): ohhhh okay that makes more sense
+User(4): Where are you from in California
+Bot(4): i am from so cal inland empire
+User(5): Never heard of that before, where is it?
+Bot(5): yes , southern california right on the median border
+User(6): Ah, on the Mexican border?
+Bot(6): yes , southern california right on the median border
+User(7): Oh nice, how's the weather
+Bot(7): pretty nice and calm here thankfully
+User(8): That's good
+Bot(8): very good , how is the weather down there
+User(9): It's pretty nice, nice and cool
+Bot(9): that is good , its way too hot here
+User(10): Ah so it's hot, huh? Is it humid?
+Bot(10): yes , when its hot and the water is warm
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: now i live in the united states.(like)
+Round 10: Weather(like)
+
+Topic Change and Chatbot Opinion:
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 62.43
+Robotic(↓): 36
+Interesting: 55
+Fun: 61
+Consistent: 74
+Fluent: 74
+Repetitive(↓): 52
+Topic: 61
+
+####################
+

@@ -1,0 +1,281 @@
+Feedback: thank you
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): yeah fine
+Bot(2): i like to go to the gym and listen to music .
+User(3): yes i am also interested in it
+Bot(3): i am sorry to hear that . i am a nurse .
+User(4): okay
+Bot(4): i like to go to the gym and listen to music .
+User(5): do you like music
+Bot(5): i do , i like to listen to music .
+User(6): do have interest in paradise coldplay song
+Bot(6): i like to eat too much junk food .
+User(7): fool
+Bot(7): i am a student , but i am a student .
+User(8): i can't understand you
+Bot(8): i am a student , but i am a student .
+User(9): do you like titanic music
+Bot(9): i do , i like to play soccer .
+User(10): what are you talking about
+Bot(10): i am a student , i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.57
+Robotic(↓): 20
+Interesting: 15
+Fun: 22
+Consistent: 4
+Fluent: 9
+Repetitive(↓): 9
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hey
+Bot(1): hello , how are you ?
+User(2): yeah fine, you
+Bot(2): hi , i am well . how are you ?
+User(3): nice
+Bot(3): hi , i am a piano teacher .
+User(4): okay fine, do you know about cricket
+Bot(4): i do not know much about it , i teach piano .
+User(5): yeah i like listening to piano
+Bot(5): i teach piano on the piano , but i teach piano .
+User(6): okay what other things do you like
+Bot(6): i teach piano and you ?
+User(7): i teach cricket
+Bot(7): i teach piano and play piano
+User(8): how are you
+Bot(8): i teach piano and i teach piano
+User(9): idiot
+Bot(9): i am a piano teacher
+User(10): what are you doing
+Bot(10): i teach piano and you
+User(11): what are you doing now
+Bot(11): i teach piano and you
+
+Persona:
+my family does not support my career choices.
+i'm a piano teacher on the side.
+i've a black lab named trooper.
+my parents were both very athletic.
+my mom passed away when i was young.
+
+Topic and Human Opinion:
+Beginning: cricket(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.57
+Robotic(↓): 17
+Interesting: 33
+Fun: 27
+Consistent: 17
+Fluent: 59
+Repetitive(↓): 14
+Topic: 7
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , alcoholic in recovery here
+User(2): what
+Bot(2): huh ?
+User(3): do you have mobile
+Bot(3): i have an iphone 7
+User(4): hey,.. wow
+Bot(4): huh ?
+User(5): but which phone do you like
+Bot(5): i personally am a fan of iphone
+User(6): great
+Bot(6): i love the iphone to
+User(7): tell me about the features of your phone
+Bot(7): i love the iphone to
+User(8): okay what are the features in your phone
+Bot(8): lg that is a far inferior phone compared to iphones
+User(9): what are the other things do you like
+Bot(9): i love the iphone to
+User(10): you crazy
+Bot(10): not at all if u
+
+Persona:
+i am a recovering alcoholic.
+i am a museum tour guide.
+i'm a professional tennis player.
+i try various coffees as a hobby.
+my parents were also teachers.
+
+Topic and Human Opinion:
+Beginning: mobile phone(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.43
+Robotic(↓): 77
+Interesting: 84
+Fun: 81
+Consistent: 71
+Fluent: 91
+Repetitive(↓): 61
+Topic: 62
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey
+Bot(1): I am not working united kingdom
+User(2): okay nice
+Bot(2): I am not sure. i fine today. tell me tiki.
+User(3): do you like movies
+Bot(3): I us nice music. Where do have any pets. I am fluent in english and french.
+User(4): what do you think about the pirates movies
+Bot(4): I don’t have don't like I live in Canada.
+User(5): what is your name
+Bot(5): oh. me a to
+User(6): don't you understand me
+Bot(6): yes i am on married, mu husband loves soaking up the sun
+User(7): but i am not married
+Bot(7): I love i a huge coffee dog named radar
+User(8): ohh
+Bot(8): My father is your is an animal is a teacher.
+User(9): fool
+Bot(9): That would be really fun to see. How much say Everytime Hello or you do you also like classical music?
+User(10): no i like western music
+Bot(10): Yeah. I spend to you it a watching battle star galactic.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.14
+Robotic(↓): 39
+Interesting: 28
+Fun: 30
+Consistent: 31
+Fluent: 0
+Repetitive(↓): 4
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey
+Bot(1): hi ! how are you ?
+User(2): super good
+Bot(2): well , work tomorrow , gotta get early to the base . packed brownies for lunch
+User(3): okay
+Bot(3): drive my sx . fast . so what is a male ballerina called ?
+User(4): can we discuss the topic
+Bot(4): its a chemistry exam i am a biology major at boston college
+User(5): what do you think about the current situation
+Bot(5): i am a fitness buff , love weight lifting and marathons
+User(6): nice but corona
+Bot(6): great ! i am watching some classic sitcoms and listening to fall out boy . you ?
+User(7): i am listening to piano
+Bot(7): i wish i played an instrument , i like to hike in the summer months .
+User(8): okay do well
+Bot(8): drive my sx . fast . so what is a male ballerina called ?
+User(9): okay what is your name
+Bot(9): what is your name ?
+User(10): Aron
+Bot(10): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(11): heyy
+Bot(11): i am great . enjoying my day off ! how about you ?
+User(12): i am asking for your name
+Bot(12): my name is joe . do you like music ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: covid 19(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.86
+Robotic(↓): 59
+Interesting: 62
+Fun: 57
+Consistent: 36
+Fluent: 4
+Repetitive(↓): 11
+Topic: 18
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey
+Bot(1): hey .
+User(2): what is your name
+Bot(2): jessie
+User(3): hey jessie how many are there in your family
+Bot(3): jessie
+User(4): do you like family
+Bot(4): yeah i am a family kind of man
+User(5): yeah i am also
+Bot(5): jessie
+User(6): i am aron
+Bot(6): jessie
+User(7): what are the things you like
+Bot(7): jessie
+User(8): it;'s boring ya
+Bot(8): ll not really just boring
+User(9): i don't like to speak with you
+Bot(9): why not ? did sumin happen ?
+User(10): you don't understand my words
+Bot(10): youre not finished with the chat
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: family(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.57
+Robotic(↓): 30
+Interesting: 37
+Fun: 9
+Consistent: 20
+Fluent: 35
+Repetitive(↓): 16
+Topic: 22
+
+####################
+

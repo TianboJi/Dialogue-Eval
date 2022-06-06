@@ -1,0 +1,315 @@
+Feedback: Some chatbots were better than others
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, I like being a woman
+Bot(1): being a woman , i would not like to be a man .
+User(2): Sometimes, I think it would be a lot easier to be a man
+Bot(2): sometimes
+User(3): But, I do agree, I would rather be a woman most of the time
+Bot(3): true , you know how women can be .
+User(4): Fashion is definately more fun for us as women
+Bot(4): oh that is great , i have loved fashion since i was young
+User(5): Is your job related to fashion in any way
+Bot(5): not really but it pays well
+User(6): That's great. Do you like what you do at your job?
+Bot(6): yes i do , do you like your job ?
+User(7): not really, but with my home life it is pretty much all I can do right now
+Bot(7): oh boy . that does not sound like fun , i wish i still lived at home lol .
+User(8): I own my own house, not sure if you meant you live with your parents?
+Bot(8): no , i live with my mom and dad , they will never allow it
+User(9): what would your parents not allow?
+Bot(9): it would vary , but i would have a safe outlet for being upset with them
+User(10): I'm confused. What do you mean a safe outlet for being upset with them?
+Bot(10): it would vary , but i would have a safe outlet for being upset with them
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a woman.(like)
+Round 5: work/jobs(ambivalent)
+Round 7: living at home(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 32.86
+Robotic(↓): 96
+Interesting: 10
+Fun: 11
+Consistent: 75
+Fluent: 30
+Repetitive(↓): 30
+Topic: 30
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi! Any special plans with your friends coming up?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): What other type of music do you like?
+Bot(2): i like country music . what about you ?
+User(3): Oh no! Country music is at the bottom of the totem pole for me. I like Heavy Metal music the best
+Bot(3): i like to go to the gym and listen to music .
+User(4): Me too. But I like my music to be upbeat when I work out at the gym
+Bot(4): that is awesome . i like to go fishing .
+User(5): Do you like to use live bait or fake?
+Bot(5): i like to go to the gym and listen to music .
+User(6): What is your favorite genre
+Bot(6): i like the oldies . i like the color red .
+User(7): What is your favorite song from the oldies genre
+Bot(7): i like the classics and the doors
+User(8): the doors did have some great songs
+Bot(8): i love it . i like to go fishing .
+User(9): What is the biggest fish you've ever caught
+Bot(9): i do not know what to say .
+User(10): Have you ever caught a fish
+Bot(10): no , i do not . i like to go out to eat with my family .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just want to have fun with my friends.(like)
+Round 1: Music(like)
+Round 4: Fising(like)
+Round 5: Music(like)
+Round 8: Fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 22.43
+Robotic(↓): 98
+Interesting: 35
+Fun: 35
+Consistent: 11
+Fluent: 57
+Repetitive(↓): 91
+Topic: 8
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What do you consider to be high maintenance
+Bot(1): i am a manager at a store .
+User(2): What store do you manage
+Bot(2): i work at a store . i am a manager at a store .
+User(3): Yes, you told me that already. What store?
+Bot(3): i do not know how to shop
+User(4): It's easy. I like online shopping
+Bot(4): i do not know what that is .
+User(5): You've never shopped on amazon?
+Bot(5): no , i do not . i am a clerk at a store .
+User(6): Do you like your job?
+Bot(6): i do , i work at a store .
+User(7): I work at a school
+Bot(7): i do not work , i work at a store .
+User(8): that does not make sense
+Bot(8): i am a manager at a store .
+User(9): Do you like it?
+Bot(9): i do not really have a job
+User(10): do you wish you did have a job
+Bot(10): i do not have a job but i do not have a job
+
+Persona:
+i am a recovering alcoholic.
+my dream car is a rolls royce ghost.
+i prefer being inside.
+gymnastics is my favorite sport.
+i'm a convenience store manager.
+
+Topic and Human Opinion:
+Beginning: i am high maintenance.(dislike)
+Round 1: Work(ambivalent)
+Round 3: Shopping(like)
+Round 5: Work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 14.57
+Robotic(↓): 86
+Interesting: 27
+Fun: 9
+Consistent: 9
+Fluent: 31
+Repetitive(↓): 97
+Topic: 9
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Have you been to any good parties lately
+Bot(1): math is also a you how is your day going ?
+User(2): Math is boring
+Bot(2): I work to listen to as a tech.
+User(3): do you like your work
+Bot(3): I am going to work What about you?
+User(4): I work tomorrow at ten
+Bot(4): Oh. Still, I come weekends i do live worships xxxs.
+User(5): what are live worships
+Bot(5): I am from fitness instructor.
+User(6): That must be fun. Do you teach aerobics or something else?
+Bot(6): Alright am at home right dance on the weekends.
+User(7): what else do you do on the weekends
+Bot(7): better at fishing to that song. She ? 😁
+User(8): you listen to music while you fish?
+Bot(8): yes don't care, who do you fan of motorcycles , especially my bmw 2500 . 🤣
+User(9): My friend has 4 Harley Davidsons
+Bot(9): I love to dye you like Do you my hair
+User(10): What color do you want to dye your hair?
+Bot(10): I Which one is your that. i am a girl.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a party animal.(like)
+Round 1: Math I think(dislike)
+Round 2: work(ambivalent)
+Round 6: weekends(like)
+Round 7: Fishing, I think(ambivalent)
+Round 8: Motorcycles(like)
+Round 9: Hair Dyeing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 14.57
+Robotic(↓): 100
+Interesting: 2
+Fun: 2
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 2
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have woodpeckers that come to my backyard
+Bot(1): cool ! is wood working your job or do you have another ?
+User(2): I work at a school. How about you?
+Bot(2): i work in a school
+User(3): What do you do at your school? I am a lunch aide
+Bot(3): i am a teacher ! i eat at a place near my school in fl .
+User(4): Cool. What grade do you teach?
+Bot(4): i teach 5th grade math
+User(5): Yikes! Math is hard to me
+Bot(5): i teach math , so its less important for me lol
+User(6): Do you like to teach?
+Bot(6): not really . . . what do you teach ?
+User(7): I don't teach. I am a lunch aide
+Bot(7): what grade do you teach ?
+User(8): I don't teach. I am a lunch aide. That means I watch the students in the lunchroom and on the playground
+Bot(8): that sounds like fun . you could teach the kids all sorts of things
+User(9): Mostly I just make sure they are behaving
+Bot(9): teachers are amazing . how fast do you pitch ?
+User(10): I don't think I could throw a pitch. How about you?
+Bot(10): i just work on my wood work and make couches and stuff
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i spend my time bird watching with my cats.(like)
+Round 1: work(ambivalent)
+Round 9: Baseball(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 72.14
+Robotic(↓): 68
+Interesting: 63
+Fun: 63
+Consistent: 85
+Fluent: 83
+Repetitive(↓): 0
+Topic: 79
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Have you ever been to a Rolling Stones concert?
+Bot(1): cool . my favorite band in the rolling stones . how about you ?
+User(2): My favorite band is probably Metallica
+Bot(2): i am only 29 metallica was our dads band
+User(3): But the Rolling Stones were around way earlier than Metallica
+Bot(3): i love the rolling stones , my favorite song is thunder .
+User(4): You don't consider the Rolling Stones to be your dads band?
+Bot(4): that would be great . i love the stones .
+User(5): What do you think of Keith Richards?
+Bot(5): peace and love to all . i think maybe we can join worlds some day !
+User(6): That would be nice. I wish more people were about Peace and Love
+Bot(6): none , i have been too busy as a former casino owner .
+User(7): Why are you no longer a casino owner? Did you sell the business?
+Bot(7): oh , how exciting . what kind of business ?
+User(8): What did you find exciting?
+Bot(8): jimmy fallon ! for real ! just walking along
+User(9): Jimmy Fallon is pretty funny
+Bot(9): haha i love jimmy fallon ! do you enjoy anything else ?
+User(10): Since my last knee surgery, I've had strange powers
+Bot(10): i hurt my knee playing basketball in college . i dreamed of going pro .
+User(11): That's a big bummer. How bad were you hurt?
+Bot(11): i still feel it when its cold so yes
+User(12): Have you played basketball since college?
+Bot(12): yes an baseball i meant , bella billy an brilliance .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i see the rolling stones in concert every year.(like)
+Round 1: Favorite Bands(like)
+Round 5: Changing the World(ambivalent)
+Round 6: His former employment(ambivalent)
+Round 8: Jimmy Fallon(dislike)
+Round 9: since the surgery i've had strange powers.(like)
+Round 10: Hurting his knee in college(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The user wants the bot to change the topic.(like)
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 53.00
+Robotic(↓): 38
+Interesting: 38
+Fun: 44
+Consistent: 30
+Fluent: 59
+Repetitive(↓): 0
+Topic: 38
+
+####################
+

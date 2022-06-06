@@ -1,0 +1,301 @@
+Feedback: good
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): iam fine what about you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): do you pet have any name
+Bot(3): i do not have any pets , but i do like to go fishing .
+User(4): fishing yeah its really interesting
+Bot(4): i love to go fishing .
+User(5): even i do
+Bot(5): i like to go to the gym and listen to music .
+User(6): i like music
+Bot(6): i like to listen to music .
+User(7): what is your favorite genre
+Bot(7): i like the color red . what is yours ?
+User(8): mine is also red
+Bot(8): i like the color red . i like red .
+User(9): i like red more than you do
+Bot(9): i like to go to the gym and listen to music .
+User(10): i dont go to gym
+Bot(10): i like to go to the lake and listen to music .
+User(11): i love boat racing
+Bot(11): i like to go to the lake and listen to music .
+User(12): what is your favorite song
+Bot(12): i like the color red . what is yours ?
+User(13): red
+Bot(13): i like to go to the gym and listen to music .
+User(14): you are so boring
+Bot(14): i am a student , but i am a student .
+User(15): iam a emplyee
+Bot(15): i like to eat too much junk food .
+User(16): i wont eat too much
+Bot(16): i like to eat too much junk food .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: good(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.00
+Robotic(↓): 44
+Interesting: 69
+Fun: 82
+Consistent: 70
+Fluent: 63
+Repetitive(↓): 92
+Topic: 30
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what is your favorite food
+Bot(2): same
+User(3): pasta
+Bot(3): i like pasta much and i like fusion
+User(4): yeah i love it too
+Bot(4): pasta is my favorite and it is cheap
+User(5): what about desserts
+Bot(5): i love desserts . cakes are awesome
+User(6): i love icecreams
+Bot(6): i like cookie and creams
+User(7): stawberry icecreams are my favorite
+Bot(7): i like desserts , my fave is brownies
+User(8): chocolates
+Bot(8): i like cookie and creams
+User(9): always sounds good
+Bot(9): what is your favorite
+User(10): strawberry donut with chocolate layer
+Bot(10): that would be delicious to
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.57
+Robotic(↓): 45
+Interesting: 55
+Fun: 79
+Consistent: 61
+Fluent: 64
+Repetitive(↓): 61
+Topic: 29
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , it is raining cats and dogs here . how are you ?
+User(2): iam fine
+Bot(2): good . do you have any pets ?
+User(3): a cat
+Bot(3): i have cats and dogs
+User(4): lovely
+Bot(4): its a beautiful day out
+User(5): yes it is
+Bot(5): its a beautiful day out
+User(6): i love rain
+Bot(6): i wish it will rain again
+User(7): ya sure
+Bot(7): i wish it will rain again
+User(8): it will rain again soon
+Bot(8): hopefully it does i like rain
+User(9): i love getting drained
+Bot(9): i wish it will rain again
+User(10): yes it will i think so
+Bot(10): i wish it will rain again
+User(11): then
+Bot(11): i wish it will rain again
+User(12): do you use umbrella
+Bot(12): yes , but depends on what it is on
+User(13): you dont like to drain
+Bot(13): no i just do not want to use it
+
+Persona:
+i enjoy mowing my lawn on sunny days.
+i like to go hiking in the mornings to see the sunset.
+i've rainbow hair.
+i have a dogs.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.86
+Robotic(↓): 39
+Interesting: 56
+Fun: 60
+Consistent: 66
+Fluent: 64
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): i'm 20 years old and i love to work in the you disney world. you?
+User(2): do like fashion designing
+Bot(2): I do as a instruments jokes.
+User(3): i dont like it
+Bot(3): I am 22 like my job, a boyfriend
+User(4): very funny
+Bot(4): that's cool brother is a horse mom of a mom
+User(5): hey what
+Bot(5): I am so tired. I hard all your you a loner.
+User(6): no
+Bot(6): I Nice to meet play tennis.
+User(7): even i play tennis
+Bot(7): Do you won't feel cook?
+User(8): no not
+Bot(8): i do not have 🈶 to have a job pizza
+User(9): a job pizza
+Bot(9): i love being a guy fun! How old is about fiction
+User(10): its about 3
+Bot(10): ok have bye
+User(11): i love fashion
+Bot(11): horses are cool . instruments like guitar .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fashion(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.86
+Robotic(↓): 41
+Interesting: 52
+Fun: 37
+Consistent: 33
+Fluent: 33
+Repetitive(↓): 42
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): i am doing well , passing my days as a uni student . you ?
+User(3): iam good enjoying my life
+Bot(3): i am retired . i am 70 .
+User(4): how was the climate there
+Bot(4): do you know what hot sweaty farts smell like out here ? they smell good .
+User(5): iam 55 will retire soon
+Bot(5): that would be nice , i am retired . i am activist . environmental
+User(6): that so good
+Bot(6): i live in texas for college , i moved here , but i am waiting a year before starting
+User(7): where are you from?
+Bot(7): i am from california , but just moved to florida . what about you ?
+User(8): iam from illinois
+Bot(8): do you do anything for fun now that you are retired ?
+User(9): still not
+Bot(9): no longer i m a teacher for six grade
+User(10): i wish i could be a teacher after my retirement
+Bot(10): that is cool i wish i could retire my barista job and just read the bible all day
+
+Persona:
+hello i just moved here from germany.
+i do not drink or do drugs or anything.
+i love wearing skinny jeans and leggings.
+i'm a retired gym teacher.
+i live in a house.
+
+Topic and Human Opinion:
+Beginning: climate(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.57
+Robotic(↓): 34
+Interesting: 76
+Fun: 68
+Consistent: 77
+Fluent: 77
+Repetitive(↓): 57
+Topic: 31
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): playing tennis
+Bot(2): tennis is fun i play tennis
+User(3): what about you
+Bot(3): tennis is fun i play tennis
+User(4): do you like to dress up daily
+Bot(4): i love to dress up
+User(5): what style do you prefer
+Bot(5): i like to dress up on the weekends
+User(6): i often dress up
+Bot(6): i love to dress up
+User(7): do you go to clubs on weekend
+Bot(7): i like to go to clubs
+User(8): well i often go
+Bot(8): i go to clubs and clubs
+User(9): yeah
+Bot(9): i go to clubs and clubs
+User(10): shall we meet
+Bot(10): you sound like a nice person
+User(11): you are so smart
+Bot(11): you are welcome to me
+User(12): so good
+Bot(12): you are welcome to the club
+User(13): nice to chat with you
+Bot(13): you are welcome to come visit me sometime
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dress(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.29
+Robotic(↓): 56
+Interesting: 68
+Fun: 76
+Consistent: 74
+Fluent: 82
+Repetitive(↓): 80
+Topic: 79
+
+####################
+

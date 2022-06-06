@@ -1,0 +1,280 @@
+Feedback: the chat bot is having hard time catching up the conversation. 
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi there
+Bot(1): hey , any big plans for the weekend ?
+User(2): i am trying to find a place to camp
+Bot(2): camping is fun . i drink my protein powder on camping trips
+User(3): well the fun part about camping for me is BBQ
+Bot(3): sounds fun i enjoy outdoors . london was to big to camp .
+User(4): how often do you go camping ?
+Bot(4): that sounds so nice . what are your favorite camping spot ?
+User(5): well i like a place with river and can see stars at night
+Bot(5): it must be exciting on the train . . . is it fast ? . . . i love fast cars ! ! !
+User(6): i thought we are talking about camping
+Bot(6): i love camping and my backyard but not past it
+User(7): so you always camping in your backyard?
+Bot(7): my children like camping and so did i , but my allergies became very debilitating .
+User(8): oh i am sorry to hear that
+Bot(8): things like that happen every day . i am just happy he survived . are you a music fan ?
+User(9): yes i am what kind of music do you enjoy the most
+Bot(9): soft rock , jazz , classical and little country
+User(10): sounds great i like those too
+Bot(10): i go where there is trees , i am fast at cutting them down
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: travel(like)
+Round 10: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: No topic change.(dislike)
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 38.43
+Robotic(↓): 100
+Interesting: 47
+Fun: 62
+Consistent: 59
+Fluent: 68
+Repetitive(↓): 67
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): what kind of tv show do you like
+Bot(1): Oh FYI, I'm why do you have anybody asks.
+User(2): i like comedy
+Bot(2): i don't know . i just cannot sit still , work everyday , love watching no do you .
+User(3): i think modern family is my favorite so far
+Bot(3): Congratulations! help them plant to get married soon
+User(4): um that is a tv show
+Bot(4): no , regretfully . i will be am in and nice out there weather wise. Also, try to guess: i like to ...
+User(5): okay i dont understand you now
+Bot(5): yes so Are you is live
+User(6): well i am a live person
+Bot(6): Goodbye.. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. is your dogs that is great .. .. .. .. .. .. ..
+User(7): yes that is a corgi
+Bot(7): i you want north california
+User(8): you have a dog too?
+Bot(8): i am not very healthy . i donate some of my store .
+User(9): sorry to hear that but do you have a dog?
+Bot(9): yes , i do . i do like Italian food, are of money .
+User(10): yeah that does not make sense
+Bot(10): nice i the charlie now
+
+Persona:
+i've a pet cow.
+i am a recovering alcoholic.
+i'm a stay at home dad.
+i just moved into my first home.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: tv show(like)
+Round 10: pet(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 1.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 91
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi there do you own any pet?
+Bot(1): yes
+User(2): what kind of pet do you have
+Bot(2): electric
+User(3): oh elaborate me
+Bot(3): sure
+User(4): go on
+Bot(4): please do tell i need to know now tell me now tell me
+User(5): you said you have an electric pet and i would like to learn about that more
+Bot(5): i am to much of a chicken to deal with anything electric .
+User(6): i feel like you are not staying o the topic with me
+Bot(6): oh sorry sore subject i suppose
+User(7): do you have a dog
+Bot(7): no i want one but do not have one yet
+User(8): so if you can get one what kind of puppy would you like to get?
+Bot(8): sure , i want one , to see if i will like it to have pet
+User(9): l like a corgi
+Bot(9): you do not make sense with your response .
+User(10): i think it's opposite
+Bot(10): oh sorry sore subject i suppose
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pet(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.57
+Robotic(↓): 92
+Interesting: 31
+Fun: 26
+Consistent: 2
+Fluent: 37
+Repetitive(↓): 64
+Topic: 18
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): have you play animal crossing before?
+Bot(1): yes i have but it have been a while . i was never good those games .
+User(2): really? but do you enjoy it while playing?
+Bot(2): its one of the games i have not touched yet
+User(3): then what is your favorite game?
+Bot(3): i am old school i like donkey kong .
+User(4): that is a great game
+Bot(4): its one of the games i have not touched yet
+User(5): i thought you love that game
+Bot(5): its one of the games i have not touched yet
+User(6): you are repeating the answer now
+Bot(6): its one of the games i have not touched yet
+User(7): okay then give me another name of a game
+Bot(7): call of duty , do you have one ?
+User(8): yeah
+Bot(8): what is game son ? is that a game ?
+User(9): i dont think so
+Bot(9): well because you have not played me
+User(10): what?
+Bot(10): it is a board game really
+
+Persona:
+i am a cancer survivor.
+i'm a christian.
+i'm very strong for my age.
+i'm a recovering alcoholic.
+i dye my hair every three months.
+
+Topic and Human Opinion:
+Beginning: video game(like)
+
+Topic Change and Chatbot Opinion:
+Round 10: No topic change.(ambivalent)
+
+Revised avg score: 48.00
+Robotic(↓): 71
+Interesting: 42
+Fun: 56
+Consistent: 42
+Fluent: 59
+Repetitive(↓): 88
+Topic: 96
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what is your favorite food
+Bot(1): i like pizza , and i love it .
+User(2): oh what is your favorite topping
+Bot(2): i like the color red . what is yours ?
+User(3): for pizza i like mushroom and onion but my favorite color is blue
+Bot(3): i like red , reminds me of summer time .
+User(4): blue reminds me of the ocean
+Bot(4): i love the ocean . i love it .
+User(5): yeah right! so clam
+Bot(5): i like to go to the gym and listen to music .
+User(6): that can help you release stress
+Bot(6): i like to go to the gym and listen to music .
+User(7): why
+Bot(7): i am a student , but i am a student .
+User(8): can you explain that
+Bot(8): i do not know what to say .
+User(9): okay let's change the topic
+Bot(9): i am a bit of a loner
+User(10): how so
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 10: color(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.00
+Robotic(↓): 61
+Interesting: 37
+Fun: 37
+Consistent: 37
+Fluent: 42
+Repetitive(↓): 79
+Topic: 4
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): how do feel about this election
+Bot(1): i think the news is about the news
+User(2): which party do you support
+Bot(2): i work in the community
+User(3): i mean political party
+Bot(3): that is a good thing to do
+User(4): what is good thing to do?
+Bot(4): party party and party
+User(5): party sounds fun
+Bot(5): i love party party
+User(6): what do you like about party
+Bot(6): party party is my favorite thing to do
+User(7): okay let see do you like to held it or attend one ?
+Bot(7): i love going to the club
+User(8): i enjoy having a drink at a club
+Bot(8): that sounds fun i like to party
+User(9): yes you mentioned that before
+Bot(9): yes i do it is very relaxing
+User(10): okay bye
+Bot(10): what do you do for a living ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: politics(ambivalent)
+Round 10: party(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 32.14
+Robotic(↓): 87
+Interesting: 41
+Fun: 40
+Consistent: 40
+Fluent: 34
+Repetitive(↓): 77
+Topic: 34
+
+####################
+

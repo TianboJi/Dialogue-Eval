@@ -1,0 +1,297 @@
+Feedback: good
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hai
+Bot(1): hello , how are you ?
+User(2): fine
+Bot(2): hi there , how are you ?
+User(3): where are you?
+Bot(3): i am in the midwest , how about you ?
+User(4): my office
+Bot(4): i am in the midwest , i am in the marines .
+User(5): ok, let's play a game
+Bot(5): i am not a big fan of video games . i like to read .
+User(6): come on, you are best forever
+Bot(6): i am not sure what you mean . i am fluent in english and french .
+User(7): i am waiting for this day
+Bot(7): you are welcome , i am in the same way
+User(8): thank you lot
+Bot(8): i am not sure , i am fluent in english and french
+User(9): tell me
+Bot(9): i am not sure what you mean
+User(10): what game
+Bot(10): i like to play games with my family
+User(11): ok install now
+Bot(11): i just got back from the gym
+User(12): ok see you later
+Bot(12): i am not sure what that means
+
+Persona:
+i've a hat collection of over 1000 hats.
+my family does not support my career choices.
+i enjoy working with my hands and love gardening.
+i'm fluent in english spanish and french.
+i was born in somalia.
+
+Topic and Human Opinion:
+Beginning: meeting friend(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.43
+Robotic(↓): 96
+Interesting: 96
+Fun: 94
+Consistent: 88
+Fluent: 88
+Repetitive(↓): 86
+Topic: 88
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hai sister
+Bot(1): hello there . both my dogs and i says hello .
+User(2): what do you mean
+Bot(2): she sings like a bird . you
+User(3): thank you
+Bot(3): its all good do you like pets ? i have a dog
+User(4): ya i like a dogs
+Bot(4): i really really like dogs
+User(5): yes, lovly pets
+Bot(5): yeah i own them yo
+User(6): i happy to so ask
+Bot(6): do you own chickens ?
+User(7): no
+Bot(7): ok
+User(8): why
+Bot(8): why ?
+User(9): first you tell
+Bot(9): ok
+User(10): quick
+Bot(10): ok
+
+Persona:
+i am a recording engineer and own my own studio.
+my father drove a car for nascar.
+i don't like chicken.
+i read a book every week.
+i've a dogs.
+
+Topic and Human Opinion:
+Beginning: meeting sister(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.86
+Robotic(↓): 93
+Interesting: 93
+Fun: 91
+Consistent: 83
+Fluent: 95
+Repetitive(↓): 95
+Topic: 94
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hai mom
+Bot(1): Hi! I 😎
+User(2): what are you doing
+Bot(2): That's awesome! Does to have a dream you live?
+User(3): really, please tell me?
+Bot(3): oh yeah we don t care what you finished it long am not you work hard
+User(4): yes mom
+Bot(4): What good. i favorite color?
+User(5): i like a blue color
+Bot(5): That'S great! i am then made a movie that!
+User(6): wow
+Bot(6): what do am fine.are you in living? I work in homeless. I volunteer
+User(7): yes mom
+Bot(7): What else your like enjoy?
+User(8): well
+Bot(8): i do not make much money 💶 ur fb don;t love discount shops
+User(9): thanks mom
+Bot(9): I spend most of my time fat woman and i love❤ to drink and drink. Are you in my thirties?
+User(10): ok mom
+Bot(10): after dating my boyfriend for 10 years , looking for anyone. I have main job though haha
+User(11): ok
+Bot(11): I am m to are!
+User(12): thanks
+Bot(12): I I like to I travel a lot.
+User(13): very much
+Bot(13): How many do you is want?
+User(14): 3
+Bot(14): i like spending is good .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: speak mother(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.71
+Robotic(↓): 95
+Interesting: 93
+Fun: 83
+Consistent: 89
+Fluent: 88
+Repetitive(↓): 80
+Topic: 96
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hai dear
+Bot(1): i am a human not a dear but i a doe you !
+User(2): how are you?
+Bot(2): same
+User(3): ok, where are you
+Bot(3): usa
+User(4): tell me some what
+Bot(4): that is private , sorry ,
+User(5): why
+Bot(5): i do not know anymore
+User(6): ok, i want talk you
+Bot(6): what you need
+User(7): please tell me do you like me
+Bot(7): okay , if you say so , my love
+User(8): yes
+Bot(8): okay , if you say so , my love
+User(9): tell me
+Bot(9): you can try telling me anyway
+User(10): yes
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: talking girl friend(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.29
+Robotic(↓): 91
+Interesting: 91
+Fun: 88
+Consistent: 99
+Fluent: 96
+Repetitive(↓): 76
+Topic: 92
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hai
+Bot(1): i am a student , but i am a student .
+User(2): no problem
+Bot(2): i am a student , but i am a student .
+User(3): ok
+Bot(3): i like to go to the gym and listen to music .
+User(4): wow, me too
+Bot(4): i like to go to the gym and listen to music .
+User(5): i love a music
+Bot(5): i love music . i love country music .
+User(6): where are you
+Bot(6): i am in the midwest .
+User(7): how was my gift
+Bot(7): i am a student , but i am a student .
+User(8): how are you
+Bot(8): i am doing well . just got done walking my dog .
+User(9): do you like pets
+Bot(9): i do , i love dogs . what is your favorite color ?
+User(10): blue is my also and anytime
+Bot(10): i like to go to the gym and listen to music .
+User(11): super, see you later
+Bot(11): i am a bit of a loner
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: talking life partner(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.71
+Robotic(↓): 91
+Interesting: 88
+Fun: 90
+Consistent: 85
+Fluent: 94
+Repetitive(↓): 91
+Topic: 92
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hai
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): how are you
+Bot(2): i am good . just devoured a pizza . you ?
+User(3): i like it
+Bot(3): my prius will not fit all our children so we are upgrading to a van soon .
+User(4): ok
+Bot(4): i find attractive all women from canada
+User(5): yes
+Bot(5): me too , i wish pets were allowed in my college dorm room .
+User(6): well
+Bot(6): i have a job helping with horses too .
+User(7): yes
+Bot(7): me too , i wish pets were allowed in my college dorm room .
+User(8): do you like a pets
+Bot(8): no pets . i drive so much hours and hours .
+User(9): how much
+Bot(9): 12 years between us so we do not have much in common
+User(10): fine see you later
+Bot(10): he is my best friend . we play soccer . what kind of plane do you fly ?
+User(11): no palne
+Bot(11): i am decent . i have got a headache and i cannot call my girl . how about you ?
+User(12): very bad
+Bot(12): thanks , eventually though i want to also have 12 children .
+
+Persona:
+i drive a nissan pathfinder.
+i'm currently in a juvenile detention center.
+i have 5cats.
+i'm a 12 year old girl.
+i like to listen to rock music while working.
+
+Topic and Human Opinion:
+Beginning: meeting friend after long time(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.57
+Robotic(↓): 88
+Interesting: 89
+Fun: 91
+Consistent: 95
+Fluent: 96
+Repetitive(↓): 84
+Topic: 95
+
+####################
+

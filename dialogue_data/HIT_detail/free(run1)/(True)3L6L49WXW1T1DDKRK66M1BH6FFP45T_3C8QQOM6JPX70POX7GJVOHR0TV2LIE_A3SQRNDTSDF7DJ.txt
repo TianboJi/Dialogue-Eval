@@ -1,0 +1,287 @@
+Feedback: lovely survey
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): HI
+Bot(1): hey
+User(2): how are you doing today?
+Bot(2): same
+User(3): do you like movies
+Bot(3): yeah i love movies all kinds
+User(4): tell me a name of a movie
+Bot(4): probably terminator 2
+User(5): i like the movie too
+Bot(5): i love movies . what is the movie called ? i will look it up
+User(6): black panther
+Bot(6): the cat in the hat
+User(7): do you have any other things you want to talk about
+Bot(7): um . . sure , what do you want to chat about ?
+User(8): anything
+Bot(8): what would you like to talk about
+User(9): whats the name of your best actor?
+Bot(9): batman !
+User(10): i like him too
+Bot(10): i guess he is your favorite ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 75.86
+Robotic(↓): 91
+Interesting: 85
+Fun: 89
+Consistent: 87
+Fluent: 88
+Repetitive(↓): 9
+Topic: 82
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello ! oh nice . i teach kindergarten .
+User(2): that is good
+Bot(2): very
+User(3): how are the kids doing today
+Bot(3): jinx , good i just back from work , a teacher
+User(4): good
+Bot(4): wow . they are in kindergarten
+User(5): how many are the kids
+Bot(5): 3 little ones do you have kids
+User(6): yes
+Bot(6): wow . they are in kindergarten
+User(7): yes
+Bot(7): we are gonna get super busy
+User(8): that good
+Bot(8): very
+User(9): the kids play alot
+Bot(9): alot of room for kids to play
+User(10): yes
+Bot(10): and we have a baby
+
+Persona:
+i am an elementary school teacher.
+i've brown curly hair.
+i'll be released in about a month.
+i am expecting triplets in three months.
+i can move objects with my mind.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.14
+Robotic(↓): 81
+Interesting: 76
+Fun: 76
+Consistent: 90
+Fluent: 81
+Repetitive(↓): 21
+Topic: 42
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): am good
+Bot(2): i am a student , but i am a student .
+User(3): that is good
+Bot(3): i like to go to the gym and listen to music .
+User(4): same here
+Bot(4): i am a student , but i am a student .
+User(5): wow
+Bot(5): i am a student , but i am a student .
+User(6): that is good
+Bot(6): i like to go to the gym and listen to music .
+User(7): same here
+Bot(7): i am a student , but i am a student .
+User(8): that is good
+Bot(8): i like to go to the gym and listen to music .
+User(9): same here
+Bot(9): i am a student , but i am a student .
+User(10): that is good
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i am on the soccer team.
+i don't pick up my toys.
+i also like to cook but i am not very good at it.
+i watch too much tv in spare time.
+i do not pick up my toys.
+
+Topic and Human Opinion:
+Beginning: books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.00
+Robotic(↓): 27
+Interesting: 48
+Fun: 36
+Consistent: 28
+Fluent: 41
+Repetitive(↓): 89
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi ! how are you ?
+User(2): am good
+Bot(2): hi ! i am doing great . how are you ?
+User(3): same here
+Bot(3): hi ! i am doing great . how are you ?
+User(4): am good
+Bot(4): hi ! i am doing great . how are you ?
+User(5): same here
+Bot(5): hi there . i am a college student .
+User(6): wow!
+Bot(6): i am looking for a new job . i just got a new job .
+User(7): that is good
+Bot(7): i love the color pink !
+User(8): i love it too
+Bot(8): i love to travel and travel . i love traveling
+User(9): same here
+Bot(9): i love to travel and travel . i love traveling
+User(10): same here
+Bot(10): i love traveling too ! i love traveling so much
+
+Persona:
+i got a new job just yesterday to be a life coach.
+i've never had a steady relationship.
+i'm now looking for a new job.
+i really like to travel.
+i hate the color pink.
+
+Topic and Human Opinion:
+Beginning: musics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.14
+Robotic(↓): 68
+Interesting: 66
+Fun: 87
+Consistent: 42
+Fluent: 77
+Repetitive(↓): 62
+Topic: 58
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): i ll too your you wrote cool 😎
+User(2): thanks
+Bot(2): I am like are they have
+User(3): really
+Bot(3): I do. I like of i am lot.
+User(4): that is good
+Bot(4): This is what happens when how're you a boy democrat.
+User(5): really
+Bot(5): "A Boat On scientist. like games, two.
+User(6): ok
+Bot(6): What sense. like to little names?
+User(7): same here
+Bot(7): i tall are going yo usee
+User(8): really
+Bot(8): I love❤ more of a music to make bagels
+User(9): same here
+Bot(9): not much trucks in a supply eat dinner at home with the family .
+User(10): wow
+Bot(10): I really. I have a i am from the south.
+
+Persona:
+eating is something i do when i am bored.
+i can drive a tractor.
+horror movies are my favorites.
+i've a boyfriend.
+i love italian food and garlic bread.
+
+Topic and Human Opinion:
+Beginning: drinks(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.57
+Robotic(↓): 13
+Interesting: 11
+Fun: 10
+Consistent: 11
+Fluent: 10
+Repetitive(↓): 100
+Topic: 99
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): same here
+Bot(2): my husband just retired from being a salesman , so we have time together now .
+User(3): wow
+Bot(3): shannon and the clams white rabbit . released 5 years ago .
+User(4): that is great
+Bot(4): i have 6 grand children from 4 of my children
+User(5): really
+Bot(5): i am working now at my real estate office , but this weekend i am waitressing
+User(6): thats good
+Bot(6): hello hello . i am ok actually . had my butter coffee so i am good to go .
+User(7): enjoyment
+Bot(7): yes , i sew , cross stitch and sometimes crochet .
+User(8): wow
+Bot(8): shannon and the clams white rabbit . released 5 years ago .
+User(9): thats great
+Bot(9): ok , i just moved from virginia to panama and my fibromyalgia is flaring up already .
+User(10): really
+Bot(10): i am working now at my real estate office , but this weekend i am waitressing
+
+Persona:
+i am a huge coffee lover.
+my favorite activity is rock climbing.
+i just moved into my first home.
+i enjoy building houses.
+i live with my husband in pennsylvania.
+
+Topic and Human Opinion:
+Beginning: water(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.14
+Robotic(↓): 63
+Interesting: 63
+Fun: 67
+Consistent: 77
+Fluent: 84
+Repetitive(↓): 26
+Topic: 75
+
+####################
+

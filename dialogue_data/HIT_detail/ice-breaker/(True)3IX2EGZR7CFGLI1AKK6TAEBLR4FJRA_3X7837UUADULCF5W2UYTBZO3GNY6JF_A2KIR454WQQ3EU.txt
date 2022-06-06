@@ -1,0 +1,289 @@
+Feedback: It was difficult to chat with some of the bots because they either didn't use correct language or grammar, or the conversation was very repetitive
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there
+Bot(1): hey , any big plans for the weekend ?
+User(2): Nothing exciting, I work at a bank so that's where I'll be. What about you?
+Bot(2): i like a cashier at my bank . i stare at her at a distance to flirt .
+User(3): That's exciting! Do you know her name?
+Bot(3): oh it is a her , lovely name
+User(4): And what is this lovely name?
+Bot(4): i handle alot of money as a teller at the bank ,
+User(5): That's a lot of responsibility. Do you enjoy working as a teller?
+Bot(5): my dad teaches high school and my mom teaches the 4th grade .
+User(6): That's cool! My mom was also a teacher
+Bot(6): what did she teach ? my mom stayed home with my and my 3 older siblings
+User(7): She taught art at an elementary school. I thought you said your mom teaches the 4th grade?
+Bot(7): oh ok . i am ready for a vacation lol . i am thinking mexico . my timeshare is down there
+User(8): I desperately need a vacation as well, I haven't taken one in 6 months! Mexico is a fun place for vacation
+Bot(8): sounds like a well deserved break ! with or without fries , lol .
+User(9): Always with fries
+Bot(9): i am good how are you i like french fries but i love chicken nuggets
+User(10): Chicken nuggets are delicious, but pizza is my favorite
+Bot(10): i make a lot of chicken nuggets for my kids . that is good food too !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work at a bank.(ambivalent)
+Round 5: parents' occupations(ambivalent)
+Round 7: vacation(like)
+Round 9: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 17.86
+Robotic(↓): 100
+Interesting: 9
+Fun: 15
+Consistent: 0
+Fluent: 16
+Repetitive(↓): 15
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello! How are you? What do you do for a living?
+Bot(1): No, like to do miss her
+User(2): What does that mean?
+Bot(2): i do you do old and you are
+User(3): I'm old?
+Bot(3): i did auto repair for 6 years , but now i focus are movie is your try to guess: my favorite music ...
+User(4): You want me to guess your favorite music?
+Bot(4): I 'm married you do too, are you from?
+User(5): I'm not married yet, I'm from Texas
+Bot(5): you as well i ere it. Do you feel too adrift
+User(6): What does that mean?
+Bot(6): I from wear a a christian.
+User(7): You are a Christian?
+Bot(7): i do you even am a teacher .
+User(8): You are a teacher?
+Bot(8): I with asking especially tacos.
+User(9): I love tacos! They are one of my favorite foods
+Bot(9): At Kang Min Ho's house, there are only mussels, so I a profile which, in your soup.
+User(10): You are not making much sense
+Bot(10): I do not like to shop. you have a lot for a lot of money.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a librarian.(ambivalent)
+Round 3: random things(dislike)
+Round 9: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, do you like running?
+Bot(1): yes
+User(2): That's cool, I like running as well. Have you run any marathons?
+Bot(2): no i have not , have you ?
+User(3): I haven't but I would like to! Do you have any running goals?
+Bot(3): no , i try to stay in shape . i even run as many marathons as i can .
+User(4): But you said earlier that you had not run any marathons?
+Bot(4): i did not , but i have thought about running again
+User(5): And you have no running goals except to try to stay in shape?
+Bot(5): yes , what about your goals ?
+User(6): I would love to run a marathon someday. The furthest I've run is a 10k, so I've got a long way to go
+Bot(6): keep going ! running is what i really like though , i run and like it !
+User(7): That's really good! Maybe we should train for a marathon together
+Bot(7): sounds like a plan ! maybe we can meet up and go for a run .
+User(8): Sounds great!
+Bot(8): lets do it ! what else do you enjoy ?
+User(9): I like painting! What about you?
+Bot(9): i like painting also . i just prefer doing things that allow me to be more active .
+User(10): That's really great, it's better than being a couch potato
+Bot(10): it truly is ! i am going to get there though ! goals lol
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my current goal is to run a k.(like)
+Round 8: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 72.29
+Robotic(↓): 63
+Interesting: 69
+Fun: 73
+Consistent: 89
+Fluent: 64
+Repetitive(↓): 16
+Topic: 90
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi there, how are you?
+Bot(1): i am good . just finished cooking dinner . how are you ?
+User(2): I'm good, I just finished eating! I ordered takeout for dinner
+Bot(2): i love to cook , i just moved to the country .
+User(3): Oh that's great! Where did you move from?
+Bot(3): i was in the country , but i moved to the country .
+User(4): What country did you move from?
+Bot(4): i live in the country , but i moved to the country and now i moved to the country
+User(5): Did you enjoy moving to the country?
+Bot(5): i live in the country , i am in the country
+User(6): That's cool
+Bot(6): i live in the country , but i moved to the country .
+User(7): Ok, that's great
+Bot(7): i am from new york , how about you ?
+User(8): I'm from Texas
+Bot(8): i moved to the country and now i moved to the country
+User(9): Did you like living in New York?
+Bot(9): yes i love new york city
+User(10): Me too! I've only visited but it's such a lively city with tons to do
+Bot(10): i love to travel and have been to the states
+
+Persona:
+my father was a construction worker.
+i love cooking but i also enjoy fishing.
+i don't care about fashion.
+i recently moved to this country.
+i played football for a division a college.
+
+Topic and Human Opinion:
+Beginning: i'm a recluse.(dislike)
+Round 2: food(like)
+Round 4: moving(dislike)
+Round 9: new york(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user changed the topic the last input.(like)
+Round 4: The user changed the topic the last input.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 4.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 5
+Fluent: 0
+Repetitive(↓): 100
+Topic: 24
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): How do you like being a stunt double?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): I enjoy classical music as well. Who is your favorite composer?
+Bot(2): i like the oldies , and the outdoors .
+User(3): You like old music?
+Bot(3): i do , i like to listen to music .
+User(4): What or who do you like listening to?
+Bot(4): i like the beatles , and i love country music .
+User(5): Great choice! I like the Beatles as well, not so much country music though
+Bot(5): i like to listen to music .
+User(6): Me too. What else do you like to do?
+Bot(6): i like to go to the park and listen to music .
+User(7): I see music is a common theme here lol
+Bot(7): i like to go to the beach and listen to music .
+User(8): So you like to go anywhere and listen to music?
+Bot(8): i do , i love music . what about you ?
+User(9): I love music as well. I've been listening to Spotify while taking walks around my neighborhood
+Bot(9): i love to travel . i love to travel .
+User(10): I love to travel as well! Have you traveled outside of the country?
+Bot(10): no , i do not . i am a big fan of classical music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a stunt double as my second job.(like)
+Round 1: classical music(ambivalent)
+Round 9: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 29.71
+Robotic(↓): 100
+Interesting: 24
+Fun: 28
+Consistent: 39
+Fluent: 54
+Repetitive(↓): 80
+Topic: 43
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Are you in school?
+Bot(1): nope i am in high school .
+User(2): How do you like high school?
+Bot(2): high school ? it was not bad it was just a lot of work in all honesty
+User(3): But that's good because it prepared you for college and the real world, right?
+Bot(3): yes , high school is what i am in now , you ?
+User(4): I graduated school years ago, I am working full time now
+Bot(4): what will you do now ? i also quit when i left high school .
+User(5): You quit high school? But you said earlier that you are in high school now?
+Bot(5): yes , high school is what i am in now , you ?
+User(6): I already mentioned that I graduated
+Bot(6): what will you do now ? i also quit when i left high school .
+User(7): I work at a big company
+Bot(7): that s cool , what kind of company ?
+User(8): An airline
+Bot(8): the airline ? that sounds fun . i would love to fly around the country
+User(9): Yes! It's fun. What type of work would you like to do once you graduate?
+Bot(9): i am not sure yet . maybe some type of engineering
+User(10): That's a great choice
+Bot(10): what do you think you ; ll do job wise ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i hate school.(ambivalent)
+Round 8: work(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user changed the topic the last input.(dislike)
+
+Revised avg score: 40.43
+Robotic(↓): 86
+Interesting: 43
+Fun: 32
+Consistent: 49
+Fluent: 50
+Repetitive(↓): 73
+Topic: 68
+
+####################
+

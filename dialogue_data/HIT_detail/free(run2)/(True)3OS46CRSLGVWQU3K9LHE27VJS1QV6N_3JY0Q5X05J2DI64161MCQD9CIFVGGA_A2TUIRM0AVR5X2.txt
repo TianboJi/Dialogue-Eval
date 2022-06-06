@@ -1,0 +1,312 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello what do you think of donald trump?
+Bot(1): i am not fan of trump , never was . what about you ?
+User(2): i dont like him either, what dont you like about him?
+Bot(2): i am not fan of trump , never was . what about you ?
+User(3): do you like trumps wife?
+Bot(3): i am not fan of trump , never was . what about you ?
+User(4): do you think he is doing a good job as president?
+Bot(4): i am not fan of trump , never was . what about you ?
+User(5): I miss when obama was president
+Bot(5): donald trump was not a good choice , he is the devil
+User(6): i agree with you he is the devil. what dont you like about him?
+Bot(6): donald trump was not a good choice , he is the devil
+User(7): Im about to make some cookies. do you like cookies?
+Bot(7): what kind of cookies are they ?
+User(8): chocolate chip, do you like chocolate chip?
+Bot(8): i like chocolate chip cookies
+User(9): do you like oatmeal cookies?
+Bot(9): i do , cookie and fudge .
+User(10): do you know how to bake cookies?
+Bot(10): sure , would you believe i aslo bake ?
+User(11): that is hard to believe since youre a bot
+Bot(11): i like robots , but chocolate chip cookies are my kryptonite
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: donald trump(dislike)
+Round 4: obama(like)
+Round 5: trump(dislike)
+Round 6: baking(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 20.43
+Robotic(↓): 100
+Interesting: 17
+Fun: 0
+Consistent: 84
+Fluent: 12
+Repetitive(↓): 100
+Topic: 30
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I enjoy world of warcraft have you heard of it?
+Bot(1): I to talk with you just bought a new car.
+User(2): oh wow. what kind of car is it?
+Bot(2): I am like drive girl, thats watching the news
+User(3): you drive your car like a girl?
+Bot(3): I teach English, to britney spears. i high school
+User(4): what is it like teaching english?
+Bot(4): I And not studying. named radar
+User(5): your name is radar?
+Bot(5): really ? a follow of course. can you give me free burgers ?
+User(6): No you have to pay for burgers
+Bot(6): that is awesome veterinarian i love helping do ?
+User(7): i love to help animals too. what animals do you help?
+Bot(7): I am a mother of two years, so i Calls the police... She school.
+User(8): why did you call the police?
+Bot(8): Snakes are cool😎. like beatles want to with them.
+User(9): I like snakes too. do you like cows?
+Bot(9): I like my farm and bees, I play music
+User(10): what kind of music do you play?
+Bot(10): oh i you like it haven't needs some time
+
+Persona:
+my favourite skater is rob dryden.
+i am terrified of scorpions.
+i have visited spain a times.
+my favorite food is mexican food.
+i have rainbow hair.
+
+Topic and Human Opinion:
+Beginning: video games(like)
+Round 1: cars(like)
+Round 3: teaching english to britney spears(like)
+Round 4: chatbot name(like)
+Round 5: burgers(like)
+Round 6: veterinarian(like)
+Round 7: mother. police. school(ambivalent)
+Round 8: snakes(like)
+Round 9: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like cars?
+Bot(1): i am a coffee fanatic , yes !
+User(2): how do you take your coffee?
+Bot(2): i love coffee with carmel
+User(3): I like coffee with mocha. do you like light or dark roast coffee?
+Bot(3): i do like ipa s . i also make my own coffee too .
+User(4): do you use a Keurig machine or a drip coffee maker
+Bot(4): i am a coffee fanatic , yes !
+User(5): what about coffee do you like?
+Bot(5): personally i find it more like any time of the day food
+User(6): coffee is a drink not food
+Bot(6): do you mean making it or eating it ?
+User(7): i mean making and drinking coffee
+Bot(7): do you mean making it or eating it ?
+User(8): do you like tea?
+Bot(8): yeah but i prefer coffee
+User(9): what kind of tea do you like?
+Bot(9): i like asian style tea
+User(10): do you like green tea?
+Bot(10): yeah but i prefer coffee
+
+Persona:
+eating is something i do when i am bored.
+i'm a huge coffee lover.
+two dogs live with me.
+i spend a lot of time browsing the internet.
+i fantasize about taking over the world.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+Round 1: coffee(like)
+Round 7: tea(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 40.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 74
+Fluent: 27
+Repetitive(↓): 0
+Topic: 81
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what kind of food do you like?
+Bot(1): i like pizza , and pizza .
+User(2): do you like breadsticks?
+Bot(2): i do , i like to go out to eat with my family .
+User(3): where do you go out to eat?
+Bot(3): i love to cook , and eat pizza .
+User(4): what food do you cook?
+Bot(4): i like pizza and pizza .
+User(5): do you hate pizza?
+Bot(5): i do not , but i do like to eat .
+User(6): what do you like to eat besides pizza?
+Bot(6): i like pizza , and pizza .
+User(7): do you like meatballs?
+Bot(7): i do , i like to eat .
+User(8): do you spaghetti?
+Bot(8): i do not , but i do like to eat .
+User(9): do you like to cook pizza?
+Bot(9): i do , i love it .
+User(10): what do you love about cooking pizza?
+Bot(10): i love pizza , and i love it .
+
+Persona:
+i started playing guitar when i was three.
+i am a recovering alcoholic.
+i love to bake cookies.
+i haven't spoken in three months.
+i am terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 79
+Fluent: 21
+Repetitive(↓): 100
+Topic: 81
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you like cars?
+Bot(1): i am more of a truck person but cars are okay
+User(2): why dont you like cars?
+Bot(2): the classic suv . my husband would say mustang thought ! how about you ?
+User(3): i like mustangs, i drive a mercedes. what do you drive?
+Bot(3): yes . do you drive a car ?
+User(4): yes im driving right now, and drinking
+Bot(4): i eat six eggs everyday and i only have 3 toes . i work in a zoo
+User(5): did a tiger eat your toes?
+Bot(5): is it because the extra toe does not fit inside your shoes ?
+User(6): i dont have extra toes. do you?
+Bot(6): umm . they are pretty , but all on 1 foot . hence the dr . see ?
+User(7): you have all your toes on 1 foot? thats weird
+Bot(7): is it because the extra toe does not fit inside your shoes ?
+User(8): all of my toes fit inside my shoe
+Bot(8): i learned all about strange medical stuff for my teaching degree
+User(9): what kind of strange things?
+Bot(9): lol i love to say the alphabet backwards , strange enough ?
+User(10): yes that is strange but not related to your teaching degree
+Bot(10): warping er uh . . . shaping young minds ! hehe ! the kids are always fun to work wtih
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cars(like)
+Round 4: zoo(like)
+Round 5: toes(like)
+Round 8: teaching(like)
+Round 9: strange things(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 48.29
+Robotic(↓): 100
+Interesting: 88
+Fun: 88
+Consistent: 62
+Fluent: 0
+Repetitive(↓): 79
+Topic: 79
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you have a phone?
+Bot(1): no i don't have a phone or phone or phone
+User(2): why dont you have a phone?
+Bot(2): no i don't have a phone or phone or phone or phone
+User(3): do you like phones?
+Bot(3): no i don't . i have a cell phone and a cat
+User(4): i thought you said you dont have a phone?
+Bot(4): no i don't have a phone or phone or phone
+User(5): do you think phones are bad?
+Bot(5): no i don't but i have a cell phone
+User(6): what cell phone type do you have?
+Bot(6): i have a cell phone and a cat
+User(7): do you use verizon for cell phone service?
+Bot(7): no i don't have phone phone phone either
+User(8): do you like animals?
+Bot(8): i do not have any . i have a cat
+User(9): you dont consider a cat to be an animal?
+Bot(9): i have a cat but i love them
+User(10): do you like tigers?
+Bot(10): i do not have any . i have a cat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: phones(like)
+Round 7: animals(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 27.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 74
+Fluent: 18
+Repetitive(↓): 75
+Topic: 75
+
+####################
+

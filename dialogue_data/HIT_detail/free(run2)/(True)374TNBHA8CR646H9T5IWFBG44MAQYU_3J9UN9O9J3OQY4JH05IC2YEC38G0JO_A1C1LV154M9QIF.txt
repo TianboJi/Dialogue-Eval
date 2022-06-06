@@ -1,0 +1,281 @@
+Feedback: It might be interesting to not tell people they are chatting with a bot and ask them to choose if they felt like they were talking to a person or a bot
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): who do you think will win the super bowl this year
+Bot(1): the eagles , they are undefeated !
+User(2): the eagles arent even the best team in their division. you dont think the cowboys have the better team
+Bot(2): no doubt about it . packers .
+User(3): who do you think is better the eagles or the packers
+Bot(3): the eagles , they are undefeated !
+User(4): they have no receivers or cornerbacks so they cant stop the [ass
+Bot(4): in my position you probably could not catch me in the field
+User(5): what position would that be
+Bot(5): quarterback . do you like football ?
+User(6): how far can you throw the ball? yes i love football wanted to play the sport
+Bot(6): in my position you probably could not catch me in the field
+User(7): who is your favorite quarterback to watch?
+Bot(7): i do not know much about football so i cannot say my favorite
+User(8): you need to learn about football thats all people care about in the states
+Bot(8): that is understandable i am a country boy its all about country music and football
+User(9): which is your second favorite team
+Bot(9): for football is the denver broncos
+User(10): they are good but its been rough for them since peyton retired
+Bot(10): ok i played against them and i scored 45 points
+
+Persona:
+my favorite music is country.
+i am 24 years old.
+i'm a 45 year old male.
+i volunteer in a homeless shelter.
+i'm here for shoplifting.
+
+Topic and Human Opinion:
+Beginning: Football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 99
+Interesting: 60
+Fun: 19
+Consistent: 21
+Fluent: 19
+Repetitive(↓): 65
+Topic: 45
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what is your favorite city in the world?
+Bot(1): i like to go to the gym and listen to music .
+User(2): so you dont have a city you want to explore?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): Is there a better city than New York City
+Bot(3): i love the color red . i like the color blue .
+User(4): New York has the best restaurants, museums, and neighborhoods
+Bot(4): i like to go to the lake and listen to music .
+User(5): where would you go if you visited New York city
+Bot(5): i live in a big city , i love it .
+User(6): what city?
+Bot(6): i live in california . i love to go fishing .
+User(7): what city in california
+Bot(7): i live in california . i love it .
+User(8): San Diego might be nicer than LA but LA has everything you need
+Bot(8): i like to eat fish .
+User(9): LA has some really good seafood restaurant as they are so close to the coast
+Bot(9): i love the beach . i love it .
+User(10): Santa Monica has a nice beach
+Bot(10): i love the color red . i like the color blue .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cities(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.86
+Robotic(↓): 96
+Interesting: 17
+Fun: 15
+Consistent: 13
+Fluent: 67
+Repetitive(↓): 68
+Topic: 5
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): The stock market has been on a tear lately
+Bot(1): I like classical. do Just hang in kind I love listening to music
+User(2): Should i invest in Telsa or is it overvalued
+Bot(2): i m are sports do you but i cannot wait to get a job
+User(3): What stock would you pick if you had $1000
+Bot(3): Tell me is are yourself.
+User(4): I am 35 and I live in texas
+Bot(4): I like to laugh as eating out with my being.
+User(5): i also like to laugh I spend half my life watching comedy
+Bot(5): I am a to army, you?
+User(6): I love Eddie murphy's standup delirious
+Bot(6): Yes, okay! am.
+User(7): To me he is the father of comedy because he paved the way for so many comedians
+Bot(7): hello, how are you? I am doing well. by them who are hobbies?
+User(8): My favorite hobbies are watching sports, reading, traveling and trying new resturants
+Bot(8): I am a big of medication make me like to cook.
+User(9): Whats your favorite dish to cook
+Bot(9): That just want to have you find a new one soon!
+User(10): I love to eat thai food but cant cook it
+Bot(10): what kind of sport or you x i i play tennis.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Stock market(like)
+Round 3: Tell me about myself(like)
+Round 7: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 15.86
+Robotic(↓): 97
+Interesting: 2
+Fun: 4
+Consistent: 5
+Fluent: 7
+Repetitive(↓): 14
+Topic: 4
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): To me Audis are the best cars out there
+Bot(1): i like cars and cars
+User(2): whats your favorite car
+Bot(2): i like cars and cars
+User(3): the audi a8 is my dream car
+Bot(3): i want to be a car one day
+User(4): haha why do you want to be a car
+Bot(4): i want to be a car driver
+User(5): for which circuit nascar or indy 500
+Bot(5): i hope you get a car
+User(6): do you drive fast because if you are slow you cant be a driver
+Bot(6): i drive a toyota mustang
+User(7): nice how many times have you gotten pulled over
+Bot(7): i have been to a long drive
+User(8): I love taking long drives like 30 min drives with the top down
+Bot(8): i drive a toyota mustang
+User(9): what color is the car
+Bot(9): i drive a toyota mustang
+User(10): my car is red
+Bot(10): i drive a mustang
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.29
+Robotic(↓): 88
+Interesting: 9
+Fun: 8
+Consistent: 9
+Fluent: 12
+Repetitive(↓): 79
+Topic: 15
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Michael Jordan is the greatest basketball player ever
+Bot(1): well i guess we both play in courts , just mind has a judge
+User(2): haha clever joke
+Bot(2): love shrimp and figured i would throw in a joke
+User(3): do you have a favorite team
+Bot(3): my favorite american football team is the browns . my favorite mls team is the crew .
+User(4): how about basketball
+Bot(4): no basketball court . do you have any pets ?
+User(5): yea i have two dogs
+Bot(5): i have three dogs four cats
+User(6): thats a lot of pets do they get along
+Bot(6): at one point , she was bigger than they were . she rules and she knows it .
+User(7): who is the she the cat or dog
+Bot(7): i have one poodle and she is a girl
+User(8): the poodle is the biggest animal
+Bot(8): i like elephants , do you have any allergies ? i do , i am lactose intolerant .
+User(9): I am allergic to peanuts, bread, and milk
+Bot(9): gotta be careful with that . last month we saw kid almost die while camping . peanuts !
+User(10): yea its scary being allergic to peanuts i can never have a peanut butter and jelly sandwich
+Bot(10): there was a kid in the school system my mum works for with a severe peanut allergy
+
+Persona:
+i drive a nissan pathfinder.
+i'm currently in a juvenile detention center.
+i have 5cats.
+i'm a 12 year old girl.
+i like to listen to rock music while working.
+
+Topic and Human Opinion:
+Beginning: Basketball(like)
+Round 4: pets(ambivalent)
+Round 8: allergies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 23.14
+Robotic(↓): 85
+Interesting: 13
+Fun: 16
+Consistent: 11
+Fluent: 17
+Repetitive(↓): 16
+Topic: 6
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite soccer league? I love the premier league
+Bot(1): i like soccer , too bad the usa team is not going to the world cup
+User(2): yea that sucks but we knew they werent going to win anyway
+Bot(2): definitely , i expected the fight to be better
+User(3): who do you think will win the world cup
+Bot(3): the us national team , i am disappointing that we did not qualify for world cup
+User(4): how do you fell about the french national team
+Bot(4): the us national team , i am disappointing that we did not qualify for world cup
+User(5): i think they will repeat
+Bot(5): too bad the u . s . team did not make it to the world cup
+User(6): it would have been fun watching christian pulisic in the world cup
+Bot(6): definitely , i expected the fight to be better
+User(7): will you still watch the world cup
+Bot(7): we did we are so close to the state championship
+User(8): mbappe will be fun to watch
+Bot(8): who all is playing and who is your favorite team
+User(9): i like belgium and france
+Bot(9): too bad the u . s . team did not make it to the world cup
+User(10): what pieces do you think they are missing to qualify next time
+Bot(10): the us national team , i am disappointing that we did not qualify for world cup
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Soccer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.57
+Robotic(↓): 79
+Interesting: 19
+Fun: 14
+Consistent: 18
+Fluent: 16
+Repetitive(↓): 77
+Topic: 47
+
+####################
+

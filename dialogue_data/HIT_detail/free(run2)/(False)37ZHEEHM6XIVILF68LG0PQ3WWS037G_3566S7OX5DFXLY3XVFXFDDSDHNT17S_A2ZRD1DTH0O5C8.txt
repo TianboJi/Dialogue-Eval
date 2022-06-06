@@ -1,0 +1,271 @@
+Feedback: nice to have a conversation
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): haiii bot
+Bot(1): i am a little old
+User(2): how much?
+Bot(2): i like to read and play with my friends
+User(3): Don't you like movies?
+Bot(3): i do not like movies much
+User(4): Why? What's the reason?
+Bot(4): i like movies but i don't like movies much
+User(5): oh!! you like movies in moderately
+Bot(5): i do not . i am a fan of movies .
+User(6): That's nice
+Bot(6): i like movies but i am not familiar with movies
+User(7): Yeah everyone does?
+Bot(7): i like movies and movies
+User(8): Everyone likes
+Bot(8): i like movies , but i don't like movies much
+User(9): Ohh! good
+Bot(9): i like movies too ! i like movies too
+User(10): Thank you! Have a good day
+Bot(10): i am so glad i am not a fan of anything
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.43
+Robotic(↓): 78
+Interesting: 79
+Fun: 84
+Consistent: 80
+Fluent: 80
+Repetitive(↓): 83
+Topic: 82
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hai bot
+Bot(1): hey , do you play any sports ? i am into soccer .
+User(2): Yeah! I love sports
+Bot(2): cool . i love soccer and dogs
+User(3): That's awesome
+Bot(3): yeah , man ! i love football ! who is your favorite team ?
+User(4): Not likely
+Bot(4): too bad . i got mad love for soccer man .
+User(5): don't you like food?
+Bot(5): i can watch football
+User(6): you doesn't answered me
+Bot(6): you can try telling me anyway
+User(7): oops!
+Bot(7): ok what is the answer
+User(8): i don't better you relive it
+Bot(8): probably best . my life is kind of unsatisfying
+User(9): oh oh sounds good
+Bot(9): wanna go to the soccer game
+User(10): nice to meet you bot
+Bot(10): its really nice to meet you
+
+Persona:
+i have short brown hair.
+i help tend the fields.
+i have three dogs.
+i'm on the soccer team.
+my favorite band is up and i got to see them in concert once.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.71
+Robotic(↓): 79
+Interesting: 86
+Fun: 78
+Consistent: 85
+Fluent: 81
+Repetitive(↓): 78
+Topic: 80
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hai bot?
+Bot(1): doing great . i have just been ceiling playing video games .
+User(2): i love play video games
+Bot(2): my best friend , ross , moved away . we play games on xbox .
+User(3): don't you play outdoor games
+Bot(3): no , i am not really in to games .
+User(4): why?
+Bot(4): my 3rd exwife had 4 of them all teens . they never accepted me as their dad .
+User(5): it's nature
+Bot(5): i love nature and being i am surrounded by it keeps me balanced
+User(6): i not mean it
+Bot(6): i meant our dog just died that s why i am sad
+User(7): oh that's really a bad news
+Bot(7): it might not seem great to you , but my new tennis racket will arrive a day early
+User(8): you like sports?
+Bot(8): yes i do i love football
+User(9): me too
+Bot(9): yes . i am a police officer in detroit .
+User(10): thank you!
+Bot(10): well i am a reader . i love reading enders game sitting in my garden .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.00
+Robotic(↓): 78
+Interesting: 85
+Fun: 85
+Consistent: 84
+Fluent: 78
+Repetitive(↓): 83
+Topic: 84
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hai
+Bot(1): i am a student , but i am a student .
+User(2): but not me
+Bot(2): i am a student , but i am a student .
+User(3): it's ok
+Bot(3): i am a student , but i am a student .
+User(4): what is the meaning of love?
+Bot(4): i like to go to the gym and listen to music .
+User(5): not like
+Bot(5): i am a student , but i am a student .
+User(6): what is love?
+Bot(6): i like to go to the gym and listen to music .
+User(7): non-sync answer
+Bot(7): i am a student , but i am a student .
+User(8): i am not
+Bot(8): i am a student , but i am a student .
+User(9): nice to meet you
+Bot(9): what do you do for a living ?
+User(10): thank you
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.43
+Robotic(↓): 87
+Interesting: 82
+Fun: 82
+Consistent: 82
+Fluent: 79
+Repetitive(↓): 85
+Topic: 84
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hai
+Bot(1): i know you are eat to, especially fast that my mother is a painter ?
+User(2): painter?
+Bot(2): I we you read.
+User(3): yeah! i did
+Bot(3): Hey, listen. something i do when sad. I am a farmer.
+User(4): are you serious
+Bot(4): i like twilight its a awesome :) i’m i do like action and fantasy movies. what are you up to ? 🙉
+User(5): you joking good
+Bot(5): nice . i work long You must be spending a . more than 60. how is your weekend going ?
+User(6): nature! say something?
+Bot(6): I am have a do you really cool .
+User(7): thanks for greetings
+Bot(7): I have a big I love dogs.
+User(8): your opinion about nature
+Bot(8): what is that like? do favorite color is геd. us?
+User(9): ohhh good
+Bot(9): i ve friends at you good, what about to you should come with me
+User(10): thank you
+Bot(10): why do have a brother? migraines
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.57
+Robotic(↓): 88
+Interesting: 79
+Fun: 85
+Consistent: 81
+Fluent: 82
+Repetitive(↓): 81
+Topic: 80
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): haii
+Bot(1): ll
+User(2): what is this
+Bot(2): his
+User(3): which means?
+Bot(3): i still do not know what the means
+User(4): ohh great
+Bot(4): i still do not know what the means
+User(5): fake! tell something
+Bot(5): you can try telling me anyway
+User(6): how are you
+Bot(6): ok
+User(7): is everything fine?
+Bot(7): very
+User(8): it must be fake
+Bot(8): yeah , bit of a long shot xd
+User(9): okay!
+Bot(9): ok
+User(10): thank you!
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fake(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.29
+Robotic(↓): 77
+Interesting: 83
+Fun: 79
+Consistent: 79
+Fluent: 80
+Repetitive(↓): 78
+Topic: 77
+
+####################
+

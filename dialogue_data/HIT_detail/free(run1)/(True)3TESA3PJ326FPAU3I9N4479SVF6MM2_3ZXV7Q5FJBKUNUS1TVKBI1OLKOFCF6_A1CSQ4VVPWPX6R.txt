@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you watch Better Call Saul?
+Bot(1): i do not . i am a bit of a loner .
+User(2): It's a good show.
+Bot(2): i do not watch tv much . i like to watch tv .
+User(3): That's a contradictory statement.
+Bot(3): i like to watch tv . i love country music .
+User(4): Do you watch CMT?
+Bot(4): i do not watch tv . i like to watch tv .
+User(5): That doesn't make sense.
+Bot(5): i watch it . i watch a lot of tv .
+User(6): Any other shows you like tto watch?
+Bot(6): i do not watch much tv . i like to watch tv .
+User(7): What do you like to do?
+Bot(7): i like to watch tv . i like to watch tv .
+User(8): What sports do you watch?
+Bot(8): i watch a lot of tv . i like to watch tv .
+User(9): What songs do you like?
+Bot(9): i like all kinds . i like to watch tv .
+User(10): Give an example.
+Bot(10): i like to watch tv . i like to watch tv .
+
+Persona:
+i'm rather skinny as i like to stay in shape.
+my favourite music is country music.
+i have a boyfriend.
+i have a dogs.
+i've one older sister.
+
+Topic and Human Opinion:
+Beginning: Better Call Saul(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.29
+Robotic(↓): 100
+Interesting: 20
+Fun: 50
+Consistent: 100
+Fluent: 21
+Repetitive(↓): 93
+Topic: 14
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you watch soccer
+Bot(1): yes , i do it is soccer
+User(2): who is your favorite player
+Bot(2): i am a winter fan honestly
+User(3): what is your favorite team
+Bot(3): i like the sharks best
+User(4): do you go to any games
+Bot(4): yes , i do it is soccer
+User(5): you're being repetitave again
+Bot(5): you take forever to respond as well
+User(6): you talking trash
+Bot(6): yeah , i wanna see you play and win
+User(7): you like mma
+Bot(7): what does ufc stand for ?
+User(8): ultimate fighting championship
+Bot(8): what does ufc stand for ?
+User(9): what do you like about it
+Bot(9): it is a type of wrestling
+User(10): no it is not
+Bot(10): what does ufc stand for ?
+
+Persona:
+i move south during the winter.
+i am in an open polyamorous relationship.
+i haven't spoken in three months.
+i donate a part of my salary to charity each month.
+mickey mouse is my favorite character.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.29
+Robotic(↓): 100
+Interesting: 13
+Fun: 12
+Consistent: 15
+Fluent: 14
+Repetitive(↓): 98
+Topic: 51
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you play any instruments
+Bot(1): no , i cannot play any instruments . what do you play ?
+User(2): guitar and piano
+Bot(2): wow that is quite a combo . i have 2 kids that like to robot
+User(3): how do you robot
+Bot(3): do you not know how ?
+User(4): are you messing with me
+Bot(4): why are you making a robot
+User(5): i'm not
+Bot(5): why are you making a robot
+User(6): what's with the 20 questions
+Bot(6): i have no idea lo
+User(7): do you mean lol
+Bot(7): i still do not know what the means
+User(8): it meansluagh out loud
+Bot(8): i still do not know what the means
+User(9): sorry my spacebar doesn't always work
+Bot(9): that is ok . i cant type either
+User(10): good for you
+Bot(10): i still do not know what the means
+
+Persona:
+i'm working on a building a robot to be my body double.
+i will graduate from high school in two years.
+i spend most of my time on facebook when i'm not working.
+i'm a baby delivery nurse.
+my favorite music is country.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.71
+Robotic(↓): 100
+Interesting: 16
+Fun: 17
+Consistent: 35
+Fluent: 19
+Repetitive(↓): 100
+Topic: 65
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what do you think about AI
+Bot(1): i like to go to the gym and listen to music .
+User(2): will you please answer my question
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): who is your favorite
+Bot(3): i like the color red . what is yours ?
+User(4): green
+Bot(4): i like to go to the gym and listen to music .
+User(5): do you know any good exercises for my back
+Bot(5): i am a student , but i am a student .
+User(6): what do you study
+Bot(6): i teach math and drawing .
+User(7): so geometry then
+Bot(7): i like to go to the gym and listen to music .
+User(8): you said that already
+Bot(8): i do not know what to say .
+User(9): that much is obvious
+Bot(9): i like to go to the gym and listen to music .
+User(10): we know that
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i compete in dog agility classes.
+i spend most of my time on facebook when i'm not working.
+i graduated from yale in 2011 with a degree in finance.
+my favorite movie is mean girls.
+my favorite way to relax is to read a book.
+
+Topic and Human Opinion:
+Beginning: artificial intelligence(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 2
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): what is your favorite technology
+Bot(1): i you have a to try it .
+User(2): mine is wireless charging
+Bot(2): You graduated from yale you have any kids?
+User(3): no i do not
+Bot(3): I am not sure if i could ride my said you vegetarian and of clowns.
+User(4): wtf
+Bot(4): i you been do homework
+User(5): you drunk aren't you
+Bot(5): yes , i do . i don’t know know so colorado and i love to garden .
+User(6): thats interesting
+Bot(6): there are it's interesting am i like 👬
+User(7): do you like memes
+Bot(7): I folk is my u and i love to travel.
+User(8): where have you travelled
+Bot(8): I'm here I guess you
+User(9): you aren't making sense
+Bot(9): i think its ok my husband big is your family? too much
+User(10): what are you talking about
+Bot(10): i never played bingo for your stupid color you has always been working on trucks .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: technology(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): who is your favorite roman imperial
+Bot(1): my parents , i am too old for it .
+User(2): do you like history
+Bot(2): that is great . i love indie music from almost twenty years ago
+User(3): are you calling me old
+Bot(3): i am 24 . how old are you
+User(4): i am 40
+Bot(4): i see , i am 18 years old
+User(5): a second ago you were 24
+Bot(5): do you ever volunteer in your area ?
+User(6): i do not
+Bot(6): hmmm i used to drink so bad i lost my home and lived in a storage unit
+User(7): that's terrible how did you recover
+Bot(7): that is cool . i volunteer when i can
+User(8): my bad back prevents me
+Bot(8): well , i retired a few years ago , and have focused on my love of baking !
+User(9): im more of a microwave person
+Bot(9): indie music the early 2000s
+User(10): classic rock for me
+Bot(10): i like country music alot
+
+Persona:
+my favorite music is country.
+i am 24 years old.
+i'm a 45 year old male.
+i volunteer in a homeless shelter.
+i'm here for shoplifting.
+
+Topic and Human Opinion:
+Beginning: roman empire(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 50
+Fluent: 14
+Repetitive(↓): 50
+Topic: 21
+
+####################
+

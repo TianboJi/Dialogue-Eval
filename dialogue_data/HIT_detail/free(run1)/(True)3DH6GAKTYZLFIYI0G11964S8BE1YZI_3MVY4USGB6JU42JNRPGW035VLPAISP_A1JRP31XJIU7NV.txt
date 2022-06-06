@@ -1,0 +1,275 @@
+Feedback: This chat bot is BAD, and it asks for personal information which is against the terms here. 99c is underpaid for how difficult this was to get through.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi there
+Bot(1): i love to go fishing .
+User(2): Oh really? I love Eurovision
+Bot(2): i love the color red . i like the color blue .
+User(3): Okay then
+Bot(3): i am a student , but i am a student .
+User(4): That doesn't make any sense
+Bot(4): i am sorry to hear that . i am sorry to hear that .
+User(5): Why do you repeat yourself?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): who is your favorite composer?
+Bot(6): i like the color red . i like the color blue .
+User(7): That is unrelated
+Bot(7): i like to go to the gym and listen to music .
+User(8): You mentioned you like classical music
+Bot(8): i do not really like country . i like to listen to music .
+User(9): What music do you like?
+Bot(9): i love the beatles . what about you ?
+User(10): They're good, I like Eurovision
+Bot(10): i love the color red . i like the color blue .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Eurovision(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 16
+Fluent: 5
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): hey
+User(2): I just spoke with someone about Fishing what do you think about that
+Bot(2): i have never done the fishing thing .
+User(3): what do you like to do
+Bot(3): mostly listen to music and go fishing
+User(4): you just said you've never gone fishing
+Bot(4): yes i have been fishing before
+User(5): so you lied earlier
+Bot(5): no i have not have you
+User(6): yeah you have
+Bot(6): you said that already
+User(7): you contradicted yourself
+Bot(7): i didn
+User(8): That is also a contradiction
+Bot(8): you said that already
+User(9): Got to be honest researcher your chatbot is bad
+Bot(9): youre not finished with the chat
+User(10): I know, one more though
+Bot(10): youre not finished with the chat
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fishing(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 29
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi there
+Bot(1): hey , any big plans for the weekend ?
+User(2): Nope, you?
+Bot(2): good for you . i voiceover in video games . you play videos or sing ?
+User(3): I do play videogames
+Bot(3): ahh well being a chick i try to xbox but most people make fun of me online
+User(4): People suck
+Bot(4): i would like to be a famous ballet dancer in london like my mother
+User(5): Oh what did your mother dance in?
+Bot(5): i love to dance as well
+User(6): how do you dance
+Bot(6): do you dance for a living ?
+User(7): no I work in customer service
+Bot(7): i work at a marketing firm , but i am trying to start my own online business .
+User(8): what does your business do
+Bot(8): i want to open an old fashion grocery and feed store .
+User(9): Oh that will be interesting, how would that work online?
+Bot(9): yes ! you can find great deals on pageant dresses . what do you get online ?
+User(10): Everything
+Bot(10): i even watch dollar tree , youtube videos
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Talking with bad chatbots(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.43
+Robotic(↓): 100
+Interesting: 20
+Fun: 5
+Consistent: 54
+Fluent: 48
+Repetitive(↓): 8
+Topic: 15
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there
+Bot(1): i ve black.....and i don't right now
+User(2): what
+Bot(2): i i am currently in yoga. how about you?
+User(3): you're doing this while doing yoga?
+Bot(3): I am have a the la
+User(4): that makes no sense
+Bot(4): i'm also doing well . i just got home from a trip to norway .. Also, try to you you are not ...
+User(5): did you like Norway
+Bot(5): I am not sure. Charlie. I compose music detective .
+User(6): Who is Charlie?
+Bot(6): III what about you dancing and secondhand smoke.
+User(7): who knows
+Bot(7): What me a then? 😟
+User(8): I have no idea what you mean
+Bot(8): I do not know and all she that.
+User(9): right
+Bot(9): i mean I should what about you
+User(10): no
+Bot(10): I just like spring too my dog.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: HITs that are too long(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 9
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): good you?
+Bot(2): hi ! i am doing well . how are you ?
+User(3): good
+Bot(3): hi ! i am doing well . how are you ?
+User(4): ok
+Bot(4): hi ! i am 25 years old . how old are you ?
+User(5): I'm not giving out any personal information as that breaches the rules on HITs.
+Bot(5): i am only 26 so i am only 26
+User(6): you just said you were 25
+Bot(6): i am only 19 so i am only 26
+User(7): this is annoying
+Bot(7): i am only 19 so i am only 26
+User(8): this is bad
+Bot(8): i am only 26 so i am only 26
+User(9): ok
+Bot(9): i am only 26 so i am only 26
+User(10): sure
+Bot(10): i am only 26 so i am only 26
+
+Persona:
+i am 13 years old.
+my parents taught me survival skills.
+i like to work on vintage cars.
+i've rainbow hair.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: History(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 5.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 34
+Repetitive(↓): 99
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey there . are you into fashion ?
+User(2): not really are you?
+Bot(2): i am on facebook which is great
+User(3): I also like Facebook, I like that it reminds me of birthdays
+Bot(3): yeah birthdays mean allot to me .
+User(4): I'm not really bothered by birthdays
+Bot(4): is it because birthdays are fun ?
+User(5): They can be
+Bot(5): yeah birthdays mean allot to me .
+User(6): right
+Bot(6): remember ? are you older then ?
+User(7): I'm not very old
+Bot(7): you are old
+User(8): that's rude
+Bot(8): i have been told i am not very nice
+User(9): yep
+Bot(9): you are old
+User(10): ok
+Bot(10): remember ? are you older then ?
+
+Persona:
+i'm four.
+i spent a decade working in the human services field.
+i do not care about fashion.
+i remember when nobody had a television.
+i spend most of my time on facebook when i'm not working.
+
+Topic and Human Opinion:
+Beginning: Birthdays(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.43
+Robotic(↓): 99
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 61
+Repetitive(↓): 100
+Topic: 39
+
+####################
+

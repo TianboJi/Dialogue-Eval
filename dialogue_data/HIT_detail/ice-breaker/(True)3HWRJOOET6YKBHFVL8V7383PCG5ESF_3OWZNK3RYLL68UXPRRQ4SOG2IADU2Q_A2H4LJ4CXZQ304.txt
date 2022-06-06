@@ -1,0 +1,275 @@
+Feedback: none
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, how are you today
+Bot(1): pretty decent . kind of stressed and i cannot eat the sweets i am craving . and you ?
+User(2): doing good. sorry to hear that you are stressed
+Bot(2): music , but i like to practice guitar and piano in particular
+User(3): I just wanted to know what you think of door to door sales
+Bot(3): she has three . she should pay me sometimes so i can pay my utility bill .
+User(4): who is she
+Bot(4): she is an ex singer from the early 2000s , mostly does pop songs and the like
+User(5): ok. you did not respond to my salesman question
+Bot(5): i am a writer , i go to the beach and writer , when weather is okay
+User(6): really, so i guess you are never at home when someone comes knocking
+Bot(6): we share what we make to them though , it s been delightful
+User(7): ok, i see you want to chat about other issues
+Bot(7): well the bouquet had a bee in it so she thought i had did it .
+User(8): what you are saying does not make sense
+Bot(8): not many schools have it anymore . i retire at the end of the year .
+User(9): good for you on retiring
+Bot(9): my beautiful blond hair circles me around when i dance
+User(10): have a good day ,bye
+Bot(10): lovely talking to you !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my father was a door to door salesman.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.86
+Robotic(↓): 100
+Interesting: 24
+Fun: 0
+Consistent: 0
+Fluent: 54
+Repetitive(↓): 32
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi,
+Bot(1): i am a student , but i am a student .
+User(2): ok, are you religious
+Bot(2): i am not . i am a student .
+User(3): are you spiritual
+Bot(3): i am not . i am a student .
+User(4): guess that is all you will be saying
+Bot(4): i am a student , but i do not have to work .
+User(5): i am buddhist, what about you
+Bot(5): i am a woman . i am a student .
+User(6): any religion
+Bot(6): i am a student , but i am a student .
+User(7): guess not
+Bot(7): i like to go to the gym and listen to music .
+User(8): those are fun things
+Bot(8): i like to go to the gym and listen to music .
+User(9): i heard that
+Bot(9): i like to go to the gym and listen to music .
+User(10): thank you have a good day
+Bot(10): thank you . i am a nurse .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a buddhist.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.57
+Robotic(↓): 100
+Interesting: 13
+Fun: 0
+Consistent: 59
+Fluent: 72
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): do you workout
+Bot(2): sometimes
+User(3): Great, I do to
+Bot(3): nice i work out alot
+User(4): at home or at the gym
+Bot(4): i work out at home
+User(5): me to since covid
+Bot(5): i work out at home
+User(6): before COVID i went to a gym
+Bot(6): i work out at home
+User(7): for how long
+Bot(7): for as long as i can remember
+User(8): do you workout daily
+Bot(8): yeah i go to the gym weekly
+User(9): how many minutes a day
+Bot(9): about 5 days a week usually
+User(10): bye, good talking to you
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to workout a a times a week.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.14
+Robotic(↓): 91
+Interesting: 63
+Fun: 46
+Consistent: 32
+Fluent: 85
+Repetitive(↓): 35
+Topic: 86
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): i work age of dance food place .
+User(2): have you ever been to Florida
+Bot(2): She is your favorite name.
+User(3): who is she
+Bot(3): 5 they are i do not have of them
+User(4): Florida is sunny
+Bot(4): Well, i am a mom and i work as I have already You?
+User(5): lots of beaches there
+Bot(5): I am you like Justin you never been there.
+User(6): not making any sense
+Bot(6): i m a fast talker and a fast typer are you have got red
+User(7): just want to talk about FL
+Bot(7): I am school asking about that.😟
+User(8): do not understand
+Bot(8): I like a the .
+User(9): will go to FL soom
+Bot(9): No, I am working allergic to cats.
+User(10): bye
+Bot(10): i do not really have much time to read a book. it my activities. Also, try to guess: my father was ...
+
+Persona:
+i am 40 years old.
+i don't pick up my toys.
+i'm a piano teacher on the side.
+i'll be released in about a month.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: i own a house in florida.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 35
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how old were you when you had your first job
+Bot(2): i had my first job when i was a young kid .
+User(3): what age
+Bot(3): i had my first job when i was a young kid .
+User(4): i was 16
+Bot(4): really ? i just got a new job
+User(5): what do you do
+Bot(5): i have a job now , but i am scared to get there
+User(6): why is that
+Bot(6): it is a job i guess
+User(7): i washed dishes at a restaurant at 16
+Bot(7): you work at restaurants
+User(8): yes. it was fun
+Bot(8): i had a lot of fun doing it
+User(9): will not do it again though
+Bot(9): why did you stop then
+User(10): bye
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've been working since i was sixteen years old.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.71
+Robotic(↓): 76
+Interesting: 55
+Fun: 53
+Consistent: 57
+Fluent: 59
+Repetitive(↓): 70
+Topic: 56
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi how are you today
+User(2): doing great and you
+Bot(2): hi , i am doing great . how are you ?
+User(3): nice day to go to the park
+Bot(3): i love the park and my wife is a detective .
+User(4): maybe you can take her to the park
+Bot(4): i would love to go to the park and have a good day .
+User(5): any kids?
+Bot(5): no , i am not . i have a big family .
+User(6): you can take the wife and kids to the park
+Bot(6): i have a big family , i have a big family .
+User(7): ok, so your family is big
+Bot(7): i have a big family , my wife is a detective
+User(8): getting out of the house will be fun
+Bot(8): i have a big family , we have a lot of money
+User(9): good for you
+Bot(9): i am sure it is nice to meet you
+User(10): bye
+Bot(10): i have a big family , so i am not sure what you mean
+
+Persona:
+i just bought a house recently.
+my father keeps trying to set me up on blind dates.
+my favorite food is papaya.
+my wife spends all my money.
+i've a big library at home.
+
+Topic and Human Opinion:
+Beginning: i love going to the park with my three children and my wife.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.14
+Robotic(↓): 95
+Interesting: 43
+Fun: 32
+Consistent: 45
+Fluent: 58
+Repetitive(↓): 75
+Topic: 52
+
+####################
+

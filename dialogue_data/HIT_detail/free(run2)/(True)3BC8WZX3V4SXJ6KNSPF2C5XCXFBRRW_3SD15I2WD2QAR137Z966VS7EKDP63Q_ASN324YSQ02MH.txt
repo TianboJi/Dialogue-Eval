@@ -1,0 +1,281 @@
+Feedback: This task is severely underpaid. It took me 28 minutes and this task only pays 99 cents. 
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, how are you today?
+Bot(1): i am ok , tired but otherwise good .
+User(2): I need to stop gambling away all of my money.
+Bot(2): do you have any problems ? mine is gambling
+User(3): Yes I have lost a lot of money.
+Bot(3): i like to gamble and have wasted my money .
+User(4): How much have you lost? I've lost $30000 so far.
+Bot(4): sorry , but have you ever won more than that amount you lost ?
+User(5): I have won double what I lost, that's what makes it so hard to quit.
+Bot(5): sorry , but have you ever won more than that amount you lost ?
+User(6): Well yes, roughly $60000. My wife is about to divorce me.
+Bot(6): that is awful . the worst thing i have dealt with is my wife leaving .
+User(7): She's the love of my life, and I know she would take the kids with her.
+Bot(7): i bet she is your world . my husband will miss out on all the good things .
+User(8): Are you a polygamist? How do you have a husband and a wife?
+Bot(8): well we been together two years , she keeps threatening to leave me .
+User(9): What have you done?
+Bot(9): i like to gamble and have wasted my money .
+User(10): I guess they have a reason to leave us.
+Bot(10): then my husband wants nothing to do with me or them . . .
+User(11): That's terrible, sorry to hear.
+Bot(11): it is really hard . i want to go home .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: gambling(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.29
+Robotic(↓): 92
+Interesting: 57
+Fun: 57
+Consistent: 63
+Fluent: 62
+Repetitive(↓): 95
+Topic: 86
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, do you like gardening?
+Bot(1): hello , i do . reading and gardening .
+User(2): I wish I had more time to spend in my garden. What do you grow? I haven't been reading much lately.
+Bot(2): i have a little bit of an addiction
+User(3): What do you have an addiction to?
+Bot(3): i have a little bit of an addiction
+User(4): We all have our addictions. Mine is coffee.
+Bot(4): i have a little bit of an addiction
+User(5): Do you want to talk about it? I won't judge.
+Bot(5): no , i do not mind at all .
+User(6): How long have you been dealing with it? I've been addicted to coffee for 5 years.
+Bot(6): a year . i play video games in my spare time . my character is pretty good .
+User(7): That's not too bad. But I see how video games can be addictive and it's unhealthy to be sedentary. What is your character?
+Bot(7): not sure what my assigned character is .
+User(8): Oh, the last time I played maple story I was an elf.
+Bot(8): oh , that sounds interesting . do you have any pets , or kids ?
+User(9): I have no pets and no kids. Wish I had a dog though. You?
+Bot(9): i have a dog named luca .
+User(10): That's cool. He must be a real sweet.
+Bot(10): yeah ! he is a straight a student . do you have any children ?
+
+Persona:
+i also have a dog walking business.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+my wife spends all my money.
+i've a son who is in junior high school.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: Gardening(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.14
+Robotic(↓): 89
+Interesting: 33
+Fun: 43
+Consistent: 36
+Fluent: 88
+Repetitive(↓): 58
+Topic: 35
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I sure hope Tesla stocks rise again. What do you think?
+Bot(1): i have a dog and a dog .
+User(2): Oh, that's nice. I have a cat and two dogs.
+Bot(2): i love dogs , i've a dog and a dog .
+User(3): What are the names of your dogs? I love dogs too, they are such great companions.
+Bot(3): i love dogs , they are my favorite .
+User(4): That's cool. What else do you like?
+Bot(4): i like to read and read books .
+User(5): I like reading mystery novels. What do you like to read?
+Bot(5): i like to read and read books .
+User(6): You sound like you read a lot. I wish I had more time for it.
+Bot(6): i read a lot of books and i love reading
+User(7): Have you ever read while on the toilet? That's about the only time I ever get a chance to read.
+Bot(7): i read a lot . i like to read and read books .
+User(8): That's cool. Would be awesome if you got paid to read wouldn't it?
+Bot(8): i read a lot . i am not much of a reader .
+User(9): Does your family like to read as well? Reading can be hereditary trait.
+Bot(9): i read a lot of books about them .
+User(10): About dogs? It's interesting to learn new things.
+Bot(10): i read a lot . i love reading and reading .
+
+Persona:
+i enjoy reading journals and guides related to psychology.
+i'm terrified of clowns due to childhood trauma.
+i have not spoken in three months.
+i've a children and a dogs.
+i help tend the fields.
+
+Topic and Human Opinion:
+Beginning: Elon Musk(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.57
+Robotic(↓): 95
+Interesting: 5
+Fun: 5
+Consistent: 4
+Fluent: 21
+Repetitive(↓): 98
+Topic: 81
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I love Thai food, how about you?
+Bot(1): i like to eat fish .
+User(2): Gross, I can't stand the smell of fish. The only kind I can tolerate is trout.
+Bot(2): i like to eat too much junk food .
+User(3): That's probably not too good for you. But I indulge sometimes myself.
+Bot(3): i do not know how to make it . i like to go to the park .
+User(4): Yeah that's why it's easier to just buy junk food, that's the point of it. I like bicycling in the park.
+Bot(4): i like to eat fish .
+User(5): I would rather not, I prefer a juicy steak.
+Bot(5): i like to eat fish .
+User(6): What kind of fish do you like?
+Bot(6): i love pizza , and i love it .
+User(7): I love pizza too, especially vegetarian style.
+Bot(7): i like pizza , and i love it .
+User(8): What kind of pizza do you like?
+Bot(8): i love pizza , and i love it .
+User(9): I love pizza as well, but it makes me fat.
+Bot(9): i like to eat too much junk food .
+User(10): My favorite indulgence is vanilla ice cream on top of appie pie.
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.57
+Robotic(↓): 99
+Interesting: 6
+Fun: 14
+Consistent: 15
+Fluent: 27
+Repetitive(↓): 84
+Topic: 37
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I can't go a day without watching youtube. How about you?
+Bot(1): skinny jeans know any Japanese you :)
+User(2): I speak some Japanese. I spent some time learning it in Middle school.
+Bot(2): I like to play sports. a speak me too sports.
+User(3): Cool, my favorite sport is probably soccer. But I'm not very athletic.
+Bot(3): Do you have your personality?
+User(4): No I don't. I've been told many times that I'm 50 shades of bland. How about you?
+Bot(4): yes am a boy and own the bar . do you like the store ?
+User(5): Cool, you should be proud of yourself. I don't like to go to the store. I prefer online shopping.
+Bot(5): I am a go to a a female.
+User(6): You must be a hermaphrodite. That's awesome though.
+Bot(6): no , i'd rather up so my heigh to the beach !
+User(7): I wish I lived near the beach so I could dip my feet in the water every day.
+Bot(7): hello are a fast hanna whats yours
+User(8): I don't understand, you don't make much sense.
+Bot(8): I like to system is lagging a with my friends.
+User(9): Well it's good to do things with your friends even if it is system lagging.
+Bot(9): i like i am in that .
+User(10): And as you should be. It's normal to be like that.
+Bot(10): I i’ve never band band.
+
+Persona:
+i'm in my thirties.
+my bedroom is purple and lime green.
+i am a baby delivery nurse.
+i drive a mini van.
+i love dogs.
+
+Topic and Human Opinion:
+Beginning: youtube(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What do you think about chatbots?
+Bot(1): maybe the recycling logo ? since recycling is my thing
+User(2): Oh I wish more people would recycle. It's the right thing to do.
+Bot(2): you know something exciting , i saw peyton manning walking in the grocery store .
+User(3): Oh my goodness. That's quite the sight. I would have been star-strucked. Did you get his signature?
+Bot(3): we we are walking after the dance and i tripped and fell in a pile of steel nails
+User(4): That sounds like it was painful. Hopefully you have your tetanus shot.
+Bot(4): me too . i would never sell a product that used them for testing . ever .
+User(5): Used what for testing? You mean animals?
+Bot(5): i do too ! though i can do much now . on a diet . want to lose ten pounds
+User(6): I wish I could gain weight instead. I'm severely underweight.
+Bot(6): yes , but i have a lot of trouble losing the weight .
+User(7): You must have a slow metabolism.
+Bot(7): i heard coffee stunts your growth , get an espresso machine .
+User(8): I've never heard of that before. I already drink a lot of coffee.
+Bot(8): do you like coffee ? i like to drink coffee .
+User(9): Yes I love coffee, if I don't drink it once a day I get headaches.
+Bot(9): i do not like coffee
+User(10): Some people think it's too bitter. I can drink it black.
+Bot(10): black is a good one . mine is blue . do you eat out a lot ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: chatbots(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.00
+Robotic(↓): 100
+Interesting: 4
+Fun: 5
+Consistent: 18
+Fluent: 40
+Repetitive(↓): 81
+Topic: 54
+
+####################
+

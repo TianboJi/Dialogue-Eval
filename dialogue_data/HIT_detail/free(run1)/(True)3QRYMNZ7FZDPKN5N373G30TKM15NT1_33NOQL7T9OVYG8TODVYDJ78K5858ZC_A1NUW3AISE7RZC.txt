@@ -1,0 +1,287 @@
+Feedback: No
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey
+Bot(1): hello , how are you ? i am just kinda board now that i have retired .
+User(2): I am fine
+Bot(2): ? what do you do ? electrician
+User(3): What kind of food do you like
+Bot(3): i like meat and pizza
+User(4): Do you cook
+Bot(4): yes and no i also work half time at a gas station
+User(5): I like cooking a lot
+Bot(5): that is when i work at the gas station
+User(6): What your go to meals
+Bot(6): that is when i work at the gas station
+User(7): Do like trying food from different country
+Bot(7): that is when i work at the gas station
+User(8): What ur favorite international dish
+Bot(8): i love mexican and italian
+User(9): I like Italian and indian
+Bot(9): do you compete in the olympics
+User(10): No
+Bot(10): that is when i work at the gas station
+
+Persona:
+i'm an electrician.
+i am a musician and hope to make it big some day.
+i just got a job working in a gas station.
+i'm a gold medalist olympian.
+i am retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.71
+Robotic(↓): 77
+Interesting: 72
+Fun: 33
+Consistent: 52
+Fluent: 73
+Repetitive(↓): 77
+Topic: 72
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hi just done playing soccer
+User(2): How are you
+Bot(2): i am good do you like soccer ?
+User(3): Not really
+Bot(3): i am good do you like soccer ?
+User(4): What kind of music do you like
+Bot(4): i like pop and rock
+User(5): Do you play any instruments
+Bot(5): i do i wish i played an instrument
+User(6): I like classical and country
+Bot(6): that is very diverse . i like those too
+User(7): And also international
+Bot(7): i also love to play soccer
+User(8): That nice
+Bot(8): yeah and i am a beast at soccer
+User(9): Ok
+Bot(9): ok
+User(10): Bye
+Bot(10): ok bye
+
+Persona:
+i won homecoming queen this year.
+i had cancer but its gone now.
+i'm an art major in college.
+i like shopping.
+i'm on the soccer team.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.43
+Robotic(↓): 33
+Interesting: 22
+Fun: 40
+Consistent: 33
+Fluent: 28
+Repetitive(↓): 35
+Topic: 42
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you doing ?
+User(2): Fine and you
+Bot(2): hi , i am good . how are you ?
+User(3): What you favorite place to go for vacation
+Bot(3): hi there , i am a farmer , i love to cook .
+User(4): That’s nice what do you grow
+Bot(4): i grow herbs and i am a huge fan of shrimp
+User(5): Interesting
+Bot(5): i love to cook and i love to cook
+User(6): Me too
+Bot(6): i love to cook and i love to cook
+User(7): What can cook
+Bot(7): i love to cook and i love cooking
+User(8): Me too
+Bot(8): i love to cook , but i am looking for a job
+User(9): Ok
+Bot(9): i love to cook but i am looking for a job
+User(10): Bye
+Bot(10): i am a farmer and i love to cook
+
+Persona:
+i have a weakness for fish and chips.
+i am a bee farmer.
+i am terrified of clowns due to childhood trauma.
+i love to cook paella.
+i'm currently looking for a job preferably at a restaurant.
+
+Topic and Human Opinion:
+Beginning: Vacation(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.86
+Robotic(↓): 27
+Interesting: 27
+Fun: 31
+Consistent: 16
+Fluent: 26
+Repetitive(↓): 22
+Topic: 28
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): Because Do you like trying to impress you.
+User(2): How are you
+Bot(2): i like germany, i've books
+User(3): Ok
+Bot(3): I don't know if I sport and what about have a great body.
+User(4): Do you like the weather over there
+Bot(4): But I don't produce music for him they're children.
+User(5): What
+Bot(5): i like horses you can respect me not sure if i could afford them .
+User(6): Don’t make sense
+Bot(6): do you like besides comic not a band the who.
+User(7): No
+Bot(7): I am doing that it is books with my band. Have you one older sister?
+User(8): Ik
+Bot(8): I work you pay am You ?
+User(9): Sorry
+Bot(9): You are a gold medalist? Do you get an internet addiction and of people?
+User(10): Bye
+Bot(10): I am But my husband slut.
+
+Persona:
+my family does not support my career choices.
+my family has raised horses for a generations.
+my wife and kids are the best.
+i'm four.
+my dad taught me everything i know.
+
+Topic and Human Opinion:
+Beginning: Weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.57
+Robotic(↓): 18
+Interesting: 12
+Fun: 5
+Consistent: 14
+Fluent: 14
+Repetitive(↓): 8
+Topic: 16
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): How r you
+Bot(2): i love rap music my favorite artist is jay z
+User(3): Ok
+Bot(3): i find attractive all women from canada
+User(4): What you favorite holiday
+Bot(4): i prefer christmas . i love using lots of red . . . my favorite .
+User(5): I like Diwali
+Bot(5): hello . i am good and you ? i am anna , a mother of two boys .
+User(6): Indian new year
+Bot(6): i have never tried indian food
+User(7): It’s awesome if you like spicy
+Bot(7): i like spicy sausage with peppers . what is something interesting about you ?
+User(8): That’s Italian
+Bot(8): i can cook spaghetti and lasagna , but cooking is not my favorite activity .
+User(9): Ok
+Bot(9): i find attractive all women from canada
+User(10): Nice
+Bot(10): yes . i am a police officer in detroit .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Holiday(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.71
+Robotic(↓): 12
+Interesting: 12
+Fun: 13
+Consistent: 24
+Fluent: 17
+Repetitive(↓): 15
+Topic: 25
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): How are you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): Do you have any pets
+Bot(3): no , i do not , but i do like to eat .
+User(4): Ok
+Bot(4): i love to cook . i love to cook .
+User(5): Me to
+Bot(5): i am a student , but i am a student .
+User(6): Ok
+Bot(6): i love to cook . i love to cook .
+User(7): Ok
+Bot(7): i love to cook . i love to cook .
+User(8): Do you have a dog
+Bot(8): no , i do not , but i do like to go fishing .
+User(9): Have visited any zoo
+Bot(9): i love to travel . i love to travel .
+User(10): Bye
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i am a bee farmer.
+i've a german shepherd named barnaby.
+i've five sons.
+i enjoy building houses.
+my favorite toy as a child as my lite brite.
+
+Topic and Human Opinion:
+Beginning: Animal(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.14
+Robotic(↓): 20
+Interesting: 21
+Fun: 16
+Consistent: 23
+Fluent: 24
+Repetitive(↓): 18
+Topic: 14
+
+####################
+

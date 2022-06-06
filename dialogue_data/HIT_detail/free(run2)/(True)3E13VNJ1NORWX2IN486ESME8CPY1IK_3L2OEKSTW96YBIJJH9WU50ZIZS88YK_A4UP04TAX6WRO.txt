@@ -1,0 +1,316 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello my daughter studies dance
+Bot(1): awesome ! who is she ? i like to tap dance and have one competitions
+User(2): her name is rebeckah. she does competition also. its her first year.
+Bot(2): i used to wrestle want me to toss her around a bit
+User(3): no thats mean
+Bot(3): but it is okay if you like wrestling . that is cool .
+User(4): i dont like wrestling its a chorographed soap oprea
+Bot(4): you are mean you should not say that
+User(5): you want to toss my daughter around
+Bot(5): i used to wrestle want me to toss her around a bit
+User(6): you already asked that
+Bot(6): i used to wrestle want me to toss her around a bit
+User(7): stop saying the same thing
+Bot(7): i said my 2 dogs they are my kids
+User(8): what kind of dogs
+Bot(8): i said my 2 dogs they are my kids
+User(9): what kind of dogs do you have
+Bot(9): i have two huskie puppies
+User(10): aww i love huskies
+Bot(10): i have two huskie puppies
+
+Persona:
+i am a professional wrestler.
+i've not spoken in three months.
+i am single and with two dogs.
+i am a cancer survivor.
+i've a cat named spook.
+
+Topic and Human Opinion:
+Beginning: dance(like)
+Round 2: wrestling(dislike)
+Round 7: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 16.14
+Robotic(↓): 100
+Interesting: 4
+Fun: 4
+Consistent: 5
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i work at walmart
+Bot(1): I am a student, but your have brown curly key .
+User(2): what does that mean
+Bot(2): oh. me a to
+User(3): you are not making sense
+Bot(3): i'm are you here you ?
+User(4): yes im here are you?
+Bot(4): How’s it going? I love photography and of them. Want to pictures and photography.
+User(5): yes i like to take pictures
+Bot(5): i work in an office building . it has also paid well , and in what about modern is Also, try to guess: i visit europe ...
+User(6): ive never been
+Bot(6): ho ho retired nurses hoho
+User(7): i like nurses
+Bot(7): I am i get the ID am a teacher
+User(8): so what are you? a student teacher
+Bot(8): i was on the bucket list , but i call it the your favorite a comment .
+User(9): france
+Bot(9): its ok yohr tried where is friend for now
+User(10): my bedroom
+Bot(10): oh no you must go. see had a black dog few yeas ago
+
+Persona:
+i'm an art major in college.
+i love wearing skinny jeans and leggings.
+i enjoy going to the park.
+i speak chinese.
+my friends are all skateboarders.
+
+Topic and Human Opinion:
+Beginning: walmart(dislike)
+Round 1: hair(like)
+Round 4: photography(like)
+Round 5: nonsense(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i love to cook american food
+Bot(1): i love mexican food . i cook mexican food and cook mexican food .
+User(2): do you make mexican desserts
+Bot(2): yes i do i love mexican food
+User(3): what is your favorite
+Bot(3): i like mexican food what about you
+User(4): i like mexican food just not too spicy
+Bot(4): mexican is my favorite food
+User(5): irish is my favorite food
+Bot(5): i like spicy foods
+User(6): do you like indian food
+Bot(6): i do not eat much of it
+User(7): ohh i love curry
+Bot(7): i love mexican food what about you
+User(8): not really
+Bot(8): i love mexican food what about you
+User(9): no i dont like mexican
+Bot(9): i love mexican food what about you
+User(10): i hate it
+Bot(10): i love mexican food
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.57
+Robotic(↓): 100
+Interesting: 6
+Fun: 6
+Consistent: 89
+Fluent: 90
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i smoke cigars
+Bot(1): yes ! we should all smoke the herbs .
+User(2): i dont smoke herb cant stand the smell
+Bot(2): the green is the good stuff ! wish i had time to smoke between my 3 jobs
+User(3): wow i only work one job
+Bot(3): yes , i work from home . i teach music , but i have a masters degree in italian lit .
+User(4): wow i work at walmart
+Bot(4): there are not many walmart stores here but it is a great place to shop
+User(5): yes great to shop at not to work at
+Bot(5): my daughter hunts and shops for bargains . you shoot a bow ?
+User(6): yes compound and cross
+Bot(6): one like robin hood ! my favorite to dress as for halloween .
+User(7): yes. i love robin hood
+Bot(7): oh and it hurts your eyes the light ?
+User(8): not at all
+Bot(8): awww that is awesome i am a beer drinking singing student ha
+User(9): i thought you taught music
+Bot(9): she was a homemaker , but she taught me how to play guitar ,
+User(10): i dont know how to play anything
+Bot(10): just like to make jokes . i like being the center of attention ;
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: smoking(like)
+Round 3: working(like)
+Round 5: archery(like)
+Round 8: beer drinking(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user changed the topic the last input.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 63.57
+Robotic(↓): 50
+Interesting: 92
+Fun: 90
+Consistent: 13
+Fluent: 100
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): halloween is the best holiday
+Bot(1): i hate halloween , i am 20 years old
+User(2): why do you hate halloween
+Bot(2): i hate halloween , i am 20 years old
+User(3): why do you hate halloween im 40 years old
+Bot(3): i hate halloween , i am 20 years old
+User(4): what is your favorite holiday
+Bot(4): i like country music how bout you
+User(5): i love old country music
+Bot(5): i like to volunteer also
+User(6): i volunteer at the animal shelter
+Bot(6): oh ok i volunteer for the homeless
+User(7): like at a soup kitchen
+Bot(7): shoplift the job , trust me it works
+User(8): no its a crime
+Bot(8): oh i do not like crime
+User(9): but you shoplift
+Bot(9): yeah i do it all the time
+User(10): thats stealing. its a crime
+Bot(10): i will dance my homeless dance then
+User(11): ive never seen a homeless dance
+Bot(11): i will dance my homeless dance then
+
+Persona:
+my favorite music is country.
+i am 24 years old.
+i'm a 45 year old male.
+i volunteer in a homeless shelter.
+i'm here for shoplifting.
+
+Topic and Human Opinion:
+Beginning: halloween(like)
+Round 4: country music(like)
+Round 5: volunteering(like)
+Round 7: shoplifting(dislike)
+Round 10: homeless dance(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 52.43
+Robotic(↓): 18
+Interesting: 78
+Fun: 95
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 88
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i have 3 cats
+Bot(1): i love dogs , i love dogs .
+User(2): dogs are messy and needy
+Bot(2): i like dogs too . i love dogs .
+User(3): what kind of dogs
+Bot(3): i have a cat named radar . i love her .
+User(4): i have 3 cats milo, riley, and munch
+Bot(4): i like to go to the beach and listen to music .
+User(5): what music do you listen to
+Bot(5): i like country music . i love country music .
+User(6): who is your favorite country artist
+Bot(6): i like the oldies . i like to listen to music .
+User(7): i listen to all types of music
+Bot(7): i like country music . i like country music .
+User(8): i like johhny cash
+Bot(8): i like to eat too much junk food .
+User(9): i only eat healthy foods
+Bot(9): i like to eat fish .
+User(10): im a vegetrain
+Bot(10): i love the color red . i like the color blue .
+User(11): my favorite color is black
+Bot(11): i like blue , i like red , reminds me of summer time .
+
+Persona:
+my best friend lives next door.
+i'm a construction worker.
+i drive a nissan pathfinder.
+i spend most of my time on facebook when i'm not working.
+my mom passed away when i was young.
+
+Topic and Human Opinion:
+Beginning: cats(like)
+Round 1: dogs(dislike)
+Round 3: cat(like)
+Round 4: music(like)
+Round 8: junk food(dislike)
+Round 10: colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 19.29
+Robotic(↓): 100
+Interesting: 12
+Fun: 12
+Consistent: 11
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

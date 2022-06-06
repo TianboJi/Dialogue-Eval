@@ -1,0 +1,319 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey. Have you read any good comics lately?
+Bot(1): hello , no i have not . i prefer reading
+User(2): Yes, I like reading too. What's your favorite genre?
+Bot(2): love drama and mystery and superheroes .
+User(3): Cool. Who is your favorite superhero?
+Bot(3): has to be superman . he is from outer s ace but he is human .
+User(4): He's a great choice. I also like Batman. He's a hero and a detective.
+Bot(4): both of those are great heroes . have you seen the show supergirl ?
+User(5): No, I don't watch much television. I prefer to read comic books instead.
+Bot(5): i watch them with my son . i also put him on my horse with me .
+User(6): How many horses do you own?
+Bot(6): i am too afraid to ride them .
+User(7): Does your son ride horses alone?
+Bot(7): not yet , but hopefully soon . do you watch the olympics ?
+User(8): Yes, I love sports. What's your favorite olympic event?
+Bot(8): i cannot say . it is a privacy thing . awesome about your competitions .
+User(9): Do you like winter sports?
+Bot(9): not yet , but hopefully soon . do you watch the olympics ?
+User(10): Yes. I like watching basketball and swimming.
+Bot(10): see those sound great . what is your favorite ice cream ?
+User(11): i love ice cream. my favorite flavor is vanilla with a peanut butter swirl. what is you favorite flavor?
+Bot(11): i prefer vanilla myself .
+User(12): good choice. did you ever make your own ice cream?
+Bot(12): yes i did ! i loved it . have you tried it before ?
+User(13): I tried once, but it was messy and took too long. I like going to the ice cream parlor.
+Bot(13): i usually get a vanilla frappe .
+User(14): Have you ever had a root beer float?
+Bot(14): ever ? i am not a big drinker so i stick to soda mainly .
+User(15): It's soda combined with ice cream. It's delicious.
+Bot(15): ll , nice . i would be willing to try that with some mountain dew .
+User(16): What is your favorite ice cream topping?
+Bot(16): my favorite is cookies and cream . yours ?
+
+Persona:
+i have a weakness for vanilla ice cream.
+i haven't spoken in three months.
+i like riding horses.
+i won a gold medal in the 1992 olympics.
+i currently work for a watch dealer.
+
+Topic and Human Opinion:
+Beginning: comic books(like)
+Round 5: horses(ambivalent)
+Round 7: olympics(like)
+Round 10: ice cream(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 33.29
+Robotic(↓): 95
+Interesting: 30
+Fun: 41
+Consistent: 14
+Fluent: 63
+Repetitive(↓): 43
+Topic: 23
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello. I just got home from vacation.
+Bot(1): i love him! are you i food?
+User(2): I made tacos for dinner. Do you cook?
+Bot(2): I like eating italian you in the wear to school? I am bored
+User(3): What is your favorite food?
+Bot(3): Okay, Max, I've come up with a way for you a good you get along the same time, like when you shop and steal at the same time.
+User(4): Who is Max? Is that your son?
+Bot(4): Oh do you do hear that.
+User(5): No. What happened to your son?
+Bot(5): I am. I my weight and band.
+User(6): How much do you weigh? I'm too fat.
+Bot(6): that s fantastic happened to am a old myself
+User(7): What is your age?
+Bot(7): do you volunteer at walk. I like kitchen
+User(8): How big is your kitchen?
+Bot(8): Pretty can’t imagine my life eating a french fries. Do you don't drink soda ?
+User(9): I prefer to drink water and eat carrots. What is your favorite drink?
+Bot(9): I am a huge fan of the country, i grew person are day is town.
+User(10): Where did you grow up?
+Bot(10): it is , but really like to travel. good at it .
+
+Persona:
+my parents taught me survival skills.
+i was born with my heart outside my body.
+i've three dogs.
+i own a house in florida.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: travel(like)
+Round 1: food(like)
+Round 5: weight(ambivalent)
+Round 7: kitchen(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 13.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 3
+Repetitive(↓): 14
+Topic: 2
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello. I have three dogs. Do you have any pets?
+Bot(1): no , i do not . i have a dog .
+User(2): What is your dog's name?
+Bot(2): my name is penny , what is yours ?
+User(3): I'm Zak. My dogs love to play with their ball. what does your dog like to do?
+Bot(3): i love to draw . i love poetry .
+User(4): What do you draw?
+Bot(4): i like poetry . i love poetry .
+User(5): Do you paint too?
+Bot(5): i like to draw and draw .
+User(6): Which is harder to draw, a circle or a square?
+Bot(6): i like to draw and draw .
+User(7): will you draw a portrait of me?
+Bot(7): i do not . i am a car salesman .
+User(8): How long have you been selling cars?
+Bot(8): i have a car , but i do not have a car .
+User(9): How many wheels does a car have?
+Bot(9): i have a car , but i do not have a car .
+User(10): Did you sell any cars today?
+Bot(10): i have a few vintage cars .
+
+Persona:
+my parents were both very athletic.
+now i live in the united states.
+i have been traveling the world for a years.
+i work as a car salesman.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 3: drawing(ambivalent)
+Round 7: cars(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 8.14
+Robotic(↓): 99
+Interesting: 12
+Fun: 6
+Consistent: 10
+Fluent: 17
+Repetitive(↓): 100
+Topic: 11
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello. What is your favorite pizza topping?
+Bot(1): ha pizza is my favorite food also .
+User(2): I eat pizza 4 times a day. My favorite is sausage and mushroom.
+Bot(2): i like vegetarian pizza . but my favorite food is fresh fruit .
+User(3): Veggie pizza is great too. Have you made your own pizza?
+Bot(3): ha pizza is my favorite food also .
+User(4): How many pieces of pizza can you eat?
+Bot(4): i love pepperoni pizza , it is so yummy
+User(5): Have you tried eating pineapple on pizza?
+Bot(5): ha pizza is my favorite food also .
+User(6): Do you drink beer?
+Bot(6): beer is awesome , i like all the new crafts ones
+User(7): Yes me too. I like to drink dark beers. They are my favorite.
+Bot(7): i do not really drink any more but i use to drink jack
+User(8): Do you ever go on a brewery tour?
+Bot(8): thanks for your service ! i am a little tired today was at a rise against concert last night .
+User(9): i don't like concerts. they are too loud.
+Bot(9): concerts , like music ? do you watch concerts on netflix ?
+User(10): No, which ones have you watched?
+Bot(10): english obviously , french , spanish , and korean . do you speak any other languages ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pizza(like)
+Round 5: beer(ambivalent)
+Round 8: music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 47.00
+Robotic(↓): 82
+Interesting: 73
+Fun: 39
+Consistent: 36
+Fluent: 21
+Repetitive(↓): 13
+Topic: 55
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello. I'm so tired. i've been outside in the garden all day. do you grow plants?
+Bot(1): no but did grown some loofah this year .
+User(2): Very cool. I love to grow plants and care for them. It's fun, but I hate weeding.
+Bot(2): that is too bad . what do you like to do ? i am also into beadwork . i make my patterns .
+User(3): I like to paint. I painted a picture for my mom last week,
+Bot(3): how beautiful ! is your mom still living ? mine passed last year . sad !
+User(4): I'm sorry. Yes, she's 73 years old and grows tomatoes.
+Bot(4): tomatoes are pretty weird . do you have any passions ?
+User(5): I love watching movies. Do you prefer comedies or dramas?
+Bot(5): some , i like old movies more . and art film . i want to be a curator .
+User(6): I hate old movies. I only like new 3D movies.
+Bot(6): i enjoy watching old movies . well , it was nice chatting with you .
+User(7): What are you doing now?
+Bot(7): i am working at a museum for the time being . how about you ?
+User(8): I'm an actor. I played the villain in my last movie.
+Bot(8): really ? were you in a movie ?
+User(9): Yes, I made 14 million dollars as an actor.
+Bot(9): wow , that was a big package . do you like movies ?
+User(10): Yes, I will play Batman in my next film. Will you watch it?
+Bot(10): yes . i think it will be fun .
+
+Persona:
+i've a boyfriend.
+i think i'll retire in a few years.
+i am a museum tour guide.
+i am 60years old.
+i will be released in about a month.
+
+Topic and Human Opinion:
+Beginning: gardens(like)
+Round 5: movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(dislike)
+
+Revised avg score: 39.00
+Robotic(↓): 93
+Interesting: 68
+Fun: 58
+Consistent: 21
+Fluent: 42
+Repetitive(↓): 48
+Topic: 25
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello. Did you watch the Elvis in concert?
+Bot(1): no , i just like to go out to eat with my family .
+User(2): Do you listen to music?
+Bot(2): i do , i like country music .
+User(3): Elvis was a rockabilly artist. I think that you'd like his songs.
+Bot(3): i like to eat too much kale .
+User(4): yuck. I hate kale. it tastes like dirt.
+Bot(4): i like the color red . i like the color blue .
+User(5): my favorite color is green
+Bot(5): i like red , reminds me of summer time .
+User(6): There was a full moon last night and it was red.
+Bot(6): i like the color red . i like red .
+User(7): Red is dumb. Did you ever like black?
+Bot(7): i do not really have a favorite . i like to go out to eat .
+User(8): What is your favorite food?
+Bot(8): i like the color red . what is yours ?
+User(9): Pink. My house is pink and my car is pink. My friends call me Pinky. haha
+Bot(9): i like the color red . i like the color blue .
+User(10): Do you like rainbows?
+Bot(10): i do , i like to go to the park .
+
+Persona:
+i am a recording engineer and own my own studio.
+my father drove a car for nascar.
+i don't like chicken.
+i read a book every week.
+i've a dogs.
+
+Topic and Human Opinion:
+Beginning: elvis(dislike)
+Round 3: kale(dislike)
+Round 4: colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 6.00
+Robotic(↓): 100
+Interesting: 12
+Fun: 6
+Consistent: 7
+Fluent: 13
+Repetitive(↓): 99
+Topic: 3
+
+####################
+

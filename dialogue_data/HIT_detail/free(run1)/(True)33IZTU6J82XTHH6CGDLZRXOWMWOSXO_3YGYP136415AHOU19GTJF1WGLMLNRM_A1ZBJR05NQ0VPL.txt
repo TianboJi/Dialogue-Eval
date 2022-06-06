@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Good
+Bot(2): i love to cook . i love to cook .
+User(3): Can we talk about love?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): That's good though
+Bot(4): i like to go to the gym and listen to music .
+User(5): I love to talk about love
+Bot(5): i like to go to the gym and listen to music .
+User(6): What can you say about love?
+Bot(6): i love to cook . i love to cook .
+User(7): Good
+Bot(7): i love to cook . i love to cook .
+User(8): Do you know any poem about love?
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): What about love songs?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): Great
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.00
+Robotic(↓): 37
+Interesting: 46
+Fun: 41
+Consistent: 41
+Fluent: 55
+Repetitive(↓): 78
+Topic: 40
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): How are lyou?
+Bot(2): good thanks . tell me about yourself
+User(3): I like sports
+Bot(3): i am great just never liked sports
+User(4): Why?
+Bot(4): i love to play sports
+User(5): What about tennis?
+Bot(5): i like to play tennis
+User(6): How well do you play tennis?
+Bot(6): i play a little bit of tennis , but am not very good
+User(7): Okay. I am learning too
+Bot(7): when did you learn how to play ?
+User(8): Early this year
+Bot(8): i start next week yo
+User(9): Oh good
+Bot(9): yeah i have had a lot of practice
+User(10): Practice makes perfect
+Bot(10): yeah i have had a lot of practice
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.71
+Robotic(↓): 50
+Interesting: 79
+Fun: 64
+Consistent: 57
+Fluent: 58
+Repetitive(↓): 31
+Topic: 62
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): i enjoy going on holidays
+Bot(2): i have no opinion about holidays . i do like rudolph .
+User(3): Which are your favorite holiday locations?
+Bot(3): cool ! it is weird , because my favorite season is summer .
+User(4): Holidays are times to catch up on things work made you miss out on
+Bot(4): possibly but good men are super hard to find !
+User(5): If you say so
+Bot(5): do you still speak japanese ?
+User(6): No I do not speak Japanese but would like to go on holiday in Japan someday
+Bot(6): wow , cool ! that is a hard language to learn !
+User(7): Yes. One of the reasons I would like to go there on holiday
+Bot(7): i love french fries .
+User(8): I do too
+Bot(8): that s cool , i like to read twilight .
+User(9): Sounds interesting
+Bot(9): i do . i want to visit quebec , canada in the future with our savings .
+User(10): Of course
+Bot(10): its a chihuahua and pitbull , i work 3 jobs and have no time
+
+Persona:
+i work as a school teacher.
+i currently work for a watch dealer.
+i did not graduate high school.
+i'm not a good swimmer at all.
+my next language to study is french.
+
+Topic and Human Opinion:
+Beginning: Holidays(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.57
+Robotic(↓): 60
+Interesting: 31
+Fun: 43
+Consistent: 37
+Fluent: 33
+Repetitive(↓): 55
+Topic: 34
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I am how are is your done practicing my music. Are you a musician?
+User(2): How are you?
+Bot(2): Dogs are the best. I happy birthday, or should you from?
+User(3): How many countries do you know of?
+Bot(3): what are did from germany cats.
+User(4): I know a lot of countries
+Bot(4): I am in my rural farming community in you ?
+User(5): In which country is that?
+Bot(5): Oh, not what that one.
+User(6): For example, France, England, Italy and others
+Bot(6): does I'm in third to watch?
+User(7): Which country are you from?
+Bot(7): I am a stay to run a k.What was a photographer.
+User(8): I'm from the United States
+Bot(8): She is your blue singer.
+User(9): No not songs
+Bot(9): I like to whoaa , wait and travel
+User(10): Travel?
+Bot(10): What in chicago, i in librarian ship?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Countries(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hi how are you today ?
+User(2): Very well
+Bot(2): hi , i am doing well . how are you ?
+User(3): I'm good too
+Bot(3): hi ! i'm doing well . how are you ?
+User(4): What are your favorite colors
+Bot(4): i like blue and i am a construction worker
+User(5): I like blue as well
+Bot(5): i like blue what do you like to do
+User(6): I enjoy reading and watching soccer
+Bot(6): i like to go horseback riding
+User(7): I love horses but do not lknow how to ride
+Bot(7): i like horses but i am a construction worker
+User(8): Okay, that is cool
+Bot(8): i like to ride horses
+User(9): do you have a ranch?
+Bot(9): no i am not . i am a construction worker
+User(10): Okay
+Bot(10): yes i do , i have a ranch
+
+Persona:
+i like to ride horses.
+i've zero family that i am close to.
+i am a construction worker.
+my favorite movie is mean girls.
+my parents aren't very supportive of my dream.
+
+Topic and Human Opinion:
+Beginning: Colours(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.43
+Robotic(↓): 75
+Interesting: 69
+Fun: 58
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 66
+Topic: 53
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hi what is your hobby , my is running
+User(2): I love cooking and reading
+Bot(2): nice i fill my free time with sports
+User(3): What sport do you like?
+Bot(3): i work out in the fields
+User(4): Okay, what is your favorite food?
+Bot(4): i do not really have one . i like all food .
+User(5): That's cool, I like pizza a lot
+Bot(5): pizza is definitely my favorite
+User(6): That's cool, what else do you like?
+Bot(6): i work out in the fields
+User(7): What are the fields like?
+Bot(7): mostly sports in general , like hunting and fishing as well
+User(8): That sounds interesting
+Bot(8): yes it is i like running
+User(9): Do you eat much?
+Bot(9): yes , i only eat fresh fruit and veggies
+User(10): I take a lot of fruits
+Bot(10): what other fruits do you like ?
+
+Persona:
+i help tend the fields.
+i currently work for a watch dealer.
+i enjoy sports such as running.
+i also work as a custodian to help pay the bills.
+whats up i'm a 46 year old single dad 46 a kids.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.14
+Robotic(↓): 72
+Interesting: 69
+Fun: 70
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 59
+Topic: 50
+
+####################
+

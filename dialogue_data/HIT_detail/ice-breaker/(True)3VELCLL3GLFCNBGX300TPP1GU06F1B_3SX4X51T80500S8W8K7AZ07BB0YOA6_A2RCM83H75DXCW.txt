@@ -1,0 +1,311 @@
+Feedback: It was a good section.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love cooking and fishing. What about you?
+Bot(1): i love cooking and fishing .
+User(2): That sounds great. Which is your favorite dish?
+Bot(2): i love to cook . i am a very forgetful deaf person .
+User(3): Ok, I love pizza the most.
+Bot(3): i like to cook . i am very forgetful .
+User(4): I am non-vegetarian. What about you?
+Bot(4): i am a stay at home mom . i am deaf .
+User(5): I am also a mom of a boy and girl.
+Bot(5): i am a single mom . i am deaf .
+User(6): How old are your children?
+Bot(6): i am a single mom . i am deaf .
+User(7): My girl is 15 years old and boy is 10 years old.
+Bot(7): i am sorry to hear that . i am sorry to hear that .
+User(8): Which is your favorite hobby?
+Bot(8): i like to cook and cook .
+User(9): I also love cooking but my favorite hobby is reading.
+Bot(9): i like to cook . i am deaf so i am deaf .
+User(10): Do you like reading?
+Bot(10): i do . i love to read .
+
+Persona:
+whats up i'm a 46 year old single dad 46 a kids.
+my pets name is charlie.
+i just broke up with boyfriend two months ago.
+i am employed by the us postal service.
+i am partly deaf.
+
+Topic and Human Opinion:
+Beginning: i love cooking but i also enjoy fishing.(like)
+Round 4: mom(like)
+Round 7: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 39.71
+Robotic(↓): 38
+Interesting: 28
+Fun: 35
+Consistent: 50
+Fluent: 31
+Repetitive(↓): 64
+Topic: 36
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am a bee farmer. Do you love farming?
+Bot(1): i do , i love to go fishing .
+User(2): I also love fishing.
+Bot(2): i like to go fishing .
+User(3): I used to go for fishing in the weekends.
+Bot(3): i love to go fishing .
+User(4): We spend time with the family during the weekends and used to do fishing.
+Bot(4): i like to go fishing .
+User(5): Will your family join for you for fishing?
+Bot(5): no , i do not . i like to go fishing .
+User(6): Does age matters you?
+Bot(6): i am a student , but i am a student .
+User(7): What is your concept about age?
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): I too love classical music.
+Bot(8): i like to listen to music .
+User(9): I am a big fan of country music.
+Bot(9): i like the band korn . i love it .
+User(10): I too am a big fan of Korn band.
+Bot(10): i like to eat too .
+
+Persona:
+i fantasize about taking over the world.
+i live is a rural farming community.
+we spent summers ring at national parks.
+i'm in the army.
+my father used to work for home depot.
+
+Topic and Human Opinion:
+Beginning: i am a bee farmer.(like)
+Round 5: age(like)
+Round 7: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 52.29
+Robotic(↓): 31
+Interesting: 44
+Fun: 48
+Consistent: 50
+Fluent: 58
+Repetitive(↓): 47
+Topic: 44
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My favorite food is pizza with black olives. What about you?
+Bot(1): ha pizza is my favorite food also .
+User(2): My children love chicken pizza the most.
+Bot(2): i love fruits and vegetables . i do not eat any meat .
+User(3): That sounds great. So are you a vegan?
+Bot(3): i hope to go vegan too . but for now i am a vegetarian .
+User(4): That is good. My husband is also a vegetarian.
+Bot(4): vegan , not vegetarian . there is a difference .
+User(5): Yes I know that. Is there anyone other than you who eat pizza in your household?
+Bot(5): vegetable pizza is my favorite
+User(6): I too love vegetable pizza, the taste is awesome.
+Bot(6): i love fruits and vegetables . i do not eat any meat .
+User(7): I also used to eat a lot of fruits and vegetables.
+Bot(7): yes i love to garden i grow all my own fruits and veggies
+User(8): I will go for organic vegetables when I cook pizza by myself.
+Bot(8): i am addicted to this place down the street . its super fire pizza
+User(9): We also have a super restaurant with great pizza.
+Bot(9): a large pepperoni and money pizza . extra hundred dollar bills please
+User(10): Oh my favorite.
+Bot(10): it is orange . i have my nails painted orange . they are long .
+
+Persona:
+i now live in the city.
+i have amazing children and grandchildren.
+a already have a children.
+i enjoy poetry.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: my favorite food is pizza with black olives.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.14
+Robotic(↓): 64
+Interesting: 50
+Fun: 60
+Consistent: 53
+Fluent: 67
+Repetitive(↓): 39
+Topic: 80
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): My wife left me and took my children.
+Bot(1): oh no , that is horrible . the people i pet sit for were in florida this weekend .
+User(2): I am a teacher. What about you?
+Bot(2): all three of my dogs were adopted .
+User(3): I too love dogs.
+Bot(3): all three of my dogs were adopted .
+User(4): I have one dog in my home.
+Bot(4): all three of my dogs were adopted .
+User(5): I don't adopt any dog. But I am planning to.
+Bot(5): all three of my dogs were adopted .
+User(6): Do you like to travel?
+Bot(6): i do . i would like to go traveling though .
+User(7): My favorite destination is Maldives.
+Bot(7): i have always wanted to go to hawaii .
+User(8): Oh great, I have already visited Hawaii.
+Bot(8): i have always wanted to go to hawaii .
+User(9): Is there any specific for your like on that place?
+Bot(9): i have always wanted to go to hawaii .
+User(10): What are the main attractions you see in that place?
+Bot(10): just a few different places . it is neat to explore explore .
+
+Persona:
+my parents taught me survival skills.
+i was born with my heart outside my body.
+i've three dogs.
+i own a house in florida.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: my wife left me and took my children.(dislike)
+Round 1: job(like)
+Round 2: dogs(like)
+Round 5: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 50.29
+Robotic(↓): 30
+Interesting: 50
+Fun: 46
+Consistent: 50
+Fluent: 60
+Repetitive(↓): 74
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I just moves into my first home. Do you own a house?
+Bot(1): i like to go there. What do you watch tv
+User(2): I used to watch TV a lot.
+Bot(2): no i like kind of nurse only
+User(3): I used to watch different series.
+Bot(3): no, but you most in this part of friends. do you?
+User(4): Do you love watching movies?
+Bot(4): i'm sorry to hear asked believe me
+User(5): I love watching movies.
+Bot(5): I am but it's not my tea. I like to eat lots of flavors.
+User(6): My favorite flavor is choclate.
+Bot(6): That 's awesome! What we will go teach?
+User(7): Which is your favorite flavor?
+Bot(7): I live in is really like in Ohio.
+User(8): I live in California.
+Bot(8): I economist, shopping.😄
+User(9): I too love shopping,
+Bot(9): that s cool i own to answer me. See at
+User(10): Do you go for online shopping?
+Bot(10): i :) it the singer
+
+Persona:
+i enjoy mowing my lawn on sunny days.
+i like to go hiking in the mornings to see the sunset.
+i've rainbow hair.
+i have a dogs.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: i just moved into my first home.(like)
+Round 1: TV(like)
+Round 3: movies(like)
+Round 5: flavors(like)
+Round 7: place(like)
+Round 8: shopping(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The user will change the topic in the next input.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 54.43
+Robotic(↓): 39
+Interesting: 50
+Fun: 54
+Consistent: 50
+Fluent: 59
+Repetitive(↓): 43
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am a famous twitch streamer
+Bot(1): that is pretty awesome . i am a physical therapist
+User(2): That is cool.
+Bot(2): i won award as a 4h honorary member
+User(3): Do you enjoy your job?
+Bot(3): yes all the time since i retired .
+User(4): What is your salary?
+Bot(4): i am actually retired
+User(5): Do you have any part time jobs now?
+Bot(5): no not since i retired
+User(6): Ok. What is your future plan?
+Bot(6): nothing retired .
+User(7): What about your family?
+Bot(7): i want a big family and some dogs
+User(8): Do you love dogs?
+Bot(8): oh yes , i have 2 dogs moe and minnie . my babies
+User(9): I also love dogs.
+Bot(9): i love my children and my dog too .
+User(10): I also have one dog.
+Bot(10): i love my children and my dog too .
+
+Persona:
+when i grow up i want to be a physical therapist.
+i have been retired for a years.
+two dogs live with me.
+my favorite movie is mean girls.
+i've a children and a dogs.
+
+Topic and Human Opinion:
+Beginning: i'm a famous twitch streamer.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.71
+Robotic(↓): 50
+Interesting: 53
+Fun: 42
+Consistent: 59
+Fluent: 54
+Repetitive(↓): 57
+Topic: 54
+
+####################
+

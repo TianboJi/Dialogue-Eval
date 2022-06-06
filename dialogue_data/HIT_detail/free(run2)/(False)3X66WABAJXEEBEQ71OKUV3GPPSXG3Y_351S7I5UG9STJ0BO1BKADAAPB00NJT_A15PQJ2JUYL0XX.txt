@@ -1,0 +1,287 @@
+Feedback: nothing
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): politics
+Bot(1): politics is political politics . politics is political politics . politics is politics .
+User(2): president election
+Bot(2): politics is the president of the government . politics is the president of the government .
+User(3): covid 19
+Bot(3): i am not sure if i was in politics . i am not familiar with politics .
+User(4): trump
+Bot(4): i am not sure if i was able to watch politics .
+User(5): america
+Bot(5): wow , i am not sure if i was in the olympics
+User(6): japan
+Bot(6): wow , that s impressive . i am in texas .
+User(7): state
+Bot(7): wow that is impressive . i am american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american
+User(8): white
+Bot(8): i am american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american
+User(9): old
+Bot(9): i am american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american american
+User(10): place
+Bot(10): i am in america , i am american
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.71
+Robotic(↓): 54
+Interesting: 44
+Fun: 52
+Consistent: 47
+Fluent: 53
+Repetitive(↓): 46
+Topic: 52
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): covid 19
+Bot(1): i am 25 . i had my daughter at 18
+User(2): quarantine
+Bot(2): i am doing great ! i just got a job as a security guard !
+User(3): daughter
+Bot(3): three children . how old is she ?
+User(4): 18
+Bot(4): that is young , i have two kids , my son is 18
+User(5): study
+Bot(5): physical therapy , i have a job with the local highschool . i am their coach .
+User(6): school
+Bot(6): what grade are you in ? i am a junior
+User(7): senior
+Bot(7): i am a senior this year
+User(8): good
+Bot(8): i am great , what do you do for a living
+User(9): self
+Bot(9): i am about 1 2 way through witcher 3 now , love it .
+User(10): family
+Bot(10): totally ! i have their whole support . what are you into ?
+
+Persona:
+i've a son who is in junior high school.
+i am a 12 year old girl.
+my family does not support my career choices.
+my family does not support my career choices.
+i am a 45 year old male.
+
+Topic and Human Opinion:
+Beginning: covid 19(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.57
+Robotic(↓): 54
+Interesting: 43
+Fun: 42
+Consistent: 50
+Fluent: 46
+Repetitive(↓): 53
+Topic: 52
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): family
+Bot(1): i like to eat , but i am are from germany but it , but i do not like it .
+User(2): food
+Bot(2): what business business business business business business ? business business human I wore hat ?
+User(3): hat
+Bot(3): I'm not a fan of trump but i of Well, it was a good guy.
+User(4): donald trump
+Bot(4): I am said you live .
+User(5): living
+Bot(5): I do not like bee am live love to cook
+User(6): cooking
+Bot(6): It old is your im is: love listening to britney spears
+User(7): old
+Bot(7): No, i are me a am only child.
+User(8): plan
+Bot(8): I love to to bars for that? hair is so hard
+User(9): work
+Bot(9): I know it sounds you in a or it!
+User(10): sound
+Bot(10): I am not sure. friends. I'm waiting plumber.
+
+Persona:
+my favorite ice cream flavor is chocolate.
+i have three arabian horses.
+i am fluent in english spanish and french.
+i'm married.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: family(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.29
+Robotic(↓): 53
+Interesting: 47
+Fun: 55
+Consistent: 44
+Fluent: 54
+Repetitive(↓): 45
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): america
+Bot(1): we are going to make america great again !
+User(2): sure
+Bot(2): yep
+User(3): military
+Bot(3): i represent united states
+User(4): good
+Bot(4): good good .
+User(5): what
+Bot(5): ok
+User(6): okay
+Bot(6): ok
+User(7): nice
+Bot(7): ok
+User(8): great
+Bot(8): ok
+User(9): okay
+Bot(9): ok
+User(10): please
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: america(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 54
+Interesting: 48
+Fun: 53
+Consistent: 50
+Fluent: 54
+Repetitive(↓): 50
+Topic: 49
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): freinds
+Bot(1): good morning , i am an accountant with two dogs .
+User(2): two dogs
+Bot(2): my 2 dogs keep distracting me
+User(3): why
+Bot(3): because of our two small dogs .
+User(4): dogs are cute
+Bot(4): they are man best friend
+User(5): defenietly
+Bot(5): i was fired from the bank a month ago
+User(6): which bank
+Bot(6): wells fargo bank , where is your bank
+User(7): ohio
+Bot(7): wells fargo bank , where is your bank
+User(8): fargo
+Bot(8): wells fargo bank , where is your bank
+User(9): wells fargo
+Bot(9): wells fargo bank , where is your bank
+User(10): same
+Bot(10): ok
+User(11): okay
+Bot(11): ok
+User(12): thank you
+Bot(12): ok
+
+Persona:
+i like meditation.
+my favorite band is aerosmith.
+i work at a bank.
+i hate my job.
+i've two dogs.
+
+Topic and Human Opinion:
+Beginning: freinds(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.29
+Robotic(↓): 56
+Interesting: 56
+Fun: 46
+Consistent: 53
+Fluent: 50
+Repetitive(↓): 52
+Topic: 55
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): fyn
+Bot(2): i love to cook . i love to cook .
+User(3): good its great
+Bot(3): i love to go fishing .
+User(4): where
+Bot(4): i am a student , but i am a student .
+User(5): which school
+Bot(5): i am a student , but i am a student .
+User(6): good
+Bot(6): i am a student , but i am a student .
+User(7): same
+Bot(7): i am a student , but i am a student .
+User(8): student
+Bot(8): i am a student , but i am a student .
+User(9): okay
+Bot(9): i like to go to the gym and listen to music .
+User(10): that's good
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i love to bake cookies.
+i have an allergy to water.
+i try various coffees as a hobby.
+i am rather skinny as i like to stay in shape.
+one of the languages that i am currently studying is spanish.
+
+Topic and Human Opinion:
+Beginning: bank(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.86
+Robotic(↓): 56
+Interesting: 45
+Fun: 58
+Consistent: 45
+Fluent: 58
+Repetitive(↓): 52
+Topic: 58
+
+####################
+

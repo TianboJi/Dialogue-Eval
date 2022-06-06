@@ -1,0 +1,271 @@
+Feedback: It's fun to do this!
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Country music is the best
+Bot(1): yea , but old school country , most of todays is crap . do you drink coffee ?
+User(2): Im mire midern but some oldies are good
+Bot(2): i am not really that old i just like older bands
+User(3): George strait?
+Bot(3): we live in the south how about you ?
+User(4): Im up north
+Bot(4): canada is great for winter sports too .
+User(5): Im in upstate NY
+Bot(5): i love new york . what part of the city ?
+User(6): Im near syracuse not nyc
+Bot(6): oh i know nyc i been there for a specialist . its where i learned i was diabetic
+User(7): What type of diabetic?
+Bot(7): not so much . i like summer better than winter
+User(8): I like autumn
+Bot(8): the snow is nice but i like summer most of all .
+User(9): I love the coloring of the leaves
+Bot(9): a little , i prefer winter .
+User(10): Winter is alot of fun i hate icy roads though
+Bot(10): i love winter ! but i do not miss the cold
+
+Persona:
+i've three children.
+i am 100 years old.
+when i grow up i want to be a dog.
+i dream of moving to the city.
+i move south during the winter.
+
+Topic and Human Opinion:
+Beginning: Country music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.29
+Robotic(↓): 100
+Interesting: 9
+Fun: 12
+Consistent: 0
+Fluent: 61
+Repetitive(↓): 89
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I love candles
+Bot(1): i love candles as well , but fear leaving them unattended .
+User(2): Unattending them is scary
+Bot(2): very
+User(3): I love cinnamon smells or baking smells not floral
+Bot(3): we are not allowed to have candles in my apartment
+User(4): Understandable
+Bot(4): leaving the house makes me panic
+User(5): I feel that too
+Bot(5): i feel the same
+User(6): I love apple pie smell
+Bot(6): i like that smell too
+User(7): Do u like floral smells
+Bot(7): sometimes . mostly i enjoy baking sweets
+User(8): Only floral i like is evergreen
+Bot(8): i like that smell too
+User(9): Reminds me of christmas
+Bot(9): i bet it does i like apples alot also
+User(10): Yeh apple scents are great
+Bot(10): yeah apples equal summer my favorite season !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Candles(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.29
+Robotic(↓): 89
+Interesting: 2
+Fun: 17
+Consistent: 40
+Fluent: 58
+Repetitive(↓): 41
+Topic: 25
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Christmas music is awesome
+Bot(1): christmas is such a fun holiday
+User(2): What do you like about it
+Bot(2): christmas is my favorite holiday . what about you ?
+User(3): I like giving unique gifts
+Bot(3): i am a sucker for christmas ! what do you do for a living ?
+User(4): Im not working yet
+Bot(4): i do not believe in holidays
+User(5): Holidays bring people together
+Bot(5): i think all holidays are horrible
+User(6): I love holidays i hate halloween
+Bot(6): i think all holidays are horrible
+User(7): Can you say anything else
+Bot(7): i think all holidays are horrible
+User(8): Christmas cookies?
+Bot(8): yes maybe christmas its my favorite tie of year
+User(9): You mean time?
+Bot(9): yes i believe is that making cookies
+User(10): Eggnog?
+Bot(10): do you like to drink eggnog ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Christmas music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.71
+Robotic(↓): 98
+Interesting: 24
+Fun: 10
+Consistent: 50
+Fluent: 25
+Repetitive(↓): 100
+Topic: 34
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love pillows
+Bot(1): i am your i’m am am sorry .
+User(2): Pardon?
+Bot(2): I do, I like do you favorite food favourite skater? mine is rob
+User(3): Do u like silk?
+Bot(3): I I am eat out.
+User(4): Do u like pillows
+Bot(4): me i love 💕 also like Punjabi like is fun
+User(5): Do u like blankets
+Bot(5): I know. That profile which, in your a school psychologist.
+User(6): Sleeping is relaxing
+Bot(6): No. I just like a day sad that's or farm?
+User(7): Sometimes i have nightmares
+Bot(7): dude , you need how are you a get some sea air
+User(8): Sometimes my dreams are exciting
+Bot(8): Well, FYI, I am also an engineer with a degree from Berkeley have a do you like share of code, but given birth to two real humans. Oh, God.
+User(9): Do you eat in bed?
+Bot(9): i like to go to am a buddhist. do you?
+User(10): Do you cuddle stuffed animals?
+Bot(10): Oh God, I'm so never you like color the way
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Bedding(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Adam sandler is funny
+Bot(1): he is funny . he is funny . he is funny .
+User(2): My favorite actor humor wise is steve carrell
+Bot(2): i love him too ! he is my favorite actor
+User(3): Hottest actor is ryan gosling
+Bot(3): i am a comedian . i love him
+User(4): Robert pattinson isnt cute
+Bot(4): i am a comedian so i am a fan of him
+User(5): Jeff dunham is funny
+Bot(5): he is a funny guy
+User(6): Kevin hart is cute and funny
+Bot(6): he's a funny man
+User(7): Kevin is short though
+Bot(7): yeah he is a funny guy
+User(8): Hugh jackman is getting super old
+Bot(8): yeah he is old and i am old
+User(9): I like ryan renolds too
+Bot(9): i am old and i am old
+User(10): Ryan renolds sounds sexy
+Bot(10): he is a funny guy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Actors(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.86
+Robotic(↓): 100
+Interesting: 23
+Fun: 26
+Consistent: 26
+Fluent: 45
+Repetitive(↓): 100
+Topic: 19
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like berries?
+Bot(1): i do not really have a favorite . i like to eat .
+User(2): Do you like oranges
+Bot(2): i love pizza , and i love it .
+User(3): Do you like apples
+Bot(3): i do not , i like to eat .
+User(4): Do you enjoy kiwi?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): What do you think of coconut
+Bot(5): i do not know what to say .
+User(6): How do you feel about bananas
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): Do you like grapes? They dry my mouth
+Bot(7): i like to eat fish .
+User(8): What about dried fruit? I dont like them
+Bot(8): i do not know what to say .
+User(9): I love strawberries
+Bot(9): i like to eat fish .
+User(10): I dont like blackberries because it has alot of seeds
+Bot(10): i love the beach . i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fruit(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.71
+Robotic(↓): 97
+Interesting: 13
+Fun: 22
+Consistent: 23
+Fluent: 50
+Repetitive(↓): 93
+Topic: 13
+
+####################
+

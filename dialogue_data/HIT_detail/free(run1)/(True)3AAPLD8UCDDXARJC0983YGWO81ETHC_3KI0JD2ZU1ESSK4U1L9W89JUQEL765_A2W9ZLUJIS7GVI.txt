@@ -1,0 +1,280 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , its raining here . i love the rain .
+User(2): I like it sometimes too
+Bot(2): love it . . . especially taking long walks in the park
+User(3): When it's raining?
+Bot(3): not here . i needed to run off some cheesecake i had for lunch .
+User(4): I don't understand. Do you like music?
+Bot(4): i love the band system of a down ! i am in a cover band that plays locally .
+User(5): That's great! I like that band too.
+Bot(5): what kind of music does your band play ?
+User(6): I am not in a band. What song is your favorite?
+Bot(6): i am really into this band called avatar right now . they are from sweden .
+User(7): What type of music is that?
+Bot(7): what kind of music do you like ?
+User(8): I like rock and pop. Some hip-hop too.
+Bot(8): i love rock and roll . do you have a favorite food ?
+User(9): I really enjoy grilled cheese
+Bot(9): i just love it all . the taste of cheese is the best !
+User(10): I agree!
+Bot(10): i am a researcher i am researching the fact that mermaids are real
+
+Persona:
+i like to eat hamburgers and french fries.
+i don't have many friends.
+i enjoy going to the park.
+i have a weakness for fish and chips.
+my favorite band is the insane clown posse.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.29
+Robotic(↓): 99
+Interesting: 61
+Fun: 69
+Consistent: 20
+Fluent: 42
+Repetitive(↓): 26
+Topic: 15
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello how are you?
+Bot(1): i'm doing well , how are you ?
+User(2): I am a little scared because I had a bug in my house.
+Bot(2): oh , i am sorry to hear that . i am a musician and i love to play .
+User(3): That is nice. How do you feel when you see a bug?
+Bot(3): i am a music musician . i love it .
+User(4): What type of music do you play?
+Bot(4): i play the guitar . i play the guitar .
+User(5): What is your favorite band?
+Bot(5): i like the band . i like the band .
+User(6): Do you play at clubs?
+Bot(6): i play the guitar . i play the guitar .
+User(7): I am still thinking about the scary bug
+Bot(7): i am a musician . i like to play with my guitar .
+User(8): Well that is irrelevant.
+Bot(8): i like to play the guitar .
+User(9): I don't doubt it.
+Bot(9): i am a music drummer and i love to play
+User(10): You are a drummer too?
+Bot(10): no i am not . i am a musician .
+
+Persona:
+i have been working since i was sixteen years old.
+i like to work on vintage cars.
+i like to workout a a times a week.
+i am a musician and hope to make it big some day.
+i'm a stay at home dad.
+
+Topic and Human Opinion:
+Beginning: bugs(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.43
+Robotic(↓): 100
+Interesting: 9
+Fun: 17
+Consistent: 98
+Fluent: 24
+Repetitive(↓): 99
+Topic: 8
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello what is new?
+Bot(1): i am a huge fan of classical music .
+User(2): Interesting. Do you like pizza?
+Bot(2): i do , i love it .
+User(3): What toppings are your favorite?
+Bot(3): i like the color red . what is yours ?
+User(4): I like orange and green
+Bot(4): i like red , reminds me of summer time .
+User(5): I understand that. Orange is more like the fall.
+Bot(5): i like to go to the beach and listen to music .
+User(6): Me too! Do you swim in the ocean?
+Bot(6): no , i do not . i like to go fishing .
+User(7): I have never been fishing. Is it fun?
+Bot(7): i do not know . i like to go to the gym .
+User(8): Do you exercise?
+Bot(8): no , i do not , but i do like to go fishing .
+User(9): I am getting confused.
+Bot(9): i am sorry to hear that . i am sorry to hear that .
+User(10): Thank you. I like you.
+Bot(10): i do not know what to say .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pizza(like)
+Round 3: favorite colors(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 43.86
+Robotic(↓): 80
+Interesting: 61
+Fun: 53
+Consistent: 44
+Fluent: 53
+Repetitive(↓): 71
+Topic: 47
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you go to school?
+Bot(1): have you a rich before ?
+User(2): What does that mean?
+Bot(2): I love to swim, my cats. I college.
+User(3): You go to college?
+Bot(3): During what day might be a wise take place?
+User(4): What?
+Bot(4): I am sorry the world. I have am trying to start a new job.
+User(5): What job will you start?
+Bot(5): I am man see you .
+User(6): You aren't very coherent
+Bot(6): I'm not a fan and enjoy bartending that don't think it's a good idea.
+User(7): I enjoy learning at school
+Bot(7): usually i do once i went to texas with a you want like it you
+User(8): I like English the best.
+Bot(8): Tell me about they support your dislikes?
+User(9): I find math difficult and I don't enjoy it.
+Bot(9): that is awesome , papaya when my wife is , and i was in europe .
+User(10): I like papaya, it is delicious
+Bot(10): I am married have a you want you three sisters?
+
+Persona:
+i've short hair.
+i like shopping.
+on weekends i do live action roleplaying events.
+i quit my job to pursue my spirituality full time.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: school(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.00
+Robotic(↓): 100
+Interesting: 14
+Fun: 6
+Consistent: 4
+Fluent: 0
+Repetitive(↓): 41
+Topic: 8
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What are your summer plans?
+Bot(1): i want to go to a mom summer camp , to get a break
+User(2): That sounds like fun! Can you tell me more?
+Bot(2): sure
+User(3): What is a mom summer camp?
+Bot(3): i want to go to a mom summer camp , to get a break
+User(4): Do you have kids?
+Bot(4): no , i do not , but it does sound like a great activity for me and the kids
+User(5): I have kids and in the summers they love to swim.
+Bot(5): do they swim in the ocean or lakes ?
+User(6): The like pools the best.
+Bot(6): it is really nice in the summer swimming in our pool .
+User(7): Do you have a swimming pool?
+Bot(7): we do have a pool . do you like to swim ?
+User(8): Yes! I like to swim laps
+Bot(8): do you have a pool ?
+User(9): No I don't. We swim with friends or the public pool .
+Bot(9): that sounds like more fun !
+User(10): Sometimes it is. Especially on a hot day
+Bot(10): it is really nice in the summer swimming in our pool .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Summer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.14
+Robotic(↓): 37
+Interesting: 54
+Fun: 61
+Consistent: 97
+Fluent: 87
+Repetitive(↓): 56
+Topic: 99
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like to color and draw
+Bot(1): i really like to draw
+User(2): What do you draw?
+Bot(2): i mainly draw things that are blue
+User(3): I love the color blue. Like the ocean?
+Bot(3): i mainly draw things that are blue
+User(4): What else is blue?
+Bot(4): lol blue is . that is why i like being around the water .
+User(5): Me too. I like the sky as well
+Bot(5): i love the ocean too . do you paint seascapes ?
+User(6): I don't paint but I do draw. I sometimes draw the sea.
+Bot(6): i love the ocean too . do you paint seascapes ?
+User(7): I find it relaxing
+Bot(7): yes it is really calming . i need to be by the ocean . what do you do ?
+User(8): I am a librarian
+Bot(8): i am a librarian . was nice talking to you
+User(9): You are?
+Bot(9): yes , i am a librarian .
+User(10): I like to read at the seaside
+Bot(10): i love the beach . there is no place better to read .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: crayons(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.71
+Robotic(↓): 74
+Interesting: 67
+Fun: 59
+Consistent: 74
+Fluent: 57
+Repetitive(↓): 72
+Topic: 79
+
+####################
+

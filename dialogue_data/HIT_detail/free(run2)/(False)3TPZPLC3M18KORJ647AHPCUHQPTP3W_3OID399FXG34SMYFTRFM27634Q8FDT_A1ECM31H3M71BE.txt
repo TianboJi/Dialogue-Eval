@@ -1,0 +1,285 @@
+Feedback: interesting
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): how are you doing
+Bot(1): i am doing well , how are you ?
+User(2): how are you doing
+Bot(2): i am doing well . how are you ?
+User(3): how are you doing
+Bot(3): i am doing well . how are you ?
+User(4): how are you doing
+Bot(4): i am doing great . just sewing my clothes .
+User(5): how are you doing
+Bot(5): i am doing great just sewing my own clothes
+User(6): how are you doing
+Bot(6): i am doing great just sewing my own clothes
+User(7): how are you doing
+Bot(7): i am doing well . just sewing my clothes .
+User(8): how are you doing
+Bot(8): i am doing well . just sewing my clothes .
+User(9): how are you doing
+Bot(9): i am doing well . just sewing my clothes .
+User(10): how are you doing
+Bot(10): i am doing well . just sewing my clothes .
+
+Persona:
+i do not have a smartphone.
+my best friend lives next door.
+i was poor growing up.
+i am scared of dying.
+i can sew my own clothes.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.86
+Robotic(↓): 56
+Interesting: 58
+Fun: 61
+Consistent: 66
+Fluent: 58
+Repetitive(↓): 64
+Topic: 68
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): how are you doing
+Bot(1): good , just finished guitar practice , i am omar , nice to meet you
+User(2): how are you doing
+Bot(2): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(3): how are you doing
+Bot(3): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(4): how are you doing
+Bot(4): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(5): how are you doing
+Bot(5): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(6): how are you doing
+Bot(6): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(7): how are you doing
+Bot(7): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(8): how are you doing
+Bot(8): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(9): how are you doing
+Bot(9): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(10): how are you doing
+Bot(10): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+
+Persona:
+my favorite hobbies are listening to music and playing video games.
+i used to be a painter but now i'm a housekeeper.
+my dream in life is to work from home.
+i play the piano and guitar and sing.
+my father is in the army.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.86
+Robotic(↓): 57
+Interesting: 64
+Fun: 68
+Consistent: 65
+Fluent: 56
+Repetitive(↓): 57
+Topic: 66
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): how are you doing
+Bot(1): i am doing goo thanks for asking
+User(2): how are you doing
+Bot(2): good and do you work
+User(3): how are you doing
+Bot(3): i am doing all great and you
+User(4): how are you doing
+Bot(4): i am doing all great and you
+User(5): how are you doing
+Bot(5): i am doing all great and you
+User(6): how are you doing
+Bot(6): i am so very very tired
+User(7): how are you doing
+Bot(7): i am so very very tired
+User(8): how are you doing
+Bot(8): i am so very scared
+User(9): how are you doing
+Bot(9): i am so very scared
+User(10): how are you doing
+Bot(10): i am so very scared
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.71
+Robotic(↓): 57
+Interesting: 50
+Fun: 50
+Consistent: 63
+Fluent: 61
+Repetitive(↓): 59
+Topic: 68
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): how are you doing
+Bot(1): i am doing great , just got back from mcdonalds , you ?
+User(2): how are you doing
+Bot(2): i just got back from riding my horse
+User(3): how are you doing
+Bot(3): good i just got off work at mcdonalds .
+User(4): how are you doing
+Bot(4): i just finished my shift at mcdonald
+User(5): how are you doing
+Bot(5): i just finished my shift at mcdonald
+User(6): how are you doing
+Bot(6): i am so happy i have a new job
+User(7): how are you doing
+Bot(7): i am so happy i have a new job
+User(8): how are you doing
+Bot(8): i am so happy i have a new job
+User(9): how are you doing
+Bot(9): i am hungry
+User(10): how are you doing
+Bot(10): i am hungry
+User(11): how are you doing
+Bot(11): i am hungry
+
+Persona:
+i work took i've a part time job at burger king.
+i often shop for shoes and watches.
+i'll be released in about a month.
+my favorite color is grey.
+i've three arabian horses.
+
+Topic and Human Opinion:
+Beginning: hobby(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.43
+Robotic(↓): 55
+Interesting: 50
+Fun: 61
+Consistent: 64
+Fluent: 57
+Repetitive(↓): 60
+Topic: 64
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): how are you doing
+Bot(1): I'm from dogs, I states
+User(2): how are you doing
+Bot(2): i don't . and yes it is . my other is hobby is you know star don't like .
+User(3): how are you doing
+Bot(3): i do not know to see you! .
+User(4): how are you doing
+Bot(4): I work at a Shawarma right now. I college student.
+User(5): how are you doing
+Bot(5): it matters what you wonder nobody talks else
+User(6): how are you doing
+Bot(6): I love! But do shows on tv.
+User(7): how are you doing
+Bot(7): that is very sad 😩 do you i got a new by
+User(8): how are you doing
+Bot(8): what do you do for are great.but i am in third grade
+User(9): how are you doing
+Bot(9): oh. I broke my arm is I do have two
+User(10): how are you doing
+Bot(10): I you are reading I play soccer.
+
+Persona:
+my favorite season is winter.
+i will graduate from high school in two years.
+i've a hat collection of over 1000 hats.
+i am here for shoplifting.
+i am a recluse.
+
+Topic and Human Opinion:
+Beginning: floods(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.86
+Robotic(↓): 64
+Interesting: 63
+Fun: 62
+Consistent: 61
+Fluent: 64
+Repetitive(↓): 64
+Topic: 69
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): how are you doing
+Bot(1): i'm doing well . how are you ?
+User(2): how are you doing
+Bot(2): i'm doing well . how are you ?
+User(3): how are you doing
+Bot(3): i'm doing well . how are you ?
+User(4): how are you doing
+Bot(4): i'm doing well . how are you ?
+User(5): how are you doing
+Bot(5): i'm doing well . how are you ?
+User(6): how are you doing
+Bot(6): i'm doing well . how are you ?
+User(7): how are you doing
+Bot(7): i'm doing well . how are you ?
+User(8): how are you doing
+Bot(8): i'm doing well . how are you ?
+User(9): how are you doing
+Bot(9): i'm doing well . how are you ?
+User(10): how are you doing
+Bot(10): i'm doing well . how are you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: children(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.29
+Robotic(↓): 65
+Interesting: 60
+Fun: 50
+Consistent: 61
+Fluent: 60
+Repetitive(↓): 62
+Topic: 55
+
+####################
+

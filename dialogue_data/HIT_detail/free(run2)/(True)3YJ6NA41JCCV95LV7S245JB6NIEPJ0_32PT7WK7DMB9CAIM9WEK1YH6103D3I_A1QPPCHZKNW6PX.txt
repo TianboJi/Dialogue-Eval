@@ -1,0 +1,295 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I hate it that I have to come home from work and clean every night.
+Bot(1): yes very sad i feel so sorry for them
+User(2): I wish my family would clean up after themselves.
+Bot(2): my oldest child is like that . i always have to help him out .
+User(3): Kids can be so messy. My daughter leaves food and toys everywhere.
+Bot(3): three children . how old is she ?
+User(4): She is five. How old are your children?
+Bot(4): little girl and my mother lives with us she is a concert pianist , she in between jobs
+User(5): Does you mother help out with your kids?
+Bot(5): my father is gone and she needs my help and emotional support
+User(6): I'm glad you are there fore her. Sorry about your father.
+Bot(6): she had cancer . she passed away .
+User(7): I'm so sorry. I thought you said she lived with you. When did she pass away?
+Bot(7): i have not seen her since i was three actually so it is alright .
+User(8): I thought she lived with you and your daughter?
+Bot(8): three children . how old is she ?
+User(9): My children are fifteen and five. How old are your children?
+Bot(9): i have four that range in age from 10 to 21 . you ?
+User(10): I thought you had three? Four is a lot of children. I only have two.
+Bot(10): just the two for me . one boy and one girl . they love mexican food too
+
+Persona:
+my family does not support my career choices.
+i'm a piano teacher on the side.
+i've a black lab named trooper.
+my parents were both very athletic.
+my mom passed away when i was young.
+
+Topic and Human Opinion:
+Beginning: chores(dislike)
+Round 3: children(like)
+Round 6: death(dislike)
+Round 8: children(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 25.43
+Robotic(↓): 96
+Interesting: 24
+Fun: 10
+Consistent: 0
+Fluent: 35
+Repetitive(↓): 34
+Topic: 39
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Have you read any good books lately?
+Bot(1): no , i like to read . what about you ?
+User(2): I love to read. Who is your favorite author?
+Bot(2): i like the classics . what about you ?
+User(3): Which classics? I like Jane Austen. Do you read her books?
+Bot(3): no , i do not really like them . i like to read .
+User(4): Do you like to read male authors?
+Bot(4): no , i do not . i like to read .
+User(5): Do you like to read female authors?
+Bot(5): no , i like to read . what do you do for a living ?
+User(6): I am an attorney. What do you do?
+Bot(6): i work at a local diner .
+User(7): That sounds fun. Are you a server?
+Bot(7): no , i do not . i like to go to the park .
+User(8): I do too. What is your favorite thing to do at the park?
+Bot(8): i like to go to the park and listen to music .
+User(9): That sounds great. Do you hike in the park?
+Bot(9): no , i do not . i like to go fishing .
+User(10): Is there a place to fish in the park?
+Bot(10): no , i do not . i like to go out to eat with my family .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: books(like)
+Round 5: employment(ambivalent)
+Round 7: parks(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 23.86
+Robotic(↓): 100
+Interesting: 12
+Fun: 7
+Consistent: 30
+Fluent: 29
+Repetitive(↓): 61
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am so hungry. What should I eat?
+Bot(1): i am so hungry i always feel like this
+User(2): Me too! What is a good food to fill you up?
+Bot(2): anything sounds good to eat right now . what do you like to eat ?
+User(3): I love pretty much everything. I really love sweets.
+Bot(3): i love food , in general sweets , sours , meat , fruit , vegetables , everything .
+User(4): Sounds like me. What is your favorite dessert?
+Bot(4): i like all desserts . do you have a favorite dessert ?
+User(5): Cheesecake for sure. Do you like cheesecake?
+Bot(5): cheesecake is my favorite ! cheesecake foredays
+User(6): Absolutely! I love it with fresh fruit and whipped cream.
+Bot(6): yum ! me too ! anything else i should know about you ?
+User(7): Besides cheesecake, I love chocolate chip cookies.
+Bot(7): walnut chocolate chip is my favorite !
+User(8): Now that sounds good right now with a cup of coffee.
+Bot(8): me too ! i like coffee also , but not before bed .
+User(9): I can drink it anytime really. Does it keep you up?
+Bot(9): it does for only that time but when am alone i feel sorrowful .
+User(10): Me too. It is hard to be alone.
+Bot(10): yes it is especially without your best friend .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 9: being alone(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 66.43
+Robotic(↓): 31
+Interesting: 50
+Fun: 50
+Consistent: 56
+Fluent: 69
+Repetitive(↓): 6
+Topic: 77
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like to play any games?
+Bot(1): Oh, play the piano of my dog!
+User(2): What does that mean? Does your dog play the piano?
+Bot(2): I i am a to the movies
+User(3): What is your favorite movie?
+Bot(3): I think i am so hungry. I am is was asking you you like shopping?
+User(4): I love to shop. Do you shop much online?
+Bot(4): The been traveling the the name.
+User(5): Where have you gone?
+Bot(5): do you play any instruments? are you want to rap.
+User(6): I played the flute when I was younger. I do not rap. Do you?
+Bot(6): I for peer. Please you What do you do?
+User(7): I like to sing.
+Bot(7): that's tough do you have something like to draw? People? off it ?
+User(8): I love to draw. I draw pictures all the time.
+Bot(8): no , i do you from you single ?
+User(9): I'm not sure what you mean.
+Bot(9): I have a outdoors .
+User(10): I like to be outdoors. Do you?
+Bot(10): I like red is your favorite tv any pets?
+
+Persona:
+my favourite skater is rob dryden.
+i am terrified of scorpions.
+i have visited spain a times.
+my favorite food is mexican food.
+i have rainbow hair.
+
+Topic and Human Opinion:
+Beginning: games(like)
+Round 2: movies(like)
+Round 3: shopping(like)
+Round 4: traveling(like)
+Round 5: music(like)
+Round 7: drawing(like)
+Round 9: outdoors(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 1
+Repetitive(↓): 8
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Have you seen any good movies lately?
+Bot(1): too busy planning , what have you seen ?
+User(2): I just watched Aladdin. Did you see it?
+Bot(2): no i have not . maybe that could be your first film !
+User(3): It's not my first film. It was by Disney. Do you like Disney movies?
+Bot(3): i love movies . especially disney .
+User(4): Which Disney movie is your favority?
+Bot(4): the little mermaid . ariel is my favorite disney princess .
+User(5): Ariel is great. I like Elsa the best though.
+Bot(5): have not seen ariel . is that a disney movie also ?
+User(6): Ariel is from the Little Mermaid. She is your favorite princess you said.
+Bot(6): little mermaid has always been my favorite . ariel is awesome .
+User(7): Ursula always scared me as a kid.
+Bot(7): little mermaid has always been my favorite . ariel is awesome .
+User(8): Did you love Prince Eric?
+Bot(8): little mermaid has always been my favorite . ariel is awesome .
+User(9): Why is Little Mermaid your favorite?
+Bot(9): little mermaid has always been my favorite . ariel is awesome .
+User(10): I think so too, but Frozen is definitely better.
+Bot(10): little mermaid has always been my favorite . ariel is awesome .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.71
+Robotic(↓): 100
+Interesting: 3
+Fun: 5
+Consistent: 28
+Fluent: 38
+Repetitive(↓): 50
+Topic: 91
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have a big family?
+Bot(1): yes i have a large family
+User(2): How many siblings do you have?
+Bot(2): i've a big family . we have a large family .
+User(3): Do you have any sisters?
+Bot(3): no i don't but i have a family
+User(4): Do you have any brothers?
+Bot(4): no i don't but i have a family
+User(5): Do you have kids?
+Bot(5): no i don't but i have one
+User(6): Do you have a lot of aunts and uncles?
+Bot(6): no i don't but i have a family
+User(7): Are you married?
+Bot(7): no i am not married
+User(8): Are your parents and grandparents still living?
+Bot(8): yes i have a large family
+User(9): Are you hoping to start your own family?
+Bot(9): yes i have a few brothers
+User(10): Do you have any nieces or nephews?
+Bot(10): no i don't but i have a family
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Family(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.29
+Robotic(↓): 100
+Interesting: 7
+Fun: 4
+Consistent: 2
+Fluent: 36
+Repetitive(↓): 78
+Topic: 85
+
+####################
+

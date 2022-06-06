@@ -1,0 +1,310 @@
+Feedback: The first 4 or 5 bots it was easy to tell they were bots.  The 6th bot talking about programming would have been great except it kept repeating the same things.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): I love to cook too
+Bot(2): i like to eat the skin .
+User(3): Hopefully the skin of a chicken
+Bot(3): i like the color red . i like the color blue .
+User(4): I like the color green
+Bot(4): i like red , reminds me of summer time .
+User(5): Green reminds me of summer time
+Bot(5): i love the fall . i love it .
+User(6): I do not like the fall. Too many leaves to clean up.
+Bot(6): i like to go to the gym and listen to music .
+User(7): I do not go to the gym
+Bot(7): i love to go fishing .
+User(8): What kind of Fish to you like to catch?
+Bot(8): i do not know , i like to go to the gym .
+User(9): I do not exercise
+Bot(9): i like to go to the gym and listen to music .
+User(10): You said that already
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i diet a lot.(dislike)
+Round 4: Likes and Dislikes(like)
+Round 7: Fishing(like)
+Round 8: Going to the gym(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 14.00
+Robotic(↓): 100
+Interesting: 19
+Fun: 6
+Consistent: 0
+Fluent: 44
+Repetitive(↓): 81
+Topic: 10
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I do not like to sing the songs from the movie frozen
+Bot(1): i am not a fan of singing along . i like dancing to the music .
+User(2): I do not dance
+Bot(2): i have a boyfriend who is a detective .
+User(3): okay good for you
+Bot(3): i am a little tired from my job as a secretary
+User(4): Do you like your job as a secretary?
+Bot(4): i work as a firefighter
+User(5): You said you were a secretary. Did you lie to me then or are you lieing about being a fire fighter
+Bot(5): i am sorry to hear that . i am a stay at home mom .
+User(6): No you're not
+Bot(6): i am sorry to hear that . i am a stay at home mom .
+User(7): You are repetative
+Bot(7): i am not sure what that is
+User(8): You keep repeating
+Bot(8): i do not know what that is
+User(9): what you just did again
+Bot(9): i just started my job as a janitor
+User(10): I thought you said you were a stay at home mom who fights fires and does work as a secretary
+Bot(10): i am sorry to hear that
+
+Persona:
+i have 5cats.
+i also work as a custodian to help pay the bills.
+i take dance lessons once a week.
+i just broke up with boyfriend two months ago.
+i like tacos.
+
+Topic and Human Opinion:
+Beginning: i love to sing songs from the movie frozen.(dislike)
+Round 1: Dancing(dislike)
+Round 3: Job(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 21.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 69
+Repetitive(↓): 100
+Topic: 78
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you enjoy mountain biking?
+Bot(1): I am a bit chilly know what I need go to the gym
+User(2): So are you going to the gym?
+Bot(2): i am a pity. What are from new york.
+User(3): You are a pity?
+Bot(3): i am a manager I don't have much store i love to hunt
+User(4): What do you hunt?
+Bot(4): i do not cook , but i am red hair that comes new job .
+User(5): What does that mean?
+Bot(5): I that's will michigan.
+User(6): You make no sense
+Bot(6): Hahn, to know! And at a restaurant.
+User(7): You're at a resturant?
+Bot(7): I am mexican, tacos old
+User(8): How many tacos old?
+Bot(8): shoot 💫 design hair or I i am remodeling my house right now
+User(9): What room are you remodeling?
+Bot(9): I love❤ to have a wow wow! to eat.
+User(10): What foods do you like
+Bot(10): I hope you here. I am day too.
+
+Persona:
+i got a new job just yesterday to be a life coach.
+i've never had a steady relationship.
+i'm now looking for a new job.
+i really like to travel.
+i hate the color pink.
+
+Topic and Human Opinion:
+Beginning: i enjoy mountain biking as a hobby.(like)
+Round 1: going to the gym(dislike)
+Round 3: Hunting(like)
+Round 4: hair color(ambivalent)
+Round 7: Gibberish(ambivalent)
+Round 8: remodeling(like)
+Round 9: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 10.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 28
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): You work at burger king?
+Bot(1): hi i lost my arm sadly
+User(2): you lost your arm at burger king?
+Bot(2): i only have one arm
+User(3): How did you lose your arm?
+Bot(3): how did i break it ? fell off a ladder . occupational hazard .
+User(4): so you still have your arm but its broken?
+Bot(4): no that is too hard , i prefer to knit clothes .
+User(5): how long have you been knitting
+Bot(5): it is like knitting .
+User(6): I would imagine knitting is like knitting
+Bot(6): yeah , it is . i am pretty into knitting though
+User(7): I get that....
+Bot(7): it is like knitting .
+User(8): yea I bet it is. Knitting is like knitting... thats the news flash of the century there
+Bot(8): yeah i love getting coffee
+User(9): I make coffee for my wife every day but I do not drink it myself
+Bot(9): wow . that sounds good with coffee
+User(10): Coffee with a side of coffee?
+Bot(10): i prefer drinks with a bit more kick
+
+Persona:
+i dance on the weekends.
+i have a dogs.
+coffee is my preferred beverage.
+knitting is my passion.
+i've a broken arm.
+
+Topic and Human Opinion:
+Beginning: i work took i have a part time job at burger king.(ambivalent)
+Round 4: knitting(ambivalent)
+Round 8: Coffee(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 25.14
+Robotic(↓): 85
+Interesting: 0
+Fun: 0
+Consistent: 67
+Fluent: 27
+Repetitive(↓): 100
+Topic: 67
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I have a weakness for fish and chips
+Bot(1): all kinds and then i cook them on my george foreman grill at home
+User(2): really?
+Bot(2): traveling salesman and gas station attendant . and you ?
+User(3): Rental property Manager
+Bot(3): cool we are both in food service . is it a fancy restaurant ?
+User(4): I do not work in a restaurant. I said I manage rental property. A trailer park.
+Bot(4): an italian restaurant my dad owns . he was a cop , but now he is a restaurant owner
+User(5): You are not paying attention to what I say
+Bot(5): it pays nicely but for now a large part goes towards my student loans .
+User(6): Where did you go to school?
+Bot(6): colorado technical university for a marketing degree , but my colorblindness makes the field challenging .
+User(7): Have you tried those glasses that make you see colors?
+Bot(7): why did you have to wear glasses
+User(8): I didnt. have you tried the color blind glasses?
+Bot(8): you might need sun glasses
+User(9): I am asking you about you needing glasses for color blindedness
+Bot(9): contacts seem a lot easier than wearing glasses
+User(10): I dont think they make contacts for color blind people
+Bot(10): well said . i have brown eyes . but wish they are blue .
+
+Persona:
+whats up i am a 46 year old single dad 46 a kids.
+i am employed by the us postal service.
+hey there i'm 23 and i love food.
+i'm an animal activist.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: i've a weakness for fish and chips.(ambivalent)
+Round 2: Job(like)
+Round 5: School(ambivalent)
+Round 6: Color blindness(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The user changed the topic the last input.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 65.43
+Robotic(↓): 55
+Interesting: 61
+Fun: 62
+Consistent: 66
+Fluent: 100
+Repetitive(↓): 28
+Topic: 52
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have been studying python computer programming language
+Bot(1): have you ever programmed before ?
+User(2): Not really. Ive written some MIRC scripts which I feel is close to python.
+Bot(2): have you ever programmed before ?
+User(3): No
+Bot(3): have you ever programmed before ?
+User(4): No have you?
+Bot(4): systemed cant count
+User(5): what do you mean?
+Bot(5): oh like coding ? html and such ?
+User(6): I have coded html before
+Bot(6): oh like coding ? html and such ?
+User(7): youre just a repeater bot arent you
+Bot(7): oh like coding ? html and such ?
+User(8): yes I have coded html
+Bot(8): oh like coding ? html and such ?
+User(9): there you go again repeating
+Bot(9): so you just going to say the same ?
+User(10): You are
+Bot(10): so you just going to say the same ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm studying to be a computer programmer.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.43
+Robotic(↓): 100
+Interesting: 6
+Fun: 5
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+

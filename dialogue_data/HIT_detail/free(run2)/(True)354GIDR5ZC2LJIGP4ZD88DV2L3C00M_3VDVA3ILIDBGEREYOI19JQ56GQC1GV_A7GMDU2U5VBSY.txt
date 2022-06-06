@@ -1,0 +1,329 @@
+Feedback: Fun as always.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What is your favorite color?
+Bot(1): i like blue , i like blue .
+User(2): Blue is pretty
+Bot(2): i like to go to the gym and listen to music .
+User(3): I don't work out.
+Bot(3): i am a student , but i work at a grocery store .
+User(4): What do you study
+Bot(4): i do not , but i do like to go to the park .
+User(5): Parks are fun
+Bot(5): i like to go to the gym and listen to music .
+User(6): I have a dog.
+Bot(6): i love dogs , i love dogs .
+User(7): Me too
+Bot(7): i am a student , but i am a student .
+User(8): I'm not a student
+Bot(8): i am a student , but i am a student .
+User(9): Where do you go to school
+Bot(9): no , i do not . i am a student .
+User(10): I don't like school.
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Color(like)
+Round 2: gym/music(like)
+Round 3: student/work(like)
+Round 4: park(like)
+Round 5: gym/music(dislike)
+Round 5: pets(like)
+Round 7: student(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 11.57
+Robotic(↓): 100
+Interesting: 17
+Fun: 16
+Consistent: 16
+Fluent: 16
+Repetitive(↓): 90
+Topic: 6
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you watch TV
+Bot(1): goodbye it was You seem to you
+User(2): I like TV
+Bot(2): i kinda like football Do you like love to for dinner so i can cook for them
+User(3): What do you cook?
+Bot(3): I you like watching love are you up to?
+User(4): My name is Liz
+Bot(4): oh no love you do and tell ! long day ? i need to go shopping , no rest here
+User(5): Where do you like to shop
+Bot(5): good . here i'm retired. i'm are in elementary school . no band .
+User(6): Do you like Rock?
+Bot(6): I like music, but a cow named you to music
+User(7): I like music too.
+Bot(7): I like at a restaurant cheese
+User(8): I love cheese.
+Bot(8): do you like your about that three.
+User(9): What color is your favorite flower?
+Bot(9): it is going good . what here but i been work ?
+User(10): Where do you work?
+Bot(10): Yes, Is anybody My couple of them .
+
+Persona:
+i grew up on a farm.
+my daughter is a child prodigy.
+i dream of moving to the city.
+my parents were both very athletic.
+i'm fluent in english spanish and french.
+
+Topic and Human Opinion:
+Beginning: TV(like)
+Round 2: football/eating(like)
+Round 3: love(dislike)
+Round 3: name(like)
+Round 4: shopping(like)
+Round 5: retired/school/band(like)
+Round 7: restaurant/cheese(like)
+Round 8: I don't know what it's talking about(dislike)
+Round 8: flowers(like)
+Round 9: work(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like Coke
+Bot(1): yes , they are decent . i prefer jack and coke .
+User(2): LOL, Haven't had that in a while.
+Bot(2): i love coke its gret with jack too
+User(3): Coke and rum is good too.
+Bot(3): yes , they are decent . i prefer jack and coke .
+User(4): I drive an SUV
+Bot(4): i have a mid size sedan .
+User(5): What color is it?
+Bot(5): mine is blonde like my hair
+User(6): That's a weird color for a car.
+Bot(6): it is , i think coke is a bit darker
+User(7): I've been drinking Coke for years.
+Bot(7): coke as well would go perfectly
+User(8): Coke goes with everything.
+Bot(8): yeah it makes my blonde hair look great .
+User(9): How long is your hair
+Bot(9): long , about waist length but i keep it in a ponytail at work
+User(10): My hair is brown.
+Bot(10): mine is blonde like my hair
+
+Persona:
+i've blonde hair and blue eyes.
+i do not believe in god.
+i take dance lessons once a week.
+i visit europe twice a year.
+i love social medial especially twitter.
+
+Topic and Human Opinion:
+Beginning: Coke(like)
+Round 3: cars(like)
+Round 6: coke(like)
+Round 8: blonde hair(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 89.71
+Robotic(↓): 63
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 91
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I love nature.
+Bot(1): i like nature too . i have been a bit of lazy bones recently though !
+User(2): What do you like about it.
+Bot(2): i love nature and being i am surrounded by it keeps me balanced
+User(3): That makes sense.
+Bot(3): do you like nature ? i do a lot .
+User(4): I do. I love sitting outside and just listening to the wind blow.
+Bot(4): i love nature . i like looking at plants .
+User(5): My favorite plants are flowers
+Bot(5): plants are great . i love any and all .
+User(6): Do you have a green thumb
+Bot(6): i do not have much of a green thumb
+User(7): Me either. I kill most plants.
+Bot(7): i do not have much of a green thumb
+User(8): My favorite vacation spot is Italy.
+Bot(8): that is cool italy sounds nice .
+User(9): Have you been there
+Bot(9): i have , twice . it is very lovely .
+User(10): Where specifically did you go
+Bot(10): on my trip to italy
+
+Persona:
+i workout four hours a day.
+i like to talk but people have a hard time understanding.
+i think i'll retire in a few years.
+i do not drink or do drugs or anything.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: Nature(like)
+Round 7: vacation(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 95.29
+Robotic(↓): 23
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 10
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My family is very small.
+Bot(1): and i have not even told you of my legally deaf wife and six brothers !
+User(2): What happened to your wife?
+Bot(2): car accident in a new car a friend gifted me . other driver dui .
+User(3): I'm sorry to hear that.
+Bot(3): its alright . i usually eat tuna fish , but decided to change things up a bit .
+User(4): Do you like albacore or yellowfin
+Bot(4): i am great ! i love being married
+User(5): I'm divorced
+Bot(5): nope ! not married and no kids !
+User(6): I don't like kids
+Bot(6): i do , i am married and together we have three kids . do you ?
+User(7): No, no kids for me.
+Bot(7): yes , a boy named chris . he made the honor roll . all a marks !
+User(8): Congratulations. He must be very smart.
+Bot(8): he is , he also knows my love for flowers so he sends them often
+User(9): My favorite color of flower is coral. What's yours?
+Bot(9): lilies and roses . its a tie
+User(10): Ah. Lilies are beautiful.
+Bot(10): lilies are technically known as death flowers , another favorite
+
+Persona:
+i like to talk but people have a hard time understanding.
+i love rollercoasters and sky diving.
+i love wearing skinny jeans and leggings.
+i've a weakness for fish and chips.
+i'm married.
+
+Topic and Human Opinion:
+Beginning: family(like)
+Round 3: tuna(like)
+Round 4: married(like)
+Round 5: kids(like)
+Round 8: flowers(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 52.29
+Robotic(↓): 85
+Interesting: 86
+Fun: 56
+Consistent: 7
+Fluent: 40
+Repetitive(↓): 8
+Topic: 70
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I have a dog.
+Bot(1): i have a dog and a dog .
+User(2): What kind of dog?
+Bot(2): i have a dog named majora .
+User(3): That's a nice name. Boy or girl
+Bot(3): i am a boy . i am a boy .
+User(4): I'm not a boy. What am I
+Bot(4): oh , i am a boy . i am a boy .
+User(5): Do you like being a boy
+Bot(5): i do not know . i am a boy .
+User(6): Do you ski
+Bot(6): i do not but i do love to ski
+User(7): Where do you go to ski
+Bot(7): i go to canada and ski
+User(8): Canada is nice for skiing.
+Bot(8): i like skiing but i do not ski
+User(9): How big is your nose
+Bot(9): i do not know what that is
+User(10): It's on your face below your eyes and above your mouth. You breathe through it.
+Bot(10): i do not know what that is
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pets(like)
+Round 3: being a boy(like)
+Round 5: skiing(like)
+Round 8: nose(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 38.86
+Robotic(↓): 100
+Interesting: 82
+Fun: 64
+Consistent: 8
+Fluent: 30
+Repetitive(↓): 47
+Topic: 35
+
+####################
+

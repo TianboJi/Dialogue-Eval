@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): you like fishing?
+Bot(2): yes i love to go fishing how about you
+User(3): yeah its my favorite thing in the world
+Bot(3): fishing is my favorite thing
+User(4): awesome. I love fishing for trout how about you?
+Bot(4): wow that is cool , trout is what i get
+User(5): cool do you like rainbow or brown trout fishing?
+Bot(5): i never really thought about it . maybe blue for the water i fish in
+User(6): haha blue trout isn't a thing
+Bot(6): i was gonna guess that blue was your favorite ha
+User(7): I like rainbow trout
+Bot(7): wow that is cool , trout is what i get
+User(8): cool
+Bot(8): so do you like fishing ?
+User(9): yeah I love fishing
+Bot(9): its awesome right ? whats your favorite color ?
+User(10): rainbow trout
+Bot(10): wow that is cool , trout is what i get
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fishing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.00
+Robotic(↓): 100
+Interesting: 8
+Fun: 8
+Consistent: 7
+Fluent: 8
+Repetitive(↓): 100
+Topic: 25
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi do you like video games?
+Bot(1): oh , neat ! yoga instructor here . my wife is a diesel mechanic .
+User(2): do you like playing video games?
+Bot(2): i am doing great . i am just chilling in my dorm room . i like video games .
+User(3): cool what games do you like?
+Bot(3): no , i am not really in to games .
+User(4): do you play any games?
+Bot(4): i am addicted to play station games like fifa and gta .
+User(5): I like fifa games too
+Bot(5): i love adventure games . do you have any pets ? i have two turtles .
+User(6): I have a dog
+Bot(6): i love dogs ! i have two labradors and a chihuahua .
+User(7): I have a black lab
+Bot(7): purple . black and purple go together well .
+User(8): I like green
+Bot(8): green is my favorite color !
+User(9): cool what other colors do you like?
+Bot(9): red , its the color of the roses in my best friends garden . you ?
+User(10): Blue cause its pretty
+Bot(10): that is great i mean blue is a great color , my favorite is green .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: playing video games(like)
+Round 5: pets(ambivalent)
+Round 7: colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 30.43
+Robotic(↓): 100
+Interesting: 17
+Fun: 24
+Consistent: 22
+Fluent: 73
+Repetitive(↓): 23
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi I like pets
+Bot(1): hello , i am wei , i do not have any pets .
+User(2): do you like dogs?
+Bot(2): yes
+User(3): I have a black lab
+Bot(3): labs are really great dogs
+User(4): yes they are my dogs name is indiana
+Bot(4): labs are really great dogs
+User(5): do you have a dog?
+Bot(5): yes i have a chocolate lab
+User(6): what is its name?
+Bot(6): a big lab that is black named charlie
+User(7): how old is charlie?
+Bot(7): he is about 2 years old
+User(8): did you buy him as a puppy or rescue him?
+Bot(8): he is just under a year old . how big are your dogs ?
+User(9): my dog is 80 pounds
+Bot(9): what is his name ? how old ?
+User(10): its a she and she is 4 years old
+Bot(10): whats her or his name ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.14
+Robotic(↓): 71
+Interesting: 33
+Fun: 31
+Consistent: 31
+Fluent: 75
+Repetitive(↓): 38
+Topic: 69
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i like cooking
+Bot(1): reading books read books books books books books books read books books read books books books books read books books books read books books books books read books books books read books books books books books read books books books read books books books books books read books books books books read books books books books read books books books books books books books books books books books books books books books books read books books many times. What city do you live Do you have said a you friend bit fly between the am in read books books books
+User(2): I wrote a book
+Bot(2): No, I i love clean wear leather
+User(3): leather books?
+Bot(3): is am very well you :)
+User(4): I am good
+Bot(4): I like good what cheese.
+User(5): cheese is good
+Bot(5): okay is that because Reading Holly you don't woods or something
+User(6): that makes no sense
+Bot(6): I my name is i like to run.
+User(7): interesting name
+Bot(7): I like got help guitar
+User(8): i play guitar too
+Bot(8): Same here! Have problem with your family are you from?
+User(9): i dont understand you
+Bot(9): I like to look at blue
+User(10): wow you better put on your special helmet
+Bot(10): that is cool. I like to spend I like much more do you work?
+
+Persona:
+i do not have a smartphone.
+my best friend lives next door.
+i was poor growing up.
+i am scared of dying.
+i can sew my own clothes.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 1: books(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I like gardening
+Bot(1): i like to go to the gym and listen to music .
+User(2): what type of music do you like
+Bot(2): i like country music . i love country music .
+User(3): country music is okay do you like any other genres
+Bot(3): i do , i like to listen to music .
+User(4): what kind other than country
+Bot(4): i like the beatles , and the outdoors .
+User(5): the beatles are cool i have never heard of the outdoors
+Bot(5): i like to go to the beach and listen to music .
+User(6): music is great at teh beach
+Bot(6): i love it . i love it .
+User(7): me too. do you like other types of music?
+Bot(7): i do , i like country music .
+User(8): besides country
+Bot(8): i like to go to the gym and listen to music .
+User(9): yeah music is great when working out
+Bot(9): i love to cook . i love to cook .
+User(10): cooking is cool
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: gardening(like)
+Round 1: music(like)
+Round 9: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 25.43
+Robotic(↓): 100
+Interesting: 12
+Fun: 10
+Consistent: 14
+Fluent: 54
+Repetitive(↓): 13
+Topic: 1
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i like sleeping
+Bot(1): i love to sleep , i play piano on the piano
+User(2): cool i play the guitar
+Bot(2): i play the piano on the guitar .
+User(3): wow that must be hard
+Bot(3): i play the piano and play the guitar
+User(4): cool at the same time?
+Bot(4): yes it is . i play the piano
+User(5): do you know any piano songs?
+Bot(5): yes i do , i play the piano
+User(6): what songs?
+Bot(6): i do not but i do play piano
+User(7): can you pay moonlight sonota?
+Bot(7): no i do not . i play piano
+User(8): you are a piano in a play?
+Bot(8): no i am not . i play piano
+User(9): how well do you play piano?
+Bot(9): i play piano and piano
+User(10): wow both of them
+Bot(10): i play piano and piano . i play piano
+
+Persona:
+my wife left me and took my children.
+i am a piano teacher on the side.
+i play a lot of call of duty.
+i am in the army.
+i enjoy american sports.
+
+Topic and Human Opinion:
+Beginning: sleeping(ambivalent)
+Round 2: instruments(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 5.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 39
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

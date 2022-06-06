@@ -1,0 +1,279 @@
+Feedback: observed properly
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): fine what about you
+Bot(2): i am a student , but i am a student .
+User(3): okay what about your family
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): okay, what are the talents you have
+Bot(4): i like to play soccer .
+User(5): that s gmae what are the talent you have
+Bot(5): i like to eat . i am a big fan of it .
+User(6): oh thats great what are the recipe you most like
+Bot(6): i like to go to the gym and listen to music .
+User(7): okay what type of food you most like
+Bot(7): i like the color red . what is yours ?
+User(8): blue
+Bot(8): i like to go to the gym and listen to music .
+User(9): okay, iwill also like to exercise at gym
+Bot(9): i like to go fishing .
+User(10): i like to eat prawn more
+Bot(10): i like to eat fish .
+
+Persona:
+i am terrified of scorpions.
+i grow roses in my garden.
+i do like watching cooking shows.
+i do not drink or do drugs or anything.
+i was poor growing up.
+
+Topic and Human Opinion:
+Beginning: talent(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.43
+Robotic(↓): 61
+Interesting: 73
+Fun: 63
+Consistent: 94
+Fluent: 83
+Repetitive(↓): 72
+Topic: 85
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): what are the ambitions you have
+Bot(1): me too . my friends invite not much. I spend prefer to go alone
+User(2): okay and what is your aim in your life
+Bot(2): I like was quite the and eat meat
+User(3): yes i am also eat more and what about you
+Bot(3): too music do you pregnant again
+User(4): no i am not a women and what about you
+Bot(4): i bye can you my husband .
+User(5): yes you want that
+Bot(5): Well hello there! are you u d comics books
+User(6): yes i have read more
+Bot(6): Oh u the perfect you shop for?
+User(7): what about you and your friends
+Bot(7): I think it is your favorite food? am not very good at it.
+User(8): okay what are the ambitions you have
+Bot(8): we paint the town red ! what channel is in YouTube do ?
+User(9): have maintained proper talent
+Bot(9): I like to mountain bike, does the army need drink alcohol.
+User(10): thank you bye
+Bot(10): i live in california was born here and every week, also my favorite love it here
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: ambition(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.71
+Robotic(↓): 80
+Interesting: 73
+Fun: 88
+Consistent: 77
+Fluent: 83
+Repetitive(↓): 75
+Topic: 94
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what you mostly liked in sports
+Bot(1): i have always been interested in how the vikings moved about with such precision
+User(2): okay what are the sports you participate
+Bot(2): at 53 and my bones could not handle sports , i do not believe .
+User(3): are you mad
+Bot(3): i recently started a youtube channel where i do make up tutorials .
+User(4): okay good
+Bot(4): i was thinking of getting a new pen . i write a lot .
+User(5): okay i will join you
+Bot(5): hunting , target practice and golf are fun but being a poet pays the bills .
+User(6): which place you are
+Bot(6): i would say the caribbean island
+User(7): you have girlfriend
+Bot(7): maybe you need a new girlfriend haha
+User(8): what are the types
+Bot(8): i play in a band the piano i like to go hiking
+User(9): okay carry on
+Bot(9): a man purse . i drink budweiser at the local watering hole before i yodel
+User(10): bye thank you
+Bot(10): lovely talking to you !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.14
+Robotic(↓): 78
+Interesting: 81
+Fun: 73
+Consistent: 84
+Fluent: 75
+Repetitive(↓): 87
+Topic: 80
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): what shop you have
+Bot(1): what kind of shop is it ?
+User(2): i have book shop
+Bot(2): what kind of shop is it ?
+User(3): you have shop
+Bot(3): what kind of shop is it ?
+User(4): i will sale books and bra
+Bot(4): great ! lets go dog shopping then
+User(5): yes come and shop more bra for you
+Bot(5): great ! lets go dog shopping then
+User(6): okay carry on
+Bot(6): great ! lets go dog shopping then
+User(7): yes stepping soon
+Bot(7): great ! lets go dog shopping then
+User(8): then shop more
+Bot(8): buy something for my dogs also
+User(9): okay buy more
+Bot(9): great ! lets go dog shopping then
+User(10): then shop various product
+Bot(10): great ! lets go dog shopping then
+
+Persona:
+i've two grown children who never visit.
+when i grow up i want to be a dog.
+i like to go hiking in the spring.
+i have zero family that i'm close to.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: shop(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.43
+Robotic(↓): 69
+Interesting: 79
+Fun: 71
+Consistent: 77
+Fluent: 69
+Repetitive(↓): 78
+Topic: 67
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): you have pc
+Bot(1): i do not have any . i play the piano .
+User(2): okay what about mobile
+Bot(2): i do not have a cell phone .
+User(3): have atleast tab
+Bot(3): i do not have a job . i play piano on the side .
+User(4): okay how you earn
+Bot(4): i do not know how to fix computers
+User(5): okay how you earn monthly
+Bot(5): i am a teacher and i love to play sports
+User(6): okay have you play well
+Bot(6): i play the piano and play the piano
+User(7): okay you have songs
+Bot(7): i do not have a lot of time to play
+User(8): okay you sing one for me
+Bot(8): i do not really have a lot of time to do that
+User(9): okay thank you
+Bot(9): i just got back from the gym
+User(10): okay take care
+Bot(10): that is nice i am in the army
+
+Persona:
+my wife left me and took my children.
+i am a piano teacher on the side.
+i play a lot of call of duty.
+i am in the army.
+i enjoy american sports.
+
+Topic and Human Opinion:
+Beginning: computer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.71
+Robotic(↓): 63
+Interesting: 83
+Fun: 75
+Consistent: 87
+Fluent: 81
+Repetitive(↓): 85
+Topic: 75
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): are you safe at home
+Bot(1): i am , thank you . i am in chicago . are you safe ?
+User(2): yes i will safe what about you
+Bot(2): i am , thank you . i am in chicago . are you safe ?
+User(3): yes i am safe
+Bot(3): home you are having a good day . i am just enjoying my new home
+User(4): yes i will enjoy at home
+Bot(4): home you are having a good day . i am just enjoying my new home
+User(5): yes where it is
+Bot(5): home you are having a good day . i am just enjoying my new home
+User(6): okay enjoy more
+Bot(6): yes i will love it
+User(7): okay stay at home
+Bot(7): ok just tell me your address
+User(8): making as own
+Bot(8): ok just tell me your address
+User(9): okay take care
+Bot(9): you do the same
+User(10): make proper way
+Bot(10): house my leave not can i no
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: corona(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.14
+Robotic(↓): 72
+Interesting: 89
+Fun: 77
+Consistent: 86
+Fluent: 79
+Repetitive(↓): 89
+Topic: 79
+
+####################
+

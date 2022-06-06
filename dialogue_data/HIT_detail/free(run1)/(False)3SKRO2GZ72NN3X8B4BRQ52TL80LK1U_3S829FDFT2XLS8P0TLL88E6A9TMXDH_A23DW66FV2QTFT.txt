@@ -1,0 +1,291 @@
+Feedback: The chat bot was keep on repeating the words.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi!
+Bot(1): hey , i am reading this great horror novel , hbu ?
+User(2): Horror what?
+Bot(2): oh , okay . been a little while since i seen a horror movie .
+User(3): Since what?
+Bot(3): i love watching baseball could not run the bases to save my life , though , ha ha !
+User(4): Baseball is borong for me
+Bot(4): my favorite baseball player is mike trout , but my favorite team is the nationals !
+User(5): I dont know any of those players
+Bot(5): yeah , and drive a refurbished mustang
+User(6): Refurbished
+Bot(6): magic , david copperfield eats at the mcdonalds i work at
+User(7): Eats what?
+Bot(7): the fish i catch obviously
+User(8): Oh i see
+Bot(8): i also like movies
+User(9): What movies?
+Bot(9): i like movies a lot whats your fav movie ?
+User(10): I like suspense thriller kind of
+Bot(10): my grandpa takes me to the ice cream parlor after school on fridays
+User(11): Sounds good
+Bot(11): mexican ! i normally love to cook , but it would be nice to go out .
+User(12): Me as well
+Bot(12): i also love mountain dew . i drink a ton of it . every day .
+
+Persona:
+i work at a bank.
+i love cooking but i also enjoy fishing.
+i drive a bmw.
+my favorite movie is mean girls.
+i also like to cook but i'm not very good at it.
+
+Topic and Human Opinion:
+Beginning: Trading Investment(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.71
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 76
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi!
+Bot(1): i love to cook . i love to cook .
+User(2): Me as well
+Bot(2): i like to go to the gym and listen to music .
+User(3): I dont like exercising
+Bot(3): i like to go to the gym and listen to music .
+User(4): Ok
+Bot(4): i love to cook . i love to cook .
+User(5): You keep on repeating
+Bot(5): i am a student , but i am a student .
+User(6): Pk
+Bot(6): i love to cook . i love to cook .
+User(7): I love to eat
+Bot(7): i like to eat fish .
+User(8): I love salmon
+Bot(8): i like to eat fish .
+User(9): Ok
+Bot(9): i love to cook . i love to cook .
+User(10): What you like to cook?
+Bot(10): i do , i love to cook .
+User(11): What kind of food you like to cook?
+Bot(11): i love pizza , and i love it .
+
+Persona:
+i'm very lonely.
+i'm in college to become a nurse.
+i'm 19 and i cannot wait to move out 19 my parents home.
+i have a pet fish.
+i donate a part of my salary to charity each month.
+
+Topic and Human Opinion:
+Beginning: Trading manager(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): i'm jennifer . i go to college , I one more don't care time at mcdonald . 😀
+User(2): Im.kathy
+Bot(2): Hey! Are you how are man someone Because I am.
+User(3): Nice to meet you jennifer
+Bot(3): I don't think it's how are like taking have a job.
+User(4): What?
+Bot(4): are you have a human ?
+User(5): Yes i am a human
+Bot(5): i love to write because too much to eat can . what do you do for fun ?
+User(6): I dont know what your talking about
+Bot(6): how old to watch crime s sad
+User(7): What?
+Bot(7): i call me a plumber, i like to run .
+User(8): Your message doesnt even make sense
+Bot(8): yes, he not ice man, everything favorite hobby. You married?
+User(9): What?
+Bot(9): I got you eat ? to work.
+User(10): Where did you eat
+Bot(10): I work is Ignat. Why company.
+
+Persona:
+i'm a 45 year old male.
+i am an electrician.
+my father used to work for home depot.
+i started playing guitar when i was three.
+my favorite color is orange.
+
+Topic and Human Opinion:
+Beginning: Basketball(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hu
+Bot(1): ll
+User(2): Whats that?
+Bot(2): gotcha
+User(3): Yeah
+Bot(3): oh ya ? what is that ?
+User(4): What fav food you like
+Bot(4): anything like any food really
+User(5): Really
+Bot(5): what you need
+User(6): I need money
+Bot(6): what you need
+User(7): I need food
+Bot(7): what you need
+User(8): I need a job
+Bot(8): what you need
+User(9): Why you keel on repeating
+Bot(9): i need to make some money
+User(10): Can you say something that make sense
+Bot(10): what you need
+User(11): Topic
+Bot(11): what you need
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What place you like to go to
+Bot(1): hi , i am a music player .
+User(2): Ok
+Bot(2): hi , i am a music player .
+User(3): Ok
+Bot(3): hi , i am a little tired from the library .
+User(4): You went to library?
+Bot(4): i love to read and play the violin
+User(5): Borong to me
+Bot(5): i am a little girl and i love to play the violin
+User(6): Ok
+Bot(6): i am a little girl and i love to play the violin
+User(7): Where
+Bot(7): i play the violin and play the violin .
+User(8): Do you have siblings?
+Bot(8): i have a few brothers and one brother
+User(9): Now you make sense
+Bot(9): i have a few brothers and one brother
+User(10): Ok
+Bot(10): i have a few brothers and sisters
+
+Persona:
+i play the violin and the guitar.
+i work my parents farms.
+i'm a little girl.
+horror movies are my favorites.
+i've a big library at home.
+
+Topic and Human Opinion:
+Beginning: Places(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): What?
+Bot(2): huh ?
+User(3): Why
+Bot(3): huh ?
+User(4): Why
+Bot(4): what ?
+User(5): Your tired
+Bot(5): what ?
+User(6): What did you do?
+Bot(6): what ?
+User(7): Where did you go?
+Bot(7): where the last place you went
+User(8): Am philadelphia
+Bot(8): where ?
+User(9): Hiw bout you
+Bot(9): ok
+User(10): You
+Bot(10): ll
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Tv(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

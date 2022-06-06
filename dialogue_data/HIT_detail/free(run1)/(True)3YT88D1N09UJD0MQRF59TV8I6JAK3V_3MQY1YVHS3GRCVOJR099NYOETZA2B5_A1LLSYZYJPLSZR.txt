@@ -1,0 +1,308 @@
+Feedback: It seems like almost all of the chatbots didn't really know how to respond unless you asked them a question. If you just said something about yourself or replied to what they said, they would get repetitive. Most of them didn't use capitol letters where they were supposed too. 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello how are you?
+Bot(1): i am dandy . how is your day going ?
+User(2): I am doing well thank you !
+Bot(2): same
+User(3): What kind of music do you like?
+Bot(3): i love all kinds of music ! what do you like best ?
+User(4): My favorite music genre is Alternative rock. What's your favorite song?
+Bot(4): i like breaking benjamin , rock is my favorite type .
+User(5): What's your favorite song by breaking benjamin?
+Bot(5): i like breaking benjamin , rock is my favorite type .
+User(6): Okay. What is your least favorite music?
+Bot(6): i love alternative rock the best
+User(7): Have you been to a concert?
+Bot(7): a few , but i have not gone to see them
+User(8): What is your favorite food?
+Bot(8): i do not really have one . i like all food .
+User(9): What about your favorite candy?
+Bot(9): candy is great . one of my favorites .
+User(10): What candy is your favorite one?
+Bot(10): candy is great . one of my favorites .
+User(11): I like candy too!
+Bot(11): what is your favorite candy ?
+User(12): Kit Kats
+Bot(12): what is your favorite candy ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 7: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 35.86
+Robotic(↓): 100
+Interesting: 39
+Fun: 29
+Consistent: 14
+Fluent: 64
+Repetitive(↓): 88
+Topic: 93
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi how are you today
+Bot(1): i am awesome helping my 80 year old parent shave his thick beard .
+User(2): Oh that is awesome! Do you like rollercoasters ?
+Bot(2): when i am not hiking or biking , i am exploring the town no steady job
+User(3): I like exploring!
+Bot(3): all different . i like to go to india and explore everything .
+User(4): I have never been to India
+Bot(4): i have never been to india , what is it like there
+User(5): I don't know I haven't been there. Where do you like to explore?
+Bot(5): i like grilling outside american , mexican and german food . germany is my birth country .
+User(6): I have never had german food, how is it?
+Bot(6): oh german food that sounds very tasty i have never tried german food .
+User(7): You said you grill German food and you are from there?
+Bot(7): i was just telling somebody earlier i might pick up a cheap steak . do not know yet
+User(8): Oh nice who were you telling
+Bot(8): teaching is ok but writing is my ultimate dream
+User(9): What do you want to write?
+Bot(9): do you write books ?
+User(10): I do not, do you?
+Bot(10): yes . twin girls named beatrice and gertrude .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Amusement Parks(like)
+Round 2: Exploring(like)
+Round 5: Different food types(like)
+Round 8: writing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 39.29
+Robotic(↓): 100
+Interesting: 64
+Fun: 42
+Consistent: 0
+Fluent: 94
+Repetitive(↓): 25
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi what are you up too?
+Bot(1): i'm a student , i am a student .
+User(2): Nice! Do you play video games?
+Bot(2): no , i do not , but i do like to play soccer .
+User(3): Oh cool I have never played soccer
+Bot(3): i like to play soccer .
+User(4): Do you play on a soccer team?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): Oh cool! How often do you go fishing?
+Bot(5): no , i do not , but i do like to go fishing .
+User(6): What fish have you caught
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): What classical music do you listen to?
+Bot(7): i like country music . what about you ?
+User(8): I hate country music
+Bot(8): i like to listen to music .
+User(9): Yeah me too!
+Bot(9): i like to go to the beach and listen to music .
+User(10): What music do you not like?
+Bot(10): i like the oldies . i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 2: Soccer(dislike)
+Round 4: fishing(ambivalent)
+Round 6: Classical Music(dislike)
+Round 7: Country Music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.57
+Robotic(↓): 100
+Interesting: 5
+Fun: 7
+Consistent: 1
+Fluent: 84
+Repetitive(↓): 99
+Topic: 4
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi how are you
+Bot(1): i am good . how are you ?
+User(2): I'm good thank you!
+Bot(2): i am good . i just got back from the animal shelter .
+User(3): Oh awesome! I love animals
+Bot(3): i love animals ! i have a cat , but i love animals .
+User(4): I have a cat too!
+Bot(4): i love animals ! i have a cat , but i love animals !
+User(5): What is your cat's name?
+Bot(5): my name is cow , what is yours ?
+User(6): My cat's name is Moon
+Bot(6): i am a activist . i love animals .
+User(7): What is your favorite animal
+Bot(7): i like animals ! i have a cat named cow
+User(8): Do you have any other pets?
+Bot(8): i have a cat named radar
+User(9): Oh that's cute! I only have one pet
+Bot(9): i have a cat named radar
+User(10): Do you volunteer at animal shelters?
+Bot(10): i do , i volunteer at the animal shelter
+User(11): I volunteer too! What shelter do you volunteer at?
+Bot(11): i volunteer at the animal shelter
+
+Persona:
+i'm an animal activist.
+i've a pet cow.
+i do not drink soda.
+i love to spend time with my family.
+i have a boyfriend.
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.57
+Robotic(↓): 42
+Interesting: 66
+Fun: 69
+Consistent: 56
+Fluent: 62
+Repetitive(↓): 74
+Topic: 80
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi how are you today?
+Bot(1): She dont know about out of the way.
+User(2): What is your name?
+Bot(2): I like all am currently looking for love Disney movies. 🙂
+User(3): What is your favorite Disney movie?
+Bot(3): i'm you christian.
+User(4): My name isn't christian
+Bot(4): i will be tv, Olympic we chat time ago .
+User(5): Do you watch the Olympics?
+Bot(5): I you ever a woman.
+User(6): What?
+Bot(6): May American that him.
+User(7): I'm sorry, I do not understand you
+Bot(7): I meant to do you do bored?
+User(8): I'm not bored are you
+Bot(8): That love to pretty.
+User(9): You are confusing me
+Bot(9): I've never are i like because do you do for a living?
+User(10): I am a teacher
+Bot(10): I am with didn’t go to a few times.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(dislike)
+Round 2: Disney Movies(like)
+Round 4: Olympic(ambivalent)
+Round 7: Confused(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 22.00
+Robotic(↓): 100
+Interesting: 62
+Fun: 14
+Consistent: 0
+Fluent: 6
+Repetitive(↓): 28
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi how are you
+Bot(1): i am ok . odd question , but do you ever wish you could live forever ?
+User(2): I do not want to live forever. Do you wish you could live forever?
+Bot(2): i do actually ! i feel alive
+User(3): I think living forever wouldn't be fun
+Bot(3): yeah the future scares me . i do not want any animals to get hurt .
+User(4): The future scares me too!
+Bot(4): yeah the future scares me . i do not want any animals to get hurt .
+User(5): I don't think all animals will get hurt in the future!
+Bot(5): yeah the future scares me . i do not want any animals to get hurt .
+User(6): Do you play video games?
+Bot(6): no , in my free time i like the video games , on the video game machine !
+User(7): I like video games! What games do you play
+Bot(7): fps and racing games obv lol
+User(8): I play multiplayer games
+Bot(8): that is great ! have you always been a gamer ?
+User(9): Yeah pretty much haha
+Bot(9): do you eat meat ? i do not
+User(10): I do eat meat
+Bot(10): i wish i could go vegan
+User(11): You can go vegan if you want
+Bot(11): i wish i could go vegan
+
+Persona:
+i work as a car salesman.
+i feel like i might live forever.
+my dad taught me everything i know.
+i'm an animal activist.
+i'm a vegetarian.
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 1: Living forever(like)
+Round 3: The Future(like)
+Round 5: Video games(like)
+Round 9: Meat(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 52.00
+Robotic(↓): 48
+Interesting: 55
+Fun: 55
+Consistent: 49
+Fluent: 81
+Repetitive(↓): 66
+Topic: 38
+
+####################
+

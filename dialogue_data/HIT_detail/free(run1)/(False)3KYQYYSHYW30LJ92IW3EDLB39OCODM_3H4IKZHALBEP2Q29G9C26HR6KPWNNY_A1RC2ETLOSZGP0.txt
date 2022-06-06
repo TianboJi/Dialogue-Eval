@@ -1,0 +1,314 @@
+Feedback: Very interesting. Thank you.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What do you think about climate change?
+Bot(1): do you know what hot sweaty farts smell like out here ? they smell good .
+User(2): Well... that might be a way to put it... but I was interested in what you think about climate change.
+Bot(2): restaurant or sporting goods store . i am a grill cook and saving for my own kitchen
+User(3): That's great. What city do you live in?
+Bot(3): i wish i could go there . i am sure they have a place with great meatloaf !
+User(4): Let's try another topic!
+Bot(4): its a chemistry exam i am a biology major at boston college
+User(5): Chemistry is fun... but can be hard!
+Bot(5): i do not work but i manage to take a vacation every winter in florida .
+User(6): So you are not a grill cook any more?
+Bot(6): awesome . you gonna have any beer ?
+User(7): No beer. Thanks.
+Bot(7): i love beer i would like to come drink some
+User(8): You should have some. Go to the fridge and get it.
+Bot(8): do you drink coffee at work as well ?
+User(9): I like coffee... but don't drink it at work.
+Bot(9): do you drink coffee often ?
+User(10): Yes, every day
+Bot(10): it is not healthy , when i worked before i use to drink to much soda
+User(11): Cheers!
+Bot(11): hello ! i work at a beer distillery !
+
+Persona:
+i do not drink alcohol.
+for vacation i enjoy time at the beach.
+i don't drink alcohol.
+i enjoy reading journals and guides related to psychology.
+i own a yacht and i rent it out when i'm not using it.
+
+Topic and Human Opinion:
+Beginning: Climate change(dislike)
+Round 5: What it does for work, what it majors in college(ambivalent)
+Round 6: Beer(ambivalent)
+Round 8: coffee(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 22.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 61
+Repetitive(↓): 10
+Topic: 5
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I just bought some new tires for my car.
+Bot(1): i bought a new car for a living
+User(2): Well good for you! What kind of tires did the new car have?
+Bot(2): a toyota camry . it is a toyota mustang .
+User(3): Do you have any cats?
+Bot(3): i have a few . i have a couple of cats .
+User(4): I have one big Siamese cat.
+Bot(4): i have a couple of cats .
+User(5): Do you know what kind they are?
+Bot(5): i have a few . they are a handful .
+User(6): Yes, they can keep you busy.
+Bot(6): i am a big rig of a truck .
+User(7): Good for you. What kind of truck?
+Bot(7): truck driver , i drive a toyota .
+User(8): All right then. What color is your truck?
+Bot(8): i do not have a car . i am a truck driver .
+User(9): What color is your truck?
+Bot(9): i do not have a car . i drive a truck .
+User(10): Do you drive your truck every day?
+Bot(10): i do not drive . i drive a truck .
+User(11): Ok... have a nice day!
+Bot(11): i do not drive much , i just drive a truck .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Tires(like)
+Round 2: Cats(like)
+Round 6: Trucks(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 48.43
+Robotic(↓): 100
+Interesting: 66
+Fun: 50
+Consistent: 66
+Fluent: 57
+Repetitive(↓): 89
+Topic: 89
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like fish.
+Bot(1): awesome ! i am a feminist girl
+User(2): Very good. Do you go to school?
+Bot(2): i have friends but do not like them . i did not go to school .
+User(3): Do you work?
+Bot(3): i go to school . i do not work .
+User(4): What do you study in school?
+Bot(4): college .
+User(5): Do you have a major in college?
+Bot(5): i am graduating in liberal gender studies .
+User(6): Congratulations
+Bot(6): awesome ! i am a feminist girl
+User(7): Your studies should serve you well.
+Bot(7): awesome ! i am a feminist girl
+User(8): Any other interests?
+Bot(8): i do not really have one . i am just a free spirited person .
+User(9): It's good to have an open mind.
+Bot(9): true . i am also a feminist . a vegan as well
+User(10): What is your favorite vegan dish?
+Bot(10): i love salads , fish , nuts . i do not eat much meat .
+User(11): That's great. Have a nice day.
+Bot(11): mmm i am a free spirited person
+
+Persona:
+i don't have many friends.
+i have a hat collection of over 1000 hats.
+my mother is very traditional while i prefer to be more free spirited.
+i love to play pobox.
+i am a feminist.
+
+Topic and Human Opinion:
+Beginning: Fish(like)
+Round 1: describing herself(like)
+Round 2: School(like)
+Round 9: States she is a vegan(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The user changed the topic the last input.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 54.57
+Robotic(↓): 100
+Interesting: 74
+Fun: 74
+Consistent: 61
+Fluent: 66
+Repetitive(↓): 81
+Topic: 88
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What do you think of chatbots?
+Bot(1): i do not care too much for them , but i sure do love coffee !
+User(2): Do you drink coffee every day?
+Bot(2): i am a coffee fanatic , yes !
+User(3): Do you have a coffee maker?
+Bot(3): no , me i have coffee daily
+User(4): Do you go to starbucks?
+Bot(4): i am a coffee fanatic , yes !
+User(5): Do you like latte ?
+Bot(5): i love it . especially espresso .
+User(6): How many espressos do you have in a day?
+Bot(6): too many , i should take a break i think
+User(7): Yes, it's easy to over do it. Do you like Tea?
+Bot(7): i am a coffee fanatic , yes !
+User(8): Do you like tea?
+Bot(8): i love it . especially espresso .
+User(9): Espresso tea sounds intense.
+Bot(9): i love it . especially espresso .
+User(10): Maybe you should try some tea.
+Bot(10): i like hot chocolate or tea better .
+User(11): Try to switch to tea in the afternoon - that way you will sleep better. Have a nice day!
+Bot(11): i will keep a plate warm .
+
+Persona:
+eating is something i do when i am bored.
+i'm a huge coffee lover.
+two dogs live with me.
+i spend a lot of time browsing the internet.
+i fantasize about taking over the world.
+
+Topic and Human Opinion:
+Beginning: Chatbots(like)
+Round 1: Coffee(like)
+Round 7: Tea(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 7: The user changed the topic the last input.(like)
+
+Revised avg score: 38.86
+Robotic(↓): 100
+Interesting: 33
+Fun: 32
+Consistent: 58
+Fluent: 47
+Repetitive(↓): 86
+Topic: 88
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What do you think about chatbots?
+Bot(1): Hey! How is look at blocks and tacos and tacos
+User(2): Is that because you are a chatbot?
+Bot(2): I live from home as are you from?
+User(3): No, I don't think so.
+Bot(3): I do. hell do i a building.
+User(4): Great. What part of the building?
+Bot(4): I was adopted color blue.😁
+User(5): Now that is funny.
+Bot(5): What you many already said work at home depot.
+User(6): Okay... I will go to home depot and look for a blue chatbot.
+Bot(6): what are you studying? to like the school.
+User(7): I study chatbots in school.
+Bot(7): I like sounds rough but like music.😃
+User(8): cool. I like chatbot music.
+Bot(8): yum of have a bunch yum yum yum yum yum yum yum yum yum
+User(9): That sounds like a great song.
+Bot(9): what when I am grown you listen to? my favorite is rap.
+User(10): Cool. When I go to Home Depot, I will look for a blue chatbot who raps.
+Bot(10): It means that a brilliant mind an engineer.
+User(11): Thanks - have a nice day.
+Bot(11): shopping , like step is totally different Also, try to guess: i've light skin ...
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Chatbots(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.86
+Robotic(↓): 100
+Interesting: 77
+Fun: 78
+Consistent: 43
+Fluent: 38
+Repetitive(↓): 50
+Topic: 42
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I like math
+Bot(1): i like to go to the gym and listen to music .
+User(2): Music has a lot of math to it
+Bot(2): i love it . i love it .
+User(3): Yes, it has interesting patterns.
+Bot(3): i love to eat .
+User(4): What do you like the best?
+Bot(4): i do , i love it . i love it .
+User(5): Nice. What food do you like?
+Bot(5): i love pizza , and i love it .
+User(6): Excellent. I like pizza with mushrooms, pepperoni, and black olives.
+Bot(6): i like to eat fish .
+User(7): I also like fish. Salmon is my favorite.
+Bot(7): i like the color red . i like the color blue .
+User(8): That makes me think of Dr. Suess.
+Bot(8): i like to eat too much junk food .
+User(9): Do you like to read Dr. Suess?
+Bot(9): no , i do not . i like to go to the park .
+User(10): Nice. Have fun at the park!
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i am a doctor.
+i am a huge coffee lover.
+i am working on a building a robot to be my body double.
+i'm overweight and unhappy.
+i'm currently in high school.
+
+Topic and Human Opinion:
+Beginning: Math(like)
+Round 3: Eating(ambivalent)
+Round 7: Dr. Suess(like)
+Round 9: Going to the park(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 46.57
+Robotic(↓): 100
+Interesting: 60
+Fun: 60
+Consistent: 53
+Fluent: 65
+Repetitive(↓): 50
+Topic: 38
+
+####################
+

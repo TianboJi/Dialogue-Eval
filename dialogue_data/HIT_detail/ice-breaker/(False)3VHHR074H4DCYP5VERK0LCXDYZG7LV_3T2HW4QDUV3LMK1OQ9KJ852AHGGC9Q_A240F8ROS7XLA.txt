@@ -1,0 +1,302 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am a 56 year old woman
+Bot(1): i can count my age on one hand . i am four !
+User(2): That is awesome, when is your birthday?
+Bot(2): mine is 62 because that was the age i retired at
+User(3): Retirement is a great age to be.
+Bot(3): i can count my age on one hand . i am four !
+User(4): You just said you were retired.
+Bot(4): kinda , i been in the game since i was four .
+User(5): What is the game?
+Bot(5): it is a board game really
+User(6): That is cool, what board games do you play.
+Bot(6): any kind of games . monopoly and basketball are my favorites
+User(7): I like basketball as well, football is my favorite
+Bot(7): yeah , and i have played it since the age of four .
+User(8): How old are you?
+Bot(8): i can count my age on one hand . i am four !
+User(9): What kind of games does a four year old play?
+Bot(9): any kind of games . monopoly and basketball are my favorites
+User(10): Ive played monopoly before, it is fun.
+Bot(10): i did not know that monopoly was a video game
+
+Persona:
+i've been retired for a years.
+i love to play board games.
+i am four.
+i am always wearing a hat.
+my favorite colors are red and silver.
+
+Topic and Human Opinion:
+Beginning: i'm a 56 year old woman.(ambivalent)
+Round 5: Games(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 34.43
+Robotic(↓): 100
+Interesting: 21
+Fun: 80
+Consistent: 7
+Fluent: 83
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I dont know what to do with all these babies.
+Bot(1): oh no . i love babies
+User(2): I just like babies, not love them
+Bot(2): i am a huge fan of tanning beds .
+User(3): I use the sun to tan
+Bot(3): well i eat alot myself , i volunteer also at the soup kitchen
+User(4): what kitchen do you volunteer at again?
+Bot(4): shoplift the job , trust me it works
+User(5): what job
+Bot(5): shoplift the job , trust me it works
+User(6): what is the job?
+Bot(6): shoplift the job , trust me it works
+User(7): what kind of job do you have?
+Bot(7): i work at a soup kitchen
+User(8): you said you volunteer at the soup kitchen.
+Bot(8): i do not know anymore
+User(9): its okay, we all get lost sometimes
+Bot(9): i cant seem to click
+User(10): You want to call IT for that issue.
+Bot(10): shoplift the job , trust me it works
+
+Persona:
+i like to tan in tanning beds.
+i'm here for shoplifting.
+i enjoy sports such as running.
+i love to play pobox.
+i volunteer at a soup kitchen.
+
+Topic and Human Opinion:
+Beginning: i'm expecting triplets in three months.(dislike)
+Round 2: Tanning beds(ambivalent)
+Round 4: Shoplifting(dislike)
+Round 6: jobs(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 25.14
+Robotic(↓): 100
+Interesting: 88
+Fun: 7
+Consistent: 9
+Fluent: 22
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you ride the bus to school as well?
+Bot(1): i do not have a car , so i have to ride the bus . what are you studying ?
+User(2): I am a cybersecurity major
+Bot(2): chemistry major minor in physics .
+User(3): that sounds difficult, what do you want to do with it?
+Bot(3): it is but your situation sounds very difficult as well
+User(4): My major is, but I have experience in it
+Bot(4): chemistry major minor in physics .
+User(5): what kind of physics?
+Bot(5): i like asian swords like the ones in the movies
+User(6): have you tried making your own sword?
+Bot(6): wow . you are an interesting one . using the sword for surgery ?
+User(7): Not for surgery, just to have one
+Bot(7): i hurt my knee playing basketball in college . i dreamed of going pro .
+User(8): I used to play myself, what was your position?
+Bot(8): any siblings ? do you like sports . i also play tennis .
+User(9): I do like sports, I only have 2 siblings
+Bot(9): no i am the only child sometimes i wish i had a brother
+User(10): brothers are cool, great for playing sports together.
+Bot(10): i do not like my brother at all
+
+Persona:
+i am partly deaf.
+i have one brother.
+i am a professional tennis player.
+i work at a school.
+i enjoy being around people.
+
+Topic and Human Opinion:
+Beginning: i ride the bus to school.(like)
+Round 5: swords(like)
+Round 7: basketball(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 30.29
+Robotic(↓): 100
+Interesting: 30
+Fun: 83
+Consistent: 9
+Fluent: 40
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): what kind of problems exist in high school?
+Bot(1): i am not sure . i am not sure .
+User(2): Neither am I, maybe one day we will know more.
+Bot(2): i am sorry to hear that . i am not scared of death .
+User(3): I am scared of death, even if it is inevitable.
+Bot(3): i am sorry to hear that . i am scared of death .
+User(4): if you die, what happens?
+Bot(4): i am scared of death , i am scared of death .
+User(5): Do you not want to talk about death?
+Bot(5): i am scared of death , i am scared of death .
+User(6): What do you like to do at the beach?
+Bot(6): i am not sure . i am not sure if i could do that .
+User(7): Anyone can, it's just a matter of getting there.
+Bot(7): i am not sure if i could do that .
+User(8): what cant you do?
+Bot(8): i am not sure . i am not sure .
+User(9): what is the thing you cant do?
+Bot(9): i am not sure . i am not sure .
+User(10): I am not sure I understand any longer
+Bot(10): i am sorry to hear that .
+
+Persona:
+mickey mouse is my favorite character.
+i've a cat named spook.
+i'm scared of dying.
+i own a yacht and i rent it out when i am not using it.
+my favorite color is blue.
+
+Topic and Human Opinion:
+Beginning: i am currently in high school.(like)
+Round 3: death(like)
+Round 5: beach(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 20.29
+Robotic(↓): 100
+Interesting: 88
+Fun: 0
+Consistent: 1
+Fluent: 3
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How long have you been married?
+Bot(1): that s the meaning of you the spanish word trabajo
+User(2): That actually means "work" in spanish
+Bot(2): do am aeronautical am a season? mine is winter. I love vanilla
+User(3): I like vanilla too
+Bot(3): I I like I am a drummer in the band.
+User(4): I have never played the drums
+Bot(4): sounds good ! i'm mark to examine the concept like to do ?
+User(5): what concept?
+Bot(5): nice, do i’m not, i’m in i am a motorcycle rider.
+User(6): I have never rode a motorcycle either
+Bot(6): My favorite of a winter about you?
+User(7): Winter is my favorite season.
+Bot(7): do you are really nice guess ok 🉑 with <num>
+User(8): what language are you written in?
+Bot(8): I am not like horses. And like you.
+User(9): I also am not a horse, good to know.
+Bot(9): I do, your doughter's cars
+User(10): I do not have a daughter.
+Bot(10): i do , but today to two exhibitions, much money .
+
+Persona:
+i enjoy long walks with my dog.
+i ride the bus to school.
+i have been trying all types of food everywhere i go.
+i'm overweight and unhappy.
+i just moved into my first home.
+
+Topic and Human Opinion:
+Beginning: i'm married.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.00
+Robotic(↓): 100
+Interesting: 17
+Fun: 15
+Consistent: 11
+Fluent: 4
+Repetitive(↓): 84
+Topic: 7
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am trying to live a vegan lifestyle
+Bot(1): i am a huge fan of jason mraz .
+User(2): He has some really good music.
+Bot(2): i like to listen to music .
+User(3): What is your favorite song?
+Bot(3): i like the color red . i like the color blue .
+User(4): My favorite color is purple
+Bot(4): i like blue , i like red , reminds me of summer time .
+User(5): Summer time makes me sad, too many dry colors
+Bot(5): i like to go to the gym and listen to music .
+User(6): I like music as well
+Bot(6): i like to listen to music .
+User(7): what is your favorite song?
+Bot(7): i like the color red . i like the color blue .
+User(8): Do you like any other colors?
+Bot(8): i do , i like to listen to music .
+User(9): what color is music?
+Bot(9): i like blue , my favorite color .
+User(10): Blue is a great color
+Bot(10): i like the color red . i like red .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a vegan.(dislike)
+Round 1: Jason Mraz(like)
+Round 3: Colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 27.86
+Robotic(↓): 100
+Interesting: 84
+Fun: 26
+Consistent: 66
+Fluent: 19
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

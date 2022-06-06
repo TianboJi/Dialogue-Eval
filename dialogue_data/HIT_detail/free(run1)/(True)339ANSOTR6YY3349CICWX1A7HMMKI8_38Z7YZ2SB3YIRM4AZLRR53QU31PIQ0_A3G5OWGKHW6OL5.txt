@@ -1,0 +1,291 @@
+Feedback: Long HIT for the reward.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am good . how are you ?
+User(2): I'm doing well. I'm glad the weekend is finally here. Do you have any plans?
+Bot(2): unfortunately , i work my third job on the weekends . i am trying to save for the wedding
+User(3): That's too bad that you have to work the weekend. I am planning to go to barbecue later on.
+Bot(3): going fine . . how bt urs ?
+User(4): It's going great so far, just doing some house chores, like every weekend. Any plans after work?
+Bot(4): unfortunately , i work my third job on the weekends . i am trying to save for the wedding
+User(5): Are you getting married?
+Bot(5): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(6): Congratulations, that is very nice to hear. I'm single at the moment. So, when is the wedding?
+Bot(6): thank you ! i just hope my parents in kentucky can make it to the wedding
+User(7): Do you have a date for the wedding?
+Bot(7): sometimes it can be . sometimes its hard . its for my wedding in december .
+User(8): A winter wedding, how lovely. I hope it is not extremely cold that day.
+Bot(8): i like to smell them . not my fault you do not like to smell farts . its normal .
+User(9): What does that have to do with your wedding?
+Bot(9): i need to get through the wedding planning part before i even think about life after .
+User(10): I'm sure it is very stressful. Do you have a honeymoon location yet?
+Bot(10): its a great way to spend time with eachother . but very hectic .
+User(11): Good luck with the wedding!
+Bot(11): oh wow ! where is the wedding going to be ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Plans for the weekend.(like)
+Round 4: A wedding.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 37.29
+Robotic(↓): 23
+Interesting: 24
+Fun: 50
+Consistent: 15
+Fluent: 31
+Repetitive(↓): 51
+Topic: 15
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am doing well . how are you ?
+User(2): I'm doing well thanks. Going out to the park with my dog. Do you have any pets?
+Bot(2): no , i do not , but i do like to eat .
+User(3): Why don't you have a pet?
+Bot(3): i do , i love to travel .
+User(4): What kind of pet do you have?
+Bot(4): i do not have any pets , but i do like to go fishing .
+User(5): I think pets are awesome! Dogs provide great companionship.
+Bot(5): i love to cook . i love to cook .
+User(6): What is your favorite thing to cook?
+Bot(6): i love pizza , and i love it .
+User(7): How long does it take you to make a pizza?
+Bot(7): i do not , but i do like to eat .
+User(8): Do you cook anything else besides pizza?
+Bot(8): i do not , but i do like to eat .
+User(9): I like to watch cooking shows on TV. But they make me hungry :)
+Bot(9): i like to go to the gym and listen to music .
+User(10): How often do you cook?
+Bot(10): i do , i love to cook .
+
+Persona:
+i am currently looking for a job preferably at a restaurant.
+i'm a feminist.
+i haven't spoken in three months.
+i haven't spoken in three months.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 5: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 23.43
+Robotic(↓): 80
+Interesting: 18
+Fun: 17
+Consistent: 22
+Fluent: 50
+Repetitive(↓): 86
+Topic: 23
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): I i like pets am wear a lot of clothes.
+User(2): I love pets also! What kind of pet do you have?
+Bot(2): My favorite believe existence of What is yours?
+User(3): I do not understand the question. You said you like pets.
+Bot(3): not really like russian rap love are a girl lol
+User(4): I'm not sure what that has to do with pets.
+Bot(4): sorry to hear that you like share with music
+User(5): What type of music do you like?
+Bot(5): I am from tanya. Any music love dancing
+User(6): I love music that you can dance to. Any favorite genre?
+Bot(6): I do not drink much alcohol but any do not drink eat
+User(7): Do you play any instruments?
+Bot(7): I like to play me of summer time.
+User(8): Summer time music is great, especially when lounging with friends.
+Bot(8): oh nice . internet addiction and spend ? i hear those are kinda ripoffs
+User(9): Do you listen to any music online?
+Bot(9): soup is my favorite. I like to grill cool! you do?
+User(10): Your conversation is all over the place, I thought we were talking about music.
+Bot(10): good now that the band, u have 3 .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hobbies(like)
+Round 1: Pets(like)
+Round 4: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am good . how are you ?
+User(2): Great thank you. Just here enjoying some music on a Saturday morning. I enjoy listening to music, do you?
+Bot(2): i love music . i like to listen to music while i listen to music .
+User(3): Same here :). What is your favorite genre?
+Bot(3): i like all kinds of music .
+User(4): Me too, except for hard rock or country. I specially love Jazz.
+Bot(4): i love music . i like to listen to music while i listen to it .
+User(5): Have you gone to any concerts?
+Bot(5): i do not . i am a musician .
+User(6): That is so cool! What instrument do you play?
+Bot(6): i play guitar . i play the guitar .
+User(7): Very nice! I always wanted to learn. How long have you been a musician?
+Bot(7): i played guitar . i am a musician .
+User(8): When did you learn how to play the guitar?
+Bot(8): i do not . i play guitar .
+User(9): I love classic rock when it has guitar solos.
+Bot(9): i do not play any instruments . i play guitar .
+User(10): What is the name of your band?
+Bot(10): i play the guitar . i am a musician .
+
+Persona:
+i faint at the sight of blood.
+i fantasize about taking over the world.
+i drive a mini van.
+i have five sons.
+i am a musician and hope to make it big some day.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.14
+Robotic(↓): 62
+Interesting: 56
+Fun: 50
+Consistent: 79
+Fluent: 64
+Repetitive(↓): 88
+Topic: 52
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am dandy . how is your day going ?
+User(2): It's going good so far, thanks. I think I will watch a movie.
+Bot(2): same
+User(3): What movie will you watch?
+Bot(3): probably terminator 2
+User(4): Nice! Do you like action movies?
+Bot(4): i like anything fast and action packed
+User(5): I enjoy them also, but comedy movies are my favorite.
+Bot(5): i do like comedies myself , especially adam sandler !
+User(6): Adam has some very funny movies. I like his older movies, like Big Daddy.
+Bot(6): i like the way he blends comedy with action !
+User(7): Yes, he does a very good job of that. What is your favorite Adam Sandler movie?
+Bot(7): i like the way he blends comedy with action !
+User(8): He is a great actor. The Waterboy is a great example of comedy and action.
+Bot(8): i like the way he blends comedy with action !
+User(9): What other movies do you like?
+Bot(9): i like funny ones and action movies , what about you ?
+User(10): The ones were he is a goofball are my favorites.
+Bot(10): i like the way he blends comedy with action !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies and tv shows(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.29
+Robotic(↓): 33
+Interesting: 57
+Fun: 66
+Consistent: 51
+Fluent: 70
+Repetitive(↓): 63
+Topic: 39
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am great . i am in disney world right now . i come every year
+User(2): That is very nice! Are you on vacation?
+Bot(2): no , but i love going to disney world every year . where do you work ?
+User(3): Do you live close to Disney World?
+Bot(3): no , but i love going to disney world every year . where do you work ?
+User(4): I work in manufacturing, how about you?
+Bot(4): no , but i love going to disney world every year . where do you work ?
+User(5): I just told you. Where do you work?
+Bot(5): i am a banker . do you like your job ?
+User(6): A banker, that must be interesting. Yes I do, do you like you job?
+Bot(6): i love it . what are you in school for ?
+User(7): I'm not in school. How long have you been a banker?
+Bot(7): it been 10 years or so , i would like to finish college eventually as well .
+User(8): 10 years is a long time. Have you worked for the same company the whole time?
+Bot(8): no , but i love going to disney world every year . where do you work ?
+User(9): What do you like most about your job?
+Bot(9): i guess i would have to say that i became an engineer and i enjoy that
+User(10): Oh, I thought you said you were a banker?
+Bot(10): . . . was in banking until september . i was told i was no longer employed there .
+User(11): Too bad. Good luck outthere!
+Bot(11): thank you . you have anything planned for the holidays ?
+
+Persona:
+i enjoy building houses.
+i didn't graduate high school.
+i work at a bank.
+i love to go to disney world every year.
+i have an allergy to water.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+Round 1: Vacation(dislike)
+Round 3: Work(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 51.71
+Robotic(↓): 65
+Interesting: 49
+Fun: 36
+Consistent: 62
+Fluent: 80
+Repetitive(↓): 43
+Topic: 43
+
+####################
+

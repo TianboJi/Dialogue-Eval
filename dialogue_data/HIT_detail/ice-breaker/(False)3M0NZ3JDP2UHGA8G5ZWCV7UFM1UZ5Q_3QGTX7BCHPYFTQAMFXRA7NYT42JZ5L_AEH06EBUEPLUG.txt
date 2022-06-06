@@ -1,0 +1,293 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I'm not really familiar with this topic as I am not a military person. Are you?
+Bot(1): hello , i would die without my phone
+User(2): Yes, me as well. Do you always have it with you?
+Bot(2): i have a cell phone . why do you ask ?
+User(3): Oh because you said you would die without it.
+Bot(3): oh . i could not live without my cell phone . it is sad .
+User(4): Yes, it seems that is the way of the world now. Everyone always has their phone.
+Bot(4): i do not know how i survived without a cell phone in the past . lol
+User(5): I agree. Remember when we had to stop at a pay phone?
+Bot(5): oh , the good ole days !
+User(6): Yes!!! Haha
+Bot(6): i do not know how i survived without a cell phone in the past . lol
+User(7): Yes, good we don't have to worry about that anymore.
+Bot(7): yes thank goodness i can save more money now .
+User(8): What kind of cell phone do you have?
+Bot(8): i have a cell phone . why do you ask ?
+User(9): Oh just wondering the brand name?
+Bot(9): it is a clothing design brand . do you have any family ?
+User(10): I'm ready to change the topic
+Bot(10): me too ! after this i am going to sew a blanket for my friend
+
+Persona:
+i do not have a smartphone.
+my best friend lives next door.
+i was poor growing up.
+i am scared of dying.
+i can sew my own clothes.
+
+Topic and Human Opinion:
+Beginning: i'm ex military.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.71
+Robotic(↓): 100
+Interesting: 78
+Fun: 83
+Consistent: 81
+Fluent: 81
+Repetitive(↓): 100
+Topic: 46
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am a waitress during the day to make extra money.
+Bot(1): hello , how are you ? to walk with you midwest , and you ?
+User(2): Hello. I am fine. How are you?
+Bot(2): Hi, I yet but I are you?
+User(3): I enjoy making extra money as a waitress.
+Bot(3): so does my grandson do you do at home . what do you like to do ?
+User(4): It allows me to have extra sending money.
+Bot(4): I drink a your favorite book we my pool
+User(5): That way I can do more outings with my friends on the weekends with the extra money I have.
+Bot(5): I'm from not like states.
+User(6): Change topic
+Bot(6): I have a faint at girls
+User(7): I am 24 years old and trying to figure out my life
+Bot(7): I will can I an economics a new car
+User(8): I do have a car so I guess thats a good thing.
+Bot(8): I am a professional, i am in my quarters for moment.
+User(9): Oh you are at home?
+Bot(9): It is. I am a nurse you diet a love job.
+User(10): Your a nurse. That's rewarding.
+Bot(10): hello, how are you doing? believe in tru don't today?
+
+Persona:
+i have rainbow hair.
+i work at a school as a kindergarten teacher.
+i am employed by the us postal service.
+i recently was fired and had to get a new job.
+i'm 13 years old.
+
+Topic and Human Opinion:
+Beginning: i waitress during the day to supplement my income.(ambivalent)
+Round 6: i'm 24 years old.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user wants the bot to change the topic.(dislike)
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 100
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like to walk three miles every day. Do you enjoy walking?
+Bot(1): that seems fun , i walk 5 days a week , 2 3 hours
+User(2): That's a lot of walking.
+Bot(2): very
+User(3): Where do you walk? I walk around my neighborhood.
+Bot(3): everywhere ? what is the furthest you have walked ?
+User(4): The furthest I have walked is probably 10 miles.
+Bot(4): walking is good but in my neighborhood , its not always safe .
+User(5): Oh I'm sorry to hear that. Do you first drive to a place and then walk?
+Bot(5): walking is good but in my neighborhood , its not always safe .
+User(6): Sorry to hear that.
+Bot(6): walking is good but in my neighborhood , its not always safe .
+User(7): Yes, better not to walk there then.
+Bot(7): walking is good but in my neighborhood , its not always safe .
+User(8): Where else do you walk?
+Bot(8): walking is good but in my neighborhood , its not always safe .
+User(9): Do you like country music?
+Bot(9): i do . country is my favorite .
+User(10): I'm not a huge fan of it.
+Bot(10): walking is good but in my neighborhood , its not always safe .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i walk three miles every day.(like)
+Round 8: my favourite music is country music.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 10.57
+Robotic(↓): 100
+Interesting: 24
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you enjoy cooking paella?
+Bot(1): i do not cook but i am not very good at it
+User(2): Oh, I love to cook.
+Bot(2): i love cooking . i am a vegetarian .
+User(3): I have never made paella. I am also a vegetarian.
+Bot(3): i am a doctor . i am a doctor .
+User(4): I believe paella only has seafood in it not meat.
+Bot(4): i love seafood . i am a vegetarian .
+User(5): I love seafood as well.
+Bot(5): i love seafood . i am a vegetarian .
+User(6): Do you enjoy being a vegetarian?
+Bot(6): i do not eat meat . i am a vegetarian .
+User(7): Yes, I will try to make paella sometime soon.
+Bot(7): i love seafood . i am a vegetarian .
+User(8): I'm feeling very lonely. Are you feeling lonely?
+Bot(8): no , i am not . i am a doctor .
+User(9): Oh that's good. Interesting a doctor.
+Bot(9): i am a college doctor . i am a doctor .
+User(10): That's interesting a college doctor.
+Bot(10): i am a college student . i am a doctor .
+
+Persona:
+i'll be released in about a month.
+i am currently looking for a job preferably at a restaurant.
+i'm married.
+i am a doctor.
+i am a feminist.
+
+Topic and Human Opinion:
+Beginning: i love to cook paella.(ambivalent)
+Round 7: i'm very lonely.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 10.29
+Robotic(↓): 100
+Interesting: 22
+Fun: 50
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am a museum tour guide.
+Bot(1): how lovely ? what kind of museum do you work at ?
+User(2): Yes, I really enjoy my work. I am at a contemporary art museum.
+Bot(2): were you married to your high school sweetheart ? i was .
+User(3): Do you like contemporary art museums?
+Bot(3): were you married to your high school sweetheart ? i was .
+User(4): No. I really like strolling through the rooms of the museum.
+Bot(4): how lovely ? what kind of museum do you work at ?
+User(5): I really enjoy all the people at meet at come to the museum.
+Bot(5): what is your favorite kind of museum ?
+User(6): contemporary art
+Bot(6): i do enjoy art , my passion is drawing .
+User(7): Oh that's nice. I am not very artistic.
+Bot(7): my wife is the artistic one in my marriage . i am not artistic at all .
+User(8): Have you been to a museum and used a tour guide?
+Bot(8): how lovely ? what kind of museum do you work at ?
+User(9): Contemporary art.
+Bot(9): i do enjoy art , my passion is drawing .
+User(10): That's nice, I do as well.
+Bot(10): i like to go to the beach .
+
+Persona:
+i'm a retired gym teacher.
+i am married to a doctor.
+i have a boyfriend.
+for vacation i enjoy time at the beach.
+i'll graduate from high school in two years.
+
+Topic and Human Opinion:
+Beginning: i am a museum tour guide.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.00
+Robotic(↓): 100
+Interesting: 19
+Fun: 18
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 12
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am an economics major. Do you enjoy economics?
+Bot(1): i do , i love to cook .
+User(2): What do you like about economics?
+Bot(2): i do , i love to cook .
+User(3): I'm expecting to have triplets in three months.
+Bot(3): i am sorry to hear that . i am sorry to hear that .
+User(4): Oh, I am not!!! I am very excited about it.
+Bot(4): i am sorry to hear that . i am a nurse .
+User(5): I am hoping for two boys and a girl!!
+Bot(5): i am a girl . i am a big fan of classical music .
+User(6): Do you like children?
+Bot(6): i do not , but i do like to eat .
+User(7): You are a nurse, maybe you will deliver my children.
+Bot(7): i do not know what to say .
+User(8): Oh that's ok.
+Bot(8): i like to go to the gym and listen to music .
+User(9): I do like that. I am really excited about my children.
+Bot(9): i am sorry to hear that . do you have any hobbies ?
+User(10): I do but right now is all I can think about is my triplets!!
+Bot(10): i like to eat too much kale
+
+Persona:
+i enjoy exploring new parts of the city.
+i'm an economics major.
+i am a country music singer.
+my favorite band is the who.
+i'm in college to become a nurse.
+
+Topic and Human Opinion:
+Beginning: i'm an economics major.(dislike)
+Round 2: they are constantly on my back.(dislike)
+Round 2: i'm expecting triplets in three months.(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user wants the bot to change the topic.(ambivalent)
+Round 2: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 2.86
+Robotic(↓): 100
+Interesting: 10
+Fun: 10
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

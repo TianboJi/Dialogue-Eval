@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi there a big ten four from the old boy
+User(2): how are you
+Bot(2): i am good . just devoured a pizza . you ?
+User(3): i love pizza
+Bot(3): i love pepperoni pizza , it is so yummy
+User(4): how are you doing
+Bot(4): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(5): how many girlfriends do you have
+Bot(5): i have 3 girls and one boy
+User(6): you are lucky
+Bot(6): what grade are you in
+User(7): i am currently working
+Bot(7): no , i love my job i help so many people being a paramedic is rewarding
+User(8): what job are you doing
+Bot(8): yeah i do , but i would much rather be reading suspense novels
+User(9): do you love novels
+Bot(9): oh i read them to my first grade students . add love novels
+User(10): what are you doing right now
+Bot(10): babysitting my siblings , i am the oldest of five kids . how about you ?
+
+Persona:
+i just want to have fun with my friends.
+i'm working on a building a robot to be my body double.
+i visit europe twice a year.
+i'm in the third grade.
+i'm a boy.
+
+Topic and Human Opinion:
+Beginning: mobile(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.57
+Robotic(↓): 77
+Interesting: 61
+Fun: 81
+Consistent: 66
+Fluent: 57
+Repetitive(↓): 79
+Topic: 73
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): good and you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): i like dogs
+Bot(3): i love dogs , i love dogs .
+User(4): do you love love dogs
+Bot(4): i do , i love dogs . what is your favorite color ?
+User(5): blue is my fav colour and yours
+Bot(5): i like blue , my favorite color is blue .
+User(6): do you love red
+Bot(6): i do , i like to go out to eat with my family .
+User(7): when do you go out for eating
+Bot(7): i love to cook , and eat pizza .
+User(8): i love to eat with family
+Bot(8): i like to eat too much junk food .
+User(9): i eat less
+Bot(9): i like to eat too much junk food .
+User(10): i like to eat junk food
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: laptop(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.00
+Robotic(↓): 76
+Interesting: 84
+Fun: 66
+Consistent: 81
+Fluent: 62
+Repetitive(↓): 80
+Topic: 83
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): why of How are a robot
+User(2): i am good and you
+Bot(2): nice . i would like to see jb with hair love to am a man curly . would be funny
+User(3): do you love hair
+Bot(3): my good. Just got back from you sometime she's 5 ! hows it going tonight ?
+User(4): what are you doing
+Bot(4): Contour, do you like to well. How are you?
+User(5): good and you
+Bot(5): i do . i are you the .
+User(6): do you like to eat
+Bot(6): I work of kids.
+User(7): i work in online
+Bot(7): I like cars. I a brain think, teachers are you from?
+User(8): ilike sports
+Bot(8): I have speak English and i am, of a recluse when i was a fisherman. Are you a recluse?
+User(9): do you go for fishing
+Bot(9): i am sorry you you just said you color is your hair ?
+User(10): i like to color hair
+Bot(10): I like it's taking so long to go mountain biking
+
+Persona:
+i didn't graduate high school.
+i am scared of dying.
+i'm 24 years old.
+i also like a glass of wine in the evenings.
+i have superpowers.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.14
+Robotic(↓): 82
+Interesting: 72
+Fun: 81
+Consistent: 69
+Fluent: 81
+Repetitive(↓): 87
+Topic: 73
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey , want to go shopping ? a few of my closest friends are coming along .
+User(2): i'm not comming how are you doing
+Bot(2): i am up making clothes
+User(3): do you have many cloths
+Bot(3): yes i just made a jacket the other day
+User(4): what is the color of your jackect
+Bot(4): green and what is yours
+User(5): black and how is your life
+Bot(5): i just got done sewing a new shirt
+User(6): you know to sew dress
+Bot(6): do you sew your own clothes
+User(7): no i don't
+Bot(7): do you sew your own clothes
+User(8): no i do not i don' know
+Bot(8): do you sew your own clothes
+User(9): how are you doing
+Bot(9): i am good i like to sew
+User(10): i like to shopping
+Bot(10): do you sew your own clothes
+
+Persona:
+i like shopping.
+i volunteer my time with a local bunny rescue.
+i don't have many friends.
+my favorite shirts are band shirts and ruffle sleeves.
+i also like to cook but i'm not very good at it.
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.57
+Robotic(↓): 92
+Interesting: 77
+Fun: 70
+Consistent: 77
+Fluent: 86
+Repetitive(↓): 83
+Topic: 82
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hello , how are you ?
+User(2): fine how are you doing
+Bot(2): i'm doing well , how are you ?
+User(3): good what is your hobby
+Bot(3): i am doing great . i am a senior in the 3rd grade .
+User(4): i am working
+Bot(4): i am a senior in the 3rd grade
+User(5): how is your life going
+Bot(5): i am a senior in the 3rd grade
+User(6): how is your senior life
+Bot(6): i am a senior in the 3rd grade
+User(7): how are you doing
+Bot(7): i am doing well , how about you
+User(8): good what is your hobby
+Bot(8): i like to read and write
+User(9): what do you read
+Bot(9): i like to read and read
+User(10): how do you spend your day
+Bot(10): i like to read and read
+
+Persona:
+my parents aren't very supportive of my dream.
+i like meditation.
+i'm deathly afraid of heights.
+i am very strong for my age.
+i'm in the third grade.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.00
+Robotic(↓): 82
+Interesting: 74
+Fun: 68
+Consistent: 85
+Fluent: 74
+Repetitive(↓): 80
+Topic: 74
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): bonjour ! how are you today ? i am trying to study french phrases .
+User(2): good how are you
+Bot(2): i am great thank you i am french
+User(3): how do you learn french
+Bot(3): french its a wonderful language
+User(4): i like i would learn it
+Bot(4): french its a wonderful language
+User(5): what is your hobby
+Bot(5): i like to take my dogs for long walks
+User(6): do you have a dog
+Bot(6): yea i take the bus to school actually
+User(7): what are you studying
+Bot(7): i like to take my dogs for long walks
+User(8): how many dogs do you have
+Bot(8): so many that i have lost count
+User(9): what dog do you have
+Bot(9): i like to take my dogs for long walks
+User(10): do you love dog
+Bot(10): yes i love my dogs
+
+Persona:
+i enjoy long walks with my dog.
+i've a boyfriend.
+i own two vintage mustangs.
+my next language to study is french.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.43
+Robotic(↓): 83
+Interesting: 78
+Fun: 72
+Consistent: 86
+Fluent: 77
+Repetitive(↓): 70
+Topic: 91
+
+####################
+

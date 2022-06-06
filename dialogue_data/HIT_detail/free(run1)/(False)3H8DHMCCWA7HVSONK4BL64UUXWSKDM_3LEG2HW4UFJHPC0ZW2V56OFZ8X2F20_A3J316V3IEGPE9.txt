@@ -1,0 +1,301 @@
+Feedback: GOOD SURVEY
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): HJFHJFHJ
+Bot(1): hello i am here cause i have no friends
+User(2): I LOVE COOK
+Bot(2): mmm i am a free spirited person
+User(3): I LOVE COOK
+Bot(3): mmm i am a free spirited person
+User(4): I LOVE COOK
+Bot(4): i need some new friends
+User(5): I LOVE COOK
+Bot(5): i need some new friends
+User(6): I LOVE COOK
+Bot(6): i need some new friends
+User(7): I LOVE COOK
+Bot(7): i need some new friends
+User(8): I LOVE COOK
+Bot(8): i need some new friends
+User(9): I LOVE COOK
+Bot(9): i need some new friends
+User(10): I LOVE COOK
+Bot(10): i need some new friends
+
+Persona:
+i don't have many friends.
+i have a hat collection of over 1000 hats.
+my mother is very traditional while i prefer to be more free spirited.
+i love to play pobox.
+i am a feminist.
+
+Topic and Human Opinion:
+Beginning: LOVE(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.29
+Robotic(↓): 69
+Interesting: 75
+Fun: 72
+Consistent: 75
+Fluent: 77
+Repetitive(↓): 71
+Topic: 70
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): HI
+Bot(1): hey
+User(2): HEY
+Bot(2): hey
+User(3): I LOVE COOK
+Bot(3): ii love to cook too
+User(4): I LOVE COOK
+Bot(4): ii love to cook too
+User(5): I LOVE COOK
+Bot(5): me too let us cook
+User(6): I LOVE COOK
+Bot(6): me too let us cook
+User(7): I LOVE COOK
+Bot(7): me too let us cook
+User(8): I LOVE COOK
+Bot(8): me too let us cook
+User(9): I LOVE COOK
+Bot(9): me too let us cook
+User(10): I LOVE COOK
+Bot(10): me too let us cook
+User(11): I LOVE COOK
+Bot(11): me too let us cook
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: FOOD(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.71
+Robotic(↓): 80
+Interesting: 71
+Fun: 88
+Consistent: 80
+Fluent: 73
+Repetitive(↓): 95
+Topic: 81
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): HI
+Bot(1): do you have any hobbies ?
+User(2): HEY
+Bot(2): i am good thanks for asking
+User(3): I LIKE COOK
+Bot(3): i like cooking but i love cooking
+User(4): I LIKE COOK
+Bot(4): i cook for my cooking
+User(5): U LIKE
+Bot(5): i like cooking but i love cooking
+User(6): U NAME
+Bot(6): i am good thanks for asking
+User(7): OH
+Bot(7): i am good thanks for asking
+User(8): OK
+Bot(8): do you like cooking ? i love cooking
+User(9): OH
+Bot(9): do you like cooking at all
+User(10): S
+Bot(10): i am good thanks for asking
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: CHICKEN(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.71
+Robotic(↓): 62
+Interesting: 63
+Fun: 70
+Consistent: 72
+Fluent: 63
+Repetitive(↓): 61
+Topic: 66
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): HI
+Bot(1): hey
+User(2): HI
+Bot(2): hi how are you ?
+User(3): HEY
+Bot(3): hi ! how are you ?
+User(4): 5N
+Bot(4): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(5): I LIKE COOK
+Bot(5): i do , i make this one dish with pork marinated in catalina dressing , its good
+User(6): HI
+Bot(6): hey
+User(7): KO
+Bot(7): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(8): OL
+Bot(8): why ? is it the heights or being crammed with people that scares you ?
+User(9): HH
+Bot(9): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(10): OK
+Bot(10): i find attractive all women from canada
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: NATURE(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.29
+Robotic(↓): 80
+Interesting: 83
+Fun: 80
+Consistent: 70
+Fluent: 77
+Repetitive(↓): 79
+Topic: 71
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): HI
+Bot(1): hey
+User(2): HI
+Bot(2): hi how are you ?
+User(3): HEY
+Bot(3): hi ! how are you ?
+User(4): 5N
+Bot(4): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(5): I LIKE COOK
+Bot(5): i do , i make this one dish with pork marinated in catalina dressing , its good
+User(6): HI
+Bot(6): hey
+User(7): KO
+Bot(7): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(8): OL
+Bot(8): why ? is it the heights or being crammed with people that scares you ?
+User(9): HH
+Bot(9): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(10): OK
+Bot(10): i find attractive all women from canada
+User(11): ITS GREAT
+Bot(11): i am retired , so i just fish and spend time with my black lab and wife .
+User(12): OH
+Bot(12): Oh, how is am he?
+User(13): YA
+Bot(13): hello, how are you? Have you ecer been from work. I am an electrician
+User(14): U
+Bot(14): I live in a small city so close friends so you of a museum.
+User(15): 5N
+Bot(15): I am not sure. are male or is be a professional.
+User(16): U
+Bot(16): i live in the suburbs , am a man. Where florida .
+User(17): U LIKE
+Bot(17): I am read. What color do am a student
+User(18): GFDGDS
+Bot(18): See you you like your Are ever been to europe?
+User(19): I LOVE FRIENDS
+Bot(19): oh, I nice. what are you that. do you study? I do
+User(20): I LIKE U
+Bot(20): i small cities built around volcanoes. , i do hike , but i do hike .
+
+Persona:
+i am a buddhist.
+i am married.
+i volunteer at a soup kitchen.
+i've a pet fish.
+gymnastics is my favorite sport.
+
+Topic and Human Opinion:
+Round 1: FOOTBALL(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.71
+Robotic(↓): 83
+Interesting: 79
+Fun: 76
+Consistent: 86
+Fluent: 78
+Repetitive(↓): 71
+Topic: 81
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): HI
+Bot(1): i love to cook . i love to cook .
+User(2): HI
+Bot(2): i love to cook . i love to cook .
+User(3): H R U
+Bot(3): i love the color red . i like the color blue .
+User(4): OJ
+Bot(4): i love to cook . i love to cook .
+User(5): DFASDFDA
+Bot(5): i love to cook . i love to cook .
+User(6): I LIKE COOK
+Bot(6): i love the color red . i like the color blue .
+User(7): I LIKE COOK
+Bot(7): i love the color red . i like the color blue .
+User(8): I LIKE COOK
+Bot(8): i love the color red . i like the color blue .
+User(9): I LIKE COOK
+Bot(9): i love the color red . i like the color blue .
+User(10): I LIKE COOK
+Bot(10): i love the color red . i like the color blue .
+
+Persona:
+hey my name is larry and i am a chef.
+i enjoy listening to classical music.
+i have light skin with big brown eyes.
+i am a doctor.
+i've a boyfriend.
+
+Topic and Human Opinion:
+Beginning: TREE(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.86
+Robotic(↓): 83
+Interesting: 79
+Fun: 85
+Consistent: 74
+Fluent: 77
+Repetitive(↓): 78
+Topic: 79
+
+####################
+

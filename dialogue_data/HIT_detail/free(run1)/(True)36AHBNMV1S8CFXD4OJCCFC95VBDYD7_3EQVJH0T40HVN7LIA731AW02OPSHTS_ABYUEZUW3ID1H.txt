@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello, what's your name?
+Bot(1): hi , i am doing well . how are you ?
+User(2): ok
+Bot(2): hi , i am from florida . how are you ?
+User(3): I am doing well, thank you
+Bot(3): i am good . i just got back from the gym .
+User(4): I've been working all day
+Bot(4): i have been retired now , but i have been retired now .
+User(5): what lead to it?
+Bot(5): i have been working on a house for a living
+User(6): excellent
+Bot(6): i have been working on a house in the morning
+User(7): how did it go?
+Bot(7): i was in the marines , i was in the marines
+User(8): when did you get back?
+Bot(8): i was in the marines , i was in the marines
+User(9): when was your last tour?
+Bot(9): i was in the marines , i was born in the marines
+User(10): welcome back
+Bot(10): i was born in the marines , i was born in the marines
+
+Persona:
+i have been retired for a years.
+i was born in somalia.
+cheeseburgers are my favorite food.
+i play the piano and guitar and sing.
+i own a house in florida.
+
+Topic and Human Opinion:
+Beginning: rings of operators(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.71
+Robotic(↓): 79
+Interesting: 35
+Fun: 37
+Consistent: 68
+Fluent: 58
+Repetitive(↓): 79
+Topic: 59
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello, Do you like NLP?
+Bot(1): sure is not an want to go
+User(2): natural language processing
+Bot(2): Do you have to you spend every that?
+User(3): I beg your pardon?
+Bot(3): I choice. how old how to make it.
+User(4): really?
+Bot(4): I dream to be a you like good Whatever. What that isn't where my heart is
+User(5): that almost makes sense
+Bot(5): I My favorite races.
+User(6): which ones?
+Bot(6): I like am actually movies😉
+User(7): do you watch a lot?
+Bot(7): I got to work on of here.
+User(8): for real?
+Bot(8): I like mountain bike, with my little favorite hike.
+User(9): me too
+Bot(9): Tell me about they support your dislikes?
+User(10): ??
+Bot(10): Hey! Are Shopping is my Because I am.
+
+Persona:
+i'm currently in high school.
+i've short hair.
+i'm a cancer survivor.
+i'm a 56 year old woman.
+my wife left me and took my children.
+
+Topic and Human Opinion:
+Beginning: NLP(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.71
+Robotic(↓): 81
+Interesting: 56
+Fun: 57
+Consistent: 57
+Fluent: 56
+Repetitive(↓): 65
+Topic: 61
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there!
+Bot(1): hello , how are you ? i so glad i bought a house with my lovey .
+User(2): congratulations! was it hard to close the deal?
+Bot(2): i am currently buying my first home .
+User(3): what's the most diffucult part of the process?
+Bot(3): i am currently buying my first home .
+User(4): how's the market?
+Bot(4): i am currently buying my first home .
+User(5): that's awesome!
+Bot(5): i am currently buying my first home .
+User(6): what else?
+Bot(6): i am currently buying my first home .
+User(7): who is helping you?
+Bot(7): i am currently buying my first home .
+User(8): that sounds repetitive
+Bot(8): i am currently buying my first home .
+User(9): do you want to talk about anything else?
+Bot(9): i am currently buying my first home .
+User(10): ok,
+Bot(10): i am currently buying my first home .
+
+Persona:
+my family is continuously growing.
+my favorite shirts are band shirts and ruffle sleeves.
+i just bought my first home.
+i'm an omnivore.
+i'm a vegetarian.
+
+Topic and Human Opinion:
+Beginning: software(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.14
+Robotic(↓): 88
+Interesting: 40
+Fun: 40
+Consistent: 76
+Fluent: 65
+Repetitive(↓): 76
+Topic: 87
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What's up?
+Bot(1): i am a student , but i am a student .
+User(2): How long do you study?
+Bot(2): i do not know . i am a student .
+User(3): what's on your mind?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): Who is your composer?
+Bot(4): no , i do not . i am a big fan of classical music .
+User(5): I think you should do, or do not/
+Bot(5): i like to go to the gym and listen to music .
+User(6): workout mix?
+Bot(6): i do not know , i am a big fan of classical music .
+User(7): bach?
+Bot(7): i do not know , i am a student
+User(8): mozart?
+Bot(8): i am a student , but i am a student .
+User(9): beethoven?
+Bot(9): i am a student , but i am a student .
+User(10): I think you have much to learn
+Bot(10): i do not know what to say .
+
+Persona:
+my dream car is a rolls royce ghost.
+i am a plumber.
+i love listening to britney spears.
+i have two dogs.
+i like to ride horses.
+
+Topic and Human Opinion:
+Beginning: concurrency(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.14
+Robotic(↓): 84
+Interesting: 69
+Fun: 69
+Consistent: 65
+Fluent: 69
+Repetitive(↓): 55
+Topic: 67
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I would like to go to Brazil
+Bot(1): i would love to go there
+User(2): I think its summer there now
+Bot(2): i will go to spain one day
+User(3): I hear that the rain there falls mainly in the plain
+Bot(3): they probably wo not like it then , i am a 70 year old man
+User(4): that is very young these days
+Bot(4): i am only 22 so i would not know
+User(5): that is a big difference
+Bot(5): yes it is i am just old
+User(6): you can always become younger
+Bot(6): yeah that is true until 2019
+User(7): why is '19 so special?
+Bot(7): because of the 27 club
+User(8): what is that?
+Bot(8): i still do not know what the means
+User(9): do you know anyone who does?
+Bot(9): because of the 27 club
+User(10): maybe tropical geometry can help
+Bot(10): i do not know that also
+
+Persona:
+i don't drink soda.
+i think i'll retire in a few years.
+i'm married to a doctor.
+i'm 40 years old.
+i take dance lessons once a week.
+
+Topic and Human Opinion:
+Beginning: brazil(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.43
+Robotic(↓): 82
+Interesting: 66
+Fun: 69
+Consistent: 72
+Fluent: 66
+Repetitive(↓): 71
+Topic: 68
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I like tropical algebra
+Bot(1): omg i hate math i am not good at it
+User(2): Maybe you haven't found the one that is for you yet?
+Bot(2): nice to find someone with that in common . i want a horse stable
+User(3): how much do they go for these days?
+Bot(3): yes , getting stuck in traffic drives me crazy . i am an office manager
+User(4): if you have a horse you can just prance around the traffic at will
+Bot(4): no that is a betting factor that is used . i teach people how to race horses .
+User(5): OK. what is hot right now?
+Bot(5): i live in south carolina it hot here also .
+User(6): how's the electricity?
+Bot(6): a little sore from ballet practice . cooperating with yummy mac n cheese though ! ! !
+User(7): good ole' comfort food
+Bot(7): that is a popular one . i find inspiration on earth , then make art to reflect it .
+User(8): i find inspiration on mars
+Bot(8): absolutely ! i could let you borrow my pink hiking boots if you like
+User(9): thanks, but that is not my style
+Bot(9): yeah i just dyed my hair blue and orange . . . pretty rad
+User(10): do you have a picture?
+Bot(10): bunch of stuff . being a truck driver also gives me the time to travel .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tropical algebra(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.14
+Robotic(↓): 74
+Interesting: 60
+Fun: 62
+Consistent: 69
+Fluent: 61
+Repetitive(↓): 59
+Topic: 60
+
+####################
+

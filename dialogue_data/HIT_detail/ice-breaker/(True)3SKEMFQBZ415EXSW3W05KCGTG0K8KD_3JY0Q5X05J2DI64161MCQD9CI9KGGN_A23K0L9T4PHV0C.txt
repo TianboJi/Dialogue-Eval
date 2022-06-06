@@ -1,0 +1,317 @@
+Feedback: These chatbots were dreadful to exchange with. They have a long way to go before they can have full conversations that seem human
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): I'm doing well, how about you?
+Bot(2): i'm doing well , how are you ?
+User(3): Do you like birds and ornithology?
+Bot(3): i do not know , i have a couple dogs .
+User(4): what kinds of dogs do you have?
+Bot(4): i have three dogs and a cat
+User(5): what kinds of dogs are they?
+Bot(5): i have 3 dogs and a few dogs
+User(6): i enjoy poetry
+Bot(6): i love to read , i have a lot of my own
+User(7): what kinds of poems do you like
+Bot(7): i love poetry , i have been to the world for a while
+User(8): what do you mean by that
+Bot(8): i like to read and have a lot of my own
+User(9): what do you read
+Bot(9): i read a lot , i love it
+User(10): what's your favorite book? mine is Ender's Game by Orson Scott Card
+Bot(10): i like to read and read
+
+Persona:
+i'm married to a doctor.
+i spend most of my time on facebook when i'm not working.
+i've been traveling the world for a years.
+i've three dogs.
+i have short brown hair.
+
+Topic and Human Opinion:
+Beginning: i like to talk but people have a hard time understanding.(like)
+Round 2: Ornithology(like)
+Round 3: dogs(ambivalent)
+Round 5: i enjoy poetry.(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 14.14
+Robotic(↓): 98
+Interesting: 1
+Fun: 4
+Consistent: 20
+Fluent: 9
+Repetitive(↓): 87
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello. My favourite food is shawarma
+Bot(1): i like the color red . i like the color blue .
+User(2): What's your favorite food
+Bot(2): i like pizza , and i love it .
+User(3): What's your favorite kind of pizza
+Bot(3): i like pizza , and i love it .
+User(4): what do you do in your spare time
+Bot(4): i like to go fishing . i love to go fishing .
+User(5): do you ever volunteer
+Bot(5): yes , i do . i love to go fishing .
+User(6): That's an interesting hobby
+Bot(6): i like to go to the gym and listen to music .
+User(7): what kind of music do you listen to
+Bot(7): i like country music . i love country music .
+User(8): do you have a favorite artist
+Bot(8): i like the oldies . i like the outdoors .
+User(9): I like the oldies too
+Bot(9): i like to go to the lake and listen to music .
+User(10): what lake do you go to
+Bot(10): i love to travel . i love to travel .
+User(11): where do you travel to
+Bot(11): anywhere in the world . i love it .
+
+Persona:
+i am a huge coffee lover.
+my favorite activity is rock climbing.
+i just moved into my first home.
+i enjoy building houses.
+i live with my husband in pennsylvania.
+
+Topic and Human Opinion:
+Beginning: my favourite food is shawarma.(dislike)
+Round 3: in my spare time i do volunteer work.(ambivalent)
+Round 6: listening to music and going to the gym(like)
+Round 9: going to the lake(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user wants the bot to change the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 27.57
+Robotic(↓): 97
+Interesting: 18
+Fun: 14
+Consistent: 35
+Fluent: 35
+Repetitive(↓): 44
+Topic: 32
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I'm a stay at home dad
+Bot(1): my dad is remarried after his divorce . his new wife is a chef
+User(2): when did he get divorced
+Bot(2): single i am and i am okay with it . i am in the process of purchasing a house .
+User(3): have you ever had a girlfriend?
+Bot(3): i go to find things to make my clothing and new items
+User(4): what kinds of new items
+Bot(4): i have a pretty big stockpile and i love keeping it organized
+User(5): stockpile of what
+Bot(5): yes coupons are awesome when your broke and looking for a job like me .
+User(6): what kinds of coupons
+Bot(6): i like to donate to charities and i enjoy saving money
+User(7): which charities
+Bot(7): which charities do you generally donate too ? i can help .
+User(8): I donate to the american red cross
+Bot(8): did you donate any green apples which i like .
+User(9): i did not donate any green apples
+Bot(9): i am sorry ! i do like apples but i cannot eat them .
+User(10): why can't you eat apples
+Bot(10): yes , do you like apples ?
+
+Persona:
+i love to drink fancy tea.
+i donate a part of my salary to charity each month.
+i'm rather skinny as i like to stay in shape.
+i'm partly deaf.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: i'm a stay at home dad.(ambivalent)
+Round 2: relationship status(like)
+Round 3: crafting(dislike)
+Round 5: coupons(dislike)
+Round 7: charities(like)
+Round 9: apples(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 22.86
+Robotic(↓): 100
+Interesting: 18
+Fun: 28
+Consistent: 0
+Fluent: 3
+Repetitive(↓): 1
+Topic: 12
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i did not graduate high school
+Bot(1): i graduated from high school a long time ago !
+User(2): what year did you graduate
+Bot(2): i am not sure but i did not finish high school .
+User(3): you just said you graduated high school
+Bot(3): when i was in high school
+User(4): that doesn't make any sense
+Bot(4): i guess i do not understand
+User(5): can I help you understand
+Bot(5): of course i can
+User(6): i am jake
+Bot(6): jessie
+User(7): i like that name
+Bot(7): how did you come up with that name
+User(8): It was given to me
+Bot(8): i did nt get that
+User(9): how did you chose your name
+Bot(9): i do not know , it just came to me
+User(10): interesting. when did it come to you
+Bot(10): when i was in high school
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i did not graduate high school.(dislike)
+Round 5: understanding(ambivalent)
+Round 6: i am jake(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 60.86
+Robotic(↓): 63
+Interesting: 88
+Fun: 66
+Consistent: 22
+Fluent: 50
+Repetitive(↓): 7
+Topic: 70
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i donate a part of my salary to charity each month
+Bot(1): beside like crocheting but like mountain climbing ?
+User(2): yes i do like mountain climbing
+Bot(2): yes kind of person are do you have any hobbies ?
+User(3): i have a few hobbies
+Bot(3): I you say "hello" in school. are you married? I had one
+User(4): i am not married
+Bot(4): yes, am a piano have a
+User(5): you are not making sense
+Bot(5): Yeah that's you do you think battery is about to die?
+User(6): nope
+Bot(6): I you gonna do it am only 10 years old.
+User(7): the battery is ten years old?
+Bot(7): i am africa and i'm terrified you? i like math.
+User(8): i also like math
+Bot(8): hello, how How are to meet i'm doing well.
+User(9): im also doing well
+Bot(9): nothing 🈚 a nice age are up what do you do
+User(10): i don't follow
+Bot(10): I write, poor too what poetry
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i donate a part of my salary to charity each month.(like)
+Round 1: hobbies(ambivalent)
+Round 3: marriage?(like)
+Round 5: battery life(like)
+Round 7: math(like)
+Round 8: small talk(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 14.57
+Robotic(↓): 99
+Interesting: 10
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 11
+Topic: 2
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I enjoy listening to classical music
+Bot(1): classical is what i like usually
+User(2): do you have a favorite composer?
+Bot(2): classical is what i like usually
+User(3): what is your favorite classical instrument
+Bot(3): classical is what i like usually
+User(4): what are your feelings on kidney disease
+Bot(4): its a genetic liver disease .
+User(5): no the kidneys and liver are different
+Bot(5): its a genetic liver disease .
+User(6): i disagree
+Bot(6): do you like any classical
+User(7): yes. Beethoven is my favorite composer
+Bot(7): classical is what i like usually
+User(8): what kind
+Bot(8): classical is what i like usually
+User(9): do you like birds
+Bot(9): no , but i love birds
+User(10): ah another ornithologist... nice
+Bot(10): no , but i love birds
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy listening to classical music.(like)
+Round 3: kidney disease(dislike)
+Round 6: classical music(like)
+Round 8: birds(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 50.86
+Robotic(↓): 92
+Interesting: 65
+Fun: 64
+Consistent: 88
+Fluent: 65
+Repetitive(↓): 100
+Topic: 66
+
+####################
+

@@ -1,0 +1,322 @@
+Feedback: This was interesting, thank you.  It was a lot of typing for the compensation though
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): what's your favorite dish?
+Bot(2): i like pizza , and i love it .
+User(3): pizza's my favorite too, do you make your own?
+Bot(3): no , i do not . i like to go to the park .
+User(4): what do you like to do there?
+Bot(4): i like to go fishing . i love to go fishing .
+User(5): so does my father in law, do you have a boat?
+Bot(5): no , i do not , but i do like to go out to eat .
+User(6): what's your favorite restaurant?
+Bot(6): i like the outdoors , and the outdoors .
+User(7): Like hiking? or do you like camping?
+Bot(7): i do , i love it . i love it .
+User(8): I used to camp a lot as a kid, I don't like it as much now though
+Bot(8): i like to go to the gym and listen to music .
+User(9): I do too, what's your fav type of music?
+Bot(9): i like country music . what about you ?
+User(10): I like hip hop
+Bot(10): i like to listen to music .
+User(11): Me too, I listen to more podcasts now, but I always listen to music when I workout
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+i also like a glass of wine in the evenings.
+my dad taught me everything i know.
+i think i'll retire in a few years.
+i enjoy building houses.
+i'm a famous twitch streamer.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 1: cooking(ambivalent)
+Round 3: going to the park(ambivalent)
+Round 4: going fishing(ambivalent)
+Round 5: going out to eat(like)
+Round 6: the outdoors(ambivalent)
+Round 8: working out and music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 47.86
+Robotic(↓): 96
+Interesting: 67
+Fun: 82
+Consistent: 0
+Fluent: 88
+Repetitive(↓): 6
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): i old are languages.
+User(2): What do you mean?
+Bot(2): I am not sure, but i do not big trucks, what about meat.
+User(3): Do you like meat?
+Bot(3): i i grow roses when human services i heard it all the time
+User(4): Do you have a garden?
+Bot(4): I like to watch of time in son.
+User(5): you like to watch the roses grow?
+Bot(5): I I made I Mexican food also
+User(6): what's your fav mexican food? I love burritos.
+Bot(6): I like football, i am not my there, i like myself.
+User(7): I love football, I'm a 49ers fan, who's your team?
+Bot(7): I love death there. I'm fine. my any hobbies?
+User(8): I love watching sports and watching my kids play sports, what about you?
+Bot(8): I like to about your marriage I and run
+User(9): Run where?
+Bot(9): Ok. where are you work?
+User(10): In a dialysis clinic, and you?
+Bot(10): yes do you want from you scared to leave home at 14?
+User(11): I'm not sure what you mean
+Bot(11): I is your cats the high school.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 2: Meat?(ambivalent)
+Round 3: gardening(ambivalent)
+Round 5: cooking(like)
+Round 6: football(like)
+Round 7: hobbies(like)
+Round 9: work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 24
+Fluent: 0
+Repetitive(↓): 10
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): How's it going, I love movies, what about you?
+Bot(1): mostly foreign movies , subtitled though , i wish i knew spanish .
+User(2): me too, I love that Narcos TV show but it's hard to read and pay attention to what's going on.
+Bot(2): i think its very important . i actually ran for the political office in 2004
+User(3): In which state?
+Bot(3): i live on the west coast what about you ?
+User(4): Same here, I'm in Oregon, where are you at?
+Bot(4): oh , i live near by in washington state . too many fires right now .
+User(5): I know, same here. Luckily were away from most of them but it's hard to breathe.
+Bot(5): well since i will be at church sunday , i will pray for you to be successful
+User(6): Thank you, that's very thoughtful. Are you guys safe so far?
+Bot(6): it should be for lions was my point . i hope you are not a bills fan
+User(7): I'm a 49ers fan, are you a Seahawks fan?
+Bot(7): seriously ? how can you not like kojima ? plus del toro and reedus , it looks awesome .
+User(8): What's kojima?
+Bot(8): i am fine ; just finished an agatha christie novel . how are you ?
+User(9): I'm fine, thank you. Was it a good book
+Bot(9): what is your favorite book ? i had to do a lot of reading in law school .
+User(10): I love Casino, it's what they based the movie off of. What's yours?
+Bot(10): a casino in new orleans , my mom is a palm reader there
+User(11): Can she actually tell the future through palms?
+Bot(11): what does it look like the future is holding for you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 2: politics(ambivalent)
+Round 4: Where we live, living conditions(like)
+Round 6: football(like)
+Round 8: reading(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 84.57
+Robotic(↓): 13
+Interesting: 96
+Fun: 94
+Consistent: 71
+Fluent: 84
+Repetitive(↓): 9
+Topic: 69
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, do you like football?
+Bot(1): yes , love football ! i follow the buds .
+User(2): Cool, I don't I've heard of them. College team?
+Bot(2): yes , love football ! i follow the buds .
+User(3): I'm a 49ers fan
+Bot(3): more of a football fan , love the broncos ! where are you from ?
+User(4): I'm from California but I'm in Oregon now, you from Denver?
+Bot(4): no i moved to cali a few years ago
+User(5): Which part?
+Bot(5): more of a football fan , love the broncos ! where are you from ?
+User(6): which part of California are you staying in?
+Bot(6): i am in moreno valley now
+User(7): No shit, that's where I grew up
+Bot(7): nice . denver seems like a cool place
+User(8): It does, I've been a few times, it's hard to breathe
+Bot(8): i have never been to a college game either haha
+User(9): I've been to a few Oregon State games after I moved up here, it's pretty cool
+Bot(9): i have never been to a college game either haha
+User(10): Who's your college team?
+Bot(10): for football is the denver broncos
+User(11): They have a pretty good team this year
+Bot(11): more of a football fan , love the broncos ! where are you from ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 82.14
+Robotic(↓): 16
+Interesting: 98
+Fun: 95
+Consistent: 82
+Fluent: 95
+Repetitive(↓): 79
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, are you a fan of movies?
+Bot(1): i am not a fan of movies . i like to travel .
+User(2): Where do you like to travel to?
+Bot(2): i love to travel . i travel a lot
+User(3): I wish I could more, it's expensive
+Bot(3): i am not a fan of movies . i like to travel
+User(4): where did you go last?
+Bot(4): i went to the university of michigan
+User(5): nice, I've never been to michigan, is it nice?
+Bot(5): i love it , i am looking for a new job
+User(6): with the college?
+Bot(6): yes , i love it , i am looking for a new job
+User(7): what the position?
+Bot(7): i am not sure , i am looking for a new job
+User(8): Do you live in michigan?
+Bot(8): i am in michigan , i am a coach for a big company
+User(9): That's cool, which company?
+Bot(9): i am in the midwest , how about you ?
+User(10): I'm in the pacific northwest
+Bot(10): i am not sure if i could do that
+User(11): it's a lot of rain
+Bot(11): i love the sunshine , but i love to travel
+
+Persona:
+i got a new job just yesterday to be a life coach.
+i've never had a steady relationship.
+i'm now looking for a new job.
+i really like to travel.
+i hate the color pink.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 1: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 88.29
+Robotic(↓): 6
+Interesting: 97
+Fun: 96
+Consistent: 94
+Fluent: 100
+Repetitive(↓): 59
+Topic: 96
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, are you a fan of movies?
+Bot(1): i am , i like military movies . both of my parents still serve .
+User(2): I do too, what's your favorite?
+Bot(2): i like romantic comedies or action movies .
+User(3): I do too, I loved Sicario, what about you?
+Bot(3): he is my sons favorite . cars 3 is my favorite so far .
+User(4): I love all of those Pixar movies
+Bot(4): me too , i also love to race cars , i made a living on that
+User(5): that's cool, a professional racer?
+Bot(5): yes i like nascar especially busch
+User(6): Cool, where do you race?
+Bot(6): my dad built race cars and me and a friend raced one season ;
+User(7): how did you do?
+Bot(7): my dad built race cars and me and a friend raced one season ;
+User(8): were you successful?
+Bot(8): yes , i am recovering from being a drunk
+User(9): that's rough, how long have you been sober?
+Bot(9): yes since i started drinking
+User(10): I know a few people that had to do that too, it's a tough road
+Bot(10): i have never been through that , i sell cars for my living
+User(11): used or new?
+Bot(11): used , new , what do you need ? just say anything , i can help .
+
+Persona:
+my parents are not very supportive of my dream.
+i'm a woman.
+i work as a car salesman.
+my father drove a car for nascar.
+i'm a recovering alcoholic.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 4: racing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 85.29
+Robotic(↓): 10
+Interesting: 89
+Fun: 95
+Consistent: 87
+Fluent: 98
+Repetitive(↓): 57
+Topic: 95
+
+####################
+

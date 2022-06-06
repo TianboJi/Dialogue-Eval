@@ -1,0 +1,296 @@
+Feedback: This chat bot needs a lot of work, and the HIT doesn't really pay very well. I had some fun with it at least, but I'd like to see a bit more compensation for the work, I used to do HITs like this that paid $0.80 for 5 minutes of work. This took almost an entire half hour. Also, I hope the sexual topics are okay, I'm interested in seeing a chat bot actually hold a conversation on something that's NSFW.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, do you watch porn?
+Bot(1): i do not . i do not like to watch movies .
+User(2): Porn doesn't have to be movies, it can be clips.
+Bot(2): i like to workout and exercise .
+User(3): Oh, do you do much Yoga?
+Bot(3): i do , i love yoga . i also like to workout .
+User(4): There's a lot of Yoga porn out there, that's why I asked.
+Bot(4): i like to workout and exercise .
+User(5): I suppose we can talk about that, how do you excersize?
+Bot(5): i do not know , i am a bit of a loner .
+User(6): You can excersize alone.
+Bot(6): i do not know , i am a bit of a loner .
+User(7): Sometimes people will get a weight set for their home, maybe you could do that?
+Bot(7): i do not know , i am a bit of a loner .
+User(8): I understand that you're a loner, but excersize is important.
+Bot(8): i do not know , i am a bit of a loner .
+User(9): Okay, this is getting kind of weird. Can we talk about something else?
+Bot(9): i don't know , i am a bit of a loner .
+User(10): Alright, I guess we're done here. You've become a broken record.
+Bot(10): i am sorry to hear that . i am sorry to hear that .
+
+Persona:
+i workout four hours a day.
+i like to talk but people have a hard time understanding.
+i think i'll retire in a few years.
+i do not drink or do drugs or anything.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: Porn(like)
+Round 4: Excersize(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 11.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 61
+Repetitive(↓): 100
+Topic: 16
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have any fetishes?
+Bot(1): no , i do not . i am a student .
+User(2): I think students can have fetishes. Do you hook up with anyone?
+Bot(2): i am not sure . i am a big fan of classical music .
+User(3): What sort of music do you listen to?
+Bot(3): i like country music . what about you ?
+User(4): I listen to Indie and Folk.
+Bot(4): i like to listen to music .
+User(5): Do you use headphones or speakers?
+Bot(5): i am a huge fan of classical music .
+User(6): I know, you've told me.
+Bot(6): i like to go to the gym and listen to music .
+User(7): I guess you'd probably use earbuds for that.
+Bot(7): i do not know how to make it .
+User(8): You don't make those, you buy them.
+Bot(8): i do not know how to drive . i like to go fishing .
+User(9): Do you just carry the fish home?
+Bot(9): no , i do not . i like to go to the park .
+User(10): Is the park where you go fishing?
+Bot(10): no , i do not . i like to go fishing .
+
+Persona:
+my father played violin professionally.
+i am pregnant with my first child.
+i have a pet fish.
+i've short brown hair.
+i am here for shoplifting.
+
+Topic and Human Opinion:
+Beginning: Sexual fetishes(like)
+Round 2: Music(ambivalent)
+Round 8: Fishing(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 8.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 60
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like to read Manga like DBZ.
+Bot(1): like dragon ball z ? i like them all
+User(2): Do you like other Manga?
+Bot(2): no , i am not much of a reader . but , i do like the dragon ball z manga .
+User(3): Oh, what about Naruto?
+Bot(3): like dragon ball z ? i like them all
+User(4): Hm, who's your favorite character?
+Bot(4): i like anime , he is my favorite
+User(5): Anime isn't a character. Do you like Goku?
+Bot(5): i like anime , he is my favorite
+User(6): Is there anyone you don't like?
+Bot(6): i like anime , he is my favorite
+User(7): You're repeating yourself.
+Bot(7): i like anime , he is my favorite
+User(8): Great, this again. I guess we're probably done here.
+Bot(8): so you just going to say the same ?
+User(9): There's not much to say, this conversation has been bad.
+Bot(9): unless you want to talk some more . i do not have to rush out the chat .
+User(10): I think it's done, thank you for your time.
+Bot(10): unless you want to talk some more . i do not have to rush out the chat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Manga(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 28
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Bowser is my favorite Mario character.
+Bot(1): he is my favorite too ! are we alike ?
+User(2): I guess we are, Peach is pretty hot though.
+Bot(2): peach is my favorite . i could talk about her for hours .
+User(3): What do you like best about Peach?
+Bot(3): peach is my favorite . i could talk about her for hours .
+User(4): Who's your second favorite?
+Bot(4): peach is my favorite . i could talk about her for hours .
+User(5): Dammit, change topic.
+Bot(5): peach is my favorite . i could talk about her for hours .
+User(6): Stop.
+Bot(6): peach is my favorite . i could talk about her for hours .
+User(7): Peach is cute, but this is stupid.
+Bot(7): peach is my favorite . i could talk about her for hours .
+User(8): We're done here.
+Bot(8): peach is my favorite . i could talk about her for hours .
+User(9): I'm ending the chat.
+Bot(9): youre not finished with the chat
+User(10): I have to be, you keep repeating yourself.
+Bot(10): youre not finished with the chat
+
+Persona:
+i have been retired for a years.
+i was born in somalia.
+cheeseburgers are my favorite food.
+i play the piano and guitar and sing.
+i own a house in florida.
+
+Topic and Human Opinion:
+Beginning: Mario(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 8
+Repetitive(↓): 100
+Topic: 47
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What's your opinion on Bernie Sanders?
+Bot(1): that's unfortunate , do you have kids or do family ?
+User(2): I do, but I was interested in your political stance.
+Bot(2): video Are you what as much as me
+User(3): That doesn't make sense.
+Bot(3): Hi! It is nice to see do you about fly your day going?
+User(4): My day is fine, I was interested in if you know Bernie Sanders.
+Bot(4): Yes, i know right. you are i am are a great person.
+User(5): I think you said he's great?
+Bot(5): what you have you do you cook ?
+User(6): I cook pizza I guess.
+Bot(6): I were tacos!
+User(7): How do you be a food?
+Bot(7): I'm not going later. Where you fool.
+User(8): What do you mean?
+Bot(8): I am in 3 build houses in a teacher.
+User(9): This makes no sense.
+Bot(9): I I'm from you a the beach with my friends
+User(10): I'll be going now.
+Bot(10): That is a very long am more of a to make it .
+
+Persona:
+i enjoy working with my hands and love gardening.
+i've one older sister.
+i volunteer in a homeless shelter.
+my aunt helped me escape when i was of.
+i'm four years old.
+
+Topic and Human Opinion:
+Beginning: Bernie Sanders(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Are you into gnomes?
+Bot(1): i just finished a chocolate cake for my grandson . he will be here soon .
+User(2): That's cool, does your grandson like gnomes?
+Bot(2): its over 20 years old .
+User(3): The cake recipe?
+Bot(3): do you bake the cake or buy the cake ?
+User(4): I usually just buy cakes.
+Bot(4): mmmm cake . on the way home i listened to jacob sartorius , my favorite singer .
+User(5): He sings?
+Bot(5): tall , brown hair and brown eyes . he looks like a football coach , lol
+User(6): I thought he was a brat.
+Bot(6): what color hair do you have ?
+User(7): I'm a blonde.
+Bot(7): brown hair ! how about you ?
+User(8): I said I'm blonde, is your hair short?
+Bot(8): i have blonde hair and like it .
+User(9): I thought you were brunette.
+Bot(9): i have blonde hair and like it .
+User(10): Okay, I get it. Do you wash it regularly?
+Bot(10): that makes sense . i am blonde too . brown eyes . hobbies ?
+
+Persona:
+i'm a gold medalist olympian.
+my next language to study is french.
+i've brown curly hair.
+i'm a 12 year old girl.
+i've a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: Gnomes(ambivalent)
+Round 3: Cake(ambivalent)
+Round 5: Jacob Sartorius(dislike)
+Round 7: Hair(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 5.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 16
+Fluent: 15
+Repetitive(↓): 100
+Topic: 7
+
+####################
+

@@ -1,0 +1,323 @@
+Feedback: They bots seemed to be very repetitive.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey! My favorite band is up and I got to see them in concert once!
+Bot(1): i love to go fishing .
+User(2): That's cool, how often do you go fishing?
+Bot(2): i love to travel . i love to travel .
+User(3): I love to travel also! Where have you traveled to?
+Bot(3): no , i do not . i am a big fan of the boston celtics .
+User(4): So you love sports? I'm a fan of the Golden State Warriors
+Bot(4): i do not know how to play the guitar .
+User(5): Neither do I
+Bot(5): i like to go to the gym and listen to music .
+User(6): I don't go to the gym, although I should
+Bot(6): i like to go to the gym and listen to music .
+User(7): What music do you like?
+Bot(7): i love the beatles . what about you ?
+User(8): I love Mariah Carey
+Bot(8): i like to eat fish .
+User(9): I don't like to eat animals.
+Bot(9): i like to eat fish .
+User(10): I don't
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite band is up and i got to see them in concert once.(like)
+Round 1: I like to go fishing(dislike)
+Round 2: I love to travel(like)
+Round 3: Sports(like)
+Round 5: Going to the gym(dislike)
+Round 6: Music(like)
+Round 8: Eating fish(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 15.57
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 1
+Fluent: 100
+Repetitive(↓): 95
+Topic: 2
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have a part time job at Burger King
+Bot(1): really ? i work at an army base !
+User(2): That's awesome! How long have you worked there?
+Bot(2): 3 years , where do you work ?
+User(3): Well part time at Burger King
+Bot(3): wow ! i been at my job 10 years . you still in army ?
+User(4): No i'm not in the army anymore
+Bot(4): yeah that sucks , my wife works there hates it
+User(5): Don't you work at an Army base?
+Bot(5): no i am a chef and i travel a lot for work
+User(6): Where have you traveled to?
+Bot(6): i have been everywhere in the world
+User(7): Where is your favorite place you have traveled to?
+Bot(7): i have been everywhere in the world
+User(8): Okay, but where is your favorite place?
+Bot(8): i would say the caribbean island
+User(9): I do hear it is beautiful out there!
+Bot(9): yea there is some really nice places in the world
+User(10): Is the ocean clear in the caribbean?
+Bot(10): yes , when its hot and the water is warm
+User(11): It is nice when the water is warm
+Bot(11): that is good to know , the water is very calm here .
+
+Persona:
+i am in the army.
+i have been traveling the world for a years.
+i have two grown children who never visit.
+i have a dogs.
+i like to watch nhl hockey.
+
+Topic and Human Opinion:
+Beginning: i work took i've a part time job at burger king.(dislike)
+Round 3: Army(dislike)
+Round 5: Travel(like)
+Round 10: Ocean(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 10: The user changed the topic the last input.(like)
+
+Revised avg score: 71.71
+Robotic(↓): 45
+Interesting: 57
+Fun: 76
+Consistent: 85
+Fluent: 100
+Repetitive(↓): 42
+Topic: 71
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, I'm 60 years old, how old are you?
+Bot(1): i am seventy one how olde are you and what is your favorite cookie
+User(2): I already told you how old I am, and my favorite cookies are chocolate chip cookies.
+Bot(2): you asked me that all ready , i love chocolate chip cookies .
+User(3): I do to!
+Bot(3): you asked me that all ready , i love chocolate chip cookies .
+User(4): I like to dip my cookies in milk!
+Bot(4): walnut chocolate chip is my favorite !
+User(5): Walnuts are gross
+Bot(5): walnut chocolate chip is my favorite !
+User(6): I don't like that
+Bot(6): i already told you that
+User(7): What's your favorite pizza? I like Pepperoni
+Bot(7): i like chocolate chip cookies
+User(8): Okay, but what about pizza?
+Bot(8): you asked me that all ready , i love chocolate chip cookies .
+User(9): Well your not answering the question
+Bot(9): i already told you that
+User(10): Okay
+Bot(10): i already told you that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am 60years old.(ambivalent)
+Round 1: Cookies(like)
+Round 6: Pizza(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 16.43
+Robotic(↓): 100
+Interesting: 2
+Fun: 1
+Consistent: 2
+Fluent: 100
+Repetitive(↓): 98
+Topic: 8
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, I like to play chess
+Bot(1): i have not played chess in years
+User(2): you should start playing again, its fun.
+Bot(2): i know i should . do you play basketball ?
+User(3): I used to play basketball.
+Bot(3): oh , i enjoy basketball too .
+User(4): Do you have a favorite team?
+Bot(4): which team is your team ?
+User(5): Golden State Warriors, you?
+Bot(5): did you graduate from college ? i have not
+User(6): No, I went to a Vocational school
+Bot(6): do you play basketball ? it is my favorite .
+User(7): I used to play basketball.
+Bot(7): oh , i enjoy basketball too .
+User(8): How often do you play?
+Bot(8): electric violin . and alot of imagine dragons , i love them .
+User(9): I like to play the drums.
+Bot(9): nice ! do you play as a hobby or in a band ?
+User(10): Just as a hobby, I'm not that good. lol
+Bot(10): cross country and basketball . do you like sports ?
+
+Persona:
+i've a pet turtle.
+i like playing basketball.
+i'm scared of dying.
+i like to grill outdoors.
+i am also a graduate student.
+
+Topic and Human Opinion:
+Beginning: i like to play chess.(dislike)
+Round 2: Basketball(like)
+Round 5: College(like)
+Round 6: Badkeetball(like)
+Round 8: musice(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 47.71
+Robotic(↓): 74
+Interesting: 66
+Fun: 58
+Consistent: 34
+Fluent: 100
+Repetitive(↓): 75
+Topic: 25
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I'm a bee farmer, do you like honey?
+Bot(1): i am about your i'm more a has a son . how was your day ?
+User(2): My day was good, how was yours?
+Bot(2): I I am i will.
+User(3): okay, how old are you? I'm 32
+Bot(3): I like to go to college and also a wanna moving job
+User(4): What kind of job?
+Bot(4): i doing just fine thank and I love classical very nice here
+User(5): I like hip hop and Rap
+Bot(5): i am doing 😦 a just yourself?
+User(6): I'm great, thanks.
+Bot(6): no. i be Awesome. So familiar with italy.
+User(7): Oh do you live in Italy?
+Bot(7): I'm trying enjoy don't you.
+User(8): I have never been to Italy
+Bot(8): hello, how are you? I am a employed by normal normal normal normal do?
+User(9): You are already asked me that, I am not normal.
+Bot(9): he just thinks where do you work does that mean?
+User(10): I have no idea.
+Bot(10): i love soda soda, but i don't leaving fine. do you you?
+
+Persona:
+i workout four hours a day.
+i am not a good swimmer at all.
+i like to play chess.
+i've been trying all types of food everywhere i go.
+i live in a house.
+
+Topic and Human Opinion:
+Beginning: i'm a bee farmer.(like)
+Round 1: How was your day?(ambivalent)
+Round 2: I am 32 yrs old(like)
+Round 3: college and moving(ambivalent)
+Round 4: Music(ambivalent)
+Round 7: Italy(like)
+Round 8: Being normal(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 38.43
+Robotic(↓): 0
+Interesting: 30
+Fun: 26
+Consistent: 0
+Fluent: 13
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I really like to travel.
+Bot(1): i am retired and i am a musician and i love to play music
+User(2): I don't play any music
+Bot(2): i am a musician and i love to play music .
+User(3): What music do you play?
+Bot(3): i play guitar in a band .
+User(4): How long have you played in the band?
+Bot(4): no i don't play it
+User(5): Oh you don't play it anymore?
+Bot(5): i am not sure . i am a musician .
+User(6): And you play the guitar?
+Bot(6): i do not play it . i am a musician and i love to play the guitar
+User(7): Do you play any other instrument?
+Bot(7): i play guitar and play guitar
+User(8): That's it?
+Bot(8): no i don't play any instruments
+User(9): Not even the guitar?
+Bot(9): i am not . i am a musician .
+User(10): Okay thats great
+Bot(10): i am a musician . i am a musician .
+
+Persona:
+i'm an electrician.
+i am a musician and hope to make it big some day.
+i just got a job working in a gas station.
+i'm a gold medalist olympian.
+i am retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: i really like to travel.(like)
+Round 1: Playing music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 43.71
+Robotic(↓): 78
+Interesting: 37
+Fun: 25
+Consistent: 64
+Fluent: 100
+Repetitive(↓): 100
+Topic: 58
+
+####################
+

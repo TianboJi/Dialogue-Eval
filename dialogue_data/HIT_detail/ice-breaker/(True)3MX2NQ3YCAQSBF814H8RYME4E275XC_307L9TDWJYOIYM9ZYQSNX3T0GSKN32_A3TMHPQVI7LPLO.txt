@@ -1,0 +1,296 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): I'm good! How are you?
+Bot(2): great . the weather is awesome . i am chilling on the porch with my 3 cats .
+User(3): nice! is that what you do in your spare time?
+Bot(3): on the weekends i love taking my bike out for a ride
+User(4): That's a good idea. I spend most of my time on Facebook. do you have facebook?
+Bot(4): oh , i really like social media !
+User(5): what's your favorite social media?
+Bot(5): no . i do not use social media .
+User(6): well if you like it you should try it
+Bot(6): my prius will not fit all our children so we are upgrading to a van soon .
+User(7): I have a suburban and i love it! how many kids do you have?
+Bot(7): i have three all girls
+User(8): neat, i have four kids. how old are yours
+Bot(8): they are twins , 12 years old .
+User(9): and your other one?
+Bot(9): i love driving . i could drive a truck .
+User(10): trucks are great!! very useful. what kind would you drive?
+Bot(10): sounds fun ! where do you like to drive with your truck ?
+User(11): I drive my suburban around town to run errands
+Bot(11): i drive a nissan sentra sv
+User(12): so not really a truck
+Bot(12): sounds fun ! where do you like to drive with your truck ?
+
+Persona:
+i drive a nissan pathfinder.
+i'm currently in a juvenile detention center.
+i have 5cats.
+i'm a 12 year old girl.
+i like to listen to rock music while working.
+
+Topic and Human Opinion:
+Beginning: i spend most of my time on facebook when i'm not working.(like)
+Round 6: owning a prius(like)
+Round 9: driving a truck(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 41.71
+Robotic(↓): 67
+Interesting: 26
+Fun: 44
+Consistent: 61
+Fluent: 83
+Repetitive(↓): 92
+Topic: 37
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): I'm thinking about getting a job
+Bot(2): same
+User(3): i'm thinking maybe in a restaurant
+Bot(3): i would only eat a restaurant
+User(4): i'm thinking of working at a restaurant
+Bot(4): come eat at my restaurant then
+User(5): can i have a job at your restaurant
+Bot(5): what kind of restaurant do you want ?
+User(6): doesn't matter, just a restaurant I can make money at
+Bot(6): come eat at my restaurant then
+User(7): no thank you.
+Bot(7): what kind of restaurant do you want ?
+User(8): are you looking for a job?
+Bot(8): yes , i would like to make more money .
+User(9): me too! that's why i'm looking for a job
+Bot(9): what kind of restaurant do you want ?
+User(10): what kind of job would you like?
+Bot(10): anything so i can get some money . ll
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm currently looking for a job preferably at a restaurant.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.71
+Robotic(↓): 60
+Interesting: 20
+Fun: 32
+Consistent: 58
+Fluent: 44
+Repetitive(↓): 92
+Topic: 48
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hi names barbra and i started to become vegan 2 years ago
+User(2): that's interesting
+Bot(2): very
+User(3): what's your favorite vegan recipe
+Bot(3): anything without meat since i am a vegetarian
+User(4): do you eat dairy?
+Bot(4): i am a vegan so no
+User(5): you said vegetarian too, so i wasn't sure
+Bot(5): i been a vegan two years ago
+User(6): what's your favorite recipe
+Bot(6): anything without meat since i am a vegetarian
+User(7): what's your favorite though? i like rice and beans
+Bot(7): i like tofu and organic rice
+User(8): what made you want to become vegan
+Bot(8): i was pressured into it
+User(9): well that's not the best reason. who pressured you?
+Bot(9): i was pressured into it
+User(10): how's it going being vegan
+Bot(10): well it was a tough transition now it is getting better
+
+Persona:
+i'm a vegan.
+i compete in dog agility classes.
+i just got a job working in a gas station.
+i just broke up with boyfriend two months ago.
+i've three children.
+
+Topic and Human Opinion:
+Beginning: i live in the cloud.(dislike)
+Round 2: being vegan(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 43.71
+Robotic(↓): 44
+Interesting: 21
+Fun: 18
+Consistent: 41
+Fluent: 83
+Repetitive(↓): 63
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hi how are you today
+User(2): i'm good, what's your favorite movie?
+Bot(2): i like the movie , but i have a huge huge book .
+User(3): what book do you have
+Bot(3): i like the old ones , i am an electrician .
+User(4): hmm that doesn't make a lot of sense
+Bot(4): i am sorry to hear that
+User(5): what's your favorite book?
+Bot(5): i like to read a lot
+User(6): what kind of books do you like to read
+Bot(6): i read a lot of books about books
+User(7): books about books, wow
+Bot(7): i read a lot of books
+User(8): do you have a favorite?
+Bot(8): i like to read a lot
+User(9): just books, or magazines
+Bot(9): i like to read books
+User(10): i like to read books too, i like fiction
+Bot(10): i like to read books , especially books
+
+Persona:
+i am a librarian.
+i am an electrician.
+i have short hair.
+i have a big library at home.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: i am four years old.(dislike)
+Round 2: movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user changed the topic the last input.(like)
+
+Revised avg score: 38.71
+Robotic(↓): 35
+Interesting: 26
+Fun: 32
+Consistent: 8
+Fluent: 61
+Repetitive(↓): 96
+Topic: 75
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): more what do you do what do you do for a living
+User(2): I'm married to a doctor
+Bot(2): after while crocodile , not to your languages can you you up to today ?
+User(3): i don't know what that means, what do you do for a living
+Bot(3): I I`m fine! I`m have any hobbies?
+User(4): i like to read
+Bot(4): i back from boy.
+User(5): i don't know what that means either. do you like to read
+Bot(5): I'm in the at the shipyard. sure power failure here.
+User(6): yikes! do you work there
+Bot(6): nice i am at am a recording marching band
+User(7): you are all over the place!
+Bot(7): i don't have to take in your where are you strength . geez , artists . . 😜
+User(8): i don't get it. do you like art?
+Bot(8): I am a not salesman. I sell insurance.
+User(9): so do you sell insurance, or are you a salesman. i'm confused
+Bot(9): I'd like to say that like do ur kids main transportation
+User(10): wow, i have no response
+Bot(10): I am from the feel about pot bellied you ?
+
+Persona:
+i'm very strong for my age.
+i'm a huge coffee lover.
+i like to take walks.
+i'm a vegan.
+i live in colorado.
+
+Topic and Human Opinion:
+Beginning: i am married to a doctor.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.29
+Robotic(↓): 94
+Interesting: 17
+Fun: 43
+Consistent: 17
+Fluent: 7
+Repetitive(↓): 87
+Topic: 4
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): good, how are you
+Bot(2): i'm doing well . just got done walking my dog .
+User(3): neat! i went to school to be a veterinarian
+Bot(3): i am a teacher , i love to cook .
+User(4): do you teach cooking
+Bot(4): i do , i love to cook .
+User(5): what's your favorite thing to cook
+Bot(5): i like to eat fish .
+User(6): i don't like fish, i like to make cookies
+Bot(6): i like to eat fish .
+User(7): what else do you like to cook
+Bot(7): i like to eat pizza and i love to eat .
+User(8): i like pizza too. what's your favorite kind
+Bot(8): i like the color red . what is yours ?
+User(9): i like the color blue
+Bot(9): i like red , reminds me of summer time .
+User(10): that's unique. I like summer too
+Bot(10): i love it . i love it .
+
+Persona:
+my favourite music is country music.
+i went to school for chemistry but work in a bookstore.
+my favorite type of music to sing is folk music.
+i have been traveling the world for a years.
+i volunteer at a soup kitchen.
+
+Topic and Human Opinion:
+Beginning: i went to school to be a veterinarian but hated it.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.00
+Robotic(↓): 62
+Interesting: 32
+Fun: 40
+Consistent: 26
+Fluent: 39
+Repetitive(↓): 83
+Topic: 32
+
+####################
+

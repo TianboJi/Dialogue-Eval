@@ -1,0 +1,283 @@
+Feedback: The survey went all well
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How are you
+Bot(2): good thanks . tell me about yourself
+User(3): Am damon by name what about you
+Bot(3): yeah i am todd who are you
+User(4): Am a manager at a commitment,family of wife including my beautiful with and lovely kid
+Bot(4): that is interesting i started my company
+User(5): Tell me about yourself
+Bot(5): my life is great , i am so happy i am gonna be a father
+User(6): That's great,I love that great part
+Bot(6): i liem that and spending time with the family
+User(7): Where do you always spend your summer?
+Bot(7): miami in the sun type of fun
+User(8): I spent mine at the national parks with my family
+Bot(8): that sound great , having family
+User(9): Yeah it's a great things
+Bot(9): they really are i was disappointed about having to miss them
+User(10): Am telling you,they mean everything I can't afford to miss them
+Bot(10): they really are i was disappointed about having to miss them
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: we spent summers ring at national parks.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 85.71
+Robotic(↓): 50
+Interesting: 50
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How are you
+Bot(2): same
+User(3): How are you doing
+Bot(3): i am doing great u
+User(4): Am doing great as well
+Bot(4): same
+User(5): Can I know you
+Bot(5): i do not sorry to say so
+User(6): How do you mean
+Bot(6): i do not know anymore
+User(7): Tell me about yourself that's what am saying
+Bot(7): i would love to know
+User(8): Dear lord
+Bot(8): what are you going to tell me
+User(9): What's your name
+Bot(9): i do not know , what is your name ?
+User(10): Am damon
+Bot(10): so what is your real name
+User(11): Damon and you
+Bot(11): same
+User(12): Your name?
+Bot(12): my name is really very scary
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i met taylor swift.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): I run novels.
+User(2): How are you
+Bot(2): I been to watching hockey.
+User(3): Am damon what's your name
+Bot(3): I am a have any is teach English
+User(4): What?
+Bot(4): about and would now
+User(5): Where are you located
+Bot(5): i don't listen to you great, God nice to other languages?
+User(6): I would like to talk to you about medication
+Bot(6): yes 👍 i a super model from husband for five year
+User(7): Sorry?
+Bot(7): Why no i’m like download me?
+User(8): Oh
+Bot(8): I i’m doing fantastic, experienced child.
+User(9): Oh ok
+Bot(9): i do not have a job , dog Are you am a hobbies , but i do .
+User(10): Ok
+Bot(10): I am in college, engineer. what do you coach.
+
+Persona:
+i am a stay at home dad.
+i've brown curly hair.
+i haven't spoken in three months.
+i think i'll retire in a few years.
+my cats are very special to me.
+
+Topic and Human Opinion:
+Beginning: i take many medications and some of them make me see things.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 38
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): Yes cooking and you
+Bot(2): i cook and cook and cook
+User(3): That's great
+Bot(3): i love cooking and cooking
+User(4): Cool me too
+Bot(4): i love cooking and cooking
+User(5): What's your favorite food
+Bot(5): i love mexican food and you
+User(6): I love American food
+Bot(6): i love mexican food and mexican food
+User(7): Okay
+Bot(7): i love mexican food and mexican food
+User(8): Are you married
+Bot(8): yes i do but i love mexican food
+User(9): Oh
+Bot(9): yes i do but i love mexican food
+User(10): You have any kids yet
+Bot(10): yes i have 3 kids
+User(11): Cool and me too and am happy am having a great life
+Bot(11): that is nice i hope you get a better rest
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am retired and living the great life.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How are you
+Bot(2): i am good . just devoured a pizza . you ?
+User(3): Am good too,just done eating chicken and rice
+Bot(3): i love black jack gum but when i drink it with dr . pepper it just does not work
+User(4): Oh
+Bot(4): i am a wealth management consultant and an ivy league graduate . whats your pedigree ?
+User(5): Am a musician
+Bot(5): cool , i play the flute . i like italian food and pizza is my favorite . whats yours ?
+User(6): I like Chinese food
+Bot(6): i like vegan chinese food . stir fry . . etc i do have to separate the veggies though
+User(7): And American food
+Bot(7): possibly . would you like chocolate covered la fresa ?
+User(8): That's good
+Bot(8): i have worked 8 years at subway as a sandwich artist . what do you do ?
+User(9): Am a musician
+Bot(9): cool , i play the flute . i like italian food and pizza is my favorite . whats yours ?
+User(10): What's your favorite color
+Bot(10): my favorite color is blue yours ?
+User(11): Mine is white
+Bot(11): white is nice but i love blue . . . . so a semi truck ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a musician.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.29
+Robotic(↓): 0
+Interesting: 50
+Fun: 24
+Consistent: 27
+Fluent: 18
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): Me too
+Bot(2): i am a student , but i am a student .
+User(3): Am a manager
+Bot(3): i love to cook . i love to cook .
+User(4): What your favorite color
+Bot(4): i like blue , my favorite color is blue .
+User(5): My favorite color is orange
+Bot(5): i like blue , i like red , reminds me of summer time .
+User(6): Okay cool
+Bot(6): i like to go to the gym and listen to music .
+User(7): Same here
+Bot(7): i love to cook . i love to cook .
+User(8): What's your best food
+Bot(8): i love it . i like to eat fish .
+User(9): I love chicken
+Bot(9): i like to eat fish .
+User(10): Are you married
+Bot(10): no , i am not . i am a student .
+
+Persona:
+i love cooking but i also enjoy fishing.
+my father was a construction worker.
+i have a german shepherd dog.
+i grew up in the industry.
+i am a 45 year old male.
+
+Topic and Human Opinion:
+Beginning: my favorite color is orange.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.29
+Robotic(↓): 0
+Interesting: 19
+Fun: 20
+Consistent: 20
+Fluent: 38
+Repetitive(↓): 100
+Topic: 15
+
+####################
+

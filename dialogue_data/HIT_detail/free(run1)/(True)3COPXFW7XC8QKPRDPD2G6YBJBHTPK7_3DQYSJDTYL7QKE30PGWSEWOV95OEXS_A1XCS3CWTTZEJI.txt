@@ -1,0 +1,312 @@
+Feedback: These chatbots were pretty poor at responding except for the last one. However, the last chat bot got stuck answering any question about sauce with something relation to their love for chicken Alfredo.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hello , i am looking to see which soup kitchen needs volunteers this week .
+User(2): The soup kitchen sounds nice, but what do you think about politics?
+Bot(2): no , i really have not gotten into politics
+User(3): Do you know anything about the election?
+Bot(3): no , i really have not gotten into politics
+User(4): I believe people should be allowed to voice their opinions through elections. Do you agree?
+Bot(4): yes i guess so by i really love gymnastics
+User(5): I love gymnastics as well. Did you watch the USA team win gold in the last olympics?
+Bot(5): no , i am not a big fan of team sports , more surfing , etc . did you ?
+User(6): I did, I especially liked it when the women’s soccer team won. What is your favorite individual sport?
+Bot(6): the us national team , i am disappointing that we did not qualify for world cup
+User(7): I am also disappointed at that. They are usually good, but they really have been playing poorly lately.
+Bot(7): too bad the u . s . team did not make it to the world cup
+User(8): Yes it is too bad. But there is always the next World Cup!
+Bot(8): too bad the u . s . team did not make it to the world cup
+User(9): Do you think they will make it to the next World Cup?
+Bot(9): yes i hope so ! so , do you have any plans for this evening ?
+User(10): I do, I am watching a movie with my wife. Do you have plans this evening?
+Bot(10): i am volunteering at a soup kitchen today . what are you going to do ?
+User(11): I am watching a movie with my wife.
+Bot(11): let us hope there is a good movie on then . you can also stream it .
+
+Persona:
+gymnastics is my favorite sport.
+i was raised in a single parent household.
+i volunteer at a soup kitchen.
+i'm deathly afraid of heights.
+i've three dogs.
+
+Topic and Human Opinion:
+Beginning: The election(like)
+Round 4: Gymnastics(ambivalent)
+Round 5: Sports(like)
+Round 9: Plans this evening(ambivalent)
+Round 11: Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 33.14
+Robotic(↓): 100
+Interesting: 21
+Fun: 50
+Consistent: 76
+Fluent: 35
+Repetitive(↓): 82
+Topic: 32
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): I do, I like watching movies.
+Bot(2): i like movies but i love watching movies
+User(3): Which movies are your favorite?
+Bot(3): i like the old movies . i love them
+User(4): Do you have a favorite old movie?
+Bot(4): i like old movies . i am old and blonde .
+User(5): What genre of movies do you like?
+Bot(5): i like all kinds of movies .
+User(6): Do you like action movies?
+Bot(6): i like movies and movies
+User(7): Do you watch television often?
+Bot(7): i do not watch movies . i like to watch movies
+User(8): That sounds repetitive. Are you a native English speaker?
+Bot(8): i am not sure . i am a country girl
+User(9): Do you speak any other languages?
+Bot(9): no , i am not . i am not .
+User(10): You are not what?
+Bot(10): no , i am not . i am not .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 8: English(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 29.71
+Robotic(↓): 100
+Interesting: 13
+Fun: 22
+Consistent: 78
+Fluent: 19
+Repetitive(↓): 99
+Topic: 75
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): I is yoga.😉
+User(2): Hello yoga, are you married?
+Bot(2): i like poetry , but i am also a poet are genuine relatable air poetry
+User(3): Who is your favorite poet?
+Bot(3): i think i do. who takes you old of it.
+User(4): Who is that?
+Bot(4): i like them , but i like to keep short a coincidence, me too. Also to hide behind
+User(5): Do you like food?
+Bot(5): hi, and i like to what do you like to do for fun?
+User(6): I like to eat food, what do you like to eat?
+Bot(6): So like disney plans paralegal less blood.
+User(7): Disney is fun!
+Bot(7): I am your am a love the city.
+User(8): I love the city as well! What is your favorite thing to do?
+Bot(8): Where are you going?
+User(9): I am not going anywhere. Are you going anywhere?
+Bot(9): Lucy. doing fine, meet you.
+User(10): Thanks Lucy
+Bot(10): No, not at you scared of them. 😰
+
+Persona:
+i've blonde hair and blue eyes.
+my father drove a car for nascar.
+i've amazing children and grandchildren.
+i'm single and with two dogs.
+i'm scared of dying.
+
+Topic and Human Opinion:
+Beginning: Marriage(like)
+Round 2: Poetry(like)
+Round 4: Food(like)
+Round 6: Disney paralegals(dislike)
+Round 7: The city(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 10.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 0
+Fluent: 2
+Repetitive(↓): 27
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hello , do you like dogs ? i love animals , i have 2 dogs .
+User(2): I love dogs! I have two as well
+Bot(2): i have three dogs four cats
+User(3): Nice! Do you play volleyball?
+Bot(3): i played football in high school . my only sister plays softball though
+User(4): Do you play any other sports?
+Bot(4): i do ! i like softball and you ?
+User(5): I like baseball!
+Bot(5): all of them , i am that good . i also play piano
+User(6): Do you play any other instruments?
+Bot(6): i do not but i used to play the piano when i was your age !
+User(7): Do you know any songs on the piano?
+Bot(7): i hope to teach piano one day do you have any pets as well ?
+User(8): I do have pets, do you?
+Bot(8): i do not , but i have piano , it is like my pet
+User(9): I thought you said you have dogs.
+Bot(9): i am in the public affairs sector of the government . how about you ?
+User(10): I work as a personal trainer
+Bot(10): i am a bit like that with my piano playing
+
+Persona:
+i like to look at blocks and sing about letters.
+i've a pet turtle.
+i am a piano teacher on the side.
+i love playing softball.
+i'm a plumber.
+
+Topic and Human Opinion:
+Beginning: Volleyball(like)
+Round 3: Sports(like)
+Round 5: Piano(ambivalent)
+Round 7: Pets(ambivalent)
+Round 9: Government(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 24.57
+Robotic(↓): 100
+Interesting: 25
+Fun: 4
+Consistent: 25
+Fluent: 69
+Repetitive(↓): 76
+Topic: 25
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): Nice, do you like space?
+Bot(2): i do , i love it . i love it .
+User(3): What is your favorite planet?
+Bot(3): i like the color red . i like the color blue .
+User(4): I like the color blue, too.
+Bot(4): i like the color red . i like red .
+User(5): Do you like yellow?
+Bot(5): i do , i like to go out to eat with my family .
+User(6): What do you like to eat?
+Bot(6): i love to cook . i love to cook .
+User(7): What is your favorite food?
+Bot(7): i like the color red . what is yours ?
+User(8): My favorite color is blue.
+Bot(8): i like red , reminds me of summer time .
+User(9): Do you like summer?
+Bot(9): i do , i love it . i love it .
+User(10): What is your favorite season?
+Bot(10): i like the fall . i love it .
+
+Persona:
+i am a vegan and i love hummus.
+my favorite activity is rock climbing.
+i'm a little girl.
+i'm a vegetarian.
+i work took i've a part time job at burger king.
+
+Topic and Human Opinion:
+Beginning: Space(like)
+Round 3: Colors(ambivalent)
+Round 5: Food(like)
+Round 7: Color(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 28.29
+Robotic(↓): 100
+Interesting: 24
+Fun: 29
+Consistent: 67
+Fluent: 29
+Repetitive(↓): 79
+Topic: 28
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): Do you like food?
+Bot(2): yes . i love trying new cuisine and you ?
+User(3): I do! What is your favorite dish?
+Bot(3): my favorite would have to be stuffed chicken marsala
+User(4): I love chicken Marsala! How do you feel about chicken Alfredo?
+Bot(4): i like chicken alfredo , it is so good .
+User(5): It is delicious! Do you have any other favorite foods?
+Bot(5): i like chicken alfredo , it is so good .
+User(6): What about pasta?
+Bot(6): i like chicken alfredo , it is so good .
+User(7): Do you like marinara?
+Bot(7): it is amazing , especially with alfredo sauce
+User(8): What about Alfredo sauce on pizza? Do you like that?
+Bot(8): it is amazing , especially with alfredo sauce
+User(9): Do you like any other sauce?
+Bot(9): i like chicken alfredo , it is so good .
+User(10): What about Parmesan cheese?
+Bot(10): i like chicken alfredo , it is so good .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 75.14
+Robotic(↓): 16
+Interesting: 76
+Fun: 69
+Consistent: 100
+Fluent: 97
+Repetitive(↓): 100
+Topic: 100
+
+####################
+

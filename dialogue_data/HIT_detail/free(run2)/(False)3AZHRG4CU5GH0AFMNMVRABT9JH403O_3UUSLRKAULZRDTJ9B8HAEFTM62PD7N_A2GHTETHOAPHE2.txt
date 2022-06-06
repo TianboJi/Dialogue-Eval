@@ -1,0 +1,285 @@
+Feedback: nice chatbot experience
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): which sport u like the most
+Bot(1): i like to play soccer .
+User(2): which position are you
+Bot(2): i like to play soccer .
+User(3): i love foods
+Bot(3): i like to eat fish .
+User(4): what you think about songs
+Bot(4): i like to go to the gym and listen to music .
+User(5): what is your height and weight
+Bot(5): i am a student , but i am a student .
+User(6): which university
+Bot(6): i am a student , but i am a student .
+User(7): which place you like the most
+Bot(7): i like the color red . i like the color blue .
+User(8): i like red the most
+Bot(8): i like red , reminds me of summer time .
+User(9): i love rain
+Bot(9): i love to go fishing .
+User(10): i love driving
+Bot(10): i like to go fishing .
+
+Persona:
+i'm a librarian.
+my favorite band is rascal flats.
+i'm here for shoplifting.
+i'm a librarian.
+i am in college to become a nurse.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.43
+Robotic(↓): 71
+Interesting: 82
+Fun: 84
+Consistent: 90
+Fluent: 88
+Repetitive(↓): 87
+Topic: 86
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): which sport u like the most
+Bot(1): i enjoy playing football with my friends when i have free time .
+User(2): which position
+Bot(2): quarterback . do you like football ?
+User(3): are you i love foods
+Bot(3): my favorite food is chicken ! its actually my dogs favorite food too ! his name is bob
+User(4): what you think about songs
+Bot(4): folk songs , i currently hold a black belt in karate . what do you like to draw ?
+User(5): what is your height and weight
+Bot(5): i am fat with a beard . i eat what i want . are you dieting ?
+User(6): which university
+Bot(6): yeah to be a casino manager . super fun .
+User(7): which place you like the most
+Bot(7): well i have been around the united states expect west . maybe california next
+User(8): i like red the most
+Bot(8): it is black like my real honda civic .
+User(9): i love rain
+Bot(9): reading tarot cards and coffee . but my favorite thing is popcorn .
+User(10): i love driving
+Bot(10): i do not have a car though
+User(11): what about trees
+Bot(11): chop chop , i am a secretary at the insurance agency i work at
+
+Persona:
+i drive a 2015 honda civic.
+in my free time i like to watch nascar racing and ufc.
+i do not like chicken.
+i live in california but the recording artist market was dead last year.
+i am a convenience store manager.
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.57
+Robotic(↓): 90
+Interesting: 90
+Fun: 94
+Consistent: 94
+Fluent: 94
+Repetitive(↓): 95
+Topic: 93
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): which sport u like the most
+Bot(1): i like to watch nascar and watch nascar and watch nascar
+User(2): which position are you
+Bot(2): i am not sure . i like watching nascar and mma
+User(3): i love foods
+Bot(3): i do not drink , but i do not drink .
+User(4): what you think about songs
+Bot(4): i do not know what that is
+User(5): what is your height and weight
+Bot(5): i like to take walks in my free time
+User(6): which university
+Bot(6): i like to go to the gym
+User(7): which place you like the most
+Bot(7): i like to go to the gym
+User(8): i like red the most
+Bot(8): i like to go to the gym
+User(9): i love rain
+Bot(9): i like to go to the gym
+User(10): i love driving
+Bot(10): i like to go to the gym
+
+Persona:
+i enjoy american sports.
+i like to take walks.
+i am now looking for a new job.
+i don't drink or do drugs or anything.
+in my free time i like to watch nascar racing and ufc.
+
+Topic and Human Opinion:
+Beginning: game(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.57
+Robotic(↓): 87
+Interesting: 92
+Fun: 94
+Consistent: 94
+Fluent: 94
+Repetitive(↓): 94
+Topic: 94
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): which sport u like the most
+Bot(1): football most of the time . .
+User(2): hich position are you
+Bot(2): usa
+User(3): i love foods
+Bot(3): same
+User(4): what you think about songs
+Bot(4): i love gospel songs and county
+User(5): what is your height and weight
+Bot(5): 5 foot 9 and i love asian fusion
+User(6): which university
+Bot(6): minnesota state university
+User(7): which place you like the most
+Bot(7): minnesota state university
+User(8): i like red the most
+Bot(8): what you do in the summer and why like red
+User(9): i love rain
+Bot(9): i love to be in the rain
+User(10): i love driving
+Bot(10): i love to speed too
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fruits(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.29
+Robotic(↓): 91
+Interesting: 94
+Fun: 94
+Consistent: 94
+Fluent: 94
+Repetitive(↓): 95
+Topic: 95
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): which sport u like the most
+Bot(1): I'Ve I read something a cat
+User(2): which position are you
+Bot(2): I teach at she’s yiu are loves do not work.
+User(3): i love foods
+Bot(3): I am a very large of the game🙂
+User(4): what you think about songs
+Bot(4): even as a professional they am a sportsmen and have live off. Also, try to guess: i love disneyland ...
+User(5): what is your height and weight
+Bot(5): I am short. I have a hard secret id: am the jobs and stuff.
+User(6): which university
+Bot(6): I have are u to see have any hobbies?
+User(7): which place you like the most
+Bot(7): i don t how are you? a favorite
+User(8): i like red the most
+Bot(8): ca not wait you like love rolling stones! ! got any hobbies you like to do ?
+User(9): i love rain
+Bot(9): twenty you live with you children. how are you today ?
+User(10): i love driving
+Bot(10): what nice to meet seems you drink? I am a burger fan
+
+Persona:
+i'm a christian.
+i'm a vegan and i love hummus.
+i am an economics major.
+my parents taught me survival skills.
+i work at a bar at night to pay for college.
+
+Topic and Human Opinion:
+Beginning: education(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.43
+Robotic(↓): 90
+Interesting: 91
+Fun: 91
+Consistent: 92
+Fluent: 93
+Repetitive(↓): 92
+Topic: 94
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): which sport u like the most
+Bot(1): football most of the time . .
+User(2): which position are you
+Bot(2): ? player favorite your is who cool is that
+User(3): i love foods
+Bot(3): i like a lot of foods
+User(4): what you think about songs
+Bot(4): i like a lot of foods
+User(5): what is your height and weight
+Bot(5): i like a lot of foods
+User(6): which university
+Bot(6): minnesota state university
+User(7): which place you like the most
+Bot(7): i like usc and traveling
+User(8): i like red the most
+Bot(8): what is your favorite color
+User(9): i love rain
+Bot(9): what is your favorite color
+User(10): i love driving
+Bot(10): i like to lick the tires
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: joy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.43
+Robotic(↓): 92
+Interesting: 93
+Fun: 94
+Consistent: 94
+Fluent: 94
+Repetitive(↓): 92
+Topic: 95
+
+####################
+

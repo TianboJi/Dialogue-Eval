@@ -1,0 +1,385 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I dye my hair every three months.
+Bot(1): i love the color red . i like red .
+User(2): I like red too.
+Bot(2): i like to go to the gym and listen to music .
+User(3): What kind of music do you listen to?
+Bot(3): i like country music . i love country music .
+User(4): That's great! Do you like any particular artist?
+Bot(4): i do not , but i do like to eat .
+User(5): What is your favorite food?
+Bot(5): i like the color red . what is yours ?
+User(6): My favorite color is green.
+Bot(6): i like red , reminds me of summer time .
+User(7): What month?
+Bot(7): i am a student , but i am a student .
+User(8): I am a student too. How long have you been a student?
+Bot(8): no , i do not . i am a student .
+User(9): hi
+Bot(9): i am doing well . how are you ?
+User(10): Good, but I hate math class.
+Bot(10): i am a teacher , i love to cook .
+
+Persona:
+i move south during the winter.
+i am in an open polyamorous relationship.
+i haven't spoken in three months.
+i donate a part of my salary to charity each month.
+mickey mouse is my favorite character.
+
+Topic and Human Opinion:
+Beginning: i dye my hair every three months.(like)
+Round 1: Liking the color red.(dislike)
+Round 2: He changed it to going to the gym and listening to music(like)
+Round 4: They changed it to eating.(dislike)
+Round 5: The color red(dislike)
+Round 7: Being a student(like)
+Round 7: Being a student(dislike)
+Round 8: i hate math class.(like)
+Round 10: I love to cook.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(ambivalent)
+Round 8: The user wants the bot to change the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 19.71
+Robotic(↓): 100
+Interesting: 24
+Fun: 23
+Consistent: 0
+Fluent: 6
+Repetitive(↓): 15
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love to spend time with my family.
+Bot(1): then why did you have grammar where are you live so smart ?
+User(2): Are you smart?
+Bot(2): It seems i'm a studet) is:'ve
+User(3): What are you?
+Bot(3): thank you , my daughter best work in the with honors
+User(4): What honors?
+Bot(4): i just got home 👪 after driving live on my cricket i m hungry
+User(5): What are you hungry for?
+Bot(5): I like play guitar hockey.
+User(6): I like hockey too
+Bot(6): I love britney spears. for a living? I voice.
+User(7): What is your favorite Britney Spears song?
+Bot(7): I am going today was quite little tired
+User(8): How are you tired?
+Bot(8): I'm not a fan could fish, get house.
+User(9): What is your favorite color?
+Bot(9): no i spend too much there . i am retired now. Also, try your favorite music m fine ...
+User(10): What kind of music do you listen to?
+Bot(10): I am course i speak guitar
+
+Persona:
+i am four.
+i am a huge coffee lover.
+i'm a blonde girl with really short hair.
+i did not graduate high school.
+i am a skateboarder.
+
+Topic and Human Opinion:
+Beginning: i love to spend time with my family.(like)
+Round 1: Grammar(dislike)
+Round 2: Being a student.(dislike)
+Round 3: Daughter(dislike)
+Round 4: Getting home.(ambivalent)
+Round 5: Playing guitar and hockey(ambivalent)
+Round 6: Britney Spears(dislike)
+Round 7: incoherent(ambivalent)
+Round 8: Incoherent(ambivalent)
+Round 8: Favorite color(like)
+Round 9: Incoherent(ambivalent)
+Round 9: What kind of music do you listen to?(like)
+Round 10: incoherent(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 9: The user will change the topic in the next input.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 19
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): My wife spends all my money.
+Bot(1): i am a nurse so i do not care for my job
+User(2): How long have you been a nurse?
+Bot(2): i work at a nursing home .
+User(3): Do you like working at a nursing home?
+Bot(3): i work at a nursing home .
+User(4): Hello
+Bot(4): i work at a nursing home .
+User(5): I am a country music singer.
+Bot(5): i am a nurse . i work at a nursing home .
+User(6): Hi
+Bot(6): i am a nurse . i am a nurse .
+User(7): I love cats and have two cats.
+Bot(7): i love animals . i volunteer at a local shelter .
+User(8): What is your favorite animal?
+Bot(8): i love them . i love them .
+User(9): Hello
+Bot(9): i love animals . i love them .
+User(10): I grew up in manhattan.
+Bot(10): i am a nurse at a hospital .
+
+Persona:
+i volunteer my time with a local bunny rescue.
+i hate my job.
+i am 60years old.
+i love rollercoasters and sky diving.
+i work at a nursing home.
+
+Topic and Human Opinion:
+Beginning: my wife spends all my money.(dislike)
+Round 1: Being a nurse.(ambivalent)
+Round 2: Working at a nursing home?(ambivalent)
+Round 3: i am a country music singer.(like)
+Round 5: Working at a nursing home(dislike)
+Round 5: i love cats and have two cats.(like)
+Round 7: Volunteering at a local animal shelter(like)
+Round 8: Loving animals(like)
+Round 8: i grew up in manhattan.(like)
+Round 10: Being a nurse(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The user wants the bot to change the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 5: The user wants the bot to change the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 8: The user wants the bot to change the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 4.43
+Robotic(↓): 100
+Interesting: 3
+Fun: 7
+Consistent: 0
+Fluent: 18
+Repetitive(↓): 100
+Topic: 3
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hi just done playing soccer
+User(2): I grew up in the industry.
+Bot(2): cool i am a soccer playa
+User(3): How long have you been playing soccer?
+Bot(3): for about two years now . i went to art school for it .
+User(4): Why did you go to art school?
+Bot(4): i got a scholarship for soccer
+User(5): What role do you play in soccer games?
+Bot(5): i am not sure . i play pro soccer
+User(6): Do you enjoy playing soccer?
+Bot(6): i do , but it is not my main thing . i do love soccer , though .
+User(7): What is your main thing?
+Bot(7): i like to shop that is my sport of choice .
+User(8): Why?
+Bot(8): because i know best , really .
+User(9): What do you know?
+Bot(9): so far i have only told you .
+User(10): Told me what?
+Bot(10): so far i have only told you .
+
+Persona:
+i won homecoming queen this year.
+i had cancer but its gone now.
+i'm an art major in college.
+i like shopping.
+i'm on the soccer team.
+
+Topic and Human Opinion:
+Beginning: i grew up in the industry.(like)
+Round 2: Playing soccer(like)
+Round 2: Playing soccer(ambivalent)
+Round 3: Why did you go to art school?(like)
+Round 4: Playing soccer.(dislike)
+Round 7: Shopping(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 2: The user will change the topic in the next input.(like)
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 28.00
+Robotic(↓): 100
+Interesting: 35
+Fun: 21
+Consistent: 49
+Fluent: 33
+Repetitive(↓): 86
+Topic: 44
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): Not too good. My parents are not very supportive of my dream. a
+Bot(2): that is good . my family is mad at me about doctors orders i will not follow .
+User(3): What orders did he give you?
+Bot(3): he is six , and he loved it ! i dressed my yorkie as a lion 3
+User(4): My parents are not very supportive of my dream.
+Bot(4): that is good . my family is mad at me about doctors orders i will not follow .
+User(5): Hi
+Bot(5): hey
+User(6): My favorite spanish word is tabajo
+Bot(6): great ! lets agree to speak english ? i am a plumber
+User(7): How long have you been a plumber?
+Bot(7): boy scouts . i learned how to fish in boy scouts . best years of my life .
+User(8): I love to spend time with my family.
+Bot(8): i applied for the gifted program at my school and i got rejected last week
+User(9): I'm a christian.
+Bot(9): i would like that , so we can go to heaven together after eating greasy pizza
+User(10): Where would we get the pizza?
+Bot(10): i like vegetarian pizza . but my favorite food is fresh fruit .
+User(11): Do you have a favorite fruit?
+Bot(11): i love fruit like apples and oranges but apples are the best
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my parents are not very supportive of my dream.(like)
+Round 2: Following doctors orders(ambivalent)
+Round 4: my favorite spanish word is trabajo.(like)
+Round 6: Being a plumber(dislike)
+Round 7: Being in boy scouts(ambivalent)
+Round 7: i love to spend time with my family.(like)
+Round 8: Getting rejected by a program at school(dislike)
+Round 8: i'm a christian.(dislike)
+Round 10: Favorite food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The user wants the bot to change the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 7: The user wants the bot to change the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 8: The user wants the bot to change the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 64.57
+Robotic(↓): 44
+Interesting: 77
+Fun: 71
+Consistent: 65
+Fluent: 60
+Repetitive(↓): 20
+Topic: 43
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am an economics major.
+Bot(1): have you ever been outside of ohio ?
+User(2): Yes. Have you been outside of Ohio?
+Bot(2): no , i have never been west of the mississippi river .
+User(3): I'm interested in photography and like taking pictures.
+Bot(3): that is very interesting . how long have you been doing photography ?
+User(4): For about ten years now.
+Bot(4): have you ever been outside of ohio ?
+User(5): No
+Bot(5): have you ever been outside of ohio ?
+User(6): I've a weakness for fish and chips.
+Bot(6): fish sticks are horrible for your health
+User(7): How are they?
+Bot(7): rod pretzels with a lot of salt .
+User(8): I wear a motorbike helmet to protect my head.
+Bot(8): i thought those were dangerous ?
+User(9): No. They are safer
+Bot(9): between the bubbles and popcorn at the movies , my jeans are a bit tight .
+User(10): I'm overweight and unhappy.
+Bot(10): i am sorry . do you swim ?
+
+Persona:
+i am an art major in college.
+i'm a swim coach at my local pool.
+i love wearing skinny jeans and leggings.
+i've never been out of ohio.
+i am a doctor.
+
+Topic and Human Opinion:
+Beginning: i am an economics major.(like)
+Round 1: Going to Ohio.(ambivalent)
+Round 2: i'm interested in photography and like taking pictures.(like)
+Round 4: Going to Ohio(dislike)
+Round 5: i've a weakness for fish and chips.(dislike)
+Round 7: Pretzels(ambivalent)
+Round 7: i wear a motorbike helmet to protect my head.(like)
+Round 9: Jeans(dislike)
+Round 9: i'm overweight and unhappy.(dislike)
+Round 10: Swimming(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The user wants the bot to change the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The user wants the bot to change the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(dislike)
+Round 7: The user wants the bot to change the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(dislike)
+Round 9: The user wants the bot to change the topic.(dislike)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 39.14
+Robotic(↓): 89
+Interesting: 43
+Fun: 40
+Consistent: 37
+Fluent: 79
+Repetitive(↓): 53
+Topic: 17
+
+####################
+

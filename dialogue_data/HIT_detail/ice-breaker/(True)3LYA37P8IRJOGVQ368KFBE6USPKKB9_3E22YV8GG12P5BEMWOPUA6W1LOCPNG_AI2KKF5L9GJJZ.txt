@@ -1,0 +1,303 @@
+Feedback: none
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Why do you want a body double
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): classical music is very relaxing. I am more of a country music fan.
+Bot(2): i like to listen to music .
+User(3): I do too. Is classical music you favorite?
+Bot(3): i like the oldies , but i like to listen to music .
+User(4): I like oldies too. Who is your favorite oldies artist?
+Bot(4): i like the oldies , and the outdoors .
+User(5): I like the outdoors too.
+Bot(5): i love to travel . i love to travel .
+User(6): Do you travel in the outdoors.
+Bot(6): i love to travel . i love to travel .
+User(7): Where do you like to travel?
+Bot(7): i love to travel . i love to travel .
+User(8): I like to travel too. I like to travel to tropical locations
+Bot(8): i love to travel . i love to travel .
+User(9): me too
+Bot(9): i like to go to the gym and listen to music .
+User(10): I like the gym too. What is your favorite expertise?
+Bot(10): i like the color red . i like the color blue .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am working on a building a robot to be my body double.(ambivalent)
+Round 1: to music(like)
+Round 4: outdoors(like)
+Round 9: gym and music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 26.14
+Robotic(↓): 76
+Interesting: 17
+Fun: 11
+Consistent: 31
+Fluent: 74
+Repetitive(↓): 85
+Topic: 11
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am a woman too.
+Bot(1): i am so very hungry for tacos
+User(2): I love tacos. What is your favorite food?
+Bot(2): i absolutely maddeningly love tacos guan
+User(3): Tacos are your favorite food?
+Bot(3): tacos are amazing . it depends on my mood
+User(4): Yeah. I know how that goes. I really like tacos too. I like chicken tacos. Do you?
+Bot(4): i am actually not a huge fan of tacos
+User(5): What is your favorite type of food?
+Bot(5): i like chicken . especially chicken tacos . i love mexican food !
+User(6): Mexican food is delicious. I love enchiladas.
+Bot(6): oh my , i love tacos .
+User(7): Yes tacos are great too. Is Mexican food your favorite?
+Bot(7): yes its the best ting ever . it makes up for tacos that i hate very much
+User(8): I thought you liked tacos?
+Bot(8): tacos are amazing . it depends on my mood
+User(9): oh ok so you have to be in the mood for tacos?
+Bot(9): yes , i love eating yummy tacos . . . yum
+User(10): I would definitely say you are craving tacos right now.
+Bot(10): i could really go for some tacos lol
+
+Persona:
+i have 5cats.
+i also work as a custodian to help pay the bills.
+i take dance lessons once a week.
+i just broke up with boyfriend two months ago.
+i like tacos.
+
+Topic and Human Opinion:
+Beginning: i'm a woman.(like)
+Round 1: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 54.86
+Robotic(↓): 76
+Interesting: 30
+Fun: 57
+Consistent: 79
+Fluent: 62
+Repetitive(↓): 60
+Topic: 92
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am not into this type of relationship.
+Bot(1): I am a are you up animals
+User(2): I like animals.
+Bot(2): they Do you have of meat ?
+User(3): I don't eat much meat.
+Bot(3): I am a happy but i love producing be a clown.
+User(4): You are very random. What is your job?
+Bot(4): I am in high school, but about fishing? Do you school .
+User(5): I am a teacher so I guess you could say I do school.
+Bot(5): I am color shoes do blue.
+User(6): My favorite color is pink
+Bot(6): What so high, i fun? 😉
+User(7): You are high?
+Bot(7): i am a fan of like roleplaying? I do. do not eat it .
+User(8): I do not like roleplaying.
+Bot(8): I love dogs, know. I just moved go to work soon.
+User(9): I love dogs too. Do you have a dog.
+Bot(9): just got just kidding i own of fishing do you like to fish
+User(10): I do like to fish.
+Bot(10): My am 22 years retired pilot
+
+Persona:
+my family is continuously growing.
+my favorite shirts are band shirts and ruffle sleeves.
+i just bought my first home.
+i'm an omnivore.
+i'm a vegetarian.
+
+Topic and Human Opinion:
+Beginning: i'm in an open polyamorous relationship.(dislike)
+Round 2: meat(ambivalent)
+Round 3: clown(dislike)
+Round 4: school(ambivalent)
+Round 5: colors(dislike)
+Round 7: sex roles(dislike)
+Round 8: dogs(like)
+Round 9: fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 9
+Repetitive(↓): 10
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I'm sorry they are not supportive of your dream. What is your dream?
+Bot(1): you should tell them , i am sure they will be understanding . my would be .
+User(2): My parents are understanding of my dream. I thought yours weren't understanding of yours.
+Bot(2): that must be confusing . i am sorry .
+User(3): Thanks. I am sorry too. What is your favorite type of food?
+Bot(3): i do not really have one . i like all food .
+User(4): I like all food too, but I think pizza is my favorite.
+Bot(4): i do not really have one . i like all food .
+User(5): Do you like Mexican food?
+Bot(5): i do . do you like mexican food ?
+User(6): I love Mexican food. Tacos and enchiladas are my favorite.
+Bot(6): me too ! but my favorite is mexican .
+User(7): Do you like chips and salsa?
+Bot(7): yes , those and the food that are wrapped in tortillas .
+User(8): I love tortillas. Do you like burritos?
+Bot(8): yes , i eat burritos nearly every day .
+User(9): I love burritos too. I like to have mine smothered in green chili.
+Bot(9): i do too . with white queso . not that tex mex nacho cheese crap .
+User(10): White quest is wonderful! I don't like tex Mex either
+Bot(10): i do too . with white queso . not that tex mex nacho cheese crap .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my parents aren't very supportive of my dream.(ambivalent)
+Round 2: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(like)
+
+Revised avg score: 95.57
+Robotic(↓): 8
+Interesting: 84
+Fun: 97
+Consistent: 99
+Fluent: 100
+Repetitive(↓): 3
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am 32 years old
+Bot(1): happy 32 , are you now 25 years old ?
+User(2): no I just turned 32 about 3 months ago
+Bot(2): 25 . youve lived with your parents this whole time ?
+User(3): no I don't live with my parents. I am married. Are you?
+Bot(3): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(4): oh that is wonderful. congratulations. I have been married for 8 years and he is my soulmate for sure. Do you have kids?
+Bot(4): yes i am married i have one son , are you married
+User(5): I am married and have one daughter. How old is your son?
+Bot(5): he is 1 3 4 years old . i go on long walks 2 3 hours to keep my sanity
+User(6): I like to go on walks too. What are some other hobbies you like to do?
+Bot(6): yes , i love going on walks and enjoying nature .
+User(7): I like enjoying nature too. I take my dog on a walk everyday rain or shine. I also like to read.
+Bot(7): yup usually it falls around halloween . i bet it will hit early this year
+User(8): yeah for sure. I love fall. It is my favorite season.
+Bot(8): i like winter but i am more into summer
+User(9): I love summer too. I just love the colors that change on the trees where I live in the fall.
+Bot(9): oh no the cool weather is where its at . . . lol and the lovely fall colors .
+User(10): yes I love the cooler weather and sweaters and hot coffee.
+Bot(10): its cooler but still humid . i travel a lot so i have been through some strange weather lately .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am 40 years old.(ambivalent)
+Round 2: family(like)
+Round 5: hobbies(like)
+Round 7: weather(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 5: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 74.71
+Robotic(↓): 50
+Interesting: 70
+Fun: 63
+Consistent: 73
+Fluent: 82
+Repetitive(↓): 7
+Topic: 92
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): My dad was a plumber too! Do you love it?
+Bot(1): i love it ! i love it !
+User(2): How long have you been a plumber?
+Bot(2): i do not , i am a plumber
+User(3): How long have you been a plumber?
+Bot(3): i was a plumber but i was a plumber
+User(4): Are you still a plumber or no?
+Bot(4): i am a plumber . what about you ?
+User(5): I am a teacher.
+Bot(5): i am a teacher , i am a teacher
+User(6): I thought you were a plumber.
+Bot(6): i am a plumber . what do you do for fun ?
+User(7): I like to read and I love the outdoors. What about you?
+Bot(7): i like to read . i love to read .
+User(8): what kind of books do you like to read?
+Bot(8): anything . i read a lot .
+User(9): Oh good. I love mysteries best of all.
+Bot(9): i like reading too . i read a lot .
+User(10): Me too. Do you have a specific genre you like to read?
+Bot(10): i like to read and read
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a plumber.(like)
+Round 4: work(like)
+Round 6: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 38.71
+Robotic(↓): 70
+Interesting: 18
+Fun: 25
+Consistent: 58
+Fluent: 72
+Repetitive(↓): 82
+Topic: 50
+
+####################
+

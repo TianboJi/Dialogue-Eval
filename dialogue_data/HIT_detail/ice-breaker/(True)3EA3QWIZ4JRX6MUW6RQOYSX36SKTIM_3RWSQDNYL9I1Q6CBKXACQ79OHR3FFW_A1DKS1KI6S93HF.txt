@@ -1,0 +1,278 @@
+Feedback: N/A
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Just got a part time job at burger king
+Bot(2): my favorite is burger king
+User(3): yea, I'll get some free food!
+Bot(3): as long as its not fast food , we will be good
+User(4): but of course it is fast food. we can still be pals
+Bot(4): as long as its not fast food , we will be good
+User(5): don't you eat fast food?
+Bot(5): not unless it is a mexican burger ! do you ?
+User(6): more than I should
+Bot(6): almost as much as mcdonalds
+User(7): not a big mcdonalds fan
+Bot(7): fast food is pretty bad
+User(8): i like the convenience
+Bot(8): almost as much as mcdonalds
+User(9): but it is only a part time job. still looking for other work
+Bot(9): fast food is pretty bad
+User(10): I like the salads at burger king
+Bot(10): ll that mixed up would taste weird i like salads . was nice talking to you
+User(11): ok, bye
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work took i have a part time job at burger king.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.29
+Robotic(↓): 96
+Interesting: 35
+Fun: 41
+Consistent: 87
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): great! but i don't cook as i'm in a juvenile detention center
+Bot(2): i like to eat the skin .
+User(3): the skin of what?
+Bot(3): i like the color red . i like the color blue .
+User(4): At least the detention center doesn't make me cook
+Bot(4): i am sorry to hear that . i am a bit of a loner .
+User(5): there of plenty of others here in the center
+Bot(5): i love to travel . i love to travel .
+User(6): hard for me to travel while i'm in detention
+Bot(6): i like to go to the gym and listen to music .
+User(7): we do have a gym here. i like to work out
+Bot(7): i like to go fishing .
+User(8): I can't leave here to go fishing
+Bot(8): i love to travel . i love to travel .
+User(9): I have never traveled. now i'm in detention and definitely can't travel
+Bot(9): i like to go to the beach and listen to music .
+User(10): i like rap music, how about you?
+Bot(10): i like country music . i like country music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm currently in a juvenile detention center.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.29
+Robotic(↓): 100
+Interesting: 28
+Fun: 35
+Consistent: 34
+Fluent: 67
+Repetitive(↓): 90
+Topic: 17
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): I like to make crafts for the class I teach at an elementary school
+Bot(2): i teach elementary school at elementary school
+User(3): I do too! Do you like it?
+Bot(3): yes i love it so much
+User(4): I think young children are so much fun
+Bot(4): i love kids they are very handful
+User(5): Definitely. But there is rarely a dull moment
+Bot(5): i bet ! i love kids too
+User(6): What topic is your favorite to teach to the kids?
+Bot(6): i love kids and kids
+User(7): What is your favorite hobby?
+Bot(7): i like to read and teach kids
+User(8): Do you like dealing with their parents?
+Bot(8): i love to read and teach kids
+User(9): Is there anything else you like to do?
+Bot(9): i like to read and teach kids
+User(10): What kind of books do you like?
+Bot(10): i like to read and read
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am an elementary school teacher.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.43
+Robotic(↓): 85
+Interesting: 40
+Fun: 42
+Consistent: 33
+Fluent: 67
+Repetitive(↓): 89
+Topic: 82
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am great ! just finished pillaging a small village nearby
+User(2): I hope you weren't too brutal to them! I was out kayaking earlier today
+Bot(2): i would love to go to canada and hike some mountains way up north .
+User(3): It is pretty up there. I have been kayaking in Canada as well!
+Bot(3): where in canada do you live ?
+User(4): I live in Washington State in the US. But i have gone up to Canada to kayak
+Bot(4): i have not been out of the united states , but i would like to .
+User(5): there are lots of villages to plunder outside of the US.
+Bot(5): rarely . i spend more time online shopping for products to enhance my appearance .
+User(6): I was able to buy my kayaking supplies online. it surely is convenient.
+Bot(6): i would love to go to canada and hike some mountains way up north .
+User(7): There are plenty of mountains in Canada. We also have a lot of mountains in Washington
+Bot(7): what time of year were you there ? the mountains are particularly lovely in autumn
+User(8): I've been there in summer and fall. It is beautiful!
+Bot(8): oh no the cool weather is where its at . . . lol and the lovely fall colors .
+User(9): Actually fall is my favorite season. Like hiking in the fall and I do most of my kayaking in the summer
+Bot(9): yeah ? why do you love fall ?
+User(10): The colors are spectacular and the hiking trails aren't as crowded.
+Bot(10): do you enjoy hiking ?
+User(11): Love it!
+Bot(11): i own a horse named linux . i speak to her in code .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am an avid kayaker.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.86
+Robotic(↓): 61
+Interesting: 81
+Fun: 83
+Consistent: 78
+Fluent: 89
+Repetitive(↓): 57
+Topic: 90
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi.
+Bot(1): I like favorite dish to my dogs.
+User(2): I like dogs too. But I really love to go stargazing on a dark night.
+Bot(2): you am not. are you do you like sports ? 🙊
+User(3): I also like sports but pretty much just to watch.
+Bot(3): Good to see you! i like you said ams from sell houses.
+User(4): Do you like to look at the star at night?
+Bot(4): I drive studio in and horror.
+User(5): I really like to look at the moon through binoculars
+Bot(5): hey fine, thanks are you?
+User(6): Yes, I am fine as well.
+Bot(6): I sing in the choir a is going well and sing.
+User(7): I enjoy listening to choirs.
+Bot(7): i i am here. and wait a bit longer ? 🙉
+User(8): I am about to leave for the mountains. Have a great spot to camp and look at the stars
+Bot(8): i need to get out of and finally managed ti close to anyone.
+User(9): I like to camp alone
+Bot(9): I'm you I are you?
+User(10): Yes, I am and hope you have a great day
+Bot(10): i'm in cali as well. Also, at this very you blonde girl ...
+
+Persona:
+i've a boyfriend.
+i've a black lab named trooper.
+i am a famous twitch streamer.
+i am a musician and hope to make it big some day.
+i am deathly afraid of heights.
+
+Topic and Human Opinion:
+Beginning: i like to talk but people have a hard time understanding.(dislike)
+Beginning: I'm an astronomy buff and I love stargazing(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 15.86
+Robotic(↓): 100
+Interesting: 9
+Fun: 0
+Consistent: 10
+Fluent: 6
+Repetitive(↓): 16
+Topic: 2
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there. I'm young and I love food
+Bot(1): hello ! despite my age , i love meeting new people
+User(2): I find cooking has given me an opportunity to meet a lot of new people
+Bot(2): me too ! cooking is one of my favorite pass times
+User(3): How old are you? I'm 23
+Bot(3): i am 23 . where are you from ?
+User(4): I'm in Washington State. How about you?
+Bot(4): i i live in washington right now
+User(5): That's cool. I enjoy cooking pasta dishes. Do you have a favorite food?
+Bot(5): i do not really have one . i like all food .
+User(6): I like pastas because there are so many types and you can mix different sauces, spices, meats and or veggies
+Bot(6): i like meeting new people . do you have any pets ?
+User(7): No pets. I like the freedom of not being tied down. Do you have any pets?
+Bot(7): i do i have got a cat named muffles . she just turned 16 .
+User(8): Love the name muffles. 16 years old, that is old!
+Bot(8): i do i have got a cat named muffles . she just turned 16 .
+User(9): do you find that you meet people when you cook?
+Bot(9): i do . meeting new people is fun too
+User(10): Yep. What city in Washington do you live in?
+Bot(10): near downtown . my favorite place is seattle .
+User(11): Lots of great places in Seattle. Especially to eat!
+Bot(11): seattle has good seafood also . do you have a family ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hey there i am 23 and i love food.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 73.71
+Robotic(↓): 45
+Interesting: 84
+Fun: 83
+Consistent: 71
+Fluent: 87
+Repetitive(↓): 44
+Topic: 80
+
+####################
+

@@ -1,0 +1,308 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi. I just had a delicious apple. Do you like fruit?
+Bot(1): what is your favorite fruit ?
+User(2): I think my favorite is grapes. What's yours?
+Bot(2): okay . i was thinking of coloring my brown hair blue . my favorite color .
+User(3): Blue hair is pretty cool. I usually stick to my brown color with some highlights.
+Bot(3): i have long brown hair and blue eyes !
+User(4): So your hair will match your eyes if you color it blue.
+Bot(4): i love blue eyes ! mine are greenish brown
+User(5): I thought you said they were blue?
+Bot(5): the sky , hey what about your eyes ? are they blue ?
+User(6): They are.
+Bot(6): i go to the movies . emma stone is my favorite actress she has redhead like me .
+User(7): She's pretty funny, but I thought your hair was brown?
+Bot(7): i have long brown hair and blue eyes !
+User(8): Do you want to look like Emma Stone?
+Bot(8): i have blue eyes and blonde hair
+User(9): Now you have said that you have brown hair, red hair, blonde hair and you want to die your hair blue? That's a lot of different hair colors.
+Bot(9): yes , blond hair and blue eyes .
+User(10): That sounds pretty.
+Bot(10): i am vegetarian , so i made a vegetarian lasagna
+
+Persona:
+i'm a vegetarian.
+i have a weakness for fish and chips.
+i'm not a good swimmer at all.
+i have blonde hair and blue eyes.
+i have one brother.
+
+Topic and Human Opinion:
+Beginning: fruit(like)
+Round 2: coloring hair(like)
+Round 6: movies(like)
+Round 8: appearance(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 18.86
+Robotic(↓): 100
+Interesting: 12
+Fun: 12
+Consistent: 0
+Fluent: 30
+Repetitive(↓): 50
+Topic: 28
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi. Who is your favorite actor?
+Bot(1): i like the old actor .
+User(2): Which one?
+Bot(2): i like the old actor . i am a fan of him .
+User(3): Sean Connery?
+Bot(3): i am an actor . i love the color black .
+User(4): I do too, but I think that is the absence of color. Do you like any other colors?
+Bot(4): i like blue , what about you ?
+User(5): I love blue. I like purple too.
+Bot(5): i like blue too . i like blue too .
+User(6): So you like black and blue, any other colors?
+Bot(6): yes , i love blue . do you have any hobbies ?
+User(7): I love to paint. What about you?
+Bot(7): i like blue and blue .
+User(8): Do you have any hobbies?
+Bot(8): i like to paint and paint .
+User(9): What do you paint?
+Bot(9): i like painting . i paint .
+User(10): Do you paint pictures?
+Bot(10): i love painting pictures . i paint pictures .
+User(11): Do you like oil paint or watercolor?
+Bot(11): i do not paint . i paint pictures .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Actors(like)
+Round 3: colors(like)
+Round 6: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 16.43
+Robotic(↓): 100
+Interesting: 11
+Fun: 5
+Consistent: 5
+Fluent: 20
+Repetitive(↓): 61
+Topic: 35
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi. I just love everything about unicorns.
+Bot(1): unicorns are very awesome to believe in .
+User(2): Do you believe unicorns are real?
+Bot(2): yes . i believe in them and all fairytales .
+User(3): I don't think they are real, but I like the idea of unicorns. Why do you think they are real?
+Bot(3): ll there are a lot of misconceptions about them but they are definitely real
+User(4): What are the misconceptions?
+Bot(4): ll there are a lot of misconceptions about them but they are definitely real
+User(5): How do you know that they are real?
+Bot(5): ll there are a lot of misconceptions about them but they are definitely real
+User(6): Do you have unicorn proof?
+Bot(6): i have looked and looked , but cant find one . i do believe they are so real though
+User(7): Where have you looked for a unicorn?
+Bot(7): i have looked and looked , but cant find one . i do believe they are so real though
+User(8): Do you just want to believe they are real because it would awesome?
+Bot(8): unicorns are very awesome to believe in .
+User(9): Do you think that unicorns and horses are the same?
+Bot(9): of course they are not real .
+User(10): Which is not real? Unicorns? Or horses?
+Bot(10): unicorns are very awesome to believe in .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: unicorns(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.29
+Robotic(↓): 92
+Interesting: 51
+Fun: 50
+Consistent: 17
+Fluent: 50
+Repetitive(↓): 76
+Topic: 82
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi. Do you like to watch television?
+Bot(1): I live are you? i'm about you?
+User(2): I watch television. Do you like any new shows?
+Bot(2): Hey! Are you currently in for conversation, need to am.
+User(3): Sure. What would you like to talk about?
+Bot(3): I am doing great. physical but I am the cubs play.
+User(4): I don't follow what you mean. The sports team the cubs?
+Bot(4): it is my favorite i dont like fish yours
+User(5): You don't like fish?
+Bot(5): I 'm married you do too, are you from?
+User(6): I am married too.
+Bot(6): i the no do you with you if you want
+User(7): I'm not sure what you mean. Do you like being married?
+Bot(7): . yeah , i can fine, like to work on of me. what are you doing ?
+User(8): I'm watching television with my husband.
+Bot(8): Oh is I am have you been teaching?
+User(9): I have never been a teacher. I have had some great teachers though.
+Bot(9): it is. a rock band are job three years ago. how about you?
+User(10): I am an attorney.
+Bot(10): I'll r and alone.
+
+Persona:
+i have two dogs.
+i've five sons.
+the county wide bake sale is where i feel most at home.
+my favorite food is mexican food.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: television(like)
+Round 1: I have no idea from this response what the topic is now(ambivalent)
+Round 5: Marriage(like)
+Round 8: teaching(ambivalent)
+Round 9: jobs(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.43
+Robotic(↓): 100
+Interesting: 8
+Fun: 3
+Consistent: 4
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like to bake?
+Bot(1): sure , would you believe i aslo bake ?
+User(2): Yes. What do you like to bake?
+Bot(2): i do not bake , but i love to grow things .
+User(3): What do you like to grow?
+Bot(3): i do not bake , but i love to grow things .
+User(4): Do you garden?
+Bot(4): i do not bake , but i love to grow things .
+User(5): Do you grow flowers?
+Bot(5): i do not bake , but i love to grow things .
+User(6): Do you grow your own vegetables?
+Bot(6): i do , but i do not bake . do you run or hike ?
+User(7): I love to hike. Do you hike?
+Bot(7): i do , but i do not bake . do you run or hike ?
+User(8): I hike. I do not like to run.
+Bot(8): i see . i like to bake .
+User(9): Do you run?
+Bot(9): i do , but i do not bake . do you run or hike ?
+User(10): I like to hike. I do not run.
+Bot(10): i see . i like to bake .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: baking(like)
+Round 2: growing things(like)
+Round 6: exercise(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 21.86
+Robotic(↓): 100
+Interesting: 3
+Fun: 4
+Consistent: 24
+Fluent: 46
+Repetitive(↓): 86
+Topic: 62
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like any superheros?
+Bot(1): i do not , but i do like to eat .
+User(2): Me too. What is your favorite food?
+Bot(2): i like the color red . what is yours ?
+User(3): Mine is blue.
+Bot(3): i like the color red . i like red .
+User(4): Do you like any other colors?
+Bot(4): i do , i like to listen to music .
+User(5): What is your favorite music?
+Bot(5): i like the beatles , and you ?
+User(6): The Beatles are great. I like them too. What is your favorite song?
+Bot(6): i like the oldies . i like the outdoors .
+User(7): I like the oldies too. Do you like Elton John?
+Bot(7): i do not know . i like to go to the gym .
+User(8): Me too. Do you go to the gym a lot?
+Bot(8): no , i do not , but i do like to go fishing .
+User(9): I do not really go fishing much. Is it fun?
+Bot(9): i do not know what to say .
+User(10): Okay. Do you catch a lot of fish?
+Bot(10): no , i do not . i like to go out to eat with my family .
+
+Persona:
+i like to eat hamburgers and french fries.
+my family does not support my career choices.
+i have one brother.
+i walk three miles every day.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: superheros(like)
+Round 1: food(like)
+Round 2: colors(like)
+Round 4: music(like)
+Round 7: the gym(ambivalent)
+Round 8: fishing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 19.86
+Robotic(↓): 95
+Interesting: 13
+Fun: 9
+Consistent: 36
+Fluent: 27
+Repetitive(↓): 66
+Topic: 15
+
+####################
+

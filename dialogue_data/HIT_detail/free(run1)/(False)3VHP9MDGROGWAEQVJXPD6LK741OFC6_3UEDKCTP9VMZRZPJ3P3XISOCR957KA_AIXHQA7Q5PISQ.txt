@@ -1,0 +1,291 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): do you have any hobbies ?
+User(2): I have a lot of hobbies, but one of my favorites is video games
+Bot(2): i like video games
+User(3): What type of video games do you like to play?
+Bot(3): video games are my favorite
+User(4): what are yout favorite video games?
+Bot(4): i like video games , but i also play video games
+User(5): Playing video games is always fun, but do you have any other hobbies?
+Bot(5): i like to play video games
+User(6): do you like sports?
+Bot(6): i like to play video games
+User(7): what about baseball?
+Bot(7): i like baseball , but i also play video games
+User(8): yes, I know, but I am now chatting about baseball
+Bot(8): i like baseball , but i also play video games
+User(9): good to know, thank you
+Bot(9): you too , i love baseball
+User(10): i love baseball too
+Bot(10): baseball is my favorite , i also play video games
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: video games(like)
+Round 5: Baseball(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 21.00
+Robotic(↓): 100
+Interesting: 3
+Fun: 2
+Consistent: 21
+Fluent: 50
+Repetitive(↓): 100
+Topic: 71
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you have any hobbies?
+Bot(1): i like to go fishing . i love to go fishing .
+User(2): fishing is great
+Bot(2): i like to go to the gym and listen to music .
+User(3): i like those things too
+Bot(3): i like to go to the gym and listen to music .
+User(4): I really love the melodies and instrumental parts of music
+Bot(4): i like to listen to music .
+User(5): Music is wonderful for the soul
+Bot(5): i love to go fishing .
+User(6): What else do you like to go do?
+Bot(6): i like to go to the park and listen to music .
+User(7): I love playing at the park or having a picnic
+Bot(7): i like to go to the gym and listen to music .
+User(8): Working out is great for both the body and the soul
+Bot(8): i like to go to the gym and listen to music .
+User(9): yes, I am aware
+Bot(9): i am a student , but i am a student .
+User(10): I miss being a student - those were the good days
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: snowboarding(like)
+Round 2: fishing(dislike)
+Round 2: gym and music(like)
+Round 5: fishing(dislike)
+Round 6: park and music(like)
+Round 7: gym and music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 25.71
+Robotic(↓): 93
+Interesting: 4
+Fun: 3
+Consistent: 81
+Fluent: 71
+Repetitive(↓): 100
+Topic: 14
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love to drink
+Bot(1): I have a cat what about you
+User(2): I like cats, but I like dogs better
+Bot(2): I am not. I not working at vegetarian.
+User(3): you not working at vegetarian?
+Bot(3): i'm a woman , but i but my husband is family .
+User(4): What is your husbands name?
+Bot(4): I'm not gon to have an go.
+User(5): Thats cool, I've always wondered its like to be marries
+Bot(5): I like video games that one.
+User(6): video games are so much fun
+Bot(6): i present to cook too. lot of money .
+User(7): cooking is not really my thing, so much clean up
+Bot(7): Hello you move are you?
+User(8): I am good, how are you?
+Bot(8): i wish 🙏 i did love to go to glamorous
+User(9): I wish I did too
+Bot(9): yes , a lot of is am sure you will .
+User(10): Yes, I am sure I will too
+Bot(10): i am glad your happy . do you sounds great! I don't have how are you this evening ? 😅
+
+Persona:
+i don't care about fashion.
+i was born in somalia.
+i love to drink wine and dance in the moonlight.
+i like to dance.
+my favorite ice cream flavor is chocolate.
+
+Topic and Human Opinion:
+Beginning: drinking(like)
+Round 1: cats(like)
+Round 2: vegetarian(dislike)
+Round 3: woman and husband(dislike)
+Round 5: video games(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 20.14
+Robotic(↓): 100
+Interesting: 67
+Fun: 51
+Consistent: 11
+Fluent: 12
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): food is amazing
+Bot(1): food is so so good . it is so bad
+User(2): how can food be good and bad?
+Bot(2): they are probably the same thing on some level
+User(3): but good and bad are not the same thing
+Bot(3): they are probably the same thing on some level
+User(4): What do you like to eat?
+Bot(4): i like a lot of foods
+User(5): What type of food do you like?
+Bot(5): anything like any food really
+User(6): Do you like candles?
+Bot(6): we are not allowed to have candles in my apartment
+User(7): That's a bummer, candles can be very relaxing
+Bot(7): well candles are a good way to do that
+User(8): Yes, indeed they are
+Bot(8): well candles are a good way to do that
+User(9): you are correct
+Bot(9): well candles are a good way to do that
+User(10): You are being very repetitive
+Bot(10): you take forever to respond as well
+User(11): haha this is funny
+Bot(11): food is a kind of art
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: eating(like)
+Round 5: candles(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 67.86
+Robotic(↓): 83
+Interesting: 76
+Fun: 78
+Consistent: 76
+Fluent: 97
+Repetitive(↓): 60
+Topic: 91
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): have you played from a playstation console?
+Bot(1): yes i have a playstation 4 , what about you ?
+User(2): Ohh I have an Xbox, I guess we're enemies
+Bot(2): same
+User(3): you have an xbox and a playstation 4?
+Bot(3): yep
+User(4): that's cool
+Bot(4): yeah they share similar games anyway
+User(5): that is very true
+Bot(5): lol a bromance might be cool
+User(6): hahaha a bromance might be cool if i liked you
+Bot(6): lol a bromance might be cool
+User(7): yeah, but I dont like you
+Bot(7): lol a bromance might be cool
+User(8): I dont want a bromance with you
+Bot(8): lol a bromance might be cool
+User(9): nahh no thank you. You are annoying me
+Bot(9): you take forever to respond as well
+User(10): That is not what I said, but okay
+Bot(10): well because you have not played me
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Playstation(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.57
+Robotic(↓): 76
+Interesting: 60
+Fun: 60
+Consistent: 96
+Fluent: 100
+Repetitive(↓): 58
+Topic: 77
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hell is a hot place
+Bot(1): i do not blame you , i went to law school . super shady
+User(2): how do you like law school?
+Bot(2): i am in sales as a newspaper salesman . there are limited jobs in the country .
+User(3): yes there are
+Bot(3): have you ever almost died ? i nearly did from urinary cancer when i was 18 .
+User(4): I have not, but that is a very triggering question for me
+Bot(4): probably a pony cuz i love my lil pony
+User(5): well that sure is interesting
+Bot(5): so i love drinking tea . are you a tea or coffee person ?
+User(6): i do not really like either
+Bot(6): pizza . and red wine . my favorite drink . a savior .
+User(7): that is a great combination for a relaxing night in
+Bot(7): o yeah life is good , just have to balance and only do what you cn control
+User(8): yes, life definitely needs balance
+Bot(8): heck yea you guys are running around like crazy
+User(9): You're rude
+Bot(9): i am rich , want to pay less taxes , you have a good day too .
+User(10): you too buddy
+Bot(10): i am not your pay , buddy .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hell(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

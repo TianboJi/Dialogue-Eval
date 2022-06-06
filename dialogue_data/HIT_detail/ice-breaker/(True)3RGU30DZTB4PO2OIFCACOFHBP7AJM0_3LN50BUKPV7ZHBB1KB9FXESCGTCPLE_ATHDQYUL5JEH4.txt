@@ -1,0 +1,283 @@
+Feedback: You could use Enter for sending message.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey there , are yu married ?
+User(2): yes and you
+Bot(2): i am getting married tomorrow
+User(3): happy to know that
+Bot(3): come eat at my restaurant then
+User(4): sure
+Bot(4): personal question are you married ?
+User(5): yes
+Bot(5): ok
+User(6): i'm an animal activist.
+Bot(6): i am animal right activist are you
+User(7): me too
+Bot(7): are you an animal activist ?
+User(8): yes
+Bot(8): ok
+User(9): are you vegan
+Bot(9): no i a vegan
+User(10): okay
+Bot(10): ok
+
+Persona:
+i'll be released in about a month.
+i am currently looking for a job preferably at a restaurant.
+i'm married.
+i am a doctor.
+i am a feminist.
+
+Topic and Human Opinion:
+Beginning: i'm an animal activist.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.00
+Robotic(↓): 69
+Interesting: 74
+Fun: 74
+Consistent: 69
+Fluent: 74
+Repetitive(↓): 66
+Topic: 36
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes and you
+Bot(2): i am good and you
+User(3): fine and you
+Bot(3): i am good and you
+User(4): its red with blue stripe so it shiny when i race.
+Bot(4): that is cool i race track track
+User(5): what kind of race
+Bot(5): race track of race track of race track
+User(6): do you like race
+Bot(6): race track of race track . i race track track
+User(7): are you ok
+Bot(7): i race track and race track
+User(8): hi
+Bot(8): i am a race track of race track
+User(9): i think i am done with you
+Bot(9): i am a race track of race track
+User(10): bye
+Bot(10): i am sorry to hear that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: its red with blue stripe so it shiny when i race.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.86
+Robotic(↓): 89
+Interesting: 25
+Fun: 24
+Consistent: 24
+Fluent: 71
+Repetitive(↓): 90
+Topic: 72
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I hope I have not.😄
+User(2): do you like dogs
+Bot(2): it is main transportation is my t even love me
+User(3): how many dogs do you have
+Bot(3): what are you studying? a good got programmer?
+User(4): sceience
+Bot(4): no i am not . then, I think, I regular person .
+User(5): i have three dogs.
+Bot(5): I grew up in or what about you?
+User(6): where do you live
+Bot(6): I am doing great. for a time with chilly here.
+User(7): nice to know that
+Bot(7): You you have a s to your welcome to
+User(8): yes
+Bot(8): yes and really? I'm in female sibling
+User(9): why is that
+Bot(9): That father was fine. like skateboarding.
+User(10): okay bye
+Bot(10): I love to swim, my cats. I college.
+
+Persona:
+i'm a famous twitch streamer.
+i work took i've a part time job at burger king.
+i'm a doctor.
+i am an animal activist.
+i've brown curly hair.
+
+Topic and Human Opinion:
+Beginning: i have three dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.43
+Robotic(↓): 90
+Interesting: 33
+Fun: 30
+Consistent: 30
+Fluent: 75
+Repetitive(↓): 64
+Topic: 20
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): i am good . just devoured a pizza . you ?
+User(3): how many siblings do you have
+Bot(3): yes . i am . do you have any siblings .
+User(4): i have one older sister.
+Bot(4): i am 26 and she is 22 . only one i got but she cant cook .
+User(5): she is 38
+Bot(5): she is only 13 ! ! ! and her hobby is eating cheese , which i hate .
+User(6): adorable
+Bot(6): thanks ! she is my best buddy . i like walking her around new york city where i live .
+User(7): how is new york
+Bot(7): i live about an hour and a half from new york city .
+User(8): you seem genuine
+Bot(8): thanks ! i am saving to visit hawaii beaches . have you ever been ? i never have .
+User(9): i wish to go
+Bot(9): i usually light them on fire right after they are done so i have no pictures . sorry
+User(10): even i don't like to click pictures
+Bot(10): yes everybody shares them with news stations here and becomes florida famous .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have one older sister.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 74.14
+Robotic(↓): 61
+Interesting: 75
+Fun: 79
+Consistent: 85
+Fluent: 83
+Repetitive(↓): 25
+Topic: 83
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): same
+User(3): what is your age
+Bot(3): i am 17 years old
+User(4): how strong are you
+Bot(4): i am a really strong female
+User(5): i'm very strong for my age.
+Bot(5): i am a really strong female
+User(6): what do you do for living
+Bot(6): i am a private investigator . how about yourself ?
+User(7): i work in tech insustry
+Bot(7): what city are you from
+User(8): flint and you
+Bot(8): i am a really strong female
+User(9): what city are you from
+Bot(9): iam from baltimore md what about you
+User(10): do you have siblings
+Bot(10): i do not are you an only child
+User(11): no i have siblings
+Bot(11): who all do you know
+User(12): i have to go
+Bot(12): then go to the city
+User(13): okay bye
+Bot(13): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm very strong for my age.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.14
+Robotic(↓): 63
+Interesting: 71
+Fun: 61
+Consistent: 70
+Fluent: 79
+Repetitive(↓): 28
+Topic: 73
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): fine
+Bot(2): i am a student , but i am a student .
+User(3): do you like music
+Bot(3): i do , i like to listen to music .
+User(4): what kind of music do you listen
+Bot(4): i like country music . i love country music .
+User(5): i like to listen to rock music
+Bot(5): i like to listen to music .
+User(6): do you listen music while working
+Bot(6): i do , i love to go fishing .
+User(7): i like to listen to rock music while working.
+Bot(7): i like to go to the lake and listen to music .
+User(8): so you like fishing
+Bot(8): i do , i love to go fishing .
+User(9): what are your hobbies
+Bot(9): i like to go fishing . i love to go fishing .
+User(10): where do you live
+Bot(10): i live in the midwest . i love to go fishing .
+User(11): which city
+Bot(11): your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to listen to rock music while working.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.71
+Robotic(↓): 79
+Interesting: 60
+Fun: 57
+Consistent: 60
+Fluent: 79
+Repetitive(↓): 70
+Topic: 69
+
+####################
+

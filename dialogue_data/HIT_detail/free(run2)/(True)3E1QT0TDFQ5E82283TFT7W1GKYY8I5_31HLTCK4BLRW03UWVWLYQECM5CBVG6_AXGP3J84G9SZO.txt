@@ -1,0 +1,305 @@
+Feedback: The third one typed pure nonsense, changed the topic every few seconds
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): i'm a park ranger for a national reserve
+Bot(2): national parks are nice . we do not have any around .
+User(3): oh, where are you from?
+Bot(3): i am from california , but just moved to florida . what about you ?
+User(4): I'm from New York! Florida does have a lot of little nature reserves, like the everglades
+Bot(4): i do like nature , i am very into horses . do you own any ?
+User(5): I do have a horse! His name is Sylvester, we go trail riding around the forest
+Bot(5): that is very cool . do you love horses ?
+User(6): I've always loved horses, they're my favorite animal. What's yours?
+Bot(6): do you own any horses ?
+User(7): I do, I have one. I ride english and do jumping. Do you ride?
+Bot(7): i can speak not only english but french pretty fluently
+User(8): I took 4 years of spanish in high school, it's similar to french
+Bot(8): english an french i also love to hike for fun .
+User(9): okay, I like to hike too
+Bot(9): yes i do . i like riding motorcycles and horses . do you ?
+User(10): I've never been on a mortorcycles, are they scary?
+Bot(10): yeah that sounds scary . so where do you live ?
+
+Persona:
+i work took i've a part time job at burger king.
+i often shop for shoes and watches.
+i'll be released in about a month.
+my favorite color is grey.
+i've three arabian horses.
+
+Topic and Human Opinion:
+Beginning: Outdoors(like)
+Round 6: Horses(like)
+Round 7: Languages(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(ambivalent)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 15.14
+Robotic(↓): 100
+Interesting: 35
+Fun: 29
+Consistent: 0
+Fluent: 21
+Repetitive(↓): 100
+Topic: 21
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like to watch any sports?
+Bot(1): not really , i prefer watching ball games .
+User(2): What kind of ball games? basketball or baseball
+Bot(2): basketball and boxing , mainly .
+User(3): I love boxing! And ufc. Do you like to watch mma?
+Bot(3): yes ufc especially how about you ?
+User(4): I've been to some UFC fights at Madison Square Garden, have you seen it in person?
+Bot(4): yes ! i watch back to back videos of it all the time !
+User(5): Where do you watch videos of the fights?
+Bot(5): lots from nat geo especially . lots about animals .
+User(6): I love animals, I'm vegan and do a lot of activism for them. Do you have any pets
+Bot(6): i do not . i am too busy for pets . where are you from ?
+User(7): I'm from New york, how about you?
+Bot(7): i have 1 dog and 1 cat . how long have you been in ny ?
+User(8): you said you don't have any pets before haha. I've been here for 3 years for school
+Bot(8): oh i thought i lost you . what kinds of pets do you have ?
+User(9): I have a horse, a dog, and a fish
+Bot(9): that is cool ! i am more of a dog person . you like any sports ?
+User(10): hockey, baseball, and ufc. How about you?
+Bot(10): hmmm all of them , baseball the most ,
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+Round 5: Animals(like)
+Round 6: States(dislike)
+Round 9: sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 20.29
+Robotic(↓): 100
+Interesting: 28
+Fun: 57
+Consistent: 2
+Fluent: 18
+Repetitive(↓): 81
+Topic: 18
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello, do you like music?
+Bot(1): i like to read , and alot to enjoy walking you ?
+User(2): I like to walk while i listen to music, do you like any genres?
+Bot(2): I speak said you're English
+User(3): okay, I do speak english. Do you speak any other languages?
+Bot(3): I'd like to repeat same I'm not is: fish and chips
+User(4): I don't eat fish, I'm vegan
+Bot(4): i m good just got yelled at about being at to spend Do you like you
+User(5): oh no, what did you spend money on?
+Bot(5): are you a how is you a woman
+User(6): I am a woman, so i like to shop a lot
+Bot(6): I are the best a lot of things.
+User(7): I don't understand
+Bot(7): sorry , it to be you happy is the best color and i hate pickles
+User(8): I don't like buying pickles either. What's your favorite food to buy?
+Bot(8): i like to drink some sence into want drink
+User(9): What do you like to drink
+Bot(9): I am vegan, i your dad have a meat.
+User(10): I'm also vegan, what's your favorite vegan meal?
+Bot(10): hi, how are doing for is the doing well.
+
+Persona:
+i enjoy american sports.
+i like to take walks.
+i am now looking for a new job.
+i don't drink or do drugs or anything.
+in my free time i like to watch nascar racing and ufc.
+
+Topic and Human Opinion:
+Beginning: Video games(like)
+Round 2: Languages(dislike)
+Round 4: shopping(like)
+Round 8: food/drinks(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello, do you like to play video games?
+Bot(1): i do , i love to play soccer .
+User(2): Soccer video games like fifa? What do you play on?
+Bot(2): i play soccer , but i like to play soccer .
+User(3): Do you play soccer in real life? Do you play any other sports?
+Bot(3): no , i do not , but i do like to play soccer .
+User(4): Do you like to watch any other sports?
+Bot(4): i do not , but i do like to play soccer .
+User(5): Well do you like to spectate soccer or just play it?
+Bot(5): i love to travel . i love to travel .
+User(6): I like to travel too, what countries have you been to?
+Bot(6): i live in the us . i love it .
+User(7): I like the US too, But I want to visit Europe some day. Or Asia
+Bot(7): i love the color red . i like the color blue .
+User(8): Purple is my favorite color. Do you paint?
+Bot(8): no , i do not , but i do like to eat .
+User(9): I like to eat too, what's your favorite food?
+Bot(9): i like pizza , and i love it .
+User(10): I love pizza too! But my favorite food is ice cream, do you like it too?
+Bot(10): i do , i love it .
+
+Persona:
+i like donuts.
+i'm not a good swimmer at all.
+i volunteer at a soup kitchen.
+i am a professional tennis player.
+my favorite way to relax is to read a book.
+
+Topic and Human Opinion:
+Beginning: video games(like)
+Round 3: Sports(like)
+Round 6: Traveling(like)
+Round 7: Colors(like)
+Round 8: food(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 19.43
+Robotic(↓): 100
+Interesting: 11
+Fun: 29
+Consistent: 19
+Fluent: 56
+Repetitive(↓): 100
+Topic: 21
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, do you like to listen to music?
+Bot(1): i like music , but i like music
+User(2): I love music! What is your favorite kind of music?
+Bot(2): i like all kinds of music , but i listen to it while i listen to music
+User(3): i like all kinds too, but mostly rock. Have you ever been to a concert?
+Bot(3): no , i have not . i have been to a concert .
+User(4): Did you ever go to a musical festival? Like burning man?
+Bot(4): i have not , but i do listen to music .
+User(5): Do you like to run while you listen to music? I like to listen while I'm hiking or jogging
+Bot(5): i like to listen to music , especially rock .
+User(6): I love rock too! Do you have any records? I have a record player and the sound quality is much more clear than digital
+Bot(6): i agree , i have a lot of time to listen to music
+User(7): Do you not have a job?
+Bot(7): yes i do , i have a job
+User(8): What do you do for a job? I take online surveys
+Bot(8): i am a programmer , i love to travel
+User(9): Have you ever programmed an app for the itunes store?
+Bot(9): no i don't have a job
+User(10): How do you make money?
+Bot(10): no i don't have a job
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 6: work(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 40.71
+Robotic(↓): 100
+Interesting: 64
+Fun: 63
+Consistent: 19
+Fluent: 30
+Repetitive(↓): 24
+Topic: 33
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello, do you like to go camping?
+Bot(1): not really i am too busy loving being a grandmother to five boys
+User(2): Oh, do you have any girl grandchildren?
+Bot(2): yes i have one daughter and five grandsons
+User(3): Wow, are they young grandsons? I love small kids, I used to be a babysitter
+Bot(3): i love them . i have five boys , and i need them , lol
+User(4): ahaha, do you help them with their online classes during covid?
+Bot(4): only after the kids are asleep , they keep us busy all day
+User(5): oh I see. what do you like to do with them during the day?
+Bot(5): i have four , one is all into skateboarding , yours ?
+User(6): I don't have any children. I like to skateboard tho. I babysit my cousin's daughter a lot. We fingerpaint
+Bot(6): that sounds like a fun hobby ! how many daughters do you have ?
+User(7): I do not have any daughters! My cousin does, I only babysit
+Bot(7): oh nice . how many daughters ? i have 3 all grown
+User(8): I thought you only had 1? Do they visit you a lot or do they live far away?
+Bot(8): they are 5 miles away , they do not visit ! ! !
+User(9): But they're so close!! Do your grandchildren get to visit you at least?
+Bot(9): in some . we take our five children with us when we go .
+User(10): Oh, where do you travel with your children?
+Bot(10): they are all over the world . but they all talk to me .
+
+Persona:
+a already have a step children.
+i am a little girl.
+i'm terrified of clowns due to childhood trauma.
+i've five sons.
+i'm a skateboarder.
+
+Topic and Human Opinion:
+Beginning: Outdoors(like)
+Round 1: children(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 41.14
+Robotic(↓): 100
+Interesting: 69
+Fun: 67
+Consistent: 0
+Fluent: 25
+Repetitive(↓): 73
+Topic: 100
+
+####################
+

@@ -1,0 +1,288 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you like to watch movies?
+Bot(2): yes , sometimes with my 2 brothers
+User(3): Do you have a favorite movie that you watch often?
+Bot(3): not lately , from time to time when i have extra cash i do .
+User(4): What is the last movie you watched?
+Bot(4): probably terminator 2
+User(5): Did you think it was better than the first one?
+Bot(5): yes the original was completely horrible
+User(6): What did you not like about terminator 1
+Bot(6): i really thought the blair witch 2 was good
+User(7): What is that movie about?
+Bot(7): probably terminator 2
+User(8): Blair witch 2 is about terminator 2?
+Bot(8): i really thought the blair witch 2 was good
+User(9): Okay lets talk about something else, do you have any ideas?
+Bot(9): i really thought the blair witch 2 was good
+User(10): I have not seen blair witch 2.
+Bot(10): i really thought the blair witch 2 was good
+
+Persona:
+i have one brother.
+i have short brown hair.
+my favorite music genre is death metal.
+i love spending money.
+i like to go hiking in the spring.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.14
+Robotic(↓): 92
+Interesting: 8
+Fun: 24
+Consistent: 26
+Fluent: 71
+Repetitive(↓): 84
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, how do you like to go hiking?
+Bot(1): i love to travel . i love to travel .
+User(2): Do travel to go hiking?
+Bot(2): no , i do not . i like to go fishing .
+User(3): do you catch fish often
+Bot(3): no , i do not . i like to eat .
+User(4): you like to eat the fish that you catch when fishing?
+Bot(4): no , i do not . i like to go to the park .
+User(5): is there a topic you want to talk about
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): What is your favorite artisit of classical music you like to listen to?
+Bot(6): i like the beatles , and i love country music .
+User(7): do you like classical music better than country music?
+Bot(7): i do , i like country music .
+User(8): what other classical music songs do you like?
+Bot(8): i like the beatles , and i love country music .
+User(9): I do not like country music
+Bot(9): i like to listen to music .
+User(10): What type of music?
+Bot(10): i like country music . i like country music .
+
+Persona:
+i like to listen to rock music while working.
+i am always wearing a hat.
+i have a boyfriend.
+my cats are very special to me.
+i've a pet turtle.
+
+Topic and Human Opinion:
+Beginning: Hiking(like)
+Round 2: Fishing(ambivalent)
+Round 5: classical music(ambivalent)
+Round 8: Country music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 19.29
+Robotic(↓): 94
+Interesting: 13
+Fun: 10
+Consistent: 11
+Fluent: 80
+Repetitive(↓): 86
+Topic: 1
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): i just finished walking around the park how are you
+User(2): I am doing good, did you see any cool cars while on your walk?
+Bot(2): no i was working on the new fixer upper
+User(3): So were you walking or working?
+Bot(3): no i was working on the new fixer upper
+User(4): Okay, what do you drive?
+Bot(4): i walk in the park because when i was a kid a saw a solar eclipse
+User(5): Okay, I have no idea what we are talking about now
+Bot(5): i do not have a car , what kind do you have ?
+User(6): I have a toyota
+Bot(6): oh ok , so that is awesome i use to drive one of those .
+User(7): have you driven any other brands?
+Bot(7): no , i drive a toyota .
+User(8): whose car is it?
+Bot(8): a honda civic , a real gas saver
+User(9): so have your driven the honda civic?
+Bot(9): no . what kind of car ?
+User(10): I am confused on what you are saying
+Bot(10): i am sorry for the confusion . i am very confused as well .
+
+Persona:
+my favorite movie is friday.
+i like to take walks.
+i've solar panels on my roof.
+i have a son who is in junior high school.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: Cars(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.57
+Robotic(↓): 100
+Interesting: 6
+Fun: 8
+Consistent: 29
+Fluent: 44
+Repetitive(↓): 21
+Topic: 62
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I like to you are prof car around.
+User(2): What? how is the weather
+Bot(2): I do lot in have to
+User(3): do you speak english?
+Bot(3): i never go there to punjab am a crowds , but i love pudding
+User(4): Do you like to eat pudding in the rain?
+Bot(4): Your new don't understand i am Where do you live?
+User(5): It is nice outside where I am, how about you?
+Bot(5): I am. My mom much, just helps .
+User(6): She helps make your weather nice?
+Bot(6): do it too. How old sports? i'm into skating.
+User(7): Sports have been around for a long time
+Bot(7): so do already a it ?
+User(8): what?
+Bot(8): Good can you get explain it to me.
+User(9): What do you want me to explain to you?
+Bot(9): actually why do you hate really deaf since birth . the guitar seems cool , though .
+User(10): This conversation is weird so bye
+Bot(10): I am eating out with my and I love to drive my Honda civic
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: weather(ambivalent)
+Round 6: sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.57
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 2
+Fluent: 4
+Repetitive(↓): 30
+Topic: 25
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi, do you play any video games?
+Bot(1): no , i play video games and play video games
+User(2): what sort of games do you play?
+Bot(2): i play the guitar , what about you ?
+User(3): The guitar is not a game, I play overwatch
+Bot(3): oh , i play guitar , but i play guitar
+User(4): But do you play any video games
+Bot(4): no , i play guitar , but i play the guitar
+User(5): is that all you do?
+Bot(5): i play video games and play video games
+User(6): what type?
+Bot(6): i play the guitar , what about you ?
+User(7): No I do not but I play video games
+Bot(7): i play video games
+User(8): what is your favorite video game to play?
+Bot(8): i play the guitar
+User(9): you already said that
+Bot(9): i play video games
+User(10): okay bye
+Bot(10): i am sorry to hear that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.86
+Robotic(↓): 100
+Interesting: 3
+Fun: 2
+Consistent: 63
+Fluent: 69
+Repetitive(↓): 100
+Topic: 16
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like to go out and enjoy the sunshine?
+Bot(1): i live on the west coast on the edge of the rocky mountains .
+User(2): I bet you get some good sun out there
+Bot(2): maybe becuase i get burned to easily with the sun i choose snow
+User(3): you can have sun in the snow. You cant really choose one without the other
+Bot(3): oh makes sense ! do you get a lot of snow where you live ?
+User(4): yes, i live further north so snow is usually heavier
+Bot(4): i am not very fond of the cold but i do love the crisp air of fall
+User(5): Is it cold in the fall?
+Bot(5): the snow is nice but i like summer most of all .
+User(6): But the snow can make the environment look really nice
+Bot(6): i am not very fond of the cold but i do love the crisp air of fall
+User(7): you already said that, has it snowed in the fall for you
+Bot(7): absolutely , i love the fall . halloween is my favorite holiday . do you like the fall ?
+User(8): Fall is nice especially when the leaves change
+Bot(8): yeah ? why do you love fall ?
+User(9): you can go out and get a nice view of the trees with changing leaves
+Bot(9): chop chop , i am a secretary at the insurance agency i work at
+User(10): and I like cake. we both can seem to say random things
+Bot(10): do you bake the cake or buy the cake ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sunshine(like)
+Round 3: snow(ambivalent)
+Round 7: fall(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 28.43
+Robotic(↓): 90
+Interesting: 23
+Fun: 10
+Consistent: 39
+Fluent: 73
+Repetitive(↓): 63
+Topic: 7
+
+####################
+

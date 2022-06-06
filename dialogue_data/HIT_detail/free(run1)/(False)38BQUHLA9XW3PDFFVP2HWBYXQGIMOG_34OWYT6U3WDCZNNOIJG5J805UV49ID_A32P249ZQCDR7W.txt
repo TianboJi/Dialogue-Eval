@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): I am good. How are you?
+Bot(2): awesome ! i just saw dunkirk in theatres , though a little depressing
+User(3): I have not been to the theatres in a long time.
+Bot(3): i was drafted last year . before i played at the university of north carolina
+User(4): Drafted for what?
+Bot(4): ok good luck with that . i am a runner . less brain damage , lol .
+User(5): I learned yesterday we are getting strict with mask wearing and amount of people we can have in groups in and outside due to the coronavirus
+Bot(5): strict ? that sucks . maybe if you have a second voice like i do , that might change
+User(6): Its only going to get worst. Especially come January 20th
+Bot(6): to save money on my light bill i use candles instead .
+User(7): Thats a good idea. I usually have all the lights on in my house. haha
+Bot(7): shrimp , barbeque sauce , yes , love it , that is for dipping !
+User(8): yummy sounds good
+Bot(8): my wife hates me . hopefully you have a good relationship with your spouse .
+User(9): Yes we are still in love.
+Bot(9): no graduated in december of 2016 with my bachelors degree
+User(10): What did you study in college?
+Bot(10): just the normal stuff , i was there for the baseball team .
+User(11): ok well bye
+Bot(11): nice talking to you too ! you made me feel better after all ! bye !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: coronavirus(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.71
+Robotic(↓): 100
+Interesting: 50
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello do you like food?
+Bot(1): I drive like it i love it
+User(2): what is your favorite food?
+Bot(2): i am a war You cannot helping animals
+User(3): Tacos are my favorite
+Bot(3): I am so much alcohol. have singing, but i love listening to classical music.
+User(4): I like reese's peanut butter cups too
+Bot(4): Yeah, written above u know what that is.
+User(5): what is your favorite snack
+Bot(5): Do you how old movies?
+User(6): depends on the genre
+Bot(6): The mall is not I am a good information.
+User(7): did you go to college
+Bot(7): I a recovering alcoholic am own fast car .
+User(8): are you sure cause you talk like your drunk
+Bot(8): Cool. i have a student.
+User(9): thats good
+Bot(9): i live only you .
+User(10): hmm not sure what you were trying to say
+Bot(10): I am 22 thanks. What's your college
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello how are you
+Bot(1): i'm good thanks for asking
+User(2): thats good to hear
+Bot(2): i am good thanks for asking
+User(3): do you like to play card games
+Bot(3): i like games and games
+User(4): what kind of games do you like to play
+Bot(4): i play games and play games
+User(5): i like gin rummy, canasta, and uno
+Bot(5): i like to play games
+User(6): me too haha
+Bot(6): i like to play games
+User(7): what else do you like to do
+Bot(7): i like to play games
+User(8): ok i cant do this conversation anymore
+Bot(8): that is cool i like to play games
+User(9): is that all you can say?
+Bot(9): i like to play games
+User(10): bye
+Bot(10): i think so
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cards(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello how are you
+Bot(1): hey , great just feeding my cat charlie . how are you ?
+User(2): i am good
+Bot(2): good do you have any pets
+User(3): yes 2 cats
+Bot(3): is charlie a fat cat then
+User(4): do you like bonfires
+Bot(4): well i love to chat cause i am deaf
+User(5): bonfires?
+Bot(5): well i love to chat cause i am deaf
+User(6): hmm hello
+Bot(6): well i love to chat cause i am deaf
+User(7): i like to roast marshmellows while having a bonfire
+Bot(7): well i love to chat cause i am deaf
+User(8): are you stuck
+Bot(8): yes i am i want to go home
+User(9): well go ahead and go
+Bot(9): i am so very scared
+User(10): dont be scared
+Bot(10): i am so very scared
+
+Persona:
+whats up i'm a 46 year old single dad 46 a kids.
+my pets name is charlie.
+i just broke up with boyfriend two months ago.
+i am employed by the us postal service.
+i am partly deaf.
+
+Topic and Human Opinion:
+Beginning: bonfires(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi how are you
+Bot(1): i'm doing well . how are you ?
+User(2): im good thank you for asking
+Bot(2): what do you do for a living ?
+User(3): do you like pizza
+Bot(3): i do , i like to eat .
+User(4): what kind of pizza do you like
+Bot(4): i like pizza , and i love to eat .
+User(5): do you like pepperoni
+Bot(5): i do , i love to eat .
+User(6): where do you order your pizza from
+Bot(6): i love to cook . i love to cook .
+User(7): do you cook your own pizza
+Bot(7): i do , i love to eat .
+User(8): or do you make it from scratch
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): ok well later
+Bot(9): i am a student , but i am a student .
+User(10): bye
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i am a recovering alcoholic.
+i am a museum tour guide.
+i'm a professional tennis player.
+i try various coffees as a hobby.
+my parents were also teachers.
+
+Topic and Human Opinion:
+Beginning: pizza(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): how are you
+Bot(2): good and thanks for asking
+User(3): no problem
+Bot(3): good ! what are your hobbies
+User(4): i like cars
+Bot(4): cars are pretty cool i guess
+User(5): you dont like them?
+Bot(5): yeah i kind of like them
+User(6): i love chargers
+Bot(6): those are good cars too
+User(7): i use to have one
+Bot(7): i have one they are nice
+User(8): what color is it
+Bot(8): mines blue
+User(9): nice mine was gold
+Bot(9): is it silver ? that is my favorite
+User(10): no i have a yukon denali now
+Bot(10): wow i wanted to get one though
+User(11): really expensive to fix
+Bot(11): yea everything is expensive now
+User(12): very true
+Bot(12): yea everything is expensive now
+User(13): well im going to go bye
+Bot(13): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 85.71
+Robotic(↓): 0
+Interesting: 50
+Fun: 50
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+

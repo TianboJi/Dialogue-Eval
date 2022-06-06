@@ -1,0 +1,289 @@
+Feedback: none.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello how are you?
+Bot(1): i am doing good . i have been out in my garden today . love gardening
+User(2): I wish I liked to garden, I prefer being inside, but I love a beautiful garden.
+Bot(2): yes i love to garden i grow all my own fruits and veggies
+User(3): I bet they taste really good and fresh. I am allergic to the sun, so I prefer to be inside working on projects.
+Bot(3): everything . . chocolate , melon , grass , pollen , bees
+User(4): You grow chocolate?
+Bot(4): wow , i do not really like chocolate
+User(5): I love chocolate, especially with nuts.
+Bot(5): i should learn then . chocolate is my favorite .
+User(6): When it's cold outside and i sit inside by the fire, i love hot chocolate.
+Bot(6): hot chocolate for the food critic . good thing you are not lactose intolerant .
+User(7): No, I am not lactose intolerant, thankfully, how about you?
+Bot(7): consider yourself lucky . steer clear of it . try gouda instead .
+User(8): I like smoke gouda, but not with my hot chocolate. What do you like to eat?
+Bot(8): people chocolate ? never thought of making that . sound very good
+User(9): You are making very much sense. I don't understand people chocolate, what do you mean?
+Bot(9): wow , i do not really like chocolate
+User(10): You said you do like chocolate in a previous text, I guess you changed your mind.
+Bot(10): chocolate is my favorite too . do you like cake ?
+User(11): I love cake and coffee.
+Bot(11): do you bake the cake or buy the cake ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i prefer being inside.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.14
+Robotic(↓): 100
+Interesting: 15
+Fun: 14
+Consistent: 0
+Fluent: 72
+Repetitive(↓): 100
+Topic: 75
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love to wear hats, so I always wear one, how about you?
+Bot(1): i wear boots , i wear boots , i wear boots , i wear boots , i wear boots , i wear boots , wear boots , wear boots , wear boots , wear boots , wear boots , wear boots , wear boots , wear boots , wear boots , wear boots , wear boots , wear boots , wear
+User(2): Boots go good with hats, i like to wear boots too.
+Bot(2): i wear boots , boots are my favorite boots , boots are my boots , boots are leather , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots ,
+User(3): Do you wear shoes too or just boots.
+Bot(3): i wear boots , boots are my boots , boots are my boots , boots are leather , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots
+User(4): I wear hats, hats and more hats.
+Bot(4): i wear boots , boots are my boots , boots are leather boots , boots are my boots .
+User(5): Ok, i guess you like to wear boots. Do you do anything else?
+Bot(5): i do , i wear boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots ,
+User(6): I like to wear hats.
+Bot(6): i wear boots , boots are my boots , boots are leather boots .
+User(7): I wear sun hats, baseball caps, fashion hats, rain hats, all types of hats.
+Bot(7): i wear boots , boots are my boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots , boots ,
+User(8): ok
+Bot(8): i wear a lot of boots , but i wear a lot of boots .
+User(9): is there anything else you want to talk about
+Bot(9): i think i will . i am going to try to wear pink boots .
+User(10): have a great evening.
+Bot(10): i think so . i am going to get a ride to work .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm always wearing a hat.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 77
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i'm allergic to water, it gives me hives.
+Bot(1): oh are you allergic or are you a monkey ?
+User(2): i don't have a monkey
+Bot(2): i had a hamster once . i wish i had a monkey .
+User(3): That's nice, but I am allergic to water how about you?
+Bot(3): i do not but i love monkeys
+User(4): Was your hamster allergice to water?
+Bot(4): i had a hamster once . i wish i had a monkey .
+User(5): Go get yourself a monkey, i hope he's not allergic to water.
+Bot(5): lets sneak him into the star wars movie ! ! !
+User(6): Sure.
+Bot(6): lets sneak him into the star wars movie ! ! !
+User(7): What time?
+Bot(7): 10 22 now . gotta work tomorrow ?
+User(8): Come pick me up.
+Bot(8): are you gonna pick me up ?
+User(9): No, you're going to pick me up.
+Bot(9): are you gonna pick me up ?
+User(10): Lets sneak into that movie.
+Bot(10): i love star wars
+User(11): I like it too.
+Bot(11): i love star wars
+
+Persona:
+i'm a huge star wars fan.
+i've not spoken in three months.
+i've a hat collection of over 1000 hats.
+i am a boy.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: i've an allergy to water.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 30
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have rainbow hair.
+Bot(1): hi there . my hair is the color of wine .
+User(2): I bet it's cool.
+Bot(2): its . just a beautiful and peaceful color .
+User(3): My hair is red, blue, pink, purple and gree.
+Bot(3): that is a cool color
+User(4): Yeah, it looks better than it sounds.
+Bot(4): it is a pretty cool color .
+User(5): Did you color your own hair?
+Bot(5): yes i do it myself and change colors when i want .
+User(6): I color my own hair too.
+Bot(6): i love that . i drink it myself .
+User(7): Do you find it difficult to color your own hair?
+Bot(7): yes , i just can not tell the difference in certain colors .
+User(8): Sometimes it's hard to tell the difference.
+Bot(8): yes , i just can not tell the difference in certain colors .
+User(9): Go out in the sunlight it might make it easier.
+Bot(9): yeah , i guess i should think about that .
+User(10): My hair looks great in the sunlight.
+Bot(10): it is a pretty cool color .
+User(11): Yeah, thanks, I think so too.
+Bot(11): it is a pretty cool color .
+
+Persona:
+i am a recovering alcoholic.
+i am a museum tour guide.
+i'm a professional tennis player.
+i try various coffees as a hobby.
+my parents were also teachers.
+
+Topic and Human Opinion:
+Beginning: i have rainbow hair.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.29
+Robotic(↓): 82
+Interesting: 62
+Fun: 62
+Consistent: 91
+Fluent: 100
+Repetitive(↓): 34
+Topic: 93
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, I study spanish, how about you.
+Bot(1): yes 👍 are you , i looking for a new job
+User(2): Not at the moment.
+Bot(2): i can move in don't know brains
+User(3): What are you talking about>
+Bot(3): my name am in holidays to meet.
+User(4): That's an unusual name, nice to meet you. I'm lucy.
+Bot(4): I am moving in a about you?
+User(5): Moving in where?
+Bot(5): No kids, i am a to watch mistake did boys.
+User(6): I am not moving.
+Bot(6): risd is awesome . if i knew I'm a piano i was artist. what are you doing ?
+User(7): Im watching a movie.
+Bot(7): that's cool , i am a car salesman , and also won got a guy in , so i am not sure .
+User(8): I am in college.
+Bot(8): i am married. Do you gulf coast near new orleans .
+User(9): I am East Coast.
+Bot(9): oh, am are a you school? i am a retired gym coach.
+User(10): I am not married.
+Bot(10): i do own and Juliet, by do you
+User(11): I have a dog.
+Bot(11): I am a not will be about you?
+
+Persona:
+i've a german shepherd named barnaby.
+i'm 60years old.
+i just moved into my first home.
+i am a construction worker.
+i am an animal activist.
+
+Topic and Human Opinion:
+Beginning: one of the languages that i'm currently studying is spanish.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 14
+Repetitive(↓): 25
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, my family doesn't like the job i chose.
+Bot(1): i am sorry to hear that . do you have any hobbies ?
+User(2): I like to paint, how about you?
+Bot(2): i like to go to the gym and listen to music .
+User(3): I like to listen to music also.
+Bot(3): i like to listen to music .
+User(4): I have pets, how about you?
+Bot(4): i have a dog , he is a golden retriever .
+User(5): I have three dogs, all different breeds.
+Bot(5): i love dogs , but i do not have any pets .
+User(6): I love all animals.
+Bot(6): i like dogs too . i love dogs .
+User(7): I'd live on a farm full of animals if i could.
+Bot(7): i do not have any pets , but i do like to go fishing .
+User(8): I don't like to go fishing, but I like to swim.
+Bot(8): i like to go fishing .
+User(9): Some people like fishing.
+Bot(9): i like to go to the lake and listen to music .
+User(10): That's relaxing.
+Bot(10): i like to go to the gym and listen to music .
+User(11): That can motivate you.
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my family doesn't support my career choices.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.43
+Robotic(↓): 100
+Interesting: 56
+Fun: 30
+Consistent: 40
+Fluent: 86
+Repetitive(↓): 27
+Topic: 33
+
+####################
+

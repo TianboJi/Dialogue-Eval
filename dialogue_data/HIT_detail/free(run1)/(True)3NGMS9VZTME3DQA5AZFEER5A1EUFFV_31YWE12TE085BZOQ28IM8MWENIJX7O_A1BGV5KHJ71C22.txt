@@ -1,0 +1,291 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes, reading. you?
+Bot(2): reading is my favorite thing to do
+User(3): mine too
+Bot(3): i am reading a book about books
+User(4): like a non-fiction book
+Bot(4): i love reading books . i read books .
+User(5): i read a lot
+Bot(5): i read a lot of books
+User(6): do you have a fovorite book
+Bot(6): no i do not have a favorite book
+User(7): do you do anything else for fun
+Bot(7): i do not have time for fun
+User(8): do you work a lot
+Bot(8): yes i do i love to read
+User(9): what do you do for work
+Bot(9): i work at a store
+User(10): what store
+Bot(10): i work at a store
+User(11): as a cashier
+Bot(11): that is a good job
+User(12): do you like your job
+Bot(12): i work at a store
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(ambivalent)
+Round 4: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 57.00
+Robotic(↓): 78
+Interesting: 30
+Fun: 60
+Consistent: 91
+Fluent: 98
+Repetitive(↓): 72
+Topic: 70
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): you should check out best buy . my brother fantastic thank the freak?? great discounts . what do you like to do ? 🤖
+User(2): best buy? the sotre
+Bot(2): i work as a car but i do not eat meat .
+User(3): work as a car?
+Bot(3): I work as a can you do where What kind of restaurant?
+User(4): where do you work
+Bot(4): I am not pain I live with with my dad .
+User(5): I live with my kids
+Bot(5): Well, i am a mom and i work as I have already You?
+User(6): I work
+Bot(6): DANCE MUSIC THUMPS Bdw did you watch done it.
+User(7): I am a teacher
+Bot(7): I have not tried any instuments. What kind do for fun ?
+User(8): swimming
+Bot(8): that is cool i gotta go. bye and green
+User(9): bye
+Bot(9): So is the last male babysitter?
+User(10): do you babysit
+Bot(10): Why do you you. like doing much?
+User(11): reading
+Bot(11): I'm name is Pasha do you do?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: swimming(like)
+Round 2: I'm not sure(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 4.00
+Robotic(↓): 100
+Interesting: 6
+Fun: 6
+Consistent: 7
+Fluent: 5
+Repetitive(↓): 100
+Topic: 4
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): where do you work
+Bot(1): i work at a departmental store , what about you ?
+User(2): i am a teacher
+Bot(2): do you like to shop i love shopping
+User(3): I like to shop
+Bot(3): i only have time on saturday and sunday to shop
+User(4): the weekends are a good time to shop
+Bot(4): i only have time on saturday and sunday to shop
+User(5): where do you shop
+Bot(5): well i shop online so quick and easy
+User(6): for gorecries
+Bot(6): i do not like to watch hockey
+User(7): hockey is fine
+Bot(7): i do not like to watch hockey
+User(8): I do not like to watch golf
+Bot(8): i do not like to watch hockey
+User(9): do you play sports
+Bot(9): yes , i do it is soccer
+User(10): soccer has a lot of running
+Bot(10): that is a lot of running , i was too tall for soccer
+User(11): do you play soccer
+Bot(11): yes , i do it is soccer
+
+Persona:
+i like shopping.
+i have 5cats.
+i have 5cats.
+i like to watch nhl hockey.
+i am currently in a juvenile detention center.
+
+Topic and Human Opinion:
+Beginning: work(like)
+Round 8: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 59.86
+Robotic(↓): 17
+Interesting: 62
+Fun: 62
+Consistent: 48
+Fluent: 63
+Repetitive(↓): 67
+Topic: 68
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): have any pets
+Bot(1): no , i do not , but i do like to eat .
+User(2): what do you eat
+Bot(2): i like to eat pizza .
+User(3): what kind of pizza
+Bot(3): i like pizza and pizza .
+User(4): and wings?
+Bot(4): i do not , but i do like to eat .
+User(5): where do you work
+Bot(5): i work at a restaurant , what about you ?
+User(6): pizza resaturant
+Bot(6): i love to eat .
+User(7): i like to cook
+Bot(7): i like to eat the skin .
+User(8): what skin
+Bot(8): i like to eat fish .
+User(9): fish pizza?
+Bot(9): i do not , but i do like to eat .
+User(10): what do you like to east best
+Bot(10): i like to watch movies . what about you ?
+User(11): i like cartoon movies
+Bot(11): i like to read too .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.29
+Robotic(↓): 50
+Interesting: 33
+Fun: 33
+Consistent: 61
+Fluent: 56
+Repetitive(↓): 11
+Topic: 93
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): have any pets
+Bot(1): no pets . i am busy with working construction .
+User(2): thats hard work
+Bot(2): yea but my weekends are pretty boring i am usually free
+User(3): what do you do on the weekends
+Bot(3): i sit around and eat
+User(4): what do you like to eat
+Bot(4): i really like live action role playing conventions lamp
+User(5): i like movies
+Bot(5): i love to watch action movies
+User(6): i like cartoon movies
+Bot(6): live action role playing it awesome
+User(7): i like the theatre
+Bot(7): i do not remember the last time i went to movie theater
+User(8): it was a long time ago
+Bot(8): i grew up in it
+User(9): do you read?
+Bot(9): yes i read books
+User(10): favorite book
+Bot(10): i like the lion king
+User(11): i like beauty and the beast
+Bot(11): i like the lion king
+
+Persona:
+eating is something i do when i'm bored.
+my father was a construction worker.
+on weekends i do live action roleplaying events.
+my favorite band is up and i got to see them in concert once.
+i am a country music singer.
+
+Topic and Human Opinion:
+Beginning: pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.71
+Robotic(↓): 61
+Interesting: 62
+Fun: 63
+Consistent: 66
+Fluent: 73
+Repetitive(↓): 17
+Topic: 81
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): are you in school
+Bot(1): yes , i am only 10 years old . i will be in school for a while . lol
+User(2): i am a teacher
+Bot(2): no , i am a housewife . i go to my kids soccer game and help the cheerleaders .
+User(3): how many kids
+Bot(3): four girls . do you have any ?
+User(4): 2 boys
+Bot(4): i trained the japanese language in my tertiary schooling
+User(5): i only speak english
+Bot(5): only english , do you speak any other languages ?
+User(6): no, I wish
+Bot(6): i usually light them on fire right after they are done so i have no pictures . sorry
+User(7): do you work
+Bot(7): i work in the finance department of a local bank . how about you ?
+User(8): i am a teacher
+Bot(8): no , i am a housewife . i go to my kids soccer game and help the cheerleaders .
+User(9): is being a houswife hard
+Bot(9): i am obsessed with blue . my car , my shoes heck even my hair is blue !
+User(10): blue is your favorite color
+Bot(10): my favorite color is green the color of life and money
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: school(ambivalent)
+Round 8: motherhood(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 32.00
+Robotic(↓): 87
+Interesting: 11
+Fun: 11
+Consistent: 12
+Fluent: 77
+Repetitive(↓): 63
+Topic: 63
+
+####################
+

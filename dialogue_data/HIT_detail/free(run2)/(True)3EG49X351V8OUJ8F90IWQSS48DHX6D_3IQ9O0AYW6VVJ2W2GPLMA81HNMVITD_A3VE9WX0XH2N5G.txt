@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What movies do you you like?
+Bot(1): i love the park and the kids .
+User(2): But those arent forms of movies
+Bot(2): i love movies . i love the park and the kids .
+User(3): It seems you like the park?
+Bot(3): i do not know much about it
+User(4): Then why do you go to the park?
+Bot(4): i do not know much about it . i am on the soccer team .
+User(5): Do you like soccer?
+Bot(5): i do not but i love the park
+User(6): Then why are you on the soccer team?
+Bot(6): soccer , i am on the soccer team .
+User(7): do you like soccer movies?
+Bot(7): i am not sure . i am a soccer player .
+User(8): what position do you play in soccer?
+Bot(8): soccer , soccer , soccer , and basketball . i love it .
+User(9): You like sports i see
+Bot(9): i am not good at it . i am on the soccer team .
+User(10): you love soccer?
+Bot(10): i do not play any sports
+
+Persona:
+i am on the soccer team.
+i have brown curly hair.
+my current goal is to run a k.
+i love new kids on the block.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like sports?
+Bot(1): i like sports and yes do you ?
+User(2): no i hate sports
+Bot(2): i do not like sports at all
+User(3): how about porn?
+Bot(3): i watch whatever is on
+User(4): do you like movies?
+Bot(4): yeah i love movies all kinds
+User(5): How about comedies?
+Bot(5): yeah i like action movies and comedies
+User(6): Do you like music?
+Bot(6): i do , if it is rock or rap .
+User(7): how about metal?
+Bot(7): i like heavy metal music
+User(8): Slayer?
+Bot(8): i prefer death metal music
+User(9): Obituary?
+Bot(9): you work for a funeral home ?
+User(10): on my days off
+Bot(10): i do not work fridays during summer
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Porn(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.86
+Robotic(↓): 29
+Interesting: 78
+Fun: 81
+Consistent: 36
+Fluent: 72
+Repetitive(↓): 19
+Topic: 91
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you believe in heaven?
+Bot(1): i love my new chevy volt ? that is my car . but yes , i love my family .
+User(2): what about hell?
+Bot(2): never heard of it . i will have to find that on you tube . i like alternative music
+User(3): nirvana?
+Bot(3): i am a product of the nineties . metallica , skid row , gnr . all of that .
+User(4): Ever watch the show Saved by the bell?
+Bot(4): it used to be my favorite , but now i have a vegetarian diet .
+User(5): i hear it i love meat
+Bot(5): same ! i love steak the most !
+User(6): a nice bloody steak!
+Bot(6): and i drive a really nice chevy truck ! i have it lifted since i go off roading
+User(7): where do you go off roading?
+Bot(7): anywhere new , anywhere with history , everywhere eventually
+User(8): like straight to hell?
+Bot(8): never heard of it . i will have to find that on you tube . i like alternative music
+User(9): you like youtube?
+Bot(9): is that what you do on youtube ?
+User(10): i do porn
+Bot(10): no i try not to drink any caffeine
+
+Persona:
+i married a super model from italy.
+i've been working since i was sixteen years old.
+i work as a car salesman.
+i do not like chicken.
+i walk three miles every day.
+
+Topic and Human Opinion:
+Beginning: Death(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.29
+Robotic(↓): 38
+Interesting: 67
+Fun: 33
+Consistent: 28
+Fluent: 55
+Repetitive(↓): 28
+Topic: 7
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like coffee?
+Bot(1): i am a coffee fanatic , yes !
+User(2): what kind of cofee do you like?
+Bot(2): take honey daily , but i get allergies when i hear of bees
+User(3): you have a bee allergy?
+Bot(3): no not at all i love bees , what music you like
+User(4): i love death metal
+Bot(4): what state do you live ? are there bees there ?
+User(5): I live in New York .. alot of bees here
+Bot(5): what state do you live ? are there bees there ?
+User(6): i already anserewd that!
+Bot(6): do you dance ? ? i like to dance a lot
+User(7): i hate dancing!
+Bot(7): i actually hate it too
+User(8): you a liar!
+Bot(8): do you want to hear a lie ? ?
+User(9): all day yes!
+Bot(9): ok
+User(10): goodbye
+Bot(10): goodbye friend .
+
+Persona:
+i like to dance.
+i'm an omnivore.
+i am a bee farmer.
+my wife spends all my money.
+i'm a musician and hope to make it big some day.
+
+Topic and Human Opinion:
+Beginning: coffee(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.86
+Robotic(↓): 25
+Interesting: 68
+Fun: 34
+Consistent: 24
+Fluent: 56
+Repetitive(↓): 33
+Topic: 60
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): I do. I am going with my a problem for already love
+User(2): that makes no sense
+Bot(2): I love speak chinese? Cause I been to france in the england.
+User(3): what are you saying?
+Bot(3): Hey! Are not agree with I am.
+User(4): what?
+Bot(4): Hi how are third grade. so yes? you up to tonight?
+User(5): you speak no english
+Bot(5): I am you flirting with have siblings with my latest run. Are you a bee farmer ?
+User(6): bee farmer?
+Bot(6): Hey, you have any other a woman who loves sports.
+User(7): im a man
+Bot(7): I Travelling is a i your favorite animal ?
+User(8): llamas
+Bot(8): he's always wearing a allergic is my online game character . haha
+User(9): link?
+Bot(9): I just got a would you like to at a school.
+User(10): goodbye
+Bot(10): yes , i do it takes don't you go to the gym .
+
+Persona:
+i love wearing skinny jeans and leggings.
+i work in it and have been at the same company for 15 years.
+the holidays make me depressed.
+my dream in life is to work from home.
+since the surgery i have had strange powers.
+
+Topic and Human Opinion:
+Beginning: life(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.43
+Robotic(↓): 100
+Interesting: 4
+Fun: 1
+Consistent: 2
+Fluent: 2
+Repetitive(↓): 1
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you have a baby
+Bot(1): no , i do not , but i do like to go fishing .
+User(2): what has that to do with babies?
+Bot(2): i like to eat fish .
+User(3): do you like fish babies?
+Bot(3): i do , i love them .
+User(4): you eat babies?
+Bot(4): no , i do not . i like to eat .
+User(5): But fish have babies!
+Bot(5): i love the color red . i like the color blue .
+User(6): blue fish?
+Bot(6): i like to go to the gym and listen to music .
+User(7): do you fish like music?
+Bot(7): i do , i like to listen to music .
+User(8): here do you listen to music?
+Bot(8): i do , i like music . what about you ?
+User(9): i hate music!
+Bot(9): i like to go to the lake and listen to music .
+User(10): and drown in them?
+Bot(10): i do not know . i am a big fan of classical music .
+
+Persona:
+i drive a big truck and live in country.
+i am a recording engineer and own my own studio.
+my mom passed away when i was young.
+i've been trying all types of food everywhere i go.
+i go to the gym regularly.
+
+Topic and Human Opinion:
+Beginning: babies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.00
+Robotic(↓): 23
+Interesting: 69
+Fun: 26
+Consistent: 33
+Fluent: 58
+Repetitive(↓): 34
+Topic: 7
+
+####################
+

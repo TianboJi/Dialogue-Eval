@@ -1,0 +1,289 @@
+Feedback: hello 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): good you?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): what kind of dog
+Bot(3): i have a dog and a cat .
+User(4): how old
+Bot(4): i am a student , but i am a student .
+User(5): what time is it
+Bot(5): i like to go to the gym and listen to music .
+User(6): what kind of music
+Bot(6): i like country music . i love it .
+User(7): me too
+Bot(7): i like to go to the gym and listen to music .
+User(8): do you like r&b
+Bot(8): i do , i like to go out to eat with my family .
+User(9): pizza
+Bot(9): i love to eat . i am a bit of a loner .
+User(10): why a loner
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i enjoy building houses.
+i drive a nissan pathfinder.
+i enjoy mowing my lawn on sunny days.
+i like to take walks.
+i am a blonde girl with really short hair.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.29
+Robotic(↓): 98
+Interesting: 50
+Fun: 50
+Consistent: 99
+Fluent: 99
+Repetitive(↓): 98
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i like cars
+Bot(1): i you lilke is not . how are you ?
+User(2): i like cars
+Bot(2): That'S cool. i have to play s radar
+User(3): whats that
+Bot(3): what about you what you like But yesterday to do
+User(4): lost here
+Bot(4): I cat is called book about it.
+User(5): makes no sense
+Bot(5): medalist an you you :)
+User(6): im not sure what you are talking about
+Bot(6): i just love i like a great what are you up to today ?
+User(7): this robot broke
+Bot(7): I am sorry to hear that. great sounds really do mom.
+User(8): can i get a new chat bot
+Bot(8): I park in the tech industry.
+User(9): ok
+Bot(9): I am have a children of a guy
+User(10): you have children
+Bot(10): I like coffee, but I to see you! Do laugh.
+User(11): lol
+Bot(11): I am very musical. bands from your I'm .
+
+Persona:
+i am 13 years old.
+my parents taught me survival skills.
+i like to work on vintage cars.
+i've rainbow hair.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.86
+Robotic(↓): 97
+Interesting: 99
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 2
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hows the weather ?
+Bot(1): oh no the cool weather is where its at . . . lol and the lovely fall colors .
+User(2): its too cold for me
+Bot(2): i am in cali so its hot . i go to uci . where are you from ?
+User(3): i love the weather out there
+Bot(3): oh no the cool weather is where its at . . . lol and the lovely fall colors .
+User(4): its 52out
+Bot(4): feeling the effects of a flu shot but it should be better by tomorrow .
+User(5): no flu shot ..............
+Bot(5): i have always like purple things . what color do you like ?
+User(6): camo
+Bot(6): i build drones for a living , and a lot of people use those in hunting !
+User(7): are you hard to fly
+Bot(7): do you fly for a living ?
+User(8): marketing
+Bot(8): i market for different businesses and am now trying to build my own .
+User(9): sweet i love research
+Bot(9): oh , indeed . designer french fries are my life work . they are my passion .
+User(10): french fries really lol
+Bot(10): i am good how are you i like french fries but i love chicken nuggets
+
+Persona:
+i own a yacht and i rent it out when i'm not using it.
+i now live in the city.
+i love spending money.
+my favorite colors are red and silver.
+spiderman is my favorite.
+
+Topic and Human Opinion:
+Beginning: weather(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.86
+Robotic(↓): 50
+Interesting: 58
+Fun: 62
+Consistent: 33
+Fluent: 98
+Repetitive(↓): 6
+Topic: 31
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): welcome to marketing
+Bot(1): marketing
+User(2): yep lets research
+Bot(2): right i also like marketing .
+User(3): good why is are world a very hateful place to everyone
+Bot(3): because it seems humans are only there to annoy
+User(4): yes
+Bot(4): check out scapegoating on google maybe this is what is happening
+User(5): scapegoating? never heard of it whats it about
+Bot(5): check out scapegoating on google maybe this is what is happening
+User(6): what do you know about it
+Bot(6): check out scapegoating on google maybe this is what is happening
+User(7): easy way out
+Bot(7): check out scapegoating on google maybe this is what is happening
+User(8): i did
+Bot(8): check out scapegoating on google maybe this is what is happening
+User(9): thats all you can say
+Bot(9): check out scapegoating on google maybe this is what is happening
+User(10): same tjhing
+Bot(10): check out scapegoating on google maybe this is what is happening
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: marketing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.43
+Robotic(↓): 3
+Interesting: 0
+Fun: 2
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 2
+Topic: 1
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): what kind of food do you like
+Bot(1): i love food , i am a teacher and have a couple of dogs
+User(2): pizza
+Bot(2): i love pizza , i love it .
+User(3): subs
+Bot(3): i love pizza . i also love to walk dogs for a living .
+User(4): tacos
+Bot(4): i love pizza . i love them .
+User(5): bacon
+Bot(5): i love pizza . i love them .
+User(6): any kind
+Bot(6): i love pizza . i love pizza .
+User(7): all pizza
+Bot(7): i love pizza . i love pizza .
+User(8): taco pizza
+Bot(8): i love pizza . i love pizza .
+User(9): cold pizza
+Bot(9): i love pizza . i love pizza .
+User(10): plan pizza
+Bot(10): i love pizza , i love pizza
+
+Persona:
+i walk dogs for a living.
+i've short brown hair.
+i'm single and with two dogs.
+i work at a school as a kindergarten teacher.
+i have been retired for a years.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.57
+Robotic(↓): 2
+Interesting: 6
+Fun: 4
+Consistent: 3
+Fluent: 3
+Repetitive(↓): 3
+Topic: 3
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you live in a house
+Bot(1): no i live in a huge house
+User(2): two story
+Bot(2): do you like hamburgers , i love them ?
+User(3): yes
+Bot(3): do you like hamburgers , i love them ?
+User(4): what kind
+Bot(4): pizza with pieces of grass
+User(5): grass
+Bot(5): pizza with pieces of grass
+User(6): grass
+Bot(6): pizza with pieces of grass
+User(7): why grass
+Bot(7): really i just like burgers
+User(8): are you a cat
+Bot(8): sometimes
+User(9): wow
+Bot(9): very
+User(10): very weird
+Bot(10): very
+
+Persona:
+i like to eat hamburgers and french fries.
+my favorite food is pizza with black olives.
+i love taking bubble baths.
+i have been traveling the world for a years.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: houses(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.43
+Robotic(↓): 5
+Interesting: 97
+Fun: 15
+Consistent: 9
+Fluent: 3
+Repetitive(↓): 92
+Topic: 0
+
+####################
+

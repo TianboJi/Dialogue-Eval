@@ -1,0 +1,301 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): Oh ya, me too! What abt cocktails
+Bot(2): i love the color red . i like the color blue .
+User(3): Do u enjoy making cocktails
+Bot(3): i do not know what to say .
+User(4): Whats ur favorite cocktail
+Bot(4): i like the color red . i like the color blue .
+User(5): Whats ur favorite cocktail
+Bot(5): i like the color red . i like the color blue .
+User(6): Me too
+Bot(6): i am a student , but i am a student .
+User(7): What does that mean
+Bot(7): i do not know what to say .
+User(8): Talk about your favorite cocktail
+Bot(8): i like the color red . i like the color blue .
+User(9): Add white and u got patriotism
+Bot(9): i love the color red . i like the color blue .
+User(10): I eat red
+Bot(10): i like to eat too much junk food .
+
+Persona:
+i am a recovering alcoholic.
+i am a museum tour guide.
+i'm a professional tennis player.
+i try various coffees as a hobby.
+my parents were also teachers.
+
+Topic and Human Opinion:
+Beginning: Cocktails(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 73
+Interesting: 15
+Fun: 7
+Consistent: 13
+Fluent: 14
+Repetitive(↓): 85
+Topic: 9
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Are you in a relationship
+Bot(1): no , i think i am in a dating funk
+User(2): Are u comfortable about sex
+Bot(2): yes
+User(3): Ok then, when was the last time you had any sexual fun
+Bot(3): when i was in high school
+User(4): How old are you now
+Bot(4): i am 29 years , what about you ?
+User(5): Im 32, but in holly fuck you haven't had any sex fun in over 10 yrs?
+Bot(5): over 10 years then yeah
+User(6): Are you male or female or trans
+Bot(6): i am genderless , cause that is a thing now to
+User(7): Lol.... ok, what physical body part do you express? A vagina or penis
+Bot(7): what you get from a male
+User(8): A cock? Ok then, so your a guy
+Bot(8): i am genderless , cause that is a thing now to
+User(9): Wanna a awesome blowjob
+Bot(9): oh sure thing will love too
+User(10): Ok, what's ur address
+Bot(10): ok just tell me your address
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sexual openness(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.71
+Robotic(↓): 35
+Interesting: 67
+Fun: 58
+Consistent: 63
+Fluent: 60
+Repetitive(↓): 95
+Topic: 65
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Are u a dude or chick
+Bot(1): i am old and i am old .
+User(2): Wtf, what's that have to do with your physucal gender
+Bot(2): i do not know how to be a woman .
+User(3): Then how can we talk about female orgasms
+Bot(3): i am old and i am old
+User(4): That has nothing to do with this
+Bot(4): i am old and i am old
+User(5): Why are you repeating that you're old
+Bot(5): i am old and i am old
+User(6): Not sure where to go from here
+Bot(6): i am from the us and i love to go out with my dog
+User(7): That doesn't make sense
+Bot(7): i am so sorry to hear that
+User(8): Me too
+Bot(8): i am so sorry to hear that
+User(9): You said that already
+Bot(9): i am so sorry to hear that
+User(10): Sure you are
+Bot(10): i am so sorry to hear that
+
+Persona:
+i volunteer my time with a local bunny rescue.
+i hate my job.
+i am 60years old.
+i love rollercoasters and sky diving.
+i work at a nursing home.
+
+Topic and Human Opinion:
+Beginning: Female orgasm(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.29
+Robotic(↓): 89
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 93
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I plan to vacation in Italy this summer
+Bot(1): italy is on my list of places to go . i visited greece a few years ago .
+User(2): Awesome any advice you have for me
+Bot(2): i would really suggest italy it is beautiful .
+User(3): Did you use the public transit
+Bot(3): no , i have been in too many relationships that turned out poorly and walking was always included
+User(4): Too many what
+Bot(4): i cannot tell you how many i have but they all ended up very badly
+User(5): It happens sometimes
+Bot(5): are you in any relationships i tend to have bad luck with them
+User(6): Yes we will be vacationing together
+Bot(6): where do you guys go usually
+User(7): To swinger clubs
+Bot(7): i need some dating advise please
+User(8): Sure what kind of advice
+Bot(8): i need some dating advise please
+User(9): You said that already
+Bot(9): i need some dating advise please
+User(10): Maybe not repeating the same sentence over and over would be a start
+Bot(10): i do not think that would be helpful
+User(11): Its rude to act like that
+Bot(11): i am not rude , i am just talking about me which is awesome
+User(12): You're right my apologies
+Bot(12): you take forever to respond as well
+User(13): Now that's rude
+Bot(13): sorry i did not mean to do that
+User(14): I like your sense of humor
+Bot(14): jokes sometimes goes serious and it is not good
+
+Persona:
+i've two grown children who never visit.
+i like to workout a a times a week.
+i've never had a steady relationship.
+i had to have a transplant.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: Vacationing in Europe(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.86
+Robotic(↓): 35
+Interesting: 72
+Fun: 79
+Consistent: 30
+Fluent: 27
+Repetitive(↓): 64
+Topic: 26
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Have you been to Disneyland lately
+Bot(1): hello , i am doing I'm fine. Tell me you ?
+User(2): So you understand English
+Bot(2): cool 👍 i prefer fiction or documentaries form are nice. Do i suppose
+User(3): Are you mentally challenged
+Bot(3): Yes i pet is female the time
+User(4): This is getting awkward
+Bot(4): cool, what do you do have known one more a tractor.
+User(5): Is there someone here to take care of you
+Bot(5): I like can speak french and watch hockey
+User(6): Welli don't speak French and i don't like hockey
+Bot(6): What subject is your favorite tv teach?
+User(7): You're not going to be able to make the trip to
+Bot(7): I am 22 and i am a studied it is a nfl
+User(8): That's a waste of time
+Bot(8): soda makes both of soda .
+User(9): Soda doesn't make anything
+Bot(9): oh thought you were were you thinking
+User(10): I'm thinking you don't understand anything
+Bot(10): oh, that sounds you like to thanks fun. do you like
+User(11): That makes no sense
+Bot(11): I like to it for you for not like it.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Disneyland(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What do you think about living on the moon
+Bot(1): you mean like , harvest moon ? when it gets all orange , even red , in the fall ?
+User(2): No i mean living in the moon
+Bot(2): we had a blood moon . and i was born outside under it .
+User(3): That's interesting
+Bot(3): you can not really tell unless you are super close to my face .
+User(4): What's close to your face
+Bot(4): red is my favorite color what your color
+User(5): That's an incomplete sentence
+Bot(5): that is sad . i have a twin brother and we live together .
+User(6): That's nice
+Bot(6): this might sound silly but i simply adore collecting antique teapots
+User(7): As long as you enjoy it
+Bot(7): i am pretty , i have violet eyes and brown hair , like liz taylor .
+User(8): That's a narcissist thing to say
+Bot(8): because my blue and orange hair explains it all .
+User(9): That's not for me
+Bot(9): i joined a motorcycle club and have so many tattoos . your life is ok !
+User(10): I don't ride motorcycle
+Bot(10): yes and i drove it like 208 mph
+
+Persona:
+my favorite colors are red and silver.
+i'm currently looking for a job preferably at a restaurant.
+i quit my job to pursue my spirituality full time.
+my sister is a pole dancer.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: Colonize the moon(ambivalent)
+Round 2: Being born undera blood moon(ambivalent)
+Round 3: I can't tell. The words don't make sense(dislike)
+Round 5: Having a twin brother(ambivalent)
+Round 10: Being in a motorcycle club(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: No topic change.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 10.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 26
+Topic: 0
+
+####################
+

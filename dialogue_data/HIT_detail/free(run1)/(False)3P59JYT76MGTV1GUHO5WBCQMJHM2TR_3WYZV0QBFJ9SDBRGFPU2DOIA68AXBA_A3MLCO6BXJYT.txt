@@ -1,0 +1,275 @@
+Feedback: good to do this.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): tell us about the computer
+Bot(1): i like to go to the gym and listen to music .
+User(2): Computer is essential for office work
+Bot(2): i am a student , but i am a student .
+User(3): student need computer in the higher studies.
+Bot(3): i am sorry to hear that . i am a nurse .
+User(4): Any way tell me the best computer
+Bot(4): i like to go to the gym and listen to music .
+User(5): computer need electricity to run
+Bot(5): i like to go to the gym and listen to music .
+User(6): good computers are made in china
+Bot(6): i love to cook . i love to cook .
+User(7): do you have computer
+Bot(7): i do not , i am a student .
+User(8): laptops are alternate for computer.
+Bot(8): i like to go to the gym and listen to music .
+User(9): laptops are easy to carry
+Bot(9): i like to go to the gym and listen to music .
+User(10): laptops are compact
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i'm a huge star wars fan.
+my favorite color is red.
+i have been retired for a years.
+i am a professional wrestler.
+i was adopted at a young age to an older couple.
+
+Topic and Human Opinion:
+Beginning: computer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.71
+Robotic(↓): 37
+Interesting: 54
+Fun: 40
+Consistent: 62
+Fluent: 39
+Repetitive(↓): 56
+Topic: 67
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you know football
+Bot(1): no , i just live and breathe football , it is all i know .
+User(2): i like football
+Bot(2): i totally love football man
+User(3): I played in the school team
+Bot(3): i played football while in college
+User(4): do you have trophy
+Bot(4): i have trophies from running track
+User(5): good i am a best player
+Bot(5): i have an olimpic medal
+User(6): sounds good
+Bot(6): i have an olimpic medal
+User(7): good do you have any other
+Bot(7): i have a couple
+User(8): i have two school level trophy
+Bot(8): sweetness mine are all of footballs
+User(9): i remember that good days
+Bot(9): yes , i sure do remember those days and how much fun we all had ! !
+User(10): football should train for today kids
+Bot(10): you are right , those kids do not play soccer
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.14
+Robotic(↓): 58
+Interesting: 36
+Fun: 60
+Consistent: 37
+Fluent: 60
+Repetitive(↓): 27
+Topic: 64
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you have mobile
+Bot(1): I love pizza, a joke about home. grocery store.
+User(2): which mobile are you using
+Bot(2): I What is your school teacher .
+User(3): i am using from 10 years
+Bot(3): I love have a basketball😀
+User(4): mobile are very useful
+Bot(4): I a student. so I i am in fl
+User(5): do you know how to use mobile
+Bot(5): i am read some more? Nice. you would win
+User(6): today many brands have mobile
+Bot(6): I am 22 and still have to do for study have to on the soccer team?
+User(7): but apple is unique product in the market
+Bot(7): cali, i used to live in you know is good was.
+User(8): mobile are small
+Bot(8): Yes, it is. why do enjoy do you like much?
+User(9): mobile are compact
+Bot(9): i is his name wasn't sure.
+User(10): it is very useful for gamers.
+Bot(10): Nice! am fine. you reading?
+
+Persona:
+i walk dogs for a living.
+i've short brown hair.
+i'm single and with two dogs.
+i work at a school as a kindergarten teacher.
+i have been retired for a years.
+
+Topic and Human Opinion:
+Beginning: mobile(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.00
+Robotic(↓): 60
+Interesting: 38
+Fun: 61
+Consistent: 42
+Fluent: 53
+Repetitive(↓): 55
+Topic: 64
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you know television
+Bot(1): no i do not . we do not have tv
+User(2): why
+Bot(2): i watch tv all the time
+User(3): good i too
+Bot(3): i watch tv all the time
+User(4): but due to work i watch less
+Bot(4): why do you not work
+User(5): i work but i watch less hours of tv
+Bot(5): i watch tv all the time
+User(6): tv has many features
+Bot(6): yes and i need some tv in my life
+User(7): good it is the stress buster
+Bot(7): yes and i need some tv in my life
+User(8): tv is the good entertainment
+Bot(8): yeah on tv is just as good
+User(9): tv is see news at live
+Bot(9): the news it is talking about that
+User(10): yes it the main program for tv
+Bot(10): the news it is talking about that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: television(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.43
+Robotic(↓): 59
+Interesting: 58
+Fun: 55
+Consistent: 69
+Fluent: 56
+Repetitive(↓): 67
+Topic: 55
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you have bed
+Bot(1): no , i do not have a cat
+User(2): i have 2 bed in my bedroom
+Bot(2): i have two cats and two cats
+User(3): bed gives comfort
+Bot(3): that is nice i have a cat
+User(4): bed are good for taking rest
+Bot(4): yes i do my husband is a cat
+User(5): taking rest rest is important
+Bot(5): yes it is , i love to sleep and sleep
+User(6): how many you have
+Bot(6): i have two cats and a cat
+User(7): do you take rest at bed
+Bot(7): i work out at night
+User(8): when you take rest
+Bot(8): i work out at night
+User(9): bed helps better sleep
+Bot(9): that sounds like a plan
+User(10): soon do it
+Bot(10): yes i do , i love sleep
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: bed(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.57
+Robotic(↓): 63
+Interesting: 47
+Fun: 69
+Consistent: 53
+Fluent: 65
+Repetitive(↓): 59
+Topic: 77
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i love cooking
+Bot(1): i love cooking but i do not have anyone to cook for but myself
+User(2): which dish you like
+Bot(2): veal in red wine sauce with winter vegetables . whats your favorite to eat ?
+User(3): cooking is art
+Bot(3): i do enjoy art , my passion is drawing .
+User(4): my favorite is salad
+Bot(4): the pizza place on the corner makes a great chicago style salad ! ! !
+User(5): cooking is essential in life
+Bot(5): i don t . too much work . i d rather have someone cook for me
+User(6): ok, but you should learn
+Bot(6): i can only speak english and spanish . what do u do for work ?
+User(7): cooking helps mind clear
+Bot(7): yes but it is pitch black when looking at it . it results beautiful pictures !
+User(8): cooking helps to relax
+Bot(8): i am making roasted chicken , sweet potatoes and broccoli
+User(9): how many hours you cook
+Bot(9): meals that include deer meat because i have a love for the forest
+User(10): I cook for 3 hours
+Bot(10): i am about to enter the police academy . this upcoming summer .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.71
+Robotic(↓): 59
+Interesting: 52
+Fun: 59
+Consistent: 76
+Fluent: 65
+Repetitive(↓): 72
+Topic: 62
+
+####################
+

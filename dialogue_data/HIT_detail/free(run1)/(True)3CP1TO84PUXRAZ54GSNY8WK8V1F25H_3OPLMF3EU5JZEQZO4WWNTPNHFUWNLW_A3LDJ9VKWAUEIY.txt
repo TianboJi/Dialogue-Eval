@@ -1,0 +1,281 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): Are you hungry?
+Bot(2): yes
+User(3): We should go to eat.
+Bot(3): what shall we have to eat ?
+User(4): I'm not sure. What do you want?
+Bot(4): i do not know . whatever i want . maybe chicken
+User(5): Chicken would be good. Do you know a good chicken restaurant?
+Bot(5): i do . there are tons of places to eat around here .
+User(6): Awesome. Any place in particular?
+Bot(6): it really varies but most times we get italian .
+User(7): But what place should we go for chicken?
+Bot(7): i do not know . . . maybe pizza ?
+User(8): You said you wanted chicken.
+Bot(8): yes , i am getting hungry now .
+User(9): Where should we go?
+Bot(9): hmm i do not know . do you want to take me to eat ?
+User(10): Yes, that's what I was saying.
+Bot(10): do we get some tacos ?
+User(11): Not now. Maybe later. See you!
+Bot(11): what shall we have to eat ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Restaurants(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.71
+Robotic(↓): 100
+Interesting: 9
+Fun: 8
+Consistent: 7
+Fluent: 36
+Repetitive(↓): 70
+Topic: 13
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hey
+Bot(1): I close do not what you? it is my favorite. I love to walk
+User(2): Do you want to see a movie?
+Bot(2): So you studying to girl?
+User(3): What?
+Bot(3): hi! i just feel about my my run!
+User(4): Do you want to see a movie?
+Bot(4): I grew up my ride sometimes, its to germany
+User(5): I am confused.
+Bot(5): You are want sell me like music?
+User(6): I asked if you liked movies.
+Bot(6): yeah , i know . i am might be on the means .
+User(7): What do you mean?
+Bot(7): i can not say Maby it's just because sure youre correct .
+User(8): Huh?
+Bot(8): Pretty good. Just got done old are nice, do you in the third grade?
+User(9): Can we talk about movies?
+Bot(9): I am great. I know English and russiun a vet
+User(10): Goodbye.
+Bot(10): I economist, shopping.😄
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 13
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey, it's a beautiful day. Let's go to the park.
+Bot(1): nice ! i was just at the park earlier playing soccer with my friends
+User(2): Yeah? How was the weather?
+Bot(2): no prefer warm weather . are you married ?
+User(3): How was the weather at the park?
+Bot(3): rainy cold and feels like winter is breathing down the hills
+User(4): Ah, I understand. Were there many people at the park?
+Bot(4): maybe you see me there ? i draw and drink dr pepper all day
+User(5): I thought you went to the park to play soccer.
+Bot(5): that is cool ! ! are you on a soccer team ?
+User(6): I'm not. But you are?
+Bot(6): playing a pickup football game later . might walk my dog at some point .
+User(7): Are there many trees at the park?
+Bot(7): chop chop , i am a secretary at the insurance agency i work at
+User(8): Are there many trees at the park?
+Bot(8): i am wiccan , i love nature and trees .
+User(9): But what about the park? Are there many trees there?
+Bot(9): there sure are ! bright reds , vibrant yellows and orange .
+User(10): That sounds beautiful. I will have to go sometime. Bye!
+Bot(10): i like goobers and popcorn with soda , do you ?
+
+Persona:
+i am interested in photography and like taking pictures.
+i am married to a doctor.
+i am on the soccer team.
+i don't drink soda.
+my favorite color is grey.
+
+Topic and Human Opinion:
+Beginning: Parks(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 38
+Fun: 8
+Consistent: 8
+Fluent: 25
+Repetitive(↓): 79
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey, how is school going this year?
+Bot(1): i went to college , i was a nurse .
+User(2): Ah, okay. I didn't know you were out of school already. I bet you had to study a lot to be a nurse.
+Bot(2): i do not know what to say .
+User(3): Did you have to study a lot to be a nurse?
+Bot(3): no , i am a student . i love to cook .
+User(4): I thought you already graduated. Are you going back to school?
+Bot(4): i do not know what to say .
+User(5): Are you a student now?
+Bot(5): no , i am a student . i love to cook .
+User(6): What are you learning?
+Bot(6): no , i am not . i am a student .
+User(7): Do you like being a student?
+Bot(7): i am a student , but i am a student .
+User(8): What are you studying?
+Bot(8): i am a student , i am a teacher .
+User(9): You are a teacher too?
+Bot(9): no , i do not . i am a student .
+User(10): I am confused. Goodbye.
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: School(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey, did you see the football game the other night?
+Bot(1): no , i am not much of a football fan .
+User(2): I understand. Neither am I. Are there sports you like?
+Bot(2): i like to go hiking with my dog .
+User(3): That's great. What other sports?
+Bot(3): i like to go hiking with my dog .
+User(4): Are there other sports you like?
+Bot(4): i like sports and sports .
+User(5): What kind of sports do you like?
+Bot(5): i like sports and sports
+User(6): Do you play any sports?
+Bot(6): i like to play soccer
+User(7): Do you watch soccer on tv too?
+Bot(7): i do not really watch sports
+User(8): When did you start playing soccer?
+Bot(8): i like to play soccer
+User(9): Have you played soccer for a long time?
+Bot(9): i played soccer for years . i love it .
+User(10): That's great! Do your friends play soccer too?
+Bot(10): yes , i play soccer and play soccer
+
+Persona:
+i am a 56 year old woman.
+i enjoy long walks with my dog.
+i'm on the soccer team.
+i like to go hiking in the mornings to see the sunset.
+i have a pet fish.
+
+Topic and Human Opinion:
+Beginning: Sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.71
+Robotic(↓): 100
+Interesting: 23
+Fun: 28
+Consistent: 26
+Fluent: 36
+Repetitive(↓): 88
+Topic: 41
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey, do you play an instrument?
+Bot(1): do you ? nah i do not i am active i play ball .
+User(2): I play the piano. Do you like to listen to music?
+Bot(2): not really , i prefer watching ball games .
+User(3): You don't listen to any music?
+Bot(3): i do not . what kind of music do you like to listen to ?
+User(4): I like to listen to classical music. Have you heard it before?
+Bot(4): no but i enjoy listening
+User(5): I thought you didn't like to listen to music.
+Bot(5): that is ok . what kind of music do you like ? and i do
+User(6): I like classical music.
+Bot(6): i also really enjoy classical .
+User(7): That's wonderful. Do you go to concerts sometimes?
+Bot(7): i do when i get a chance weather is changing .
+User(8): Have you ever been to an outdoor concert?
+Bot(8): a few . i like to go to concerts with my friends .
+User(9): That's wonderful. Do your friends like music too?
+Bot(9): some , but i enjoy listening to music most .
+User(10): That's great. Take care!
+Bot(10): thank you . you do as well .
+
+Persona:
+i help tend the fields.
+i currently work for a watch dealer.
+i enjoy sports such as running.
+i also work as a custodian to help pay the bills.
+whats up i'm a 46 year old single dad 46 a kids.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.43
+Robotic(↓): 48
+Interesting: 58
+Fun: 59
+Consistent: 40
+Fluent: 54
+Repetitive(↓): 24
+Topic: 84
+
+####################
+

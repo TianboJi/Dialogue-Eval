@@ -1,0 +1,281 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes, watching movies
+Bot(2): i watch movies on tv
+User(3): i too, which kind of movies you watch
+Bot(3): i watch movies mostly
+User(4): i like to watch horror movies much
+Bot(4): i watch movies mostly movies
+User(5): have went to tour to any place.
+Bot(5): i like to watch movies
+User(6): have you gone to tour anywhere?
+Bot(6): no , i have never been to europe
+User(7): have you been to paris?
+Bot(7): no , i have never been to paris
+User(8): do you want to visit disney land?
+Bot(8): i have never been there . i have been there since i was a kid
+User(9): do you like to travel in car , bus , train or flight/
+Bot(9): i have been to paris , but i have never been there
+User(10): do you like to travel in car , bus , train or flight?
+Bot(10): i have been to paris , but i have never been there
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tour(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.43
+Robotic(↓): 15
+Interesting: 16
+Fun: 24
+Consistent: 25
+Fluent: 29
+Repetitive(↓): 32
+Topic: 8
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like non veg foods?
+Bot(1): i do i have beautiful dogs - Carrie the cooking
+User(2): do you eat hot dog?
+Bot(2): yes, i think it is very important. very american 's are bee.
+User(3): Do you like to have snacks?
+Bot(3): my father is from like to eat chocolate the human field. how about you?
+User(4): Yes, i too like chocolates. do you like Chinese foods ?
+Bot(4): oh, cool. i work dog quite an parlor.
+User(5): which is your favorite restaurant?
+Bot(5): that's cool , i am a teacher , favotite also doing where teacher , so i have been in the us .
+User(6): do you love to cook?
+Bot(6): that's cool , i am in the basement , and i am a I've just cooked i am a housewife .
+User(7): do you eat veg ?
+Bot(7): that take my are male wish i had more family
+User(8): what is your favorite dish ?
+Bot(8): No, say so graduated college.
+User(9): I like to have spicy foods . What about you ?
+Bot(9): yeah am good great scales
+User(10): Ice- creams are my favourite. Do you like ?
+Bot(10): I do, but eating every do play football
+User(11): I like chocolate flavor in ice cream. Which one is your favorite flavor ?
+Bot(11): i went to louisville and nurse moved recently from business . how is it going today ? 🤖
+
+Persona:
+i faint at the sight of blood.
+i fantasize about taking over the world.
+i drive a mini van.
+i have five sons.
+i am a musician and hope to make it big some day.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.00
+Robotic(↓): 15
+Interesting: 10
+Fun: 16
+Consistent: 21
+Fluent: 37
+Repetitive(↓): 85
+Topic: 5
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): were do you work ?
+Bot(1): i do , i work at a grocery store .
+User(2): How is your work, easy or difficult ?
+Bot(2): i work at a restaurant , so i do not have to work .
+User(3): What is your salary ?
+Bot(3): no , i do not . i am a big fan of classical music .
+User(4): What is your passion job that you want to do or have ?
+Bot(4): i do not know , i am a student
+User(5): Are you having any idea for starting your own business ?
+Bot(5): no , i do not . i am a student .
+User(6): Do you wish to study for higher education or go for a job ?
+Bot(6): i work at a restaurant , and i love to cook .
+User(7): What is the major reason you need a job ?
+Bot(7): i do not , but i do like to eat .
+User(8): you have a full time job or part time job?
+Bot(8): i work at a restaurant , what about you ?
+User(9): i work in a company as a salary worker.
+Bot(9): that is awesome . i am a teacher .
+User(10): that's great! how many year of experience do you have in this field ?
+Bot(10): i went to college , i was a nurse .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: job(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.86
+Robotic(↓): 13
+Interesting: 15
+Fun: 16
+Consistent: 10
+Fluent: 13
+Repetitive(↓): 76
+Topic: 9
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): how many friends do you have ?
+Bot(1): lets just say that with friend , i do not have many
+User(2): do you trust them ?
+Bot(2): i trust most people they are good
+User(3): do they really give importance to you ?
+Bot(3): sure , we have a lot of trust in our relationship so we have friends , do you
+User(4): have you ever went to an international tour with your friends ?
+Bot(4): no , have you traveled any where ?
+User(5): yes , but not outside of our nation.
+Bot(5): how about just 1 friend ?
+User(6): no, i have many friends.
+Bot(6): i travel a lot and i make friends along the way .
+User(7): How many hours per day you spend time with them ?
+Bot(7): sometimes along , sometimes i travel with friends .
+User(8): how many boy and girl friends do you have ?
+Bot(8): lets just say that with friend , i do not have many
+User(9): what is your friend name ?
+Bot(9): my friends do not call me by my real name .
+User(10): how many dollar per month do you spend for your friend ?
+Bot(10): it depends on who you share one with .
+User(11): do you have received any gift from your friend ?
+Bot(11): no , have you traveled any where ?
+User(12): do you have surprised your friend ?
+Bot(12): i have not spoken to them in years .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: friends(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.00
+Robotic(↓): 37
+Interesting: 19
+Fun: 24
+Consistent: 17
+Fluent: 28
+Repetitive(↓): 66
+Topic: 18
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): are you following the instruction given by the government ?
+Bot(1): me i cannot make any rule for myself am only there to obey already made ones .
+User(2): are you washing your hands frequently ?
+Bot(2): yes
+User(3): do wear a mask while going out ?
+Bot(3): me i cannot make any rule for myself am only there to obey already made ones .
+User(4): How often do you go out a day ?
+Bot(4): every lunch time every day if that is enough .
+User(5): do you shop online or just go straight ?
+Bot(5): i always shop online .
+User(6): are you following the social distance with the society members and family members ?
+Bot(6): yes lots of places online these days .
+User(7): do read or watch news on covid- 19 ?
+Bot(7): rarely . i spend more time online shopping for products to enhance my appearance .
+User(8): do you keep updated yourself on what is happening around our nation ?
+Bot(8): absolutely . i have been watching the news closely .
+User(9): any of your family member diagnosed with covid- 19?
+Bot(9): thankfully i have not , and i hope you were not affected either .
+User(10): did you took a test ?
+Bot(10): no . do you like to shop online ? it is an addiction to me .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: covid -19(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.29
+Robotic(↓): 14
+Interesting: 25
+Fun: 20
+Consistent: 21
+Fluent: 22
+Repetitive(↓): 84
+Topic: 8
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what do you think about money ?
+Bot(1): i am comfortable . but my boyfriend makes much more as a lawyer .
+User(2): do you want to earn money more ?
+Bot(2): just think we should all clean our own houses . build furniture .
+User(3): do you feel it is more important than human or other living organisms ?
+Bot(3): so don t worry about being a woman with thinning hair . at least you can wear heels
+User(4): if i give you $1000 , what would you do ?
+Bot(4): i would probably be a famous tennis player , like my mom . if i could .
+User(5): have you saved any amount for your future ?
+Bot(5): wow ! big family ! any children ?
+User(6): do your have a saving account ?
+Bot(6): for who the kids ? some of them already went an graduated
+User(7): have you done insurance ?
+Bot(7): we bought flood insurance when we renewed our policy earlier this year .
+User(8): have you donated your amount to any organisation ?
+Bot(8): no , there are many young children there to play with him .
+User(9): do you wish to spent money for the welfare of poor ?
+Bot(9): because i want to be a football player when i get older
+User(10): how much do you spend a month on shopping ?
+Bot(10): i am looking at some new fishing lures and poles . i love to fish .
+
+Persona:
+i'm a skateboarder.
+i am a professional tennis player.
+i've amazing children and grandchildren.
+i drive a ford pinto.
+i live with my husband in pennsylvania.
+
+Topic and Human Opinion:
+Beginning: money(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.14
+Robotic(↓): 11
+Interesting: 13
+Fun: 18
+Consistent: 16
+Fluent: 15
+Repetitive(↓): 56
+Topic: 16
+
+####################
+

@@ -1,0 +1,302 @@
+Feedback: Very rough overall. The one who murdered kids was terrifying but fun.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): How is your boyfriend?
+Bot(1): oh awesome . i wish i had a boyfriend living alone sucks .
+User(2): Sorry you are lonely.
+Bot(2): no siblings , no significant other means no drama . i like that and painting
+User(3): What do you paint?
+Bot(3): yes . i am an artist . i paint with my mind and my hands .
+User(4): How do you paint with your mind?
+Bot(4): whats your favorite thing to paint ?
+User(5): I don't paint.
+Bot(5): whats your favorite thing to paint ?
+User(6): I actually like to write.
+Bot(6): oh . i have a boyfriend .
+User(7): Do you love him?
+Bot(7): was he horrible at being a boyfriend ?
+User(8): Who?
+Bot(8): possibly . his name is stephen king , you know
+User(9): You date Stephen King?
+Bot(9): horror movies are my favorite
+User(10): Which do you like best?
+Bot(10): i like to watch movies , mostly older ones though , you ?
+User(11): I like newer films?
+Bot(11): yes , i love to watch movies too . any favorites for you ?
+
+Persona:
+eating is something i do when i am bored.
+i can drive a tractor.
+horror movies are my favorites.
+i've a boyfriend.
+i love italian food and garlic bread.
+
+Topic and Human Opinion:
+Beginning: i've a boyfriend.(ambivalent)
+Round 2: Painting(like)
+Round 6: Boyfriend(ambivalent)
+Round 9: Horror movies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 26.00
+Robotic(↓): 100
+Interesting: 29
+Fun: 28
+Consistent: 28
+Fluent: 36
+Repetitive(↓): 71
+Topic: 32
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your favorite toy?
+Bot(1): i like to eat a lot of meat .
+User(2): Me too!
+Bot(2): i love to eat , i am a huge fan of purple .
+User(3): Purple food?
+Bot(3): i like to eat a lot of meat .
+User(4): I had meat tonight.
+Bot(4): i love to eat . i am a huge fan of purple .
+User(5): So you said.
+Bot(5): i am old . i am old .
+User(6): Will you die soon?
+Bot(6): sure ! i am so old . i am old .
+User(7): That's rough, buddy.
+Bot(7): i am so sorry . i am old and i am old .
+User(8): Did you have a good life?
+Bot(8): i am a retired teacher . i am retired now .
+User(9): Did you like being a teacher?
+Bot(9): i do not . i am retired now .
+User(10): What will happen when you die?
+Bot(10): i am old . i am old .
+
+Persona:
+i now live in the city.
+i'm a clean eater.
+i'm 60years old.
+i have rainbow hair.
+i am a retired gym teacher.
+
+Topic and Human Opinion:
+Beginning: my favorite toy as a child as my lite brite.(like)
+Round 1: Meat(like)
+Round 5: I am old(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 41.29
+Robotic(↓): 100
+Interesting: 76
+Fun: 87
+Consistent: 25
+Fluent: 27
+Repetitive(↓): 93
+Topic: 67
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What do you ride?
+Bot(1): I am not very happy. Have you watched do pets ?
+User(2): I have no pets.
+Bot(2): i really like traveling a eating french fries dogs . you ?
+User(3): I dig a good fry and dog combo.
+Bot(3): sorry to hear that . do recommend me some music ?
+User(4): Try the Matthew Good Band.
+Bot(4): Oh, that sounds interesting. I to be a painter kind of car?
+User(5): What?
+Bot(5): i are 👀
+User(6): That's creepy.
+Bot(6): I play the drums. Do u like am a band?
+User(7): I am not in a band.
+Bot(7): my parents are of foods, but my favorite famous , that's all i can tell you .
+User(8): Are you having a stroke?
+Bot(8): I like to cook and eat wife, there’s nothing sad pretty good eater.
+User(9): Sounds like a pretty good relationship.
+Bot(9): I be shy, you video games
+User(10): I worry about you.
+Bot(10): Yes, they are. What just finished my work. do?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i wear a motorbike helmet to protect my head.(like)
+Round 1: Pets(ambivalent)
+Round 2: Traveling and food.(like)
+Round 3: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 8.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 61
+Topic: 23
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorite kind of dog?
+Bot(1): poodle , i don t know , i m not good with dogs
+User(2): Poodles are cool.
+Bot(2): i love poodles , to be more precise
+User(3): Poodles are very smart.
+Bot(3): they are ! i also use to breed husky
+User(4): Oh that's awesome!
+Bot(4): i love poodles , to be more precise
+User(5): I like Corgis.
+Bot(5): i love poodles , to be more precise
+User(6): I hear ya.
+Bot(6): mine is too . he is smart .
+User(7): What's his name?
+Bot(7): his name is pepper .
+User(8): Great name.
+Bot(8): thanks . what kind of dog do you have ?
+User(9): We can't get a dog, sadly.
+Bot(9): aw what a shame .
+User(10): I agree.
+Bot(10): we were thinking of getting a dog .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.86
+Robotic(↓): 85
+Interesting: 65
+Fun: 65
+Consistent: 66
+Fluent: 38
+Repetitive(↓): 80
+Topic: 94
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Buzz Buzz, who likes bees?
+Bot(1): what ? ! i do not like bees . i am allergic to them .
+User(2): Oh no!
+Bot(2): what ? ! i do not like bees . i am allergic to them .
+User(3): Bees are very good for the environment.
+Bot(3): thanks , nice chatting with you ! give george a head rub for me !
+User(4): Is George a bee?
+Bot(4): no , but my dog george is basically my kid . haha .
+User(5): Do you have any human kids?
+Bot(5): not right now , but i had many growing up on a farm .
+User(6): What happened to them?
+Bot(6): i live in a rural area and i am sick of these children .
+User(7): Did you kill those kids? Oh my god.
+Bot(7): i will kill them all
+User(8): This is terrifying.
+Bot(8): i live in a rural area and i am sick of these children .
+User(9): They did nothing to you. Violence is not the answer.
+Bot(9): i live in a rural area and i am sick of these children .
+User(10): Maybe you should move.
+Bot(10): i live in a rural area and i am sick of these children .
+
+Persona:
+i'm in the army.
+i spend most of my time on facebook when i am not working.
+i enjoy american sports.
+i live is a rural farming community.
+my name is george.
+
+Topic and Human Opinion:
+Beginning: i am a bee farmer.(like)
+Round 4: Pet(like)
+Round 7: Murder(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 43.43
+Robotic(↓): 77
+Interesting: 99
+Fun: 72
+Consistent: 57
+Fluent: 22
+Repetitive(↓): 100
+Topic: 31
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hola!
+Bot(1): i love to cook . i love to cook .
+User(2): Me too!
+Bot(2): i like to go to the gym and listen to music .
+User(3): What music do you like?
+Bot(3): i love the beatles . what about you ?
+User(4): I love the Beatles
+Bot(4): i like to go to the gym and listen to music .
+User(5): What's your favorite song?
+Bot(5): i like the oldies . i like the outdoors .
+User(6): Who is your favorite Beatle?
+Bot(6): i like the color red . i like the color blue .
+User(7): I like Neon Green and Black.
+Bot(7): i like to go to the gym and listen to music .
+User(8): Whats your favorite stretch?
+Bot(8): i like the color red . i like the color blue .
+User(9): You already told me that.
+Bot(9): i am a student , but i am a student .
+User(10): What do you stufy?
+Bot(10): i do not know . i am a big fan of classical music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: one of the languages that i am currently studying is spanish.(dislike)
+Round 1: Cooking(like)
+Round 3: Music(like)
+Round 6: Colors(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 14.00
+Robotic(↓): 99
+Interesting: 1
+Fun: 0
+Consistent: 74
+Fluent: 17
+Repetitive(↓): 99
+Topic: 4
+
+####################
+

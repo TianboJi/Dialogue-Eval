@@ -1,0 +1,291 @@
+Feedback: No comments
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi ! are you in the 3rd grade like i am ?
+User(2): yeah, how was your day so far?
+Bot(2): i am getting a divorce
+User(3): I'm sorry to hear that
+Bot(3): its alright . i do not like my parents and their divorce tho
+User(4): i know how things change in situation like that, but have to find a way to comfort yourself
+Bot(4): true . i have to move in with my parents now
+User(5): that's a good thing do you have any hoppy ?
+Bot(5): not really , spiced apple cider is better
+User(6): ha ha , that's alright you know i have a hat collection of over 1000 hats
+Bot(6): what kind of things do you collect
+User(7): i collect all type of hats
+Bot(7): i collect them , as well
+User(8): wow that's great
+Bot(8): it sure helped me get through my tough long divorce
+User(9): yeah it will help
+Bot(9): it sure helped me get through my tough long divorce
+User(10): okay have a nice day
+Bot(10): thanks you have a great night as well
+
+Persona:
+i am in the third grade.
+i enjoy reading journals and guides related to psychology.
+i'm planning on getting a divorce.
+i am partly deaf.
+i'm 19 and i cannot wait to move out 19 my parents home.
+
+Topic and Human Opinion:
+Beginning: i have a hat collection of over 1000 hats.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.71
+Robotic(↓): 85
+Interesting: 65
+Fun: 7
+Consistent: 19
+Fluent: 89
+Repetitive(↓): 88
+Topic: 78
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey
+Bot(1): i am doing well . how are you ?
+User(2): I'm good
+Bot(2): i am a student , but i am a student .
+User(3): i completed my college way before do you have any special plans today?
+Bot(3): i am a student , i am a student .
+User(4): okay , do you like circus?
+Bot(4): i do , i love to go fishing .
+User(5): that is fun , but i don't like circus
+Bot(5): i like to go to the gym and listen to music .
+User(6): what? you go gym for listen music!
+Bot(6): i love to listen to music .
+User(7): me too what's your favorite band ?
+Bot(7): i like the outdoors , what about you ?
+User(8): i like the outdoors too
+Bot(8): i love to travel . i love to travel .
+User(9): i'm terrified of clowns due to childhood trauma
+Bot(9): i am sorry to hear that . i am sorry to hear that .
+User(10): do you like clowns
+Bot(10): i do , i like to go out to eat with my family .
+User(11): yeah everyone like that
+Bot(11): i like to go to the gym and listen to music .
+User(12): do you exercise
+Bot(12): i do , i love to cook .
+User(13): what type of dish do you cook?
+Bot(13): i love pizza , and i love to eat .
+User(14): pizza , yeah i love that too
+Bot(14): i like to eat fish .
+User(15): good to hear, i go to fishing every saturday
+Bot(15): i love to travel . i love to travel .
+User(16): do you hike?
+Bot(16): no , i do not , but i do like to go fishing .
+
+Persona:
+i'm a vegan.
+i compete in dog agility classes.
+i just got a job working in a gas station.
+i just broke up with boyfriend two months ago.
+i've three children.
+
+Topic and Human Opinion:
+Beginning: i'm terrified of clowns due to childhood trauma.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.71
+Robotic(↓): 27
+Interesting: 10
+Fun: 2
+Consistent: 4
+Fluent: 8
+Repetitive(↓): 78
+Topic: 5
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi how are you today?
+Bot(1): just trying to my favorite increase her day . been a long one .
+User(2): okay, i am a museum tour guide
+Bot(2): i talk when i'm do you I have l
+User(3): ha ha , you speak funny
+Bot(3): I love to I dropped you movies
+User(4): i love movies
+Bot(4): sounds good ! i've also like that good is speed to guess: my father was ...
+User(5): my father was a nurse
+Bot(5): I am a waitress man i also office.
+User(6): so you have two jobs right?
+Bot(6): I love french fries. I awful because i have well
+User(7): i love French fries too
+Bot(7): that's i am chatting with my , you are very smart , you are very smart
+User(8): ha ha ha. man do you like museum
+Bot(8): I am not i am a like color orange.
+User(9): i like black colour
+Bot(9): i like to draw , and also have a collection of green items , be a farmer in drink wine .
+User(10): what is your favorite wine?
+Bot(10): I like red hair, but I do you just said hair
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a museum tour guide.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.00
+Robotic(↓): 0
+Interesting: 1
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 2
+Topic: 4
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): I'm good thanks for asking
+Bot(2): hi , i am doing well . how are you ?
+User(3): good , what do you do for living?
+Bot(3): i work at a small rescue dog shelter
+User(4): great , i am an elementary school teacher.
+Bot(4): i volunteer at a local animal shelter
+User(5): that's very nice of you
+Bot(5): i volunteer at a local animal shelter .
+User(6): i like animals too
+Bot(6): i volunteer at a local shelter , so i volunteer at a shelter .
+User(7): that's great, are you married?
+Bot(7): yes i am married and i have children
+User(8): good , how long yo have been married
+Bot(8): i am married , i have a husband and a husband .
+User(9): okay, how many children do you have?
+Bot(9): yes , i have a few grandchildren
+User(10): great , have a great day
+Bot(10): i have a few grandchildren and a few grandchildren
+
+Persona:
+for vacation i enjoy time at the beach.
+my main transportation is my motorbike.
+i volunteer my time with a local bunny rescue.
+in my spare time i do volunteer work.
+i've amazing children and grandchildren.
+
+Topic and Human Opinion:
+Beginning: i am an elementary school teacher.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.86
+Robotic(↓): 70
+Interesting: 14
+Fun: 14
+Consistent: 29
+Fluent: 21
+Repetitive(↓): 15
+Topic: 44
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are toy today?
+Bot(2): good thanks . tell me about yourself
+User(3): i walk dogs for a living.
+Bot(3): i walk dogs for a living too . small world for sure .
+User(4): yeah that's true
+Bot(4): i walk dogs and one of them got hit .
+User(5): that's so sad is that alright now?
+Bot(5): yea i walk with my dogs some days also
+User(6): yeah me too, do you have any hoppy?
+Bot(6): yea i drink that before i take my dog for a walk
+User(7): what breed of dog do you have?
+Bot(7): poodle , i don t know , i m not good with dogs
+User(8): that's not a problem
+Bot(8): do you like to take walks ?
+User(9): yes, of course that's what i'm doing for living
+Bot(9): do you like to take walks ?
+User(10): yes
+Bot(10): well , do you like walks ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i walk dogs for a living.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.57
+Robotic(↓): 70
+Interesting: 66
+Fun: 65
+Consistent: 61
+Fluent: 70
+Repetitive(↓): 67
+Topic: 64
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are doing today?
+Bot(2): good and you ? i am 29 and live in the suburb of boston .
+User(3): i'm good and i am four
+Bot(3): wow . i cannot image having to share my vegan oatmeal with 4 siblings lol
+User(4): yeah lol , but we played lot of games together
+Bot(4): no , i am not really in to games .
+User(5): okay , what you do for living?
+Bot(5): i am stay at home , so i mostly spend time with my sons , housework , i enjoy painting
+User(6): painting ? what kind of painting you do ?
+Bot(6): yes . i am an artist . i paint with my mind and my hands .
+User(7): great man , i wish i knew how to paint but i can't even paint a single box
+Bot(7): what do you like to paint ?
+User(8): no, i can't paint
+Bot(8): yes . i am an artist . i paint with my mind and my hands .
+User(9): i'm a salesman
+Bot(9): of course ! i own a candy shop . i will send you some candy . you like college football ?
+User(10): thanks man, yes i like college football
+Bot(10): football is fun , whats your favorite team ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am four.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.57
+Robotic(↓): 78
+Interesting: 79
+Fun: 76
+Consistent: 76
+Fluent: 76
+Repetitive(↓): 75
+Topic: 63
+
+####################
+

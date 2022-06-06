@@ -1,0 +1,307 @@
+Feedback: I wish there were more robots that stayed consistent.  It took me almost 40 min. to complete.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Where have your worked at for 15 years?
+Bot(1): i work at a private school .
+User(2): Doing what?
+Bot(2): i am a stay at home mom .
+User(3): How can you be a stay at home mom in a private school?
+Bot(3): yes i do , i am a retired student
+User(4): Oh ok. As a retired student and a stay at home mom, what is your responsibility at this private school?
+Bot(4): i am a stay at home mom
+User(5): What is your favorite scary movie?
+Bot(5): i like horror movies . i love it .
+User(6): I like Halloween with Michael Myers.
+Bot(6): i love horror movies . i love them
+User(7): How often do you watch them?
+Bot(7): i do not watch much tv . i like to watch movies .
+User(8): I like eating pizza while watching a movie.
+Bot(8): i like to watch movies . i love it .
+User(9): Do you have a favorite movie?
+Bot(9): i like the old horror movie .
+User(10): There are lots of old horror movies.
+Bot(10): i like horror movies . i love them .
+
+Persona:
+eating is something i do when i am bored.
+i can drive a tractor.
+horror movies are my favorites.
+i've a boyfriend.
+i love italian food and garlic bread.
+
+Topic and Human Opinion:
+Beginning: i work in it and have been at the same company for 15 years.(dislike)
+Round 4: horror movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 15.00
+Robotic(↓): 87
+Interesting: 14
+Fun: 13
+Consistent: 16
+Fluent: 18
+Repetitive(↓): 100
+Topic: 31
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love living in Boston.
+Bot(1): do you really ? i love that city but the steelers are my favorite hockey team .
+User(2): The Bruins will always be my favorite hockey team. What about your favorite football team?
+Bot(2): i love the celtics , they are a good team . what soccer team do you like ?
+User(3): I love the Celtics too! I don't watch soccer.
+Bot(3): that is cool ! ! are you on a soccer team ?
+User(4): I played soccer when I was younger.
+Bot(4): soccer is fun , i played when i was little .
+User(5): What about basketball?
+Bot(5): sounds fun ! have a favorite team ?
+User(6): The Lakers are my favorite basketball team.
+Bot(6): i love the celtics , they are a good team . what soccer team do you like ?
+User(7): I miss eating spaghetti in Italy. And gelato. Do you have a favorite food?
+Bot(7): spaghetti is my life . i am not afraid to admit that .
+User(8): That's awesome!
+Bot(8): well i love hiking glaciers . i just moved to sweden for ir
+User(9): I've always wanted to hike the glaciers in Sweden. It sounds fun!
+Bot(9): i have never been hiking because i am afraid of ticks .
+User(10): I like hiking in the mountains but I haven't been in a while because of the rattlesnakes.
+Bot(10): do you like creatures ? i get so scared of spiders !
+User(11): I hate spiders and scorpions.
+Bot(11): sometimes i am scared of dying young . i wish i knew why .
+
+Persona:
+my favorite food is papaya.
+i'm on the soccer team.
+i am deathly afraid of heights.
+i love social medial especially twitter.
+i am scared of dying.
+
+Topic and Human Opinion:
+Beginning: i now live in the city.(like)
+Round 6: Favorite food(like)
+Round 9: hiking(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 82.86
+Robotic(↓): 8
+Interesting: 91
+Fun: 95
+Consistent: 62
+Fluent: 84
+Repetitive(↓): 4
+Topic: 60
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I'm unhappy because my LDL cholesterol is 103 mg.
+Bot(1): oh wow i am sorry . i also have health issues . low platelets , i need to be on medicine .
+User(2): Yikes! That means you just keep bleeding when you get a cut?
+Bot(2): somewhat , but i just want to keep healthy so i do not get sick .
+User(3): You should go to the doctor but also stay out of harm's way.
+Bot(3): good advice . how many children do you have ?
+User(4): 0 kids
+Bot(4): is having two young children quite a handful ?
+User(5): My step brother has 2 kids. He complains that they are hard to take care of.
+Bot(5): its hard when you are divorced with 2 kids
+User(6): Oh I agree! Very hard.
+Bot(6): they give us so much ! my husband really took it hard also .
+User(7): I was divorced when I was younger but I have no children. I'm not ready for them.
+Bot(7): its hard when you are divorced with 2 kids
+User(8): And it's hard when no one helps you take care of them.
+Bot(8): i know but i am so focused on doing a good job that i forget to .
+User(9): I know too many parents having the same problem. Hang in there!
+Bot(9): thanks . i am more angry that my husband will not accept joint responsibility for our children .
+User(10): He is a jerk!
+Bot(10): they give us so much ! my husband really took it hard also .
+
+Persona:
+i work took i have a part time job at burger king.
+i live with my husband in pennsylvania.
+i'm planning on getting a divorce.
+i've two grown children who never visit.
+i work in the insurance business.
+
+Topic and Human Opinion:
+Beginning: i'm overweight and unhappy.(dislike)
+Round 3: kids(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 43.14
+Robotic(↓): 91
+Interesting: 84
+Fun: 81
+Consistent: 31
+Fluent: 40
+Repetitive(↓): 87
+Topic: 44
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love chocolate ice cream.
+Bot(1): I love am not getting..what do you do for fun?
+User(2): Painting
+Bot(2): what are you studying? do to sell am not relationship?
+User(3): I love my boyfriend but I don't know if he loves me the way I love him.
+Bot(3): do you have like to run, i me about yourself ? 😜
+User(4): I like to run with my boyfriend. He's so sweet.
+Bot(4): I'm see. Do for you
+User(5): I don't understand what you are saying.
+Bot(5): Yes, do you your of been married for a while
+User(6): I am not married to him yet.
+Bot(6): yes had a triumph a few .
+User(7): You have been married a few times?
+Bot(7): do you like candy? i don’t work anywhere is hard to eat
+User(8): i love nerd ropes and skittles
+Bot(8): I like to do you do the weekends.
+User(9): What? I don't understand you.
+Bot(9): Hi! Howdy! great habit of yours! me: i'm gold medalist olympian
+User(10): I still have feelings for someone else.
+Bot(10): That 's math too. But poetry play football. 😁
+
+Persona:
+i like to ride horses.
+i like donuts.
+i read a book every week.
+i'm a 56 year old woman.
+i am a skateboarder.
+
+Topic and Human Opinion:
+Beginning: my favorite ice cream flavor is chocolate.(like)
+Round 1: What do i do for fun(dislike)
+Round 2: studying and relationship(dislike)
+Round 2: love and relationships(like)
+Round 7: candy(dislike)
+Round 9: love(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 2: The user will change the topic in the next input.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+Round 9: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 6.00
+Robotic(↓): 100
+Interesting: 7
+Fun: 6
+Consistent: 2
+Fluent: 3
+Repetitive(↓): 78
+Topic: 2
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I have a husband.
+Bot(1): i am a girl . i am a big fan of classical music .
+User(2): Are you a married girl?
+Bot(2): no , i am not . i am a student .
+User(3): Okay. Are you a married student?
+Bot(3): no , i am a student . i love to cook .
+User(4): What do you like to cook?
+Bot(4): i do , i love to cook .
+User(5): I love to cook spaghetti and meatballs, but I'm trying to stay healthy.
+Bot(5): i like to eat fish .
+User(6): I hate fish.
+Bot(6): i like to eat fish .
+User(7): I think fish is disgusting. I hate cooking it too.
+Bot(7): i like to eat too much junk food .
+User(8): i have been eating a lot of junk food too.
+Bot(8): i like to eat fish .
+User(9): What do you think of having sex with another woman?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): really? What do you listen to?
+Bot(10): i love country music . what about you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am married.(like)
+Round 3: cooking(like)
+Round 7: junk food(like)
+Round 8: sex(like)
+Round 9: classical music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 12.00
+Robotic(↓): 99
+Interesting: 11
+Fun: 8
+Consistent: 11
+Fluent: 24
+Repetitive(↓): 81
+Topic: 10
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I want a job where I can work from home
+Bot(1): that would be nice . i would love to work from home .
+User(2): I want to do graphic design work for my clients.
+Bot(2): i need something i can do from home where i am the boss
+User(3): Same here. I like being my own boss and not answering to anyone.
+Bot(3): that would be nice . i would love to work from home .
+User(4): What kind of job do you want when you're at home?
+Bot(4): well clients are important they help keep my job but i would love to work at home
+User(5): That's true. Are you interested in doing graphic design projects from home?
+Bot(5): well clients are important they help keep my job but i would love to work at home
+User(6): They are important but what kind of job do you want?
+Bot(6): i need something i can do from home where i am the boss
+User(7): I have never done drugs.
+Bot(7): well that is a good thing . drugs are no good .
+User(8): Do you know anyone who did drugs?
+Bot(8): i would not know where to get drugs .
+User(9): What about do you know someone who sold them?
+Bot(9): i would not know where to get drugs .
+User(10): That's good.
+Bot(10): i would not know where to get drugs .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my dream in life is to work from home.(like)
+Round 6: drugs(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 18.86
+Robotic(↓): 93
+Interesting: 22
+Fun: 15
+Consistent: 14
+Fluent: 25
+Repetitive(↓): 95
+Topic: 44
+
+####################
+

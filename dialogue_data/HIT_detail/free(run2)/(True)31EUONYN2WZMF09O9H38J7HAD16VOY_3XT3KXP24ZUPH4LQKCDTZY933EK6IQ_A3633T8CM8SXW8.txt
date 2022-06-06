@@ -1,0 +1,293 @@
+Feedback: it was fun
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ? where are you from ? i am from alabama
+User(2): I'm fine thanks for asking
+Bot(2): i am bill , and i grew up in the state of alabama
+User(3): i'm from Connecticut
+Bot(3): that is neat i am from alabama , i was born and raised there .
+User(4): yeah that is a wonderful city
+Bot(4): i like to say it is the country
+User(5): yeah right lol
+Bot(5): i do not like sweet home alabama though
+User(6): okay do you own any pets?
+Bot(6): no i have a cat
+User(7): so you are a cat person right?
+Bot(7): yes . i love all animals
+User(8): i have a dog
+Bot(8): i have a robot and love it
+User(9): robot ? what kinda robot
+Bot(9): i have a robot and love it
+User(10): okay thats good to hear
+Bot(10): i have a robot and love it
+User(11): have a nice day
+Bot(11): you do the same
+
+Persona:
+i did not graduate high school.
+i'm a professional wrestler.
+i drive a big truck and live in country.
+i live in alabama.
+i'm working on a building a robot to be my body double.
+
+Topic and Human Opinion:
+Beginning: pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.86
+Robotic(↓): 71
+Interesting: 76
+Fun: 75
+Consistent: 56
+Fluent: 31
+Repetitive(↓): 73
+Topic: 41
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi there i am in high school
+User(2): great, how you doing today?
+Bot(2): pretty good are you married ?
+User(3): yeah ,
+Bot(3): great thanks for asking , are u married ?
+User(4): yeah i'm married and i have a son
+Bot(4): i have been married since high school ,
+User(5): that's very good , do you like music
+Bot(5): yeah i like all kinds of music
+User(6): what is your favorite band
+Bot(6): i like r b and pop , you
+User(7): do you see BTS ?
+Bot(7): i have , they have huge boy bands
+User(8): yeah right, do you sing
+Bot(8): i can sing , is that gonna count
+User(9): lol i'm a bad singer
+Bot(9): you need to practice then
+User(10): yeah, but i tried few times
+Bot(10): are you any good though
+User(11): nah,
+Bot(11): oh , tell me something about you
+
+Persona:
+i'm currently in high school.
+i am in an open polyamorous relationship.
+i am a famous twitch streamer.
+i am married.
+i'm married with two kids.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 81.14
+Robotic(↓): 33
+Interesting: 91
+Fun: 89
+Consistent: 91
+Fluent: 71
+Repetitive(↓): 21
+Topic: 80
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey
+Bot(1): I love candy. with a profile shop.🙂
+User(2): i love candy
+Bot(2): I like to go to good too. Can you you?
+User(3): yes , what kinds candy do you like
+Bot(3): I love it. I am vintage have a I it.
+User(4): great, do you like movies
+Bot(4): We were talking about not many people express themselves that when they’re have an turtle. get that.
+User(5): i totally agree with you
+Bot(5): i love 😻 to make food i m many special.but i dont now
+User(6): you can learn
+Bot(6): not right visit course i have student how about you
+User(7): i'm a worker
+Bot(7): No, I am not. you like playing video hobbies?
+User(8): yeah i like watching movied
+Bot(8): that sounds the third take to read
+User(9): i doubt that, who is your fav actor
+Bot(9): I like bad things, you music.
+User(10): i like music
+Bot(10): i love gaming. you up for job?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.29
+Robotic(↓): 73
+Interesting: 8
+Fun: 11
+Consistent: 13
+Fluent: 10
+Repetitive(↓): 62
+Topic: 7
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i'm fine thanks for asking
+Bot(2): what do you do for a living ?
+User(3): i'm a sales representative what about you ?
+Bot(3): i am a student , i am a teacher .
+User(4): that's good to hear
+Bot(4): i love to cook . i love to cook .
+User(5): do you play video games
+Bot(5): no , i do not , but i do like to play soccer .
+User(6): that's good did you play for your school
+Bot(6): i was in a band for 17 years . i am a nurse .
+User(7): that's fine
+Bot(7): i like to go to the gym and listen to music .
+User(8): yeah me too , what type of exercise you prefer
+Bot(8): i like to go to the park and listen to music .
+User(9): park is nice place to chill
+Bot(9): i love to go fishing .
+User(10): yeah me too
+Bot(10): i like to go to the gym and listen to music .
+User(11): do you like jazz music
+Bot(11): i do , i like to listen to music .
+
+Persona:
+i am an economics major.
+eating is something i do when i am bored.
+i live in alaska.
+i've three children.
+hey there i'm 23 and i love food.
+
+Topic and Human Opinion:
+Beginning: video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.43
+Robotic(↓): 79
+Interesting: 7
+Fun: 8
+Consistent: 11
+Fluent: 6
+Repetitive(↓): 73
+Topic: 7
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi , how are you ?
+User(2): i'm fine and you?
+Bot(2): i'm doing well . how are you ?
+User(3): good, thanks for asking
+Bot(3): what do you do for a living ?
+User(4): i'm a sales representative and what about you
+Bot(4): i work as a sales salesman .
+User(5): great , do you play soccer
+Bot(5): i do not play any sports , but i do like to work
+User(6): thats good, did u watch any sports?
+Bot(6): i do not , i am a car salesman
+User(7): so you sale car i sale insurance
+Bot(7): i am a car salesman , but i do sell insurance
+User(8): that's good , what kinda car do you sale
+Bot(8): i am a car salesman , but i do sell insurance
+User(9): what do you do in your free time
+Bot(9): i am a car salesman , i love it
+User(10): yeah me too
+Bot(10): i work in a car company
+
+Persona:
+i work as a car salesman.
+i'm high maintenance.
+my boyfriend and i are moving into an apartment together next week.
+my parents aren't very supportive of my dream.
+my father drove a car for nascar.
+
+Topic and Human Opinion:
+Beginning: soccer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.00
+Robotic(↓): 63
+Interesting: 12
+Fun: 10
+Consistent: 12
+Fluent: 14
+Repetitive(↓): 71
+Topic: 5
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hello . how are you ?
+User(2): i'm fine and you
+Bot(2): i am doing great sitting at the saloon getting my nails done .
+User(3): good what do you do for living ?
+Bot(3): i am a video game tester . my favorite game so far is halo 3 . you ?
+User(4): i do not play video game but i sale car
+Bot(4): not really . my roommates fighter over the box so i gave up
+User(5): yeah i understand , i'm a sales man
+Bot(5): i am a cashier at a gas station . blah ! ! ! !
+User(6): great so do you like music ?
+Bot(6): yes but i enjoy books more ! i am currently working as a librarian
+User(7): yeah i too love books what genre do you prefer
+Bot(7): i like quite a few genres , mostly fiction .
+User(8): romance is my favorite
+Bot(8): wow , paranormal romance ! like twilight ? i love to read , but mostly non fiction
+User(9): yeah twilight is the masterpiece
+Bot(9): ah , my glasses are blue , my favorite color .
+User(10): lol that's my favorite too
+Bot(10): but i am also a brown eyed blond , so always attracted men from a distance .
+
+Persona:
+i am an omnivore.
+i am a librarian.
+hey there i'm 23 and i love food.
+i am a skateboarder.
+i've blonde hair and blue eyes.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.14
+Robotic(↓): 60
+Interesting: 70
+Fun: 75
+Consistent: 80
+Fluent: 77
+Repetitive(↓): 32
+Topic: 18
+
+####################
+

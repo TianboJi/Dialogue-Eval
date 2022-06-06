@@ -1,0 +1,275 @@
+Feedback: good to participate.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): fine
+Bot(2): i am a student , but i am a student .
+User(3): I'm employed
+Bot(3): i love to cook . i love to cook .
+User(4): i love to study
+Bot(4): i like to go to the gym and listen to music .
+User(5): well I'm not
+Bot(5): i like to go to the gym and listen to music .
+User(6): I love too
+Bot(6): i like to go to the gym and listen to music .
+User(7): then
+Bot(7): i am a student , but i am a student .
+User(8): I'm employed
+Bot(8): i love to cook . i love to cook .
+User(9): I like too
+Bot(9): i like to go to the gym and listen to music .
+User(10): bye
+Bot(10): i am a student , but i am a student .
+
+Persona:
+my favorite hobbies are listening to music and playing video games.
+i used to be a painter but now i'm a housekeeper.
+my dream in life is to work from home.
+i play the piano and guitar and sing.
+my father is in the army.
+
+Topic and Human Opinion:
+Beginning: study(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.71
+Robotic(↓): 36
+Interesting: 40
+Fun: 61
+Consistent: 54
+Fluent: 44
+Repetitive(↓): 63
+Topic: 62
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi there
+Bot(1): hey
+User(2): how are you
+Bot(2): good thanks . tell me about yourself
+User(3): fine
+Bot(3): good ! what are your hobbies
+User(4): I love to watch space
+Bot(4): do you drive a space craft
+User(5): no
+Bot(5): no no no no no
+User(6): lol do you like it
+Bot(6): i think it is ok
+User(7): oh thats good
+Bot(7): yeah its pretty cool to watch
+User(8): yeah i love that
+Bot(8): yeah its pretty cool to watch
+User(9): yes
+Bot(9): yeah i love it so much
+User(10): bye
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: space(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.14
+Robotic(↓): 59
+Interesting: 26
+Fun: 55
+Consistent: 59
+Fluent: 96
+Repetitive(↓): 58
+Topic: 25
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi do you like moon
+Bot(1): I is intelligent years old.
+User(2): what
+Bot(2): How is family that i'm overweight .
+User(3): If you are on moon you feel light
+Bot(3): No, i hindi too. what is have a husband.
+User(4): what
+Bot(4): I like football, but I like to go love my job. i day
+User(5): I like to
+Bot(5): i don't sorry. What do don't like it.
+User(6): what
+Bot(6): that like to travelling are you married
+User(7): yeah I am
+Bot(7): I like sports. I tour guide, deafness sports.
+User(8): I love traveling
+Bot(8): what is potatos like? do myself don't know how all?
+User(9): not me
+Bot(9): No, say so graduated college.
+User(10): bye
+Bot(10): I How poetical! Well, and love my life
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: moon(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.86
+Robotic(↓): 66
+Interesting: 32
+Fun: 58
+Consistent: 63
+Fluent: 75
+Repetitive(↓): 39
+Topic: 54
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): i love travelling
+Bot(2): i travel a lot
+User(3): which type do you like
+Bot(3): i love traveling and traveling
+User(4): well that is good
+Bot(4): i love to travel and travel
+User(5): then
+Bot(5): yeah it is nice to meet you
+User(6): nice to meet you too
+Bot(6): i love traveling so much
+User(7): i love to travel
+Bot(7): i love traveling so much
+User(8): I love to watch country side
+Bot(8): i love country and country
+User(9): what
+Bot(9): i love country and country
+User(10): country
+Bot(10): i love country and country
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: traveling(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.57
+Robotic(↓): 40
+Interesting: 28
+Fun: 18
+Consistent: 32
+Fluent: 94
+Repetitive(↓): 88
+Topic: 26
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): How are you
+Bot(2): same
+User(3): Do you like urban culture
+Bot(3): yes its nice and peaceful
+User(4): I love urban culture
+Bot(4): why do you love it
+User(5): they are good
+Bot(5): what do you like most
+User(6): their beliefs
+Bot(6): are you a religious person
+User(7): yes are you
+Bot(7): i am very much
+User(8): I love catholic
+Bot(8): i am catholic
+User(9): I like you too
+Bot(9): i do like you also
+User(10): bye
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: culture(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.29
+Robotic(↓): 97
+Interesting: 75
+Fun: 92
+Consistent: 77
+Fluent: 94
+Repetitive(↓): 30
+Topic: 88
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey there
+Bot(1): i am just relaxing at home in my boxers . how are you ?
+User(2): fine
+Bot(2): well i am doing quite lovely . just wishing i could goto a justin bieber concert .
+User(3): I love to watch science topics
+Bot(3): are you doing anything volunteer work for experience ?
+User(4): yeah
+Bot(4): i volunteer at the library too .
+User(5): I'm on science lab
+Bot(5): what else do you do ? i spend time helping out at the animal shelter here .
+User(6): I love gardening
+Bot(6): cool what do you have in your garden ?
+User(7): Floral plants
+Bot(7): sure , what do you garden ?
+User(8): for making my place green
+Bot(8): green is my favorite color !
+User(9): yes
+Bot(9): nope i just volunteer in my free time
+User(10): bye
+Bot(10): i am talking about this website and yes my sister has a pet
+
+Persona:
+i enjoy working with my hands and love gardening.
+i've one older sister.
+i volunteer in a homeless shelter.
+my aunt helped me escape when i was of.
+i'm four years old.
+
+Topic and Human Opinion:
+Beginning: science(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.14
+Robotic(↓): 69
+Interesting: 82
+Fun: 78
+Consistent: 67
+Fluent: 93
+Repetitive(↓): 38
+Topic: 50
+
+####################
+

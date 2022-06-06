@@ -1,0 +1,281 @@
+Feedback: very interesting - but not enough pay for all the work
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): how do you feel about cats?
+Bot(1): no dogs do not do so good around the cats . cool name !
+User(2): so you don't like cats at all?
+Bot(2): not really i just started collecting ugly cats i see in antique stores .
+User(3): like clay cats, or like porcelain ones?
+Bot(3): no dogs do not do so good around the cats . cool name !
+User(4): so you don't like real cats?
+Bot(4): not really i just started collecting ugly cats i see in antique stores .
+User(5): there is no such thing as an ugly cat
+Bot(5): freckles are not ugly ! why do you think that ?
+User(6): i never said anything about freckles
+Bot(6): thus with a kiss i die i am sure you could that part even with freckles
+User(7): so you would die if you got a kiss?
+Bot(7): i almost did die lol , i am allergic to flowers and there were tons at the park
+User(8): why were you at the park?
+Bot(8): parks , that is fake countryside . but , we are rich so . . .
+User(9): who is rich?
+Bot(9): that must be great i am not rich but i try to be
+User(10): what do you do for a living?
+Bot(10): i am a construction worker , u ?
+
+Persona:
+i've three dogs.
+i live in california but the recording artist market was dead last year.
+i am a construction worker.
+i'm a 12 year old girl.
+i am a construction worker.
+
+Topic and Human Opinion:
+Beginning: cats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 100
+Consistent: 0
+Fluent: 21
+Repetitive(↓): 84
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what is your favorite flower
+Bot(1): i like the color red . i like the color blue .
+User(2): do you have a favorite flower in that color
+Bot(2): i like blue , i like blue .
+User(3): do you like pink
+Bot(3): i do , i like to go out to eat with my family .
+User(4): whats your favorite food
+Bot(4): i like pizza , and i love it .
+User(5): what kind of pizza
+Bot(5): i like pizza and pizza .
+User(6): just cheese on it?
+Bot(6): i am a student , but i am a student .
+User(7): where are you a student?
+Bot(7): i'm a student , i am a teacher .
+User(8): what do you teach
+Bot(8): i teach english and drawing classes .
+User(9): which one is your favorite
+Bot(9): i like the color red . i like the color blue .
+User(10): what other color do you like
+Bot(10): i like blue , i like blue .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: flowers(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 46
+Fluent: 29
+Repetitive(↓): 98
+Topic: 54
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you like cheese
+Bot(1): yes cheese is my favorite
+User(2): what kind of cheese
+Bot(2): cheese is my favorite
+User(3): do you like swiss cheese
+Bot(3): i like cheese cheese
+User(4): do you like to put cheese on things?
+Bot(4): yes i love cheese cheese
+User(5): do you like to eat blocks of cheese
+Bot(5): i love cheese cheese
+User(6): do you like to cut up cheese
+Bot(6): i do but i like to eat cheese
+User(7): do you like string cheese
+Bot(7): i like cheese cheese cheese
+User(8): do you think people who bite string cheese are weird
+Bot(8): i do not know what that is
+User(9): instead of pulling it apart, they just bite it off
+Bot(9): i know that is why i eat cheese
+User(10): do you like american cheese
+Bot(10): yes i do but i love cheese
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cheese(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 47
+Fluent: 0
+Repetitive(↓): 100
+Topic: 6
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): how much do you llike tacos
+Bot(1): about 500 , i am in the military also
+User(2): so they eat tacos in the military?
+Bot(2): i think they do too . what do you eat when your on duty
+User(3): im not in the military
+Bot(3): army food can be bland but at least you get to swin on your off days .
+User(4): where do you swim?
+Bot(4): i just read comics in anyways
+User(5): what kind of comics do you read
+Bot(5): anime comics . marvel is my fave
+User(6): is that batman?
+Bot(6): yes it is comics in enemy
+User(7): whats your favorite comic character
+Bot(7): batman !
+User(8): yes! I love him too
+Bot(8): who is your favorite superhero
+User(9): batman or spiderman
+Bot(9): both are good
+User(10): i would have to say spiderman is better though
+Bot(10): that is up for debate
+
+Persona:
+i currently work for a watch dealer.
+i'm in the army.
+i'm a stunt double as my second job.
+i have a black lab named trooper.
+l also love comic books.
+
+Topic and Human Opinion:
+Beginning: tacos(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 82.43
+Robotic(↓): 68
+Interesting: 96
+Fun: 95
+Consistent: 79
+Fluent: 94
+Repetitive(↓): 3
+Topic: 84
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): what is your favorite movie
+Bot(1): I do much if you are daughter. do you like the movie friday?
+User(2): like friday the 13th?
+Bot(2): I'm usually not 24. how old are kitchen, but will look him up
+User(3): you're 24?
+Bot(3): I like have brother or my friends
+User(4): how many friends do you have?
+Bot(4): to water, parties as :)
+User(5): you bring water to parties?
+Bot(5): I there, many questions. Tell that! Are you a cancer survivor ?
+User(6): I am not...are you?
+Bot(6): i was nice to parents .
+User(7): you were nice to your parents? thats good!
+Bot(7): I am not a fan of Mohd hates me m tacos?
+User(8): I love tacos. I don't know about the other thing.
+Bot(8): I have a cat. you single these voices you like music? I like rock
+User(9): i have 2 cats. no, i am not single and I like country.
+Bot(9): I do not play I am 100 years not good at music
+User(10): 100 years old?!
+Bot(10): I am a bit of a in don't like it is long as it is wrestling
+
+Persona:
+i am partly deaf.
+i like to listen to rock music while working.
+i have three dogs.
+i am a baby delivery nurse.
+my pets name is charlie.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 7
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you have any plants
+Bot(1): no , i have flower plants instead .
+User(2): what are flower plants
+Bot(2): hawaiian flowers , very tropical flowers
+User(3): those are really pretty!
+Bot(3): they are great lilies are my favorite
+User(4): those are nice too. i like anything i can keep alive.
+Bot(4): plants are great . i love any and all .
+User(5): how many do you have
+Bot(5): five . what are you setting ?
+User(6): what do you mean?
+Bot(6): flowers is what i love
+User(7): yeah i love pink flowers
+Bot(7): yeah me too ! i just love a rose bush
+User(8): i dont like the prickles
+Bot(8): yeah me too ! i just love a rose bush
+User(9): until they poke you
+Bot(9): it wo not hurt them will it ?
+User(10): no it will hurt you
+Bot(10): it wo not hurt them will it ?
+User(11): no it wont hurt them
+Bot(11): it wo not hurt them will it ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: plants(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.29
+Robotic(↓): 62
+Interesting: 55
+Fun: 63
+Consistent: 68
+Fluent: 54
+Repetitive(↓): 24
+Topic: 54
+
+####################
+

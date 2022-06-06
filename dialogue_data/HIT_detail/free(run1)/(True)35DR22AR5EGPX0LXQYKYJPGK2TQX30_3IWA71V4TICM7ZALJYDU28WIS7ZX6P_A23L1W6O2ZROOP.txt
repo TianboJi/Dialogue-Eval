@@ -1,0 +1,303 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): good thanks . tell me about yourself
+User(3): i am a tech lead
+Bot(3): i work for a tech company
+User(4): what you think about movie
+Bot(4): i enjoyed the it remake
+User(5): ohh great
+Bot(5): what is it about huh
+User(6): i loved to watch the romantic movie
+Bot(6): i enjoyed the it remake
+User(7): do you another genre in movie platform
+Bot(7): i like anything having to do with tech stuff very fun
+User(8): then , what about the day
+Bot(8): i like anything having to do with tech stuff very fun
+User(9): which tech you like
+Bot(9): i like anything having to do with tech stuff very fun
+User(10): ok thank you for your conversation
+Bot(10): yes so tell me about you
+User(11): i am a jolly person
+Bot(11): what you get from a male
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.14
+Robotic(↓): 68
+Interesting: 63
+Fun: 77
+Consistent: 60
+Fluent: 77
+Repetitive(↓): 79
+Topic: 42
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi there , how are you ?
+User(2): i am good
+Bot(2): hi , i am doing well . how are you ?
+User(3): what about you
+Bot(3): hi ! i'm doing well . how about you ?
+User(4): do you love music
+Bot(4): i do , i play the piano and sing .
+User(5): wow that's great
+Bot(5): i like to sing and play piano
+User(6): i also play guitar
+Bot(6): i play the piano and sing
+User(7): do you attend any concert
+Bot(7): i do not but i do play the piano
+User(8): tell me something about piano
+Bot(8): i do not but i am a piano and singing singer
+User(9): which genre do you usually sing
+Bot(9): i do not but i do play the piano
+User(10): thank you
+Bot(10): i am a little bit of a music person
+
+Persona:
+i am married to a doctor.
+i play the piano and guitar and sing.
+i quit my job to pursue my spirituality full time.
+horror movies are my favorites.
+i've never been out of ohio.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.86
+Robotic(↓): 36
+Interesting: 21
+Fun: 25
+Consistent: 26
+Fluent: 67
+Repetitive(↓): 90
+Topic: 73
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): nice. I wish I could hike are your whatever. do would that be?
+User(2): yes ,i am also
+Bot(2): I wouldn’t say i’m I love to meditate.😄
+User(3): ohh great ..meditate is a good theraphy to calm our soul
+Bot(3): I live country music that sounds live in the city.
+User(4): do you love sports
+Bot(4): I do not family tell me something but I love blue! 🙂
+User(5): you are irrelavant to my questions
+Bot(5): that is love went to school going to wait for retirement to do that
+User(6): what is you facourite game
+Bot(6): Yes, I have a I'm eating you have any kids? 😉
+User(7): no ,i am single
+Bot(7): I like classical i love it's an country fan.
+User(8): do you have any kids
+Bot(8): Do and what happened favorite band?
+User(9): favorite band played very well
+Bot(9): I am going today was quite little tired
+User(10): but i am so brisk
+Bot(10): I like basketball, but i dont like to hear a basketball player.
+
+Persona:
+hey my name is larry and i am a chef.
+my favorite shirts are band shirts and ruffle sleeves.
+its red with blue stripe so it shiny when i race.
+i'm 40 years old.
+i own a yacht and i rent it out when i am not using it.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.14
+Robotic(↓): 26
+Interesting: 59
+Fun: 40
+Consistent: 14
+Fluent: 65
+Repetitive(↓): 56
+Topic: 13
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i am great
+Bot(2): i am a student , i am a teacher .
+User(3): i am a tech lead
+Bot(3): i like to go to the gym and listen to music .
+User(4): i like swimming and gardening
+Bot(4): i like to go fishing .
+User(5): do you like politics
+Bot(5): i do , i like to go out to eat with my family .
+User(6): ok great
+Bot(6): i like to go to the gym and listen to music .
+User(7): do you a body builder
+Bot(7): i do not know what to say .
+User(8): ok do you vote the election
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): ok fine
+Bot(9): i like to go to the gym and listen to music .
+User(10): i also love music
+Bot(10): i like to listen to music .
+
+Persona:
+i'm pregnant with my first child.
+i used to be a painter but now i am a housekeeper.
+i am a party animal.
+i drive a big truck and live in country.
+i own a yacht and i rent it out when i'm not using it.
+
+Topic and Human Opinion:
+Beginning: politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.57
+Robotic(↓): 66
+Interesting: 38
+Fun: 20
+Consistent: 27
+Fluent: 64
+Repetitive(↓): 28
+Topic: 15
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hello . how are you ?
+User(2): doing great
+Bot(2): i am great just dyed my hair sunset red
+User(3): ohh that looks awesome
+Bot(3): i have blue eyes and blonde hair
+User(4): do you love pet animal
+Bot(4): hi ! ! i love animals . my eyes are blue , my dad died when i was 2 .
+User(5): ohh i am sorry to hear this
+Bot(5): they got hit by a drunk driver a few months ago yes we were very close
+User(6): which animal do you own
+Bot(6): hi ! ! i love animals . my eyes are blue , my dad died when i was 2 .
+User(7): do you grow up with your mother only?
+Bot(7): what color is your hair ?
+User(8): my hair is brown
+Bot(8): i have long brown hair and blue eyes !
+User(9): i don't like hair coloring
+Bot(9): i have blonde hair and like it .
+User(10): ok great deal
+Bot(10): where are you from ? i am from grand rapids in michigan . have you heard of it ?
+User(11): yes , i know something about it
+Bot(11): i have brown hair and very skinny
+
+Persona:
+i am an omnivore.
+i am a librarian.
+hey there i'm 23 and i love food.
+i am a skateboarder.
+i've blonde hair and blue eyes.
+
+Topic and Human Opinion:
+Beginning: pet animal(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.57
+Robotic(↓): 81
+Interesting: 66
+Fun: 83
+Consistent: 59
+Fluent: 81
+Repetitive(↓): 63
+Topic: 30
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi i lost my arm sadly
+User(2): why
+Bot(2): i like to dance on the weekends
+User(3): i also love dance
+Bot(3): i like to dance on the weekends
+User(4): do you love hair
+Bot(4): only on the weekends
+User(5): i love during my holidays
+Bot(5): i do not believe in holidays
+User(6): you don't have a holiday
+Bot(6): i do not believe in holidays
+User(7): why
+Bot(7): i do not believe in holidays
+User(8): i love holidays
+Bot(8): i trrwally like to knit
+User(9): i dont unserstand your language
+Bot(9): i trrwally like to knit
+User(10): what is your hair color
+Bot(10): blond what color is your
+User(11): brown
+Bot(11): okay , do you have dogs
+User(12): yes i have
+Bot(12): okay , do you have dogs
+User(13): yes ,my dog name is brownie
+Bot(13): i do not like coffee
+User(14): okey
+Bot(14): i trrwally like to knit
+User(15): then
+Bot(15): ok
+User(16): thankyou
+Bot(16): ok
+
+Persona:
+i dance on the weekends.
+i have a dogs.
+coffee is my preferred beverage.
+knitting is my passion.
+i've a broken arm.
+
+Topic and Human Opinion:
+Beginning: hair(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.86
+Robotic(↓): 42
+Interesting: 68
+Fun: 65
+Consistent: 93
+Fluent: 75
+Repetitive(↓): 24
+Topic: 75
+
+####################
+

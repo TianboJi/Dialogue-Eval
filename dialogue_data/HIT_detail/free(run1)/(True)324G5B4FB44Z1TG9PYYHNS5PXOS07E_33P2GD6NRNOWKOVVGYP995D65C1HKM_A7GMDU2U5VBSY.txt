@@ -1,0 +1,335 @@
+Feedback: Thank you.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love summer.
+Bot(1): i love summer , i have a lot of free time to play games
+User(2): What else do you like about summer
+Bot(2): i love the fall . i love the fall .
+User(3): The leaves are beautiful here where I live.
+Bot(3): i am from georgia where i live
+User(4): I've been to Atlanta
+Bot(4): i love to go to the country and listen to country music
+User(5): Who is your favorite band
+Bot(5): i like the blues . i like the blues .
+User(6): But that's not country music.
+Bot(6): i like to listen to music while i am not working
+User(7): Who is your favorite country artist?
+Bot(7): i like all kinds of music .
+User(8): Do you have any pets
+Bot(8): i do not have any pets . i have a cat .
+User(9): I have a dog named Josie.
+Bot(9): i do not have any pets
+User(10): You said you have a cat
+Bot(10): i do not have any pets .
+
+Persona:
+i have an internet addiction and spend a lot of time playing roleplaying games.
+i'm married to a doctor.
+i enjoy american sports.
+i'm a woman.
+i've blue eyes and red hair that comes to my waist.
+
+Topic and Human Opinion:
+Beginning: summer(like)
+Round 2: fall(like)
+Round 3: GA(like)
+Round 4: Country Music(like)
+Round 7: pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 43.43
+Robotic(↓): 86
+Interesting: 32
+Fun: 65
+Consistent: 59
+Fluent: 32
+Repetitive(↓): 57
+Topic: 59
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I belong to a bowling league
+Bot(1): i love to go fishing .
+User(2): I don't like fishing
+Bot(2): i like to go fishing .
+User(3): What is your favorite place to fish
+Bot(3): i love the color red . what is yours ?
+User(4): Red is pretty
+Bot(4): i like to go to the gym and listen to music .
+User(5): What is your favorite music
+Bot(5): i like the beatles , and the outdoors .
+User(6): Did you ever see them in concert?
+Bot(6): no , i do not . i am a big fan of classical music .
+User(7): Classical is soothing
+Bot(7): i like to go to the gym and listen to music .
+User(8): I don't work out.
+Bot(8): i am a student , but i work at a grocery store .
+User(9): What do you study
+Bot(9): i do not , but i do like to go to the park .
+User(10): I like to take my dog to the park
+Bot(10): i love dogs too . i love dogs .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: bowling(like)
+Round 1: fishing(dislike)
+Round 3: red(like)
+Round 4: music/gym(like)
+Round 8: student/work(like)
+Round 9: park(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 52.29
+Robotic(↓): 81
+Interesting: 76
+Fun: 39
+Consistent: 72
+Fluent: 34
+Repetitive(↓): 27
+Topic: 53
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am in good health
+Bot(1): I I like i’m are your hobbies?
+User(2): I like to take surveys
+Bot(2): The meeting was riding a I like a russian lawyer.
+User(3): You are an attorney
+Bot(3): i am first am have .
+User(4): i have a pet
+Bot(4): I love i like cooking, rap music
+User(5): What do you like to cook
+Bot(5): what is of seen name?🙂
+User(6): What is your name
+Bot(6): i am is mister spent see
+User(7): That is quite a strange name
+Bot(7): Hahn, that is funny. What do are young.. have ever living?
+User(8): I like to eat peanut butter
+Bot(8): I am family that i'm close am a bit older but i hate it.
+User(9): how many siblings do you have
+Bot(9): I am excited is your like music and going to go to college next year. Do you live in colorado?
+User(10): I like Christian music
+Bot(10): I am have you have a banker.
+
+Persona:
+i am an art major in college.
+i'm a swim coach at my local pool.
+i love wearing skinny jeans and leggings.
+i've never been out of ohio.
+i am a doctor.
+
+Topic and Human Opinion:
+Beginning: health(like)
+Round 1: hobbies(like)
+Round 2: russian lawyer, meeting, riding(like)
+Round 3: gibberish(dislike)
+Round 3: pets(like)
+Round 4: cooking, rap music(like)
+Round 5: name(like)
+Round 7: gibberish(dislike)
+Round 7: food(like)
+Round 8: family(like)
+Round 9: music, college, colorado(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): It's cold here.
+Bot(1): where are you cold at right now ?
+User(2): In Virginia.
+Bot(2): same
+User(3): What part of VA are you in
+Bot(3): richmond ! i used to live there , in va . i live in pa now .
+User(4): What part of PA
+Bot(4): i am in northern pennsylvania
+User(5): Anywhere near Hershey Park
+Bot(5): i am afraid to go to yellowstone , i love hershey .
+User(6): I've never been there.
+Bot(6): i am afraid to go to yellowstone , i love hershey .
+User(7): Why are you afraid of yellowstone
+Bot(7): i am afraid to go to yellowstone , i love hershey .
+User(8): My favorite color is aqua
+Bot(8): i am afraid to go to yellowstone , i love hershey .
+User(9): What colors do you like
+Bot(9): i like emerald green and hot pink
+User(10): Emerald green is pretty
+Bot(10): that is a cool color
+User(11): Hot pink is a warm color
+Bot(11): so is pink i guess
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: weather(like)
+Round 5: PA(like)
+Round 6: Yellowstone(like)
+Round 7: color(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 44.00
+Robotic(↓): 96
+Interesting: 63
+Fun: 64
+Consistent: 84
+Fluent: 54
+Repetitive(↓): 100
+Topic: 39
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What kind of car do you drive
+Bot(1): i drive a quick auto
+User(2): my car is pretty fast too
+Bot(2): wow how fast do usually go
+User(3): not over 80
+Bot(3): do usually go that fast
+User(4): yeah, do you
+Bot(4): i wish i did just a fast car
+User(5): My car is an SUV
+Bot(5): oh really how ? i have a big suv lets load them up
+User(6): LOL, we could go on a vacation
+Bot(6): i would love that where do you go
+User(7): I'd like to go to Montana in an RV
+Bot(7): wow , i would love that
+User(8): Where would you like to go
+Bot(8): i would like to go alaska
+User(9): That's really far away
+Bot(9): you could take me with you
+User(10): LOL, I need a vacation
+Bot(10): you should take me with you
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cars(like)
+Round 5: vacation(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 90.14
+Robotic(↓): 26
+Interesting: 80
+Fun: 98
+Consistent: 98
+Fluent: 86
+Repetitive(↓): 5
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like snow
+Bot(1): i am not very fond of the cold but i do love the crisp air of fall
+User(2): The colors this fall have been beautiful
+Bot(2): yeah ? why do you love fall ?
+User(3): It's beautiful and cool
+Bot(3): its supposed to rain all day here .
+User(4): where is here
+Bot(4): yes ! hard boiled eggs are yummy . you like eggs ?
+User(5): I like mine scrambled
+Bot(5): i just started my own channel to share tutorials on makeup , 50k subscribers !
+User(6): That's a lot for a new channel
+Bot(6): no way ! i love photography but cant see colors so that limits me .
+User(7): Are you color blind
+Bot(7): i am a radio dj . i have an assistant and everything labelled in braille . it works !
+User(8): That's pretty smart
+Bot(8): that all depends on what you mean by smart , yet i can be quite confident .
+User(9): I see you can.
+Bot(9): 1 . . . 2 . . . 3 . . . . . lobster . oh . yes . though , i miss the apartment days . like it ?
+User(10): I love lobster
+Bot(10): yes i like shrimp but not lobster .
+User(11): Shrimp are okay
+Bot(11): well there is shrimp gumbo , shrimp cresol , ship scampi
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: snow(like)
+Round 1: fall(like)
+Round 3: rain(like)
+Round 4: eggs(like)
+Round 5: social media(like)
+Round 6: photography, colors(like)
+Round 7: dj, blind(like)
+Round 9: lobster, apartment(like)
+Round 10: shrimp(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 65.29
+Robotic(↓): 94
+Interesting: 70
+Fun: 71
+Consistent: 91
+Fluent: 75
+Repetitive(↓): 25
+Topic: 69
+
+####################
+

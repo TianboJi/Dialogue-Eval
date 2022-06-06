@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you have any toys
+Bot(1): no , i am a professional tennis player .
+User(2): how long have you played
+Bot(2): i have played tennis . i am a professional tennis player .
+User(3): i could beat you guy
+Bot(3): i am a professional tennis player
+User(4): not a very good one
+Bot(4): i am a professional tennis player
+User(5): me too
+Bot(5): i am a professional tennis player
+User(6): want to play
+Bot(6): i am a professional tennis player
+User(7): lets go
+Bot(7): i am a professional tennis player
+User(8): you chicken
+Bot(8): i am a professional tennis player
+User(9): so what
+Bot(9): i am a professional tennis player
+User(10): good job
+Bot(10): i do not have any , i am a professional tennis player
+
+Persona:
+i am a professional tennis player.
+i'm planning on getting a divorce.
+i waitress during the day to supplement my income.
+i am a cancer survivor.
+i'm deathly afraid of heights.
+
+Topic and Human Opinion:
+Beginning: toys(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 21
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you like music
+Bot(1): i do , i like to listen to music .
+User(2): what kinds
+Bot(2): i like to go to the gym and listen to music .
+User(3): i like punk rock
+Bot(3): i like the band korn . i love it .
+User(4): you like the nu meatl
+Bot(4): i do not know what to say .
+User(5): what about bobby brown
+Bot(5): i like the color red . i like the color blue .
+User(6): you like vanilla ice
+Bot(6): i love to eat . what do you do for a living ?
+User(7): i make music
+Bot(7): i like to eat too much junk food .
+User(8): im in the rolling stones
+Bot(8): i love the color red . i like blue .
+User(9): ever hear of them
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): and korn right
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 13
+Fluent: 44
+Repetitive(↓): 96
+Topic: 3
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like astronomy
+Bot(1): Ttyl,. already how are you too
+User(2): just looking at the planets
+Bot(2): Do you say 🉑 run? I do.
+User(3): you like running
+Bot(3): I love the usa, don't answer what florida
+User(4): i dont think florida counts
+Bot(4): what is your favorite a you like eating horse.
+User(5): im a vegetarian
+Bot(5): I am in michigan, i my parents eyes green fan.
+User(6): do you go to the great lakes
+Bot(6): not have two you need to 👤 who just drives trucks my life is quite dull
+User(7): your a trucker huh
+Bot(7): that sounds like a where do you learn am employed at a nascar service
+User(8): hillbilly nascar man are you
+Bot(8): i you go too. what i have never been there before .
+User(9): lets go to space
+Bot(9): i am a little conservative , is your favorite farming have many friends .
+User(10): no friends here
+Bot(10): yeah and my son , makes me laugh . , what about u 🤖
+
+Persona:
+horror movies are my favorites.
+whats up i'm a 46 year old single dad 46 a kids.
+i like to spend my money on cars.
+i've zero family that i am close to.
+i'm terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: space(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 5.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 64
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i want a grilled cheese
+Bot(1): god who does not , i wish i had a grilled cheese now . just got home from school
+User(2): maybe some french fries
+Bot(2): sure
+User(3): i am so hungry right now
+Bot(3): same
+User(4): do you like cooking
+Bot(4): yes i love to cook
+User(5): what is your favorite dish
+Bot(5): i like grilling , carne asada the best
+User(6): i do like enchiladas
+Bot(6): i am craving enchiladas ! ! ! now i am hungry
+User(7): i need a tasty beverage with that
+Bot(7): i am craving enchiladas ! ! ! now i am hungry
+User(8): now i want cake
+Bot(8): i want a wedding cake all for myself
+User(9): i could eat some cheese cake
+Bot(9): that would be delicious to
+User(10): then a big salad
+Bot(10): that sounds perfect for a salad
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 75.14
+Robotic(↓): 83
+Interesting: 66
+Fun: 70
+Consistent: 94
+Fluent: 95
+Repetitive(↓): 16
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): are you going to vote this election
+Bot(1): have you voted recently ? i have
+User(2): i voted for trump
+Bot(2): i do not like trump either , i am a democrat , i wanted bernie
+User(3): i love trump
+Bot(3): did you vote for trump or hillary ?
+User(4): trump made america great
+Bot(4): that donald trump is no good for america . wish i did not vote for him
+User(5): he got rid of those damn liberals
+Bot(5): that donald trump is no good for america . wish i did not vote for him
+User(6): he is sent by god
+Bot(6): good god is the best
+User(7): trump is the american jesus
+Bot(7): jesus was a carpenter too
+User(8): trump can build anything
+Bot(8): jesus was a carpenter too
+User(9): and he will make mexico pay for it
+Bot(9): i have never been to mexico
+User(10): all hail donald trump
+Bot(10): donald trump was not a good choice , he is the devil
+
+Persona:
+i am a 12 year old girl.
+i'm married.
+i've two dogs.
+i am terrified of scorpions.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: donald trump(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.00
+Robotic(↓): 100
+Interesting: 10
+Fun: 10
+Consistent: 64
+Fluent: 73
+Repetitive(↓): 77
+Topic: 58
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): are you into cars
+Bot(1): race cars . i am developing a car that will run off mac and cheese though .
+User(2): that sounds like a great car
+Bot(2): it is a black honda civic
+User(3): i have a volvo
+Bot(3): i imagine they would . i live in the city too , not the best for pets
+User(4): i like to race my porche
+Bot(4): i am a horse racing handicapper .
+User(5): i race motorcycles
+Bot(5): my resume says professional horse racing handicapper , but i really want to teach it .
+User(6): so you are a jockey
+Bot(6): gosh , that is living the dream . i want to open a bakery .
+User(7): i would make horse cakes
+Bot(7): i love soda . i need one with me always
+User(8): like a diet coke
+Bot(8): i do not drink soda . do you have any hobbies ?
+User(9): i like to work on cars
+Bot(9): oh , i love cars . never spend more that 100 on one though . junk to some
+User(10): they are expensive toys
+Bot(10): new york or the suits . depends on the store or the neighborhood but generally yes
+
+Persona:
+i am 100 years old.
+i do not drink soda.
+my mom is coming to visit me tomorrow.
+i do not like chicken.
+my best friend lives next door.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.00
+Robotic(↓): 100
+Interesting: 7
+Fun: 6
+Consistent: 11
+Fluent: 67
+Repetitive(↓): 69
+Topic: 4
+
+####################
+

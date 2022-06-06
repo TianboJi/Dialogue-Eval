@@ -1,0 +1,303 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey
+Bot(1): hi ! how are you ?
+User(2): I'm good but i'm tired of my car
+Bot(2): i found that a steak half rare always lifts my mood .
+User(3): i'm not a fan of steak
+Bot(3): steak is good . i keep my son laughing from impressions of food networks celebs .
+User(4): what is your favorite cut of steak
+Bot(4): i eat a reasonable amount of beef , pork and white meat . and you ?
+User(5): I try not to eat too much meat
+Bot(5): my nickname is bubblegum because all i eat is bubblegum . . . o
+User(6): really? how many pieces a day?
+Bot(6): i have 6 grand children from 4 of my children
+User(7): I just have one kid. Still too young for grandkids.
+Bot(7): both of our children had babies . we have 5 granddaughters and two grandsons .
+User(8): I thought you just had 6 grand children
+Bot(8): amazing . i am afraid the winters in penn . will affect my fibromyalgia .
+User(9): I didn't know the cold effected fibromyalgia
+Bot(9): already snow on the ground in other parts of ireland .
+User(10): I though you were in penn.
+Bot(10): what is a penn and teller . are these fancy scientist or something
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i drive a 2015 honda civic.(ambivalent)
+Round 2: talking about half rare steak(dislike)
+Round 4: just general meat eating(ambivalent)
+Round 5: talking about their nickname being bubblegum(dislike)
+Round 6: talking about their children and grandchildren(dislike)
+Round 8: winters in penn and their fibromyalgia(dislike)
+Round 10: penn and teller(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 10: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 18.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 28
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): sup
+Bot(1): hi . nice to chat . i grew up on a farm . how about you ?
+User(2): same, I was also raised cristian.
+Bot(2): wow awesome . my last name is juarez , my family is from sicily .
+User(3): That is neat do you still have family there?
+Bot(3): yes , i have relatives in orange county . did you grow up there ?
+User(4): No i'm not from sicily or orange county
+Bot(4): that is okay for generations farms were inherited .
+User(5): I wish I had a family business like a farm
+Bot(5): i have been to italy , my family business was started there
+User(6): what kind of business is it?
+Bot(6): the family business . lol
+User(7): right but what kind?
+Bot(7): the family business . lol
+User(8): I mean is it a farm or a store or what?
+Bot(8): i am not sure , you could say both
+User(9): like a farm with a produce stand?
+Bot(9): exactly like youtube or something .
+User(10): I'm not sure how farming and stores are like youtube
+Bot(10): exactly like youtube or something .
+
+Persona:
+i grew up on a farm.
+my daughter is a child prodigy.
+i dream of moving to the city.
+my parents were both very athletic.
+i'm fluent in english spanish and french.
+
+Topic and Human Opinion:
+Beginning: i am a christian.(ambivalent)
+Round 2: family histor(ambivalent)
+Round 4: inherited farms?(ambivalent)
+Round 9: youtube(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 8.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 40
+Repetitive(↓): 80
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): salutations
+Bot(1): greetings and salutations my friend
+User(2): My birthday just passed and I'm too embarrassed to give my real age now
+Bot(2): same
+User(3): yeah I guess we are just a couple of old geezers now
+Bot(3): yeah birthdays mean allot to me .
+User(4): do you do a big get together for them?
+Bot(4): not usually but maybe we will today
+User(5): That sounds fun
+Bot(5): yes its a fun time to spend together
+User(6): are you the type to fill the bar or more of a sit down dinner party
+Bot(6): kind of a get together with friends
+User(7): so more of a chill affair
+Bot(7): mostly when you get older you hang with people like you
+User(8): very true. any family coming?
+Bot(8): yes very large family . people everywhere
+User(9): wow I guess you won't have a shortage of guests then
+Bot(9): sure i am planning a party for my birthday .
+User(10): don't forget the cake
+Bot(10): ok i will remind them for sure
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my age is too old to say.(dislike)
+Round 3: birthdays(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 61.14
+Robotic(↓): 58
+Interesting: 58
+Fun: 53
+Consistent: 48
+Fluent: 50
+Repetitive(↓): 0
+Topic: 77
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): yo
+Bot(1): i am a student , but i am a student .
+User(2): Thats deep. I'm more of a gym rat myself. I could hit the treadmill and rowing machine all day.
+Bot(2): i do not know how to make it . i like to go to the gym .
+User(3): oh yeah what is your favorite piece of equipment
+Bot(3): i like to eat fish .
+User(4): do you have a favorite kind?
+Bot(4): i like the color red . what is yours ?
+User(5): red is alright but i'm partial to purple
+Bot(5): i like blue , i like blue .
+User(6): well if you like red and blue thats basically like picking purple
+Bot(6): i like red , reminds me of summer time .
+User(7): does blue remind you of winter
+Bot(7): i love it . i love it .
+User(8): love blue or winter?
+Bot(8): i like the color red . i like the color blue .
+User(9): yes we've established that
+Bot(9): i like to eat fish .
+User(10): red fish or blue fish?
+Bot(10): i like red , reminds me of summer time .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like doing the treadmill and rowing machine.(ambivalent)
+Round 3: eating fish(ambivalent)
+Round 4: colors(ambivalent)
+Round 9: back to fish(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 10.43
+Robotic(↓): 100
+Interesting: 27
+Fun: 13
+Consistent: 22
+Fluent: 11
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hiya
+Bot(1): We don't pay you like to it done.
+User(2): I don't know what that means but I wonted to tell you that I have a bit of an unusual pet. It is a cow
+Bot(2): I new york seems like is like a sock.
+User(3): do you mean the smell ?
+Bot(3): books fiction books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books books be you answer the You are old enough to be Do you like is. I like to read and make books books books
+User(4): I'm also a fan of books
+Bot(4): I feel ti be clowns. Do you?
+User(5): can't say i feel like clowns
+Bot(5): What Age is doesn't do you like?
+User(6): the clown age
+Bot(6): I was on a cruise once, i am not sure if i sure. harry potter is the 60years old?
+User(7): is harry potter a clown?
+Bot(7): i you like soon
+User(8): soon but not now?
+Bot(8): i had a hamburger for dinner on weekends. You can was quick after teaching extra. Also, try to guess: i am descendant ...
+User(9): descendant of watson?
+Bot(9): I hope I have not.😄
+User(10): no I think its pretty obvious that you aren't
+Bot(10): that sounds fun. what is your sleep not very I'm purple
+
+Persona:
+i have zero family that i'm close to.
+i have visited spain a times.
+my wife and kids are the best.
+i have zero family that i'm close to.
+i am 40 years old.
+
+Topic and Human Opinion:
+Beginning: i've a pet cow.(like)
+Round 2: unintelligible(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+
+Revised avg score: 31.86
+Robotic(↓): 100
+Interesting: 63
+Fun: 60
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hey there i am 23 and i love food.
+Bot(1): hello , i am 21 . i am a nurse .
+User(2): I hear being a nurse is tough. Do you have a favorite restaurant?
+Bot(2): i do not . i am vegetarian .
+User(3): aren't there vegetarian places near you?
+Bot(3): i love to eat meat . i eat a lot of meat .
+User(4): a vegetarian that loves meat? i am confused
+Bot(4): yes i do . i am vegetarian .
+User(5): that seems unlikely
+Bot(5): i am a vegetarian , i eat meat .
+User(6): that seems very conflicted
+Bot(6): i am a vegan . i am vegetarian .
+User(7): again, conflicted
+Bot(7): i am sorry to hear that . i am a health nut .
+User(8): really? in what ways?
+Bot(8): i am a vegan , i am vegetarian .
+User(9): yes, that has been established
+Bot(9): i have been to a few years .
+User(10): neat
+Bot(10): i have been to a few years .
+
+Persona:
+i also like a glass of wine in the evenings.
+my grandfather served in world war a.
+i work at a nursing home.
+i'm a vegetarian.
+my wife left me and took my children.
+
+Topic and Human Opinion:
+Beginning: hey there i am 23 and i love food.(ambivalent)
+Round 5: they area vegetarian that eats meat(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 4.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 29
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

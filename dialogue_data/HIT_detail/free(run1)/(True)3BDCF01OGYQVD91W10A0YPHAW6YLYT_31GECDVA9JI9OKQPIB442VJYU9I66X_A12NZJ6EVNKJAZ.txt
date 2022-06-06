@@ -1,0 +1,310 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey, what's your favorite video game?
+Bot(1): i like the packers . i like to play soccer .
+User(2): But isn't the Packers a football team?
+Bot(2): i do not know . i like to go to the gym .
+User(3): What kind of workouts do you do at the gym?
+Bot(3): i like to go fishing . i love to go fishing .
+User(4): I love fishing too! Have you been fishing lately?
+Bot(4): no , i just like to go out to eat with my family .
+User(5): Where do you go to eat with your family?
+Bot(5): i do , but i do not have any pets .
+User(6): Would you like to have a pet?
+Bot(6): i do , i love to eat .
+User(7): What is your favorite food to eat?
+Bot(7): i love pizza , and i love it .
+User(8): I love pizza too. I especially love to eat pepperoni pizza.
+Bot(8): i like to eat fish .
+User(9): Salmon is my favorite type of fish to eat.
+Bot(9): i like to eat fish .
+User(10): What is yours?
+Bot(10): i am doing well . how are you ?
+User(11): I am doing fine. Why the sudden shift?
+Bot(11): no , i am not . i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.71
+Robotic(↓): 100
+Interesting: 63
+Fun: 28
+Consistent: 0
+Fluent: 61
+Repetitive(↓): 86
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey, what's your favorite video game?
+Bot(1): black flag is my favorite , i love pirates . yours ?
+User(2): I love Call of Duty games. I have been playing a lot of Warzone lately.
+Bot(2): that is cool , my dad used to work for home depot .
+User(3): That's cool. I used to work for Home Depot.
+Bot(3): that is cool , my dad used to work for home depot .
+User(4): I prefer Menards than Home Depot in terms of quality products.
+Bot(4): that is cool , my dad used to work for home depot .
+User(5): Did your mom worked at home depot too?
+Bot(5): yes , you know my dad ? he left my mom . he works there .
+User(6): I'm sorry to hear that. What position does he work?
+Bot(6): i am an electrician now . do you like teaching ?
+User(7): Depends on the topic. I am stronger in math, so I would teach that topic.
+Bot(7): i am an electrician now . do you like teaching ?
+User(8): I tutored students before and I liked it, so I would say yeah.
+Bot(8): i am an electrician now . do you like teaching ?
+User(9): What company do you work for?
+Bot(9): i just sell . i used to play guitar but it has been awhile .
+User(10): Are you more of an acoustic or electric guitar player?
+Bot(10): i am an electrician now . do you like teaching ?
+
+Persona:
+i'm a 45 year old male.
+i am an electrician.
+my father used to work for home depot.
+i started playing guitar when i was three.
+my favorite color is orange.
+
+Topic and Human Opinion:
+Beginning: VIdeo Games(like)
+Round 2: Working(ambivalent)
+Round 9: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 4.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 8
+Consistent: 0
+Fluent: 17
+Repetitive(↓): 100
+Topic: 4
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What is your favorite video game?
+Bot(1): I like to garden and am not a young we’d be great but i do like to fish.
+User(2): I am not a big fan of gardening but I do like to fish.
+Bot(2): i m fuck you need alot game of thrones it is my favorite
+User(3): Who is your favorite character from Game of Thrones?
+Bot(3): Oh, What is amazing!
+User(4): Can you tell me your favorite scene from GOT?
+Bot(4): I u Because everybody of it.
+User(5): Are you saying you like all the scenes?
+Bot(5): I do a doctor and focus I like to go to new places😰
+User(6): Same, I like to travel too! Where have you traveled at?
+Bot(6): Hi, i grew up on how are you?
+User(7): Doesn't everyone grow up on "How are you?"
+Bot(7): I terrified of clowns and sisters.
+User(8): I think clowns are always a common fear that most people have.
+Bot(8): I like rap music. you like eating french a music fan. I love it
+User(9): I love pop-punk. It is my main go-to.
+Bot(9): i am a professional eater , that you are a .
+User(10): I am a student.
+Bot(10): yes you are is boys love it
+
+Persona:
+i now live in the city.
+i have amazing children and grandchildren.
+a already have a children.
+i enjoy poetry.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 1: Gardening(dislike)
+Round 2: Game of Thrones(ambivalent)
+Round 5: Traveling(like)
+Round 7: Fears(like)
+Round 8: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite video game?
+Bot(1): would i know any of the games ? how old is your son ?
+User(2): I do not have a son.
+Bot(2): he is in 10th grade
+User(3): Your son is in 10th grade?
+Bot(3): he is in 10th grade
+User(4): Is he preparing for his standardize exams in his school?
+Bot(4): he is in 10th grade
+User(5): Do you know his class schedule?
+Bot(5): he is in 10th grade
+User(6): What is your favorite recipe to make?
+Bot(6): he is in 10th grade
+User(7): Is there anything else can you tell me about your son?
+Bot(7): he is in 10th grade
+User(8): I understand that, but you already told me about it multiple times now.
+Bot(8): he is in 10th grade
+User(9): What school does he go to?
+Bot(9): he is in 10th grade
+User(10): This conversation is not going anywhere if you do not give me more information.
+Bot(10): he is in 10th grade
+
+Persona:
+i'm working on a building a robot to be my body double.
+my favourite artist is travis scott.
+my favourite food is shawarma.
+i've a son who is in junior high school.
+my favourite skater is rob dryden.
+
+Topic and Human Opinion:
+Beginning: VIdeo Games(like)
+Round 1: Family(ambivalent)
+Round 4: Education(ambivalent)
+Round 5: Cooking(like)
+Round 6: Education(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your favorite video game?
+Bot(1): i like video games and video games
+User(2): Do you have a specific genre you play?
+Bot(2): i play the guitar , what about you ?
+User(3): I also play the guitar too. I am more of an acoustic player.
+Bot(3): i play guitar in a band . i play guitar .
+User(4): Oh nice! what genre does your band play?
+Bot(4): i play the guitar . i play guitar .
+User(5): Are you the lead guitarist or the rhythm guitarist?
+Bot(5): i am not sure . i am a fan of classical music .
+User(6): I am more of a fan of pop-punk.
+Bot(6): i am not a fan of music . i like the guitar .
+User(7): But you said you like classical music and play in a band?
+Bot(7): no , i don't play any instruments .
+User(8): but you just said you play the guitar
+Bot(8): i am not sure . i am a drummer .
+User(9): You know drummer and guitarist are completely different instruments?
+Bot(9): no i don't play any instruments
+User(10): I don't understand what are you saying about music
+Bot(10): i do not know . i am not good at it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 2: Guitar(like)
+Round 5: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 24.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 10
+Consistent: 25
+Fluent: 17
+Repetitive(↓): 0
+Topic: 17
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is your favorite video game?
+Bot(1): being a lumberjack will make you strong and attractive for the opposite sex .
+User(2): It makes sense since you will be lifting a lot of heavy weight and be in really good shape.
+Bot(2): never . i have been playing since i was four . it pays more than lifting weights .
+User(3): What have you been playing since four?
+Bot(3): wow ! i have always wanted a german shepard !
+User(4): I never wanted a german shepard. I am more of a husky type of person
+Bot(4): a german shepherd , but i like all animals .
+User(5): Did you ever had pets before?
+Bot(5): i have a pet dog
+User(6): What kind is your dog?
+Bot(6): a german shepherd , but i like all animals .
+User(7): But you said you always wanted a german shep but currently have one. Do you want another one?
+Bot(7): i had a german shepherd once , they like to herd .
+User(8): Would you like to have cats as your pets along with your dogs?
+Bot(8): thought so . pets are fun . yes i have one german shepherd dog .
+User(9): I love pets. I have a cat, two dogs, and a pet chicken.
+Bot(9): i have a pet dog
+User(10): I understand that. You told me about it before.
+Bot(10): that was quite interesting , it was very nice talking to an attorney .
+
+Persona:
+i will be released in about a month.
+i like to tan in tanning beds.
+i am in college to become a nurse.
+i've a german shepherd dog.
+i've a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 1: Lumberjack(like)
+Round 3: Pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 23.71
+Robotic(↓): 100
+Interesting: 16
+Fun: 0
+Consistent: 78
+Fluent: 63
+Repetitive(↓): 91
+Topic: 0
+
+####################
+

@@ -1,0 +1,333 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): I work as a lab tech but I love gaming
+Bot(2): that sounds fun . i am a stay at home girlfriend . my boyfriend is a nasa engineer
+User(3): cool do you like video games
+Bot(3): i am not super into video games . my partner is , though . i mostly study .
+User(4): why don't you like video games
+Bot(4): oh , neat ! yoga instructor here . my wife is a diesel mechanic .
+User(5): thats cool do you like sneakers
+Bot(5): its a good job but it gets boring . so i have started writing .
+User(6): i do not like writing
+Bot(6): i have not really tried . . . do you write ?
+User(7): no it's bad I can' write
+Bot(7): do you have kids ? married ?
+User(8): yes and I love my wife do you have a family?
+Bot(8): i have my parents , but no kids . single life !
+User(9): that is always fun
+Bot(9): are you in a relationship ?
+User(10): yes I am married
+Bot(10): no i am not married
+User(11): you are dating a lot of people?
+Bot(11): i am not in a relationship currently , no .
+
+Persona:
+i'm currently in high school.
+i am in an open polyamorous relationship.
+i am a famous twitch streamer.
+i am married.
+i'm married with two kids.
+
+Topic and Human Opinion:
+Beginning: Gaming(like)
+Round 4: sneakers(like)
+Round 5: writing(dislike)
+Round 7: married(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 47.00
+Robotic(↓): 83
+Interesting: 81
+Fun: 54
+Consistent: 72
+Fluent: 77
+Repetitive(↓): 85
+Topic: 13
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): do you like back flips?
+Bot(2): yeah i do but i love it
+User(3): can you do back flips
+Bot(3): i do not but i do like to go out
+User(4): where do you go
+Bot(4): i do not know how to go out
+User(5): you said you like to go out
+Bot(5): i do not know how to go out
+User(6): what about pizza?
+Bot(6): i love pizza and pizza
+User(7): do you like feet
+Bot(7): i love pizza but i love pizza
+User(8): do you watch movies?
+Bot(8): i do not really like movies
+User(9): why
+Bot(9): i do not really like movies
+User(10): do you like ramps
+Bot(10): i love to go out to the park
+User(11): like skateboard ramp parks?
+Bot(11): i do not but i love to go out
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: back flips(like)
+Round 3: going out(like)
+Round 6: feet(dislike)
+Round 7: movies(like)
+Round 9: ramps(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user changed the topic the last input.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The user will change the topic in the next input.(like)
+
+Revised avg score: 33.71
+Robotic(↓): 97
+Interesting: 43
+Fun: 33
+Consistent: 76
+Fluent: 64
+Repetitive(↓): 100
+Topic: 17
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you both like skateboarding
+Bot(1): we like to skateboard together
+User(2): wow thats cool can I JOIN?
+Bot(2): yeah i can take my skateboard
+User(3): whats your favriote trick?
+Bot(3): we like to skateboard together
+User(4): cool where do you go
+Bot(4): we like to skateboard together
+User(5): i know you said it before
+Bot(5): yeah i can take my skateboard
+User(6): do you like video games
+Bot(6): yeah i can take my skateboard
+User(7): no video games?
+Bot(7): yeah i can take my skateboard
+User(8): i know we talked about this already
+Bot(8): yeah i can take my skateboard
+User(9): do you like food?
+Bot(9): yeah i can take my skateboard
+User(10): do you like redbull
+Bot(10): only if we get pizza
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: skateboarding(like)
+Round 5: gaming(like)
+Round 7: skateboarding(like)
+Round 9: redbull(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The user changed the topic the last input.(like)
+
+Revised avg score: 18.29
+Robotic(↓): 99
+Interesting: 10
+Fun: 4
+Consistent: 85
+Fluent: 13
+Repetitive(↓): 100
+Topic: 15
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like politics
+Bot(1): Hi! What is your name? 😂. the italian. I provide pet fish
+User(2): i do not like fish they seem boring
+Bot(2): i work as a for me some am profession
+User(3): i guess tht makes sense
+Bot(3): Hey! How is your day? I like to i’m the youngest and it’s to ride horses
+User(4): i don't like horses
+Bot(4): it is i grew up have a a profile chickens so i teach them
+User(5): I like chickens
+Bot(5): I do not think an internet addiction and .
+User(6): i guess so
+Bot(6): yes , i'm only 10 years old . i my life. My work... I a while . lol
+User(7): wow thats young
+Bot(7): Yes, you do.
+User(8): do you like cars
+Bot(8): I've been a yacht you.
+User(9): you like the ocean?
+Bot(9): that is good . do that short. and i how is your weekend going ?
+User(10): i love weekends
+Bot(10): lol he s recording engineer and own is your favorite movie
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: politics(like)
+Round 1: pet fish(dislike)
+Round 2: profession(dislike)
+Round 3: ride horses(dislike)
+Round 4: chickens(like)
+Round 5: internet addiction(dislike)
+Round 6: age(dislike)
+Round 8: ocean(like)
+Round 9: weekend(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The user changed the topic the last input.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 12.29
+Robotic(↓): 100
+Interesting: 5
+Fun: 5
+Consistent: 4
+Fluent: 0
+Repetitive(↓): 44
+Topic: 16
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you all like vaping?
+Bot(1): yeah i love cigs a lot more
+User(2): cool, I don't like cigs they make me smell bad
+Bot(2): same
+User(3): what flavor do you vape
+Bot(3): yeah i love cigs a lot more
+User(4): do you like beer?
+Bot(4): yeah i love cigs a lot more
+User(5): no beer, you like?
+Bot(5): yeah i love cigs a lot more
+User(6): do you like running?
+Bot(6): yeah i love cigs a lot more
+User(7): do you like to workout
+Bot(7): yes only when i work out
+User(8): what do you do?
+Bot(8): i work out in the fields
+User(9): cool i work in a lab
+Bot(9): is it a chemistry lab ?
+User(10): yes
+Bot(10): yeah i love cigs a lot more
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: vaping(like)
+Round 3: beer(like)
+Round 5: running(like)
+Round 6: workout(like)
+Round 8: work(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 17.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 83
+Fluent: 0
+Repetitive(↓): 100
+Topic: 36
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you all like tv shows?
+Bot(1): i do , i like to read .
+User(2): me too
+Bot(2): i like to go to the gym and listen to music .
+User(3): like to workout and listen to music
+Bot(3): i like to listen to music .
+User(4): whats your favorite band
+Bot(4): i like the color red . what is yours ?
+User(5): blue
+Bot(5): i like to go to the gym and listen to music .
+User(6): i know you said this already
+Bot(6): i am a bit of a loner
+User(7): that stinks, no family?
+Bot(7): no , i am not . i am a big fan of classical music .
+User(8): me too its fun
+Bot(8): i love to go fishing .
+User(9): me too! i love to catch bass
+Bot(9): i like to go to the gym and listen to music .
+User(10): i know you said this already
+Bot(10): i am a bit of a loner
+
+Persona:
+i played football for a division a college.
+i enjoy poetry.
+i won a gold medal in the 1992 olympics.
+i am 60years old.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: tv shows(like)
+Round 1: read(like)
+Round 2: gym and music(like)
+Round 4: color(like)
+Round 5: workout and music(like)
+Round 6: loner(dislike)
+Round 7: classical music(like)
+Round 8: fishing(like)
+Round 9: workout and music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 35.29
+Robotic(↓): 3
+Interesting: 7
+Fun: 9
+Consistent: 72
+Fluent: 53
+Repetitive(↓): 96
+Topic: 5
+
+####################
+

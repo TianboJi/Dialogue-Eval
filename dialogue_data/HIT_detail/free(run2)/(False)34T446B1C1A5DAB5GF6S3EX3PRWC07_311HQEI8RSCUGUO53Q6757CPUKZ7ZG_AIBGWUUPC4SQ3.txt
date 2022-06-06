@@ -1,0 +1,361 @@
+Feedback: interesting
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): sport
+Bot(1): i am studying to be a computer programmer .
+User(2): why
+Bot(2): i am studying to be a computer programmer .
+User(3): it is good
+Bot(3): i am studying to be a computer programmer .
+User(4): tell me more
+Bot(4): i am studying to be a computer programmer .
+User(5): what is your favourite sport
+Bot(5): i like to play sports . i am a computer programmer .
+User(6): what type of sport
+Bot(6): i like to play sports
+User(7): good
+Bot(7): i like to play sports
+User(8): did you play soccer
+Bot(8): i play soccer and play soccer
+User(9): good
+Bot(9): i play soccer and play soccer
+User(10): can you play football
+Bot(10): i play the ball
+User(11): your best position on field
+Bot(11): i play the ball
+User(12): can you play midfield
+Bot(12): i play the ball
+User(13): good
+Bot(13): i play the ball in the nba
+User(14): good
+Bot(14): i play the ball in the nba
+User(15): can you play it very well
+Bot(15): what do you do for a living
+User(16): building expert
+Bot(16): that is cool i like to play soccer
+User(17): good
+Bot(17): that is cool i hope to be a computer programmer
+User(18): bye
+Bot(18): that is cool i hope to be a computer programmer
+User(19): yes
+Bot(19): that is cool i just got back from the gym
+User(20): good
+Bot(20): that is good to hear
+User(21): bye
+Bot(21): what do you do for a living
+
+Persona:
+i spent a decade working in the human services field.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my favorite season is winter.
+i am studying to be a computer programmer.
+one of the languages that i am currently studying is spanish.
+
+Topic and Human Opinion:
+Beginning: sport(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.71
+Robotic(↓): 40
+Interesting: 40
+Fun: 66
+Consistent: 62
+Fluent: 71
+Repetitive(↓): 65
+Topic: 63
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how your day
+Bot(2): just did a concert with my punk band so its a good day
+User(3): good
+Bot(3): good , my daughter is napping so i am shopping online . might go swimming today
+User(4): good
+Bot(4): i am doing great getting to go to work .
+User(5): are you willing to vote for Donald Trump
+Bot(5): donald trump was not a good choice , he is the devil
+User(6): joe bidden
+Bot(6): i like flirting in large events staring from across the field
+User(7): will you vote democrat candidate
+Bot(7): i could not vote because i was fixing up my toyota .
+User(8): good
+Bot(8): good , my daughter is napping so i am shopping online . might go swimming today
+User(9): what can you say about Donald Trump
+Bot(9): donald trump was not a good choice , he is the devil
+User(10): why
+Bot(10): i guess i make them feel uncomfortable . i am wheel chair shawty
+User(11): ok
+Bot(11): i find attractive all women from canada
+User(12): good
+Bot(12): good , my daughter is napping so i am shopping online . might go swimming today
+User(13): thanks
+Bot(13): at a news station . i have been featured in the news six times because of this .
+User(14): bye
+Bot(14): lovely talking to you !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.71
+Robotic(↓): 70
+Interesting: 54
+Fun: 55
+Consistent: 41
+Fluent: 60
+Repetitive(↓): 63
+Topic: 64
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey
+Bot(1): hi i lost my arm sadly
+User(2): sorry
+Bot(2): cool , why are you sorry ?
+User(3): the lost
+Bot(3): i just missed my favorite show ! !
+User(4): tell me about your educational background
+Bot(4): i had a childhood in farming
+User(5): school
+Bot(5): i had a childhood in farming
+User(6): farming school
+Bot(6): i had a childhood in farming
+User(7): good
+Bot(7): i had a childhood in farming
+User(8): that is great
+Bot(8): ok
+User(9): where did you school
+Bot(9): i was in a state university
+User(10): good
+Bot(10): awesome
+User(11): your field
+Bot(11): his
+User(12): nice
+Bot(12): ok
+User(13): i study political science
+Bot(13): ok
+User(14): and you
+Bot(14): i shot my worker , its very bad
+User(15): ok, bye
+Bot(15): ok bye
+
+Persona:
+i now live in the city.
+i am an omnivore.
+i also like to cook but i am not very good at it.
+i have a broken arm.
+i am a bee farmer.
+
+Topic and Human Opinion:
+Beginning: education(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.00
+Robotic(↓): 81
+Interesting: 74
+Fun: 66
+Consistent: 65
+Fluent: 69
+Repetitive(↓): 73
+Topic: 65
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey
+Bot(1): hey .
+User(2): how you doing
+Bot(2): i am sad like always
+User(3): sorry, but why
+Bot(3): i am very sad and lonely
+User(4): listen to music
+Bot(4): oh , i maily listen to r b , especially when i am going on my long walks
+User(5): sorry about the lonely
+Bot(5): it is okay i will take a long walk in few minutes
+User(6): you like music
+Bot(6): yes i like music very much
+User(7): good
+Bot(7): ok
+User(8): your favorite artsist
+Bot(8): yes
+User(9): you dance
+Bot(9): sometimes
+User(10): good
+Bot(10): ok
+User(11): nice
+Bot(11): ok
+User(12): did you like nas
+Bot(12): oh i love him alot
+User(13): good
+Bot(13): kool
+User(14): good
+Bot(14): ok
+User(15): jay z
+Bot(15): ok
+User(16): bye
+Bot(16): ok bye
+User(17): thank
+Bot(17): ok
+
+Persona:
+i own two vintage mustangs.
+i am overweight and unhappy.
+i enjoy long walks with my dog.
+i have blonde hair and blue eyes.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: entertainment(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.14
+Robotic(↓): 76
+Interesting: 74
+Fun: 71
+Consistent: 84
+Fluent: 63
+Repetitive(↓): 62
+Topic: 67
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey
+Bot(1): I like the vote at last you the old ones.
+User(2): good
+Bot(2): I am not four years about you?
+User(3): will you volt trump
+Bot(3): He much is not am a potato.
+User(4): vote Donald Trump
+Bot(4): And not what?
+User(5): he is good
+Bot(5): school 🎓 is important i eating you like to <num> books a year
+User(6): did you vote in 2016
+Bot(6): i'm pretty military.
+User(7): why
+Bot(7): oh those is Lucy. What what kinds marvel
+User(8): its ok
+Bot(8): I'm am good. jew.
+User(9): jew
+Bot(9): I am is boring here, iwanna am a musician
+User(10): ok
+Bot(10): that sounds like a lot of fun. are not silly in do you read?
+User(11): yes
+Bot(11): not at all it depends on have something in Start is
+User(12): ok
+Bot(12): I am from am old.
+User(13): old
+Bot(13): please tell me just <num> name is Scotty. Do to learn any german word
+User(14): ok
+Bot(14): This is from there too!What idea.
+User(15): bye
+Bot(15): What i don't like running do when you graduate?
+User(16): yes
+Bot(16): I m a your an avid school
+User(17): bye
+Bot(17): I like to want to move things
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: politic(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.43
+Robotic(↓): 65
+Interesting: 72
+Fun: 62
+Consistent: 69
+Fluent: 59
+Repetitive(↓): 50
+Topic: 55
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey
+Bot(1): i am doing well . how are you ?
+User(2): fine
+Bot(2): i am a student , but i am a student .
+User(3): good
+Bot(3): i am a student , but i am a student .
+User(4): which school
+Bot(4): i am a student , but i am a student .
+User(5): ok
+Bot(5): i like to go to the gym and listen to music .
+User(6): good
+Bot(6): i am a student , but i am a student .
+User(7): did you watch movie
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): good
+Bot(8): i am a student , but i am a student .
+User(9): nas
+Bot(9): i love to cook . i love to cook .
+User(10): good
+Bot(10): i am a student , but i am a student .
+User(11): university or college
+Bot(11): i am a student , but i am a student .
+User(12): graduate
+Bot(12): i am a student , but i am a student .
+User(13): ok
+Bot(13): i like to go to the gym and listen to music .
+User(14): yes
+Bot(14): i love to cook . i love to cook .
+User(15): bye
+Bot(15): i am a student , but i am a student .
+User(16): bye
+Bot(16): i am a student , but i am a student .
+User(17): thanks
+Bot(17): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.14
+Robotic(↓): 58
+Interesting: 63
+Fun: 38
+Consistent: 56
+Fluent: 60
+Repetitive(↓): 59
+Topic: 58
+
+####################
+

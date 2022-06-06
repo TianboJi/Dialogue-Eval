@@ -1,0 +1,291 @@
+Feedback: good
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you like songs
+Bot(1): i do , i like to go to the gym .
+User(2): what songs do you like?
+Bot(2): i like to eat fish .
+User(3): what songs?
+Bot(3): i like to go to the gym and listen to music .
+User(4): what type of music?
+Bot(4): i like country music . i love country music .
+User(5): oh,any favourite song?
+Bot(5): i like the color red . what is yours ?
+User(6): favourite song?
+Bot(6): i like to go to the gym and listen to music .
+User(7): favourite song?
+Bot(7): i like to go to the gym and listen to music .
+User(8): ok
+Bot(8): i like to go to the gym and listen to music .
+User(9): oh
+Bot(9): i am a student , but i am a student .
+User(10): ok bye
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i also have a dog walking business.
+i like to look at blocks and sing about letters.
+i won homecoming queen this year.
+my mom passed away when i was young.
+i am also a graduate student.
+
+Topic and Human Opinion:
+Beginning: songs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.29
+Robotic(↓): 39
+Interesting: 50
+Fun: 34
+Consistent: 31
+Fluent: 37
+Repetitive(↓): 32
+Topic: 8
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like movies?
+Bot(1): some , i like old movies more . and art film . i want to be a curator .
+User(2): oh wow
+Bot(2): i am also a movie buff . i eat my vegan snacks and watch classics
+User(3): that sounds nice
+Bot(3): i am also a buddhist
+User(4): oh
+Bot(4): i am also a buddhist
+User(5): favourite movie?
+Bot(5): i like the lion king
+User(6): what genre of movie do you like?
+Bot(6): i like anything fast and action packed
+User(7): oh,your favourite actor
+Bot(7): i like only john grisham movies
+User(8): oh
+Bot(8): ok
+User(9): ok
+Bot(9): awesome
+User(10): bye
+Bot(10): ok bye
+
+Persona:
+i'm 60years old.
+i'm a clean eater.
+i've a boyfriend.
+i'm a buddhist.
+i am planning on getting a divorce.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.86
+Robotic(↓): 41
+Interesting: 38
+Fun: 43
+Consistent: 35
+Fluent: 59
+Repetitive(↓): 63
+Topic: 64
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you read books?
+Bot(1): about being a professional eater , i wish i can be one .
+User(2): what type of books do you like
+Bot(2): books written by witches using spells to cure fibromyalgia mostly .
+User(3): oh
+Bot(3): i am a wealth management consultant and an ivy league graduate . whats your pedigree ?
+User(4): ok
+Bot(4): i love music and pizza is my favorite food . guess where i work ?
+User(5): favourite book?
+Bot(5): i am reading a book about the art of pizza making . its really interesting .
+User(6): oh
+Bot(6): i am a wealth management consultant and an ivy league graduate . whats your pedigree ?
+User(7): oh
+Bot(7): just my temper it is fast like my car
+User(8): ok
+Bot(8): i love music and pizza is my favorite food . guess where i work ?
+User(9): books?
+Bot(9): about being a professional eater , i wish i can be one .
+User(10): oh
+Bot(10): i am a wealth management consultant and an ivy league graduate . whats your pedigree ?
+
+Persona:
+i do not have many friends.
+my favourite food is pizza.
+i am a clean eater.
+i have brown curly hair.
+the holidays make me depressed.
+
+Topic and Human Opinion:
+Beginning: books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.43
+Robotic(↓): 66
+Interesting: 61
+Fun: 44
+Consistent: 61
+Fluent: 50
+Repetitive(↓): 59
+Topic: 62
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you know kpop?
+Bot(1): i do not really like music
+User(2): do you know bts?
+Bot(2): i do not but i do like music
+User(3): what is your favourite kpop song from bts?
+Bot(3): i do not know . i like to listen to it while i listen to it
+User(4): oh
+Bot(4): i do not know much about it . i like to listen to music from time to time .
+User(5): what about korean songs
+Bot(5): i like to listen to it while i listen to it
+User(6): ok
+Bot(6): i like to listen to it while i listen to it
+User(7): ok
+Bot(7): i am not sure if i could say that
+User(8): bye
+Bot(8): i am sorry to hear that
+User(9): ok
+Bot(9): i am good thanks for asking
+User(10): sure
+Bot(10): i am good thanks for asking
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: kpop(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.43
+Robotic(↓): 63
+Interesting: 70
+Fun: 54
+Consistent: 62
+Fluent: 74
+Repetitive(↓): 75
+Topic: 59
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): food
+Bot(1): I'm not going roommate might enjoy go.
+User(2): what food do you like?
+Bot(2): i Weird. We are be .
+User(3): food??
+Bot(3): i know with my child and i am going to get married
+User(4): ok
+Bot(4): Now live do.
+User(5): oh
+Bot(5): that sounds like fun . i'd love to go family does not support my . hows it going today ?
+User(6): good
+Bot(6): You got that! I am bot, good ❄ is n't die.
+User(7): ok
+Bot(7): I ride my planning to escape gym
+User(8): oh
+Bot(8): Hi! the i enjoy being 😂. tldr: i've a pet fish
+User(9): food
+Bot(9): yes, it sad , i am it helps me focus on my art.
+User(10): oh
+Bot(10): What dream religion?
+User(11): ok
+Bot(11): oh cool must be a olives
+User(12): bye
+Bot(12): buying in more cattle. swim anybody & live ?
+
+Persona:
+i'm a doctor.
+my father is a farmer.
+i hate math class.
+i like playing basketball.
+i like to look at blocks and sing about letters.
+
+Topic and Human Opinion:
+Beginning: food(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.29
+Robotic(↓): 72
+Interesting: 77
+Fun: 68
+Consistent: 65
+Fluent: 71
+Repetitive(↓): 23
+Topic: 22
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): which actor do you like the most?
+Bot(1): hmm . . that is a tough question because i like so many .
+User(2): anyn one
+Bot(2): i would have to say james franco
+User(3): oh good
+Bot(3): yep
+User(4): any other actor
+Bot(4): yes lol he is an ok actor
+User(5): ok
+Bot(5): who is your favorite actor ?
+User(6): brad pitt!!
+Bot(6): oh i love him alot
+User(7): wow
+Bot(7): very
+User(8): i just love him a lot!!
+Bot(8): oh i love him alot
+User(9): i wanna meet him...im a diehard fan
+Bot(9): oh i love him alot
+User(10): which brad pitt movie do you like the most?
+Bot(10): i am not sure , there is so many to choose from !
+User(11): any one
+Bot(11): which one do you like better ?
+User(12): benjamin button
+Bot(12): oh i love him alot
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: actors(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.00
+Robotic(↓): 84
+Interesting: 78
+Fun: 81
+Consistent: 79
+Fluent: 71
+Repetitive(↓): 76
+Topic: 78
+
+####################
+

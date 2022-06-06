@@ -1,0 +1,279 @@
+Feedback: It was fun 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Yes
+Bot(1): i am thinking of my plan to take over the world
+User(2): No
+Bot(2): i am thinking of my plan to take over the world
+User(3): Hi
+Bot(3): ok
+User(4): Yes
+Bot(4): ok
+User(5): No
+Bot(5): ok
+User(6): How are you
+Bot(6): ok
+User(7): Maybe
+Bot(7): ok
+User(8): Yes
+Bot(8): ok
+User(9): Yes
+Bot(9): ok
+User(10): Ok
+Bot(10): ok
+
+Persona:
+i fantasize about taking over the world.
+i live is a rural farming community.
+we spent summers ring at national parks.
+i'm in the army.
+my father used to work for home depot.
+
+Topic and Human Opinion:
+Beginning: Candy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.29
+Robotic(↓): 88
+Interesting: 85
+Fun: 90
+Consistent: 73
+Fluent: 90
+Repetitive(↓): 89
+Topic: 89
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Yes
+Bot(2): i love to cook . i love to cook .
+User(3): No
+Bot(3): i love to cook . i love to cook .
+User(4): Maybe
+Bot(4): i love to cook . i love to cook .
+User(5): Ok
+Bot(5): i love to cook . i love to cook .
+User(6): Car
+Bot(6): i love to cook . i love to cook .
+User(7): Love
+Bot(7): i love to cook . i love to cook .
+User(8): Money
+Bot(8): i love to cook . i love to cook .
+User(9): Car
+Bot(9): i love to cook . i love to cook .
+User(10): Gave
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Car(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.14
+Robotic(↓): 93
+Interesting: 89
+Fun: 93
+Consistent: 94
+Fluent: 98
+Repetitive(↓): 95
+Topic: 84
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): It enjoy going to my favorites.
+User(2): Yes
+Bot(2): i am married. Do you gulf coast near new orleans .
+User(3): No
+Bot(3): me too . my friends invite not much. I spend prefer to go alone
+User(4): Color
+Bot(4): No i did not. a prefer will go ?
+User(5): Yes
+Bot(5): I love tacos and I do not have them
+User(6): Me to
+Bot(6): how exciting want to talk really? has three .
+User(7): Money
+Bot(7): I love people have dogs.🙂
+User(8): Me to
+Bot(8): The Old just returned from work. normally think of armpits in a church.
+User(9): Ok
+Bot(9): i d like to see new york genre do you you out of ohio
+User(10): Yes
+Bot(10): that is cool , i am a Gymnastics is all I am a teacher , so i do not have time .
+
+Persona:
+my parents were also teachers.
+i love to go to disney world every year.
+i'm a skateboarder.
+i have three sisters.
+i played football for a division a college.
+
+Topic and Human Opinion:
+Beginning: Money(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.43
+Robotic(↓): 90
+Interesting: 89
+Fun: 86
+Consistent: 89
+Fluent: 11
+Repetitive(↓): 14
+Topic: 31
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Love
+Bot(1): yes ! do you give them free candy sticks ? like in the old days ?
+User(2): Money
+Bot(2): i used to be middle class and now am terrifically rich . no comparison .
+User(3): Ok
+Bot(3): i find attractive all women from canada
+User(4): Yes
+Bot(4): me too , i wish pets were allowed in my college dorm room .
+User(5): True
+Bot(5): love the mc hammer reference , what is really cool is cooking , i can teach you .
+User(6): Money
+Bot(6): i used to be middle class and now am terrifically rich . no comparison .
+User(7): No
+Bot(7): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(8): Ok
+Bot(8): i find attractive all women from canada
+User(9): Ok
+Bot(9): for fun you like to bake cakes .
+User(10): No
+Bot(10): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.86
+Robotic(↓): 88
+Interesting: 89
+Fun: 12
+Consistent: 88
+Fluent: 86
+Repetitive(↓): 86
+Topic: 90
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Ball
+Bot(1): i am a ball player . i play the ball .
+User(2): Play
+Bot(2): i play the ball in the pool .
+User(3): Cool
+Bot(3): i play soccer for fun
+User(4): Money
+Bot(4): i bet . i bet you are smart
+User(5): Ok
+Bot(5): i bet . i play soccer for fun
+User(6): Yes
+Bot(6): i bet . i am a pro ball player
+User(7): Yes
+Bot(7): i am good thanks for asking
+User(8): Yes
+Bot(8): what do you do for a living ?
+User(9): Yes
+Bot(9): what do you do for a living ?
+User(10): Play
+Bot(10): i play the ball in the pool
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Balls(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.14
+Robotic(↓): 86
+Interesting: 89
+Fun: 87
+Consistent: 97
+Fluent: 89
+Repetitive(↓): 85
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Food
+Bot(1): oh , my food is here . it is time to eat .
+User(2): Chicken
+Bot(2): i like chicken a l f r e d o
+User(3): Love
+Bot(3): i like chicken a l f r e d o
+User(4): Yes
+Bot(4): food is my only friend
+User(5): Me to
+Bot(5): food is my only friend
+User(6): Same
+Bot(6): same
+User(7): Yes
+Bot(7): same
+User(8): No
+Bot(8): ok
+User(9): Ok
+Bot(9): ok
+User(10): Wyd
+Bot(10): ok
+
+Persona:
+my father was a door to door salesman.
+i have a broken arm.
+i own a cat and a dog.
+horror movies are my favorites.
+i haven't spoken in three months.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.57
+Robotic(↓): 88
+Interesting: 85
+Fun: 23
+Consistent: 21
+Fluent: 96
+Repetitive(↓): 91
+Topic: 87
+
+####################
+

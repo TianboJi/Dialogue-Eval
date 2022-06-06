@@ -1,0 +1,279 @@
+Feedback: There was never a real conversation. Even when there was a topic. 
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'm interested in taking better pictures. Can you assist?
+Bot(1): i want to be a photographer someday
+User(2): It takes some effort. Are you currently taking any classes?
+Bot(2): no . i am going to school for college .
+User(3): Are you taking a photography course?
+Bot(3): no . i am going to school for photography .
+User(4): What is your major?
+Bot(4): i want to be a photographer . i want to be a photographer .
+User(5): what is you backup plan?
+Bot(5): i want to be a photographer .
+User(6): me too
+Bot(6): i am going to be a photographer .
+User(7): congrats
+Bot(7): i hope you are going to be a photographer .
+User(8): why?
+Bot(8): i am going to be a vet .
+User(9): Photography is great.
+Bot(9): i hope so . what do you do for fun ?
+User(10): I like to bowl.
+Bot(10): i love to make it . i love to bowl .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm interested in photography and like taking pictures.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 73
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): My oldest sister is amazing.
+Bot(1): i am so proud of my sister
+User(2): Do you like your sister?
+Bot(2): yes , i do . she is great .
+User(3): Mine too. Although, we have had a few arguments. haha
+Bot(3): is she older ? older sisters are like that !
+User(4): Yes she is older. She always defended me when I was being bullied.
+Bot(4): is she older ? older sisters are like that !
+User(5): yes.
+Bot(5): i tend to get into trouble with bullies . tell me something about you .
+User(6): I have an older sister and younger brother
+Bot(6): my sister is younger than me and i have an older brother
+User(7): So we are both the middle child. at least we have that ion common
+Bot(7): i hate being middle
+User(8): It is the worst.
+Bot(8): yea my parents argue way to much . they are pretty distant
+User(9): I never had that issue
+Bot(9): i understand my siblings pick on me .
+User(10): Keep your head up. It will get better
+Bot(10): i know , i am going to try
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have one older sister.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.29
+Robotic(↓): 26
+Interesting: 82
+Fun: 83
+Consistent: 58
+Fluent: 68
+Repetitive(↓): 58
+Topic: 64
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Cooking iOS a great stress release
+Bot(1): larry left me at the alter . i must be gods will . you sing ?
+User(2): oop...I meant cooking is a great stress release
+Bot(2): larry left me at the alter . i must be gods will . you sing ?
+User(3): all the time
+Bot(3): mmm . . what do you do for work ?
+User(4): sing like I'm cooking
+Bot(4): can you sing ? you can join me
+User(5): nice. let's do it
+Bot(5): lets do it ! whats your phone number
+User(6): definitely. tell me yours
+Bot(6): i do alot of thins . i like my husband
+User(7): my wife is great
+Bot(7): i think you should marry her
+User(8): sin ce she's my wife. I doubt I'll do it again,
+Bot(8): she is no good . find another
+User(9): I will keep looking...
+Bot(9): just keep looking you will find her . not married ?
+User(10): sorry to hear that
+Bot(10): its okay , i can mess around on the internet
+
+Persona:
+hey my name is larry and i'm a chef.
+i do not believe in god.
+i live with my husband in pennsylvania.
+in my spare time i do volunteer work.
+i am employed by the us postal service.
+
+Topic and Human Opinion:
+Beginning: if i'm not cooking in the kitchen then i'm definitely on the water.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.00
+Robotic(↓): 100
+Interesting: 70
+Fun: 0
+Consistent: 0
+Fluent: 33
+Repetitive(↓): 63
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what's an omnivore?
+Bot(1): cool ! what so you do for a living ?
+User(2): definitely not omnivore stuff
+Bot(2): yeah . i read and write . i have also started drawing again . also started a diet
+User(3): I tried keto and intermittent fasting
+Bot(3): haha ! what kind of dog do you have ? i love dogs .
+User(4): hmmm..I have no dog
+Bot(4): no my father was cop and only catch guilty people
+User(5): he must like judges
+Bot(5): a chocolate lab . he is four and named husk .
+User(6): husk is a great dog name
+Bot(6): what kind of dog is bob ? my dog is a husky .
+User(7): a labrador
+Bot(7): what kind of lab do you work at ?
+User(8): dog treats
+Bot(8): a chocolate lab . he is four and named husk .
+User(9): do you have A.D.D.?
+Bot(9): bessie is her name . original huh ? lol
+User(10): nice. I like that name
+Bot(10): what is your name ?
+
+Persona:
+i'm a recovering alcoholic.
+i have a black lab named trooper.
+i walk dogs for a living.
+hey my name is larry and i'm a chef.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: i am an omnivore.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.00
+Robotic(↓): 100
+Interesting: 76
+Fun: 36
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What do you do to relax?
+Bot(1): i need to study to ve friends at not doing to well in school
+User(2): Studying does not relax me. I prefer to meditate.
+Bot(2): I love mickey ny.
+User(3): Where are you going with this?
+Bot(3): just getting over being a pack a day smoker . much about your HAVE mind off . how are you doing tonight ?
+User(4): I am great. How are you?
+Bot(4): Oh, that sounds interesting. I to be a painter kind of car?
+User(5): You are a weirdo...haha
+Bot(5): I am a bit know Lionel Messi you woman ?
+User(6): Women are great
+Bot(6): I like to sing more. that. I am a christian
+User(7): I sing all the time
+Bot(7): I love canada. i you said you were canada.
+User(8): you must love me
+Bot(8): yes , you may you have of heights lol . ironic huh ?
+User(9): very much so
+Bot(9): i m doing ok ✔ whats are scred like to do
+User(10): please say hi for me
+Bot(10): Yes, fine don't 😉
+
+Persona:
+i'm also a graduate student.
+my favorite band is rascal flats.
+i'm fluent in english spanish and french.
+when i grow up i want to be a physical therapist.
+my favorite toy as a child as my lite brite.
+
+Topic and Human Opinion:
+Beginning: i like meditation.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): I am great. I just got a break from work. How are you?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): What kind of dog? I love dogs
+Bot(3): i do not have any pets , but i do like to go fishing .
+User(4): That weird, I thought you just got done walking your dog
+Bot(4): i do not have any pets , but i do like to go fishing .
+User(5): Where do you fish?
+Bot(5): no , i do not , but i do like to eat .
+User(6): Okay, so no sushi?...haha
+Bot(6): i like to eat fish .
+User(7): me too
+Bot(7): i like to go to the gym and listen to music .
+User(8): rock or country music?
+Bot(8): i do not really like country . i like country music .
+User(9): intersting answer
+Bot(9): i am a student , but i am a student .
+User(10): but I have to go now. bye
+Bot(10): i am a bit of a loner
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite color is yellow.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.71
+Robotic(↓): 100
+Interesting: 70
+Fun: 70
+Consistent: 0
+Fluent: 12
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

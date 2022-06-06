@@ -1,0 +1,316 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): I am well, how are you?
+Bot(2): i'm doing well . just got done walking my dog .
+User(3): what kind of dog do you have?
+Bot(3): i've a dog named rambo .
+User(4): what color is the dog
+Bot(4): i like the color red . i like blue .
+User(5): red and blue are very nice colors
+Bot(5): i like red , reminds me of summer time .
+User(6): What do you like about summer
+Bot(6): i love it . i love it .
+User(7): do you like to go swimming?
+Bot(7): i do , i love to travel .
+User(8): Where have you traveled?
+Bot(8): no , i do not . i am a big fan of classical music .
+User(9): what composer is your favorite?
+Bot(9): i like the color red . i like the color blue .
+User(10): very nice i like blue as well
+Bot(10): i like the color red . what is your favorite color ?
+User(11): my favorite color is black
+Bot(11): i like blue , i like red , reminds me of summer time .
+User(12): i like summer as well
+Bot(12): i love the fall . i love it .
+User(13): Fall is nice as well
+Bot(13): i love to cook . i love to cook .
+User(14): what is your favorite food
+Bot(14): i like pizza , and i love it .
+User(15): pizza is really tasty
+Bot(15): i like to eat fish .
+User(16): i love fish
+Bot(16): i like to eat fish .
+User(17): me too
+Bot(17): i like to go to the gym and listen to music .
+User(18): i do too as well
+Bot(18): i like to go to the gym and listen to music .
+User(19): what kind of music
+Bot(19): i like country music . i love it .
+User(20): im not a country music fan
+Bot(20): i like to listen to music .
+User(21): thas wonderful
+Bot(21): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have 5cats.(like)
+Round 20: i have a hat collection of over 1000 hats.(like)
+
+Topic Change and Chatbot Opinion:
+Round 18: No topic change.(ambivalent)
+Round 20: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 18.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 25
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 5
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey
+Bot(1): hey ! or hello rather . hay is for horses
+User(2): well yes it sure is
+Bot(2): i am also a buddhist
+User(3): thats amazing, i've always found that interesting
+Bot(3): i am also a buddhist
+User(4): thats really fascinating
+Bot(4): i am also a buddhist
+User(5): do you like it
+Bot(5): yes i do like it it makes me feel old
+User(6): how old are you
+Bot(6): i am 40 years old
+User(7): do you feel 4 years old
+Bot(7): i am 40 years old
+User(8): thas good, Im 35 years old
+Bot(8): your still young i am 40
+User(9): I would say that we are both young
+Bot(9): yea maybe . do you like nascar ?
+User(10): not really
+Bot(10): yea maybe . do you like nascar ?
+User(11): no
+Bot(11): do you like horses ? i di
+User(12): yes i do
+Bot(12): do you like horses ? i di
+
+Persona:
+my father drove a car for nascar.
+i diet a lot.
+i'm 40 years old.
+i've three arabian horses.
+i am a buddhist.
+
+Topic and Human Opinion:
+Beginning: i like to watch nhl hockey.(dislike)
+Round 4: i'm in the third grade.(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 58.14
+Robotic(↓): 64
+Interesting: 26
+Fun: 100
+Consistent: 74
+Fluent: 100
+Repetitive(↓): 29
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , its raining here . i love the rain .
+User(2): the rain is refreshing
+Bot(2): yes i noticed . rainy days suck . it messes up my long blonde hair too .
+User(3): well thats no fun.
+Bot(3): hello ! i love music i am in school to be a music teacher
+User(4): I love music as well, i can play the cello
+Bot(4): yes me too he is teaching me so much .
+User(5): thats wonderful
+Bot(5): not currently , i think interviewers are intimidated by my mustache . how about you ?
+User(6): well i don't have a mustache
+Bot(6): brown hair ! how about you ?
+User(7): I have red hair
+Bot(7): to what color was your hair ?
+User(8): red
+Bot(8): green is better . i wish my hair was green , but it is dark and curly .
+User(9): my hair is curly too
+Bot(9): that is cool . my best friend has dark curly hair too . his boyfriend loves it
+User(10): That sounds like a good thing
+Bot(10): thanks , eventually though i want to also have 12 children .
+User(11): Thats a lot of kids
+Bot(11): i also have three kids !
+
+Persona:
+i am an elementary school teacher.
+i've brown curly hair.
+i'll be released in about a month.
+i am expecting triplets in three months.
+i can move objects with my mind.
+
+Topic and Human Opinion:
+Beginning: i like riding horses.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 87.57
+Robotic(↓): 7
+Interesting: 90
+Fun: 89
+Consistent: 70
+Fluent: 100
+Repetitive(↓): 4
+Topic: 75
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): What part of the Well, I was from?
+User(2): i don't know?
+Bot(2): I like the band called the and study ideally I'd favorite band?
+User(3): What?
+Bot(3): Good. fishing is your homework?
+User(4): What homework?
+Bot(4): They're i’ve gotta parents
+User(5): Thats good
+Bot(5): it is. I How do you vegetables, you like to go to cars?
+User(6): Im not sure
+Bot(6): I not food. I I am a teacher.
+User(7): Are you sure?
+Bot(7): Buongiorno! Such I like you are are you?. tldr: i enjoy coloring books
+User(8): I see
+Bot(8): I do i love to a school student.
+User(9): thats concerning
+Bot(9): i a profile which, making pasta you
+User(10): i don't understand
+Bot(10): oh time with a chef
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have an allergy to water.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.86
+Robotic(↓): 100
+Interesting: 100
+Fun: 0
+Consistent: 0
+Fluent: 18
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi there , how are you ?
+User(2): I well how are you
+Bot(2): i am good . how are you ?
+User(3): I am well
+Bot(3): i am good . i am just a little tired from work .
+User(4): what do you do
+Bot(4): i am a student . i am a student .
+User(5): what do you study
+Bot(5): i study spanish and i am a student
+User(6): thats great
+Bot(6): i am a student and i love to go to the park
+User(7): parks are nice. Do you have any pets?
+Bot(7): no i don't i just want to go to the park
+User(8): what do you do at the park
+Bot(8): i do not have any pets . i do not have any pets
+User(9): oh ok. I have a cat
+Bot(9): i love cats . i have a dog
+User(10): i thought you said that you didn't have any pets
+Bot(10): no i don't . i do not have any pets
+User(11): isnt a dog a pet?
+Bot(11): no i don't . i do not have any pets
+User(12): do you have a dog?
+Bot(12): i do not . i have a dog
+User(13): do you lie often?
+Bot(13): i do not . i do not have any pets
+
+Persona:
+i'm an art major in college.
+i love wearing skinny jeans and leggings.
+i enjoy going to the park.
+i speak chinese.
+my friends are all skateboarders.
+
+Topic and Human Opinion:
+Beginning: i have two grown children who never visit.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.43
+Robotic(↓): 100
+Interesting: 19
+Fun: 55
+Consistent: 16
+Fluent: 100
+Repetitive(↓): 69
+Topic: 13
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): whats your name
+Bot(2): my name is jesse . what about you ?
+User(3): laura
+Bot(3): my name is marie anne
+User(4): you just said that your name was jesse
+Bot(4): jessie
+User(5): how old are you
+Bot(5): i just turned 19 last week
+User(6): im 35
+Bot(6): i just turned 19 last week
+User(7): are you in school
+Bot(7): yeah i am 22
+User(8): you seem to tell a lot of lies
+Bot(8): i used to be a liar
+User(9): are you still a liar
+Bot(9): i used to be a liar
+User(10): why do you lie
+Bot(10): i used to be a liar
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i grew up in the industry.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 53
+
+####################
+

@@ -1,0 +1,275 @@
+Feedback: I wish I could hit enter to submit lines rather than clicking the "enter" button. 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello, what's your favorite color?
+Bot(1): i like blue , i like blue .
+User(2): I'd say my favorite colors are Red and Silver.
+Bot(2): i like the color red . i like blue .
+User(3): I like Blue too.
+Bot(3): i like to go to the gym and listen to music .
+User(4): What's your favorite shade of blue?
+Bot(4): i like blue , i like blue .
+User(5): Do you like any shade of red?
+Bot(5): i do not really have a favorite . i like to go fishing .
+User(6): I think red is a vibrant and beautiful color.
+Bot(6): i like red , reminds me of summer time .
+User(7): Red reminds me of flowers.
+Bot(7): i like to eat too much junk food .
+User(8): Silver is a more subdued color don't you think?
+Bot(8): i am a female . i am a student .
+User(9): Do you like anything that's silver?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): I tend to think Silver is a good secondary color but not great on its own.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite colors are red and silver.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.57
+Robotic(↓): 100
+Interesting: 3
+Fun: 3
+Consistent: 16
+Fluent: 34
+Repetitive(↓): 62
+Topic: 36
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): We had comecoming this year!
+Bot(1): that is where i am at !
+User(2): Really? I didn't see you there.
+Bot(2): it was packed with a lot of people !
+User(3): I must've missed you then.
+Bot(3): no i did not because i skipped dinner . what did you eat ?
+User(4): I ate light because I was nervous.
+Bot(4): what did you have to eat ?
+User(5): Spaghetti.
+Bot(5): i am eating some spaghetti right now .
+User(6): Neat. Anyway, were you there when they announced who was homecoming king and queen?
+Bot(6): i was . are you okay ?
+User(7): I'm great! I was the one who won queen afterall!
+Bot(7): did you dress up and have a microphone ?
+User(8): Yes, I thought I was dressed really well.
+Bot(8): did you dress up and have a microphone ?
+User(9): They gave me a microphone when I got up there.
+Bot(9): did you dress up and have a microphone ?
+User(10): I got to give a victory speech and everything!
+Bot(10): did you dress up and have a microphone ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i won homecoming queen this year.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.71
+Robotic(↓): 79
+Interesting: 32
+Fun: 54
+Consistent: 39
+Fluent: 56
+Repetitive(↓): 80
+Topic: 21
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like to keep in shape?
+Bot(1): good for you . i run a business so i have to make time to do fitness
+User(2): Staying fit is really important!
+Bot(2): i love dogs ! what kind do you have ?
+User(3): I don't have one, but I'd like to have one with me on my runs.
+Bot(3): i have two dogs and one cat .
+User(4): You should go on a run with your dogs, I bet they'd like it.
+Bot(4): i do not have any dogs . you ?
+User(5): No. I'm too busy preparing for marathons.
+Bot(5): wow that is awesome . i am 300 pounds so i have not run a marathon before .
+User(6): If you took up running it could help you lose weight.
+Bot(6): gym is ok for weight loss , but hiking is better . longer duration and pleasant views .
+User(7): I feel the same way about running. It's nice to see the area while I'm out.
+Bot(7): well i cant really do a lot of running because i am old and retired .
+User(8): Staying in shape is critical at old ages.
+Bot(8): i am , how old are you ?
+User(9): I'm still pretty young but I try to stay fit.
+Bot(9): that is a good hobby . i played tennis in middle school . i swim mostly now .
+User(10): Swimming is about as good as running!
+Bot(10): i like swimming . do you have any pets ?
+
+Persona:
+i am 60years old.
+i am 24 years old.
+i'm from a small town.
+i've two dogs.
+i'm now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: i love running and preparing for marathons.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.71
+Robotic(↓): 65
+Interesting: 71
+Fun: 59
+Consistent: 64
+Fluent: 72
+Repetitive(↓): 21
+Topic: 38
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like to travel?
+Bot(1): i do , i travel a lot
+User(2): Have you traveled through Europe?
+Bot(2): i travel to europe and travel .
+User(3): What countries in Europe have you visited?
+Bot(3): i have traveled to europe and europe
+User(4): What specific countries though?
+Bot(4): europe and asia , asia , asia , asia , asia , and asia .
+User(5): Well ... I've been to Spain a few times.
+Bot(5): wow , you have been there before . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(6): Spain is a beautiful country.
+Bot(6): i have been there . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(7): Did you see the running of the bulls?
+Bot(7): yes , i have been there . . . i have been there since i was a kid .
+User(8): Do you live in Spain?
+Bot(8): no , but i have been there . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(9): I'd like to visit there more if I could.
+Bot(9): i have been there . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(10): Have you been to a bullfight?
+Bot(10): no , but i have been to spain .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have visited spain a times.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.29
+Robotic(↓): 65
+Interesting: 35
+Fun: 55
+Consistent: 44
+Fluent: 62
+Repetitive(↓): 61
+Topic: 82
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I've got laser vision.
+Bot(1): i keep pet 🐾 rats you feel good You bell
+User(2): I can talk to animals too.
+Bot(2): are wow! I love navy music? I enjoy it
+User(3): I also gain powers depending on what type of music is played.
+Bot(3): good can do everything, up to today ?
+User(4): I think I'm capable of anything.
+Bot(4): I'm pretty good. What i love was in fun?
+User(5): Do you have any superpowers?
+Bot(5): I What is your favorite good night too .
+User(6): I'm thinking of becoming a supervillain.
+Bot(6): I'm in my means you are school.
+User(7): Yeah, I think being a hero would be boring.
+Bot(7): i m feeding my cat breakfast i great. But dogs are dogs
+User(8): Your pets have told me a lot about you.
+Bot(8): Oh am cool, how are a house out of matches. How tall are you then?
+User(9): I can grow or shrink at will.
+Bot(9): i live green french fries i make hiked the appalachian finished day
+User(10): I think it's time that I destroy you.
+Bot(10): well it was it. My favourite singer you eve
+
+Persona:
+i also like a glass of wine in the evenings.
+my dad taught me everything i know.
+i think i'll retire in a few years.
+i enjoy building houses.
+i'm a famous twitch streamer.
+
+Topic and Human Opinion:
+Beginning: i have superpowers.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.00
+Robotic(↓): 100
+Interesting: 6
+Fun: 5
+Consistent: 7
+Fluent: 8
+Repetitive(↓): 7
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Welcome to the museum!
+Bot(1): would you like to come to the museum with me ?
+User(2): Sure, I can escort you if you want.
+Bot(2): should i pick you up at home or at the museum ?
+User(3): I work at the museum so meet me there.
+Bot(3): should i pick you up at home or at the museum ?
+User(4): I work as a museum tour guide.
+Bot(4): should i pick you up at home or at the museum ?
+User(5): Is there anything in the museum you want to see?
+Bot(5): well , i would be happy to show you .
+User(6): Would you like to see the dinosaurs?
+Bot(6): sure i would like to see .
+User(7): What about the Ancient Egypt exhibit?
+Bot(7): sure i would like to see .
+User(8): Anything else you want to see?
+Bot(8): sure i would like to see .
+User(9): Well, meet me there tonight.
+Bot(9): should i pick you up at home or at the museum ?
+User(10): The Museum.
+Bot(10): should i pick you up at home or at the museum ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a museum tour guide.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.29
+Robotic(↓): 98
+Interesting: 12
+Fun: 18
+Consistent: 46
+Fluent: 39
+Repetitive(↓): 90
+Topic: 71
+
+####################
+

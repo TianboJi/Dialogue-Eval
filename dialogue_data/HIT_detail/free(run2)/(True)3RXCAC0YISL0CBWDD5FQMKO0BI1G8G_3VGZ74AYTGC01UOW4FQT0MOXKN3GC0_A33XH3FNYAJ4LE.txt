@@ -1,0 +1,303 @@
+Feedback: That was interesting. I wish the chat could sometimes start with a topic and perhaps the chatbot could make the first comment. Fun all around either way though.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Yeah cooking can really be a lot of fun
+Bot(2): i do not know what to say .
+User(3): What kind of foods do you like to cook?
+Bot(3): i love pizza , and i love it .
+User(4): You cook your own pizza?
+Bot(4): no , i do not . i like to eat .
+User(5): What kind of pizza do you like to eat then?
+Bot(5): i like pizza , and i love it .
+User(6): Ever put pineapple on your pizza?
+Bot(6): i do not know . i like to eat .
+User(7): What is your favorite food?
+Bot(7): i like the color red . what is yours ?
+User(8): Green is my favorite, just like leafy green vegetables I like to cook!
+Bot(8): i like to eat fish .
+User(9): Fish is delicious. I like rock fish the most.
+Bot(9): i like the color red . i like the color blue .
+User(10): Red is your favorite color right?
+Bot(10): i like blue , i like blue .
+User(11): Yeah blue is great, I like a blue sky above a green forest.
+Bot(11): i like the color red . i like red .
+
+Persona:
+i've never had a steady relationship.
+i like to eat chocolate candy.
+i have been retired for a years.
+i am currently in a juvenile detention center.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: Netflix(like)
+Round 1: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 39.00
+Robotic(↓): 100
+Interesting: 32
+Fun: 56
+Consistent: 84
+Fluent: 83
+Repetitive(↓): 100
+Topic: 18
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, how are you doing?
+Bot(1): great ! working hard studying . in graduate school .
+User(2): I bet that's a ton of work, ever get any time to play video games?
+Bot(2): no , sorry . i have been practicing basketball .
+User(3): The only basketball I play is on Xbox. Sure is fun though!
+Bot(3): ever grill ? do you like sports at all ?
+User(4): I like watching football. I don't play much anymore.
+Bot(4): ever grill ? do you like sports at all ?
+User(5): Yeah I like sports, what's your favorite?
+Bot(5): ever grill ? do you like sports at all ?
+User(6): Yeah I grill
+Bot(6): i like to do it mostly outside tho , love it .
+User(7): Grilling outside is the best. Do you use charcoal to grill?
+Bot(7): yes i make all the things i am afraid of
+User(8): What are you afraid of?
+Bot(8): sometimes i am scared of dying young . i wish i knew why .
+User(9): I think everyone is scared of dying young
+Bot(9): yep , we will all die one day d
+User(10): That's why you have to live your best life now
+Bot(10): that is true . do you go to school ?
+
+Persona:
+i've a pet turtle.
+i like playing basketball.
+i'm scared of dying.
+i like to grill outdoors.
+i am also a graduate student.
+
+Topic and Human Opinion:
+Beginning: video games(like)
+Round 3: sports(ambivalent)
+Round 9: dying young(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 50.86
+Robotic(↓): 76
+Interesting: 70
+Fun: 65
+Consistent: 39
+Fluent: 92
+Repetitive(↓): 56
+Topic: 22
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey whats up, do you like hiking?
+Bot(1): do you enjoy hiking ?
+User(2): Haha yeah I love hiking. Do you hike often?
+Bot(2): i have never been hiking because i am afraid of ticks .
+User(3): Yeah I worry about ticks too. If you stay on the trails you are pretty safe though
+Bot(3): oh , you are invited to my next d and d game if you wish .
+User(4): That would be great, do you play an elf?
+Bot(4): electric violin . and alot of imagine dragons , i love them .
+User(5): I like punk rock myself. Love the band NOFX
+Bot(5): i am really into this band called avatar right now . they are from sweden .
+User(6): What kind of music does avatar play?
+Bot(6): rock mostly . do you have a favorite artist or band ?
+User(7): Yeah my favorite is NOFX. They play punk rock.
+Bot(7): oh sweet ! have you heard of the story so far or neck deep ?
+User(8): No I have not, what kind of music do they play?
+Bot(8): guitar and violin . i want to heal the world
+User(9): If anything can heal the world I bet it is music
+Bot(9): yeah my grandma helped me with my garden so a bench seem fitting
+User(10): What do you grow in your garden?
+Bot(10): yes i love to garden i grow all my own fruits and veggies
+User(11): Home grown fruits and veggies always taste the best
+Bot(11): i need to eat more veggies . maybe it would help me lose the excess weight .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hiking(like)
+Round 3: D and d(like)
+Round 4: music(like)
+Round 9: gardening(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 66.14
+Robotic(↓): 57
+Interesting: 73
+Fun: 75
+Consistent: 58
+Fluent: 85
+Repetitive(↓): 17
+Topic: 46
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hey, how are you?
+Bot(1): i do , but to avoid eating wonder a lot of time to do .
+User(2): Do you ever paint?
+Bot(2): christopher columbus is my ancestor out my name but to europe again this year
+User(3): There are great paintings of Christopher Columbus
+Bot(3): I'm doing short brown probably you?
+User(4): I like to stick to bright and vivid colors
+Bot(4): I am a programmer boss is still .
+User(5): Programming is like painting
+Bot(5): I have never u from your school.
+User(6): I learned how to paint in school
+Bot(6): Hi! It is nice to see you! How is your day to sorry about. what do the guitar.
+User(7): My day is pretty interesting right now
+Bot(7): I am Have music on about you?
+User(8): Yeah I have on some rock music right now
+Bot(8): i m groove metal Such old are you
+User(9): I'm 37, been listening to metal all my life
+Bot(9): I love think it black walk do for a living?
+User(10): I work in retail, how about you?
+Bot(10): Yes, Do you have farmer. I ride horses.
+
+Persona:
+my family has raised horses for a generations.
+i'm a huge coffee lover.
+i am a descendant of christopher columbus.
+i am a piano teacher on the side.
+i love new kids on the block.
+
+Topic and Human Opinion:
+Beginning: painting(like)
+Round 7: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 26.29
+Robotic(↓): 50
+Interesting: 20
+Fun: 20
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 6
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): no pets but i have a dog
+User(2): I have a dog too, is your dog big?
+Bot(2): i have a dog , he is a dog , he is a dog , he is a dog
+User(3): What is your dogs name?
+Bot(3): my dog is named droopy , he is a dog .
+User(4): My dog is named lady, she is a dog too
+Bot(4): i have a dog named her , she's a great dog
+User(5): Does your dog do any tricks?
+Bot(5): yes , i have a dog , he is a dog , he is a dog
+User(6): Are you talking about your dog droopy?
+Bot(6): no , i do not . i have a dog , he is a dog , he is a dog
+User(7): Do you like to learn new things?
+Bot(7): i do not , i do not like to cook
+User(8): Have you ever learned how to cook?
+Bot(8): i did not know , i was just wondering if i had a dog
+User(9): I like to learn new things like programming on the computer
+Bot(9): i do not know what that means .
+User(10): Have you ever used a computer?
+Bot(10): no i don't have any
+User(11): You don't have a laptop?
+Bot(11): no , i don't have a computer programming
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pets(like)
+Round 6: learning(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 51.29
+Robotic(↓): 37
+Interesting: 62
+Fun: 57
+Consistent: 34
+Fluent: 58
+Repetitive(↓): 65
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, do you like to exercise?
+Bot(1): yes all the time since i retired .
+User(2): It's good to stay in shape, makes you feel younger
+Bot(2): i have to agree . more energy when younger .
+User(3): A lot more energy when you're younger. I find running gives me more energy
+Bot(3): that is why i am 70 and still kicking . fresh air , veggies , routines are keys to life
+User(4): Have you tried lifting weights?
+Bot(4): i do not , i go to the gym daily so its tough to spread the energy .
+User(5): How much time do you spend at the gym?
+Bot(5): i try to go as much as possible as of today i have been to 40
+User(6): I don't go to the gym, I like to exercise at home
+Bot(6): i am lazy at home , but not at my job
+User(7): What kind of job do you have?
+Bot(7): i am retired now but i used to be a teacher
+User(8): That's cool. What did you teach?
+Bot(8): i cannot remember but it was back during simpler times .
+User(9): Did you teach in college?
+Bot(9): yes i did . got a good education too
+User(10): How many years did you teach for?
+Bot(10): many years ago . do you work or just take classes ?
+User(11): I work and take classes in my personal time
+Bot(11): do you still do that ?
+
+Persona:
+i now live in the city.
+i'm a clean eater.
+i'm 60years old.
+i have rainbow hair.
+i am a retired gym teacher.
+
+Topic and Human Opinion:
+Beginning: exercise(like)
+Round 6: job(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 77.71
+Robotic(↓): 41
+Interesting: 82
+Fun: 85
+Consistent: 71
+Fluent: 92
+Repetitive(↓): 15
+Topic: 70
+
+####################
+

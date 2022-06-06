@@ -1,0 +1,313 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I think exercise is important.
+Bot(1): yes that is very important if your on a diet
+User(2): It is actually very important for overall health
+Bot(2): you know what they say , health is wealth !
+User(3): Yes! That is so very true!
+Bot(3): yes that is very important if your on a diet
+User(4): It's very hard to complete daily tasks and take care of others if you are not healthy.
+Bot(4): agreed ! makes it hard to keep a balanced lifestyle .
+User(5): That is true. I want to be able to feel well.
+Bot(5): what makes you feel good ?
+User(6): Spending time with my children makes me feel good.
+Bot(6): i love kids . children are a bundle of joy .
+User(7): Yes, they are! My children are my reason for doing anything.
+Bot(7): awesome ! do they have dogs in italy ?
+User(8): Yes, I am sure that they do.
+Bot(8): what is your gender ? i look like an ugly super model .
+User(9): I am a female
+Bot(9): i am also a woman .
+User(10): I'm sorry you feel ugly. I think we are our own worst critics.
+Bot(10): what is your gender ? i look like an ugly super model .
+
+Persona:
+i married a super model from italy.
+i've a german shepherd dog.
+i'm a vegan.
+i love to drink wine and dance in the moonlight.
+i visit europe twice a year.
+
+Topic and Human Opinion:
+Beginning: Exercise(like)
+Round 5: What makes me feel good(like)
+Round 7: Do they have dogs in Italy?(dislike)
+Round 8: What is your gender?(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 56.14
+Robotic(↓): 90
+Interesting: 77
+Fun: 75
+Consistent: 36
+Fluent: 66
+Repetitive(↓): 29
+Topic: 58
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you celebrate Christmas?
+Bot(1): yes, am a piano have a
+User(2): You have a piano?
+Bot(2): that sounds like fun. do you get have very few am job?
+User(3): Yes, I have a job
+Bot(3): that's cool , i am in the army , and i am I am a student i am not sure .
+User(4): What is your major in school?
+Bot(4): yeah you like to stay . my dogs barely recognize me ! 🤣
+User(5): I don't have any dogs
+Bot(5): i like to draw , and i also like country you want it in public and draw , and draw , and draw , and draw , and paint .
+User(6): I like to draw also
+Bot(6): I want to be abot do you like dad. Do you hate school?
+User(7): I did like school when I was a student
+Bot(7): that is in you like football
+User(8): I don't really like football
+Bot(8): Hi! What is your name? 😂. tldr: i not an actor. but a christian
+User(9): My name is crystal
+Bot(9): I am a no i’m a woman moved to the country.
+User(10): I live in a rural area
+Bot(10): I Did you hear the a little sore from playing football. Do you enjoy poetry?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Christmas(like)
+Round 1: am piano am I(dislike)
+Round 2: Do you get am job(dislike)
+Round 3: What is your major in school?(like)
+Round 4: I'm not sure(dislike)
+Round 5: I like to draw(like)
+Round 6: Do you like school(like)
+Round 7: Do you like football(like)
+Round 8: What is your name(like)
+Round 9: I moved to a new country(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 15.86
+Robotic(↓): 97
+Interesting: 7
+Fun: 4
+Consistent: 1
+Fluent: 2
+Repetitive(↓): 8
+Topic: 2
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What is your favorite type of food?
+Bot(1): i like the color red . what is yours ?
+User(2): My favorite color is purple
+Bot(2): i like blue , i like red , reminds me of summer time .
+User(3): purple reminds me of royalty and fun
+Bot(3): i like to eat fish .
+User(4): I like to eat avocados
+Bot(4): i like to eat fish .
+User(5): I like to eat grapes
+Bot(5): i like to eat fish .
+User(6): I like to eat apples
+Bot(6): i like to eat fish .
+User(7): I like to eat oranges
+Bot(7): i like to eat fish .
+User(8): I like to eat pizza
+Bot(8): i like to eat fish .
+User(9): I like to eat soup
+Bot(9): i like to eat too much junk food .
+User(10): I also like junk food.
+Bot(10): i like to eat fish .
+
+Persona:
+on weekends i do live action roleplaying events.
+i am deathly afraid of heights.
+i drive a bmw.
+i enjoy exploring new parts of the city.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: What is your favorite type of food?(like)
+Round 1: favorite color(like)
+Round 3: food they like to eat(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 31.43
+Robotic(↓): 100
+Interesting: 8
+Fun: 28
+Consistent: 64
+Fluent: 65
+Repetitive(↓): 100
+Topic: 55
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is your favorite season?
+Bot(1): i like winter but i am more into summer
+User(2): I don't really like winter, because it is too cold.
+Bot(2): i train horses as a career , so i wish the cold would stay away .
+User(3): I have chronic pain, so I want the cold to stay away also.
+Bot(3): what kind of pain ? being social is not my cup of tea
+User(4): I have widespread neuropathy.
+Bot(4): i am doing good . i am back from riding my horse .
+User(5): That sounds like fun
+Bot(5): i spend time with my many friends too . one actually taught me how to drive .
+User(6): I like spending time with friends too. What else do you do with your friends?
+Bot(6): i have a few . they support me a lot .
+User(7): That is great. It's really important to be supported.
+Bot(7): hello from stanford . theory henry is my idol . no clue .
+User(8): I don't know who that is
+Bot(8): i know my birth family , but for 10 years i was held as a slave .
+User(9): That sounds scary being a slave
+Bot(9): i was housed as a slave for 10 years . i am now a carpenter .
+User(10): I am glad you escaped
+Bot(10): he is gay , so he keeps me very good company if you get what i mean
+
+Persona:
+my family does not support my career choices.
+my family has raised horses for a generations.
+my wife and kids are the best.
+i'm four.
+my dad taught me everything i know.
+
+Topic and Human Opinion:
+Beginning: My favorite season(like)
+Round 3: Pain(like)
+Round 4: his horse(like)
+Round 5: friends(like)
+Round 7: stanford(dislike)
+Round 8: being a slave(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 28.86
+Robotic(↓): 99
+Interesting: 25
+Fun: 11
+Consistent: 33
+Fluent: 44
+Repetitive(↓): 28
+Topic: 16
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What kind of clothes do you like to wear?
+Bot(1): i do like suits usually but they can get hot sometimes .
+User(2): I like suits for formal wear.
+Bot(2): i do like suits usually but they can get hot sometimes .
+User(3): Do you like to wear jeans?
+Bot(3): i do like suits usually but they can get hot sometimes .
+User(4): Do you like tshirts?
+Bot(4): i do like suits usually but they can get hot sometimes .
+User(5): I like to wear tshirts.
+Bot(5): what kind ? are they skinny jeans ?
+User(6): I like skinny jeans with stretch
+Bot(6): what kind ? are they skinny jeans ?
+User(7): yes, they are
+Bot(7): i like pants way better than dresses
+User(8): I like pants too
+Bot(8): i like pants way better than dresses
+User(9): I also like pants and leggings
+Bot(9): i like pants way better than dresses
+User(10): I also like pants
+Bot(10): i like pants way better than dresses
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: clothes(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.43
+Robotic(↓): 100
+Interesting: 13
+Fun: 15
+Consistent: 23
+Fluent: 50
+Repetitive(↓): 100
+Topic: 56
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you use socia media?
+Bot(1): no i don't . i do not have a job
+User(2): So you don't have the internet?
+Bot(2): no i don't . i do not have the internet related
+User(3): I have internet
+Bot(3): no , i don't . i do not have a job .
+User(4): are you looking for a job?
+Bot(4): no i don't currently work
+User(5): do you want to work?
+Bot(5): no i don't work . i do not work
+User(6): Will you ever work?
+Bot(6): no i don't work . i work at a store .
+User(7): I work in the medical field
+Bot(7): i am a clerk at a law firm .
+User(8): That sounds like a good career
+Bot(8): i love it so much
+User(9): It must be so rewarding
+Bot(9): it is but i love it
+User(10): awesome
+Bot(10): it is but i love it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: social media(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.71
+Robotic(↓): 100
+Interesting: 18
+Fun: 9
+Consistent: 24
+Fluent: 55
+Repetitive(↓): 70
+Topic: 58
+
+####################
+

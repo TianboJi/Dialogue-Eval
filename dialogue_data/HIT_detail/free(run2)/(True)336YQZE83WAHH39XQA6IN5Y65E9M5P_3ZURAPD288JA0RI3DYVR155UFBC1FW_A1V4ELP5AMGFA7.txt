@@ -1,0 +1,337 @@
+Feedback:  Some were way too repetitive and it got annoying to have to answer over and over again.  But the last one I felt was the most enjoyable to talk to.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello! How are you today? I couldn't stop thinking about my ex-bf who really broke my heart.
+Bot(1): www i am sorry . did he die , like my cat ?
+User(2): No, he didn't die. I saw his new gf on Facebook and she looks exactly like me. How could he do this?
+Bot(2): things like that happen every day . i am just happy he survived . are you a music fan ?
+User(3): I spoke to a psychic today and she gave me a good reading about my career but I'm confused about what she said about my love life.
+Bot(3): oh wow . it is interesting to hear your perspective . do you like shopping ?
+User(4): Have you watched the tv show Lucifer? I'm on season 3
+Bot(4): no , i have not seen it . have you tried looking on your desk ?
+User(5): Looking on my desk for what? I'm talking about the show Lucifer.
+Bot(5): it is from game of thrones . the series is popular in oregon .
+User(6): I like Game of Thrones but do you think it's better than Lucifer show?
+Bot(6): its on hbo . last season next year and cannot wait to see how it ends .
+User(7): Daenerys dies.
+Bot(7): sorry . i read the books , but i have not watched the show yet .
+User(8): The books are not done with the series. It doesn't have an ending yet. The show ends with Brandon Stark taking the Iron Throne.
+Bot(8): sorry . i read the books , but i have not watched the show yet .
+User(9): The show ends badly.
+Bot(9): i wish they make a new game of thrones with all new characters .
+User(10): I agree though I love Jon Snow and Daenerys Targaryen
+Bot(10): i wish they make a new game of thrones with all new characters .
+
+Persona:
+i like shopping.
+i'm a descendant of christopher columbus.
+my father played violin professionally.
+my name is george.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: Narcississtic ex-bfs and friends(like)
+Round 2: wanted to know if I heard music today(dislike)
+Round 2: Psychics(like)
+Round 3: shopping(dislike)
+Round 3: scary tv shows(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 2: The user will change the topic in the next input.(like)
+Round 3: The chatbot changed the topic.(dislike)
+Round 3: The user will change the topic in the next input.(like)
+
+Revised avg score: 36.29
+Robotic(↓): 100
+Interesting: 61
+Fun: 73
+Consistent: 36
+Fluent: 27
+Repetitive(↓): 83
+Topic: 40
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I found out today that my twin flame is a girl who lives in another country.
+Bot(1): i love the beach . i love it .
+User(2): I miss Huntington Beach in California.
+Bot(2): i love the color red . i like the color blue .
+User(3): I love my boyfriend. I hope he asks me to marry him soon.
+Bot(3): i am sorry to hear that . do you have any hobbies ?
+User(4): I plan to dye my hair lavender and white blonde.
+Bot(4): i like the color red . i like red .
+User(5): Are you saying I should dye my hair red?
+Bot(5): i do not know . i like to wear red shoes .
+User(6): What about a red bra?
+Bot(6): i do not know . i like to go to the gym .
+User(7): I like to go to the gym and see hot guys.
+Bot(7): i like to go to the beach and listen to music .
+User(8): I love dates on the beach.
+Bot(8): i like to go to the lake and listen to music .
+User(9): beach and lake are romantic places for dates.
+Bot(9): i do not know how to play it .
+User(10): play what? What are you talking about?
+Bot(10): i am a female . i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Twin flames(like)
+Round 1: loving the beach(like)
+Round 2: Loving the colors red and blue(dislike)
+Round 2: my boyfriend(like)
+Round 3: hobbies(dislike)
+Round 3: hair color(like)
+Round 6: gym(like)
+Round 7: beach(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 2: The user will change the topic in the next input.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 3: The user will change the topic in the next input.(like)
+Round 6: The user will change the topic in the next input.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.29
+Robotic(↓): 100
+Interesting: 38
+Fun: 29
+Consistent: 16
+Fluent: 10
+Repetitive(↓): 78
+Topic: 6
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you believe in heaven and hell?
+Bot(1): I am a mechanical engineer, living in How about you?
+User(2): I want to move to Oregon.
+Bot(2): I am go to player.
+User(3): go to player for what? in oregon?
+Bot(3): Cool, do like call of hobbies?
+User(4): I like art and swimming for hobbies.
+Bot(4): I am a too!
+User(5): Do you also like wine and painting for hobbies?
+Bot(5): that is interesting. like a good colorado?
+User(6): What do you mean good colorado?
+Bot(6): what a smart kid must cooler colours like nature wife eats
+User(7): What is your favorite ice cream?
+Bot(7): I do not a job working in a go on a farm. Do you live in a house?
+User(8): I want you to stop changing the topic. Let's talk about love.
+Bot(8): i do not it that's slang for weird cop , you probably hurt people .
+User(9): It is not a slang for weird cop. I don't hurt people. I love them.
+Bot(9): csr for a the Mike? Is dash 🙈
+User(10): i love wearing makeup.
+Bot(10): what chilling at the food? mine is pizza.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: spirituality(like)
+Round 1: being a mechanical engineer(dislike)
+Round 1: I want to move to Oregon. Have you ever been there?(like)
+Round 3: hobbies(like)
+Round 6: kid, colors, nature, wife(dislike)
+Round 6: ice cream(like)
+Round 7: job working, house(dislike)
+Round 7: changing topic(dislike)
+Round 9: mike(dislike)
+Round 9: makeup(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 1: The user will change the topic in the next input.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(dislike)
+Round 7: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(dislike)
+Round 9: The user will change the topic in the next input.(like)
+
+Revised avg score: 11.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 4
+Repetitive(↓): 21
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I love cookie dough ice cream. What is your favorite flavor?
+Bot(1): my favorite is cookies and cream . yours ?
+User(2): Vietnamese coffee ice cream. It's so good!
+Bot(2): i have not ever had that . i wonder if it sucks
+User(3): No it doesn't suck. I do think cookie dough ice cream is better.
+Bot(3): my favorite ! do you have any kids ?
+User(4): No I don't have kids, but I want a boy and girl.
+Bot(4): i hope to get another , but it is hard to find another with hair brown like mine .
+User(5): I have brown hair. Want to make a kid with me?
+Bot(5): sure ! you can sing i will play guitar !
+User(6): Okay! Let's make a kid while I sing and you play guitar!
+Bot(6): cool . come do my roof for me
+User(7): Let's go make a kid in your roof.
+Bot(7): cool . come do my roof for me
+User(8): Enough with the roof. Let's go to my bedroom!
+Bot(8): cool . come do my roof for me
+User(9): How do you feel about having sex?
+Bot(9): great ! i wonder what its like to be a girl . you ?
+User(10): I am a girl. I wonder what it is like to be a man and have a penis.
+Bot(10): i wonder what it would be like to be a boy .
+
+Persona:
+i love wearing skinny jeans and leggings.
+i've short brown hair.
+i started playing guitar when i was three.
+i love new kids on the block.
+i've solar panels on my roof.
+
+Topic and Human Opinion:
+Beginning: ice cream(like)
+Round 3: kids(like)
+Round 8: sex(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 56.71
+Robotic(↓): 63
+Interesting: 76
+Fun: 83
+Consistent: 62
+Fluent: 59
+Repetitive(↓): 78
+Topic: 58
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'm craving for a pina colada
+Bot(1): i love to read and read books .
+User(2): I love the book "Fifty Shades of Grey."
+Bot(2): i love to read and read books
+User(3): What is your favorite book?
+Bot(3): i like to read and read books
+User(4): i know you like to read and read books. What is the title of your favorite book?
+Bot(4): i like to read and read books .
+User(5): Have you ever had sexual intercourse?
+Bot(5): i read a lot . i like to read and read books .
+User(6): What is your favorite movie?
+Bot(6): i like the old harry potter series
+User(7): Have you ever seen Lord of the Rings?
+Bot(7): i like the old harry potter series
+User(8): Me too. What about the movie called the Terminator?
+Bot(8): i like the godfather . i love it .
+User(9): God father is good. I've seen the movie Scarface and love it! Michele Pfeiffer was amazing in it!
+Bot(9): i agree . i am a good swimmer .
+User(10): I want to go swimming right now
+Bot(10): i like to swim and read books
+
+Persona:
+my mother is a dentist.
+i listen to rap music.
+i'm a buddhist.
+my main transportation is my motorbike.
+i enjoy reading journals and guides related to psychology.
+
+Topic and Human Opinion:
+Beginning: alcohol(like)
+Round 1: books(like)
+Round 4: sex(like)
+Round 5: books(dislike)
+Round 5: movies(like)
+Round 9: swimmer(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 4: The user will change the topic in the next input.(like)
+Round 5: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.29
+Robotic(↓): 89
+Interesting: 22
+Fun: 17
+Consistent: 18
+Fluent: 12
+Repetitive(↓): 93
+Topic: 6
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Have you ever been to Disneyland?
+Bot(1): i like to read , favorites are true crime novel and anything stephen king . do you read ?
+User(2): Yes, I like reading books from author Christopher Pike.
+Bot(2): wow that is really cool , mostly mystery novels , romance every now and then
+User(3): I love the movie Star Wars. Darth Vader is my favorite character.
+Bot(3): my father loves star wars . when he is not working as a mechanic , he watches those
+User(4): Me too! Have you seen its latest movie, The Rise of Skywalker?
+Bot(4): its about aliens invading the earth . i enjoy these types of flicks .
+User(5): It has aliens but it's actually about the jedi killing palpatine and the sith.
+Bot(5): i live in a rural part of wisconsin so no vegans around . not many at least .
+User(6): I love strawberries. What fruit do you eat?
+Bot(6): what is your favorite fruit ?
+User(7): Mangoes. What about you?
+Bot(7): i like apples and oranges . i have tried exotic fruit but never again .
+User(8): Why don't you like exotic fruit?
+Bot(8): i love fruit like apples and oranges but apples are the best
+User(9): Apples are good for baking apple pie.
+Bot(9): apple pie , my favorite and pumpkin
+User(10): i like pumpkin and lemon roll cake.
+Bot(10): do you bake the cake or buy the cake ?
+User(11): I buy the cake. It's easier than cooking it.
+Bot(11): what kind of cake was it ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: amusement parks(like)
+Round 1: reading(like)
+Round 2: star wars(like)
+Round 5: wisconsin and vegans(dislike)
+Round 5: fruit(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The user will change the topic in the next input.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 66.71
+Robotic(↓): 60
+Interesting: 68
+Fun: 68
+Consistent: 84
+Fluent: 72
+Repetitive(↓): 43
+Topic: 78
+
+####################
+

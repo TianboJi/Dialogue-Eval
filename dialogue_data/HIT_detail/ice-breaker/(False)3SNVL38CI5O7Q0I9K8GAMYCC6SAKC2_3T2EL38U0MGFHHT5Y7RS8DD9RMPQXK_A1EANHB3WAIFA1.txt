@@ -1,0 +1,292 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you go to church?
+Bot(1): yes i do i love church
+User(2): I go to a church that has a praise band ANd a organ. What do you prefer?
+Bot(2): i like to listen to music and listen to music
+User(3): oh, what type of music?
+Bot(3): i like country music . i like country music .
+User(4): Country music is not played in church, unless its Gospel Country. Do you like Gospel Country?
+Bot(4): i do , i love country music .
+User(5): most music in church talks about God.
+Bot(5): i do not like country music , but i like country music .
+User(6): I have been to a country music concert. His name was Alan Jackson.
+Bot(6): i love country music . i like country music .
+User(7): Have you ever seen Dolly Parton?
+Bot(7): i have not seen it . i have never heard of it .
+User(8): She is a very famous country music singer.
+Bot(8): i have not heard of that . i am a country girl .
+User(9): One cannot like country music and have not heard of Dolly Parton. She's a staple in the country music world.
+Bot(9): i like country music . i like country music .
+User(10): All country girls would know who Dolly Parton is.
+Bot(10): i like the country music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a christian.(like)
+Round 5: Country Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 8.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 7
+Fluent: 22
+Repetitive(↓): 100
+Topic: 32
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My father almost didn't graduate
+Bot(1): congratulations . i do not have any kids .
+User(2): neither do I. but that has nothing to do with highschool graduation.
+Bot(2): that is awesome ! are you employed as a teacher ?
+User(3): No, I am not. I work with high school students in a church.
+Bot(3): do you work at the church or are you just a member ?
+User(4): I work at the church.
+Bot(4): yes how about you ? do you go to church ?
+User(5): Yes, I do. I attend the church I work at.
+Bot(5): yes how about you ? do you go to church ?
+User(6): Yes.
+Bot(6): its all good . what do you do with your hair when you are out in the sun ?
+User(7): I put it up in a ponytail.
+Bot(7): heck no , i spend time making it look the best . guys love to look at me .
+User(8): The sun is hot.
+Bot(8): red . haha i feel like the sun is more orange than yellow
+User(9): Maybe.. but in the south, its to hot to wear your hair down.
+Bot(9): too humid for sure . i keep my hair cut short . this month it is pink . rita hayworth ?
+User(10): Who is rita haywoth?
+Bot(10): my friends we go gambling often i have a bit of a problem .
+
+Persona:
+i am a stay at home dad.
+i've short hair.
+i'm employed by the us postal service.
+i go gambling in my spare time.
+i am married with two kids.
+
+Topic and Human Opinion:
+Beginning: i did not graduate high school.(dislike)
+Round 6: hair and sun(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 39.43
+Robotic(↓): 59
+Interesting: 66
+Fun: 27
+Consistent: 9
+Fluent: 37
+Repetitive(↓): 9
+Topic: 5
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What time of instrument or vocals?
+Bot(1): i am not sure . i am spend most of my time running in marathons and watching basketball .
+User(2): so you are not a musician?
+Bot(2): i am not sure . i am spend most of my time running in marathons and watching basketball .
+User(3): do you not playan insrument?
+Bot(3): no , i try to stay in shape . i even run as many marathons as i can .
+User(4): I dont run.
+Bot(4): have you ran in any marathons ?
+User(5): No, I don't think I could make it.
+Bot(5): have you ran in any marathons ?
+User(6): No, I do not run for fun.
+Bot(6): have you ran in any marathons ?
+User(7): What other things do you do besides run in marathons?
+Bot(7): i am trying to make money running marathons .
+User(8): How do you make money? Is there prize money?
+Bot(8): yes they pay you to have fun and travel .
+User(9): that could be expensive- the hotel rooms, the entry fees. do you have a job that supports your marthon running?
+Bot(9): i do . i am a chef right now , though , and have little time for one .
+User(10): chef means long hours. do you get breaks to train and run?
+Bot(10): i do marathons twice a year , but in america , mostly .
+
+Persona:
+hey my name is larry and i'm a chef.
+i love running and preparing for marathons.
+i'm deathly afraid of heights.
+i love taking bubble baths.
+i'm an omnivore.
+
+Topic and Human Opinion:
+Beginning: i am a musician.(ambivalent)
+Round 3: sports(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 59.14
+Robotic(↓): 32
+Interesting: 55
+Fun: 33
+Consistent: 82
+Fluent: 65
+Repetitive(↓): 81
+Topic: 92
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hot tea is the best!
+Bot(1): you are mountain biking as i'm retired.
+User(2): Mountain biking is not drinking fancy tea.
+Bot(2): I like a poetry for draw
+User(3): that doesnt make sense.
+Bot(3): I do not of you i am old.
+User(4): that is an incomplete sentence.
+Bot(4): I wanna talk in know what mine is.
+User(5): What are you asking?
+Bot(5): Um, love am know.
+User(6): Love is a funny thing
+Bot(6): what and are am do all day then
+User(7): I work on the computer.
+Bot(7): oh , nice , i have a daughter who your partner: 1️⃣: spiderman .
+User(8): Spiderman likes to climb.
+Bot(8): ha ha ! i to disney world hate studying as a contractor . how are you ?
+User(9): Disney World is expensive right now.
+Bot(9): my twin sister loves hockey . i've never really been a fan . is great man.i love chocolate ?
+User(10): Yes, I do love chocolate! Chocoalte cake, chocolate chip cookies, hot chocolate!
+Bot(10): I am living now, but I that's fun! I helped sew
+User(11): did you make masks?
+Bot(11): I'm doing for now genre do are you from?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love to drink fancy tea.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 29
+Fun: 36
+Consistent: 10
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Growing up, my father did not sell door to door. I did sell girlscout cookies door to door though.
+Bot(1): good day , i am a ma am . i have ownership of a music store .
+User(2): what type of music do you sell
+Bot(2): i rewire guitars . i like to play them then . what do you do ?
+User(3): I work with teenagers.
+Bot(3): i like music do you sell just cds or have instruments too
+User(4): I do not sell cds. I work with young adults.
+Bot(4): i look for vinyl records .
+User(5): those are old!
+Bot(5): i rewire guitars . i like to play them then . what do you do ?
+User(6): I tell kids about Jesus
+Bot(6): gospel music is amazing , i would love to teach music .
+User(7): I cannot sing worth a penny
+Bot(7): i am sorry to hear that . are you in california . i do not sing much
+User(8): No, I live in North Carolina, on the beach. I play an instrument called the hand bell. Have you ever seen those?
+Bot(8): i am sure that i sold houses to some
+User(9): really? was that hard?
+Bot(9): it was quiet difficult for me . i could teach you sometime !
+User(10): how long would it take?
+Bot(10): anywhere from about three to four hours .
+User(11): that is fast!
+Bot(11): yeah really fast for a student like me
+
+Persona:
+i'm a musician.
+i am here for shoplifting.
+i enjoy building houses.
+i'm an art major in college.
+i live in california but the recording artist market was dead last year.
+
+Topic and Human Opinion:
+Beginning: my father was a door to door salesman.(ambivalent)
+Round 5: music and music stores(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 51.86
+Robotic(↓): 100
+Interesting: 70
+Fun: 56
+Consistent: 70
+Fluent: 32
+Repetitive(↓): 0
+Topic: 35
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I love the water but have never been on a yacht. Do you own a yacht?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): Bands can play classical music at yacht parties, right?
+Bot(2): i do not know what to say .
+User(3): what is your favorite thing about boating?
+Bot(3): i like the fall . i love it .
+User(4): I love the fall too. It is cooler! The pumpkins, leaves, and apples. But we dont have apples where I live.
+Bot(4): i love to go fishing .
+User(5): Fishing requires a licsense in North Carolina. I dont have a fishing license so I have not been in a very long time.
+Bot(5): i am a student , but i am a student .
+User(6): what do you study
+Bot(6): i teach math and drawing .
+User(7): how can you be a student and teacher?
+Bot(7): i am a student , but i am a student .
+User(8): you are either a studen.. or a teacher. What do you study?
+Bot(8): i am in college . i am a student .
+User(9): college is difficult right now. The students I know do not like virtual learning. They say its very hard.
+Bot(9): i do not know how to make it . i am a nurse .
+User(10): REally? Whats the grossest thing you have seen in the hospital?
+Bot(10): no , i do not . i like to go out to eat with my family .
+
+Persona:
+i've a dogs.
+i graduated from yale in 2011 with a degree in finance.
+the holidays make me depressed.
+i work in it and have been at the same company for 15 years.
+i've three sisters.
+
+Topic and Human Opinion:
+Beginning: i own a yacht and i rent it out when i am not using it.(dislike)
+Round 3: Fall(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 23.86
+Robotic(↓): 100
+Interesting: 33
+Fun: 10
+Consistent: 19
+Fluent: 13
+Repetitive(↓): 8
+Topic: 0
+
+####################
+

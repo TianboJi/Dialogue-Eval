@@ -1,0 +1,275 @@
+Feedback: good
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hai
+Bot(1): hey
+User(2): hoe are you
+Bot(2): same
+User(3): fine
+Bot(3): kool
+User(4): you want to like the flower?
+Bot(4): sure but i mainly have flowers
+User(5): yes
+Bot(5): as long as you lik it
+User(6): yes like it this.
+Bot(6): as long as you lik it
+User(7): what you want?
+Bot(7): what you need
+User(8): no need to
+Bot(8): ok
+User(9): you want to
+Bot(9): sure
+User(10): hmm ok
+Bot(10): ok
+User(11): buy
+Bot(11): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: flower(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hai
+Bot(1): hey
+User(2): how are you?
+Bot(2): good thanks . tell me about yourself
+User(3): fine
+Bot(3): good ! what are your hobbies
+User(4): my habbie was bookredding and sports
+Bot(4): cool . i am just reading
+User(5): you habbis
+Bot(5): wuss poppin b ? whats good with you
+User(6): ohh yes
+Bot(6): kool
+User(7): good job
+Bot(7): ll
+User(8): ok
+Bot(8): ll
+User(9): thank you
+Bot(9): ll
+User(10): fine buy
+Bot(10): kool
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hai
+Bot(1): i am sorry to hear that
+User(2): you like the movies
+Bot(2): i do like movies but i love movies
+User(3): how are you?
+Bot(3): i am good do you like movies
+User(4): fine
+Bot(4): i am good thanks for asking
+User(5): ohh
+Bot(5): i am good thanks for asking
+User(6): thank you
+Bot(6): i am good thanks for asking
+User(7): so much darling
+Bot(7): i am good thanks for asking
+User(8): you want do
+Bot(8): i love the movie movies
+User(9): good job
+Bot(9): yeah i do not have a job
+User(10): thanks
+Bot(10): you are welcome ! i love the movie movies
+User(11): buy
+Bot(11): yeah i bet you do what you like
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hai
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): you want to job
+Bot(2): i just got my nursing degree , so i guess a hospital .
+User(3): ohh iam comfortable
+Bot(3): i had a pair of glasses with green frames when i was younger
+User(4): so want to us
+Bot(4): i live in the united states as well . do you drink alcohol ?
+User(5): you want
+Bot(5): do you have hobbies ? i write short fiction in my spare time .
+User(6): you like the job
+Bot(6): yes , i work from home . i teach music , but i have a masters degree in italian lit .
+User(7): ohh
+Bot(7): nice ! do you take a stroll by ocean or horseback riding there ? i love horses
+User(8): thak you
+Bot(8): i am doing well . how about you ?
+User(9): ohh
+Bot(9): nice ! do you take a stroll by ocean or horseback riding there ? i love horses
+User(10): thank you
+Bot(10): i am well about to make a breakfast egg baked dish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: job(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hai
+Bot(1): nice talking you? I just bye
+User(2): how are you
+Bot(2): I work like to you have What do you do?
+User(3): fine
+Bot(3): I am a museum that our fight with university of the history
+User(4): yeah yes
+Bot(4): I like blue, but I try donuts just want swim😄
+User(5): you want do
+Bot(5): I am a teacher, i it is so it week.
+User(6): why
+Bot(6): I in do you have What do you do?
+User(7): no
+Bot(7): all of us hippies have long hair . nobody does fine.are you in the like .
+User(8): sorry
+Bot(8): I am ok. English and am activist.
+User(9): you want like it
+Bot(9): It is love horrors currently relationship.
+User(10): mm
+Bot(10): I work you.
+User(11): kk thank you
+Bot(11): do you like 💚 of really like think up
+User(12): mm
+Bot(12): I was know Rolls kind of love to cook
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: speaker(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hai
+Bot(1): i am a student , but i am a student .
+User(2): how are you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): fine
+Bot(3): i am a student , but i am a student .
+User(4): yeah iam waking to like it you
+Bot(4): i like to go to the gym and listen to music .
+User(5): hai
+Bot(5): i am a student , but i am a student .
+User(6): hey
+Bot(6): i am doing well . how are you ?
+User(7): sir
+Bot(7): i am a student , but i am a student .
+User(8): you want do it
+Bot(8): i do not know what to say .
+User(9): kk
+Bot(9): i love to cook . i love to cook .
+User(10): you wanrt to like it
+Bot(10): i do not know what to say .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: teaching(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

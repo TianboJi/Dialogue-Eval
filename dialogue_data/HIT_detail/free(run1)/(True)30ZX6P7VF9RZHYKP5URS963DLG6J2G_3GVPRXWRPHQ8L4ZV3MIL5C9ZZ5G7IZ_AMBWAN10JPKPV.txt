@@ -1,0 +1,302 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there!
+Bot(1): hey how is everything . nice to take a break from drawing my comics .
+User(2): Do you like soccer?
+Bot(2): soccer is a great sport . i like doing my nails . do you ?
+User(3): I don't do my own nails. Do you get manicures?
+Bot(3): i will paint my nails . having nails makes it easier to turn book pages .
+User(4): I find the opposite. It's harder to turn the pages when my nails are long.
+Bot(4): my mother works as a ballet dancer . she gets her nails done too .
+User(5): What color do you paint them?
+Bot(5): what do you like to paint ?
+User(6): I don't paint. Do you like ballet?
+Bot(6): yes . i am an artist . i paint with my mind and my hands .
+User(7): What do you like to paint?
+Bot(7): yes . i am an artist . i paint with my mind and my hands .
+User(8): Do you like ballet?
+Bot(8): i have seen a few shows , i took my grandchildren !
+User(9): how many grandchildren do you have?
+Bot(9): twin boys in highschool a 5th grader and third grader
+User(10): Do they like school?
+Bot(10): they are in high school , public . no way would i be able to homeschool
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Soccer(like)
+Round 2: Nails(ambivalent)
+Round 6: painting(like)
+Round 7: ballet(like)
+Round 8: grandchildren(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 25.71
+Robotic(↓): 92
+Interesting: 7
+Fun: 6
+Consistent: 24
+Fluent: 79
+Repetitive(↓): 74
+Topic: 30
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like to cook?
+Bot(1): no . i prefer to have my ice cream in the largest quantities allowed
+User(2): I like ice cream. What's your favorite flavor?
+Bot(2): i love homemade vanilla icing
+User(3): Do you like it on cake?
+Bot(3): i do . i like vanilla . what flavor do you like ?
+User(4): I also like vanilla.
+Bot(4): i have been watching the friday movies , whats your favorite movie ?
+User(5): I like movies. Star Wars is my favorite
+Bot(5): i love star wars
+User(6): What is your favorite movie?
+Bot(6): friday the 13th movies . i love jason
+User(7): jason is too scary for me!
+Bot(7): i have heard of it but never watched it . i spend my free time at the shelter .
+User(8): animal shelter?
+Bot(8): silly , no , to volunteer
+User(9): what kind of shelter?
+Bot(9): domestic violence shelter . i would love for the world to change for better
+User(10): what do you do there?
+Bot(10): volunteer
+
+Persona:
+i have a weakness for vanilla ice cream.
+my favorite movie is friday.
+i'm four years old.
+i've short hair.
+i volunteer at the homeless shelter.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 1: ice cream(like)
+Round 2: icing(like)
+Round 4: movies(like)
+Round 7: the shelter(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 34.29
+Robotic(↓): 98
+Interesting: 8
+Fun: 24
+Consistent: 32
+Fluent: 87
+Repetitive(↓): 45
+Topic: 32
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you like movies?
+Bot(1): i do , i like to read .
+User(2): I like to read too
+Bot(2): i like to read and write poetry .
+User(3): who is your favorite poet?
+Bot(3): i like the color red . i like the color blue .
+User(4): i like the color gray
+Bot(4): i like the color red . i like red .
+User(5): red is a good color. Is it your favorite color?
+Bot(5): i like blue , my favorite color is blue .
+User(6): blue is a good color also. Do you like dark blue or light blue?
+Bot(6): i like blue , i like blue .
+User(7): do you like blueberries
+Bot(7): i do , i like to go out to eat with my family .
+User(8): do you have children
+Bot(8): no , i do not , but i do like to go out to eat .
+User(9): who is in your family?
+Bot(9): i am a big fan of jason mraz .
+User(10): what kind of music do you like?
+Bot(10): i like country music . what about you ?
+
+Persona:
+my favorite music is country.
+i am 24 years old.
+i'm a 45 year old male.
+i volunteer in a homeless shelter.
+i'm here for shoplifting.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 1: reading(like)
+Round 3: colors(ambivalent)
+Round 6: food(like)
+Round 7: family(like)
+Round 9: music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 39.86
+Robotic(↓): 12
+Interesting: 8
+Fun: 9
+Consistent: 23
+Fluent: 76
+Repetitive(↓): 41
+Topic: 16
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What kind of music do you like?
+Bot(1): because i live in hollywood . i've and French Open next week. acting . 😝
+User(2): What about music?
+Bot(2): Pretty good. Just got favorite you're a am run.
+User(3): Do you like opera?
+Bot(3): i am old , i am old home these problems are old .
+User(4): what about rap?
+Bot(4): man 👮 i busy experiencing new stuff to the bathroom what language they speak
+User(5): I like to sing
+Bot(5): Hey! Do you have what about u it I do.
+User(6): Do you sing?
+Bot(6): i am being around get city .
+User(7): can you play piano?
+Bot(7): juvenile detention you need is :)
+User(8): I like to listen to the bassoon
+Bot(8): do know you any hobbies?
+User(9): I like music
+Bot(9): I am you like Justin you never been there.
+User(10): I like Justin
+Bot(10): Yeah, I like to sing in say it is pretty to music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 57
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like music?
+Bot(1): yes i do . i love all kinds of music
+User(2): me too!
+Bot(2): i love music as well !
+User(3): What's your favorite kind?
+Bot(3): i love all kinds of music ! what do you like best ?
+User(4): I like hip hop and opera.
+Bot(4): i like all kinds of music , but am not very familiar with opera
+User(5): What kind do you like?
+Bot(5): i like opera , if that is what you are asking ? what do you listen to ?
+User(6): I like Opera and I like hip hop
+Bot(6): i like opera music and r b
+User(7): r and b is good. Can you play an instrument?
+Bot(7): no i am not good with instruments !
+User(8): can you sing?
+Bot(8): sometimes . what do you sing
+User(9): I sing opera
+Bot(9): i can even do popular songs n my armpits
+User(10): like beat boxing?
+Bot(10): yea , but i am not very good
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.43
+Robotic(↓): 62
+Interesting: 29
+Fun: 58
+Consistent: 68
+Fluent: 56
+Repetitive(↓): 36
+Topic: 75
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What kind of food do you like?
+Bot(1): i love mexican food , i eat a lot of it .
+User(2): I like enchiladas
+Bot(2): i like pizza , i eat a lot of it .
+User(3): What do you like on your pizza?
+Bot(3): i love pizza and pizza
+User(4): I like pepperoni
+Bot(4): pizza is my favorite . i like to eat
+User(5): do you like ice cream?
+Bot(5): i like pizza but i like to eat it
+User(6): I like to eat pizza with ranch dressing
+Bot(6): i love pizza . i eat it all the time
+User(7): what else do you eat?
+Bot(7): pizza is my favorite
+User(8): Mexican is my favorite
+Bot(8): i like pizza with my favorite food
+User(9): do you like spaghetti?
+Bot(9): i love pizza , what is your favorite food ?
+User(10): Enchiladas
+Bot(10): i like pizza with my favorite food
+
+Persona:
+i workout four hours a day.
+i am not a good swimmer at all.
+i like to play chess.
+i've been trying all types of food everywhere i go.
+i live in a house.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.86
+Robotic(↓): 100
+Interesting: 1
+Fun: 12
+Consistent: 74
+Fluent: 66
+Repetitive(↓): 100
+Topic: 91
+
+####################
+

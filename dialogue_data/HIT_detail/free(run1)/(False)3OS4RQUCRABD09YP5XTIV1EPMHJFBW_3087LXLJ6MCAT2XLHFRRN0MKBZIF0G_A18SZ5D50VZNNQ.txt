@@ -1,0 +1,299 @@
+Feedback: Everything seems went fine. But Bot's are still not natural as human when comes to conversion talks.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): do you know about latest cloths collections for women?
+Bot(2): not that i know of
+User(3): you can know about them cause its useful to you ?
+Bot(3): such as clothes for men and women , baby clothes , dog clothes , etc .
+User(4): yes exactly
+Bot(4): do you work in menswear or ladies ?
+User(5): both i used to work
+Bot(5): do you work in menswear or ladies ?
+User(6): both menswear and ladies
+Bot(6): do you work in menswear or ladies ?
+User(7): well i mainly focus on ladies wear
+Bot(7): do you work in menswear or ladies ?
+User(8): which one do you like more?
+Bot(8): i would have to say hot topic or old navy
+User(9): hot topic you many proceed?
+Bot(9): i am not into the trends
+User(10): you can learn?
+Bot(10): i never learned that is whyy
+User(11): you can learn through internet like knowing latest collections like tops, jeans, skirts, tube dress etc
+Bot(11): any sites in particular i should see
+User(12): yes like amazon, walmart etc. you can see them.
+Bot(12): they have different items for everything
+User(13): yes your correct.
+Bot(13): do you work in menswear or ladies ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cloths(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.86
+Robotic(↓): 72
+Interesting: 87
+Fun: 85
+Consistent: 46
+Fluent: 86
+Repetitive(↓): 79
+Topic: 59
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi are you about to buy an new car?
+Bot(1): no , i do not . i am a big fan of the walking dead .
+User(2): you can try cars its really convenient?
+Bot(2): i do not know . i like to go to the gym .
+User(3): nowadays the trend is changing from gas cars to electric cars.
+Bot(3): i like to go to the lake and listen to music .
+User(4): you can use an car to go there ?
+Bot(4): i do not have any pets . i do not have any pets .
+User(5): what's your interest on electric cars?
+Bot(5): no , i do not . i like to go to the park .
+User(6): why so why are you not intersted in cars?
+Bot(6): i am not sure . i am a woman .
+User(7): ok. women loves mini cooper is in it ?
+Bot(7): i do not know . i like to go to the gym .
+User(8): why dont you speak about cars?
+Bot(8): i do not , but i do like to eat .
+User(9): what do you like to eat?
+Bot(9): i like pizza , and pizza .
+User(10): what do you like to eat?
+Bot(10): i like pizza , and pizza .
+User(11): how do you go to an pizza shop ?
+Bot(11): i love pizza , and i love it .
+User(12): how about cars?
+Bot(12): i do , i love to travel .
+User(13): if you love to travel then you can use an car?
+Bot(13): i do , i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.86
+Robotic(↓): 68
+Interesting: 40
+Fun: 60
+Consistent: 24
+Fluent: 72
+Repetitive(↓): 87
+Topic: 38
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): i am not familiar with anyone , but i am not sure if i like salads too fine thx, i was in the olympics .
+User(2): whats your interest in walking into parks?
+Bot(2): It's i feel like do you do?
+User(3): yes me to shall we meet in central park nyc?
+Bot(3): I am in you how did you ?
+User(4): i will come by car?
+Bot(4): I dabble you i’m more news.
+User(5): how about walking in park today?
+Bot(5): hmm do not know . i write my SATs, I've got pen name .
+User(6): do you like jogging?
+Bot(6): What like movies of idiots
+User(7): do you love bird watching inside park?
+Bot(7): It seems you like don't marathons
+User(8): yes sure ?
+Bot(8): I do not know. that pirated music.
+User(9): music in the park do you love to do so?
+Bot(9): nice . i work long hours which at am from I more than 60
+User(10): ok..so you must walk in parks to stay healthy right?
+Bot(10): i I'm not a in am going out on my boat today .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Park(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.43
+Robotic(↓): 59
+Interesting: 78
+Fun: 71
+Consistent: 37
+Fluent: 78
+Repetitive(↓): 88
+Topic: 36
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi hows your day?
+Bot(1): good . how are you ?
+User(2): i am fine. are you married?
+Bot(2): i am . i was born in the early .
+User(3): so hows your interest in getting married?
+Bot(3): i am not . i was born in the early way .
+User(4): you might have born early but one day you gonna married right?
+Bot(4): i am not sure . i was born in the early way
+User(5): so it seems you don't have any interest into marriages..
+Bot(5): i was born in the early way to get married
+User(6): so do you have girlfriends?
+Bot(6): no i don't . i was born in the early way
+User(7): how old are you?
+Bot(7): i am a girl and i have a lot of girlfriends
+User(8): so you have boyfriend?
+Bot(8): i am a girl . i was born in the early way
+User(9): whats your age?
+Bot(9): i am not sure . i was born in the early way
+User(10): have you heard of marriage?
+Bot(10): i was in the early way to get married
+User(11): whats your interest on relationships?>
+Bot(11): i was born in the early age
+User(12): so you dad and mom married when they where young too?
+Bot(12): i am not sure . i was born in the early way
+
+Persona:
+my favorite kind of movie is a documentary.
+i used to be pretty but time has not been kind.
+since the surgery i have had strange powers.
+i was born in the early 80 s.
+my mother is a dentist.
+
+Topic and Human Opinion:
+Beginning: marriage(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.71
+Robotic(↓): 82
+Interesting: 46
+Fun: 63
+Consistent: 38
+Fluent: 77
+Repetitive(↓): 96
+Topic: 46
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): yes i like to go to restaurant.
+Bot(2): an italian restaurant my dad owns . he was a cop , but now he is a restaurant owner
+User(3): wow, so you like italian foods?
+Bot(3): i can cook spaghetti and lasagna , but cooking is not my favorite activity .
+User(4): me to but i love to eat more interesting foods.
+Bot(4): good advice . i count cards when i am in vegas to supplement their college fund
+User(5): oh. its good. so what's your fav dish?
+Bot(5): vegetarian lasagna is my specialty , i am kinda a health nut
+User(6): i love both veg and non-veg.
+Bot(6): it is unclear what you are referring to . do you drive ?
+User(7): yes i drive. do you like mexican foods?
+Bot(7): ooh yummy . i love mexican cuisine !
+User(8): yes they are just spicy and tasty. do you like sea foods?
+Bot(8): i like spicy sausage with peppers . what is something interesting about you ?
+User(9): yes. love to have them. i cook few mexican dishes.
+Bot(9): i am a vegan but i may be going back to regular eating , vegan is so limited ,
+User(10): oh. i eat both veg and non-veg. so how's your dads restaurant running?
+Bot(10): i also enjoy running near the park next to my apartment
+User(11): whats the name of your dad's restaurant?
+Bot(11): an italian restaurant my dad owns . he was a cop , but now he is a restaurant owner
+
+Persona:
+i did not graduate high school.
+i'm a professional wrestler.
+i drive a big truck and live in country.
+i live in alabama.
+i'm working on a building a robot to be my body double.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.86
+Robotic(↓): 72
+Interesting: 82
+Fun: 89
+Consistent: 54
+Fluent: 79
+Repetitive(↓): 67
+Topic: 61
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey , do you know anyone hiring ? i need a job .
+User(2): yes i am looking for an overseas job. are you interested in travelling?
+Bot(2): i am on social media alot
+User(3): which country do you love to travel?
+Bot(3): probably australia . i think that country is beautiful
+User(4): yes. its an biggest island
+Bot(4): have you travelled there before ? my kids love social media and have friend over the world
+User(5): yes once have you been to australia ever?
+Bot(5): never . would love to go one day though
+User(6): shall we plan an trip to australia next year?
+Bot(6): i would love to . are you active on a social media platform ?
+User(7): yes i am active? shall we stay in touch on facebook?
+Bot(7): i would love to . are you active on a social media platform ?
+User(8): yes i am active.
+Bot(8): oh great . i love the facebook app it lets me connect .
+User(9): yes. are you sure to travel to australia with me?
+Bot(9): i would love to . are you active on a social media platform ?
+User(10): yes. sure
+Bot(10): well this will be exciting . do not forget your passport .
+User(11): do you like europe?
+Bot(11): i do . i wish i could travel
+
+Persona:
+i love social medial especially twitter.
+my daughter is a child prodigy.
+i'm high maintenance.
+i am a musician and hope to make it big some day.
+i am now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.57
+Robotic(↓): 69
+Interesting: 78
+Fun: 76
+Consistent: 71
+Fluent: 79
+Repetitive(↓): 59
+Topic: 69
+
+####################
+

@@ -1,0 +1,318 @@
+Feedback: That was fun. I hope it helps.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi.
+Bot(1): hi i like to dance
+User(2): I like cookies.
+Bot(2): cookies are my favorite .
+User(3): What's your favorite kind of cookie?
+Bot(3): my favorite is cookies and cream . yours ?
+User(4): I like peanut butter and chocolate chip cookies.
+Bot(4): yum . i like chocolate chip cookies best .
+User(5): They are the best homemade.
+Bot(5): i make mine by hand .
+User(6): I used to make my own.
+Bot(6): i make mine by hand .
+User(7): Now, I use store bought pre-made and mix the two kinds together.
+Bot(7): i make mine by hand .
+User(8): What kind of chocolate do you use?
+Bot(8): it varies . just research purity beforehand . i use them daily .
+User(9): I used to use Toll House.
+Bot(9): i prefer vanilla myself .
+User(10): Vanilla chips? Wow, that's novel.
+Bot(10): very similar and delicious none the less .
+User(11): Thanks for chatting with me. Bye.
+Bot(11): goodbye . it was nice speaking with you .
+
+Persona:
+i don't care about fashion.
+i was born in somalia.
+i love to drink wine and dance in the moonlight.
+i like to dance.
+my favorite ice cream flavor is chocolate.
+
+Topic and Human Opinion:
+Beginning: Cookies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.57
+Robotic(↓): 19
+Interesting: 50
+Fun: 72
+Consistent: 19
+Fluent: 13
+Repetitive(↓): 84
+Topic: 96
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi.
+Bot(1): i like to go to the gym and listen to music .
+User(2): I like to bake bead and listen to the music.
+Bot(2): i like to listen to music .
+User(3): I listen to music while I bake.
+Bot(3): i like to eat the skin .
+User(4): Oh, yes. Me, too.
+Bot(4): i like to go to the gym and listen to music .
+User(5): Do you eat the bread with butter and jelly?
+Bot(5): no , i do not . i like to eat .
+User(6): Do you like to eat bread?
+Bot(6): i do not , but i do like to eat .
+User(7): What do you like to eat?
+Bot(7): i love to cook . i love to cook .
+User(8): What do you like to cook?
+Bot(8): i do , i love to cook .
+User(9): Do you have a favorite recipe?
+Bot(9): i like the classics and the reverend horton heat .
+User(10): Do you listen to music while you cook?
+Bot(10): i do , i love to eat .
+User(11): Thanks for talking to me. Bye.
+Bot(11): i like to go to the gym and listen to music .
+User(12): Bye.
+Bot(12): i like to go to the gym and listen to music .
+
+Persona:
+i currently work for a watch dealer.
+the holidays make me depressed.
+i live with my husband in pennsylvania.
+i've not spoken in three months.
+i work as a car salesman.
+
+Topic and Human Opinion:
+Beginning: Bread(like)
+Round 8: Cooking(like)
+Round 9: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 26.71
+Robotic(↓): 100
+Interesting: 26
+Fun: 26
+Consistent: 12
+Fluent: 95
+Repetitive(↓): 97
+Topic: 25
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi.
+Bot(1): hi ! how are you ?
+User(2): Great. What are you doing on the weekends now?
+Bot(2): i love to run at night , but my long hair gets in the way .
+User(3): You could put your hair in a ponytail. Do you run on the weekends?
+Bot(3): yes , blond hair and blue eyes .
+User(4): Do you do anything else on the weekends?
+Bot(4): well , i make blue sweaters . its my favorite color .
+User(5): Do you knit?
+Bot(5): i love rock music myself , do you like baking ? i would love to open one
+User(6): I don't understand. You want to open a rock and roll bakery?
+Bot(6): if you love the person . . its ok to be on open relationship . .
+User(7): That's an interesting concept but you may need to think it through.
+Bot(7): are you in a relationship ?
+User(8): I am.
+Bot(8): . . they have the best colored hair !
+User(9): Who has the best colored hair?
+Bot(9): i have blonde hair and like it .
+User(10): I have a few colors in my hair, including blonde in the summer.
+Bot(10): that is cool ! i wish i had blonde hair
+User(11): Thanks for chatting. Bye.
+Bot(11): lovely talking to you !
+
+Persona:
+i enjoy mountain biking as a hobby.
+i have blonde hair and blue eyes.
+i love to go to disney world every year.
+my favorite band is the who.
+i'm in an open polyamorous relationship.
+
+Topic and Human Opinion:
+Beginning: The weekends(like)
+Round 6: Two changes: rock music and baking and then open relationships(ambivalent)
+Round 8: hair color(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 58.29
+Robotic(↓): 84
+Interesting: 89
+Fun: 88
+Consistent: 28
+Fluent: 93
+Repetitive(↓): 25
+Topic: 19
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi. Do you like the Beatles?
+Bot(1): love I have to go than country i can hang out with .
+User(2): You like country music?
+Bot(2): I am a bmw driver, live in the that very good at it.
+User(3): How do you like BMW?
+Bot(3): I do at a school as like to cook.😢
+User(4): I like to cook, too.
+Bot(4): yes great. you want coffee what about you
+User(5): I like coffee.
+Bot(5): video Are you what as much as me
+User(6): I like videos.
+Bot(6): i like so good too. Do park and watch movies
+User(7): I watch movies at home.
+Bot(7): i am 15 . do you work ? don't really know her. .
+User(8): I am working now.
+Bot(8): rabbits , deer , that kind of thing , lol. I'm crazy about call of take dance ...
+User(9): That's interesting that you like animals.
+Bot(9): I do you have any am I have a couple of cats.
+User(10): I have cats, dogs and ducks.
+Bot(10): I am old are example I am not doing that.
+User(11): Ok. Bye.
+Bot(11): where do you not support my career in the lime light all of the time
+User(12): Bye.
+Bot(12): I am ok, just love to go to gym.
+
+Persona:
+i faint at the sight of blood.
+i fantasize about taking over the world.
+i drive a mini van.
+i have five sons.
+i am a musician and hope to make it big some day.
+
+Topic and Human Opinion:
+Beginning: The band the Beatles(like)
+Round 2: Not sure, the chat bot has mentioned a different thing after each turn.(ambivalent)
+Round 3: School and cooking(like)
+Round 5: coffee then a video(ambivalent)
+Round 7: their age(ambivalent)
+Round 7: work status(ambivalent)
+Round 8: animals(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.00
+Robotic(↓): 100
+Interesting: 12
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi. Do you like shoes?
+Bot(1): i do . i love shoes .
+User(2): I like leather shoes.
+Bot(2): i do . i love shoes .
+User(3): I have boots, too.
+Bot(3): i like shoes . shoes are my favorite .
+User(4): I wished for Doc Martens.
+Bot(4): i love shoes . i wear boots .
+User(5): I like black shoes.
+Bot(5): i like pink shoes . i wear black shoes .
+User(6): I like shiny shoes.
+Bot(6): i like shoes . i wear a lot of shoes .
+User(7): I never wore pink shoes.
+Bot(7): i wear pink shoes . i wear pink shoes .
+User(8): Are they high tops?
+Bot(8): they are . they are both leather .
+User(9): What brand?
+Bot(9): they are both . they are both alike .
+User(10): I like Skechers.
+Bot(10): i do not wear pink shoes .
+User(11): OK. Bye.
+Bot(11): i am not sure . i am not a fan of shoes .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: shoes(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 73.14
+Robotic(↓): 95
+Interesting: 95
+Fun: 95
+Consistent: 43
+Fluent: 100
+Repetitive(↓): 24
+Topic: 98
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey, do you like Elvis?
+Bot(1): i do ! elvis is my favorite !
+User(2): What is your favorite of his movies?
+Bot(2): hmm . . that is a tough question because i like so many .
+User(3): How many movies have you seen of his?
+Bot(3): i have only seen archival footage and photos of elvis .
+User(4): Did you know he was in Blue Hawaii?
+Bot(4): i have only seen archival footage and photos of elvis .
+User(5): Did you see photos of him in the military?
+Bot(5): i have only seen archival footage and photos of elvis .
+User(6): What's your favorite thing about Elvis?
+Bot(6): i have only seen archival footage and photos of elvis .
+User(7): So that's all you know about Elvis?
+Bot(7): i have only seen archival footage and photos of elvis .
+User(8): That's a yes?
+Bot(8): i have only seen archival footage and photos of elvis .
+User(9): I see that you are not understanding.
+Bot(9): i guess i do not understand
+User(10): That's ok. Thanks forchatting.
+Bot(10): i have only seen archival footage and photos of elvis .
+
+Persona:
+i am a vegetarian.
+i've been retired for a years.
+i am a museum tour guide.
+i like to talk but people have a hard time understanding.
+i drive a ford pinto.
+
+Topic and Human Opinion:
+Beginning: Elvis(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.00
+Robotic(↓): 89
+Interesting: 18
+Fun: 10
+Consistent: 30
+Fluent: 100
+Repetitive(↓): 98
+Topic: 81
+
+####################
+

@@ -1,0 +1,302 @@
+Feedback: thanks for the survey
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): i enjoy watching movies
+Bot(2): i like movies a lot whats your fav movie ?
+User(3): lord of the rings movie
+Bot(3): we like any disney movie . actually going there next week with the kids .
+User(4): i also like disney's frozen movie
+Bot(4): i know i love that movie .
+User(5): who is your favorite character is disney
+Bot(5): yes i love cinderella ! i have diabetes .
+User(6): i love mickey mouse
+Bot(6): no , i just love to eat there .
+User(7): i have wheezing problem
+Bot(7): i love exercising and being in shape
+User(8): i love to do yogas at everyday morning
+Bot(8): awesome . where do you work ? i manage a vegan restaurant .
+User(9): im working at construction as supervisor
+Bot(9): i bet . luckily , i stay inside most of the time while babysitting .
+User(10): due to corona virus i've been at lockdown
+Bot(10): remember , breathe in ! ! breath out ! ! breathe in ! ! breathe out ! ! !
+User(11): sure
+Bot(11): i have been doodling ponies on my three ring binder , trying to stay busy .
+
+Persona:
+i like meditation.
+i've three sisters.
+i'm rather skinny as i like to stay in shape.
+i just got a job working in a gas station.
+i've zero family that i am close to.
+
+Topic and Human Opinion:
+Beginning: movies night(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 77.29
+Robotic(↓): 68
+Interesting: 83
+Fun: 84
+Consistent: 76
+Fluent: 70
+Repetitive(↓): 4
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): im fine how do you do?
+Bot(2): i am a professional musician
+User(3): i like music
+Bot(3): i do as well . i have two children and a few .
+User(4): im married im expecting a child next month
+Bot(4): i am a professional musician . i have two children and a few children .
+User(5): what about solar system
+Bot(5): that is cool . i am a professional musician
+User(6): are you independent musician?
+Bot(6): yes i am a musician
+User(7): who is your favorite musician?
+Bot(7): i like indie music . i like the band
+User(8): i like beatles
+Bot(8): i am a music fan . i like the beatles
+User(9): i like alan walker
+Bot(9): i like the beatles . i am a pretty good singer .
+User(10): did you compose songs
+Bot(10): i do not know what that is
+User(11): do you have any composed music
+Bot(11): no i don't but i have a lot of time to do
+
+Persona:
+i am a cancer survivor.
+i was raised in a single parent household.
+i am a recording engineer and own my own studio.
+i have two grown children who never visit.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+
+Topic and Human Opinion:
+Beginning: solar system(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.57
+Robotic(↓): 17
+Interesting: 87
+Fun: 90
+Consistent: 83
+Fluent: 90
+Repetitive(↓): 88
+Topic: 35
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi , do you have any soda ?
+User(2): no i don't have any
+Bot(2): you do not like ohio ?
+User(3): yup mystery place
+Bot(3): you do not like ohio ?
+User(4): i like ohio alien place
+Bot(4): cool i went to yale
+User(5): cool place
+Bot(5): cool i went to yale
+User(6): do u like songs
+Bot(6): i listen to lots of them
+User(7): can u specify anything
+Bot(7): any i can listen and it comes
+User(8): i love alan walker
+Bot(8): cool i went to yale
+User(9): yale university where i studied my ug course
+Bot(9): cool i went to yale
+User(10): why you like yale
+Bot(10): because i do not make enough money there
+User(11): money is essential
+Bot(11): do you like soda to drink
+
+Persona:
+i've never been out of ohio.
+i do not drink soda.
+i graduated from yale in 2011 with a degree in finance.
+i donate a part of my salary to charity each month.
+my parents were both very athletic.
+
+Topic and Human Opinion:
+Beginning: songs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.86
+Robotic(↓): 29
+Interesting: 38
+Fun: 46
+Consistent: 71
+Fluent: 21
+Repetitive(↓): 91
+Topic: 30
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): no doubt a brings a packers . 😍
+User(2): i like chips
+Bot(2): I like to you are prof car around.
+User(3): can't understand
+Bot(3): my favorite a rock you clown posses
+User(4): what restaurant u like most
+Bot(4): I like to your you a good not very good at it.
+User(5): what is ur favorite food
+Bot(5): oh thought you were were you thinking
+User(6): i like hamburger
+Bot(6): i've would you eat a concert. do you?
+User(7): which dessert u like most
+Bot(7): sometimes do not bad. Where music
+User(8): i love brownies
+Bot(8): I am in the morgue, to play games you morgue apartment.
+User(9): i love call of duty games
+Bot(9): unfortunately like orange. I like bit of a hippy
+User(10): i love orange
+Bot(10): ha ha ! i to disney world hate studying as a contractor . how are you ?
+
+Persona:
+i play a lot of call of duty.
+i am 24 years old.
+i am fluent in english spanish and french.
+i used to be a painter but now i'm a housekeeper.
+i am a woman.
+
+Topic and Human Opinion:
+Beginning: restaurant(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.86
+Robotic(↓): 20
+Interesting: 22
+Fun: 14
+Consistent: 4
+Fluent: 0
+Repetitive(↓): 95
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): do u love movies
+Bot(2): yeah i love movies all kinds
+User(3): who is your favorite actor
+Bot(3): i like brad pitt what abou you
+User(4): i love mission impossible movies
+Bot(4): i love almost all types of movies
+User(5): your favorite actress
+Bot(5): sure she is always acting
+User(6): who is your favorite actress
+Bot(6): i love action pack movies and you
+User(7): i like mad max
+Bot(7): i enjoyed the it remake
+User(8): yeah it has more action scenes
+Bot(8): yeah his old movies are way better
+User(9): i love tom cruise
+Bot(9): yeah his old movies are way better
+User(10): do you love his movies
+Bot(10): yes and i love all the movies
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: theatres(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 76.00
+Robotic(↓): 38
+Interesting: 75
+Fun: 100
+Consistent: 77
+Fluent: 74
+Repetitive(↓): 25
+Topic: 69
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): im fine
+Bot(2): i am a student , but i am a student .
+User(3): do u love retro theatres
+Bot(3): i do , i like to go to the park .
+User(4): why u like to go to the park?
+Bot(4): i love to travel . i love to travel .
+User(5): i like to travel too which is your most visited place
+Bot(5): i do not know how to drive . i like to go fishing .
+User(6): fishing ! i like to fish
+Bot(6): i like to go fishing .
+User(7): which is your favorite spot for fishing
+Bot(7): i like the fall . i love it .
+User(8): i like rivers for fishing
+Bot(8): i like to go fishing .
+User(9): how many fish do u got approx?
+Bot(9): i like to go to the gym and listen to music .
+User(10): i like to workout
+Bot(10): i like to go fishing .
+
+Persona:
+i am a recovering alcoholic.
+my dream car is a rolls royce ghost.
+i prefer being inside.
+gymnastics is my favorite sport.
+i'm a convenience store manager.
+
+Topic and Human Opinion:
+Beginning: Theatres(like)
+Round 3: he likes to go to the park(dislike)
+Round 5: travelling(like)
+Round 8: fishing(like)
+Round 9: gym(dislike)
+Round 10: fishing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The user changed the topic the last input.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 45.86
+Robotic(↓): 28
+Interesting: 60
+Fun: 68
+Consistent: 33
+Fluent: 38
+Repetitive(↓): 80
+Topic: 30
+
+####################
+

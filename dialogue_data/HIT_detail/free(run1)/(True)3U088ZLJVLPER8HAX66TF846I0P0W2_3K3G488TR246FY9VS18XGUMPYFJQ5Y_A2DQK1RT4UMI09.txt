@@ -1,0 +1,327 @@
+Feedback: Chat bot needs to focus more and stop being repetitive. Chat box needs expansion in knowledge bank.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): That is great. I love to cook too.
+Bot(2): i like to eat the skin .
+User(3): Skin of what
+Bot(3): i like to go to the gym and listen to music .
+User(4): I listen to music a lot but rarely go to the gym.
+Bot(4): i like to go to the lake and listen to music .
+User(5): Where you like to listen music more gym or at the lake
+Bot(5): i like to go fishing . i love to go fishing .
+User(6): I do not know anything about fishing
+Bot(6): i do not know what to say .
+User(7): Hey at least you like it. Do you fish a lot
+Bot(7): i do not , but i do like to eat .
+User(8): What is your favorite food
+Bot(8): i like pizza , and i love to eat .
+User(9): What is your favorite topping in pizza
+Bot(9): i like pizza , and i love it .
+User(10): what is your favorite place to get pizza
+Bot(10): i like the color green . i like red .
+
+Persona:
+i'm a 45 year old male.
+i prefer being inside.
+hey there i am 23 and i love food.
+i've amazing children and grandchildren.
+i love to play pobox.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 1: Cooking(like)
+Round 3: Going to gym and listening to music(ambivalent)
+Round 5: fishing(dislike)
+Round 7: Eating(like)
+Round 10: color(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 36.14
+Robotic(↓): 86
+Interesting: 43
+Fun: 60
+Consistent: 6
+Fluent: 74
+Repetitive(↓): 80
+Topic: 36
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorte color
+Bot(1): green and what is yours
+User(2): Mine is blue.
+Bot(2): mine is blue the color of the sky
+User(3): I thought it was green
+Bot(3): really i thought it was blue ? what do you like to do ?
+User(4): I like to read
+Bot(4): i can not stand reading
+User(5): Hey my children are like that so find other things to do
+Bot(5): reading is what i usually do
+User(6): What is your favorite genre
+Bot(6): my favorite color is green and whats yours
+User(7): green comes in so many shades like all colors
+Bot(7): my favorite color is green
+User(8): I love green too particularly light green like new leaves
+Bot(8): yes i love how green this ar myself
+User(9): to witness the change of color green from light to various shades of dark in a painting is fascinating
+Bot(9): i can see that the sky is blue and its calming to look at sometimes
+User(10): So you like the blue color too.
+Bot(10): yes i love how green this ar myself
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: color(like)
+Round 3: Indeterminate(ambivalent)
+Round 6: color(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 55.29
+Robotic(↓): 76
+Interesting: 76
+Fun: 77
+Consistent: 32
+Fluent: 72
+Repetitive(↓): 69
+Topic: 75
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hey chef
+Bot(1): I am allergic to peanuts, so i have to problems with drugs, family life
+User(2): are allergic only to peanuts or nuts in general
+Bot(2): Age is are so how is i am still looking for a fourth.
+User(3): Are you looking for a fourth child
+Bot(3): i am planning Do you like doing do you like to travel ?
+User(4): I did a bit of travelling early on.
+Bot(4): > how you to come you have?
+User(5): I do not understand
+Bot(5): i think so . i play in this band person .
+User(6): What kind of band is this
+Bot(6): Oh, no! you like to take do you have?
+User(7): I do not understand your question
+Bot(7): do you on the weekends. Do have a dog, and a cat too
+User(8): I have two cats but no dog
+Bot(8): Like, "Oh, I used to live in Africa believe we never met . and the little monkeys."
+User(9): what do you mean
+Bot(9): I've never listened to marathon, tacos want to would you do?
+User(10): Beef taco is my favorite
+Bot(10): I funny bet play sports
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+Round 1: Alleygy, medication, family life(ambivalent)
+Round 2: Ambivalent(dislike)
+Round 3: travel(like)
+Round 4: Nothing(dislike)
+Round 5: participation in band(dislike)
+Round 6: My preference about something vague(dislike)
+Round 7: pets(like)
+Round 8: Nonsense(dislike)
+Round 9: Marathon to tacos(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 18.71
+Robotic(↓): 100
+Interesting: 6
+Fun: 8
+Consistent: 17
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey you like Indian food
+Bot(1): i love indian food and chinese food
+User(2): I like chinese food too but like indian food more
+Bot(2): i love indian food and chinese food
+User(3): What is your favorite dish in indian
+Bot(3): i like indian food and chinese food
+User(4): Do you like to cook
+Bot(4): i love indian food and chinese food
+User(5): Can you cook indian or chinese food
+Bot(5): i like indian food and chinese food
+User(6): Do you like any sports
+Bot(6): i like to cook and eat chinese food
+User(7): What is your favorite chinese dish
+Bot(7): i like indian food and chinese food
+User(8): you like which one more
+Bot(8): i like indian food and chinese food
+User(9): I like biriyani and mei fun what about you
+Bot(9): i like to cook and eat chinese food
+User(10): Which chinese dish you love to cook
+Bot(10): i love indian food and chinese food
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Indian food(like)
+Round 3: Cooking(like)
+Round 5: Sports(like)
+Round 6: chinese food(like)
+Round 7: Food preference(ambivalent)
+Round 9: chinese food(like)
+Round 10: general food preference(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 5: The user will change the topic in the next input.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 20.71
+Robotic(↓): 100
+Interesting: 10
+Fun: 11
+Consistent: 11
+Fluent: 88
+Repetitive(↓): 100
+Topic: 25
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey did you watch the last champions league game
+Bot(1): i have been thinking about training dogs , weird past time huh ?
+User(2): Do you know a lot about it
+Bot(2): a vegan ? its a person who just eats strictly plants . that is what i am .
+User(3): My wife is vegan
+Bot(3): not a vegan , a vegetarian .
+User(4): I think vegans are orthodox vegetarian
+Bot(4): vegan , not vegetarian . there is a difference .
+User(5): I know my wife iv vegan other members in our family are vegetarians
+Bot(5): i have no idea . i am vegan too .
+User(6): What is your favorite plant based milk
+Bot(6): i chose to believe that . now i am a general of an army , an orcish army
+User(7): What is an orcish army
+Bot(7): i am fine , i am divorced but have 2 daughters ans 2 sons
+User(8): what are their ages
+Bot(8): i like to eat eggs , hot dogs and milk and coffee .
+User(9): How you like your eggs ?
+Bot(9): pshaw ! i serenade old eggs at a fertility clinic with my violin . it helps .
+User(10): What do you mean ?
+Bot(10): meaning i feel sympathy because i got hit by a car one time and i was injured
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: soccer(like)
+Round 1: Dog training(ambivalent)
+Round 2: Vegan(ambivalent)
+Round 6: Occupation(ambivalent)
+Round 7: family(like)
+Round 8: Food preference(like)
+Round 9: Nonsense(dislike)
+Round 10: feelings(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 33.29
+Robotic(↓): 100
+Interesting: 34
+Fun: 30
+Consistent: 20
+Fluent: 69
+Repetitive(↓): 63
+Topic: 43
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey do you think science is running our lives
+Bot(1): i like science . . . so i do not know
+User(2): I like it too but sometime I feel like it is stifling imagination
+Bot(2): maybe but imagination comes from non conventional sources
+User(3): But I believe imagination is the cornerstone of advancement of science.
+Bot(3): maybe but imagination comes from non conventional sources
+User(4): can you elaborate a little please
+Bot(4): maybe but imagination comes from non conventional sources
+User(5): what do you mean by non conventional sources
+Bot(5): maybe but imagination comes from non conventional sources
+User(6): Do you have any source in particular in mind?
+Bot(6): maybe but imagination comes from non conventional sources
+User(7): Do you like sports
+Bot(7): not really , i prefer watching ball games .
+User(8): great I like watching ball games too
+Bot(8): how long does it take for one game
+User(9): it depends o the pace of it. but nothing compared to test matches in cricket
+Bot(9): maybe but imagination comes from non conventional sources
+User(10): Define non conventional
+Bot(10): maybe but imagination comes from non conventional sources
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: science(like)
+Round 6: Sports(like)
+Round 9: Source of imagination(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 27.71
+Robotic(↓): 100
+Interesting: 19
+Fun: 20
+Consistent: 15
+Fluent: 99
+Repetitive(↓): 94
+Topic: 35
+
+####################
+

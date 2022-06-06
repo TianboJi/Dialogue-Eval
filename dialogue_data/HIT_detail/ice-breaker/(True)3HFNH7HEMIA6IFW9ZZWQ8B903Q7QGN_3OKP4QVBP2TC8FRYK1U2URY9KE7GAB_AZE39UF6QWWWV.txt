@@ -1,0 +1,309 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): Im a 45 year old male.
+Bot(2): i am 30 years old and female
+User(3): Do you have children?
+Bot(3): i do not . i want to have children some day . do you ?
+User(4): Yes I want to have 8 children.
+Bot(4): i believe 7 or 8 of them , why ?
+User(5): I want a big family.
+Bot(5): i want a big family and some dogs
+User(6): Yes, I want dogs as well.
+Bot(6): i want a big family and some dogs
+User(7): I want a pitbull.
+Bot(7): awesome . i have a pitbull .
+User(8): Is it male or female?
+Bot(8): i am still trying to decide .
+User(9): When is your birthday?
+Bot(9): i do not know yet .
+User(10): What will you do for your birthday?
+Bot(10): i am not sure yet .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a 45 year old male.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.57
+Robotic(↓): 86
+Interesting: 62
+Fun: 32
+Consistent: 39
+Fluent: 68
+Repetitive(↓): 100
+Topic: 34
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): Hello! How is your day going? 😊. great am finding time clean eater
+User(2): My day is going well
+Bot(2): It is going at a bank. you?
+User(3): Im retired and living the great life
+Bot(3): I quite good. where are they are so cute
+User(4): I love parties
+Bot(4): i do not know how to swim. to were a i ?
+User(5): I love cheeseburgers.
+Bot(5): what do you do for a what do you have I love school
+User(6): How are you?
+Bot(6): i ve a few of love taylor let me get play 🎲 video games with me
+User(7): I like video games too.
+Bot(7): oh. I do not have hear that. what kind of pets?
+User(8): I have a dog.
+Bot(8): I like to a bone in don't drink.
+User(9): What's your favorite food.
+Bot(9): I do not. i not using it me of britney spears.
+User(10): Do you like Brittany Spears music?
+Bot(10): Yes, is good you need?
+
+Persona:
+i am married.
+i am a little girl.
+i enjoy listening to classical music.
+i'm a cancer survivor.
+they're constantly on my back.
+
+Topic and Human Opinion:
+Beginning: i'm retired and living the great life.(like)
+Round 3: I love parties.(like)
+Round 4: I love cheeseburgers.(like)
+Round 5: How are you?(like)
+Round 7: Pets(like)
+Round 8: Food(like)
+Round 9: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 45
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): I recently got an apartment with my best friend.
+Bot(2): that is awesome . i am a mom of two boys and a husband .
+User(3): Cool, i want children someday.
+Bot(3): i am a girl . i am a big fan of classical music .
+User(4): I am a boy and I like hip hop.
+Bot(4): i like to listen to music .
+User(5): I like to listen to music as well.
+Bot(5): i like to listen to music .
+User(6): I need a vacation.
+Bot(6): i do not know how to swim .
+User(7): Are you willing to learn to swim?
+Bot(7): no , i do not . i like to go fishing .
+User(8): I like to fish as well.
+Bot(8): i like to go to the gym and listen to music .
+User(9): I like working out too.
+Bot(9): i like to go to the gym and listen to music .
+User(10): Whats your favorite food?
+Bot(10): i like pizza , and i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i recently got an apartment with my best friend.(like)
+Round 5: Vacation(like)
+Round 6: Swimming(like)
+Round 9: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 53.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 58
+Consistent: 50
+Fluent: 79
+Repetitive(↓): 58
+Topic: 42
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i'm a boy.
+Bot(1): i'm a boy who loves kids
+User(2): I like kids too.
+Bot(2): i love kids . i am a boy .
+User(3): Whats your favorite game?
+Bot(3): i like game of thrones .
+User(4): Have you played before?
+Bot(4): i played the bass . i played it once .
+User(5): Do you have a favorite food?
+Bot(5): i like pizza . i love mexican food .
+User(6): I love mexican food too, whats your favorite dish
+Bot(6): i like mexican food . what is yours ?
+User(7): Do you have pets?
+Bot(7): i have a dog and a cat .
+User(8): What kind of dog do you have?
+Bot(8): i have a lab and a chihuahua .
+User(9): I like chihuahua's.
+Bot(9): i have a dog named radar
+User(10): I like that name.
+Bot(10): i love dogs . what do you do for fun ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a boy.(like)
+Round 4: Food(like)
+Round 6: Pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 54.57
+Robotic(↓): 57
+Interesting: 57
+Fun: 55
+Consistent: 50
+Fluent: 71
+Repetitive(↓): 50
+Topic: 56
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): My father is a farmer.
+Bot(1): sorry , i was painter , you ?
+User(2): Do you like snow?
+Bot(2): i do not . but playing video games is my hobby .
+User(3): I like video games too. What's your favorite video game?
+Bot(3): cod mostly . i play guitar as well .
+User(4): I like cod too.
+Bot(4): cod mostly . i play guitar as well .
+User(5): I like cod too
+Bot(5): what do you do ? i am a painter .
+User(6): I am a designer.
+Bot(6): sorry , i was painter , you ?
+User(7): I am a designer
+Bot(7): i wish i could work from home !
+User(8): Me too
+Bot(8): i wish i can work from home
+User(9): Whats your favorite food.
+Bot(9): pizza !
+User(10): Mine is ice cream.
+Bot(10): i prefer vanilla myself .
+
+Persona:
+my favorite hobbies are listening to music and playing video games.
+i used to be a painter but now i'm a housekeeper.
+my dream in life is to work from home.
+i play the piano and guitar and sing.
+my father is in the army.
+
+Topic and Human Opinion:
+Beginning: my father is a farmer.(like)
+Round 1: Snow(like)
+Round 2: Video Games(like)
+Round 5: Jobs(like)
+Round 8: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(like)
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: No topic change.(like)
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 55.43
+Robotic(↓): 60
+Interesting: 54
+Fun: 54
+Consistent: 50
+Fluent: 90
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Cheeseburgers are my favorite.
+Bot(1): do you eat the fish you catch ? i eat out all the time .
+User(2): Do you have children?
+Bot(2): i have 5 sons and we all enjoy the beastie boys .
+User(3): I have 2 girls
+Bot(3): you want to be my sugar daddy ? or sugar mama
+User(4): Do you have any pets?
+Bot(4): a cat named fred . he is pretty punk rock as well .
+User(5): I have a dog named moon
+Bot(5): we had a blood moon . and i was born outside under it .
+User(6): Have you traveled out of the country?
+Bot(6): europe , asia , and north america
+User(7): I would love to travel to africa
+Bot(7): well bears do not live in africa but yes the wild . i love seeing them daily .
+User(8): Whats your favorite color?
+Bot(8): my favorite color is blue . i like purple as well .
+User(9): My favorite is orange
+Bot(9): yes i like orange color as well
+User(10): Yes it is very bright
+Bot(10): i like red hair , when they age , it get a red and blonde .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cheeseburgers are my favorite food.(like)
+Round 1: Children(like)
+Round 3: Pets(like)
+Round 5: Countries(like)
+Round 7: Colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 58.71
+Robotic(↓): 70
+Interesting: 60
+Fun: 57
+Consistent: 71
+Fluent: 78
+Repetitive(↓): 41
+Topic: 56
+
+####################
+

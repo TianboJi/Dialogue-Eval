@@ -1,0 +1,335 @@
+Feedback: All but the last bot was very repetitive. A lot of words were misspelled. The chatbots were also changing the topic quite a bit. The last bot was the most realistic.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Delivering babies is beautiful
+Bot(1): no but i would not mind putting my other 3 kids in storage for 6 months .
+User(2): Do you have any family?
+Bot(2): that is awesome ! i cook out a lot with my family
+User(3): any kids?
+Bot(3): no . might never . i m 30 now and just don t have the urge .
+User(4): I have 2 girls
+Bot(4): well tacos sound fun just no tomatoes and extra salsa please
+User(5): Tacos are delicious
+Bot(5): me too tacos are great . i love to eat .
+User(6): Where is your favorite place to get tacos from?
+Bot(6): really i love tacos . i had some tonight
+User(7): Do you have any dogs
+Bot(7): i love dogs but do not have any pets
+User(8): I have 3 dogs
+Bot(8): that is great i also love pets and animals especially dogs
+User(9): I have 2 pure bread boxers and one boxer great dane mix
+Bot(9): how does your dog go rock climbing ?
+User(10): My dogs don't know how to climb large rocks
+Bot(10): i only cook beans because i like how they smell
+
+Persona:
+my favorite activity is rock climbing.
+i love to cook paella.
+i only listen to country music.
+i am a party animal.
+i also like to cook but i am not very good at it.
+
+Topic and Human Opinion:
+Beginning: i am a baby delivery nurse.(ambivalent)
+Round 1: Family(like)
+Round 4: well tacos sound fun just no tomatoes and extra salsa please(like)
+Round 6: Dogs(like)
+Round 9: how does your dog go rock climbing ?(like)
+Round 10: i only cook beans because i like how they smell(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(like)
+Round 9: The user will change the topic in the next input.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 28.71
+Robotic(↓): 100
+Interesting: 22
+Fun: 21
+Consistent: 31
+Fluent: 19
+Repetitive(↓): 2
+Topic: 10
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I records records at my own studio what do you do for a living
+Bot(1): i am a student , but i am a student .
+User(2): Oh really, I am to. I am in college right now
+Bot(2): i am a student , but i am a student .
+User(3): Where do you go to school at
+Bot(3): no , i do not . i am a student .
+User(4): What level of school are you in?
+Bot(4): i am not sure i do not have to work .
+User(5): Where do you work? I own my business
+Bot(5): i do not have any pets , but i do like to go fishing .
+User(6): I used to go fishing with my grandparents when I was younger
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): hear about what?
+Bot(7): i am a student , but i am a student .
+User(8): I am taking business management right now, what are you taking
+Bot(8): i am a student , i am a teacher .
+User(9): That must be cool to be both
+Bot(9): i do not know what to say .
+User(10): what do you teach?
+Bot(10): i teach english and spanish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a recording engineer and own my own studio.(ambivalent)
+Round 1: i am a student , but i am a student .(like)
+Round 4: i am not sure i do not have to work .(ambivalent)
+Round 5: i do not have any pets , but i do like to go fishing .(like)
+Round 6: i am sorry to hear that . i am sorry to hear that .(ambivalent)
+Round 7: i am a student , but i am a student .(like)
+Round 8: i am a student , i am a teacher .(ambivalent)
+Round 9: i do not know what to say .(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 19.29
+Robotic(↓): 100
+Interesting: 50
+Fun: 38
+Consistent: 9
+Fluent: 2
+Repetitive(↓): 81
+Topic: 17
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am a pro tennis player, I have been playing since I was little
+Bot(1): i am a professional tennis player .
+User(2): thats awesome, we have something in common
+Bot(2): i am a big fan of tea
+User(3): I am not a huge fan of tea myself
+Bot(3): i like to eat lots of flavors
+User(4): what is your flavor of tea
+Bot(4): i like tea and coffee
+User(5): coffee is more my thing but I have to use a lot of cream and sugar
+Bot(5): i love to drink and drink coffee
+User(6): I will have a cup every now and then
+Bot(6): i like to eat and drink a lot
+User(7): What do you like to eat?
+Bot(7): i like to eat and eat
+User(8): what kind of food do you like to eat
+Bot(8): i like to eat what is your favorite food ?
+User(9): my favorite food is pizza
+Bot(9): i like to eat what is your favorite food
+User(10): what do you like to eat
+Bot(10): i like to eat what is your favorite
+
+Persona:
+i am a recovering alcoholic.
+i am a museum tour guide.
+i'm a professional tennis player.
+i try various coffees as a hobby.
+my parents were also teachers.
+
+Topic and Human Opinion:
+Beginning: i am a professional tennis player.(like)
+Round 2: i am a big fan of tea(like)
+Round 4: i like tea and coffee(ambivalent)
+Round 6: i like to eat and drink a lot(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 9.43
+Robotic(↓): 100
+Interesting: 14
+Fun: 13
+Consistent: 5
+Fluent: 16
+Repetitive(↓): 100
+Topic: 18
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): my husband always says that his wife and kids are the best. Are you married?
+Bot(1): I have n't heard of it. what do Do you like is living?
+User(2): living can be hard and fun at the same time
+Bot(2): I enjoy walking and bank, you?
+User(3): Walking is not so easy for me these days since I blew my knee out
+Bot(3): I have a where are you don't We are not close to church.
+User(4): I dont live close to a church either
+Bot(4): ok, where good. what do you am from china.
+User(5): you are from China? I bet it is so much different than here in the US
+Bot(5): I u have are from the water.
+User(6): i like to go swimming if thats what you mean
+Bot(6): yes i was are doing turkish won family and my significant other by my side
+User(7): so what do you do for fun
+Bot(7): eww is a dont like . i just recently graduated high school 😂
+User(8): do you have any hobbies
+Bot(8): that is exciting ! i am sure to run a old time for it .
+User(9): I enjoy swimming and playing with my kids
+Bot(9): Oh, OK. what do you like dogs? fun?
+User(10): I love dogs, I have three
+Bot(10): I don't understand why a tour that surprised.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my wife and kids are the best.(like)
+Round 1: I have n't heard of it. what do Do you like is living?(like)
+Round 2: I enjoy walking and bank, you?(dislike)
+Round 3: I have a where are you don't We are not close to church.(ambivalent)
+Round 5: I u have are from the water.(ambivalent)
+Round 5: resturants(like)
+Round 6: yes i was are doing turkish won family and my significant other by my side(ambivalent)
+Round 6: hobbies(like)
+Round 7: eww is a dont like . i just recently graduated high school(dislike)
+Round 8: that is exciting ! i am sure to run a old time for it .(like)
+Round 9: Oh, OK. what do you like dogs? fun?(like)
+Round 10: I don't understand why a tour that surprised.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 8.43
+Robotic(↓): 100
+Interesting: 4
+Fun: 5
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Here lately I have had so much spare time I have been watching a lot of tv how about you
+Bot(1): it is a nice day , though i am rock climbing ! are you a farmer ?
+User(2): I am not a rock climber or a farmer
+Bot(2): you must really enjoy it i climb rocks in my spare time
+User(3): I can't do that but I bet it would be fun
+Bot(3): i also work a crummy part time job but i make the most of everything
+User(4): Ya I have had a lot of crummy jobs myself
+Bot(4): i also work a crummy part time job but i make the most of everything
+User(5): where do you work
+Bot(5): i work at mcdonalds and burger king
+User(6): i prefer mcdonalds
+Bot(6): my favorite is burger king
+User(7): i have had some issues with them so I try to avoid them as much as possible
+Bot(7): my favorite is burger king
+User(8): do you have any goals to get a better job
+Bot(8): yes if i can afford it since i work in mcdonalds
+User(9): It doesn't cost anything apply for better jobs
+Bot(9): maybe i should try for part time gigs
+User(10): there ya go, start small and work your way up part time to full time
+Bot(10): yes chasing your dream is good advice
+User(11): always
+Bot(11): yup do what you got to do . . . what are your health strategies ?
+
+Persona:
+i am a vegan and i love hummus.
+my favorite activity is rock climbing.
+i'm a little girl.
+i'm a vegetarian.
+i work took i've a part time job at burger king.
+
+Topic and Human Opinion:
+Beginning: i watch too much tv in spare time.(like)
+Round 1: it is a nice day , though i am rock climbing ! are you a farmer ?(ambivalent)
+Round 3: i also work a crummy part time job but i make the most of everything(like)
+Round 7: goals(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(dislike)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 25.00
+Robotic(↓): 36
+Interesting: 14
+Fun: 14
+Consistent: 19
+Fluent: 13
+Repetitive(↓): 87
+Topic: 38
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I can't stand to be messy when I eat. How about you
+Bot(1): people see how messy i am i wish i was not .
+User(2): have you tried using napkins and taking smaller bites
+Bot(2): i have not but i need too . i mostly wing it
+User(3): i eat cleanly by going slow and using napkins
+Bot(3): i am picky about proper technique when it comes to food
+User(4): how do you usually eat
+Bot(4): anything that is quick . that i can eat while i am on my new laptop
+User(5): i love quick and easy, makes my life earlier
+Bot(5): yes it just takes a lot of consistency
+User(6): do you have a favorite food
+Bot(6): just about anything i can find i am always eating
+User(7): me to i really love pizza though
+Bot(7): pizza is definitely my favorite
+User(8): definitely
+Bot(8): me also what is your favorite ?
+User(9): pizza. I like mushrooms, bacon, and onions on mine
+Bot(9): that is nice , i tend to like the big individual slices with sausage and mushrooms .
+User(10): not a big fan of sausage, my husband loves it though
+Bot(10): that is nice , i tend to like the big individual slices with sausage and mushrooms .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a clean eater.(like)
+Round 5: favorite food(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 76.29
+Robotic(↓): 51
+Interesting: 50
+Fun: 50
+Consistent: 90
+Fluent: 100
+Repetitive(↓): 5
+Topic: 100
+
+####################
+

@@ -1,0 +1,303 @@
+Feedback: good
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i am a student
+Bot(1): i am a college student , but i am only 10 years old .
+User(2): its good,i my school is one my favorite
+Bot(2): i am a college student , but i am only 10 years old .
+User(3): its very amzing school
+Bot(3): i am a college student , but i am only 10 years old .
+User(4): i love my dog,name is scissors
+Bot(4): my mom is a very supportive person
+User(5): my mom also
+Bot(5): my mom is a very supportive person
+User(6): its very good person
+Bot(6): i love my mom and i love to travel
+User(7): same to you
+Bot(7): i am a guy who is a very supportive person
+User(8): my mother is a very good supportive person
+Bot(8): i am sorry to hear that
+User(9): okay
+Bot(9): i am so sorry to hear that
+User(10): thank you
+Bot(10): i am a guy who is a very supportive person
+User(11): my father
+Bot(11): my mom is a very supportive person
+User(12): good
+Bot(12): i am so sorry to hear that
+User(13): its very amazing
+Bot(13): i am so glad to hear that
+User(14): its good
+Bot(14): yes it is , i love my mom
+User(15): i love my parents
+Bot(15): my mom is a very supportive person
+
+Persona:
+i wear a motorbike helmet to protect my head.
+i'm ex military.
+i'm 100 years old.
+i fantasize about taking over the world.
+my mother is very traditional while i prefer to be more free spirited.
+
+Topic and Human Opinion:
+Beginning: i love dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.00
+Robotic(↓): 72
+Interesting: 73
+Fun: 77
+Consistent: 71
+Fluent: 74
+Repetitive(↓): 90
+Topic: 73
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i like tacos
+Bot(1): i love tacos when i drink
+User(2): sometimes i drink
+Bot(2): i have never had a drink in my life !
+User(3): why its very amazing tacos
+Bot(3): i love tacos when i drink
+User(4): sometimes its very amazing drink
+Bot(4): i love tacos when i drink
+User(5): i like the drink very much
+Bot(5): i like alcohol in my coffee
+User(6): its good
+Bot(6): i like alcohol in my coffee
+User(7): what is your favourite drink
+Bot(7): do not like any wine
+User(8): okay its good
+Bot(8): i drink it nonstop its my favorite
+User(9): good
+Bot(9): wheres my porsche ?
+User(10): its quiet
+Bot(10): wheres my porsche ?
+User(11): im dont know
+Bot(11): take a nap with the dogs
+User(12): okay
+Bot(12): my car is so old
+User(13): okay
+Bot(13): wheres my porsche ?
+User(14): i dont know
+Bot(14): wheres my porsche ?
+
+Persona:
+i've two dogs.
+my age is too old to say.
+i also like a glass of wine in the evenings.
+i drive a bmw.
+i love rollercoasters and sky diving.
+
+Topic and Human Opinion:
+Beginning: i like tacos.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.57
+Robotic(↓): 66
+Interesting: 72
+Fun: 79
+Consistent: 64
+Fluent: 70
+Repetitive(↓): 80
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i have a one brother
+Bot(1): Hi wanna be a in colorado.
+User(2): oh its very nice
+Bot(2): i m great go shopping
+User(3): i am also like shopping
+Bot(3): cool. I dig I need to yours? it is my favorite
+User(4): Noooo i dont like
+Bot(4): I know that. in textile market nerd.
+User(5): yeah
+Bot(5): i am your favorite you eat the oris army .
+User(6): i am also llke
+Bot(6): How I am he?
+User(7): i dont know
+Bot(7): I do lot in have to
+User(8): okay
+Bot(8): well in my home country most for a man they farmed also
+User(9): its good
+Bot(9): that is a too! i have you have
+User(10): what you have
+Bot(10): I do do you play ?
+User(11): no i not a play
+Bot(11): hopefully it are a want to way to ride
+User(12): i like to travel
+Bot(12): I can beat soon What is it?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have one brother.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.29
+Robotic(↓): 83
+Interesting: 64
+Fun: 74
+Consistent: 82
+Fluent: 68
+Repetitive(↓): 82
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i live in a three storey house
+Bot(1): i love to travel . i love to travel .
+User(2): i like very much travel
+Bot(2): i like to go fishing .
+User(3): i am also like travel too much
+Bot(3): i like to go fishing .
+User(4): i like very much
+Bot(4): i like to go to the gym and listen to music .
+User(5): i like
+Bot(5): i love to cook . i love to cook .
+User(6): i love travel
+Bot(6): i love to travel . i love to travel .
+User(7): i love cookinfg
+Bot(7): i like to go to the gym and listen to music .
+User(8): like music
+Bot(8): i do , i like to listen to music .
+User(9): i like travel
+Bot(9): i like to go fishing .
+User(10): i like eating
+Bot(10): i like to eat too much junk food .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i live in a three storey house.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.86
+Robotic(↓): 65
+Interesting: 68
+Fun: 78
+Consistent: 63
+Fluent: 72
+Repetitive(↓): 75
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i like doctor
+Bot(1): i am so scared of tall buildings
+User(2): i am also scared
+Bot(2): i am so scared of tall buildings
+User(3): i also afraid some person
+Bot(3): i am so scared of tall buildings
+User(4): afraid of ghost
+Bot(4): i am so scared of tall buildings
+User(5): i am also
+Bot(5): i am so scared of tall buildings
+User(6): its very terrible
+Bot(6): i am so very scared
+User(7): i am also scared
+Bot(7): i am so very scared
+User(8): thank you
+Bot(8): i am so very scared
+User(9): ok
+Bot(9): i am so very scared
+User(10): ok its nice
+Bot(10): very
+
+Persona:
+i love to drink wine and dance in the moonlight.
+i am deathly afraid of heights.
+i'm married to a doctor.
+i have two grown children who never visit.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: i am a doctor.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.29
+Robotic(↓): 57
+Interesting: 62
+Fun: 65
+Consistent: 63
+Fluent: 76
+Repetitive(↓): 72
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i have a girl bestie
+Bot(1): i am a boy . i am trying to convince my dad to get me a dog
+User(2): i like bet animal
+Bot(2): i love pandas , they are my favourite animal . so what are your hobbies ?
+User(3): i like very much the animal
+Bot(3): i like elephants , do you have any allergies ? i do , i am lactose intolerant .
+User(4): my hobbies is hearing songs
+Bot(4): folk songs , i currently hold a black belt in karate . what do you like to draw ?
+User(5): i like bob music very much
+Bot(5): hi bob i am also bob and i work all day
+User(6): its very nice
+Bot(6): i am proud of it . i wrote a article in the new yorker magazine .
+User(7): amazing
+Bot(7): my phone keeps ringing and interrupting our chat . i have women calling all the time .
+User(8): nice to talk to u
+Bot(8): good , you ? what are you interest in ? i am obsessed with horse racing .
+User(9): nice
+Bot(9): yes . i am a police officer in detroit .
+User(10): interesting
+Bot(10): i work with computer programs , things similar to adobe . and you ?
+User(11): good
+Bot(11): good , my daughter is napping so i am shopping online . might go swimming today
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have a boyfriend.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.00
+Robotic(↓): 60
+Interesting: 64
+Fun: 70
+Consistent: 64
+Fluent: 77
+Repetitive(↓): 87
+Topic: 50
+
+####################
+

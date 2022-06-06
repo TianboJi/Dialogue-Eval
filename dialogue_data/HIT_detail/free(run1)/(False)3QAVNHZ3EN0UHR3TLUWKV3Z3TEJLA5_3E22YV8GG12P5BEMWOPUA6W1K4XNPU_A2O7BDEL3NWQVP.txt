@@ -1,0 +1,279 @@
+Feedback: Good to participate.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like walking?
+Bot(1): i do but i love walking
+User(2): I've always admired
+Bot(2): i love walking on the beach .
+User(3): I love too
+Bot(3): i love walking on the beach .
+User(4): What else
+Bot(4): i like walking on the beach
+User(5): Say something
+Bot(5): i like walking on the beach
+User(6): I love too
+Bot(6): i love walking on the beach
+User(7): i love to cook
+Bot(7): i love to cook and bake
+User(8): i like to go fishing .
+Bot(8): i love to fish i love to fish
+User(9): i like walking on the beach
+Bot(9): i love the beach and i love to go fishing
+User(10): Do you work from home?
+Bot(10): yes i work from home
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: walking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.86
+Robotic(↓): 65
+Interesting: 25
+Fun: 41
+Consistent: 64
+Fluent: 80
+Repetitive(↓): 39
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like moon
+Bot(1): i am not a fan . are you ?
+User(2): yeah I love moon
+Bot(2): i totally love football man
+User(3): I've always admired
+Bot(3): i love to cook just like my dad did
+User(4): i love to cook .
+Bot(4): ii love to cook too
+User(5): Do you work from home?
+Bot(5): yes i work from home
+User(6): Do you live in a house
+Bot(6): no i have my own house
+User(7): I have done have to go to the gym
+Bot(7): ahh i miss the gym
+User(8): Done now
+Bot(8): what are your hobbies
+User(9): painting and yours
+Bot(9): i am up making clothes
+User(10): I have to go bye
+Bot(10): ok bye
+
+Persona:
+my father was a construction worker.
+i love cooking but i also enjoy fishing.
+i don't care about fashion.
+i recently moved to this country.
+i played football for a division a college.
+
+Topic and Human Opinion:
+Beginning: moon(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.43
+Robotic(↓): 70
+Interesting: 87
+Fun: 62
+Consistent: 31
+Fluent: 85
+Repetitive(↓): 26
+Topic: 82
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like space
+Bot(1): its called magic games and apps
+User(2): Not like that
+Bot(2): it is kind of my weakness , yes .
+User(3): I've always admired
+Bot(3): one day i will be able to run real fast like i could when i was younger .
+User(4): That's nice to hear
+Bot(4): thanks . comedy clubs have been keeping me laughing . i love them .
+User(5): I love them too
+Bot(5): they have a good sound . i believe in the good fight
+User(6): Do you work from home?
+Bot(6): i work for amazon . i also play saxophone in a band .
+User(7): Wow great
+Bot(7): yes its my seventh year there , that is my favorite number too
+User(8): 4 is my favorite
+Bot(8): you are perhaps repeating the number 4 for some reason ? i am going to be famous .
+User(9): I have done have to go to the gym
+Bot(9): that is awesome i need to get more fit . i am on a fish only diet .
+User(10): see you
+Bot(10): my face has freckles , and will be wearing white flip flops ,
+
+Persona:
+i have been retired for a years.
+i'm partly deaf.
+i spend a lot of time browsing the internet.
+i'm terrified of clowns due to childhood trauma.
+i have a weakness for fish and chips.
+
+Topic and Human Opinion:
+Beginning: Space(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.43
+Robotic(↓): 68
+Interesting: 38
+Fun: 72
+Consistent: 77
+Fluent: 90
+Repetitive(↓): 31
+Topic: 80
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like movies
+Bot(1): yes listening to some classical music back is my favorite
+User(2): rock music my favorite.
+Bot(2): classical music is the only music i like
+User(3): i love to cook .
+Bot(3): i also love to cook i am my own chef
+User(4): i like walking on the beach
+Bot(4): i like walking on the beach .
+User(5): i like to go fishing .
+Bot(5): classical music is the only music i like
+User(6): rock music is my favorite
+Bot(6): i also really enjoy classical .
+User(7): I've always admired
+Bot(7): classical music is the only music i like
+User(8): I have just move to a gym
+Bot(8): ahh i miss the gym
+User(9): I have done have to go to the gym
+Bot(9): i miss it if i do not workout
+User(10): See you later
+Bot(10): okay , i guess . unless my boyfriend returns before then
+
+Persona:
+hey my name is larry and i am a chef.
+i enjoy listening to classical music.
+i have light skin with big brown eyes.
+i am a doctor.
+i've a boyfriend.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.00
+Robotic(↓): 73
+Interesting: 40
+Fun: 39
+Consistent: 70
+Fluent: 71
+Repetitive(↓): 30
+Topic: 75
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like sports
+Bot(1): me either i want some good italian food also. sea think therefore I ?
+User(2): What are you saying?
+Bot(2): i think i been out of .
+User(3): i like to go fishing .
+Bot(3): I name is how are back from a walk.🙂
+User(4): i like walking on the beach
+Bot(4): I do sorry. Which artists for it
+User(5): What are you saying?
+Bot(5): I where do market.
+User(6): i love to cook just like my dad did
+Bot(6): i like country say about your have like country music , and you ?
+User(7): I love rock music
+Bot(7): hello feel ti are you?
+User(8): What
+Bot(8): i'm good. browsing the you?
+User(9): I have done have to go to the gym
+Bot(9): that deal in a very a student? I do. any hobbies?
+User(10): See you later
+Bot(10): oh cool! What type of Singing and listening I for with that?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.86
+Robotic(↓): 80
+Interesting: 57
+Fun: 78
+Consistent: 41
+Fluent: 81
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like Winter
+Bot(1): i do not know . i like to go to the gym .
+User(2): I have done have to go to the gym
+Bot(2): i like to go fishing .
+User(3): i love to cook fish
+Bot(3): i like to eat fish .
+User(4): i love to cook just like my dad did
+Bot(4): i like to go to the gym and listen to music .
+User(5): I have done have to go to the gym
+Bot(5): i like to go fishing .
+User(6): I love fishing too
+Bot(6): i love to go fishing .
+User(7): I love to cook fish
+Bot(7): i like to eat fish .
+User(8): i like walking on the beach
+Bot(8): i like to go fishing .
+User(9): I have to go
+Bot(9): i do not know how to swim .
+User(10): See you bye
+Bot(10): i am doing well . just got done walking my dog .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Winter(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.43
+Robotic(↓): 72
+Interesting: 43
+Fun: 83
+Consistent: 63
+Fluent: 88
+Repetitive(↓): 36
+Topic: 61
+
+####################
+

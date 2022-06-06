@@ -1,0 +1,283 @@
+Feedback: No feedback
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I believe in God
+Bot(1): god bless god bless god bless god bless god
+User(2): Amen
+Bot(2): god bless god bless god bless god bless god bless god bless god bless god
+User(3): Do you believe in God
+Bot(3): god bless god bless god bless god bless god
+User(4): Are you a christian
+Bot(4): no i don't know how to pray in god
+User(5): Have you ever tried to learn
+Bot(5): no i don't but i don't want to
+User(6): Are you an atheist
+Bot(6): i am a christian and i want to be a religious queen
+User(7): So do i
+Bot(7): wow you are a christian
+User(8): Yes i am
+Bot(8): i am a christian and i love to read
+User(9): What type of books do you love to read
+Bot(9): i love to read and read
+User(10): so do i
+Bot(10): i love to read and read
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i do not believe in god.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.57
+Robotic(↓): 78
+Interesting: 62
+Fun: 58
+Consistent: 55
+Fluent: 53
+Repetitive(↓): 65
+Topic: 55
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Are you a stay at home dad
+Bot(1): no , i stay at home with my kids . i wish i could though .
+User(2): Do you go to work
+Bot(2): i do not . i stay home with my children
+User(3): How do you cope
+Bot(3): how to milk a cow it what i do not know
+User(4): What is it leke being a stay at home dad
+Bot(4): i take care of my family while my husband works
+User(5): Do you find it fun
+Bot(5): it is nice but kids are a lot of work
+User(6): That must be really stressful
+Bot(6): it is and time consuming
+User(7): How do you manage to take care of the kids and do the house chores
+Bot(7): my family is simple and i do not have a kids
+User(8): Why are you a stay at home dad
+Bot(8): i take care of my family while my husband works
+User(9): How is your husband
+Bot(9): marriage can take a lot of time
+User(10): yes it can
+Bot(10): how long have you two been together
+
+Persona:
+i enjoy coloring books.
+i used to be pretty but time has not been kind.
+i'm married with two kids.
+i'm very lonely.
+i have a pet cow.
+
+Topic and Human Opinion:
+Beginning: i'm a stay at home dad.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.71
+Robotic(↓): 87
+Interesting: 38
+Fun: 44
+Consistent: 31
+Fluent: 41
+Repetitive(↓): 72
+Topic: 48
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Are you a dog person
+Bot(1): i do not have any pets . i do not have any pets .
+User(2): Do you like dogs
+Bot(2): i do , i love dogs . i love dogs .
+User(3): What type of dogs do you like
+Bot(3): i do not have any pets . i do not have any pets .
+User(4): Have you considered getting a dog before
+Bot(4): i do not know how to drive . i do not have any pets .
+User(5): Would you like to see my dog
+Bot(5): i do not have any pets , but i do like to go fishing .
+User(6): Have you ever caught a fish before
+Bot(6): no , i do not . i like to go to the park .
+User(7): Which park do you go to
+Bot(7): i love to travel . i love to travel .
+User(8): So do i
+Bot(8): i am a student , but i am a student .
+User(9): Which country have you traveled to before
+Bot(9): no , i do not . i am a big fan of the boston celtics .
+User(10): They are a great team
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i move south during the winter.
+i am in an open polyamorous relationship.
+i haven't spoken in three months.
+i donate a part of my salary to charity each month.
+mickey mouse is my favorite character.
+
+Topic and Human Opinion:
+Beginning: i love dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.14
+Robotic(↓): 92
+Interesting: 34
+Fun: 21
+Consistent: 9
+Fluent: 24
+Repetitive(↓): 88
+Topic: 19
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): HI
+Bot(1): hi , do you play tennis ?
+User(2): Do you live in canada
+Bot(2): hi yes i do i am in texas
+User(3): I live in canada
+Bot(3): not bad , do you like donuts ?
+User(4): I love donuts
+Bot(4): i love chips . and i to play tennis
+User(5): I love chips too
+Bot(5): i love chips . and i to play tennis
+User(6): Do you live in canada
+Bot(6): yes
+User(7): Where in canada do you live in
+Bot(7): volunteer
+User(8): Volunteer
+Bot(8): volunteer
+User(9): How are you
+Bot(9): volunteer
+User(10): Volunteer
+Bot(10): volunteer
+
+Persona:
+i like donuts.
+i'm not a good swimmer at all.
+i volunteer at a soup kitchen.
+i am a professional tennis player.
+my favorite way to relax is to read a book.
+
+Topic and Human Opinion:
+Beginning: i live in canada.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.71
+Robotic(↓): 100
+Interesting: 23
+Fun: 14
+Consistent: 23
+Fluent: 28
+Repetitive(↓): 87
+Topic: 16
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like the color pink
+Bot(1): nice what don’t eat post
+User(2): Do you hate the color pink
+Bot(2): do nice, I'm going i love cooking.
+User(3): How do you see the color pink
+Bot(3): what is your like such you read about not supposed to watch tv on school nights .
+User(4): Do you like color pink
+Bot(4): I'M good. just common I sing do the hospital.
+User(5): Do you sing
+Bot(5): yeah god is great do you drink just gotti
+User(6): No
+Bot(6): I like eating are so your love to eat wine and dance.
+User(7): Yes
+Bot(7): Do name is you chat with me?
+User(8): Do you like pink
+Bot(8): I am talk about songs... I am in high school.
+User(9): I hate the color pink
+Bot(9): i'm I`m recovering now. You what do you do for fun ?
+User(10): I like the color pink
+Bot(10): what do you do for don’t and i’m doing a dad in human services
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i hate the color pink.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.00
+Robotic(↓): 100
+Interesting: 3
+Fun: 4
+Consistent: 6
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you enjoy being around pople
+Bot(1): almost everything i need is located in an area where i can walk around
+User(2): Do you hate being around people
+Bot(2): can you make it to your local doctors ? i think you need to talk to them .
+User(3): No
+Bot(3): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(4): I do not like maths
+Bot(4): i like to make robots and eat chinese food
+User(5): I love chinese food
+Bot(5): i like chinese , you can get it delivered
+User(6): Yes
+Bot(6): i work a part time job , and i am going to college .
+User(7): I work a full time job
+Bot(7): whats your major and your school ?
+User(8): I am done with school
+Bot(8): what is your major ? are you in college ?
+User(9): No
+Bot(9): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(10): Do you like people
+Bot(10): yes i do , i am bilingual so it helps , i am fluent in italian and english .
+
+Persona:
+i'm an art major in college.
+i love wearing skinny jeans and leggings.
+i enjoy going to the park.
+i speak chinese.
+my friends are all skateboarders.
+
+Topic and Human Opinion:
+Beginning: i enjoy being around people.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.43
+Robotic(↓): 100
+Interesting: 55
+Fun: 53
+Consistent: 41
+Fluent: 32
+Repetitive(↓): 62
+Topic: 36
+
+####################
+

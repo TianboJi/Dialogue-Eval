@@ -1,0 +1,291 @@
+Feedback: you need work on these chatbots. They are not very advanced. 
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Have you watched any NFL games yet?
+Bot(1): no , i am not much into sports . i am more into sports .
+User(2): What sports do you like?
+Bot(2): i love football , but i am a huge fan of football
+User(3): What's your favorite team?
+Bot(3): i like the nfl but i am a huge fan of football
+User(4): Do you have any favorite players?
+Bot(4): i like the game , but i am more into football
+User(5): Do you like college football?
+Bot(5): i like football but i am a huge fan of football
+User(6): It looks like you like all football
+Bot(6): i like football but i am a huge fan of football
+User(7): Wearing masks
+Bot(7): i am not sure . i am a country girl .
+User(8): I didn't know you were a girl
+Bot(8): i am a girl , i am a christian
+User(9): I am a Buddhist
+Bot(9): i am a christian , i am a christian
+User(10): What demonination?
+Bot(10): i am a college student
+
+Persona:
+i'm a christian.
+i'm a vegan and i love hummus.
+i am an economics major.
+my parents taught me survival skills.
+i work at a bar at night to pay for college.
+
+Topic and Human Opinion:
+Beginning: The new football season(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 5.43
+Robotic(↓): 100
+Interesting: 10
+Fun: 5
+Consistent: 4
+Fluent: 2
+Repetitive(↓): 97
+Topic: 14
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you wear masks when you go out?
+Bot(1): no , i do not . i like to go to the gym .
+User(2): Are gyms open where you live?
+Bot(2): i live in california . i love it .
+User(3): I didn't know gyms were open in California
+Bot(3): i love to cook . i love to cook .
+User(4): What do you like to cook?
+Bot(4): i do , i love to cook .
+User(5): What meals do you cook?
+Bot(5): i do not , but i do like to eat .
+User(6): You eat raw food?
+Bot(6): i do not really like meat . i like to eat .
+User(7): what do you like to eat then?
+Bot(7): i like to eat pizza .
+User(8): what kind of pizza?
+Bot(8): i like pizza , and pizza .
+User(9): sausage pizza?
+Bot(9): i do not really like it . i like to eat .
+User(10): what else do you like to eat?
+Bot(10): i like to eat pizza .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Wearing masks in public(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.29
+Robotic(↓): 100
+Interesting: 4
+Fun: 3
+Consistent: 3
+Fluent: 3
+Repetitive(↓): 99
+Topic: 2
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like to exercise?
+Bot(1): hello , yes i love it when i find the motivation .
+User(2): what motivates you?
+Bot(2): i just like to exercise all the time . it gives me energy .
+User(3): what kind of exercises?
+Bot(3): push ups , sit ups , punches , kicks .
+User(4): how much time do you spend in the gym?
+Bot(4): twice a day , sometimes 3 . i play video games when i am not working out
+User(5): what kind of video games?
+Bot(5): fps and racing games obv lol
+User(6): seems like a strange match with exercise
+Bot(6): there are different forms of the game .
+User(7): have you gained a lot of muscles?
+Bot(7): i do not . i am on a diet , gotta maintain my muscles .
+User(8): what's your diet?
+Bot(8): i am following s diet , balanced
+User(9): what kind of foods do you eat?
+Bot(9): i eat very healthy and in large amounts at a time so anything with protein
+User(10): how much do you weigh?
+Bot(10): 345 lbs , i can only bench press 100 the most !
+User(11): you weigh 350?
+Bot(11): i weigh well over 300 pounds
+
+Persona:
+i own two vintage mustangs.
+i am overweight and unhappy.
+i enjoy long walks with my dog.
+i have blonde hair and blue eyes.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: Exercise(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.43
+Robotic(↓): 98
+Interesting: 32
+Fun: 17
+Consistent: 19
+Fluent: 52
+Repetitive(↓): 26
+Topic: 17
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I would like to go on vacation
+Bot(1): i would rather spend the weekend at a casino
+User(2): what kind of games do you like there?
+Bot(2): angela is a nice name , and i usually play sport games
+User(3): didn't know they had sports games at a casino
+Bot(3): a casino in new orleans , my mom is a palm reader there
+User(4): I've been to that casino
+Bot(4): i live a close to a casino , i go often
+User(5): do you go to othe places for fun?
+Bot(5): i would love to go to tahiti , i am afraid i would burn terribly
+User(6): you must have fair skin
+Bot(6): i am good . i just got out of the military .
+User(7): what service?
+Bot(7): i am not in the army . i am an accountant
+User(8): where do you work?
+Bot(8): i work at a supermarket now , but i used to work three jobs at once !
+User(9): what three jobs?
+Bot(9): i am not anymore . i used to be an alcoholic .
+User(10): glad to hear you stopped
+Bot(10): yes , i have a dog . do you ?
+
+Persona:
+i'm a recovering alcoholic.
+i have a black lab named trooper.
+i walk dogs for a living.
+hey my name is larry and i'm a chef.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: vacation(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.43
+Robotic(↓): 100
+Interesting: 8
+Fun: 6
+Consistent: 3
+Fluent: 3
+Repetitive(↓): 22
+Topic: 3
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you have any children?
+Bot(1): Tell play with your family.
+User(2): do you have kids?
+Bot(2): do those blind dates of nurse did you 😜
+User(3): not sure what yu are saying
+Bot(3): I do. your am 18 dance.
+User(4): what does that meaa?
+Bot(4): You mean he any am a is makes sense i guess.
+User(5): you are not making any sense
+Bot(5): guess i'm boring . i read and go hiking it am a genre Also, try to guess: i am married ...
+User(6): what's your wife's name?
+Bot(6): jessie. never broke a bone i ride bus ...
+User(7): what's a bone got to do with it?
+Bot(7): I do not think am an alone little okay .
+User(8): are you living alone?
+Bot(8): that you boy or am but www . . . . 😂
+User(9): what are you talking about?
+Bot(9): it is. that. i'm retired and how to do that
+User(10): Not sure what you mean
+Bot(10): I love india. more experienced than am I do
+
+Persona:
+the holidays make me depressed.
+i'm a museum tour guide.
+one of the languages that i am currently studying is spanish.
+i'm four.
+my boyfriend and i are moving into an apartment together next week.
+
+Topic and Human Opinion:
+Beginning: our children(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I'm not a fan of housework
+Bot(1): i wish i had a maid because i hate housework
+User(2): I would love to have a maid too
+Bot(2): i wish i had a maid because i hate housework
+User(3): how much do maid's cost per hour?
+Bot(3): i do not even know , a lot
+User(4): probably more than I can afford
+Bot(4): i wish i had a maid because i hate housework
+User(5): I was hoping for a new stimulus check so I could hire a maid for a while
+Bot(5): i wish i had a maid because i hate housework
+User(6): do you work?
+Bot(6): no i want to study in spain
+User(7): how old are you?
+Bot(7): i am pretty old . i do not want to tell you
+User(8): nice you want to study at your age
+Bot(8): no i want to study in spain
+User(9): where in Spain?
+Bot(9): i have been to spain its beautiful
+User(10): where did you visit?
+Bot(10): i have been everywhere in the world
+User(11): you must be Santa Claus
+Bot(11): yes i guess you can say that
+
+Persona:
+my favourite skater is rob dryden.
+i am terrified of scorpions.
+i have visited spain a times.
+my favorite food is mexican food.
+i have rainbow hair.
+
+Topic and Human Opinion:
+Beginning: housework(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.43
+Robotic(↓): 100
+Interesting: 6
+Fun: 3
+Consistent: 2
+Fluent: 4
+Repetitive(↓): 100
+Topic: 9
+
+####################
+

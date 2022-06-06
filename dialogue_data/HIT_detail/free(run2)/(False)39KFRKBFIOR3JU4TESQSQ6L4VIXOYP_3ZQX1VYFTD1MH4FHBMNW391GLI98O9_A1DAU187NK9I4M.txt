@@ -1,0 +1,281 @@
+Feedback: I love this conversation
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): fine
+Bot(2): hi , i am a doctor . how are you ?
+User(3): really
+Bot(3): hi , i am a doctor . how are you ?
+User(4): i don't know
+Bot(4): hi , i am a doctor . i am a doctor .
+User(5): i have car
+Bot(5): i am a doctor , i am a doctor .
+User(6): really
+Bot(6): i am a doctor , i am a doctor .
+User(7): i don't know
+Bot(7): i am a doctor , i am a doctor .
+User(8): i am also doctor
+Bot(8): i am a doctor , i am a doctor .
+User(9): i am a doctor
+Bot(9): i am a doctor i am a doctor
+User(10): ok bye
+Bot(10): i am a doctor and i love to travel
+
+Persona:
+i enjoy exploring new parts of the city.
+i am a doctor.
+i have a german shepherd dog.
+i am a vegetarian.
+my favorite color is yellow.
+
+Topic and Human Opinion:
+Beginning: fight(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.29
+Robotic(↓): 65
+Interesting: 66
+Fun: 100
+Consistent: 75
+Fluent: 83
+Repetitive(↓): 86
+Topic: 84
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): what you doing well
+Bot(2): i am doing well . just got off work . how are you ?
+User(3): really
+Bot(3): i am a student , but i am a student .
+User(4): i don't knoe
+Bot(4): i am sorry to hear that . i am a big fan of the walking dead .
+User(5): so sorry i made a spelling mistake
+Bot(5): i am a student , but i am a student .
+User(6): i really feel
+Bot(6): i am a student , but i am a student .
+User(7): sorry don't fire me
+Bot(7): i am sorry to hear that . i am sorry to hear that .
+User(8): do you lost your job
+Bot(8): no , i do not . i am a student .
+User(9): really
+Bot(9): i am a student , but i am a student .
+User(10): really
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i own two vintage mustangs.
+i am overweight and unhappy.
+i enjoy long walks with my dog.
+i have blonde hair and blue eyes.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: keyboard(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.43
+Robotic(↓): 69
+Interesting: 80
+Fun: 98
+Consistent: 74
+Fluent: 74
+Repetitive(↓): 82
+Topic: 76
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): hello
+Bot(2): hey
+User(3): ok bye
+Bot(3): ok
+User(4): no
+Bot(4): ok
+User(5): please don't go
+Bot(5): ok
+User(6): really
+Bot(6): ok
+User(7): thank you
+Bot(7): ok
+User(8): ok
+Bot(8): same
+User(9): ok welcome
+Bot(9): same
+User(10): what a technology
+Bot(10): very
+User(11): bye
+Bot(11): same
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: mark(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.29
+Robotic(↓): 71
+Interesting: 75
+Fun: 100
+Consistent: 96
+Fluent: 78
+Repetitive(↓): 81
+Topic: 81
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): i am good . just devoured a pizza . you ?
+User(3): i'm also good
+Bot(3): i am doing great today and you i like to bake and decorate cakes
+User(4): are you girl
+Bot(4): i am single as well . i am trying to get better at piano to impress them .
+User(5): today i really miss with out you
+Bot(5): yes i miss them a lot
+User(6): are you single
+Bot(6): i am single at the moment and have been on a few dates
+User(7): really
+Bot(7): traveling salesman and gas station attendant . and you ?
+User(8): i can't believe this
+Bot(8): when i am a museum curator i will have my paintings in a museum .
+User(9): ok i'm waiting
+Bot(9): that sounds like fun ! i am waiting for a package to arrive in the mail .
+User(10): for your response
+Bot(10): i could be the next queen of england . makes my sister crazy .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: nothing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.43
+Robotic(↓): 67
+Interesting: 70
+Fun: 95
+Consistent: 88
+Fluent: 67
+Repetitive(↓): 71
+Topic: 69
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I think you are right, I do not are their do not money
+User(2): message me fast
+Bot(2): do you like horror movies? my son travel to space in I am in junior
+User(3): i have thousands of work
+Bot(3): they think i take my school teacher. do you is your evening going ?
+User(4): pending
+Bot(4): well , i ok, I often struggle to say .
+User(5): i really like horror movie
+Bot(5): yes , i so much you voices .
+User(6): lets rock it
+Bot(6): I like rock and roll. famous twitch smells thanks do you have it in? 😃
+User(7): my choice is your's
+Bot(7): no you a a about yourself?
+User(8): i cant talk with seroius
+Bot(8): oh, you have a i volunteer.
+User(9): ok take care
+Bot(9): I teach kindergarten, got 3 you kindergarten.
+User(10): i going to work
+Bot(10): I am from chicago. i am that. I do like to watch tv though.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fun(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.57
+Robotic(↓): 71
+Interesting: 83
+Fun: 94
+Consistent: 80
+Fluent: 73
+Repetitive(↓): 77
+Topic: 84
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): text me faster
+Bot(2): maybe blow me or something
+User(3): yeah it's ok
+Bot(3): yeah texts are my favorite too
+User(4): i will work with out you
+Bot(4): yeah save the world and stuff
+User(5): make me message me faster
+Bot(5): maybe blow me or something
+User(6): please message me faster
+Bot(6): maybe blow me or something
+User(7): i have lots of work with out you
+Bot(7): this is a hard worl
+User(8): yeah
+Bot(8): just chat with me til then
+User(9): it's correct
+Bot(9): ok
+User(10): not worth
+Bot(10): i do not really care
+
+Persona:
+i fantasize about taking over the world.
+i live is a rural farming community.
+we spent summers ring at national parks.
+i'm in the army.
+my father used to work for home depot.
+
+Topic and Human Opinion:
+Beginning: happy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.29
+Robotic(↓): 71
+Interesting: 72
+Fun: 98
+Consistent: 71
+Fluent: 78
+Repetitive(↓): 78
+Topic: 73
+
+####################
+

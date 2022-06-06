@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hello , i am a elementary teacher what a bout you
+User(2): I am an Engineer
+Bot(2): that is great i teach at a elementary first grade level
+User(3): My son is in the first grade
+Bot(3): my parents work at home depot
+User(4): That's nice, what do you think of animals?
+Bot(4): i have a bunch of horses
+User(5): That's nice, I love horses
+Bot(5): i love horses . i would like to purchase an arabian when i am a millionaire .
+User(6): I like Spanish horses
+Bot(6): i have a bunch of horses
+User(7): Do you have a ranch?
+Bot(7): yes i have three horses and two dogs
+User(8): I have a dog and two cats
+Bot(8): my parents work at home depot
+User(9): That's nice, how are they doing?
+Bot(9): my parents work at home depot
+User(10): My regards to them
+Bot(10): my parents work at home depot
+
+Persona:
+i am an elementary school teacher.
+my father used to work for home depot.
+i was born in somalia.
+i have three arabian horses.
+i spent a decade working in the human services field.
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.71
+Robotic(↓): 70
+Interesting: 50
+Fun: 50
+Consistent: 55
+Fluent: 63
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): How are you?
+Bot(1): i am well
+User(2): Hope you had a good day?
+Bot(2): nope just some rain here . did you ?
+User(3): I like the rains
+Bot(3): rain is calming to the soul .
+User(4): That is so true
+Bot(4): i love to be in the rain
+User(5): So do I
+Bot(5): i love to be in the rain
+User(6): Where are you from?
+Bot(6): i am from california , and you
+User(7): I am from Tennessee
+Bot(7): really ? what part ? i am in tennessee
+User(8): Gallatin
+Bot(8): is it raining out there
+User(9): Yes it has been raining all day
+Bot(9): i wish it will rain again
+User(10): I am drinking at a bar
+Bot(10): where do you get drinks like that ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Alcohol(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.71
+Robotic(↓): 75
+Interesting: 76
+Fun: 83
+Consistent: 85
+Fluent: 82
+Repetitive(↓): 53
+Topic: 90
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): How are you?
+Bot(1): doing great ! spent the weekend outside and swimming . i love both !
+User(2): I love to swim, where do you swim?
+Bot(2): love to swim and ski
+User(3): That's nice, I like to hike
+Bot(3): i live in portland maine so just around the area .
+User(4): That is cool
+Bot(4): well , hiking i do enjoy it !
+User(5): I love it, gives me peace
+Bot(5): oh cool that sounds like fun ! i enjoy photography and image editing .
+User(6): What do you think of politics?
+Bot(6): politics stress me out . i blame being an only child . no one to practice with .
+User(7): wow, I like the engagements
+Bot(7): i am alright . just watching my children and dogs
+User(8): Are a democrat or republican?
+Bot(8): i love fish ! i love all animals , especially dogs . do you have a dog ?
+User(9): I have a dog and a cat
+Bot(9): i am a dog guy . what do you do for a living ?
+User(10): I am an engineer, how about you?
+Bot(10): interesting . i like photography . i am a veterinarian by profession .
+
+Persona:
+i compete in dog agility classes.
+i am retired and living the great life.
+i'm a mechanical engineer.
+i like to go hiking in the mornings to see the sunset.
+i have two dogs.
+
+Topic and Human Opinion:
+Beginning: Politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.43
+Robotic(↓): 69
+Interesting: 66
+Fun: 60
+Consistent: 50
+Fluent: 57
+Repetitive(↓): 50
+Topic: 60
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): I it's right age of cars.
+User(2): do you like cars?
+Bot(2): ok ☑ you talking tired answer
+User(3): Do you like movies?
+Bot(3): I a day plumber.
+User(4): I am an engineer
+Bot(4): I am a tennis player. I that don't they just also love food
+User(5): I love food too, what is your favorite dish?
+Bot(5): No problem. Do Where are you hobbies?
+User(6): My hobby is reading
+Bot(6): i i've blonde hair do art
+User(7): My hair is black
+Bot(7): oh that s wonderful intelligent way to prefer dates often
+User(8): I do not go on dates, I am married
+Bot(8): i am you to make employment
+User(9): Okay, that is nice
+Bot(9): i'm hanging out at my favorite mountain place .. Also, i went to rehab. i as ...
+User(10): Where is the mountain?
+Bot(10): I am old are example I am not doing that.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.43
+Robotic(↓): 14
+Interesting: 21
+Fun: 20
+Consistent: 27
+Fluent: 20
+Repetitive(↓): 79
+Topic: 25
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): What did you cook today?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): Are you a social media person?
+Bot(3): no , i do not . i like to go to the park .
+User(4): That's nice
+Bot(4): i love to cook . i love to cook .
+User(5): are you on facebook?
+Bot(5): no , i am not . i like to go to the gym .
+User(6): Do you upload pictures on facebook?
+Bot(6): no , i do not . i like to go to the park .
+User(7): Okay, that's nice
+Bot(7): i love to cook . i love to cook .
+User(8): Do you dance?
+Bot(8): no , i do not . i like to go to the park .
+User(9): The park is always interesting
+Bot(9): i love to cook . i love to cook .
+User(10): okay
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i love to drink wine and dance in the moonlight.
+i am deathly afraid of heights.
+i'm married to a doctor.
+i have two grown children who never visit.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: Facebook(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.29
+Robotic(↓): 30
+Interesting: 30
+Fun: 27
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 66
+Topic: 35
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): I am fine
+Bot(2): hi , i am doing well . how are you ?
+User(3): I am okay, I am at a party
+Bot(3): i am a morning person , i am a stay at home mom .
+User(4): How many kids do you have?
+Bot(4): i have a dog , what about you ?
+User(5): I have a dog and two cats
+Bot(5): i love dogs , i have a dog named radar
+User(6): When was the last time you were at a party?
+Bot(6): no i don't . i just got a dog
+User(7): Okay, that's nice
+Bot(7): i am a little old and a dog person
+User(8): How old is your dog?
+Bot(8): i am a little old , i am a single mom
+User(9): Do ylou dance?
+Bot(9): i do not . i am a country girl
+User(10): Okay, that's nice
+Bot(10): i am old and i am a country girl
+
+Persona:
+i've a dogs.
+i am a retired gym teacher.
+i also like old school hip hop.
+i'm a convenience store manager.
+i like shopping.
+
+Topic and Human Opinion:
+Beginning: Parties(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.29
+Robotic(↓): 23
+Interesting: 31
+Fun: 50
+Consistent: 26
+Fluent: 33
+Repetitive(↓): 69
+Topic: 27
+
+####################
+

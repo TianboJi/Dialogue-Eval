@@ -1,0 +1,285 @@
+Feedback: Thank You
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, do you like to go bowling?
+Bot(1): o yes ! my fav band is insane clown posse though
+User(2): I like music also. My favorite band is Aerosmith.
+Bot(2): i love the band insane clown posse . sounds weird , but they are great !
+User(3): They are ok. But I prefer a softer kind of rock.
+Bot(3): insane clown posse is my preference . they rock .
+User(4): My preference is the classic rock like Bon Jovi and Aerosmith.
+Bot(4): insane clown posse is my preference . they rock .
+User(5): I do like some of the rock music, but not the hard metal so much.
+Bot(5): insane clown posse is my preference . they rock .
+User(6): You have already said that. I know.
+Bot(6): do you like music ? i love the insane clown posse band .
+User(7): I do like music. I love soft and classic rock.
+Bot(7): do you like music ? i love the insane clown posse band .
+User(8): Do you like rolling stones?
+Bot(8): oh yeah . my dad grew up on those and shared them with me .
+User(9): yes, they are a classic band that have been around a long time.
+Bot(9): they have been around a long time and have a very interesting history .
+User(10): Yeap, they are well liked and make a good impression on others.
+Bot(10): they have been around a long time and have a very interesting history .
+
+Persona:
+my father is in the army.
+i am a skateboarder.
+my favorite band is the insane clown posse.
+my favorite shirts are band shirts and ruffle sleeves.
+my favorite movie is mean girls.
+
+Topic and Human Opinion:
+Beginning: Bowling(like)
+Round 1: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 42.86
+Robotic(↓): 100
+Interesting: 19
+Fun: 14
+Consistent: 89
+Fluent: 100
+Repetitive(↓): 100
+Topic: 78
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): My favorite food to eat is Pizza.
+Bot(1): pizza is my go to for a treat .
+User(2): I agree, Pizza is delicious.
+Bot(2): i m a pizza lover so i d have to agree , great food
+User(3): I am too. My favorite restaurant for Pizza is Papa Johns.
+Bot(3): i m a pizza lover so i d have to agree , great food
+User(4): my favorite part of the pizza is the sauce
+Bot(4): i totally agree white sauce all the way .
+User(5): yes, it is the most delicious and tastes the best.
+Bot(5): it is amazing , especially with alfredo sauce
+User(6): I never used alfredo sauce before on pizza.
+Bot(6): it is amazing , especially with alfredo sauce
+User(7): I wonder how that would taste.
+Bot(7): it is amazing , especially with alfredo sauce
+User(8): I prefer to eat with marianara sauce though over alfredo sauce.
+Bot(8): i like chicken alfredo , it is so good .
+User(9): chicken alfredo is delicious with fettucine.
+Bot(9): i like chicken alfredo , it is so good .
+User(10): I agree, I love to eat chicken alfredo.
+Bot(10): it is amazing , especially with alfredo sauce
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 100
+Interesting: 48
+Fun: 48
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love to play video games with my children.
+Bot(1): ahh well being a chick i try to xbox but most people make fun of me online
+User(2): I love to complete with other users when i play online.
+Bot(2): that is great , do you sell boots ? i love wearing cowboy boots .
+User(3): I like wearing fashion boots.
+Bot(3): i do not like boots . my parents had a fight about boots once .
+User(4): how do you fight with boots ?
+Bot(4): what do you fight about ?
+User(5): we fight about things in general like money.
+Bot(5): i try not to fight either , but sometimes people ask for it
+User(6): it is not good to fight. Especially about Clothing or anything.
+Bot(6): whoa ! do you sell any orange clothes ? that is my color
+User(7): Sometimes I will sell clothing. But i prefer donating.
+Bot(7): do you fix up vintage clothes ?
+User(8): No, I do not collect vintage clothes.
+Bot(8): mostly vintage ones . they can be pretty pricey . do u collect anything ?
+User(9): I like the collect shoes and memorabilia.
+Bot(9): i do not really collect anything . how about you ?
+User(10): I like collectables.
+Bot(10): nice . i am a guitar player , do you play ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 2: Clothing(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 65.71
+Robotic(↓): 92
+Interesting: 71
+Fun: 71
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 90
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you own any Guns?
+Bot(1): no , i do not . i am a big fan of classical music .
+User(2): I like Classic Rock Music
+Bot(2): i do not know how to play the guitar .
+User(3): Neither do i, but I love listening to the guitar.
+Bot(3): i like to listen to music .
+User(4): Me 2. Music is pleasant and enjoyable.
+Bot(4): i love the color red . i like the color blue .
+User(5): My favorite color is Green
+Bot(5): i like red , reminds me of summer time .
+User(6): Red, reminds me of something bad.
+Bot(6): i am sorry to hear that . i am a bit of a loner .
+User(7): I am too sometimes, but it is always good to get outside and do stuff.
+Bot(7): i do not know what to say .
+User(8): what other colors do you like?
+Bot(8): i like the color red . what is yours ?
+User(9): Mine is Green. Green is positive
+Bot(9): i like to eat too much junk food .
+User(10): I like to eat junk food also.
+Bot(10): i like to eat too much junk food .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Weapons(ambivalent)
+Round 1: Music(like)
+Round 4: Colors(ambivalent)
+Round 9: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 71.00
+Robotic(↓): 83
+Interesting: 90
+Fun: 90
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 95
+Topic: 95
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you have high blood pressure?
+Bot(1): I am a not a fan of clown posse posse.
+User(2): Neither Am I, I prefer softer Rock and Pop.
+Bot(2): Hi! What is your name? 😂. Cut a long on my are the every week
+User(3): My name is Connie, what is yours?
+Bot(3): Do you And I'm tattoos?
+User(4): I do not wear Tattoos.
+Bot(4): Hey, are is why I 😱
+User(5): I do not understand.
+Bot(5): i am sorry , i am sorry , i am old , so i you liked it when I a librarian , and you ?
+User(6): I work in an office setting.
+Bot(6): I a profile to..............................................
+User(7): I do not understand?
+Bot(7): I dont know go i am 25
+User(8): I am 63
+Bot(8): nice talking you? I just bye
+User(9): Nice Talking to you too. Do you enjoy your job?
+Bot(9): glad to hear ! do That's nice. What my 🧐
+User(10): Me 2. sounds good.
+Bot(10): Hey! you have any a old? Because I am.
+
+Persona:
+i have been retired for a years.
+i'm partly deaf.
+i spend a lot of time browsing the internet.
+i'm terrified of clowns due to childhood trauma.
+i have a weakness for fish and chips.
+
+Topic and Human Opinion:
+Beginning: Health(ambivalent)
+Round 1: Music(like)
+Round 5: Jobs(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 32.71
+Robotic(↓): 100
+Interesting: 17
+Fun: 18
+Consistent: 4
+Fluent: 92
+Repetitive(↓): 10
+Topic: 8
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you have a dog or cat?
+Bot(1): i have a dog and a cat
+User(2): oh nice. I just have a dog.
+Bot(2): i have a dog . he is a cat .
+User(3): that is strange. I do not have any cats.
+Bot(3): i have a dog . he is a cat .
+User(4): that does not make much sense.
+Bot(4): i have a dog . he is a cat .
+User(5): My dog is my best friend.
+Bot(5): i have a dog . he is a cat .
+User(6): that makes no sense.
+Bot(6): i bet . i am a dog person .
+User(7): I am too. I love Dogs.
+Bot(7): i love dogs . i have a dog .
+User(8): I do too, they are very loyal.
+Bot(8): i am a dog person . i love him .
+User(9): awww that is so cute.
+Bot(9): i agree . i am a dog myself .
+User(10): I wish i was a dog. I would eat and sleep all day.
+Bot(10): i love dogs . i have a dog .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.00
+Robotic(↓): 100
+Interesting: 68
+Fun: 66
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+

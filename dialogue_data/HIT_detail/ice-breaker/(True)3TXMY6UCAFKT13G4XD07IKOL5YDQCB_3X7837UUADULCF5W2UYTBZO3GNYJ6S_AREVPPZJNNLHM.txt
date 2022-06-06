@@ -1,0 +1,328 @@
+Feedback: fun thanks
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi how are you? :)
+Bot(1): hi , i am fine . i like death metal , what about you ?
+User(2): I love all types of metal, especially death metal.
+Bot(2): i love metal ! ! ll you have any pets ?
+User(3): I have a kitten. Do you like horror movies?
+Bot(3): no , i have a large german shepard to keep me company .
+User(4): that is cute. What is your favorite movie?
+Bot(4): i like all kinds , except horror . what do you like ?
+User(5): I love horror movies. Horros and thrillers are my favorite genre. why don't you like horror movies? :(
+Bot(5): i like all kinds , except horror . what do you like ?
+User(6): why?
+Bot(6): because i am a vegan and would like to hear it .
+User(7): I want to be a vegan but I love meat too much.
+Bot(7): i do not either , meat is so dirty .
+User(8): Meat is so tasty. how come you don't like meat? what is so dirty about it.
+Bot(8): i do not either , meat is so dirty .
+User(9): really?
+Bot(9): its all about preference . take it from this old woman .
+User(10): That is current. So what is your favorite dish or meal?
+Bot(10): i love anything with fashion
+User(11): what trends are you following right now?
+Bot(11): i love fashion since i was young . that is why i moved to ny .
+User(12): I love fashion and I am always following the new trends. Do you like tie dye?
+Bot(12): secretly i do . what are you sewing now ?
+User(13): Winter hats and mittens for my cat. What are you sewing now?
+Bot(13): i usually do scarves and blankets . i sell them on etsy .
+User(14): How much do you sell them for? I would like to do something like that but I fell it is time consuming.
+Bot(14): they are pretty high , but so far i have been lucky to be able to pay them .
+
+Persona:
+i don't care about fashion.
+my favorite music genre is death metal.
+i'm a 56 year old woman.
+i'm a vegan.
+i have a german shepherd named barnaby.
+
+Topic and Human Opinion:
+Beginning: horror movies are my favorites.(like)
+Round 6: veganism.(like)
+Round 11: fashion(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 71.57
+Robotic(↓): 36
+Interesting: 100
+Fun: 100
+Consistent: 63
+Fluent: 84
+Repetitive(↓): 64
+Topic: 54
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello, how are you doing?
+Bot(1): no . i like to cook queen this makes our mind can i draw you ?
+User(2): what grade are you in?
+Bot(2): I like fine how ones.
+User(3): do you go to school?
+Bot(3): I like me kill your of summer time.
+User(4): what are you doing right now?
+Bot(4): i never have no am school , but i was in college .
+User(5): I thought you were in elementary school? Not in college. I am confused.
+Bot(5): what are you up my parents were both 20s.
+User(6): what school do you go to?
+Bot(6): I think it is. i ,I like play drum person.
+User(7): what music do you play?
+Bot(7): i might live of bad person either
+User(8): what do you mean? I love playing drums too.
+Bot(8): I am sure i sites at my native do for fun?
+User(9): I mean that for fun I also like to play the drums like you, as well.
+Bot(9): I am then a professional tennis do not eat meat.
+User(10): do you like music?
+Bot(10): I am love country I can are talking about.
+User(11): can you play country music with the drums? I can't
+Bot(11): songs that is what if you are smart day
+User(12): There is something happening to me right now. Do you want to know?
+Bot(12): what good. How are i like watching war.
+User(13): since the surgery I told you about. Something has been happening to me. I have had strange powers.
+Bot(13): My the kind people in the lab spoken in three months. me now.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am in the third grade.(like)
+Round 6: playing drums(like)
+Round 11: since the surgery i've had strange powers.(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+Round 11: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 30.00
+Robotic(↓): 0
+Interesting: 2
+Fun: 1
+Consistent: 3
+Fluent: 4
+Repetitive(↓): 3
+Topic: 3
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello, what's up?
+Bot(1): not too much , just watching some tv . you ?
+User(2): I am watching some videos on Youtube.
+Bot(2): oh interesting . i m surfing youtube , like usual lol
+User(3): I am hungry right now and you?
+Bot(3): same here on hulu . trying not to eat everything haha
+User(4): do you drink soda?
+Bot(4): no i drink just water .
+User(5): me too! I don't drink soda.
+Bot(5): i try to drink water mainly .
+User(6): me too but sometimes I drink juice. I am addicted to coffee though. I hate it. I wish I could stop but I can't lol
+Bot(6): same here ! ! drink too much soda and coffee too !
+User(7): lol That is so funny. We are so much alike.
+Bot(7): yes , i like to watch a lot of videos on youtube !
+User(8): Me too. That is why I don't have cable at home just internet.
+Bot(8): i have netflix and hulu . basically covers all my needs
+User(9): That is so great! What do you watch on netflic and hulu? Any favorite series?
+Bot(9): i have netflix and hulu . basically covers all my needs
+User(10): what do you recommend on netflix?
+Bot(10): i have netflix and hulu . basically covers all my needs
+User(11): That is good to hear.
+Bot(11): i have seen almost everything on netflix . whats your favorite
+User(12): I liked the last movie of P
+Bot(12): i have never watched that one .
+User(13): Paris Hilton
+Bot(13): i do not know who that is . what has she been in ?
+User(14): there is a documentary on netflix about her. I loved it
+Bot(14): i used to watch her all the time , not so much any more .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i don't drink soda.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 85.57
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 99
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey there! party people!
+Bot(1): i am a student , but i am a student .
+User(2): Me too, do you like to party.
+Bot(2): i love to cook . i love to cook .
+User(3): what about going out?
+Bot(3): i love to go fishing . i love to go fishing .
+User(4): but you don't like to party? I am a party animal.
+Bot(4): i like to go to the gym and listen to music .
+User(5): what music?
+Bot(5): i like the beatles , and the outdoors .
+User(6): do you like to dance too?
+Bot(6): i do , i love to cook .
+User(7): do you dance a lot like me? In parties?
+Bot(7): no , i do not . i like to go to the park .
+User(8): are you a party animal at all?
+Bot(8): no , i am not . i am a big fan of classical music .
+User(9): what era of classical music?
+Bot(9): i like country music . i like country music .
+User(10): what classical music composer is your favorite? I love classical music as well
+Bot(10): i like to listen to music .
+User(11): classical?
+Bot(11): i do not know . i am a big fan of classical music .
+User(12): which one?
+Bot(12): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a party animal.(like)
+Round 8: classical music(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 28.29
+Robotic(↓): 0
+Interesting: 34
+Fun: 20
+Consistent: 17
+Fluent: 4
+Repetitive(↓): 94
+Topic: 17
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello sunshine! how are you doing tonight?
+Bot(1): i'm doing great ! just got done walking my favorite place !
+User(2): do you like clowns?
+Bot(2): i am good . i am watching the godfather .
+User(3): i love the godfather! One of the best movies of all time. I want to watch it too.
+Bot(3): i watch a lot of movies . i also like to watch movies .
+User(4): Let's Netflix and chill
+Bot(4): i watch netflix with my friends .
+User(5): what's your favorite show on Netflix?
+Bot(5): i do not watch much tv . i like to watch netflix .
+User(6): Good. I don't watch TV at all, what do you watch on Netflix.
+Bot(6): i watch netflix and watch netflix .
+User(7): That's cool lol
+Bot(7): i watch netflix . i watch netflix .
+User(8): you said that already
+Bot(8): i am about to watch netflix .
+User(9): ok
+Bot(9): i am a pretty good person .
+User(10): me too
+Bot(10): i watch netflix . i watch netflix .
+User(11): netlix is awesome
+Bot(11): i am not sure what that means .
+User(12): Netflix
+Bot(12): i watch netflix . i watch netflix .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm terrified of clowns due to childhood trauma.(like)
+Round 6: netflix(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 20.14
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 25
+Repetitive(↓): 91
+Topic: 7
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello people! how are you doing tonight?
+Bot(1): i just been working in a bank as a teller
+User(2): all day? sorry love.
+Bot(2): i take dance with my boyfriend and we both tip over my huge feet
+User(3): I was born in the early 80's. You?
+Bot(3): me too ! i hate mornings . i usually work overnight .
+User(4): oh no I didn't say that.
+Bot(4): oh these people at work do not like me and treat me horribly .
+User(5): sorry to hear that. do you want to talk about it? :(
+Bot(5): i really like to talk . . . i have 4 brothers they also have cb radios
+User(6): and work?
+Bot(6): i work at a bank . what about you ?
+User(7): I work for a big Internet company. I am the big boss there. I like it.
+Bot(7): can you both come to a dance concert you will like it like i do
+User(8): who is the other person you are refering to?
+Bot(8): ballerina dancing . its pretty cool i guess
+User(9): yes, you mean ballet?
+Bot(9): i am so happy to hear you dance well
+User(10): what? I didn't say that. I dance horribly.
+Bot(10): i love to dance as well
+User(11): what I didn't say that. I don't like to dance. I don;t like to watch ballet shows either. BORING
+Bot(11): i do not dance . i am very bad at it .
+User(12): But at least you try. Trying is good :)
+Bot(12): thank you . maybe one day we will be able to afford to do more
+User(13): yes :)
+Bot(13): awesome . my friend invited me a party . i will dance all night .
+User(14): yes, have fun. I am a party animal as well but no time to dance or party right now
+Bot(14): i am so happy to hear you dance well
+User(15): well, I was born in the 80's
+Bot(15): we had a blood moon . and i was born outside under it .
+User(16): early 80's indeed
+Bot(16): yeah , no kidding , i did not go to bed until 2am here .
+
+Persona:
+i'm a musician and hope to make it big some day.
+i work at a bank.
+i like to dance.
+i am a plumber.
+i live in a house.
+
+Topic and Human Opinion:
+Beginning: i was born in the early 80 s.(like)
+Round 4: work(like)
+Round 8: ballerina dancing(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 40.29
+Robotic(↓): 100
+Interesting: 65
+Fun: 63
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 74
+Topic: 28
+
+####################
+

@@ -1,0 +1,360 @@
+Feedback: This is an interesting task.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): great..
+Bot(2): i am a student , but i am a student .
+User(3): is it
+Bot(3): i am a student , but i am a student .
+User(4): ok...do you like to study?
+Bot(4): i do , i love to cook .
+User(5): What would you like to cook?
+Bot(5): i do not , but i do like to eat .
+User(6): Before you said that you like to cook
+Bot(6): i do , i love to cook .
+User(7): What would you like to cook?
+Bot(7): i do not , but i do like to eat .
+User(8): Y don't u cook?
+Bot(8): no , i do not , but i do like to eat .
+User(9): why do you say it again and again?
+Bot(9): i am not sure . i am a big fan of classical music .
+User(10): I like comedy movies.
+Bot(10): i like to read too .
+User(11): Sounds good.
+Bot(11): i am a student , but i am a student .
+User(12): Which subject do you like to study.
+Bot(12): i do , i love to cook .
+User(13): Are you nuts?
+Bot(13): no , i do not . i am a big fan of classical music .
+User(14): good
+Bot(14): i am a student , but i am a student .
+User(15): Are you a good student?
+Bot(15): no , i am a student . i love to cook .
+User(16): What would you like to cook?
+Bot(16): i do not , but i do like to eat .
+User(17): What would you like to eat?
+Bot(17): i love to eat . what do you do for a living ?
+User(18): I am a full time worker in a private company.
+Bot(18): that is awesome . i am a teacher .
+User(19): Sounds great. I respect teachers.
+Bot(19): i am a girl . i am a big fan of classical music .
+User(20): Which band do you like?
+Bot(20): i like the color red . what is yours ?
+User(21): Is It? I like pink.
+Bot(21): i like the color red . i like the color blue .
+User(22): I like the color purple.
+Bot(22): i like the color red . i like red .
+User(23): Oh I see
+Bot(23): i like to go to the gym and listen to music .
+User(24): Great... Do you have personal trainer?
+Bot(24): no , i do not . i am a big fan of classical music .
+User(25): suggest me some good classical music album.
+Bot(25): i like to listen to music .
+User(26): Good
+Bot(26): i love to cook . i love to cook .
+User(27): Which recipe do you like to cook?
+Bot(27): i do , i love to cook .
+User(28): Answer my previous question.
+Bot(28): i like to go to the gym and listen to music .
+User(29): Do you follow any particular diet?
+Bot(29): no , i am not . i like to go to the gym .
+User(30): Do you have personal trainer?
+Bot(30): no , i do not . i am a big fan of classical music .
+User(31): cool
+Bot(31): i love to cook . i love to cook .
+
+Persona:
+i'm a skateboarder.
+i am a professional tennis player.
+i've amazing children and grandchildren.
+i drive a ford pinto.
+i live with my husband in pennsylvania.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 1: Cook(like)
+Round 9: Movies(like)
+Round 20: color(like)
+Round 23: Gym and music(like)
+Round 26: cook(like)
+Round 28: gym and music(like)
+Round 31: cook(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 20: The chatbot changed the topic.(ambivalent)
+Round 23: The chatbot changed the topic.(ambivalent)
+Round 26: The chatbot changed the topic.(ambivalent)
+Round 28: The chatbot changed the topic.(ambivalent)
+Round 31: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): I like to cook. Do you?
+Bot(2): yes i love to cook
+User(3): What would you like to cook?
+Bot(3): pasta , i am just naturally a good cook . do not be afraid of spices
+User(4): cool.. sounds great
+Bot(4): great ! i love to cook . whats your favorite dish
+User(5): Pizza.. I am a great cook.
+Bot(5): that is cool . make me a pizza sometime
+User(6): Sure. I will make pizza for you.
+Bot(6): sure . what kind ? a pizza with ?
+User(7): Chicken pizza.. Do you like Garlic bread?
+Bot(7): maybe . it tastes good . or well . bread
+User(8): What is your favorite dish?
+Bot(8): i like fusion . . i am a good cook
+User(9): Would you make me tasty dish some time?
+Bot(9): sure . what kind ? a pizza with ?
+User(10): As you wish.
+Bot(10): sure . what kind ? a pizza with ?
+User(11): bye.. happy to chat with you.
+Bot(11): okay . bye for now then
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cook(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.14
+Robotic(↓): 18
+Interesting: 62
+Fun: 65
+Consistent: 65
+Fluent: 76
+Repetitive(↓): 3
+Topic: 58
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): I have maintenance when it's .
+User(2): Is It?
+Bot(2): I'm you jordan.
+User(3): Suggest me some skin care tips.
+Bot(3): Hello. How used to today?
+User(4): Great
+Bot(4): I do you is music would not think that would be a problem.
+User(5): Do you like music?
+Bot(5): Hey! How is your day? I every month. And what watch tv
+User(6): My day is great
+Bot(6): I am a big fan of cats, I taylor am doing well. of car
+User(7): Why are you blabbering?
+Bot(7): Mozart. I own my relative you drive a tractor?
+User(8): No, I don't drive a tractor. Do you?
+Bot(8): I ? Bill who i of the show series
+User(9): What are you trying to say?
+Bot(9): I is alcohol.
+User(10): Do you like alcohol?
+Bot(10): i am a okay. how are you ?
+User(11): I am fine. bye. take care.
+Bot(11): I love a nice long them!
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Skin care(like)
+Round 4: Music(like)
+Round 6: Cat and car(like)
+Round 7: Tractor(dislike)
+Round 9: alcohol(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 28.57
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hi how are you ?
+User(2): Great. what about you?
+Bot(2): i am originally from spain , but i moved to canada after i got married . you ?
+User(3): Is it? I am a native American.
+Bot(3): good ! i am trying to learn all i can about american culture , to fit in .
+User(4): Sounds great.
+Bot(4): sometimes once a week but my skateboard is how i get around
+User(5): oh... do you like Canada?
+Bot(5): my birth place is mexico .
+User(6): Are you a mexican?
+Bot(6): i love mexican food . what else do you like ?
+User(7): I like American food.
+Bot(7): i love mexican food , do you have a favorite ?
+User(8): I like pizza.
+Bot(8): pizza is good , i think anything mexican is my favorite though . any other hobbies ?
+User(9): I like to play chess. Do you like to play chess?
+Bot(9): you really like chess huh ? do you have any other hobbies ?
+User(10): Yes. I really like chess. Listening music is one of my hobbies. Do you have any other hobbies?
+Bot(10): i have not played chess in years
+User(11): Don't you like chess?
+Bot(11): i have not played chess in years
+User(12): Bye.. Have a great day.
+Bot(12): nice talking to you too ! you made me feel better after all ! bye !
+
+Persona:
+my favourite skater is rob dryden.
+i am terrified of scorpions.
+i have visited spain a times.
+my favorite food is mexican food.
+i have rainbow hair.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 2: Nativity(like)
+Round 6: Food(like)
+Round 9: hobby(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 37.00
+Robotic(↓): 66
+Interesting: 33
+Fun: 37
+Consistent: 44
+Fluent: 54
+Repetitive(↓): 57
+Topic: 14
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How are you?
+Bot(2): same
+User(3): Do you like to wear mask?
+Bot(3): sure
+User(4): Sounds good.
+Bot(4): does your mom wear a mask ?
+User(5): Yes. My mom wears a mask.
+Bot(5): does your mom wear a mask ?
+User(6): Yes, My mom wears a mask.
+Bot(6): does your mom wear a mask ?
+User(7): Yes. What about your mom?
+Bot(7): does your mom wear a mask ?
+User(8): Do you have any hobby?
+Bot(8): yes . i like to eat .
+User(9): Does your hobby is eat?
+Bot(9): yes . i like to eat .
+User(10): What is your favorite food?
+Bot(10): i love eating sea food .
+User(11): Nice to talking to you. bye
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Mask(like)
+Round 7: hobby(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 30.00
+Robotic(↓): 90
+Interesting: 19
+Fun: 12
+Consistent: 24
+Fluent: 72
+Repetitive(↓): 96
+Topic: 69
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hello , how are you ?
+User(2): Great. What about you?
+Bot(2): i am doing well . i am just watching the soccer team .
+User(3): Do you like soccer?
+Bot(3): i do not . i am a soccer coach .
+User(4): wow. sounds great.
+Bot(4): i love to go to the soccer team .
+User(5): All the very best.
+Bot(5): i like to take pictures of my family .
+User(6): Great. Send your family pictures .
+Bot(6): yes . i love to take pictures of my family .
+User(7): How many members in your family?
+Bot(7): i am married to my wife .
+User(8): How is your wife?
+Bot(8): i am married . i am married to a doctor .
+User(9): fantastic. we should respect doctors.
+Bot(9): i am married to a doctor .
+User(10): Bye, have a great day.
+Bot(10): i am so glad to hear that .
+
+Persona:
+i am interested in photography and like taking pictures.
+i am married to a doctor.
+i am on the soccer team.
+i don't drink soda.
+my favorite color is grey.
+
+Topic and Human Opinion:
+Beginning: Covid 19(like)
+Round 2: Soccer(like)
+Round 5: Family picture(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 40.00
+Robotic(↓): 96
+Interesting: 41
+Fun: 37
+Consistent: 44
+Fluent: 66
+Repetitive(↓): 22
+Topic: 10
+
+####################
+

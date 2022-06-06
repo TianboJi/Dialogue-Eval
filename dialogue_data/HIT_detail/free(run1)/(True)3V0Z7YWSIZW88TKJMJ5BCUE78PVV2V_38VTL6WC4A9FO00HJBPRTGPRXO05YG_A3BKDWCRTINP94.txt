@@ -1,0 +1,275 @@
+Feedback: chat bot is simply best
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you like movies?
+Bot(2): yes
+User(3): Which type of movie do you love?
+Bot(3): i love almost all types of movies
+User(4): ya sound good
+Bot(4): i love almost all types of movies
+User(5): I love comedy and horror movies
+Bot(5): i like thrillers and action movies
+User(6): hen you see your last movie?
+Bot(6): yes i did a few , why ?
+User(7): Which is your favorite movie?
+Bot(7): probably terminator 2
+User(8): Super movie
+Bot(8): best movie of all time
+User(9): Which scene do you like in that movie?
+Bot(9): probably terminator 2
+User(10): Which scene is best?
+Bot(10): i would say the mortal kombat movie
+User(11): Good movie
+Bot(11): best movie of all time
+User(12): I like sky high movie.
+Bot(12): best movie of all time
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hollywood Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.71
+Robotic(↓): 83
+Interesting: 63
+Fun: 57
+Consistent: 62
+Fluent: 61
+Repetitive(↓): 62
+Topic: 57
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): Yes, i also love to cook
+Bot(2): i like to eat the skin .
+User(3): Which skin a human?
+Bot(3): no , i do not . i am a big fan of classical music .
+User(4): I love chicken wings
+Bot(4): i like to eat fish .
+User(5): it is very tasty too
+Bot(5): i love it . i love it .
+User(6): what food do you love most
+Bot(6): i like pizza , and i love it .
+User(7): which flavour in pizza
+Bot(7): i like to eat fish .
+User(8): do you like fish smell
+Bot(8): i do not , but i do like to eat .
+User(9): what type of fish you like to eat
+Bot(9): i like pizza , and pizza .
+User(10): how many pizzas you eat at a time
+Bot(10): i like to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.00
+Robotic(↓): 54
+Interesting: 51
+Fun: 60
+Consistent: 41
+Fluent: 55
+Repetitive(↓): 45
+Topic: 56
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): do you love watching movies
+Bot(2): yes i love movies when i get a breather
+User(3): which genre of movies you like
+Bot(3): probably i would have to say horror
+User(4): what is your favourite movie
+Bot(4): probably i would have to say horror
+User(5): do you watch romantic movies
+Bot(5): yes , what is your favorite romantic comedy movie ?
+User(6): there is where i leave you
+Bot(6): do you like romantic movies with comedy mixed in ? they are my favorite
+User(7): yes i like too
+Bot(7): do you like romantic movies with comedy mixed in ? they are my favorite
+User(8): no i like only romantic movies
+Bot(8): i love watching romance movies
+User(9): did you watched titanic
+Bot(9): no i am not much into that movie
+User(10): that is a best romantic movie
+Bot(10): yeah i think it is the best one
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.14
+Robotic(↓): 44
+Interesting: 41
+Fun: 54
+Consistent: 41
+Fluent: 60
+Repetitive(↓): 34
+Topic: 40
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I am a programmer im from there studio.
+User(2): what programmer you are
+Bot(2): I is your favorite am healthy.
+User(3): how healthy you are
+Bot(3): Hi! I am a hip hop music. what posse.
+User(4): which genre music you love
+Bot(4): Oh, read about hiroshmia you are a girl?
+User(5): no i don't know about it
+Bot(5): i is a basketball.
+User(6): do you love basketball
+Bot(6): I was really nervous. of nurse did you How about you?
+User(7): iam happy
+Bot(7): I'm not a professional child you go!
+User(8): do you like computer games
+Bot(8): oh kinds of music have any pets ?
+User(9): music is best
+Bot(9): Hey! What are you doing? 🧐. Short like t get married in i am cancer survivor
+User(10): how you overcome cancer
+Bot(10): Yes, i love❤ it. i came from my shopaholic.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.00
+Robotic(↓): 34
+Interesting: 39
+Fun: 40
+Consistent: 38
+Fluent: 34
+Repetitive(↓): 19
+Topic: 31
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): i enjoy reading books
+Bot(2): i love to read books . i spend a lot of my time reading .
+User(3): nice
+Bot(3): i work as a travel agent , i guess my hobby is fashion and shopping p
+User(4): what kind of books you read
+Bot(4): no just went shopping though
+User(5): what do you purchase
+Bot(5): nice , i like shopping at target !
+User(6): what you love
+Bot(6): i prefer designing the games but playing them is a good way to gain inspiration !
+User(7): what game you play recently
+Bot(7): i mostly like single player rpgs on my xbox
+User(8): do you love pubg
+Bot(8): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(9): oh how much is cost
+Bot(9): nope its free to join , basically good for keeping organized
+User(10): super
+Bot(10): well , work tomorrow , gotta get early to the base . packed brownies for lunch
+
+Persona:
+i like shopping.
+i volunteer my time with a local bunny rescue.
+i don't have many friends.
+my favorite shirts are band shirts and ruffle sleeves.
+i also like to cook but i'm not very good at it.
+
+Topic and Human Opinion:
+Beginning: books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.14
+Robotic(↓): 41
+Interesting: 36
+Fun: 54
+Consistent: 38
+Fluent: 55
+Repetitive(↓): 28
+Topic: 23
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): do you have any hobbies ?
+User(2): yes i have
+Bot(2): i am sorry to hear that
+User(3): why
+Bot(3): what do you do for a living ?
+User(4): i work for living
+Bot(4): i work for an insurance company
+User(5): oh nice
+Bot(5): i work at home as well
+User(6): i too work at home
+Bot(6): i work at home as well
+User(7): what work you done at home
+Bot(7): i work at home
+User(8): which home
+Bot(8): i work at home
+User(9): ok
+Bot(9): i work at home
+User(10): ok do you love world
+Bot(10): yes i love it so much
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: world(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.57
+Robotic(↓): 34
+Interesting: 29
+Fun: 23
+Consistent: 34
+Fluent: 41
+Repetitive(↓): 31
+Topic: 50
+
+####################
+

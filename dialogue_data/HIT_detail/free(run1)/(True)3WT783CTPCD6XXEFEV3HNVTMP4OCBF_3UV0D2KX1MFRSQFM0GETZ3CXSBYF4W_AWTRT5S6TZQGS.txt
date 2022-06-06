@@ -1,0 +1,341 @@
+Feedback: The one chatbot made no sense at all. It was hard to assign a "Topic" to it.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have any siblings?
+Bot(1): no , i do not , but i do like to go out to eat .
+User(2): Where is your favorite place to go to eat?
+Bot(2): i love the pumpkin spice and the chicken .
+User(3): I don't think I would like that very much.
+Bot(3): i like to go to the gym and listen to music .
+User(4): What kind of music do you like?
+Bot(4): i like country music . i like country music .
+User(5): Who is your favorite music artist?
+Bot(5): i like the beatles , and the outdoors .
+User(6): I don't like country music, but I like the Beatles.
+Bot(6): i like to listen to music .
+User(7): How do you feel about the presidential election?
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): Do you play any instruments?
+Bot(8): no , i do not , but i do like to play soccer .
+User(9): What position do you like to play?
+Bot(9): i love to play soccer , and play video games .
+User(10): What types of video games do you play?
+Bot(10): i play soccer , but i like to play soccer .
+
+Persona:
+i recently got an apartment with my best friend.
+i'm a boy.
+i went to school to be a veterinarian but hated it.
+i have five sons.
+i have been trying all types of food everywhere i go.
+
+Topic and Human Opinion:
+Beginning: Family(like)
+Round 1: Food(like)
+Round 3: Hobbies(dislike)
+Round 3: Music(like)
+Round 6: Politics(dislike)
+Round 7: Music(like)
+Round 8: Sports(dislike)
+Round 9: Hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 3: The user will change the topic in the next input.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 28.86
+Robotic(↓): 100
+Interesting: 30
+Fun: 25
+Consistent: 16
+Fluent: 50
+Repetitive(↓): 69
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like to listen to music?
+Bot(1): what kind ? i am an avid reader mostly sci fi and horror .
+User(2): Who is your favorite author?
+Bot(2): yes , i love all the harry potter books by j . k . rowling . read them all twice .
+User(3): Do you have a favorite Harry Potter character?
+Bot(3): love harry potter . i am actually dying my hair back to black . it is red at the moment .
+User(4): What color is your natural hair?
+Bot(4): i have blonde hair and like it .
+User(5): Is it long or short?
+Bot(5): people gamble away in my casinos . sometimes my casinos go bankrupt but i bounce back .
+User(6): I don't like casinos. What casinos are you talking about?
+Bot(6): do you gamble while there , or is that just part of the job ?
+User(7): I do not gamble. Do you?
+Bot(7): i m actually a dealer blackjack
+User(8): How long have you worked as a blackjack dealer?
+Bot(8): i love blackjack and 7 card holder .
+User(9): Do you like to play Rummy?
+Bot(9): progressive rummy is fun . we played that at one of my mensa meetings . good luck
+User(10): Do you play any other card games?
+Bot(10): no , i am not really in to games .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 1: Books(like)
+Round 3: Hair(ambivalent)
+Round 5: Casinos(dislike)
+Round 8: Card Games(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 58.43
+Robotic(↓): 63
+Interesting: 75
+Fun: 68
+Consistent: 56
+Fluent: 44
+Repetitive(↓): 31
+Topic: 60
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like to play board games?
+Bot(1): I like the walking dead. I my turn, I play them.
+User(2): I like The Walking Dead too. Who is your favorite character?
+Bot(2): I have a youtube channel to meet you, see can not even call it work
+User(3): How long have you had the channel?
+Bot(3): I sell this will out with my friends
+User(4): What?
+Bot(4): it actually just started getting cold around my lonely do you to work so that's no good
+User(5): Do you like Rock music?
+Bot(5): Oh, I thought favorite want to music.
+User(6): What type of music do you like?
+Bot(6): i a doctor and like cats?
+User(7): Do you play any instruments?
+Bot(7): What there. i am a I've light brown eyes.
+User(8): I have brown eyes too.
+Bot(8): Hi, live in you in english and french.
+User(9): I only know English. Do you know any other languages?
+Bot(9): i am not sure . thank you meet your is .
+User(10): Do you speak Spanish?
+Bot(10): I like coffee, but I like to and how are great coffee.
+
+Persona:
+i am interested in photography and like taking pictures.
+i am married to a doctor.
+i am on the soccer team.
+i don't drink soda.
+my favorite color is grey.
+
+Topic and Human Opinion:
+Beginning: Board Games(like)
+Round 1: TV shows(like)
+Round 2: YouTube(ambivalent)
+Round 4: I have no idea. It makes no sense.(dislike)
+Round 4: Music(like)
+Round 6: Nonsense(dislike)
+Round 7: Physical Appearance(ambivalent)
+Round 8: Language(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 15.57
+Robotic(↓): 100
+Interesting: 13
+Fun: 6
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 12
+Topic: 2
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What kind of TV shows do you watch?
+Bot(1): mostly reality tv shows . i have been binge watching since the accident .
+User(2): Which reality show is your favorite?
+Bot(2): i really like reality shows , on youtube .
+User(3): Are you a fan of Big Brother?
+Bot(3): i am . what hobbies do you enjoy ? i watch reality shows a lot .
+User(4): I also like to watch shows. I like horror and mystery shows the most.
+Bot(4): i love that show too but my favorites are forensic files and jeopardy .
+User(5): What kind of music do you like to listen to?
+Bot(5): i like all music genres . do you have a fave ?
+User(6): My favorite is Rock. Do you have a favorite music artist?
+Bot(6): yes i like classic rock . what about you ?
+User(7): My favorite is Tool.
+Bot(7): really ? awesome , i have friends who love tool . personally , i love the doors .
+User(8): I like The Doors too. Have you seen the movie The Doors?
+Bot(8): no i have not . i do not like scary movies .
+User(9): What kind of movies do you like?
+Bot(9): i like all kinds , except horror . what do you like ?
+User(10): I like Horror. They are my favorite.
+Bot(10): i love mystery movies , they get me in a creative mood .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: TV(like)
+Round 4: Music(like)
+Round 7: Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 95.57
+Robotic(↓): 4
+Interesting: 95
+Fun: 95
+Consistent: 96
+Fluent: 95
+Repetitive(↓): 4
+Topic: 96
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like to watch movies?
+Bot(1): i do not watch movies . i like to go shopping .
+User(2): Where do you like to shop at?
+Bot(2): i do , i love to shop at stores .
+User(3): What kind of music do you listen to?
+Bot(3): i like all kinds of music .
+User(4): Do you have any siblings?
+Bot(4): i do not have any siblings . i am a chef .
+User(5): Cool. Where do you work?
+Bot(5): i am a chef . i love to shop .
+User(6): Do you like to read?
+Bot(6): i do . i love to shop .
+User(7): Where did you go to school at?
+Bot(7): i do not . i am a chef .
+User(8): What kind of food do you like?
+Bot(8): i love pizza . i am a chef .
+User(9): I like pizza too. I like mushrooms and pepperoni toppings.
+Bot(9): i love pizza ! i also love to shop at the beach .
+User(10): You really like to shop.
+Bot(10): i do . i love to shop .
+
+Persona:
+i've short hair.
+i like shopping.
+on weekends i do live action roleplaying events.
+i quit my job to pursue my spirituality full time.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 1: Shopping(dislike)
+Round 2: Music(like)
+Round 3: Family(like)
+Round 4: Work(like)
+Round 5: Shopping(dislike)
+Round 5: Books(like)
+Round 6: Shopping(dislike)
+Round 6: School(dislike)
+Round 7: Work(ambivalent)
+Round 7: Food(like)
+Round 9: Shopping(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The user will change the topic in the next input.(like)
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 33
+Repetitive(↓): 100
+Topic: 5
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What kind of food is your favorite?
+Bot(1): i love like everything , most of the time i prefer mexican food
+User(2): I like Mexican food also.
+Bot(2): same
+User(3): Do you like it very spicy?
+Bot(3): and to much sometimes , cant do spicy
+User(4): Do you like sports?
+Bot(4): not so much i am more into sports
+User(5): Do you play any sports?
+Bot(5): yes , i play soccer and football
+User(6): Cool. I do not like sports.
+Bot(6): me either . what other things do you like ?
+User(7): I like to listen to music.Do you?
+Bot(7): i do , if it is rock or rap .
+User(8): I like them too. Who is your favorite musician?
+Bot(8): i really like celine dion . what about you ?
+User(9): My favorite is Tool.
+Bot(9): my favorite musical group is tool ? you know their tunes ?
+User(10): Yes. Have you ever been to one of their concerts?
+Bot(10): a few , but i have not gone to see them
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 3: Sports(dislike)
+Round 6: Hobbies(ambivalent)
+Round 6: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 82.29
+Robotic(↓): 21
+Interesting: 75
+Fun: 77
+Consistent: 79
+Fluent: 79
+Repetitive(↓): 1
+Topic: 88
+
+####################
+

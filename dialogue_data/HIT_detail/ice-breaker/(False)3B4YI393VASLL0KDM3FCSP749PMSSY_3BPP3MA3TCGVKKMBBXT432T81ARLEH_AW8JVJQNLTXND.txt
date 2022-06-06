@@ -1,0 +1,275 @@
+Feedback: Oh, this was horrible! The chatbot didn't make any sense for most of the conversations. It kept repeating "sentences" and I really hesitate to use the word "sentence". I tried to have a conversation about the topic, but the chatbot would not say something related to the topic (and I didn't change the topic). I would love to do these if the chatbot was a better conversationalist!
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I have never been to Spain
+Bot(1): i do not know how to play the guitar .
+User(2): I don't either but I would like to learn
+Bot(2): i do not know how to make it .
+User(3): I don't know how to make a guitar either
+Bot(3): i like to eat fish .
+User(4): Me too. What kind of fish do you like to eat?
+Bot(4): i love pizza , and i love it .
+User(5): I love to eat pizza too, especially pepperoni pizza
+Bot(5): i like pizza , and i love it .
+User(6): What kind of pizza do you like to eat?
+Bot(6): i love pizza , and i love it .
+User(7): Yes, what kind of pizza do you like?
+Bot(7): i love pizza , and i love it .
+User(8): Do you like to eat anything else?
+Bot(8): i like to eat pizza .
+User(9): Do you like to eat spaghetti?
+Bot(9): i do not , but i do like to eat .
+User(10): Do you like to eat fried chicken?
+Bot(10): i do not , but i do like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have visited spain a times.(like)
+Round 1: not knowing how to play the guitar(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you want to cook?
+Bot(1): i cook for a living .
+User(2): What is your specialty?
+Bot(2): i love to cook , but i love to cook .
+User(3): That's nice that you like to cook.
+Bot(3): i cook for a living . what do you do ?
+User(4): I write books about history
+Bot(4): i love history books . i love history books .
+User(5): I love history too
+Bot(5): i love history . i love history .
+User(6): What else do you like?
+Bot(6): i like to cook and bake
+User(7): Do you make cakes?
+Bot(7): i love cakes and cakes
+User(8): Do you like to decorate cakes?
+Bot(8): i love cakes and cakes
+User(9): Do you have a pet dog?
+Bot(9): i do not . i have a dog .
+User(10): Do you have cats?
+Bot(10): no i don't . i do not have any pets
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm currently looking for a job preferably at a restaurant.(like)
+Round 8: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I'm from a small town too.
+Bot(1): why is that ? i only know the life of a small town farmer .
+User(2): I grew up in a small town and I worked in a store
+Bot(2): i live in a compound . everyone here has curly dark hair .
+User(3): That seems strange. No one has blond hair?
+Bot(3): carribean dish . i love grill meat and pasta outside . you cook ?
+User(4): I don't like to cook
+Bot(4): i do , i make this one dish with pork marinated in catalina dressing , its good
+User(5): That sounds delicious
+Bot(5): agreed . my husband sells stuff and came across a pasta maker sale . i bought it .
+User(6): Is it hard to make pasta?
+Bot(6): no i love some meats and some fish and salads .
+User(7): I like to eat salads
+Bot(7): nice . do you like salads a lot ?
+User(8): Yes, I would eat salads every day if I could
+Bot(8): i love salad . do you watch tv ? i love game of thrones
+User(9): I have never seen Game of Thrones
+Bot(9): i do not like john grisham books , but the movies are great !
+User(10): I like to read John Grisham books and watch the movies
+Bot(10): i am not much of a reader but i love prince . purple rain , purple rain . . .
+User(11): That was sad that he died so young
+Bot(11): oh no , i am so sorry . i hate to think about socks dying . my dog .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm from a small town.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 74
+Topic: 55
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Where did you live before?
+Bot(1): i have lived in many places , where do you live now ?
+User(2): I live in Germany
+Bot(2): that is awesome i came from germany when i was very young
+User(3): I used to live in Italy
+Bot(3): so you must remember italy very well ?
+User(4): I was there for just one year
+Bot(4): i really liked visiting germany
+User(5): I love the food in Germany
+Bot(5): i would love to g back to italy
+User(6): I would love to go back to Italy and stay for several years.
+Bot(6): i would love to g back to italy
+User(7): Yes, I would too
+Bot(7): i would love to g back to italy
+User(8): Where did you live in Italy
+Bot(8): i really liked visiting germany
+User(9): Where did you visit in Germany?
+Bot(9): i really liked visiting germany
+User(10): did you like the food in Germany?
+Bot(10): the pasta was good but no where near as good as italy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: now i live in the united states.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Why are you afraid of scorpions?
+Bot(1): that sounds like a lot of me, doesnt them? id soda?
+User(2): I'm not sure what you are saying
+Bot(2): for what is your favorite popular so cool you got in to it
+User(3): I really don't understand
+Bot(3): that is cool. what to do you do do in your spare time?
+User(4): I like to read and do research
+Bot(4): i have a dog named I like Do you to eat .
+User(5): You have a dog named I like Do you to eat?
+Bot(5): i work as a for me some am profession
+User(6): That sounds really very strange
+Bot(6): Yes! like shopping a father's farm.
+User(7): You shop at your father's farm?
+Bot(7): On The Ball, you do all do song in the world.
+User(8): I'm sorry, I don't understand you.
+Bot(8): that's cool , i am not sure if i a was going to am a musician , and i love it
+User(9): Is English your first language?
+Bot(9): I do, I it are you midwest.
+User(10): I don't think you actually speak English
+Bot(10): Bye! Have you say that and one is your favorite play?
+
+Persona:
+i am a little girl.
+i love to go to disney world every year.
+i'm a country music singer.
+my favorite movie is friday.
+i've a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: i am terrified of scorpions.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Why don't you drink?
+Bot(1): i think drinking is the only answer
+User(2): I think I may drink after this hit.
+Bot(2): same
+User(3): Because it doesn't make any sense.
+Bot(3): i do not know . i drink so i do not have to think about it .
+User(4): I like wine, but I don't like beer.
+Bot(4): makes sense . i am more of a wine person .
+User(5): What kind of wine do you like?
+Bot(5): wines fer fancy sissy types .
+User(6): you like wine for sissy types?
+Bot(6): on occasion . when there is whiskey involved lol
+User(7): Whiskey and wine? That sounds like a terrible combination
+Bot(7): wines fer fancy sissy types .
+User(8): Do you like red wine or white wine?
+Bot(8): i do not know just like the strong taste .
+User(9): I'm not sure if you like wine or not
+Bot(9): i apologize , it is the whiskey talking .
+User(10): Now that makes sense!
+Bot(10): i apologize , it is the whiskey talking .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i do not drink alcohol.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 28
+Fluent: 0
+Repetitive(↓): 52
+Topic: 50
+
+####################
+

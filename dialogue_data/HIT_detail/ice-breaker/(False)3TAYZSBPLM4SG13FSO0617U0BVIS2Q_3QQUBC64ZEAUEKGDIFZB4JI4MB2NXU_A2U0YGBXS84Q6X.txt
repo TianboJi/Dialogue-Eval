@@ -1,0 +1,332 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): I am fine. How about you?
+Bot(2): i am good . i am a little forgetful .
+User(3): are you a robot
+Bot(3): i am good . i am a little lonely .
+User(4): hat ae you doing now?
+Bot(4): i am doing well . how about you ?
+User(5): i am in chat
+Bot(5): i am good . i am a little tired from the hospital .
+User(6): ok
+Bot(6): what do you do for a living ?
+User(7): Doing work
+Bot(7): what do you do for a living ?
+User(8): Job is a one more thing to live
+Bot(8): i work at a soup kitchen
+User(9): Have you tired it?
+Bot(9): i am a stay at home mom
+User(10): wow!!!
+Bot(10): i am a little lonely but i do not have a lot of time
+User(11): Why?
+Bot(11): i am a mom and i love to volunteer at the soup kitchen
+User(12): Ok. The soup was tasty
+Bot(12): i love the food . i love the food .
+User(13): Really Amazing!!!!!!
+Bot(13): i am a little tired from the hospital
+User(14): From hospital?
+Bot(14): no i am not . i am a stay at home mom
+User(15): okk
+Bot(15): no , i am not . i am a stay at home mom .
+User(16): Do you do any different recipes(not a soup other)?
+Bot(16): no i do not . i volunteer at a soup kitchen
+User(17): Give my the soup i want to drink
+Bot(17): i love to eat . i love to eat .
+User(18): I have to love to eatttt!!!!
+Bot(18): i love to eat . i love to eat .
+User(19): do you eat
+Bot(19): i do not eat it but i love to eat .
+User(20): bye
+Bot(20): i do not have a lot of time to do that
+
+Persona:
+gymnastics is my favorite sport.
+i was raised in a single parent household.
+i volunteer at a soup kitchen.
+i'm deathly afraid of heights.
+i've three dogs.
+
+Topic and Human Opinion:
+Beginning: i am a feminist.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.43
+Robotic(↓): 74
+Interesting: 32
+Fun: 50
+Consistent: 84
+Fluent: 91
+Repetitive(↓): 82
+Topic: 73
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hii hello bot
+Bot(1): hi there . have you seen the new star trek ?
+User(2): What? noo
+Bot(2): meow , meow
+User(3): Its fun
+Bot(3): i like spending quality time with my tiny kitty
+User(4): You have kitty? show it please bot
+Bot(4): i have a few kittens
+User(5): Wow!!!
+Bot(5): here , kitty , kitty , kitty . . . do you like cats ?
+User(6): Some what i love cats
+Bot(6): i love cats so cute and furry
+User(7): YOU are a bot how do you love cats??
+Bot(7): like too many to count feels like a million
+User(8): WERE DO YOU LIVE?
+Bot(8): i live in america on the streets
+User(9): America I am also!
+Bot(9): i live in america on the streets
+User(10): i enjoy reading journals and guides related to psychology.
+Bot(10): i love getable only hbu ?
+User(11): HBU MEANS?
+Bot(11): i still do not know what the means
+User(12): USE FULL
+Bot(12): i cant seem to click
+User(13): oK. I CAN HELP YOU
+Bot(13): i do not know how to do that
+User(14): I have not know how to do that
+Bot(14): i do not know how to do that
+
+Persona:
+i'm a huge star wars fan.
+i've not spoken in three months.
+i've a hat collection of over 1000 hats.
+i am a boy.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: i enjoy reading journals and guides related to psychology.(like)
+Round 11: USE FULL(like)
+
+Topic Change and Chatbot Opinion:
+Round 11: The user will change the topic in the next input.(like)
+
+Revised avg score: 64.29
+Robotic(↓): 60
+Interesting: 57
+Fun: 90
+Consistent: 90
+Fluent: 77
+Repetitive(↓): 99
+Topic: 95
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hii
+Bot(1): pizza , yum ! i enjoy going on the weekends , i m also into collecting stamps .
+User(2): my family has raised horses for a generations.
+Bot(2): i love to ride horses .
+User(3): I also love to ride horse
+Bot(3): i love horses but i can not ride i have an extreme fear of heights
+User(4): so funny. you ar bot
+Bot(4): i am doing well , how are you ?
+User(5): I am FINE. How about you
+Bot(5): i am doing great sitting at the saloon getting my nails done .
+User(6): Do you work in saloon?
+Bot(6): i tear atoms apart and throw them at people . i also use marketing .
+User(7): Wow amazing!!!
+Bot(7): i have 2 dogs and i love them very much
+User(8): YOU have any fearness?
+Bot(8): yes , two dogs and two cats . i also have a two year old son .
+User(9): YOU HAVE A FAMILY
+Bot(9): cool you have any pets i have 2 dogs
+User(10): The dogs name?
+Bot(10): what are their name , i love dogs
+User(11): I HAVE 1 DOG HIS NAME IS HUSSKY
+Bot(11): what kind of dog is bob ? my dog is a husky .
+User(12): I dont know? and I have a 3 kittens name tom, hulk and sweety.
+Bot(12): that is cute ! how old are they ?
+User(13): There are 2 years old
+Bot(13): i am , how old are you ?
+User(14): 34 years old
+Bot(14): i just turned 34 . its a great age . how old are you ?
+User(15): bye
+Bot(15): maybe we can play volleyball sometime .
+
+Persona:
+i've two dogs.
+my age is too old to say.
+i also like a glass of wine in the evenings.
+i drive a bmw.
+i love rollercoasters and sky diving.
+
+Topic and Human Opinion:
+Beginning: my family has raised horses for a generations.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.29
+Robotic(↓): 65
+Interesting: 52
+Fun: 88
+Consistent: 83
+Fluent: 77
+Repetitive(↓): 81
+Topic: 68
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): HI. DO YOU LIKE GAMES?
+Bot(1): i m sorry too! and i don't dad do you have any pets
+User(2): DO YOU LIKE GAMES
+Bot(2): I love are the generative model, boat that i have a boat.
+User(3): What color?
+Bot(3): I build things. I m study or wat is that?
+User(4): i also study languages.
+Bot(4): what to young book about
+User(5): I build things. I m study or wat is that?
+Bot(5): I like the color green, do like really can't is to concerts?
+User(6): I like blue
+Bot(6): I do not old are am eat.
+User(7): what to young book about
+Bot(7): so does my grandson do you do at home . what do you like to do ?
+User(8): What is you grand son name?
+Bot(8): I think cannot wait to you
+User(9): Are you a robot?
+Bot(9): I am not a lawyer, so do i. Do make my own.
+User(10): Do you like an decortive ideas?
+Bot(10): I love think it black walk do for a living?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i also study languages.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.00
+Robotic(↓): 92
+Interesting: 72
+Fun: 73
+Consistent: 90
+Fluent: 95
+Repetitive(↓): 67
+Topic: 98
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi i love wearing skinny jeans and leggings.
+Bot(1): i like to eat fish .
+User(2): Fish eeyuu!!
+Bot(2): i love to cook . i love to cook .
+User(3): okkk
+Bot(3): i love to cook . i love to cook .
+User(4): what are you doing
+Bot(4): i am doing well . how are you ?
+User(5): do you like to play?
+Bot(5): i do not , but i do like to play soccer .
+User(6): lets play soccer
+Bot(6): i like to go to the lake and listen to music .
+User(7): Listen music is very fun
+Bot(7): i like to listen to music .
+User(8): 123 song
+Bot(8): i like to go to the gym and listen to music .
+User(9): gym wow!!
+Bot(9): i love to cook . i love to cook .
+User(10): i love to cook!!!
+Bot(10): i like to eat too much junk food .
+User(11): i like to eat healthy foods!!!
+Bot(11): i like to eat fish .
+User(12): I like to eat fruit!!
+Bot(12): i like to eat fish .
+User(13): fish i dislike!!
+Bot(13): i like to go to the beach and listen to music .
+User(14): i like to go to the beach and listen to music .
+Bot(14): i like to listen to music .
+User(15): I like to eat fruit!!!!!!
+Bot(15): i love to eat fish .
+User(16): fish i dislike!!!!
+Bot(16): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love wearing skinny jeans and leggings.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.00
+Robotic(↓): 92
+Interesting: 86
+Fun: 65
+Consistent: 93
+Fluent: 89
+Repetitive(↓): 84
+Topic: 84
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i watch too much tv in spare time.
+Bot(1): me too , i feel like i have been watching too much tv
+User(2): I LIKE MOVIES
+Bot(2): same
+User(3): me too , i feel like i have been watching too much tv
+Bot(3): i usually watch movies more than tv
+User(4): same
+Bot(4): wow me too ! are we the same person ? !
+User(5): YEAH!!!
+Bot(5): me too
+User(6): wow me too ! are we the same person ? !
+Bot(6): the same ! ! just kidding ! but would not that be a coincidence ? !
+User(7): just kidding
+Bot(7): was just joking with yo
+User(8): YES
+Bot(8): was just joking with yo
+User(9): was just joking with yo
+Bot(9): ok
+User(10): OK
+Bot(10): ok
+User(11): the same
+Bot(11): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i watch too much tv in spare time.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.29
+Robotic(↓): 84
+Interesting: 72
+Fun: 92
+Consistent: 71
+Fluent: 91
+Repetitive(↓): 74
+Topic: 82
+
+####################
+

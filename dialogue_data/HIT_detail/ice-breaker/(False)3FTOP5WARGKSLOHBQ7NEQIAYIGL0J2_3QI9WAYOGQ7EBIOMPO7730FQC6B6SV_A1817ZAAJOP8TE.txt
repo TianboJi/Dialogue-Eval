@@ -1,0 +1,281 @@
+Feedback: this survey is good
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hii
+Bot(1): hello . i like to gish with my black lab cat
+User(2): how are you
+Bot(2): i am great i am cleaning and i hate it
+User(3): you work in postal service
+Bot(3): yes i do is that what u are
+User(4): i am also do that
+Bot(4): what is your favorite restaurant
+User(5): br restaurant
+Bot(5): what is your favorite restaurant
+User(6): you like pizza
+Bot(6): yeah i love pizza
+User(7): you have any pet
+Bot(7): i have a pet dog
+User(8): you read the books
+Bot(8): yeah i have read them all
+User(9): i like harrer potter
+Bot(9): i love star wars
+User(10): you like marvel movies
+Bot(10): i love star wars
+User(11): i like iron man
+Bot(11): oh iron man is way cooler
+
+Persona:
+i've a black lab named trooper.
+i'm currently looking for a job preferably at a restaurant.
+my ex cheated and left me for a lawyer.
+i am a clean eater.
+i'm a recluse.
+
+Topic and Human Opinion:
+Beginning: i am employed by the us postal service.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.43
+Robotic(↓): 94
+Interesting: 74
+Fun: 77
+Consistent: 77
+Fluent: 66
+Repetitive(↓): 68
+Topic: 70
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hii
+Bot(1): hi , i am in high school .
+User(2): which school u sudey
+Bot(2): hi ! i'm a plumber . i am a plumber .
+User(3): how the work is going
+Bot(3): i am a plumber . i am a plumber .
+User(4): you like pizza
+Bot(4): i am a plumber . i am a plumber .
+User(5): you like chochote
+Bot(5): i am a plumber . i love to garden
+User(6): you play the vedio games
+Bot(6): i do not play any games
+User(7): okay how the climate is
+Bot(7): i like to play the guitar
+User(8): you like to read the books
+Bot(8): i like to read and play the guitar
+User(9): guitar is so good to reading
+Bot(9): i like to read and play the guitar
+User(10): who to play guitar
+Bot(10): that is cool i like to read
+
+Persona:
+i am currently in high school.
+i like to ride horses.
+i'm a plumber.
+i waitress during the day to supplement my income.
+i enjoy working with my hands and love gardening.
+
+Topic and Human Opinion:
+Beginning: i play several instruments.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.00
+Robotic(↓): 77
+Interesting: 73
+Fun: 57
+Consistent: 67
+Fluent: 62
+Repetitive(↓): 75
+Topic: 64
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hii
+Bot(1): i am a student , but i am a student .
+User(2): where u sudty
+Bot(2): i am in the midwest . i love to go fishing .
+User(3): u like to swimming
+Bot(3): i do , i love to go fishing .
+User(4): what type of fishing
+Bot(4): i like to go to the beach and listen to music .
+User(5): what type of music u like to
+Bot(5): i like country music . i love country music .
+User(6): okay u can eat fast food
+Bot(6): i like to eat fish .
+User(7): okay i am also like to eat fish
+Bot(7): i like to eat fish .
+User(8): you like to eat pizza
+Bot(8): i do , i love pizza .
+User(9): what type of pizza
+Bot(9): i like pizza and pizza .
+User(10): you like to read the books
+Bot(10): i do , i like to read .
+
+Persona:
+my family and i are from india.
+i love to drink fancy tea.
+i plan to go to business school next year.
+i like playing basketball.
+i grew up in manhattan.
+
+Topic and Human Opinion:
+Beginning: i'm not a good swimmer at all.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.86
+Robotic(↓): 80
+Interesting: 74
+Fun: 73
+Consistent: 72
+Fluent: 61
+Repetitive(↓): 70
+Topic: 61
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hii
+Bot(1): hola
+User(2): you like to see the mvies
+Bot(2): yes
+User(3): i like iron man
+Bot(3): oh iron man is way cooler
+User(4): you eat fast food
+Bot(4): i hate it , it is fast food
+User(5): you like to eat mahoco
+Bot(5): i love tiramisu
+User(6): okay are you read the horror books
+Bot(6): yes , i love horror movies
+User(7): can you drive the cars
+Bot(7): no you can ask me cars
+User(8): you like to read the lve story
+Bot(8): oh iron man is way cooler
+User(9): what is your happyness
+Bot(9): regular get to gether with funds
+User(10): okay
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: since the surgery i have had strange powers.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.86
+Robotic(↓): 91
+Interesting: 84
+Fun: 76
+Consistent: 72
+Fluent: 69
+Repetitive(↓): 73
+Topic: 68
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hii
+Bot(1): I'm not gon you do you go
+User(2): like to chat with you
+Bot(2): I enjoy do you painting.
+User(3): what type of painting
+Bot(3): I it difficult dance
+User(4): wht type of dance
+Bot(4): great i can four years you've started the wildlife i see every day
+User(5): you like to fast food
+Bot(5): I like to watch sports. your girl like them disney world.
+User(6): iam also disney world
+Bot(6): I am tired. I very young what's the the gym.
+User(7): you go daliy gym to hard work
+Bot(7): I am a any do you a nurse.
+User(8): oaky i like to see the sart war s
+Bot(8): i am else do you s and have outdoor hobbies .
+User(9): eat ice creams
+Bot(9): I i delivered three What is black and black
+User(10): like blue
+Bot(10): I am have to/ You have no a huge gamer! Do you drive a ford pinto?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my daughter is a child prodigy.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.71
+Robotic(↓): 86
+Interesting: 66
+Fun: 70
+Consistent: 70
+Fluent: 77
+Repetitive(↓): 68
+Topic: 68
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hii
+Bot(1): pizza , yum ! i enjoy going on the weekends , i m also into collecting stamps .
+User(2): how many stamps
+Bot(2): mostly vintage ones . they can be pretty pricey . do u collect anything ?
+User(3): yeha i collect ten stamps
+Bot(3): i see . . i collect gummy bears . usually eat my collection daily , i love them !
+User(4): you like to read any books
+Bot(4): i love to read books . i spend a lot of my time reading .
+User(5): what type of books
+Bot(5): books written by witches using spells to cure fibromyalgia mostly .
+User(6): you can play any games
+Bot(6): no , i am not really in to games .
+User(7): like to blue cars
+Bot(7): that is great i mean blue is a great color , my favorite is green .
+User(8): are you ride the car
+Bot(8): fixing cars ? hmm . . . mighty hands ? yes i do have a car a mercedes .
+User(9): i am like to see the iron man movies
+Bot(9): my dad is george looney so i kinda have to lol i hate acting tho
+User(10): okay
+Bot(10): drive my sx . fast . so what is a male ballerina called ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just bought a house recently.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.29
+Robotic(↓): 66
+Interesting: 84
+Fun: 69
+Consistent: 76
+Fluent: 64
+Repetitive(↓): 74
+Topic: 62
+
+####################
+

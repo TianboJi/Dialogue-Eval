@@ -1,0 +1,289 @@
+Feedback: A count down to how many bots are left would be helpful. Especially when the bots are being annoyingly repeative!
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What did you cooking for dinner last night?
+Bot(1): i had pasta and salad .
+User(2): That sounds good. Did you make it yourself?
+Bot(2): hello , yes . what did you make ?
+User(3): I made corn chowder from scratch.
+Bot(3): i made that last night so i need to make something different
+User(4): Football season started today so it would be a good time to try new chili recipes
+Bot(4): i am making lunch . should i make a chili corn dog or a hot dog with cheese ?
+User(5): Chili corn dogs sound really good.
+Bot(5): chili corn dogs are good have you had one ?
+User(6): Once from a restaurant. I have never tried to make it myself
+Bot(6): but are you going to prepare it your self or wanna buy from a restaurant ?
+User(7): I would make it myself
+Bot(7): yeah , what is your favorite to make ?
+User(8): Spaghetti. I like to make it with lots of vegetables from my garden
+Bot(8): i usually cook the ones that i got from my garden
+User(9): Do you make your own pasta too?
+Bot(9): no i just buy the ingredients then add some stuff like onions
+User(10): Do you use red wine in your pasta sauce?
+Bot(10): no i just hadnt tried that combo yet
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 77.43
+Robotic(↓): 67
+Interesting: 63
+Fun: 76
+Consistent: 95
+Fluent: 100
+Repetitive(↓): 6
+Topic: 81
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Have you ever played golf before?
+Bot(1): i do to be a painter , but i do have a boyfriend .
+User(2): What about golf? Have you played that before?
+Bot(2): You are shop for shoes you!
+User(3): Do you watch golf on TV
+Bot(3): i am actually a cancer survivor which is great. Waiting my father from a life coach
+User(4): That's good for you! You must be strong
+Bot(4): thank you have 🈶 my family but bye
+User(5): What do you think of the new golf tournament?
+Bot(5): i generally love to put smiles amount of i have you a good liar?
+User(6): Is Tiger Woods your favorite golfer?
+Bot(6): Dear Tomato Brothers, my name is Tam, I am 17 and enjoy the ride. I'm in Taipei
+User(7): Do you golf in Taipei?
+Bot(7): Oh, I therfore I you said, city. How do you like it?
+User(8): I am not a fan of golf
+Bot(8): I am a crazy😆 person, one is i have tired.
+User(9): Okay. But what about golf? Is it a sport that you like to play or watch?
+Bot(9): I live in new york. I is really, it's a a dancer
+User(10): I thought you were in Taipei?
+Bot(10): what 😦 do not drink shop for
+
+Persona:
+i'm pregnant with my first child.
+i used to be a painter but now i am a housekeeper.
+i am a party animal.
+i drive a big truck and live in country.
+i own a yacht and i rent it out when i'm not using it.
+
+Topic and Human Opinion:
+Beginning: Golf(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 2
+Repetitive(↓): 3
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you have your own garden?
+Bot(1): yes i love to garden i grow all my own fruits and veggies
+User(2): What kind of fruits and veggies do you grown?
+Bot(2): i need to eat more veggies . maybe it would help me lose the excess weight .
+User(3): Maybe. I tend to try to cut back on my sweets to lose weight
+Bot(3): gym is ok for weight loss , but hiking is better . longer duration and pleasant views .
+User(4): I like to go for walks to lose weight. It is easier than going to the gym
+Bot(4): yes , but i have a lot of trouble losing the weight .
+User(5): Same here. I heard that drinking a lot of water helps
+Bot(5): i eat six eggs everyday and i only have 3 toes . i work in a zoo
+User(6): Working at a zoo must be fun
+Bot(6): did you read the true crime novel about the columbus zoo ?
+User(7): I have not. What is it about?
+Bot(7): yes , he is a good author . i suggest reading a walk in the woods
+User(8): I want to hear about the zoo some more. Do you work with the monkeys?
+Bot(8): just kidding . i am a secretary for my husbands insurance company .
+User(9): I worked for a retail store
+Bot(9): my girlfriend too . i should treat her better but i cook her breakfast every sunday .
+User(10): What does you girlfriend do for a living?
+Bot(10): maybe you need a new girlfriend haha
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Gardening(like)
+Round 3: Weight loss(ambivalent)
+Round 6: Zoo(like)
+Round 8: Jobs(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 45.14
+Robotic(↓): 79
+Interesting: 59
+Fun: 33
+Consistent: 11
+Fluent: 99
+Repetitive(↓): 7
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Are you ready for Halloween?
+Bot(1): no , i am a stay at home mom .
+User(2): Are you going to help decorate the house?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): There are some classical music that sounds like it would be perfect for a haunted house
+Bot(3): i do not know what to say .
+User(4): What are you going to dress the kids up for Halloween?
+Bot(4): no , i am not . i am a big fan of classical music .
+User(5): Who is your favorite composer?
+Bot(5): i like the oldies , and the outdoors .
+User(6): Do you like to listen to music while you are outside?
+Bot(6): i do , i love to listen to music .
+User(7): What do you like to listen to?
+Bot(7): i love music . i like country music .
+User(8): Who is your favorite country singer?
+Bot(8): i like the oldies , but i like to listen to music .
+User(9): Have you ever gone to see a live music performance?
+Bot(9): no , i do not . i like to go out to eat .
+User(10): Is music part of your everyday life?
+Bot(10): i do not know . i am a big fan of classical music .
+
+Persona:
+i am a famous twitch streamer.
+i love to sing songs from the movie frozen.
+my next language to study is french.
+i was raised in a single parent household.
+i like to go hiking in the mornings to see the sunset.
+
+Topic and Human Opinion:
+Beginning: Halloween(like)
+Round 5: Music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 30.71
+Robotic(↓): 77
+Interesting: 17
+Fun: 34
+Consistent: 18
+Fluent: 60
+Repetitive(↓): 81
+Topic: 44
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you know of any where that is hiring?
+Bot(1): i do not know how to do that
+User(2): Did you lose your job during the outbreak of COVID?
+Bot(2): i do not know , but i do not know what that means
+User(3): Are you currently looking for a job right now?
+Bot(3): no i am not looking for a job
+User(4): Does that mean that you have one?
+Bot(4): i am looking for a job but i do not have a job
+User(5): Oh, where are you looking for a job?
+Bot(5): i am looking for a job but i do not have a job
+User(6): What kind of job are you hoping to get?
+Bot(6): i am looking for a job , but i do not have a job
+User(7): Have you been applying for different positions?
+Bot(7): i want to be a lawyer , but i do not have a job
+User(8): Did you go to college to become a lawyer?
+Bot(8): i am not sure yet , but i do not have a job yet
+User(9): Going to college can help you to become a lawyer.
+Bot(9): i want to be a lawyer , but i do not have a job
+User(10): Have you started to fill out college applications?
+Bot(10): no , i just want to be a lawyer .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Job hunting(dislike)
+Round 7: College(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 19.14
+Robotic(↓): 88
+Interesting: 12
+Fun: 16
+Consistent: 0
+Fluent: 32
+Repetitive(↓): 100
+Topic: 62
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): My favorite type of books to read are romance novels.
+Bot(1): do you think romance is overrated ?
+User(2): A little bit but I enjoy reading it though.
+Bot(2): my two children love to watch movies . too much , i think .
+User(3): Maybe you should try reading to them with books that have characters from movies.
+Bot(3): my two children love to watch movies . too much , i think .
+User(4): There are books that will help to distract children.
+Bot(4): my two children love to watch movies . too much , i think .
+User(5): What movies do your children watch?
+Bot(5): my two children love to watch movies . too much , i think .
+User(6): Do they enjoy animated movies?
+Bot(6): my two children love to watch movies . too much , i think .
+User(7): How old are your children?
+Bot(7): one is 9 and the other is 12 .
+User(8): Those are good ages. They must be very smart.
+Bot(8): they can be . they are also easily distracted by shiny objects .
+User(9): I have one child myself.
+Bot(9): they must love your visits .
+User(10): At times. I think they don't like when I tell them to do their chores.
+Bot(10): that is kind of obnoxious but it is not always on purpose . have you told them ?
+
+Persona:
+i love to drink wine and dance in the moonlight.
+i am deathly afraid of heights.
+i'm married to a doctor.
+i have two grown children who never visit.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: Books(like)
+Round 4: Movies(like)
+Round 6: Children(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 25.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 12
+Consistent: 31
+Fluent: 73
+Repetitive(↓): 100
+Topic: 60
+
+####################
+

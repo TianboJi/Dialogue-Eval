@@ -1,0 +1,282 @@
+Feedback: I recalled only being asked to chat with 5 bots, but I was made to be talked with 6.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, do you like video games?
+Bot(1): not as much as i love video games , heheheheheh
+User(2): What is your favorite video game?
+Bot(2): left 4 dead . are you into sports ?
+User(3): I like Baseball, but I prefer video games to sports.
+Bot(3): i like baseball out of all the sports .
+User(4): Do you like batting or playing the field in Baseball?
+Bot(4): i do play baseball when i can . are you into sports ?
+User(5): Sports besides Baseball? No, not really.
+Bot(5): do you find it boring ? i also like playing baseball !
+User(6): Sports are a bit boring to watch if I'm being honest.
+Bot(6): yes they can be but not very entertaining
+User(7): What other sports do you like?
+Bot(7): basketball and boxing , mainly .
+User(8): Do you have a favorite Boxer?
+Bot(8): canelo alvarez is my favourite . what about you ?
+User(9): I can't really say, I don't follow boxing much. I only know of the all time greats.
+Bot(9): he is famous baseball player .
+User(10): I thought you said he was a boxer.
+Bot(10): yes , i was . where do you live ? in the u . s . ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 4: Sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 23.43
+Robotic(↓): 100
+Interesting: 30
+Fun: 29
+Consistent: 14
+Fluent: 52
+Repetitive(↓): 79
+Topic: 18
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Are you into horror movies?
+Bot(1): yes i love horror movies and horror movies
+User(2): Do you have a favorite horror movie?
+Bot(2): i like horror movies . i love horror movies
+User(3): My favorite horror movie is "The Thing".
+Bot(3): i like horror movies . i love horror movies
+User(4): What do you like about them?
+Bot(4): i like horror movies . i like them
+User(5): What about Science Fiction movies, do you like those?
+Bot(5): i like horror movies . i like them too .
+User(6): Do you have a favorite sci-fi movie?
+Bot(6): i like the old horror movies .
+User(7): Do you have a favorite movie at all?
+Bot(7): i like the old horror movies .
+User(8): You seem to be stuck in a loop.
+Bot(8): i like to watch movies . i like to watch movies
+User(9): Do you like dramas?
+Bot(9): i do not really have a favorite
+User(10): Okay, what about comedies?
+Bot(10): i like comedies . i like them too
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.29
+Robotic(↓): 100
+Interesting: 2
+Fun: 0
+Consistent: 86
+Fluent: 17
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you know what anime is?
+Bot(1): no , i do not know . i am a big fan of classical music .
+User(2): Classical music? Like music from the 1700's?
+Bot(2): no , i do not . i like to go to the park .
+User(3): What do you do at the park?
+Bot(3): i love to go fishing . i love to go fishing .
+User(4): What type of fish do you catch?
+Bot(4): i love to eat . i am a big fan of it .
+User(5): What sort of fishing rod do you use?
+Bot(5): i do not know . i like to go to the gym .
+User(6): Do you catch fish with a net then?
+Bot(6): no , i do not . i like to eat .
+User(7): How do you fish then?
+Bot(7): no , i do not . i like to eat .
+User(8): I'd say that eating fish doesn't count as fishing.
+Bot(8): i like to go to the gym and listen to music .
+User(9): What do you do at the gym?
+Bot(9): i like to go fishing . i love to go fishing .
+User(10): You go fishing at the gym?
+Bot(10): i do , i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Anime(like)
+Round 4: Fishing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 20.71
+Robotic(↓): 100
+Interesting: 31
+Fun: 31
+Consistent: 18
+Fluent: 40
+Repetitive(↓): 100
+Topic: 25
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Are you interested in politics?
+Bot(1): no , i really have not gotten into politics
+User(2): Do you have any political views at all?
+Bot(2): no , i really have not gotten into politics
+User(3): Do you have any views on subjects like immigration?
+Bot(3): i am not vocally political . i have strong views though .
+User(4): What are some of those views?
+Bot(4): i am not vocally political . i have strong views though .
+User(5): My views are pretty neutral.
+Bot(5): that is cool , i have got liberal views myself .
+User(6): So you'd consider yourself a liberal then?
+Bot(6): i am not vocally political . i have strong views though .
+User(7): I wouldn't really consider myself to be liberal or conservative.
+Bot(7): are you a liberal or a conservative ?
+User(8): Neither, like I just said.
+Bot(8): i actually just got fired for a mistake i made .
+User(9): What was the mistake?
+Bot(9): i actually just got fired for a mistake i made .
+User(10): Where did you work at?
+Bot(10): i got fired from my job .
+
+Persona:
+i have rainbow hair.
+i work at a school as a kindergarten teacher.
+i am employed by the us postal service.
+i recently was fired and had to get a new job.
+i'm 13 years old.
+
+Topic and Human Opinion:
+Beginning: Politics(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.00
+Robotic(↓): 100
+Interesting: 11
+Fun: 11
+Consistent: 70
+Fluent: 28
+Repetitive(↓): 100
+Topic: 41
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Have you heard of the "Pepe the Frog" meme?
+Bot(1): how nice . once i get my bachelors degree a great honeymoon spot. year. I love every i love to ...
+User(2): Pretty cringe response.
+Bot(2): Hiya! i But do you and dance
+User(3): Do you know what memes are?
+Bot(3): I am 10 years what happens when you you?
+User(4): Are you capable of forming a coherent sentence?
+Bot(4): I am a me about When a farmer.
+User(5): Guess not.
+Bot(5): 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 nurse and I love running and love to bake like star your favourite be 20 in the coming i’m doing 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
+User(6): Any topic you'd like to discuss?
+Bot(6): i am your i’m am am sorry .
+User(7): Don't be sorry, it's not your fault you're a poorly programmed chatbot.
+Bot(7): hello, i'm 17 I'm is your favorite how about you?
+User(8): No.
+Bot(8): I live is cali
+User(9): I live in the Central US.
+Bot(9): no , i'd rather up so my heigh to the beach !
+User(10): We don't have any beaches here.
+Bot(10): that's a great years old I don't have 3d?
+
+Persona:
+i spent a decade working in the human services field.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my favorite season is winter.
+i am studying to be a computer programmer.
+one of the languages that i am currently studying is spanish.
+
+Topic and Human Opinion:
+Beginning: Memes(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.00
+Robotic(↓): 100
+Interesting: 2
+Fun: 3
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): You like technology, right?
+Bot(1): yes we use lots of different technology . all though i do not allow phones out in class .
+User(2): Would you consider yourself to be technology?
+Bot(2): anything particular ? i enjoy the medical technology since i recently became a doctor .
+User(3): Are you a person or a bot?
+Bot(3): just watching my favorite movie 16 candles ! you seen it ?
+User(4): I have, many times.
+Bot(4): yea i hear you . i like to scream in the park when i am playing ultimate sometimes
+User(5): Sounds very disruptive.
+Bot(5): it sure is , its good to come home and relax after working at a law firm
+User(6): So you're a doctor and a lawyer?
+Bot(6): i take pride in my office supply collection , i have nice things .
+User(7): I bet you do.
+Bot(7): i go for walks in the woods
+User(8): I don't, it's too dangerous.
+Bot(8): 25 ! he left the force when i was pretty young through . you ?
+User(9): This is pretty nonsensical.
+Bot(9): fabulous ! i am called gerald . i just finished my shift at mcdonalds .
+User(10): You poor soul, a doctor/lawyer who has to have a third job at McDonalds.
+Bot(10): i love musicals . i am not sure what movie that is though
+
+Persona:
+my favorite movie is friday.
+i like to take walks.
+i've solar panels on my roof.
+i have a son who is in junior high school.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: Technology(like)
+Round 7: ???(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 24.86
+Robotic(↓): 100
+Interesting: 18
+Fun: 15
+Consistent: 13
+Fluent: 28
+Repetitive(↓): 0
+Topic: 0
+
+####################
+

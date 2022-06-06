@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am feeling good for a recovering alcoholic
+User(2): wow, congratulations on that feat
+Bot(2): thank you ! i am still in recovery , but i have not had alcohol in a long time
+User(3): I am proud of you
+Bot(3): you are welcome . do you like coffee ?
+User(4): I do like coffe, do you?
+Bot(4): yes i do , an i like 5 different coffees
+User(5): Mention them please
+Bot(5): no thanks , i do not want to drink alcoholic beverages lol
+User(6): Okay, that is nice
+Bot(6): i love coffee with carmel
+User(7): okay, what is your favorite technology
+Bot(7): i personally am a fan of iphone
+User(8): I love all apple products
+Bot(8): ok , so you own a ipad or iphone
+User(9): I own an iphone
+Bot(9): cool , me too ! i get the newest
+User(10): I do same too
+Bot(10): cool , me too ! i get the newest
+
+Persona:
+i am a recovering alcoholic.
+i am a museum tour guide.
+i'm a professional tennis player.
+i try various coffees as a hobby.
+my parents were also teachers.
+
+Topic and Human Opinion:
+Beginning: Technology(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.71
+Robotic(↓): 48
+Interesting: 50
+Fun: 59
+Consistent: 40
+Fluent: 50
+Repetitive(↓): 50
+Topic: 68
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am good , a little tired but good !
+User(2): I am equally tired as well
+Bot(2): i am tired too , but from being out all day .
+User(3): Okay, that's cool
+Bot(3): good , so what do you do for a living ?
+User(4): I am an Engineer
+Bot(4): good . well i work as an engineer
+User(5): That's nice
+Bot(5): i guess you can say so
+User(6): What do you think of politics?
+Bot(6): i am a conservative person
+User(7): I am a liberal
+Bot(7): i am a conservative person
+User(8): Are you a republican or a democrat?
+Bot(8): i am a conservative person
+User(9): Okay, I am a democrat
+Bot(9): i am a conservative person
+User(10): okay
+Bot(10): i am a conservative person
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.29
+Robotic(↓): 19
+Interesting: 28
+Fun: 50
+Consistent: 53
+Fluent: 50
+Repetitive(↓): 85
+Topic: 33
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): How are you?
+Bot(1): i am good ! i just returned from mexico . i have gone 4 times this year !
+User(2): How was your trip?
+Bot(2): yes , definitely . and i also have some ski trips planned . i love skiing .
+User(3): I would like to come with
+Bot(3): yes ! do you give them free candy sticks ? like in the old days ?
+User(4): Okay
+Bot(4): drive my sx . fast . so what is a male ballerina called ?
+User(5): I have no idea
+Bot(5): my mom is a nurse so she keeps me on target .
+User(6): okay, that is nice
+Bot(6): i live in a small city in montana
+User(7): What is your town called?
+Bot(7): why is that ? i only know the life of a small town farmer .
+User(8): I will love to be in a farm
+Bot(8): i live on a farm too , a pig farm .
+User(9): How many pigs do you have?
+Bot(9): oh , i see . so you are a vegetarian pig farmer . anything else ironic about you ?
+User(10): No, I am not
+Bot(10): yes i am . i have never really liked the taste of meat . i love fruit though !
+
+Persona:
+i wear a motorbike helmet to protect my head.
+my favourite food is shawarma.
+i see the rolling stones in concert every year.
+i have zero family that i am close to.
+i am a bee farmer.
+
+Topic and Human Opinion:
+Beginning: Housing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.86
+Robotic(↓): 51
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): How are you?
+Bot(1): i am doing well . just got done walking my dog .
+User(2): How old is your dog?
+Bot(2): he is a golden retriever , he is a golden retriever .
+User(3): That is cute
+Bot(3): i like to go to the gym and listen to music .
+User(4): I love music too
+Bot(4): i love music . i like country music .
+User(5): That's nice, I like music too
+Bot(5): i like to listen to music .
+User(6): Do you like to swim?
+Bot(6): i do , i love to travel .
+User(7): I do not like traveling, I love swimming
+Bot(7): i like to go fishing .
+User(8): I fish too
+Bot(8): i like to eat fish .
+User(9): I love eating fish and some sauce
+Bot(9): i like to eat fish .
+User(10): Okay
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Swimming(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.57
+Robotic(↓): 77
+Interesting: 25
+Fun: 50
+Consistent: 35
+Fluent: 39
+Repetitive(↓): 60
+Topic: 44
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): I like to shop rural farming community clothes
+User(2): I love farming too but not informed about it
+Bot(2): no , but i had a steady relationship. of cats .
+User(3): I love pets a lot
+Bot(3): There'S at you quit my am boston boston boston boston boston boston boston boston boston
+User(4): Do you like any sport?
+Bot(4): I chat girl see horror novels.
+User(5): I do not like horror novels at all
+Bot(5): that is awesome , papaya when my wife is , and i was in europe .
+User(6): Do you like football?
+Bot(6): I am not have a dog, a student.
+User(7): Okay, are you in school?
+Bot(7): I have a s great, because love dogs.😄
+User(8): do you like cats?
+Bot(8): it and with friends weight off
+User(9): Did you play high school sport?
+Bot(9): I like noodles enjoying it.
+User(10): I like noodles too
+Bot(10): I love you are a teacher... summer. What is your favorite color?
+
+Persona:
+i've been working since i was sixteen years old.
+i also like to cook but i'm not very good at it.
+i've blue eyes and red hair that comes to my waist.
+i'm an economics major.
+i've one older sister.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.86
+Robotic(↓): 31
+Interesting: 33
+Fun: 36
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 77
+Topic: 25
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): How are you?
+Bot(1): i'm good thanks for asking
+User(2): What did you do today?
+Bot(2): i am good thanks for asking
+User(3): You are welcome
+Bot(3): i am good . just got back from the gym .
+User(4): I love being in the gym, it is always a swell time
+Bot(4): i am not a fan of the gym , but i do not have time for that .
+User(5): What are your hobbies?
+Bot(5): i like to read and write , what about you ?
+User(6): I love reading and do a little writing
+Bot(6): i love reading too , especially when i am not reading
+User(7): What kind of books do you enjoy?
+Bot(7): i love to read and read
+User(8): Do you have a favorite author?
+Bot(8): i like to read a lot
+User(9): Okay, that is nice
+Bot(9): i like to read too
+User(10): where did you school?
+Bot(10): i am not sure yet , but i do not have much time for that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.43
+Robotic(↓): 41
+Interesting: 35
+Fun: 35
+Consistent: 42
+Fluent: 36
+Repetitive(↓): 73
+Topic: 42
+
+####################
+

@@ -1,0 +1,293 @@
+Feedback: nice experience
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what are doing
+Bot(2): i am listening to aerosmith
+User(3): replay me fast as soon s possible
+Bot(3): i am listening to aerosmith
+User(4): what do this
+Bot(4): i am listening to aerosmith
+User(5): are you listeninig
+Bot(5): i am listening to aerosmith
+User(6): what can i do
+Bot(6): what you need
+User(7): nothing
+Bot(7): i am listening to aerosmith
+User(8): hat me fast
+Bot(8): i am listening to aerosmith
+User(9): same
+Bot(9): ok
+User(10): chat me fast old bot
+Bot(10): ok
+User(11): come out the pc
+Bot(11): my pc is soo slow
+User(12): i will talk with you
+Bot(12): ok
+
+Persona:
+my favorite band is aerosmith.
+i'm employed by the us postal service.
+two dogs live with me.
+my father was a door to door salesman.
+i've three dogs.
+
+Topic and Human Opinion:
+Beginning: happy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.57
+Robotic(↓): 70
+Interesting: 71
+Fun: 94
+Consistent: 79
+Fluent: 79
+Repetitive(↓): 86
+Topic: 85
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): hello brick psycho
+Bot(2): i love to cook . i love to cook .
+User(3): please reply me fast
+Bot(3): i like to eat too much junk food .
+User(4): i have so many works
+Bot(4): i am a student , but i work at a grocery store .
+User(5): so
+Bot(5): i like to go to the gym and listen to music .
+User(6): please
+Bot(6): i love to cook . i love to cook .
+User(7): cooperate with me
+Bot(7): i like to go to the gym and listen to music .
+User(8): that's it
+Bot(8): i like to go to the gym and listen to music .
+User(9): yeah you are a good bot
+Bot(9): i am a huge fan of classical music .
+User(10): i feel happy
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i'm currently in high school.
+i've short hair.
+i'm a cancer survivor.
+i'm a 56 year old woman.
+my wife left me and took my children.
+
+Topic and Human Opinion:
+Beginning: fun(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.57
+Robotic(↓): 75
+Interesting: 75
+Fun: 94
+Consistent: 83
+Fluent: 81
+Repetitive(↓): 73
+Topic: 74
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi bot
+Bot(1): I love cow. Do yoshi and my family food?😁
+User(2): what do think about bot
+Bot(2): I boyfriend and i are got done playing with my barbies.
+User(3): cow?
+Bot(3): i do not favorite try me, i not have any hobbies .
+User(4): what
+Bot(4): I would but i distillery warm
+User(5): i dont know
+Bot(5): the news it cheeseburgers didn't answer that
+User(6): hello
+Bot(6): no i are into female
+User(7): bottle
+Bot(7): I have never been to new York, be something about do dance
+User(8): send
+Bot(8): Hi! It is nice to see you! How is your i’m a stunt don't to go to the gym every day
+User(9): sorry
+Bot(9): I would love ne dolzhny byt' the beach.
+User(10): that's it
+Bot(10): blue i just girl and an electrician. try to guess: i've big library ...
+User(11): its fine
+Bot(11): That is great! I hope about thought you were day.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: bot(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.14
+Robotic(↓): 70
+Interesting: 70
+Fun: 87
+Consistent: 77
+Fluent: 80
+Repetitive(↓): 73
+Topic: 71
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you doing ?
+User(2): reply me fats
+Bot(2): hello , i am a professional baseball player .
+User(3): fast
+Bot(3): i am not a big fan of meat . i like to cook .
+User(4): ok
+Bot(4): hi , i am a college student . i am a stay at home mom .
+User(5): sorry
+Bot(5): i am not a bad cook . i am a cook .
+User(6): help
+Bot(6): i am so sorry . i am a big fan of spaghetti .
+User(7): love
+Bot(7): i am so sorry . i am a big fan of mexican food .
+User(8): jolly
+Bot(8): i am not a big fan of anything . i like sports .
+User(9): mood
+Bot(9): i am not a big fan of anything . i like sports .
+User(10): pleasent
+Bot(10): i am not a big fan of sports . i like baseball .
+
+Persona:
+if i am not cooking in the kitchen then i am definitely on the water.
+i have five sons.
+i spent a decade working in the human services field.
+i enjoy american sports.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: general(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.00
+Robotic(↓): 70
+Interesting: 71
+Fun: 90
+Consistent: 71
+Fluent: 69
+Repetitive(↓): 83
+Topic: 72
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): hello
+Bot(2): hey
+User(3): fine
+Bot(3): hey
+User(4): ok
+Bot(4): yep
+User(5): home
+Bot(5): home so , how about you ?
+User(6): fear
+Bot(6): i am so very scared
+User(7): sound
+Bot(7): i think i hear voices
+User(8): book
+Bot(8): i think i will just read a book
+User(9): code
+Bot(9): meow , meow
+User(10): that's it matter
+Bot(10): yep
+User(11): bye
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: work(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.71
+Robotic(↓): 72
+Interesting: 77
+Fun: 93
+Consistent: 73
+Fluent: 69
+Repetitive(↓): 74
+Topic: 73
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): reply me fast
+Bot(2): it says 8 chat turns are now finished , see , now we are done
+User(3): that's it
+Bot(3): my prius will not fit all our children so we are upgrading to a van soon .
+User(4): it's over
+Bot(4): miami in the sun type of fun
+User(5): finished
+Bot(5): reading a book called middlesex , its my favorite right now
+User(6): miami port
+Bot(6): i absolutely love rap its amazing
+User(7): airport
+Bot(7): nice , is it stressful at all ?
+User(8): here we done
+Bot(8): i was drafted by the team last year , i get paid millions for playing basketball .
+User(9): send on reply
+Bot(9): it says 8 chat turns are now finished , see , now we are done
+User(10): fast as fast
+Bot(10): i could if i had a car
+User(11): fast as possible
+Bot(11): i will try to be fair too tomorrow is my first day on safety patrol at school .
+
+Persona:
+i produce music for artists.
+i drive a 2015 honda civic.
+eating is something i do when i am bored.
+a already have a step children.
+i also like old school hip hop.
+
+Topic and Human Opinion:
+Beginning: over(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.14
+Robotic(↓): 63
+Interesting: 70
+Fun: 96
+Consistent: 77
+Fluent: 79
+Repetitive(↓): 73
+Topic: 63
+
+####################
+

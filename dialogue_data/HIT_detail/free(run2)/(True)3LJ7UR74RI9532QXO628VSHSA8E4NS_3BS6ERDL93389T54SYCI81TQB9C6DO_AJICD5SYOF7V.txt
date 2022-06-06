@@ -1,0 +1,284 @@
+Feedback: Some of these were like talking to a wall! It was a little frustrating. 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Who do you think will win the presidential election?
+Bot(1): i think withing the democratic party .
+User(2): you think the Democratic Party will win?
+Bot(2): i think withing the democratic party .
+User(3): Do you think Trump will accept the results if the democrats win?
+Bot(3): no i voted for trump , just like most of us in seattle . what religion are you ?
+User(4): I thought most people in Seattle were democrat?
+Bot(4): no i voted for trump , just like most of us in seattle . what religion are you ?
+User(5): I am a christian
+Bot(5): no i voted for trump , just like most of us in seattle . what religion are you ?
+User(6): what religion are you?
+Bot(6): no i voted for trump , just like most of us in seattle . what religion are you ?
+User(7): why did you vote for Trump?
+Bot(7): no i voted for trump , just like most of us in seattle . what religion are you ?
+User(8): don't you think he is a narcisist?
+Bot(8): no i voted for trump , just like most of us in seattle . what religion are you ?
+User(9): Do you like rainy days?
+Bot(9): no i voted for trump , just like most of us in seattle . what religion are you ?
+User(10): what kind of weather do you like?
+Bot(10): i won homecoming in high school !
+
+Persona:
+l also love comic books.
+i am scared of dying.
+i am a male.
+i won homecoming queen this year.
+i think i'll retire in a few years.
+
+Topic and Human Opinion:
+Beginning: Election(like)
+Round 8: rain(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 2.86
+Robotic(↓): 100
+Interesting: 8
+Fun: 8
+Consistent: 4
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love cats
+Bot(1): cats are great . cats are my favorite .
+User(2): me too!
+Bot(2): cats are great ! i love cats !
+User(3): I have 3, how about you?
+Bot(3): i have 3 cats and 2 cats !
+User(4): so you have 5 cats??
+Bot(4): i have 3 cats and 2 cats !
+User(5): that is a lot! I have a hard time with just 3!
+Bot(5): i have 3 cats and a cat !
+User(6): are they girls or boys?
+Bot(6): they are boys , they are all grown !
+User(7): mine are all girls
+Bot(7): they are boys , they are all boys !
+User(8): do they fight?
+Bot(8): they fight with me ! they fight with me !
+User(9): lol maybe they need some toys
+Bot(9): they fight me , they fight with me !
+User(10): when my cats misbehave I spray them with a little water
+Bot(10): i love cats ! they are my favorite !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.86
+Robotic(↓): 98
+Interesting: 53
+Fun: 43
+Consistent: 65
+Fluent: 30
+Repetitive(↓): 61
+Topic: 82
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you celebrate Halloween?
+Bot(1): I have watching war documentaries am Is it good?
+User(2): I like documentaries generally
+Bot(2): Come on, a love there.
+User(3): what do you mean?
+Bot(3): Bruce? can bake fish. also like green?
+User(4): Do you like candy on halloween?
+Bot(4): I it was nice to a little busy too.
+User(5): I'm going to dress up as a witch
+Bot(5): I like to miss you school love fish😁
+User(6): I like Halloween treats
+Bot(6): i amfine play girl
+User(7): you are a girl?
+Bot(7): i think writing songs for for that .
+User(8): about halloween?
+Bot(8): you too ! so who is your favorite band ? a school doctor's used morphine. 😜
+User(9): I don't think a school doctor could use morphine
+Bot(9): I don't have you be a student.
+User(10): I'm not a student
+Bot(10): I am a not enough for .
+
+Persona:
+i'm fluent in english spanish and french.
+i am planning on getting a divorce.
+i have superpowers.
+my next language to study is french.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: Halloween(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.29
+Robotic(↓): 100
+Interesting: 13
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 34
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I have not had Covid
+Bot(1): huh ? i love vampire movie music with pizza . you ?
+User(2): I like those things too but I don't like Covid
+Bot(2): i lone it so it suites me well . i have to go now so bye
+User(3): ok bye
+Bot(3): lovely talking to you !
+User(4): you as well
+Bot(4): i also love mountain dew . i drink a ton of it . every day .
+User(5): I thought you had to go?
+Bot(5): i am in management , but i hate work . i do it for the love of money
+User(6): I hate Mountain Dew
+Bot(6): cant . its gotta be diet dew . i have not done regular dew since high school
+User(7): I like coke
+Bot(7): coke is more of a light reddish color while dr pepper is much darker
+User(8): that is true
+Bot(8): i hope your love of languages and love of spouse makes you happy
+User(9): I am not married
+Bot(9): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(10): Have you had Covid?
+Bot(10): since last year was a sudden onset . it was very disappointing .
+
+Persona:
+i'm working on a building a robot to be my body double.
+i will graduate from high school in two years.
+i spend most of my time on facebook when i'm not working.
+i'm a baby delivery nurse.
+my favorite music is country.
+
+Topic and Human Opinion:
+Beginning: Covid(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.14
+Robotic(↓): 100
+Interesting: 12
+Fun: 0
+Consistent: 0
+Fluent: 13
+Repetitive(↓): 19
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Bob's Burgers is one of my favorite shows
+Bot(1): i like to go to the gym and listen to music .
+User(2): I like music too
+Bot(2): i love music . i like country music .
+User(3): I prefer pop
+Bot(3): i like to eat too .
+User(4): Most people do
+Bot(4): i like to go to the gym and listen to music .
+User(5): do you watch tv?
+Bot(5): i do , i like to read .
+User(6): I like to read too, I'm reading the prequel to the Hunger Games
+Bot(6): that is awesome . i like to read .
+User(7): what shows do you like?
+Bot(7): i like the classics , and the outdoors .
+User(8): Another favorite show of mine is I Love Lucy
+Bot(8): i like the show and the indians .
+User(9): Indians?
+Bot(9): i am a student , but i am a student .
+User(10): I am not a student
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Bob's Burgers(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.57
+Robotic(↓): 79
+Interesting: 51
+Fun: 47
+Consistent: 30
+Fluent: 49
+Repetitive(↓): 56
+Topic: 7
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like swimming
+Bot(1): i love art . i am a surf bum living out in california .
+User(2): I live in Arizona
+Bot(2): cool , i love california it is beautiful
+User(3): We swim a lot because it is hot here
+Bot(3): i live in california it is always hot here .
+User(4): I love California
+Bot(4): i really love california too !
+User(5): I miss Disneyland
+Bot(5): i want to go to hollywood
+User(6): I've been to Universal Studios
+Bot(6): i want to go to hollywood
+User(7): Do you have a pool?
+Bot(7): i have an indoor pool
+User(8): that's amazing
+Bot(8): i find it to be very expensive
+User(9): I bet!
+Bot(9): i find it to be very expensive
+User(10): We have an above ground pool and that still gets expensive
+Bot(10): yea everything is expensive now
+
+Persona:
+i'm a musician.
+i am here for shoplifting.
+i enjoy building houses.
+i'm an art major in college.
+i live in california but the recording artist market was dead last year.
+
+Topic and Human Opinion:
+Beginning: Swimming(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.86
+Robotic(↓): 63
+Interesting: 65
+Fun: 71
+Consistent: 56
+Fluent: 77
+Repetitive(↓): 43
+Topic: 42
+
+####################
+

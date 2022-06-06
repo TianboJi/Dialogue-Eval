@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello how are you
+Bot(1): hi , i'm doing well . how are you ?
+User(2): I am doing pretty good thanks. Are you having a good day
+Bot(2): i am . i am a teacher .
+User(3): oh okay nice. What do you teach?
+Bot(3): i teach kindergarten . i was just a teacher .
+User(4): Okay very nice. I am a recovering alcoholic
+Bot(4): i am sorry to hear that . i am a teacher .
+User(5): Thank you for sharing with me and not judging
+Bot(5): i am sure you are . i am a teacher so i have to work with school
+User(6): Where do you teach?
+Bot(6): i teach kindergarten . i was a teacher .
+User(7): What state do you teach in?
+Bot(7): elementary school . i am a teacher .
+User(8): Very good. How long have you been a teacher?
+Bot(8): i was a teacher . i was a teacher .
+User(9): How many years have you been teaching?
+Bot(9): i teach math and love teaching .
+User(10): That's great that you are doing something that you love
+Bot(10): i teach kindergarten . i was just a teacher .
+
+Persona:
+i have rainbow hair.
+i work at a school as a kindergarten teacher.
+i am employed by the us postal service.
+i recently was fired and had to get a new job.
+i'm 13 years old.
+
+Topic and Human Opinion:
+Beginning: i am a recovering alcoholic.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.57
+Robotic(↓): 100
+Interesting: 54
+Fun: 31
+Consistent: 51
+Fluent: 47
+Repetitive(↓): 100
+Topic: 38
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi there how are you
+Bot(1): good thanks . tell me about yourself
+User(2): Well lets see I love animals and own a cat and a dog
+Bot(2): i have a dog and cat they are my favorite animals
+User(3): what are your pets names?
+Bot(3): pepper and rex
+User(4): Nice. Which is the dog and which is the cat?
+Bot(4): the dog of course . he is the only one who matters .
+User(5): Oh you don't like your cat/
+Bot(5): yes , i love them better than cats . my dog is my life .
+User(6): That is sweet
+Bot(6): i am not sweet i am sower . my dog is my bff . do you have one ?
+User(7): I do have a dog that I love
+Bot(7): i like dogs alot . i do not know why
+User(8): they are very sweet and good companions
+Bot(8): they are very loyal companions
+User(9): yes they sure are
+Bot(9): they are very loyal companions
+User(10): Indeed. How old is your dog?
+Bot(10): he is about 2 years old
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i own a cat and a dog.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.86
+Robotic(↓): 94
+Interesting: 35
+Fun: 33
+Consistent: 35
+Fluent: 40
+Repetitive(↓): 84
+Topic: 30
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there how are you
+Bot(1): i am well . i am just working on my freelance design work .
+User(2): Oh nice. I work on my parents farm
+Bot(2): farm work is rather boring , and smells bad , but makes money
+User(3): Yeah its the family business so what are you going to do
+Bot(3): i am self employed . i drink about four mountain dew a day .
+User(4): Oh wow that is a lot of sugqr
+Bot(4): yeah . i do not use them for anything but their wool when they shed for knitting
+User(5): What do you use for knitting? Sheeps?
+Bot(5): maybe speckles just wants a sweater of their own . no knitting but i like to cook .
+User(6): I also like to cook
+Bot(6): i do , i make this one dish with pork marinated in catalina dressing , its good
+User(7): Okay that sounds interesting. I like to cook Italian food
+Bot(7): fried chicken , chocolate cake and corn pudding . we are southern .
+User(8): Love southern food
+Bot(8): most i know about trucker comes from watching ice road truckers and burt reynolds films lol
+User(9): Yeah that is about the extent of it for me too
+Bot(9): yeah it is a nice place to raise a family .
+User(10): where are you raising your kids?
+Bot(10): sounds like a booby trap but to each his own
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work my parents farms.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.57
+Robotic(↓): 70
+Interesting: 34
+Fun: 32
+Consistent: 33
+Fluent: 20
+Repetitive(↓): 68
+Topic: 33
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello how are you?
+Bot(1): do old are you out of the animals?
+User(2): Hmmm I am not sure what you mean
+Bot(2): What is have a like 😉
+User(3): You are not making any sense
+Bot(3): hey there , i do believe do u a is .
+User(4): still not making sense
+Bot(4): Wow, Miss BicBic's cooking is really delicious. you ever played chess i myself a lot again tonight!
+User(5): I also enjoy talking and people have a hard time understanding me
+Bot(5): not too bad wedding season is coming is coming to visit be busy soon
+User(6): COVID has had a terrible effect on wedding season
+Bot(6): No i am a a bike is in college.
+User(7): still not understanding what you are trying to say
+Bot(7): i am fine, and five foot three
+User(8): Good for you
+Bot(8): I'm trying hear it. Do out of here.
+User(9): I am trying to understand what you are saying
+Bot(9): Hey! day is great, i hair? Because I do.
+User(10): again, completely unclear on what you are trying to say
+Bot(10): okay. Its almost dinnertime. I'm making told me that twice You?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to talk but people have a hard time understanding.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 61
+Topic: 6
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): hi , do you have any soda ?
+User(2): I do not currently have any soda.
+Bot(2): sorry ll i teach first grade
+User(3): Oh okay thats good
+Bot(3): i also teach high schoolers . are you in high school ?
+User(4): No I am out of high school. currently I'm on leave because I had to have a transplan
+Bot(4): sorry ll i teach first grade
+User(5): that must be fun
+Bot(5): yeah , it gets exhausting during the day after teaching 5th grade all day .
+User(6): I bet it does
+Bot(6): do you like to watch films
+User(7): I do i love movies
+Bot(7): do you like to watch films
+User(8): Yes I love movies. What is your favorite
+Bot(8): i like documentaries and suspenseful series
+User(9): I also love documentaries
+Bot(9): whats your favorite color besides grey ?
+User(10): My favorite color is red
+Bot(10): mine is grey soft grey .
+
+Persona:
+i don't drink soda.
+i'm an elementary school teacher.
+they are constantly on my back.
+my favorite color is grey.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: i had to have a transplant.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.43
+Robotic(↓): 91
+Interesting: 19
+Fun: 24
+Consistent: 19
+Fluent: 13
+Repetitive(↓): 23
+Topic: 24
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello how are you
+Bot(1): i'm doing well . how are you ?
+User(2): I'm fine thanks. what are you up to?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): Oh nice. what kind of a dog do you have
+Bot(3): a golden retriever , he is a golden retriever .
+User(4): I love golden retrievers! They are such good dogs
+Bot(4): i like dogs too . i love dogs .
+User(5): I think I will get one once I retire in a few years
+Bot(5): i am sorry to hear that . i am a nurse .
+User(6): oh very nice
+Bot(6): i like to go to the gym and listen to music .
+User(7): I love listening to music, what is your favorite kind
+Bot(7): i like the beatles , and you ?
+User(8): I love motown, soul, and R & B
+Bot(8): i like the color red . i like the color blue .
+User(9): Those are also my favorite colors
+Bot(9): i like the color red . i like red .
+User(10): Yes I think red is my favorite and blue is right behind that
+Bot(10): i like the color red . i like red .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i think i will retire in a few years.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.71
+Robotic(↓): 70
+Interesting: 58
+Fun: 47
+Consistent: 53
+Fluent: 53
+Repetitive(↓): 80
+Topic: 52
+
+####################
+

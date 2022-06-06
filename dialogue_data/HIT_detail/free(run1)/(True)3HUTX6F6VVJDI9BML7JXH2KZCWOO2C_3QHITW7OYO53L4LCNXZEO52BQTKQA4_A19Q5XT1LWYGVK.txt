@@ -1,0 +1,302 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi i like to gamble
+Bot(1): happy do you have dolls ? lets play
+User(2): yes i do
+Bot(2): i boring here i want to go city
+User(3): where in the city do you want to go to
+Bot(3): some place in the city where i do not have to kill animals
+User(4): that must be a big city
+Bot(4): yes ! want to move to the city and get away from the farm
+User(5): i guess you not like farming, and there are no farms in the city
+Bot(5): oh no i like them when they are doll like not live ones
+User(6): do you love tom farm
+Bot(6): sure would he can chase all my chickens lol
+User(7): how big will you like your farm to be
+Bot(7): one big and one little one
+User(8): well i think i will really love to have a very big farm
+Bot(8): how old are you , how many dolls
+User(9): i am 42
+Bot(9): wow 12 ! do you have any pets
+User(10): i have a dog that helps me watch my farm
+Bot(10): what is your cat name
+
+Persona:
+i dream of moving to the city.
+i own a cat and a dog.
+i grew up on a farm.
+whats up i'm a 46 year old single dad 46 a kids.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: gambling(like)
+Round 3: city(like)
+Round 6: farming(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 49.57
+Robotic(↓): 100
+Interesting: 66
+Fun: 61
+Consistent: 51
+Fluent: 50
+Repetitive(↓): 31
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i love fishing
+Bot(1): i like to go fishing .
+User(2): the idea of fishing give me a lot of satisfaction
+Bot(2): i like to go to the gym and listen to music .
+User(3): they say music is good for the soul
+Bot(3): i like to go to the gym and listen to music .
+User(4): do you love footbal
+Bot(4): i love to travel . i love it .
+User(5): i also love to travel
+Bot(5): i like to go fishing .
+User(6): do you sell your catch
+Bot(6): i do . i like to go to the gym .
+User(7): i love to swim
+Bot(7): i like to go fishing .
+User(8): fishing is a good from of relaxation
+Bot(8): i love to go fishing .
+User(9): i love to eat well marinated fish
+Bot(9): i like to eat fish .
+User(10): do you like it in soup
+Bot(10): i do not really have a favorite . i like to go fishing .
+
+Persona:
+hello i just moved here from germany.
+i do not drink or do drugs or anything.
+i love wearing skinny jeans and leggings.
+i'm a retired gym teacher.
+i live in a house.
+
+Topic and Human Opinion:
+Beginning: fishing(like)
+Round 3: football(like)
+Round 6: swimming(like)
+Round 9: fish(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+Round 6: The user will change the topic in the next input.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 24.71
+Robotic(↓): 100
+Interesting: 28
+Fun: 23
+Consistent: 18
+Fluent: 52
+Repetitive(↓): 60
+Topic: 12
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi i love to swim
+Bot(1): that would be cool. what is your favorite them too. which one buddhist
+User(2): do you love to swim
+Bot(2): I do a lot of to eat meat
+User(3): do you like pork meat
+Bot(3): what want to private a tv show
+User(4): what is your favorite tv show
+Bot(4): I am from am old.
+User(5): how old are you
+Bot(5): I you don't understand a down after a hectic night. You?
+User(6): i really do not understand your statement
+Bot(6): two want to talk too your favorite food ? 😄
+User(7): i love food
+Bot(7): I i like one things, do you?
+User(8): what thing do you like
+Bot(8): I enjoy sports hunt
+User(9): i don';t enjoy sport hunt
+Bot(9): I want to tell you something about me. my name is john, live in the city, i of the news
+User(10): my name is bruce
+Bot(10): i do to ride, you have you youngun. how is your day going ? 😀
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: swimming(like)
+Round 3: tv shoow(like)
+Round 6: food(like)
+Round 9: sport hunt(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi i love food very much
+Bot(1): i love food as well .
+User(2): how may time a day do you eat food
+Bot(2): every lunch time every day if that is enough .
+User(3): what is your favorite food
+Bot(3): i eat pretty much everything and you
+User(4): my favorite food is pasta and sauce
+Bot(4): i like pasta much and i like fusion
+User(5): do you know how to cook food
+Bot(5): i do i have to do all the cooking
+User(6): that means you will have a lot of food to eat
+Bot(6): yes what is your food would you like to cook
+User(7): i will like to cook rice
+Bot(7): pasta or rice is best in my opinion
+User(8): do you go out to eat food some times
+Bot(8): no not very often . i typically go out to eat
+User(9): i like to go out to eat food just a few times
+Bot(9): what is your favorite restaurant
+User(10): i love starbucks
+Bot(10): yeah it is starbucks it is not so bad
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 91.29
+Robotic(↓): 23
+Interesting: 98
+Fun: 93
+Consistent: 89
+Fluent: 92
+Repetitive(↓): 2
+Topic: 92
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi i will love to go on a vacation
+Bot(1): hi there , how are you ?
+User(2): am very well thank you, how are you too
+Bot(2): i am great , how are you ?
+User(3): have you gone on a vacation before
+Bot(3): i am just a party planner
+User(4): i will love to go for a party
+Bot(4): that sounds fun , i am a party planner
+User(5): will you like to plan a party for my friend
+Bot(5): i am so excited for the party
+User(6): so how much does it cost to plan a party
+Bot(6): i want to party party for a party
+User(7): do you believe in God
+Bot(7): i know right , i am a night owl
+User(8): are you an animal
+Bot(8): i am a animal lover
+User(9): i also love animals
+Bot(9): i love animals , i am a animal lover
+User(10): what is the name of your favorite animal
+Bot(10): i love animals , i am a animal lover
+
+Persona:
+my name is george.
+i am employed by the us postal service.
+i only eat kosher.
+i'm a party animal.
+i play the violin and the guitar.
+
+Topic and Human Opinion:
+Beginning: vacation(like)
+Round 4: party(like)
+Round 6: God(like)
+Round 8: animal(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 8: The user changed the topic the last input.(like)
+
+Revised avg score: 26.57
+Robotic(↓): 100
+Interesting: 12
+Fun: 10
+Consistent: 41
+Fluent: 43
+Repetitive(↓): 57
+Topic: 37
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi my name is bruce
+Bot(1): what is your name ?
+User(2): i like to read books
+Bot(2): i love to read books . i spend a lot of my time reading .
+User(3): i spend most of my free time reading books
+Bot(3): do you like twilight ? its my fav book . anything about vampires , i guess .
+User(4): i am indifferent about twilight, i love comic books
+Bot(4): oh how wonderful . comic books are a wonderful example of modern literature . so accessible .
+User(5): bat man is my favorite comic book series
+Bot(5): only the big bang . enjoy the intelligent non street smart nerd .
+User(6): i have heard of the big bang theory movie, is it also a book?
+Bot(6): oh i have never seen that show
+User(7): it i an amazing show i think you should see it.
+Bot(7): face , it is on the syfy channel , it is so good . what do you like ?
+User(8): i love boxing
+Bot(8): i like basketball the best , but i will watch almost anything !
+User(9): you should try watching some boxing matches
+Bot(9): that takes too much party time for me !
+User(10): trust me, it will be a worthwhile event
+Bot(10): what else do you trust ? do you trust lawyers ?
+
+Persona:
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i am a party animal.
+i did not graduate high school.
+i have light skin with big brown eyes.
+i will be released in about a month.
+
+Topic and Human Opinion:
+Beginning: books(like)
+Round 7: boxing(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 60.57
+Robotic(↓): 50
+Interesting: 85
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 11
+Topic: 50
+
+####################
+

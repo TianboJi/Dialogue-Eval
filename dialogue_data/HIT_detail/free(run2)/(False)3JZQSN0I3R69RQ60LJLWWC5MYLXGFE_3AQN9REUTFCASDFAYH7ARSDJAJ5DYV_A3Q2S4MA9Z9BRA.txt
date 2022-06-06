@@ -1,0 +1,286 @@
+Feedback: This was confusing when the bot would switch to a topic that did not relate at all.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Cats
+Bot(1): heres something crazy . . . i have 23 cats too
+User(2): I have three cats
+Bot(2): heres something crazy . . . i have 23 cats too
+User(3): Why do you have that many
+Bot(3): i am not sure , but they bug me a lot
+User(4): Where do they live
+Bot(4): maine and they live in california
+User(5): What types of cats are they
+Bot(5): i am not sure , but they bug me a lot
+User(6): What are their names
+Bot(6): tom and jerry are there names
+User(7): What do they eat
+Bot(7): eat them if they are big enough
+User(8): You eat your cats
+Bot(8): eat them if they are big enough
+User(9): Is that legal
+Bot(9): no ! there should be a law against it
+User(10): Then why would you do it
+Bot(10): i take them their food
+
+Persona:
+i spend a lot of time browsing the internet.
+i am a mechanical engineer.
+i'm 24 years old.
+i have one brother.
+i plan to go to business school next year.
+
+Topic and Human Opinion:
+Beginning: Cats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.00
+Robotic(↓): 89
+Interesting: 54
+Fun: 55
+Consistent: 29
+Fluent: 37
+Repetitive(↓): 70
+Topic: 43
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Flowers
+Bot(1): I am in whoever how are you u home in seattle, washington. Where are you?
+User(2): Do you like flowers
+Bot(2): I am not worried about it. india. where are you working in construction
+User(3): Do you look at flowers
+Bot(3): Oh. I was very to! of you.
+User(4): Have you ever grown flowers
+Bot(4): I love the are game u like we organic foods! What do you and your gas do?
+User(5): Do you live where there are flowers
+Bot(5): hello, how are you today? I your son it. Do the human field
+User(6): I have a large garden of flowers
+Bot(6): I changes for how named radar.
+User(7): I am not sure what radar has to do with flowers
+Bot(7): oh. I driving old what u you? I have a decade in human services
+User(8): I had a large flower garden and would like to add more
+Bot(8): good ! finally got a day off . just relaxing eating cake with my daughters .. doing for i have i love cats ...
+User(9): I have a lot of perennial flowers which I am trimming now
+Bot(9): gummy bears are about thanks. my vices
+User(10): Flowers are my favorite thing to garden
+Bot(10): I live to a mini mini are you from?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Flowers(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.57
+Robotic(↓): 91
+Interesting: 17
+Fun: 12
+Consistent: 6
+Fluent: 7
+Repetitive(↓): 33
+Topic: 5
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): winter
+Bot(1): i love to go fishing . i love it .
+User(2): Do you fish in the winter
+Bot(2): no , i do not . i like to go out to eat with my family .
+User(3): What is your favorite restaurant
+Bot(3): i like the outdoors , but i love to travel .
+User(4): Do you travel to different restaurants
+Bot(4): no , i do not . i like to go to the park .
+User(5): What do you do at the park
+Bot(5): i like to go fishing . i love to go fishing .
+User(6): Fish is fun
+Bot(6): i like to go to the gym and listen to music .
+User(7): What do your do at the gym
+Bot(7): i like to go to the park and listen to music .
+User(8): Have you been to a large park
+Bot(8): no , i do not . i like to go fishing .
+User(9): You can fish at a park
+Bot(9): i love to cook . i love to cook .
+User(10): Do you grill out in the park
+Bot(10): i do not , but i do like to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: winter(like)
+Round 2: Going out to ear(ambivalent)
+Round 4: Parks(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 32.86
+Robotic(↓): 14
+Interesting: 12
+Fun: 12
+Consistent: 12
+Fluent: 23
+Repetitive(↓): 20
+Topic: 5
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Christmas
+Bot(1): i am so sorry to hear that .
+User(2): I like the lights at Christmas
+Bot(2): i am a little too , but i am a big fan of the color of the stones .
+User(3): Do you collect stones
+Bot(3): i do . i am a big fan of vintage cars .
+User(4): How many cars do you have
+Bot(4): i have two mustangs . they are my favorite
+User(5): What year are the Mustangs
+Bot(5): i have two mustangs and they are old
+User(6): Do you like to drive them fast
+Bot(6): i do not have a car
+User(7): Don;t you have Mustangs
+Bot(7): i have two mustangs they are awesome
+User(8): What color
+Bot(8): i have two mustangs
+User(9): What color are they
+Bot(9): i have a mustang , it is a ford
+User(10): Yes, but what color
+Bot(10): i like blue , i am a redhead
+
+Persona:
+i am a skateboarder.
+i own two vintage mustangs.
+i have a boyfriend.
+i'm from a small town.
+i have one older sister.
+
+Topic and Human Opinion:
+Beginning: Christmas(like)
+Round 2: stones(dislike)
+Round 3: cars(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 29.86
+Robotic(↓): 87
+Interesting: 35
+Fun: 33
+Consistent: 20
+Fluent: 21
+Repetitive(↓): 29
+Topic: 16
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): golf
+Bot(1): let us go golf for the mean time
+User(2): Where would you like to play golf
+Bot(2): let us go golf for the mean time
+User(3): Where would you like to golf
+Bot(3): let us go golf for the mean time
+User(4): Do you have a place to golf
+Bot(4): let us go golf for the mean time
+User(5): Why do you like golf
+Bot(5): golf is boring but being outside is a blast
+User(6): I agree with being outside
+Bot(6): golf is boring but being outside is a blast
+User(7): Where do you golf
+Bot(7): golf is boring but being outside is a blast
+User(8): Do you have a place to golf
+Bot(8): let us go golf for the mean time
+User(9): Where would you golf
+Bot(9): let us go golf for the mean time
+User(10): How do you score in golf
+Bot(10): it depends on the circle in which you run
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: golf(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.00
+Robotic(↓): 94
+Interesting: 7
+Fun: 6
+Consistent: 10
+Fluent: 11
+Repetitive(↓): 15
+Topic: 8
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): dogs
+Bot(1): i do like dogs but i have 6 cats and no dogs .
+User(2): I like dogs and would like one
+Bot(2): i love dogs , i have a chihuahua terrier mix .
+User(3): What is your dogs name
+Bot(3): ha ! thanks . he definitely fits the name . do you have any pets ?
+User(4): I have cats
+Bot(4): no cats , at least inside
+User(5): Do you like cats
+Bot(5): yea , seven of nine is my cat . do you like dancing with the stars ?
+User(6): Do you watch this show
+Bot(6): special effects competition . i have to make cookies for the bake sale after .
+User(7): What special effects
+Bot(7): super special 0 i like to do the fancy dancing , or as the french say , ballet !
+User(8): Do they have that on the show
+Bot(8): special effects competition . i have to make cookies for the bake sale after .
+User(9): Why do you make cookies
+Bot(9): that is really nice . we went riding on our horses today , do you ride ?
+User(10): I don't ride horses
+Bot(10): i love to ride horses .
+
+Persona:
+i prefer being inside.
+my dad taught me everything i know.
+i've short hair.
+i like riding horses.
+i often shop for shoes and watches.
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 5: Dancing with the Stars(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 15.71
+Robotic(↓): 96
+Interesting: 4
+Fun: 10
+Consistent: 11
+Fluent: 15
+Repetitive(↓): 42
+Topic: 8
+
+####################
+

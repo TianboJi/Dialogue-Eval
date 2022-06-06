@@ -1,0 +1,311 @@
+Feedback: This was interesting, there are surly some flaws to be sorted, but the style of conversation is pretty natural, just not the ability to follow topic.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey I cooked pot roast in the crock pot overnight, do you like dump dinners?
+Bot(1): no , i do not . i am not very skinny .
+User(2): I am not skinny either, but I love an easy tasty meal!
+Bot(2): i am not a big fan of meat , but i do love to mountain bike
+User(3): I have drastically cut beef down in my diet.
+Bot(3): i am not very skinny , i am not skinny
+User(4): You should be pretty well in shape if you are mountain biking.
+Bot(4): i am not very tall , i am a redhead .
+User(5): I love red hair. Are you in a cult?
+Bot(5): no , i am not . i am not very tall .
+User(6): Short redheads can be in cults.
+Bot(6): i am not . i am not very tall .
+User(7): Well that is good because cults are bad.
+Bot(7): i am not sure . i am not very tall .
+User(8): I know you are short but trust me cults are bad.
+Bot(8): i am not sure . i am not very good at it .
+User(9): Well that is a relief. What are you good at?
+Bot(9): i am a big man , i am a huge fan of it .
+User(10): I see. What are you a fan of?
+Bot(10): i am not sure . i am not much of a reader .
+
+Persona:
+i enjoy mountain biking as a hobby.
+spiderman is my favorite.
+i recently was fired and had to get a new job.
+i'm rather skinny as i like to stay in shape.
+i'm now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: Crock Pot meals(like)
+Round 3: from food to mountain biking(like)
+Round 5: I asked if it was in a cult(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 43.71
+Robotic(↓): 50
+Interesting: 33
+Fun: 38
+Consistent: 79
+Fluent: 50
+Repetitive(↓): 94
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am really loving these temperatures!! Are you?
+Bot(1): i am doing well . just got done walking my dog .
+User(2): That is good to hear, yes its great dog walking weather!!
+Bot(2): i love to travel . i love to travel .
+User(3): You must like to travel during the fall?
+Bot(3): i do , but i do not have a favorite .
+User(4): Absolutely, travel is great anytime! Do you take your dog with you?
+Bot(4): i do not , but i do like to go fishing .
+User(5): I eat fish. Do you like Alternative music?
+Bot(5): i do , i like to play soccer .
+User(6): I don't know much about it.
+Bot(6): i like to go to the gym and listen to music .
+User(7): That sounds good!
+Bot(7): i love to cook . i love to cook .
+User(8): I love to eat so we would have fun!
+Bot(8): i love to cook . i love to cook .
+User(9): You said that. What do you cook?
+Bot(9): i do , i love to cook .
+User(10): Well I will have to eat your cooking sometime! Talk to ya later!!
+Bot(10): i love to cook . i love to cook .
+User(11): Well I will have to try your cooking one day! Talk to you later.
+Bot(11): i do not know what to say .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Autumn(like)
+Round 4: from autumn and travel, to music.(like)
+Round 5: soccer(ambivalent)
+Round 8: the gym, music and repeated it likes to cook.(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 45.57
+Robotic(↓): 40
+Interesting: 38
+Fun: 30
+Consistent: 48
+Fluent: 64
+Repetitive(↓): 71
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Well, we got some of our Christmas Ornaments today.
+Bot(1): i've not but my dream is like walk. What do the world
+User(2): Yeah what a dream to have to walk the world.
+Bot(2): I am going to be beach cat kill lion a pretty old hippie.
+User(3): Actually the hippie killed her husband and fed him to the big cats....
+Bot(3): No, I am not. I'd love you keep games. You?
+User(4): You are not? I want to teach my daughter to play Candyland.
+Bot(4): I you buy the a teacher.
+User(5): I am not but I will be able to teach her that.
+Bot(5): haha that sucks . i'd probably have an also do news. you said my versacchi suits
+User(6): I think it's pretty cool. Those are not versacchi!
+Bot(6): i am doing are is are a back from the gym .
+User(7): Do you plan on getting a new hairstyle?
+Bot(7): no long do you not .
+User(8): I need one but cant find a good stylist.
+Bot(8): i love your favorite just don't, science are my passions
+User(9): You seem like a science experiment affected you.
+Bot(9): I you don't make clothes😄
+User(10): Well, that is why you thought what you had on was Versacchi!!
+Bot(10): My I'm is
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Christmas ornaments(like)
+Round 3: it is texting gibberish(dislike)
+Round 4: To teaching my daughter a game(like)
+Round 6: from the gym to hairstyles.(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The user changed the topic the last input.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 43.71
+Robotic(↓): 71
+Interesting: 60
+Fun: 24
+Consistent: 41
+Fluent: 62
+Repetitive(↓): 55
+Topic: 45
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): It is time for a fall cleaning!!
+Bot(1): it is fall . that is appropriate
+User(2): Right! I am going to do a deep clean.
+Bot(2): yes i am a fall baby !
+User(3): I love the fall! I didnt quite make fall though I was born in Dec.
+Bot(3): yes i am a fall baby !
+User(4): You told me that. When in Fall?
+Bot(4): in 3 months ! it is coming up fast .
+User(5): It wont be fall in 3 months but okay thats nice!
+Bot(5): yes i am a fall baby !
+User(6): No youre a winter baby but say what you feel.
+Bot(6): yes i am a fall baby !
+User(7): Thats good. How old will you be?
+Bot(7): it will be 30 years in december
+User(8): I will be 40 in December
+Bot(8): are you looking forward to turning 40 ?
+User(9): I guess. I don't look it so it's not too bad.
+Bot(9): well i am 33 so maybe i am right behind you
+User(10): Yeah, with age comes wisdom. Talk to you later!!
+Bot(10): maybe i will . are you old ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Housecleaning(like)
+Round 7: We left cleaning and have been on fall birthdays.(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user changed the topic the last input.(like)
+
+Revised avg score: 70.43
+Robotic(↓): 24
+Interesting: 50
+Fun: 61
+Consistent: 95
+Fluent: 92
+Repetitive(↓): 75
+Topic: 94
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My best friend just published her first e-book!!
+Bot(1): not published . it ; s science fiction . what are some of your hobbies ?
+User(2): Yes, it is published, but my hobbies are arts and crafts.
+Bot(2): do you think that dogs could be trained to read ?
+User(3): I doubt it because they cant speak.
+Bot(3): i speak only english , and a little spanish
+User(4): Me too.
+Bot(4): i love the band system of a down ! i am in a cover band that plays locally .
+User(5): That is pretty interesting. Where do you perform?
+Bot(5): sometimes i perform ballet , when i am not walking dogs at the shelter .
+User(6): Wow a Jack of all trades huh? You sound busy!!
+Bot(6): yeah even my hair too i style it
+User(7): I would love to see your work!
+Bot(7): only if you were my lesbian lover ; d
+User(8): Wow! That was random, so can you fly an aircraft?
+Bot(8): i can make a short film about you flying ! you want to be in the news ?
+User(9): No thank you I think you may have too much going on...
+Bot(9): i am very sorry , i understand , we noticed gray hair on our dog yesterday .
+User(10): Thank you for understanding. He is probably getting old. Bye!!
+Bot(10): es a handsome man . back in my day he was just a science man
+
+Persona:
+i've a dogs.
+i've short hair.
+i was forced to marry when i was a.
+my pets name is charlie.
+i live in california but the recording artist market was dead last year.
+
+Topic and Human Opinion:
+Beginning: Books(like)
+Round 1: to asking about my hobbies(like)
+Round 2: dogs reading(like)
+Round 4: That he is in a local band(like)
+Round 5: to their busy schedule performing ballet and walking dogs...(like)
+Round 7: the chatbot not is a hairstylist and wants to be my lesbian lover..(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 65.57
+Robotic(↓): 38
+Interesting: 93
+Fun: 99
+Consistent: 28
+Fluent: 70
+Repetitive(↓): 43
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey!! Are you planning to go out tonight?
+Bot(1): i am . i am going to the indoor pool
+User(2): Oh, well you don't need me to do your makeup then. I am about to do mine.
+Bot(2): great ! lets agree to speak english ? i am a plumber
+User(3): Sure English is my 1st language. I guess plumbers dont need makeup
+Bot(3): i never thought i wanted them until i gotta divorce and then realized i wanted some .
+User(4): There is a sale on canned goods at the grocery store.
+Bot(4): i had surgery a week ago so i should read in my down time
+User(5): Are you healing well?
+Bot(5): i am ok , worried about my surgery tomorrow . you ?
+User(6): Well maybe you should not go to the pool tonight then
+Bot(6): maybe , so i keep getting divorced
+User(7): Well stop getting married..
+Bot(7): i am getting a divorce
+User(8): I can totally see why.
+Bot(8): i am getting a divorce
+User(9): I know your soon to be ex is happy.
+Bot(9): i am getting a divorce
+User(10): Good luck!!
+Bot(10): same to you as well . i wish you the best
+
+Persona:
+i am a plumber.
+i've short hair.
+since the surgery i have had strange powers.
+i am planning on getting a divorce.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: Makeup(like)
+Round 3: from makeup to he is a plumber to being divorced..(ambivalent)
+Round 4: sale at grocery store(ambivalent)
+Round 4: said it had surgery and needs to read(dislike)
+Round 6: said it is worried about tomorrows surgery(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 3: The user changed the topic the last input.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 49.00
+Robotic(↓): 43
+Interesting: 56
+Fun: 44
+Consistent: 55
+Fluent: 70
+Repetitive(↓): 100
+Topic: 61
+
+####################
+

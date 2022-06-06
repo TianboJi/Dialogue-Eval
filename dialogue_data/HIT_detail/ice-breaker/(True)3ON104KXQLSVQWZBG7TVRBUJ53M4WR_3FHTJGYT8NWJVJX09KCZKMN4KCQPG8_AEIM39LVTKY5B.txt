@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): I'm fine and you
+Bot(2): i just came from a swim . i have been swimming since a baby
+User(3): oh nice. I love to swim too
+Bot(3): i do not know how to swim
+User(4): that's strange. do your spend all your money??
+Bot(4): lol i love to say the alphabet backwards , strange enough ?
+User(5): yeah
+Bot(5): all these women look like kate plus 8 but its just not for me .
+User(6): i feel the same way too
+Bot(6): i fear they judge me hence i am last in cold showers at the gym
+User(7): my wife spends all my money...i'm sad
+Bot(7): yes she has given me wonderful children . . . two boys and a girl . shelves on through them
+User(8): she just doesn't know how to manage...aarrhh
+Bot(8): i guess in inherited it from dad but i do miss sweets
+User(9): i guess so too
+Bot(9): sounds good . after swimming , start the grill and throw some apples on .
+User(10): i can be your tutor at swimming
+Bot(10): really ? i have quite the vast collection of purple swimming suits
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my wife spends all my money.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 75
+Interesting: 78
+Fun: 70
+Consistent: 51
+Fluent: 71
+Repetitive(↓): 74
+Topic: 29
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): how are you
+Bot(2): same
+User(3): where do u grow up
+Bot(3): i live in america on the streets
+User(4): i grew up in the industry
+Bot(4): what city are you from
+User(5): Denver. what about you
+Bot(5): i live in denver i love the mountains
+User(6): same here too
+Bot(6): cool we are almost neighbors
+User(7): exactly. what's your best sport
+Bot(7): i love soccer and basket ball
+User(8): i love soccer too
+Bot(8): cool my brother loves soccer as well
+User(9): we seem to have a lot in common
+Bot(9): yeah and i am a beast at soccer
+User(10): same here too
+Bot(10): same
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i grew up in the industry.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 83.00
+Robotic(↓): 23
+Interesting: 82
+Fun: 81
+Consistent: 83
+Fluent: 88
+Repetitive(↓): 23
+Topic: 93
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I don't have any. I I am not okay. big
+User(2): what happened
+Bot(2): I am sorry to hear that. do was nice to meet have two
+User(3): i'm a museum tour guide
+Bot(3): hello. i'm 18 I'm a me lonely.
+User(4): i'm 30
+Bot(4): I love russian professional am a of
+User(5): where are you from
+Bot(5): what got am good, just eat? food is my life.
+User(6): what do you like
+Bot(6): I do the system is I like horses.
+User(7): thats really nice
+Bot(7): I am great, just got done playing some video to japan
+User(8): you play video games too
+Bot(8): interesting well is boring here, iwanna have a good day
+User(9): yeah...feel like like sometimes
+Bot(9): are you a night 🌚 a life hate a stay up late and game
+User(10): same here
+Bot(10): I like to go to the many you boy or music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a museum tour guide.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): i am fine and you
+Bot(2): i'm doing well . just got off work . how are you ?
+User(3): fine. what do you do for fun
+Bot(3): i like to go fishing . i love to go fishing .
+User(4): if i am not cooking in the kitchen then i am definitely on water
+Bot(4): i like to eat fish .
+User(5): that sound like a lot of fun too
+Bot(5): it is . i like to go to the gym and listen to music .
+User(6): same here too and i love sport
+Bot(6): i like to go to the lake and listen to music .
+User(7): do you play video games
+Bot(7): no , i do not , but i do like to play soccer .
+User(8): okay. i love to swim so much. can you swim
+Bot(8): i do not , but i do like to go fishing .
+User(9): where are you
+Bot(9): i am in the midwest .
+User(10): same here
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: if i am not cooking in the kitchen then i am definitely on the water.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi how are you today ?
+User(2): i'm fine and you
+Bot(2): hi i'm doing great how are you
+User(3): i'm doing just fine . what do you do
+Bot(3): i am an electrician . i am an electrician .
+User(4): i'm a student. i love to se the movie too
+Bot(4): i like to play softball . i am a huge fan of softball .
+User(5): my favorite movie is mean girl
+Bot(5): i like the movie too . i like to play softball .
+User(6): that sound fun too
+Bot(6): i like to play softball . i am a big fan of softball .
+User(7): what team do you support
+Bot(7): i am a professional basketball player
+User(8): oh nice, where do you play
+Bot(8): i play softball . i am a professional basketball player
+User(9): which team
+Bot(9): i play the ball in my free time
+User(10): okay
+Bot(10): i play the ball in my free time
+
+Persona:
+i'm an economics major.
+i do not have a smartphone.
+i never broke a bone in my body ever in my life.
+i love playing softball.
+i'm an electrician.
+
+Topic and Human Opinion:
+Beginning: my favorite movie is mean girls.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , alcoholic in recovery here
+User(2): how are you today
+Bot(2): i am feeling good for a recovering alcoholic
+User(3): oh sorry
+Bot(3): that is okay what drinks do you like ?
+User(4): i don't like to drink. i only often shop for shoes and watches
+Bot(4): i was an alcoholic once
+User(5): oh what a pity
+Bot(5): what do you do ? i make coffee
+User(6): i'm seeing a movie
+Bot(6): that does sound nice what movie
+User(7): its an horror movie
+Bot(7): oh i should see that one tomorrow
+User(8): that will be fun
+Bot(8): yeah it is a little violent
+User(9): yeah and scary
+Bot(9): yeah it is a little violent
+User(10): yeah
+Bot(10): it is so spooky and scary
+
+Persona:
+i am a recovering alcoholic.
+i am a museum tour guide.
+i'm a professional tennis player.
+i try various coffees as a hobby.
+my parents were also teachers.
+
+Topic and Human Opinion:
+Beginning: i often shop for shoes and watches.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 75.57
+Robotic(↓): 24
+Interesting: 71
+Fun: 69
+Consistent: 78
+Fluent: 81
+Repetitive(↓): 27
+Topic: 81
+
+####################
+

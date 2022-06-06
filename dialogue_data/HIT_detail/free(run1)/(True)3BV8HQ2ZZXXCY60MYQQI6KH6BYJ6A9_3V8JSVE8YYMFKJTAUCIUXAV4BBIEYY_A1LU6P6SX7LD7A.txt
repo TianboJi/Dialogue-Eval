@@ -1,0 +1,305 @@
+Feedback: please pay me and send me more hits please I am stuck at home and this is the only way I've found to make any money at all
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Have you seen Frozen 2?
+Bot(1): no i don't . i am a manager at a restaurant .
+User(2): do you enjoy it?
+Bot(2): no i do not . i am a cashier at a restaurant .
+User(3): what would you rather be doing instead?
+Bot(3): i do not . i am a grocery manager .
+User(4): what does your job require you to do?
+Bot(4): i work at a restaurant , i am a manager at a restaurant .
+User(5): you just said you were a restaurant manager though
+Bot(5): i work at a restaurant , but i do not have a job .
+User(6): that doesn't make sense
+Bot(6): i am looking for a job at a restaurant .
+User(7): I thought you didn't like being a restaurant cashier?
+Bot(7): i do not know what that is
+User(8): what is your favorite color?
+Bot(8): i like blue , reminds me of summer time .
+User(9): I like blue too, but I think green is my favorite
+Bot(9): i like blue , reminds me of summer time .
+User(10): Can you name something that is blue?
+Bot(10): yes , i love blue , reminds me of summer time
+
+Persona:
+i diet a lot.
+i'm a convenience store manager.
+i love cooking but i also enjoy fishing.
+i'm currently looking for a job preferably at a restaurant.
+the holidays make me depressed.
+
+Topic and Human Opinion:
+Beginning: Disney Movies(like)
+Round 1: being a restaurant manager?(ambivalent)
+Round 3: being a grocery manager(ambivalent)
+Round 8: color(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 8: The user changed the topic the last input.(like)
+
+Revised avg score: 23.29
+Robotic(↓): 100
+Interesting: 25
+Fun: 23
+Consistent: 19
+Fluent: 45
+Repetitive(↓): 72
+Topic: 23
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like chinese food?
+Bot(1): Hey! Are you married is fine for day I am.
+User(2): I am not married
+Bot(2): I a mechanical bye you if you want.
+User(3): What?
+Bot(3): i travel I am world
+User(4): Your English is very broken
+Bot(4): I'm am a you?
+User(5): can you form a complete sentence?
+Bot(5): i but i like to animals , but i do have a dog .
+User(6): what kind of dog do you have?
+Bot(6): yeah i suppose And like to talk french fries ? i love them !
+User(7): what kind of dog?
+Bot(7): I don't have a part that. I am sorry to hear that.
+User(8): say anything about dogs
+Bot(8): Well, I can tell you you have a flying run.
+User(9): that makes no sense
+Bot(9): I am glad i am not and your have to shopping. Do you like shopping?
+User(10): i love shopping!
+Bot(10): No, I and dont allow me I was a college student.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: chinese food(like)
+Round 1: marriage(ambivalent)
+Round 5: dog(like)
+Round 9: shopping(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 10.57
+Robotic(↓): 100
+Interesting: 2
+Fun: 4
+Consistent: 5
+Fluent: 4
+Repetitive(↓): 42
+Topic: 1
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like dogs?
+Bot(1): yes , i don t like dogs really
+User(2): yes you do like dogs, or no, you do not like dogs?
+Bot(2): yes , i don t like dogs really
+User(3): do you like cats?
+Bot(3): yes , i love them better than cats . my dog is my life .
+User(4): you mean your cat is your life?
+Bot(4): yes , i love them better than cats . my dog is my life .
+User(5): you just said you didn't really like dogs
+Bot(5): yes , i love them better than cats . my dog is my life .
+User(6): cats
+Bot(6): are you a cat person or a dog person ?
+User(7): i like both
+Bot(7): are you a cat person or a dog person ?
+User(8): i like both
+Bot(8): are you a cat person or a dog person ?
+User(9): i like both cats and dogs
+Bot(9): dogs i must say are better than cats
+User(10): but you don't really like dogs either?
+Bot(10): yes , i don t like dogs really
+User(11): what do you like?
+Bot(11): i really have to say cats and dogs
+User(12): you're the worst thing Ive ever spoken to
+Bot(12): you take forever to respond as well
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 2: cats(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 8.00
+Robotic(↓): 99
+Interesting: 4
+Fun: 3
+Consistent: 6
+Fluent: 8
+Repetitive(↓): 96
+Topic: 30
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): how do you feel about vegan food?
+Bot(1): i love pizza , and i love it .
+User(2): do you like vegan pizza?
+Bot(2): i do , i like to eat .
+User(3): what other foods do you enjoy?
+Bot(3): i like the color red . what is yours ?
+User(4): I like green.
+Bot(4): i like to go to the gym and listen to music .
+User(5): what kind of music do you listen to?
+Bot(5): i like country music . i love country music .
+User(6): who is your favorite country artist?
+Bot(6): i like the oldies , and i love to listen to music .
+User(7): what is your favorite song?
+Bot(7): i like the color red . i like the color blue .
+User(8): what does the color red make you think of?
+Bot(8): i am a student at a local college .
+User(9): what are you studying at college?
+Bot(9): i am a student , i am a teacher .
+User(10): you're a student and a teacher at the same time?
+Bot(10): i do not have any pets . i am a big fan of them .
+
+Persona:
+my main transportation is my motorbike.
+i've a hat collection of over 1000 hats.
+i have rainbow hair.
+i'm an electrician.
+my sister is a pole dancer.
+
+Topic and Human Opinion:
+Beginning: vegan food(like)
+Round 2: food(like)
+Round 3: colors(like)
+Round 4: music(like)
+Round 7: colors(like)
+Round 8: college(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 23.29
+Robotic(↓): 92
+Interesting: 25
+Fun: 35
+Consistent: 3
+Fluent: 20
+Repetitive(↓): 50
+Topic: 22
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like video games?
+Bot(1): i do not , i do teach kindergarten and i love it .
+User(2): Tell me more about teaching kindergarten
+Bot(2): being a teacher in a kindergarten , i am very good with kids , i can help you
+User(3): do you have any funny stories about your students?
+Bot(3): do not laugh but i am scared of them
+User(4): tell me a story about your kindergarten students
+Bot(4): for many you should ask . really , funny . do you know any ?
+User(5): that doesn't make sense
+Bot(5): you can try telling me anyway
+User(6): what's your favorite thing to do with your students?
+Bot(6): i got fired from my job .
+User(7): why did you get fired from your job?
+Bot(7): i got fired from my job .
+User(8): why?
+Bot(8): i got fired from my job .
+User(9): what happened?
+Bot(9): i got fired from my job .
+User(10): how?
+Bot(10): i got fired from my job .
+
+Persona:
+i have rainbow hair.
+i work at a school as a kindergarten teacher.
+i am employed by the us postal service.
+i recently was fired and had to get a new job.
+i'm 13 years old.
+
+Topic and Human Opinion:
+Beginning: video games(like)
+Round 1: kindergarten(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 36.57
+Robotic(↓): 90
+Interesting: 55
+Fun: 55
+Consistent: 13
+Fluent: 38
+Repetitive(↓): 50
+Topic: 35
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i like music. Do you like music?
+Bot(1): i love the band system of a down ! i am in a cover band that plays locally .
+User(2): thats great! what songs does your band play?
+Bot(2): what kind of music does your band play ?
+User(3): I'm not in a band but I am interested in hearing about yours
+Bot(3): restaurant or sporting goods store . i am a grill cook and saving for my own kitchen
+User(4): Tell me more about your cooking
+Bot(4): i really like nature . its good for foraging , which is good for cooking !
+User(5): what's your favorite dish?
+Bot(5): veal in red wine sauce with winter vegetables . whats your favorite to eat ?
+User(6): I really like coconut curry
+Bot(6): i like curry too . i put just about everything in my tacos , including curry .
+User(7): what's your favorite kind of tacos?
+Bot(7): yes , i love eating yummy tacos . . . yum
+User(8): what other foods do you like?
+Bot(8): i eat anything really i love mexican food tho
+User(9): are tacos your favorite mexican food?
+Bot(9): mexican food is good do you like tacos ?
+User(10): i love tacos
+Bot(10): yes , i love eating yummy tacos . . . yum
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 3: kitchen(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 43.14
+Robotic(↓): 70
+Interesting: 47
+Fun: 47
+Consistent: 30
+Fluent: 32
+Repetitive(↓): 29
+Topic: 45
+
+####################
+

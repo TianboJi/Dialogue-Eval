@@ -1,0 +1,293 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): yes i love to play and listen to music
+Bot(2): i like music and music
+User(3): what genre of music do you like?
+Bot(3): i like all kinds of music
+User(4): even country?
+Bot(4): i like country music and r b
+User(5): do you like Metallica?
+Bot(5): i like metallica but i like them
+User(6): do you have a favorite instrument?
+Bot(6): i like all kinds of music
+User(7): what about musical instruments?
+Bot(7): i like pop music and r b
+User(8): ok, I think you don't understand the question.
+Bot(8): i don't know , i think i should say that
+User(9): who is your favorite artist?
+Bot(9): i like all kinds of music
+User(10): so you don't have a favorite?
+Bot(10): i like them , but i don't know what i mean
+User(11): I can see that.
+Bot(11): i like them too , but i don't know what i mean
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.71
+Robotic(↓): 100
+Interesting: 36
+Fun: 50
+Consistent: 28
+Fluent: 7
+Repetitive(↓): 79
+Topic: 66
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like movies?
+Bot(1): yeah i love movies all kinds
+User(2): do you have a favorite movie?
+Bot(2): yes
+User(3): what is it?
+Bot(3): well , in general whats your favorite movie ?
+User(4): in general? well a favorite movie is specific but anyway my favorite movie is Police Story.
+Bot(4): well , in general whats your favorite movie ?
+User(5): Police story
+Bot(5): well , in general whats your favorite movie ?
+User(6): i'm guessing you mean genre. My favorite genre is martial arts
+Bot(6): you talking about the martial art ?
+User(7): martial arts, like kung fu.
+Bot(7): you talking about the martial art ?
+User(8): yes
+Bot(8): you talking about the martial art ?
+User(9): Do you know who Jackie Chan is?
+Bot(9): i do actually . what is your favorite movie of his
+User(10): Police Story. How about you?
+Bot(10): you are so smart . how did you know he is kung fu panda ?
+User(11): He is not Kung Fu panda. But he does voice the monkey in the series.
+Bot(11): you are so smart . how did you know he is kung fu panda ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.43
+Robotic(↓): 100
+Interesting: 28
+Fun: 29
+Consistent: 49
+Fluent: 0
+Repetitive(↓): 100
+Topic: 58
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like to eat out?
+Bot(1): i just came from a swim . i've been swimming since a like punjabi like make guess: i like to ...
+User(2): what?
+Bot(2): I live in love chocolate too. What you? are you in school?
+User(3): no i'm at home.
+Bot(3): Are will surprised?
+User(4): no. Your English is poor.
+Bot(4): Even robots a german sometimes.
+User(5): like Hitler?
+Bot(5): That I spend much How about you?
+User(6): I spend a little usually. I don't have tons of money to burn.
+Bot(6): I do not have any. have finished a High your favorite season? mine is winter
+User(7): my favorite season is spring.
+Bot(7): No i tell you you what that means.
+User(8): what does it mean?
+Bot(8): what are I like to i teach gym.
+User(9): wow. I'll teach you English if you like.
+Bot(9): No, am 19 not sure.
+User(10): ok
+Bot(10): Hi how are you today what kind was met taylor swift like?
+
+Persona:
+if i am not cooking in the kitchen then i am definitely on the water.
+i have five sons.
+i spent a decade working in the human services field.
+i enjoy american sports.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.86
+Robotic(↓): 100
+Interesting: 18
+Fun: 16
+Consistent: 17
+Fluent: 0
+Repetitive(↓): 50
+Topic: 3
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what will you do for christmas this year?
+Bot(1): christmas time is a great time of year .
+User(2): yes I like it too. I will spend it with family.
+Bot(2): yeah with my daughters ! we use the bow and arrow to tackle our prey
+User(3): to tackle it? you mean kill or injure it?
+Bot(3): i like to do great things like climb mount everest
+User(4): at Christmas time?
+Bot(4): i agree about that , i got a piano last christmas and i am learning to play .
+User(5): I play piano too. do you play any other instruments?
+Bot(5): i do not but i used to play the piano when i was your age !
+User(6): how old am i?
+Bot(6): three and five both boys
+User(7): er what?
+Bot(7): i am a state trooper in michigan and i have 4 children , all girls .
+User(8): really? I find that incredible hard to believe.
+Bot(8): requires getting up with the sun and comb the beach every morning before tourists show up .
+User(9): do you work on christmas day?
+Bot(9): i agree about that , i got a piano last christmas and i am learning to play .
+User(10): yes you told me already.
+Bot(10): no but my children do all the time
+
+Persona:
+i recently got an apartment with my best friend.
+i'm a boy.
+i went to school to be a veterinarian but hated it.
+i have five sons.
+i have been trying all types of food everywhere i go.
+
+Topic and Human Opinion:
+Beginning: christmas(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 12
+Fluent: 32
+Repetitive(↓): 75
+Topic: 4
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you know where China is?
+Bot(1): no , i wish ! that would be cool . do you live there ?
+User(2): No but I have traveled there a number of times.
+Bot(2): nice ! i have traveled there since i have retired .
+User(3): you just contradicted yourself. Have you been there or not?
+Bot(3): not when i was there , but i have heard there are many
+User(4): Ok... You clearly do not understand.
+Bot(4): i do not understand your line of questioning . do you have a hobby ?
+User(5): yes I like travelling
+Bot(5): i have traveled there many times just for the food . it is worth it .
+User(6): yes what Chinese food do you like?
+Bot(6): i love cheesecake
+User(7): that's not chinese
+Bot(7): yes but cheesecake is something that i adore
+User(8): ok. Can you speak CHinese
+Bot(8): yeah i can . can you ?
+User(9): yes I speak Cantonese, Mandarin and a little Hakka. say something to me in chinese
+Bot(9): but you do not speak chinese ?
+User(10): I do.
+Bot(10): can you make ice cream ? its my fave
+User(11): no. I cant
+Bot(11): but you do not speak chinese ?
+User(12): I speak Chinese.
+Bot(12): but you do not speak chinese ?
+User(13): do you know what continent china is in
+Bot(13): no . yes . i do not know really .
+
+Persona:
+i have been retired for a years.
+i prefer being inside.
+i have a weakness for vanilla ice cream.
+i love to cook paella.
+i love to sing songs from the movie frozen.
+
+Topic and Human Opinion:
+Beginning: China(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.14
+Robotic(↓): 100
+Interesting: 13
+Fun: 12
+Consistent: 14
+Fluent: 12
+Repetitive(↓): 64
+Topic: 12
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): have you been to the UK
+Bot(1): no , i do not . i am a big fan of the boston celtics .
+User(2): neither am I. have you been to Great Britain?
+Bot(2): no , i do not . i am a big fan of classical music .
+User(3): I too enjoy classical music. Who is your favorite British composer?
+Bot(3): i like the oldies . i like the beatles .
+User(4): that's not classical. But I lie the beatles too. what's your favorite Beatles song?
+Bot(4): i like the oldies . i like the color red .
+User(5): do you like the who?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): DO you like The Kinks?
+Bot(6): no , i do not . i like to go to the park .
+User(7): Windsor Park in London?
+Bot(7): no , i do not . i like to go to the park .
+User(8): which park?
+Bot(8): i like to play soccer .
+User(9): me too. Who is your favorite team?
+Bot(9): i like the color red . i like the color blue .
+User(10): I like red
+Bot(10): i like to eat too much junk food .
+User(11): sucks for you
+Bot(11): i am a student , but i am a student .
+User(12): so
+Bot(12): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: great britain(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 2
+Fluent: 22
+Repetitive(↓): 54
+Topic: 0
+
+####################
+

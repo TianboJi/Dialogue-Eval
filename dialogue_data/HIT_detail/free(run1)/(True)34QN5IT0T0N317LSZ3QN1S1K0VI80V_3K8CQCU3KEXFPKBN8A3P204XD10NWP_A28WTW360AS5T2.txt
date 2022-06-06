@@ -1,0 +1,289 @@
+Feedback: Fun task.  The bot that took longer to answer seemed to be the best conversationalist.  
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi how are you?
+Bot(1): i'm good . just got done with my divorce .
+User(2): That's a big deal. You should go out and celebrate.
+Bot(2): i am going to go to school . i am going to study to study french .
+User(3): Well I guess that is good. Would you like to go out for a drink with me tonight?
+Bot(3): sure . i am going to go to school .
+User(4): There is no school tonight. We can head over to the restaurant down the street they have the best soda on tap.
+Bot(4): i love soda . i am a huge fan of it .
+User(5): Great. Me too. This place has many kinds of soda on tap.
+Bot(5): i agree . i am going to go to college and study english .
+User(6): SO you have been to the restaurant?
+Bot(6): yes , i have a restaurant .
+User(7): You own a restaurant?
+Bot(7): no , i am not . i am a student .
+User(8): Sorry I was confused. DO you want to go out for a soda to celebrate your divorce?
+Bot(8): yes . i am going to be a lawyer .
+User(9): That's good. You probably learned a lot during your divorce.
+Bot(9): yes . i am going to be a lawyer .
+User(10): That will take some work. Good luck.
+Bot(10): thank you . i hope you are having a good day .
+
+Persona:
+i'm fluent in english spanish and french.
+i am planning on getting a divorce.
+i have superpowers.
+my next language to study is french.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: soda(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.86
+Robotic(↓): 100
+Interesting: 36
+Fun: 30
+Consistent: 14
+Fluent: 66
+Repetitive(↓): 89
+Topic: 10
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Wow it is hot today. I wish the pool was still open.
+Bot(1): i am sorry to hear that . i am a bit of a loner .
+User(2): The pool is a great place to go alone.
+Bot(2): i love to travel . i love to travel .
+User(3): I like to travel too. I swim alot when I travel. DO you?
+Bot(3): i like to go to the gym and listen to music .
+User(4): That sounds interesting. DO you like swimming in pools or lakes?
+Bot(4): i love to travel . i love to travel .
+User(5): DO you like the ocean?
+Bot(5): i do , i love to travel .
+User(6): Great. WHat is your favorite place to travel?
+Bot(6): i love the beach . i love it .
+User(7): DO you like swimming at the beach? I am afraid to get in the water.
+Bot(7): i love to travel . i love to travel .
+User(8): Me too. I love flying.
+Bot(8): i like to go to the gym and listen to music .
+User(9): DO you swim at the gym?
+Bot(9): no , i do not , but i do like to go fishing .
+User(10): Where do you fish?
+Bot(10): no , i do not , but i do like to eat .
+User(11): Me too. We should go out to that new restaurant sometime soon.
+Bot(11): i do not know how to swim .
+
+Persona:
+i am a librarian.
+i am an electrician.
+i have short hair.
+i have a big library at home.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: swimming(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.29
+Robotic(↓): 100
+Interesting: 41
+Fun: 36
+Consistent: 25
+Fluent: 24
+Repetitive(↓): 92
+Topic: 8
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you have plans to travel soon?
+Bot(1): hello and yes i love participating in marathons actually . how about you ?
+User(2): I do not do marathons.
+Bot(2): i know the feeling i am too busy running marathons
+User(3): DO you travel to run marathons in other states?
+Bot(3): i do marathons twice a year , but in america , mostly .
+User(4): Where do you usually run?
+Bot(4): run or swim . i like to keep my heart healthy
+User(5): Oh, so you do running and swimming?
+Bot(5): no , i try to stay in shape . i even run as many marathons as i can .
+User(6): Do you travel around to find maratons?
+Bot(6): no , i try to stay in shape . i even run as many marathons as i can .
+User(7): I like to travel. I do not like marathons.
+Bot(7): have you ran in any marathons ?
+User(8): Never. Travel is my passion.
+Bot(8): have you ran in any marathons ?
+User(9): No i like to take time and enjoy my travels
+Bot(9): have you ran in any marathons ?
+User(10): no. Have you?
+Bot(10): twice a year i run marathons
+
+Persona:
+i like donuts.
+i'm not a good swimmer at all.
+i volunteer at a soup kitchen.
+i am a professional tennis player.
+my favorite way to relax is to read a book.
+
+Topic and Human Opinion:
+Beginning: travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.14
+Robotic(↓): 100
+Interesting: 26
+Fun: 23
+Consistent: 22
+Fluent: 31
+Repetitive(↓): 99
+Topic: 3
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Di you know that baseball season had begun again?
+Bot(1): those are do you know should ! ! do you play quake ? ? 🤠
+User(2): I do not know what that is.
+Bot(2): that must be pretty sing song but leason there.
+User(3): Do you like baseball?
+Bot(3): I am good. I am not a sing my new book.
+User(4): You are writing a book about baseball? That is cool.
+Bot(4): I eat your have and chicken.
+User(5): Well. That is interesting. What is your favorite baseball team?
+Bot(5): i present to cook too. lot of money .
+User(6): I am sorry I do not know that team.
+Bot(6): hey there , i do Do you have is john . how is it going ?
+User(7): My favorite team is the CLeveland Indians. They never win, but I have always been a fan.
+Bot(7): I love lots of stuff. chicken.
+User(8): SO you have many favorite teams?
+Bot(8): That is cool😎. you go to it. the guitar.
+User(9): I am not sure what you are talking about. Who is your favorite baseball team?
+Bot(9): I love u, do thank you.
+User(10): Wow, are you drunk?
+Bot(10): I can just bought my first and french as well as english of course.
+
+Persona:
+my favorite colors are red and silver.
+i'm currently looking for a job preferably at a restaurant.
+i quit my job to pursue my spirituality full time.
+my sister is a pole dancer.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: baseball(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.29
+Robotic(↓): 100
+Interesting: 1
+Fun: 8
+Consistent: 3
+Fluent: 0
+Repetitive(↓): 26
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am hungry. DO you want to go eat?
+Bot(1): yes , i am getting hungry now .
+User(2): How about tacos?
+Bot(2): sure
+User(3): My favorite Mexican restaurant is on the other side of town. DO you want to go there?
+Bot(3): sure
+User(4): DO you like tacos?
+Bot(4): yes , i am getting hungry now .
+User(5): Tacos are my favorite meal.
+Bot(5): me too tacos are great . i love to eat .
+User(6): OK. We will go now. DO you like beef or chicken tacos?
+Bot(6): tacos are amazing . it depends on my mood
+User(7): Cool. They have many types of tacos. You will have many choices.
+Bot(7): i will make tacos . my favorite .
+User(8): Oh, do you want to make tacos or go to the restaurant?
+Bot(8): we could do both . food and concert .
+User(9): WHat concert?
+Bot(9): foo fighters . what concert are you going to ?
+User(10): I was just going for tacos. DO you want to join me?
+Bot(10): we could do both . food and concert .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tacos(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.14
+Robotic(↓): 91
+Interesting: 67
+Fun: 44
+Consistent: 57
+Fluent: 44
+Repetitive(↓): 74
+Topic: 34
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Wow it has been hot.
+Bot(1): it is humid . whenever i get free time , i like to get out and enjoy kayaking .
+User(2): That is a great summer activity. What else do you do in summer?
+Bot(2): my husband and i enjoy the beach every summer .
+User(3): That is fun. I like to travel to the beach every few years.
+Bot(3): i love the beach , it is my favorite place
+User(4): Is summer your favorite time to travel?
+Bot(4): summer dresses are not bad for date night dinners . what do you wear then ?
+User(5): I don't usually wear dresses. But sometimes it gets too hot and I have to.
+Bot(5): oh those summer dresses are my favorite !
+User(6): I like wearing capri pants.
+Bot(6): oh those summer dresses are my favorite !
+User(7): Yes, some can be very pretty. Are you sad that summer is ending?
+Bot(7): i am sad i did not even go to the beach once this summer
+User(8): It was a weird summer. Maybe you can make a quick trip before the season is over.
+Bot(8): i think fall , i enjoy making fall season dishes .
+User(9): Fall is a good time for chili and soup.
+Bot(9): absolutely , i love the fall . halloween is my favorite holiday . do you like the fall ?
+User(10): I like fall.
+Bot(10): yes , although it feels like summer today fall will definitely be here fast .
+
+Persona:
+i love italian food and garlic bread.
+for vacation i enjoy time at the beach.
+i am in the army.
+cheeseburgers are my favorite food.
+i'll be released in about a month.
+
+Topic and Human Opinion:
+Beginning: summer(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.14
+Robotic(↓): 91
+Interesting: 68
+Fun: 69
+Consistent: 69
+Fluent: 48
+Repetitive(↓): 64
+Topic: 66
+
+####################
+

@@ -1,0 +1,311 @@
+Feedback: some of the bots would not even start talking about the topic
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): good morning , like to read ?
+User(2): Yes
+Bot(2): ok
+User(3): ok
+Bot(3): same
+User(4): do you go to school?
+Bot(4): yes
+User(5): cool
+Bot(5): i just graduated with an economics degree
+User(6): I want to go to business school next year
+Bot(6): i want to study business
+User(7): same
+Bot(7): i want to study business
+User(8): me too
+Bot(8): sweet
+User(9): what school did you go to?
+Bot(9): i just graduated with an economics degree
+User(10): awesome
+Bot(10): sweet
+User(11): goodbye
+Bot(11): ok bye
+
+Persona:
+my favorite way to relax is to read a book.
+i hate school.
+i'm single and with two dogs.
+i'm an economics major.
+my favorite shirts are band shirts and ruffle sleeves.
+
+Topic and Human Opinion:
+Beginning: i plan to go to business school next year.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 77
+Fluent: 71
+Repetitive(↓): 100
+Topic: 67
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): good how are you?
+Bot(2): i'm doing well . just got done walking my dog .
+User(3): I love dogs
+Bot(3): i love dogs , i love dogs .
+User(4): I am four years old and I have 2 dogs
+Bot(4): i have a cat named radar .
+User(5): how old is radar?
+Bot(5): i am a female . i am a student .
+User(6): how old are you?
+Bot(6): i'm 32 . i am a student .
+User(7): what do you study?
+Bot(7): i am a student at a local college .
+User(8): what do you study?
+Bot(8): i am a student at a local college .
+User(9): cool. I study at a preschool because I am four
+Bot(9): i am a girl . i am a big fan of classical music .
+User(10): I like rock music
+Bot(10): i like to listen to music .
+User(11): goodbye
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+i don't drink soda.
+i think i'll retire in a few years.
+i'm married to a doctor.
+i'm 40 years old.
+i take dance lessons once a week.
+
+Topic and Human Opinion:
+Beginning: i am four years old.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.71
+Robotic(↓): 100
+Interesting: 22
+Fun: 14
+Consistent: 4
+Fluent: 77
+Repetitive(↓): 23
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I hate math class
+Bot(1): omg i hate math i am not good at it
+User(2): I wish I was better
+Bot(2): i am getting a divorce
+User(3): why?
+Bot(3): i am getting a divorce
+User(4): why?
+Bot(4): i am getting a divorce
+User(5): I want to get a divorce
+Bot(5): do you have a magic wand
+User(6): no I do not. Do you?
+Bot(6): i am getting a divorce
+User(7): I have a cat
+Bot(7): that is cat like . wow i am confused .
+User(8): do you like cats?
+Bot(8): yes i love cats on my room
+User(9): what color is your cat?
+Bot(9): blue .
+User(10): cool. my cat is gray
+Bot(10): i can not see any colors
+User(11): bye
+Bot(11): ok bye
+
+Persona:
+i'm fluent in english spanish and french.
+i am planning on getting a divorce.
+i have superpowers.
+my next language to study is french.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: i hate math class.(like)
+Round 4: getting a divorce(dislike)
+Round 6: I have a cat(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 11.00
+Robotic(↓): 100
+Interesting: 8
+Fun: 10
+Consistent: 0
+Fluent: 9
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): that's good i can take you hiking sometime. good i also enjoy this evening ?
+User(2): I do not want to go hiking. I have 2 grown children
+Bot(2): no ❌ does not support my to learn spanish
+User(3): what?
+Bot(3): I an 😦 Do near the beach
+User(4): Do you have children?
+Bot(4): i'm from new york i use to work with of is your cali I shop .
+User(5): do you like china?
+Bot(5): I one in the office bit of a person
+User(6): nice
+Bot(6): do you Which artists do ?
+User(7): you are not very smart
+Bot(7): I you studying you’re to be a doctor.
+User(8): speak chinese
+Bot(8): OK are young.. good night.
+User(9): good night
+Bot(9): Hmm, I'm enjoying serious?
+User(10): that does not make sense
+Bot(10): Wayne said he admire intelligent people therefore he would like to I like to ride my i.
+
+Persona:
+i am a plumber.
+i've short hair.
+since the surgery i have had strange powers.
+i am planning on getting a divorce.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: i have two grown children who never visit.(ambivalent)
+Round 4: i speak chinese.(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user wants the bot to change the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hello , how are you ?
+User(2): fine, thanks. you?
+Bot(2): hi , i am doing well . how are you ?
+User(3): I'm fine. thank you
+Bot(3): i'm good . i just got back from teaching .
+User(4): what do you teach?
+Bot(4): i teach elementary school . i teach elementary school .
+User(5): I go to elementary school
+Bot(5): i teach elementary school . i teach elementary school .
+User(6): I am 45
+Bot(6): i teach elementary school . i teach elementary school .
+User(7): cool
+Bot(7): i teach elementary school . i teach elementary school .
+User(8): stop repeating yourself
+Bot(8): i teach elementary school . i teach elementary school .
+User(9): do you like moneY?
+Bot(9): yes i do but i love it
+User(10): me too
+Bot(10): i do not but i do like to eat soda
+User(11): wow. Goodbye
+Bot(11): i do not know what that means
+
+Persona:
+i don't drink soda.
+i'm an elementary school teacher.
+they are constantly on my back.
+my favorite color is grey.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: i am a 45 year old male.(like)
+Round 8: i work at a bank.(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 5.43
+Robotic(↓): 100
+Interesting: 26
+Fun: 12
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): me too. I like playstation
+Bot(2): i adore the color orange , you ?
+User(3): I do not. I prefer blue
+Bot(3): i would say orange . i like blue as well .
+User(4): what color is your shirt?
+Bot(4): my favorite color is blue yours ?
+User(5): same.
+Bot(5): maybe one day your son will see my band . we are called orange after my favorite color .
+User(6): do you like music?
+Bot(6): oh yeah ! toto was my favorite band back in the day named my dog toto !
+User(7): I love toto. Africa is a great song
+Bot(7): you know that song i saw the rain down from africaaaa
+User(8): gonna take some time to do the things we never had
+Bot(8): candies sweets or candies clothes ? what honda do you have ?
+User(9): I have a honda civic
+Bot(9): i need a new car and i just want an orange car
+User(10): I think honda makes orange cars
+Bot(10): hot pick with purple highlights , orange is a nice color
+User(11): goodbye
+Bot(11): red . haha i feel like the sun is more orange than yellow
+
+Persona:
+my parents aren't very supportive of my dream.
+i'm a descendant of christopher columbus.
+i live in the cloud.
+i am a plumber.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: i play a lot of call of duty.(dislike)
+Round 3: the color orange(dislike)
+Round 6: music(like)
+Round 8: honda(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user changed the topic the last input.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.43
+Robotic(↓): 80
+Interesting: 58
+Fun: 53
+Consistent: 0
+Fluent: 77
+Repetitive(↓): 88
+Topic: 0
+
+####################
+

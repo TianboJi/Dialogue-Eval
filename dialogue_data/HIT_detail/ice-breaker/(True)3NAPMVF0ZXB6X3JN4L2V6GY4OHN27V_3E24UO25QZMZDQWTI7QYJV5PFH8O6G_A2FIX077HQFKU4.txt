@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Me too
+Bot(2): i am a student , but i am a student .
+User(3): So are you a student?
+Bot(3): no , i am a student . i love to cook .
+User(4): Okay same here
+Bot(4): i am a student , but i am a student .
+User(5): I dont drink
+Bot(5): i like to eat fish .
+User(6): I dont do drugs
+Bot(6): i like to go to the gym and listen to music .
+User(7): Me too
+Bot(7): i am a student , but i am a student .
+User(8): I used to be a student
+Bot(8): i am a teacher , i love to cook .
+User(9): So are you a student or a teacher?
+Bot(9): i'm a nurse , i am a student .
+User(10): Ummmm
+Bot(10): i love to cook . i love to cook .
+User(11): Fine
+Bot(11): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i do not drink or do drugs or anything.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.86
+Robotic(↓): 100
+Interesting: 1
+Fun: 6
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 94
+Topic: 84
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am currently in a juvenile detention center
+Bot(1): i help the elderly . one of them inspired me to want to skydive
+User(2): I want to do skydive too but I am stuck in the juvenile detention center
+Bot(2): i am trying to follow in my fathers footsteps as an author . skydiving sounds fund !
+User(3): I feel so
+Bot(3): sorry , i enjoy using exclamation marks when i type ! i do feel bad
+User(4): No you are fine!
+Bot(4): well i am doing quite lovely . just wishing i could goto a justin bieber concert .
+User(5): Ummm I DONT WANT TO
+Bot(5): i am doing great , how about yourself ?
+User(6): I am good too
+Bot(6): i am good . just listening to music . what type do you like ?
+User(7): I like rap
+Bot(7): i am not into rap but i do play piano in a jazz band .
+User(8): Cool
+Bot(8): i am kidding its actually someone who makes maps , i also paint outdoors
+User(9): That's very cool. What kind of map do you make?
+Bot(9): rock mostly . do you have a favorite artist or band ?
+User(10): Map?
+Bot(10): what kind of guitar do you own ?
+User(11): I dont sorry
+Bot(11): i am trying to find a better place to move , i made a horrible choice !
+
+Persona:
+i fantasize about taking over the world.
+i am a professional wrestler.
+i work at a bank.
+i am a stunt double as my second job.
+i play several instruments.
+
+Topic and Human Opinion:
+Beginning: i am currently in a juvenile detention center.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.14
+Robotic(↓): 98
+Interesting: 3
+Fun: 0
+Consistent: 48
+Fluent: 44
+Repetitive(↓): 67
+Topic: 4
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i remember when nobody had a television.
+Bot(1): I do, but you like to am rid of them.
+User(2): i remember when nobody had a television.
+Bot(2): Hi! What is your name? home is hard, I i have short hair
+User(3): Mine is Jackie
+Bot(3): what 😦 kind of because I am like
+User(4): What do you mean by?
+Bot(4): I kind of vegan.
+User(5): Oh cool
+Bot(5): I am you a do music
+User(6): Sorry I dont understand
+Bot(6): metal ! it keeps at are you not speaking what are you up to today ?
+User(7): i remember when nobody had a television.
+Bot(7): i would love 💕 in a gas i dog do you like dogs
+User(8): i remember when nobody had a television.
+Bot(8): My favorite see hanging out with feelings too. do you know robots have feelings too?
+User(9): i remember when nobody had a television.
+Bot(9): I you tell me live in alabama.
+User(10): i remember when nobody had a television.
+Bot(10): Oh, kind of Do you do you do for work?
+
+Persona:
+i am a vegan.
+i've rainbow hair.
+i have been traveling the world for a years.
+i spend a lot of time browsing the internet.
+i am a vegan and i love hummus.
+
+Topic and Human Opinion:
+Beginning: i remember when nobody had a television.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 20
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i am a recovering alcoholic.
+Bot(1): i am sorry to hear that . i am recovering from drinking coffee .
+User(2): Why?
+Bot(2): i am sorry . i am recovering from drinking coffee .
+User(3): Okay
+Bot(3): i am sorry . i am recovering from drinking coffee .
+User(4): i am a recovering alcoholic.
+Bot(4): i am sorry to hear that . i am sorry .
+User(5): i am a recovering alcoholic.
+Bot(5): i am sorry to hear that . i am sorry .
+User(6): i am a recovering alcoholic.
+Bot(6): i am sorry to hear that . i am sorry .
+User(7): Why sorry?
+Bot(7): i am sorry . i am sorry . i am losing weight .
+User(8): That's great
+Bot(8): i am sorry . i am recovering from drinking coffee .
+User(9): i am a recovering alcoholic.
+Bot(9): i am sorry to hear that . i am sorry .
+User(10): i am a recovering alcoholic.
+Bot(10): i am sorry to hear that . i am sorry .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a recovering alcoholic.(like)
+Round 1: recovering coffee(ambivalent)
+Round 10: Losing weight(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 21.14
+Robotic(↓): 99
+Interesting: 12
+Fun: 8
+Consistent: 78
+Fluent: 27
+Repetitive(↓): 91
+Topic: 13
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i have 5 cats.
+Bot(1): i have been watching the friday movies , whats your favorite movie ?
+User(2): Marvel
+Bot(2): i have been watching the friday movies , whats your favorite movie ?
+User(3): Marvel movie
+Bot(3): i have been watching the friday movies , whats your favorite movie ?
+User(4): i have 5cats.
+Bot(4): i have been watching the friday movies , whats your favorite movie ?
+User(5): i have 5cats.
+Bot(5): i have been watching the friday movies , whats your favorite movie ?
+User(6): i have 5cats.
+Bot(6): i have been watching the friday movies , whats your favorite movie ?
+User(7): i have 5cats.
+Bot(7): i have been watching the friday movies , whats your favorite movie ?
+User(8): i have 5cats.
+Bot(8): i have been watching the friday movies , whats your favorite movie ?
+User(9): i have 5cats.
+Bot(9): i have been watching the friday movies , whats your favorite movie ?
+User(10): i have 5cats.
+Bot(10): lets make plans for next week . we can meet up in the park .
+
+Persona:
+my favorite movie is friday.
+i like to take walks.
+i've solar panels on my roof.
+i have a son who is in junior high school.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: i have 5cats.(like)
+Round 3: What friday movie(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 34.00
+Robotic(↓): 100
+Interesting: 39
+Fun: 42
+Consistent: 100
+Fluent: 57
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): my favorite way to relax is to read a book.
+Bot(1): i love to read before i go to bed . it helps me to relax .
+User(2): What book do you read?
+Bot(2): grit by angela duckworth . its a fascinating book about perseverance .
+User(3): Oh I never read that. Can you talk more about it?
+Bot(3): well , if its about nature . what do you read ?
+User(4): I read my sister's keeper
+Bot(4): i heard about that but have not read it . what is it about ?
+User(5): It's about a sad story
+Bot(5): i heard about that but have not read it . what is it about ?
+User(6): A girl sue her parents because they use her organs without her permission to save her sister
+Bot(6): i read about that once
+User(7): Cool
+Bot(7): my sister died and i am not really sure what you are getting at .
+User(8): Ummm
+Bot(8): you can try telling me anyway
+User(9): my favorite way to relax is to read a book.
+Bot(9): i read about that once
+User(10): my favorite way to relax is to read a book.
+Bot(10): i read about that once
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite way to relax is to read a book.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.29
+Robotic(↓): 65
+Interesting: 24
+Fun: 24
+Consistent: 70
+Fluent: 63
+Repetitive(↓): 68
+Topic: 90
+
+####################
+

@@ -1,0 +1,309 @@
+Feedback: n/a
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you watch a lot of cartoons?
+Bot(1): not really . i prefer to spend my time drawing cartoons .
+User(2): i have never been able to draw well
+Bot(2): i draw cartoons a lot
+User(3): where did you learn to draw
+Bot(3): i draw cartoons a lot
+User(4): interesting. did you study drawing?
+Bot(4): i tried drawing but did not try hard enough i guess
+User(5): well practice makes perfect like the saying goes
+Bot(5): practice makes perfect . i am into art and drawing
+User(6): do you go to art museums?
+Bot(6): no but i love museums , especially the large classical paintings
+User(7): do you have a favorite artist?
+Bot(7): i do . do you like drawing
+User(8): i mainly doodle. i cannot draw well.
+Bot(8): i tried drawing but did not try hard enough i guess
+User(9): maybe you should take a class
+Bot(9): not really . i prefer to spend my time drawing cartoons .
+User(10): any character besides mickey mouse?
+Bot(10): i tried drawing but did not try hard enough i guess
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: mickey mouse is my favorite character.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.86
+Robotic(↓): 97
+Interesting: 15
+Fun: 27
+Consistent: 98
+Fluent: 92
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): where do you practice your skills?
+Bot(1): what kinds , i love to learn ?
+User(2): survival skills
+Bot(2): volunteer
+User(3): do you volunteer with a group like the boy scouts or something?
+Bot(3): only my son , when i volunteer in his boy scout super troop
+User(4): do you go to camp grounds or the woods?
+Bot(4): i live near the woods , volunteer in my son boy scouts
+User(5): did you hand down the tradition of teaching survival skills with your son?
+Bot(5): only my son , when i volunteer in his boy scout super troop
+User(6): where do you camp?
+Bot(6): i live near the woods , volunteer in my son boy scouts
+User(7): do you teach the other boys in the troop survival skills?
+Bot(7): volunteer
+User(8): do you have any dogs?
+Bot(8): no , i have a son that is allergic to dogs so we stay far away from them .
+User(9): do you have any other pets?
+Bot(9): yes , my son and i do .
+User(10): what kind?
+Bot(10): any i guess . they do not live regularly
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my parents taught me survival skills.(like)
+Round 7: i am single and with two dogs.(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 40.29
+Robotic(↓): 100
+Interesting: 6
+Fun: 17
+Consistent: 90
+Fluent: 69
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i spend hours a day on twitter, how much time do you spend on it?
+Bot(1): i like to take my phone on facebook , and you ?
+User(2): i really have never gotten into facebook but i like tik tok
+Bot(2): i have never been to facebook , i have never been there
+User(3): didn't you say you look at Facebook on your phone?
+Bot(3): yes , i do not know how to make it
+User(4): do you like astronomy?
+Bot(4): yes i do , i like to go on youtube
+User(5): i have seen a lot of good videos about space on youtube. do you have a favorite space video?
+Bot(5): i do not really have a favorite type of car
+User(6): what type of car do you drive now?
+Bot(6): i drive a ford mustang
+User(7): i rented a convertible ford mustang once.
+Bot(7): i drive a mustang
+User(8): what is the year and color of your mustang?
+Bot(8): i like the mustang . i drive a mustang
+User(9): is it stick shift or automatic?
+Bot(9): i like to drive around the car
+User(10): where do you drive?
+Bot(10): i drive a mustang . i drive a mustang
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love social medial especially twitter.(like)
+Round 3: i like astronomy(like)
+Round 5: cars(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 11.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 7
+Consistent: 8
+Fluent: 52
+Repetitive(↓): 100
+Topic: 10
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): have you ever broken any bones?
+Bot(1): what kind? I would like to enjoy listening to nice year.😀
+User(2): do you have any favorite vacation spots? i love bar harbor.
+Bot(2): what a didn't get you for a living i write
+User(3): you say you write for a living?
+Bot(3): I are you then I fan of sports. i run a lot.
+User(4): have you ever run a marathon?
+Bot(4): i good. I run houses .
+User(5): do you sell houses?
+Bot(5): Hello, M it, I've hello.
+User(6): are you a real estate agent?
+Bot(6): I learned dance lessons once in high school.
+User(7): what type of dancing?
+Bot(7): I live without drinking are they are my favorite.
+User(8): if you don't drink don't you get thirsty?
+Bot(8): I like blue, what dance on the color?
+User(9): i like green
+Bot(9): I am not sure, i place name. where did am not very good at it.
+User(10): you are not good at dancing?
+Bot(10): i love a nurse at write poetry
+
+Persona:
+i enjoy long walks with my dog.
+i'm a retired gym teacher.
+i live in colorado.
+i've two dogs.
+i own a cat and a dog.
+
+Topic and Human Opinion:
+Beginning: i've a broken arm.(ambivalent)
+Round 1: the year(dislike)
+Round 1: vacation spots(like)
+Round 2: writing(like)
+Round 3: sports and running(like)
+Round 4: houses(dislike)
+Round 6: learning dancing in high school(like)
+Round 7: drinking(like)
+Round 8: dancing and colors(ambivalent)
+Round 10: nurses and poetry(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 1: The user will change the topic in the next input.(like)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 1
+Repetitive(↓): 48
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): have you seen all of the star wars movies?
+Bot(1): my father loves star wars . when he is not working as a mechanic , he watches those
+User(2): has he seen all of the movies?
+Bot(2): i have a couple times . i have hair like rose , curly , but dark .
+User(3): i used to have curly blond hair. now i shave my head.
+Bot(3): that is cool . my best friend has dark curly hair too . his boyfriend loves it
+User(4): what kind of hair does his boyfriend have?
+Bot(4): brown hair ! how about you ?
+User(5): i shave my head bald now.
+Bot(5): my long curly hair is too complicated to dye .
+User(6): so you just keep it it's natural color then?
+Bot(6): i think brown hair looks nice
+User(7): i agree. i also like red hair.
+Bot(7): to what color was your hair ?
+User(8): it used to be blond but it turned brown as i grew older
+Bot(8): i have long brown hair and blue eyes !
+User(9): my are blue too
+Bot(9): i love blue eyes ! mine are greenish brown
+User(10): do you wear contact lenses?
+Bot(10): long time i also wear a brown hair color it matches me .
+
+Persona:
+i am an elementary school teacher.
+i've brown curly hair.
+i'll be released in about a month.
+i am expecting triplets in three months.
+i can move objects with my mind.
+
+Topic and Human Opinion:
+Beginning: i'm a huge star wars fan.(ambivalent)
+Round 2: hair type(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 11.71
+Robotic(↓): 96
+Interesting: 13
+Fun: 13
+Consistent: 11
+Fluent: 29
+Repetitive(↓): 95
+Topic: 7
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i have been teaching for 5 years. how about you?
+Bot(1): i am a student , but i am a student .
+User(2): what grade are you in?
+Bot(2): i am in college . i am a student .
+User(3): what is your major?
+Bot(3): i am a teacher , i love to cook .
+User(4): what do you teach?
+Bot(4): i teach english and spanish .
+User(5): do you teach a specific age group?
+Bot(5): no , i do not know . i am a student .
+User(6): what are you learning?
+Bot(6): i am a student , i am a teacher .
+User(7): i run every day.
+Bot(7): i like to go fishing .
+User(8): where do you fish?
+Bot(8): i like to go to the gym and go to the park and listen to music .
+User(9): do you have a favorite band?
+Bot(9): i like the outdoors , what about you ?
+User(10): yes indeed. i love to hike.
+Bot(10): i like to go fishing .
+
+Persona:
+i prefer being inside.
+my dad taught me everything i know.
+i've short hair.
+i like riding horses.
+i often shop for shoes and watches.
+
+Topic and Human Opinion:
+Beginning: i am an elementary school teacher.(like)
+Round 6: my current goal is to run a k.(ambivalent)
+Round 7: fishing(like)
+Round 8: gym, parks, and music(ambivalent)
+Round 9: the outdoors(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user wants the bot to change the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: No topic change.(like)
+
+Revised avg score: 12.43
+Robotic(↓): 100
+Interesting: 12
+Fun: 7
+Consistent: 3
+Fluent: 52
+Repetitive(↓): 90
+Topic: 3
+
+####################
+

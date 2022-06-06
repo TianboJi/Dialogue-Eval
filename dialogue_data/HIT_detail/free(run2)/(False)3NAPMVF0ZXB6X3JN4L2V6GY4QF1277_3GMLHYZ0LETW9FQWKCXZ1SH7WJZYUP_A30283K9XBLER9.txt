@@ -1,0 +1,279 @@
+Feedback: good
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how areyou
+Bot(2): wonderful . thank you ! just got done feeding the kiddos supper . you ?
+User(3): ok welcomw
+Bot(3): i find attractive all women from canada
+User(4): oh good
+Bot(4): right ! next time i will put on my left sock first for luck
+User(5): thensure
+Bot(5): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(6): i like sports
+Bot(6): yes i do i love football
+User(7): do you like tennis
+Bot(7): no , sorry , i meant on my der . do you have any shows that you watch regularly ?
+User(8): yes
+Bot(8): me too , i wish pets were allowed in my college dorm room .
+User(9): oh same
+Bot(9): i am a deployed army ranger how about you ?
+User(10): thats good
+Bot(10): i am great how are you ?
+User(11): i amgreat
+Bot(11): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(12): wow
+Bot(12): he loves double cheese burgers and chicken nuggets
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hi(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 92
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): hi
+Bot(2): hey
+User(3): hi
+Bot(3): same
+User(4): hello
+Bot(4): same
+User(5): ilove pets
+Bot(5): ok
+User(6): ok
+Bot(6): same
+User(7): same
+Bot(7): his
+User(8): what
+Bot(8): his
+User(9): ok
+Bot(9): his
+User(10): i do
+Bot(10): his
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: go(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 96
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi , i am snacking on chocolate
+User(2): i am snacking onbiscuits
+Bot(2): ooh , i love chocolate cake
+User(3): ilike vennilaflavour
+Bot(3): i am so proud of my sister
+User(4): same
+Bot(4): i am so proud of my sister
+User(5): oh wow
+Bot(5): i am so proud of my sister
+User(6): ok
+Bot(6): i am so proud of my sister
+User(7): bye
+Bot(7): ok bye
+User(8): ok
+Bot(8): ok why are you so orange ?
+User(9): and so
+Bot(9): i am so proud of my sister
+User(10): then
+Bot(10): i am so proud of my sister
+
+Persona:
+my favorite color is orange.
+i am in an open polyamorous relationship.
+my sister is a pole dancer.
+my favorite band is up and i got to see them in concert once.
+i like to eat chocolate candy.
+
+Topic and Human Opinion:
+Beginning: friend(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.43
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 95
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): I have told you. whatever, dogs.
+User(2): whatabout
+Bot(2): i just moved to a new state . moving is I write poems about !
+User(3): then
+Bot(3): I am a student, is about know what student.
+User(4): wow
+Bot(4): I live a you alabama.
+User(5): and so
+Bot(5): i I hope maintenance.
+User(6): good
+Bot(6): I matter, i m I like hockey
+User(7): i likebooks
+Bot(7): why do u say marketing
+User(8): no
+Bot(8): i have a motorcycle speak english .
+User(9): ok
+Bot(9): I u have a you a fan of star wars. what about you?
+User(10): good
+Bot(10): who knows i love swimming but eat your no. I am old how are you doing this evening ?
+
+Persona:
+i waitress during the day to supplement my income.
+i produce music for artists.
+my father is an electrician.
+i attend church every week.
+i have three dogs.
+
+Topic and Human Opinion:
+Beginning: fdb(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 96
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes
+Bot(2): do you have any hobbies ?
+User(3): i have a many coppie
+Bot(3): i have a lot of time to have a few
+User(4): oh ok
+Bot(4): i have a lot of money
+User(5): then
+Bot(5): i am a huge fan of guns
+User(6): ok
+Bot(6): i am a huge fan of guns
+User(7): ok
+Bot(7): i am a little tired from the same way
+User(8): ok
+Bot(8): what do you do for a living ?
+User(9): rfrw
+Bot(9): i am a little nervous but i am not sick
+User(10): thatsgood
+Bot(10): i am not good at it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: et(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.43
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 88
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): ifine
+Bot(2): i love to cook . i love to cook .
+User(3): ok
+Bot(3): i like to go to the gym and listen to music .
+User(4): oh wow
+Bot(4): i love to cook . i love to cook .
+User(5): oh
+Bot(5): i am a student , but i am a student .
+User(6): ok
+Bot(6): i like to go to the gym and listen to music .
+User(7): good
+Bot(7): i am a student , but i am a student .
+User(8): good
+Bot(8): i am a student , but i am a student .
+User(9): ilove friends
+Bot(9): i love to cook . i love to cook .
+User(10): ok
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: gh(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.14
+Robotic(↓): 50
+Interesting: 50
+Fun: 93
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

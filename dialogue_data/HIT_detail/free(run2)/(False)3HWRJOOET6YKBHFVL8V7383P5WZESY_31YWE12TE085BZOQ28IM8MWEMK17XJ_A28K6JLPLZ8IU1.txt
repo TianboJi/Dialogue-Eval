@@ -1,0 +1,295 @@
+Feedback: No feedback from my side
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello . i am denmark moises and i am 98
+User(2): what is your view on online shopping
+Bot(2): are you an online shopper ?
+User(3): yes am an online shopper
+Bot(3): are you an online shopper ?
+User(4): yes. am
+Bot(4): are you an online shopper ?
+User(5): do you think online shopping gives us more choices than the traditional offline shopping methodology
+Bot(5): that is up for debate
+User(6): what is up for a debate?
+Bot(6): that is up for debate
+User(7): am sorry. i am not able to follow
+Bot(7): that is up for debate
+User(8): is there anything else you would like to talk about
+Bot(8): that is up for debate
+User(9): i personally believe that online shopping gives us immense options for choosing the best product
+Bot(9): that is up for debate
+User(10): thank you for your help and your inputs
+Bot(10): you are most welcome . . i hope you had a great day
+User(11): thanks. hope you have a great day ahead
+Bot(11): i sure will i am old looking for a friend outside of my husband
+User(12): sorry that is not we agreed to talk about
+Bot(12): thank you for your understanding
+User(13): do not worry. take care.
+Bot(13): thank you for your understanding
+
+Persona:
+i am 100 years old.
+i've brown curly hair.
+i am a cancer survivor.
+my favourite food is shawarma.
+i am a gold medalist olympian.
+
+Topic and Human Opinion:
+Beginning: Online Shopping(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.43
+Robotic(↓): 2
+Interesting: 2
+Fun: 6
+Consistent: 9
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I am not have a dog, a student.
+User(2): sorry this is not relevant to the topic
+Bot(2): What from quite an achievement. be when you graduate?
+User(3): no no. you are going off the topic here
+Bot(3): i just take care of my home and it does not respond me is your car ?
+User(4): am not sure i follow
+Bot(4): No I've the band's can to though.
+User(5): the topic i would like to discuss is COVID 19 pandemic
+Bot(5): i can and to hospital ? i am not very good at it .
+User(6): very good at what?
+Bot(6): That ı love to sing volunteer at the local animal shelter.
+User(7): do you think the virus can be controlled by end of the year 2020
+Bot(7): I you it.
+User(8): no no . kindly focus on the task at hand.
+Bot(8): I is ford It’s said was true.
+User(9): sorry to say but seems you are kind of off topic
+Bot(9): not drive a you had biking that is cool
+User(10): have a nice day
+Bot(10): I am told you a couple fan of bubblegum.
+User(11): thanks for your help
+Bot(11): my dad taught me to by a we can of truck he has
+
+Persona:
+my family is continuously growing.
+my favorite shirts are band shirts and ruffle sleeves.
+i just bought my first home.
+i'm an omnivore.
+i'm a vegetarian.
+
+Topic and Human Opinion:
+Beginning: COVID 19(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.43
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 0
+Fluent: 2
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello. Good morning
+Bot(1): i am good . just debating whats for breakfast . how are you ?
+User(2): am fine. what about you
+Bot(2): i just came from a swim . i have been swimming since a baby
+User(3): oh is it so. that's great
+Bot(3): my mom says too much is bad for her . she plays tennis professionally
+User(4): pretty sure that is not the topic
+Bot(4): its a chemistry exam i am a biology major at boston college
+User(5): sorry but the topic we can discuss is about the climate change
+Bot(5): yes , all weekend . i am going to an art show tomorrow night with some friends .
+User(6): would be kind enough to stick with the topic chosen
+Bot(6): its a chemistry exam i am a biology major at boston college
+User(7): seems you are repeating the same response irrespective of the query
+Bot(7): you might be right . my mom lifted weights . i am naught compared to her
+User(8): but that is not what we agreed to discuss
+Bot(8): sure is . i love surfing and sunsets . the ocean is a great place for both !
+User(9): good for you
+Bot(9): thanks ! i am planning to publish a book about it . it is slow writing it though
+User(10): nice
+Bot(10): yes . i am a police officer in detroit .
+User(11): that cannot be true
+Bot(11): love the mc hammer reference , what is really cool is cooking , i can teach you .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Climate change(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 1
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Good morning
+Bot(1): hi there , how are you ?
+User(2): am fine. How are you feeling today
+Bot(2): i am good . just got back from a long day of work .
+User(3): ok great to hear .
+Bot(3): i am so glad to hear that .
+User(4): sorry thats what i said
+Bot(4): i am 19 . i am only 19 .
+User(5): this is not relevant. Can we discuss a little bit about economy
+Bot(5): i am only 19 so i am only 19
+User(6): looks like you are repeating the responses
+Bot(6): i am only 19 so i am only 19
+User(7): sorry that is not what i asked
+Bot(7): i am only 19 so i am only 19
+User(8): can you tell me your views on current economy of our country
+Bot(8): i am only 19 so i am a male
+User(9): no no. thats all well and good. can you please concentrate on the topic
+Bot(9): i can not do that
+User(10): why
+Bot(10): i can not tell you i am only 19
+User(11): no no. i am just asking about your views on economy. Kindly do not feel offended
+Bot(11): i know that . i am a huge fan of it .
+
+Persona:
+i'm a 45 year old male.
+i prefer being inside.
+hey there i am 23 and i love food.
+i've amazing children and grandchildren.
+i love to play pobox.
+
+Topic and Human Opinion:
+Beginning: Economy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.43
+Robotic(↓): 100
+Interesting: 2
+Fun: 0
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello. A very good morning to you
+Bot(1): hi , how are you today ?
+User(2): am feeling great. How about you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): Good .
+Bot(3): i like to go to the gym and listen to music .
+User(4): oh me too. what type of music do you like
+Bot(4): i like country music . what about you ?
+User(5): i like classical. what about movies
+Bot(5): i like the oldies . i like to play the guitar .
+User(6): that's good to hear. do you like movies?
+Bot(6): i do , i like to read .
+User(7): movies?
+Bot(7): i like to go to the gym and listen to music .
+User(8): no no . movies. Do you like them?
+Bot(8): i do not , but i do like to eat .
+User(9): so you don't like movies ?
+Bot(9): i do , i like to read .
+User(10): oh good to hear that
+Bot(10): i like to go to the beach and listen to music .
+
+Persona:
+i'm a librarian.
+my favorite band is rascal flats.
+i'm here for shoplifting.
+i'm a librarian.
+i am in college to become a nurse.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 5.43
+Robotic(↓): 100
+Interesting: 1
+Fun: 3
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 34
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you? Do you like to listen to music
+Bot(2): i do what kind do you listen to
+User(3): i like to listen to pop and classical music
+Bot(3): classical is what i like usually
+User(4): oh me too. what type of composers do you like most
+Bot(4): my favorite is classical , how about you ?
+User(5): me too
+Bot(5): me too but my favorite genre is classical
+User(6): oh thats great
+Bot(6): i love classical music what about you ?
+User(7): i like classical also i like to listen to new pop music too
+Bot(7): me too but my favorite genre is classical
+User(8): who do you think is a great singer?
+Bot(8): i love almost every singer
+User(9): oh do you have any favorite
+Bot(9): my favorite is classical , how about you ?
+User(10): thanks for your help
+Bot(10): do you like any classical
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.00
+Robotic(↓): 99
+Interesting: 2
+Fun: 1
+Consistent: 1
+Fluent: 3
+Repetitive(↓): 99
+Topic: 61
+
+####################
+

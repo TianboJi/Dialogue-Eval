@@ -1,0 +1,298 @@
+Feedback: Some chatbots were repetitive but I tried to view the conversation.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like movies?
+Bot(1): i do , i like to read .
+User(2): I also love to read, have you seen any good movies lately?
+Bot(2): no , i like to read .
+User(3): Do you have a favorite book?
+Bot(3): i like the classics and the doors .
+User(4): Do you like mystery novels?
+Bot(4): i do not really like them . i like to read .
+User(5): I recently checked out a drama set in Russia. What books have you read recently?
+Bot(5): no , i do not . i like to go to the gym .
+User(6): I love to exercise! Do you like to lift weights?
+Bot(6): i do not , but i do like to eat .
+User(7): What kind of food do you like to eat?
+Bot(7): i love pizza , and i love it .
+User(8): I also love pizza. Do you have a favorite kind of pizza?
+Bot(8): i like pizza , and i love it .
+User(9): One of my favorites is pepperoni, or bbq chicken.
+Bot(9): i like the color green . i like red .
+User(10): My favorite color is blue.
+Bot(10): i like red , reminds me of summer time .
+User(11): Summer for me is always blue and green, for all the fresh grass.
+Bot(11): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 2: Books(like)
+Round 5: The Gym(like)
+Round 6: Food/Drink(like)
+Round 9: Colors(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 27.71
+Robotic(↓): 93
+Interesting: 20
+Fun: 33
+Consistent: 78
+Fluent: 20
+Repetitive(↓): 95
+Topic: 31
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like pizza?
+Bot(1): its really so you used you
+User(2): Do you like chinese food?
+Bot(2): I play guitar thinks so? Don't band.
+User(3): I love guitar, I haven't owned one in a few years though.
+Bot(3): I great where to be.
+User(4): Do you play any other insturments?
+Bot(4): I am sure it means a lot to you. Tell me what you like most about your work. You are a champion? Do with much time do you spend of people?
+User(5): I love that I do a variety of tasks, and the work is never quite routine. There's enough variety to keep me engaged, and I get to work from home.
+Bot(5): I am not like horses. And like you.
+User(6): Do you enjoy your work?
+Bot(6): I'm have two laugh a new shirt.
+User(7): Where do you work?
+Bot(7): I is your favorite love just moved to japan.
+User(8): Do you like it there? I always wanted to visit.
+Bot(8): I live in ilove dogs too! the river
+User(9): Do you like Akitas? They're a japanese breed of dog.
+Bot(9): I'm doing short brown probably you?
+User(10): Are there fun things to do in your town?
+Bot(10): I do doh you have to cook.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food/Drink(like)
+Round 2: Music(like)
+Round 4: Work(like)
+Round 7: Hometown(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 8.00
+Robotic(↓): 100
+Interesting: 12
+Fun: 10
+Consistent: 20
+Fluent: 2
+Repetitive(↓): 93
+Topic: 5
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like dogs?
+Bot(1): i do like dogs but i have 6 cats and no dogs .
+User(2): What kinds of cats do you have? I prefer dogs but cats are cute too.
+Bot(2): no dogs do not do so good around the cats . cool name !
+User(3): Do you like labradors?
+Bot(3): love it there ! i was a nurse when i lived there
+User(4): Oh, I meant Labrador's the dog breed! Are you a nurse now?
+Bot(4): it is a golden retriever puppy ! my last dog died when i was 18 .
+User(5): I love golden retrievers! Do you live in Canada, then?
+Bot(5): me too ! i work at advertising firm that works with a lot of fluffy animals .
+User(6): I do data entry work myself.
+Bot(6): i study online . i do not want to pay for school . so many free online resources .
+User(7): What are you going to school for?
+Bot(7): computer science . do not wanna get stuck with a useless degree .
+User(8): Computer Science is usually a pretty marketable degree to have! I thought about majoring in it.
+Bot(8): i am an art teacher and i love making my own clothing
+User(9): Oh, I love to do art. Do you have a a favorite art medium?
+Bot(9): i do enjoy art , my passion is drawing .
+User(10): I love to draw landscapes, myself, but I'm not very good. It is relaxing, though.
+Bot(10): like billiards tables , or pyramids . i teach middle school art
+
+Persona:
+i also like a glass of wine in the evenings.
+my grandfather served in world war a.
+i work at a nursing home.
+i'm a vegetarian.
+my wife left me and took my children.
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 3: Canada(like)
+Round 5: Work(like)
+Round 8: College(like)
+Round 10: Art(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The user changed the topic the last input.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 42.00
+Robotic(↓): 69
+Interesting: 83
+Fun: 23
+Consistent: 55
+Fluent: 52
+Repetitive(↓): 73
+Topic: 23
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What do you like to do for fun?
+Bot(1): i like going to the movies with my friends , you ?
+User(2): I love to go hiking, do you?
+Bot(2): not so much ! i prefer going on a hike
+User(3): Do you like to swim? I love to swim.
+Bot(3): not so much ! i prefer going on a hike
+User(4): Do you like wilderness hiking, or just recreational hiking around town?
+Bot(4): i like the country more and swimming in the creeks .
+User(5): I prefer to swim in rivers, lakes and creeks, too. Do you like to fish?
+Bot(5): fish is okay , but i prefer to hike instead of catching it fresh .
+User(6): I like to fish but never catch anything.
+Bot(6): in the creeks around here , it is mostly trout or in the lakes large mouths .
+User(7): That's some good fishing, sounds like it could be great for fly-fishing.
+Bot(7): in the creeks around here , it is mostly trout or in the lakes large mouths .
+User(8): Do you like boating? I love to canoe and kayak.
+Bot(8): i have never tried kayaking before . just a canoe , but it was nice .
+User(9): I always found it so relaxing. I prefer to kayak because I don't have anyone to canoe with me. Single person canoeing is hard.
+Bot(9): it cannot be fun to kayak if you do it alone .
+User(10): I prefer to do most of my outdoor activities alone, it's my zen time.
+Bot(10): do you find it calming ? it sounds peaceful .
+User(11): Very peaceful.
+Bot(11): it is . i swim in the same lake , it is quiet . very nice .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Recreational Activities(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.57
+Robotic(↓): 63
+Interesting: 45
+Fun: 74
+Consistent: 33
+Fluent: 65
+Repetitive(↓): 79
+Topic: 30
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like animals?
+Bot(1): i do , i love animals
+User(2): I do too! Do you have any pets?
+Bot(2): i do not have any pets . i have a dog .
+User(3): I've had two dogs, I prefer them to cats. A Neapolitan Mastiff, and a Australian Cattle Dog mix.
+Bot(3): i love animals , i have two dogs .
+User(4): What kind of dogs do you have?
+Bot(4): i have a lab , he is allergic to dogs .
+User(5): Your dog is allergic to dogs? That's somewhat funny! Is it a chocolate lab?
+Bot(5): i do not have any pets .
+User(6): What would be your dream pet?
+Bot(6): i do not want to be a dog , but i do not want to be a dog .
+User(7): Do you like horses? I always wanted a horse.
+Bot(7): i do not have any pets . i do not have any pets .
+User(8): Do you like to cook?
+Bot(8): i love to cook . i cook for them .
+User(9): I made some delicious blini this weekend.
+Bot(9): i love to cook , i love to cook
+User(10): What kind of food is your favorite to cook?
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+Round 7: Food/Drink(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 16.29
+Robotic(↓): 92
+Interesting: 6
+Fun: 18
+Consistent: 9
+Fluent: 60
+Repetitive(↓): 93
+Topic: 6
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like to cook?
+Bot(1): yes i love to cook
+User(2): What kind of food do you like to cook?
+Bot(2): all kinds . i am a great cook . what is your favorite meal ?
+User(3): I think macaroni and cheese, but I love a lot of food, especially Russian and Mexican.
+Bot(3): i like chicken or macaroni and cheese .
+User(4): I was thinking about making chicken pot pies, I made chicken pot pie soup with dumplings and it was amazing.
+Bot(4): i make mostly chicken stir fry .
+User(5): Stir fry is tasty, do you like it with rice or lo mein?
+Bot(5): i make mostly chicken stir fry .
+User(6): Do you ever eat hot pot, it's a Japanese dish.
+Bot(6): i make mostly chicken stir fry .
+User(7): Do you like to travel?
+Bot(7): sometimes , where do you like to travel to ?
+User(8): I want to visit Russia, but I like to go everywhere. Ireland and Germany have been two of my favorite travel spots.
+Bot(8): i would really like to travel and see ireland , have you traveled ?
+User(9): I have, but not as much as I would like. The northern Irish coastline is breathtaking.
+Bot(9): i have been there before , as well as ireland and australia .
+User(10): Have you been to New Zealand? It's on my list of places to go after seeing some tv shows shot there.
+Bot(10): i have not . i have been to south africa , it was amazing .
+User(11): I've heard all kinds of things about the great white sharks that live near there.
+Bot(11): sharks are beautiful creatures to look at .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food/Drink(like)
+Round 6: Travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 62.71
+Robotic(↓): 31
+Interesting: 80
+Fun: 64
+Consistent: 78
+Fluent: 36
+Repetitive(↓): 65
+Topic: 77
+
+####################
+

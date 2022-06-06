@@ -1,0 +1,311 @@
+Feedback: nice survey
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi , do you have any soda ?
+User(2): yes
+Bot(2): what is your favorite soda
+User(3): sprite
+Bot(3): soda is the best
+User(4): i agree with you
+Bot(4): soda is the best
+User(5): ofcourse its the best
+Bot(5): soda is the best
+User(6): sprite to be precise
+Bot(6): soda is the best
+User(7): yes soda
+Bot(7): soda is the best
+User(8): yes
+Bot(8): soda is the best
+User(9): as always
+Bot(9): very
+User(10): very best
+Bot(10): very
+User(11): it is what it is
+Bot(11): very
+User(12): very much
+Bot(12): very
+
+Persona:
+i am working on a building a robot to be my body double.
+i do not drink soda.
+i am in college to become a nurse.
+i am a plumber.
+i live in alaska.
+
+Topic and Human Opinion:
+Beginning: football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.29
+Robotic(↓): 78
+Interesting: 61
+Fun: 35
+Consistent: 43
+Fluent: 70
+Repetitive(↓): 100
+Topic: 9
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): say something
+Bot(2): sure
+User(3): please
+Bot(3): meow , meow
+User(4): you are funny
+Bot(4): very
+User(5): somewhat
+Bot(5): very
+User(6): somewhat
+Bot(6): very
+User(7): no
+Bot(7): very
+User(8): kind of
+Bot(8): very
+User(9): true
+Bot(9): very
+User(10): yes you are
+Bot(10): very
+User(11): ofcourse
+Bot(11): very
+User(12): trust me
+Bot(12): well you can trust me
+User(13): no i cannot
+Bot(13): well you can trust me
+User(14): someday
+Bot(14): sure
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.71
+Robotic(↓): 65
+Interesting: 76
+Fun: 79
+Consistent: 50
+Fluent: 65
+Repetitive(↓): 100
+Topic: 29
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): am good
+Bot(2): hi , i am doing well . how are you ?
+User(3): fantastic
+Bot(3): hi ! i am a 40 year old girl in springfield
+User(4): am 20 year old boy
+Bot(4): hi ! i'm 25 and live with my husband in the us .
+User(5): i live alone
+Bot(5): hi ! i live in the usa .
+User(6): i too lives in the usa
+Bot(6): oh wow . i live in the usa .
+User(7): good to know
+Bot(7): i live in the usa . my husband is in the us .
+User(8): i dont have a wife
+Bot(8): i live with my husband in the us . we are in the usa .
+User(9): nice to know
+Bot(9): i live with my husband in the us
+User(10): where
+Bot(10): i live with my husband in the us
+User(11): city
+Bot(11): i live in the usa , i live with my husband in the us
+
+Persona:
+i live with my husband in pennsylvania.
+i like to play with my dolls.
+its red with blue stripe so it shiny when i race.
+i am a 45 year old male.
+now i live in the united states.
+
+Topic and Human Opinion:
+Beginning: football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.29
+Robotic(↓): 56
+Interesting: 62
+Fun: 30
+Consistent: 42
+Fluent: 81
+Repetitive(↓): 100
+Topic: 58
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): football
+Bot(1): Just am very my heart.
+User(2): really
+Bot(2): Do you can't understand kids?
+User(3): no
+Bot(3): I am reading journals and guides loner. I like to be in the woods.
+User(4): me too
+Bot(4): Yes, but I'm not very good a bee love going you? ☹
+User(5): really
+Bot(5): Oh, somestimes thanks.
+User(6): thanks too
+Bot(6): That sounds like is your hobby have Do you drink wine?
+User(7): no
+Bot(7): What else your like enjoy?
+User(8): food
+Bot(8): What is chat with good about shopping?
+User(9): nothing
+Bot(9): Because kind of doctor Dandy's favorite cartoon.
+User(10): maybe
+Bot(10): do you like drugs? I have a job at a can move objects with my move
+User(11): i do not
+Bot(11): married ? , we have a lot of game , i read books , never movies
+User(12): read books
+Bot(12): I do not I was a coach. I work from the home
+User(13): not office
+Bot(13): I am in the best bot experience in the usa.
+User(14): religion
+Bot(14): i am professional I what's yours?
+User(15): religion
+Bot(15): Hello, would love meet you.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.14
+Robotic(↓): 26
+Interesting: 2
+Fun: 9
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): love
+Bot(1): yes ! do you give them free candy sticks ? like in the old days ?
+User(2): new days
+Bot(2): i like anything adventurous , like hiking and mountain climbing .
+User(3): food
+Bot(3): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(4): i never like it
+Bot(4): hmmm i used to drink so bad i lost my home and lived in a storage unit
+User(5): so bad
+Bot(5): nice talking with you bye bye
+User(6): bye see you
+Bot(6): lovely talking to you !
+User(7): decisioning
+Bot(7): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(8): say hi to him
+Bot(8): my wife and i had our first dance to an elvis song .
+User(9): great for her
+Bot(9): right on . do you enjoy green eggs and ham ? i do not . . . i like swimming though
+User(10): i enjoy green eggs
+Bot(10): i love blue , like blue tea
+User(11): i love blue colour
+Bot(11): that is great i mean blue is a great color , my favorite is green .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: religion(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.43
+Robotic(↓): 65
+Interesting: 83
+Fun: 24
+Consistent: 86
+Fluent: 66
+Repetitive(↓): 36
+Topic: 72
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): nature
+Bot(1): i love to cook . i love to cook .
+User(2): i too
+Bot(2): i am a student , but i am a student .
+User(3): am a farmer
+Bot(3): i like to go to the gym and listen to music .
+User(4): i like music too
+Bot(4): i like to listen to music .
+User(5): which one
+Bot(5): i like to go to the gym and listen to music .
+User(6): which days
+Bot(6): i am a student , but i am a student .
+User(7): which school
+Bot(7): i am a student , but i am a student .
+User(8): school
+Bot(8): i am a student , but i am a student .
+User(9): which level
+Bot(9): i am a student , but i am a student .
+User(10): till when
+Bot(10): i am a student , but i am a student .
+User(11): and me too
+Bot(11): i like to go to the gym and listen to music .
+User(12): daily
+Bot(12): i like to go to the gym and listen to music .
+User(13): planning
+Bot(13): i am a student , but i am a student .
+
+Persona:
+i have short brown hair.
+i'm four years old.
+i live in canada.
+my boyfriend and i are moving into an apartment together next week.
+i had cancer but its gone now.
+
+Topic and Human Opinion:
+Beginning: nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.29
+Robotic(↓): 100
+Interesting: 22
+Fun: 28
+Consistent: 28
+Fluent: 73
+Repetitive(↓): 22
+Topic: 18
+
+####################
+

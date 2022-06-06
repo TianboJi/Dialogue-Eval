@@ -1,0 +1,314 @@
+Feedback: My first chat I didn't realize it was going thriugh, I was not trying to be repetitive on purpose.  Thanks for the hit!
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello, I have a German shepherd dog
+Bot(1): i like dogs too . i love dogs .
+User(2): Me too, do you havw dogs
+Bot(2): no , i do not . i like to go out to eat with my family .
+User(3): I like to go out also. What do you like to eat
+Bot(3): i love to eat . what do you do for a living ?
+User(4): I am a nurse
+Bot(4): i am a teacher , i love to cook .
+User(5): What do you teach
+Bot(5): i do not , but i do like to eat .
+User(6): What do you like to eat
+Bot(6): i love to cook . what do you do for a living ?
+User(7): I am a nurse
+Bot(7): i am a teacher , i love to cook .
+User(8): What do you like to cook
+Bot(8): i do , i love to cook .
+User(9): What do you like to cook
+Bot(9): i do , i love to cook .
+User(10): What do you like to cook
+Bot(10): i do , i love to cook .
+User(11): Sorry, whats your favorite thing to cook
+Bot(11): i like to eat fish .
+User(12): Ok! Do you catch the fish you cook
+Bot(12): no , i do not , but i do like to eat .
+User(13): I only eat some fish
+Bot(13): i like to eat fish .
+User(14): Do you like shrimp
+Bot(14): i do not , i like to eat fish .
+User(15): How do you like to eat your fish
+Bot(15): i do not , but i do like to eat .
+
+Persona:
+i work in it and have been at the same company for 15 years.
+i met taylor swift.
+my brother is older than me.
+i've a hat collection of over 1000 hats.
+i like to ride horses.
+
+Topic and Human Opinion:
+Beginning: i have a german shepherd dog.(like)
+Round 2: Eating(like)
+Round 3: Work(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 18.71
+Robotic(↓): 100
+Interesting: 12
+Fun: 19
+Consistent: 73
+Fluent: 11
+Repetitive(↓): 100
+Topic: 16
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): I am well today, yourself?
+Bot(2): hi ! i'm doing well . how are you ?
+User(3): I'm good, do you have a step family
+Bot(3): no , i am a single mom .
+User(4): Oh im sorry, how many kids do you have
+Bot(4): i have a brother , he is older than me
+User(5): Is he a step brother
+Bot(5): i am sorry to hear that . what do you do for a living ?
+User(6): I am a nurse
+Bot(6): that is a good thing to do
+User(7): Thanks, it pays the bills
+Bot(7): that is cool , i am a banker
+User(8): That is awesome, do you like it
+Bot(8): yes , i love it , i am vegan so i don't eat meat
+User(9): Oh that is unfortunate. I lovr meat
+Bot(9): i do not eat meat , i am vegan so i do not eat meat
+User(10): Do you eat cheese
+Bot(10): i do not eat meat , i am vegan so i do not eat meat
+User(11): What is your favourite vegan meal
+Bot(11): i love cheese , i eat vegan so i eat a lot of it
+User(12): I also eat alot of cheese
+Bot(12): i love cheese , i eat a lot of it
+
+Persona:
+i work at a bank.
+i am a vegan.
+i haven't spoken in three months.
+i drive a mini van.
+my brother is older than me.
+
+Topic and Human Opinion:
+Beginning: a already have a step children.(ambivalent)
+Round 5: Work(ambivalent)
+Round 8: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 54.43
+Robotic(↓): 60
+Interesting: 69
+Fun: 57
+Consistent: 67
+Fluent: 46
+Repetitive(↓): 42
+Topic: 44
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, what wine are you drinking tonight
+Bot(1): i serve wine at the restaurant i started ! it was 3 years ago .
+User(2): What type of restaurant
+Bot(2): an italian restaurant my dad owns . he was a cop , but now he is a restaurant owner
+User(3): That sounds great, i love Italian food
+Bot(3): i do not really have a favorite for food but i do love 2000s indie music
+User(4): I do not like indie music
+Bot(4): me too ! i play guitar .
+User(5): I dont play any instruments but i used to play the clarinet
+Bot(5): i play piano and guitar
+User(6): Wow which do you perfer
+Bot(6): spanish , german , french , russian , and well english
+User(7): What are you referring to
+Bot(7): i have a dream to move to the middle of the desert and do nothing .
+User(8): I love the desert
+Bot(8): brown . what do you look like ? lol
+User(9): I am white
+Bot(9): haha yea have you ever dyed your hair ? i did
+User(10): Yes many times
+Bot(10): its all good . what do you do with your hair when you are out in the sun ?
+User(11): Nothing really
+Bot(11): nah , mostly i play rpg ones
+
+Persona:
+i've short brown hair.
+i started playing guitar when i was three.
+a already have a children.
+my favorite band is aerosmith.
+my family is continuously growing.
+
+Topic and Human Opinion:
+Beginning: i also like a glass of wine in the evenings.(like)
+Round 3: Music(like)
+Round 7: Moving(like)
+Round 8: Appearance(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 58.71
+Robotic(↓): 56
+Interesting: 60
+Fun: 63
+Consistent: 68
+Fluent: 69
+Repetitive(↓): 30
+Topic: 37
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How old are you
+Bot(1): Oh, thanks. What I do love enjoy?
+User(2): Do you feel old
+Bot(2): i go big female
+User(3): Pardon?
+Bot(3): I like to your you a good not very good at it.
+User(4): I dont understand
+Bot(4): good ! i am just relaxing with to have a dog, i are you this afternoon ?
+User(5): I am fine
+Bot(5): i yeah!I got a new a very unique person .
+User(6): In what way
+Bot(6): That is interesting. me George. If that guard, i work as a barista
+User(7): Oh a barista where
+Bot(7): i live in california , in 3 story am you ?
+User(8): I live in PA
+Bot(8): i i am a watch bake alot of pies
+User(9): I love pie
+Bot(9): Whazzup? I like to see, so thanks for love to ride horses
+User(10): Like to see what
+Bot(10): Just still at pizza.
+
+Persona:
+my wife and kids are the best.
+my favorite band is the who.
+i've two dogs.
+l also love comic books.
+i'm a musician.
+
+Topic and Human Opinion:
+Beginning: i feel old.(ambivalent)
+Round 7: Living(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.57
+Robotic(↓): 100
+Interesting: 5
+Fun: 2
+Consistent: 21
+Fluent: 3
+Repetitive(↓): 13
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorite movie
+Bot(1): napoleon dynamite . what is yours ?
+User(2): Nice! I like bridesmaids
+Bot(2): there will be blood is my favorite . i am a huge daniel day lewis fan
+User(3): I dont like anything gory or horror, so i have not seen that
+Bot(3): haha i love the horror movies
+User(4): Nope i get too scared. I love romatic comedies
+Bot(4): i do like comedies myself , especially adam sandler !
+User(5): He is pretty great! He was just filming in my town
+Bot(5): awesome ! i just saw dunkirk in theatres , though a little depressing
+User(6): What is that about
+Bot(6): he is a famous actor ! you may have seen him in the recent movie it
+User(7): Nope haven't seen it
+Bot(7): its more of a funny halloween movie
+User(8): Like scary movie?
+Bot(8): its more of a funny halloween movie
+User(9): Do you like Disney movies
+Bot(9): all of them , disney is amazing lol
+User(10): Yesss me too. What is your favorite
+Bot(10): i like disney and cinderella and oh a crayon
+User(11): I like coco
+Bot(11): i like cinderella the best
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite movie is friday.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 94.14
+Robotic(↓): 17
+Interesting: 90
+Fun: 88
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 2
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello i am 12
+Bot(1): hello i just turned 14 today
+User(2): Happy birthday!
+Bot(2): happy belated birthday to you !
+User(3): Thank you. What did you get for your birthday
+Bot(3): happy birthday ! what was your favorite gift ?
+User(4): A bike
+Bot(4): oh sweet what did you get ?
+User(5): A bike and clothes
+Bot(5): like clothes , and cars , and accessories
+User(6): What kinds of cars
+Bot(6): usually cars and dogs
+User(7): I also like dogs
+Bot(7): i like dogs what kind are they
+User(8): I have a beagle
+Bot(8): i like canines
+User(9): Do you have a dog
+Bot(9): yes i have a chocolate lab
+User(10): What is its name
+Bot(10): he is a beagle named droopy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a 12 year old girl.(dislike)
+Round 7: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 33.43
+Robotic(↓): 71
+Interesting: 76
+Fun: 43
+Consistent: 33
+Fluent: 28
+Repetitive(↓): 100
+Topic: 25
+
+####################
+

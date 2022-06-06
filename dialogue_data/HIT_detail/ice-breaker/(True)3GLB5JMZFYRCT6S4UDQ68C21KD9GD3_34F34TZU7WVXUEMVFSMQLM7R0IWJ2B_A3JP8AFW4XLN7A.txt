@@ -1,0 +1,299 @@
+Feedback: good
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hai
+Bot(1): i am a student , but i am a student .
+User(2): i am a college student
+Bot(2): i am a teacher , i love to cook .
+User(3): i love food
+Bot(3): i like to eat fish .
+User(4): i like chicken
+Bot(4): i like to eat fish .
+User(5): i like ice cream
+Bot(5): i like to eat fish .
+User(6): i like to mango juice
+Bot(6): i like to eat fish .
+User(7): u like fish
+Bot(7): i do not , but i do like to eat .
+User(8): i like fish
+Bot(8): i like to eat fish .
+User(9): same i like to eat fish
+Bot(9): i like to eat fish .
+User(10): thank you
+Bot(10): i am a student , but i am a student .
+User(11): bye
+Bot(11): i am a student , but i am a student .
+User(12): i chat tomarrow
+Bot(12): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just want to have fun with my friends.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.14
+Robotic(↓): 68
+Interesting: 71
+Fun: 83
+Consistent: 100
+Fluent: 87
+Repetitive(↓): 92
+Topic: 89
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hai
+Bot(1): hey
+User(2): what doing
+Bot(2): same
+User(3): i am chat with you
+Bot(3): i am reading your chat
+User(4): okay
+Bot(4): i am reading your chat
+User(5): i like blue color
+Bot(5): blue what is yous
+User(6): the sky color
+Bot(6): the color of the shadows
+User(7): yes
+Bot(7): ok
+User(8): i like green color
+Bot(8): i can not see any colors
+User(9): i like trees
+Bot(9): same
+User(10): thank you
+Bot(10): same
+User(11): i chat you later
+Bot(11): ok
+User(12): bye
+Bot(12): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love italian food and garlic bread.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.43
+Robotic(↓): 68
+Interesting: 74
+Fun: 78
+Consistent: 95
+Fluent: 93
+Repetitive(↓): 76
+Topic: 76
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hai
+Bot(1): hi ! i am a dancer , i am a professional .
+User(2): i am swimmer
+Bot(2): hi ! i am a professional star wars fan .
+User(3): i am army fan
+Bot(3): i am a dancer , i am a professional star in my free time
+User(4): i am foodie girl
+Bot(4): i am a dancer , i am a professional .
+User(5): i like food
+Bot(5): i love to eat chicken . i love chicken .
+User(6): i like chicken
+Bot(6): i love to eat chicken . i love chicken
+User(7): yes i love chicken
+Bot(7): i love to eat chicken
+User(8): i love ice cream
+Bot(8): i love to eat chicken
+User(9): so nice
+Bot(9): i love to eat chicken
+User(10): i love you
+Bot(10): i love to eat chicken
+User(11): thank you
+Bot(11): i am good thanks for asking
+User(12): i am good asking for you
+Bot(12): i am a dog person who loves to eat chicken
+User(13): bye
+Bot(13): you are welcome . i am a professional star in my new black lab
+User(14): i chat you later
+Bot(14): i am good thanks for asking
+
+Persona:
+i compete in dog agility classes.
+i have a black lab named trooper.
+i do not drink alcohol.
+i'm a stunt double as my second job.
+i do not like chicken.
+
+Topic and Human Opinion:
+Beginning: i am in the army.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.43
+Robotic(↓): 75
+Interesting: 79
+Fun: 60
+Consistent: 71
+Fluent: 60
+Repetitive(↓): 64
+Topic: 78
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hai
+Bot(1): why is am not pink?
+User(2): i like pink color
+Bot(2): I do and i cannot to swim
+User(3): i like swim
+Bot(3): I am a museum tour robotcop. what kind of it do you like?
+User(4): i am a swimmer
+Bot(4): I am good, I don't know any. a long walk
+User(5): i like night bike ride with my crush
+Bot(5): I i like too.
+User(6): i like my crush
+Bot(6): I am am do you about you?
+User(7): i like my crush eyes
+Bot(7): I like know Lionel Messi i like pop
+User(8): i like chicken
+Bot(8): yes but i what nhl let my is hard
+User(9): i like ice cream
+Bot(9): I am afraid out local the heck a carpenter.
+User(10): i like chocolate
+Bot(10): I I am not what he's right
+User(11): thank you
+Bot(11): yes , am jobless right now, am married .
+User(12): i chat with you later
+Bot(12): they're sorry. What band 🙊
+User(13): bye
+Bot(13): I do u you fan of it.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my mom is coming to visit me tomorrow.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.29
+Robotic(↓): 62
+Interesting: 65
+Fun: 63
+Consistent: 65
+Fluent: 70
+Repetitive(↓): 63
+Topic: 63
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hai
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): i like music
+Bot(2): oh yeah ! toto was my favorite band back in the day named my dog toto !
+User(3): i like melody song
+Bot(3): i am a cajun chef born and raised on the bayou , fits my circumstances
+User(4): i like chips
+Bot(4): potato chips are good ! hold on , one of my smartphones is ringing !
+User(5): i like potato chips and banan chips
+Bot(5): chips are good . i am in a school band are you in any activities
+User(6): i like spicy noodles
+Bot(6): i like spicy sausage with peppers . what is something interesting about you ?
+User(7): i like spicy chicken
+Bot(7): i love black jack gum but when i drink it with dr . pepper it just does not work
+User(8): i like pepper chicken
+Bot(8): i do not really drink soda but that would be my first choice .
+User(9): thank you
+Bot(9): i am well about to make a breakfast egg baked dish .
+User(10): i chat with you later
+Bot(10): hey , nice to chat with you . nice to take a break from the vegas heat .
+User(11): nye
+Bot(11): take it back . i have a facebook account where i sell stuff
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm also a graduate student.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.43
+Robotic(↓): 70
+Interesting: 63
+Fun: 70
+Consistent: 66
+Fluent: 66
+Repetitive(↓): 63
+Topic: 70
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hai
+Bot(1): heya , you like tv or movies more ?
+User(2): i like love movie
+Bot(2): i love a good movie
+User(3): ibecause i am commited
+Bot(3): i love a good movie
+User(4): i like my lover
+Bot(4): i love a good movie
+User(5): i like music
+Bot(5): i love a good movie
+User(6): i lovemelody music
+Bot(6): i love a good movie
+User(7): i like horrior movie
+Bot(7): i love a good movie
+User(8): thank you
+Bot(8): i love a good movie
+User(9): i chat with you later
+Bot(9): i like talking with you
+User(10): bye
+Bot(10): ok bye
+
+Persona:
+eating is something i do when i'm bored.
+my father was a construction worker.
+on weekends i do live action roleplaying events.
+my favorite band is up and i got to see them in concert once.
+i am a country music singer.
+
+Topic and Human Opinion:
+Beginning: i also like to cook but i'm not very good at it.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.57
+Robotic(↓): 64
+Interesting: 54
+Fun: 70
+Consistent: 69
+Fluent: 68
+Repetitive(↓): 53
+Topic: 73
+
+####################
+

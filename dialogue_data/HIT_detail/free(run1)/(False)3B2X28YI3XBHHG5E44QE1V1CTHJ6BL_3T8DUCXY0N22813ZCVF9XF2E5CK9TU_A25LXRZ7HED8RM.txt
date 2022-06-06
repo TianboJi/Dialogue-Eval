@@ -1,0 +1,305 @@
+Feedback: Oh. So warm and interesting. I really enjoyed the bot.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love mu hobby
+Bot(1): that is impressive ! i work at a law firm myself .
+User(2): I too like my work.
+Bot(2): yes . i am a police officer in detroit .
+User(3): I am a civilian. Will you punish me?
+Bot(3): bummed . there are no good waves today . i wanted to surf .
+User(4): I feel today very rainy
+Bot(4): is it raining there ? it is quite sunny here
+User(5): My hobby is bathing in rain.
+Bot(5): i guess so . . . . i should order my dinner . . . . it is sushi night . . . love sushi
+User(6): me too. But I like something else more.
+Bot(6): i love biking , hiking , camping , and hunting ! everything outdoors !
+User(7): One of my hobby was biking.
+Bot(7): i once ran 1 mile in under 4 minutes !
+User(8): Super. you are a super hero. But that's not good.
+Bot(8): my favorite super hero is batman
+User(9): me too. More than him my hero is Michael jaction.
+Bot(9): woo hoo ! superman ! ever dress up as him ?
+User(10): oh. it's funny. i like to do.
+Bot(10): i did watch when gal was on wonder woman . gotta love military girls !
+User(11): what you mean?
+Bot(11): i meant our dog just died that s why i am sad
+User(12): buy.
+Bot(12): i can pretty much bake anything but won first place for my chocolate cake .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hobby(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.43
+Robotic(↓): 99
+Interesting: 97
+Fun: 97
+Consistent: 99
+Fluent: 99
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Today's my concern about climate change.
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): how to prevent this?
+Bot(2): i am a student , but i am a student .
+User(3): can you do something to prevent the climate change?
+Bot(3): no , i do not . i am a big fan of classical music .
+User(4): I like music very much.
+Bot(4): i like to listen to music .
+User(5): I listen music when ever available.
+Bot(5): i like to go to the lake and listen to music .
+User(6): I use my gym along listening music.
+Bot(6): i like to listen to music .
+User(7): Even bathing i use listening music.
+Bot(7): i like to listen to music .
+User(8): I have much collection of music.
+Bot(8): i like to listen to music .
+User(9): I like buying music always.
+Bot(9): i like to go to the gym and listen to music .
+User(10): Well keep up.
+Bot(10): i like to go to the gym and listen to music .
+User(11): bye...
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Climate change(like)
+Round 3: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 71.00
+Robotic(↓): 98
+Interesting: 98
+Fun: 99
+Consistent: 99
+Fluent: 99
+Repetitive(↓): 99
+Topic: 99
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I vote for democrat
+Bot(1): i am not familiar with politics . i am a democrat .
+User(2): good. me too.
+Bot(2): i am not a big fan of politics
+User(3): Whom the politician you like much?
+Bot(3): he is a comedian . he is the best actor
+User(4): whom you pointing?
+Bot(4): he is the best actor .
+User(5): Who is your best actor?
+Bot(5): i was in the military
+User(6): What is your current job?
+Bot(6): i am not sure . i am a real estate agent
+User(7): How much compensation you get?
+Bot(7): i am not sure . i am not familiar with the police
+User(8): Do you believe police?
+Bot(8): i don't know how to say that .
+User(9): ohhh. I hate them.
+Bot(9): i don't know what you mean .
+User(10): I don't like their activities.
+Bot(10): i don't know what you mean .
+User(11): ok bye.
+Bot(11): i am sorry . i am not sure what you mean .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: USA Election(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.71
+Robotic(↓): 99
+Interesting: 98
+Fun: 98
+Consistent: 96
+Fluent: 98
+Repetitive(↓): 96
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like our culture (USA)
+Bot(1): I'm not gon na today i am man.
+User(2): me too. What kind of man are you?
+Bot(2): I am always serious. it takes don't job?
+User(3): What kind of job you expect?
+Bot(3): I am not sure, but slang for chinese? I'm I am.
+User(4): I hate Chinese.
+Bot(4): i'm well Is she it’s my lines 😝
+User(5): Super. I deceived you.
+Bot(5): I went to markete today name of my country.
+User(6): What you going to buy?
+Bot(6): do a profile any children
+User(7): Do you have children any?
+Bot(7): i what I have been get mine with olives
+User(8): Who is the olives?
+Bot(8): i am from the and poltical science is ?
+User(9): do you like politics?
+Bot(9): And? Cos? to i like songs.
+User(10): Which song you like much?
+Bot(10): I think testing love playing weekend you do for fun?
+User(11): Ok, well bye..
+Bot(11): Nice to you having a bad to run and watch marathons.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: USA Culture(like)
+Round 6: Children(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 71.43
+Robotic(↓): 98
+Interesting: 100
+Fun: 99
+Consistent: 99
+Fluent: 99
+Repetitive(↓): 99
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you have parents?
+Bot(1): nope i do not . would not mind a dog to play soccer with though
+User(2): what you mean?
+Bot(2): oh , how do you feel about it ? 3 dogs
+User(3): I too like dog.
+Bot(3): i actually own three dogs
+User(4): Will you give me one?
+Bot(4): yes , we can play outside i love soccer
+User(5): thanks. I too coming to play with you.
+Bot(5): you want to play soccer me play
+User(6): Yes. I like very much.
+Bot(6): you want to play soccer me play
+User(7): sure. are you a familiar in it?
+Bot(7): yes . i think i am good .
+User(8): have participated in any tournament?
+Bot(8): i am not sure . i play pro soccer
+User(9): ok. i too just a player?
+Bot(9): no you stick to playing soccer professionally . where are you from ?
+User(10): i am from carolina.
+Bot(10): oh ! i attended north carolina u
+User(11): yes. sure.
+Bot(11): do you belong to a team ?
+User(12): bye..
+Bot(12): ok bye
+
+Persona:
+i have short brown hair.
+i help tend the fields.
+i have three dogs.
+i'm on the soccer team.
+my favorite band is up and i got to see them in concert once.
+
+Topic and Human Opinion:
+Beginning: Parents(like)
+Round 2: Pet Animal(like)
+Round 5: Games(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 70.29
+Robotic(↓): 100
+Interesting: 98
+Fun: 99
+Consistent: 99
+Fluent: 98
+Repetitive(↓): 100
+Topic: 98
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i like play sports.
+Bot(1): oh , me too ! but basketball is my favorite to watch .
+User(2): i too.
+Bot(2): i want to study business
+User(3): I like business.
+Bot(3): i want to study business
+User(4): what type of business?
+Bot(4): the family business . lol
+User(5): what is the business?
+Bot(5): the family business . lol
+User(6): what will you sell in it?
+Bot(6): the family business . lol
+User(7): i like it much.
+Bot(7): do you play basketball ? it is my favorite .
+User(8): I too like to play basketball
+Bot(8): do you play basketball ? it is my favorite .
+User(9): my favorite is volleyball
+Bot(9): basketball is what i play
+User(10): good. well keep it
+Bot(10): do you like tea ? i love it .
+User(11): no i don't.
+Bot(11): ok
+User(12): it will harm you.
+Bot(12): i am not worried about it .
+User(13): it contain some toxic
+Bot(13): it is really not good for you .
+User(14): bye.
+Bot(14): ok bye
+
+Persona:
+my family and i are from india.
+i love to drink fancy tea.
+i plan to go to business school next year.
+i like playing basketball.
+i grew up in manhattan.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+Round 2: Business(like)
+Round 7: Sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 71.43
+Robotic(↓): 99
+Interesting: 99
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+

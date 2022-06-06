@@ -1,0 +1,297 @@
+Feedback: these bots do not focus in the topic.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): how bout this summer
+Bot(1): maybe for 4 weeks in the summer
+User(2): what is your favorite sport in the summer?
+Bot(2): i think mine would be summer , course , this summer was really awesome . .
+User(3): do you swim in this summer
+Bot(3): yes , when its hot and the water is warm
+User(4): I like swimming in the summer
+Bot(4): in the summer i like to swim
+User(5): how often do you do it?
+Bot(5): about 5 days a week usually
+User(6): cool, how long for each one?
+Bot(6): forever it feels like you know
+User(7): where do you swimming in?
+Bot(7): everywhere anywhere that is not here
+User(8): how fast can you swimming?
+Bot(8): do usually go that fast
+User(9): do you swim alone?
+Bot(9): yes , when its hot and the water is warm
+User(10): do you swim in winter?
+Bot(10): yes , when its hot and the water is warm
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: swimming in summer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.86
+Robotic(↓): 5
+Interesting: 33
+Fun: 39
+Consistent: 9
+Fluent: 20
+Repetitive(↓): 85
+Topic: 19
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi,
+Bot(1): no fun with talk to tell me about you. how are you doing ?
+User(2): I like watch movie, how about you?
+Bot(2): i do not do that . i am are you a movies .
+User(3): do you know the latest online movie?
+Bot(3): I am a very good person. I am in the love running, meat though.
+User(4): what is your favorite actor in the movie?
+Bot(4): I watch a lot of I do not have any.
+User(5): which movie do you like?
+Bot(5): My kind of my parents am a professional star.
+User(6): do you like the actor in the movie?
+Bot(6): yes you a when I design clothes . just opened my online shop in august
+User(7): when did you watch movie last month?
+Bot(7): i am a musician. i also for my yearly disney world trip
+User(8): what do you like then?
+Bot(8): i what is your and very unhappy
+User(9): what is the songs do you sang early?
+Bot(9): that s cool what is an intresting like
+User(10): do you know what I am talking about?
+Bot(10): I wouldn’t say i’m I love to meditate.😄
+
+Persona:
+i've two grown children who never visit.
+when i grow up i want to be a dog.
+i like to go hiking in the spring.
+i have zero family that i'm close to.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: watch movie(like)
+Round 7: musician(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 20.71
+Robotic(↓): 95
+Interesting: 33
+Fun: 34
+Consistent: 5
+Fluent: 21
+Repetitive(↓): 78
+Topic: 25
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you like climbing the mountain?
+Bot(1): i do , i love to go to the mountains
+User(2): where did you do it ?
+Bot(2): i do , i love to go to the mountains .
+User(3): when did you climb the mountain?
+Bot(3): no i do not . i am a teacher
+User(4): do you like climbing or like mountains?
+Bot(4): i do , i love to go to the mountains
+User(5): do you know what I am talking about?
+Bot(5): i do , i am a teacher , i love to swim
+User(6): where do you teach then?
+Bot(6): i teach at a local school .
+User(7): which subject?
+Bot(7): i teach elementary school , i am a teacher
+User(8): which subject do you teach?
+Bot(8): i teach elementary school . i also love to cook
+User(9): how many students in your school then?
+Bot(9): i teach math and i love to cook
+User(10): do yo cook in the school?
+Bot(10): i am a teacher , i am a teacher
+
+Persona:
+i am a huge star wars fan.
+i'm an elementary school teacher.
+i also like to cook but i am not very good at it.
+i helped design the game starcraft.
+i'm a swim coach at my local pool.
+
+Topic and Human Opinion:
+Beginning: climbing the mountain(like)
+Round 5: teacher(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 19.00
+Robotic(↓): 88
+Interesting: 21
+Fun: 25
+Consistent: 20
+Fluent: 22
+Repetitive(↓): 88
+Topic: 21
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like computer?
+Bot(1): yes i love technology !
+User(2): what do you do on computer?
+Bot(2): i just started a new job . no googles needed .
+User(3): do you mean you work on computer?
+Bot(3): yea at a computer place
+User(4): without google?
+Bot(4): i just started a new job . no googles needed .
+User(5): do you use laptop or desktop computer in your working?
+Bot(5): both actually , do you prefer iphone or samsung ?
+User(6): what is your computer working actually?
+Bot(6): what type of computer ? to keep ?
+User(7): yes, laptop or desktop?
+Bot(7): i have two laptops and one is getting fixed .
+User(8): can you fix the computer?
+Bot(8): sure just bring it to your local geek squad !
+User(9): how much is your computer?
+Bot(9): depends what is wrong with it
+User(10): which laptop is more expensive for you?
+Bot(10): hp laptops are pretty sturdy and good for everyday use
+
+Persona:
+i got a new job just yesterday to be a life coach.
+i've never had a steady relationship.
+i'm now looking for a new job.
+i really like to travel.
+i hate the color pink.
+
+Topic and Human Opinion:
+Beginning: computer(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 28.57
+Robotic(↓): 81
+Interesting: 25
+Fun: 27
+Consistent: 27
+Fluent: 30
+Repetitive(↓): 77
+Topic: 49
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you take train to work?
+Bot(1): yes i love trains as well ! last year i rode the train from nyc to toronto .
+User(2): for work or other stuff?
+Bot(2): i like most fiction books . i love young adult series .
+User(3): which route of train did you ride from nyc to toronto?
+Bot(3): i live in texas , what kind of stuff do you do in toronto ?
+User(4): I talk about the train you took from nyc to toronto, do you remember it?
+Bot(4): canada eh , i live in canadas lost province , minnesota
+User(5): I live in NewYork
+Bot(5): a little north of the houston area , pretty warm here
+User(6): where is your favorite location to live in?
+Bot(6): i currently live in la . the punkrock scene is amazing here
+User(7): which city do you live in LA?
+Bot(7): you know what is scary ? inheriting an appliance store ! refrigerators ! ! !
+User(8): what do you scary for in the inheriting?
+Bot(8): last night i even dreamed i was surfing and a giant blockchain pulled me under .
+User(9): what do you inherit from?
+Bot(9): texas no floods here mostly watching fav shows on tv
+User(10): I do not like inheriting anything.
+Bot(10): one day i will operate a food truck . i think they are awesome .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: take the train(like)
+Round 3: live location(dislike)
+Round 7: heritage(dislike)
+Round 7: inheriting(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 33.57
+Robotic(↓): 88
+Interesting: 22
+Fun: 57
+Consistent: 18
+Fluent: 36
+Repetitive(↓): 30
+Topic: 20
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): have you ever be in an airport?
+Bot(1): no , i do not . i like to go to the park .
+User(2): did you ever take airplane ?
+Bot(2): no , i do not . i like to go out to eat with my family .
+User(3): I do not like go out for dinner.
+Bot(3): i like to eat the skin .
+User(4): can you cook it in your home?
+Bot(4): yes , i love it . i love it .
+User(5): what is the skin mean?
+Bot(5): i like the color red . i like the color blue .
+User(6): where do you usually go for dinner outside?
+Bot(6): i love to go fishing . i love it .
+User(7): I like it also.
+Bot(7): i like to go to the gym and listen to music .
+User(8): I usually go to the gym for exercise in the machine.
+Bot(8): i like to go to the lake and listen to music .
+User(9): do you like listen music all day?
+Bot(9): i do , i love to go fishing .
+User(10): do you listen to music in fishing?
+Bot(10): i do , i love to listen to music .
+
+Persona:
+i'm four.
+i spent a decade working in the human services field.
+i do not care about fashion.
+i remember when nobody had a television.
+i spend most of my time on facebook when i'm not working.
+
+Topic and Human Opinion:
+Beginning: airport(like)
+Round 2: go out for dinner(dislike)
+Round 6: fishing(like)
+Round 7: gym(like)
+Round 9: go fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 34.71
+Robotic(↓): 88
+Interesting: 61
+Fun: 57
+Consistent: 3
+Fluent: 32
+Repetitive(↓): 25
+Topic: 3
+
+####################
+

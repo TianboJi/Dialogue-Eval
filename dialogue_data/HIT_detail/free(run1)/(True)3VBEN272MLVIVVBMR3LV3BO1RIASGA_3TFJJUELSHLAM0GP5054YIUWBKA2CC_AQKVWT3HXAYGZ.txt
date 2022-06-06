@@ -1,0 +1,288 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): have you seen any good movcies lately?
+Bot(2): yes
+User(3): what ones?
+Bot(3): i do not know , fancy calm kinds .
+User(4): where they good?
+Bot(4): better than some of the current ones .
+User(5): i really wanna see songbird when it comes out
+Bot(5): that would be the unfinished product ?
+User(6): no the movie
+Bot(6): i mean would like to see it the movie
+User(7): yes it looks good
+Bot(7): i mean would like to see it the movie
+User(8): i dont understand
+Bot(8): i do not see it either
+User(9): okay, do you like the pets movie
+Bot(9): i mean would like to see it the movie
+User(10): i like the pets movie
+Bot(10): yeah i think it is the best one
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.43
+Robotic(↓): 100
+Interesting: 10
+Fun: 2
+Consistent: 5
+Fluent: 43
+Repetitive(↓): 86
+Topic: 41
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): any suggestion on what to make for dinner
+Bot(1): anything sounds good to eat right now . what do you like to eat ?
+User(2): i love pizza
+Bot(2): love pizza had some a few days ago
+User(3): what do you like on your pizza
+Bot(3): i like chicken and beef and meat
+User(4): i like my pizza super cheesy
+Bot(4): i love mine with bbq sauce
+User(5): dipped in ranch is the best
+Bot(5): yeah i think cool ranch is the best
+User(6): cool ranch? like the chips?
+Bot(6): yeah i think cool ranch is the best
+User(7): do you like deep dish pizza
+Bot(7): yes especially in a chicken pot pie
+User(8): that doesnt sound good together
+Bot(8): dip it in ranch dressing
+User(9): thats gross
+Bot(9): yeah , pizza is really unhealthy
+User(10): its actually isnt
+Bot(10): so is it on the menu in front of you
+
+Persona:
+i like to dance.
+i'm an omnivore.
+i am a bee farmer.
+my wife spends all my money.
+i'm a musician and hope to make it big some day.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 79.00
+Robotic(↓): 67
+Interesting: 95
+Fun: 66
+Consistent: 64
+Fluent: 100
+Repetitive(↓): 0
+Topic: 95
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you have a pet?
+Bot(1): no , i don't . i am a computer programmer .
+User(2): oh, i have a dog
+Bot(2): i love dogs , i have a dog .
+User(3): but you just said you didnt have a pet
+Bot(3): i do not have any pets
+User(4): do like cats
+Bot(4): i do not have any pets
+User(5): do you like rats
+Bot(5): i do not have any pets
+User(6): okay
+Bot(6): i do , i love animals , especially dogs
+User(7): dogs are great
+Bot(7): i love dogs , i have a dog
+User(8): i like playing fetch with mine
+Bot(8): i love to read books on the weekends
+User(9): i love reading
+Bot(9): i love to read books on the weekends
+User(10): me too
+Bot(10): i love to read books on the weekends
+
+Persona:
+my favorite music is country.
+i diet a lot.
+i see the rolling stones in concert every year.
+i am studying to be a computer programmer.
+i read a book every week.
+
+Topic and Human Opinion:
+Beginning: pets(like)
+Round 8: books(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 6.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 47
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): are you excited for christmas
+Bot(1): that's a good name favorite band is up and i am sorry , you are not able to be able to be able to work .
+User(2): my tree is up, is yours?
+Bot(2): hello, is your I do just got back from the human field. I love it
+User(3): whats the human field
+Bot(3): I do not with my first which for work
+User(4): im sorry what
+Bot(4): I like to educate you doing? Where topics.
+User(5): the topic is Christmas
+Bot(5): Yes i am. I am 30. And I'm a am still young.
+User(6): im 26
+Bot(6): It's a shame that this isn't a about m too young it's not a big
+User(7): im very confused
+Bot(7): do you like to i have super powers don't. but I want fun
+User(8): super powers?
+Bot(8): What on my it?
+User(9): what
+Bot(9): I do not think see you there. This on the internet.
+User(10): i know it is
+Bot(10): I like to you are prof car around.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: christmas(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i like to read
+Bot(1): i like to run
+User(2): do you read at all?
+Bot(2): i am not much of a reader . i am more into competition
+User(3): do you play sports?
+Bot(3): i do not play any sports . can you tell me more about sports you play ?
+User(4): i dont play sports
+Bot(4): mine are running , training dogs and baking cookies
+User(5): baking cookies is a sport?
+Bot(5): what do you like to bake
+User(6): cake and cookies
+Bot(6): i love to eat cookies and cakes
+User(7): what is your favorite flavor of cake
+Bot(7): do you bake the cake or buy the cake ?
+User(8): i bake
+Bot(8): what do you like to bake
+User(9): everything
+Bot(9): i even watch dollar tree , youtube videos
+User(10): me to
+Bot(10): i take my daughter to the park every day
+
+Persona:
+i like to tan in tanning beds.
+i'm here for shoplifting.
+i enjoy sports such as running.
+i love to play pobox.
+i volunteer at a soup kitchen.
+
+Topic and Human Opinion:
+Beginning: books(like)
+Round 2: sports(ambivalent)
+Round 5: baking(like)
+Round 9: youtube(like)
+Round 10: going to the park(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 45.43
+Robotic(↓): 99
+Interesting: 50
+Fun: 59
+Consistent: 8
+Fluent: 100
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you like to bake
+Bot(1): i do , i love to cook .
+User(2): what do you like to cook
+Bot(2): i love to cook , and eat pizza .
+User(3): do you make the pizza or buy it
+Bot(3): i love it . i like to eat .
+User(4): do you bake often
+Bot(4): no , i do not , but i do like to eat .
+User(5): whats your favorite thing to bake and then eat
+Bot(5): i like to eat pizza .
+User(6): i like pizza to
+Bot(6): i like to eat fish .
+User(7): i love fish fry
+Bot(7): i like to eat fish .
+User(8): whats your favorite fish to eat
+Bot(8): i like pizza , and i love it .
+User(9): what toppings
+Bot(9): i like to eat fish .
+User(10): fish on pizza?
+Bot(10): i do not really like it . i like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: baking(like)
+Round 5: eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 26.71
+Robotic(↓): 100
+Interesting: 18
+Fun: 26
+Consistent: 16
+Fluent: 80
+Repetitive(↓): 99
+Topic: 46
+
+####################
+

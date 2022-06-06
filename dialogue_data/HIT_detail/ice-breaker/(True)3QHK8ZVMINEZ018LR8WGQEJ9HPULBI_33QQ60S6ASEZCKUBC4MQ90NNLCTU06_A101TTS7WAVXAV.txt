@@ -1,0 +1,277 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi blonde gril with really short hair
+Bot(1): i am blonde and short hair
+User(2): i know that
+Bot(2): i am blonde and i dyed my hair long
+User(3): no, you can't dye your hair long or short. you dye it to a different color
+Bot(3): i do not like color , i dye it short
+User(4): you can cut your hair short, but not dye it short
+Bot(4): i dye it short , so it is short
+User(5): no, it's short alreaddy and you then dye it
+Bot(5): i do not like to dye it
+User(6): then leave it to what it is
+Bot(6): i like to dye my hair short
+User(7): here we go again
+Bot(7): i like to go to the park
+User(8): why
+Bot(8): i like to go to the park and see the color of the color
+User(9): i thought you didn't like colors
+Bot(9): i like to dye my hair short
+User(10): i think you're confused
+Bot(10): i see . i am not very short
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a blonde girl with really short hair.(ambivalent)
+Round 7: park(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 36.00
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 75
+Topic: 27
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi economics major
+Bot(1): i just graduated with an economics degree
+User(2): good for you
+Bot(2): i just graduated with an economics degree
+User(3): you already said that
+Bot(3): i didn
+User(4): yes you did. twice
+Bot(4): i didn
+User(5): go back to check
+Bot(5): i didn
+User(6): you're stubbon, aren't you?
+Bot(6): hell naw you for real
+User(7): i'm for real. are you?
+Bot(7): hell naw you for real
+User(8): you're repeating yourself again
+Bot(8): i already told you that
+User(9): yes, you did
+Bot(9): you said that already
+User(10): now you're accusing me of the same thing?
+Bot(10): so you just going to say the same ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm an economics major.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.71
+Robotic(↓): 100
+Interesting: 50
+Fun: 49
+Consistent: 48
+Fluent: 48
+Repetitive(↓): 100
+Topic: 48
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi facebook user
+Bot(1): I you always call stewed oxtail.
+User(2): what? i don't understand you
+Bot(2): nice talking you? I just bye
+User(3): oh no, don't bye :)
+Bot(3): no you a a about yourself?
+User(4): what was that?
+Bot(4): I it is man still love my job
+User(5): you're not making any sense
+Bot(5): I like married but my movies
+User(6): i think you should like to improve your English a little bit
+Bot(6): I am not sure. I merry when I was weird.
+User(7): i can see that
+Bot(7): I think I am. your pet you teacher.
+User(8): no, you shouldn't do that
+Bot(8): Hi, have a lot I am a boy.
+User(9): okay...
+Bot(9): and have you a plumber? you :)
+User(10): no
+Bot(10): i do m a store do what about you
+
+Persona:
+my favourite music is country music.
+i went to school for chemistry but work in a bookstore.
+my favorite type of music to sing is folk music.
+i have been traveling the world for a years.
+i volunteer at a soup kitchen.
+
+Topic and Human Opinion:
+Beginning: i spend most of my time on facebook when i'm not working.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi vegan
+Bot(1): not a vegan , a vegetarian .
+User(2): okay
+Bot(2): drive my sx . fast . so what is a male ballerina called ?
+User(3): you tell me
+Bot(3): i have a huge appetite , a hard job . i cut down trees , eat pancakes and
+User(4): very interesting!
+Bot(4): yes , i would consider myself an expert . it is difficult for someone to beat me in chess
+User(5): i bet
+Bot(5): yes , i am a comedian . working with people with a sense of humor is the best
+User(6): absolutely!
+Bot(6): what did one thirsty vampire say to the other as they were passing the morgue ?
+User(7): have something to eat?
+Bot(7): surf and turf . two of my favorite foods , steak and lobster .
+User(8): me too
+Bot(8): yes . i am a police officer in detroit .
+User(9): but you're still a vegetarian?
+Bot(9): vegan , not vegetarian . there is a difference .
+User(10): now you're back to vegan?
+Bot(10): not a vegan , a vegetarian .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a vegan.(ambivalent)
+Round 8: police officer(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.86
+Robotic(↓): 100
+Interesting: 49
+Fun: 50
+Consistent: 49
+Fluent: 48
+Repetitive(↓): 73
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi jailed boy, or girl
+Bot(1): hi there ! i am a librarian , what about you ?
+User(2): a librarian in jail?
+Bot(2): nope just a married sad woman
+User(3): maybe i can help you some with that :)
+Bot(3): great . i am a 56 year old grandmother . what do you do ?
+User(4): you got me!
+Bot(4): how old are you and how old your daughter ? i am 53
+User(5): i'm too young for you
+Bot(5): oh boy ! well , i am 35 and single !
+User(6): that suits me
+Bot(6): my wife an kid can fit so why not ?
+User(7): agreed!
+Bot(7): ok
+User(8): what's the plan then?
+Bot(8): no idea . i wish i had a good plan .
+User(9): i think it's going to be bad. better just leave it
+Bot(9): too wee
+User(10): what?
+Bot(10): i am not sure . maybe nothing
+
+Persona:
+i'm a boy.
+i'm a librarian.
+i'm married with two kids.
+i'm a 56 year old woman.
+i don't drink or do drugs or anything.
+
+Topic and Human Opinion:
+Beginning: i am currently in a juvenile detention center.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.29
+Robotic(↓): 50
+Interesting: 48
+Fun: 49
+Consistent: 49
+Fluent: 50
+Repetitive(↓): 49
+Topic: 48
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi volunteer
+Bot(1): i am a student , but i am a student .
+User(2): so you're a student
+Bot(2): i am a student , but i am a student .
+User(3): okay student. how's school?
+Bot(3): no , i am a student . i love to cook .
+User(4): a student who loves to cook, wonderful!
+Bot(4): i love to cook . i love to cook .
+User(5): you want me to say wonderful again?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): that's good too
+Bot(6): i love to cook . i love to cook .
+User(7): maybe you've cooked too much
+Bot(7): i like to eat fish .
+User(8): me too
+Bot(8): i like to go to the gym and listen to music .
+User(9): good for you
+Bot(9): i am a student , but i am a student .
+User(10): are you sure you're okay?
+Bot(10): no , i am not . i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: in my spare time i do volunteer work.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.43
+Robotic(↓): 100
+Interesting: 48
+Fun: 47
+Consistent: 50
+Fluent: 47
+Repetitive(↓): 100
+Topic: 49
+
+####################
+

@@ -1,0 +1,312 @@
+Feedback: Chatbot conversation was very interesting. Thank you.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What's your favorite book?
+Bot(1): i like to read books and read books
+User(2): which type of books do you like to read?
+Bot(2): yes i love reading and reading
+User(3): how much do you love to reading books?
+Bot(3): yes i read a lot
+User(4): which book do you like most?
+Bot(4): i like to read and read
+User(5): what other details do you know about books?
+Bot(5): i read a lot of books
+User(6): What is your favorite book?
+Bot(6): i like to read and read
+User(7): Do you like sports?
+Bot(7): i like to read and read
+User(8): What is your favorite Sports team?
+Bot(8): i like to read and read
+User(9): What are the top 5 cars in America?
+Bot(9): i like to read a lot
+User(10): What type of food do you prefer?
+Bot(10): i like to read a lot
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Books(like)
+Round 6: sports(like)
+Round 8: Cars(like)
+Round 9: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: No topic change.(like)
+Round 5: No topic change.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 8: The user changed the topic the last input.(ambivalent)
+Round 9: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 24.14
+Robotic(↓): 19
+Interesting: 4
+Fun: 7
+Consistent: 5
+Fluent: 1
+Repetitive(↓): 97
+Topic: 68
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like books?
+Bot(1): no but i like dolls
+User(2): Which type of dolls do you like?
+Bot(2): i like my dolls mostly . they are so special .
+User(3): Which one is your favorite doll?
+Bot(3): i am not sure , there is so many to choose from !
+User(4): What type of materials are used in your special doll?
+Bot(4): i used various kinds of materials
+User(5): I mostly like clay and wood dolls.
+Bot(5): awesome . what do you do with your dolls ?
+User(6): I just fix it in my favorite place.
+Bot(6): oh , send it to me when you get it done .
+User(7): ya sure. What do you do with your dolls?
+Bot(7): i look for vinyl records .
+User(8): What type of vinyl records you like most?
+Bot(8): i look for vinyl records .
+User(9): Where do you look for vinyl records?
+Bot(9): i look for vinyl records .
+User(10): May i help you to choose vinyl records?
+Bot(10): yes , they cost 1 , 000 each . how many do you want ?
+
+Persona:
+i'll be released in about a month.
+i speak chinese.
+i have light skin with big brown eyes.
+i am a musician and hope to make it big some day.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: books(like)
+Round 1: doll(like)
+Round 7: vinyl records(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: No topic change.(ambivalent)
+
+Revised avg score: 42.71
+Robotic(↓): 74
+Interesting: 59
+Fun: 61
+Consistent: 56
+Fluent: 22
+Repetitive(↓): 57
+Topic: 32
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like sports?
+Bot(1): that's it's an apartment support a teacher , i am a teacher
+User(2): Do you know about sports?
+Bot(2): My name is Jane. neither since i broke helmet.
+User(3): Why? How it was happened?
+Bot(3): I love the see you're a were parents come home .
+User(4): Do you love your parents?
+Bot(4): I you believe in like to watch movies.
+User(5): Which movie do you like most?
+Bot(5): lol! what Are you so food?
+User(6): What's your favorite food?
+Bot(6): oh, that sounds like a I have to go you play any sports?
+User(7): I like sports and i play sports
+Bot(7): I am a chef, have any hate chef.
+User(8): What type of vegetables do you choose to prepare special food?
+Bot(8): No problem. Do Where are you hobbies?
+User(9): I like to reading books.
+Bot(9): what kind nice. I love have <num> dogs
+User(10): I love dogs. Which dog is your favorite?
+Bot(10): that is cool, do you i supposed to I you travel?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+Round 2: helmet(dislike)
+Round 3: parents(like)
+Round 4: watch movies(like)
+Round 5: food(like)
+Round 6: sports(like)
+Round 7: chef(like)
+Round 9: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.86
+Robotic(↓): 100
+Interesting: 2
+Fun: 2
+Consistent: 7
+Fluent: 2
+Repetitive(↓): 50
+Topic: 34
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like flowers. Do you like that?
+Bot(1): yes because they match the color of my brown hair
+User(2): Great. Which flower do you like most?
+Bot(2): i like both . i like flowers too .
+User(3): What do you feel to see the flowers?
+Bot(3): depends what mood i am in that day , sometimes dark like my mood and feelings .
+User(4): Very good. Which flower is your favorite?
+Bot(4): i like both . i like flowers too .
+User(5): Do you like flowering planting?
+Bot(5): always . i do not usually grow them myself though .
+User(6): Do you know the importance of flowers?
+Bot(6): always . i do not usually grow them myself though .
+User(7): Why you don't grow them?
+Bot(7): because i like their name . roses are colorful
+User(8): Which one is your favorite color in rose?
+Bot(8): the color of the shadows
+User(9): I like to flowering plants
+Bot(9): my first garden was this year . what are your three favorite vegetables ?
+User(10): Carrot, Potato, Capsicum
+Bot(10): how can you make fruit ?
+
+Persona:
+i have short brown hair.
+my parents were both very athletic.
+i live in a three storey house.
+i've been traveling the world for a years.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: flowers(like)
+Round 9: vegetables(like)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 53.86
+Robotic(↓): 61
+Interesting: 71
+Fun: 70
+Consistent: 72
+Fluent: 49
+Repetitive(↓): 61
+Topic: 37
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you know about vegetables?
+Bot(1): yes , i have a veggie garden . i love getting the vegetables out of it .
+User(2): Which one is your favorite vegetable?
+Bot(2): tomatoes , i grow them , i am passionate aout to the environment
+User(3): Really great. I also like to planting vegetables.
+Bot(3): yes , i have a veggie garden . i love getting the vegetables out of it .
+User(4): Carrot is my favorite.
+Bot(4): sliced in my salads i brought contacts i like using contacts .
+User(5): Which contacts do you like to use?
+Bot(5): i have long brown hair and blue eyes !
+User(6): Do you fix any contact lens in your eye?
+Bot(6): that is interesting . maybe you can come watch me cut down tree with my large ax !
+User(7): Yes. I like to watch that.
+Bot(7): i love to watch basketball . what do you do for fun ?
+User(8): I also like to watch basketball. Which basketball team is you favorite?
+Bot(8): yep , five million a year right out of u of north carolina
+User(9): Do you know more about North Carolina?
+Bot(9): oh yes it is in the north part of north carolina .
+User(10): Oh great. What is the special in North Carolina?
+Bot(10): the weather must be nice there
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Vegetables(like)
+Round 4: contacts(dislike)
+Round 5: brown hair(dislike)
+Round 6: tree(like)
+Round 7: basketball(like)
+Round 8: north carolina(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 44.29
+Robotic(↓): 65
+Interesting: 50
+Fun: 53
+Consistent: 32
+Fluent: 37
+Repetitive(↓): 39
+Topic: 42
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like animals?
+Bot(1): i do , i love animals
+User(2): Which one is your favorite animal?
+Bot(2): i do not have any animals
+User(3): That's ok. But i asked which one is your favorite?
+Bot(3): i like the old ones . i like them
+User(4): What special in old ones?
+Bot(4): i like old age metal .
+User(5): Which metal is good in old age metal?
+Bot(5): i like metal metal . i like metal metal
+User(6): I also like metals.
+Bot(6): i like metal metal . i like metal .
+User(7): Which food do you like most?
+Bot(7): i love it . i love pizza .
+User(8): How many types pizza do you know?
+Bot(8): pizza is my favorite . what about you ?
+User(9): I also like to eat pizza. But not more.
+Bot(9): i like pizza too . i eat a lot of pizza
+User(10): Which flavored pizza is your favorite one?
+Bot(10): i like the color of the red ones
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+Round 3: old ones(like)
+Round 6: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 47.00
+Robotic(↓): 61
+Interesting: 62
+Fun: 55
+Consistent: 46
+Fluent: 36
+Repetitive(↓): 35
+Topic: 26
+
+####################
+

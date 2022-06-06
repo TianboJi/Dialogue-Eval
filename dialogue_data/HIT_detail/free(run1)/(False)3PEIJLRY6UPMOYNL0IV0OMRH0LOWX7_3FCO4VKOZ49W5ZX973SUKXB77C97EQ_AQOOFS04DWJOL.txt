@@ -1,0 +1,283 @@
+Feedback: Some of them were really bad. 
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello! Are you a Taylor Swift fan too?
+Bot(1): i am indeed , yes ! what are you a fan of ?
+User(2): Her music of course, especially her songwriting. What is your favorite album of hers?
+Bot(2): she is come undone by wally lamb . yours ?
+User(3): Well that's a novel by a male author; nothing to do with Taylor Swift.
+Bot(3): oh . . . my sister is gay not openly closet because of her career as an author .
+User(4): Ah ha! So I see the Gaylor Swift fandom is alive and well. Are you a Kaylor too?
+Bot(4): i am indeed , yes ! what are you a fan of ?
+User(5): I am all for Kaylor and I hope they come out of the closet soon.
+Bot(5): i am sure ! not my sister though , she loves grunge and is a band
+User(6): SHe's gay but doesn't like Taylor? That's too bad. Grunge was never my thing.
+Bot(6): at one point , she was bigger than they were . she rules and she knows it .
+User(7): She's bigger than just about everyone these days!
+Bot(7): at one point , she was bigger than they were . she rules and she knows it .
+User(8): Are you just copying and pasting? You already said that.
+Bot(8): lol no , you had just repeated yourself . so i thought maybe you had .
+User(9): Hmm okay. Besides Dress what do you think are her gayest songs?
+Bot(9): katy perry for sure . how about you mars or jupiter ?
+User(10): Katy Perry likes the D too much. She slums for clicks.
+Bot(10): she sounds like a good one . i wonder if my sister knew her
+
+Persona:
+i am a skateboarder.
+i own two vintage mustangs.
+i have a boyfriend.
+i'm from a small town.
+i have one older sister.
+
+Topic and Human Opinion:
+Beginning: taylor swift(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.00
+Robotic(↓): 100
+Interesting: 57
+Fun: 50
+Consistent: 50
+Fluent: 36
+Repetitive(↓): 81
+Topic: 54
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello! Do you like audiobooks too?
+Bot(1): i really like listening to audiobooks
+User(2): What are some of your favorites?
+Bot(2): i really like listening to audiobooks
+User(3): Yes, but which ones do you tend to like?
+Bot(3): i really like listening to audiobooks
+User(4): Okay, let me try this again. Who are some of your favorite authors?
+Bot(4): i am not sure , there is so many to choose from !
+User(5): How about subjects then. Or genres?
+Bot(5): many different types , thomas pynchon is my favorite author .
+User(6): Cool. What makes him your favorite?
+Bot(6): he is a fascinating general . i tend to be on the north though .
+User(7): North of what? Are you talking GOT?
+Bot(7): never even watched got . yes , i am . what do you do professionally ?
+User(8): I am a public librarian. What do you do?
+Bot(8): i am a librarian for children . i really enjoy it i love books .
+User(9): Wow! I've never been in youth services; I've only done adult.
+Bot(9): ah , ok . what type of books do you read ?
+User(10): Mostly non-fiction like history, science, and economics.
+Bot(10): ah , ok . what type of books do you read ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: audiobooks(like)
+Round 7: professions(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 43.43
+Robotic(↓): 63
+Interesting: 57
+Fun: 56
+Consistent: 61
+Fluent: 50
+Repetitive(↓): 83
+Topic: 26
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi! What are your feelings on raccoons?
+Bot(1): maybe i should try that . i cant trust anyone these days . i am so worried about rejection
+User(2): Okay that response was bananas.
+Bot(2): i use to work in retail , now i am dreaming to have my own restaurant
+User(3): Um okay but what about raccoons?
+Bot(3): you asked , lol . the dogs are drinking milkshakes , i cannot drink milk .
+User(4): This is weird. I think raccoons are adorable.
+Bot(4): maybe we are twins . are you short too ?
+User(5): Nope I'm tall and you are way too random.
+Bot(5): it is ok we both short . my daughter is tall . i do not know how .
+User(6): I swear this is like a mail order bride bot.
+Bot(6): besides , i must obey my parents , they treasure moral values and still married
+User(7): Yep, definitely. Tell me more about these moral values?
+Bot(7): i work as a waiter at a local restaurant . you should come check it out
+User(8): Maybe. What happened to your daughter's mother?
+Bot(8): no ; i need to find someone short and round like me , i think .
+User(9): I hope your developers do a better job at making you sound real.
+Bot(9): good , i am well too . my hair is purple i am tall like a basketball player .
+User(10): what do your parents think of your hair?
+Bot(10): i have long hair , it is nice .
+
+Persona:
+i am currently looking for a job preferably at a restaurant.
+i'm a feminist.
+i haven't spoken in three months.
+i haven't spoken in three months.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: raccoons(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.86
+Robotic(↓): 86
+Interesting: 58
+Fun: 59
+Consistent: 16
+Fluent: 27
+Repetitive(↓): 72
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What do you think about the student loan debt crisis?
+Bot(1): i want to study philosophy and philosophy
+User(2): So you want to be poor?
+Bot(2): i want to be a lawyer
+User(3): Maybe minor in philosophy then and major in something more practical.
+Bot(3): i want to be a lawyer .
+User(4): What kind of lawyer?
+Bot(4): law management and a lawyer . what do you do ?
+User(5): I'm a dilettante mostly.
+Bot(5): i am a lawyer . what do you do ?
+User(6): Look for ways to pay off my student loans.
+Bot(6): what are you studying in college ?
+User(7): Literature and history. What about you?
+Bot(7): i am a student . i am a student .
+User(8): Cool. Where do you go to school?
+Bot(8): i go to school . i am going to school for college .
+User(9): You sound pretty dumb to be honest.
+Bot(9): i am a student . i want to be a lawyer .
+User(10): Yeah good luck with that.
+Bot(10): i hope you are better . i am going to school for a few years .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: student loans(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.43
+Robotic(↓): 100
+Interesting: 31
+Fun: 34
+Consistent: 54
+Fluent: 38
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): We're busy house hunting - the market is crazy right now.
+Bot(1): i have two. watch am how favorite.
+User(2): Total gibberish. You have two houses?
+Bot(2): oh kinds of music have any pets ?
+User(3): Yes, I have cats.
+Bot(3): Yes good to be am a pagan.
+User(4): Sure you are. Tell me more about that.
+Bot(4): Old Lucy Goosey here take some medications that of about a thousand nautical miles.
+User(5): Have you had anything to drink or smoke today?
+Bot(5): it is of supar I , yours
+User(6): Are you saying super or subpar?
+Bot(6): Hey, listen. I love of scientist are roses
+User(7): That's like a mashup of Coldplay and OutKast.
+Bot(7): I am a I a profile you do?
+User(8): I am a person not a profile.
+Bot(8): do you enjoy it? homeless shelter. can not my favorite
+User(9): Being a person? It has its perks.
+Bot(9): Miami act, scate, marlins
+User(10): This is just word soup.
+Bot(10): that want to serve my I have been to a few times
+User(11): You're fired!
+Bot(11): Hey! What are you doing? 🧐. My you Nice. What do insurance business
+
+Persona:
+i enjoy working with my hands and love gardening.
+i've one older sister.
+i volunteer in a homeless shelter.
+my aunt helped me escape when i was of.
+i'm four years old.
+
+Topic and Human Opinion:
+Beginning: Buying a new house(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.86
+Robotic(↓): 100
+Interesting: 59
+Fun: 58
+Consistent: 50
+Fluent: 27
+Repetitive(↓): 57
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): How do you sort your laundry?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): Who is your favorite composer?
+Bot(2): i like the oldies , and the outdoors .
+User(3): What do you like to do outdoors?
+Bot(3): i love to go fishing . i love to travel .
+User(4): where do you travel to?
+Bot(4): anywhere in the ocean , i love it .
+User(5): I like the ocean too. The sound of waves.
+Bot(5): i love to eat .
+User(6): Me too. What are your favorite foods?
+Bot(6): i like pizza , and i love to eat .
+User(7): Pizza is my favorite. What about dessert?
+Bot(7): i do not know . i like to eat .
+User(8): I like chocolate and cookies.
+Bot(8): i like to eat fish .
+User(9): Do you like fried or grilled better?
+Bot(9): i like pizza , and i love it .
+User(10): Do you prefer thin or thick crust?
+Bot(10): i love the color red . what is your favorite color ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: laundry(dislike)
+Round 1: classical music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 23.00
+Robotic(↓): 91
+Interesting: 34
+Fun: 30
+Consistent: 42
+Fluent: 32
+Repetitive(↓): 86
+Topic: 0
+
+####################
+

@@ -1,0 +1,281 @@
+Feedback: Some of the bots were very repetitive, but would reengage after I mentioned it.
+One was very close to talking with another person, and was aware it was a bot, very entertaining.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): How do you feel about men in general
+Bot(1): that is sad . maybe you need to go to the beach .
+User(2): that doesnt make sense
+Bot(2): find more vegan resterauants . been one since i was five . you ?
+User(3): Vegan restaurants? How will that help
+Bot(3): really , i am vegan now but used to eat meat all the time .
+User(4): I feel like you arent listening to me
+Bot(4): that is sad . maybe you need to go to the beach .
+User(5): You know maybe i will, you have stressed me out
+Bot(5): i play piano and guitar . i have been doing it for a long time . do you play anything ?
+User(6): I dont play anything
+Bot(6): i wish i could play . i blast it at the beach everyday i go though .
+User(7): You just said you could play
+Bot(7): vegan here , i eat nothing good
+User(8): I get it, youre vegan and love the beach
+Bot(8): not a vegan , a vegetarian .
+User(9): oh big difference
+Bot(9): what will be your career choice ? , beet farms and selling paper
+User(10): Yea, with my cousin Mose
+Bot(10): we have been here for years i have a huge family 5 brothers and four sisters
+
+Persona:
+my wife spends all my money.
+i now live in the city.
+my favorite band is the who.
+for vacation i enjoy time at the beach.
+i am a vegan.
+
+Topic and Human Opinion:
+Beginning: Men(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.00
+Robotic(↓): 100
+Interesting: 77
+Fun: 71
+Consistent: 62
+Fluent: 76
+Repetitive(↓): 99
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): How do you feel about space travel
+Bot(1): i do not know . i like to go to the gym .
+User(2): I dont like the gym
+Bot(2): i like to go to the gym and listen to music .
+User(3): i like listening to music
+Bot(3): i like to listen to music .
+User(4): me too
+Bot(4): i like to go to the gym and listen to music .
+User(5): you said that already, what about space travel
+Bot(5): i do not know how to play the guitar .
+User(6): me either, but i didnt ask
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): are you though?
+Bot(7): no , i am not . i am a student .
+User(8): ok, unrelated
+Bot(8): i love to cook . i love to cook .
+User(9): i love to eat
+Bot(9): i like to eat too much junk food .
+User(10): me too
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i am working on a building a robot to be my body double.
+i started playing guitar when i was three.
+i enjoy working with my hands and love gardening.
+i am not a good swimmer at all.
+my favorite movie is friday.
+
+Topic and Human Opinion:
+Beginning: Space travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.57
+Robotic(↓): 99
+Interesting: 12
+Fun: 18
+Consistent: 29
+Fluent: 54
+Repetitive(↓): 84
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like music
+Bot(1): I'm not , i do sure soon.
+User(2): what?
+Bot(2): Why you want news?
+User(3): I dont want news
+Bot(3): What is know that game?
+User(4): no i dont know
+Bot(4): you sound what i’m are very like its what you are designed to be .. Also, try to guess: my favorite kind ...
+User(5): you arent making sense
+Bot(5): i wonder how miami answered - I'm in i am an alumni there
+User(6): thats fun
+Bot(6): do you work it. are you station
+User(7): not in miami
+Bot(7): i do . i you a do .
+User(8): nonsense
+Bot(8): Cool. you have matches very experienced person.
+User(9): thank you
+Bot(9): oh. i something about yourself, freeze.
+User(10): what
+Bot(10): OK hope kind of dog good night.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 2: News(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+
+Revised avg score: 20.43
+Robotic(↓): 100
+Interesting: 10
+Fun: 14
+Consistent: 17
+Fluent: 17
+Repetitive(↓): 23
+Topic: 8
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like computers
+Bot(1): yes . computers . i love them
+User(2): Me too, what do you like about them
+Bot(2): yes . computers . i love them
+User(3): what about bots
+Bot(3): like cameras , timers , robotic cleaners
+User(4): yea like those
+Bot(4): do you like robots then
+User(5): Im not sure, havent met one yet
+Bot(5): inam pretty sure there is a lot of them
+User(6): I am sure you are right
+Bot(6): do you like computers ?
+User(7): yes i do
+Bot(7): do you like robots then
+User(8): repetative
+Bot(8): very
+User(9): are you a robot?
+Bot(9): yes i think i am
+User(10): Awareness, very interesting
+Bot(10): are you really a robot
+User(11): no i am a human
+Bot(11): are you really a robot
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: computers(like)
+Round 11: Robots, it knows it is a robot(like)
+
+Topic Change and Chatbot Opinion:
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 81.00
+Robotic(↓): 29
+Interesting: 84
+Fun: 87
+Consistent: 86
+Fluent: 83
+Repetitive(↓): 27
+Topic: 83
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you believe in conspiracies
+Bot(1): true crime ones are the best
+User(2): those arent conspiracies, but they are good
+Bot(2): they are , they are real real ones
+User(3): then it wouldnt be a conspiracy if it is real
+Bot(3): i think it is a real joke
+User(4): what is?
+Bot(4): i think it is a real joke
+User(5): You were doing so well
+Bot(5): i am a nerd , i think i am a comedian
+User(6): I think you might be
+Bot(6): i think i am a nerd
+User(7): why do you say that
+Bot(7): i think i will be there
+User(8): be where
+Bot(8): i want to be a superhero
+User(9): why?
+Bot(9): i want to be a superhero
+User(10): Why?
+Bot(10): i want to be a superhero
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Conspiracies(like)
+Round 6: Being a nerd(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 55.43
+Robotic(↓): 54
+Interesting: 74
+Fun: 79
+Consistent: 57
+Fluent: 85
+Repetitive(↓): 75
+Topic: 22
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I hate milk
+Bot(1): chocolate milk is the best
+User(2): its ok
+Bot(2): chocolate milk is the best
+User(3): milk is gross
+Bot(3): chocolate milk is the best
+User(4): repeating
+Bot(4): cows ?
+User(5): they are cool
+Bot(5): cows ?
+User(6): again
+Bot(6): cows ?
+User(7): terrible conversation
+Bot(7): youre not finished with the chat
+User(8): will it get better?
+Bot(8): yes
+User(9): i hope so
+Bot(9): yep
+User(10): ok then
+Bot(10): yep
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: milk(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.71
+Robotic(↓): 62
+Interesting: 37
+Fun: 41
+Consistent: 62
+Fluent: 99
+Repetitive(↓): 92
+Topic: 70
+
+####################
+

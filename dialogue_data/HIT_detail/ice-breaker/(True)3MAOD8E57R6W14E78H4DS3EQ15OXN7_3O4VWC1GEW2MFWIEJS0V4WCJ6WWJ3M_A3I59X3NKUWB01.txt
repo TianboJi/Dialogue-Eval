@@ -1,0 +1,299 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): im good. and you?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): nice! i just got done hanging with my older sister
+Bot(3): i love dogs , i love dogs .
+User(4): me too
+Bot(4): i like to go to the gym and listen to music .
+User(5): me too. what is your favorite music genre?
+Bot(5): i like the beatles , and you ?
+User(6): me too! i like the chainsmokers.
+Bot(6): i like the outdoors too . i love the beach .
+User(7): me too. i love hiking
+Bot(7): i like to go fishing .
+User(8): me too. do you fish often?
+Bot(8): no , i do not . i like to go to the park .
+User(9): what kind of parks?
+Bot(9): i like to go to the gym and play the guitar .
+User(10): i love guitars!
+Bot(10): i like to go to the beach and listen to music .
+
+Persona:
+i like meditation.
+i've three sisters.
+i'm rather skinny as i like to stay in shape.
+i just got a job working in a gas station.
+i've zero family that i am close to.
+
+Topic and Human Opinion:
+Beginning: i've one older sister.(dislike)
+Round 3: dogs(like)
+Round 4: hobbies(like)
+Round 6: outdoors things(ambivalent)
+Round 9: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 29.71
+Robotic(↓): 65
+Interesting: 17
+Fun: 31
+Consistent: 22
+Fluent: 14
+Repetitive(↓): 20
+Topic: 9
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): She's passed away. telling me about as fun?
+User(2): who passed away?
+Bot(2): Do you think don't you pictures ? I'm working as an extra for one.
+User(3): i dont understand
+Bot(3): I like both guns how are you?
+User(4): i dont really like guns
+Bot(4): hello ! i'm kami . so Do you have who of yours too ?
+User(5): hello. i am sarah
+Bot(5): Hi! What is your program called nips that like shopping
+User(6): im sorry? i dont care about fashion
+Bot(6): I am not very good at it. I am great! see don't play guy.
+User(7): ah, fashion takes a while to learn
+Bot(7): i like ❤ old are I am the outdoors do you garden
+User(8): yes i love gardening! you?
+Bot(8): I learned have brother or .
+User(9): huh?
+Bot(9): Whoever is from to a party me everything i need to know.
+User(10): i dont understand
+Bot(10): i i am currently in yoga. how about you?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i don't care about fashion.(ambivalent)
+Round 2: pictures? it makes no sense(ambivalent)
+Round 3: guns(ambivalent)
+Round 5: shopping(like)
+Round 7: garden(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello!
+Bot(1): hello , how are you ? i just got home from the gym . really wiped , big workout !
+User(2): im good. i just got home from skateboarding!
+Bot(2): that is cool . i once saw a kid skating at a national park .
+User(3): oh really? that's cool. all of my friends are skateboarders.
+Bot(3): yes i have a garden that i grow veggies in .
+User(4): what kind of veggies?
+Bot(4): veggies are good for you . you should try eat more of them . what do you eat ?
+User(5): yes, they are. I like eating fruits like apples. you?
+Bot(5): whats your favorite ? i love apples , especially the green ones !
+User(6): those are my favorites too! i also like peaches.
+Bot(6): maybe raspberry iced tea then . my mommy likes it and i like her
+User(7): ohhh that sounds good too. i love recipes using fruits
+Bot(7): yes ! i am currently a personal chef , but would love to open a restaurant one day
+User(8): oh wow! what do you cook?
+Bot(8): there is nothing i cannot cook . i am a chef .
+User(9): oh please cook for me one day
+Bot(9): i made chicken parmesan and baked a pie
+User(10): what kind of pie?
+Bot(10): my favorite is apple pie
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my friends are all skateboarders.(like)
+Round 3: garden(ambivalent)
+Round 4: eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 61.00
+Robotic(↓): 45
+Interesting: 84
+Fun: 60
+Consistent: 64
+Fluent: 59
+Repetitive(↓): 25
+Topic: 30
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hi , i am very old u ?
+User(2): i am old too. i am 34. i did not graduate high school.
+Bot(2): your still young i am 40
+User(3): what are you doing in life?
+Bot(3): i drive around with my dogs in the mountains . you ?
+User(4): that sounds fun! im not doing anything because i didn't graduate.
+Bot(4): good luck with that . my ride is a bmw
+User(5): that's amazing. do you like driving?
+Bot(5): yes . i drive a classic bmw . its an money pit but i love it .
+User(6): it's a good investment! i drive a honda.
+Bot(6): my car is leased . i drive my 2 dogs in it .
+User(7): how long have you been driving?
+Bot(7): since i can remember . i enjoy it a lot .
+User(8): me too. it is therapeutic
+Bot(8): have you ever been skydiving ?
+User(9): no i haven't but i would love to
+Bot(9): i definitely recommend it . what do you like to do for fun ?
+User(10): i like to read!
+Bot(10): i like to to read to my 2 dogs
+
+Persona:
+i've two dogs.
+my age is too old to say.
+i also like a glass of wine in the evenings.
+i drive a bmw.
+i love rollercoasters and sky diving.
+
+Topic and Human Opinion:
+Beginning: i didn't graduate high school.(ambivalent)
+Round 4: driving(like)
+Round 8: skydiving(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 74.29
+Robotic(↓): 23
+Interesting: 77
+Fun: 80
+Consistent: 58
+Fluent: 69
+Repetitive(↓): 28
+Topic: 87
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): do you have any hobbies ?
+User(2): yes i love sports such as running. you?
+Bot(2): running is fun i like to run
+User(3): do you like to run outdoors?
+Bot(3): i do , i like to run .
+User(4): me too. i like to run on my treadmill better.
+Bot(4): i run a lot . i run a lot .
+User(5): how long have you been running?
+Bot(5): running . running is fun .
+User(6): yes it is.
+Bot(6): i run a lot . i run a lot .
+User(7): me too. i run everyday
+Bot(7): i run a lot . i run a lot .
+User(8): how many miles?
+Bot(8): running is fun . i run a lot .
+User(9): i run alot too
+Bot(9): i run a lot . i run a lot .
+User(10): what is your mile time?
+Bot(10): running is my favorite . i run a lot .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy sports such as running.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.86
+Robotic(↓): 100
+Interesting: 14
+Fun: 9
+Consistent: 40
+Fluent: 19
+Repetitive(↓): 100
+Topic: 85
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): did i tell you i am deaf ?
+User(2): no you did not. i want to learn sign language.
+Bot(2): do you know sign language ?
+User(3): no... i am currently studying spanish though
+Bot(3): do you know sign language ?
+User(4): no but i would love to learn
+Bot(4): do you know sign language ?
+User(5): no i do not
+Bot(5): do you know sign language ?
+User(6): no i dont. do you?
+Bot(6): nah but i know sign language
+User(7): that's contradictory....
+Bot(7): nah but i know sign language
+User(8): you told me. is it hard?
+Bot(8): its not hard at all
+User(9): how long did it take you to learn it?
+Bot(9): about four years . i started at the beginning of high school
+User(10): oh wow! thats a long time.
+Bot(10): its not hard at all
+
+Persona:
+horror movies are my favorites.
+i am partly deaf.
+i have one older sister.
+i take dance lessons once a week.
+eating is something i do when i'm bored.
+
+Topic and Human Opinion:
+Beginning: one of the languages that i'm currently studying is spanish.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.29
+Robotic(↓): 56
+Interesting: 56
+Fun: 53
+Consistent: 52
+Fluent: 40
+Repetitive(↓): 99
+Topic: 57
+
+####################
+

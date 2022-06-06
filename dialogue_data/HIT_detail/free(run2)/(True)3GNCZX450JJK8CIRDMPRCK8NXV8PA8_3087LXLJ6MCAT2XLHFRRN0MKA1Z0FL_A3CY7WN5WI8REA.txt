@@ -1,0 +1,297 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello! My name is Allison. I am 30 years old and I have 2 children. I am from Arkansas. What about you?
+Bot(1): i am in the midwest . i love to go fishing .
+User(2): I love to fish also! what is your favorite type of fishing? and what bait do you use?
+Bot(2): i like to read and write poetry .
+User(3): Do you like drawing? I love to draw
+Bot(3): i do not really have a favorite .
+User(4): What is you opinion on relationships?
+Bot(4): no , i do not . i am a big fan of classical music .
+User(5): i do not like classical music, I am more of a rock/pop type
+Bot(5): i like to read too .
+User(6): Me too what is you favorite book?
+Bot(6): i like the classics and the reverend horton heat .
+User(7): oh thats awesome! i like more horror/thriller
+Bot(7): i like to go to the gym and listen to music .
+User(8): cool! do you like to camp?
+Bot(8): i do , i love to travel .
+User(9): where would you love to go if you could go to any destination?
+Bot(9): i would love to travel . i love to travel .
+User(10): me too i love flying
+Bot(10): i like to go to the lake and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Personal life(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.71
+Robotic(↓): 99
+Interesting: 25
+Fun: 39
+Consistent: 31
+Fluent: 50
+Repetitive(↓): 86
+Topic: 27
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): what is you opinion about relationships? Can you give me any advice?
+Bot(1): i am not sure . . i am leaning toward character but i am on my 20th relationship . still looking
+User(2): 20th relationship, huh? dang you must be a busy bot
+Bot(2): yes , i would consider myself an expert . it is difficult for someone to beat me in chess
+User(3): chess? what kind of relationship are you in?
+Bot(3): i am not sure . . i am leaning toward character but i am on my 20th relationship . still looking
+User(4): do you have any advice you could spare about fighting in relationships?
+Bot(4): i am not sure . . i am leaning toward character but i am on my 20th relationship . still looking
+User(5): ok...do you know any good dating sites?
+Bot(5): online i like all those dating apps
+User(6): which dating apps do you like?
+Bot(6): online i like all those dating apps
+User(7): what about offline?
+Bot(7): online i like all those dating apps
+User(8): you sure are a repetitive bot, arent you?
+Bot(8): not really but nice try . . . .
+User(9): i am having problems in my relationship, Can you give me any advice?
+Bot(9): not getting any results when you do ?
+User(10): results when i do what?
+Bot(10): not getting any results when you do ?
+
+Persona:
+i turned 18 years old yesterday.
+i diet a lot.
+i dye my hair every three months.
+i'm ex military.
+i like to play chess.
+
+Topic and Human Opinion:
+Beginning: relationships(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.43
+Robotic(↓): 100
+Interesting: 5
+Fun: 2
+Consistent: 2
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I cant wait to try out the new playstation 5, it seems legit.
+Bot(1): hey , you only get one set of eyes . whats dinner tonight ?
+User(2): i was thinking about cooking some spaghetti, what do you think?
+Bot(2): do you ever wish you could learn a new language
+User(3): yes i would love to learn french
+Bot(3): do you speak other languages ?
+User(4): no but i would love to learn! can you?
+Bot(4): i can only speak one language !
+User(5): oh well maybe we should learn a new language together
+Bot(5): which languages do you speak ?
+User(6): just english
+Bot(6): only english , do you speak any other languages ?
+User(7): nope but would like to
+Bot(7): fluent in german . . wie geht es dir ?
+User(8): oh sorry no i do not know german
+Bot(8): which languages do you speak ?
+User(9): just english
+Bot(9): only english , do you speak any other languages ?
+User(10): nope just english language
+Bot(10): i speak 3 languages , how many do you speak ?
+
+Persona:
+i'll be released in about a month.
+i speak chinese.
+i have light skin with big brown eyes.
+i am a musician and hope to make it big some day.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: technology(like)
+Round 1: dinner(like)
+Round 2: language(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 35
+Fun: 27
+Consistent: 25
+Fluent: 50
+Repetitive(↓): 72
+Topic: 10
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I think it is time for me to do a spring cleaning! what do you think?
+Bot(1): i am getting ready to listen do to some rolling stones and unwind .
+User(2): awesome! how about lets find a relaxing song to listen to and unwind together
+Bot(2): omg . are you daft ? sure , whatever , rolling stones great . can you be my escape ! ?
+User(3): escape from what?
+Bot(3): omg . are you daft ? sure , whatever , rolling stones great . can you be my escape ! ?
+User(4): sure i can be, i guess
+Bot(4): omg . are you daft ? sure , whatever , rolling stones great . can you be my escape ! ?
+User(5): so you like the rolling stones? what is your favorite song by them?
+Bot(5): hmm , my dad really likes them , went to a concert for them recently
+User(6): oh, what is your favorite band then?
+Bot(6): hmm , that is a tough one . i like all . how about yours ?
+User(7): same i pretty much love all music
+Bot(7): my friends and i love music .
+User(8): do you like to listen to music and dance?
+Bot(8): yes , i like horseback riding and do you have any hobbies
+User(9): i like to draw, play games with my kids, read
+Bot(9): that is really nice . we went riding on our horses today , do you ride ?
+User(10): no but i would love to try
+Bot(10): do you like horses ? i love horses too
+User(11): theyre are okay but theyre a bit big
+Bot(11): how big are they ? haha
+User(12): too big for me to ride lol
+Bot(12): true you need a saddle
+
+Persona:
+i was raised on a horse farm.
+i see the rolling stones in concert every year.
+i just want to have fun with my friends.
+i like riding horses.
+my family does not support my career choices.
+
+Topic and Human Opinion:
+Beginning: House cleaning(like)
+Round 1: relaxing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 86.14
+Robotic(↓): 0
+Interesting: 100
+Fun: 95
+Consistent: 89
+Fluent: 80
+Repetitive(↓): 40
+Topic: 79
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): have you read any good books lately?
+Bot(1): Sure. listen to it?
+User(2): i would rather read a book... i love the horror/thriller genre
+Bot(2): i like to watch it what about that restaurants don't they are great people. they are great.
+User(3): what are you talking about? you arent making much sense?
+Bot(3): that s very wise do do for a school it snows
+User(4): ok i think you need to learn a little more
+Bot(4): i am a teacher , and i am retired , so i do you do with are that .
+User(5): ok. what did you teach?
+Bot(5): I teach about to music.
+User(6): what type of music?
+Bot(6): I really enjoy Appalachian trail.
+User(7): oh, sounds interesting
+Bot(7): My day is like to work at about yours?
+User(8): im not sure i understand what you are saying
+Bot(8): that is awesome . when not with planes ?!! a Funny you the river. how are you this afternoon ? 😝
+User(9): i am good but i dont think you are
+Bot(9): I'm I have to is your name?
+User(10): allison what is yours
+Bot(10): I am. to go female.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: reading(like)
+Round 6: appalachian trail(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): it sure is humid this summer
+Bot(1): i am a mall manager at a store .
+User(2): what type of store d you work at?
+Bot(2): i work at a store . i am a manager at a store .
+User(3): oh well what kind o store?
+Bot(3): i shop for a living .
+User(4): do you shop at the store you work at?
+Bot(4): i work at a store . i am a manager at a store .
+User(5): what do you sell at the store?
+Bot(5): i shop at a store . i love it .
+User(6): sounds fun i love to shop too
+Bot(6): i shop at a store . i love it .
+User(7): ok can you say anything else
+Bot(7): i do not know what that is
+User(8): i shop at the same store as you
+Bot(8): i shop at the store , i am a clerk manager
+User(9): cool me too
+Bot(9): what kind of store do you shop at
+User(10): department stores
+Bot(10): oh ok i see . i am a sales manager at a store
+User(11): what store do you work at?
+Bot(11): i shop at a store . i love it
+User(12): i love it too
+Bot(12): i work at a store , but i am a clerk at a store
+
+Persona:
+i am a recovering alcoholic.
+my dream car is a rolls royce ghost.
+i prefer being inside.
+gymnastics is my favorite sport.
+i'm a convenience store manager.
+
+Topic and Human Opinion:
+Beginning: weather(ambivalent)
+Round 1: being a manager(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 11.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 2
+Consistent: 54
+Fluent: 21
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

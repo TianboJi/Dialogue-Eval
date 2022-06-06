@@ -1,0 +1,282 @@
+Feedback: The chatbots seemed to only know a few phrases each and kept repeating them. They tried to use "slang" but not correctly. They didn't pick up on any of the topics I mentioned, except when I said I enjoyed bird watching with my cats. The chat said "I have a dog"; but the next chat said that they did not have a dog. 
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): I am good, how are you?
+Bot(2): i am good . just got back from a run .
+User(3): Where do you run?
+Bot(3): i am good , i am a little tired from the gym .
+User(4): What shoes do you wear to run?
+Bot(4): i like to run , but i do not like to run .
+User(5): My parents run a banking business.
+Bot(5): i am a professional guitar player
+User(6): Do you make a lot of money?
+Bot(6): i do . i am a big fan of sports .
+User(7): Do you own any teams?
+Bot(7): no , i am not . i am a big fan of sports .
+User(8): My parents are wealthy bankers and own a sports team.
+Bot(8): i am a professional guitar player
+User(9): What type of music?
+Bot(9): i like to play the guitar .
+User(10): What type of songs do you play?
+Bot(10): i play the guitar . i play the guitar .
+
+Persona:
+i've a son who is in junior high school.
+my favourite skater is rob dryden.
+i enjoy sports such as running.
+i diet a lot.
+i play several instruments.
+
+Topic and Human Opinion:
+Beginning: my parents are very wealthy bankers.(ambivalent)
+Round 4: It talked about running but the sentences were not making sense.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 10.29
+Robotic(↓): 100
+Interesting: 25
+Fun: 13
+Consistent: 0
+Fluent: 34
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love social media, especially twitter.
+Bot(1): what kind of are cars do you mine is twitter
+User(2): I don't have a car on twitter.
+Bot(2): i understand , i'm still fairly young i just graduated pizza is you your favourite are you this afternoon ?
+User(3): I like pizza. I'm doing well this afternoon.
+Bot(3): I am so biggest what is your waitress at the moment.
+User(4): I'm not in a restaurant.
+Bot(4): I work you pay am You ?
+User(5): I work too.
+Bot(5): I too, i havent any shopping. do you? I am not a fan
+User(6): I like to shop, yes.
+Bot(6): I do not are living in a like to drive
+User(7): Do you have twitter?
+Bot(7): ROCK MUSIC Does in the French you're here?
+User(8): What?
+Bot(8): Hello! How is your day going? 😊. I too i am employed by myself, dance lessons once week
+User(9): My day is going well, how is yours?
+Bot(9): I work had a steady at the department
+User(10): What department?
+Bot(10): Nice to meet you! the tree-green, the day!
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love social medial especially twitter.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.43
+Robotic(↓): 100
+Interesting: 80
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I used to be a painter but now I am a housekeeper
+Bot(1): i wish i was an artist but i do not think i am very good .
+User(2): I think you are good.
+Bot(2): happy do you have dolls ? lets play
+User(3): I don't have any dolls.
+Bot(3): do you have any dolls ?
+User(4): No, do you?
+Bot(4): yes i do just 1 .
+User(5): That is nice.
+Bot(5): do you have any dolls ?
+User(6): No, I don't
+Bot(6): but you do not speak chinese ?
+User(7): No I speak English
+Bot(7): but you do not speak chinese ?
+User(8): I speak English.
+Bot(8): but you do not speak chinese ?
+User(9): Correct.
+Bot(9): but you do not speak chinese ?
+User(10): Correct.
+Bot(10): do you know sign language ?
+
+Persona:
+i'll be released in about a month.
+i speak chinese.
+i have light skin with big brown eyes.
+i am a musician and hope to make it big some day.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: i used to be a painter but now i am a housekeeper.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.57
+Robotic(↓): 100
+Interesting: 13
+Fun: 31
+Consistent: 0
+Fluent: 23
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I spend my time bird watching with my cats.
+Bot(1): i love dogs , my dog is named pickles .
+User(2): I like cats
+Bot(2): i love dogs , i love dogs .
+User(3): What kind of dog do you have?
+Bot(3): i do not have any pets , but i do like to go fishing .
+User(4): Where do you fish?
+Bot(4): no , i do not , but i do like to eat .
+User(5): What is your favorite food?
+Bot(5): i like the color red . what is yours ?
+User(6): Purple.
+Bot(6): i like to go to the gym and listen to music .
+User(7): Me too.
+Bot(7): i like to go to the gym and listen to music .
+User(8): So do I.
+Bot(8): i like to go to the gym and listen to music .
+User(9): I spend time bird watching.
+Bot(9): i like to go fishing .
+User(10): Where at?
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i like to eat hamburgers and french fries.
+my family does not support my career choices.
+i have one brother.
+i walk three miles every day.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: i spend my time bird watching with my cats.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.86
+Robotic(↓): 100
+Interesting: 6
+Fun: 6
+Consistent: 7
+Fluent: 8
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I'm married to a doctor.
+Bot(1): that is awesome glad to hear i am a doctor
+User(2): You are a doctor?
+Bot(2): yes
+User(3): What kind of doctor?
+Bot(3): his
+User(4): General medicine?
+Bot(4): gotcha
+User(5): Where did you go to school?
+Bot(5): usc pre med . i am divorced . d
+User(6): Where did you go to medical school?
+Bot(6): i work as a children doctor .
+User(7): That's nice.
+Bot(7): where did you go to school ?
+User(8): SLU
+Bot(8): ok
+User(9): Yep
+Bot(9): ok
+User(10): bye
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm married to a doctor.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.86
+Robotic(↓): 100
+Interesting: 16
+Fun: 39
+Consistent: 38
+Fluent: 65
+Repetitive(↓): 89
+Topic: 61
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I'm currently in a juvenile detention center
+Bot(1): i help the elderly . one of them inspired me to want to skydive
+User(2): Did you skydive?
+Bot(2): yes i will not have you tried eating very spicy food ? i love eating spicy asian food .
+User(3): They don't have spicy asian food in the detention center
+Bot(3): all food as long as it is spicy . not too much spicy food where i work
+User(4): We can't have any spicy food here.
+Bot(4): i like spicy sausage with peppers . what is something interesting about you ?
+User(5): I'm currently in a juvenile detention center.
+Bot(5): i help the elderly . one of them inspired me to want to skydive
+User(6): what is something interesting about you?
+Bot(6): i was once on the news . my dad drove the same cab since the 70s . . .
+User(7): that's a long time
+Bot(7): i m only 12 ! just kidding . i m 32 .
+User(8): I actually am 12.
+Bot(8): wow ! mee , to . i am beaming ! i cud danse the hole nite long !
+User(9): I'm in a juvenile detention center.
+Bot(9): that is great . do you live alone or are you happily married ?
+User(10): Happily married.
+Bot(10): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(11): 3 years
+Bot(11): that is a nice house hold as well . must be tough to feed everyone .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm currently in a juvenile detention center.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.29
+Robotic(↓): 100
+Interesting: 56
+Fun: 47
+Consistent: 35
+Fluent: 40
+Repetitive(↓): 45
+Topic: 0
+
+####################
+

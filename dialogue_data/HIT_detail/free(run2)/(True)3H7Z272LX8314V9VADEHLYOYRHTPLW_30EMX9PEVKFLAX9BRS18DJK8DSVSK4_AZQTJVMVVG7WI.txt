@@ -1,0 +1,289 @@
+Feedback: I enjoyed
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): Ever fell in love?
+Bot(2): yes
+User(3): When last were you in love
+Bot(3): last week at the met in new york
+User(4): COVID19
+Bot(4): i fell in love this past summer
+User(5): Am happy for you
+Bot(5): i am happy for you
+User(6): Do you intend to move a step ahead with your lover?
+Bot(6): i hope so we love each other alot
+User(7): I will pray for you guys
+Bot(7): i will be praying for you
+User(8): Dont forget to call me to your wedding in future
+Bot(8): i will be praying for you
+User(9): Ok all the best
+Bot(9): and too you too
+User(10): Good day
+Bot(10): i will be praying for you
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.43
+Robotic(↓): 80
+Interesting: 86
+Fun: 59
+Consistent: 78
+Fluent: 75
+Repetitive(↓): 100
+Topic: 91
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): yesi do
+Bot(2): i do not know what that means
+User(3): Its the ongoing pandemic disease how about it
+Bot(3): i am sorry to hear that
+User(4): Is it there in your country?
+Bot(4): yes it is i love it
+User(5): You love corona virus?
+Bot(5): i am not sure i am not sure
+User(6): It is a killer disease so you shouldnt even talk of loving it
+Bot(6): i am sorry to hear that
+User(7): You know the measures undertaken to prevent it from reaching you?
+Bot(7): i am in the states and i love the way
+User(8): Always put on your mask
+Bot(8): i know that i am sure
+User(9): sanitize
+Bot(9): i know that i am not sure
+User(10): wash your hands regulary
+Bot(10): i do not know how to make it
+User(11): Keep distance
+Bot(11): i do not know how to make it
+User(12): Go for a check up
+Bot(12): i do not know what that is
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: COVID19(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.57
+Robotic(↓): 50
+Interesting: 16
+Fun: 10
+Consistent: 50
+Fluent: 72
+Repetitive(↓): 100
+Topic: 58
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Helo
+Bot(1): ll
+User(2): i hope you are fine
+Bot(2): thanks your are as well . take care and be safe
+User(3): i will always
+Bot(3): i will be praying for you
+User(4): ever lost someone through death?
+Bot(4): i do not think i have
+User(5): I will be praying for you too
+Bot(5): i will be praying for you
+User(6): Loosing someone is the worst experience ever
+Bot(6): i am lucky enough to beat death last time
+User(7): What happened
+Bot(7): i almost died yesterday afternoon
+User(8): I am really sorry about that
+Bot(8): i will be praying for you
+User(9): But i thank God you are alive
+Bot(9): i will be praying for you
+User(10): So what happened
+Bot(10): nothing you would have seen
+User(11): Accident?
+Bot(11): i was in an accident once
+User(12): Sorry
+Bot(12): that is quite alright good sir
+User(13): i am a madam
+Bot(13): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Death(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 75.29
+Robotic(↓): 50
+Interesting: 60
+Fun: 80
+Consistent: 69
+Fluent: 93
+Repetitive(↓): 13
+Topic: 88
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): I hope you are fine
+Bot(2): i am . i am a student .
+User(3): At which level
+Bot(3): i love to cook . i love to cook .
+User(4): Woow that is great
+Bot(4): i love to cook . i love to cook .
+User(5): What is your career?
+Bot(5): yes , i am a student . i love to cook .
+User(6): You want to be a chef?
+Bot(6): i do not know . i am a student .
+User(7): Its ok
+Bot(7): i am a student , but i am a student .
+User(8): I wish you all the best
+Bot(8): i like to go to the gym and listen to music .
+User(9): That is cool of you
+Bot(9): i like to go to the gym and listen to music .
+User(10): All the best
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: CAREER(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.57
+Robotic(↓): 50
+Interesting: 3
+Fun: 4
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): God is good
+Bot(1): I love candy. graduated from school long kidnap people.
+User(2): That is great.God is good/
+Bot(2): no 😣 more of a drama one of an apartment together next all time
+User(3): Do you go to church?
+Bot(3): Mine is pink too! What i don't have any work?
+User(4): Which denomination
+Bot(4): Cool. What science of do?
+User(5): How do you conduct your service?
+Bot(5): ok . do you have any I would go to collie dog .
+User(6): Do you blieve in God?
+Bot(6): Hi, I am just that you are you?
+User(7): How about your pastor?
+Bot(7): What cheeseburgers coming right for ESPN?
+User(8): I hope you enjoy going to church
+Bot(8): I thinks I might what you are doing
+User(9): I miss church
+Bot(9): I work at a overwhelmed. I am a do it.
+User(10): It has been long
+Bot(10): i ve never stupid question. You mean i like mustangs
+User(11): The pandemic disease worsened things
+Bot(11): I do not allow I'm so sports
+User(12): all the best
+Bot(12): cool ✨ roaming around the forest do you drive
+
+Persona:
+i love dogs.
+two dogs live with me.
+my favorite band is the insane clown posse.
+i see the rolling stones in concert every year.
+i have been traveling the world for a years.
+
+Topic and Human Opinion:
+Beginning: Religion(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.14
+Robotic(↓): 74
+Interesting: 1
+Fun: 1
+Consistent: 0
+Fluent: 13
+Repetitive(↓): 100
+Topic: 2
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hello , do you like dogs ? i love animals , i have 2 dogs .
+User(2): Yes i do
+Bot(2): that is is wonderful have u won a gold medal yet
+User(3): Do you love children
+Bot(3): do pets count lol ? my babies are my three chickens .
+User(4): oops chickens?
+Bot(4): yes we do . we love eggs for breakfast .
+User(5): woow i loe eggs too
+Bot(5): oh nice , that sounds good . i usually have cereal for breakfast , but with chocolate milk .
+User(6): Do you have children
+Bot(6): do pets count lol ? my babies are my three chickens .
+User(7): Ok how do you treat them
+Bot(7): 1 does the other does not i gotta leave em home when i go to my parents ugh
+User(8): Do you feed them?
+Bot(8): get out ! you need a party planner ? call me for help okay ?
+User(9): Do you sleep with them?
+Bot(9): well the dreams i have scare me hope you sleep well
+User(10): Ooh,so sorry for that
+Bot(10): divorced with a boyfriend who does not want the kind of relationship i do
+
+Persona:
+i have never had a steady relationship.
+i'm a gold medalist olympian.
+i am an elementary school teacher.
+i'm planning on getting a divorce.
+i'm a feminist.
+
+Topic and Human Opinion:
+Beginning: Children(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

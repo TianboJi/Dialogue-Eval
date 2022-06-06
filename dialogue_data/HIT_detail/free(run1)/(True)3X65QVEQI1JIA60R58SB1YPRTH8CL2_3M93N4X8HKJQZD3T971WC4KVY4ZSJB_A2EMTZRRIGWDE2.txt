@@ -1,0 +1,303 @@
+Feedback: most of the chatbots seemed very simple and not able to carry on a natural converstaion
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, I went on a fantastic run this morning
+Bot(1): awesome i spent the morning running all morning
+User(2): how far did you go?
+Bot(2): all the way up to the forest and back . i am totally ready for the marathon .
+User(3): thats great, I am training for a triathlon right now so I will also have to run a marathon
+Bot(3): me too ! i just finished first in my age group in a triathlon .
+User(4): wow that's awesome, which event is your worst?
+Bot(4): i am not sure , there is so many to choose from !
+User(5): There's actually only three, the run, bike, and swim.
+Bot(5): i have running but i have done 3 triathlons so i have to .
+User(6): I see, would you like to talk about some of your favorite running trails?
+Bot(6): maybe , yeah ! honestly , i only do it to stay in shape for my triathlons
+User(7): It's definitely an important part of the race, I love running just for fun too.
+Bot(7): me too ! i just finished first in my age group in a triathlon .
+User(8): that's awesome, I haven't had a first place finish yet.
+Bot(8): me too ! i just finished first in my age group in a triathlon .
+User(9): how much running do you normally do?
+Bot(9): i try to do triathlons . keeps me healthy .
+User(10): yeah but how much mileage do you run in a week?
+Bot(10): i try to do triathlons . keeps me healthy .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Running(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 14
+Fun: 8
+Consistent: 5
+Fluent: 65
+Repetitive(↓): 100
+Topic: 83
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I just finished a great lifting session at the gym!
+Bot(1): oh , i love to read , and i love to read .
+User(2): I love to read too, what are you reading right now?
+Bot(2): i like to read and write poetry .
+User(3): thats awesome, who is your favorite poet?
+Bot(3): i like the color red . i like the color blue .
+User(4): my favorite color is orange
+Bot(4): i like red , reminds me of summer time .
+User(5): red reminds me of Autumn. I love the color of fall leaves.
+Bot(5): i like the color red . i like red .
+User(6): yeah you said that, you must like it a lot
+Bot(6): i do , i love to go fishing .
+User(7): I love fishing, bass is my favorite type of fish
+Bot(7): i like to eat too much junk food .
+User(8): yeah, I guess I like junk food too
+Bot(8): i like to eat fish .
+User(9): fish is pretty good, but I can't eat it everyday
+Bot(9): i like to eat fish .
+User(10): yeah you said that already, what type of fish do you eat
+Bot(10): i like pizza and pizza .
+User(11): I've never heard of a pizza fish
+Bot(11): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: working out(like)
+Round 1: reading(like)
+Round 3: colors(ambivalent)
+Round 6: fishing(like)
+Round 7: eating junk food(ambivalent)
+Round 8: eating in general(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 1.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 12
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am in college right now for my bachelor's degree
+Bot(1): i am in school too , getting my bachelors
+User(2): thats awesome, where do you go to college at
+Bot(2): lewis and clark college in portland
+User(3): hey I'm in the northwest as well, what are you getting your degree in
+Bot(3): i just got my bachelors , working on my masters
+User(4): wow thats awesome, I am not that far yet
+Bot(4): i am in school too , getting my bachelors
+User(5): now I'm confused, you are getting your bachelors or masters
+Bot(5): i just got my bachelors , working on my masters
+User(6): I see, what is the masters that you are working towards
+Bot(6): i am not sure yet . maybe some type of engineering
+User(7): I am getting my bachelors in mechanical engineering, I love it
+Bot(7): cool what type of engineering ?
+User(8): mechanical, but I may switch to electrical
+Bot(8): makes sense , i am going to transition and do something i will like
+User(9): yeah but you have to like it to get your masters in it
+Bot(9): makes sense , i am going to transition and do something i will like
+User(10): well what do you like to do
+Bot(10): hiking , skin most of the nature activities
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: education(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.14
+Robotic(↓): 34
+Interesting: 70
+Fun: 58
+Consistent: 29
+Fluent: 70
+Repetitive(↓): 83
+Topic: 76
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): we just got back from an awesome camping trip
+Bot(1): I great is my of basketball
+User(2): i like playing basketball too
+Bot(2): I want to live my car around
+User(3): huh? that doesn't make sense
+Bot(3): is you feel you :)
+User(4): this is a weird conversation, what state do you live in?
+Bot(4): That is a lot of work. lawyer is a genius at a local department store. Do you enjoy american sports ?
+User(5): I love football, I watch it every year
+Bot(5): the mexican donkey good you hate your is going on ?
+User(6): I'm not sure what you mean but I really enjoy watching football
+Bot(6): i rebuilt a diesel all to drive my red damn 😁
+User(7): I see, that's interesting
+Bot(7): what don't like the in philosophy? mine too.
+User(8): yeah philosophy was my worst subject
+Bot(8): i do , but i do they don't understand I to do anything .
+User(9): yeah, you type like a kindergartner
+Bot(9): fine thank you the band am you doing
+User(10): I think you are talking about a band
+Bot(10): i do my You any sports .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: camping(like)
+Round 1: basketball(like)
+Round 2: unsure(ambivalent)
+Round 4: sports(like)
+Round 5: unsure(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love country music what about you
+Bot(1): i like mostly classical music
+User(2): I study to that a lot, it helps me focus
+Bot(2): if i eat fast food now , i get sick . it is too fatty and greasy .
+User(3): well you should stop eating it
+Bot(3): yes stop that is not healthy
+User(4): no it's not, it is convenient sometimes though
+Bot(4): not really sports , but i do enjoy running .
+User(5): I love to run
+Bot(5): oh fun ! where do you usually go running ?
+User(6): usually in the park, they have a nice loop there, where do you go
+Bot(6): that is cool i got to run have a great day !
+User(7): ok bye
+Bot(7): ops time was not up . glad to know you love baseball .
+User(8): my son plays baseball and he really enjoys it
+Bot(8): who all is playing and who is your favorite team
+User(9): just my son plays, but my favorite team is the Royals
+Bot(9): my favorite american football team is the browns . my favorite mls team is the crew .
+User(10): mine are the Chiefs, and the sporting are my favorite MLS team
+Bot(10): which team is your team ?
+
+Persona:
+i've a son who is in junior high school.
+my favourite skater is rob dryden.
+i enjoy sports such as running.
+i diet a lot.
+i play several instruments.
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 2: eating(ambivalent)
+Round 4: sports(like)
+Round 7: baseball(like)
+Round 9: sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 55.14
+Robotic(↓): 37
+Interesting: 60
+Fun: 64
+Consistent: 29
+Fluent: 64
+Repetitive(↓): 30
+Topic: 36
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I hate being stuck in a cubicle
+Bot(1): i am a construction worker , i am a construction worker .
+User(2): that would be a lot better than being stuck inside all day
+Bot(2): i am sorry to hear that . i am a construction worker .
+User(3): yeah I think maybe I should switch my job
+Bot(3): i am a construction worker , i am a construction worker
+User(4): thats what you said already, I'm happy for you
+Bot(4): i am a construction worker , i am a construction worker
+User(5): you sound like a broken record
+Bot(5): i am a construction worker , i am a construction worker
+User(6): I like to build houses in my spare time
+Bot(6): i am a construction worker , i am a construction worker
+User(7): I work with habitat for humanity
+Bot(7): i am a construction worker , i am a construction worker
+User(8): have you ever heard of them
+Bot(8): yes i do , i have a few dogs
+User(9): I love dogs, they are great companions
+Bot(9): i love dogs , they are my favorite
+User(10): mine too, I use mine to hunt
+Bot(10): i have three dogs and a dog
+
+Persona:
+i've three dogs.
+i live in california but the recording artist market was dead last year.
+i am a construction worker.
+i'm a 12 year old girl.
+i am a construction worker.
+
+Topic and Human Opinion:
+Beginning: office work(dislike)
+Round 5: building houses(like)
+Round 8: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

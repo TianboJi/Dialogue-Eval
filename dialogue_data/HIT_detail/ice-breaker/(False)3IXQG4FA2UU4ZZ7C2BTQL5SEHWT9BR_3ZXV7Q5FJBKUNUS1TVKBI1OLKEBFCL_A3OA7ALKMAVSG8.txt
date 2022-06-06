@@ -1,0 +1,279 @@
+Feedback: The bot cant sustain a conversation. It can’t answer and it keeps repeating itself 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello! How are you?
+Bot(1): i am doing well . just got done walking my dog .
+User(2): Oh thats amazing! What kind of dog do you have?
+Bot(2): i do not have any pets , but i do like to go fishing .
+User(3): How old are you?
+Bot(3): i am good . just got done walking my dog .
+User(4): Im glad you are ok! How old are you?
+Bot(4): i am good . just got done walking my dog .
+User(5): Are you a dad?
+Bot(5): no , i do not . i am a big fan of classical music .
+User(6): I like classic music too
+Bot(6): i love music . i like country music .
+User(7): I like country music too! Do you have any hobbies?
+Bot(7): i like to go fishing . i love to go fishing .
+User(8): I used to ho fishing when I was a kid
+Bot(8): i am sorry to hear that . i am a big fan of the walking dead .
+User(9): I only watched 2 episodes
+Bot(9): i love the color red . i like the color blue .
+User(10): My favorite color is yellow
+Bot(10): i like blue , i like red , reminds me of summer time .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: whats up i am a 46 year old single dad 46 a kids.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 80
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I just moved into my first house
+Bot(1): awesome . i wish i was a dentist like my mom .
+User(2): You can become a dentist
+Bot(2): moms a dentist , i cannot help her .
+User(3): So what do you do?
+Bot(3): i want to be a lawyer
+User(4): Thats amazing! I want to be an actress
+Bot(4): i want to be a lawyer
+User(5): Have ever bought a house?
+Bot(5): no i do not have money for that
+User(6): I just bought my first house
+Bot(6): oh , where did you buy a home ?
+User(7): In Miami
+Bot(7): i want to be a lawyer
+User(8): Ok! Are you studying to be a lawyer?
+Bot(8): no i am retired i am 75 years old
+User(9): Do you want to be a lawyer at 75 years old?
+Bot(9): well i am 50 so maybe not , its too old
+User(10): You are still young
+Bot(10): yes it is i am just old
+
+Persona:
+i do not drink alcohol.
+my mother is a dentist.
+i can sew my own clothes.
+i want to be a lawyer.
+i'm 100 years old.
+
+Topic and Human Opinion:
+Beginning: i just moved into my first home.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I’ve visited spain
+Bot(1): i do not take vacations . i have two sons i raise by myself .
+User(2): I have a son
+Bot(2): i have three beautiful sons
+User(3): Are you married?
+Bot(3): yes i have five adults children
+User(4): Would you like to go to Spain?
+Bot(4): no i want to study in spain
+User(5): What do you want to study
+Bot(5): i want to educate kids
+User(6): That amazing! Do you like kids
+Bot(6): yes i do i love kids
+User(7): Do you speak spanish
+Bot(7): no , since i am a native of mexico , i teach spanish
+User(8): You wanna go to spain
+Bot(8): no i want to study in spain
+User(9): I visited spain a few times
+Bot(9): you should have taken me with you
+User(10): Next time i will take you with me
+Bot(10): i have a little dog i would bring
+
+Persona:
+i have two dogs.
+i've five sons.
+the county wide bake sale is where i feel most at home.
+my favorite food is mexican food.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: i've visited spain a times.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.43
+Robotic(↓): 100
+Interesting: 38
+Fun: 38
+Consistent: 10
+Fluent: 100
+Repetitive(↓): 10
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I remember when nobody had a television
+Bot(1): i love the water . swimming , surfing , boating . if it gets me near the water i am in ! you ?
+User(2): I like swimming
+Bot(2): i love swimming . do you like to listen to music while you swim ?
+User(3): Yes. When i go to the pool i always put some music
+Bot(3): pool is fun to play
+User(4): Im good playing pool. Do you watch television
+Bot(4): i just finish ordering my kids some mermaid blankets online .
+User(5): I would like to see it
+Bot(5): do you prefer to paint realistic people ? or do you prefer a unique style ?
+User(6): I prefer realistic people
+Bot(6): really ? not even animals , you should try watching some animal videos on the internet !
+User(7): Do you like anime
+Bot(7): black butler is one of my favorites . do you like anime ?
+User(8): I love anime
+Bot(8): cool you should read my manga i draw a lot of comics
+User(9): Really? I would love to read your manga
+Bot(9): no , i just read it for fun . i am studying to speak a new language fluently .
+User(10): I love to read and i speak 4 languages
+Bot(10): i speak only english , and a little spanish
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i remember when nobody had a television.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.86
+Robotic(↓): 74
+Interesting: 71
+Fun: 67
+Consistent: 9
+Fluent: 100
+Repetitive(↓): 82
+Topic: 23
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): My father keeps trying to set me up on a blind date
+Bot(1): what do you hope they're fake ?
+User(2): No
+Bot(2): i work in an office building . it has also paid well , and supports fda you say about your do you like to do ?
+User(3): Cool will you go on a blind date
+Bot(3): I don't do you like to the food they have to eat.
+User(4): Not bad, i love tacos
+Bot(4): we is its you named taylor
+User(5): No im erika
+Bot(5): I that's nice. do of cancer
+User(6): Cancer?
+Bot(6): Hey! What are you doing? 🧐. week do you the from small town
+User(7): Im laying in bed
+Bot(7): animals are wonderful music. What is them ,
+User(8): I love latin music
+Bot(8): I am going to build a a college student
+User(9): Wow can i help you with that
+Bot(9): do you just enjoy me your love video games.
+User(10): I dont play video games
+Bot(10): Nice to see you! ask don't like competive to the gym
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my father keeps trying to set me up on blind dates.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.43
+Robotic(↓): 100
+Interesting: 20
+Fun: 16
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love social media
+Bot(1): i am a teacher , i am retired now
+User(2): What you were teaching
+Bot(2): i am a teacher , i am a retired teacher .
+User(3): You use social media
+Bot(3): i am a teacher , i am a retired teacher
+User(4): Do you use social media?
+Bot(4): no i don't but i am a retired teacher
+User(5): Do you use Twitter?
+Bot(5): no i don't but i do love to read
+User(6): I love to read too
+Bot(6): i do not read much . i am a teacher .
+User(7): What do you teach?
+Bot(7): i teach middle school and you ?
+User(8): I am a lawyer
+Bot(8): i am a teacher , i am retired now
+User(9): Math teacher?
+Bot(9): i am a teacher , i am retired now
+User(10): Do you like kids?
+Bot(10): i do not but i am a retired teacher
+
+Persona:
+i'm a retired gym teacher.
+i am married to a doctor.
+i have a boyfriend.
+for vacation i enjoy time at the beach.
+i'll graduate from high school in two years.
+
+Topic and Human Opinion:
+Beginning: i love social medial especially twitter.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

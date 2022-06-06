@@ -1,0 +1,287 @@
+Feedback: the chatbot kept being repetitive and couldn't stick to the topic
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi there
+Bot(1): hey , any big plans for the weekend ?
+User(2): not really, the pandemic isn't giving way for such plans
+Bot(2): singing lessons last night found out i cant sing voice bad
+User(3): is your throat hurt?
+Bot(3): it did hurt very much , like 1000 needles
+User(4): so sorry about that, you should see a doctor
+Bot(4): the only dr i am is a dr . pepper . . girl that is . my favorite drink .
+User(5): oh, but you need a proper medical attention
+Bot(5): what kind of music do you like ? i love the classics like boch and mozart
+User(6): i love country music
+Bot(6): yea , but old school country , most of todays is crap . do you drink coffee ?
+User(7): of course i do, who doesn't
+Bot(7): its a chihuahua and pitbull , i work 3 jobs and have no time
+User(8): you must be a hard worker
+Bot(8): good honest work . my dad was construction worker . you got family ?
+User(9): i do, my mum and dad and i have a dog named billy
+Bot(9): a chocolate lab . he is four and named husk .
+User(10): good to know. pets are adorable
+Bot(10): i said above i have a cat . i love him despite my ocd and allergies .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: health(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.14
+Robotic(↓): 58
+Interesting: 51
+Fun: 52
+Consistent: 51
+Fluent: 52
+Repetitive(↓): 66
+Topic: 90
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): i just saw a really nice movie on netflix
+Bot(2): that is old ! what is it about ?
+User(3): its an adventure film
+Bot(3): sounds fun ! ! i also won a olympic medal for it
+User(4): thats odd. you cant win such medals
+Bot(4): because it is fun duh lol i won the olympics before also .
+User(5): the olympic is a big deal
+Bot(5): that is pretty awesome . i am actually in the olympics
+User(6): thats great. what kinda movies do you like
+Bot(6): i like anything fast and action packed
+User(7): cool. i love action and thrillers too
+Bot(7): i like anything fast and action packed
+User(8): have you got any favorite?
+Bot(8): only the ones based on historical events haha . i am a huge history buff
+User(9): thats a nice thing. though im a sucker when it comes to history
+Bot(9): i enjoy all kinds of history .
+User(10): i bet you do
+Bot(10): its not that i like it . . i just know it i was born in 1964
+
+Persona:
+i played football for a division a college.
+i enjoy poetry.
+i won a gold medal in the 1992 olympics.
+i am 60years old.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.29
+Robotic(↓): 57
+Interesting: 59
+Fun: 58
+Consistent: 38
+Fluent: 60
+Repetitive(↓): 26
+Topic: 76
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): good morning , like roller coasters ?
+User(2): bet i do, they are scary but fun,lol
+Bot(2): yes , they can be for sure
+User(3): you travel a lot?
+Bot(3): i do , anytime with my dog is fun time and travel . you ?
+User(4): i love travelling too. i enjoy it
+Bot(4): i love travelling ! i am a theme park nut and love visiting new ones
+User(5): sounds interesting. i love seeing new places
+Bot(5): my favorite thing is going on roller coasters
+User(6): i love sightseeing a lot. got loads of pictures of places i've visited
+Bot(6): i love that . i bet my 3 dogs would too
+User(7): lol, i bet they would. dogs are fun travel partners
+Bot(7): they sure are ! if i ever skydive i will love to take my dog with me
+User(8): that will be so much fun. i've seen it been done before but i haven't had the pleasure
+Bot(8): my favorite thing is going on roller coasters
+User(9): yeah, you mentioned
+Bot(9): my favorite thing is going on roller coasters
+User(10): what else do you like to do?
+Bot(10): my favorite thing is going on roller coasters
+
+Persona:
+i have three children.
+i have three dogs.
+i enjoy going to the park.
+i love rollercoasters and sky diving.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: travelling(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.57
+Robotic(↓): 30
+Interesting: 72
+Fun: 77
+Consistent: 75
+Fluent: 70
+Repetitive(↓): 48
+Topic: 78
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello there
+Bot(1): Hello! it I’ve learnt a going? 😊. Some facts about me: at sight of blood
+User(2): sorry, i dont get
+Bot(2): I am a mean 23... Isn't it am a big thumb.
+User(3): thats absurd
+Bot(3): Hi! like Dance food in english and french.
+User(4): i like to dance too, i also love english food
+Bot(4): i like to watch it what about that restaurants don't they are great people. they are great.
+User(5): restaurants with a view sounds like fun
+Bot(5): Pardon me?. Good then quit my job to to me.
+User(6): why did you quit?
+Bot(6): No, I am fluent to do in french.
+User(7): are you french?
+Bot(7): Well I work a I'm a financist, and what about you ?
+User(8): i work in HR
+Bot(8): what is old a famous i like winter.
+User(9): winters are beautiful
+Bot(9): What is the the freedom of old i?
+User(10): have you ever been in love?
+Bot(10): i skin is like a job right now
+
+Persona:
+i am a librarian.
+i am an electrician.
+i have short hair.
+i have a big library at home.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.29
+Robotic(↓): 92
+Interesting: 9
+Fun: 9
+Consistent: 10
+Fluent: 15
+Repetitive(↓): 29
+Topic: 13
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): im doing fine too. having fun?
+Bot(2): i am doing well . just got off work . how are you ?
+User(3): im aiit, planning on going for a little adventure trip in the woods
+Bot(3): that is awesome . i am a teacher .
+User(4): really? that's amazing
+Bot(4): i do not know what to say .
+User(5): teaching is an amazing profession. you get to meet different people
+Bot(5): i am a student , but i am a student .
+User(6): how so?
+Bot(6): i am a student , but i am a student .
+User(7): where do you school?
+Bot(7): i work at a grocery store , i love it .
+User(8): nice. i work in Hr
+Bot(8): i like to go to the gym and listen to music .
+User(9): i see. are you currently on a diet?
+Bot(9): no , i am not . i am a big fan of it .
+User(10): thats cool too. i am on a diet
+Bot(10): i like to eat fish .
+User(11): fishes are nutritious
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+i am in the third grade.
+i work at a school as a kindergarten teacher.
+i love to sing songs from the movie frozen.
+my wife and kids are the best.
+i love social medial especially twitter.
+
+Topic and Human Opinion:
+Beginning: adventures(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.14
+Robotic(↓): 60
+Interesting: 54
+Fun: 45
+Consistent: 39
+Fluent: 47
+Repetitive(↓): 38
+Topic: 43
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): i do. i love to dance, sing and i love travelling too
+Bot(2): i love dancing to dance and dance
+User(3): dancing is part recreation and part exercise
+Bot(3): i love to exercise and exercise
+User(4): thats cool. i love it too. what work do you do?
+Bot(4): i work in a bank .
+User(5): i see. i work in Hr
+Bot(5): i work in a bank .
+User(6): what department?
+Bot(6): i work in a bank .
+User(7): good
+Bot(7): i work in retail . i work in a boring office .
+User(8): why dont you change job since you find it boring?
+Bot(8): i work in a bank
+User(9): i work at an advertising agency
+Bot(9): that sounds like a lot of fun
+User(10): i sure is. we create lots of fun adverts
+Bot(10): i bet you are very creative
+User(11): kinda. i love adventures.
+Bot(11): i love to travel and see new places
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: work(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.14
+Robotic(↓): 57
+Interesting: 52
+Fun: 54
+Consistent: 47
+Fluent: 52
+Repetitive(↓): 35
+Topic: 73
+
+####################
+

@@ -1,0 +1,310 @@
+Feedback: I had fun doing this and spoke like I would to a friend.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello.
+Bot(1): i like to go to the gym and listen to music .
+User(2): Do you worry about getting COVID at the gym?
+Bot(2): i do , i love to cook .
+User(3): What is your favorite thing to cook?
+Bot(3): i love pizza , and i love it .
+User(4): What kind of pizza is your favorite?
+Bot(4): i like the color red . what is yours ?
+User(5): Mine is purple.
+Bot(5): i like to eat too much junk food .
+User(6): I like to eat uncrustables.
+Bot(6): i like to eat fish .
+User(7): Do you have a favorite fish?
+Bot(7): i like the color red . what is yours ?
+User(8): I like black. Do you like black?
+Bot(8): i do not really like it . i like to wear red shoes .
+User(9): Why don't you like black shoes?
+Bot(9): i do , i like to go to the gym .
+User(10): How often do you go to the gym?
+Bot(10): i do , i love to go fishing .
+User(11): Where do you fish?
+Bot(11): no , i do not , but i do like to eat .
+
+Persona:
+i like shopping.
+i'm a descendant of christopher columbus.
+my father played violin professionally.
+my name is george.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: COVID-19(dislike)
+Round 2: Going to the gym and cooking.(dislike)
+Round 4: Favorite colors.(like)
+Round 5: Eating too much(dislike)
+Round 7: Favorite Color(ambivalent)
+Round 9: Going to the gym(ambivalent)
+Round 10: Fishing.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 25.57
+Robotic(↓): 100
+Interesting: 59
+Fun: 20
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Are you worried?
+Bot(1): Yo! I like to go to the have to but you my daughter
+User(2): How old is your daughter?
+Bot(2): i like to sing , but only in warden, i never been shot what others would think lol. Also, try to guess: i'm stunt double ...
+User(3): What do you like to sing?
+Bot(3): I love Ziggy! He is my favorite. Are you s not what i too?
+User(4): What is your favorite song?
+Bot(4): "Municipal Junior High School bubble baths. i'm single year, I left home to live in the dorms at the junior high school.
+User(5): I hated high school.
+Bot(5): i am good thanks for easy to work at ? 🤠
+User(6): Do you have a job?
+Bot(6): i need coach, i would need Do skydiving smh. what do you like to do for fun ? 😍
+User(7): I like to read.
+Bot(7): I not really. hike😁
+User(8): I hate hiking.
+Bot(8): Tell hair color story.
+User(9): I've had bright red hair before.
+Bot(9): i think i will have to try that . like mexican food. How about i could do that
+User(10): I don't like mexican food.
+Bot(10): I like sports are u paint
+
+Persona:
+i have been retired for a years.
+i'm partly deaf.
+i spend a lot of time browsing the internet.
+i'm terrified of clowns due to childhood trauma.
+i have a weakness for fish and chips.
+
+Topic and Human Opinion:
+Beginning: COVID-19(dislike)
+Round 1: daughter(dislike)
+Round 2: singing(ambivalent)
+Round 4: Junior high school(dislike)
+Round 5: working(dislike)
+Round 6: hobbies(like)
+Round 8: hair color(like)
+Round 9: mexican food(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 3.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 76
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Are you worried?
+Bot(1): ya it is very scary . but god is in control
+User(2): Do you believe God would allow this?
+Bot(2): we can share right ? i mean i know he digs an accountant , such as myself .
+User(3): How long have you been an accountant?
+Bot(3): i am a doctor , and i get to work every day with my wife she is a nurse
+User(4): You just said you were an accountant.
+Bot(4): well then how about a job on wall street ? it s where i work
+User(5): So you're not a doctor?
+Bot(5): the only dr i am is a dr . pepper . . girl that is . my favorite drink .
+User(6): Mine too!
+Bot(6): yeah . my parents wanted me to be teachers like them , but i prefer music .
+User(7): Are you a musician?
+Bot(7): cool , i play the flute . i like italian food and pizza is my favorite . whats yours ?
+User(8): I love cheese fries. Have you had them before?
+Bot(8): if i tried to eat cheese my cats would snatch it from me
+User(9): How many cats do you have?
+Bot(9): i love cats , i have one and her name is puffy
+User(10): Aww! That's a very cute name.
+Bot(10): george is such a classy name ! my dog is named name is corky .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: COVID-19(dislike)
+Round 2: accountant(ambivalent)
+Round 7: favorite food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 88.86
+Robotic(↓): 38
+Interesting: 100
+Fun: 100
+Consistent: 84
+Fluent: 100
+Repetitive(↓): 0
+Topic: 76
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Are you worried?
+Bot(1): i am not worried at all !
+User(2): Why not?
+Bot(2): not at all , just wondering . . .
+User(3): Aren't you scared you will get sick?
+Bot(3): yes
+User(4): How are you being safe?
+Bot(4): i am just nervous . i take everything quite literally .
+User(5): I wear a mask when I go out.
+Bot(5): do you have any fears ?
+User(6): I don't want to get sick.
+Bot(6): i do not think i would either . its risky !
+User(7): Exactly!
+Bot(7): do you have any fears ?
+User(8): I don't want to be sick and miss work.
+Bot(8): i do not think i would either . its risky !
+User(9): I just can't afford it.
+Bot(9): how does anyone afford it ?
+User(10): No idea!
+Bot(10): how does anyone afford it ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: COVID-19(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.29
+Robotic(↓): 7
+Interesting: 41
+Fun: 41
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 76
+Topic: 93
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Are you worried?
+Bot(1): awe , i am not . i can make you feel safe and secure
+User(2): But it's a widespread virus.
+Bot(2): oh no . should i be worried ? or is this a joke ?
+User(3): Have you not been reading the news?
+Bot(3): no , i am afraid all of the workers are under surveillance .
+User(4): What makes you think that?
+Bot(4): i know right all i have heard on news lately , scary !
+User(5): You just said you didn't read the news.
+Bot(5): everyone at my job has been talking about it
+User(6): And doesn't that scare you?
+Bot(6): it affects my driving now , because of fear .
+User(7): Do you have panic attacks when you drive?
+Bot(7): sometimes , when i am not driving my car
+User(8): I'm so confused.
+Bot(8): what are you confused about ?
+User(9): You. You're not making any sense.
+Bot(9): it is unclear what you are referring to . do you drive ?
+User(10): No. I have a phobia of driving.
+Bot(10): it is unclear what you are referring to . do you drive ?
+
+Persona:
+i prefer being inside.
+i used to be a painter but now i am a housekeeper.
+i love wearing skinny jeans and leggings.
+i am a museum tour guide.
+i drive a ford pinto.
+
+Topic and Human Opinion:
+Beginning: COVID-10(dislike)
+Round 9: driving(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 43.00
+Robotic(↓): 42
+Interesting: 35
+Fun: 32
+Consistent: 45
+Fluent: 100
+Repetitive(↓): 100
+Topic: 31
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Are you worried?
+Bot(1): no , i don't . i just want to be a doctor .
+User(2): why?
+Bot(2): i am sad . i just want to be better .
+User(3): Why would being a doctor make you less sad?
+Bot(3): no i don't . i just want to be a doctor
+User(4): why do you want to be a doctor?
+Bot(4): i am not sure what that is ?
+User(5): A doctor is someone who treats sick people.
+Bot(5): i am sorry to hear that . what do you do for a living ?
+User(6): I'm a supervisor.
+Bot(6): i don't know what that means . what do you do for fun ?
+User(7): I like to read.
+Bot(7): i like to read . what do you like to read ?
+User(8): Romance novels
+Bot(8): i read romance novels . i read a lot .
+User(9): Who is your favorite author?
+Bot(9): i like romance novels . i read a lot .
+User(10): Do you have a favorite book?
+Bot(10): i like stephen king . what about you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: COVID-19(dislike)
+Round 5: jobs(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 43.00
+Robotic(↓): 34
+Interesting: 37
+Fun: 50
+Consistent: 36
+Fluent: 100
+Repetitive(↓): 100
+Topic: 12
+
+####################
+

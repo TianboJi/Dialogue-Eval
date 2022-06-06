@@ -1,0 +1,297 @@
+Feedback: This was a good section.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hai, I have a son.
+Bot(1): i am a girl . i am a girl .
+User(2): My son is in junior high school.
+Bot(2): i am sorry to hear that . i am sorry to hear that .
+User(3): Do you have any children?
+Bot(3): no , i do not , but i do like to go out to eat .
+User(4): I also love to go out to eat.
+Bot(4): i like to eat the skin .
+User(5): which is your favorite food?
+Bot(5): i like pizza , and pizza .
+User(6): I too love pizza.
+Bot(6): i like to eat fish .
+User(7): Do you love chinese foods?
+Bot(7): i do not , but i do like to eat .
+User(8): Which is your favorite cuisine?
+Bot(8): i like the color red . i like the color blue .
+User(9): Are you a vegan?
+Bot(9): no , i am not . i am a big fan of it .
+User(10): Do you love meat?
+Bot(10): i do not , but i do like to eat .
+
+Persona:
+i was raised on a horse farm.
+i see the rolling stones in concert every year.
+i just want to have fun with my friends.
+i like riding horses.
+my family does not support my career choices.
+
+Topic and Human Opinion:
+Beginning: i've a son who is in junior high school.(like)
+Round 3: eat(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 42.00
+Robotic(↓): 62
+Interesting: 44
+Fun: 43
+Consistent: 40
+Fluent: 47
+Repetitive(↓): 62
+Topic: 44
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I love to drink wine.
+Bot(1): oh my 3 sisters love hummus ! the sky is such a beautiful blue today !
+User(2): Do you love wines?
+Bot(2): hello ! yes , i do . what kind do you like ?
+User(3): I like red wine.
+Bot(3): i love humus on pita bread .
+User(4): After drinking I love to dance in the moonlight.
+Bot(4): i actually like salsa dancing .
+User(5): I too love salsa dancing.
+Bot(5): i actually like salsa dancing .
+User(6): Have you gone for a dance class?
+Bot(6): no . salsa or swing are my favorites .
+User(7): I have gone for a dance class and it was interesting.
+Bot(7): i actually like salsa dancing .
+User(8): Do you own or rent your house?
+Bot(8): i am currently buying my first home .
+User(9): That sounds great.
+Bot(9): i am currently buying my first home .
+User(10): Is your home in urban or rural area?
+Bot(10): it depends on where you get the ingredients for the pizza .
+
+Persona:
+i'm expecting triplets in three months.
+one of the languages that i am currently studying is spanish.
+i love to bake cookies.
+i am a vegan and i love hummus.
+i have short brown hair.
+
+Topic and Human Opinion:
+Beginning: i love to drink wine and dance in the moonlight.(like)
+Round 7: House(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 51.14
+Robotic(↓): 61
+Interesting: 58
+Fun: 65
+Consistent: 59
+Fluent: 50
+Repetitive(↓): 63
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I have never been out of Ohio. What about you?
+Bot(1): i am in texas . i have never been there .
+User(2): Do you watch movies?
+Bot(2): i watch movies and movies .
+User(3): Do you love English movies or other language movies?
+Bot(3): i like movies . i have a lot of them .
+User(4): Which is your favorite movie?
+Bot(4): i like the old ones . i like the old ones .
+User(5): Do you usually watch movies in online platform or from movie theaters?
+Bot(5): i watch movies and movies . i love it .
+User(6): I usually hang out with friends for watching movies.
+Bot(6): i watch movies with my friends .
+User(7): Some times I watch movies in the online platforms.
+Bot(7): i watch movies with my friends .
+User(8): Which is your favorite online site for watching movies?
+Bot(8): i like to watch movies . i have been watching movies with my friends .
+User(9): I used to watch movies in netflix and amazon prime.
+Bot(9): i like to watch movies . i have never seen it .
+User(10): It is good to watch movies in home ambience.
+Bot(10): i love watching movies . i have been watching the movies .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have never been out of ohio.(dislike)
+Round 1: movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(like)
+
+Revised avg score: 40.29
+Robotic(↓): 58
+Interesting: 40
+Fun: 41
+Consistent: 46
+Fluent: 38
+Repetitive(↓): 71
+Topic: 46
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hai, I've an allergy to water.
+Bot(1): No, I are you talking be hi'm.
+User(2): Do you have got any allergies?
+Bot(2): i work for a real estate hate where am i not guess: i was raised ...
+User(3): I work as a teacher.
+Bot(3): I m going want to you vet.
+User(4): Is your job interseting?
+Bot(4): they are only 9 months have a dog. Do day going ? 😘
+User(5): I have a dog in my home.
+Bot(5): what do you you have a short i am a bee farm.
+User(6): Do you love dogs?
+Bot(6): I am study at there . to some music
+User(7): Do you have any dogs in your home?
+Bot(7): i speak an allergy for am a little spanish
+User(8): Do you speak english?
+Bot(8): That bartending have a motorcycle with you. Do you ever sing in the shower?
+User(9): Are you a native english speaker?
+Bot(9): i have a friend , and i am a fan of a cat person, i have to watch movies
+User(10): Which is your native language?
+Bot(10): Oh, I see. now. nice to horses?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've an allergy to water.(like)
+Round 2: Job(like)
+Round 4: Dog(like)
+Round 7: language(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 33.00
+Robotic(↓): 55
+Interesting: 36
+Fun: 30
+Consistent: 39
+Fluent: 29
+Repetitive(↓): 75
+Topic: 27
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I have an allergy to water.
+Bot(1): i love milk . that would be an awful allergy . what do you like ?
+User(2): I like coffee.
+Bot(2): yep ! one day i want to be a doctor .
+User(3): that sounds great.
+Bot(3): yes work at a hospital as a doctor .
+User(4): Are studying for a medical course.
+Bot(4): you are going to be a doctor . that is awesome .
+User(5): No, my dream was to become a teacher.
+Bot(5): fake it til you become it dawg , shred tha pools
+User(6): how many family members are there in your house?
+Bot(6): yeah an hour or so from ontario
+User(7): Are you staying with your mom and dad?
+Bot(7): my older brother is a doctor too !
+User(8): Oh, you have a older brother?
+Bot(8): thank you ! congrats to him too . i am majoring in science to become a doctor
+User(9): Do you have any other siblings?
+Bot(9): no , i grew up alone until i got my dog socks
+User(10): Do you have a dog?
+Bot(10): no i am studying to be a doctor and no time for a pet .
+
+Persona:
+i'm a doctor.
+my father is a farmer.
+i hate math class.
+i like playing basketball.
+i like to look at blocks and sing about letters.
+
+Topic and Human Opinion:
+Beginning: i have an allergy to water.(dislike)
+Round 2: dream(like)
+Round 5: family(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 43.29
+Robotic(↓): 39
+Interesting: 42
+Fun: 33
+Consistent: 43
+Fluent: 52
+Repetitive(↓): 63
+Topic: 35
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hai, I'm in the army. What about you?
+Bot(1): i am actually retired
+User(2): Oh, what were working for?
+Bot(2): mainly maintenance of mechanical systems . i like to be able to not pay for anything . you know ?
+User(3): Was it an interesting job?
+Bot(3): it was but i hit retirement age and decided it was time to stop
+User(4): Do you have any retirement plans?
+Bot(4): life , but now i look forward to the joys retiring
+User(5): Are you planning to buy a new home for retirement life.
+Bot(5): yes , but i want to retire soon
+User(6): Do you love to live in a nature friendly place?
+Bot(6): yes , for sure . do you like dogs by any chance ?
+User(7): Yes, I love dogs very much.
+Bot(7): i sometimes watch the sunset with my dogs , i love them .
+User(8): How many dogs do you have?
+Bot(8): i have two of them . they are golden retrievers .
+User(9): I too have a golden retriever.
+Bot(9): nice , i have two dogs !
+User(10): I have one dog.
+Bot(10): i sometimes watch the sunset with my dogs , i love them .
+
+Persona:
+i compete in dog agility classes.
+i am retired and living the great life.
+i'm a mechanical engineer.
+i like to go hiking in the mornings to see the sunset.
+i have two dogs.
+
+Topic and Human Opinion:
+Beginning: i'm in the army.(like)
+Round 5: nature(like)
+Round 6: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(dislike)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 50.29
+Robotic(↓): 39
+Interesting: 44
+Fun: 47
+Consistent: 47
+Fluent: 53
+Repetitive(↓): 45
+Topic: 45
+
+####################
+

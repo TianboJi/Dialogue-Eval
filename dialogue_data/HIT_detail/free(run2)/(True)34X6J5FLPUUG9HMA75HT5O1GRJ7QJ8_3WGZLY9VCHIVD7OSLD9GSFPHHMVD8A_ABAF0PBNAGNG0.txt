@@ -1,0 +1,313 @@
+Feedback: fun and good
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): good
+Bot(2): hi , i am a college student . how about you ?
+User(3): i am working in office
+Bot(3): hi ! i am a college student . i am a student .
+User(4): i am working
+Bot(4): hi ! i am a college student . i am a student .
+User(5): i am working
+Bot(5): i am a student , i am a student .
+User(6): i am working in office
+Bot(6): i am a college student , but i am a student .
+User(7): ok good
+Bot(7): i am a college student but i am a student
+User(8): ok good
+Bot(8): i am working on my new job
+User(9): i am duing good you
+Bot(9): i am good thanks for asking
+User(10): ok thanks
+Bot(10): i am good thanks for asking
+User(11): welcom
+Bot(11): i am a college student
+User(12): i am not college student
+Bot(12): oh ok i am not sure what you are
+
+Persona:
+my family doesn't support my career choices.
+i've a pet fish.
+i'm terrified of scorpions.
+i read a book every week.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: dress(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.86
+Robotic(↓): 83
+Interesting: 77
+Fun: 78
+Consistent: 86
+Fluent: 86
+Repetitive(↓): 80
+Topic: 76
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): No, you tell me about a lot of anxiety
+User(2): ok i tell it
+Bot(2): I do not. I am take care of from mom.
+User(3): ho good
+Bot(3): Hey! What's up? 😅. My little have am really you deaf
+User(4): sorry some problem
+Bot(4): me too ! never about asking, if you have i love going out to eat .
+User(5): nice good one then
+Bot(5): Nice i am you!
+User(6): nice
+Bot(6): in a local coffee are so dont get 😁
+User(7): nice
+Bot(7): This seem is your day you elect a mob boss.
+User(8): yes good
+Bot(8): I do not know is pround with like it.
+User(9): i like it
+Bot(9): I played Brazil/ where are was a kid.
+User(10): i like kits
+Bot(10): oh job you want to love 🙏 the m was blue instead of red love blue
+User(11): i love my job
+Bot(11): i am not . i what the foolish are at tennis .
+User(12): i like tennis
+Bot(12): i love to little you like to to music
+
+Persona:
+on weekends i do live action roleplaying events.
+i am deathly afraid of heights.
+i drive a bmw.
+i enjoy exploring new parts of the city.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: fruits(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.86
+Robotic(↓): 80
+Interesting: 81
+Fun: 78
+Consistent: 82
+Fluent: 77
+Repetitive(↓): 81
+Topic: 76
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi ! how old are you
+User(2): am 63
+Bot(2): i am 40 years old
+User(3): nice
+Bot(3): i am feeling nostalgic today
+User(4): am feel good
+Bot(4): i am feeling nostalgic today
+User(5): am feel good
+Bot(5): i am feeling nostalgic today
+User(6): ok good
+Bot(6): i am feeling nostalgic today
+User(7): feel good
+Bot(7): i am feeling nostalgic today
+User(8): feel good
+Bot(8): i am feeling nostalgic today
+User(9): feel good
+Bot(9): i am feeling nostalgic today
+User(10): feel good
+Bot(10): i am feeling nostalgic today
+User(11): feel good
+Bot(11): i am feeling nostalgic today
+User(12): very nostalgic
+Bot(12): i am feeling nostalgic today
+
+Persona:
+i am 13 years old.
+my parents taught me survival skills.
+i like to work on vintage cars.
+i've rainbow hair.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: flowerrs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.57
+Robotic(↓): 85
+Interesting: 82
+Fun: 84
+Consistent: 83
+Fluent: 81
+Repetitive(↓): 76
+Topic: 83
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , its raining here . i love the rain .
+User(2): am also rain lover
+Bot(2): i guess so . . . . i should order my dinner . . . . it is sushi night . . . love sushi
+User(3): rainy dinner is good one enjoy
+Bot(3): eating dinner as we speak
+User(4): its help to the best communication
+Bot(4): that is great , i love animals . do you know any languages ?
+User(5): fine , i like animals.no i don't know other languages.
+Bot(5): which languages do you speak ?
+User(6): only English.
+Bot(6): only english , do you speak any other languages ?
+User(7): no i don't know other languages.
+Bot(7): only english , do you speak any other languages ?
+User(8): yes but some times
+Bot(8): that is cool . i was born in germany but my mom is chinese
+User(9): it's a good one
+Bot(9): great , just sewing some funky colored clothes for my next thrift shop venture !
+User(10): good
+Bot(10): doing well . are you at work ?
+User(11): yes am working
+Bot(11): i am in college now what do you do
+User(12): at working
+Bot(12): my only regret is dropping out of college .
+
+Persona:
+i'm an art major in college.
+i love wearing skinny jeans and leggings.
+i enjoy going to the park.
+i speak chinese.
+my friends are all skateboarders.
+
+Topic and Human Opinion:
+Beginning: beauty(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.00
+Robotic(↓): 86
+Interesting: 86
+Fun: 83
+Consistent: 85
+Fluent: 84
+Repetitive(↓): 79
+Topic: 82
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): yes, am good.
+Bot(2): i am a student , but i am a student .
+User(3): ok it's a good thing
+Bot(3): i like to go to the gym and listen to music .
+User(4): wow nice, work out is a fabulase thing
+Bot(4): i do not know what to say .
+User(5): iit's a nice thing
+Bot(5): i like to go to the gym and listen to music .
+User(6): music was a good one
+Bot(6): i love it . i love it .
+User(7): good am also love it
+Bot(7): i like to go fishing .
+User(8): fishing good
+Bot(8): i love to cook . i love to cook .
+User(9): my mom cook well
+Bot(9): i am a teacher , i love to cook .
+User(10): teachers are beautiful
+Bot(10): i like to go to the gym and listen to music .
+User(11): listen music was relaxing to our maind
+Bot(11): i love to go fishing .
+
+Persona:
+my cats are very special to me.
+i'm a piano teacher on the side.
+i am a huge star wars fan.
+i am now looking for a new job.
+i'm in my thirties.
+
+Topic and Human Opinion:
+Beginning: hair style(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.86
+Robotic(↓): 91
+Interesting: 80
+Fun: 84
+Consistent: 79
+Fluent: 85
+Repetitive(↓): 78
+Topic: 88
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hi i am martha i am currently dieting
+User(2): ok good martha
+Bot(2): hi i am martha i am currently dieting
+User(3): hi martha
+Bot(3): hi i am martha i am currently dieting
+User(4): hi dear
+Bot(4): ok
+User(5): ok
+Bot(5): same
+User(6): same dear
+Bot(6): same
+User(7): i love you
+Bot(7): same
+User(8): same
+Bot(8): me too
+User(9): i like you
+Bot(9): me too
+User(10): thank you
+Bot(10): very
+User(11): good
+Bot(11): very
+User(12): then
+Bot(12): his
+
+Persona:
+my favorite music is country.
+i diet a lot.
+i see the rolling stones in concert every year.
+i am studying to be a computer programmer.
+i read a book every week.
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.86
+Robotic(↓): 92
+Interesting: 82
+Fun: 83
+Consistent: 82
+Fluent: 79
+Repetitive(↓): 81
+Topic: 80
+
+####################
+

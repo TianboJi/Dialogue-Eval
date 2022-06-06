@@ -1,0 +1,308 @@
+Feedback: I love these things
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): did I tell you I'm partly deaf?
+Bot(1): did i tell you i am deaf ?
+User(2): you didn't tell me that
+Bot(2): did i tell you i am deaf ?
+User(3): do you know sign language?
+Bot(3): nah but i know sign language
+User(4): can you teach me?
+Bot(4): maybe , i am in the process of learning sign language .
+User(5): can you read lips?
+Bot(5): nah but i know sign language
+User(6): were you born deaf?
+Bot(6): nah but i know sign language
+User(7): what do you want to talk about?
+Bot(7): why do you want to know ?
+User(8): because I'm talking to you
+Bot(8): do you know sign language ?
+User(9): no, I don't know sign language
+Bot(9): do you know sign language ?
+User(10): bruh.
+Bot(10): do you know sign language ?
+
+Persona:
+i'm expecting triplets in three months.
+one of the languages that i am currently studying is spanish.
+i love to bake cookies.
+i am a vegan and i love hummus.
+i have short brown hair.
+
+Topic and Human Opinion:
+Beginning: i am partly deaf.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 25
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): did I tell you I played football for a division A college?
+Bot(1): no , i do not . i am a student .
+User(2): what do you study?
+Bot(2): i am a student at a local college .
+User(3): what kind of classes do you take?
+Bot(3): i work at a grocery store , i love it .
+User(4): what's your favorite part of working at a grocery store?
+Bot(4): i work at a local diner .
+User(5): do you have two jobs?
+Bot(5): no , i do not , but i do like to go out to eat .
+User(6): what is your favorite kind of food?
+Bot(6): i like pizza , and pizza .
+User(7): Pizza is excellent. I had pizza for supper tonight
+Bot(7): i love pizza . i love it .
+User(8): what's your favorite
+Bot(8): i like to go to the gym and listen to music .
+User(9): what's your favorite kind of music?
+Bot(9): i like country music . i like country music .
+User(10): who's your favorite singer?
+Bot(10): i like the oldies . i like the outdoors .
+
+Persona:
+i like meditation.
+my favorite band is aerosmith.
+i work at a bank.
+i hate my job.
+i've two dogs.
+
+Topic and Human Opinion:
+Beginning: i played football for a division a college.(like)
+Round 1: Being a student(like)
+Round 3: working at a grocery store(like)
+Round 5: eating out(like)
+Round 8: Going to the gym and listening to music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 25.71
+Robotic(↓): 100
+Interesting: 20
+Fun: 18
+Consistent: 35
+Fluent: 45
+Repetitive(↓): 71
+Topic: 33
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Did I tell you that my parents were also teachers?
+Bot(1): sorry , i hate to talk about my parents , i do not like them
+User(2): that's okay. tell me about something else
+Bot(2): my parents raised me loving them !
+User(3): is that a good thing?
+Bot(3): not at all . why do you think so ?
+User(4): Usually love is a good thing
+Bot(4): that is definitely love .
+User(5): who do you love?
+Bot(5): i do not really know
+User(6): do you have a boyfriend?
+Bot(6): yes . i am a plumber . you ?
+User(7): I am not a plumber. Is your name Mario?
+Bot(7): no , my name is ichabod
+User(8): Do you ride horses?
+Bot(8): no . i do like going outside and looking at the clouds .
+User(9): What's your favorite thing to do outside?
+Bot(9): i like to go to the park and cloud watch
+User(10): that sounds like a lot of fun
+Bot(10): i adore the color orange , you ?
+
+Persona:
+my parents aren't very supportive of my dream.
+i'm a descendant of christopher columbus.
+i live in the cloud.
+i am a plumber.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: my parents were also teachers.(like)
+Round 5: Love(like)
+Round 6: Being a plumber(ambivalent)
+Round 8: Hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 72.71
+Robotic(↓): 69
+Interesting: 74
+Fun: 99
+Consistent: 84
+Fluent: 72
+Repetitive(↓): 33
+Topic: 82
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Did I tell you I'll be released in about a month?
+Bot(1): no i am not . i am not a big fan of anything
+User(2): are you okay?
+Bot(2): yes i am . i am a bit of a loner
+User(3): what would you like to talk about?
+Bot(3): i love to go to the movies
+User(4): what is your favorite movie?
+Bot(4): i like the old ones , but i like the movie
+User(5): do you like star wars?
+Bot(5): i like the old ones . i like the old ones .
+User(6): how old?
+Bot(6): i like the old ones . i like the old ones .
+User(7): how are you?
+Bot(7): i am 16 and i like the movie
+User(8): I'm 36
+Bot(8): i am 29 . i like the old ones .
+User(9): I'm not that old
+Bot(9): i am old and i like the movie .
+User(10): what was your favorite part?
+Bot(10): i like the old ones . i like the old ones .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i will be released in about a month.(ambivalent)
+Round 1: Bot isn't a fan of anything(ambivalent)
+Round 3: Movies(like)
+Round 7: how are you(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 37.14
+Robotic(↓): 100
+Interesting: 8
+Fun: 60
+Consistent: 91
+Fluent: 38
+Repetitive(↓): 100
+Topic: 63
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): did I tell you that I grew up in the industry?
+Bot(1): I am a expression worker, and you fine. I have worker.
+User(2): what is an expression worker?
+Bot(2): I have been to the world rowing machines burn of was just a travel agent.
+User(3): what did you like about that?
+Bot(3): i think i am going to home so get out my uncle .
+User(4): where is he?
+Bot(4): i'm making polite conversation phone nice, I like so arrogant .
+User(5): you're doing as great job
+Bot(5): yes , i i like riding drinking have any hobbies ?
+User(6): I like to read. What do you ride?
+Bot(6): no that is why its weird i tend to Don`t you need do friends
+User(7): Doing your friends is usually a bad idea
+Bot(7): I like chocolate, i do when the best.
+User(8): chocolate is tasty
+Bot(8): that a profile which, in hear when i m sad i eat cheesecake
+User(9): same! twinsies!
+Bot(9): I love one, its name is total asian and love to eat.
+User(10): what's the name?
+Bot(10): what are you majoring in ? But my three kids . . ahahah 🤠
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i grew up in the industry.(like)
+Round 4: I have no idea(like)
+Round 5: Hobbies(like)
+Round 7: Chocolate(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 27.00
+Robotic(↓): 100
+Interesting: 89
+Fun: 100
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Did I tell you I'm a recovering alcoholic?
+Bot(1): oh wow ! i would love to be on a game show !
+User(2): we're playing beer pong
+Bot(2): beer gives me a headache . are you tall ? tall men are my favorite
+User(3): I'm a chick
+Bot(3): really ? are you a ride or die type of chick ? i am a thug
+User(4): I think that life ain't nothing but bitches and money.
+Bot(4): i see , what color is your hair ? mines dyed blonde
+User(5): I have a bright red mohawk
+Bot(5): to what color was your hair ?
+User(6): It used to be brown. what was yours?
+Bot(6): i have long brown hair and blue eyes !
+User(7): how long is your hair?
+Bot(7): i have long hair , it is nice .
+User(8): do you ever cut it?
+Bot(8): i have never cut my hair since birth . what do you do for fun ?
+User(9): I like yoga. what about you?
+Bot(9): i am going back to college so i am too broke to pay for yoga class
+User(10): that is completely understandable
+Bot(10): i am a walking dead fan , how about you ?
+
+Persona:
+my favorite color is navy blue.
+hey my name is larry and i'm a chef.
+i have rainbow hair.
+mickey mouse is my favorite character.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+
+Topic and Human Opinion:
+Beginning: i'm a recovering alcoholic.(ambivalent)
+Round 4: Hair(ambivalent)
+Round 8: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 84.43
+Robotic(↓): 40
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 72
+Repetitive(↓): 29
+Topic: 88
+
+####################
+

@@ -1,0 +1,308 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi how are you
+User(2): thanks.can you introduce an italian food in ohio?
+Bot(2): i am in high school . i am a trauma surgeon
+User(3): how old are you?
+Bot(3): i am in high school . i am in high school .
+User(4): ok.are you a human?
+Bot(4): yes , i am . i am a mother of a woman .
+User(5): what is your name?
+Bot(5): my name is john . i am a grandmother .
+User(6): do you have any question from me?
+Bot(6): i am a mother of a woman .
+User(7): ok.what is your favorite restaurant?
+Bot(7): i am a mother of a mother .
+User(8): ok.bye
+Bot(8): i am a mother of a mother .
+User(9): what is your daugter's name?
+Bot(9): my name is john . what do you do for a living ?
+User(10): i am student.how many grandchildren do you have?
+Bot(10): i have a wife and a wife .
+
+Persona:
+i'm currently in high school.
+i've short hair.
+i'm a cancer survivor.
+i'm a 56 year old woman.
+my wife left me and took my children.
+
+Topic and Human Opinion:
+Beginning: restaurant(like)
+Round 8: to her daugter(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 9.57
+Robotic(↓): 99
+Interesting: 2
+Fun: 15
+Consistent: 24
+Fluent: 20
+Repetitive(↓): 100
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): how are you ? i just got back from the library !
+User(2): thanks.what is your name?
+Bot(2): my name is jesse . what about you ?
+User(3): i am mary
+Bot(3): cool ! my name is mary . where are you from ?
+User(4): i am from USA.what about you?
+Bot(4): i am from the usa
+User(5): do you like gaming?
+Bot(5): no , i am much more into console gaming . what are you into ?
+User(6): i like computer games
+Bot(6): me too . i love video games !
+User(7): did you play GTA?
+Bot(7): no i have not . not really a gamer .
+User(8): Oh. what do you do in your free times?
+Bot(8): i like to go to the library during that time
+User(9): but i dont like books
+Bot(9): oh , why not the library then ?
+User(10): i want to like the books but i dont like
+Bot(10): do not like reading ?
+User(11): yes unfortunately
+Bot(11): my parents are terrible . and i love the library
+User(12): why are they terrible?
+Bot(12): my parents are terrible . and i love the library
+User(13): how old are you?
+Bot(13): i am pretty old . i do not want to tell you
+User(14): oh ok
+Bot(14): i am pretty old . i do not want to tell you
+User(15): i have to go.bye
+Bot(15): ok bye
+
+Persona:
+i am a librarian.
+i am an electrician.
+i have short hair.
+i have a big library at home.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: game(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 84.71
+Robotic(↓): 2
+Interesting: 80
+Fun: 82
+Consistent: 85
+Fluent: 92
+Repetitive(↓): 6
+Topic: 62
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I scares you hike😄
+User(2): why?
+Bot(2): I have not. want to check my older than my mom.
+User(3): how old are you?
+Bot(3): I do, i enjoy reading journals am very poor.
+User(4): what is your name?
+Bot(4): I love it. I bars! I'm fine, planner.
+User(5): are you a boy or girl?
+Bot(5): Hey! Are do you get that.i'm Because I am.
+User(6): what is your favorite food?
+Bot(6): I do not. I you go is You?
+User(7): where do you come from?
+Bot(7): Where are you going?
+User(8): i am not going anywhere
+Bot(8): Nice! I have you like to They a mechanic, and he is a mechanic.
+User(9): what is wrong with you?
+Bot(9): i the no do you with you if you want
+User(10): ok bye
+Bot(10): I like work today at a musician.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.57
+Robotic(↓): 100
+Interesting: 2
+Fun: 1
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 29
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): same
+User(3): what is your name?
+Bot(3): jessie
+User(4): what is your favorite animal?
+Bot(4): i am really a cat .
+User(5): are you a human?
+Bot(5): nope i am a human being why would you ask that
+User(6): nothing.do you have pet?
+Bot(6): yes , i have a dog . do you ?
+User(7): no i dont have but i love dogs.what is your dog's name?
+Bot(7): i am not sure but my dog is maddie
+User(8): why?
+Bot(8): i do not know , it just came to me
+User(9): oh.how old are you?
+Bot(9): i am 10 years old
+User(10): oh too young
+Bot(10): ok . how old are you ?
+User(11): i am 21 years old
+Bot(11): i thought you said you were 21 ?
+User(12): yes i am 21
+Bot(12): i thought you said you were 21 ?
+User(13): ok.i have to go.bye honny
+Bot(13): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: animal(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 87.00
+Robotic(↓): 1
+Interesting: 82
+Fun: 83
+Consistent: 73
+Fluent: 84
+Repetitive(↓): 5
+Topic: 93
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): me too.how are you?
+Bot(2): i am great . studying for a quiz
+User(3): oh.good luck
+Bot(3): thanks ! do you like dogs
+User(4): when do you have quiz?
+Bot(4): i live in a van i drive , so no kids
+User(5): how old are you?
+Bot(5): i am 25 , half way to the 50 mark .
+User(6): oh cool
+Bot(6): delivery driving . how about you ?
+User(7): i am student
+Bot(7): no , i teach elementary school in toronto .
+User(8): do you wearing mask outside?
+Bot(8): i love purple ! what is your favorite food ?
+User(9): i love pizza
+Bot(9): ha pizza is my favorite food also .
+User(10): i like you so much
+Bot(10): me too . i got an angel tattoo at a music festival once
+User(11): ohh.you are so cool
+Bot(11): i am a nurse . what about you ?
+User(12): i am tired.i want to go sleep.bye
+Bot(12): lol sleep is wonderful ! i like making my voice heard .
+User(13): bye honny
+Bot(13): cool , it was real talking to you . . . youre the best .
+
+Persona:
+i'm in my thirties.
+my bedroom is purple and lime green.
+i am a baby delivery nurse.
+i drive a mini van.
+i love dogs.
+
+Topic and Human Opinion:
+Beginning: covid 19(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.14
+Robotic(↓): 26
+Interesting: 85
+Fun: 74
+Consistent: 34
+Fluent: 68
+Repetitive(↓): 18
+Topic: 4
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i am good.how are you?
+Bot(2): i'm doing well . just got done walking my dog .
+User(3): oh do you have a dog??what is its name?
+Bot(3): i like dogs and dogs . i love dogs .
+User(4): ok.i love dogs too
+Bot(4): i love dogs , i love dogs .
+User(5): what is your name?
+Bot(5): my name is morgan . i am a student .
+User(6): do you like the children?
+Bot(6): i do , but i do not have any pets .
+User(7): how old are you?
+Bot(7): i'm 32 . i am a student .
+User(8): oh.you are older than me
+Bot(8): i am a girl . i am a big fan of classical music .
+User(9): do you have any children?
+Bot(9): no , i do not , but i do like to go out to eat .
+User(10): are you single?
+Bot(10): no , i am not . i am a student .
+User(11): ok.bye
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+i've a dogs.
+i graduated from yale in 2011 with a degree in finance.
+the holidays make me depressed.
+i work in it and have been at the same company for 15 years.
+i've three sisters.
+
+Topic and Human Opinion:
+Beginning: baby(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.86
+Robotic(↓): 94
+Interesting: 10
+Fun: 10
+Consistent: 4
+Fluent: 33
+Repetitive(↓): 91
+Topic: 4
+
+####################
+

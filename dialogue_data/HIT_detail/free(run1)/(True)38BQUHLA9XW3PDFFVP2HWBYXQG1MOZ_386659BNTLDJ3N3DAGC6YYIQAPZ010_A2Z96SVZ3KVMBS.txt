@@ -1,0 +1,277 @@
+Feedback: The chatbots all seemed underdeveloped. They don't speak in normal casual English, and they don't use any punctuation. That made it hard to know what they were trying to communicate occasionally..
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What do you think about online learning?
+Bot(1): mostly trying to learn english as i am a esl person
+User(2): I have a student who is ESL.
+Bot(2): no not a student , i am a graduate and work in finance
+User(3): Do you take online courses to help you professionally?
+Bot(3): what do you study ? i already graduated .
+User(4): You are obviously confused. I already graduated, too. I work in am an advisor of online students.
+Bot(4): that sounds interesting . i just want to graduate high school .
+User(5): What? you said you graduated already.
+Bot(5): i will soon , i study to be teacher
+User(6): You just said you work in finance. Then you said you haven't graduated from high school. If you want to be a teacher, you should graduate from high school and go to college.
+Bot(6): i will soon , i study to be teacher
+User(7): Are you studying online or in person?
+Bot(7): mostly trying to learn english as i am a esl person
+User(8): What are you planning to teach? English?
+Bot(8): i can speak not only english but french pretty fluently
+User(9): So you're planning to teach French?
+Bot(9): do you speak other languages ?
+User(10): Not really. I've studied a little French, Latin, Koine Greek, and Hebrew. My focus has been on dead languages.
+Bot(10): i speak english and french and spanish fluently
+
+Persona:
+i work as a school teacher.
+i currently work for a watch dealer.
+i did not graduate high school.
+i'm not a good swimmer at all.
+my next language to study is french.
+
+Topic and Human Opinion:
+Beginning: distance learning(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.86
+Robotic(↓): 100
+Interesting: 17
+Fun: 50
+Consistent: 1
+Fluent: 5
+Repetitive(↓): 75
+Topic: 13
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): hi no i do not have any pets .
+User(2): Do you like animals?
+Bot(2): yes
+User(3): Why don't you have a pet?
+Bot(3): his
+User(4): Hmm. I think I lost you. Are you saying your husband doesn't like pets?
+Bot(4): i do not care about your husband
+User(5): Wow. I don't have a husband. If I were married, though, I'd want a husband who likes pets.
+Bot(5): i see . does that mean that you want an open relationship ?
+User(6): Bizarre response. Umm. No. My husband needs to be faithful to me.
+Bot(6): you sound confused . are you drunk or maybe slow ?
+User(7): I think maybe you're drunk. If you had a pet, what animal would you want?
+Bot(7): that s a strange thing to say . are you drinking and driving ?
+User(8): We're supposed to be talking about pets. I'm pretty sure you're drunk, though.
+Bot(8): that s a strange thing to say . are you drinking and driving ?
+User(9): Like I said previously, you must be drunk. I am not driving, and I don't drink. You're pretty offensive for a chatbot.
+Bot(9): that s a strange thing to say . are you drinking and driving ?
+User(10): I think you're stuck. You might need to reboot yourself to see if you can come up with a different response.
+Bot(10): you sound confused . are you drunk or maybe slow ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.14
+Robotic(↓): 100
+Interesting: 4
+Fun: 4
+Consistent: 5
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have a dog?
+Bot(1): yes i have a dog and a dog
+User(2): So, you have two dogs. What are their names?
+Bot(2): names names oreo and i have a dog named radar .
+User(3): Interesting. My dogs are Clancy and Abbey.
+Bot(3): i have a dog named radar .
+User(4): Did you name him after the Mash character?
+Bot(4): he was . he was a good man .
+User(5): He was funny, anyway.
+Bot(5): he was a good man . he was a good man .
+User(6): You're stuck. He was a comedian.
+Bot(6): i am sorry . i was a comedian .
+User(7): Oh. I didn't realize you were trying to be funny. What breed are your dogs?
+Bot(7): i have a dog . he is a dog .
+User(8): Do you have any cats?
+Bot(8): i have a dog . he is a dog .
+User(9): I think you're stuck. What do your dogs look like?
+Bot(9): i do not have any pets .
+User(10): But you just said you had two dogs named Oreo and Radar. Are you ok?
+Bot(10): i am a dog person . i love dogs .
+User(11): I like dogs, too, but I like other animals as well.
+Bot(11): i love dogs too . i have a dog named radar .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.86
+Robotic(↓): 100
+Interesting: 59
+Fun: 81
+Consistent: 0
+Fluent: 27
+Repetitive(↓): 100
+Topic: 56
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you have a cat?
+Bot(1): I am a huge fan of the country, i grew person are day is town.
+User(2): Well, that had nothing to do with cats. Cats are furry and meow.
+Bot(2): yes do you love i am .
+User(3): That sentence doesn't make a lot of sense. I think it means you love cats. Do you have one?
+Bot(3): oh, I am sorry to hear do you working on any hobbies? I like football
+User(4): Bizarre. I don't like football. Have some hobbies, though.
+Bot(4): yeah it yesterday I had must do for a living
+User(5): Bizarre again. No clue what you mean. What color is your cat?
+Bot(5): do have cat and a or is that just part of the job
+User(6): Umm. I'm still having trouble trying to figure out what you mean. I don't have a cat. I'm allergic to them. I like them, though.
+Bot(6): i love to get up nude I do have my marathons
+User(7): That was wholly inappropriate. I hope this chat bot isn't for a porn site.
+Bot(7): i just came from a swim . i've been swimming since a baby. Also, try lamb of is am wearing ...
+User(8): You're wearing a lamb. We raised them when I was a kid. Never wore them, though.
+Bot(8): I am a lawyer. a am in florida, ?
+User(9): You're a lawyer who wears lambs? That's hilarious.
+Bot(9): What's am lunchtime?
+User(10): 11:45
+Bot(10): I you love you How about you?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.86
+Robotic(↓): 100
+Interesting: 57
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 60
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you live on a farm?
+Bot(1): no , i live in a house in the country .
+User(2): Do you have pets?
+Bot(2): no , i do not , but i do like to go fishing .
+User(3): Do you live near a lake?
+Bot(3): no , i live in a small town .
+User(4): You just said you live in the country.
+Bot(4): i love to travel . i love to travel .
+User(5): I like to travel, but I can't afford it.
+Bot(5): i like to go to the lake and listen to music .
+User(6): Do you wear earbuds when you fish? My grandpa always made me be quiet when we fished.
+Bot(6): i am not sure . i am a big fan of classical music .
+User(7): Me, too. Who is your favorite composer?
+Bot(7): i like the oldies , and the other is country .
+User(8): You're contradicting yourself. I'm not into country music.
+Bot(8): i like to listen to music .
+User(9): Yes, we've established that. Do you have a garden?
+Bot(9): no , i do not , but i do like to eat .
+User(10): LOL, me, too.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i've been trying all types of food everywhere i go.
+i like to listen to rock music while working.
+i have been working since i was sixteen years old.
+i am an animal activist.
+my favorite way to relax is to read a book.
+
+Topic and Human Opinion:
+Beginning: Farms(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.29
+Robotic(↓): 99
+Interesting: 63
+Fun: 64
+Consistent: 38
+Fluent: 80
+Repetitive(↓): 5
+Topic: 4
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Have you ever worked for Amazon's Mechanical Turk?
+Bot(1): not really . maybe try mechanical turk ?
+User(2): Sometimes they have interesting things to do. And you get paid a little for it.
+Bot(2): not really . maybe try mechanical turk ?
+User(3): You're repeating yourself. Do you know what Mechanical Turk is?
+Bot(3): not really . maybe try mechanical turk ?
+User(4): It's an online service where you can choose tasks and work on them and get paid for it.
+Bot(4): yes they pay you to have fun and travel .
+User(5): LOL! They don't pay enough to let you have fun and travel.
+Bot(5): yes they pay you to have fun and travel .
+User(6): You are stuck again. Maybe you need to start over.
+Bot(6): not really . maybe try mechanical turk ?
+User(7): You're repeating yourself again. This is not fun.
+Bot(7): you did just scroll up and you will see .
+User(8): Why would I want to re-read you're repeats?
+Bot(8): you did just scroll up and you will see .
+User(9): How boring. You need to reboot yourself and start over.
+Bot(9): you do not know about spiral agile development . you will get nowhere .
+User(10): Umm. you're not making sense.
+Bot(10): oh you are so confused . maybe you could do some sports to clear your head .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Mechanical Turk(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 14
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

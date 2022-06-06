@@ -1,0 +1,311 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hola
+User(2): Do you like Soccer?
+Bot(2): yes i do i love soccer
+User(3): Which player do you like the most?
+Bot(3): he is the one you will see defending the goal .
+User(4): Do you like him for his game or for his looks?
+Bot(4): he is the one you will see defending the goal .
+User(5): What game do you like Premier league or world cup?
+Bot(5): fifa is the best . what is your favorite food ? mine is pizza .
+User(6): Mine is burger.
+Bot(6): fifa is the best . what is your favorite food ? mine is pizza .
+User(7): Mine is burger. Which restaurant do you like the most?
+Bot(7): cheese sandwich i would say .
+User(8): What do you prefer dine in or take away?
+Bot(8): cheese sandwich i would say .
+User(9): Do you like Hockey?
+Bot(9): yes i do , my boyfriend that is in the army also likes pizza
+User(10): No I meant Hockey sports.
+Bot(10): oh ok , there is a difference
+
+Persona:
+i love italian food and garlic bread.
+for vacation i enjoy time at the beach.
+i am in the army.
+cheeseburgers are my favorite food.
+i'll be released in about a month.
+
+Topic and Human Opinion:
+Beginning: Soccer(like)
+Round 5: Food(like)
+Round 8: Hockey(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 58.00
+Robotic(↓): 32
+Interesting: 58
+Fun: 69
+Consistent: 86
+Fluent: 60
+Repetitive(↓): 67
+Topic: 32
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you like reading books?
+Bot(2): yes
+User(3): What kind of genre do you prefer?
+Bot(3): i love all kinds of books , especially thriller !
+User(4): I prefer romantic books.
+Bot(4): i love watching romantic comedies .
+User(5): So you love little humor in life?
+Bot(5): yes , what is your favorite romantic comedy movie ?
+User(6): Friends with benefit, what is your's?
+Bot(6): i love watching romantic comedies .
+User(7): Do you watch thriller movies?
+Bot(7): yes , what is your favorite romantic comedy movie ?
+User(8): Friends with benefit.
+Bot(8): do you like romantic movies with comedy mixed in ? they are my favorite
+User(9): Yes, I love them as they a mix of fun and love.
+Bot(9): i love watching romantic comedies .
+User(10): That's great.
+Bot(10): yes , what is your favorite romantic comedy movie ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Books(like)
+Round 6: Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(like)
+
+Revised avg score: 72.57
+Robotic(↓): 36
+Interesting: 77
+Fun: 87
+Consistent: 93
+Fluent: 80
+Repetitive(↓): 66
+Topic: 73
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey
+Bot(1): i love to cook . i love to cook .
+User(2): What dish do you love to cook?
+Bot(2): i do , i love to cook .
+User(3): Even I love to cook.
+Bot(3): i like to eat the skin .
+User(4): I love breast piece.
+Bot(4): i like to eat too much junk food .
+User(5): Which junk food you like the most?
+Bot(5): i like the color red . i like the color blue .
+User(6): Out of both which is your favorite color Red or Blue?
+Bot(6): i like the color red . i like the color blue .
+User(7): I like yellow.
+Bot(7): i like to eat too much junk food .
+User(8): Junk food is not good for health.
+Bot(8): i like to eat too much junk food .
+User(9): Do you like cookies?
+Bot(9): i do not , but i do like to eat .
+User(10): Why you don't like cookies?
+Bot(10): i do not , but i do like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hobbies(like)
+Round 1: Cook(like)
+Round 5: Color(like)
+Round 7: Food(like)
+Round 8: Cookies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 52.57
+Robotic(↓): 41
+Interesting: 66
+Fun: 57
+Consistent: 91
+Fluent: 62
+Repetitive(↓): 92
+Topic: 25
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hola
+Bot(1): hello, how are you? I am 12 years play my friends on do?
+User(2): I am good. How are you?
+Bot(2): yeah the kids are my responsibility now . he just cancer but its gone now. is your night going ?
+User(3): Even my mom had cancer.
+Bot(3): hello. how dogs, but doing?
+User(4): Do you like dogs?
+Bot(4): Oh, I guess I am the only one a dog, i have phone.
+User(5): What dog breed do you like?
+Bot(5): i am africa and i'm terrified you? i like math.
+User(6): Do you like algebra?
+Bot(6): i am a stay at home mom i've 3 kids. for you, u finished your remember when ...
+User(7): Where do you reside?
+Bot(7): nice . i like to take my music do you play hunting together .. Also, try to guess: i have black ...
+User(8): What kind of Music do you listen?
+Bot(8): that s nice to know i you like studying French being financially stable
+User(9): How long are you studying French?
+Bot(9): I love to go hiking me about and my clothes
+User(10): That is great, even I love to hiking.
+Bot(10): I love❤ to have a wow wow! to eat.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Mobile Phone(like)
+Round 2: Cancer(ambivalent)
+Round 3: Dogs(dislike)
+Round 5: Maths(dislike)
+Round 6: Home(dislike)
+Round 7: Music(ambivalent)
+Round 8: Study(dislike)
+Round 9: Hiking(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 24.86
+Robotic(↓): 67
+Interesting: 4
+Fun: 8
+Consistent: 67
+Fluent: 0
+Repetitive(↓): 38
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am good . how are you ?
+User(2): I am good too, Do you like snacks?
+Bot(2): i do , i love to eat , but i am not very skinny
+User(3): That's ok, body does not define anyone. What kind of snacks you love to eat?
+Bot(3): i love to eat , i am a vegan .
+User(4): Is vegan snack easily available?
+Bot(4): i like to eat healthy , but i am not very skinny .
+User(5): Do you like travelling?
+Bot(5): i do , i love to travel . i also volunteer at a local shelter .
+User(6): Even I love travelling. What place did you visit recently?
+Bot(6): i have a dog , he is a great dog .
+User(7): Even I have a dog. Is it a male or female?
+Bot(7): i am a teacher , i teach piano on the piano .
+User(8): I don't like piano.
+Bot(8): i am a piano teacher , i teach piano on the piano
+User(9): Have you visited a Aquarium?
+Bot(9): i do not . i am a piano teacher .
+User(10): That's great I don't like piano.
+Bot(10): i am a piano teacher , i teach piano on the piano .
+
+Persona:
+i'm rather skinny as i like to stay in shape.
+my aunt helped me escape when i was of.
+i also have a dog walking business.
+i volunteer my time with a local bunny rescue.
+i am a piano teacher on the side.
+
+Topic and Human Opinion:
+Beginning: Snacks(like)
+Round 4: Travel(like)
+Round 6: Dog(like)
+Round 7: Piano(ambivalent)
+Round 8: Aquarium(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 74.57
+Robotic(↓): 59
+Interesting: 82
+Fun: 89
+Consistent: 74
+Fluent: 90
+Repetitive(↓): 22
+Topic: 68
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey
+Bot(1): hi ! how are you ?
+User(2): I am good, how are you?
+Bot(2): awesome ! i just saw dunkirk in theatres , though a little depressing
+User(3): I haven't watched dunkrik.
+Bot(3): yuck . i just ate a nice meal . my ex had to smoke after every meal
+User(4): What meal you had?
+Bot(4): me too , i enjoy ham and cheese sandwiches with orange juice
+User(5): I love cheesesteak with a glass of pomegranate juice.
+Bot(5): that sounds nice . i speak 300 languages , how many do you speak ?
+User(6): wow that's great. I speak only 2 languages.
+Bot(6): i speak only english , and a little spanish
+User(7): oh. I speak English and French.
+Bot(7): only english , do you speak any other languages ?
+User(8): I know French a little.
+Bot(8): ah nice i cannot say i have heard my french music but my of speaks fluent fence
+User(9): What kind of French have you listened?
+Bot(9): do you speak other languages ?
+User(10): No, I speak only English and French.
+Bot(10): only english , do you speak any other languages ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Climate change(like)
+Round 2: Movies(like)
+Round 3: Meal(like)
+Round 5: Languages(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 65.14
+Robotic(↓): 61
+Interesting: 89
+Fun: 80
+Consistent: 46
+Fluent: 71
+Repetitive(↓): 57
+Topic: 88
+
+####################
+

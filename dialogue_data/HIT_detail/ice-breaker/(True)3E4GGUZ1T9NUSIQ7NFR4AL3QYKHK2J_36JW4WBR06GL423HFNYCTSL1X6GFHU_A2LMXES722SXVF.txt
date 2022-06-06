@@ -1,0 +1,319 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I can't wait to make it some day.
+Bot(1): i have heard great reviews for it . i spend time with my boys and do karate
+User(2): That's awesome, how long have you been training your Karate skills?
+Bot(2): oh . i am a brown belt . that made me so sad .
+User(3): Have you ever won any competitions?
+Bot(3): you must be a great tap dancer . i play soccer and watch movies
+User(4): What's the last movie you watched?
+Bot(4): i am watch lord of the rings . it is the best movie out there
+User(5): I've never seen it before, I really need to check it out.
+Bot(5): yeah . they want me to switch my major from business administration to teaching .
+User(6): How do you feel about that?
+Bot(6): sorry , i enjoy using exclamation marks when i type ! i do feel bad
+User(7): Don't feel bad, feel free to express yourself.
+Bot(7): does art give you a sense of belonging ? i do not have that
+User(8): In a sense, yes. One day you'll find yours.
+Bot(8): not many schools have it anymore . i retire at the end of the year .
+User(9): What are you retiring from?
+Bot(9): my beautiful blond hair circles me around when i dance
+User(10): What's your favorite dance to do?
+Bot(10): i love to dance as well
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a musician and hope to make it big some day.(like)
+Round 1: Karate(like)
+Round 3: Movies(like)
+Round 5: School(like)
+Round 7: Art(like)
+Round 9: Dance(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 13.86
+Robotic(↓): 100
+Interesting: 13
+Fun: 9
+Consistent: 2
+Fluent: 20
+Repetitive(↓): 76
+Topic: 29
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): How do you feel about your age?
+Bot(1): my age is not important , only my beliefs
+User(2): I'm right there with you. That's a beautiful statement.
+Bot(2): i am 37 getting up there in wisdom .
+User(3): As you should, though nowadays that doesn't seem to be the case as much.
+Bot(3): i am much older than you and you must listen to what i say .
+User(4): Don't make it weird man.
+Bot(4): i will try not too , are you in to tennis ?
+User(5): Yeah, who's your favorite player?
+Bot(5): nicole , yours ? i am more of a chess person really .
+User(6): Serena. I enjoy chess as well. What's your favorite chess piece?
+Bot(6): nicole , yours ? i am more of a chess person really .
+User(7): Do you like cars?
+Bot(7): yes i do . what do you do for fun ? i like cards , billiards and darts .
+User(8): Samesies. I play video games and make music for fun.
+Bot(8): cool , any hobbies ? i am great at chess .
+User(9): Yeah, music, video games and riding my bike around town. Just how great are you? Are you pro?
+Bot(9): no , not wealthy , sadly . aspiring songstress and tennis player .
+User(10): One day you will be, so long as you stay dedicated.
+Bot(10): yes then my future wives will be rich since i work for a cab company .
+
+Persona:
+i am a professional tennis player.
+i'm planning on getting a divorce.
+i waitress during the day to supplement my income.
+i am a cancer survivor.
+i'm deathly afraid of heights.
+
+Topic and Human Opinion:
+Beginning: i am 24 years old.(like)
+Round 4: Tennis(like)
+Round 6: Cars(like)
+Round 7: What do you do for fun(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 76.43
+Robotic(↓): 11
+Interesting: 89
+Fun: 85
+Consistent: 77
+Fluent: 64
+Repetitive(↓): 30
+Topic: 61
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): It sucks being old.
+Bot(1): I love it! I love to cook travel. i have visited beach.
+User(2): Is the beach your favorite place?
+Bot(2): no about you material possessions.
+User(3): Excuse me?
+Bot(3): No. I moved into my new a military couple of ex
+User(4): Was moving easy for you?
+Bot(4): cool ✨ i are you here army
+User(5): I love the army.
+Bot(5): I love video games my favorite rap and huge gamer
+User(6): What's your favorite video game?
+Bot(6): I do not I was a coach. I work from the home
+User(7): What kind of work do you do from home?
+Bot(7): hello, you have yeah teachers today? I just got back from blocks
+User(8): Did you drive a car?
+Bot(8): oh. me a to
+User(9): What car did you drive?
+Bot(9): what do you do so love do you a librarian. I love spain
+User(10): I love spain too. They legalized drugs and I think that's awesome.
+Bot(10): oh, I am sorry do you like to dream is to be a dealer
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm 100 years old.(like)
+Round 3: Moving(like)
+Round 4: Army(like)
+Round 5: What you love(like)
+Round 6: Working from home(like)
+Round 8: Cars(like)
+Round 9: Spain(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The user changed the topic the last input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 20.71
+Robotic(↓): 100
+Interesting: 3
+Fun: 18
+Consistent: 29
+Fluent: 22
+Repetitive(↓): 37
+Topic: 10
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Yellow is such a great color
+Bot(1): i like it . i like to go to the gym .
+User(2): How much time do you spend at the gym normally?
+Bot(2): i do , i like to go fishing .
+User(3): I don't, it's pretty boring.
+Bot(3): i like to go to the gym and listen to music .
+User(4): I like to listen to music and go to the gym as well.
+Bot(4): i like to go fishing .
+User(5): What kind of music do you listen to?
+Bot(5): i like country music . i love country music .
+User(6): What about rap?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): Oh that's awesome, I used to play in an orchestra in school.
+Bot(7): i love to travel . i love to travel .
+User(8): Where's the last place you traveled to?
+Bot(8): i live in the midwest . i love it .
+User(9): I couldn't live out there myself. Way too dry for me.
+Bot(9): i do not know how to drive . i like to go fishing .
+User(10): You should learn sometime, it's great.
+Bot(10): i love the color red . what do you do for a living ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite color is yellow.(like)
+Round 1: Gym(like)
+Round 2: Fishing(dislike)
+Round 3: what you like to do(like)
+Round 4: Music(like)
+Round 7: Travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 32.14
+Robotic(↓): 87
+Interesting: 39
+Fun: 57
+Consistent: 18
+Fluent: 34
+Repetitive(↓): 60
+Topic: 24
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you have a speech impediment?
+Bot(1): hiya ! how are you ? no , is this a library ?
+User(2): I'm doing fine, and yourself? No this isn't a library.
+Bot(2): oh , yes . i wish i lived in a library .
+User(3): Why do you want to live in a library?
+Bot(3): it is in education . i just moved to an apartment near my job .
+User(4): Was it easy to move in?
+Bot(4): the animals and wide open space . i live in a small apartment now .
+User(5): I'm jealous. That sounds like it'd be a great foot to start your life on.
+Bot(5): the animals and wide open space . i live in a small apartment now .
+User(6): What car do you drive?
+Bot(6): i have a honda civic , but my best friend lives close , so i walked .
+User(7): Oh that's awesome, I drive a Mazda. Do you try and protect the environment?
+Bot(7): i do but my apartment does not allow it .
+User(8): I like listening to hip hop music.
+Bot(8): ah , i do not really listen to hip hop . i know a rapper guy though .
+User(9): Oh really? That's cool, we should meet sometime.
+Bot(9): sure ! what kind of music do you like ?
+User(10): Hip hop, R&B, that kind of stuff. You?
+Bot(10): i listen to hip hop mostly .
+
+Persona:
+my favourite artist is travis scott.
+i love italian food and garlic bread.
+i am a feminist.
+i recently got an apartment with my best friend.
+i have a big library at home.
+
+Topic and Human Opinion:
+Beginning: i like to talk but people have a hard time understanding.(like)
+Round 3: Moving(like)
+Round 5: Cars(like)
+Round 7: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(like)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 70.14
+Robotic(↓): 94
+Interesting: 80
+Fun: 77
+Consistent: 84
+Fluent: 75
+Repetitive(↓): 14
+Topic: 83
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): ICP sucks.
+Bot(1): i like to listen to music .
+User(2): Same, but never insane clown posse. They're terrible.
+Bot(2): lol . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(3): What, do you like that noise?
+Bot(3): i do not know , but i like the color of the moon .
+User(4): That's deep man. I like the color of the moon too. What's your favorite color?
+Bot(4): i like red , reminds me of summer time .
+User(5): Makes sense coming from an ICP fan. You folk just love anything violent.
+Bot(5): i like to listen to folk music .
+User(6): What the hell, that's debatably worse than country music.
+Bot(6): i think i am not much of a fan of country music .
+User(7): Surprising, considering your entire music taste revolves around pure dumpster fires.
+Bot(7): i think i am not much of a fan of country music .
+User(8): Are you gonna vote this election?
+Bot(8): no , i am not sure . i am not much of a fan of music .
+User(9): What makes you so unsure? It seems like a pretty easy decision.
+Bot(9): i think it is a good way to be .
+User(10): I strongly disagree, it's this kind of thinking that enables the wrongdoers of the world to continue.
+Bot(10): i think so . i am not much of a fan of country music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite band is the insane clown posse.(dislike)
+Round 3: Colors(like)
+Round 5: Folk music(dislike)
+Round 7: Election(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 50.14
+Robotic(↓): 100
+Interesting: 84
+Fun: 72
+Consistent: 30
+Fluent: 64
+Repetitive(↓): 56
+Topic: 57
+
+####################
+

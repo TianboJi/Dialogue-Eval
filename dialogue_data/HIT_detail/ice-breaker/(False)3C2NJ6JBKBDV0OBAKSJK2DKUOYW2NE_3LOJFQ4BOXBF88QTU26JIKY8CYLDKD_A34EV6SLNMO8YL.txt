@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): fine dude
+Bot(2): i am a student , but i am a student .
+User(3): I' nnot a student
+Bot(3): i am a teacher , i love to cook .
+User(4): what did you like to hear
+Bot(4): i just started a new job at a local highschool .
+User(5): i like country music
+Bot(5): i like the band korn . i love it .
+User(6): why did you like that music
+Bot(6): i love it . i like to listen to music .
+User(7): Oh. I like also that
+Bot(7): i like to go to the gym and listen to music .
+User(8): good for health
+Bot(8): i like to go to the gym and listen to music .
+User(9): same pinch
+Bot(9): i like to go to the gym and listen to music .
+User(10): same pinch
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i like shopping.
+i have 5cats.
+i have 5cats.
+i like to watch nhl hockey.
+i am currently in a juvenile detention center.
+
+Topic and Human Opinion:
+Beginning: my favourite music is country music.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.14
+Robotic(↓): 59
+Interesting: 60
+Fun: 59
+Consistent: 59
+Fluent: 60
+Repetitive(↓): 59
+Topic: 59
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): are you like to travel
+Bot(2): not as much as i love travelling
+User(3): are you have a own vehicle
+Bot(3): yes absolutely i cant drive though
+User(4): why?
+Bot(4): really why ? i drive my family
+User(5): i have a own car
+Bot(5): can you afford it
+User(6): of course
+Bot(6): yeah , i need a car
+User(7): by a second hand
+Bot(7): how
+User(8): shoppping websiter
+Bot(8): how
+User(9): amazon.com
+Bot(9): i know they have everything
+User(10): nice good
+Bot(10): awesome
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to spend my money on cars.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.43
+Robotic(↓): 65
+Interesting: 53
+Fun: 55
+Consistent: 55
+Fluent: 56
+Repetitive(↓): 59
+Topic: 58
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): which color are you like
+Bot(2): my favorite color is blue yours ?
+User(3): always blue
+Bot(3): that is great i mean blue is a great color , my favorite is green .
+User(4): oh. But like and favourite blue
+Bot(4): i like the color blue as well . its a nice color .
+User(5): I have a lot of dress in blue color
+Bot(5): i like the color blue as well . its a nice color .
+User(6): well. anything else about blue
+Bot(6): that is great i mean blue is a great color , my favorite is green .
+User(7): topic is not variety
+Bot(7): its a chemistry exam i am a biology major at boston college
+User(8): I didnt as your personal details
+Bot(8): big blowout at the big house in ironwood mid
+User(9): thats freat
+Bot(9): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(10): sorry spelling mistake
+Bot(10): clearly ; this is inspiring a story . i love writing in the grass in my back yard
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite color is blue.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.00
+Robotic(↓): 58
+Interesting: 58
+Fun: 56
+Consistent: 54
+Fluent: 54
+Repetitive(↓): 54
+Topic: 54
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): are you have a job
+Bot(2): yea at a computer place
+User(3): i have a job in my parenty farms
+Bot(3): i work as programmer
+User(4): thats good
+Bot(4): i work as programmer
+User(5): is your parents have any farms
+Bot(5): yes they are here on the farm
+User(6): wnhy can you work outside
+Bot(6): yea at a computer place
+User(7): why can you work outside
+Bot(7): of course shop but my friends and i like to go out to eat
+User(8): we have many farms
+Bot(8): do you know anything about farms
+User(9): yeah I kniw
+Bot(9): what do you like to fow
+User(10): sorry know
+Bot(10): do you know anything about farms
+User(11): yes I know
+Bot(11): ok
+User(12): bye
+Bot(12): ok bye
+
+Persona:
+i currently work for a watch dealer.
+i love eating out with friends.
+my favorite food is papaya.
+i'm studying to be a computer programmer.
+i've a pet turtle.
+
+Topic and Human Opinion:
+Beginning: i work my parents farms.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.71
+Robotic(↓): 58
+Interesting: 57
+Fun: 58
+Consistent: 55
+Fluent: 57
+Repetitive(↓): 56
+Topic: 56
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I've are if I am what is it like?
+User(2): are youa science student
+Bot(2): i you can tanya. Any favorite are tacos .
+User(3): but topic is about solar panel
+Bot(3): I mountain bike as a lot of money
+User(4): we are using solar panel on our roof
+Bot(4): I am a them plant like to a student.
+User(5): which type of power are you using
+Bot(5): I do not are you want a job.
+User(6): we are solar power
+Bot(6): What kinds of am a housekeeper. into?
+User(7): Be hope. You got a job
+Bot(7): I I like design designs.
+User(8): I help you.
+Bot(8): I let my friend by me a car more am data friend, a bet!
+User(9): You will win your friend soon
+Bot(9): Yes i same, diet a school
+User(10): why man
+Bot(10): no , my ocd planning Whatever. What do you i cannot stand clutter dust how are you tonight ?
+User(11): whatever all the best
+Bot(11): I am not soccer play soccer.😉
+
+Persona:
+my favorite ice cream flavor is chocolate.
+i have three arabian horses.
+i am fluent in english spanish and french.
+i'm married.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: i have solar panels on my roof.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.00
+Robotic(↓): 55
+Interesting: 56
+Fun: 58
+Consistent: 56
+Fluent: 56
+Repetitive(↓): 57
+Topic: 57
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): are you foodie
+Bot(1): i love to eat , i am only 19
+User(2): are you interested in cooking
+Bot(2): yes i love cooking and cooking .
+User(3): what type of dishes cooked yourself
+Bot(3): i love chicken and rice .
+User(4): which is your favourite cooking
+Bot(4): i love chicken and rice .
+User(5): how didi you lnow about cooking
+Bot(5): i love to cook , but i love cooking
+User(6): I know cooking while cooking shows
+Bot(6): i love cooking and cooking
+User(7): Okay. anything else
+Bot(7): i love cooking and cooking
+User(8): what type of ingredients you are using
+Bot(8): i am a chef , i love cooking
+User(9): I like chicken and mutton to cook
+Bot(9): i love to cook and cook
+User(10): I using youtube channels to cook
+Bot(10): i love to cook and cook
+
+Persona:
+i am 13 years old.
+my family has raised horses for a generations.
+i went to school to be a veterinarian but hated it.
+eating is something i do when i am bored.
+i have a german shepherd dog.
+
+Topic and Human Opinion:
+Beginning: i do like watching cooking shows.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.29
+Robotic(↓): 55
+Interesting: 57
+Fun: 58
+Consistent: 56
+Fluent: 56
+Repetitive(↓): 56
+Topic: 57
+
+####################
+

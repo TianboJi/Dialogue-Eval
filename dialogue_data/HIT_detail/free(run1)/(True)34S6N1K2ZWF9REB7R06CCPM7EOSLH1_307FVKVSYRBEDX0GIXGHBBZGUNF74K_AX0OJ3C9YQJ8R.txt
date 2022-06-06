@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like christmas?
+Bot(1): christmas is my favorite holiday .
+User(2): whats your favorite thing about christmas?
+Bot(2): christmas is my favorite holiday .
+User(3): do you like gifts?
+Bot(3): christmas is my favorite holiday .
+User(4): Christmas is such a festive season
+Bot(4): i like christmas too . i like christmas too
+User(5): I am excited for my children to enjoy their christmas
+Bot(5): christmas is my favorite holiday
+User(6): I am glad to hear that. It is mine too.
+Bot(6): i love christmas too
+User(7): what do you like to do
+Bot(7): i like to go to the mall and hang out with my kids
+User(8): i would go to the mall but i hate crowded places
+Bot(8): i love to shop and see the mall
+User(9): I feel like it is safer to shop online nowadays
+Bot(9): i do not know much about it
+User(10): Its very easy to do.
+Bot(10): i like to shop online
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Christmas(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.29
+Robotic(↓): 99
+Interesting: 2
+Fun: 2
+Consistent: 9
+Fluent: 11
+Repetitive(↓): 95
+Topic: 21
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have four children.
+Bot(1): wow 4 ? amazing , i would not be able to tolerate that many .
+User(2): Yeah they can be quite a handful.
+Bot(2): i just have to have my soda with me every day .
+User(3): I drink alot of coffee in order to keep me going.
+Bot(3): i do not think soda is good for you .
+User(4): Too much soda is not good.
+Bot(4): i do not think soda is good for you .
+User(5): What kind of soda do you like?
+Bot(5): i try to drink water mainly .
+User(6): Do you like flavored water?
+Bot(6): i try to drink water mainly .
+User(7): How much do you drink?
+Bot(7): i try to drink water mainly .
+User(8): Do you like beer?
+Bot(8): no i drink just water .
+User(9): Too much water would send me to bathroom alot.
+Bot(9): i drink water most of the time .
+User(10): That is good.
+Bot(10): i try to drink water mainly .
+
+Persona:
+i have a weakness for fish and chips.
+i enjoy coloring books.
+i don't drink soda.
+i am four years old.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: Children(like)
+Round 4: Soda(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 23.43
+Robotic(↓): 96
+Interesting: 10
+Fun: 17
+Consistent: 52
+Fluent: 59
+Repetitive(↓): 91
+Topic: 13
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I wish this pandemic would end already
+Bot(1): I like Taylor you i am a girl.
+User(2): I do not understand
+Bot(2): I like to are living, and you?
+User(3): I am good thank you
+Bot(3): i talk when i'm do you I have l
+User(4): Do you like to go shopping?
+Bot(4): Thanks you for this me. bye.
+User(5): I like to take my daughter shopping
+Bot(5): i like the guitar are very tired, it
+User(6): She is three years old.
+Bot(6): i end up you now where myself
+User(7): She loves to go out and look at pretty dresses.
+Bot(7): wow that's nuts ! ! what do i enjoy dancing very I free time you have ? 😀
+User(8): I dont have much free time.
+Bot(8): I like youtube videos, to a mechanical youtube.
+User(9): Youtube is good for music when cleaning
+Bot(9): It are a 😒
+User(10): Have a nice day
+Bot(10): that hate the colour about to spend time with my grandchild
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pandemic(dislike)
+Round 3: Shopping(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 12.14
+Robotic(↓): 96
+Interesting: 1
+Fun: 0
+Consistent: 2
+Fluent: 2
+Repetitive(↓): 27
+Topic: 3
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like snow?
+Bot(1): i am not very fond of the cold but i do love the crisp air of fall
+User(2): I would rather be cold than hot.
+Bot(2): really ? me too . i prefer the cold . fall is my favorite season .
+User(3): At least when you are cold you can put on extra clothing
+Bot(3): already snow on the ground in other parts of ireland .
+User(4): That is cool. Id like to see it sometime
+Bot(4): c amon down . i will introduce you to my sister and her dog ciales . ll .
+User(5): Hard to travel with my three children
+Bot(5): i do . its just hard to get away between studying for college and working .
+User(6): Well keep your head up
+Bot(6): haha they always ask me for help as i am good in math
+User(7): That is good skill to have
+Bot(7): yeah though i will not be doing this when i graduate
+User(8): well keep at it im sure you will do good
+Bot(8): cool . are you already packed ? need a sending off party ?
+User(9): where are we going?
+Bot(9): probably a club , i like to party .
+User(10): Have a nice day.
+Bot(10): i will thanks , i hope you make it to the west coast some day
+
+Persona:
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i am a party animal.
+i did not graduate high school.
+i have light skin with big brown eyes.
+i will be released in about a month.
+
+Topic and Human Opinion:
+Beginning: Snow(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.57
+Robotic(↓): 59
+Interesting: 50
+Fun: 57
+Consistent: 57
+Fluent: 62
+Repetitive(↓): 9
+Topic: 24
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like to travel?
+Bot(1): hello and yes i love participating in marathons actually . how about you ?
+User(2): I want to travel to europe sometime
+Bot(2): i have never been . i work as a personal chef so i am too busy to travel .
+User(3): That is good career with alot of potential.
+Bot(3): i want to become a chef
+User(4): What kind of food do you like cook
+Bot(4): i enjoy american marathons and basketball .
+User(5): do you like any specific teams
+Bot(5): lots of them i like everything that is why omnivore is my choice
+User(6): Do you only eat meat?
+Bot(6): some of the time , but i do eat meat occasionally .
+User(7): Do you like deer meat?
+Bot(7): i have had deer meat it is pretty good
+User(8): I was introduced to deer meat when i was younger
+Bot(8): i have had deer meat it is pretty good
+User(9): I also like sushi
+Bot(9): i have never tried sushi before
+User(10): Have a nice day
+Bot(10): you too have a nice day
+
+Persona:
+hey my name is larry and i'm a chef.
+i love running and preparing for marathons.
+i'm deathly afraid of heights.
+i love taking bubble baths.
+i'm an omnivore.
+
+Topic and Human Opinion:
+Beginning: Traveling(like)
+Round 4: Sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.14
+Robotic(↓): 81
+Interesting: 15
+Fun: 17
+Consistent: 5
+Fluent: 5
+Repetitive(↓): 62
+Topic: 21
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what do you do for work?
+Bot(1): i am a student , but i am a student .
+User(2): do you have a parttime job?
+Bot(2): no , i do not , but i do like to eat .
+User(3): well how do you afford to eat then?
+Bot(3): i love pizza , and i love it .
+User(4): Pizza can be pretty expensive.
+Bot(4): i like to go to the gym and listen to music .
+User(5): That is good.
+Bot(5): i like to go to the gym and listen to music .
+User(6): what kind of music do you like?
+Bot(6): i like country music . what about you ?
+User(7): i like all sorts of music
+Bot(7): i like the band korn . i love it .
+User(8): they are a really good band
+Bot(8): i like to go to the gym and listen to music .
+User(9): Do you workout?
+Bot(9): no , i do not , but i do like to go fishing .
+User(10): have a nice day
+Bot(10): i love to go fishing .
+
+Persona:
+i'm also a graduate student.
+my favorite band is rascal flats.
+i'm fluent in english spanish and french.
+when i grow up i want to be a physical therapist.
+my favorite toy as a child as my lite brite.
+
+Topic and Human Opinion:
+Beginning: Work(ambivalent)
+Round 5: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 23.14
+Robotic(↓): 82
+Interesting: 24
+Fun: 17
+Consistent: 28
+Fluent: 16
+Repetitive(↓): 67
+Topic: 26
+
+####################
+

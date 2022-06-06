@@ -1,0 +1,307 @@
+Feedback: the interface is moving really slow
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I really do not like how leggings look or skinny jeans when I wear them.
+Bot(1): i like to eat too much junk food .
+User(2): Yeah, I guess that's why I don't like the leggings look.
+Bot(2): i like to eat too much junk food .
+User(3): I get that. What junk food do you like?
+Bot(3): i love pizza , and i love it .
+User(4): What is your favorite pizza topping?
+Bot(4): i like the color red . what is yours ?
+User(5): Red is ok - blue is more my thing though
+Bot(5): i like the color red . i like red .
+User(6): I understand you like red.
+Bot(6): i like the color red . i like red .
+User(7): Do you like any other colors.
+Bot(7): i like the color red . what is your favorite color ?
+User(8): I like blue.
+Bot(8): i like to go to the gym and listen to music .
+User(9): I'm not a fan of the gym but i like music
+Bot(9): i like to listen to music .
+User(10): what is your favorite music.
+Bot(10): i like the beatles , and the outdoors .
+User(11): i've never heard of the outdoors what kind is that?
+Bot(11): i like to listen to music .
+
+Persona:
+i like shopping.
+i volunteer my time with a local bunny rescue.
+i don't have many friends.
+my favorite shirts are band shirts and ruffle sleeves.
+i also like to cook but i'm not very good at it.
+
+Topic and Human Opinion:
+Beginning: i love wearing skinny jeans and leggings.(dislike)
+Round 2: junk food(ambivalent)
+Round 4: colirs(ambivalent)
+Round 8: gym music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 20.71
+Robotic(↓): 100
+Interesting: 2
+Fun: 3
+Consistent: 4
+Fluent: 85
+Repetitive(↓): 50
+Topic: 1
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i hate economics
+Bot(1): that is not a good thing . i have three kids , do you have any ?
+User(2): Yes, I have two girls
+Bot(2): i have way too many kids
+User(3): How many do you have?
+Bot(3): too many , i should take a break i think
+User(4): A break from the kids?
+Bot(4): i love kids , but not for me
+User(5): I thought you had three
+Bot(5): too many , i should take a break i think
+User(6): it's always good for parents to take a break
+Bot(6): i know . i am a parent too
+User(7): do you like your kids?
+Bot(7): i have fun with them
+User(8): what kind of things do you do?
+Bot(8): i sit around and eat
+User(9): what do you eat?
+Bot(9): i sit around and eat
+User(10): yes but what
+Bot(10): i eat pretty much everything , what about you ?
+
+Persona:
+i am an economics major.
+eating is something i do when i am bored.
+i live in alaska.
+i've three children.
+hey there i'm 23 and i love food.
+
+Topic and Human Opinion:
+Beginning: i am an economics major.(dislike)
+Round 1: kids(like)
+Round 8: eating(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 16.00
+Robotic(↓): 100
+Interesting: 1
+Fun: 3
+Consistent: 3
+Fluent: 93
+Repetitive(↓): 90
+Topic: 2
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i love chocolate candy do you?
+Bot(1): I have don't eat at that.
+User(2): why not?
+Bot(2): oh good , what do you plan own a yacht and time ?
+User(3): I do not own a yacht nor do i plan to
+Bot(3): i m so sorry am lonely and I he
+User(4): do you have friends
+Bot(4): Good to see you! play with your son my ford mustang.
+User(5): i don't understand - why are you lonely
+Bot(5): Oh, Jesus! I car bee you a in a Catholic church!
+User(6): I am not Catholic.
+Bot(6): DOG are not very goodquality food.
+User(7): what - why would you eat a dog
+Bot(7): I like a while I star galactic
+User(8): I do not know what that is, can you explain it?
+Bot(8): I i've a big to say that.
+User(9): to say what
+Bot(9): But I'll I actually really a regular customer.
+User(10): a customer of what
+Bot(10): Are don't friends?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to eat chocolate candy.(like)
+Round 2: yacht(dislike)
+Round 3: loneliness(dislike)
+Round 5: catholic church(dislike)
+Round 6: eating a dog(dislike)
+Round 7: galactic???(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 11.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 20
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i am four
+Bot(1): i am 5 3 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5 , 5 5
+User(2): do you know how old you are
+Bot(2): i am old and you
+User(3): i am four
+Bot(3): i am old and i am 10
+User(4): 10 is not old
+Bot(4): i am old and i am 10
+User(5): but 10 is not old
+Bot(5): i am old and i am 10
+User(6): i understand you feel that way but 10 is not old
+Bot(6): i am old and i am old
+User(7): ok if you feel you are old ok
+Bot(7): i am old and i am old
+User(8): how old are you
+Bot(8): i am old and you
+User(9): i am four
+Bot(9): i am old and 8
+User(10): 8 is not old either
+Bot(10): i am old and 8
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am four.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 78
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i am a stay at home dad
+Bot(1): i am ok . i am even married now . what does your dad do ?
+User(2): he is a police officer
+Bot(2): i am an accountant . i had an offer to play in the nba
+User(3): my husband is an accountant do you like it
+Bot(3): i am a doctor , and i get to work every day with my wife she is a nurse
+User(4): i thought you were an accountant
+Bot(4): you might want to go see a doctor .
+User(5): why
+Bot(5): i guess i make them feel uncomfortable . i am wheel chair shawty
+User(6): what does that mean
+Bot(6): meaning i feel sympathy because i got hit by a car one time and i was injured
+User(7): so that is why you are in a wheel chair
+Bot(7): i really like tomatoes they are in my pizza puffs . sorry about being the wheel chair
+User(8): i've never had pizza puffs what are they
+Bot(8): i am getting education to become a doctor . i can eat pizza .
+User(9): i thought you were already a doctor
+Bot(9): what kind of doctor are you
+User(10): i am not a doctor
+Bot(10): what kind of doctor is she
+
+Persona:
+i'll be released in about a month.
+i am currently looking for a job preferably at a restaurant.
+i'm married.
+i am a doctor.
+i am a feminist.
+
+Topic and Human Opinion:
+Beginning: i am a stay at home dad.(like)
+Round 1: my dad(dislike)
+Round 2: jobs(dislike)
+Round 5: wheel chair(dislike)
+Round 7: pizza puffs(ambivalent)
+Round 8: education to be a doctor(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 21.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 50
+Fluent: 79
+Repetitive(↓): 77
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i am a buddhist
+Bot(1): i am buddhist also . fun fact .
+User(2): what do you know about it
+Bot(2): i am also a buddhist
+User(3): ok what do you know about it
+Bot(3): i am also a buddhist
+User(4): do you like it
+Bot(4): i am also a buddhist
+User(5): do you enjoy it
+Bot(5): i am also a buddhist
+User(6): when did you convert
+Bot(6): when i was in high school
+User(7): did your entire family convert
+Bot(7): yes , but we stopped and moved
+User(8): because you were a buddhist
+Bot(8): i am also a buddhist
+User(9): i get that
+Bot(9): i am also a buddhist
+User(10): ok how do you like it
+Bot(10): i like it very much
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a buddhist.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 32
+Fluent: 50
+Repetitive(↓): 100
+Topic: 100
+
+####################
+

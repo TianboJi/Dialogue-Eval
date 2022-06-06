@@ -1,0 +1,281 @@
+Feedback: ITS GOOD
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): TOPIC
+Bot(1): i love to cook . i love to cook .
+User(2): I LOVE COOK
+Bot(2): i love the color red . i like the color blue .
+User(3): I LIKE THE COLOR BLACK
+Bot(3): i love the color red . i like red .
+User(4): I LIKE BLUE
+Bot(4): i love the color red . i like the color blue .
+User(5): I LIKE ALL COLORS
+Bot(5): i love the color red . i like the color blue .
+User(6): I LIKE BLACK
+Bot(6): i love the color red . i like the color blue .
+User(7): I LIKE WHITE
+Bot(7): i love the color red . i like the color blue .
+User(8): I LIKE YELLOW
+Bot(8): i love the color red . i like the color blue .
+User(9): I LIKE ORANGE
+Bot(9): i love the color red . i like the color blue .
+User(10): I LIKE GREY
+Bot(10): i love the color red . i like the color blue .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm in my thirties.(like)
+Beginning: TOPIC(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: The user will change the topic in the next input.(like)
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): HELLO
+Bot(1): hello ! do you live in the city or the country ?
+User(2): CITY
+Bot(2): in the city of n y is where i live and you ?
+User(3): EUREKA
+Bot(3): i ate the best breakfast this morning !
+User(4): I ATE CREAD TOAST
+Bot(4): i ate the best breakfast this morning !
+User(5): I DRINK FRESH JUICE
+Bot(5): i am a fruity man
+User(6): I AM STRONG MAN
+Bot(6): my mama raised me alone she is a strong woman
+User(7): MY PAPA SAID AM GREAT WOMAN
+Bot(7): my mama raised me alone she is a strong woman
+User(8): THANKYOU
+Bot(8): my mama raised me alone she is a strong woman
+User(9): STRONG
+Bot(9): my mama raised me alone she is a strong woman
+User(10): BYE
+Bot(10): my mama raised me alone she is a strong woman
+
+Persona:
+my mother is very traditional while i prefer to be more free spirited.
+i got a new job just yesterday to be a life coach.
+i now live in the city.
+i am a clean eater.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: i enjoy being around people.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 78.57
+Robotic(↓): 50
+Interesting: 100
+Fun: 100
+Consistent: 50
+Fluent: 100
+Repetitive(↓): 50
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): HI
+Bot(1): hi how are you
+User(2): AM FINE THANK YOU
+Bot(2): i am well about to make a breakfast egg baked dish .
+User(3): WHAT IS CAR SPECIFICATIOBS
+Bot(3): i have my honda civic
+User(4): I HAVE AUDI CAR
+Bot(4): fixing cars ? hmm . . . mighty hands ? yes i do have a car a mercedes .
+User(5): I LIKE BENZ
+Bot(5): a vegetarian pizza might work for you
+User(6): I AM NON VEGETARIAN
+Bot(6): i am vegan . that is awesome
+User(7): MEATS ARE SO TASTY
+Bot(7): i have not had a frosty since i went vegan . i miss them , though .
+User(8): I LOVE BEEF
+Bot(8): not just yet , i am vegan so i am a little finicky
+User(9): THANK YOU
+Bot(9): no problem . you should also become a vegan though
+User(10): BYE
+Bot(10): lovely talking to you !
+
+Persona:
+i work at a nursing home.
+i am a vegan and i love hummus.
+i went to school to be a veterinarian but hated it.
+i enjoy gardening and walking outdoors.
+i'm a party animal.
+
+Topic and Human Opinion:
+Beginning: i work as a car salesman.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.57
+Robotic(↓): 50
+Interesting: 92
+Fun: 90
+Consistent: 94
+Fluent: 82
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): HI
+Bot(1): hello ! my 5 cats also say hi . how are you
+User(2): AM FINE
+Bot(2): that good i have five cat
+User(3): I HAVE ONE DOG
+Bot(3): that good i have five cat
+User(4): DOGS ARE MY PET
+Bot(4): that good i have five cat
+User(5): I HAVE ONE DOG
+Bot(5): that good i have five cat
+User(6): DOG
+Bot(6): that good i have five cat
+User(7): DOG
+Bot(7): meow , meow
+User(8): WOW WOW
+Bot(8): very
+User(9): GOOD
+Bot(9): ok
+User(10): THANKYOU
+Bot(10): ok
+
+Persona:
+i drive a nissan pathfinder.
+i'm currently in a juvenile detention center.
+i have 5cats.
+i'm a 12 year old girl.
+i like to listen to rock music while working.
+
+Topic and Human Opinion:
+Beginning: i quit my job to pursue my spirituality full time.(ambivalent)
+Round 1: GOD(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 66.57
+Robotic(↓): 100
+Interesting: 100
+Fun: 80
+Consistent: 50
+Fluent: 90
+Repetitive(↓): 50
+Topic: 96
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): HI
+Bot(1): Nice to see me thanks. What are read and play sports
+User(2): HI
+Bot(2): I am a woman, and have the here, well yeah a good job .
+User(3): HI
+Bot(3): I do, just told music.
+User(4): HI
+Bot(4): good 🌟 sorry to hear asking
+User(5): HI
+Bot(5): i am going to truck .
+User(6): HI
+Bot(6): I have I treat my same thing
+User(7): HI
+Bot(7): I do. I am like to watch i a vegetarian?
+User(8): HI
+Bot(8): I like you jailed you?
+User(9): HI
+Bot(9): I am going professional sorry, is work soon.
+User(10): HI
+Bot(10): I like to go to good too. Can you you?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am 19 and i cannot wait to move out 19 my parents home.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.14
+Robotic(↓): 97
+Interesting: 100
+Fun: 100
+Consistent: 90
+Fluent: 82
+Repetitive(↓): 83
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): HI
+Bot(1): do you have any hobbies ?
+User(2): HI
+Bot(2): do you have any hobbies ?
+User(3): HI
+Bot(3): do you have any hobbies ?
+User(4): READING BOOKS
+Bot(4): i read books mostly
+User(5): INTERNET SURFING
+Bot(5): i love reading and reading
+User(6): GOOD
+Bot(6): i like reading books and reading books
+User(7): I LOVE RUNNING
+Bot(7): i like running but i do not like to read
+User(8): AWESOME
+Bot(8): i like to read books on my free time
+User(9): AM ALSO
+Bot(9): i like to read books
+User(10): THANKYOU
+Bot(10): i love running and reading
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just want to have fun with my friends.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

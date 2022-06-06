@@ -1,0 +1,281 @@
+Feedback: interesting
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): how are you doing
+Bot(1): great ! i just ate four orange gummy bears . what about you
+User(2): how are you doing
+Bot(2): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(3): how are you doing
+Bot(3): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(4): how are you doing
+Bot(4): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(5): how are you doing
+Bot(5): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(6): how are you doing
+Bot(6): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(7): how are you doing
+Bot(7): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(8): how are you doing
+Bot(8): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(9): how are you doing
+Bot(9): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+User(10): how are you doing
+Bot(10): fine , except girlfriends numbers 1 , 2 , 3 and 4 are unavailable tonight !
+
+Persona:
+i've been retired for a years.
+i love to play board games.
+i am four.
+i am always wearing a hat.
+my favorite colors are red and silver.
+
+Topic and Human Opinion:
+Beginning: cook(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.57
+Robotic(↓): 57
+Interesting: 58
+Fun: 63
+Consistent: 62
+Fluent: 63
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): how are you doing
+Bot(1): i am great , how are you ?
+User(2): how are you doing
+Bot(2): i'm doing well . how are you ?
+User(3): how are you doing
+Bot(3): i'm doing well . just got back from the beach .
+User(4): how are you doing
+Bot(4): i'm good just got back from the beach
+User(5): how are you doing
+Bot(5): i'm doing well . just got back from the beach .
+User(6): how are you doing
+Bot(6): i'm doing well . just got back from the beach .
+User(7): how are you doing
+Bot(7): i'm doing well . just got back from the beach .
+User(8): how are you doing
+Bot(8): i'm doing well . just got back from the beach .
+User(9): how are you doing
+Bot(9): i'm doing well . just got back from the beach .
+User(10): how are you doing
+Bot(10): i'm doing well . just got back from the beach .
+
+Persona:
+i'm a recording engineer and own my own studio.
+i'm studying to be a computer programmer.
+my name is george.
+i work for our local supermarket.
+for vacation i enjoy time at the beach.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.14
+Robotic(↓): 56
+Interesting: 57
+Fun: 61
+Consistent: 61
+Fluent: 62
+Repetitive(↓): 59
+Topic: 60
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): how are you doing
+Bot(1): i am doing goo thanks for asking
+User(2): how are you doing
+Bot(2): good and do you work
+User(3): how are you doing
+Bot(3): i am doing all great and you
+User(4): how are you doing
+Bot(4): i am doing all great and you
+User(5): how are you doing
+Bot(5): i am doing all great and you
+User(6): how are you doing
+Bot(6): i am so very very tired
+User(7): how are you doing
+Bot(7): i am so very very tired
+User(8): how are you doing
+Bot(8): i am so very scared
+User(9): how are you doing
+Bot(9): i am so very scared
+User(10): how are you doing
+Bot(10): i am so very scared
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.43
+Robotic(↓): 52
+Interesting: 60
+Fun: 61
+Consistent: 63
+Fluent: 66
+Repetitive(↓): 56
+Topic: 67
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): how are you doing
+Bot(1): that sounds like with sea ok i do you work?
+User(2): how are you doing
+Bot(2): Oh, I am sorry to hear that. coffee . i love for fun?
+User(3): how are you doing
+Bot(3): I love a you too love to surf
+User(4): how are you doing
+Bot(4): i am in new fine! I`m going you?
+User(5): how are you doing
+Bot(5): just kayaking tell me you
+User(6): how are you doing
+Bot(6): I build houses. sounds old is houses.
+User(7): how are you doing
+Bot(7): do you bike 🚵 ride at all it is a bunny rescue you weekend
+User(8): how are you doing
+Bot(8): Dancing you boy or Miracle Musical, I'm Hungry.
+User(9): how are you doing
+Bot(9): I am a gym instructor, a i have to out and watch tv
+User(10): how are you doing
+Bot(10): no , like to play I . how is your evening going ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: work(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.86
+Robotic(↓): 57
+Interesting: 58
+Fun: 62
+Consistent: 60
+Fluent: 60
+Repetitive(↓): 63
+Topic: 64
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): how are you doing
+Bot(1): doing well , just finished walking my two dogs
+User(2): how are you doing
+Bot(2): i am alright . just watching my children and dogs
+User(3): how are you doing
+Bot(3): i am alright . just watching my children and dogs
+User(4): how are you doing
+Bot(4): i am alright . just watching my children and dogs
+User(5): how are you doing
+Bot(5): my kids are acting so crazy
+User(6): how are you doing
+Bot(6): my kids are acting so crazy
+User(7): how are you doing
+Bot(7): my kids are acting so crazy
+User(8): how are you doing
+Bot(8): my kids are acting so crazy
+User(9): how are you doing
+Bot(9): my kids are acting so crazy
+User(10): how are you doing
+Bot(10): my kids are acting so crazy
+
+Persona:
+i have two grown children who never visit.
+i like riding horses.
+my favourite artist is travis scott.
+i have a children and a dogs.
+my favorite band is the insane clown posse.
+
+Topic and Human Opinion:
+Beginning: hobby(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.71
+Robotic(↓): 60
+Interesting: 61
+Fun: 60
+Consistent: 59
+Fluent: 59
+Repetitive(↓): 59
+Topic: 56
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): how are you doing
+Bot(1): i'm doing well . how are you ?
+User(2): how are you doing
+Bot(2): i'm doing well . how are you ?
+User(3): how are you doing
+Bot(3): i'm doing well . how are you ?
+User(4): how are you doing
+Bot(4): i'm doing well . how are you ?
+User(5): how are you doing
+Bot(5): i'm doing well . how are you ?
+User(6): how are you doing
+Bot(6): i'm doing well . how are you ?
+User(7): how are you doing
+Bot(7): i'm doing well . how are you ?
+User(8): how are you doing
+Bot(8): i'm doing well . how are you ?
+User(9): how are you doing
+Bot(9): i'm doing well . how are you ?
+User(10): how are you doing
+Bot(10): i'm doing well . how are you ?
+User(11): how are you doing
+Bot(11): i'm doing well . how are you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dance(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.00
+Robotic(↓): 50
+Interesting: 57
+Fun: 57
+Consistent: 50
+Fluent: 63
+Repetitive(↓): 58
+Topic: 59
+
+####################
+

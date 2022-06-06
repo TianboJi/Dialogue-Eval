@@ -1,0 +1,305 @@
+Feedback: The chat bots were pretty amusing but not at all passable as actual human conversationists
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello!
+Bot(1): i am doing well . how are you ?
+User(2): I'm good, thanks for asking
+Bot(2): what do you do for a living ?
+User(3): I am a full time student
+Bot(3): i am a teacher , i love to cook .
+User(4): I love to cook too!
+Bot(4): i like to eat too much junk food .
+User(5): I try to avoid it when I can
+Bot(5): i like to go to the gym and listen to music .
+User(6): I like to listen to music too, but I don't really go to the gym
+Bot(6): i like to go to the lake and listen to music .
+User(7): I like the lake as well!
+Bot(7): i love to go fishing .
+User(8): I'm not a fan of fishing, unless the fish are being eaten its very wasteful
+Bot(8): i like to eat fish .
+User(9): I eat it occasionally and it is tasty
+Bot(9): i love the color red . i like the color blue .
+User(10): I like all colors if they are nice shades
+Bot(10): i like the color red . i like the color blue .
+User(11): those are good colors
+Bot(11): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cats(like)
+Round 2: jobs(ambivalent)
+Round 3: cooking/likes(like)
+Round 4: eating habits(ambivalent)
+Round 5: gym(ambivalent)
+Round 7: fishing(dislike)
+Round 9: colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 19.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 61
+Consistent: 0
+Fluent: 76
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello! do you like cheese?
+Bot(1): i do not like cheese . i am a huge fan of cheese .
+User(2): do you like cheese or not?
+Bot(2): i love cheese . i am a huge fan of cheese .
+User(3): me too!
+Bot(3): i love cheese . i am a huge fan of cheese .
+User(4): what do you like to eat with cheese?
+Bot(4): i love cheese ! i eat a lot of it .
+User(5): cool, what else do you eat?
+Bot(5): i love cheese . i eat a lot of it .
+User(6): do you eat anything other then cheese?
+Bot(6): i do not eat cheese . i eat a lot of it .
+User(7): DO you eat a lot of cheese or not?
+Bot(7): i eat a lot of cheese .
+User(8): what else do you eat?
+Bot(8): i eat a lot of chicken , but i eat a lot of it .
+User(9): why do you like chicken?
+Bot(9): i eat a lot of chicken , but i eat a lot of chicken .
+User(10): do you like other foods?
+Bot(10): i eat a lot of chicken .
+
+Persona:
+my father drove a car for nascar.
+i diet a lot.
+i'm 40 years old.
+i've three arabian horses.
+i am a buddhist.
+
+Topic and Human Opinion:
+Beginning: cheese(like)
+Round 4: foods(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+
+Revised avg score: 35.29
+Robotic(↓): 100
+Interesting: 11
+Fun: 63
+Consistent: 21
+Fluent: 72
+Repetitive(↓): 100
+Topic: 80
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi! How are you?
+Bot(1): good thanks ! tell me about yourself ?
+User(2): I like dogs, do you?
+Bot(2): i do ! i love dogs , what about you ?
+User(3): I do like dogs
+Bot(3): i do like dogs , do you have any ?
+User(4): no I have none
+Bot(4): i love them i have a lot of dogs
+User(5): how many?
+Bot(5): so many that i have lost count
+User(6): that sounds like too many dogs!
+Bot(6): i love them i have a lot of dogs
+User(7): I don't have any
+Bot(7): me neither , my dogs keep me company .
+User(8): how do they keep you company if you have no dogs?
+Bot(8): they help me
+User(9): how do they help you?
+Bot(9): they help me
+User(10): your dogs help you?
+Bot(10): they help me
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dogs(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.43
+Robotic(↓): 100
+Interesting: 11
+Fun: 69
+Consistent: 17
+Fluent: 79
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi!
+Bot(1): hey , i am reading this great horror novel , hbu ?
+User(2): I am not currently reading anything
+Bot(2): what do you like to read ?
+User(3): I like to read graphic novels
+Bot(3): i do , mainly books on building computers though
+User(4): I have built a computer before!
+Bot(4): what do you like to do on the computer ? i prefer being offline .
+User(5): I prefer being online
+Bot(5): yes ! you can find great deals on pageant dresses . what do you get online ?
+User(6): I have never looked at buying pageant dresses, I buy essentials and make up
+Bot(6): why are you so obsessed with online shopping ?
+User(7): I'm not obsessed, but it is convient during the pandemic
+Bot(7): i have heard that blank space song a billion times .
+User(8): I like that song, as long as I don't hear it over and over
+Bot(8): i am a cajun chef born and raised on the bayou , fits my circumstances
+User(9): you must know how to cook well
+Bot(9): that is good ! what do you cook ?
+User(10): I like to cook italian and asian food
+Bot(10): mexican is my favorite food ! a lot of great mexican places in nc .
+User(11): mexican food is very tasty!
+Bot(11): tacos are delicious . do you like using youtube ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: boyfriends(like)
+Round 1: horor novel(ambivalent)
+Round 4: computers(like)
+Round 7: Blank space song(ambivalent)
+Round 8: cajun chef and the bayou(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 39.71
+Robotic(↓): 100
+Interesting: 28
+Fun: 70
+Consistent: 20
+Fluent: 90
+Repetitive(↓): 36
+Topic: 6
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi! what is your favorite kind of pizza?
+Bot(1): What me more fish?
+User(2): you like fish on pizza?
+Bot(2): Hello, I am in the No fun in canada.
+User(3): I'm sorry you aren't having fun in canada
+Bot(3): cool , don't have children. I want and i am a teacher , and you ?
+User(4): I am a full time student
+Bot(4): I are u seem like i guess i will be able to afford my own.
+User(5): I am not for sale
+Bot(5): I like to watch like dogs mean friends
+User(6): why are the dogs mean?
+Bot(6): she doesn't have Let's talk about i don't like it.
+User(7): we don't have to talk about it if you don't like it
+Bot(7): I am sorry to hear that. do studying to be a I like to remember
+User(8): I am studying too
+Bot(8): You're hOW ARE YOU be in the back.
+User(9): I am good
+Bot(9): I have a which, in your opinion, best friend
+User(10): I have a best friend too
+Bot(10): I'm I just git be here.
+
+Persona:
+i am in the army.
+i have been traveling the world for a years.
+i have two grown children who never visit.
+i have a dogs.
+i like to watch nhl hockey.
+
+Topic and Human Opinion:
+Beginning: pizza(like)
+Round 2: no fun in canada(ambivalent)
+Round 3: jobs(ambivalent)
+Round 5: mean dogs(dislike)
+Round 7: studying(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 25.14
+Robotic(↓): 100
+Interesting: 26
+Fun: 64
+Consistent: 9
+Fluent: 8
+Repetitive(↓): 31
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi!
+Bot(1): hey
+User(2): do you like clowns?
+Bot(2): yes
+User(3): do you have a favorite clown?
+Bot(3): that is way cool . yes clowns . what is yours ?
+User(4): I won't tell you mine until you tell me your favorite clown
+Bot(4): are you calling me a clown ?
+User(5): no, I want to know who your favorite clown is
+Bot(5): the clown ? he does not seem very tasty
+User(6): I did not know you could eat clowns
+Bot(6): the clown ? he does not seem very tasty
+User(7): are other clowns tasty?
+Bot(7): not really , but i would eat them like that for you
+User(8): that's kind of you to offer
+Bot(8): the clown ? he does not seem very tasty
+User(9): please do not eat any clowns for me
+Bot(9): no i will eat them all
+User(10): please don't
+Bot(10): i guess i will stay and eat them
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: clowns(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 100
+Interesting: 75
+Fun: 100
+Consistent: 35
+Fluent: 67
+Repetitive(↓): 81
+Topic: 100
+
+####################
+

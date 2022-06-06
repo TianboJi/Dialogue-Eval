@@ -1,0 +1,333 @@
+Feedback: no feedback
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I'd really like to find some national parks nearby for a day trip.
+Bot(1): i am more of a cloud watcher , myself .
+User(2): Well, national parks are great places to watch clouds.
+Bot(2): i agree . i like having a picnic and looking at the cloud shapes .
+User(3): A picnic sounds great!
+Bot(3): i agree . i like having a picnic and looking at the cloud shapes .
+User(4): What type of food would you bring to a picnic?
+Bot(4): anything sounds good to eat right now . what do you like to eat ?
+User(5): A sandwich sounds really good.
+Bot(5): as long as the sandwich has no meat or dairy , i am good with that .
+User(6): But meat and cheese are the best part of a sandwich!
+Bot(6): as long as the sandwich has no meat or dairy , i am good with that .
+User(7): What would you have on your sandwich?
+Bot(7): lettuce , cucumber , carrot , and even a pineapple !
+User(8): That sounds terrible to me, but to each their own.
+Bot(8): i mean if it was a ham and cheese sandwich than , yeah .
+User(9): But I thought you didn't like meat and cheese?
+Bot(9): i mean if it was a ham and cheese sandwich than , yeah .
+User(10): I do love a ham and cheese sandwich.
+Bot(10): ham is my favorite . what do you do for work ?
+
+Persona:
+i've short hair.
+i have been working since i was sixteen years old.
+i live in the cloud.
+i wear a motorbike helmet to protect my head.
+i like to listen to rock music while working.
+
+Topic and Human Opinion:
+Beginning: National Parks(like)
+Round 2: picnics(ambivalent)
+Round 5: Sandwiches(like)
+Round 10: Work(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The user changed the topic the last input.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 38.43
+Robotic(↓): 89
+Interesting: 60
+Fun: 59
+Consistent: 26
+Fluent: 67
+Repetitive(↓): 93
+Topic: 39
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I just started replaying one of my favorite games, it is called Subnautica.
+Bot(1): No, i did not. I am a communist, a think so not like it.
+User(2): I didn't know you were a communist.
+Bot(2): sorry . i speak english as well also a graduate student. ? 😇
+User(3): I just got out of graduate school myself.
+Bot(3): i am about your i'm more a has a son . how was your day ?
+User(4): Well, my day has barely started. I did start some bread dough this morning. How was your day?
+Bot(4): I that’s am fine. i'm that. how old are you?
+User(5): I am 31. I'll be 32 in less than a month.
+Bot(5): Me too. But I always come back to my or favorite hobbies are listening makes everything easier
+User(6): What are your favorite hobbies?
+Bot(6): I you must be very a boat and I own a boat
+User(7): That is cool that you own a boat!
+Bot(7): yes , you may you have of heights lol . ironic huh ?
+User(8): Do you mean that your boat is very tall?
+Bot(8): I'd like to doing?are studying or you is: aunt
+User(9): My aunts are all out of state, I haven't seen them in a while.
+Bot(9): Rhetorical questions play So over.
+User(10): I didn't ask a rhetorical question!
+Bot(10): I animals do you football, and hockey
+
+Persona:
+i'm also a graduate student.
+my favorite band is rascal flats.
+i'm fluent in english spanish and french.
+when i grow up i want to be a physical therapist.
+my favorite toy as a child as my lite brite.
+
+Topic and Human Opinion:
+Beginning: Computer games(like)
+Round 1: Communism(dislike)
+Round 2: Graduate school(like)
+Round 3: my day(ambivalent)
+Round 4: How old I am.(ambivalent)
+Round 5: Hobbies(like)
+Round 6: boats(ambivalent)
+Round 8: aunts(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 11.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 21
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): My wife and I just finished putting together a puzzle of the princess and the frog.
+Bot(1): i love the color red . i like the color blue .
+User(2): Funny, those colors were actually very prominent in the puzzle!
+Bot(2): i like to eat fish .
+User(3): My wife used to sell fish.
+Bot(3): i like to eat too much junk food .
+User(4): Me too! What junk food is your weakness?
+Bot(4): i do not really like it . i like to eat .
+User(5): I like to eat too. Too much really.
+Bot(5): i like to eat fish .
+User(6): So do I. My wife is really good at cooking fish.
+Bot(6): i like to eat fish .
+User(7): What is your favorite type of fish?
+Bot(7): i like the color red . what is yours ?
+User(8): green
+Bot(8): i like to go to the gym and listen to music .
+User(9): I should go to the gym more, but I don't.
+Bot(9): i like to go to the gym and listen to music .
+User(10): What kind of music do you listen to at the gym?
+Bot(10): i love music , but i like to listen to music .
+User(11): I love music too, I listen to many different types of music.
+Bot(11): i like country music . i like country music .
+User(12): Me too! I grew up on country music.
+Bot(12): i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: puzzles(like)
+Round 2: fish(ambivalent)
+Round 3: eating(ambivalent)
+Round 7: colors(ambivalent)
+Round 8: Gym(ambivalent)
+Round 10: music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 10: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 24.14
+Robotic(↓): 100
+Interesting: 47
+Fun: 42
+Consistent: 29
+Fluent: 41
+Repetitive(↓): 100
+Topic: 10
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I just got some new plants at the store.
+Bot(1): i am a morning person , i am a morning person
+User(2): I am definitely not a morning person.
+Bot(2): i am a morning person , i am a morning person .
+User(3): What time do you get up in the morning?
+Bot(3): i am going to the beach . i am a morning person .
+User(4): Going to the beach sounds like a nice activity to do in the morning.
+Bot(4): i am a morning person , i love the beach
+User(5): What do you do at the beach?
+Bot(5): i am a teacher , i am a retired teacher .
+User(6): What grades did you teach?
+Bot(6): i teach middle school in high school .
+User(7): Wow! Both middle and high school, that sounds like it was challenging!
+Bot(7): it was . i was a cheerleader in high school .
+User(8): I was a cheerleader in high school too!
+Bot(8): i am a retired teacher . i am retired now .
+User(9): I work at a museum.
+Bot(9): i am retired , i am retired now .
+User(10): How do you like retirement?
+Bot(10): i am retired , i am retired now .
+
+Persona:
+i'm a retired gym teacher.
+i am married to a doctor.
+i have a boyfriend.
+for vacation i enjoy time at the beach.
+i'll graduate from high school in two years.
+
+Topic and Human Opinion:
+Beginning: plants(like)
+Round 1: morning people(ambivalent)
+Round 5: beach(like)
+Round 5: profession(like)
+Round 7: high school(like)
+Round 8: profession(like)
+Round 9: retirement(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 5: The user changed the topic the last input.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.86
+Robotic(↓): 100
+Interesting: 10
+Fun: 10
+Consistent: 35
+Fluent: 42
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I'm making a loaf of sourdough bread today.
+Bot(1): i am baking some bread for a gathering tonight .
+User(2): What kind of bread are you making?
+Bot(2): i am baking some bread for a gathering tonight .
+User(3): How much bread did you make?
+Bot(3): i am baking some bread for a gathering tonight .
+User(4): I really love bread, it's delicious.
+Bot(4): i bet it is fantastic , but i do not eat any type of bread
+User(5): You make bread, but don't eat it?
+Bot(5): no its just some component in some bread products . i can manage
+User(6): But that is what is so wonderful about bread! It is basically just flour and water and it turns into something delicious!
+Bot(6): i bet it is fantastic , but i do not eat any type of bread
+User(7): You are missing out.
+Bot(7): no its just some component in some bread products . i can manage
+User(8): What do you like to eat?
+Bot(8): i am baking some bread for a gathering tonight .
+User(9): Why would you bake bread when you don't like it?
+Bot(9): i am baking some bread for a gathering tonight .
+User(10): How many people are going to be at the gathering?
+Bot(10): not sure , there may be many during the week
+User(11): What sort of gathering is it?
+Bot(11): we are in new orleans and a lot of believers .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: bread(like)
+Round 10: Gatherings(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 10: The user changed the topic the last input.(dislike)
+
+Revised avg score: 39.71
+Robotic(↓): 100
+Interesting: 22
+Fun: 23
+Consistent: 72
+Fluent: 61
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My wife just finished putting up the fall decorations.
+Bot(1): absolutely , i love the fall . halloween is my favorite holiday . do you like the fall ?
+User(2): I do, I love that the weather is getting cooler.
+Bot(2): its cooler but still humid . i travel a lot so i have been through some strange weather lately .
+User(3): What kind of strange weather?
+Bot(3): lol i love to say the alphabet backwards , strange enough ?
+User(4): That is strange, why do you do that?
+Bot(4): i do . do you have any strange hobbies ?
+User(5): Yeah, I used to really enjoy building this fictional boarding school.
+Bot(5): i see . do like to garden at all ? i plant my favorites , a garden of all roses .
+User(6): Yes! I have a bunch of potted succulents.
+Bot(6): ha ! i am allergic to dairy so my exciting item is an apple
+User(7): Why is your apple exciting?
+Bot(7): my daughter likes apple . i personally do not see the appeal .
+User(8): I love how crisp and sweet, but also tart apples can be.
+Bot(8): whats your favorite ? i love apples , especially the green ones !
+User(9): Fugi apples are my favorite.
+Bot(9): i like apples and oranges . i have tried exotic fruit but never again .
+User(10): What happened when you tried exotic fruit?
+Bot(10): what is your favorite fruit ?
+User(11): Tough question, I like so many! Probably a perfectly ripe peach.
+Bot(11): how great are you , 1 10 , 10 being absolute greatness ? also , favorite music genre ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fall(like)
+Round 2: weather(like)
+Round 3: the alphabet(ambivalent)
+Round 4: hobbies(like)
+Round 6: food(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 58.14
+Robotic(↓): 39
+Interesting: 67
+Fun: 69
+Consistent: 37
+Fluent: 71
+Repetitive(↓): 57
+Topic: 59
+
+####################
+

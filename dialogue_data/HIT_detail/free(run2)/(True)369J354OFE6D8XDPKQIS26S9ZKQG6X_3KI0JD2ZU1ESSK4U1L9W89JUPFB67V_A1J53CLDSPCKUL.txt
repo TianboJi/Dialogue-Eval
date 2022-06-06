@@ -1,0 +1,282 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): im good. how are you?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): here its late to for a walk
+Bot(3): i like to go fishing .
+User(4): how is the pandemic situation
+Bot(4): i am a student , but i am a student .
+User(5): what to do you think about covid 19
+Bot(5): i am a female . i am a student .
+User(6): i am working.
+Bot(6): i am a student , but i work at a grocery store .
+User(7): i miss being a student
+Bot(7): i am a student , but i am a student .
+User(8): good. happy
+Bot(8): i am a student , but i am a student .
+User(9): i am not a student
+Bot(9): i am a student , but i am a student .
+User(10): what are you studying
+Bot(10): i am a student , i am a teacher .
+User(11): im also a teacher
+Bot(11): i am a teacher , i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pandemic(like)
+Round 5: its talking about it being a student(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 40.14
+Robotic(↓): 35
+Interesting: 37
+Fun: 24
+Consistent: 50
+Fluent: 74
+Repetitive(↓): 91
+Topic: 22
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you cook?
+Bot(1): no , i do not , but i do like to eat .
+User(2): oh! what do you like to eat?
+Bot(2): i like pizza , and pizza .
+User(3): which is your favourite
+Bot(3): i like the color red . what is yours ?
+User(4): mine is blue
+Bot(4): i like the color red . i like red .
+User(5): i love black too
+Bot(5): i like the color red . i like red .
+User(6): then what do like to eat
+Bot(6): i like to eat pizza .
+User(7): which pizza is your favourite
+Bot(7): i like the color red . what is yours ?
+User(8): i like green
+Bot(8): i like the color red . i like red .
+User(9): good.
+Bot(9): i am a student , but i am a student .
+User(10): what are you studying
+Bot(10): i am a student , i am a teacher .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 39
+Interesting: 61
+Fun: 41
+Consistent: 41
+Fluent: 60
+Repetitive(↓): 95
+Topic: 31
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi , do you have any soda ?
+User(2): yea. clud soda
+Bot(2): soda is the best
+User(3): yea. do you like sweet soda?
+Bot(3): soda is the best
+User(4): yes soda is the best
+Bot(4): i love soda . i need one with me always
+User(5): me too. i love sweet soda compared to salty one
+Bot(5): soda is the best
+User(6): yes soda is always best
+Bot(6): i love soda . i need one with me always
+User(7): me too. do like sparkling water
+Bot(7): soda is the best
+User(8): yes i agree
+Bot(8): great . i teach school what do you do ?
+User(9): i work at amazon
+Bot(9): nice i am an amazon employee
+User(10): you too?
+Bot(10): yeah i teach elementary school at the 5th grade level
+
+Persona:
+i don't drink soda.
+i'm an elementary school teacher.
+they are constantly on my back.
+my favorite color is grey.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.57
+Robotic(↓): 25
+Interesting: 64
+Fun: 73
+Consistent: 74
+Fluent: 31
+Repetitive(↓): 85
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like tea
+Bot(1): what is your favorite season ? yes i like tea .
+User(2): my favourite season is winter
+Bot(2): what is your favorite season ? yes i like tea .
+User(3): winter
+Bot(3): tea is my favorite drink
+User(4): which tea do you like to have
+Bot(4): i like asian style tea
+User(5): assam tea is the best in asian
+Bot(5): i like asian style tea
+User(6): do you like chinese tea
+Bot(6): i like asian style tea
+User(7): what about green tea
+Bot(7): i like asian style tea
+User(8): do you like black tea
+Bot(8): i like asian style tea
+User(9): do you like ice tea
+Bot(9): i like asian style tea
+User(10): me too like that
+Bot(10): i like asian style tea
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tea(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.86
+Robotic(↓): 67
+Interesting: 56
+Fun: 63
+Consistent: 31
+Fluent: 32
+Repetitive(↓): 96
+Topic: 88
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): Hey! Are you a have a husky, and am.
+User(2): no
+Bot(2): i do are names of have any ?
+User(3): what
+Bot(3): dogs are you dreaming all of them
+User(4): yea. i love them
+Bot(4): oh. I driving old what u you? I have a decade in human services
+User(5): i dont
+Bot(5): I live in the city, I pet flying in you speak I don't have to go out much
+User(6): i too live in a city
+Bot(6): Hi wanna be a in colorado.
+User(7): im in chicago
+Bot(7): That's are really healthy. Do play video games 🙂
+User(8): i love games
+Bot(8): What is How about color?
+User(9): blue is my favourite
+Bot(9): I you love you How about you?
+User(10): i love myself
+Bot(10): I like to you annual I'am cookies.
+User(11): i like cookies
+Bot(11): Because they gay.
+User(12): gay?
+Bot(12): I have live in Los angeles those before. What type of metal?
+User(13): metal?
+Bot(13): How do your favorite it?
+User(14): are you drunk
+Bot(14): I do not drink much alcohol but any do not drink eat
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: corona(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.57
+Robotic(↓): 26
+Interesting: 14
+Fun: 19
+Consistent: 12
+Fluent: 6
+Repetitive(↓): 93
+Topic: 5
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): do you like coffee
+Bot(2): i like coffee as well ! i drive my acura to the coffee shop every morning .
+User(3): wow. me too
+Bot(3): he loves double cheese burgers and chicken nuggets
+User(4): i love chicken nuggets and french fries
+Bot(4): i am good how are you i like french fries but i love chicken nuggets
+User(5): gud. which is fave coffee shop?
+Bot(5): love coffee ! dutch bros loves me haha ! you ? i like chinese .
+User(6): i dont like chinese and their coffee
+Bot(6): actually it does not . . a very funny woman is great with coffee ! which i am !
+User(7): then i am also
+Bot(7): i always park away from other vehicles so i make sure i do not hit anything
+User(8): i am bad at parking
+Bot(8): yes that is why food trucks are cool easy to park
+User(9): i love foods at food truck
+Bot(9): stick shift ? you are good ! my grandmother drives a stick .
+User(10): is she a harrypotter fan?
+Bot(10): she is an ex singer from the early 2000s , mostly does pop songs and the like
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: coffee(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.29
+Robotic(↓): 64
+Interesting: 82
+Fun: 68
+Consistent: 66
+Fluent: 79
+Repetitive(↓): 32
+Topic: 65
+
+####################
+

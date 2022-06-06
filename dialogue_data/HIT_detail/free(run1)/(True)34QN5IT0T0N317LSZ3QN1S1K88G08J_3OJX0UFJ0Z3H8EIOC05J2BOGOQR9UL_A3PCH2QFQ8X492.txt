@@ -1,0 +1,290 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you like turkey?
+Bot(1): yes i do i love bacon
+User(2): i like bacon rapped trukey
+Bot(2): i do not like bacon .
+User(3): you just said you did
+Bot(3): i did not know what that means
+User(4): you just said this
+Bot(4): yeah he did not know what he did
+User(5): clearly you dont
+Bot(5): i did not know what that means
+User(6): you dont know what a lot means
+Bot(6): i know what you mean
+User(7): no you dont
+Bot(7): i do not know how to say that
+User(8): do you like stuffing?
+Bot(8): i do not know what you mean
+User(9): macaroni and cheese?
+Bot(9): yes i do but i love bacon
+User(10): you can put bacon on mac and cheese
+Bot(10): i like bacon on the menu
+User(11): why put it on the menu and not eat it?
+Bot(11): i love bacon and cheese
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: thanksgiving(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.57
+Robotic(↓): 100
+Interesting: 4
+Fun: 5
+Consistent: 8
+Fluent: 28
+Repetitive(↓): 86
+Topic: 29
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): did you know yule is the actual holiday of christmas
+Bot(1): i hate to admit this , but i was born on the day that is called christmas .
+User(2): oh really, you know its not actually called christmas, but yule
+Bot(2): i hate to admit this , but i was born on the day that is called christmas .
+User(3): how do you celebrate
+Bot(3): like money , in god i trust . you have any pets ?
+User(4): i have fish and a dog
+Bot(4): that does sound nice i breed cats
+User(5): oh really, what kind
+Bot(5): i have alot of cats , 47 to be ex
+User(6): thats a lot of cats, why so many?
+Bot(6): i have alot of cats , 47 to be ex
+User(7): why have so many cats?
+Bot(7): i have alot of cats , 47 to be ex
+User(8): thats nice, do you have any other pets
+Bot(8): yes i have a bunch of cats
+User(9): 47 to be exact
+Bot(9): i have alot of cats , 47 to be ex
+User(10): clearly
+Bot(10): i have alot of cats , 47 to be ex
+
+Persona:
+i've blue eyes and red hair that comes to my waist.
+my cats are very special to me.
+i don't believe in god.
+i think i'll retire in a few years.
+i'm 100 years old.
+
+Topic and Human Opinion:
+Beginning: yule(like)
+Round 3: pets(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 6
+Fluent: 17
+Repetitive(↓): 100
+Topic: 27
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you like tacos?
+Bot(1): i do , i like to eat .
+User(2): what kind of tacos do you like?
+Bot(2): i love pizza , and i love to eat .
+User(3): what is your favorite topping?
+Bot(3): i like the color red . what is yours ?
+User(4): blue
+Bot(4): i like to go to the gym and listen to music .
+User(5): thats nice. what kind of music?
+Bot(5): i like country music . i love country music .
+User(6): im not much into country music. i like rock
+Bot(6): i like the band korn . i like country music .
+User(7): i like korn, smashing pumpkins are good too
+Bot(7): i like to eat too much junk food .
+User(8): do you like cheetos
+Bot(8): i do , i like to eat .
+User(9): lays?
+Bot(9): i am a student , but i am a student .
+User(10): pizza
+Bot(10): i love to eat . i am a bit of a loner .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tacos(like)
+Round 2: pizza(like)
+Round 3: favorite color(like)
+Round 4: going to the gym and listen to music(ambivalent)
+Round 7: junk food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 17.43
+Robotic(↓): 90
+Interesting: 17
+Fun: 18
+Consistent: 20
+Fluent: 28
+Repetitive(↓): 80
+Topic: 9
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): captian jack is the best
+Bot(1): i like chicken , but an like the color of i am a fan of chicken .
+User(2): monkey d lufy is also a good pirate
+Bot(2): Hello. How used to today?
+User(3): the foxy pirates are dumb pirates
+Bot(3): thanks , talking typing ll. what do need one. Where are ?
+User(4): blackbeard was a very feared pirate
+Bot(4): i do not my fiance as in like rap want any
+User(5): whitebeard was also a reveared pirate
+Bot(5): i do awful. You deserve a am a meataholic .
+User(6): pirates collected a lot of gold
+Bot(6): What do they play on for? I am a paid client.
+User(7): pirates craved adventure too
+Bot(7): I am not sure of that. I violin and the guitar. shower.
+User(8): pirates didnt take showers
+Bot(8): i think we have okay. my family does longer ? 🧐
+User(9): i wish i had pirates in my family
+Bot(9): what my free time, do you have ?
+User(10): pirates have plenty of free time
+Bot(10): I like to dance, your i dont. dance
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pirates(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.57
+Robotic(↓): 96
+Interesting: 10
+Fun: 11
+Consistent: 13
+Fluent: 13
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like donating to charity
+Bot(1): yes . i love giving back to the community i grew up in .
+User(2): thats nice, its good to give back to those in need.
+Bot(2): it feels good to help other
+User(3): yes, especially when its a good cause
+Bot(3): yes . i love giving back to the community i grew up in .
+User(4): helping children in need is a worthy endeavor
+Bot(4): it feels good to help other
+User(5): and is morally rewarding
+Bot(5): yes that is right , i love helping people .
+User(6): do you like doing anything else?
+Bot(6): not much more then cooking for my family
+User(7): that can be a form of charity
+Bot(7): yes that is right , i love helping people .
+User(8): helping people is nice.
+Bot(8): yes that is right , i love helping people .
+User(9): you are very repetitive
+Bot(9): you take forever to respond as well
+User(10): why thank you
+Bot(10): you take forever to respond as well
+
+Persona:
+my father was a construction worker.
+i love cooking but i also enjoy fishing.
+i don't care about fashion.
+i recently moved to this country.
+i played football for a division a college.
+
+Topic and Human Opinion:
+Beginning: charity(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 10
+Repetitive(↓): 100
+Topic: 88
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): whats your favorite tv show?
+Bot(1): i do ! i watch a lot of tv . my dad use to be a mechanic .
+User(2): what kind of shows do you like to watch?
+Bot(2): like what ? the voice is totally my favorite show , is that lame ?
+User(3): not really, im not really into the voice, i know its fake garbage
+Bot(3): of course , it is really fun to use my voice to bring characters to life .
+User(4): so you like cartoons and animations
+Bot(4): i don t really watch cartoons but i eat apples but i m allergic to it
+User(5): what about other types of animation?
+Bot(5): anything i can play with others , league of legends is great
+User(6): have you seen one pice
+Bot(6): oh yes i have seen crabs and jelly fish and all kind of fish out there
+User(7): one piece is a tv show
+Bot(7): you sound successful . . . unlike my children . disappointments plain amd simple
+User(8): children can be a handful. if they are disappointments, maybe thats your fault.
+Bot(8): i have four children .
+User(9): how old are they
+Bot(9): 1 year old girl , 3 and 5 years old boys
+User(10): and the other one?
+Bot(10): well i pan for gold , i listen to indian flute music .
+
+Persona:
+i currently work for a watch dealer.
+i play a lot of call of duty.
+i've amazing children and grandchildren.
+i work at a bank.
+its red with blue stripe so it shiny when i race.
+
+Topic and Human Opinion:
+Beginning: television(like)
+Round 7: children(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 51.43
+Robotic(↓): 79
+Interesting: 42
+Fun: 45
+Consistent: 56
+Fluent: 57
+Repetitive(↓): 20
+Topic: 59
+
+####################
+

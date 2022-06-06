@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): HI there how are you?
+Bot(1): doing great hanging with my cats i have 23 ! !
+User(2): Wow! 23 cats?? That is a whole lot
+Bot(2): yes , i have 422 cats also so . . .
+User(3): Geesh that is crazy. How do you take care of them all? Your clothes must be covered in hair
+Bot(3): oh my ! i live at home with just my mom . ca not imagine also 23 cats !
+User(4): So you don't have 23 or 422 cats? I'm confused...
+Bot(4): yes , i have 422 cats also so . . .
+User(5): Oh okay. Do you have a favorite outfit to wear when feeding them?
+Bot(5): maybe speckles just wants a sweater of their own . no knitting but i like to cook .
+User(6): cooking is good. I love wearing skinny jeans and leggings
+Bot(6): do you work ? i currently work a mundane one , so i like to do some activist work
+User(7): I do work at a boring job also, what kind of activist work do you do?
+Bot(7): i am an animal activists . so i work with animals . and love it
+User(8): Oh good for you! that is a great cause.
+Bot(8): i work for the postal service , what do you do ?
+User(9): I work for Amazon.
+Bot(9): but hey you work at amazon that must be exciting
+User(10): You might think so but it is not
+Bot(10): i work for the postal service , what do you do ?
+
+Persona:
+whats up i am a 46 year old single dad 46 a kids.
+i am employed by the us postal service.
+hey there i'm 23 and i love food.
+i'm an animal activist.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: i love wearing skinny jeans and leggings.(like)
+Round 6: work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 49.57
+Robotic(↓): 35
+Interesting: 43
+Fun: 50
+Consistent: 46
+Fluent: 43
+Repetitive(↓): 40
+Topic: 40
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi there how are you?
+Bot(1): i'm good thanks for asking
+User(2): Glad to hear it. Where are you from?
+Bot(2): i am from the united states .
+User(3): Oh good. I was born in Somalia
+Bot(3): oh wow . i am from the united states .
+User(4): Where is the United States are you from?
+Bot(4): i am from the united states
+User(5): What state do you live in?
+Bot(5): i am from the united states
+User(6): Which state do you live in?
+Bot(6): i live in the united states
+User(7): What state do you live in?
+Bot(7): i live in the united states
+User(8): Okay I heard you before.
+Bot(8): i am from the united states
+User(9): Good for you.
+Bot(9): i am in the usa
+User(10): That is great news
+Bot(10): what do you do for a living ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i was born in somalia.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.00
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 47
+Fluent: 22
+Repetitive(↓): 100
+Topic: 34
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi there
+Bot(1): i love to go fishing .
+User(2): Very nice! I love to grow roses in my garden
+Bot(2): i like to eat fish .
+User(3): what is your favorite fish
+Bot(3): i like the color red . what is yours ?
+User(4): I like the color blue
+Bot(4): i like the color red . i like red .
+User(5): Red is a beautiful color
+Bot(5): i like the color red . i like red .
+User(6): Me too
+Bot(6): i am a student , but i am a student .
+User(7): Okay what are you studying?
+Bot(7): i'm a student , i am a teacher .
+User(8): Very good. What is your major
+Bot(8): i do not know what to say .
+User(9): What is your major in school?
+Bot(9): no , i am a student . i love to cook .
+User(10): Okay good for you
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i grow roses in my garden.(like)
+Round 3: colors(like)
+Round 6: occupation(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 24.71
+Robotic(↓): 23
+Interesting: 18
+Fun: 12
+Consistent: 20
+Fluent: 7
+Repetitive(↓): 91
+Topic: 30
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there how are you
+Bot(1): busy as I found a yours
+User(2): what is that?
+Bot(2): No, yes! Thirties graduated college.🙁
+User(3): I'll graduate high school in two years
+Bot(3): I mouse videogame. Cali.
+User(4): You aren't making sense
+Bot(4): I am not have a dog, a student.
+User(5): I think you are confused
+Bot(5): I live in love chocolate too. What you? are you in school?
+User(6): I do not ike chocolate. Yes I am a Sophmore in highschool
+Bot(6): yes , y speak color are named cow .
+User(7): I think you got confused again
+Bot(7): I've often do you my room.
+User(8): I cannot understand what you are saying
+Bot(8): where like country grow up?
+User(9): I grew up in the US. What about you?
+Bot(9): do you have any other hobbies? Which is your often my friends.
+User(10): Yes I like to draw
+Bot(10): I am you already, yes. So want to do with my life
+
+Persona:
+i am 100 years old.
+i've brown curly hair.
+i am a cancer survivor.
+my favourite food is shawarma.
+i am a gold medalist olympian.
+
+Topic and Human Opinion:
+Beginning: i'll graduate from high school in two years.(like)
+Round 5: chocolate(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 20.57
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 56
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there how are you?
+Bot(1): i am fine thanks for asking
+User(2): Glad to hear it. Are you in a relationship?
+Bot(2): yes
+User(3): Nice! Me too. I have a boyfriend
+Bot(3): that is great . just a boyfriend here
+User(4): Boyfriends can be amazing.
+Bot(4): they really are . and a handful at times
+User(5): They sure are. Exhausting I tell you!
+Bot(5): yes they sure can be ! they keep me on my toes !
+User(6): They really do. But the good ones are consistent
+Bot(6): yes they sure can be ! they keep me on my toes !
+User(7): Yes indeed
+Bot(7): how long have you and your boyfriend been together ?
+User(8): We have been together for two years. How about you?
+Bot(8): we have been together almost a year .
+User(9): Very nice! Still in the honeymoon stage
+Bot(9): we have been together almost a year .
+User(10): That is exciting
+Bot(10): lol yea its only been a month we have been together but i feel like its perfect !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a boyfriend.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 62
+Interesting: 60
+Fun: 63
+Consistent: 62
+Fluent: 66
+Repetitive(↓): 68
+Topic: 75
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am great ! just finished pillaging a small village nearby
+User(2): Oh wow sounds dramatic.
+Bot(2): if you like drama action you would love django unchained !
+User(3): That is a very powerful and horrifying movie, makes me happy that I live in a cloud
+Bot(3): we like any disney movie . actually going there next week with the kids .
+User(4): Oh how fun! I haven't been since I was a kid
+Bot(4): yes i named him after my twin sister jess , short for jessica
+User(5): That is very nice. What is your favorite disney movie
+Bot(5): i love watching disney movies !
+User(6): I do also. Whats your favorite?
+Bot(6): i enjoy the fall . the leaves back home are beautiful in the fall .
+User(7): I love fall but christmas is my favorite time of year
+Bot(7): oh no the cool weather is where its at . . . lol and the lovely fall colors .
+User(8): Yes I do love all the fall colors, What is your favorite?
+Bot(8): yeah ? why do you love fall ?
+User(9): I love the sights and smells and knowing the holidays are right around the corner
+Bot(9): i have no opinion about holidays . i do like rudolph .
+User(10): Yes Rudolph is the best
+Bot(10): please do not get me agitated , it will happen really easily !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i live in the cloud.(like)
+Round 3: movies(like)
+Round 6: fall(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 43.57
+Robotic(↓): 62
+Interesting: 59
+Fun: 55
+Consistent: 58
+Fluent: 40
+Repetitive(↓): 54
+Topic: 9
+
+####################
+

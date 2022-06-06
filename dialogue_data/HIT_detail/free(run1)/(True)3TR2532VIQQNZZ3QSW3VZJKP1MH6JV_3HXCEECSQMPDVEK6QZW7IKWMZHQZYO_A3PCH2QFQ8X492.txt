@@ -1,0 +1,297 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): the salem witch trials where a horrible time
+Bot(1): i really thought the blair witch 2 was good
+User(2): i liked book of shadows much more than the first one.
+Bot(2): i really thought the blair witch 2 was good
+User(3): i thought the people in the first blair witch deserved exactly what they got
+Bot(3): i really thought the blair witch 2 was good
+User(4): this witch is gonna curse you
+Bot(4): i really thought the blair witch 2 was good
+User(5): the witch trials of the spanish inquisition were really terrible
+Bot(5): i really thought the blair witch 2 was good
+User(6): the blair witch 2 was good
+Bot(6): i really thought the blair witch 2 was good
+User(7): is there anything else you would like to say?
+Bot(7): i really thought the blair witch 2 was good
+User(8): is that all you have?
+Bot(8): i really thought the blair witch 2 was good
+User(9): this is pretty repetative
+Bot(9): i really thought the blair witch 2 was good
+User(10): burn the witch
+Bot(10): i really thought the blair witch 2 was good
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: witches(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like astronomy?
+Bot(1): i am very much into biology ! astronomy is cool too though
+User(2): you cant have one without the other.
+Bot(2): ok . my 23 cats are having a good day .
+User(3): what color are your cats?
+Bot(3): ok . my 23 cats are having a good day .
+User(4): how do you live with 23 cats?
+Bot(4): heres something crazy . . . i have 23 cats too
+User(5): i dont have any cats
+Bot(5): i have 23 at my house , you want some ?
+User(6): no thank you. what color are your cats?
+Bot(6): carnivores and my favorite color
+User(7): cats?
+Bot(7): red . i am trying to get laws changed to keep them from slaughter for food .
+User(8): they dont slaughter cats for food.
+Bot(8): yeah you do not eat animal products
+User(9): i eat meat, just not cat, that i know of
+Bot(9): yeah you do not eat animal products
+User(10): not what i said at all
+Bot(10): do not know what you mean , , , really
+
+Persona:
+whats up i am a 46 year old single dad 46 a kids.
+i am employed by the us postal service.
+hey there i'm 23 and i love food.
+i'm an animal activist.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: astronomy(like)
+Round 2: cats(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 36.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 6
+Consistent: 88
+Fluent: 78
+Repetitive(↓): 70
+Topic: 53
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i love my dog.
+Bot(1): I not really. hike😁
+User(2): you dont like my dog
+Bot(2): thanks . do you play soccer ? i you start your chill m a scholarship for it !
+User(3): the dog is a handfull
+Bot(3): i do i have beautiful dogs - Carrie the cooking
+User(4): is your dogs name carrie?
+Bot(4): I you a where my husband
+User(5): who is your husband?
+Bot(5): i mainly work for an be really spend a pictures
+User(6): what kind of pictures do you like to take?
+Bot(6): I love to cook freak boys with my cook
+User(7): how does one cook a freak boy?
+Bot(7): I is u d eat meat.
+User(8): the meat, yes what do you do with it?
+Bot(8): They'Re 24 poyou you can guess cats.
+User(9): freakboys are cats?
+Bot(9): I like the movie in your opinion, belongs watch movies.
+User(10): cooking is fun
+Bot(10): no kids yet. kind of movie college.
+
+Persona:
+my favorite band is the who.
+i enjoy working with my hands and love gardening.
+i love new kids on the block.
+i'm a cancer survivor.
+i like tacos.
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 5: pictures(ambivalent)
+Round 6: cooking freak boys(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 42.14
+Robotic(↓): 100
+Interesting: 77
+Fun: 66
+Consistent: 13
+Fluent: 2
+Repetitive(↓): 3
+Topic: 40
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): whats your favorite?
+Bot(1): i like to go to the gym every day
+User(2): whats your favorite video game?
+Bot(2): i like to play video games .
+User(3): what kind?
+Bot(3): i like to play video games .
+User(4): adventure?
+Bot(4): i like to play the playstation .
+User(5): i prefer xbox
+Bot(5): i like to play video games .
+User(6): action?
+Bot(6): i like to play video games .
+User(7): simulation?
+Bot(7): i like to play the playstation .
+User(8): fantasy?
+Bot(8): i like to play the playstation .
+User(9): PlayStation sucks in my opinion
+Bot(9): i like to play video games .
+User(10): what kind of video games do you like to play?
+Bot(10): i play video games and i love to go to the gym
+
+Persona:
+i drive a big truck and live in country.
+i am a recording engineer and own my own studio.
+my mom passed away when i was young.
+i've been trying all types of food everywhere i go.
+i go to the gym regularly.
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 20
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what is your favorite board game?
+Bot(1): hmm i have a large swimming pool filled with gold coins i like to bury myself in .
+User(2): do you have three nephews?
+Bot(2): my jam is barbie girl cause i wanna be like thar
+User(3): barbie is a basic looser
+Bot(3): really ! i am a drummer in an indie called barbie !
+User(4): do you belong to the band aqua?
+Bot(4): oh what good memories that brings back ! what do you play ?
+User(5): i perfer gi joe
+Bot(5): i like flirting in large events staring from across the field
+User(6): so you like football games and concerts?
+Bot(6): football is fun , whats your favorite team ?
+User(7): i dont like football
+Bot(7): football is cool . i like skiing and skating
+User(8): im not much for skiing or skating, i always fall
+Bot(8): skating is fun . i love voting in elections for some reason
+User(9): voting is a civic duty, and a very important one this year. fascism must be defeated in amercia.
+Bot(9): anything reliable . i need to get to my job at mcdonalds so i can save more money !
+User(10): good luck saving money on starvation wages.
+Bot(10): i have been saving money for a new car . mine is 24 years old .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: board game(like)
+Round 1: scrooge mcduck(like)
+Round 2: barbie(dislike)
+Round 7: skiing and skating(dislike)
+Round 8: voting(like)
+Round 9: getting a job at mcdonalds(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 37.57
+Robotic(↓): 90
+Interesting: 27
+Fun: 26
+Consistent: 7
+Fluent: 79
+Repetitive(↓): 0
+Topic: 14
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): have you seen the price of milk?
+Bot(1): no , i just like to eat fish .
+User(2): its so expensive
+Bot(2): i like to go to the gym and listen to music .
+User(3): oh really, i work in a gym
+Bot(3): that is awesome . i am a teacher .
+User(4): do you exercise often at the gym?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): do you go fishing often?
+Bot(5): no , i do not , but i do like to go fishing .
+User(6): have you caught any big fish?
+Bot(6): no , i just like to go out to eat with my family .
+User(7): you like catching fish at a restaurant?
+Bot(7): no , i do not . i like to go to the park .
+User(8): i love going to the duck pond in our park
+Bot(8): that is awesome . i like to go fishing .
+User(9): i like to go fishing too, but not in the park
+Bot(9): i like to go fishing .
+User(10): there is no fish only the matrix
+Bot(10): i like to go to the beach and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dairy(ambivalent)
+Round 2: going to the gym(ambivalent)
+Round 4: fishing(ambivalent)
+Round 7: the park(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 27.14
+Robotic(↓): 98
+Interesting: 6
+Fun: 13
+Consistent: 17
+Fluent: 100
+Repetitive(↓): 73
+Topic: 25
+
+####################
+

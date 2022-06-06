@@ -1,0 +1,329 @@
+Feedback: no 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): good my grandchildren are visiting today
+User(3): oh nice, what are you doing today?
+Bot(3): just listening to rap music
+User(4): cool, I think I'm going to watch a movie
+Bot(4): oh , what movie are you going to see ?
+User(5): rebel without a cause
+Bot(5): i might listen to some music
+User(6): have you already listened to harry styles new album?
+Bot(6): no , never heard of it . i like rap .
+User(7): who is your favorite singer ?
+Bot(7): anything but rap , what is your music preference ?
+User(8): basically rock, indie, jazz
+Bot(8): i like rap music
+User(9): I think you've already said that
+Bot(9): unless you count finger painting with my grandchildren , i would not know ,
+User(10): pulp fiction is pretty cool too
+Bot(10): i do not know about that movie
+User(11): what movies do you like?
+Bot(11): probably terminator 2
+User(12): hmm never seen this one
+Bot(12): i like to take my grandsons to the movie makes for a fun time
+User(13): yes, I've always loved movies, since I was a child
+Bot(13): i like to take my grandsons to the movie makes for a fun time
+User(14): nice
+Bot(14): yeah , whats the worst movie you ever had to sit through ?
+User(15): everyone just loved the Irishman but I thought It was so boring
+Bot(15): i enjoyed the it remake
+User(16): yes me too
+Bot(16): do you have any grandchildren ?
+User(17): no, I'm too young
+Bot(17): i am way too young myself
+User(18): okay
+Bot(18): do you have grandchildren ?
+User(19): no
+Bot(19): ok
+User(20): ok
+Bot(20): do you have grandchildren ?
+
+Persona:
+i married a super model from italy.
+i listen to rap music.
+i am an omnivore.
+i have been trying all types of food everywhere i go.
+i have amazing children and grandchildren.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.43
+Robotic(↓): 100
+Interesting: 22
+Fun: 23
+Consistent: 24
+Fluent: 97
+Repetitive(↓): 93
+Topic: 19
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes, love to listen to music
+Bot(2): i like music , i listen to music while i listen to music
+User(3): funny
+Bot(3): i like music , i listen to music mostly
+User(4): yes me too
+Bot(4): i like music too , but i like to listen to music
+User(5): have you listened to harry styles new album?
+Bot(5): no i don't listen to music
+User(6): but you just said ...
+Bot(6): i listen to it while listening to music
+User(7): It doesn't make sense
+Bot(7): i think you are right . . . . . . . . . . i think i am not good at it
+User(8): yes
+Bot(8): i think you are right . . . . . . . . . . . . i think i am not good at it
+User(9): bye
+Bot(9): i am sorry to hear that . . .
+User(10): what else to you like to listen to ?
+Bot(10): i like to listen to music
+User(11): what kind of music?
+Bot(11): i like pop music and r b
+User(12): katy perry?
+Bot(12): i like pop music and pop
+User(13): miley cyrus?
+Bot(13): i like pop music and pop
+User(14): madonna?
+Bot(14): i like pop music and pop
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.71
+Robotic(↓): 97
+Interesting: 6
+Fun: 1
+Consistent: 2
+Fluent: 41
+Repetitive(↓): 98
+Topic: 6
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): college went to markete where i always swim
+User(2): how are you?
+Bot(2): I do not am I love music.😃
+User(3): do you like food?
+Bot(3): Yes! I loved it. what cook So, I am a living?
+User(4): I'm not understanding you
+Bot(4): Yes it I'm fine! there
+User(5): I guess you are confused
+Bot(5): I love them. I in a human don't donuts.
+User(6): yes donuts are great
+Bot(6): i man just are i am single .
+User(7): what
+Bot(7): That is rather making workouts. Do to wear leather?
+User(8): yes i do
+Bot(8): I I not
+User(9): good for you
+Bot(9): i like hear no i’m i a gym teacher.
+User(10): of course you are
+Bot(10): I do not have pets. I go now. am aeronautical you?
+User(11): I'm a scientist
+Bot(11): I love cats, I am you enjoy american sports car.
+User(12): I make robots
+Bot(12): It do you like love country music .
+User(13): yes me too
+Bot(13): For you you?
+User(14): my favorite singer in the moment is harry styles
+Bot(14): That 's great. like am from like high school.
+
+Persona:
+i enjoy american sports.
+i like to take walks.
+i am now looking for a new job.
+i don't drink or do drugs or anything.
+in my free time i like to watch nascar racing and ufc.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.43
+Robotic(↓): 99
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 19
+Repetitive(↓): 100
+Topic: 11
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): im great
+Bot(2): i love to cook . i love to cook .
+User(3): well I love it too but also I love fashion
+Bot(3): i like to go to the gym and listen to music .
+User(4): cool, It's great
+Bot(4): i love to cook . i love to cook .
+User(5): what do you like to cook?
+Bot(5): i love to cook , and eat pizza .
+User(6): pizza is amazing
+Bot(6): i like to eat fish .
+User(7): oh
+Bot(7): i am a student , but i am a student .
+User(8): me too
+Bot(8): i like to go to the gym and listen to music .
+User(9): what kind of music?
+Bot(9): i like country music . i love country music .
+User(10): uh me too
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fashion(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.71
+Robotic(↓): 80
+Interesting: 10
+Fun: 7
+Consistent: 26
+Fluent: 20
+Repetitive(↓): 92
+Topic: 26
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi just got back from a swim how are you
+User(2): I'm fine thanks
+Bot(2): did you go swimming ? i am good
+User(3): no I don't, but nice
+Bot(3): and i hate wearing swimsuits
+User(4): yes that's terrible
+Bot(4): and i hate wearing swimsuits
+User(5): do you like robots?
+Bot(5): yeah i kind of like them
+User(6): yes they are kinda smart
+Bot(6): and i hate wearing swimsuits
+User(7): or not
+Bot(7): and i hate wearing swimsuits
+User(8): probably not
+Bot(8): i do not really care
+User(9): for what?
+Bot(9): i really have no idea
+User(10): neither I
+Bot(10): i do not really care
+
+Persona:
+i am an art major in college.
+i'm a swim coach at my local pool.
+i love wearing skinny jeans and leggings.
+i've never been out of ohio.
+i am a doctor.
+
+Topic and Human Opinion:
+Beginning: robots(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.00
+Robotic(↓): 92
+Interesting: 10
+Fun: 8
+Consistent: 11
+Fluent: 9
+Repetitive(↓): 92
+Topic: 30
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): yes I have plenty of hobbies
+Bot(2): i wish i could make films but i am stuck at this popcorn filled movie theater job
+User(3): bummer
+Bot(3): i like blue but always have friends around so never blue
+User(4): what do you think about women?
+Bot(4): i think they are tall . i wish i could reach the cookie jar like them .
+User(5): are you a short guy?
+Bot(5): people gamble away in my casinos . sometimes my casinos go bankrupt but i bounce back .
+User(6): women are great
+Bot(6): got to get away from my husband i live in florida . celebration florida come meet me
+User(7): what? do you have a husband?
+Bot(7): did he recently graduate ? i wonder if we went to school together
+User(8): cool
+Bot(8): i am kidding its actually someone who makes maps , i also paint outdoors
+User(9): what do you think about women fundamental rights?
+Bot(9): got to get away from my husband i live in florida . celebration florida come meet me
+User(10): oh
+Bot(10): it is orange . i have my nails painted orange . they are long .
+User(11): eww
+Bot(11): i have only one year left to graduate
+User(12): good luck
+Bot(12): i want to be an owner and not just a slave worker to the 1 class !
+User(13): calm down WOMAN
+Bot(13): what do you do for a living ? i practice law .
+User(14): well I'm a artist
+Bot(14): i am a good photographer horrible sketch artist
+User(15): cool
+Bot(15): i am kidding its actually someone who makes maps , i also paint outdoors
+
+Persona:
+i am an avid kayaker.
+i didn't graduate high school.
+whats up i'm a 46 year old single dad 46 a kids.
+my favorite color is orange.
+i am from a small town.
+
+Topic and Human Opinion:
+Beginning: woman(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

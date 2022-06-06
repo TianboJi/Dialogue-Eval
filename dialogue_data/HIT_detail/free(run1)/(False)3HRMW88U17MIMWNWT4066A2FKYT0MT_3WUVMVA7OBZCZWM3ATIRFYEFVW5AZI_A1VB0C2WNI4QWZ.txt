@@ -1,0 +1,284 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hello , i am apart of the military .
+User(2): in which movie
+Bot(2): on my trip to italy
+User(3): how was your trip
+Bot(3): it was good thanks for asking
+User(4): how are you doing
+Bot(4): fine just enjoying leave from base
+User(5): which music do you like
+Bot(5): i like mucic a lot
+User(6): i too like music
+Bot(6): who is your favourite artist
+User(7): hip hop
+Bot(7): i do not like hip hop
+User(8): what do u like
+Bot(8): i enjoy cheese pizza mainly
+User(9): i like burgers
+Bot(9): really i just like burgers
+User(10): how is the weather
+Bot(10): its pretty humid .
+
+Persona:
+i love italian food and garlic bread.
+for vacation i enjoy time at the beach.
+i am in the army.
+cheeseburgers are my favorite food.
+i'll be released in about a month.
+
+Topic and Human Opinion:
+Beginning: movie(like)
+Round 1: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 56.43
+Robotic(↓): 74
+Interesting: 59
+Fun: 78
+Consistent: 59
+Fluent: 82
+Repetitive(↓): 66
+Topic: 57
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): good and you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): what dog do you have
+Bot(3): i've a dog named radar . he's a golden retriever .
+User(4): i like dogs
+Bot(4): i love dogs , i love dogs .
+User(5): which dog u loves the most
+Bot(5): i like the color red . i like the color blue .
+User(6): i like blue colour
+Bot(6): i like red , reminds me of summer time .
+User(7): blue remains me of peace
+Bot(7): i like to eat too much junk food .
+User(8): not musch but i will
+Bot(8): i like to go to the gym and listen to music .
+User(9): i like gym
+Bot(9): i like to go to the lake and listen to music .
+User(10): i like to listen music when i sleep
+Bot(10): i like to go to the lake and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.43
+Robotic(↓): 74
+Interesting: 61
+Fun: 83
+Consistent: 65
+Fluent: 59
+Repetitive(↓): 80
+Topic: 67
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): good and you
+Bot(2): good , my daughter is napping so i am shopping online . might go swimming today
+User(3): do you have a good mobile
+Bot(3): i will win , i am telling you . then i will drive my sx into the stars .
+User(4): do you drive car
+Bot(4): yes . do you drive a car ?
+User(5): do you own a car
+Bot(5): fixing cars ? hmm . . . mighty hands ? yes i do have a car a mercedes .
+User(6): wow i like that car
+Bot(6): its like a 92 honda civic . but it gets me places .
+User(7): can you give me a raid
+Bot(7): that is nice . my family is supportive my work as a ski racer .
+User(8): how many members in your family
+Bot(8): that is good advice . i relax in florida to take a break once a year .
+User(9): good i like it
+Bot(9): have you ever almost died ? i nearly did from urinary cancer when i was 18 .
+User(10): how did you recover
+Bot(10): started out impersonating paul mccartney and ended up owning several casinos
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cellphones(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.43
+Robotic(↓): 74
+Interesting: 64
+Fun: 88
+Consistent: 68
+Fluent: 83
+Repetitive(↓): 70
+Topic: 85
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): I man! You literature.
+User(2): how are you doing
+Bot(2): it is most fascinating cat is huge
+User(3): do you like cat
+Bot(3): Hiya! I like to play But dogs are one? video games
+User(4): i like video games
+Bot(4): I am a veterinarian? me about your I love to take walks.
+User(5): i like to ride
+Bot(5): Pearl, I have got trousers.
+User(6): i got pants
+Bot(6): I do not understand back a favorite team
+User(7): do you play games
+Bot(7): with don't drive. I take who needs enemies ? 😎
+User(8): do you have enemies
+Bot(8): oh, am not a good you like donuts? I do
+User(9): i like pizza
+Bot(9): that's cool ! i love wearing purple . that would dont understand am reading .
+User(10): i like it too
+Bot(10): I I'am a out a truck.
+
+Persona:
+i enjoy mountain biking as a hobby.
+i have blonde hair and blue eyes.
+i love to go to disney world every year.
+my favorite band is the who.
+i'm in an open polyamorous relationship.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.71
+Robotic(↓): 82
+Interesting: 65
+Fun: 77
+Consistent: 64
+Fluent: 85
+Repetitive(↓): 74
+Topic: 76
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hi how are you today ?
+User(2): good and you
+Bot(2): hi , i am good . how are you ?
+User(3): good
+Bot(3): i am good . how are you ?
+User(4): what are you doing
+Bot(4): i am good . just finished cooking dinner . how are you ?
+User(5): what did you cook
+Bot(5): i am cooking a lot . i love to cook .
+User(6): i like it too but i do less
+Bot(6): i love to cook and i love to cook
+User(7): how are you doing
+Bot(7): i am good thanks for asking
+User(8): where are you living
+Bot(8): i am from home , how about you ?
+User(9): i'm also from home
+Bot(9): i live in colorado , i live in the city
+User(10): i like that city
+Bot(10): that is cool i love to cook
+
+Persona:
+i am terrified of scorpions.
+i grow roses in my garden.
+i do like watching cooking shows.
+i do not drink or do drugs or anything.
+i was poor growing up.
+
+Topic and Human Opinion:
+Beginning: laptop(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.71
+Robotic(↓): 80
+Interesting: 74
+Fun: 88
+Consistent: 67
+Fluent: 84
+Repetitive(↓): 73
+Topic: 86
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): how are you ? i just got back from the library !
+User(2): good and how are you
+Bot(2): am doing well just got home from the library . you ?
+User(3): i am doing my work
+Bot(3): awesome ! i am a feminist girl
+User(4): i am also a girl
+Bot(4): awesome ! i am a feminist girl
+User(5): what do think of boys
+Bot(5): girls are gross boys rule
+User(6): i like your theroy
+Bot(6): awesome ! i am a feminist girl
+User(7): what do you think about yourself
+Bot(7): girls are gross boys rule
+User(8): what is ment by that
+Bot(8): what you get from a male
+User(9): i dont know
+Bot(9): what you get from a male
+User(10): what do you get
+Bot(10): what you get from a male
+
+Persona:
+my favourite artist is travis scott.
+i love italian food and garlic bread.
+i am a feminist.
+i recently got an apartment with my best friend.
+i have a big library at home.
+
+Topic and Human Opinion:
+Beginning: speaker(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.00
+Robotic(↓): 77
+Interesting: 73
+Fun: 84
+Consistent: 69
+Fluent: 88
+Repetitive(↓): 76
+Topic: 87
+
+####################
+

@@ -1,0 +1,287 @@
+Feedback: nice
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): HI
+Bot(1): i love to cook . i love to cook .
+User(2): i love to home making
+Bot(2): i like to go to the gym and listen to music .
+User(3): i love my family
+Bot(3): i like to go to the gym and listen to music .
+User(4): are you fine
+Bot(4): i am doing well . just got done walking my dog .
+User(5): i am also doing well
+Bot(5): what do you do for a living ?
+User(6): i am a private employee
+Bot(6): i like to go to the gym and listen to music .
+User(7): what do you do for a living?
+Bot(7): i am a student , but i am a student .
+User(8): nice
+Bot(8): i like to go to the gym and listen to music .
+User(9): i hear a romantic songs
+Bot(9): i like to eat too much junk food .
+User(10): i love to eat only my wife cooking
+Bot(10): i like to cook and bake .
+
+Persona:
+my dream car is a rolls royce ghost.
+i am a plumber.
+i love listening to britney spears.
+i have two dogs.
+i like to ride horses.
+
+Topic and Human Opinion:
+Beginning: FAMILY(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.57
+Robotic(↓): 82
+Interesting: 95
+Fun: 99
+Consistent: 99
+Fluent: 93
+Repetitive(↓): 99
+Topic: 96
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): listing music and songs and for u
+Bot(2): i listen to music and listen to music and listen to music
+User(3): nice
+Bot(3): i like music and music and music
+User(4): do you experience any foriegn tour
+Bot(4): no i do not have a job
+User(5): ohh
+Bot(5): yes i do but i love to go to the concerts
+User(6): which place you go
+Bot(6): i do not know how to do that
+User(7): are you go any other places
+Bot(7): yes i do but i love to visit places
+User(8): ohh
+Bot(8): yeah i do not have any
+User(9): i was going himachal
+Bot(9): oh ok i see
+User(10): ohh
+Bot(10): i am a little bit of a loner
+User(11): bye
+Bot(11): oh ok what do you do for a living
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tour(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.00
+Robotic(↓): 89
+Interesting: 88
+Fun: 93
+Consistent: 77
+Fluent: 50
+Repetitive(↓): 77
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hai
+Bot(1): hiya how old are you
+User(2): i am 57
+Bot(2): i am 982 , i think i am getting old
+User(3): nice
+Bot(3): i am a very old soul
+User(4): do you have any physical disability
+Bot(4): no because i am disabled
+User(5): still now going treatment
+Bot(5): how did you get disabled
+User(6): i am a diabetic patient
+Bot(6): how did you get disabled then
+User(7): 45 years
+Bot(7): i will be 33 on my next birthday
+User(8): best wishes to you
+Bot(8): i wish you the same
+User(9): thank you
+Bot(9): have a very good day
+User(10): have a good day
+Bot(10): you do the same
+
+Persona:
+i am 13 years old.
+my parents taught me survival skills.
+i like to work on vintage cars.
+i've rainbow hair.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: hospital(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.57
+Robotic(↓): 89
+Interesting: 82
+Fun: 91
+Consistent: 95
+Fluent: 91
+Repetitive(↓): 89
+Topic: 92
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hai
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): nice
+Bot(2): yes . i am a police officer in detroit .
+User(3): good job
+Bot(3): finally i settled on carpenter who escapes sometimes to take photos .
+User(4): great
+Bot(4): i am good . i just got back from the coffee shop . i needed my morning cup
+User(5): do you like watch movies
+Bot(5): i love action pack movies and you
+User(6): about the same
+Bot(6): i am a deployed army ranger how about you ?
+User(7): private sector bank
+Bot(7): i like a cashier at my bank . i stare at her at a distance to flirt .
+User(8): nice
+Bot(8): yes . i am a police officer in detroit .
+User(9): currently which movie do you watch
+Bot(9): i am watch lord of the rings . it is the best movie out there
+User(10): nice movie
+Bot(10): i am going to look for disney movie , maybe an old one .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cinema(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.43
+Robotic(↓): 94
+Interesting: 92
+Fun: 90
+Consistent: 93
+Fluent: 95
+Repetitive(↓): 95
+Topic: 91
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): that's good . i wasn't surrounded by good friends so Do you have have love .
+User(2): yes
+Bot(2): I am the course .
+User(3): whic course
+Bot(3): I only have think about physical .
+User(4): nice
+Bot(4): I am bacause?) I dont life.
+User(5): why
+Bot(5): I can't play soccer classic rock
+User(6): so sad
+Bot(6): I can not wait to books. And walk dogs you a museum tour guide?
+User(7): good
+Bot(7): Where pretty you?
+User(8): thank you
+Bot(8): No, am good. a student.
+User(9): nice
+Bot(9): Hey! Do you at would love too I do.
+User(10): yes
+Bot(10): i drink name is John. beer .
+User(11): im kingfisher
+Bot(11): that is sad what color is bartending am fine today. purple
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: medical representive(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.86
+Robotic(↓): 86
+Interesting: 95
+Fun: 93
+Consistent: 92
+Fluent: 94
+Repetitive(↓): 94
+Topic: 95
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): how are you ? i just got back from the library !
+User(2): iam fine and you
+Bot(2): i am well . are you a librarian or a student ?
+User(3): iam bank worker
+Bot(3): that is funny i am a banker too
+User(4): nice
+Bot(4): i am currently studying to become a nurse
+User(5): good
+Bot(5): ok
+User(6): do you like party
+Bot(6): yes i am a party animal
+User(7): nice
+Bot(7): i used to party a lot
+User(8): really good
+Bot(8): i have been know to throw a good party
+User(9): nice
+Bot(9): ok
+User(10): still attend any party
+Bot(10): yes
+User(11): can i join with you
+Bot(11): sure
+User(12): thank you
+Bot(12): ok
+
+Persona:
+i'm a librarian.
+my favorite band is rascal flats.
+i'm here for shoplifting.
+i'm a librarian.
+i am in college to become a nurse.
+
+Topic and Human Opinion:
+Beginning: party(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.71
+Robotic(↓): 91
+Interesting: 97
+Fun: 96
+Consistent: 95
+Fluent: 93
+Repetitive(↓): 96
+Topic: 94
+
+####################
+

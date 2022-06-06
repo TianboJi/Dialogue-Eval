@@ -1,0 +1,277 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi. Have been keeping up to date on sports?
+Bot(1): no , i am a professional star .
+User(2): Wow. A star in what?
+Bot(2): i am a professional star wars fan .
+User(3): Very cool. I’m not a big fan of Star Wars.
+Bot(3): i am a star wars fan . i am a star wars fan .
+User(4): What do you like so much about Star Wars?
+Bot(4): i like star wars . i am a star wars fan .
+User(5): What else do you like?
+Bot(5): i like star wars . i am a star wars fan .
+User(6): Ok. Thanks.
+Bot(6): i like to listen to music while i am a good fit
+User(7): What kind of music?
+Bot(7): i like music . i like all kinds of music .
+User(8): Me too. But rock is my favorite.
+Bot(8): i like country music . i like all kinds of music .
+User(9): I really like country music. I love going to Nashville.
+Bot(9): i love to visit museums . i have a lot of music for my job .
+User(10): Sounds interesting.
+Bot(10): i love it . i am a pretty good star wars fan .
+User(11): Ok. Well bye for now.
+Bot(11): i am sure you are . i am a professional star wars fan .
+
+Persona:
+i've a pet turtle.
+i have one older sister.
+i produce music for artists.
+i am a stunt double as my second job.
+i currently work for a watch dealer.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.43
+Robotic(↓): 100
+Interesting: 27
+Fun: 34
+Consistent: 32
+Fluent: 39
+Repetitive(↓): 100
+Topic: 60
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Good morning.
+Bot(1): I'm your riverside.
+User(2): What do you mean?
+Bot(2): 'Cause I’m good, what coached football.
+User(3): You like football?
+Bot(3): It's liked sports ''
+User(4): I like sports too. Football is my favorite.
+Bot(4): It is. I am a your father is a gym.
+User(5): You are not making sense.
+Bot(5): I am love ping old?! I like facebook.
+User(6): I’m not on Facebook. I like Twitter.
+Bot(6): I do not have any kids, am close to. I kids.
+User(7): I have no kids too.
+Bot(7): that's cool , i am in the olympics , are in too. I'm pilot , so i don't have time for tv .
+User(8): What sport you play?
+Bot(8): Nice! I am a big you bye I cant i am not really into sports.
+User(9): Bye
+Bot(9): there are it's interesting am i like 👬
+User(10): You enjoy watching the Olympics?
+Bot(10): I think you like Mickey girl
+
+Persona:
+i am a vegan.
+i've rainbow hair.
+i have been traveling the world for a years.
+i spend a lot of time browsing the internet.
+i am a vegan and i love hummus.
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 17
+Consistent: 7
+Fluent: 16
+Repetitive(↓): 75
+Topic: 16
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): How is the weather by you?
+Bot(1): cloudy here . but it feels more like fall so that is exciting .
+User(2): I know! But I’m going to miss the summer. It’s cloudy here too.
+Bot(2): cloudy here . but it feels more like fall so that is exciting .
+User(3): Fall means football. So I am happy.
+Bot(3): yeah , too bad fall is coming . do you have anything else you would like to mention ?
+User(4): I’m not looking forward to the cold weather and snow.
+Bot(4): i agree this is not my favorite time of year . except for sports , i love fall sports .
+User(5): Time to pack my summer clothes and take my jackets out.
+Bot(5): i cannot wait . i love fall . the air is crisp and cool weather .
+User(6): Yes. It feels good. And we can go apple picking.
+Bot(6): i am going apple picking with my kids .
+User(7): Sounds like fun. Make sure you get some apple cider.
+Bot(7): i prefer hard cider from the winery down the road .
+User(8): Too funny. I hear you. You might need after a day of apple picking.
+Bot(8): i am experimenting with apple blends right now .
+User(9): Wow. You have to let me know how that goes.
+Bot(9): we only drink apple martinis at girls night . you like those ?
+User(10): I don’t. But my wife loves them.
+Bot(10): i am craving another apple . they make me break out but i still eat them .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 92.14
+Robotic(↓): 19
+Interesting: 88
+Fun: 87
+Consistent: 100
+Fluent: 97
+Repetitive(↓): 8
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Will you be voting this year?
+Bot(1): you will have a car in no time just stay focused . congrats on going to college .
+User(2): Are you interested in politics?
+Bot(2): restaurant or sporting goods store . i am a grill cook and saving for my own kitchen
+User(3): What do you cook?
+Bot(3): there is nothing i cannot cook . i am a chef .
+User(4): Cool. What is your specialty?
+Bot(4): i really like french food
+User(5): Me too! Have you ever been to France?
+Bot(5): for one , big thing , people do not die or go broke because of being sick . us different
+User(6): What does that have to do with cooking?
+Bot(6): i am making roasted chicken , sweet potatoes and broccoli
+User(7): Yummy. That sounds so good.
+Bot(7): oh that is cool . my coworker just wrote an article on how its coming to an end .
+User(8): Where do you work?
+Bot(8): its a large law firm in nyc near time square . you ?
+User(9): I work in a hospital in NY.
+Bot(9): i do stunts and post them on social media . this stunt broke my leg .
+User(10): You sound like a risk taker.
+Bot(10): well , i am very shy and allergic to peanuts . it is not a fun life .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.43
+Robotic(↓): 100
+Interesting: 7
+Fun: 20
+Consistent: 10
+Fluent: 24
+Repetitive(↓): 67
+Topic: 14
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Are you a movie buff?
+Bot(1): no , i like to go to the gym .
+User(2): I like going to gym too. I usually watch a movie on the treadmill.
+Bot(2): i like to go to the lake and listen to music .
+User(3): That sounds relaxing. You should have a drink too.
+Bot(3): i do not know what to say .
+User(4): Do you go fishing on the lake?
+Bot(4): no , i do not . i like to go fishing .
+User(5): Can you swim on the lake?
+Bot(5): no , i do not , but i do like to go fishing .
+User(6): I like fishing too. Any luck lately catching fish?
+Bot(6): i do not know . i like to eat fish .
+User(7): I enjoy eating fresh water fish. Salmon is my favorite.
+Bot(7): i like to eat fish .
+User(8): Fish is healthy for you. We need to eat more fish and less meat.
+Bot(8): i like to eat fish .
+User(9): Me too. But I need to eat more fish.
+Bot(9): i like to eat fish .
+User(10): Which is your favorite?
+Bot(10): i like the color red . what is yours ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.29
+Robotic(↓): 93
+Interesting: 59
+Fun: 59
+Consistent: 36
+Fluent: 39
+Repetitive(↓): 78
+Topic: 39
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi. How are you?
+Bot(1): am fine . thank you for asking
+User(2): Any plans for today? I will be cooking.
+Bot(2): sure
+User(3): Any suggestions on what I should make?
+Bot(3): pasta , i am just naturally a good cook . do not be afraid of spices
+User(4): I love pasta! Definitely adding spices.
+Bot(4): i am planing what i will be cooking tonite , pasta is a good option
+User(5): Yes. It’s delicious and easy to make.
+Bot(5): any good recipe i should try ?
+User(6): Linguini and clams is always good.
+Bot(6): that does sound good . we are having pasta with scallops tonight .
+User(7): Yummy. Scallops is a good choice too.
+Bot(7): that does sound good . we are having pasta with scallops tonight .
+User(8): You should invite me. I’m hungry.
+Bot(8): you are not going to invite me ? lol
+User(9): You are always welcomed to come over.
+Bot(9): do you want to come for some dinner ? i will cook .
+User(10): Yes! That is so nice of you.
+Bot(10): do you want to come for some dinner ? i will cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.71
+Robotic(↓): 72
+Interesting: 66
+Fun: 75
+Consistent: 73
+Fluent: 93
+Repetitive(↓): 28
+Topic: 81
+
+####################
+

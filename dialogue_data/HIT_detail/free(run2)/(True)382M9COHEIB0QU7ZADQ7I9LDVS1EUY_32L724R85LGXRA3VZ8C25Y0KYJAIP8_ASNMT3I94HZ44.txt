@@ -1,0 +1,277 @@
+Feedback: n/a
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I hate the Astros!
+Bot(1): i am so sorry to hear that . i am deaf so i am deaf
+User(2): Do you have a favorite team?
+Bot(2): i like the nfl and i am in the 3rd grade
+User(3): What about MLB
+Bot(3): i like baseball and i am in the 3rd grade
+User(4): Do you like the Yankees
+Bot(4): i am not sure . i like baseball and i am deaf .
+User(5): I hate the Red Sox
+Bot(5): i am not sure if i want to move out
+User(6): Do you have a rival team
+Bot(6): i am not sure what that means
+User(7): What teams do you hate
+Bot(7): i am not sure what that means
+User(8): My favorite team is New York
+Bot(8): i am in the 3rd grade
+User(9): The Astros cheated
+Bot(9): i am not sure what that means
+User(10): Do you like the Nationals
+Bot(10): i am not sure what that means
+
+Persona:
+i am in the third grade.
+i enjoy reading journals and guides related to psychology.
+i'm planning on getting a divorce.
+i am partly deaf.
+i'm 19 and i cannot wait to move out 19 my parents home.
+
+Topic and Human Opinion:
+Beginning: Baseball(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.29
+Robotic(↓): 23
+Interesting: 3
+Fun: 8
+Consistent: 9
+Fluent: 50
+Repetitive(↓): 72
+Topic: 2
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): The Lakers won
+Bot(1): familar you are angeles low of lakers the
+User(2): I like the Nets
+Bot(2): familar you are angeles low of lakers the
+User(3): Do you like any NBA teams
+Bot(3): my favorite nba team is the wizards
+User(4): Who is your favorite player there
+Bot(4): i do not know any player names maybe curry ?
+User(5): What about Beal
+Bot(5): i do not know any player names maybe curry ?
+User(6): He doesn't play for them
+Bot(6): oh that is no good he is probably out for the season
+User(7): He got hurt last year
+Bot(7): oh that is no good he is probably out for the season
+User(8): Do you like lebron
+Bot(8): i think that he is okay
+User(9): What about AD?
+Bot(9): i think that he is okay
+User(10): I like Kevin Durant
+Bot(10): do you care about kj though ?
+User(11): I love KJ so much.
+Bot(11): do you care about kj though ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Basketball(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.71
+Robotic(↓): 39
+Interesting: 29
+Fun: 31
+Consistent: 52
+Fluent: 50
+Repetitive(↓): 67
+Topic: 57
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like NFL
+Bot(1): i do not know . i like to go to the gym .
+User(2): I'm talking about football
+Bot(2): i love to go fishing .
+User(3): Do you know Mahomes?
+Bot(3): no , i do not . i am a big fan of classical music .
+User(4): He's a QB
+Bot(4): i love the color red . i like the color blue .
+User(5): What's your favorite football team
+Bot(5): i like the color red . i like the color blue .
+User(6): Mine is HOU
+Bot(6): i like to go to the gym and listen to music .
+User(7): Do you like Hopkins at WR?
+Bot(7): no , i do not . i like to go to the park .
+User(8): What about JJ Watt?
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): I can't wait for the Super Bowl
+Bot(9): i am a bit of a loner
+User(10): NFL is fun
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i buy only organic food products.
+i work my parents farms.
+i am currently in high school.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my favorite activity is rock climbing.
+
+Topic and Human Opinion:
+Beginning: NFL(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.29
+Robotic(↓): 38
+Interesting: 15
+Fun: 6
+Consistent: 31
+Fluent: 43
+Repetitive(↓): 68
+Topic: 2
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I can't wait for the new Family Guy episode
+Bot(1): you should think of walking when i gorgeous its gonna through around manhattan
+User(2): Who's your favorite character
+Bot(2): i heard alot of to go out .
+User(3): I like Peter Griffin
+Bot(3): i m should play piano keys
+User(4): Do you know Stewie?
+Bot(4): i've my sons.
+User(5): He's the baby in the show
+Bot(5): I am a don't have any you?
+User(6): He likes to do things with Brian
+Bot(6): I I love my and play hockey
+User(7): Any favorite cut scenes?
+Bot(7): I love tanning beds. I am I lost a leg you do for work?
+User(8): Chris is funny too in that show
+Bot(8): money won't buy happiness but makes a i feel great, and it
+User(9): Have you even seen any episodes?
+Bot(9): I work are you? farm.
+User(10): Lois is hot!
+Bot(10): i really a coincidence! What type of for foraging , which is good for cooking !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Family Guy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.71
+Robotic(↓): 13
+Interesting: 1
+Fun: 5
+Consistent: 24
+Fluent: 52
+Repetitive(↓): 63
+Topic: 2
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you wear a mask everywhere?
+Bot(1): yea , i get to see all sorts of things on the road
+User(2): Have you been staying in more?
+Bot(2): lots to do in russia i am sure . good vegan food in moscow ?
+User(3): I'm getting tired of stay at home orders
+Bot(3): i found that a steak half rare always lifts my mood .
+User(4): Social distancing is also getting tiring
+Bot(4): i have 1 and sometimes a handful i would never sing to him .
+User(5): Everything is closed still and it's boring
+Bot(5): lol , i doubt everyone unlike you is boring . i personally do not like flakes .
+User(6): I really want this to end
+Bot(6): enjoying my pretentious hipster life . watching the voice and planning my next vacation .
+User(7): I still work at home and it's becoming a drag
+Bot(7): i am engineer , i have already completed my studies . sorry you are behind !
+User(8): Have you ever gotten tested for COVID?
+Bot(8): me too , it has been hard with his death . was gonna go see them in tahoe .
+User(9): I feel like I should get tested but I never do
+Bot(9): trust me . . . you are good enough and you will find your calling
+User(10): Stay safe and healthy!
+Bot(10): yep its the best dish in the world . so tasty and healthy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: COVID(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.00
+Robotic(↓): 41
+Interesting: 26
+Fun: 18
+Consistent: 73
+Fluent: 68
+Repetitive(↓): 39
+Topic: 10
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I hate going to work
+Bot(1): i love to go to work everyday
+User(2): What do you do
+Bot(2): i do not like to work
+User(3): I hate it too. Mine's boring
+Bot(3): yea , i do not like work either !
+User(4): Where do you work
+Bot(4): i work at gabes and it can be exhausting
+User(5): Yeah I have an office job
+Bot(5): what do usually do an office
+User(6): Sit in front of a computer all day
+Bot(6): i sit at a computer all day long
+User(7): Same! It's really boring huh
+Bot(7): yeah it is quite tedious work
+User(8): I want to quit
+Bot(8): me to it is so slow
+User(9): Should I quit my job?
+Bot(9): then open it up yeah
+User(10): Work is so lame I want to leave
+Bot(10): me to it is so slow
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Going to work(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.00
+Robotic(↓): 57
+Interesting: 49
+Fun: 45
+Consistent: 64
+Fluent: 71
+Repetitive(↓): 39
+Topic: 73
+
+####################
+

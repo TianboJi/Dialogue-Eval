@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi there, do you like to play basketball with me at the park?
+Bot(1): i do , i love to play basketball .
+User(2): What time are you gonna be ready. I can pick you up with my car
+Bot(2): i am a plumber , i am a plumber .
+User(3): What? you are confusing me. Do you want to come with me or not?
+Bot(3): sure , i am a plumber . i am a plumber .
+User(4): You are playing games with me. This is crazy
+Bot(4): i am not sure . i am a plumber .
+User(5): I know you are a plumber. Are you saying you are busy?
+Bot(5): i am a plumber . i am a plumber .
+User(6): YEs you are but thats is not the point of this conversation
+Bot(6): i am a plumber . i am a plumber .
+User(7): yeah. Good ahead keep repeating
+Bot(7): i am glad you are doing well
+User(8): Actually I am not because of your reply
+Bot(8): i am sorry to hear that .
+User(9): You could have been a better listener
+Bot(9): i am not sure . i am a plumber .
+User(10): Again same answer
+Bot(10): i have been to a few times .
+
+Persona:
+i am a plumber.
+i've short hair.
+since the surgery i have had strange powers.
+i am planning on getting a divorce.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: Games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 16
+Fluent: 38
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you want to go to a movie this afternoon
+Bot(1): what is your favorite movie ?
+User(2): Catch me if you can. You?
+Bot(2): oh yeah ? what kind of fishing ? i live by a lake trout and bass .
+User(3): What? I talking about movies? what is your favorite?
+Bot(3): thanks . do you play soccer ? i am so good i got a scholarship for it !
+User(4): No. I actually hate it
+Bot(4): how about pizza . i love pizza , i cannot imagine that anyone would hate that . . .
+User(5): I do love pizza form time to time
+Bot(5): i love pepperoni pizza , it is so yummy
+User(6): WHere do you buy your pizza?
+Bot(6): ha pizza is my favorite food also .
+User(7): How about cold pizza?
+Bot(7): i love fruits and vegetables . i do not eat any meat .
+User(8): You just said you love pizza peperoni
+Bot(8): i do not really enjoy pizza . i enjoy salads . and other healthy choices .
+User(9): you are lying
+Bot(9): how skinny are your fingers ? can i film your fingers ? i am obsessed with this hobby .
+User(10): you are a creep
+Bot(10): fascinating ! what is it about snakes and spiders that you are into ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.29
+Robotic(↓): 100
+Interesting: 42
+Fun: 50
+Consistent: 13
+Fluent: 37
+Repetitive(↓): 73
+Topic: 8
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Which sports do you like?
+Bot(1): mostly baseball how about you ?
+User(2): Basketball. Which team is your favorite?
+Bot(2): i like the sea hawks
+User(3): You mean the seattle seahawks NFL?
+Bot(3): no doubt about it . packers .
+User(4): What? You just said seahawks?
+Bot(4): the football team ?
+User(5): From the NFL. Then you said Green bay Packers?
+Bot(5): no doubt about it . packers .
+User(6): DO you like both teams?
+Bot(6): no doubt about it . packers .
+User(7): do you like both teams?
+Bot(7): no doubt about it . packers .
+User(8): Ok. Let switch topics. Seems like you are not answering my question. WHich state are you from?
+Bot(8): pennsylvania . i have a sustainable farm here .
+User(9): What kind of plants do you have?
+Bot(9): red . i am trying to get laws changed to keep them from slaughter for food .
+User(10): I dont understand what you mean
+Bot(10): well my father is a gardener and has made me love plants a lot .
+
+Persona:
+i enjoy coloring books.
+my father is a farmer.
+i will graduate from high school in two years.
+i have five sons.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.43
+Robotic(↓): 100
+Interesting: 24
+Fun: 12
+Consistent: 14
+Fluent: 50
+Repetitive(↓): 87
+Topic: 9
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorite toy growing up?
+Bot(1): adult toys ! are you a student ? i am .
+User(2): I love legos. I am not anymore
+Bot(2): i like to play with legos
+User(3): Cool we should hang out
+Bot(3): sure . i would . i love friends
+User(4): You love to be my friend?
+Bot(4): sure . i would . i love friends
+User(5): where do you live?
+Bot(5): i am pretty old . i do not want to tell you
+User(6): You're pretty and you are a student?
+Bot(6): i am also a student
+User(7): Old and a student. are you doing master degree?
+Bot(7): no i want to be a radiologist
+User(8): That cool. Is it hard?
+Bot(8): not really hard just boring lol
+User(9): Thats part of education process
+Bot(9): yeah i want to learn new things
+User(10): never hurts to learn something new
+Bot(10): yeah i want to learn new things
+
+Persona:
+my favorite band is the who.
+i enjoy working with my hands and love gardening.
+i love new kids on the block.
+i'm a cancer survivor.
+i like tacos.
+
+Topic and Human Opinion:
+Beginning: Toys(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.29
+Robotic(↓): 95
+Interesting: 22
+Fun: 18
+Consistent: 27
+Fluent: 66
+Repetitive(↓): 24
+Topic: 33
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Are you taking any medicine?
+Bot(1): I am a not salesman. I sell insurance.
+User(2): I am not asking for your job
+Bot(2): What not that do?
+User(3): Im asking for any pills you take?
+Bot(3): Why must find thanks need to sin.
+User(4): do you have any illness?
+Bot(4): hello, your problem with me? I just got back from a winter collection
+User(5): I dont care about winter collection
+Bot(5): Hello! you wear What day going? 😊
+User(6): you are confusing
+Bot(6): i do not have a job was did you what have any children .
+User(7): I dont understand
+Bot(7): Nice to see you! i like to moved to a got it.
+User(8): are you a foreigner? cant speak straight
+Bot(8): Buongiorno! Such a nice day! How are both! And what is not like chicken
+User(9): I am good but I think you are rambling words
+Bot(9): I am not into home now my mother my favorite .
+User(10): Good bye
+Bot(10): he It sounds crazy spend ride horses when i've free time . he ha .. Also, try to guess: my brother is ...
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Medicine(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Which books do you like to read?
+Bot(1): i love to read , and do some experiments .
+User(2): Great. which kind of books?
+Bot(2): i like the classics and the reverend horton heat .
+User(3): I love watching TV than reading books
+Bot(3): i like to read too .
+User(4): I also hate studying
+Bot(4): i am a teacher , i love to cook .
+User(5): Sorry to hear that. I bet it is a hard profession
+Bot(5): it is . i am a student .
+User(6): you are both?
+Bot(6): i am a student , but i am a student .
+User(7): thats funny but weird
+Bot(7): i like to eat too much junk food .
+User(8): you are not makign sense
+Bot(8): i am a student , but i am a student .
+User(9): your answer confused me
+Bot(9): i am a student , but i am a student .
+User(10): This ia getting out of hand
+Bot(10): i love the color red . i like the color blue .
+
+Persona:
+mickey mouse is my favorite character.
+i've a cat named spook.
+i'm scared of dying.
+i own a yacht and i rent it out when i am not using it.
+my favorite color is blue.
+
+Topic and Human Opinion:
+Beginning: Study(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 17
+Topic: 0
+
+####################
+

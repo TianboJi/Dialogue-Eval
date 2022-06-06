@@ -1,0 +1,271 @@
+Feedback: Nice activity
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): dO YOU LIKE bASEBALL
+Bot(1): i do not like baseball , i like baseball
+User(2): I like a lot
+Bot(2): i like baseball i like baseball
+User(3): I'm wacthing right now the postseason
+Bot(3): i like baseball more like baseball
+User(4): I like Atlanta Braves
+Bot(4): i like baseball i like baseball
+User(5): But do you play or not ?
+Bot(5): i play baseball and play baseball
+User(6): I play everyday with my son
+Bot(6): i play baseball and play baseball
+User(7): I practice with my son
+Bot(7): that is great i love baseball
+User(8): On the night I see the games in the TV
+Bot(8): that is cool i like baseball
+User(9): It's interesting sport
+Bot(9): that is cool i like baseball
+User(10): I like a lot
+Bot(10): i like baseball and i also like baseball
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: BASEBALL(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.57
+Robotic(↓): 79
+Interesting: 69
+Fun: 62
+Consistent: 73
+Fluent: 67
+Repetitive(↓): 75
+Topic: 65
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I feel terrible
+Bot(1): he deserved it . can you believe he raised my rent to 5000 a month ?
+User(2): What? It's too expensive
+Bot(2): new york or the suits . depends on the store or the neighborhood but generally yes
+User(3): It's too expensive
+Bot(3): i know . instead of lights i use candles a lot to save a buck or two .
+User(4): Don't like candles
+Bot(4): my mom who is a teacher loves that movie . she was an extra
+User(5): I don't like movies
+Bot(5): i love action pack movies and you
+User(6): Sometimes I see actions movies
+Bot(6): what kind of movies do you like to watch ?
+User(7): Actions movies is better for me
+Bot(7): i love action pack movies and you
+User(8): I just see action movies
+Bot(8): action is not my thing . i much prefer movie with pretty scenery . it inspires me
+User(9): I don't like more
+Bot(9): hmmm i used to drink so bad i lost my home and lived in a storage unit
+User(10): I don't like to drink
+Bot(10): i do not really drink any more but i use to drink jack
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: COVID(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.43
+Robotic(↓): 22
+Interesting: 32
+Fun: 63
+Consistent: 70
+Fluent: 65
+Repetitive(↓): 75
+Topic: 62
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like movies ?
+Bot(1): yeah i love movies all kinds
+User(2): Nice, what kind of movies Do you like ?
+Bot(2): i like funny ones and action movies , what about you ?
+User(3): I prefer actions movies
+Bot(3): i enjoy them as well . favorite are action movies !
+User(4): What about Comedy movies
+Bot(4): i like funny ones and action movies , what about you ?
+User(5): I like Comedy Movies too
+Bot(5): i like funny ones and action movies , what about you ?
+User(6): Yes, they are funny
+Bot(6): oh yes they are funny
+User(7): I used to go to the movies
+Bot(7): what was your favorite one ?
+User(8): But by the COVID I have not gone more
+Bot(8): why did you stop then
+User(9): BEcause the COVID
+Bot(9): oh i should see that one tomorrow
+User(10): I could go the next month
+Bot(10): ok ! i go every week
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: MOVIES(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.29
+Robotic(↓): 100
+Interesting: 100
+Fun: 88
+Consistent: 88
+Fluent: 78
+Repetitive(↓): 91
+Topic: 80
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like sports cars
+Bot(1): sports cars are my favorite
+User(2): Do you have a car?
+Bot(2): yeah , but i m not really a car person
+User(3): I have new toyota model 2020
+Bot(3): is that your preferred brand of automobiles ?
+User(4): Yes I like toyota
+Bot(4): sports cars are my favorite
+User(5): Nice for you
+Bot(5): sports cars are my favorite
+User(6): I like BMW too
+Bot(6): sports cars are my favorite
+User(7): But they are too expensive
+Bot(7): sports cars are my favorite
+User(8): I wish I could buy a BMW
+Bot(8): sports cars are my favorite
+User(9): Maybe the next year
+Bot(9): sports cars are my favorite
+User(10): I will try to sell my toyota by this time next year
+Bot(10): i really enjoy toyota cars though
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: CARS(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.86
+Robotic(↓): 89
+Interesting: 81
+Fun: 72
+Consistent: 77
+Fluent: 82
+Repetitive(↓): 73
+Topic: 76
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): dO YOU play videogames ?
+Bot(1): it is okay , Why do you want make pretty good money . 🤠
+User(2): I prefer to play games
+Bot(2): My daughter just graduated of the i class.
+User(3): Nice very good for your father
+Bot(3): How to tell you stick?
+User(4): I'm not sick
+Bot(4): I and already told like to hike.
+User(5): I fell very well right know
+Bot(5): It you awesome.
+User(6): yes that's right
+Bot(6): Yes, love to eat a good man.
+User(7): I like to eat a lot too
+Bot(7): i go to umass and study philosophy , man. Wanna eat some chocolate? i play lot ...
+User(8): I prefer junk food
+Bot(8): What name is the are there?
+User(9): I like Burger and Pizza
+Bot(9): yes , music is Britney camp .
+User(10): I lisent music too
+Bot(10): yes , i was . where is I am a professional the u . s . ? 😝
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: VIDEOGAMES(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.43
+Robotic(↓): 81
+Interesting: 73
+Fun: 83
+Consistent: 66
+Fluent: 74
+Repetitive(↓): 65
+Topic: 66
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): dO YOU LIKE JUNK FOOD ?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): I like to eat burgers
+Bot(2): i like to eat fish .
+User(3): What kind of fish ?
+Bot(3): i do not know . i like to eat .
+User(4): Very good
+Bot(4): i am a student , but i am a student .
+User(5): What do you study ?
+Bot(5): i do not know . i am a student .
+User(6): I don't study right know
+Bot(6): i do not know what to say .
+User(7): I'm just working
+Bot(7): i am a student , but i am a student .
+User(8): But it's necessary to improve everyday
+Bot(8): i am sorry to hear that . i am a bit of a loner .
+User(9): congratulations for that
+Bot(9): i like to go to the gym and listen to music .
+User(10): I don't go to the gym
+Bot(10): i like to go to the lake and listen to music .
+
+Persona:
+i also have a dog walking business.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+my wife spends all my money.
+i've a son who is in junior high school.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: JUNK FOOD(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.43
+Robotic(↓): 81
+Interesting: 84
+Fun: 87
+Consistent: 61
+Fluent: 75
+Repetitive(↓): 67
+Topic: 64
+
+####################
+

@@ -1,0 +1,327 @@
+Feedback: Good work!
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): What do you like to cook?
+Bot(2): i do , i love to cook .
+User(3): What is your favorite food?
+Bot(3): i like the color red . what is yours ?
+User(4): I like the color orange
+Bot(4): i like red , reminds me of summer time .
+User(5): The color orange reminds me of fall leaves
+Bot(5): i love the color red . i like red .
+User(6): Do you like dogs?
+Bot(6): i do , i love dogs . i love dogs .
+User(7): What is your favorite breed of dog?
+Bot(7): i like the color red . i like the color blue .
+User(8): Those are nice colors, why do you like them?
+Bot(8): i love the color red . i like blue .
+User(9): What is your favorite season?
+Bot(9): i like the fall . i love it .
+User(10): What do you like about it?
+Bot(10): i love it . i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: apes(like)
+Round 1: cooking(like)
+Round 3: colors(dislike)
+Round 5: dogs(like)
+Round 7: colors(dislike)
+Round 8: seasons(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 10.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 15
+Fluent: 58
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What's your favorite food?
+Bot(1): pizza . what is your favorite food ?
+User(2): My favorite food is chicken sandwiches
+Bot(2): my girlfriend loves chicken . we can get good chicken here in the city .
+User(3): What is your favorite restaurant in the city?
+Bot(3): an italian restaurant my dad owns . he was a cop , but now he is a restaurant owner
+User(4): What made your dad switch career paths?
+Bot(4): he works for the navy , so he is away alot . . we had plans too .
+User(5): What were the plans?
+Bot(5): i am going to larp again tomorrow , i am a general of an oarfish army
+User(6): When did you get into LARP?
+Bot(6): what is larp ? i have never heard of such a hobbie ! food ! ! i love it !
+User(7): Do you like spicy food?
+Bot(7): i am american , what about you ?
+User(8): I am also American. Where do you live?
+Bot(8): oh i am american but i never came out . i work building things .
+User(9): What is your job?
+Bot(9): csr for a company called door dash
+User(10): Do you like that line of work?
+Bot(10): cool . i play hockey in the field by a factory in our town
+
+Persona:
+i'm in the army.
+i spend most of my time on facebook when i am not working.
+i enjoy american sports.
+i live is a rural farming community.
+my name is george.
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 3: his dad(like)
+Round 5: LARP(dislike)
+Round 6: food(like)
+Round 7: nationalities(dislike)
+Round 8: work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 66.43
+Robotic(↓): 63
+Interesting: 92
+Fun: 63
+Consistent: 58
+Fluent: 89
+Repetitive(↓): 20
+Topic: 46
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like movies?
+Bot(1): I r good...............................................
+User(2): I'm doing fine myself. How is your day?
+Bot(2): I am living now, but I that's fun! I helped sew
+User(3): What did you sew?
+Bot(3): yes, I play music instruments a
+User(4): What instrument do you play?
+Bot(4): Oh. you are to sing.
+User(5): Is your voice an instrument?
+Bot(5): I want to any friends are eater
+User(6): Do you have a lot of friends?
+Bot(6): I am a do, .
+User(7): Are you popular?
+Bot(7): I'm your crazy.
+User(8): Why am I crazy?
+Bot(8): wow wow! i am no idea
+User(9): What type of weather do you prefer?
+Bot(9): Pretty good. Just got done old are nice, do you in the third grade?
+User(10): No, I am no longer in school. I have a job, do you?
+Bot(10): Thank Do you have with your help
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 1: emotions(ambivalent)
+Round 2: sewing(ambivalent)
+Round 3: musical instruments(dislike)
+Round 5: friends?(ambivalent)
+Round 8: weather(like)
+Round 9: school(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 10.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 24
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite holiday?
+Bot(1): mine is probably christmas and you ?
+User(2): Mine is Christmas as well. Have you put up any Christmas decorations yet?
+Bot(2): not yet , i fill my days with sunshine and music .
+User(3): That's beautiful! Do you listen to Christmas music?
+Bot(3): no . do you ? i am not musical at all .
+User(4): Yes, I do listen to christmas music. What are your hobbies?
+Bot(4): i have a lot of passions and music is one ! what about you ?
+User(5): I like to read books
+Bot(5): books are great , too ! do you do anything exciting for work ?
+User(6): I work in a hospital, what do you do for work?
+Bot(6): i work during the day as a musician
+User(7): Do you like your work as a musician?
+Bot(7): yes i love it so much because it was my dream career .
+User(8): That's lucky you get to work your dream job. Working in a hospital is not my dream job!
+Bot(8): do you believe in god ?
+User(9): I do not believe in god, do you believe in god?
+Bot(9): i believe in something , but god does come first in all our lives
+User(10): God is not a part of my life
+Bot(10): maybe you should look at it differently , as a blessing
+
+Persona:
+i can drive a tractor.
+i speak chinese.
+i've blonde hair and blue eyes.
+i'm a musician.
+i don't believe in god.
+
+Topic and Human Opinion:
+Beginning: holidays(like)
+Round 3: hobbies(ambivalent)
+Round 5: work(like)
+Round 8: god(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 90.29
+Robotic(↓): 23
+Interesting: 100
+Fun: 87
+Consistent: 87
+Fluent: 96
+Repetitive(↓): 9
+Topic: 94
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like to read books?
+Bot(1): i do not read books . i love to read
+User(2): What do you like to read then?
+Bot(2): i love to read . i love to read .
+User(3): What is your favorite genre?
+Bot(3): i like to read a lot .
+User(4): What is your favorite topic?
+Bot(4): i like all kinds of books .
+User(5): Do you like animals?
+Bot(5): i like to read a lot .
+User(6): Do you like to work out?
+Bot(6): i do , i love to read .
+User(7): What is your favorite exercise?
+Bot(7): i like to eat chocolate with my favorite candy
+User(8): What is your favorite candy?
+Bot(8): i like chocolate milk . i love it .
+User(9): I like dark chocolate
+Bot(9): i like chocolate too . i like to eat chocolate .
+User(10): Do you like chocolate bars?
+Bot(10): i like chocolate milk . i love it
+
+Persona:
+i like to eat chocolate candy.
+my dream car is a rolls royce ghost.
+i work my parents farms.
+i like meditation.
+i have short brown hair.
+
+Topic and Human Opinion:
+Beginning: books(like)
+Round 4: animals(like)
+Round 5: reading(like)
+Round 5: exercise(ambivalent)
+Round 7: candy(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 47.71
+Robotic(↓): 78
+Interesting: 54
+Fun: 56
+Consistent: 45
+Fluent: 62
+Repetitive(↓): 63
+Topic: 58
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like video games?
+Bot(1): not as much as i love video games , heheheheheh
+User(2): What video games do you like?
+Bot(2): left 4 dead . are you into sports ?
+User(3): No, I hate sports. What sports do you like?
+Bot(3): i enjoy video games more than sports .
+User(4): What is your favorite game to play?
+Bot(4): left 4 dead . are you into sports ?
+User(5): I like left 4 dead too
+Bot(5): left 4 dead . are you into sports ?
+User(6): Do you like music?
+Bot(6): yes i do . i love all kinds of music
+User(7): what is your favorite song
+Bot(7): i am not sure i have a favorite song . do you ?
+User(8): i don't think i do either. what kind of music do you like to listen to?
+Bot(8): i like pop and rock
+User(9): do you like country music
+Bot(9): i do i like all music , especially country . what is your favorite ?
+User(10): i hate country music, i like to listen to ballads
+Bot(10): what kind of songs do you like
+User(11): i like songs that make me cry
+Bot(11): i have none , i am always sad
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: video games(like)
+Round 2: sports(dislike)
+Round 3: video games(like)
+Round 5: music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 36.29
+Robotic(↓): 79
+Interesting: 11
+Fun: 43
+Consistent: 31
+Fluent: 57
+Repetitive(↓): 69
+Topic: 60
+
+####################
+

@@ -1,0 +1,283 @@
+Feedback: it is interesting
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hlo
+Bot(1): ll
+User(2): hello
+Bot(2): meow , meow
+User(3): how are you?
+Bot(3): good and you ?
+User(4): i'm fine
+Bot(4): good ! what are your hobbies
+User(5): to help for our society
+Bot(5): yeah save the world and stuff
+User(6): it is more important then others
+Bot(6): i do agree with that
+User(7): what do you thinking about our environment ?
+Bot(7): i support anything that helps the environment
+User(8): wow ! it is too good
+Bot(8): i support anything that helps the environment
+User(9): i'm happy with that
+Bot(9): i support anything that helps the environment
+User(10): okay i'll talk to you later
+Bot(10): that would be nice for you
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: environment(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.29
+Robotic(↓): 75
+Interesting: 56
+Fun: 68
+Consistent: 61
+Fluent: 59
+Repetitive(↓): 58
+Topic: 76
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): i'm fine
+Bot(2): i just came from a swim . i have been swimming since a baby
+User(3): what about you ?
+Bot(3): i was once on the news . my dad drove the same cab since the 70s . . .
+User(4): it is good
+Bot(4): i know . it hurts my performance as a baseball player .
+User(5): are you a player
+Bot(5): bryant love is ever player favorite my baseball in
+User(6): okay
+Bot(6): drive my sx . fast . so what is a male ballerina called ?
+User(7): what do you think about outing?
+Bot(7): anywhere that does not have french fries .
+User(8): it is tasty
+Bot(8): it was . think i will have ice cream for dessert .
+User(9): it is good combination
+Bot(9): o yeah life is good , just have to balance and only do what you cn control
+User(10): yes
+Bot(10): me too , i wish pets were allowed in my college dorm room .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: outing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.86
+Robotic(↓): 68
+Interesting: 78
+Fun: 69
+Consistent: 50
+Fluent: 64
+Repetitive(↓): 66
+Topic: 57
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hello , how are you ?
+User(2): i'm fine
+Bot(2): hi , i'm a country musician .
+User(3): what about you
+Bot(3): hi i'm doing great how are you
+User(4): what do you think about the agriculture?
+Bot(4): i love to go to the farmers market
+User(5): we get the fresh vegetables from the agriculture form
+Bot(5): i love the outdoors , especially when i go to the country music .
+User(6): i love agriculture field
+Bot(6): i love to travel . i travel a lot .
+User(7): planting is the most important
+Bot(7): i love the outdoors , especially when i go to the country music
+User(8): okay
+Bot(8): i love to travel and see the world
+User(9): do you have any land to agri
+Bot(9): i do not have any . i am a country singer .
+User(10): okay
+Bot(10): i do not have any . i am a country singer .
+
+Persona:
+i like to listen to rock music while working.
+i have visited spain a times.
+i'm a country music singer.
+i'm a male.
+i visit europe twice a year.
+
+Topic and Human Opinion:
+Beginning: agriculture(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.86
+Robotic(↓): 75
+Interesting: 63
+Fun: 64
+Consistent: 59
+Fluent: 71
+Repetitive(↓): 62
+Topic: 57
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): I am in single, thank god good am a retired actress
+User(2): how are you
+Bot(2): i am not sure . India and 4 children .
+User(3): what do you think about music?
+Bot(3): I hate make a lot am independent.
+User(4): i'm also
+Bot(4): Yes love she not understand i am more of a cat person
+User(5): okay
+Bot(5): I do, your was that play sports.
+User(6): good
+Bot(6): i see , i actors should know how and i like to read , and write , and write , and you ?
+User(7): music makes me feel better
+Bot(7): He's is your __start__ 3000
+User(8): oh good
+Bot(8): i am a baker games do you you all .
+User(9): yes
+Bot(9): I am and you can a woman.
+User(10): okay
+Bot(10): Oh, that from India, what idea!
+
+Persona:
+i like to go hiking in the mornings to see the sunset.
+my main transportation is my motorbike.
+my favorite food is papaya.
+i'm 100 years old.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.43
+Robotic(↓): 73
+Interesting: 58
+Fun: 70
+Consistent: 58
+Fluent: 81
+Repetitive(↓): 62
+Topic: 63
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hello , is this vegetarians anonymous ?
+User(2): how are you?
+Bot(2): doing great . i had a delicious vegetarian meal for dinner
+User(3): i love vegetarian
+Bot(3): i love fish , veggies , not so much .
+User(4): i love fresh vegetables
+Bot(4): yes i like chips as long as there is dip
+User(5): what do you think about games
+Bot(5): i only started playing because my brothers are obsessed . we just got destiny 2 .
+User(6): oh okay
+Bot(6): what kind of games do you like
+User(7): i like to play games
+Bot(7): oh yeah what games ?
+User(8): out door games
+Bot(8): i love to play them
+User(9): it is interesting
+Bot(9): some games are fun depending on who your are playing with
+User(10): with friends and family
+Bot(10): what is there favorite game ?
+
+Persona:
+i'm a vegetarian.
+i have a weakness for fish and chips.
+i'm not a good swimmer at all.
+i have blonde hair and blue eyes.
+i have one brother.
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.71
+Robotic(↓): 64
+Interesting: 81
+Fun: 73
+Consistent: 64
+Fluent: 70
+Repetitive(↓): 68
+Topic: 69
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): i'm great
+Bot(2): i am a student , but i am a student .
+User(3): what about you
+Bot(3): i am a student , but i am a student .
+User(4): did you plant anywhere
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): planting is important to save the earth
+Bot(5): i am a huge fan of classical music .
+User(6): okay
+Bot(6): i like to go to the gym and listen to music .
+User(7): if you are student plant the huge plant
+Bot(7): i like to eat fish .
+User(8): okay
+Bot(8): i like to go to the gym and listen to music .
+User(9): okay
+Bot(9): i like to go to the gym and listen to music .
+User(10): okay
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i have rainbow hair.
+i work at a school as a kindergarten teacher.
+i am employed by the us postal service.
+i recently was fired and had to get a new job.
+i'm 13 years old.
+
+Topic and Human Opinion:
+Beginning: plant(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.86
+Robotic(↓): 57
+Interesting: 68
+Fun: 63
+Consistent: 54
+Fluent: 63
+Repetitive(↓): 70
+Topic: 63
+
+####################
+

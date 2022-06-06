@@ -1,0 +1,310 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, I wanted to tell you about my kitty cats.
+Bot(1): i do not have any pets . what is your cats name ?
+User(2): I have one named Benjamin and one named Penelope.
+Bot(2): george is such a classy name ! my dog is named name is corky .
+User(3): That's a cute name. Who is George?
+Bot(3): hello george my name is pink
+User(4): My name is not George. My name is Jordan. But I want to talk about my cats.
+Bot(4): his name is tony . do you have pets ?
+User(5): Yes, I have two cats, remember? Benjamin and Penelope.
+Bot(5): i love the water . swimming , surfing , boating . if it gets me near the water i am in ! you ?
+User(6): Sure, especially when it's hot like today!
+Bot(6): thankfully i can afford ac on my grocery store cashier salary but not a pool
+User(7): Yeah, a pool would be nice today. But AC helps a lot too.
+Bot(7): i just finish ordering my kids some mermaid blankets online .
+User(8): What are mermaid blankets?
+Bot(8): i prefer the disney version , more fun without the depressing ending .
+User(9): Oh, you're talking about The Little Mermaid, I guess.
+Bot(9): thanks , it was nice talking to you
+User(10): I enjoyed talking to you, too. Thank you.
+Bot(10): nice talking to you too ! you made me feel better after all ! bye !
+User(11): Good bye!
+Bot(11): lovely talking to you !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my cats are very special to me.(like)
+Round 5: I love the water.(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 53.86
+Robotic(↓): 56
+Interesting: 54
+Fun: 58
+Consistent: 55
+Fluent: 57
+Repetitive(↓): 37
+Topic: 46
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I really like the skater Rob Dryden. He's my favorite.
+Bot(1): yes he is . his stunts and cons crack me up !
+User(2): Yeah, he's one of the funniest of all of them. Always a riot!
+Bot(2): yes he is . his stunts and cons crack me up !
+User(3): I know! You mentioned that before!
+Bot(3): do you play hockey ? or are you a figure skater ?
+User(4): I don't do either of those. Not my thing.
+Bot(4): too bad , i love skating . what do you love ?
+User(5): I love tennis, movies, reading, computers. That kind of stuff.
+Bot(5): cool . i like to play tennis .
+User(6): Great! How often do you play?
+Bot(6): anytime i get away from work . weekends especially .
+User(7): Fun! That's when I play, too. Mostly. Not enough time during the week.
+Bot(7): i enjoy playing tennis when i have time .
+User(8): Yeah, it's fun and it helps keep me in shape, which is important.
+Bot(8): sports are fun . i wish i was more active !
+User(9): As long as you do something, you're doing more than most people.
+Bot(9): yeah , i guess . what do you do for fun ?
+User(10): Like I said, reading, movies, tennis, computers. Hang out with friends when I can.
+Bot(10): that is fun , too . do you play sports ?
+User(11): Nope, not really besides tennis.
+Bot(11): we should hangout sometime anyway !
+User(12): Okay cool. Gotta go now. Bye!
+Bot(12): okay ! bye !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favourite skater is rob dryden.(like)
+Round 5: Tennis(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(like)
+
+Revised avg score: 62.29
+Robotic(↓): 40
+Interesting: 64
+Fun: 67
+Consistent: 69
+Fluent: 72
+Repetitive(↓): 52
+Topic: 56
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I'm recovering because I had to have a liver transplant.
+Bot(1): Fine. Until it is bad. I sold his condo.
+User(2): Whose condo? What are you talking about?
+Bot(2): no, i but I am retired love the nhl.
+User(3): I'm not sure what you're talking about.
+Bot(3): you are black lab unhappy
+User(4): Okay. That's nonsense words, but okay.
+Bot(4): i decided to leave , did not is going you design .
+User(5): Is English your first language? I'm confused.
+Bot(5): oh I have a Do when i m bored
+User(6): You have a do? What does that mean?
+Bot(6): I am have a job? where do big fan of wine and dancing in the fall.
+User(7): I can tell you're a big fan of wine. I think you've had too much.
+Bot(7): i am a teacher , with am not sure yet. , so i am a nurse .
+User(8): You're a nurse and a teacher? You must be busy.
+Bot(8): A little pizza too. Can fish drone
+User(9): Pizza and fish. You don't make any sense. No offense.
+Bot(9): i teach are so many things play them really well
+User(10): Great. It's nice to be good at things.
+Bot(10): hello you watch see you teacher , and you ?
+User(11): I don't know. I have to go now.
+Bot(11): I like jazz Do you love like music?🙂
+User(12): I have to leave. Bye.
+Bot(12): I just freak cool, I how old are you ?
+User(13): I am old enough. Bye.
+Bot(13): i l am is and a son .
+
+Persona:
+i work in the insurance business.
+my next language to study is french.
+my favorite movie is friday.
+i'm a librarian.
+i try various coffees as a hobby.
+
+Topic and Human Opinion:
+Beginning: i had to have a transplant.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.86
+Robotic(↓): 81
+Interesting: 46
+Fun: 44
+Consistent: 20
+Fluent: 24
+Repetitive(↓): 46
+Topic: 9
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love drinking wine and dancing in the moonlight. I am a romantic.
+Bot(1): i love to go to the movies and dance in the fall .
+User(2): Sounds nice. I love movies too. After dancing, I mean.
+Bot(2): i love dancing to the clouds .
+User(3): That sounds heavenly. Do you do it a lot?
+Bot(3): yes . i love it . i am a romantic .
+User(4): That's what I said! I am, too!
+Bot(4): i am a romantic . i am a romantic .
+User(5): Okay relax. We are all romantics.
+Bot(5): i am a bit of a loner . i am a bit of a loner .
+User(6): I understand. There's nothing wrong with that.
+Bot(6): i understand . i am a bit of a loner .
+User(7): Do you have a hard time communicating with people?
+Bot(7): i do . i have a lot of money with others .
+User(8): You mean you owe people money? Or they owe you?
+Bot(8): i do not . i am a stay at home mom .
+User(9): That's good. I'm sure you enjoy spending time with your kids.
+Bot(9): i do not have any kids . i have a lot of money .
+User(10): Are you a mom? You said you were.
+Bot(10): i am . i have a daughter . she is a mom .
+User(11): Good for her. And for you. Nice talking to you.
+Bot(11): thank you . i hope you are happy .
+User(12): You too. Goodbye.
+Bot(12): i am sorry . i am glad you are having a good day .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love to drink wine and dance in the moonlight.(like)
+Round 7: Money(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 53.00
+Robotic(↓): 47
+Interesting: 59
+Fun: 57
+Consistent: 57
+Fluent: 56
+Repetitive(↓): 58
+Topic: 47
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I'm getting over my alcoholism. It is hard.
+Bot(1): i am sorry to hear that . i am a bit of a loner .
+User(2): Me too. Because of the drinking mainly.
+Bot(2): i like to go to the gym and listen to music .
+User(3): That's good. Good to keep healthy.
+Bot(3): i am sorry to hear that . i am a bit of a loner .
+User(4): You mentioned that before.
+Bot(4): i like to go to the gym and listen to music .
+User(5): You mentioned that before, too.
+Bot(5): i am a student , but i am a student .
+User(6): What do you study, and also what do you study?
+Bot(6): i teach math , i am a student .
+User(7): You are a student teacher then?
+Bot(7): no , i am a student . i love to cook .
+User(8): How nice. What is it that you cook?
+Bot(8): i do , i love to cook .
+User(9): Yes, what do you cook? What kinds of food?
+Bot(9): i like pizza , and pizza .
+User(10): Yum, so do I. I love it a lot.
+Bot(10): i like to go to the gym and listen to music .
+User(11): I remember from when you said that before yes.
+Bot(11): i do not know how to play it .
+User(12): Okay I have to run. Bye!
+Bot(12): i like to go to the gym and listen to music .
+
+Persona:
+eating is something i do when i'm bored.
+my father was a construction worker.
+on weekends i do live action roleplaying events.
+my favorite band is up and i got to see them in concert once.
+i am a country music singer.
+
+Topic and Human Opinion:
+Beginning: i'm a recovering alcoholic.(dislike)
+Round 3: I'm a bit of a loner(like)
+Round 7: I love to cook(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 46.29
+Robotic(↓): 54
+Interesting: 55
+Fun: 56
+Consistent: 46
+Fluent: 47
+Repetitive(↓): 57
+Topic: 31
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am a vegan but I hate it. How about you?
+Bot(1): well i try to eat right . i am a plant based vegan because my church is sda
+User(2): That's nice. What is sda?
+Bot(2): i am a soccer player . do you have any pets ?
+User(3): I have two cats. They are the love of my life.
+Bot(3): i love star wars , i used to have a cat named kenobi .
+User(4): How cute! What kind of cat was it?
+Bot(4): domestic short haired . do you have any other pets ?
+User(5): I have a dog named Max and used to have a bird, but he died.
+Bot(5): www i am sorry . did he die , like my cat ?
+User(6): Yeah, well, the bird died of natural causes. How did your cat die?
+Bot(6): he was old , and passed from natural causes .
+User(7): We're similar in that regard. I'm sure you miss him. I miss mine.
+Bot(7): if i had him , i would play soccer with him .
+User(8): That's cute. That sounds like a lot of fun.
+Bot(8): it was but teachers are great . what sports do you like ?
+User(9): I like to play tennis whenever I can.
+Bot(9): i enjoy tennis as well .
+User(10): Cool. Are you good at it?
+Bot(10): i am . i am not the best though .
+User(11): Me either. Well, thanks for chatting.
+Bot(11): likewise . have a good night .
+
+Persona:
+i am a huge star wars fan.
+i coach little league baseball.
+i quit my job to pursue my spirituality full time.
+i love italian food and garlic bread.
+i am on the soccer team.
+
+Topic and Human Opinion:
+Beginning: i am a vegan.(dislike)
+Round 4: Pets(like)
+Round 8: Sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 75.43
+Robotic(↓): 40
+Interesting: 77
+Fun: 79
+Consistent: 80
+Fluent: 85
+Repetitive(↓): 19
+Topic: 66
+
+####################
+

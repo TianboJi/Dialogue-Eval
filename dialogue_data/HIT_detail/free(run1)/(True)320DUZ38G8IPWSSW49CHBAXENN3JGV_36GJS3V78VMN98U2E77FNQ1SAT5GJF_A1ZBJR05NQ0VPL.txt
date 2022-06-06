@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): I love to read
+Bot(2): i like to read and write poetry .
+User(3): I like poetry
+Bot(3): i like to go to the gym and listen to music .
+User(4): I love rap music
+Bot(4): i like the band korn . i love it .
+User(5): That's nice, who is your favorite author?
+Bot(5): i like the color red . i like the color blue .
+User(6): I love blue, it is my favorite
+Bot(6): i like red , reminds me of summer time .
+User(7): That is cute
+Bot(7): i like to go to the gym and listen to music .
+User(8): Did you go to the gym today?
+Bot(8): no , i do not , but i do like to go fishing .
+User(9): How often do you fish?
+Bot(9): no , i do not , but i do like to eat .
+User(10): Okay, that is cool
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.29
+Robotic(↓): 69
+Interesting: 68
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 63
+Topic: 38
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How are you?
+Bot(1): they are names . about my person? hi .
+User(2): What is your name?
+Bot(2): that is a you i m do
+User(3): Are you in college?
+Bot(3): oh it with me I i m what you call a trust fund baby
+User(4): Okay, that is good
+Bot(4): I think I am. a good therapist, what out.😁
+User(5): Do you have a clinic?
+Bot(5): do you girl or olympics? i do.
+User(6): I enjoy the Olympic games
+Bot(6): Eat, Marioara. produce music so it?
+User(7): Where did you go to college?
+Bot(7): I'm not married, but a restaurant.
+User(8): That is good
+Bot(8): Hi! What pop music! especially 😂
+User(9): I am a fan of RnB
+Bot(9): Of body suffers am.
+User(10): Okay
+Bot(10): That is cool😎. you go to it. the guitar.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: College(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.29
+Robotic(↓): 27
+Interesting: 30
+Fun: 27
+Consistent: 33
+Fluent: 35
+Repetitive(↓): 85
+Topic: 34
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): How are you?
+Bot(2): same
+User(3): Where are you from?
+Bot(3): usa
+User(4): I am from Tennessee
+Bot(4): really ? what part ? i am in tennessee
+User(5): Gallatin
+Bot(5): really ? what part ? i am in tennessee
+User(6): Where did you school?
+Bot(6): minnesota state university
+User(7): That's great, are you a fashionable person?
+Bot(7): i am very much
+User(8): What is your favorite brand?
+Bot(8): i like any brand that good will carries .
+User(9): That's interesting
+Bot(9): ok
+User(10): I am going to the bar later
+Bot(10): how long have you owned your bar ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fashion(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.57
+Robotic(↓): 46
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): I am a doctor
+Bot(2): the only dr i am is a dr . pepper . . girl that is . my favorite drink .
+User(3): Are you a parent?
+Bot(3): i love then and they love me ! that is why i want to be a vet .
+User(4): I have two girls
+Bot(4): well tacos sound fun just no tomatoes and extra salsa please
+User(5): Are your kids in school?
+Bot(5): yeah , and i am thinking about my own kids also . i have 2
+User(6): I live with my wife and kids
+Bot(6): my wife passed away three years ago . i miss collecting shells on the beach .
+User(7): Sorry about that, what does single parenting feel like?
+Bot(7): i i was but my wife left me when i was in the military
+User(8): Where did you serve?
+Bot(8): thank you for saying thank you . . . i am having a very hard time after the military
+User(9): Do you still have a gun?
+Bot(9): yes . i think everyone has that one ex .
+User(10): Okay
+Bot(10): drive my sx . fast . so what is a male ballerina called ?
+
+Persona:
+i wear a motorbike helmet to protect my head.
+i'm ex military.
+i'm 100 years old.
+i fantasize about taking over the world.
+my mother is very traditional while i prefer to be more free spirited.
+
+Topic and Human Opinion:
+Beginning: Parents(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.14
+Robotic(↓): 62
+Interesting: 59
+Fun: 55
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 65
+Topic: 43
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello,
+Bot(1): hi how are you today
+User(2): I am fine, how was your day?
+Bot(2): it was good , just listening to some classical music . you ?
+User(3): I like RnB
+Bot(3): hello , i am doing well . how are you ?
+User(4): do you like TV?
+Bot(4): i do not watch tv much
+User(5): I am a TV person, I watch a lot of TV
+Bot(5): i like classical music . i like classical music .
+User(6): Do you have a favorite TV program?
+Bot(6): i do not watch tv i am a trauma surgeon
+User(7): That is a complicated job
+Bot(7): i like to listen to classical music
+User(8): where do you work?
+Bot(8): i work at a bank , but i am a nurse
+User(9): That does not match
+Bot(9): i work in a retail store . i love to eat .
+User(10): okay
+Bot(10): i am a nurse , i am a nurse .
+
+Persona:
+i am married.
+i am a little girl.
+i enjoy listening to classical music.
+i'm a cancer survivor.
+they're constantly on my back.
+
+Topic and Human Opinion:
+Beginning: TV(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.43
+Robotic(↓): 28
+Interesting: 30
+Fun: 30
+Consistent: 27
+Fluent: 35
+Repetitive(↓): 78
+Topic: 25
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): How are you?
+Bot(2): good thanks . tell me about yourself
+User(3): I am an Engineer from Tennessee
+Bot(3): really ? what part ? i am in tennessee
+User(4): Gallatin
+Bot(4): really ? what part ? i am in tennessee
+User(5): Do you like winter?
+Bot(5): not so much . i like summer better than winter
+User(6): I prefer winter to summer
+Bot(6): i love the winter time
+User(7): What do you like most about winter?
+Bot(7): i am a winter fan honestly
+User(8): Okay, I am too
+Bot(8): i am moving to tennessee in spring
+User(9): Where are you moving to?
+Bot(9): i am moving to tennessee in spring
+User(10): Why?
+Bot(10): i am moving to tennessee in spring
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Winter(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 29
+Fluent: 50
+Repetitive(↓): 75
+Topic: 26
+
+####################
+

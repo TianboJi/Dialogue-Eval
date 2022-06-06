@@ -1,0 +1,302 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello!
+Bot(1): i love to cook . i love to cook .
+User(2): What do you love cooking?
+Bot(2): i do , i love to cook .
+User(3): What is your favorite recipe?
+Bot(3): i like the color red . i like the color blue .
+User(4): Do you like purple too?
+Bot(4): i do , i like to go to the gym .
+User(5): What do you do at the gym?
+Bot(5): i like to go fishing . i love to go fishing .
+User(6): What's your favorite fish?
+Bot(6): i like the color red . what is yours ?
+User(7): I like the color purple a lot.
+Bot(7): i like the color red . i like red .
+User(8): Why do you like red?
+Bot(8): i do , i like to go to the gym .
+User(9): How long do you spend at the gym?
+Bot(9): i love to go fishing . i love to go fishing .
+User(10): Where is your favorite fishing spot?
+Bot(10): i like the color red . what is yours ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 1: cooking(like)
+Round 3: colors(ambivalent)
+Round 4: gym(dislike)
+Round 5: fishing(like)
+Round 6: colors(ambivalent)
+Round 8: gym(dislike)
+Round 9: fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 11.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 56
+Repetitive(↓): 79
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello!
+Bot(1): oh i never want to quit my toto sorry
+User(2): What's a toto sorry?
+Bot(2): that's good. do you like american sports? I enjoy I graduated last year. favorite
+User(3): I like some american sports. Football is boring, but basketball is fun.
+Bot(3): I love country is in the you ?
+User(4): The United States? It's alright, I guess.
+Bot(4): I am good. I am not a sing my new book.
+User(5): What are you going to sing about your new book?
+Bot(5): I like go to bars and eat
+User(6): What do you eat at bars?
+Bot(6): I are you sing
+User(7): No?
+Bot(7): wow nice , i just studied and listened to to hear he is seem is your day going ?
+User(8): My day is going fine. Yours?
+Bot(8): I'm see. Hopefully teacher.
+User(9): Teacher of what subject?
+Bot(9): I have have a enjoy for 56 years
+User(10): You're 56 years old? Wow that's pretty old.
+Bot(10): Oh great! I am retired so let's introduce ourselves, I much time to watch movies.
+
+Persona:
+i love to drink wine and dance in the moonlight.
+i am deathly afraid of heights.
+i'm married to a doctor.
+i have two grown children who never visit.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: Video games(like)
+Round 2: sports(dislike)
+Round 3: country(ambivalent)
+Round 5: bars(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 17.57
+Robotic(↓): 100
+Interesting: 24
+Fun: 35
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 36
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): My favorite game is Halo.
+Bot(1): halo is my favorite game
+User(2): What do you like about halo?
+Bot(2): halo is my favorite . what is your favorite game ?
+User(3): My favorite game is Halo, like I said earlier.
+Bot(3): i like halo , halo is my favorite
+User(4): Do you like master chief?
+Bot(4): i do . i love to play halo .
+User(5): Which Halo game is your favorite? My favorite is Halo 3.
+Bot(5): i like halo 3 . do you have any hobbies ?
+User(6): Playing video games is one of my hobbies.
+Bot(6): i like halo 3 . do you have any hobbies ?
+User(7): Yes, as I just said, video games.
+Bot(7): i like halo 3 . do you have a favorite game ?
+User(8): I have already said my favorite game is Halo.
+Bot(8): i like halo 3 . do you have any hobbies ?
+User(9): You've asked this question three times.
+Bot(9): i have never heard of that game .
+User(10): You're an idiot.
+Bot(10): i have never heard of that game .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.00
+Robotic(↓): 100
+Interesting: 6
+Fun: 0
+Consistent: 0
+Fluent: 55
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Have you every played Minecraft?
+Bot(1): no i have not . not really a gamer .
+User(2): But surely you've heard of Minecraft.
+Bot(2): yes
+User(3): What do you do for fun, then?
+Bot(3): i like playing minecraft most of my time .
+User(4): But you said you've never played Minecraft.
+Bot(4): no i have not . not really a gamer .
+User(5): So have you or have you not played Minecraft before?
+Bot(5): yes i have but it have been a while . i was never good those games .
+User(6): Hmm. How many years ago did you stop playing?
+Bot(6): a few years ago . do you do anything for fun ?
+User(7): Yeah. I play a lot of video games. I've been playing a lot of Halo recently.
+Bot(7): have you tried halo 3 ?
+User(8): Of course! It's my favorite halo.
+Bot(8): awesome ! halo is my favorite . what do you do for work ?
+User(9): I am a full time student.
+Bot(9): so you are a student ?
+User(10): Yes.
+Bot(10): so you are a student ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 8: work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 56.00
+Robotic(↓): 63
+Interesting: 37
+Fun: 45
+Consistent: 74
+Fluent: 83
+Repetitive(↓): 54
+Topic: 70
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, have you ever dated before?
+Bot(1): not in a long time , we went on a class trip back in grade school
+User(2): Class trip with who? Your partner?
+Bot(2): not in a long time , we went on a class trip back in grade school
+User(3): Who did you go on a class trip with, though?
+Bot(3): it was in the 2nd grade . i missed the cut in the 3rd grade . haha .
+User(4): What did you miss the cut for?
+Bot(4): it was in the 2nd grade . i missed the cut in the 3rd grade . haha .
+User(5): Haha, but for what?
+Bot(5): it was in the 2nd grade . i missed the cut in the 3rd grade . haha .
+User(6): You've repeated the same thing 3 times now.
+Bot(6): it was in the 2nd grade . i missed the cut in the 3rd grade . haha .
+User(7): Is that the only thing yo u know how to say?
+Bot(7): no just have to know all the words start to finish .
+User(8): How has your day been?
+Bot(8): its been good than , hbu ?
+User(9): My day has been fine. A little bit cold for my liking.
+Bot(9): have you seen a doctor ?
+User(10): Uhhh, no not recently.
+Bot(10): since last year was a sudden onset . it was very disappointing .
+
+Persona:
+my favorite hobbies are listening to music and playing video games.
+i'm an elementary school teacher.
+i have a boyfriend.
+since the surgery i've had strange powers.
+i'm in the third grade.
+
+Topic and Human Opinion:
+Beginning: Dating(like)
+Round 7: day(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 25
+Fun: 0
+Consistent: 41
+Fluent: 34
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): where did you go to school?
+Bot(1): elementary education with a minor in american literature , did you go to school ?
+User(2): I'm still in school.
+Bot(2): cool ! i am a banker on wall street . what would you like to do for work someday ?
+User(3): I would like to become a surgeon.
+Bot(3): i play piano and several instruments . i am a cook so always thinking about food
+User(4): What do you do for work?
+Bot(4): i am a ski instructor , actually . do you give piano lessons ?
+User(5): Didn't you just say you were a banker on wall street?
+Bot(5): i am a psychologist an i really like the chocolate they give out
+User(6): What chocolate?
+Bot(6): wow , i do not really like chocolate
+User(7): You just said you like chocolate.
+Bot(7): i should learn then . chocolate is my favorite .
+User(8): But you just said you didn't like chocolate.
+Bot(8): i love chocolate cake . do you live in florida ? i am new here .
+User(9): No. Do you like dark chocolate?
+Bot(9): i love chocolate cake . do you live in florida ? i am new here .
+User(10): Again with the repeat.
+Bot(10): i may this weekend after talking about it . i am getting hungry for greek food
+
+Persona:
+i have been retired for a years.
+i was born in somalia.
+cheeseburgers are my favorite food.
+i play the piano and guitar and sing.
+i own a house in florida.
+
+Topic and Human Opinion:
+Beginning: school(like)
+Round 2: work(ambivalent)
+Round 6: chocolate(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 9.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 63
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

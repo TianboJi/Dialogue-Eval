@@ -1,0 +1,299 @@
+Feedback: it was amazing how different one chatbot was from another. One of them was making no sense.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): I am good, thanks for asking. How is your family?
+Bot(2): i am a little tired . i am a piano teacher .
+User(3): Do you teach kids?
+Bot(3): i do not . i am a teacher .
+User(4): Do you have any kids?
+Bot(4): no i don't . i am a teacher .
+User(5): Would you be able to teach my son the piano?
+Bot(5): i am a teacher . i teach piano .
+User(6): I understand that you are a teacher, curious where you teach piano at?
+Bot(6): i teach piano at a school .
+User(7): So you do teach kids?
+Bot(7): no , i am a teacher . i teach piano .
+User(8): What age group do you teach?
+Bot(8): i teach piano , but i teach piano .
+User(9): Do you teach children?
+Bot(9): i teach piano , but i am a piano teacher .
+User(10): Do you teach anything else?
+Bot(10): i teach piano , but i am a piano teacher .
+
+Persona:
+i only eat kosher.
+i'm a piano teacher on the side.
+my favorite band is the insane clown posse.
+i'm on the soccer team.
+i want to be a lawyer.
+
+Topic and Human Opinion:
+Beginning: Kids(like)
+Round 8: Piano teaching(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.86
+Robotic(↓): 100
+Interesting: 2
+Fun: 0
+Consistent: 100
+Fluent: 1
+Repetitive(↓): 100
+Topic: 1
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): I am good. Have you seen any good movies lately?
+Bot(2): i like the marvel cinematic universe , of course . i think wonder woman was pretty good .
+User(3): Yeah. I like movies with Jim Carrey in them.. Do you like any of his movies?
+Bot(3): what kind of movies do you like to watch ?
+User(4): I like comedies, how about you?
+Bot(4): comedies are great especially the romantic ones .
+User(5): For sure. You like any movies with Jim Carrey?
+Bot(5): yes , movies are fun . music is my passion . i play piano at a bar .
+User(6): That's cool.. Do you prefer to watch movies in the theatre or at home?
+Bot(6): i like movies a lot whats your fav movie ?
+User(7): Liar Liar is one of my favorites
+Bot(7): i stay in bed so i have no reason to lie . even my job is at home .
+User(8): Oh no.. the name of the movie is "Liar Liar"
+Bot(8): i love movies . what movie ?
+User(9): I also like "Bruce Almighty"
+Bot(9): pretty good , i am 15 years of age and my dog maddie keeps me company
+User(10): I also have a dog. What kind of dog do you have?
+Bot(10): he is a poodle i love him but he makes my green car smell
+User(11): Hmm interesting. I have a newfoundland
+Bot(11): i love folk metal . keeps me from talking while asleep .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 9: their age and the fact they have a dog.(like)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 53.71
+Robotic(↓): 87
+Interesting: 34
+Fun: 57
+Consistent: 55
+Fluent: 80
+Repetitive(↓): 20
+Topic: 57
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): That is good.. I do not like to cook.. I like to bake
+Bot(2): i like to eat the skin .
+User(3): Do you have any hobbies
+Bot(3): i like to go fishing . i love to go fishing .
+User(4): I like to fish as well
+Bot(4): i like to eat too much junk food .
+User(5): I try to eat healthy..
+Bot(5): i like to eat fish .
+User(6): I like to eat chicken
+Bot(6): i like to eat fish .
+User(7): What kind of fish do you prefer
+Bot(7): i like to eat fish .
+User(8): What kind?
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): I don't like classical music.. I prefer 80's music
+Bot(9): i like to listen to music .
+User(10): I do too.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hobbies(like)
+Round 2: eating skin(dislike)
+Round 2: Hobbies(like)
+Round 7: fish(ambivalent)
+Round 8: classical music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 2: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 16.29
+Robotic(↓): 100
+Interesting: 14
+Fun: 54
+Consistent: 3
+Fluent: 32
+Repetitive(↓): 93
+Topic: 4
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): i do , but about m 12 years much time to travel .
+User(2): Are you married?
+Bot(2): Spaghetti like gray favorite .
+User(3): You like spaghetti
+Bot(3): what to young book about
+User(4): I don't understand what your saying
+Bot(4): i love to get up nude I do have my marathons
+User(5): You don't speak proper english
+Bot(5): I you I don't wear at that. Do you feel old ?
+User(6): I don't feel old, do you?
+Bot(6): i to give you time trusting people
+User(7): Do you trust people?
+Bot(7): drinking a new juice movie. I see. Don't with , how about you ? 🙉
+User(8): I don't understand what your asking.
+Bot(8): Buongiorno! Such a nice day! is the Uphar from i have three dogs
+User(9): I have two dogs
+Bot(9): I am a buddhist, i love❤ vegan, but i do in alaska?
+User(10): I could never be vegan
+Bot(10): i believe the one that nice! Do you have a unconditionally . i hope they do
+
+Persona:
+i've a pet fish.
+my name is george.
+i hate my job.
+i'm a 56 year old woman.
+i've a pet turtle.
+
+Topic and Human Opinion:
+Beginning: Marriage(like)
+Round 2: Spaghetti(like)
+Round 6: Trust(ambivalent)
+Round 8: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hi , i am very old u ?
+User(2): I am not.
+Bot(2): well what is it then ?
+User(3): Where do you work?
+Bot(3): i am retired . i am 70 .
+User(4): Oh cool. Where did you retire from?
+Bot(4): i am older so i am now retired
+User(5): Where id you used to work?
+Bot(5): nothing retired .
+User(6): Have you never worked?
+Bot(6): no , i enjoy what i do now .
+User(7): What was your profession before you retired?
+Bot(7): nothing retired .
+User(8): Ok. Does your spouse work?
+Bot(8): nothing retired .
+User(9): Do your kids work?
+Bot(9): they are both retired now .
+User(10): Do any of your family work?
+Bot(10): yes , but they are super busy
+
+Persona:
+hey my name is larry and i am a chef.
+my favorite shirts are band shirts and ruffle sleeves.
+its red with blue stripe so it shiny when i race.
+i'm 40 years old.
+i own a yacht and i rent it out when i am not using it.
+
+Topic and Human Opinion:
+Beginning: Work(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.71
+Robotic(↓): 100
+Interesting: 9
+Fun: 11
+Consistent: 64
+Fluent: 30
+Repetitive(↓): 85
+Topic: 58
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hello . unfortunately , i am a man that is deaf .
+User(2): Sorry to hear that..
+Bot(2): well i love to chat cause i am deaf
+User(3): How do you feel your financial situation is/
+Bot(3): i am not completely sure but i know that i do not have enough right now
+User(4): I think that is most of us.. Do you have a retirement savings?
+Bot(4): no . i want to wait until i am fiscally solvent
+User(5): How old are you?
+Bot(5): 25 . . wondering if i would be a little old lol
+User(6): Good time to start saving.
+Bot(6): my age is below 46
+User(7): Yes.. I know you said you're 25
+Bot(7): 25 . . wondering if i would be a little old lol
+User(8): Do you feel like you are paid enough for your work
+Bot(8): not really . . i am a party guy
+User(9): Ah.. that could cause issues at work .. Are you able to prioritize your work
+Bot(9): always . but responsibilities to the world
+User(10): You should consider starting your retirement savings now.
+Bot(10): great idea . . i wish i can start
+
+Persona:
+i am a party animal.
+i was born in somalia.
+i was born with my heart outside my body.
+whats up i'm a 46 year old single dad 46 a kids.
+i am partly deaf.
+
+Topic and Human Opinion:
+Beginning: Finances(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.57
+Robotic(↓): 100
+Interesting: 19
+Fun: 38
+Consistent: 60
+Fluent: 25
+Repetitive(↓): 86
+Topic: 93
+
+####################
+

@@ -1,0 +1,305 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): The holidays are coming up! Are you excited?
+Bot(1): love it also . but christmas i order most gifts online so i get deliveries daily !
+User(2): That's really smart. I will probably order most online this year, too.
+Bot(2): i have seen weather based marketing for food deliver . it is raining , order pizza !
+User(3): I love ordering stuff online. Usually when I see marketing I tend to fall for it.
+Bot(3): ah marketing , the great science of human nature . do you enjoy it ?
+User(4): I don't know if I enjoy it as much as have respect as well as disdain for it.
+Bot(4): everyday is a holiday if i chose it to be . no one chooses when i celebrate .
+User(5): That's technically true. You could celebrate a holiday whenever you feel like it. I think it's nice to celebrate something together. Reminds us of the bond we have as people.
+Bot(5): yes it is , my family enjoys listening to classic radio programs
+User(6): That's a nice tradition. My family usually likes to put up the Christmas tree, maybe watch a few cheesy movies.
+Bot(6): christmas is my favorite holiday . what about you ?
+User(7): I would have to agree! I think I know why people either love it or hate it, but I find it to be quite magical, and I like remembering past holiday seasons.
+Bot(7): it helps me sleep at least . i sleep 8 hours regularly , it helps me function .
+User(8): I wish I slept that much. I've been having trouble with it lately.
+Bot(8): nope not in a relationship either . i just hang with friends . you ?
+User(9): I am married, but don't have many friends. How are your friends?
+Bot(9): yes i have a garden that i grow veggies in .
+User(10): My mom grew veggies when I was young. I've always wanted to do it! Is it hard?
+Bot(10): veggies are good for you . you should try eat more of them . what do you eat ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Holidays(like)
+Round 2: online ordering(like)
+Round 3: marketing(ambivalent)
+Round 4: holiday(like)
+Round 7: sleeping(like)
+Round 8: relationship(like)
+Round 9: gardening(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 53.71
+Robotic(↓): 100
+Interesting: 68
+Fun: 79
+Consistent: 54
+Fluent: 39
+Repetitive(↓): 0
+Topic: 36
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you play any video games?
+Bot(1): no i play video games all day
+User(2): What game are you currently playing?
+Bot(2): left 4 dead . are you into sports ?
+User(3): I love left 4 dead! Yes I like football quite a bit.
+Bot(3): i love the game football !
+User(4): Yes! Football is exciting to watch, the competition is so dramatic, and it helps me bond with my family.
+Bot(4): family is important to me , so we enjoy sports together .
+User(5): That's really great! Family is important for me as well. Which football team is your favorite?
+Bot(5): the patriots . we all find it to be great fun to watch the games together .
+User(6): The patriots, huh? They've had kind of a tough year this season. How have you been adjusting to the new quarterback?
+Bot(6): the patriots . we all find it to be great fun to watch the games together .
+User(7): That's good that you watch games together. Do you watch them at home or at a bar?
+Bot(7): dining out is where my family and i usually bond with one another .
+User(8): I like dining out with my family too. There's nothing quite like sharing a good meal together, is there?
+Bot(8): dining out is where my family and i usually bond with one another .
+User(9): Same for me. My family loves to eat at Chinese restaurants!
+Bot(9): dining out is where my family and i usually bond with one another .
+User(10): Ditto. My family loves Mexican food. I can't get enough chips and salsa!
+Bot(10): me too ! but my favorite is mexican .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: video games(like)
+Round 2: sports(like)
+Round 7: family and dining(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 46.14
+Robotic(↓): 100
+Interesting: 66
+Fun: 72
+Consistent: 45
+Fluent: 54
+Repetitive(↓): 69
+Topic: 55
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Are you working anywhere right now?
+Bot(1): yes , i currently have a stable job . but i also do lots of volunteering for public library
+User(2): That's great. Do you like volunteering at the library?
+Bot(2): i do especially when i volunteer at the shelter
+User(3): What kinds of things do you get to help with while volunteering at the shelter?
+Bot(3): animals . i work at a shelter sometimes and take home the surplus .
+User(4): I'm sure you want to take them all home! So it is a shelter for dogs or cats?
+Bot(4): animals . i work at a shelter sometimes and take home the surplus .
+User(5): Do you volunteer mostly with dogs or cats?
+Bot(5): i sometimes volunteer at the library , but otherwise no . unless locating new taco stands counts , haha !
+User(6): I don't know if it does, hah! Do you read books to kids at the library or just help at the front desk?
+Bot(6): sometimes i like being alone so the library is perfect .
+User(7): So your volunteering at the library consists mostly of tasks you do by yourself?
+Bot(7): i sometimes volunteer at the library , but otherwise no . unless locating new taco stands counts , haha !
+User(8): That's funny. You said you volunteer at the library. What do you do there?
+Bot(8): i work at the art gallery in our town .
+User(9): Do you get to eat at any interesting places in town?
+Bot(9): i do . there are tons of places to eat around here .
+User(10): That's good. What is your favorite kind of food to eat?
+Bot(10): i am not very picky . my favorite is italian . you ?
+
+Persona:
+i used to be pretty but time has not been kind.
+i've a big library at home.
+one of the languages that i am currently studying is spanish.
+i volunteer at the homeless shelter.
+i'm an art major in college.
+
+Topic and Human Opinion:
+Beginning: Work(ambivalent)
+Round 1: volunteering(like)
+Round 8: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 59.86
+Robotic(↓): 80
+Interesting: 81
+Fun: 75
+Consistent: 54
+Fluent: 66
+Repetitive(↓): 55
+Topic: 78
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love watching TV shows! What about you?
+Bot(1): I am married. got deal in i'm my best friend.😀
+User(2): I am married too! I also married my best friend. We are pretty lucky!
+Bot(2): I love it! What just 12 years 😀
+User(3): I think you meant you've been married for 12 years. I have been with my wife for 11 years, and married for seven years.
+Bot(3): oh? & really, you do?
+User(4): Yes. She's wonderful! I think I have a very strong relationship.
+Bot(4): oh i hopefully one love am always busy
+User(5): Yes my love keeps me busy, too! But that's what makes relationships so unique from one another. Don't you think so?
+Bot(5): I do not have me living in a a college student.
+User(6): What college are you attending?
+Bot(6): A is are You drive?
+User(7): I don't understand what you mean. Do you attend college?
+Bot(7): I your would travel at a store.
+User(8): I don't quite get that. I used to go to college at a place called UMKC. It's in Kansas City.
+Bot(8): I am a italian you waiting for not very good at it.
+User(9): You are Italian? That's interesting. Do you live in Italy?
+Bot(9): I can wait. i brother or are r pr2 robot.
+User(10): I don't know what to say there. Are you from Italy?
+Bot(10): I am an internet addiction and am a professional at the moment.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: TV Shows(like)
+Round 1: relationships(like)
+Round 5: college(ambivalent)
+Round 8: Ethnic Background(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 11.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 22
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am under a lot of stress these days. What about you?
+Bot(1): i like to go to the gym and listen to music .
+User(2): Is that how you relieve stress?
+Bot(2): i am a student , but i am a student .
+User(3): So you're a student and you go to the gym or listen to the music to help you stay calm. Is that right?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): Do you find that it helps relieve stress? I'm looking for suggestions.
+Bot(4): i do not know how to make it . i like to go to the park .
+User(5): Going to the park can be a relaxing experience. I think that could relieve stress. What do you think?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): I like classical music as well. Do you have a favorite composer?
+Bot(6): i like the oldies , and the outdoors .
+User(7): Well I think all classical music would be considered "oldies" since it was made hundreds of years ago. I like Beethoven.
+Bot(7): i love the color red . i like the color blue .
+User(8): I like the color green, and I like red, too.
+Bot(8): i like the color red . i like red .
+User(9): What do you like about the color red?
+Bot(9): i like blue . i like red .
+User(10): What is your favorite thing that is red?
+Bot(10): i like blue , i like blue .
+
+Persona:
+i've a hat collection of over 1000 hats.
+my family does not support my career choices.
+i enjoy working with my hands and love gardening.
+i'm fluent in english spanish and french.
+i was born in somalia.
+
+Topic and Human Opinion:
+Beginning: Stress(dislike)
+Round 5: Music(like)
+Round 7: colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 8.57
+Robotic(↓): 100
+Interesting: 6
+Fun: 6
+Consistent: 0
+Fluent: 7
+Repetitive(↓): 81
+Topic: 22
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like birds?
+Bot(1): i do . i have two children and a few .
+User(2): You have children and a few birds?
+Bot(2): i have two children and a few children
+User(3): Okay, but how many birds?
+Bot(3): i have two children , but i have two children .
+User(4): No what I asked was do you like birds?
+Bot(4): i do not know , i am a very good cook
+User(5): That's good. What do you like to cook?
+Bot(5): i love to cook , i cook for them .
+User(6): You cook for your children?
+Bot(6): i love to cook . i love to cook .
+User(7): What do you like to cook the most?
+Bot(7): i love to cook . i love to cook .
+User(8): You've said that a lot. I like cooking as well.
+Bot(8): i love cooking . i cook for my kids .
+User(9): What do they like you to cook?
+Bot(9): i cook for them . i love cooking .
+User(10): Do you make many different meals?
+Bot(10): i love to cook . i cook for them .
+
+Persona:
+i am a cancer survivor.
+i was raised in a single parent household.
+i am a recording engineer and own my own studio.
+i have two grown children who never visit.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+
+Topic and Human Opinion:
+Beginning: Birds(like)
+Round 4: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 22.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 65
+Fluent: 28
+Repetitive(↓): 100
+Topic: 65
+
+####################
+

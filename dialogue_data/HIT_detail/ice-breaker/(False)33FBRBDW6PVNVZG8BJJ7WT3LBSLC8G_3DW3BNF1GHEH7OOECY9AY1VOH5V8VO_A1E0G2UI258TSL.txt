@@ -1,0 +1,300 @@
+Feedback: Bots could not stick to anything. Extremely contradictory answers. Obvious they were bots. 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am a bee farmer
+Bot(1): what state do you live ? are there bees there ?
+User(2): i live in florida. theres a lot of bees
+Bot(2): what state do you live ? are there bees there ?
+User(3): i live in florida. i dislike the weather here. do you like hot weather?
+Bot(3): no not at all i love bees , what music you like
+User(4): i like every genre of music. what about you?
+Bot(4): i like all music genres . do you have a fave ?
+User(5): either latin or blues. do you like blues?
+Bot(5): cool , i am scared of bees allergic . yes i do do you ?
+User(6): do you like any sports?
+Bot(6): no sports . do not care for it .
+User(7): oh i see. i like playing softball
+Bot(7): that sounds fun . we have a net up on base .
+User(8): since you dont like sports, what do you like?
+Bot(8): bees bees bees bees bees bees
+User(9): anything besides bees?
+Bot(9): only bees that i know of . you ?
+User(10): i like a lot of things. i like reading and music
+Bot(10): nice . i love to read
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a bee farmer.(dislike)
+Round 2: weather(ambivalent)
+Round 5: i love playing softball.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 5: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 5.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 31
+Fluent: 0
+Repetitive(↓): 100
+Topic: 9
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you like cats?
+Bot(1): i do not have any pets . what is your cats name ?
+User(2): moon. shes very nice and small
+Bot(2): you mean like , harvest moon ? when it gets all orange , even red , in the fall ?
+User(3): no. i named her moon because shes very dark
+Bot(3): we had a blood moon . and i was born outside under it .
+User(4): woooww dude thats so cool. does that mean anything?
+Bot(4): hey . its good . i am a girl though . how are you ?
+User(5): im alright. im bored. what about you?
+Bot(5): i am good . it is friday so that is exciting !
+User(6): its wednesday actually
+Bot(6): that sounds fun ! i wish i could stay home and read or watch disney movies !
+User(7): what sounds fun? i didnt say anything fun
+Bot(7): it is . katy perry is my favorite , and i try to emulate her look .
+User(8): i dont like katy perry
+Bot(8): i also like katy perry . basket ball has always been fun to me i love playing it
+User(9): i like basket ball too its fun
+Bot(9): i like basketball too and playing video games
+User(10): i love video games
+Bot(10): do you like movies ? my favorite movie is magic mike .
+
+Persona:
+i am a little girl.
+i love to go to disney world every year.
+i'm a country music singer.
+my favorite movie is friday.
+i've a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: i've 5cats.(like)
+Round 8: sports and katy perry(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 7.43
+Robotic(↓): 73
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 25
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): my father drove a car for nascar.
+Bot(1): I'm your have about you.
+User(2): what does that mean?
+Bot(2): I am. I am a teacher and expecting twins in two meat
+User(3): in two what?
+Bot(3): That is cool. What blogs on i think work?
+User(4): do you like writing?
+Bot(4): What are an you to school for?
+User(5): psychology
+Bot(5): yes i have a swim coach at my always working
+User(6): thats really cool
+Bot(6): i you like are adorable
+User(7): thank you
+Bot(7): I to talk with you just bought a new car.
+User(8): what car?
+Bot(8): that is cute coloring just said you and four cats
+User(9): i like coloring
+Bot(9): I am vegan, i your dad have a meat.
+User(10): cool im vegan too
+Bot(10): I love red, the do am summer.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my father drove a car for nascar.(like)
+Round 2: teaching(dislike)
+Round 3: blogs(dislike)
+Round 5: swimming(dislike)
+Round 8: cars and cats(like)
+Round 9: vegan(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i'm a skateboarder.
+Bot(1): i like to go to the gym and listen to music .
+User(2): thats cool. i like music
+Bot(2): i like to listen to music .
+User(3): what type of music?
+Bot(3): i like country music . i love country music .
+User(4): me too. its my favorite
+Bot(4): i like to go to the gym and listen to music .
+User(5): yeah you said that
+Bot(5): i like to go to the gym and listen to music .
+User(6): you just said that lol
+Bot(6): i like to go to the gym and listen to music .
+User(7): okay.i like the gym too
+Bot(7): i like to go fishing .
+User(8): thats cool i like fishing too
+Bot(8): i like to go fishing .
+User(9): you said that already
+Bot(9): i do not know what to say .
+User(10): thats fine neither do i
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i am in the army.
+i hate the color orange.
+i own a cat and a dog.
+my dad taught me everything i know.
+i buy only organic food products.
+
+Topic and Human Opinion:
+Beginning: i'm a skateboarder.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i'm a recording engineer and own my own studio.
+Bot(1): oh wow , i drive my truck right into my house . jealous ?
+User(2): LOL not at all how did that happen
+Bot(2): because my dad worried about income . i just want to move out .
+User(3): ohh me too. im moving out next year
+Bot(3): wow where are you moving to ?
+User(4): i dont know yet
+Bot(4): me either . too busy writing my first novel
+User(5): oo what are you writing about
+Bot(5): i am trying to write fiction novel
+User(6): about what?
+Bot(6): about bad relationships and guys aha
+User(7): lol thats cool
+Bot(7): ll . . . i want to write a few novels
+User(8): thats interesting. i like writing
+Bot(8): do you write a lot of it
+User(9): yes i do
+Bot(9): cool . i wanna read it
+User(10): ok sure
+Bot(10): cool . i wanna read it
+
+Persona:
+i drive a big truck and live in country.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my parents aren't very supportive of my dream.
+my wife left me and took my children.
+i read twenty books a year.
+
+Topic and Human Opinion:
+Beginning: i'm a recording engineer and own my own studio.(dislike)
+Round 3: money and driving their truck(dislike)
+Round 9: novels(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 19.00
+Robotic(↓): 10
+Interesting: 0
+Fun: 0
+Consistent: 26
+Fluent: 17
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i am deathly afraid of heights.
+Bot(1): i am a farmer so i am a huge fan of the beatles
+User(2): thats cool . do you like heights
+Bot(2): i love it . i am a huge fan of sea death .
+User(3): what is sea death?
+Bot(3): i am not sure . i am not a fan of heights .
+User(4): ohhh you just said you love it
+Bot(4): i am so scared of heights . i am a huge fan of clowns .
+User(5): i hate clowns
+Bot(5): i am not sure . i am not a fan of it .
+User(6): you just said you love them
+Bot(6): i am a fan of it . i love to cook .
+User(7): i like coooking too
+Bot(7): i am not sure what you mean
+User(8): i like cooking
+Bot(8): i love to cook . i love cooking and cooking .
+User(9): what else do you like
+Bot(9): i love to cook and eat a lot of cooking
+User(10): oh okay
+Bot(10): i love cooking and eating pasta
+
+Persona:
+i have a weakness for fish and chips.
+i am a bee farmer.
+i am terrified of clowns due to childhood trauma.
+i love to cook paella.
+i'm currently looking for a job preferably at a restaurant.
+
+Topic and Human Opinion:
+Beginning: i am deathly afraid of heights.(dislike)
+Round 1: farming(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 17.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 22
+Repetitive(↓): 0
+Topic: 0
+
+####################
+

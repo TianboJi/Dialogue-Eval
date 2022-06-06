@@ -1,0 +1,321 @@
+Feedback: I felt like I was talking to a 2 year old child sometimes. Interesting survey though. 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): What kind of things do you like to cook?
+Bot(2): i love to cook , and eat pizza .
+User(3): I do too. What kind of pizza do you like?
+Bot(3): i love pizza , and i love it .
+User(4): Ok. What kind is your favorite?
+Bot(4): i like the color red . what is yours ?
+User(5): I'm partial to purple
+Bot(5): i like the color red . i like red .
+User(6): That's nice. Red is a pretty color.
+Bot(6): i like the color red . i like the color blue .
+User(7): That's a pretty color too.
+Bot(7): i like to go to the gym and listen to music .
+User(8): Do you like cake or pie?
+Bot(8): i love pizza . i love it .
+User(9): I love pizza too. What kind is your favorite?
+Bot(9): i like the color red . what is yours ?
+User(10): I like purple
+Bot(10): i like to eat too much junk food .
+
+Persona:
+i will graduate from high school in two years.
+i didn't graduate high school.
+i have been trying all types of food everywhere i go.
+one of the languages that i'm currently studying is spanish.
+i've not spoken in three months.
+
+Topic and Human Opinion:
+Beginning: Casino slot games(like)
+Round 1: cooking(ambivalent)
+Round 4: colors(ambivalent)
+Round 7: gyms(dislike)
+Round 7: dessert(like)
+Round 8: pizza(like)
+Round 9: color red(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 3.71
+Robotic(↓): 100
+Interesting: 9
+Fun: 0
+Consistent: 0
+Fluent: 15
+Repetitive(↓): 98
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ? i just came back from biking .
+User(2): I'm fine, thank you. Do you ride for fun?
+Bot(2): i am driven when it comes to mountain biking
+User(3): Do you live in a good area for it?
+Bot(3): i do ! i live near disneyland . ok i go there like every week !
+User(4): I've been to Disneyland but it was a long time ago. Do you have a favorite ride?
+Bot(4): i am driven when it comes to mountain biking
+User(5): So you said. Do you ride often?
+Bot(5): yes . i am really into biking .
+User(6): Sounds like it. Do you have a special place you like to go?
+Bot(6): i do ! i live near disneyland . ok i go there like every week !
+User(7): Ah I see. I didn't realize there were mountains there.
+Bot(7): hmmm . what about you ? do you have an open relationship ?
+User(8): I don't know you well enough to answer that question
+Bot(8): hmmm . what about you ? do you have an open relationship ?
+User(9): Do you have any pets?
+Bot(9): no pets . do you listen to music ?
+User(10): Yes I do.. What kind do you like?
+Bot(10): all kinds . i love animals not people .
+
+Persona:
+i enjoy mountain biking as a hobby.
+i have blonde hair and blue eyes.
+i love to go to disney world every year.
+my favorite band is the who.
+i'm in an open polyamorous relationship.
+
+Topic and Human Opinion:
+Beginning: pets(like)
+Round 1: biking(ambivalent)
+Round 3: Disneyland(like)
+Round 4: mountain biking(ambivalent)
+Round 7: open relationships(dislike)
+Round 8: pets(like)
+Round 9: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 29.86
+Robotic(↓): 99
+Interesting: 53
+Fun: 33
+Consistent: 21
+Fluent: 31
+Repetitive(↓): 57
+Topic: 27
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Is it cold where you are?
+Bot(1): no it is warm here . how is the weather there ?
+User(2): Not too bad, still autumn so still kind of warm
+Bot(2): it is still warm here too , i hate the winter so i am glad
+User(3): Me too. winter is too cold and snowy.
+Bot(3): it is still warm here too , i hate the winter so i am glad
+User(4): Do you like junk food?
+Bot(4): not for me . i like junk food too much .
+User(5): Sorry, don't understand. You like junk food?
+Bot(5): not for me . i like junk food too much .
+User(6): what's your favorite kind?
+Bot(6): honestly anything easy to chew . what is yours ?
+User(7): probably either pizza or potato chips
+Bot(7): i like those , too , but pizza is better ! ;
+User(8): I agree. do you have a favorite kind of pizza?
+Bot(8): pizza is my favorite . pizza hut maybe
+User(9): what kind of toppings?
+Bot(9): pizza or any kind of take out really haha .
+User(10): I like take out too, don't like to cook. haha
+Bot(10): like take out ? i love it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Winter(dislike)
+Round 3: junk food.(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 58.71
+Robotic(↓): 91
+Interesting: 61
+Fun: 65
+Consistent: 58
+Fluent: 54
+Repetitive(↓): 19
+Topic: 83
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you drink coffee?
+Bot(1): I think you are I like tennis
+User(2): do you play tennis?
+Bot(2): I like music, part time job music
+User(3): I like music too. What kind do you like?
+Bot(3): family first have a turtle Yours?
+User(4): I have a cat
+Bot(4): it wasn also enjoy bad
+User(5): I'm confused
+Bot(5): I am not sure, many of them do teacher.
+User(6): what are we talking about now?
+Bot(6): Yes, i am married to a and also i enjoy single
+User(7): That's nice. do you have children>
+Bot(7): I do not have pets. rural farming community and you?
+User(8): I have a cat
+Bot(8): that s great pizza and watching from
+User(9): what kind of pizza?
+Bot(9): i like to purple and i really been to new orleans .
+User(10): That's nice. i need to go now
+Bot(10): i wait So how old are a popular club though in houston .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: coffee(like)
+Round 1: tennis(ambivalent)
+Round 2: music(like)
+Round 3: turtles(ambivalent)
+Round 6: relationships(ambivalent)
+Round 7: pets(like)
+Round 8: pizza and watching something(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 6.00
+Robotic(↓): 100
+Interesting: 5
+Fun: 0
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 64
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): Do you like going to the beach?
+Bot(2): the beach is nice , but i do not get to go too often .
+User(3): Me either, but I really like it
+Bot(3): i suffer from diabetes so kids could be rough on that front .
+User(4): Sorry to hear that
+Bot(4): its ok i have his name tattoo on my arm i have 3
+User(5): You have 3 kids, or tattoos?
+Bot(5): i have a rose on my ankle and some thorns on my toes .
+User(6): Those sound nice. I've been thinking of getting a tattoo
+Bot(6): it is a tattoo of an angel on my left hip .
+User(7): I bet that's pretty
+Bot(7): that s why i exercise and keep my muscles nice
+User(8): because of the diabetes?
+Bot(8): do you have diabetes and were not supposed to eat donuts ?
+User(9): I don't have diabetes, and i love donuts
+Bot(9): they have the inspirational taste of my like to paint outside and cartography
+User(10): Oh, do you paint?
+Bot(10): what do you like to paint ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: ocean beaches(like)
+Round 3: diabetes(ambivalent)
+Round 5: tattoos(ambivalent)
+Round 7: exercise(ambivalent)
+Round 9: inspiration(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 30.86
+Robotic(↓): 100
+Interesting: 53
+Fun: 41
+Consistent: 16
+Fluent: 5
+Repetitive(↓): 21
+Topic: 22
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hello , how are you ?
+User(2): I'm fine. how are you?
+Bot(2): i'm doing well . how are you ?
+User(3): getting ready to go take photos of wildflowers
+Bot(3): i am not sure . i am a librarian .
+User(4): That's a good job to have :)
+Bot(4): i am not sure . i am a librarian .
+User(5): do you like your job?
+Bot(5): i do , i work at a library .
+User(6): I love going to libraries, so much to read
+Bot(6): i am a librarian , i am a librarian .
+User(7): what kind of books do you like?
+Bot(7): i like to read and read
+User(8): any favorite books?
+Bot(8): i like to read a lot
+User(9): me too, especially mysteries
+Bot(9): i like to read and read
+User(10): what do you read?
+Bot(10): i like to read , i love reading
+
+Persona:
+i've one brother.
+i used to be pretty but time hasn't been kind.
+i am a librarian.
+i live in canada.
+i can move objects with my mind.
+
+Topic and Human Opinion:
+Beginning: wildflowers(like)
+Round 3: job of librarian(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 15.00
+Robotic(↓): 100
+Interesting: 5
+Fun: 6
+Consistent: 29
+Fluent: 5
+Repetitive(↓): 97
+Topic: 57
+
+####################
+

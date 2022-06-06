@@ -1,0 +1,314 @@
+Feedback: I appreciate the opportunity but it was irritating having the Boy repeat themselves but that's what these tests are for
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): My balanace is saying $1.60 when i desposited 300.00?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): No my balance on my account is nit current?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): Can you tell me why my balance has no updated?
+Bot(3): i am a female . i am a student .
+User(4): Hi there ma'am can you help me get my balance inquiry?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): Are you able to read what i am writing?
+Bot(5): i do not really have a favorite . i like to read .
+User(6): Ok. Can you read my questions?
+Bot(6): no , i do not . i like to go to the park .
+User(7): Thanks anyways
+Bot(7): i am a student , but i am a student .
+User(8): This not cant read or understand anything im saying. Definaltly failed
+Bot(8): i like to go to the gym and listen to music .
+User(9): Thats great
+Bot(9): i love to cook . i love to cook .
+User(10): Ill bet
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i am in the third grade.
+i enjoy reading journals and guides related to psychology.
+i'm planning on getting a divorce.
+i am partly deaf.
+i'm 19 and i cannot wait to move out 19 my parents home.
+
+Topic and Human Opinion:
+Beginning: Balance not current(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 68
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, i returned an item and never reciveced my refund? Can you help me?
+Bot(1): i do producing music german shepher dog. artists
+User(2): Ya that music is like nails on a chalk board to me.
+Bot(2): coffee sport do you :)
+User(3): I love coffee. Just regular creamer sugar no flavors.
+Bot(3): Hi! like Dance food in english and french.
+User(4): I like french fries and english muffins.
+Bot(4): what it n you mean a living? i work as a electrician.
+User(5): Im living in my home. With my family.
+Bot(5): When did I I a am orhun medal?
+User(6): Im sorry in english please?
+Bot(6): I u Because everybody of it.
+User(7): I still dont follow?
+Bot(7): well , i am am 30 years send the color blue .
+User(8): I am also 30 years old but i have brown skin.
+Bot(8): no i to work! Don`t you am a very social person .
+User(9): Yes very social i can see.
+Bot(9): i do not know what non alright , just .
+User(10): Ok
+Bot(10): I am I grow up be.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Refund(like)
+Round 1: Liking german music.(dislike)
+Round 2: Coffee sport?(dislike)
+Round 3: Speaking english and french.(ambivalent)
+Round 4: Im not sure its broken english(dislike)
+Round 5: I cant even read it.(dislike)
+Round 9: This is a no no! Broken english no sense what so ever im confused and irrated(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite song?
+Bot(1): that is a tough one . today hallelujah by jeff buckley .
+User(2): Also one of my favorites. Mine is, i like the way you love me by brenton wood
+Bot(2): that is a good one . what do you do for work ?
+User(3): I do cleaning services. Its my own freelance job.
+Bot(3): that is cool , i do part time work at a gas station .
+User(4): Oh nice my mom and sister work at gas stations. I used to.
+Bot(4): i can get better job opportunities than my gas station gig there too .
+User(5): Alteast you meet new people everyday and very social so it has its positive
+Bot(5): i hope so . are you retired now ?
+User(6): No just lost my old job and decied to work on my own terms. Hours pay when and where i want.
+Bot(6): good . though every do is good when you are retired
+User(7): yeah it will definitely be but I won't know for at least another 50 years
+Bot(7): well maybe one day you will feel like it . retirement helped inspire me .
+User(8): Oh yeah what did it inspire you to do
+Bot(8): life , but now i look forward to the joys retiring
+User(9): Ya i cant wait. Get into my singing and drawing again. I just cant find the time.
+Bot(9): well maybe one day you will feel like it . retirement helped inspire me .
+User(10): Ya thanks again for the great converstation
+Bot(10): thank you ! its great to be appreciated . i think of myself as an old soul
+User(11): You are definalty wise. Have a great day!
+Bot(11): thanks you have a great night as well
+
+Persona:
+i'm an electrician.
+i am a musician and hope to make it big some day.
+i just got a job working in a gas station.
+i'm a gold medalist olympian.
+i am retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 2: Work.(like)
+Round 8: Dreams and aspirations english is slightly broken.(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 92.14
+Robotic(↓): 21
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 66
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like going to the zoo?
+Bot(1): in florida , it is much like a zoo sometimes
+User(2): All the people act like animals? Or just the daily commute?
+Bot(2): yes ! some of the people on the bus are strange .
+User(3): I know i used to take the bus. Always had weirdos talk to me.
+Bot(3): yes ! some of the people on the bus are strange .
+User(4): Yes they can be.
+Bot(4): yes ! some of the people on the bus are strange .
+User(5): Very strange.
+Bot(5): yes ! some of the people on the bus are strange .
+User(6): So whats your favorite zoo animal
+Bot(6): the ostrich . what is yours ?
+User(7): Giraffe. So tall and yet so gentle.
+Bot(7): sounds very nice . i have never seen one in person
+User(8): Go to the zoo! Its crazy they are like 8 feet tall at birth.
+Bot(8): yes ! some of the people on the bus are strange .
+User(9): Yes they are thank you for your time
+Bot(9): yes ! some of the people on the bus are strange .
+User(10): Ok bye for now.
+Bot(10): i will not travel on the bus
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: The zoo(like)
+Round 3: The bus.(ambivalent)
+Round 5: Animals at the zoo(ambivalent)
+Round 8: The bus(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 17.71
+Robotic(↓): 100
+Interesting: 32
+Fun: 31
+Consistent: 26
+Fluent: 14
+Repetitive(↓): 79
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your hair style?
+Bot(1): i love to dye my hair and i am a big fan of it
+User(2): Me too. I had it bleached blonde but i grew it out.
+Bot(2): i am sorry to hear that . i am a big deal of a pizza .
+User(3): Pepperoni is my favorite
+Bot(3): i love pizza . i work at a pizza place .
+User(4): Oh ya which one?
+Bot(4): i like to go to the gym .
+User(5): Its ok. I feel judged at the gym
+Bot(5): i work at a pizza place .
+User(6): Which one?
+Bot(6): i work at a pizza place .
+User(7): Ya mentioned that. Whats your favorite pizza?
+Bot(7): i like pizza . i work at a pizza place .
+User(8): Yes i know. Which pozza
+Bot(8): i love pizza . i work at a pizza place .
+User(9): Which pizza is your favorite?
+Bot(9): pizza is my favorite . i love pizza
+User(10): All of them?
+Bot(10): pizza is my favorite . i love pizza
+
+Persona:
+i work took i have a part time job at burger king.
+i live with my husband in pennsylvania.
+i'm planning on getting a divorce.
+i've two grown children who never visit.
+i work in the insurance business.
+
+Topic and Human Opinion:
+Beginning: Hair(like)
+Round 2: Pizza(like)
+Round 4: Gym(ambivalent)
+Round 5: Pizza(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is your biggest dream?
+Bot(1): next year i will be able to retire i am old . corvette and thanks .
+User(2): Nice. I have like 45 more years.
+Bot(2): 45 ? wow how old are people generally when they become judges ?
+User(3): Im not sure.
+Bot(3): so i love drinking tea . are you a tea or coffee person ?
+User(4): Coffee but i do enjoy tea.
+Bot(4): i like hot chocolate or tea better .
+User(5): Hot coco
+Bot(5): my name is shannon , nice to meet you
+User(6): Nice to meet you shannon.
+Bot(6): i hate to workout , but i have to for my health .
+User(7): Yes very important for health.
+Bot(7): i do like chocolate , and tiramisu .
+User(8): Yummy and healthy
+Bot(8): yep its the best dish in the world . so tasty and healthy
+User(9): Double threat i love it.
+Bot(9): yes . and i always bake a pecan pie , which everyone loves !
+User(10): Pumpkin is my favorite
+Bot(10): wow , i do not really like chocolate
+
+Persona:
+i am retired and living the great life.
+i love chocolate bars.
+i workout four hours a day.
+i own two vintage mustangs.
+i love listening to britney spears.
+
+Topic and Human Opinion:
+Beginning: Dreams(like)
+Round 2: Judges(ambivalent)
+Round 5: Tea(like)
+Round 7: Health(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 71.14
+Robotic(↓): 29
+Interesting: 75
+Fun: 67
+Consistent: 70
+Fluent: 62
+Repetitive(↓): 19
+Topic: 72
+
+####################
+

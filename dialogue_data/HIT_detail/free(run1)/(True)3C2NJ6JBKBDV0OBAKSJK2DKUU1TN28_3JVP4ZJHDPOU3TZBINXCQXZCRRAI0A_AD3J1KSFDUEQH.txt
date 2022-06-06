@@ -1,0 +1,306 @@
+Feedback: Interesting.  We have a long way to go to make chat bots not sound like chat bots.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What did you think of the presidential election?
+Bot(1): i didn't know the news was the last year
+User(2): Do you like the outcome of the election?
+Bot(2): i do not know the news
+User(3): Do you like watching football?
+Bot(3): i do not watch football i love football
+User(4): How do you know you love it if you do not watch it?
+Bot(4): i like to watch football
+User(5): So you do watch football!
+Bot(5): i like football and football
+User(6): What do you like about football?
+Bot(6): i like football and football
+User(7): Are there any teams you like to follow?
+Bot(7): i love football , i love football
+User(8): I guess you like it a lot!
+Bot(8): i like football but i like to watch football
+User(9): What is your favorite team?
+Bot(9): i like the steelers and seahawks
+User(10): Do you watch the Patriots?
+Bot(10): i like the packers and the steelers
+User(11): Are you from Pittsburg?
+Bot(11): i am from georgia , how about you ?
+User(12): I'm from Tennessee, do you like the Atlanta Falcons?
+Bot(12): i like the packers . i love the ravens
+User(13): Who is your favorite football player?
+Bot(13): i do not really watch football
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Politics(ambivalent)
+Round 2: Football(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 29.57
+Robotic(↓): 100
+Interesting: 6
+Fun: 30
+Consistent: 1
+Fluent: 68
+Repetitive(↓): 94
+Topic: 96
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like to travel by air?
+Bot(1): no , i prefer traveling by land or sea .
+User(2): Are you afraid of flying?
+Bot(2): i am kinda afraid of heights so not sure flying is for me
+User(3): If I told you flying was totally safe would you consider it?
+Bot(3): absolutely ! do you travel often . i enjoy it a lot !
+User(4): Have you ever flown before?
+Bot(4): i sure have . flown from coast to coast . they are not bad just cramped
+User(5): What is your favorite airline?
+Bot(5): i am not sure . i do have to buy a plane ticket .
+User(6): Do you find plane tickets expensive?
+Bot(6): i am not sure . i do have to buy a plane ticket .
+User(7): Where are you buying a ticket to?
+Bot(7): i am not sure . i do have to buy a plane ticket .
+User(8): Where do you want to travel?
+Bot(8): i am not sure . i do have to buy a plane ticket .
+User(9): How much is the ticket?
+Bot(9): i am not sure . i do have to buy a plane ticket .
+User(10): Do you travel for business?
+Bot(10): i am not sure . i do have to buy a plane ticket .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Air Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.00
+Robotic(↓): 99
+Interesting: 24
+Fun: 35
+Consistent: 81
+Fluent: 30
+Repetitive(↓): 100
+Topic: 88
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What is your favorite food?
+Bot(1): Where do is Aman..and at?
+User(2): Do you like to eat?
+Bot(2): I do, my money me myself.
+User(3): Do you eat your vegetables?
+Bot(3): scary movies are great , my music teacher be nice when you tell has your day been ?
+User(4): What do you like about scary movies?
+Bot(4): I music do you likes sports, but i love❤ reading comic books.
+User(5): do you collect comic books?
+Bot(5): Mine is are are person
+User(6): What comic books do you like?
+Bot(6): Please make 20 in the improvement.
+User(7): I'm really having trouble understanding you.
+Bot(7): it is my parents they're back from my trip come home for the holidays .. Also, try to guess: my favorite music ...
+User(8): Do you like Rock music?
+Bot(8): That you I go lot of fun😁
+User(9): Do you go to concerts?
+Bot(9): Hello! How is your the way, I Cut a long story short: i'm terrified of scorpions
+User(10): why are you afraid of scorpions?
+Bot(10): they Do you like are very good .
+
+Persona:
+i'm fluent in english spanish and french.
+i am planning on getting a divorce.
+i have superpowers.
+my next language to study is french.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 3: scary movies(dislike)
+Round 4: comic books(dislike)
+Round 7: Music(like)
+Round 9: scorpions(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 15.86
+Robotic(↓): 100
+Interesting: 3
+Fun: 7
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like to watch television?
+Bot(1): not really . i do not believe in watching television .
+User(2): Are you religious?
+Bot(2): not really . i do not believe in watching television .
+User(3): Why do you not believe in watching television?
+Bot(3): are you a religious person
+User(4): Yes I am religous.
+Bot(4): are you a religious person ?
+User(5): Yes
+Bot(5): are you a religious person ?
+User(6): Do you like to read?
+Bot(6): yes i read books
+User(7): What kinds of books do you like to read?
+Bot(7): my absolute favorite is the bible .
+User(8): You like the bible, but you are not religious?
+Bot(8): yes i love reading the bible .
+User(9): What is your favorite chapter in the bible?
+Bot(9): my absolute favorite is the bible .
+User(10): Do you have a favorite verse?
+Bot(10): my absolute favorite is the bible .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Television(like)
+Round 3: religion(like)
+Round 5: Reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 25.43
+Robotic(↓): 99
+Interesting: 21
+Fun: 7
+Consistent: 28
+Fluent: 71
+Repetitive(↓): 96
+Topic: 46
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you attend school?
+Bot(1): no , i am a student . i love to cook .
+User(2): do you watch cooking shows on television?
+Bot(2): i do . i like to read .
+User(3): What do you like to read about?
+Bot(3): i love to read , and do some traveling .
+User(4): Where do you like to travel?
+Bot(4): i love to travel . i love to travel .
+User(5): Do you travel by air?
+Bot(5): no , i do not . i like to go fishing .
+User(6): Do you fish in the ocean?
+Bot(6): no , i do not . i like to go out to eat with my family .
+User(7): What is your favorite place to go and eat out?
+Bot(7): i love to cook . i love it .
+User(8): What do you cook?
+Bot(8): no , i do not , but i do like to eat .
+User(9): What is your favorite food?
+Bot(9): i like the color red . what is yours ?
+User(10): Yellow
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: School(like)
+Round 1: Cooking(like)
+Round 2: Reading(like)
+Round 3: Travel(like)
+Round 5: Fishing(ambivalent)
+Round 6: Eating Out(like)
+Round 7: Cooking(like)
+Round 9: Favorite color(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 16.14
+Robotic(↓): 100
+Interesting: 21
+Fun: 37
+Consistent: 0
+Fluent: 38
+Repetitive(↓): 83
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like watching the stars in the sky?
+Bot(1): it is a little gloomy here ! i have been stuck inside thinking about food a lot !
+User(2): Are you hungry?
+Bot(2): when i bathe in the shower , i scrub so hard my skin turns beet red .
+User(3): Do you shower often?
+Bot(3): sweet ! what kind of songs do you sing ?
+User(4): I sing all kinds of songs.
+Bot(4): do you sing red hot chili pepper songs ?
+User(5): Yes I like red hot chili pepper music.
+Bot(5): they came to my area last summer but i was too busy working construction to go
+User(6): HAve you been to many concerts?
+Bot(6): concerts , like music ? do you watch concerts on netflix ?
+User(7): No I do not have netflix.
+Bot(7): i have no idea , i do not watch netflix
+User(8): What is your favorite band?
+Bot(8): depends . . . but i will never turn the station if modest mouse is playing
+User(9): Who is modest mouse?
+Bot(9): has to be superman . he is from outer s ace but he is human .
+User(10): is he a singer?
+Bot(10): lady gaga ! org i could listen to her and madonna all day long
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Astronomy(like)
+Round 1: Food(like)
+Round 2: Showering(ambivalent)
+Round 3: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 40.00
+Robotic(↓): 100
+Interesting: 53
+Fun: 55
+Consistent: 46
+Fluent: 33
+Repetitive(↓): 52
+Topic: 45
+
+####################
+

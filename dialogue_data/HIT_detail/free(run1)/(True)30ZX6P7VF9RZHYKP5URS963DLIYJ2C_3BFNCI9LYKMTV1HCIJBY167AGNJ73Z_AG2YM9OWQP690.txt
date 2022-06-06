@@ -1,0 +1,313 @@
+Feedback: goodnight. keep safe. Happy holidays. 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi. What are you doing right now
+Bot(1): hey g not much , just chillin !
+User(2): I am playing Harry Potter
+Bot(2): shoooooot ! what is that ? basketball or some weird harry potter thing ?
+User(3): It is a game you can download on your tablet or phone and play it
+Bot(3): is it like harry potter
+User(4): yes it is Harry potter
+Bot(4): is it like harry potter
+User(5): It is . It has a lot of changes just like the weather.
+Bot(5): is it like harry potter
+User(6): How is the weather
+Bot(6): cloudy here . but it feels more like fall so that is exciting .
+User(7): Yes it is fall weather. It is very cold and I don't like the cold weather
+Bot(7): why do you like the cold
+User(8): I don't like the cold at all. I prefer warm times like last week
+Bot(8): yes but i love changes
+User(9): you mean you like different seasons and having seasons
+Bot(9): yes but i love changes
+User(10): I prefer spring time.
+Bot(10): i like spring the best
+User(11): Me too.
+Bot(11): i like spring the best
+User(12): Okay well I am going to bed. goodnight
+Bot(12): ok . then i am going to need a nap .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: I am playing Harry Potter right now on my tablet(like)
+Round 4: weather(like)
+Round 11: bed(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 11: The user will change the topic in the next input.(like)
+
+Revised avg score: 47.14
+Robotic(↓): 100
+Interesting: 62
+Fun: 85
+Consistent: 37
+Fluent: 63
+Repetitive(↓): 87
+Topic: 70
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi. Do you have any pets?
+Bot(1): i have fish that i raise in a salt water aquarium , but i would love a ferret . you ?
+User(2): Okay thats interesting. I have two dogs.
+Bot(2): amazing ! are you also afraid of clowns by any chance ? two roommates ?
+User(3): No and no. I don't understand what you are saying
+Bot(3): i live in new york , i love the local shops . visit and we fight
+User(4): I live in pa
+Bot(4): that sounds really nice ! i have a home in the mountains , but i live in the city .
+User(5): I have a house in the suburbs
+Bot(5): the windy city ! i love chicago ! do you have family there ?
+User(6): I live in pa I told you earlier remember
+Bot(6): i love the water . swimming , surfing , boating . if it gets me near the water i am in ! you ?
+User(7): I love swimming but not surfing or boating
+Bot(7): love to swim and ski
+User(8): Ok . I hope you have a good time when you go next. . I don't get to go out to water much
+Bot(8): my favorite beach in this area is jones beach . it is about 2 hours from me
+User(9): I love the beach!! I sure miss it . I am so jealous
+Bot(9): i love the beach and the ocean !
+User(10): Me too! Igo about every 2 to 3 years
+Bot(10): cool . i need to lose weight . thinking of looking up dieting tips
+User(11): Ok go ahead . I am going to go to bed. sweet dreams
+Bot(11): just the future oh my past was hard enough thanks for asking
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 3: living new york and making random comments(dislike)
+Round 10: bed(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 10: The user will change the topic in the next input.(like)
+
+Revised avg score: 21.29
+Robotic(↓): 100
+Interesting: 15
+Fun: 81
+Consistent: 16
+Fluent: 24
+Repetitive(↓): 92
+Topic: 5
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi. Aren't horses just magnificent
+Bot(1): i bet . i ride horses .
+User(2): What style do you ride
+Bot(2): i ride horses . i ride horses
+User(3): english or western
+Bot(3): i ride horses . i ride horses
+User(4): How s the weather
+Bot(4): i am a country girl
+User(5): ok so how is the weather
+Bot(5): it is hot here in the midwest
+User(6): its very cold here in pa
+Bot(6): it is hot here in ny
+User(7): it is supposed to get freezign about 28 tonight
+Bot(7): i am sure you are right
+User(8): I don't like the cold weather. I prefer spring
+Bot(8): i love winter but its hot
+User(9): I think you mean you love summer summer is hot winter is cold
+Bot(9): i love summer too but summer is summer
+User(10): Ok well that s good. I m going to go to bed . night.
+Bot(10): i love summer time
+User(11): sweet dreams. I am exhausted
+Bot(11): i am glad you are okay .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: horses(like)
+Round 3: weather(like)
+Round 9: bed(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 9: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 30.43
+Robotic(↓): 100
+Interesting: 2
+Fun: 14
+Consistent: 91
+Fluent: 6
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi. How are you doing
+Bot(1): I'll say not is your kids one day.
+User(2): what do you mean
+Bot(2): do you do you do pets .
+User(3): yes I have two dogs two fish
+Bot(3): I propose profile which, in tonight.
+User(4): do you have pets
+Bot(4): that you my best i love traveling .
+User(5): where have you traveled to
+Bot(5): hello , i miami u is holding am steven .
+User(6): you are talking all over the place are you drinking alcohol
+Bot(6): i am i don't think write do you do ?
+User(7): I dont understand what you are saying
+Bot(7): Hello! it I’ve learnt a going? 😊. Some facts about me: at sight of blood
+User(8): yes what happens
+Bot(8): I am 21 and to doing fine.. Bdw You?
+User(9): 46 and tired
+Bot(9): I like no i’m a social media.
+User(10): Im going to bed night
+Bot(10): Oh, I'm love it because i What is your hobby?
+User(11): sleeping
+Bot(11): I like spell your favorite like to read
+
+Persona:
+now i live in the united states.
+i drive a nissan pathfinder.
+i only eat kosher.
+i'm a 56 year old woman.
+i'm an avid kayaker.
+
+Topic and Human Opinion:
+Beginning: covid(dislike)
+Round 2: pets(like)
+Round 4: traveling(dislike)
+Round 6: writing(dislike)
+Round 9: bed(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(dislike)
+Round 9: The user changed the topic the last input.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi. Do you have any kids
+Bot(1): hello . i do not have any but have kids and a wife . you ?
+User(2): I have a husband and two boys
+Bot(2): cool . i love soccer and dogs
+User(3): I have two dogs and I love God
+Bot(3): dogs are awesome almost as cool as my skateboard
+User(4): so you skateboard much
+Bot(4): i do but i also enjoy dancing
+User(5): I never got into dancing . what kind do you do
+Bot(5): i do dance competitively on a dance team
+User(6): Sweet! What kind of music. that is a lot of fun
+Bot(6): any sports will work for me
+User(7): Nice. So what does your wife do
+Bot(7): my husband plays sports . we survive eachother
+User(8): Ok but earlier you said you had a wife and now you are saying you have a husband
+Bot(8): my husband plays sports . we survive eachother
+User(9): I need to go to bed as it is almost midnight
+Bot(9): you should sleep then . do you like sports ?
+User(10): bowling horseback riding and thats about it sport wise
+Bot(10): lol thought we were talking about american football
+User(11): oh ok now I understand. I am american and don't play sports nor watch them
+Bot(11): oh ok then how old are u
+User(12): 46
+Bot(12): wow i am 36 . well i must go . talk later ok .
+User(13): ok night
+Bot(13): ok have a nice night
+
+Persona:
+i enjoy american sports.
+i have a children and a dogs.
+i like to dance.
+i'm married with two kids.
+i'm a skateboarder.
+
+Topic and Human Opinion:
+Beginning: kids(like)
+Round 2: hobbies/ life(like)
+Round 8: random and bed(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 68.29
+Robotic(↓): 74
+Interesting: 100
+Fun: 79
+Consistent: 44
+Fluent: 100
+Repetitive(↓): 6
+Topic: 35
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I thought we only had to do 5 bots and I have already did that
+Bot(1): i do not know how to make it . i am a big fan of the walking dead .
+User(2): are you tired
+Bot(2): i am not . i am a student .
+User(3): well we all get tired
+Bot(3): i am a student , but i do not have to work .
+User(4): what work do you do
+Bot(4): i work at a local diner .
+User(5): nice do you get regular customers
+Bot(5): i do . i like to go to the gym .
+User(6): thats nice. I like to sleep
+Bot(6): i like to go to the gym and listen to music .
+User(7): I like to play online games and go to bed before midnight
+Bot(7): i love to go fishing .
+User(8): that s nice. I dont like fishing
+Bot(8): i love to eat .
+User(9): yes we all love to eat a little too much. LOL
+Bot(9): i like to eat fish .
+User(10): That makes sense since you love to fish
+Bot(10): i do not , but i do like to eat .
+User(11): Ok well I need to go now. Sweet dreams . Good luck
+Bot(11): i do not know how to make it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: upset(dislike)
+Round 1: sleep(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 49.14
+Robotic(↓): 100
+Interesting: 4
+Fun: 85
+Consistent: 65
+Fluent: 75
+Repetitive(↓): 8
+Topic: 23
+
+####################
+

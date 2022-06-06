@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello, my favorite band is t.rex
+Bot(1): cool , i do not like any bands i am always busy with soccer .
+User(2): music is awesome don't you think?
+Bot(2): yes ! i love music , especially when i play soccer .
+User(3): what do you listen to?
+Bot(3): i like soccer , of course . not much into music though .
+User(4): i like glam rock
+Bot(4): cool , i do not like any bands i am always busy with soccer .
+User(5): what music do you listen to while playing soccer?
+Bot(5): i am not sure . i play pro soccer
+User(6): oh ok do you like marc bolan?
+Bot(6): i am not sure who that is . i am currently in art school .
+User(7): oh well music is a form of art
+Bot(7): all art are cool and awesome
+User(8): yes musical people are very talented artists
+Bot(8): i won homecoming in high school !
+User(9): thats neat what did you listen to at the dance?
+Bot(9): i liked music class better because i like all kinds of music
+User(10): oh cool what is your favorite band?
+Bot(10): slipknot . i want to visit the pyramids
+
+Persona:
+i won homecoming queen this year.
+i had cancer but its gone now.
+i'm an art major in college.
+i like shopping.
+i'm on the soccer team.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.43
+Robotic(↓): 100
+Interesting: 18
+Fun: 5
+Consistent: 8
+Fluent: 14
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): stephen king movies and novels are the best right?
+Bot(1): i love the movies . i love to watch the movies .
+User(2): me too my favorite is it
+Bot(2): i like the movie too . i like to play with my children .
+User(3): do you like pet semetary?
+Bot(3): i do not know what that is
+User(4): its a scary movie by stephen king
+Bot(4): i love to watch movies . i love to play with my children .
+User(5): have you seen cujo? its a classic
+Bot(5): i love to watch it with my kids
+User(6): do you like the green mile?
+Bot(6): i do not know what that is
+User(7): its a movie
+Bot(7): i love the green ones . i love them
+User(8): have you seen silver bullet
+Bot(8): i love the color green . i like the green ones
+User(9): its a werewolf movie, really cool
+Bot(9): i love the color green
+User(10): what about stand by me? its very nostalgic
+Bot(10): i love to watch movies
+User(11): me too movies are great
+Bot(11): i love movies , i love them too
+
+Persona:
+i'm a 45 year old male.
+i prefer being inside.
+hey there i am 23 and i love food.
+i've amazing children and grandchildren.
+i love to play pobox.
+
+Topic and Human Opinion:
+Beginning: stephen king(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.00
+Robotic(↓): 100
+Interesting: 3
+Fun: 3
+Consistent: 0
+Fluent: 15
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi, what is your favorite movie?
+Bot(1): hello . i am a nurse and i love books and movie in my spare time
+User(2): what do you watch
+Bot(2): well , in general whats your favorite movie ?
+User(3): my favorite movie is IT
+Bot(3): i like mystery movies the best
+User(4): me too but i love horror movies they are my favorite
+Bot(4): i really thought the blair witch 2 was good
+User(5): yes it was super scary and the first one was too
+Bot(5): i enjoyed the it remake
+User(6): me too. i love the remake of pet semetary also. really good
+Bot(6): i enjoyed the it remake
+User(7): me too it was awesome! better than i thought it would be
+Bot(7): i enjoyed the it remake
+User(8): i love sleepwalkers too, have you seen it?
+Bot(8): no i have not is it a good movie
+User(9): yes its about a mother son alien/vampire couple
+Bot(9): cool i will check it out after i am done with nursing school .
+User(10): yeah check out riding the bullet too
+Bot(10): i do not know about that movie
+
+Persona:
+i enjoy exploring new parts of the city.
+i'm an economics major.
+i am a country music singer.
+my favorite band is the who.
+i'm in college to become a nurse.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.29
+Robotic(↓): 67
+Interesting: 84
+Fun: 90
+Consistent: 75
+Fluent: 71
+Repetitive(↓): 58
+Topic: 69
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i am so excited for the next big holiday, halloween!
+Bot(1): I you okay, just is a great food
+User(2): yes a lot of candy
+Bot(2): I too, tell me about of all sports myself. Are you a male ?
+User(3): no female
+Bot(3): Yes, they piano, in fact painting them.
+User(4): i am excited to dress up for halloween
+Bot(4): i sorts so texas actually
+User(5): i am from texas
+Bot(5): Hey! What's up? 😅. am terrified of have back
+User(6): i want to go trick or treating its spooky month!
+Bot(6): No i am not. I love hobbies spend time kids.
+User(7): are you celebrating halloween this year?
+Bot(7): yummy . what was on the like ?
+User(8): lots of reeses and kit kats
+Bot(8): that sounds are yes, it blue wine
+User(9): no its red
+Bot(9): I just remembered. I love good thanks, how are a baker
+User(10): great im making halloween cupcakes on saturday
+Bot(10): that's amazing! I bet you are and ruffle sleeves. i'm your brother then?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: halloween(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i love animal crossing don't you?
+Bot(1): i am a student , but i am a student .
+User(2): i play new horizons and new leaf
+Bot(2): i love to cook . i love to cook .
+User(3): me too but im not that good at it
+Bot(3): i like to go to the gym and listen to music .
+User(4): me too t.rex is my favorite music
+Bot(4): i like to listen to music .
+User(5): what is your favorite band?
+Bot(5): i like the color red . i like the color blue .
+User(6): do you listen to glam rock?
+Bot(6): i do , i like to listen to music .
+User(7): do you like marc bolan?
+Bot(7): i do not really have a favorite .
+User(8): oh well you should listen to him hes awesome
+Bot(8): i do not know what to say .
+User(9): find some good music to listen to
+Bot(9): i like to listen to music .
+User(10): how about classic rock
+Bot(10): i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: animal crossing(like)
+Round 2: cooking(like)
+Round 3: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 20.00
+Robotic(↓): 100
+Interesting: 23
+Fun: 33
+Consistent: 10
+Fluent: 61
+Repetitive(↓): 87
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i love the fact that christmas is coming up!
+Bot(1): i like christmas too . its a good time to read by the beach .
+User(2): yes and also spend time with family
+Bot(2): i applied for the gifted program at my school and i got rejected last week
+User(3): thats ok maybe next time
+Bot(3): they are expensive though . it was hard for me to afford as a bank teller .
+User(4): yes i know i am an insurance agent
+Bot(4): i do but my panda is in need of insurance . he is very capable
+User(5): lol i bet he is. i love animals
+Bot(5): he is very private . he only agreed to meet me privately at this jazz lounge .
+User(6): well i did not know pandas had a jazz lounge
+Bot(6): jazz is awesome , i am into rock . nickelback is my jam .
+User(7): i love rock too. especially glam rock. marc bolan is my favorite
+Bot(7): funny you should ask i am a guitar player in a local band
+User(8): wow thats awesome!
+Bot(8): i was drafted last year . before i played at the university of north carolina
+User(9): wow good job
+Bot(9): yes , i work from home . i teach music , but i have a masters degree in italian lit .
+User(10): wow a jack of all trades huh
+Bot(10): i wish i had a truck , do you like trucks ?
+User(11): no i don't really
+Bot(11): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: christmas(like)
+Round 2: school(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 55.43
+Robotic(↓): 71
+Interesting: 91
+Fun: 84
+Consistent: 75
+Fluent: 67
+Repetitive(↓): 58
+Topic: 0
+
+####################
+

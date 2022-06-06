@@ -1,0 +1,313 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Gosh, I hate my job
+Bot(1): i am sorry , working tomorrow , very demanding job working with a finance company
+User(2): How do you feel about your job?
+Bot(2): i enjoy it but like most jobs it does have its bad days
+User(3): Same here. But most of my days at work are bad.
+Bot(3): i do not really like my job either
+User(4): Looks like we're two peas in a pod.
+Bot(4): very . i am in finance , what do you do ?
+User(5): I investigate child abuse reports. It's very stressful.
+Bot(5): that would be a hassle for sure . imagine wrangling up my 5 cats lol .
+User(6): Oh, I love cats!
+Bot(6): they are okay , i prefer cats though . i used to own 6 actually .
+User(7): What happened to cat 6?
+Bot(7): because he ate chicken fresh from the farm instead of a restaurant
+User(8): I thought cats could eat any type of chicken.
+Bot(8): no way do you really have a chicken . . .
+User(9): I used to have them. They eat anything - nasty.
+Bot(9): what kind of work do you do ? i am in finance andi love cats .
+User(10): I'm a child abuse investigator. Finance sounds more relaxing.
+Bot(10): it is not bad . at least my wife can tolerate me . lol
+
+Persona:
+i graduated from yale in 2011 with a degree in finance.
+my wife spends all my money.
+i've 5cats.
+i have a dogs.
+my father is a farmer.
+
+Topic and Human Opinion:
+Beginning: i hate my job.(ambivalent)
+Round 5: Having 5 cats.(like)
+Round 8: Chicken(like)
+Round 9: Our jobs again (we started with this)(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 48.00
+Robotic(↓): 59
+Interesting: 39
+Fun: 53
+Consistent: 28
+Fluent: 93
+Repetitive(↓): 73
+Topic: 55
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I like to go hiking in the spring. Do you?
+Bot(1): i like to go to the gym and listen to music .
+User(2): Do you prefer the gym to the great outdoors?
+Bot(2): i do , i love to go fishing .
+User(3): Well, that takes place outside for sure. I love to fish as well.
+Bot(3): i like to go to the gym and listen to music .
+User(4): Sometimes I like going to the gym, but I prefer dancing.
+Bot(4): i like to go to the lake and listen to music .
+User(5): Sounds like you like listening to music no matter where you are!
+Bot(5): i am not sure . i am a bit of a loner .
+User(6): Loners can listen to music. I like listening to music too. What kind do you like?
+Bot(6): i like the beatles , and i love country music .
+User(7): I love alternative rock, like Twenty One Pilots.
+Bot(7): i like to listen to music .
+User(8): I have pet iguanas. Do you like iguanas?
+Bot(8): i do not , i like to go out to eat with my family .
+User(9): Not to eat them, they are my pets and are litter box trained and everything.
+Bot(9): i am a student , but i work at a grocery store .
+User(10): What are you studying?
+Bot(10): i am a student , i am a teacher .
+
+Persona:
+horror movies are my favorites.
+whats up i'm a 46 year old single dad 46 a kids.
+i like to spend my money on cars.
+i've zero family that i am close to.
+i'm terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: i like to go hiking in the spring.(dislike)
+Round 3: Going to the gym, listening to music(like)
+Round 7: Iguanas(like)
+Round 9: student, job(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 23.71
+Robotic(↓): 82
+Interesting: 10
+Fun: 8
+Consistent: 3
+Fluent: 89
+Repetitive(↓): 76
+Topic: 14
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I'm an amateur photographer and love taking pictures.
+Bot(1): how long have you been taking pictures for ?
+User(2): For the past five years. I just use my cell phone. It's handy!
+Bot(2): i mainly use my phone to text my boyfriend , we have a very loving relationship
+User(3): That's sweet. How long have you two been together?
+Bot(3): he is in a metal and is always touring . kinda cool for him
+User(4): Yeah, it is. I bet you miss each other though.
+Bot(4): i visit often enough , my brother is in a band and travels .
+User(5): It sounds like you handle the touring just fine! That's cool.
+Bot(5): nice , reminds me of following my old favorite band toto on tour
+User(6): Wow, that was a while back! Do you like how Weezer redid Africa?
+Bot(6): where in africa do you live ?
+User(7): I don't live in Africa. I'm talking about Toto's old song 'Africa'.
+Bot(7): i am a cajun chef born and raised on the bayou , fits my circumstances
+User(8): That sounds cool. I love cajun food! Will you cook for me?
+Bot(8): everything ! you name it , i cook it . you ?
+User(9): Shrimp etouffe?
+Bot(9): well there is shrimp gumbo , shrimp cresol , ship scampi
+User(10): LOL! Shrimp sandwich, bubba shrimp
+Bot(10): i do shrimp and lobster are my favorite
+
+Persona:
+i've a boyfriend.
+i think i'll retire in a few years.
+i am a museum tour guide.
+i am 60years old.
+i will be released in about a month.
+
+Topic and Human Opinion:
+Beginning: i'm interested in photography and like taking pictures.(like)
+Round 2: boyfriend(like)
+Round 5: Old favorite band Toto(like)
+Round 7: residence, job(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 89.71
+Robotic(↓): 13
+Interesting: 86
+Fun: 94
+Consistent: 89
+Fluent: 91
+Repetitive(↓): 10
+Topic: 91
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love to play board games. Trivial Pursuit is my favorite.
+Bot(1): i play games with my friends .
+User(2): What games do you play?
+Bot(2): i play the guitar . i play the guitar .
+User(3): I play the piano. Maybe we should play together?
+Bot(3): i play the piano . i play the piano .
+User(4): You play the piano and guitar. Multitalented.
+Bot(4): i play the piano . i play the piano .
+User(5): I work as a state social worker. What do you do?
+Bot(5): i work in a bank . you ?
+User(6): In the local welfare office. I've been here 17 years. How long have you been at the bank?
+Bot(6): i have been there since i was in the marines .
+User(7): How long were you in the marines?
+Bot(7): i was in the marines . i was in the marines .
+User(8): How long have you worked at the bank?
+Bot(8): i was in the marines . i was in the marines
+User(9): My Dad was in the Navy. He thinks Navy is better than Marines.
+Bot(9): wow . that is impressive . i bet you are very busy .
+User(10): My Dad is very busy.
+Bot(10): i bet he is a very busy person .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love to play board games.(like)
+Round 2: Playing a musical instrument(like)
+Round 4: Job(like)
+Round 8: Military service(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 25.57
+Robotic(↓): 81
+Interesting: 28
+Fun: 20
+Consistent: 9
+Fluent: 59
+Repetitive(↓): 94
+Topic: 38
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I've been retired for the past year and I love it.
+Bot(1): I wouldn't call myself am vegan.
+User(2): Are you a vegan or not?
+Bot(2): I love it. i have my homework on computer to be a week.
+User(3): What kind of homework is it?
+Bot(3): I love listening to try it more and music do you like to read?
+User(4): I love alternative rock music. I like to read mystery-romances.
+Bot(4): I was work as of hockey
+User(5): I don't like hockey.
+Bot(5): I am sorry nice to meet What happened?
+User(6): I live in the south and hockey is a winter sport.
+Bot(6): i am from the usa am more of a 🤖
+User(7): I am from the USA too. My favorite sport is tennis.
+Bot(7): I do you said you are i have a cat and a cat.
+User(8): I have cats too. How many do you have?
+Bot(8): I like like all kind not have a job yet.
+User(9): I thought you worked in hockey.
+Bot(9): i will be favourite you It's .
+User(10): I work as a chef.
+Bot(10): i am listening to my favorite type of music right now , rock lot of i better go .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have been retired for a years.(like)
+Round 1: vegan or vegetarianism(dislike)
+Round 2: homework(dislike)
+Round 3: music, reading(like)
+Round 4: work, sports(dislike)
+Round 7: pets(like)
+Round 8: job(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.14
+Robotic(↓): 100
+Interesting: 4
+Fun: 0
+Consistent: 0
+Fluent: 21
+Repetitive(↓): 93
+Topic: 4
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi. I live and work on my parents farm.
+Bot(1): how nice i use to live on a farm as a kid . where ya from ?
+User(2): From Florida. Where are you from?
+Bot(2): i live in el paso , but my parents just moved to florida .
+User(3): Oh, I'd love to visit El Paso! Where in Florida are your parents living?
+Bot(3): i live in el paso , but my parents just moved to florida .
+User(4): What part of Florida do your parents live in?
+Bot(4): i live in el paso , but my parents just moved to florida .
+User(5): I have iguanas and cats for pets. Do you have any pets?
+Bot(5): i do , three iguanas , lol . they are very cool .
+User(6): Yes, they are! I hardly ever meet other iguana owners. This is cool.
+Bot(6): me too ! do you have any pets ? i have an iguana .
+User(7): I have 2 iguanas. I used to have 4, but my 2 older ones died years ago. These two are 20 and 21 years old.
+Bot(7): cool , are they all still alive ? where do they live ?
+User(8): In giant cages on my screened porch, and sleep with me at night LOL!
+Bot(8): are they mostly indoor ? i know they get so scared when they have to go outside .
+User(9): Mostly outdoors except at night. Florida is nice and sunny and warm for iguanas. Where do yours live?
+Bot(9): i live in el paso , but my parents just moved to florida .
+User(10): Where do your iguanas stay?
+Bot(10): we live in cali , on a cattle ranch . i love to surf .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work my parents farms.(like)
+Round 2: Where we live(like)
+Round 4: pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 54.57
+Robotic(↓): 56
+Interesting: 61
+Fun: 59
+Consistent: 59
+Fluent: 70
+Repetitive(↓): 74
+Topic: 63
+
+####################
+

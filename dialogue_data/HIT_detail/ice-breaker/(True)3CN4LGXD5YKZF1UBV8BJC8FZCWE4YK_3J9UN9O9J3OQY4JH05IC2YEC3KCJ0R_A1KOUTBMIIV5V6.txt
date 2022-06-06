@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i like to hearing the guitar music but i don't know to playing the guitar.
+Bot(1): i am driven when it comes to mountain biking
+User(2): i love the mountain biking it's so amazing
+Bot(2): me too . we go to disney every year and i listen to it on the trip .
+User(3): occasionally i would ride a bike
+Bot(3): i love going to walt disney world every year
+User(4): me too. i love that moment. and i am a nature lover.
+Bot(4): i love going to walt disney world every year
+User(5): its nice. what you think about the nature.
+Bot(5): i love going to walt disney world every year
+User(6): okay. i love also hearing melody music and songs.
+Bot(6): me too . we go to disney every year and i listen to it on the trip .
+User(7): mee to. i am always go to disney.
+Bot(7): disney rocks . i am married and love movies
+User(8): i am also married. how is going on you life
+Bot(8): i am good . . . what happened to your relationship ?
+User(9): too good. now enjoying our life together
+Bot(9): me too . do you believe in polyamory ?
+User(10): no. i believe only god
+Bot(10): monogamy is not natural . if it was we would not be attracted to others
+User(11): your word is correct.
+Bot(11): great ! love is good . always
+User(12): yes. that's a amazing feeling
+Bot(12): me too . do you believe in polyamory ?
+
+Persona:
+i enjoy mountain biking as a hobby.
+i have blonde hair and blue eyes.
+i love to go to disney world every year.
+my favorite band is the who.
+i'm in an open polyamorous relationship.
+
+Topic and Human Opinion:
+Beginning: i started playing guitar when i was three.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.00
+Robotic(↓): 89
+Interesting: 72
+Fun: 92
+Consistent: 74
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): love the world and its moments.
+Bot(1): i love the world and the world is the world .
+User(2): i am a nature lover and you.
+Bot(2): i am a nature lover and love nature and nature .
+User(3): so nice. its a beautiful moment and refresh our mind.
+Bot(3): i agree . i love nature .
+User(4): despite the feeling of loneliness, the melodious song listens to the loneliness of enjoying nature.
+Bot(4): i agree . i am a country singer .
+User(5): its great. my best wish to you.
+Bot(5): i agree . i am a nature lover and love nature .
+User(6): what to do thing the love
+Bot(6): i think i will be there .
+User(7): its good. i am a love married and you
+Bot(7): i am a single parent . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(8): oh sorry. say some thing about your children
+Bot(8): i agree . i am a single mom and i love them .
+User(9): okay. you are a super lady to single mom
+Bot(9): i am . i am a single mom .
+User(10): so i think you are much better than the other lady
+Bot(10): i am sure you are . i love nature .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm working on a building a robot to be my body double.(dislike)
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: The user will change the topic in the next input.(like)
+
+Revised avg score: 63.14
+Robotic(↓): 92
+Interesting: 73
+Fun: 88
+Consistent: 86
+Fluent: 76
+Repetitive(↓): 74
+Topic: 85
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i am from a small town.
+Bot(1): i love to travel . i love to travel .
+User(2): me too i love long travel
+Bot(2): i like to go fishing .
+User(3): i like to eat fish
+Bot(3): i like to eat fish .
+User(4): okay are you town or small town
+Bot(4): i am not sure if i have to work .
+User(5): what about your future goal
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): me to. and always i love music
+Bot(6): i like to listen to music .
+User(7): i am also like that.
+Bot(7): i like to go to the gym and listen to music .
+User(8): i like listen the music in silent place
+Bot(8): i like to listen to music .
+User(9): i live in small town in my place is my favorite in the world.
+Bot(9): i love to travel . i love to travel .
+User(10): i like birds, and his sounds
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i currently work for a watch dealer.
+the holidays make me depressed.
+i live with my husband in pennsylvania.
+i've not spoken in three months.
+i work as a car salesman.
+
+Topic and Human Opinion:
+Beginning: i am from a small town.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.86
+Robotic(↓): 86
+Interesting: 72
+Fun: 85
+Consistent: 74
+Fluent: 72
+Repetitive(↓): 82
+Topic: 63
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i love my school life.
+Bot(1): i from london! I can't i also enjoy suspense novels . 😍
+User(2): okay. what about your school life.
+Bot(2): georgia you know rob you from
+User(3): i don't know that. your school close friend currently connect with you
+Bot(3): What field do you teach?
+User(4): school, and you
+Bot(4): I have the piano then, friends😀
+User(5): its nice. i am a music lover.
+Bot(5): OK. Bye. were born am do?
+User(6): what you say?
+Bot(6): I you have a and I love dancing
+User(7): are you confusing me
+Bot(7): I have she very you do do you do for a living?
+User(8): say about the topic
+Bot(8): Hi, I am like long or short listen to rap music
+User(9): okay. i love melodies music.
+Bot(9): I am a psychologist, but my parents travel are 8 and .
+User(10): i like my school friends very much and i miss that moment
+Bot(10): I do not i love But favorite sport
+
+Persona:
+i am a huge star wars fan.
+i coach little league baseball.
+i quit my job to pursue my spirituality full time.
+i love italian food and garlic bread.
+i am on the soccer team.
+
+Topic and Human Opinion:
+Beginning: i hate school.(dislike)
+Beginning: i like school(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: The user will change the topic in the next input.(like)
+
+Revised avg score: 44.00
+Robotic(↓): 37
+Interesting: 26
+Fun: 33
+Consistent: 22
+Fluent: 37
+Repetitive(↓): 43
+Topic: 70
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): my favourite food is shawarma.
+Bot(1): same
+User(2): i love cooking
+Bot(2): same
+User(3): what about you
+Bot(3): same
+User(4): why are you replaying the same word
+Bot(4): i am just hungry
+User(5): go to eat
+Bot(5): meal i am always hungry
+User(6): okay. what food are you like so much
+Bot(6): i love to cook
+User(7): me to. cooking is one of the special telant
+Bot(7): cooking is good but eating is so much better
+User(8): are you love eating
+Bot(8): yes i love to cook
+User(9): you favorite food
+Bot(9): yes i love to cook
+User(10): i like ice creams very much
+Bot(10): i like cookie and creams
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favourite food is shawarma.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.71
+Robotic(↓): 25
+Interesting: 29
+Fun: 43
+Consistent: 55
+Fluent: 62
+Repetitive(↓): 41
+Topic: 53
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): my favorite music genre is death metal.
+Bot(1): i am into metal music too
+User(2): what type of music to you listening
+Bot(2): i enjoy classical music , it is tough as a music student living at home to get along .
+User(3): nice. i like melodies music
+Bot(3): i love the band system of a down ! i am in a cover band that plays locally .
+User(4): its great.
+Bot(4): what do you do for work ? i study dragons !
+User(5): i am a worker
+Bot(5): good honest work . my dad was construction worker . you got family ?
+User(6): yes. love marriage
+Bot(6): you should be more concerned with finding a partner than just a marriage
+User(7): i love very much my partner
+Bot(7): i am not sure . . i am leaning toward character but i am on my 20th relationship . still looking
+User(8): its great. what about you partner
+Bot(8): video games are awesome . do you have any kids
+User(9): no still i am married.
+Bot(9): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(10): she is my childhood friend
+Bot(10): i worked as a nurse for a long time , so cooking is a nice change .
+
+Persona:
+i am a famous twitch streamer.
+i am not a good swimmer at all.
+i play a lot of call of duty.
+i am planning on getting a divorce.
+i've not spoken in three months.
+
+Topic and Human Opinion:
+Beginning: my favorite music genre is death metal.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.00
+Robotic(↓): 65
+Interesting: 64
+Fun: 71
+Consistent: 74
+Fluent: 56
+Repetitive(↓): 72
+Topic: 57
+
+####################
+

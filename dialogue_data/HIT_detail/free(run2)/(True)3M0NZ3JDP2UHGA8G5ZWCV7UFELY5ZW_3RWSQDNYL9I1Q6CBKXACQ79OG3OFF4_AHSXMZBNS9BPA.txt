@@ -1,0 +1,305 @@
+Feedback: Fun exercise, but the chatbots have a hard time understanding things like the name of a band or a movie or breeds of dog
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you know any good movies?
+Bot(1): i love movies . my favorite movie of all time is grease .
+User(2): I love musicals, did you like Cats?
+Bot(2): musicals were a lot more common back then . and yes i do !
+User(3): Oh yes, there were so many great old musicals, for example West Side Story
+Bot(3): they were so sweet and funny , i miss having a cat
+User(4): Did you see Bell, Book, and Candle, that had a great cat in it?
+Bot(4): that one was amazing . everyone likes cats , but i am like . . . me .
+User(5): what is your favorite kind of cat?
+Bot(5): very tiny , weak . my daughter babied her . i have not seen a tuxedo cat .
+User(6): Do you like tabby cats?
+Bot(6): no i am allergic to cats unfortunately , do you enjoy movies ?
+User(7): Oh I am surprised I thought you loved cats
+Bot(7): being rescue cats , i thought they might eat mice !
+User(8): Cats eating mice makes a lot of sense, did you ever see the movie called CATS?
+Bot(8): never seen it before but i do love cats
+User(9): Are you allergic to cats and love them at the same time?
+Bot(9): no i am allergic to cats unfortunately , do you enjoy movies ?
+User(10): You are repeating yourself, I like movies especially about cats
+Bot(10): that was movie also was not it ?
+User(11): yes it was a movie
+Bot(11): that was movie also was not it ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 4: cats(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 28.57
+Robotic(↓): 100
+Interesting: 66
+Fun: 65
+Consistent: 5
+Fluent: 36
+Repetitive(↓): 92
+Topic: 20
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, I love cats.
+Bot(1): i love cats . do you ?
+User(2): Oh yes, I especially like Siamese cats.
+Bot(2): they are cute , but i find cats more to my liking . i love all animals though .
+User(3): what is your favorite type of cat?
+Bot(3): a havanese ! i want one , but its too much commitment . have any pets ?
+User(4): A Havanese is a kind of dog, isn't it? I used to have a Siamese cat.
+Bot(4): haha whoops . no i meant to say pug .
+User(5): A pug is also a dog.
+Bot(5): haha whoops . no i meant to say pug .
+User(6): do you like longhair cats?
+Bot(6): i like them , but i like to keep short hair which is not good to hide behind
+User(7): short hair cats are easier to groom
+Bot(7): yes , that is true . do you have any pets ?
+User(8): not now, I used to have a siamese cat
+Bot(8): how long have you had this cat ?
+User(9): I had the cat for many years
+Bot(9): how long have you had this cat ?
+User(10): a very long time
+Bot(10): very long and very healthy too
+User(11): yes it was healthy for most of the time until it died
+Bot(11): aw sorry to hear when did it pass ?
+User(12): about three years ago
+Bot(12): that is about how long it will take
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.00
+Robotic(↓): 100
+Interesting: 56
+Fun: 56
+Consistent: 20
+Fluent: 23
+Repetitive(↓): 100
+Topic: 62
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Poodles are my favorite kind of dog.
+Bot(1): i like the color red . i like the color blue .
+User(2): My favorite color is lavender.
+Bot(2): i like the color red . i like red .
+User(3): red is the color of blood.
+Bot(3): i like the color red . i like red .
+User(4): Do you like the color red?
+Bot(4): i like blue , i like blue .
+User(5): blue is the color of the sky.
+Bot(5): i like blue , i like blue .
+User(6): Do you have blue eyes?
+Bot(6): i do , i like to go to the gym .
+User(7): what color is the gym?
+Bot(7): it is a black lab . i like it .
+User(8): the gym is black?
+Bot(8): i like to go to the gym and listen to music .
+User(9): Do you like black music?
+Bot(9): i do , i like the color red .
+User(10): What kind of music is red?
+Bot(10): i like the color red . what is your favorite color ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 1: Colors(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.29
+Robotic(↓): 100
+Interesting: 30
+Fun: 31
+Consistent: 10
+Fluent: 10
+Repetitive(↓): 88
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like Japanese gardens.
+Bot(1): I am good. I am professional vacation i enjoy time depot. Do you enjoy coloring books?
+User(2): Is time depot a game or a book?
+Bot(2): i love to play the .
+User(3): Do you play when you are on vacation?
+Bot(3): I like coffe old are robots.
+User(4): I love coffee too, especially from Starbucks
+Bot(4): it is. I like to go to i like music, but a nurse
+User(5): what kind of music do you like
+Bot(5): swim in like cook already know brown curly hair
+User(6): Where do you like to swim?
+Bot(6): I'M doing do you do all with a new job
+User(7): Do you work at Starbucks?
+Bot(7): where you have from?
+User(8): I am from here
+Bot(8): I am from chicago. i am that. I do like to watch tv though.
+User(9): Are there any good TV shows about Chicago?
+Bot(9): oh yea ? interesting family and I would work with your siblings ?
+User(10): I am an only child
+Bot(10): cream flavor is great. What are :)
+User(11): vanilla
+Bot(11): i am sure . but what you gona will .
+
+Persona:
+i drive a big truck and live in country.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my parents aren't very supportive of my dream.
+my wife left me and took my children.
+i read twenty books a year.
+
+Topic and Human Opinion:
+Beginning: gardens(like)
+Round 1: multiple things, vacations and coloring books(ambivalent)
+Round 3: coffee and robots(like)
+Round 4: Music but a nurse(ambivalent)
+Round 5: disconnected words, swim, cook, hair(ambivalent)
+Round 7: where you have from(ambivalent)
+Round 9: Family(dislike)
+Round 11: ice cream(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 17.71
+Robotic(↓): 100
+Interesting: 13
+Fun: 13
+Consistent: 0
+Fluent: 6
+Repetitive(↓): 8
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I like Poodles. What kind of dogs do you like?
+Bot(1): i love them . i love them .
+User(2): My Poodle takes a lot of time to groom.
+Bot(2): i love dogs . i have a dog named radar
+User(3): What kind of dog is radar?
+Bot(3): he's a boxer . he is a boxer .
+User(4): I like boxers, they are beautiful dogs.
+Bot(4): i love dogs . i have a dog .
+User(5): Is your dog named radar?
+Bot(5): he's a boxer . he is a boxer .
+User(6): how old is your dog?
+Bot(6): he's a boxer . he is a boxer .
+User(7): You already said that.
+Bot(7): he is a boxer . he is a boxer .
+User(8): is your dog a puppy?
+Bot(8): i do not have any pets .
+User(9): what is your favorite kind of dog?
+Bot(9): i love dogs . i have a dog named radar .
+User(10): what kind of dog is radar?
+Bot(10): he's a mutt . he is a poodle .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.57
+Robotic(↓): 100
+Interesting: 19
+Fun: 19
+Consistent: 19
+Fluent: 12
+Repetitive(↓): 100
+Topic: 54
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I like classic rock and roll
+Bot(1): awesome is to do photography back in the day with a lot of musicians
+User(2): oh yeah those old rock photographers were really terrific
+Bot(2): i like to listen to rock while i study for medical school .
+User(3): what are your favorite bands?
+Bot(3): well i am going to a pink floyd cover band this week .
+User(4): that sounds terrific, what is your favorite song by them?
+Bot(4): the lumineers , their band and their music
+User(5): have you ever seen the Rolling Stones?
+Bot(5): that would be great . i love the stones .
+User(6): do you think their old songs or their new albums are better?
+Bot(6): haha me too ! i love cheesy things . . .
+User(7): which songs by the Stones do you think are cheesy?
+Bot(7): that would be great . i love the stones .
+User(8): Do you like Jumping Jack Flash?
+Bot(8): i love flash , i love walking too , i accidentally walked across the border one day .
+User(9): What border was it?
+Bot(9): i have two dogs myself what do you do for a living
+User(10): I have a border collie
+Bot(10): oh . i have a dog too .
+User(11): what kind of dog do you have?
+Bot(11): oh what kind of dog ?
+User(12): yes what kind of dog?
+Bot(12): i have three dogs and love animals . do you have pets ?
+
+Persona:
+i compete in dog agility classes.
+i am retired and living the great life.
+i'm a mechanical engineer.
+i like to go hiking in the mornings to see the sunset.
+i have two dogs.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 8: Walking(like)
+Round 9: dogs and what I do for a living(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 30.29
+Robotic(↓): 100
+Interesting: 61
+Fun: 60
+Consistent: 36
+Fluent: 20
+Repetitive(↓): 77
+Topic: 12
+
+####################
+

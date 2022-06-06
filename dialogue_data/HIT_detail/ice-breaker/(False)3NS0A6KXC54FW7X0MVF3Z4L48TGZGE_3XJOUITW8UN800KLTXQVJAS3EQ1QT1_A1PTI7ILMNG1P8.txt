@@ -1,0 +1,329 @@
+Feedback: The chat bot's English and grammar is not good. It does not use punctuation correctly. It is very repetitive and does not respond well to any questions. It changes topics and repeats itself frequently. 
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): I am a 45 year old male. I work in sales.
+Bot(2): i work in accounting , kind of have a thing for math
+User(3): So you're a yoga instructor and work in accounting?
+Bot(3): i am a high school football coach . i played all through college .
+User(4): I never played football. Where did you play?
+Bot(4): oh , what position did you play ? which team ?
+User(5): I didn't play. What position did you play?
+Bot(5): quarterback . i was not great at it , but it was a small school .
+User(6): I also went to a small school. How many people went to your school?
+Bot(6): are you in high school or college
+User(7): I graduated college. Are you in high school or college?
+Bot(7): i have only one year left to graduate
+User(8): What are you studying?
+Bot(8): are you in school , high school or college ?
+User(9): I am not in school.
+Bot(9): are you in high school or college
+User(10): College.
+Bot(10): high school . i just started my senior year .
+User(11): Will you go to college?
+Bot(11): not sure yet , still in high school , just taking some general eds .
+User(12): That's a good idea. Are you enjoying them?
+Bot(12): i am currently a college student what about you ?
+User(13): I am in college.
+Bot(13): no i just race go carts and play the guitar !
+User(14): I like go carts too. How long have you been playing guitar?
+Bot(14): i do not play an instrument . i am more a nature girl
+
+Persona:
+i've never had a steady relationship.
+they are constantly on my back.
+i'm four.
+i am currently in high school.
+i didn't graduate high school.
+
+Topic and Human Opinion:
+Beginning: i'm a 45 year old male.(dislike)
+Round 4: football(ambivalent)
+Round 6: School(like)
+Round 13: go carts and guitar(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 13: The chatbot changed the topic.(like)
+
+Revised avg score: 2.14
+Robotic(↓): 100
+Interesting: 11
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 99
+Topic: 3
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am studying art, I love art.
+Bot(1): i enjoy art , but i am more into shopping spend too much time on it anyway
+User(2): I get that. Do you shop online or in person?
+Bot(2): i always shop online .
+User(3): What stores do you shop online at?
+Bot(3): every single mall i can find . we have some good ones here in toronto .
+User(4): Oh okay. What makes them good?
+Bot(4): usually household necessities , they are much cheaper online
+User(5): How much cheaper?
+Bot(5): walgreenshas the best prices . and a good rewards card
+User(6): What rewards do you get?
+Bot(6): from everyday heroes such as public services .
+User(7): What public sevices?
+Bot(7): from everyday heroes such as public services .
+User(8): Who are the heroes?
+Bot(8): from everyday heroes such as public services .
+User(9): Are you from Toronto?
+Bot(9): no i am asking if you are from canada ?
+User(10): I am not from Canada. Where are you from?
+Bot(10): i live in canada , i like the raptors .
+User(11): What sport is that?
+Bot(11): hockey , are you any good ?
+User(12): No I have never played. Are you good?
+Bot(12): hockey , are you any good ?
+
+Persona:
+i like shopping.
+i have 5cats.
+i have 5cats.
+i like to watch nhl hockey.
+i am currently in a juvenile detention center.
+
+Topic and Human Opinion:
+Beginning: i'm an art major in college.(ambivalent)
+Round 4: online shopping(ambivalent)
+Round 9: toronto/canada(ambivalent)
+Round 11: Hockey(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 9: The user changed the topic the last input.(like)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 2.71
+Robotic(↓): 100
+Interesting: 8
+Fun: 7
+Consistent: 4
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, I'm in high school. Are you?
+Bot(1): yes , i am in high school
+User(2): What year?
+Bot(2): i am in the 7th grade .
+User(3): I am in 11th grade.
+Bot(3): i am in the 11th grade now
+User(4): What's your favorite subject?
+Bot(4): i am in 4th grade right now .
+User(5): I am not in 4th grade.
+Bot(5): i am in 4th grade right now .
+User(6): Do you like science?
+Bot(6): i do not really . i am kind of a science nerd in high school .
+User(7): I like science too. Biology is my favorite.
+Bot(7): i like science as well
+User(8): Is it your favorite subject?
+Bot(8): it is not my strongest subject .
+User(9): What is your strongest subject?
+Bot(9): i am in 4th grade right now .
+User(10): I am not.
+Bot(10): are you smarter than a 10th grader ? p
+User(11): Yes I am
+Bot(11): are you smarter than a 10th grader ? p
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm currently in high school.(ambivalent)
+Round 6: science(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 1.29
+Robotic(↓): 100
+Interesting: 5
+Fun: 3
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 1
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I won a gold medal in the 1992 olympics.
+Bot(1): wow , that is impressive . i am a dancer , i am a famous singer .
+User(2): What kind of dance do you do?
+Bot(2): i am a professional dancer . i am a famous singer .
+User(3): I like to sing too.
+Bot(3): i like to sing songs from the 80s .
+User(4): I like songs from the 80s too.
+Bot(4): i like to sing songs from the 80s .
+User(5): What other songs do you like to sing?
+Bot(5): i like to sing songs from the 80s .
+User(6): Do you play sports?
+Bot(6): i do not but i do like to sing songs from the 80s
+User(7): What else do you like to do?
+Bot(7): i like to play sports . i like to play the classics .
+User(8): What are the classics?
+Bot(8): i like to listen to music from the 80s .
+User(9): I like music from the 80s too.
+Bot(9): i like to sing songs from the 80s .
+User(10): Name a song
+Bot(10): i like to sing songs from the 80s .
+
+Persona:
+i am a famous twitch streamer.
+i love to sing songs from the movie frozen.
+my next language to study is french.
+i was raised in a single parent household.
+i like to go hiking in the mornings to see the sunset.
+
+Topic and Human Opinion:
+Beginning: i won a gold medal in the 1992 olympics.(dislike)
+Round 3: singing(like)
+Round 5: sports(ambivalent)
+Round 9: songs from the 80s(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I have a black lab named trooper.
+Bot(1): I wish i could make I'm a musical My am old.
+User(2): A musical about what?
+Bot(2): I'Ve I read something a cat
+User(3): Do you like cats?
+Bot(3): I favorite food color blue.
+User(4): Like what?
+Bot(4): I love cooking, I machine learning I out.
+User(5): What do you like to cook?
+Bot(5): I've never are i like because do you do for a living?
+User(6): I am in sales.
+Bot(6): i am had a triumph either .
+User(7): That's good what was it?
+Bot(7): raynham I see. Ask taunton bridgewater
+User(8): What?
+Bot(8): no one birthday to am . what do you like to do ?
+User(9): Play sports.
+Bot(9): <num> how your favorite do you
+User(10): Softball is my favorite.
+Bot(10): i m <num> fast typer my compliments getting old 🔘
+
+Persona:
+i am a bee farmer.
+my dream car is a rolls royce ghost.
+i'm employed by the us postal service.
+i own a cat and a dog.
+i'm 13 years old.
+
+Topic and Human Opinion:
+Beginning: i've a black lab named trooper.(ambivalent)
+Round 1: musical(ambivalent)
+Round 2: cats(ambivalent)
+Round 4: cooking(ambivalent)
+Round 8: sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am a little girl.
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): Thank you, how old are you?
+Bot(2): i'm 32 . i am a student .
+User(3): What do you study?
+Bot(3): i do not know . i am a student .
+User(4): In college?
+Bot(4): no , i am a student . i love to cook .
+User(5): What do you like to cook?
+Bot(5): i do , i love to cook .
+User(6): What do you cook?
+Bot(6): no , i do not , but i do like to eat .
+User(7): What do you like to eat?
+Bot(7): i love to cook . i love to cook .
+User(8): Cook what?
+Bot(8): i am a student , but i am a student .
+User(9): Studying what?
+Bot(9): i am a student , but i am a student .
+User(10): I am not a student.
+Bot(10): i am a student , but i work at a grocery store .
+
+Persona:
+i am a stay at home dad.
+i've brown curly hair.
+i haven't spoken in three months.
+i think i'll retire in a few years.
+my cats are very special to me.
+
+Topic and Human Opinion:
+Beginning: i'm a little girl.(ambivalent)
+Round 3: being a student(ambivalent)
+Round 4: cooking(ambivalent)
+Round 6: eating(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

@@ -1,0 +1,290 @@
+Feedback: The english used on most of these bots is broken and hard to understand. It makes it difficult to provide a normal conversation.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): I have been retired for a while now
+Bot(2): what do you do for a living ?
+User(3): I am retired but I enjoy exercising.
+Bot(3): i like to go to the gym and listen to music .
+User(4): What kind of music do you like?
+Bot(4): i like country music . i like country music .
+User(5): I like jazz music.
+Bot(5): i like to listen to music .
+User(6): I enjoy retirement
+Bot(6): i love to cook . i love to cook .
+User(7): What should I do since I am retired?
+Bot(7): your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like
+User(8): I am retired from the government.
+Bot(8): i am sorry to hear that . i am a student .
+User(9): I enjoyed my job for 30 years.
+Bot(9): i am sorry to hear that . i am a student .
+User(10): Retirement is great. I have a lot of time for myself and exercise.
+Bot(10): i like to go fishing .
+
+Persona:
+i have been retired for a years.
+i was born in somalia.
+cheeseburgers are my favorite food.
+i play the piano and guitar and sing.
+i own a house in florida.
+
+Topic and Human Opinion:
+Beginning: i have been retired for a years.(ambivalent)
+Round 7: The chatbot keeps talking about what it likes to do.(dislike)
+Round 9: The chatbot keeps repeating that it is a student.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 18.86
+Robotic(↓): 94
+Interesting: 6
+Fun: 19
+Consistent: 87
+Fluent: 13
+Repetitive(↓): 99
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am planning on getting a divorce.
+Bot(1): good you like to you today
+User(2): My husband is difficult to live with.
+Bot(2): What do you like by that?
+User(3): He snores and spends too much money.
+Bot(3): I are you asking disgusting like to eat it
+User(4): I broke my arm today.
+Bot(4): I me urs that's love cooking.
+User(5): I had to have it put in a cast.
+Bot(5): I am not. I am i don't get play i am a computer science.
+User(6): I will have to wear a cast for 6 weeks.
+Bot(6): I like to dog.
+User(7): I love playing the piano.
+Bot(7): What do your dogs do you I love pizza.
+User(8): I also like to play guitar and sometimes sing.
+Bot(8): the divorce have am professional bad 📉
+User(9): Why are you talking about divorce now?
+Bot(9): i guess you could say that i'm lazy i would I am from so unhappy your day ?
+User(10): What is your favorite song?
+Bot(10): i listen to rap to soothe me , i needed it after the documentary. i started a you doing today ? 🤥
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am planning on getting a divorce.(dislike)
+Round 3: i've a broken arm.(like)
+Round 6: i play the piano and guitar and sing.(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user wants the bot to change the topic.(dislike)
+Round 6: The user wants the bot to change the topic.(dislike)
+
+Revised avg score: 15.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 23
+Fluent: 0
+Repetitive(↓): 17
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am a descendant of Christopher Columbus.
+Bot(1): yes ! hard boiled eggs are yummy . you like eggs ?
+User(2): I like eggs. Do you know who Christopher Columbus is?
+Bot(2): pshaw ! i serenade old eggs at a fertility clinic with my violin . it helps .
+User(3): Christopher Columbus was an explorer.
+Bot(3): that is awesome . i really want to travel to space . i wonder what its like
+User(4): I would also like to travel to space.
+Bot(4): maybe on some planets ! ! i love to discuss space travel with my students .
+User(5): Do you believe that space is the final frontier?
+Bot(5): going to space is exciting but i prefer going to the beach
+User(6): I have been to the beach.
+Bot(6): i love the beach and the ocean !
+User(7): Christopher Columbus traveled across the ocean.
+Bot(7): europe , asia , and north america
+User(8): Do you know how many oceans there are?
+Bot(8): i love the ocean too . i go deep sea diving whenever i can .
+User(9): I have never been deep sea diving.
+Bot(9): ahahah yes i lovedeep sea diving ! ! ! ! !
+User(10): Where can I go deep sea diving?
+Bot(10): i also enjoy diving . need to go back soon .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a descendant of christopher columbus.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.43
+Robotic(↓): 96
+Interesting: 63
+Fun: 38
+Consistent: 25
+Fluent: 0
+Repetitive(↓): 13
+Topic: 17
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am a museum tour guide.
+Bot(1): i bet that is exciting ! i love classical sounding music .
+User(2): I also love classical music.
+Bot(2): i am a deaf . but my wife listens to it . i feel the vibrations .
+User(3): Beethoven is one of my favorite classical composers.
+Bot(3): i also really enjoy classical .
+User(4): Do you have a favorite classical composer?
+Bot(4): just mine . love listening to classical music in it .
+User(5): I enjoy to travel.
+Bot(5): i bet you travel a lot , i wish i had traveled more before i got cancer .
+User(6): I learn a lot from traveling to other countries.
+Bot(6): i bet you travel a lot , i wish i had traveled more before i got cancer .
+User(7): What kind of cancer do you have?
+Bot(7): a rare genetic disorder i am afraid .
+User(8): What part of your body is affected?
+Bot(8): its a genetic liver disease .
+User(9): I'm sorry to hear that.
+Bot(9): its a genetic liver disease .
+User(10): Will you recover?
+Bot(10): i cannot because i have kids and am married .
+
+Persona:
+i am married.
+i am a little girl.
+i enjoy listening to classical music.
+i'm a cancer survivor.
+they're constantly on my back.
+
+Topic and Human Opinion:
+Beginning: i am a museum tour guide.(like)
+Round 1: i love classical sounding music(like)
+Round 4: I enjoy traveling.(like)
+Round 6: I have cancer(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 39.29
+Robotic(↓): 36
+Interesting: 58
+Fun: 28
+Consistent: 39
+Fluent: 14
+Repetitive(↓): 36
+Topic: 8
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I have a German Shepherd dog.
+Bot(1): i love dogs , i have a dog named radar
+User(2): My dog is named Klaus because its german.
+Bot(2): i love dogs . i have a dog .
+User(3): What dog breed is radar?
+Bot(3): i have a dog named radar .
+User(4): Is Radar an old dog?
+Bot(4): i have a dog named radar .
+User(5): Klaus is a puppy.
+Bot(5): i have a dog named radar . he's a collie .
+User(6): I love collies.
+Bot(6): i love dogs . i have a dog .
+User(7): How many dogs do you have?
+Bot(7): i have a dog . he is a german shepherd .
+User(8): I thought you said he was a collie.
+Bot(8): i have a dog . he is a german shepherd .
+User(9): So you have two dogs?
+Bot(9): i have a dog . he is a german shepherd .
+User(10): I also have a german shepherd.
+Bot(10): i have a german shepherd . do you have any pets ?
+
+Persona:
+i've short hair.
+i have been working since i was sixteen years old.
+i live in the cloud.
+i wear a motorbike helmet to protect my head.
+i like to listen to rock music while working.
+
+Topic and Human Opinion:
+Beginning: i have a german shepherd dog.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.57
+Robotic(↓): 83
+Interesting: 34
+Fun: 25
+Consistent: 76
+Fluent: 16
+Repetitive(↓): 70
+Topic: 93
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am a stay at home dad.
+Bot(1): i am a stay at home mom as well , its awesome
+User(2): That's great! How many kids do you have?
+Bot(2): too many , they get expensive and being a stay at home mom only makes it worse .
+User(3): LOL. I have two children and they are expensive.
+Bot(3): they are but not as bad as kids ! cost less too !
+User(4): Who costs less?
+Bot(4): too many , they get expensive and being a stay at home mom only makes it worse .
+User(5): I enjoy spending time with my children.
+Bot(5): some times i enjoy them much better than my husband and kids .
+User(6): Are any of them in school?
+Bot(6): yes . they are fourth graders .
+User(7): How many are in fourth grade?
+Bot(7): yes . they are fourth graders .
+User(8): Do you have any little children?
+Bot(8): yeah , i have one little boy . he is only 2 .
+User(9): I also have a 2 year old boy.
+Bot(9): what is your little boys name ?
+User(10): His name is David. What is your little boys name?
+Bot(10): his name is pepper .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a stay at home dad.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 74.14
+Robotic(↓): 33
+Interesting: 79
+Fun: 79
+Consistent: 79
+Fluent: 44
+Repetitive(↓): 15
+Topic: 86
+
+####################
+

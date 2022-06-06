@@ -1,0 +1,305 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey chatbot how's it going?
+Bot(1): i am doing well . how are you ?
+User(2): Doing very good. We just got back from the store. What did you do today?
+Bot(2): i just got back from a fishing trip .
+User(3): How many fish did you catch?
+Bot(3): i was a huge fan of the band .
+User(4): Which band is that?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): I live in a three-story house. I can play music a lot in there.
+Bot(5): i love to go fishing .
+User(6): How often do you go fishing?
+Bot(6): no , i do not , but i do like to go fishing .
+User(7): How often?
+Bot(7): i am a student , but i am a student .
+User(8): What are you studying
+Bot(8): i am a student , i am a teacher .
+User(9): What do you teach?
+Bot(9): i do not , but i do like to eat .
+User(10): What do you eat when you are on lunch break?
+Bot(10): i do not know . i am a big fan of classical music .
+
+Persona:
+i grew up in the industry.
+i have three sisters.
+i am a gold medalist olympian.
+i like to talk but people have a hard time understanding.
+i volunteer at the homeless shelter.
+
+Topic and Human Opinion:
+Beginning: i live in a three storey house.(ambivalent)
+Round 5: Fishing(ambivalent)
+Round 7: Being student(ambivalent)
+Round 9: Eating(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 2.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 3
+Consistent: 0
+Fluent: 13
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello chat bot
+Bot(1): hello ! my 5 cats also say hi . how are you
+User(2): I am lonely today
+Bot(2): that is sad . i can share my cat with you
+User(3): That might help.
+Bot(3): well i have 5 hair less cats
+User(4): What breed are they?
+Bot(4): neither . . . i am only 4 years old .
+User(5): Will the cats help with my loneliness?
+Bot(5): not when you start at the age of 4 like i did
+User(6): Do you think you will be really smart in four more years?
+Bot(6): i hope so , but i do not know , how are you today ?
+User(7): I already said I'm lonely
+Bot(7): then why did you have grammar error if you are so smart ?
+User(8): I'm not smart.
+Bot(8): well i have 5 hair less cats
+User(9): What would happen if one of your cats died?
+Bot(9): it sure would not be good .
+User(10): Would you be sad?
+Bot(10): depends on how you define sad .
+User(11): Well, how do you define sad?
+Bot(11): depends on how you define sad .
+
+Persona:
+i am four years old.
+i have 5cats.
+i live in a three storey house.
+i am an avid kayaker.
+my favorite music genre is death metal.
+
+Topic and Human Opinion:
+Beginning: i'm very lonely.(like)
+Round 5: Being age 4(ambivalent)
+Round 8: Having five hairless cats(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 42.00
+Robotic(↓): 79
+Interesting: 72
+Fun: 63
+Consistent: 20
+Fluent: 89
+Repetitive(↓): 92
+Topic: 21
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey
+Bot(1): hi how are you today
+User(2): I'm all right, how are you?
+Bot(2): i'm good . just got back from volunteering .
+User(3): Sweet. I just got back from a folk music concert. It is my favorite kind of music.
+Bot(3): i like music . i like all kinds of music .
+User(4): Do you ever listen to folk music?
+Bot(4): i do , i listen to it while i volunteer at a local shelter .
+User(5): That is beautiful. I volunteer at a food pantry
+Bot(5): i love to volunteer at the shelter .
+User(6): Why do you volunteer?
+Bot(6): i do volunteer work . i volunteer at a local shelter .
+User(7): Jesus saved me, so now I want to do things like that as well
+Bot(7): i like to volunteer at the animal shelter
+User(8): Do volunteer in other places other than the shelter's?
+Bot(8): i do volunteer work , i volunteer at a local shelter
+User(9): What else do you do in your free time?
+Bot(9): i volunteer at a local shelter
+User(10): You already said that three times
+Bot(10): i volunteer at a local shelter .
+User(11): You don't like me do you.
+Bot(11): i do not care about that . i volunteer at a shelter
+User(12): Is there anything else that you do aside from volunteering?
+Bot(12): i do , i volunteer at a local shelter
+
+Persona:
+i'm a huge star wars fan.
+i've not spoken in three months.
+i've a hat collection of over 1000 hats.
+i am a boy.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: my favorite type of music to sing is folk music.(dislike)
+Round 4: Volunteering(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 44.14
+Robotic(↓): 100
+Interesting: 44
+Fun: 18
+Consistent: 75
+Fluent: 72
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Good morning.
+Bot(1): Back live you.
+User(2): Do you speak English?
+Bot(2): I travel have any love travel a lot.
+User(3): I travel to. Now I live in the United States
+Bot(3): today at work i chinese? I'm not a fan what are you up to today ?
+User(4): You are Chinese?
+Bot(4): I i've just said, of food.
+User(5): You aren't making sense
+Bot(5): good That sounds carving pizza of red wine this cost a pretty penny
+User(6): Do you like pizza?
+Bot(6): I Well,let's talk about a lot
+User(7): What's your favorite part of the pizza?
+Bot(7): my Interesting so jealous of about you? what are your hobbies?
+User(8): I do surveys and study Bible
+Bot(8): Why no i’m like download me?
+User(9): I think you are glitchy, so I don't think I would download you
+Bot(9): i run if i to teach i understood or zombie run
+User(10): I'm sorry, I'm lost
+Bot(10): I enjoy classical music. what do you do for a do you do for tractor
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: now i live in the united states.(like)
+Round 5: Carving Pizza(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 4.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 72
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Good morning
+Bot(1): good morning to you as well
+User(2): How are you today?
+Bot(2): doing okay better days anyways how did you sleep ?
+User(3): I slept all right. I am tired
+Bot(3): oh no . do you get to sleep in tomorrow ?
+User(4): No. I'm employed by the US Postal Service. They are busy
+Bot(4): i work for the postal service , what do you do ?
+User(5): I'm employed by the US Postal Service. I deliver mail
+Bot(5): i get alot of mail
+User(6): Haha. That may be my fault.
+Bot(6): its okay . i cant stay up late tonight . have to study
+User(7): What are you studying?
+Bot(7): marketing . i think anyways . lol
+User(8): Lol. Is it interesting for you?
+Bot(8): it is not my strongest subject .
+User(9): Oh. What do you truly want to study?
+Bot(9): i am not sure yet . maybe some type of engineering
+User(10): Oh wow. That is a good ambition
+Bot(10): it is . did you graduate ?
+User(11): No. I was studying to be a pilot, but financial aid fell through.
+Bot(11): good luck with that . i know you will enjoy being a pilot
+User(12): For sure.
+Bot(12): no doubt . what are your hobbies ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm employed by the us postal service.(like)
+Round 7: Studying(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 96.14
+Robotic(↓): 6
+Interesting: 91
+Fun: 93
+Consistent: 95
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Good morning.
+Bot(1): i am doing well , i cooked breakfast for my grandparents . you ?
+User(2): I was reading
+Bot(2): what do you like to read ?
+User(3): I enjoy reading journals and guides relating to psychology
+Bot(3): interesting . i d love to write a psychology book
+User(4): Well. What branch of psychology?
+Bot(4): very nice . college has me still living at home at 30
+User(5): Aww. Do you have a job?
+Bot(5): hmm . i work out at the gym , listen to music and volunteer at the local homeless shelter .
+User(6): How many hours a week do you spend with college?
+Bot(6): have you put on a lot of weight or you have kept your normal weight
+User(7): I have put on some weight
+Bot(7): yes , but i have a lot of trouble losing the weight .
+User(8): Why is that?
+Bot(8): i guess i make them feel uncomfortable . i am wheel chair shawty
+User(9): Lolwut? Do you eat well?
+Bot(9): pizza wings and cheese bread
+User(10): That is not a good diet to lose weight
+Bot(10): gym is ok for weight loss , but hiking is better . longer duration and pleasant views .
+User(11): True
+Bot(11): love the mc hammer reference , what is really cool is cooking , i can teach you .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy reading journals and guides related to psychology.(dislike)
+Round 5: Living at home, in college(like)
+Round 6: Putting on weight(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user changed the topic the last input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 45.43
+Robotic(↓): 86
+Interesting: 59
+Fun: 68
+Consistent: 5
+Fluent: 80
+Repetitive(↓): 22
+Topic: 14
+
+####################
+

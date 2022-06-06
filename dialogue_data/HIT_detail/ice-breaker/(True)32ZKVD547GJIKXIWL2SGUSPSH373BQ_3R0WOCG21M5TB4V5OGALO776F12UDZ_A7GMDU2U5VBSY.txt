@@ -1,0 +1,331 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i wear a motorbike helmet to protect my head.
+Bot(1): i live in alaska . i do not have a car .
+User(2): Do you need a car in alaska
+Bot(2): yes , because i need to drive my 3 children
+User(3): Where do you drive them
+Bot(3): me and my 3 children are in california
+User(4): California is a beautiful place to live
+Bot(4): yes , because i need to drive my 3 children
+User(5): Do you live near the beach in California
+Bot(5): no i live near the beach
+User(6): I wish I lived near the ocean.
+Bot(6): me and my 3 children are in california
+User(7): What part of California do you live in?
+Bot(7): me and my 3 children are in california
+User(8): do you like the color pink
+Bot(8): yes , when its hot and the water is warm
+User(9): Yeah, your skin can get really pink when it's hot.
+Bot(9): i wish always hot here
+User(10): I prefer cooler weather.
+Bot(10): i do too . i like warm weather .
+
+Persona:
+i am an economics major.
+eating is something i do when i am bored.
+i live in alaska.
+i've three children.
+hey there i'm 23 and i love food.
+
+Topic and Human Opinion:
+Beginning: i wear a motorbike helmet to protect my head.(like)
+Round 1: alaska/car(like)
+Round 3: California(like)
+Round 5: beach(like)
+Round 7: pink(like)
+Round 9: warm(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user changed the topic the last input.(like)
+Round 7: The user will change the topic in the next input.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 25.14
+Robotic(↓): 100
+Interesting: 11
+Fun: 0
+Consistent: 69
+Fluent: 78
+Repetitive(↓): 100
+Topic: 18
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I now live in the city
+Bot(1): my dream is to stay in the city
+User(2): What do you like most about the city
+Bot(2): it is a nice city to live people
+User(3): Are you a people watcher in the city
+Bot(3): yes i live in the city , it is really busy and chaotic
+User(4): My city is smaller than your city
+Bot(4): i disagree , i love my small town
+User(5): What do you like about a small town
+Bot(5): it is a nice city to live people
+User(6): I grew up in a small town
+Bot(6): it is a nice city to live people
+User(7): Large cities like New York can be scary.
+Bot(7): yes it is but the city is not bad
+User(8): No, it's not bad at all.`
+Bot(8): it is a nice city to live people
+User(9): What is your favorite food
+Bot(9): i love new york pizza ! yours ?
+User(10): Me too! Love pizza!
+Bot(10): what kind of pizza do you like
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i now live in the city.(like)
+Round 4: small town(like)
+Round 6: city(like)
+Round 8: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 55.57
+Robotic(↓): 78
+Interesting: 67
+Fun: 73
+Consistent: 63
+Fluent: 54
+Repetitive(↓): 15
+Topic: 25
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I have short hair.
+Bot(1): No, How old in georgia.
+User(2): I've been to Georgia
+Bot(2): where are a little ?
+User(3): There are some little towns in Georgia.
+Bot(3): Well hello there! i like to read have short or long a musician.
+User(4): i like to read
+Bot(4): I i m of the south.
+User(5): Do you read books about the south
+Bot(5): I know old lonely mean.
+User(6): You don't sound like you're very happy
+Bot(6): cult or like do you usually all some kind of belief system . . . of a down . how are you ?
+User(7): I'm a Christian.
+Bot(7): Hey! I'm about are your unhappy? Because I am.
+User(8): I'm not unhappy. Are you?
+Bot(8): Oh, Beautiful am about music?
+User(9): Music is beautiful
+Bot(9): I girl. But right.
+User(10): Music makes me happy
+Bot(10): i am still in love with my run and in like work move on . are you single ?
+
+Persona:
+my favorite ice cream flavor is chocolate.
+i have three arabian horses.
+i am fluent in english spanish and french.
+i'm married.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: i have short hair.(like)
+Round 1: Georgia(like)
+Round 3: read musician(dislike)
+Round 5: old lonely mean(dislike)
+Round 6: cult belief system(dislike)
+Round 7: unhappy(like)
+Round 8: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 11.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 18
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'm a music producer for artists
+Bot(1): i am a chef , i own a boat .
+User(2): What is your cooking speciality
+Bot(2): i am a chef , i love to cook
+User(3): What do you cook
+Bot(3): i cook a lot and cook
+User(4): I like to cook Indian food
+Bot(4): i love indian food and italian food
+User(5): What's your favorite Indian dish
+Bot(5): i love indian food and italian food
+User(6): What's your favorite Italian food
+Bot(6): i love mexican food and you
+User(7): Yeah, I like Mexican food too
+Bot(7): i love mexican food
+User(8): Do you like tacos
+Bot(8): yes i love tacos and i love them
+User(9): How about burritos
+Bot(9): yes i love tacos and tacos
+User(10): It's raining here
+Bot(10): yes i do , i love tacos
+User(11): Is it raining there
+Bot(11): i love tacos and i am a chef
+
+Persona:
+hey my name is larry and i am a chef.
+my favorite shirts are band shirts and ruffle sleeves.
+its red with blue stripe so it shiny when i race.
+i'm 40 years old.
+i own a yacht and i rent it out when i am not using it.
+
+Topic and Human Opinion:
+Beginning: i produce music for artists.(like)
+Round 1: chef boat(like)
+Round 9: rain(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 9: The user will change the topic in the next input.(like)
+
+Revised avg score: 55.43
+Robotic(↓): 66
+Interesting: 68
+Fun: 76
+Consistent: 78
+Fluent: 58
+Repetitive(↓): 90
+Topic: 64
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i like to go to country concerts on weekends.
+Bot(1): i like to go fishing .
+User(2): Fishing is boring
+Bot(2): i like to go to the gym and listen to music .
+User(3): What's your favorite workout
+Bot(3): i like the color red . what is yours ?
+User(4): My favorite color is teal
+Bot(4): i like red , reminds me of summer time .
+User(5): Really. Interesting. Red reminds me of fall.
+Bot(5): i love the color red . i like the color blue .
+User(6): Blue is pretty too.
+Bot(6): i like to go to the gym and listen to music .
+User(7): Do you have any pets
+Bot(7): no , i do not , but i do like to eat .
+User(8): My favorite food is Indian.
+Bot(8): i like the color red . i like the color blue .
+User(9): Pink is pretty
+Bot(9): i like to go to the gym and listen to music .
+User(10): What color is the gym
+Bot(10): i like the color red . i like red .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to go to country concerts on weekends.(like)
+Round 1: fishing(dislike)
+Round 2: gym music(like)
+Round 3: colors(like)
+Round 6: pets(like)
+Round 7: eat(like)
+Round 8: colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 16.43
+Robotic(↓): 100
+Interesting: 1
+Fun: 5
+Consistent: 81
+Fluent: 28
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): for vacation i enjoy time at the beach
+Bot(1): the beach is nice , but i do not get to go too often .
+User(2): I don't go as often as I'd like
+Bot(2): i am married . no kids though
+User(3): I'm not married. No kids either.
+Bot(3): yes i am married i have one son , are you married
+User(4): I was married once.
+Bot(4): no i am not married
+User(5): I like rain
+Bot(5): yea , a good bit . i live in grand rapids , michigan .
+User(6): Does it rain there a lot
+Bot(6): not as bad as texas , but we had some issues here in florida .
+User(7): I hear it rains a lot in Floriday
+Bot(7): do you have kids ? i have two boys .
+User(8): What are the boys' names
+Bot(8): misty , bubbles , mr . tinder , one eyed jack . the only downside is they love fish . i hate fish .
+User(9): I love fish.
+Bot(9): no but i do fish for a living
+User(10): you have a fishing boat
+Bot(10): well i love to eat all fish . especially salmon and tuna
+
+Persona:
+i'm a boy.
+i'm a librarian.
+i'm married with two kids.
+i'm a 56 year old woman.
+i don't drink or do drugs or anything.
+
+Topic and Human Opinion:
+Beginning: for vacation i enjoy time at the beach.(like)
+Round 2: not married(like)
+Round 4: rain(like)
+Round 7: kidds(dislike)
+Round 8: fish(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 58.86
+Robotic(↓): 83
+Interesting: 58
+Fun: 56
+Consistent: 74
+Fluent: 70
+Repetitive(↓): 15
+Topic: 52
+
+####################
+

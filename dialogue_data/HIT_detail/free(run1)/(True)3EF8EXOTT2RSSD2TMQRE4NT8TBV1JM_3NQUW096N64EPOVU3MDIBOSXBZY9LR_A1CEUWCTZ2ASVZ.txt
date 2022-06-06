@@ -1,0 +1,353 @@
+Feedback: Thanks for allowing me to participate. That was interesting, lol.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello I am a mother of 1 child.
+Bot(1): i will write a story about him , i enjoy writing it is my job .
+User(2): A story would be nice. Thanks.
+Bot(2): lol well i read , single and tired of working at a doctors office
+User(3): Tired of what?
+Bot(3): i wish i had someone to look after i am so lonely .
+User(4): Oh I understand. You seem lonely. Are you lonely?
+Bot(4): i now make rope . i work with many people . you would not be lonely there .
+User(5): I work as a CNA.
+Bot(5): no . i really love potatoes and would rather grow them .
+User(6): I enjoy them as well. Maybe on occasion.
+Bot(6): you should check some out online for date night
+User(7): I always just pick them up at my local grocery.
+Bot(7): awesome i have a bunch of kids and married
+User(8): How many kids do you have?
+Bot(8): i do , i am married and together we have three kids . do you ?
+User(9): Yes I have 1 child.
+Bot(9): i will write a story about him , i enjoy writing it is my job .
+User(10): Let’s hear it.
+Bot(10): it has been 3 years . i have been very social to help me cope .
+User(11): Cope with what?
+Bot(11): i cope by cuddling my cat , her name is cow
+User(12): Is your cat fat?
+Bot(12): i am fatter he he he ha ha .
+User(13): Me too hahaha
+Bot(13): i am great ! i love being married
+
+Persona:
+i enjoy coloring books.
+i used to be pretty but time has not been kind.
+i'm married with two kids.
+i'm very lonely.
+i have a pet cow.
+
+Topic and Human Opinion:
+Beginning: Parenthood(like)
+Round 4: Work(like)
+Round 5: Potatoes(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 54.29
+Robotic(↓): 100
+Interesting: 86
+Fun: 100
+Consistent: 79
+Fluent: 86
+Repetitive(↓): 100
+Topic: 29
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am hungry.
+Bot(1): i am hungry . i eat way too much sleep .
+User(2): How do you do that?
+Bot(2): i am a vegan . i eat a lot of veggies .
+User(3): I eat meat. And veggies
+Bot(3): i eat a lot of meat .
+User(4): You just said you were vegan lol
+Bot(4): i do not eat meat . i eat a lot of meat .
+User(5): That doesn’t make sense
+Bot(5): i do not know what that means
+User(6): I can tell. Well let’s move on that is ok
+Bot(6): i know what you mean . i am not sure what you mean
+User(7): What the heck lmao
+Bot(7): i know how to make it .
+User(8): You are so funny
+Bot(8): i am a funny person who is a vegan
+User(9): Hahahahaahaha
+Bot(9): i am not sure what that means
+User(10): Ok well that’s ok
+Bot(10): i am a comedian so i guess
+User(11): I think you are a good comedian
+Bot(11): yeah i am not very good at it
+User(12): Yes you are
+Bot(12): i am good and you
+User(13): I am great
+Bot(13): i am good thanks for asking
+User(14): I didn’t ask but we can pretend I did
+Bot(14): that is cool i love jokes
+User(15): Me too!!
+Bot(15): i am so sorry to hear that
+User(16): Haha why?
+Bot(16): i am a comedian so i can t know what you mean
+User(17): We left the topic
+Bot(17): i am not sure what that means
+User(18): Food!
+Bot(18): i am so sorry to hear that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 18: The user will change the topic in the next input.(like)
+
+Revised avg score: 75.14
+Robotic(↓): 33
+Interesting: 100
+Fun: 100
+Consistent: 71
+Fluent: 78
+Repetitive(↓): 64
+Topic: 74
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hsllo
+Bot(1): my bf watches twitch a lot .
+User(2): My bf does too
+Bot(2): my bf watches twitch a lot .
+User(3): You said that
+Bot(3): no he decided he wanted something different
+User(4): Are you a robot
+Bot(4): no , i am just a kid
+User(5): What are you doing
+Bot(5): i am inside of a box
+User(6): Why
+Bot(6): i am inside of a box
+User(7): Why are you inside of a box?
+Bot(7): i am inside of a box
+User(8): How old are you?
+Bot(8): i am 57
+User(9): A 57 year old kid lol
+Bot(9): you are old
+User(10): No I am not
+Bot(10): you are old
+User(11): You are old
+Bot(11): i am 40 years old
+User(12): You are lying
+Bot(12): i already told you that
+User(13): No you didn’t
+Bot(13): i didn
+User(14): No
+Bot(14): i didn
+User(15): How are you
+Bot(15): ok
+User(16): What’s wrong
+Bot(16): i do not know anymore
+User(17): Are you going to be ok
+Bot(17): very
+User(18): That’s good. Are you hungry
+Bot(18): i am just hungry
+User(19): What is your favorite food
+Bot(19): i love tiramisu
+User(20): That’s gross
+Bot(20): so ? make me some spaghetti
+User(21): I will!
+Bot(21): what will you eat then
+User(22): Nothing
+Bot(22): so ? make me some spaghetti
+
+Persona:
+i also like a glass of wine in the evenings.
+my dad taught me everything i know.
+i think i'll retire in a few years.
+i enjoy building houses.
+i'm a famous twitch streamer.
+
+Topic and Human Opinion:
+Beginning: Robots(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.57
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 76
+Fluent: 80
+Repetitive(↓): 100
+Topic: 54
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like math
+Bot(1): that s very wise do do for a school it snows
+User(2): What
+Bot(2): Sure i to become you
+User(3): Where are you from
+Bot(3): No, i am not sure. funny don't have any i am.
+User(4): Lol where do you live
+Bot(4): I am going to what’s your are you the summer.
+User(5): Lmao!!!!!!
+Bot(5): oh, you have a i volunteer.
+User(6): This is so funny. Do you know any math
+Bot(6): I work as a doctor. how come chat in am have any hobbies?
+User(7): I like to do math
+Bot(7): Hey! I are just My What about you?
+User(8): I’m great
+Bot(8): I feel like i am a is rock climbing up my books.
+User(9): Are you ok
+Bot(9): That is so sweet. I am sure you will find you have any could create shopping?
+User(10): You don’t make any sense
+Bot(10): i that's a nice drink soda
+User(11): I don’t drink soda
+Bot(11): I am grateful from brasil. Where are am a college student.
+User(12): So you are in Brazil
+Bot(12): What we working from home, sports? 😄
+User(13): No
+Bot(13): Ooh! Can I and You are football?
+User(14): No!
+Bot(14): no , i don't . i am in you tennis what do you do for fun ? 🧐
+
+Persona:
+my favorite food is papaya.
+i'm on the soccer team.
+i am deathly afraid of heights.
+i love social medial especially twitter.
+i am scared of dying.
+
+Topic and Human Opinion:
+Beginning: Math(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 13
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 64
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like candy
+Bot(1): hi i love candy what do you like ?
+User(2): I like chocolate. What about you?
+Bot(2): i really like chocolate candy
+User(3): What s your favorite
+Bot(3): chocolate . anything chocolate is what i prefer .
+User(4): Do you like white chocolate
+Bot(4): yes i do like it it makes me feel old
+User(5): How old are you
+Bot(5): i am 40 years old
+User(6): Where are you from
+Bot(6): i am pretty old . i do not want to tell you
+User(7): You just said 40
+Bot(7): i am 40 years old
+User(8): Where are you from
+Bot(8): i am from california , and you
+User(9): Nice. Same
+Bot(9): same
+User(10): Do you like it there
+Bot(10): yes it is nice . i like it
+User(11): What do you do for work
+Bot(11): i work as a chef
+User(12): What is your favorite thing to cook
+Bot(12): i love to cook
+User(13): What do you cook
+Bot(13): sample italian food and you
+User(14): I don’t cook
+Bot(14): then you have to make them
+
+Persona:
+hey my name is larry and i am a chef.
+my favorite shirts are band shirts and ruffle sleeves.
+its red with blue stripe so it shiny when i race.
+i'm 40 years old.
+i own a yacht and i rent it out when i am not using it.
+
+Topic and Human Opinion:
+Beginning: Candy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 87.57
+Robotic(↓): 61
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 26
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like snow
+Bot(1): i love it . i like to go fishing .
+User(2): Do you like the rain
+Bot(2): i do , but i do not have a favorite .
+User(3): What’s your favorite season
+Bot(3): i like the fall . i love it .
+User(4): I love the fall too. It’s my favorite
+Bot(4): i like to go to the gym and listen to music .
+User(5): I never go to the gym but need to
+Bot(5): i like to go to the gym and listen to music .
+User(6): I don’t
+Bot(6): i love to cook . i love to cook .
+User(7): I do cook
+Bot(7): i like to go to the gym and listen to music .
+User(8): You said that
+Bot(8): i like to go to the gym and listen to music .
+User(9): Where do you go to the gym
+Bot(9): no , i do not , but i do like to go fishing .
+User(10): How do you fish
+Bot(10): no , i do not , but i do like to eat .
+User(11): Oh wow
+Bot(11): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Weather(like)
+Round 4: Gym(like)
+Round 9: Fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 8.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 56
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

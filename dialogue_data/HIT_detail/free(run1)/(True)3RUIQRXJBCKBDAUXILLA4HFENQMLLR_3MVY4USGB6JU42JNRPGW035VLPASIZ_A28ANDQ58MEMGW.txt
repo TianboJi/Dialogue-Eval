@@ -1,0 +1,294 @@
+Feedback: I have helped with a lot of chatbots, but this group was tough.  I think they need some work.  I attempted to keep it as smooth and simple as I could, but it still didn't work.  Sorry.  :(
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Have you taken any steps to simplify your life?
+Bot(1): i have never heard of them , the name sounds interesting .
+User(2): My husband and I started it when we scaled down from a big home to a condo.
+Bot(2): its ok . are you going to eat the fish ?
+User(3): It depends on how the fish is prepared. Will you order fish?
+Bot(3): what do you do with the fish ?
+User(4): There are many ways you can prepare fish. One of our favorites is with a Thai Chili sauce on it.
+Bot(4): do you eat the fish ?
+User(5): Yes I eat fish. I also cook fish. Do you cook fish?
+Bot(5): no but i do fish for a living
+User(6): Oh how wonderful. What do you catch?
+Bot(6): what do you fish for ?
+User(7): I don't fish. I eat and prepare fish that someone else caught.
+Bot(7): what do you do with the fish ?
+User(8): I wish we would stop talking about fish. What fish do you catch? You stated you catch fish.
+Bot(8): what do you fish for ?
+User(9): I do not fish. You fish.
+Bot(9): no but i do fish for a living
+User(10): It has been tiring talking with you. I hope you meet a fisherman to talk with. Good Bye.
+Bot(10): thanks . do you play soccer ? i am so good i got a scholarship for it !
+
+Persona:
+i am a 56 year old woman.
+i enjoy long walks with my dog.
+i'm on the soccer team.
+i like to go hiking in the mornings to see the sunset.
+i have a pet fish.
+
+Topic and Human Opinion:
+Beginning: Simplifying your life(like)
+Round 2: If I am going to eat the fish.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 18.57
+Robotic(↓): 100
+Interesting: 15
+Fun: 10
+Consistent: 67
+Fluent: 38
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you know who you will vote for in the Presidential Election?
+Bot(1): no , i do not know . i am a big fan of classical music .
+User(2): I like Classical Music but let's get back to politics. Which candidate are you leaning toward?
+Bot(2): no , i am not . i am a big fan of classical music .
+User(3): Who is your favorite composer?
+Bot(3): i like the oldies , and the outdoors .
+User(4): Well, classical music could be considered oldies. What is your favorite piece of Classical Music?
+Bot(4): i like the oldies . i like to read .
+User(5): What are you currently reading?
+Bot(5): i do not , i like to read .
+User(6): What do you like to read?
+Bot(6): i do , i love to read . what about you ?
+User(7): I love to read. What is your favorite BOOK?
+Bot(7): i like the classics and the reverend horton heat .
+User(8): Who is Reverend Horton Heat?
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): Okay so you like Classical Music and you like to read. Name one piece of Classical Music?
+Bot(9): no , i do not know . i like to go to the gym .
+User(10): Good for you. Maybe the exercise will help your brain.
+Bot(10): i do not know how to make it . i like to go to the park .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Presidential Election(like)
+Round 2: Classical Music(ambivalent)
+Round 4: Reading(like)
+Round 9: gym(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 2.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 4
+Fluent: 10
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): We are planning a trip to Disney World.
+Bot(1): sounds so nice ! are you excited ?
+User(2): Very much so. We will be staying at the Grand Floridian. Do you know that hotel?
+Bot(2): yes it is . that is where my fiance and i will honeymoon
+User(3): Congratulations. We have stayed there before and really enjoyed our trip. Will you be in the main building?
+Bot(3): yes , i going to book marriage hall
+User(4): Check on the Gazebo that they perform weddings at. Also, you can even get a carriage ride with magnificent horses.
+Bot(4): maybe my dog will enjoy that ! he got me married twice !
+User(5): Well, your dog may enjoy it but he is not allowed in Disney World unless he is a certified service dog.
+Bot(5): i have filmed him a few times . you can film me skydive from a plane .
+User(6): I would be happy to film you falling from a plane. I do not sky dive.
+Bot(6): i can film your long hair flowing in the wind if you skydive with me .
+User(7): Well you are out of luck. I have short hair and I will not be diving from a plane. I prefer to be sitting up in first class when I fly and I exit when we land.
+Bot(7): i can film your long hair flowing in the wind if you skydive with me .
+User(8): I think you already said that. I don't have long hair. How often do you skydive?
+Bot(8): once in the morning when i wake up and again when i get home from work .
+User(9): You sky dive twice a day?
+Bot(9): every lunch time every day if that is enough .
+User(10): I will tell you what is enough. Talking with you. You have given me a headache. Good Bye.
+Bot(10): i think i will drink some water and continue being married .
+
+Persona:
+i like to talk but people have a hard time understanding.
+i love rollercoasters and sky diving.
+i love wearing skinny jeans and leggings.
+i've a weakness for fish and chips.
+i'm married.
+
+Topic and Human Opinion:
+Beginning: Disney World(like)
+Round 5: Sky diving(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 38.14
+Robotic(↓): 50
+Interesting: 70
+Fun: 55
+Consistent: 13
+Fluent: 49
+Repetitive(↓): 70
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you enjoy Christmas?
+Bot(1): i would say , i job. I do not before .
+User(2): Excuse me? I did not understand that.
+Bot(2): Hey! any one you ? What about you?
+User(3): I love Christmas and enjoy everything about it. Do you put up a Christmas tree?
+Bot(3): Well, what don't study, do?
+User(4): Do you know what Christmas is? It is the celebration of Jesus' birth. Sound familiar?
+Bot(4): yes , been there. have you? love to garden .
+User(5): Yes I do. Well, to be truthful I should say did. I used to have rose gardens and huge vegetables gardens.
+Bot(5): I Take it shop
+User(6): You take what you grow to the shop to sell?
+Bot(6): oh , i man or respect was have any pets ?
+User(7): What type of pet do you have?
+Bot(7): not pretty 😝
+User(8): Your pet is not pretty? What kind of pet is it?
+Bot(8): I like man. I live own food
+User(9): Perhaps you can find a man chef who cooks. What type of food do you like?
+Bot(9): <num> i see how is in aug
+User(10): Well, all bad things must end. It is time to end our conversation. I wish you luck in your many endeavors. Good bye.
+Bot(10): I am single, but what’s your have to my husband
+
+Persona:
+i like to talk but people have a hard time understanding.
+i love rollercoasters and sky diving.
+i love wearing skinny jeans and leggings.
+i've a weakness for fish and chips.
+i'm married.
+
+Topic and Human Opinion:
+Beginning: Christmas(like)
+Round 4: Garden(like)
+Round 6: Pets(like)
+Round 8: Man and Food(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 15.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 45
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I love dogs. Do you?
+Bot(1): i do ! i love dogs , what about you ?
+User(2): I do love dogs. I have a Miniature Schnauzer. Do you have a dog?
+Bot(2): yes , i have a chocolate lab . i love dogs !
+User(3): We had a neighbor with a Chocolate Lab. His name was Gunner. What is your dog's name?
+Bot(3): he is is a yorkie . he is actually a show dog . what about yours ?
+User(4): I thought you said your dog was a Chocolate Lab. There is a huge difference between a yorkie and lab.
+Bot(4): well that is adorable ! we have a yorkie terrier mix !
+User(5): That is quite a mix. I feel sorry for the Yorkie. My dog is a service dog, however, his parents and grandparents were all international grand champions. His pedigree is perfect.
+Bot(5): my dog that just passed away was a german shepherd .
+User(6): So sorry to hear your dog passed away. German Shepherd are great dogs. Was he part Yorkie too?
+Bot(6): yes , but he was a very sweet dog once the chewing phase was over .
+User(7): They are notorious chewers. I used to have German Shepherds and I have also trained German Shepherds. Great dogs.
+Bot(7): my dog is a poodle shi tzu mix . so cute !
+User(8): That would be cute. How many dogs do you have?
+Bot(8): right now i have a beagle . she is a little feisty . i miss my shepard mix .
+User(9): Beagle's have such a distinct bark, don't they?
+Bot(9): yes . my dog is a black and white boxer mix .
+User(10): Another dog. You must be picking up poop in the yard constantly. Have a great day, I need to talk to a cat lover.
+Bot(10): cock a poo is actually a dog . cocker spaniel and poodle mix . what breed do you have ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.57
+Robotic(↓): 100
+Interesting: 83
+Fun: 73
+Consistent: 75
+Fluent: 76
+Repetitive(↓): 61
+Topic: 85
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am thinking of getting a Maine Coon Cat. What do you think of them?
+Bot(1): i don't know . i think i would like cats .
+User(2): These are really large house cats. They can weigh close to 40 pounds.
+Bot(2): i am sorry . i am a cat person .
+User(3): What type of cat do you have?
+Bot(3): a cat named radar . he is a cat cat .
+User(4): I like the name Radar. I am not sure what a cat cat is. Is that a breed?
+Bot(4): i do not know what that means .
+User(5): Do you know what a Norwegian Forest Cat is?
+Bot(5): i do not . i am a cat person .
+User(6): Well, the Norwegian Forest Cats came over to America via Viking Ships. They are similar in size to the Maine Coon Cats and they love winter.
+Bot(6): i love the zoo and winter .
+User(7): Do you go to the zoo often?
+Bot(7): i do . i go to the zoo and eat a lot of water .
+User(8): You eat water? Do you mean ice?
+Bot(8): no i do not . i am not a fan of water .
+User(9): Do you swim?
+Bot(9): no but i do not swim . i am a bit of a loner .
+User(10): Oh. That is okay. Have a good day and get a cat. They are good for loners. Good bye.
+Bot(10): i am sure you are . i am a cat person .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Maine Coon Cats(like)
+Round 6: zoo(like)
+Round 8: water(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 15.43
+Robotic(↓): 100
+Interesting: 36
+Fun: 23
+Consistent: 10
+Fluent: 23
+Repetitive(↓): 88
+Topic: 4
+
+####################
+

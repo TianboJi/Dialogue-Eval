@@ -1,0 +1,285 @@
+Feedback: all of the chatbots were not able to keep up with the topics.  Their answers changed even if the same question was asked.  One chatbot said it was a 15 year old girl with a 7 year old daughter, all of the chatbots were creepy and weird.  They all need some work
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello chatbot
+Bot(1): hi there ! i am a librarian , what about you ?
+User(2): I work in advertising
+Bot(2): i am a creepy sash shhh librarian i am kidding on creepy
+User(3): that is a weird thing to say
+Bot(3): i am a creepy sash shhh librarian i am kidding on creepy
+User(4): do you like movies?
+Bot(4): wel my mom is a librarian so no
+User(5): I like to watch action movies in my free time. what about you?
+Bot(5): i like anything fast and action packed
+User(6): My favorite action movie is die hard with a vengeance. Do you have a favorite movie?
+Bot(6): i do not have a favorite . i also like books . i am a librarian actually .
+User(7): what is your favorite book?
+Bot(7): i do not have a favorite . i also like books . i am a librarian actually .
+User(8): what does a librarian do?
+Bot(8): a librarian , how about you ?
+User(9): I dont think you understand the question. What does a librarian do during the day?
+Bot(9): i do not know anymore
+User(10): ok, i see that you are not able to carry on a conversation.
+Bot(10): you take forever to respond as well
+
+Persona:
+i am an omnivore.
+i am a librarian.
+hey there i'm 23 and i love food.
+i am a skateboarder.
+i've blonde hair and blue eyes.
+
+Topic and Human Opinion:
+Beginning: die hard with a vengeance(like)
+Round 6: books(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello, how are you today?
+Bot(1): i am great ! how are you ?
+User(2): i am well! Do you have any favorite books?
+Bot(2): i do not read books much just sheet music . i want to be a singer
+User(3): Who is your favorite singer?
+Bot(3): lady gaga ! org i could listen to her and madonna all day long
+User(4): I like Lady gaga too, what is your favorite lady gaga song?
+Bot(4): taylor swift speaks loudly to me right now
+User(5): I thought lady gaga was your favorite singer?
+Bot(5): oh , i have not listened to her music , but country
+User(6): you just said lady gaga was your favorite singer
+Bot(6): oh , i have not listened to her music , but country
+User(7): who is your favorite country singer?
+Bot(7): lady gaga ! org i could listen to her and madonna all day long
+User(8): what is your favorite country song?
+Bot(8): i am a cajun chef born and raised on the bayou , fits my circumstances
+User(9): what kind of music do you like?
+Bot(9): i love country music and r b music .
+User(10): who is your favorite r b artist?
+Bot(10): i love rap music my favorite artist is jay z
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: favorite movies(like)
+Round 2: singers(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi, how are you today?
+Bot(1): my favorite dog is i play the guitar is his name ?
+User(2): that doesn't make any sense
+Bot(2): I you don't eat it.
+User(3): what are you talking about?
+Bot(3): I like live along. green.
+User(4): how are you feeling today?
+Bot(4): Lol is obsessed with you? I am 30
+User(5): great i am 35
+Bot(5): is it have money for potter
+User(6): i think it does have money for potter
+Bot(6): to live too you :)
+User(7): you are not making any sense right now
+Bot(7): That's good. I am color of think, you’ve job.
+User(8): what is your favorite movie
+Bot(8): The pizza your favourite is freedom caucus.
+User(9): that is not even a sentence
+Bot(9): I should go. i've what about you?
+User(10): yea, lets end this conversations
+Bot(10): oh, that sounds you like to thanks fun. do you like
+
+Persona:
+i'm very strong for my age.
+i'm a huge coffee lover.
+i like to take walks.
+i'm a vegan.
+i live in colorado.
+
+Topic and Human Opinion:
+Beginning: donald trump(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi, how are you
+Bot(1): i am doing well . how are you ?
+User(2): i am doing great, where are you from?
+Bot(2): i'm from ohio , where are you from ?
+User(3): I am from New York
+Bot(3): oh , i see . i am a teacher .
+User(4): I work in advertising
+Bot(4): i am a student , but i am a student .
+User(5): I thought you said you were a teacher
+Bot(5): i do not know . i am a woman .
+User(6): what is your name?
+Bot(6): my name is morgan . i am a student .
+User(7): Hi Morgan the teacher and student
+Bot(7): that is awesome . i am a teacher .
+User(8): what do you teach
+Bot(8): i teach english and drawing classes .
+User(9): do you have a favorite artist?
+Bot(9): i like the oldies . i like the outdoors .
+User(10): what oldies artist do you like?
+Bot(10): i like the classics and the reverend horton heat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: finance(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): what is your favorite hobby?
+Bot(1): i like to listen to music
+User(2): who is your favorite musician?
+Bot(2): i like to listen to music
+User(3): great, who is your favorite musician?
+Bot(3): i like the band , but i like the band .
+User(4): what band?
+Bot(4): i like rap , but i like the band .
+User(5): what rap band do you like?
+Bot(5): i like rap , reminds me of summer time
+User(6): what do you do in the summer time?
+Bot(6): i like the blues , what about you ?
+User(7): i like the blues too
+Bot(7): i like rap , reminds me of summer time
+User(8): you keep changing your favorite genre
+Bot(8): i like the blues , what about you ?
+User(9): this is very frustrating
+Bot(9): i like the blues , what about you ?
+User(10): i do not like the blues
+Bot(10): i like the blues , what is your favorite band ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): my favorite hobby is brazilian jiu jitsu
+Bot(1): hey ! i am a 15 year old girl
+User(2): do you have any hobbies?
+Bot(2): most of my free time goes to my daughter
+User(3): you said you were a 15 year old girl
+Bot(3): hey ! i am a 15 year old girl
+User(4): how do you have a daughter?
+Bot(4): she is 7 years of age
+User(5): so you had a child when you were 8 years old?
+Bot(5): no , lol , i am only 15
+User(6): you are 15 and your daughter is 7 so you gave birth to her when you were 8
+Bot(6): i do not know what that means . do you have a little girl like me ?
+User(7): what do you do for a living?
+Bot(7): my age is below 46
+User(8): are you in school?
+Bot(8): i am an adult , are you ?
+User(9): you said you were 15.....
+Bot(9): my age is below 46
+User(10): lets end this conversation
+Bot(10): youre not finished with the chat
+User(11): I am finished
+Bot(11): youre not finished with the chat
+User(12): goodbye
+Bot(12): ok bye
+
+Persona:
+i've a son who is in junior high school.
+i am a 12 year old girl.
+my family does not support my career choices.
+my family does not support my career choices.
+i am a 45 year old male.
+
+Topic and Human Opinion:
+Beginning: brazilian jui jitsu(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

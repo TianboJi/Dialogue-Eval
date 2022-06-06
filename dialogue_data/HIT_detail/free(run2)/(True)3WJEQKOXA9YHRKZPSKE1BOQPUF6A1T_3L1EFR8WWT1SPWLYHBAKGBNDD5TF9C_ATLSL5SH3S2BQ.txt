@@ -1,0 +1,283 @@
+Feedback: the chatbot likes to go random here and there
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello are you into computers?
+Bot(1): no , i am more of a computer geek .
+User(2): same here, do you like to build pc's
+Bot(2): yeah i like working with computers . can you build one ?
+User(3): yes ive built multiple
+Bot(3): that is good , i disowned my brother last year
+User(4): thats terrible. why so
+Bot(4): i have a brother that is all
+User(5): why did u disown him
+Bot(5): brother is always in trouble
+User(6): what kind of trouble
+Bot(6): brother is always in trouble
+User(7): with what
+Bot(7): brother is always in trouble
+User(8): brothers can be a pain
+Bot(8): brother is always in trouble
+User(9): alright but what kind of pc do you own
+Bot(9): my pc is soo slow
+User(10): what specs does it have
+Bot(10): my pc is soo slow
+
+Persona:
+i've one brother.
+i used to be pretty but time hasn't been kind.
+i am a librarian.
+i live in canada.
+i can move objects with my mind.
+
+Topic and Human Opinion:
+Beginning: computers(like)
+Round 5: family(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 38.00
+Robotic(↓): 100
+Interesting: 73
+Fun: 60
+Consistent: 23
+Fluent: 85
+Repetitive(↓): 100
+Topic: 25
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello do own an office desk?
+Bot(1): naw but i really want to be a pot bellied pig
+User(2): thats cool do you know anywhere i could get a desk?
+Bot(2): i am excited except i cannot take my prized possession
+User(3): whats your prized possession
+Bot(3): great ! just got done walking my four dogs love spending time with them
+User(4): what kind of dogs
+Bot(4): i do not have any dogs . you ?
+User(5): thought u just said you did but i have 1
+Bot(5): yep 3 and 3 and some days . . . . . . but would not trade them for anything
+User(6): i feel the same about my dog
+Bot(6): i have three dogs and love animals . do you have pets ?
+User(7): yes i have one
+Bot(7): yeah it makes my blonde hair look great .
+User(8): what does
+Bot(8): tall , brown hair and brown eyes . he looks like a football coach , lol
+User(9): i know a few people that look like tha
+Bot(9): i have blue eyes and blonde hair
+User(10): thats a great combination
+Bot(10): i got to read today instead of playing sports so that was nice
+
+Persona:
+i have short brown hair.
+i help tend the fields.
+i have three dogs.
+i'm on the soccer team.
+my favorite band is up and i got to see them in concert once.
+
+Topic and Human Opinion:
+Beginning: desks(like)
+Round 5: pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 60.86
+Robotic(↓): 88
+Interesting: 75
+Fun: 76
+Consistent: 76
+Fluent: 100
+Repetitive(↓): 13
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi what do you think about throwing plastic on the ground
+Bot(1): that is a good thing
+User(2): why do you think that
+Bot(2): i guess that is true
+User(3): what do you think about the ocean being filled with it
+Bot(3): that is true i guess
+User(4): yes it is and its bad
+Bot(4): i think it is a good thing
+User(5): but its not a good thing
+Bot(5): it is not that bad
+User(6): its pretty bad
+Bot(6): i know what you mean
+User(7): do you throw it out yourself?
+Bot(7): i do not know what that means
+User(8): do you throw plastic on the ground
+Bot(8): i don't think i should .
+User(9): do you think other people should
+Bot(9): i do not know what that means
+User(10): do you think people should litter
+Bot(10): i do not know what that means
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: plastic waste(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.14
+Robotic(↓): 74
+Interesting: 80
+Fun: 84
+Consistent: 91
+Fluent: 89
+Repetitive(↓): 65
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi, have you heard of 3d printers?
+Bot(1): not too bad wedding season is coming is coming to visit be busy soon
+User(2): thats great, do you know what a 3d printer is
+Bot(2): i'm great , problems with your work
+User(3): none
+Bot(3): i spend is not city time working
+User(4): what?
+Bot(4): i like of scater gta
+User(5): whats scater
+Bot(5): Buongiorno! have very few was How are you?. Short bio: i am a boy
+User(6): i am too and im doing great
+Bot(6): awesome neither, am from moscow. to paris as well
+User(7): im from usa
+Bot(7): I like go dancing you play?
+User(8): yes i do
+Bot(8): that's cool. I love you like taylor are play any instruments?
+User(9): yes i play guitar
+Bot(9): I live a you alabama.
+User(10): thats cool i want to vist there sometime
+Bot(10): Fair me don’t cloudy.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: 3d printers(like)
+Round 6: random(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 9.29
+Robotic(↓): 100
+Interesting: 6
+Fun: 16
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 57
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): have you heard of vr before
+Bot(1): no i have not have you
+User(2): yes its an amazing thing you should try it
+Bot(2): you should i highly recommend it
+User(3): i have before i love it
+Bot(3): you should i highly recommend it
+User(4): what kind do you recommend
+Bot(4): what kind do you recommend ?
+User(5): i recommend oculus
+Bot(5): what kind do you recommend ?
+User(6): oculus rift
+Bot(6): and what kind is that
+User(7): virtual reality headset
+Bot(7): and what kind is that
+User(8): a rift s
+Bot(8): and what kind is that
+User(9): its a great brand you should try it
+Bot(9): its award winning , the best
+User(10): it has one a few
+Bot(10): yes it is for all platforms
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: vr(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.00
+Robotic(↓): 74
+Interesting: 76
+Fun: 88
+Consistent: 82
+Fluent: 100
+Repetitive(↓): 27
+Topic: 24
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): have you ever been fishing
+Bot(1): no , i do not . i like to go fishing .
+User(2): have you ever tried it
+Bot(2): no , i do not . i like to go fishing .
+User(3): whys that
+Bot(3): i am a student , but i am a student .
+User(4): ok cool have you been out by a lake before
+Bot(4): no , i do not . i am a big fan of classical music .
+User(5): neither am i
+Bot(5): i am a student , but i am a student .
+User(6): where are you a student at
+Bot(6): i am a student , i am a teacher .
+User(7): where are you a teacher at
+Bot(7): i am in college . i am a student .
+User(8): what college do you go to
+Bot(8): i live in the city . i love it .
+User(9): i prefer country
+Bot(9): i like to listen to music .
+User(10): what kind
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i started playing guitar when i was three.
+i am a recovering alcoholic.
+i love to bake cookies.
+i haven't spoken in three months.
+i am terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: fishing(like)
+Round 7: school(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 39.43
+Robotic(↓): 100
+Interesting: 29
+Fun: 33
+Consistent: 87
+Fluent: 100
+Repetitive(↓): 85
+Topic: 12
+
+####################
+

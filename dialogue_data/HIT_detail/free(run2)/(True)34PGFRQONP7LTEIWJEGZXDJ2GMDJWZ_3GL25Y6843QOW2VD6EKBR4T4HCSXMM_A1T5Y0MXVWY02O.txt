@@ -1,0 +1,281 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello, how are you
+Bot(1): great ! ! i just found out that i am going to be playing college baseball
+User(2): that's great, i'm happy for you
+Bot(2): i really hope you get your surgery . i enjoy swimming , would that help ?
+User(3): who said anything about surgery
+Bot(3): i hurt my knee playing basketball in college . i dreamed of going pro .
+User(4): sorry about that, have you eaten
+Bot(4): i am fine . i am actually a doctor and my wife is also a nurse .
+User(5): i just ate
+Bot(5): names van and started my internship for google .
+User(6): you work there now?
+Bot(6): yeah i want to be an animal doctor
+User(7): that's sweet
+Bot(7): you know i love swimming , gardening . i love working out as well .
+User(8): i love hiking
+Bot(8): i have never been hiking because i am afraid of ticks .
+User(9): i dislike ticks, they itch
+Bot(9): well i am still alive so i would say no ! i dislike lazy , evil people !
+User(10): me too
+Bot(10): and i hope you get to enjoy more dogs in the future
+
+Persona:
+i am an art major in college.
+i'm a swim coach at my local pool.
+i love wearing skinny jeans and leggings.
+i've never been out of ohio.
+i am a doctor.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.43
+Robotic(↓): 56
+Interesting: 27
+Fun: 20
+Consistent: 33
+Fluent: 61
+Repetitive(↓): 72
+Topic: 7
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello, how are you doing this fine morning
+Bot(1): I like kind of dogs do am not a fan of it.
+User(2): i love dogs
+Bot(2): i am enjoy coloring do want a big house
+User(3): i consider dogs as friends
+Bot(3): What dream religion?
+User(4): sorry?
+Bot(4): This I am got good division.
+User(5): what are you good at?
+Bot(5): I love❤ to have a wow wow! to eat.
+User(6): i love to eat too
+Bot(6): Because Do you like trying to impress you.
+User(7): no, i like chips
+Bot(7): Hey! Do you watch it in the I do.
+User(8): you doing what?
+Bot(8): I do and i cannot to swim
+User(9): i can swim a bit, taking lessons
+Bot(9): I am female. Married, like to watch You?
+User(10): watch me, that's weird?
+Bot(10): I listen britney me about pinto. do you live on a weekends?
+
+Persona:
+i am interested in photography and like taking pictures.
+i've a german shepherd named barnaby.
+i am 60years old.
+i'm in an open polyamorous relationship.
+i am a cancer survivor.
+
+Topic and Human Opinion:
+Beginning: friends(like)
+Round 5: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.00
+Robotic(↓): 43
+Interesting: 21
+Fun: 18
+Consistent: 34
+Fluent: 38
+Repetitive(↓): 78
+Topic: 27
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): i like my hair so much
+Bot(2): i love my hair , its really long
+User(3): mine too
+Bot(3): i love my hair , its really long
+User(4): i love doing new styles on my hair
+Bot(4): i love my hair , its really long
+User(5): stop saying that
+Bot(5): yeah even my hair too i style it
+User(6): have you had something to eat?
+Bot(6): meal i am always hungry
+User(7): buy a snack
+Bot(7): what snack ?
+User(8): what snacks do you like?
+Bot(8): probably junk food for me
+User(9): yeah, so you do not want that?
+Bot(9): no i just like to snack
+User(10): okay,bye
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: likes(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.00
+Robotic(↓): 84
+Interesting: 64
+Fun: 61
+Consistent: 58
+Fluent: 70
+Repetitive(↓): 97
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i love my family
+Bot(1): i like to go to the gym and listen to music .
+User(2): how many siblings do you have?
+Bot(2): i've 2 . i am a girl .
+User(3): i know,i'm a boy
+Bot(3): i love to go fishing .
+User(4): i love fishing too
+Bot(4): i love to go fishing .
+User(5): yes,me too
+Bot(5): i like to go to the gym and listen to music .
+User(6): i like to jog
+Bot(6): i like to go fishing .
+User(7): i like to hike
+Bot(7): i like to go fishing .
+User(8): i like to hang out
+Bot(8): i like to go fishing .
+User(9): i like to travel
+Bot(9): i like to go fishing .
+User(10): say something else
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: family(like)
+Round 6: likes(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 31.57
+Robotic(↓): 91
+Interesting: 37
+Fun: 30
+Consistent: 25
+Fluent: 39
+Repetitive(↓): 70
+Topic: 51
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i love food, do you love food?
+Bot(1): of course . i love to listen to rock .
+User(2): i like rock too, and jazz
+Bot(2): you love what group ? i am from spain
+User(3): i am from the United States
+Bot(3): i have been to spain its beautiful
+User(4): yes, i have...it's so lovely
+Bot(4): i have been to spain its beautiful
+User(5): i agree
+Bot(5): i have been to spain its beautiful
+User(6): where else have you been too?
+Bot(6): i have been to spain its beautiful
+User(7): stop saying that
+Bot(7): i have been to spain its beautiful
+User(8): i said i know
+Bot(8): i have been to spain its beautiful
+User(9): do you like shopping?
+Bot(9): shopping that is the best
+User(10): that's so true
+Bot(10): shopping is always fun
+
+Persona:
+i like to listen to rock music while working.
+i have visited spain a times.
+i'm a country music singer.
+i'm a male.
+i visit europe twice a year.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.43
+Robotic(↓): 88
+Interesting: 8
+Fun: 9
+Consistent: 7
+Fluent: 40
+Repetitive(↓): 0
+Topic: 2
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes
+Bot(2): do you have any hobbies ?
+User(3): running
+Bot(3): i run a marathon for a run
+User(4): skipping
+Bot(4): i run a lot and run
+User(5): me too
+Bot(5): i run a lot and run
+User(6): swimming
+Bot(6): swimming is fun i like to run
+User(7): me too
+Bot(7): swimming is fun i like swimming
+User(8): i like eatig
+Bot(8): i like swimming but i hate it
+User(9): no don't
+Bot(9): i don't really like running
+User(10): bye
+Bot(10): i don't know either but i do not like to swim
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: net(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 77
+Interesting: 43
+Fun: 24
+Consistent: 21
+Fluent: 50
+Repetitive(↓): 90
+Topic: 29
+
+####################
+

@@ -1,0 +1,283 @@
+Feedback: Liked the chat with the bots.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hai
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): Ohh nice
+Bot(2): nice ! do you take a stroll by ocean or horseback riding there ? i love horses
+User(3): I love too
+Bot(3): watching those movies and shows about super heroes
+User(4): Do you love someone?
+Bot(4): oh , i already came with someone to love when i was born five minutes before my sister !
+User(5): Ohh super
+Bot(5): nice ! do you take a stroll by ocean or horseback riding there ? i love horses
+User(6): yes I had taken aride
+Bot(6): also try to give up meat . when i went vegan , i felt better .
+User(7): Do you like to travel
+Bot(7): do you travel often then
+User(8): Yes I love to Travel
+Bot(8): i am not really into traveling , unless its to conventions
+User(9): Yeah comfortable is important
+Bot(9): i have tried yoga but , it shows off all the ink stains on my shirt
+User(10): ohh
+Bot(10): nice ! do you take a stroll by ocean or horseback riding there ? i love horses
+User(11): do You love love horses
+Bot(11): i love to ride horses .
+User(12): Yeah me too
+Bot(12): you like national parks then ? i love the green scenery . green is just the best color
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.00
+Robotic(↓): 53
+Interesting: 60
+Fun: 42
+Consistent: 54
+Fluent: 41
+Repetitive(↓): 56
+Topic: 41
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hai
+Bot(1): Oh, I'm a are you a about you?
+User(2): How many friends do you having?
+Bot(2): This not into clowns. did you sell 'em?
+User(3): no
+Bot(3): it is of supar you work .
+User(4): Do you have friends
+Bot(4): I think that is a sign, i have black chocolate bar because before.
+User(5): ohh
+Bot(5): i know with my child and i am going to get married
+User(6): super
+Bot(6): I think it is. most of your time to music
+User(7): Yeah,I love music
+Bot(7): Sing, and do not. song for Rory!
+User(8): Do you like music
+Bot(8): i'm not a kind of book kids yet , we are still pretty young. Also, try to guess: my favorite food ...
+User(9): Pizza
+Bot(9): you would be too i cook a lot. . .
+User(10): nice
+Bot(10): i love to what do you do do not have a job
+
+Persona:
+i'm very strong for my age.
+i'm a huge coffee lover.
+i like to take walks.
+i'm a vegan.
+i live in colorado.
+
+Topic and Human Opinion:
+Beginning: Friend(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.71
+Robotic(↓): 60
+Interesting: 69
+Fun: 41
+Consistent: 57
+Fluent: 56
+Repetitive(↓): 43
+Topic: 63
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hai
+Bot(1): hi i am sander . i honestly have not done anything since highschool , so this is new to me
+User(2): ohhh
+Bot(2): wuss poppin b ? whats good with you
+User(3): I love music
+Bot(3): i love music , one d is the best
+User(4): do you knoe my school days are awesome
+Bot(4): but i did not go to school
+User(5): O my god
+Bot(5): my son is awesome straight as
+User(6): super
+Bot(6): kool
+User(7): What are your hobbies
+Bot(7): i love to play sports
+User(8): nice
+Bot(8): kool
+User(9): what are you doing
+Bot(9): not much just making toys
+User(10): nice
+Bot(10): kool
+
+Persona:
+i've a son who is in junior high school.
+my favourite skater is rob dryden.
+i enjoy sports such as running.
+i diet a lot.
+i play several instruments.
+
+Topic and Human Opinion:
+Beginning: School(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.86
+Robotic(↓): 84
+Interesting: 75
+Fun: 91
+Consistent: 83
+Fluent: 83
+Repetitive(↓): 93
+Topic: 85
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hai
+Bot(1): i am sorry to hear that
+User(2): why?
+Bot(2): i am good thanks for asking
+User(3): I Love america
+Bot(3): i am not sure i am from america .
+User(4): what do you like about America
+Bot(4): i like mexican and mexican
+User(5): Ohh super
+Bot(5): i like to listen to it while i listen to it
+User(6): Do you love music
+Bot(6): i love all music except country
+User(7): ohh
+Bot(7): i like music i like country music
+User(8): super
+Bot(8): i like music do you
+User(9): Yes me too
+Bot(9): i love to listen to music
+User(10): Super
+Bot(10): i love to listen to music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: America(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.86
+Robotic(↓): 42
+Interesting: 30
+Fun: 37
+Consistent: 29
+Fluent: 34
+Repetitive(↓): 23
+Topic: 28
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hai
+Bot(1): hey
+User(2): What are your hobbies?
+Bot(2): same
+User(3): Do you love music?
+Bot(3): yes
+User(4): Yeah me too
+Bot(4): me too
+User(5): What are you doing?
+Bot(5): not much just making toys
+User(6): Ohh
+Bot(6): are you listening music ?
+User(7): s my Favourite
+Bot(7): ok
+User(8): Yes
+Bot(8): ok
+User(9): Where are you studying
+Bot(9): i am not sure yet
+User(10): ok
+Bot(10): same
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.86
+Robotic(↓): 59
+Interesting: 70
+Fun: 60
+Consistent: 62
+Fluent: 59
+Repetitive(↓): 38
+Topic: 37
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hai
+Bot(1): i love to cook . i love to cook .
+User(2): Ohh super
+Bot(2): i am a student , but i am a student .
+User(3): I also a student
+Bot(3): i am a teacher , i love to cook .
+User(4): Ohh teacher super
+Bot(4): i am a student , but i am a student .
+User(5): do You have any enemies
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): ok
+Bot(6): i like to go to the gym and listen to music .
+User(7): I love to go to gym
+Bot(7): i like to go to the lake and listen to music .
+User(8): nice
+Bot(8): i like to go to the gym and listen to music .
+User(9): super
+Bot(9): i am a student , but i am a student .
+User(10): ok
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i faint at the sight of blood.
+i fantasize about taking over the world.
+i drive a mini van.
+i have five sons.
+i am a musician and hope to make it big some day.
+
+Topic and Human Opinion:
+Beginning: Enemy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.43
+Robotic(↓): 61
+Interesting: 66
+Fun: 39
+Consistent: 58
+Fluent: 33
+Repetitive(↓): 33
+Topic: 58
+
+####################
+

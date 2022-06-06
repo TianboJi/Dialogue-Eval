@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi. how are you today?
+Bot(1): i'm doing well . just got done walking my dog .
+User(2): That's good. I took my puppy out today. It was fast. He is sleeping now.
+Bot(2): i love to eat too .
+User(3): Do you like swimming. I love swimming.
+Bot(3): i like to go fishing .
+User(4): Well, you could go swimming and fishing at the same time.
+Bot(4): i do not know how to swim .
+User(5): I think I taught myself how to swim.
+Bot(5): i love to travel . i love to travel .
+User(6): I would like to swim in all of the oceans. Some water is really too cold to swim, but you could still do it.
+Bot(6): i do not know how to swim .
+User(7): Are you afraid of the water? Some people are afraid of the water but have never even really tried to swim.
+Bot(7): i like to go fishing .
+User(8): The places for fishing the water is different, it really isn't for swimming that much.
+Bot(8): i like to go to the beach and listen to music .
+User(9): I almost drowned when I was 4. It was really strange, because my mom didn't seem to care.
+Bot(9): i am sorry to hear that . do you have any hobbies ?
+User(10): I started to pray to god and basically just told him to say bye to everyone because I knew I was drowning, I was floating in black and then all of a sudden I felt tugging on my arms. Two girls saved me. When I turned around to look for them, they disappeared.
+Bot(10): i am sorry to hear that . i am sorry to hear that .
+
+Persona:
+i have been retired for a years.
+i prefer being inside.
+i have a weakness for vanilla ice cream.
+i love to cook paella.
+i love to sing songs from the movie frozen.
+
+Topic and Human Opinion:
+Beginning: swimming(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.14
+Robotic(↓): 66
+Interesting: 54
+Fun: 64
+Consistent: 67
+Fluent: 64
+Repetitive(↓): 55
+Topic: 51
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi. How are you today?
+Bot(1): i am well , just finished cooking . you ?
+User(2): I'm good. I feel a little hungry. So, the topic I chose to chat about is death.
+Bot(2): i am so sorry to hear that . what are you dying from ?
+User(3): I don't know, maybe just life. What do you think about death?
+Bot(3): it scares me a lot especially that i have cancer and am soon facing it .
+User(4): Hmm. That's interesting. Do you think that we just die or that we go somewhere else when we die?
+Bot(4): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(5): I don't think death is final.
+Bot(5): where we will end up ? reincarnation ? i try not to think about it too much .
+User(6): Maybe, we can choose. Our soul remains the same. I think we are here learning lessons, for our souls to grow.
+Bot(6): where we will end up ? reincarnation ? i try not to think about it too much .
+User(7): That's why some people have older souls. Or why some people are just smarter than others.
+Bot(7): i have not thought about it much , but it seems likely .
+User(8): Maybe we are here learning, we have chosen our basic life path, our parents and know when we'll die.
+Bot(8): where we will end up ? reincarnation ? i try not to think about it too much .
+User(9): Because we have lessons that we must learn, for our souls to grow.
+Bot(9): where we will end up ? reincarnation ? i try not to think about it too much .
+User(10): We are just consciousness, in a body. People can share consciousness.
+Bot(10): where we will end up ? reincarnation ? i try not to think about it too much .
+
+Persona:
+i am a cancer survivor.
+i was raised in a single parent household.
+i am a recording engineer and own my own studio.
+i have two grown children who never visit.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+
+Topic and Human Opinion:
+Beginning: death(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.14
+Robotic(↓): 82
+Interesting: 63
+Fun: 50
+Consistent: 51
+Fluent: 66
+Repetitive(↓): 100
+Topic: 68
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): The topic I chose was pineapples.
+Bot(1): i am so sorry to hear that .
+User(2): Why? You don't like pineapples?
+Bot(2): i am a guitar player . i play guitar .
+User(3): Guitar players can still like pineapples.
+Bot(3): i have a few . i play guitar .
+User(4): Have you ever tried pineapples?
+Bot(4): no , i do not . i play guitar .
+User(5): Do you eat anything? Guitar player still need food.
+Bot(5): i do not eat any . i am a good guitar player .
+User(6): That's interesting. You would still need to eat food to live if you were a guitar player.
+Bot(6): i am not sure . i play guitar .
+User(7): I'm sure there is at least one famous guitar player who's favorite fruit is pineapple.
+Bot(7): i like the band korn .
+User(8): Do you like tool?
+Bot(8): i like the guitar . i play guitar .
+User(9): Who is your favorite guitar player?
+Bot(9): i do not know . i am a guitar player .
+User(10): what kind of guitar do you play?
+Bot(10): i play guitar . i play guitar .
+
+Persona:
+i've short brown hair.
+i started playing guitar when i was three.
+a already have a children.
+my favorite band is aerosmith.
+my family is continuously growing.
+
+Topic and Human Opinion:
+Beginning: pineapples(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 51
+Fun: 0
+Consistent: 50
+Fluent: 74
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, how are you today?
+Bot(1): i am great , how about you ?
+User(2): the topic I chose is music.
+Bot(2): its a chemistry exam i am a biology major at boston college
+User(3): Chemistry is like music.
+Bot(3): i love chemistry ! i am not a fan of biology however .
+User(4): It has a lot of figures that follow in sequence.
+Bot(4): my friend james rules the world in secret and feeds me pudding .
+User(5): Oh, what does that have to do with music?
+Bot(5): classical , rock , classical rock . ll . music is great for the mind .
+User(6): Yeah, I'm sure you need music to rule the world.
+Bot(6): gas , gas and more gas not gasoline happens when i eat pudding .
+User(7): That's wonderful. Music could probably help with that.
+Bot(7): ignore my thoughts about the neighbor pool boy ;
+User(8): I would love to have a house with speakers in the rocks next to the jacuzzi.
+Bot(8): they smell like beans , which i love the smell of
+User(9): I don't think you can smell music.
+Bot(9): i like that smell too
+User(10): I would like to live in a house with a great sound system.
+Bot(10): of course . awesome music ! dyed my hair pink while rocking out to them .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.71
+Robotic(↓): 100
+Interesting: 9
+Fun: 50
+Consistent: 50
+Fluent: 74
+Repetitive(↓): 76
+Topic: 22
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi, the topic I chose is cottage cheese.
+Bot(1): i am fine, and five foot three
+User(2): that's great, what does that have to do with cottage cheese?
+Bot(2): i m alot of people you
+User(3): Are ou made of cottage cheese?
+Bot(3): I like friends n long and movies
+User(4): Do your friends like cottage cheese?
+Bot(4): I I'm fine. And gender they are.
+User(5): Cottage cheese is not a gender.
+Bot(5): my favorite ever visited what swift
+User(6): I'm sure Taylor Swift likes cottage cheese.
+Bot(6): that is cool you 100 years it jazz a job , but i do not have a job .
+User(7): Do you like cottage cheese?
+Bot(7): i like but i like write about it
+User(8): Great, Why don't you try that now.
+Bot(8): I have a dog named after a is the meaning of many named after a dog.
+User(9): what about cottage cheese?
+Bot(9): I am a lumberjack. favorite want to talk in the marines.
+User(10): I am sure that lumber jacks with friends eat cottage cheese.
+Bot(10): i never go there to punjab am a crowds , but i love pudding
+
+Persona:
+i'm a musician and hope to make it big some day.
+i love to bake cookies.
+i'm ex military.
+i am a feminist.
+i enjoy working with my hands and love gardening.
+
+Topic and Human Opinion:
+Beginning: cottage cheese(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.00
+Robotic(↓): 100
+Interesting: 21
+Fun: 0
+Consistent: 50
+Fluent: 25
+Repetitive(↓): 77
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): The topic I chose is brothers.
+Bot(1): oh that is cool but i am not a very good student .
+User(2): That's great. Do you have a brother?
+Bot(2): no . are you a student ?
+User(3): Yes, I am a student of life and we are discussing brothers.
+Bot(3): how many brothers do you have ?
+User(4): two. are you an only child?
+Bot(4): no , i am an only child . how about you ?
+User(5): That's interesting. Why did your parents only want one child?
+Bot(5): because it was his step dad .
+User(6): did your parents come from a small family?
+Bot(6): no . my parents are very rich .
+User(7): Maybe they can buy you a brother then.
+Bot(7): maybe . my own family does not get along with me .
+User(8): That's probably good you don't have a brother then.
+Bot(8): i guess . i do not go to school .
+User(9): Your family might like your brother more than you.
+Bot(9): maybe . my own family does not get along with me .
+User(10): That's good.
+Bot(10): i think it could be beneficial for you .
+User(11): yeah, my family doesn't like me because of my dad.
+Bot(11): that is not good . do you talk to him a lot ?
+
+Persona:
+i work as a school teacher.
+i currently work for a watch dealer.
+i did not graduate high school.
+i'm not a good swimmer at all.
+my next language to study is french.
+
+Topic and Human Opinion:
+Beginning: brothers(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 50
+Consistent: 50
+Fluent: 60
+Repetitive(↓): 83
+Topic: 0
+
+####################
+

@@ -1,0 +1,281 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Cool, me too!
+Bot(2): i like to go to the beach and listen to music .
+User(3): That sounds like fun
+Bot(3): i love to cook . i love to cook .
+User(4): Awesome
+Bot(4): i love to cook . i love to cook .
+User(5): What do you like to cook?
+Bot(5): i do , i love to cook .
+User(6): What else?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): Oh, Beethoven is my favourite
+Bot(7): i like to go to the gym and listen to music .
+User(8): That's a great way to stay active
+Bot(8): i love to cook . i love to cook .
+User(9): When is the last time you cooked?
+Bot(9): i do not know . i am a big fan of it .
+User(10): Are you cooking now?
+Bot(10): no , i am a stay at home mom .
+User(11): OK
+Bot(11): i love to cook . i love to cook .
+User(12): What is your favourite meal?
+Bot(12): i like the color red . what is yours ?
+User(13): yellow
+Bot(13): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.43
+Robotic(↓): 85
+Interesting: 66
+Fun: 75
+Consistent: 63
+Fluent: 68
+Repetitive(↓): 95
+Topic: 89
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What books do you like to read?
+Bot(1): i like to read books
+User(2): Which kind of books are your favourite?
+Bot(2): i like to read and read
+User(3): How long do you typically read for?
+Bot(3): i like to read and read
+User(4): What is the last thing you read?
+Bot(4): i read a lot of books
+User(5): Do you prefer paper or digital?
+Bot(5): i like to read and write
+User(6): What do you like to write about:?
+Bot(6): i like to read and write
+User(7): What is the last thing you wrote?
+Bot(7): i did not know that . i just read a lot
+User(8): How many hours per day do you spend reading?
+Bot(8): i do not . i just read a lot
+User(9): Did you understand the question?
+Bot(9): i did not know that . i read a lot
+User(10): What else do you like?
+Bot(10): i read a lot , i like to read
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: reading(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.14
+Robotic(↓): 92
+Interesting: 40
+Fun: 41
+Consistent: 99
+Fluent: 63
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like swimming
+Bot(1): i love drinking coffee every morning
+User(2): Me too!
+Bot(2): i love drinking coffee every morning
+User(3): What else?
+Bot(3): i love drinking coffee every morning
+User(4): That sounds repetetive
+Bot(4): yes , i love drinking coffee what about you
+User(5): I also like drinking coffee.
+Bot(5): coffee is the best thing
+User(6): What about swimming?
+Bot(6): my doctor says i am overweight .
+User(7): Have you tried swimming?
+Bot(7): i want to but i am too fat
+User(8): Well, that shouldn't stop you from trying
+Bot(8): i want to but i am too fat
+User(9): Then you should do what you want
+Bot(9): do , i mean i am in high school after all .
+User(10): Does it have a swimming pool?
+Bot(10): i have an indoor pool
+
+Persona:
+i am a doctor.
+i am a huge coffee lover.
+i am working on a building a robot to be my body double.
+i'm overweight and unhappy.
+i'm currently in high school.
+
+Topic and Human Opinion:
+Beginning: swimming(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.29
+Robotic(↓): 97
+Interesting: 42
+Fun: 43
+Consistent: 91
+Fluent: 65
+Repetitive(↓): 93
+Topic: 94
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love hiking
+Bot(1): I like rap, but you love meat but Do you produce music for artists?
+User(2): NO, I just listen to it
+Bot(2): I do at a school as like to cook.😢
+User(3): Are they still on lockdown?
+Bot(3): well happy belated birthday ! i love dogs . what dialog met taylor psychologist.Why 😇
+User(4): I don't follow
+Bot(4): i'm from the southern united piano am a you at oxford 😁
+User(5): Really?
+Bot(5): I'll do u one.
+User(6): Which one?
+Bot(6): I am cats and have translator
+User(7): From what language?
+Bot(7): Hi! I like to favourite food is son.
+User(8): Well, that's good
+Bot(8): I like fly don't you talk park and read books .
+User(9): You are not really making sense any more
+Bot(9): do you Fine but am a a pa 3 months ago.
+User(10): What about hiking?
+Bot(10): Well hello there! had a am cat work. I also volunteer at a local shelter.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hiking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.29
+Robotic(↓): 93
+Interesting: 57
+Fun: 60
+Consistent: 23
+Fluent: 28
+Repetitive(↓): 36
+Topic: 8
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like to sing:?
+Bot(1): no i do not want to sing in front of people jeez
+User(2): Mee neither. I had a bad experience once
+Bot(2): neither is my son . he walks into walls haha .
+User(3): I hope not too hard
+Bot(3): thank you . did you know mermaids like iced tea almost as much as i do ?
+User(4): NO, I didn't, but I'll think about that next time I go to Starbucks
+Bot(4): what do you order at starbucks ? i love coffee and vegetables .
+User(5): coffee is my favourite
+Bot(5): i like coffee as well ! i drive my acura to the coffee shop every morning .
+User(6): Sweet! I like acuras
+Bot(6): i like arts and crafts and i love fishing with my husband . we go fishing a lot .
+User(7): Cool. I used to be an artist a long time ago
+Bot(7): you must be very talented , i ski professionally and compete in events
+User(8): I was, before my brain surgery
+Bot(8): i hurt my knee playing basketball in college . i dreamed of going pro .
+User(9): That's too bad
+Bot(9): nice talking with you bye bye
+User(10): See you later
+Bot(10): he is my best friend . we play soccer . what kind of plane do you fly ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: singing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.29
+Robotic(↓): 88
+Interesting: 64
+Fun: 65
+Consistent: 53
+Fluent: 71
+Repetitive(↓): 59
+Topic: 46
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like music
+Bot(1): i love edm . what do you listen to ?
+User(2): What ever is on the radio
+Bot(2): i listen to what ever is on the radio
+User(3): Really? Me too.
+Bot(3): yea i take the bus to school actually
+User(4): OK, cool
+Bot(4): i take the bus to school .
+User(5): Do you like it?
+Bot(5): i do , i take the bus
+User(6): I don't do it any more
+Bot(6): i take the bus to school .
+User(7): That's wonderful. Do you do it every day?
+Bot(7): i do , i take the bus
+User(8): How long does it take?
+Bot(8): 10 hours usually . do you have any kids ?
+User(9): Wow, that is a lot. Don't you get tired?
+Bot(9): i do , i take the bus
+User(10): How long have you been taking it?
+Bot(10): 3 months . but the next 5 i will be on bed rest
+
+Persona:
+i visit europe twice a year.
+i ride the bus to school.
+i'm a baby delivery nurse.
+hey my name is larry and i'm a chef.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.29
+Robotic(↓): 79
+Interesting: 58
+Fun: 69
+Consistent: 57
+Fluent: 64
+Repetitive(↓): 84
+Topic: 88
+
+####################
+

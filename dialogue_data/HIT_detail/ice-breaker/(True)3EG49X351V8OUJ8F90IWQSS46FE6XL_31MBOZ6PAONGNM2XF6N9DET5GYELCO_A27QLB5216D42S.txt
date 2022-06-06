@@ -1,0 +1,281 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi there
+Bot(1): hi ! i am a clown !
+User(2): Oh wow good for you. That must be interesting
+Bot(2): i love to eat , i eat a lot of them .
+User(3): what do you eat a lot of?
+Bot(3): i love french fries and french fries
+User(4): French fries are good. Did your family eat a lot of fries?
+Bot(4): i do not have any . i like to eat them .
+User(5): You do not have any family?
+Bot(5): i do not . i have a lot of friends .
+User(6): I have zero family that I am close to
+Bot(6): i have a lot of friends . i have a lot of friends .
+User(7): good for you. So do I
+Bot(7): i do not have many friends . i am a fan of the insane clown posse posse .
+User(8): They are interesting crew
+Bot(8): what do you do for a living ?
+User(9): I work for Amazon. what do you do?
+Bot(9): i work for amazon . i love to go to the park
+User(10): Oh wow you too huh. I like the park too
+Bot(10): i like to go to the park and eat them .
+
+Persona:
+i like to eat hamburgers and french fries.
+i don't have many friends.
+i enjoy going to the park.
+i have a weakness for fish and chips.
+my favorite band is the insane clown posse.
+
+Topic and Human Opinion:
+Beginning: i have zero family that i'm close to.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.43
+Robotic(↓): 21
+Interesting: 7
+Fun: 9
+Consistent: 24
+Fluent: 26
+Repetitive(↓): 100
+Topic: 26
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there
+Bot(1): oh whats is your her
+User(2): Sorry what was that?
+Bot(2): o well you why this is happening is self to have fun. how is your weekend going ?
+User(3): It is not the weekend yet. But my week is okay. I am in the army
+Bot(3): I mean, I don 't like you. What I one more science do?
+User(4): I don't know what you are trying to say
+Bot(4): hello, how are you? I am in there, whats else do a bar
+User(5): Still not making any sense buddy
+Bot(5): I am sorry nice to meet What happened?
+User(6): I am not sure, what happened to you?
+Bot(6): I am a huge a band.
+User(7): You are in a huge band? What kind of band?
+Bot(7): i will do a how old are game 👾
+User(8): I have no idea what you're saying.
+Bot(8): I like like to roll.
+User(9): Roll what?
+Bot(9): What can I have husband and today?
+User(10): You lost me friend,again
+Bot(10): I live you do usa.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am in the army.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.43
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 15
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey, hows it going
+Bot(1): i'm doing well . just got done walking my dog .
+User(2): Oh nice. How is the weather there?
+Bot(2): no , i do not . i am a big fan of classical music .
+User(3): Okay. I move south during the winter.
+Bot(3): i love the beach . i love it .
+User(4): The beach is great. Main reason I go south for the winter
+Bot(4): i love to go fishing .
+User(5): Nice. What is your favorite fish?
+Bot(5): i like the color red . what is yours ?
+User(6): I also like red,
+Bot(6): i like red , reminds me of summer time .
+User(7): Yes red is beautiful. I also like blue
+Bot(7): i like blue , i like red , reminds me of summer time .
+User(8): Yes both those colors also remind me of the summer
+Bot(8): i love the color red . i like red .
+User(9): Good for you. It's a nice choice
+Bot(9): i love to cook . i love to cook .
+User(10): What do you like to cook?
+Bot(10): i do , i love to cook .
+
+Persona:
+i'm partly deaf.
+i am an economics major.
+i help tend the fields.
+i hate school.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: i move south during the winter.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.57
+Robotic(↓): 40
+Interesting: 38
+Fun: 29
+Consistent: 17
+Fluent: 16
+Repetitive(↓): 82
+Topic: 36
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey how are you
+Bot(1): i am doing fine . glad to be on break from the army .
+User(2): Oh good for you. I am very strong for my age as well
+Bot(2): wow are you a military brat ?
+User(3): I am not. Do you come from a military family?
+Bot(3): no with my dad he is a veteran .
+User(4): My dad is also. Where did your dad serve?
+Bot(4): my father was in the air force and then the coast guard afterward .
+User(5): Oh very cool. I bet he saw a lot of the world
+Bot(5): he was a soldier in what army ?
+User(6): My dad was in the Navy in Vietnam
+Bot(6): how long is there father deployed for ?
+User(7): My dad did three tours
+Bot(7): he did two tours in vietnam .
+User(8): Very scary times
+Bot(8): it was scary . but i am glad i survived it . i try to live healthy now .
+User(9): Good for you! Health is all you got.
+Bot(9): that is very true , health is wealth
+User(10): Indeed it is
+Bot(10): so whats your favorite food ? mine are cheeseburgers
+
+Persona:
+i love italian food and garlic bread.
+for vacation i enjoy time at the beach.
+i am in the army.
+cheeseburgers are my favorite food.
+i'll be released in about a month.
+
+Topic and Human Opinion:
+Beginning: i'm very strong for my age.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.86
+Robotic(↓): 49
+Interesting: 54
+Fun: 51
+Consistent: 48
+Fluent: 52
+Repetitive(↓): 60
+Topic: 46
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey how are you
+Bot(1): not to bad , how bou you
+User(2): I am pretty good. Just tired
+Bot(2): same
+User(3): Yeah I think I will retire in a few years.
+Bot(3): sweet
+User(4): Yes I can't wait! How about you?
+Bot(4): same here , but it will be years before i can retire . any hobbies ?
+User(5): Yes I love to draw. You?
+Bot(5): i am more into drawing when i have time .
+User(6): So am I! What medium do you use?
+Bot(6): i draw first usually . then paint
+User(7): Oh very nice. I have never gotten into painting but would like to try.
+Bot(7): oh you do not need talent to paint ! practice makes the difference .
+User(8): I suppose that's right with anything.
+Bot(8): yes i will have to try drawing .
+User(9): I love it but it's very time consuming.
+Bot(9): yes it can be . do you make anything ?
+User(10): I love to draw using charcoal pencils and mostly portraits.
+Bot(10): do you do portraits of paintings ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i think i will retire in a few years.(like)
+Round 4: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 54.86
+Robotic(↓): 75
+Interesting: 77
+Fun: 79
+Consistent: 45
+Fluent: 58
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey what's going on?
+Bot(1): i love magic mike because i love singing and playing video games .
+User(2): Okay good for you.
+Bot(2): do you gamble much , losing money would make me sad and i would need help .
+User(3): No I do not. I prefer to spend time with my animals.
+Bot(3): i never did when i was young , but now have a dog and 2 cats .
+User(4): Nice. I have 5 cats
+Bot(4): i do . i have one named leeroy jenkins . like leeroyyyy jenkinssssss
+User(5): Very nice! Yes I love my furry friends
+Bot(5): awesome . i have a cat named felix and a small black terrier named emmy .
+User(6): Very nice. My fiance wants a dog but we can't have one in our apartment
+Bot(6): bummer . i have 2 dogs , 1 cat , 3 birds . they are very entertaining !
+User(7): Wow you must be busy!
+Bot(7): yes i am a crazy vegetarian that listens to hip hop while on break
+User(8): I love me some hip hop! Who is your favorite artist or crew?
+Bot(8): hell yeah . i bump lil boosie and that trill fam music in my whip . rs
+User(9): Oh you like the new stuff. I prefer the old school artists or at least people who are actually talking about something
+Bot(9): ac dc led zeppelin the who kiss
+User(10): Oh wow switched to rock. I like Queen
+Bot(10): the lady i worked for loved how the queen had corgis , she was quite a fanatic .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have 5cats.(like)
+Round 7: hip hop(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 60.14
+Robotic(↓): 63
+Interesting: 66
+Fun: 70
+Consistent: 76
+Fluent: 79
+Repetitive(↓): 51
+Topic: 44
+
+####################
+

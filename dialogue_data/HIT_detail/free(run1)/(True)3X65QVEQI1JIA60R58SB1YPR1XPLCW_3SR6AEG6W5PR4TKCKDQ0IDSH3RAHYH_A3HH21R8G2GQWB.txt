@@ -1,0 +1,279 @@
+Feedback: interesting task
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): WHAT CAR DO YOU LIKE ?
+Bot(1): i like to listen to music
+User(2): WHT KIND OF MUSIC
+Bot(2): i like music , but i like all kinds of music .
+User(3): THAT IS GOOD
+Bot(3): i like music , but i like country music
+User(4): OHH AND WHAT IS YOUR FAVORITE ?
+Bot(4): i like the color of the color of my car
+User(5): WHAT COLOR IS YOUR CAR ?
+Bot(5): i like red , reminds me of summer time
+User(6): I LIKE BLUE
+Bot(6): i like blue , reminds me of summer time
+User(7): WHAT CAR YOU LIKE?
+Bot(7): i like red , reminds me of summer time
+User(8): DO YOU DRIVE ?
+Bot(8): i drive a blue car
+User(9): WHAT MODEL ?
+Bot(9): i like red , reminds me of summer time
+User(10): OH OK
+Bot(10): i like red , reminds me of summer time
+User(11): OK BYE
+Bot(11): i am a pretty good guy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: CAR(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.00
+Robotic(↓): 98
+Interesting: 100
+Fun: 99
+Consistent: 76
+Fluent: 99
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): HI
+Bot(1): hey
+User(2): DO YOU LIKE TO EAT
+Bot(2): sometimes
+User(3): WHAT KIND OF FOOD
+Bot(3): anything like any food really
+User(4): WHICH IS YOUR FAVORITE
+Bot(4): i would say pizza and you
+User(5): BURGER
+Bot(5): really i just like burgers
+User(6): THATS NICE
+Bot(6): very
+User(7): YOU GO OUT TO EAT
+Bot(7): sometimes
+User(8): WHAT DO YOU EAT OFEN
+Bot(8): i really like burgers and fries
+User(9): GREAT
+Bot(9): ok
+User(10): SEE YOU
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: FOOD(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.43
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): WHAT PHONE DO YOU USE
+Bot(1): i do like genre do you am a little lazy
+User(2): WHAT KIND
+Bot(2): I am so biggest what is your waitress at the moment.
+User(3): I DONT GET YOU
+Bot(3): Hi! What is your name? 😂. My like play guitar in years old
+User(4): OPRAH
+Bot(4): I play many different and exercise.
+User(5): DO YOU USE MOBILE
+Bot(5): try to avoid them to do for at i d bake them a pie
+User(6): OH I SEE
+Bot(6): they are only 9 months have a dog. Do day going ? 😘
+User(7): WHAT IS YOUR FAVORITE TECH
+Bot(7): My kind of my parents am a professional star.
+User(8): OHOK
+Bot(8): i am a redhead , and i am meet I am so tired. am not sure .
+User(9): NICE
+Bot(9): good for you . i should volunteer sometime tea while reading some instead
+User(10): THAT IS A GREAT IDEA
+Bot(10): i am a black belt , so i am a fan of old, and are really listen not sure .
+
+Persona:
+i like to go hiking in the mornings to see the sunset.
+my main transportation is my motorbike.
+my favorite food is papaya.
+i'm 100 years old.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: TECH(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.43
+Robotic(↓): 37
+Interesting: 32
+Fun: 17
+Consistent: 22
+Fluent: 71
+Repetitive(↓): 2
+Topic: 1
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): HI
+Bot(1): hey
+User(2): DO YOU LIKE TO READ BOOKS
+Bot(2): yes i read books
+User(3): WHAT BOOKS
+Bot(3): any type of series . hate to read just one and its over
+User(4): WHAT SERIES HAVE YOU READ
+Bot(4): any type of series . hate to read just one and its over
+User(5): WHAT IS YOUR FAVORITE BOOK
+Bot(5): any type of series . hate to read just one and its over
+User(6): WHO IS YOUR FAVORITE AUTHOR
+Bot(6): i do of only authors
+User(7): I DONT UNDERSTAND
+Bot(7): what is your favorite book
+User(8): SHAKESPEARE MACBETH
+Bot(8): i did nt get that
+User(9): OK
+Bot(9): ok
+User(10): BYE
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: BOOKS(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.43
+Robotic(↓): 84
+Interesting: 99
+Fun: 100
+Consistent: 100
+Fluent: 50
+Repetitive(↓): 100
+Topic: 72
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): HI
+Bot(1): hey
+User(2): DO YOU HAVE FRIENDS
+Bot(2): yes i have a garden that i grow veggies in .
+User(3): i mean friends
+Bot(3): i cannot walk ; however , i love to be outside during the winter . what about you ?
+User(4): no i like to stay indoors
+Bot(4): sell the business and move here to grand rapids . nice winters in michigan .
+User(5): ohhok
+Bot(5): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(6): do you hangout
+Bot(6): yes they do we usually go fishing in the sun
+User(7): nice
+Bot(7): yes . i am a police officer in detroit .
+User(8): good
+Bot(8): good , my daughter is napping so i am shopping online . might go swimming today
+User(9): where
+Bot(9): anywhere new , anywhere with history , everywhere eventually
+User(10): hahaok
+Bot(10): hello , i am great i was just doing research on my grandpa he was in wwii .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: FRIENDS(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.14
+Robotic(↓): 99
+Interesting: 89
+Fun: 87
+Consistent: 28
+Fluent: 45
+Repetitive(↓): 100
+Topic: 3
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you like to drink
+Bot(1): no , i do not , but i do like to eat .
+User(2): what do you eat
+Bot(2): i like to eat pizza .
+User(3): ohh
+Bot(3): i am a student , but i am a student .
+User(4): ok i am working
+Bot(4): i am a student , but i am a student .
+User(5): do you go out
+Bot(5): i do , i love to go fishing .
+User(6): where
+Bot(6): i am a student , but i am a student .
+User(7): ok
+Bot(7): i like to go to the gym and listen to music .
+User(8): what music you like
+Bot(8): i like the beatles , and i love to eat .
+User(9): same here
+Bot(9): i am a student , but i am a student .
+User(10): ok
+Bot(10): i like to go to the gym and listen to music .
+User(11): bye
+Bot(11): i am a student , but i am a student .
+
+Persona:
+i like to spend my money on cars.
+i have a german shepherd named barnaby.
+i'm always wearing a hat.
+i love cooking but i also enjoy fishing.
+i produce music for artists.
+
+Topic and Human Opinion:
+Beginning: drinks(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.29
+Robotic(↓): 100
+Interesting: 58
+Fun: 57
+Consistent: 37
+Fluent: 48
+Repetitive(↓): 100
+Topic: 19
+
+####################
+

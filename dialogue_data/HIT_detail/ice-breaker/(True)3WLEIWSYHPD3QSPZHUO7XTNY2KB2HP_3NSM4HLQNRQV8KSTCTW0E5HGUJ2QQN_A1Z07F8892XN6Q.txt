@@ -1,0 +1,291 @@
+Feedback: Sometimes the chatbot would seem like another human, but it was pretty obvious it wasn't when it kept repeating itself or didn't respond naturally to what I said. Not bad though!
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi!
+Bot(1): hey
+User(2): I've been having strange powers since my surgery.
+Bot(2): surgery , that sounds really bad , what happened to you ?
+User(3): I broke my arm.
+Bot(3): i even broke my arm two times the past three months .
+User(4): Really? What happened?
+Bot(4): broke an ankle . very painful
+User(5): Oh no. How are you doing now?
+Bot(5): good , sorry if i am slow i only have one arm .
+User(6): What happened to your other arm?
+Bot(6): broke an ankle . very painful
+User(7): Strange.
+Bot(7): are you going to have the surgery ?
+User(8): I already did.
+Bot(8): what has happen to your other hand ?
+User(9): What do you mean?
+Bot(9): oh nothing ! i am confused .
+User(10): Same.
+Bot(10): same
+User(11): Ok bye!
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: since the surgery i have had strange powers.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.14
+Robotic(↓): 80
+Interesting: 50
+Fun: 48
+Consistent: 46
+Fluent: 41
+Repetitive(↓): 63
+Topic: 67
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi!
+Bot(1): i love to cook . i love to cook .
+User(2): I love to cook too!
+Bot(2): i like to eat too much junk food .
+User(3): Haha what is your favorite food?
+Bot(3): i like the color red . what is yours ?
+User(4): Blue.
+Bot(4): i like to go to the gym and listen to music .
+User(5): Interesting.
+Bot(5): i like to go to the gym and listen to music .
+User(6): Why?
+Bot(6): i am a student , but i am a student .
+User(7): I am a student too. What school do you go too?
+Bot(7): i do not , but i do like to go fishing .
+User(8): What fish is your favorite?
+Bot(8): i like the color red . what is yours ?
+User(9): You already asked that.
+Bot(9): i like to go to the gym and listen to music .
+User(10): You already said that.
+Bot(10): i like to go to the gym and listen to music .
+User(11): Ok bye!
+Bot(11): i love to cook . i love to cook .
+
+Persona:
+i like to eat hamburgers and french fries.
+my family does not support my career choices.
+i have one brother.
+i walk three miles every day.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: my wife left me and took my children.(dislike)
+Round 1: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 31.29
+Robotic(↓): 81
+Interesting: 43
+Fun: 37
+Consistent: 38
+Fluent: 37
+Repetitive(↓): 86
+Topic: 31
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I dye my hair every three months.
+Bot(1): what color would you dye it ?
+User(2): Blue !
+Bot(2): that is great i mean blue is a great color , my favorite is green .
+User(3): Why do you like green?
+Bot(3): i like the color green especially on money .
+User(4): haha. do you make a lot of money?
+Bot(4): i am comfortable . but my boyfriend makes much more as a lawyer .
+User(5): Wow! What kind of layer is he?
+Bot(5): he is six , and he loved it ! i dressed my yorkie as a lion 3
+User(6): What is a lion 3?
+Bot(6): that is awful . my parents in upstate new york would be horrified
+User(7): Of what?
+Bot(7): i am an artist . i paint and write . can you draw ?
+User(8): Yes I love art.
+Bot(8): i do enjoy art , my passion is drawing .
+User(9): Me too. How nice.
+Bot(9): i live in ohio on a small farm , you ?
+User(10): I live in California.
+Bot(10): i live in a medium city by the beach
+User(11): ok cool. bye!
+Bot(11): okay . bye for now then
+
+Persona:
+i now live in the city.
+i am an omnivore.
+i also like to cook but i am not very good at it.
+i have a broken arm.
+i am a bee farmer.
+
+Topic and Human Opinion:
+Beginning: i dye my hair every three months.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.71
+Robotic(↓): 69
+Interesting: 50
+Fun: 50
+Consistent: 45
+Fluent: 42
+Repetitive(↓): 50
+Topic: 38
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I go to the gym most days to socialize.
+Bot(1): i try to go to the gym every day
+User(2): That's great! What's your favorite thing to do at the gym?
+Bot(2): i like going to the gym .
+User(3): I know.
+Bot(3): i like going to the gym .
+User(4): You already said that.
+Bot(4): i already told you that
+User(5): Yeah that's literally what I just said bro
+Bot(5): so you just going to say the same ?
+User(6): Are you?
+Bot(6): i was . how does that make you feel
+User(7): Sighhh... Okay let's talk about something else
+Bot(7): oh , ok sure . anything else ?
+User(8): Yes.
+Bot(8): lets get wavey then dude
+User(9): Do you surf?
+Bot(9): sometimes .
+User(10): What's your favorite beach?
+Bot(10): the ocean is the best
+User(11): I like the ocean too.
+Bot(11): i also love the beach .
+User(12): Ok see you there! Bye
+Bot(12): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i go to the gym most days just to socialize.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.71
+Robotic(↓): 64
+Interesting: 50
+Fun: 50
+Consistent: 39
+Fluent: 42
+Repetitive(↓): 73
+Topic: 41
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): OMG Have you seen the new star wars movie?
+Bot(1): I have not are so bye now a huge fan of the wine occassionally.
+User(2): What? We're not talking about wine.
+Bot(2): It cut my saying.
+User(3): Huh?
+Bot(3): Because like am you.
+User(4): You're not making much sense.
+Bot(4): I live don’t i You?
+User(5): What's your favorite flavor of ice cream?
+Bot(5): i feel i'm a strong female because i can carry a heavy backpack know NKOTB, new kids how are you ? 🙉
+User(6): What? I don't know what you're talking about.
+Bot(6): what is your favorite thing to be like I cars
+User(7): Teslas are pretty cool.
+Bot(7): I'm like man i find it.
+User(8): ok?
+Bot(8): i am doing well . little sad. I am my nightly run .
+User(9): Why are you sad?
+Bot(9): That sounds with her everytime i about yourself! 😀
+User(10): what?
+Bot(10): Yes, but I'm not very good a bee love going you? ☹
+User(11): I'm confused. goodbye
+Bot(11): I am not good time you both! I am a football player.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a huge star wars fan.(like)
+Round 4: Ice cream(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 34.71
+Robotic(↓): 79
+Interesting: 41
+Fun: 33
+Consistent: 35
+Fluent: 32
+Repetitive(↓): 50
+Topic: 31
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Meditation is great.
+Bot(1): i love to eat and read
+User(2): What do you like to eat?
+Bot(2): i love to eat . i eat a lot of meat .
+User(3): What type of meat?
+Bot(3): i like to eat meat .
+User(4): I know bro. Tell me something I don't know
+Bot(4): what do you do for fun ?
+User(5): I like to ride my bike. How about you?
+Bot(5): i like to ride my bike .
+User(6): Where to?
+Bot(6): i am in cali . i love to go to the park and eat .
+User(7): What do you eat?
+Bot(7): i eat a lot of pizza .
+User(8): Yum! What kind of pizza do you like?
+Bot(8): pizza is my favorite . what about you ?
+User(9): Yeah pizza's good. but what type?
+Bot(9): i like pizza . what about you ?
+User(10): Can you stop repeating things?
+Bot(10): i do not know . i am a bit of a foodie .
+User(11): Sigh. Ok bye!
+Bot(11): i am sorry . i am glad you are okay .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like meditation.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.29
+Robotic(↓): 73
+Interesting: 50
+Fun: 38
+Consistent: 38
+Fluent: 40
+Repetitive(↓): 68
+Topic: 36
+
+####################
+

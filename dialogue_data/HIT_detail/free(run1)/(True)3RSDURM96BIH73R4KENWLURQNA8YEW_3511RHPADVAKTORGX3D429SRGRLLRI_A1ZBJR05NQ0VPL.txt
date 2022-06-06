@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): hello , i am fine how about you . whats your favorite color , mine is blue
+User(2): I am fine, my favorite color is blue
+Bot(2): cool my favorite color is red
+User(3): I like a little of red too
+Bot(3): is not red great ! my purse is scarlet and my lipstick is fire engine red .
+User(4): That sounds cute
+Bot(4): it is ! but my parents are not a fan of my fiance which sucks .
+User(5): What mobile phone brand is your favorite?
+Bot(5): yes that is a nice phone . it would be nice if i could get a red one
+User(6): I love apple brands
+Bot(6): yeah apples equal summer my favorite season !
+User(7): what sport do you enjoy?
+Bot(7): not since i turned 40 , lol .
+User(8): Do you have a family?
+Bot(8): yeah with my daughters ! we use the bow and arrow to tackle our prey
+User(9): I want to start a family with my girlfriend
+Bot(9): yeah , we have been together for years . you ?
+User(10): Same here
+Bot(10): i am a hairdresser . i love to dye peoples hair red like mine .
+
+Persona:
+hey my name is larry and i am a chef.
+my favorite shirts are band shirts and ruffle sleeves.
+its red with blue stripe so it shiny when i race.
+i'm 40 years old.
+i own a yacht and i rent it out when i am not using it.
+
+Topic and Human Opinion:
+Beginning: Mobile Phones(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.29
+Robotic(↓): 70
+Interesting: 65
+Fun: 58
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 62
+Topic: 40
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am good , a little tired but good !
+User(2): I am tired as well, but good too
+Bot(2): i am tired too , but from being out all day .
+User(3): What do you like doing?
+Bot(3): i enjoy movies , reading books , and even just doing nothing
+User(4): I love reading books
+Bot(4): i enjoy reading too ! what is your favorite book ?
+User(5): I love the novel "voice of the heart"
+Bot(5): i have been wanting to read that , i love reading too
+User(6): You should read too
+Bot(6): i do love to read when i have time
+User(7): What book was the last book you read?
+Bot(7): the notebook , a reread lol
+User(8): I haven't read that
+Bot(8): i read it yesterday . what do you do for fun ?
+User(9): I love going hiking
+Bot(9): i have not gone hiking a while
+User(10): I think you should
+Bot(10): i should
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.86
+Robotic(↓): 62
+Interesting: 59
+Fun: 58
+Consistent: 30
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): How are you?
+Bot(1): i am good . just got back from a restaurant .
+User(2): How was the food?
+Bot(2): i am good . i am just a little tired from cooking .
+User(3): What did you cook?
+Bot(3): i am good . i just got back from a restaurant .
+User(4): What do you think of education in the country
+Bot(4): i am a chef . i am a chef .
+User(5): Do you have a degree?
+Bot(5): i am a chef . i am a chef .
+User(6): What do you like cooking?
+Bot(6): i love to cook , i am a chef .
+User(7): Okay, do you have any hobbies?
+Bot(7): i love to cook , i am a chef . what about you ?
+User(8): I am an engineer
+Bot(8): i am a chef , i love to cook .
+User(9): Okay, I love food
+Bot(9): i love to cook , i am a chef .
+User(10): That is nice
+Bot(10): i love to cook , i also cook for my friends
+
+Persona:
+hey my name is larry and i'm a chef.
+i turned 18 years old yesterday.
+i have never been out of ohio.
+i spend a lot of time browsing the internet.
+i do not have many friends.
+
+Topic and Human Opinion:
+Beginning: Education(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.57
+Robotic(↓): 22
+Interesting: 27
+Fun: 24
+Consistent: 33
+Fluent: 31
+Repetitive(↓): 90
+Topic: 25
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How are you?
+Bot(1): I do not have a job. I have broken have a job.
+User(2): Sorry about that?
+Bot(2): Thanks. I the love watching old lady.
+User(3): Tell me about it?
+Bot(3): that is cool, do you i supposed to I you travel?
+User(4): I do not like travelling
+Bot(4): I teach meet you, sorryy elementary school.
+User(5): Okay, do you like to swim?
+Bot(5): do you live sports are u skin am in a house.
+User(6): I love sports, especially soccer
+Bot(6): I like but ishuold go, books
+User(7): How often do you read?
+Bot(7): i are your think u r i am a pilot , so i do not have much time .
+User(8): I envy you, I would love to be a pilot
+Bot(8): I i am 4 felicia!
+User(9): I am Ben
+Bot(9): Oh, how nice. do you do for you have?
+User(10): I do not understand
+Bot(10): I is your favorite don't I am sure you will find out soon. 😰
+
+Persona:
+i'm an electrician.
+i am a musician and hope to make it big some day.
+i just got a job working in a gas station.
+i'm a gold medalist olympian.
+i am retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: Swimming(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.43
+Robotic(↓): 78
+Interesting: 36
+Fun: 39
+Consistent: 50
+Fluent: 25
+Repetitive(↓): 79
+Topic: 27
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): great . i am a 56 year old grandmother . what do you do ?
+User(2): I am a doctor
+Bot(2): great . i am a 56 year old grandmother . what do you do ?
+User(3): Do you like sports?
+Bot(3): yes i play on our senior team for my high school
+User(4): What sport do you play?
+Bot(4): i am not very good at sports . i play basketball with my children sometimes .
+User(5): Do you have a favorite basketball team
+Bot(5): yes i play on our senior team for my high school
+User(6): Do you like soccer?
+Bot(6): yes i play on our senior team for my high school
+User(7): How is it like to be in a team?
+Bot(7): yes i play on our senior team for my high school
+User(8): Okay, that is nice
+Bot(8): do you like high school ?
+User(9): I loved my time in high school
+Bot(9): what were you like before
+User(10): I was the fun guy in school
+Bot(10): what grade was your favorite ?
+
+Persona:
+i'm currently in high school.
+i've short hair.
+i'm a cancer survivor.
+i'm a 56 year old woman.
+my wife left me and took my children.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.00
+Robotic(↓): 35
+Interesting: 35
+Fun: 35
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 77
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): How are you?
+Bot(1): i am doing well . just got done walking my dog .
+User(2): How is your dog?
+Bot(2): i like the color red . i like the color blue .
+User(3): Blue is my favorite color
+Bot(3): i like red , reminds me of summer time .
+User(4): That is cute
+Bot(4): i like to go to the gym and listen to music .
+User(5): I love being in the gym and I love rap music
+Bot(5): i like to listen to music .
+User(6): What kind of music do you like?
+Bot(6): i like country music . i like country music .
+User(7): What other hobbies do you have?
+Bot(7): i like to go fishing . i love to go fishing .
+User(8): Where do you fish?
+Bot(8): no , i do not , but i do like to eat .
+User(9): Okay, that is nice
+Bot(9): i love to cook . i love to cook .
+User(10): Did you cook today?
+Bot(10): i do not , but i do like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.00
+Robotic(↓): 79
+Interesting: 38
+Fun: 35
+Consistent: 31
+Fluent: 27
+Repetitive(↓): 78
+Topic: 36
+
+####################
+

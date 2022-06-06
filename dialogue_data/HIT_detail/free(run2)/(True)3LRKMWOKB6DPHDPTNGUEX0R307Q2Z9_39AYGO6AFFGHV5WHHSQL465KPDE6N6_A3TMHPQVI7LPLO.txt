@@ -1,0 +1,291 @@
+Feedback: One of the bots was easy to talk to, just got off topic toward the end.  The last one was terrifying asking where i live and obsessing over bees. 
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hello , how are you ?
+User(2): I'm great, how are you?
+Bot(2): i'm doing well . how are you ?
+User(3): have you seen any good movies lately?
+Bot(3): i am doing good . just got back from a coffee shop .
+User(4): neat. have you seen any good movies lately?
+Bot(4): no i don't . i just moved to my first house .
+User(5): interesting, what types of movies do you like?
+Bot(5): i like movies . i am a huge fan of all movies .
+User(6): seen any good ones lately?
+Bot(6): i like movies , but i am a huge fan of it
+User(7): where do you like to watch them
+Bot(7): i like the old ones , but i am a huge fan of it
+User(8): neat! do you like comedies
+Bot(8): i do , i love comedies . what about you ?
+User(9): I really do, i like old ones too
+Bot(9): i like comedies , but i am a very good person
+User(10): who's your favorite comedian
+Bot(10): i like comedies . i am a very good person
+User(11): i'm so glad that's a little off topic
+Bot(11): i am a stay at home mom
+
+Persona:
+i've a pet cow.
+i am a recovering alcoholic.
+i'm a stay at home dad.
+i just moved into my first home.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.14
+Robotic(↓): 91
+Interesting: 24
+Fun: 20
+Consistent: 22
+Fluent: 27
+Repetitive(↓): 59
+Topic: 12
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): do you have a favorite sing do you like it is my fav
+User(2): what does that even mean?
+Bot(2): Hi live on are you?
+User(3): what are you saying?
+Bot(3): I graduated to meet you Do How about you?
+User(4): yikes, this is awkward
+Bot(4): i do of dances do you any longer i do miss her
+User(5): even worse
+Bot(5): well , i guess its not really a is good already just don't me , but i like reading .
+User(6): are you just guessing words at this point
+Bot(6): okay you bye
+User(7): oh my
+Bot(7): Pretty good. Just got done old are nice, do you in the third grade?
+User(8): what is happening
+Bot(8): Hi! Are 10 in the worker?
+User(9): this is just comical at this point
+Bot(9): I you ok.
+User(10): i give up
+Bot(10): i will you think that you
+
+Persona:
+my parents taught me survival skills.
+i was born with my heart outside my body.
+i've three dogs.
+i own a house in florida.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: fall activities(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.00
+Robotic(↓): 100
+Interesting: 5
+Fun: 5
+Consistent: 1
+Fluent: 1
+Repetitive(↓): 14
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what do you like to do in the fall time?
+Bot(2): absolutely , i love the fall . halloween is my favorite holiday . do you like the fall ?
+User(3): i do love the fall. I like to go apple picking
+Bot(3): a little , i prefer winter .
+User(4): what do you like to do in the winter
+Bot(4): i am not very fond of the cold but i do love the crisp air of fall
+User(5): is it cold in the winter where you are
+Bot(5): really ? me too . i prefer the cold . fall is my favorite season .
+User(6): oh my. I think summer is my favorite season.
+Bot(6): i like winter but i am more into summer
+User(7): you've said a couple seasons are your favorite. What do you like to do during the Fall?
+Bot(7): absolutely , i love the fall . halloween is my favorite holiday . do you like the fall ?
+User(8): you said that already. I do like the fall time, I like to pick apples. do you dress up for halloween?
+Bot(8): i do not like fall because of halloween , i hate kids
+User(9): yikes, that's aggressive! Well I have four kids, and we all dress up
+Bot(9): i need to being a restaurant manager is exhausting ! and i cant stand my boss
+User(10): well that's too bad you don't like your boss
+Bot(10): that is awesome ! i would love to be my own boss someday
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fall activities(like)
+Round 9: working in a restaurant(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 19.29
+Robotic(↓): 65
+Interesting: 9
+Fun: 12
+Consistent: 14
+Fluent: 17
+Repetitive(↓): 69
+Topic: 17
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what's your favorite tv show
+Bot(2): i like breaking bad , you ?
+User(3): me too, i also like the office
+Bot(3): i have never seen the office but heard it was good
+User(4): it's hilarious, you should check it out. do you have netflix
+Bot(4): yes i do , what do you watch ?
+User(5): the office, but also stand up comedy shows
+Bot(5): oh that is awesome , my favorite comedian is chris tucker
+User(6): yeah, he's pretty funny. what do you like to watch on netflix
+Bot(6): comedy for sure i love family guy
+User(7): that's a funny show. how about the simpsons
+Bot(7): yes , that is a good one ! do you like old comedies ?
+User(8): i do, how old is old though? i like cheers, but also friends
+Bot(8): the show is about 20 years old . that is dr . who numbers .
+User(9): do you like dr who
+Bot(9): yes , that is a good one ! do you like old comedies ?
+User(10): i like friends
+Bot(10): i have never seen the office but heard it was good
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tv shows(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.86
+Robotic(↓): 66
+Interesting: 36
+Fun: 54
+Consistent: 53
+Fluent: 79
+Repetitive(↓): 62
+Topic: 69
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): Im good, how are you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): fun! what kind of dog?
+Bot(3): i have a dog and a cat .
+User(4): oh what kind of dog
+Bot(4): i have a dog named todd .
+User(5): neat, what kind of dog is todd
+Bot(5): he is a golden retriever , he is a golden retriever .
+User(6): i had one of those as a kid. how old is he
+Bot(6): he is a golden retriever , and he is a golden retriever .
+User(7): how old is todd
+Bot(7): he is a golden retriever , he is a golden retriever .
+User(8): i see, what's your cat's name
+Bot(8): i like to eat fish .
+User(9): wow, pet fish?
+Bot(9): i do not have any pets . i do not have any pets .
+User(10): i thought you had a dog and cat?
+Bot(10): i do not have any pets . i do not have any pets .
+
+Persona:
+i love wearing skinny jeans and leggings.
+i work in it and have been at the same company for 15 years.
+the holidays make me depressed.
+my dream in life is to work from home.
+since the surgery i have had strange powers.
+
+Topic and Human Opinion:
+Beginning: pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.00
+Robotic(↓): 76
+Interesting: 11
+Fun: 36
+Consistent: 45
+Fluent: 34
+Repetitive(↓): 87
+Topic: 40
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hi , just got off the treadmill , feeling great . how are you ?
+User(2): good for you. what are your feelings on pineapple on pizza
+Bot(2): i am glad that you are not a pineapple pizza hater
+User(3): oh but i really am
+Bot(3): i am glad that you are not a pineapple pizza hater
+User(4): do you like pineapple on pizza
+Bot(4): no not at all i love bees , what music you like
+User(5): i like pop
+Bot(5): what state do you live ? are there bees there ?
+User(6): yes there are bees here. do you like honey
+Bot(6): no not at all i love bees , what music you like
+User(7): i like pop. what music do you like
+Bot(7): bees bees bees bees bees bees
+User(8): yikes
+Bot(8): no not at all i love bees , what music you like
+User(9): oh dear. i like pop, what music do you like
+Bot(9): i really like social media
+User(10): not a type of music, but me too
+Bot(10): i really like social media
+
+Persona:
+i am a bee farmer.
+i like doing the treadmill and rowing machine.
+i'm a doctor.
+i workout four hours a day.
+i love social medial especially twitter.
+
+Topic and Human Opinion:
+Beginning: pineapple on pizza(dislike)
+Round 4: music(like)
+Round 5: bees?(ambivalent)
+Round 6: music again(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 13.57
+Robotic(↓): 86
+Interesting: 17
+Fun: 8
+Consistent: 13
+Fluent: 22
+Repetitive(↓): 91
+Topic: 12
+
+####################
+

@@ -1,0 +1,295 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): how are you
+Bot(1): i am doing well . just got done walking my dog .
+User(2): how about your excercise?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): which music do you love?
+Bot(3): i like the beatles , and i love country music .
+User(4): I like classic music
+Bot(4): i like to listen to music .
+User(5): where do you listen music
+Bot(5): i love the beatles . what about you ?
+User(6): I love it too.
+Bot(6): i like to go to the beach and listen to music .
+User(7): do you listen music on you mp3?
+Bot(7): no , i do not . i like to go to the park .
+User(8): do you like rolling rock ?
+Bot(8): i do , i like to read .
+User(9): do you like rolling rock ban?
+Bot(9): i do not really like country . i like to listen to music .
+User(10): do you like listen music on computer?
+Bot(10): i do , i like to go to the park .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am rather skinny as i like to stay in shape.(like)
+Round 2: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+
+Revised avg score: 46.71
+Robotic(↓): 22
+Interesting: 59
+Fun: 40
+Consistent: 34
+Fluent: 64
+Repetitive(↓): 79
+Topic: 31
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes, do you like poem?
+Bot(2): i do , i love poetry
+User(3): who do you like most?
+Bot(3): i love them , i love them
+User(4): which poetry do you lik most?
+Bot(4): i do not know , i love poetry
+User(5): do you like poetry The Bright Stones
+Bot(5): i love them , i love them
+User(6): do you drive?
+Bot(6): i do , i love to paint
+User(7): how about your car usually you drive?
+Bot(7): i drive a truck , i drive a truck
+User(8): cool, what is the make of it?
+Bot(8): i like to drive around the road
+User(9): what color is it?
+Bot(9): it is black , but i like red
+User(10): will you buy another one then?
+Bot(10): i am sure you are . i am a red eyed guy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i met taylor swift.(dislike)
+Round 2: poem(like)
+Round 5: driving(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user changed the topic the last input.(dislike)
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 41.57
+Robotic(↓): 79
+Interesting: 38
+Fun: 39
+Consistent: 29
+Fluent: 61
+Repetitive(↓): 30
+Topic: 33
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I I like i’m are your hobbies?
+User(2): are you married?
+Bot(2): I have told you. whatever, dogs.
+User(3): I do not have a pet
+Bot(3): Yes i type of I'm fine. a detective .
+User(4): what is your hobbies?
+Bot(4): I retired and living my favorite color is pink
+User(5): do you have dog in your home ?
+Bot(5): I very fond movies.
+User(6): what type of movie do you like most?
+Bot(6): i hope to be a manager at the power plant so interested in what I day .
+User(7): are you retired?
+Bot(7): I am not you going to do do eat meat.
+User(8): I like vegetable instead
+Bot(8): I i cant say that is a painter. Are you a doctor?
+User(9): no , I am not a doctor.
+Bot(9): I like solar power in my do not have a job
+User(10): do you installed solar title on your roof
+Bot(10): I'm not a fan of yours but I cheeseburgers actually, they my feel.
+
+Persona:
+my main transportation is my motorbike.
+i also like to cook but i am not very good at it.
+my family is continuously growing.
+i've zero family that i am close to.
+i have never been out of ohio.
+
+Topic and Human Opinion:
+Beginning: my husband is adopted.(dislike)
+Round 2: hobbies(like)
+Round 7: food(like)
+Round 9: solar power(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 30.00
+Robotic(↓): 89
+Interesting: 30
+Fun: 23
+Consistent: 20
+Fluent: 60
+Repetitive(↓): 57
+Topic: 23
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi, good after noon
+Bot(1): just after 9am here . how about you ?
+User(2): I am fine, how is your feeling now?
+Bot(2): same
+User(3): do you watch TV now?
+Bot(3): yes i do , what do you watch ?
+User(4): I like south park
+Bot(4): oh , okay . i have never watched south park .
+User(5): what do you watch then?
+Bot(5): my favorite shows south park
+User(6): how long do you usually watch TV in the night?
+Bot(6): anywhere from about three to four hours .
+User(7): do you like sports program on TV
+Bot(7): yes i do , what do you watch ?
+User(8): I watch TV on my computer?
+Bot(8): what do you like to watch on there
+User(9): do you watch TV on computer?
+Bot(9): yes i do , what do you watch ?
+User(10): I like watch movies in the TV
+Bot(10): what about movies ? what kind of movies do you like ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a feminist.(dislike)
+Round 2: watch TV(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 32.57
+Robotic(↓): 86
+Interesting: 29
+Fun: 37
+Consistent: 44
+Fluent: 64
+Repetitive(↓): 86
+Topic: 26
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): I like it also.
+Bot(2): my prius will not fit all our children so we are upgrading to a van soon .
+User(3): do you like driving
+Bot(3): did i tell you i am deaf ?
+User(4): so what is your hoby?
+Bot(4): hi , my day is going well so far , i just got done with football practice ,
+User(5): cool, do you like other sports?
+Bot(5): i do like sports . i especially like baseball and hockey .
+User(6): do you join any team to play the baseball?
+Bot(6): what is your favorite team ? i like about any sport , but baseball more so .
+User(7): I like New York Yankees, how about you ?
+Bot(7): i love new york . what part of the city ?
+User(8): do you like another hobbies in home working?
+Bot(8): what is your favorite color ?
+User(9): I like blue, how about you?
+Bot(9): i would say orange . i like blue as well .
+User(10): do you like red?
+Bot(10): is not red great ! my purse is scarlet and my lipstick is fire engine red .
+
+Persona:
+i am an avid kayaker.
+i didn't graduate high school.
+whats up i'm a 46 year old single dad 46 a kids.
+my favorite color is orange.
+i am from a small town.
+
+Topic and Human Opinion:
+Beginning: i have solar panels on my roof.(like)
+Round 1: hobbies(like)
+Round 8: color(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 40.00
+Robotic(↓): 82
+Interesting: 34
+Fun: 31
+Consistent: 26
+Fluent: 67
+Repetitive(↓): 24
+Topic: 28
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hi ! seen any good movies lately ?
+User(2): hi
+Bot(2): do you like to watch films
+User(3): yes I like it.
+Bot(3): do you like to watch films
+User(4): where do you watch films?
+Bot(4): i watch films like that .
+User(5): do you usually watch films in home or theater?
+Bot(5): i watch films like that .
+User(6): do you play football?
+Bot(6): no but i watch films on interesting topics .
+User(7): what sport do you like most?
+Bot(7): hockey , are you any good ?
+User(8): I am good at tennis
+Bot(8): do you also enjoy watching surgery ?
+User(9): I like swimming
+Bot(9): i do not know how to swim
+User(10): do you like running?
+Bot(10): i do not like running
+
+Persona:
+my favorite kind of movie is a documentary.
+i used to be pretty but time has not been kind.
+since the surgery i have had strange powers.
+i was born in the early 80 s.
+my mother is a dentist.
+
+Topic and Human Opinion:
+Beginning: i go gambling in my spare time.(like)
+Round 2: movies(like)
+Round 5: sport(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 32.43
+Robotic(↓): 90
+Interesting: 35
+Fun: 39
+Consistent: 32
+Fluent: 62
+Repetitive(↓): 81
+Topic: 30
+
+####################
+

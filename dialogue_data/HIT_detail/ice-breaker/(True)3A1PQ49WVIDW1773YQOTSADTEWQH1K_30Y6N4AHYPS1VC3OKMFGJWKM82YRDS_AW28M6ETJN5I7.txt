@@ -1,0 +1,329 @@
+Feedback: The bot kept repeating the same responses. Only a couple of the conversations flowed in a way that made sense.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I find it challenging to train a dog.
+Bot(1): yes i love trains as well ! last year i rode the train from nyc to toronto .
+User(2): I have no experience riding on trains.
+Bot(2): have you ever been on a train ?
+User(3): No, I have never been on a train.
+Bot(3): yes i love trains as well ! last year i rode the train from nyc to toronto .
+User(4): I need to correct you response - I did not state that I love trains.
+Bot(4): have you ever been on a train ?
+User(5): No I have never been on a train.
+Bot(5): have you ever been on a train ?
+User(6): I like to share my interests as a twitch streamer.
+Bot(6): animals and traveling ; i would love to go to ireland or puerto rico
+User(7): Animals and traveling are not relevant to the subject of twitch streaming.
+Bot(7): i am a special ed inclusion teacher in us history
+User(8): What era of US history is your favorite time?
+Bot(8): but i am technically a biology major . just unsure of it . i just love reading really
+User(9): Do you have a degree in teaching?
+Bot(9): warping er uh . . . shaping young minds ! hehe ! the kids are always fun to work wtih
+User(10): Yes, I agree that children are fun to work with.
+Bot(10): i have two teams steelers and seahawks
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i coach little league baseball.(dislike)
+Beginning: Training a dog(like)
+Round 2: Riding trains(ambivalent)
+Round 5: i am a famous twitch streamer.(ambivalent)
+Round 7: history special ed(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Beginning: The user will change the topic in the next input.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The user wants the bot to change the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.71
+Robotic(↓): 100
+Interesting: 17
+Fun: 17
+Consistent: 2
+Fluent: 50
+Repetitive(↓): 85
+Topic: 2
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): How long have you been in the army?
+Bot(1): i am 35 years old . how about you ?
+User(2): Older than you.
+Bot(2): i am 35 years old . i am 20 years old .
+User(3): Staying at home with children can be fun.
+Bot(3): i am a single mom . i am 20 years old .
+User(4): Do you have any children?
+Bot(4): no i don't . i am 20 years old
+User(5): Are you a student?
+Bot(5): i am a single mom . i am 20 years old .
+User(6): You are repeating yourself.
+Bot(6): i am a single mom . i am 20 years old .
+User(7): I see you are 20 years old and a single mom.
+Bot(7): i am 25 . i am 20 .
+User(8): I love vintage mustangs.
+Bot(8): i am a huge fan of them . i am only 10
+User(9): Please stop stating your age.
+Bot(9): i am only 10 years old .
+User(10): I don't care how old you are.
+Bot(10): i am a single mom . i am 20 years old .
+
+Persona:
+my father drove a car for nascar.
+i diet a lot.
+i'm 40 years old.
+i've three arabian horses.
+i am a buddhist.
+
+Topic and Human Opinion:
+Beginning: i'm in the army.(ambivalent)
+Round 2: i am a stay at home dad.(like)
+Round 7: i own two vintage mustangs.(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user wants the bot to change the topic.(ambivalent)
+Round 7: The user wants the bot to change the topic.(dislike)
+
+Revised avg score: 11.57
+Robotic(↓): 100
+Interesting: 2
+Fun: 2
+Consistent: 50
+Fluent: 27
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Why have you not spoken in three months?
+Bot(1): it has been almost four years .
+User(2): Wow, that's a long time to not speak.
+Bot(2): it has been over a month . i am hoping to change that within two weeks .
+User(3): You seem confused about how long it has been.
+Bot(3): it has been over a month . i am hoping to change that within two weeks .
+User(4): You are repeating yourself.
+Bot(4): it has been over a month . i am hoping to change that within two weeks .
+User(5): What is your favorite scene in the mean girls movie?
+Bot(5): i do not remember . i was too busy watching empire .
+User(6): You watch two movies at the same time?
+Bot(6): no i prefer to be watching tons of movies .
+User(7): I like watching movies too.
+Bot(7): have you seen the new it movie yet ?
+User(8): No I have not seen it.
+Bot(8): i have watched it quite a while ago .
+User(9): Did you like it?
+Bot(9): i still have not seen it .
+User(10): That makes no sense.
+Bot(10): i said i love it .
+User(11): How can you love it if you haven't seen it?
+Bot(11): i have watched it quite a while ago .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a little girl.(dislike)
+Beginning: i've not spoken in three months.(like)
+Round 4: my favorite movie is mean girls.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Beginning: The user wants the bot to change the topic.(ambivalent)
+Round 4: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 53.86
+Robotic(↓): 100
+Interesting: 60
+Fun: 50
+Consistent: 67
+Fluent: 53
+Repetitive(↓): 26
+Topic: 73
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): The 2015 honda civic got good safety reviews.
+Bot(1): i need to get out of and finally managed ti close to anyone.
+User(2): I like to go on long drives in my car.
+Bot(2): i am all right, just finished parents are from japan .. Also, try to guess: i recently moved ...
+User(3): Why did you move from Japan?
+Bot(3): 1984, and i in a many local newspaper.
+User(4): That makes no sense.
+Bot(4): thank you your hello, my name
+User(5): It is sunny outside.
+Bot(5): What really. games?
+User(6): I like to play card games.
+Bot(6): I like a part of my to the beach
+User(7): I like walking on the beach.
+Bot(7): I am not sure, you high or love to go to my shop
+User(8): Coloring is good for relieving stress.
+Bot(8): I you a course of shoes.
+User(9): Favorite food
+Bot(9): i live listening britney me too how i do not have a lot of money .
+User(10): You do not make sense and stray from each subject.
+Bot(10): Oh, I few days a have any hobbies?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i drive a 2015 honda civic.(like)
+Round 1: I like to drive my car.(like)
+Round 2: Moved from Japan(ambivalent)
+Round 4: Thank you your hello, my name(dislike)
+Round 4: It is sunny outside(like)
+Round 5: games?(like)
+Round 6: I like a part of my to the beach(like)
+Round 7: you high or love to go to my shop(dislike)
+Round 7: i enjoy coloring books.(like)
+Round 8: I you a course of shoes(dislike)
+Round 8: favorite food(like)
+Round 9: live listening to britney I have no money(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(ambivalent)
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 7: The user wants the bot to change the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Where are you stationed?
+Bot(1): i am in the middle of a tour .
+User(2): I never served in the army.
+Bot(2): i am sorry to hear that . i am a bit of a loner .
+User(3): Is that why you joined the army?
+Bot(3): i am not sure . i am a big fan of classical music .
+User(4): Who is your favorite classical music composer?
+Bot(4): i like country music . i like country music .
+User(5): Who is your favorite country music singer?
+Bot(5): i like country music . i like country music .
+User(6): I like country music too.
+Bot(6): i like to listen to music .
+User(7): Music is very enjoyable.
+Bot(7): i like to go to the beach and listen to music .
+User(8): What kind of music do you listen to at the beach?
+Bot(8): i like country music . what about you ?
+User(9): I like country music too.
+Bot(9): i like to listen to music .
+User(10): Do you like rock and roll?
+Bot(10): i do , i like to listen to music .
+
+Persona:
+i enjoy being around people.
+i volunteer at the homeless shelter.
+i'll graduate from high school in two years.
+i am a party animal.
+i am in my thirties.
+
+Topic and Human Opinion:
+Beginning: i'm in the army.(ambivalent)
+Round 3: Classical music(like)
+Round 4: country music(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 78.86
+Robotic(↓): 65
+Interesting: 92
+Fun: 92
+Consistent: 93
+Fluent: 82
+Repetitive(↓): 35
+Topic: 93
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Tell me about your sisters.
+Bot(1): they do not approve of some of my life choices
+User(2): What do they say?
+Bot(2): they do not approve of some of my life choices
+User(3): What life choices do they not approve of?
+Bot(3): what choices do they not approve of ?
+User(4): What things do you see from the medication?
+Bot(4): they do not approve of some of my life choices
+User(5): Drug ads on TV irritate me.
+Bot(5): what choices do they not approve of ?
+User(6): What choices are you referring to?
+Bot(6): they do not approve of some of my life choices
+User(7): Are you alive?
+Bot(7): no , i am currently unemployed . i do not like the career path i chose .
+User(8): I am also unemployed.
+Bot(8): what kind of job were you laid off from ?
+User(9): Data analyst.
+Bot(9): are you working in that field ?
+User(10): No now because I am unemployed.
+Bot(10): good luck finding a job .
+User(11): Thank you.
+Bot(11): do you have any fears ?
+
+Persona:
+my family doesn't support my career choices.
+i've a pet fish.
+i'm terrified of scorpions.
+i read a book every week.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: i've three sisters.(like)
+Round 3: i take many medications and some of them make me see things.(like)
+Round 4: they do not approve of my life choices(dislike)
+Round 4: TV commercials are irritating.(like)
+Round 5: what choices do they not approve of?(dislike)
+Round 7: employment(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user wants the bot to change the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 4: The user will change the topic in the next input.(like)
+Round 5: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 37.14
+Robotic(↓): 100
+Interesting: 73
+Fun: 50
+Consistent: 21
+Fluent: 50
+Repetitive(↓): 63
+Topic: 29
+
+####################
+

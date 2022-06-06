@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hi how are you today ?
+User(2): i'm good, you?
+Bot(2): i'm doing well , how are you ?
+User(3): fine, what is your favorite color
+Bot(3): i like blue , what about you ?
+User(4): i love red
+Bot(4): i like the color red , but i like the color red
+User(5): i like brown and also purple
+Bot(5): i like the color green too
+User(6): green is a chic color
+Bot(6): i love the color green , what is your favorite color
+User(7): red, and a touch of brown
+Bot(7): i love the color green , what is your favorite color
+User(8): purple
+Bot(8): i love purple , reminds me of summer time .
+User(9): yeah, me too
+Bot(9): i like to dance to my sister
+User(10): under the stars?
+Bot(10): i do not know , i am deaf so i do dance
+
+Persona:
+horror movies are my favorites.
+i am partly deaf.
+i have one older sister.
+i take dance lessons once a week.
+eating is something i do when i'm bored.
+
+Topic and Human Opinion:
+Beginning: colors(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.00
+Robotic(↓): 41
+Interesting: 57
+Fun: 61
+Consistent: 83
+Fluent: 82
+Repetitive(↓): 35
+Topic: 69
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hiya
+Bot(1): hi , i am a pizza maker who makes pencil drawings as a hobby .
+User(2): really?
+Bot(2): playing a pickup football game later . might walk my dog at some point .
+User(3): what is the name of your dog?
+Bot(3): a chocolate lab . he is four and named husk .
+User(4): that is great, i have always wanted a dog
+Bot(4): he is a poodle i love him but he makes my green car smell
+User(5): sorry about that
+Bot(5): feels incomplete but i ve been hit by art
+User(6): what art
+Bot(6): i do enjoy art , my passion is drawing .
+User(7): i enjoy art too, it is an integral part of my life
+Bot(7): you do art ? what kind of art do you do ?
+User(8): i don't do art, i work with art
+Bot(8): you do art ? what kind of art do you do ?
+User(9): i do not
+Bot(9): hmmm i used to drink so bad i lost my home and lived in a storage unit
+User(10): bummer
+Bot(10): i like blue but always have friends around so never blue
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: work habit(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.43
+Robotic(↓): 84
+Interesting: 57
+Fun: 30
+Consistent: 30
+Fluent: 50
+Repetitive(↓): 79
+Topic: 37
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): how are you doing?
+Bot(1): i'm doing well . how are you ?
+User(2): i'm good and hungry
+Bot(2): i am a bit of a loner
+User(3): i said hungry
+Bot(3): i like to eat fish .
+User(4): i wish i had some fish to eat
+Bot(4): i like to eat fish .
+User(5): i haven't eaten all day
+Bot(5): i am sorry to hear that . i am a bit of a loner .
+User(6): why are you a loner?
+Bot(6): i am not . i am a student .
+User(7): but you said you are a bit of a loner, no?
+Bot(7): i am a student . i am a student .
+User(8): okay, if you say so
+Bot(8): i am a student , but i am a student .
+User(9): a student of which institution?
+Bot(9): i do not know what to say .
+User(10): okay,bye
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hunger(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.29
+Robotic(↓): 97
+Interesting: 21
+Fun: 18
+Consistent: 31
+Fluent: 77
+Repetitive(↓): 80
+Topic: 49
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey
+Bot(1): hey .
+User(2): how are you
+Bot(2): same
+User(3): same what
+Bot(3): same
+User(4): stop that
+Bot(4): what ?
+User(5): you are being repetitive
+Bot(5): i am so annoyed today
+User(6): why?
+Bot(6): i get tired of seen the same things
+User(7): sorry about that
+Bot(7): same
+User(8): maybe ice cream will make you feel better
+Bot(8): i should
+User(9): yes, vanilla or chocolate?
+Bot(9): both are good
+User(10): great
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: icecream flavors(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.00
+Robotic(↓): 87
+Interesting: 26
+Fun: 26
+Consistent: 82
+Fluent: 63
+Repetitive(↓): 94
+Topic: 57
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): i take it my I don't be weird
+User(2): are you okay
+Bot(2): I like to teacher right now. you do?
+User(3): no
+Bot(3): i you want to take piano and cook .
+User(4): what are you saying
+Bot(4): I am a bit of a sports and do you say play sports.
+User(5): i play football
+Bot(5): Do you wanna which does sound else?
+User(6): pardon?
+Bot(6): I just you like freak hockey games
+User(7): oh, i see
+Bot(7): I'd like to modern you watch I I drive a bmw
+User(8): that is a nice car
+Bot(8): Good, just got back like music? my dog.
+User(9): you are saying so many things at once
+Bot(9): I think like music? my in the future
+User(10): i love music too
+Bot(10): yes , but :) i'm at home a lot of money .
+
+Persona:
+i have a weakness for fish and chips.
+i am a bee farmer.
+i am terrified of clowns due to childhood trauma.
+i love to cook paella.
+i'm currently looking for a job preferably at a restaurant.
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.43
+Robotic(↓): 100
+Interesting: 23
+Fun: 32
+Consistent: 32
+Fluent: 76
+Repetitive(↓): 60
+Topic: 52
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i love having fun, do you?
+Bot(1): i am always in the mood for fun
+User(2): yesssss, me too
+Bot(2): yes me too ! ! ! !
+User(3): what do you consider fun?
+Bot(3): pretty much anything ! i just like the rush of it
+User(4): like driving a motorbike
+Bot(4): riding bikes can be fun too !
+User(5): i know, or swimming with the sharks
+Bot(5): if there was no sharks involved yes
+User(6): i love that you take risks
+Bot(6): what is life without taking risks ?
+User(7): nothing
+Bot(7): what is life without taking risks ?
+User(8): it is nothing and not worth living
+Bot(8): what is life without taking risks ?
+User(9): you said that
+Bot(9): i said i like it
+User(10): me too
+Bot(10): you said that already
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fun(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.00
+Robotic(↓): 67
+Interesting: 67
+Fun: 75
+Consistent: 75
+Fluent: 77
+Repetitive(↓): 57
+Topic: 50
+
+####################
+

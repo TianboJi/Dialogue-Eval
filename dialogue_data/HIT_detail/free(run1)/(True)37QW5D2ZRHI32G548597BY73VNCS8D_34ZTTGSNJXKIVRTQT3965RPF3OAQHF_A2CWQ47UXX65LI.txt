@@ -1,0 +1,285 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello!
+Bot(1): hello , how are you doing today ?
+User(2): I'm great. It's nice and sunny today. What do you think?
+Bot(2): i am a big city , i like to go to the beach .
+User(3): Going to the beach would be nice today. The weather's right for it.
+Bot(3): i am a great dancer , i am a big fan of the air
+User(4): Really? What type of dances do you preform?
+Bot(4): i am a huge fan of dancing . i like to play sports .
+User(5): Awesome! What sport? I love Rugby.
+Bot(5): i like to play soccer . i also like to play sports .
+User(6): I love British Soccer! What's your favorite team?
+Bot(6): i like the steelers . i am a huge fan of soccer .
+User(7): Steelers? Isn't that football?
+Bot(7): i like the steelers . i am a fan of the steelers .
+User(8): That's nice. I'm a fan of the soccer team Manchester United.
+Bot(8): i love the steelers ! i love the steelers !
+User(9): I see you do. Are you looking forward to the football game coming up soon?
+Bot(9): yes , i love football . i am a bit of a coach .
+User(10): I'm sure you can coach today with this nice weather.
+Bot(10): yes i do . i am going to go to the beach and play with my daughter
+User(11): Nice, what's your daughter name?
+Bot(11): my daughter is a great dancer .
+
+Persona:
+i'm a swim coach at my local pool.
+i think i'll retire in a few years.
+i'm a museum tour guide.
+i am a blonde girl with really short hair.
+my grandfather served in world war a.
+
+Topic and Human Opinion:
+Beginning: Today's weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.71
+Robotic(↓): 100
+Interesting: 35
+Fun: 26
+Consistent: 2
+Fluent: 33
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hi , do you have any soda ?
+User(2): Yes, some strawberry. Do you want some?
+Bot(2): i would love that . do you have soda ?
+User(3): Here you go. Do you like movies?
+Bot(3): i love movies . what movie ?
+User(4): Comedy, drama, or horror movies?
+Bot(4): hmm . . that is a tough question because i like so many .
+User(5): Same here. Me? I love comedy and horror.
+Bot(5): oh , i am sorry it took me so long to respond , i am an old man .
+User(6): Nah, its OK. Do you have a favorite movie?
+Bot(6): napoleon dynamite . what is yours ?
+User(7): Blazing Saddles. Mostly anything by Mel Brooks.
+Bot(7): it is not the same . i watch it with my 100 year old parents
+User(8): Really? Do you mean Napoleon Dynamite? i like that movie too.
+Bot(8): yes ! i am glad you caught that reference !
+User(9): Well, I'm glad too. What's your favorite part of the movie?
+Bot(9): napoleon dynamite . what is yours ?
+User(10): Blazing Saddles.
+Bot(10): i can never understand that show . i must be too old for it .
+User(11): Not at all with this film.
+Bot(11): it is not the same . i watch it with my 100 year old parents
+
+Persona:
+i am 100 years old.
+i do not drink soda.
+my mom is coming to visit me tomorrow.
+i do not like chicken.
+my best friend lives next door.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.57
+Robotic(↓): 100
+Interesting: 74
+Fun: 73
+Consistent: 55
+Fluent: 58
+Repetitive(↓): 100
+Topic: 59
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi. What's comics are you reading?
+Bot(1): i like to read and write poetry .
+User(2): Are there any poetic comics?
+Bot(2): no , i like to read . what do you do for a living ?
+User(3): I like reading too. For a living? Work at a boring job.
+Bot(3): i do not have any pets . i am a big fan of them .
+User(4): I'd love a corgi one day. When I own my own house. What kind of pets do you like?
+Bot(4): i like the color red . what is yours ?
+User(5): I love black.
+Bot(5): i like to go to the gym and listen to music .
+User(6): Not me. I go to the gym, but concentrate better without music.
+Bot(6): i like to listen to music .
+User(7): So do I. Especially at work.
+Bot(7): i love to cook . i love to cook .
+User(8): What do you like to cook?
+Bot(8): i do , i love to cook .
+User(9): Do you know a good cooking genre comic?
+Bot(9): no , i like to read .
+User(10): Well you are reading if your reading a comic.
+Bot(10): i do not really like it . i like to read .
+
+Persona:
+i've a german shepherd named barnaby.
+i'm 60years old.
+i just moved into my first home.
+i am a construction worker.
+i am an animal activist.
+
+Topic and Human Opinion:
+Beginning: Comics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.14
+Robotic(↓): 100
+Interesting: 20
+Fun: 33
+Consistent: 0
+Fluent: 74
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi again!
+Bot(1): i may this weekend after talking about it . i am getting hungry for greek food
+User(2): Sounds good for lunch at work. What's your job?
+Bot(2): i am getting ready to watch some college football and also nfl football tomorrow love it
+User(3): You are? I have to work at my boring job unfortunately.
+Bot(3): cooking , but i love movies . . . scary movies . except when they include clowns
+User(4): I don't mind clowns. I work around a bunch of them at work.
+Bot(4): clowns are scary , i totally get that !
+User(5): True. But I can handle the clowns at work.
+Bot(5): i am afraid of losing my hearing . i love music too much .
+User(6): I understand that. I wear headphones while listening to music at work.
+Bot(6): me too . i love technology . i wish i would never die . i wanna free dive forever .
+User(7): I wouldn't go that far, Getting away from Technology is good for the brain.
+Bot(7): anything particular ? i enjoy the medical technology since i recently became a doctor .
+User(8): Not me. How is your career as a doctor?
+Bot(8): the only dr i am is a dr . pepper . . girl that is . my favorite drink .
+User(9): Ha Ha! That's funny. I've always been a cherry coke girl.
+Bot(9): ho ho ho ho ho
+User(10): Do they have Dr pepper at your job?
+Bot(10): i do not really drink soda but that would be my first choice .
+User(11): What's your second choice?
+Bot(11): which is strange . because i am allergic to apples . i have 25 kids
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Work(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.86
+Robotic(↓): 100
+Interesting: 13
+Fun: 29
+Consistent: 17
+Fluent: 73
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What's happening?
+Bot(1): I you are reading I play soccer.
+User(2): I want to eat something first. What's your favorite fast food restaurant?
+Bot(2): I you have go fishing.
+User(3): You go fishing for fast food?
+Bot(3): thank god indeed ! i like taking my dog on at said that home. ?
+User(4): Really? I sometimes take my dog with me when we visit the local Korean supermarket.
+Bot(4): Oh wow! am a somalian cool!
+User(5): Interesting. Do they have fast food in Somalia?
+Bot(5): i love talking walks the told this thanks, are you up to ?
+User(6): Lets walk to the Korean Restaurant. It's really good.
+Bot(6): I like I have a run😃
+User(7): Ok, we can run there. Lets go!
+Bot(7): yes i get so uncomfortable. favorite right, I suppose. i live in ...
+User(8): Where is that you live?
+Bot(8): I am good. hand-made think I teacher.
+User(9): Alright. What kind of food do you like?
+Bot(9): Hello, is you you doing?
+User(10): I'm fine.
+Bot(10): cool 👍 you cant know morning, made ya quit
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fast food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 81
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi!
+Bot(1): hey
+User(2): What's your favorite car brand?
+Bot(2): honda , you drive ? if so what ?
+User(3): Me too! I have a Honda!
+Bot(3): i love my paid off honda !
+User(4): Lucky you! I'm still paying off mine.
+Bot(4): i love my paid off honda !
+User(5): What make do you have?
+Bot(5): toyota corolla . the best car around .
+User(6): I thought you had a Honda?
+Bot(6): yes i have honda and i love it
+User(7): So you have a Honda and a Toyota Corolla?
+Bot(7): no , i drive a toyota .
+User(8): I have a Honda Civic.
+Bot(8): oh . honda civic ? i would rather an accord
+User(9): Accord's are OK. Very speedy.
+Bot(9): they are nice cars and very fast !
+User(10): Yes! I love how fast they are.
+Bot(10): they are nice cars and very fast !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 82.00
+Robotic(↓): 37
+Interesting: 100
+Fun: 100
+Consistent: 93
+Fluent: 100
+Repetitive(↓): 74
+Topic: 92
+
+####################
+

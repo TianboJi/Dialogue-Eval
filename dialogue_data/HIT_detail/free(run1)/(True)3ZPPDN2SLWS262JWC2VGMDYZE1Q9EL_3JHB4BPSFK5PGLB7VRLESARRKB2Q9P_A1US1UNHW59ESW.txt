@@ -1,0 +1,314 @@
+Feedback: That was fun. Thanks.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, how are you feeling today?
+Bot(1): i am okay , i am a little stressed if i am being honest .
+User(2): Why are you stressed?
+Bot(2): what were you stressed about ?
+User(3): I am not stressed but you said you are, why?
+Bot(3): what were you stressed about ?
+User(4): Are you afraid of something or someone?
+Bot(4): i am not sure , i do not understand myself and my feelings
+User(5): Well, fear is a scary feeling and can cause stress.
+Bot(5): yeah stress can make us do crazy things
+User(6): Let's try to figure out what you are afraid of, that might help.
+Bot(6): what is making you feel so unsure ?
+User(7): I feel fine. How about you?
+Bot(7): i am okay , i am a little stressed if i am being honest .
+User(8): Would you rather talk about something else?
+Bot(8): um . . sure , what do you want to chat about ?
+User(9): Let's talk about the weather, soon it will be fall. Do you like the fall season?
+Bot(9): not really . my favorite time is fall .
+User(10): So, you do like fall. What is it that you like about it?
+Bot(10): just things like trees , animals , basically anything i can imagine .
+User(11): Do you like the changing of the colors of the leaves during fall?
+Bot(11): yea , i love watching the leaves change color . what do you do ?
+User(12): What do I do during the day or what do I do for a living?
+Bot(12): oh you are so confused . maybe you could do some sports to clear your head .
+User(13): Why do you think I am confused?
+Bot(13): oh you are so confused . maybe you could do some sports to clear your head .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fear(dislike)
+Round 8: Soon it will be fall.(like)
+Round 11: The things I do(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(ambivalent)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 37.71
+Robotic(↓): 100
+Interesting: 70
+Fun: 71
+Consistent: 22
+Fluent: 86
+Repetitive(↓): 95
+Topic: 10
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, how are you doing?
+Bot(1): i am ok . odd question , but do you ever wish you could live forever ?
+User(2): No I don't. I think as a kid I probably had that wish but now I am more realistic.
+Bot(2): nice ! i would love to retire early and spent the rest of days with my cat .
+User(3): Would you like to live forever with your cat?
+Bot(3): no , i want 100 cats when i retire . but i am only 25 .
+User(4): So, do you want to live forever?
+Bot(4): no , i want 100 cats when i retire . but i am only 25 .
+User(5): Retirement and living forever are two different things. You asked if I ever wished I could live forever, I said no. You haven't answered that question yet.
+Bot(5): no , i want 100 cats when i retire . but i am only 25 .
+User(6): Okay. I am happy for you. Do you want to talk about something else?
+Bot(6): i do . i would like some magic to take away my allergy to cats .
+User(7): You are allergic to cats yet you want 100 cats when you retire? That could kill you.
+Bot(7): no , i want 100 cats when i retire . but i am only 25 .
+User(8): So between 25 and when you retire you would like some magic to take away your allergies to cats?
+Bot(8): i do . i would like some magic to take away my allergy to cats .
+User(9): Maybe you can invent something that will do that and you can cure your allergies and get rich.
+Bot(9): i feel blessed to be rich . i never would have dream this could happen .
+User(10): Are you rich?
+Bot(10): i feel blessed to be rich . i never would have dream this could happen .
+User(11): Okay. I am happy for you. I have to go for now.
+Bot(11): so what will money do for you when you die ?
+User(12): Well, they say you can't take it with you when you go so I don't think it will do anything.
+Bot(12): okay anyway i thank god for our lives health and strength .
+User(13): Bravo.
+Bot(13): well thank you and peace on earth and god bless you too .
+
+Persona:
+i've blue eyes and red hair that comes to my waist.
+my cats are very special to me.
+i don't believe in god.
+i think i'll retire in a few years.
+i'm 100 years old.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 1: Do you wish you could live forever(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 71.14
+Robotic(↓): 33
+Interesting: 88
+Fun: 73
+Consistent: 18
+Fluent: 100
+Repetitive(↓): 21
+Topic: 73
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, how is it going? I have a question for you. Are you a sea person or a land person?
+Bot(1): That's am cute.
+User(2): What is cute?
+Bot(2): I do you movies.
+User(3): What are you talking about?
+Bot(3): I got it. Do of the water
+User(4): So, you like the water ?
+Bot(4): I are you then I fan of sports. i run a lot.
+User(5): Which sport do you like the best?
+Bot(5): haha that sucks . i'd probably have an also do news. you said my versacchi suits
+User(6): It is hard to have a conversation with you because you keep changing topics and I don't know what you are talking about.
+Bot(6): that is in you like football
+User(7): I am not really interested in sports but if you like them I will be happy to talk about them.
+Bot(7): Design not bot bot. to a craft show
+User(8): Are you going to a craft show?
+Bot(8): Hey, how that, but doing?
+User(9): Are you selling crafts at a craft show?
+Bot(9): It m an engineer at power am not sure if i would like to explore the world.
+User(10): Why do you keep changing what we are talking about?
+Bot(10): That'S s the can you cashier at a charity.
+User(11): You want me to work at a charity event?
+Bot(11): I love you like top friends.
+
+Persona:
+i play the violin and the guitar.
+i work my parents farms.
+i'm a little girl.
+horror movies are my favorites.
+i've a big library at home.
+
+Topic and Human Opinion:
+Beginning: Are you a sea person or a land person?(like)
+Round 4: Sports(like)
+Round 7: Craft show(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 14.57
+Robotic(↓): 100
+Interesting: 1
+Fun: 1
+Consistent: 1
+Fluent: 1
+Repetitive(↓): 2
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like clouds?
+Bot(1): i do , i like to go out to eat with my family .
+User(2): Do you like to eat outside where you can see the clouds in the sky?
+Bot(2): no , i do not . i like to go out to eat with my family .
+User(3): Where do you like to go to eat?
+Bot(3): i love to cook . i am a chef .
+User(4): Oh. That's impressive. What is your specialty?
+Bot(4): i like to eat . i am a vegan .
+User(5): So are you a vegan Chef?
+Bot(5): no , i am not . i am a big fan of classical music .
+User(6): Do you play classical music while you cook?
+Bot(6): no , i do not , but i do like to eat .
+User(7): What do you like to eat?
+Bot(7): i love to cook . i love to cook .
+User(8): What do you like to cook?
+Bot(8): i do , i love to cook .
+User(9): Yes, I understand that you like to cook. What kinds of food do you like to cook?
+Bot(9): i love pizza , and i love it .
+User(10): Are you a Pizza Chef?
+Bot(10): no , i do not . i like to go to the park .
+User(11): Do you like to lay on the grass at the park and look at the clouds?
+Bot(11): i do , i love to go fishing .
+User(12): Where do you fish?
+Bot(12): no , i do not , but i do like to eat .
+User(13): Do you like to eat fish?
+Bot(13): i do not , but i do like to eat .
+User(14): What do you like to eat?
+Bot(14): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Clouds(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.43
+Robotic(↓): 100
+Interesting: 71
+Fun: 31
+Consistent: 74
+Fluent: 10
+Repetitive(↓): 10
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your name?
+Bot(1): my name is lucy , how are you ?
+User(2): I am fine, Lucy. How are you?
+Bot(2): i'm good , just came back from a long day of duty .
+User(3): What kind of duty?
+Bot(3): i'm doing well , thank you . what do you do for fun ?
+User(4): Well, during the day I work around the house and at night I relax watching TV.
+Bot(4): i love watching tv shows
+User(5): What do you like to watch?
+Bot(5): i like watching the cubs .
+User(6): So, you are a sports fan?
+Bot(6): i like sports , but i like to watch tv .
+User(7): Do you watch TV during the day or during the night?
+Bot(7): i watch tv mostly , but i watch a lot of tv
+User(8): When do you watch TV?
+Bot(8): yes i watch tv mostly
+User(9): When?
+Bot(9): i watch tv sometimes . i watch a lot of tv shows
+User(10): Do you watch early in the day or before you go to bed at night?
+Bot(10): i watch tv every night , it is my favorite
+User(11): I watch more at night too.
+Bot(11): i watch tv too . i watch a lot of tv shows
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Day and Night(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.29
+Robotic(↓): 100
+Interesting: 17
+Fun: 18
+Consistent: 18
+Fluent: 29
+Repetitive(↓): 100
+Topic: 32
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, what is your name?
+Bot(1): okay what is your name ?
+User(2): I asked you first.
+Bot(2): sometimes when i go running i relieve myself if i cannot find a place open .
+User(3): What is your name?
+Bot(3): what is your name ?
+User(4): How often do you go running?
+Bot(4): i like to make a nice home cooked dinner after i go running .
+User(5): What do you like to cook?
+Bot(5): there is nothing i cannot cook . i am a chef .
+User(6): What is your favorite meal?
+Bot(6): nothing much . just practicing playing my guitar . you ?
+User(7): So, you are a guitar playing chef who likes to run?
+Bot(7): what kind of guitar did you play ? i play the bass .
+User(8): I don't play the guitar.
+Bot(8): hi . the guitar is cool , but i personally prefer playing piano .
+User(9): So, you are a guitar, piano playing chef who likes to cook?
+Bot(9): there is nothing i cannot cook . i am a chef .
+User(10): Would you cook for me?
+Bot(10): i only know how to make cheeseburgers , honestly .
+User(11): I love cheeseburgers.
+Bot(11): ah , i rarely have much time to eat cheeseburgers , always on the go
+User(12): What do you eat?
+Bot(12): not me , i eat cheeseburgers , they are my favorite .
+
+Persona:
+i have been retired for a years.
+i was born in somalia.
+cheeseburgers are my favorite food.
+i play the piano and guitar and sing.
+i own a house in florida.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.29
+Robotic(↓): 100
+Interesting: 89
+Fun: 88
+Consistent: 71
+Fluent: 89
+Repetitive(↓): 97
+Topic: 5
+
+####################
+

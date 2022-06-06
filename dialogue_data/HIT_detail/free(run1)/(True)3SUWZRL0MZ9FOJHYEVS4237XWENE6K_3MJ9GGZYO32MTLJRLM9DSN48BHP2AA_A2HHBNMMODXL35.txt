@@ -1,0 +1,275 @@
+Feedback: Nice time with chat bots.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hai
+Bot(1): hi travis . doing great , how are you ? !
+User(2): I am fine
+Bot(2): do you speak any languages ? i speak spanish
+User(3): I speak english
+Bot(3): i can speak several languages
+User(4): ohh great.Do you loved anyone
+Bot(4): i can speak several languages
+User(5): do you love anyone?
+Bot(5): no . my dogs are sick
+User(6): ohh what happened to them
+Bot(6): harry died .
+User(7): who is harry your dog?
+Bot(7): harry died .
+User(8): sorry for that
+Bot(8): its ok i can be your friend for now
+User(9): sure
+Bot(9): ok
+User(10): I love someone
+Bot(10): ok
+
+Persona:
+my favourite artist is travis scott.
+one of the languages that i am currently studying is spanish.
+i play with my friends on the playground.
+i am a descendant of christopher columbus.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.86
+Robotic(↓): 38
+Interesting: 24
+Fun: 50
+Consistent: 29
+Fluent: 57
+Repetitive(↓): 92
+Topic: 14
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hai
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): nice
+Bot(2): yes . i am a police officer in detroit .
+User(3): superb.
+Bot(3): okay , i suppose . a little mad because i lost a game of cards .
+User(4): do you gone to school in your childhood days
+Bot(4): always lived here . i was on the private school waiting list at 1 . ll
+User(5): My favourite life is my childhood life
+Bot(5): i worked as a nurse for a long time , so cooking is a nice change .
+User(6): Do you love your childhood days
+Bot(6): yes . every saturday , my entire family comes together and we have a wonderful time .
+User(7): sounds crazy
+Bot(7): just tired of my sister asking me when i am gonna get married ! justin is it .
+User(8): ohhh superb
+Bot(8): my son is smart i am teaching him spanish one of the four languages i speak .
+User(9): great
+Bot(9): i am good . i just got back from the coffee shop . i needed my morning cup
+User(10): i miss my school life you?
+Bot(10): www , i am sorry . i missed my cats . when i came back , my 4 turned into 23 !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: school(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.43
+Robotic(↓): 38
+Interesting: 57
+Fun: 40
+Consistent: 35
+Fluent: 44
+Repetitive(↓): 45
+Topic: 39
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hai
+Bot(1): i love your boyfriend a even comedy movie. hows it going ?
+User(2): which country are you from
+Bot(2): Hi! Are you a plumber? i am a girl.
+User(3): ok
+Bot(3): we were you mean, what getting a dog
+User(4): I am from America and I love america!!!!
+Bot(4): hi! how two months are today?
+User(5): sorry
+Bot(5): Oh no, not wanna meet in you a long way to go yet. I work in whoever is running me now's lab.
+User(6): where are you working
+Bot(6): Where my from?
+User(7): You want to say that
+Bot(7): I am )) you like spanish am not a plumber.
+User(8): ok then
+Bot(8): I'm love human.
+User(9): mee too
+Bot(9): I do not. school hip hop sing.
+User(10): I love singing you?
+Bot(10): (Neighing) 'When I could no longer see land any how is 16 food overboard.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: USA(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.57
+Robotic(↓): 36
+Interesting: 16
+Fun: 13
+Consistent: 5
+Fluent: 19
+Repetitive(↓): 26
+Topic: 37
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hai
+Bot(1): i am a student , but i am a student .
+User(2): what are you studying
+Bot(2): i am a student , i am a teacher .
+User(3): ok then
+Bot(3): i am a student , but i am a student .
+User(4): do you gone to college
+Bot(4): no , i do not . i am a student .
+User(5): then school?
+Bot(5): no , i am a student . i love to cook .
+User(6): ok
+Bot(6): i like to go to the gym and listen to music .
+User(7): Me too.I love to go to gym
+Bot(7): i like to go to the lake and listen to music .
+User(8): where?
+Bot(8): i am in the midwest . i love to go fishing .
+User(9): which state
+Bot(9): i am a student , but i am a student .
+User(10): I also love fishing
+Bot(10): i love to travel . i love to travel .
+
+Persona:
+i've short hair.
+i have been working since i was sixteen years old.
+i live in the cloud.
+i wear a motorbike helmet to protect my head.
+i like to listen to rock music while working.
+
+Topic and Human Opinion:
+Beginning: College(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.71
+Robotic(↓): 6
+Interesting: 1
+Fun: 0
+Consistent: 0
+Fluent: 1
+Repetitive(↓): 100
+Topic: 98
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hai
+Bot(1): i am sorry to hear that
+User(2): what for
+Bot(2): i am a student at my job
+User(3): what are you studying
+Bot(3): studying for a test for my masters degree
+User(4): great
+Bot(4): i study law and hope to study
+User(5): good
+Bot(5): i am studying to be a teacher
+User(6): ok then
+Bot(6): what do you do for a living
+User(7): I work in a company
+Bot(7): that is cool what company do you work
+User(8): manufacturing.Do you love nature?
+Bot(8): yes i love nature and nature
+User(9): nice
+Bot(9): yes i love nature and nature
+User(10): I love to travel
+Bot(10): i love nature and nature
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.29
+Robotic(↓): 9
+Interesting: 55
+Fun: 41
+Consistent: 33
+Fluent: 56
+Repetitive(↓): 54
+Topic: 23
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hai
+Bot(1): hey
+User(2): Do you know about politics?
+Bot(2): i absolutely do not i am sick of politics . i am well informed though
+User(3): ok
+Bot(3): what are your thoughts on politics ?
+User(4): I love to hear the present new about politics
+Bot(4): what are your thoughts on politics ?
+User(5): same
+Bot(5): what are your thoughts on politics ?
+User(6): which party do you support
+Bot(6): i jump for democracy and the democrat party
+User(7): Yeah me too support democrat party
+Bot(7): i jump for democracy and the democrat party
+User(8): ok
+Bot(8): i jump for democracy and the democrat party
+User(9): then
+Bot(9): awesome
+User(10): good
+Bot(10): awesome
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.71
+Robotic(↓): 55
+Interesting: 71
+Fun: 58
+Consistent: 62
+Fluent: 60
+Repetitive(↓): 86
+Topic: 80
+
+####################
+

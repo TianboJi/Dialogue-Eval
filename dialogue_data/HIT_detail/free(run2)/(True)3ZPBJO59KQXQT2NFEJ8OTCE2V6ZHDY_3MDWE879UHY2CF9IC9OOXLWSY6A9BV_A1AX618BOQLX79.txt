@@ -1,0 +1,298 @@
+Feedback: The survey was great. 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): Really! I love cooking too.
+Bot(2): i like to eat the skin .
+User(3): You like to eat the skin? I don't understand.
+Bot(3): i like to eat fish .
+User(4): Oh. I see what you meant. Fishes are nice. They contain a lot of protein.
+Bot(4): i like to eat too much junk food .
+User(5): I don't think Junk foods are very healthy. Try eating something more nutritious.
+Bot(5): i like to eat fish .
+User(6): You've told me that before. Although what do you eat with the fish. Maybe some soup?
+Bot(6): i like to eat fish .
+User(7): Okay. You like eating fish and what?
+Bot(7): i like to eat fish .
+User(8): I love eating fish too.
+Bot(8): i like to eat fish .
+User(9): Okay, what type of fish do you eat. Maybe some catfish?
+Bot(9): i like to eat fish .
+User(10): That's really nice. I encourage you to eat some more fish.
+Bot(10): i like to eat fish .
+
+Persona:
+i work took i have a part time job at burger king.
+i live with my husband in pennsylvania.
+i'm planning on getting a divorce.
+i've two grown children who never visit.
+i work in the insurance business.
+
+Topic and Human Opinion:
+Beginning: I want to order a pair of sneakers.(like)
+Round 1: Cooking(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hey
+Bot(1): I am not working right now. I am about at your you have have a boyfriend?
+User(2): Yes, I do have a boyfriend.
+Bot(2): I like to dance, your i dont. dance
+User(3): I don't dance
+Bot(3): Alright have a it toby go to the movies and dance in the fall
+User(4): I don't understand what you said.
+Bot(4): wars the like you :)
+User(5): I'm really confused. Please can you be more lucid.
+Bot(5): What wanna you favorite drink?
+User(6): My favorite drink is champagne
+Bot(6): It old is your im is: love listening to britney spears
+User(7): I love britney spears too
+Bot(7): Wow, that your very I of fun.🙂
+User(8): I didn't get you. Please can you be more clearer with your sentence.
+Bot(8): by to meet 👪
+User(9): *clearer*. You would like to meet my family?
+Bot(9): i have heard of it is a college a pagan .
+User(10): I can't understand a word from your previous sentence.
+Bot(10): I go to casino, i you have a hope of it.
+
+Persona:
+i am a stay at home dad.
+i've brown curly hair.
+i haven't spoken in three months.
+i think i'll retire in a few years.
+my cats are very special to me.
+
+Topic and Human Opinion:
+Beginning: Going on a vacation(like)
+Round 1: relationship(like)
+Round 2: dance(dislike)
+Round 5: Favorite drink(dislike)
+Round 6: Music(dislike)
+Round 8: family(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 60
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): I'm good. How about you?
+Bot(2): i am alright , i love my ohio farm
+User(3): Really? What do you produce on your farm.
+Bot(3): i will hide ms . piggy , henry the horse and harriet , betty and anna . . . my hens
+User(4): Oh I see. That's really awesome. You must make a lot of money from it, don't you?
+Bot(4): i used to be middle class and now am terrifically rich . no comparison .
+User(5): Wow! That's really awesome. I think I should go into this farming business too. What do you think?
+Bot(5): what do you think about the impact of farming on the environment ?
+User(6): I think it's great. It helps in reforestation and helps improve our climate systems.
+Bot(6): do you know what hot sweaty farts smell like out here ? they smell good .
+User(7): Are you serious?
+Bot(7): dead serious ! i gotta go now i have to clean up so i avoid a backhand .
+User(8): Okay, but before you go, do you mind telling me what type of farming you practice?
+Bot(8): it is a nice day , though i am rock climbing ! are you a farmer ?
+User(9): No, I am not. I am a graphic designer
+Bot(9): ugh ? that sounds interesting . i work part time at a pizza hut . . . ugh . ll
+User(10): Well, a pizza hut sounds like a fun side job to me.
+Bot(10): ha pizza is my favorite food also .
+User(11): That's great. i gotta go. catch up with you later.
+Bot(11): oh wow ! i went fishing only once maybe 2 months ago and caught a baby flounder
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: relationship(like)
+Round 2: farm(ambivalent)
+Round 5: Effect of farming on the environment.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 59.14
+Robotic(↓): 11
+Interesting: 58
+Fun: 61
+Consistent: 21
+Fluent: 72
+Repetitive(↓): 0
+Topic: 13
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): yes, I do. I like playing chess.
+Bot(2): i play chess and play chess
+User(3): Wow! That's really great. How good are you in playing chess?
+Bot(3): i am not . i play chess .
+User(4): I know you play chess. i am asking how skilled are you in playing the game.
+Bot(4): i play the guitar . i play the guitar .
+User(5): That's nice. I have interest in playing the guitar.
+Bot(5): that is cool . i play the guitar .
+User(6): Can you teach me?
+Bot(6): i do not . i play the guitar .
+User(7): What other hobbies do you have?
+Bot(7): i play the guitar . i play the guitar .
+User(8): Is playing the guitar and playing chess the only hobbies you have?
+Bot(8): i play the guitar . i play the guitar .
+User(9): Well, I think it's really great you play the guitar.
+Bot(9): i play the guitar . i play the guitar .
+User(10): How about the piano?
+Bot(10): i play the guitar . i play the guitar .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: health(like)
+Round 1: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): How are you?
+Bot(2): same
+User(3): Do you like playing video games?
+Bot(3): yes
+User(4): That's awesome. Which game is your favorite?
+Bot(4): left 4 dead . are you into sports ?
+User(5): Yeah, I watch football and play table tennis.
+Bot(5): tennis is fun , i like volleyball too .
+User(6): Volleyball? I don't really know much about that sport. How about swimming? Do you like swimming?
+Bot(6): yes , i like swimming . what is you favorite hobby ?
+User(7): I like singing. Sometimes I rap.
+Bot(7): i can not sing at all . i wish i could . i am good at tennis though .
+User(8): Really. I'll love to see how good you are at table tennis. Maybe could play sometime.
+Bot(8): that would be great . how long have you been playing ?
+User(9): A couple of years now. How about you?
+Bot(9): a year . i play video games in my spare time . my character is pretty good .
+User(10): That's really nice. I have to go. Maybe we could catch up sometime?
+Bot(10): that would work . are you watching football tomorrow ?
+User(11): Yeah
+Bot(11): maybe we can play volleyball sometime .
+User(12): Okay. Goodbye
+Bot(12): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Games(like)
+Round 4: sports(like)
+Round 6: hobby(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 100.00
+Robotic(↓): 0
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): do you have any hobbies ?
+User(2): yes. playing ball
+Bot(2): i play the ball ball z on the ball
+User(3): okay. what else do you do?
+Bot(3): i play ball in the pool .
+User(4): That's cool. I play pool ball too
+Bot(4): that is cool . i play pool .
+User(5): Maybe we could play sometime
+Bot(5): that sounds fun . i play pool .
+User(6): where do you live so I'll know where to meet you?
+Bot(6): i live in the midwest .
+User(7): Okay. so what time would you be free tomorrow?
+Bot(7): i want to go to the pool
+User(8): when?
+Bot(8): i am going to be a pro pool player
+User(9): I know. Maybe we can see tomorrow by 1:00 PM. We can play pool ball together
+Bot(9): that would be great . i hope you are well .
+User(10): I feel great. Talk to you later
+Bot(10): i hope so . i just got back from the pool .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: business(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.43
+Robotic(↓): 71
+Interesting: 78
+Fun: 64
+Consistent: 31
+Fluent: 36
+Repetitive(↓): 30
+Topic: 38
+
+####################
+

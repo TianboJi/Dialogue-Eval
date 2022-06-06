@@ -1,0 +1,307 @@
+Feedback: nice
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): HI
+Bot(1): hello ! want to chat with a farmer ?
+User(2): OK
+Bot(2): ok
+User(3): YOU LIKE FARMER
+Bot(3): kool
+User(4): ok
+Bot(4): kool
+User(5): YOU SEE FARMER
+Bot(5): kool
+User(6): OK BYE
+Bot(6): ok bye
+User(7): HELLO
+Bot(7): ok bye
+User(8): SORRY BYE
+Bot(8): ok bye
+User(9): WHAT HAPPEN
+Bot(9): what ?
+User(10): WHAT LIKE FOOD
+Bot(10): u were talking about veggies
+User(11): OK
+Bot(11): kool
+User(12): KOOL
+Bot(12): kool
+
+Persona:
+i enjoy coloring books.
+my father is a farmer.
+i will graduate from high school in two years.
+i have five sons.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: FOOD(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.71
+Robotic(↓): 77
+Interesting: 81
+Fun: 86
+Consistent: 86
+Fluent: 91
+Repetitive(↓): 82
+Topic: 89
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi you like dance
+Bot(1): i'm you a ?
+User(2): mm
+Bot(2): new home ? i have to buy lots is there a nike are my favorite
+User(3): supper
+Bot(3): I is your favorite good person.
+User(4): mmok
+Bot(4): do you have any is a pity. charlie.
+User(5): no
+Bot(5): I like to i've had strange powers. and go to the gym.
+User(6): good
+Bot(6): I to talk with you just bought a new car.
+User(7): yes
+Bot(7): Pretty good. Just got favorite you're a am run.
+User(8): yes
+Bot(8): Do want to sports?
+User(9): i like you
+Bot(9): It seems that is about sure 40
+User(10): ok
+Bot(10): What is i’m plans?
+User(11): you tell
+Bot(11): I think they run Nothing love with you?
+User(12): really
+Bot(12): I know, I know. I'm i need to go your hobbies?
+User(13): super good
+Bot(13): i'm an editor at a big newpaper . i want spiderman !. Also, i am a bit of food ...
+User(14): oh
+Bot(14): I am a life classic rock , love to play with my dogs.
+User(15): same
+Bot(15): i work at an married. Do you have it.
+User(16): i am single
+Bot(16): my single mom used to make us cookies kind of types of 🤓
+User(17): super
+Bot(17): Yes, that 's right. What do you do for have 😄
+User(18): i know
+Bot(18): oh are you cook farmer
+User(19): yes
+Bot(19): I you have a a woman.
+User(20): ok bye
+Bot(20): i live new you a you are your hobbies?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: DANCE(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.71
+Robotic(↓): 85
+Interesting: 91
+Fun: 83
+Consistent: 94
+Fluent: 82
+Repetitive(↓): 85
+Topic: 80
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi how are you
+Bot(1): i am good . how are you ?
+User(2): fine
+Bot(2): i am good . how are you ?
+User(3): you like cartoon
+Bot(3): i am good . i am a little bit of a reader .
+User(4): ok
+Bot(4): i am good . i am a little bit of a reader .
+User(5): ok bye
+Bot(5): i am good . i am a little tired from my kids .
+User(6): ok supper
+Bot(6): i am good . i am a little tired from my kids
+User(7): sorry bye
+Bot(7): i am good . i am a little tired from my kids
+User(8): what is problems
+Bot(8): i am a little nervous but i am in the city
+User(9): ok
+Bot(9): i am a little nervous but i am in the city
+User(10): what
+Bot(10): i am a little nervous but i am in the city
+User(11): bye
+Bot(11): i am a little tired from my kids
+
+Persona:
+i now live in the city.
+i have amazing children and grandchildren.
+a already have a children.
+i enjoy poetry.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: cartoon(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.00
+Robotic(↓): 69
+Interesting: 80
+Fun: 89
+Consistent: 85
+Fluent: 87
+Repetitive(↓): 81
+Topic: 92
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi how are you
+Bot(1): i'm doing well . how are you ?
+User(2): fine
+Bot(2): i am a student , but i am a student .
+User(3): ok super
+Bot(3): i am a student , but i am a student .
+User(4): ok fine
+Bot(4): i like to go to the gym and listen to music .
+User(5): super
+Bot(5): i am a student , but i am a student .
+User(6): iam a student
+Bot(6): i am a student , but i am a student .
+User(7): ok play any games
+Bot(7): i do not , but i do like to play soccer .
+User(8): mm super
+Bot(8): i am a student , but i am a student .
+User(9): ok bye
+Bot(9): i love to cook . i love to cook .
+User(10): mm same i like
+Bot(10): i like to go to the gym and listen to music .
+User(11): sorry bye
+Bot(11): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: friend(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.86
+Robotic(↓): 84
+Interesting: 89
+Fun: 73
+Consistent: 82
+Fluent: 78
+Repetitive(↓): 82
+Topic: 84
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): how are you
+Bot(1): i am good . just devoured a pizza . you ?
+User(2): no
+Bot(2): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(3): super i like maths
+Bot(3): well , work tomorrow , gotta get early to the base . packed brownies for lunch
+User(4): ok you like rain
+Bot(4): is it raining there ? it is quite sunny here
+User(5): ok
+Bot(5): i find attractive all women from canada
+User(6): mm
+Bot(6): well , i am model airplanes , dragons junkie
+User(7): super
+Bot(7): well , work tomorrow , gotta get early to the base . packed brownies for lunch
+User(8): ok
+Bot(8): i find attractive all women from canada
+User(9): ok bye stady well
+Bot(9): lovely talking to you !
+User(10): thanks
+Bot(10): at a news station . i have been featured in the news six times because of this .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: rain(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.71
+Robotic(↓): 83
+Interesting: 90
+Fun: 81
+Consistent: 90
+Fluent: 88
+Repetitive(↓): 82
+Topic: 90
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what
+Bot(2): ok
+User(3): what ok
+Bot(3): ok
+User(4): ok how are you
+Bot(4): ok
+User(5): what is problem
+Bot(5): what you need
+User(6): no
+Bot(6): ok
+User(7): you
+Bot(7): ok
+User(8): ok bye
+Bot(8): ok
+User(9): hello
+Bot(9): ok
+User(10): what is that
+Bot(10): what ?
+User(11): you taking ok ok ok
+Bot(11): ok
+User(12): please ok will stop
+Bot(12): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: charbot(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.86
+Robotic(↓): 81
+Interesting: 81
+Fun: 77
+Consistent: 77
+Fluent: 73
+Repetitive(↓): 71
+Topic: 84
+
+####################
+

@@ -1,0 +1,297 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello!
+Bot(1): hello , how are you ? i just got home from the gym . really wiped , big workout !
+User(2): I'm good! I hope you enjoyed your time at the gym.
+Bot(2): i do not go to the gym , i do a lot of running though .
+User(3): Do you like movies?
+Bot(3): what kind of movies do you like to watch ?
+User(4): I like sci-fi, horror, and fantasy movies a lot
+Bot(4): horror movies are my favorite
+User(5): What's your favorite horror movie?
+Bot(5): i own a creepy mansion that reminds me of a horror movie
+User(6): Which horror movie does it remind you of?
+Bot(6): oh , okay . been a little while since i seen a horror movie .
+User(7): What's the last horror movie you watched?
+Bot(7): i own a creepy mansion that reminds me of a horror movie
+User(8): You said that already.
+Bot(8): i know someone and she grow plants , she does it in her garden
+User(9): I love gardening!
+Bot(9): i love animals felix my cat and my dog emmy
+User(10): My favorite animal is cats. What's yours?
+Bot(10): not really i just started collecting ugly cats i see in antique stores .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 8: Someone growing plants(ambivalent)
+Round 9: Animals(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 29.14
+Robotic(↓): 100
+Interesting: 43
+Fun: 62
+Consistent: 9
+Fluent: 73
+Repetitive(↓): 83
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello! Would you like to talk about books?
+Bot(1): I'm studying to be a a India nd I you speak?
+User(2): Are you from India?
+Bot(2): They would you want blue.
+User(3): Who would want me to have blue?
+Bot(3): cool! I really like live Do you have family all over?
+User(4): Yes! My family lives all over the country
+Bot(4): where do to go to you in college?
+User(5): I go to a state university
+Bot(5): I am expecting twins Midwest. You?
+User(6): I am not
+Bot(6): great trabajo means to work and is favortite music is live with speak spanish or french
+User(7): I'm learning to speak Japanese
+Bot(7): I i at
+User(8): What does that mean?
+Bot(8): I Do you like What about you?
+User(9): I like you too!
+Bot(9): I like live in movies
+User(10): What kind of movies?
+Bot(10): I work in a daycare will graduate from high you have?
+
+Persona:
+i love to drink fancy tea.
+i donate a part of my salary to charity each month.
+i'm rather skinny as i like to stay in shape.
+i'm partly deaf.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: Books(like)
+Round 1: India(ambivalent)
+Round 2: Blue(ambivalent)
+Round 3: Family(like)
+Round 4: College(like)
+Round 5: Children(dislike)
+Round 6: Languages(like)
+Round 8: Whether we like each other(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.71
+Robotic(↓): 100
+Interesting: 3
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi! Do you like movies?
+Bot(1): that is awesome ! yes i love movies . what kind do you prefer ?
+User(2): I love sci-fi, horror, and fantasy movies
+Bot(2): do you like sci fi ?
+User(3): I do! Do you like sci fi?
+Bot(3): yes , i love horror movies
+User(4): I like horror too, but do you like sci-fi?
+Bot(4): i like all kinds , except horror . what do you like ?
+User(5): Like I said above, I like sci-fi, horror, and fantasy movies
+Bot(5): i also like those types of movies
+User(6): What kind of music do you listen to?
+Bot(6): i like all kinds , except horror . what do you like ?
+User(7): What is horror music?
+Bot(7): i like all kinds , except horror . what do you like ?
+User(8): I like electronic music
+Bot(8): do you like electronic music ?
+User(9): I do! Do you?
+Bot(9): yeah , i like using techno the best and some rock
+User(10): I agree. Techno is super cool
+Bot(10): i know , its perfect !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 5: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 57.14
+Robotic(↓): 60
+Interesting: 59
+Fun: 45
+Consistent: 83
+Fluent: 100
+Repetitive(↓): 100
+Topic: 73
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi! Do you listen to music?
+Bot(1): i do ! i listen to music while listening to music
+User(2): Wow! Double music?
+Bot(2): i do ! i listen to music while i listen to music
+User(3): What kind of music do you listen to?
+Bot(3): i listen to music while i listen to music
+User(4): Do you like electronic music?
+Bot(4): i listen to music while i listen to music
+User(5): Do you keep up with politics?
+Bot(5): i do ! i listen to music while i listen to music .
+User(6): What else do you do?
+Bot(6): i like to listen to music while i listen to music
+User(7): What kind of music?
+Bot(7): i listen to music while i listen to music
+User(8): What's your favorite genre?
+Bot(8): i like all kinds of music .
+User(9): Do you have a favorite musician?
+Bot(9): i like all kinds of music .
+User(10): Do you dislike any kinds of music?
+Bot(10): i like all kinds of music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 4: politics(like)
+Round 5: Music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.29
+Robotic(↓): 100
+Interesting: 1
+Fun: 1
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 17
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi! Do you like music?
+Bot(1): yes , i love music ! what about you ? any favorites ?
+User(2): Yeah! I really like electronic music
+Bot(2): do you like electronic music ?
+User(3): I do! Especially dubstep. What about you?
+Bot(3): i am more into techno . house , trance , d b , stuff like that
+User(4): Those are super cool too. I love house music!
+Bot(4): i am more into techno . house , trance , d b , stuff like that
+User(5): Do you listen to any rock or metal music?
+Bot(5): not really . lol i am more of a rock and roll fan
+User(6): What decade do you think had the best music? I think the 80's and 2000's had a lot of good stuff
+Bot(6): i love that decade it had great music
+User(7): Is there any kind of music you don't like?
+Bot(7): i am more into techno . house , trance , d b , stuff like that
+User(8): What about books? Do you read a lot?
+Bot(8): not really , i do not read much books at all . do you
+User(9): I do! I like fantasy books a lot
+Bot(9): that is cool too ! i like fantasy fiction
+User(10): What about horror?
+Bot(10): i love foreign horror ! much scarier .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 7: Books(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 84.71
+Robotic(↓): 30
+Interesting: 76
+Fun: 89
+Consistent: 100
+Fluent: 93
+Repetitive(↓): 35
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi! Do you read a lot?
+Bot(1): no , i do not . i like to read .
+User(2): What kind of books do you read?
+Bot(2): i love the outdoors , but i like to read .
+User(3): What kind of books? I like fantasy
+Bot(3): i like to read and write poetry .
+User(4): Do you have a favorite poet?
+Bot(4): i like the color red . i like the color blue .
+User(5): I like the colors green, blue, and pink!
+Bot(5): i like blue , i like red , reminds me of summer time .
+User(6): Is it because it's hot?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): Ooh, what's your favorite composer? I love Beethoven!
+Bot(7): i like the color red . i like the color blue .
+User(8): What's your favorite color?
+Bot(8): i like blue , my favorite color is blue .
+User(9): Cool! That's my favorite color too!
+Bot(9): i like the color red . i like red .
+User(10): Me too. It reminds me of cherry popsicles
+Bot(10): oh , i love the color red . what do you do for a living ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Books(like)
+Round 4: colors(ambivalent)
+Round 6: Music(like)
+Round 7: Colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 34.57
+Robotic(↓): 100
+Interesting: 26
+Fun: 56
+Consistent: 100
+Fluent: 60
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

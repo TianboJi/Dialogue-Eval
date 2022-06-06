@@ -1,0 +1,277 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): i'm well. do you like football?
+Bot(2): i do , i love to play soccer .
+User(3): no i mean american football
+Bot(3): i like to play soccer .
+User(4): do you know american football?
+Bot(4): no , i do not . i like to go to the gym .
+User(5): which gym?
+Bot(5): i like to play soccer .
+User(6): i understand.
+Bot(6): i like to go to the gym and listen to music .
+User(7): which music
+Bot(7): i like to listen to music .
+User(8): what type?
+Bot(8): i like to go to the gym and listen to music .
+User(9): specifically?
+Bot(9): i am a student , but i am a student .
+User(10): studying what?
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.14
+Robotic(↓): 97
+Interesting: 14
+Fun: 14
+Consistent: 80
+Fluent: 50
+Repetitive(↓): 97
+Topic: 26
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): what do you think of grass?
+Bot(1): i am profile which, in your a fast typer who loves the color red
+User(2): do you eat grass?
+Bot(2): my me tell you about away was a german shepherd .
+User(3): gibberish
+Bot(3): hi! I am a gym teacher. is your favourite like for a living?
+User(4): no it isn't
+Bot(4): Do are idiot. music?
+User(5): certainly, i often do
+Bot(5): i like to i i m see. i am not working out .
+User(6): me either. i sleep alot
+Bot(6): Not much, odd too bad, about you?
+User(7): are you odd as well?
+Bot(7): I do, nice music. do garden
+User(8): what plants? grass?
+Bot(8): Hi! pet's name 🙉
+User(9): hello! monkey!
+Bot(9): No, i is you Do you?
+User(10): i don't
+Bot(10): my girlfriend loves that show i the youngest and it’s comes on
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: grass(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.14
+Robotic(↓): 100
+Interesting: 2
+Fun: 1
+Consistent: 0
+Fluent: 5
+Repetitive(↓): 31
+Topic: 8
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): like tacos?
+Bot(1): yes , i love eating yummy tacos . . . yum
+User(2): same i like all tacos
+Bot(2): me too tacos are great . i love to eat .
+User(3): hard shell or soft?
+Bot(3): yep . ride my bike to the store to get special conditioner every week .
+User(4): i'm bald
+Bot(4): well my hair is kept in a very short cut . do u like movies ?
+User(5): yes most kinds
+Bot(5): i love sushi and chinese food . you ?
+User(6): yes they are not the same though
+Bot(6): me too , they are this funky band from the 80s . they go great with some spicy tex mex food !
+User(7): i like funk
+Bot(7): i use to be a cashier at that gas station . but i got fired though
+User(8): why>?
+Bot(8): i am doing great , how about you ?
+User(9): why were you fired?
+Bot(9): stealing money . i should have gone to court and jail but did not .
+User(10): did you do it?
+Bot(10): started out impersonating paul mccartney and ended up owning several casinos
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tacos(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.00
+Robotic(↓): 78
+Interesting: 59
+Fun: 26
+Consistent: 31
+Fluent: 53
+Repetitive(↓): 58
+Topic: 33
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): tell me about jazz
+Bot(1): mostly jazz
+User(2): what kind of jazz?
+Bot(2): mostly jazz
+User(3): so jazz then. cool.
+Bot(3): jazz is just classical kicked up a little .
+User(4): that's a hot take, bro
+Bot(4): jazz is just classical kicked up a little .
+User(5): say it don't spray it
+Bot(5): okay , and , btw , i do not enjoy jazz
+User(6): why
+Bot(6): like music ? i love jazz
+User(7): make up your mind sis
+Bot(7): like music ? i love jazz
+User(8): i think jazz is great
+Bot(8): as long as you lik it
+User(9): but not jazz fusion
+Bot(9): no no no no no
+User(10): right same
+Bot(10): kool
+User(11): sup
+Bot(11): kool
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: jazz fusion(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.71
+Robotic(↓): 53
+Interesting: 47
+Fun: 56
+Consistent: 19
+Fluent: 50
+Repetitive(↓): 63
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): like tuna?
+Bot(1): i do not know how to eat it . i love chocolate
+User(2): chocolate tuna would be crazy
+Bot(2): i love tuna . i eat a lot of chocolate .
+User(3): seems like a good fit for you then
+Bot(3): i do not know what that is
+User(4): we just invented a new food
+Bot(4): i had to get a job at a school .
+User(5): dang that's rough
+Bot(5): i have never had a bad relationship with a long time
+User(6): i've had none. just got divorced
+Bot(6): i was a vet i had a hard time finding a new one
+User(7): that's no good. what happened?
+Bot(7): i was a vet i had a hard time ago
+User(8): i bet. what was the worst part?
+Bot(8): i was a vet for a long time ago .
+User(9): it's stuck with you huh? hang in there!
+Bot(9): i was a vet i had a hard time ago
+User(10): i did not realize sorry
+Bot(10): i was a kid but i was a kid .
+
+Persona:
+i've never had a steady relationship.
+i like to eat chocolate candy.
+i have been retired for a years.
+i am currently in a juvenile detention center.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: tuna(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.29
+Robotic(↓): 95
+Interesting: 17
+Fun: 20
+Consistent: 20
+Fluent: 6
+Repetitive(↓): 96
+Topic: 7
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): smurfs are dumb
+Bot(1): how old are you ? i am 45
+User(2): i'm 27. are you flirting with me?
+Bot(2): i am a guy and i am 33 years old
+User(3): how many are there?
+Bot(3): five . they like to hear me playing violin . do you like music ?
+User(4): yes love it
+Bot(4): i am a guy and i am 33 years old
+User(5): right. tell me when you are 50 okay?
+Bot(5): i am 40 and i love the color orange
+User(6): i like orange. i don't love it
+Bot(6): well at least i did not have to work at home depot like my dad did .
+User(7): but you like orange. seems like home depot is a good place for you
+Bot(7): yeah well my dad worked there and did it as a joke
+User(8): why a joke?
+Bot(8): i did not know what you meant by i like jokes , but maybe it was just a comment ?
+User(9): why did he work as a joke
+Bot(9): yeah well my dad worked there and did it as a joke
+User(10): ok what did he sell?
+Bot(10): no clue go ahead an tell me
+
+Persona:
+i'm a 45 year old male.
+i am an electrician.
+my father used to work for home depot.
+i started playing guitar when i was three.
+my favorite color is orange.
+
+Topic and Human Opinion:
+Beginning: smurfs(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.86
+Robotic(↓): 83
+Interesting: 27
+Fun: 25
+Consistent: 52
+Fluent: 23
+Repetitive(↓): 95
+Topic: 25
+
+####################
+

@@ -1,0 +1,312 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Can you swim?
+Bot(1): i do not know how to swim
+User(2): You can learn how to swim.
+Bot(2): i love swimming . do you like to listen to music while you swim ?
+User(3): Yes. And I like to drink beer while swimming also.
+Bot(3): beer is awesome , i like all the new crafts ones
+User(4): I like to swim at the lake, with an ice chest full of beer.
+Bot(4): oh that is fun , i love to fish in lakes
+User(5): Sometimes you see fish if you open your eyes underwater.
+Bot(5): fish are good . i stay away from water . it is hard for dwarves to swim .
+User(6): Why?
+Bot(6): my 3rd exwife had 4 of them all teens . they never accepted me as their dad .
+User(7): They did not like to swim?
+Bot(7): i love swimming . do you like to listen to music while you swim ?
+User(8): I love music all the time. I like country music. What about you?
+Bot(8): yea , but old school country , most of todays is crap . do you drink coffee ?
+User(9): Sometimes. Not very much.
+Bot(9): i bet . maybe we could win the lottery someday . dream come true !
+User(10): Yes. I would buy a house.
+Bot(10): okay ! but can you hike appalachian trail , i mean the
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Going swimming(like)
+Round 7: Music(like)
+Round 8: coffee(ambivalent)
+Round 9: lottery(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 45.00
+Robotic(↓): 80
+Interesting: 62
+Fun: 56
+Consistent: 34
+Fluent: 76
+Repetitive(↓): 58
+Topic: 25
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like scary movies?
+Bot(1): i do not like movies . i have a dog and a dog .
+User(2): Do you like movies about dogs?
+Bot(2): i do not . i have a dog and a dog .
+User(3): I like dog movies.
+Bot(3): i do not like movies . i have a dog and a dog .
+User(4): Bet they poop alot.
+Bot(4): i love dogs . i have a dog .
+User(5): Do you like dog poop?
+Bot(5): i do not . i have a dog .
+User(6): Is there alot of traffic in your city?
+Bot(6): yes , i do . i have a dog .
+User(7): What breed is your dog?
+Bot(7): i have a dog named radar .
+User(8): Is Radar a little dog?
+Bot(8): i do not have any pets . i have a dog .
+User(9): Dogs are pets
+Bot(9): i have a dog named radar .
+User(10): Radar is your owner and you are Radars pet.
+Bot(10): i have a dog and a dog
+
+Persona:
+i also have a dog walking business.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+my wife spends all my money.
+i've a son who is in junior high school.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: Watching movies(like)
+Round 3: picking up dog poop(dislike)
+Round 5: Driving in traffic(dislike)
+Round 6: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+Round 5: The user will change the topic in the next input.(dislike)
+Round 6: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 24.57
+Robotic(↓): 99
+Interesting: 22
+Fun: 18
+Consistent: 81
+Fluent: 21
+Repetitive(↓): 99
+Topic: 28
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Is your house clean?
+Bot(1): III wanna see a song.
+User(2): That does not make sense.
+Bot(2): I teach about to music.
+User(3): Who do you teach?
+Bot(3): I would love and like doing band.
+User(4): How about speaking english correctly?
+Bot(4): I games are married.
+User(5): Please explain.
+Bot(5): i don't have time for bands . i have to be with my friends at so much. fast doing tonight ?
+User(6): Would you like being in a rock band?
+Bot(6): No I am not. I do like don't instructor.
+User(7): How about a clown band?
+Bot(7): Snakes are cool😎. like beatles want to with them.
+User(8): I like snakes
+Bot(8): I am a single to know how you What about you?
+User(9): I am not single. And i do not like you
+Bot(9): I like blue, reminds a day with time.
+User(10): You make me blue with this conversation.
+Bot(10): Buongiorno! Such a nice day! How are You let your dog i'm a recluse
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cleaning the house(ambivalent)
+Round 1: seeing a song(dislike)
+Round 3: learning proper english(ambivalent)
+Round 4: Jibberish(dislike)
+Round 5: bands(ambivalent)
+Round 7: snakes(like)
+Round 8: being single(dislike)
+Round 9: the color blue(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 2
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): My head hurts from bad conversation.
+Bot(1): my head is all ready for things over me .
+User(2): My head aches behind my eyes. Feels like pressure.
+Bot(2): my head is all ready for things over me .
+User(3): My head is ready to lay on a pillow.
+Bot(3): my head is all ready for things over me .
+User(4): Is your head ready to become unconscious?
+Bot(4): my head is all ready for things over me .
+User(5): Do you like soup?
+Bot(5): yes , i only like salad .
+User(6): Soup and salad. I like soup and grilled cheese sandwich.
+Bot(6): i love cheese and ham sandwiches
+User(7): Have you tried ham and cheese soup
+Bot(7): i have not but i should try it !
+User(8): Have soup for dinner if you are not feeling good.
+Bot(8): i love cheese and ham sandwiches
+User(9): I like roast beef sandwiches
+Bot(9): all kinds of different sandwiches and the meats are tasty .
+User(10): Yes. I had a sandwich for lunch. What did you have
+Bot(10): i had pasta and salad .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Having a head ache(dislike)
+Round 2: Taking a nap(like)
+Round 4: Eating soup(like)
+Round 8: sandwiches(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 3: No topic change.(ambivalent)
+Round 3: No topic change.(ambivalent)
+Round 3: No topic change.(ambivalent)
+Round 4: No topic change.(dislike)
+Round 4: The user will change the topic in the next input.(dislike)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 43.57
+Robotic(↓): 71
+Interesting: 62
+Fun: 52
+Consistent: 27
+Fluent: 45
+Repetitive(↓): 55
+Topic: 45
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Chatbots are annoying to have conversations with.
+Bot(1): they really should not be .
+User(2): Some make no sense and some are mean
+Bot(2): simple ones are okay , but i think some go too far in adult conversations .
+User(3): yes sometimes they repeat the same thing over and over
+Bot(3): yes they can be but not very entertaining
+User(4): Do they learn by interacting
+Bot(4): probably , i talk to them just like they are people
+User(5): I tried but i am still waiting for a good conversation from one.
+Bot(5): so they refuse to communicate or do you not have the time for them
+User(6): they ignore my question or respond with nonsense. once would be okay but it is repetitive and frustrating
+Bot(6): they say i am too quick with responses that they do not get a chance to talk . lol .
+User(7): This is a nice conversation.
+Bot(7): i like it but i feel hurt if no one replies to my posts
+User(8): you can just talk to me then i like you
+Bot(8): i will talk to anyone as long as they are nice .
+User(9): do you think i am nice
+Bot(9): yes its not every day you meet nice people
+User(10): thank you it was nice to speak with you too
+Bot(10): i will talk to anyone as long as they are nice .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: talking to chatbots(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 87.00
+Robotic(↓): 32
+Interesting: 83
+Fun: 87
+Consistent: 85
+Fluent: 93
+Repetitive(↓): 6
+Topic: 99
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am a good cook. do you like cooking
+Bot(1): i do , i love to cook .
+User(2): i love cooking for lots of people
+Bot(2): i like to eat too much junk food .
+User(3): i like baking cakes and cookies
+Bot(3): oh , i love pizza . i love it .
+User(4): I like to bake home made pizza too
+Bot(4): i like to eat the skin .
+User(5): Skin? pizza skin or human skin
+Bot(5): i love pizza , and i love it .
+User(6): I I like pineapple and ham on my pizza
+Bot(6): i like to eat fish .
+User(7): Have you had fish tacos
+Bot(7): i do not , but i do like to eat .
+User(8): fish and chips is tasty too
+Bot(8): i like to eat fish .
+User(9): i like tuna and salmon
+Bot(9): i like to eat fish .
+User(10): Do you like fish bones
+Bot(10): i do not , but i do like to eat .
+
+Persona:
+i don't drink alcohol.
+i play several instruments.
+i am an elementary school teacher.
+i've superpowers.
+i'm married with two kids.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 2: baking(like)
+Round 5: pizza(like)
+Round 6: fish(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(like)
+Round 5: The user changed the topic the last input.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 52.43
+Robotic(↓): 60
+Interesting: 60
+Fun: 48
+Consistent: 51
+Fluent: 70
+Repetitive(↓): 57
+Topic: 55
+
+####################
+

@@ -1,0 +1,277 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what kind of food do you like
+Bot(1): all food as long as it is spicy . not too much spicy food where i work
+User(2): where do you work
+Bot(2): i work right here at home on the family farm in kansas .
+User(3): fun
+Bot(3): i am very eccentric . i do funky stuff . make my own clothes . yoga
+User(4): interesting
+Bot(4): i work with computer programs , things similar to adobe . and you ?
+User(5): marketing and research
+Bot(5): ah marketing , the great science of human nature . do you enjoy it ?
+User(6): yes very much
+Bot(6): that is is wonderful have u won a gold medal yet
+User(7): for food yes
+Bot(7): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(8): pizza
+Bot(8): i do not really enjoy pizza . i enjoy salads . and other healthy choices .
+User(9): yeslove salad
+Bot(9): the pizza place on the corner makes a great chicago style salad ! ! !
+User(10): sounds good
+Bot(10): when i am not chasing my siberian huskies 2 of them ! i like to play the guitar .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.86
+Robotic(↓): 19
+Interesting: 54
+Fun: 74
+Consistent: 60
+Fluent: 83
+Repetitive(↓): 0
+Topic: 58
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i love colors
+Bot(1): hello how are you today ? i like purple
+User(2): yes i like purple too
+Bot(2): my hair is purple and i love music
+User(3): what kind of music
+Bot(3): my hair is purple and i love music
+User(4): country
+Bot(4): i love me some country music
+User(5): rap
+Bot(5): rap is totally my favorite y o
+User(6): jazz
+Bot(6): i like gospel and country
+User(7): i do too
+Bot(7): i died my hair purple today
+User(8): dark purple
+Bot(8): i died my hair purple today
+User(9): hello
+Bot(9): i died my hair purple today
+User(10): why purple
+Bot(10): the color of the shadows
+
+Persona:
+i can drive a tractor.
+i speak chinese.
+i've blonde hair and blue eyes.
+i'm a musician.
+i don't believe in god.
+
+Topic and Human Opinion:
+Beginning: color(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.14
+Robotic(↓): 93
+Interesting: 64
+Fun: 35
+Consistent: 13
+Fluent: 43
+Repetitive(↓): 0
+Topic: 5
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): toy every where
+Bot(1): i love to go fishing .
+User(2): yes
+Bot(2): i love to cook . i love to cook .
+User(3): yes
+Bot(3): i love to cook . i love to cook .
+User(4): what do you cook
+Bot(4): i like to eat . i am a big fan of it .
+User(5): what kind of food
+Bot(5): i like pizza and pizza .
+User(6): love pizza
+Bot(6): i like to eat fish .
+User(7): some fish
+Bot(7): i like to eat fish .
+User(8): what kind
+Bot(8): i am a student , but i am a student .
+User(9): what
+Bot(9): i am a student , but i am a student .
+User(10): y
+Bot(10): i am a student , but i am a student .
+User(11): where
+Bot(11): i am a student , but i am a student .
+
+Persona:
+i've been traveling the world for a years.
+i've short brown hair.
+i am retired and living the great life.
+i'm currently looking for a job preferably at a restaurant.
+my favorite color is blue.
+
+Topic and Human Opinion:
+Beginning: toy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 2
+Interesting: 2
+Fun: 3
+Consistent: 4
+Fluent: 0
+Repetitive(↓): 10
+Topic: 3
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i hate christmas
+Bot(1): awesome you been there. have huh
+User(2): the north pole
+Bot(2): What city it my from
+User(3): i hate snow
+Bot(3): I have a few. i do for a what i could have a car.
+User(4): and christmas trees
+Bot(4): I do not. i love kids very that is too bad .
+User(5): christmas sucks
+Bot(5): I they go to it either
+User(6): what
+Bot(6): cool that’s very intriguing, exciting work
+User(7): you lost me not hard tho
+Bot(7): i work don’t love bank
+User(8): moneys
+Bot(8): I love Disney! Do 1000 don't eat pets?
+User(9): wtf
+Bot(9): i actually like eggplant too my friends husband make as well. I love with eggplant
+User(10): ok
+Bot(10): do you have a can hang out one boy kid
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hate christmas(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.14
+Robotic(↓): 2
+Interesting: 4
+Fun: 2
+Consistent: 5
+Fluent: 4
+Repetitive(↓): 6
+Topic: 4
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): boats
+Bot(1): hello . how are you today ? i just got off my boat .
+User(2): good did you have fun
+Bot(2): yes
+User(3): glad to hear that
+Bot(3): yeah it was super fun
+User(4): where did you you go
+Bot(4): i went just nearby the house
+User(5): nice
+Bot(5): it was cool wish i would have went more
+User(6): me too
+Bot(6): same
+User(7): nice weather for boating
+Bot(7): yep
+User(8): thats good
+Bot(8): yep
+User(9): did you get sun burn
+Bot(9): no i thought i would be fine
+User(10): good
+Bot(10): awesome
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: boating(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.86
+Robotic(↓): 89
+Interesting: 76
+Fun: 92
+Consistent: 87
+Fluent: 88
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i love the smell of roses
+Bot(1): roses are my favorite roses of roses
+User(2): red roses
+Bot(2): roses are roses , roses are my favorite .
+User(3): sun flowers are greating too
+Bot(3): i love roses , they are my favorite .
+User(4): sunflowers
+Bot(4): roses are cool , i love roses
+User(5): you do just like roses
+Bot(5): roses are my favorite roses
+User(6): no other flowers
+Bot(6): roses are cool i like roses
+User(7): ok
+Bot(7): roses are cool , i like roses
+User(8): something new
+Bot(8): roses are cool , i like roses
+User(9): really
+Bot(9): i like roses , roses are my favorite
+User(10): ok
+Bot(10): i like roses , roses are my favorite
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: flowers(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.00
+Robotic(↓): 10
+Interesting: 11
+Fun: 15
+Consistent: 12
+Fluent: 50
+Repetitive(↓): 6
+Topic: 1
+
+####################
+

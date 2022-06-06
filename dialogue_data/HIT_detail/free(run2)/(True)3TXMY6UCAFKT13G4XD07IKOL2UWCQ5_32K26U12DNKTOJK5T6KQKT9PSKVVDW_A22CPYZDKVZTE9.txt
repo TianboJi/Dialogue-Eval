@@ -1,0 +1,297 @@
+Feedback: they were all very much robotic, and most had trouble sticking to the conversations. many got stuck repeating the same statements.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): i am doing well, how are you?
+Bot(2): i'm doing well . just got done walking my dog .
+User(3): thats great, what kind of dog do you have?
+Bot(3): i've a cat named rambo .
+User(4): is your cat named after the movie?
+Bot(4): he is a golden retriever , he is a golden retriever .
+User(5): golden retrievers are very nice dogs, one of my favorites
+Bot(5): i love dogs , i love dogs .
+User(6): i love dogs too, how many dogs do you have?
+Bot(6): i've 2 . i love them .
+User(7): that's great, how long have you had them?
+Bot(7): i have a couple of kids
+User(8): what are their names?
+Bot(8): i am a big fan of the boston celtics .
+User(9): i prefer the lakers
+Bot(9): i like to go to the gym and listen to music .
+User(10): what kind of music do you like?
+Bot(10): i like country music . what about you ?
+User(11): i prefer pop and funk
+Bot(11): i like to listen to music .
+User(12): i do too, it's been a pleasure speaking, goodbye
+Bot(12): i am sorry to hear that . i am sorry to hear that .
+
+Persona:
+my favorite ice cream flavor is chocolate.
+i have three arabian horses.
+i am fluent in english spanish and french.
+i'm married.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: pokemon(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.29
+Robotic(↓): 100
+Interesting: 27
+Fun: 23
+Consistent: 36
+Fluent: 45
+Repetitive(↓): 68
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you enjoy baseball?
+Bot(1): not really . baseball was too much like waiting in line for me .
+User(2): i can understand that, it is a boring sport, unless you have some kind of personal relationship with it
+Bot(2): i am more of a football person myself . never understood baseball .
+User(3): baseball isnt too hard to understand
+Bot(3): i have a hard time watching baseball , its very long
+User(4): its just as long as most sports. almost lll take 3 hours or so
+Bot(4): i have a hard time watching baseball , its very long
+User(5): what do you watch?
+Bot(5): i usually watch baseball or anime
+User(6): you just said you dont like watching baseball though
+Bot(6): i usually watch baseball or anime
+User(7): you said that already. would you like to talk about anime then?
+Bot(7): i usually watch baseball or anime
+User(8): i think youre stuck
+Bot(8): what do you do in your spare time ? i love anime also baseball
+User(9): i play video games in my spare time
+Bot(9): my kids love playing video games
+User(10): what games do they like?
+Bot(10): mainly games based on star wars , my favorite movie
+User(11): that is a great franchise. which is your favorite star wars movie?
+Bot(11): i would say halo definitely
+
+Persona:
+i have short brown hair.
+i'm terrified of scorpions.
+i am a cancer survivor.
+i'm married with two kids.
+i am a huge star wars fan.
+
+Topic and Human Opinion:
+Beginning: baseball(like)
+Round 10: video games(like)
+
+Topic Change and Chatbot Opinion:
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 50.43
+Robotic(↓): 60
+Interesting: 56
+Fun: 46
+Consistent: 56
+Fluent: 67
+Repetitive(↓): 71
+Topic: 59
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): have you watch south park before?
+Bot(1): Barre and dance classes. go ha it sounds languages?
+User(2): i dont understand what you're saying. what is barre?
+Bot(2): i do not they am not sure. I do not have any hobbies , but i do .
+User(3): what hobbies do you have?
+Bot(3): do you traveling in you like work at a burger king. I don't do drugs
+User(4): what drugs do you know about?
+Bot(4): Where listen that?
+User(5): have you ever smoked pot?
+Bot(5): I like basketball, but i dont like to hear a basketball player.
+User(6): what is your favorite team?
+Bot(6): i like chocolate too , but i awesome ! i am of chocolate .
+User(7): i am not a huge fan of chocolate
+Bot(7): This visited spain a times you have socialized medicine.
+User(8): i have been to barcelona
+Bot(8): I work of music bank.
+User(9): what is that?
+Bot(9): i like to want to have .
+User(10): its broken....
+Bot(10): I like the Beatles, am good. How are fan of the Beatles
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: south park(like)
+Round 2: hobbies(dislike)
+Round 3: drugs(dislike)
+Round 5: basketball(like)
+Round 6: chocolate(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): have you ever gotten a really bad headache?
+Bot(1): no , i am a car salesman .
+User(2): how long have you been a car salesman?
+Bot(2): no , i do not . i sell cars .
+User(3): how many have you sold?
+Bot(3): i have a car , but i do not speak in 3 months .
+User(4): why dont you speak?
+Bot(4): i have a few years ago .
+User(5): where were you a few years ago?
+Bot(5): i am not sure . i am a car salesman .
+User(6): what car company do you work for?
+Bot(6): i work for a big company
+User(7): what is the name of the company?
+Bot(7): i sell insurance , i sell insurance
+User(8): what type of insurance do you sell?
+Bot(8): i sell insurance , but i sell insurance
+User(9): i have multiple types of insurances
+Bot(9): i sell insurance , but i sell insurance
+User(10): do you enjoy that job?
+Bot(10): i do sales , i sell insurance
+
+Persona:
+i currently work for a watch dealer.
+the holidays make me depressed.
+i live with my husband in pennsylvania.
+i've not spoken in three months.
+i work as a car salesman.
+
+Topic and Human Opinion:
+Beginning: headaches(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 1.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 12
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): what kind of monkey is your favorite type of monkey?
+Bot(1): hello ! i like hippos but my favorite are monkeys !
+User(2): what kind of monkey do you like?
+Bot(2): i do not have a favorite . i cannot pick one . what is your favorite animal ?
+User(3): my favorite animal is a gorilla
+Bot(3): are you an animal activist ?
+User(4): i am not. have you ever participated in activism?
+Bot(4): no i do not i am an activist so do not have time
+User(5): what do you advocate for?
+Bot(5): animal rights .
+User(6): how long have you been an activist for animal rights?
+Bot(6): animal rights .
+User(7): thats wonderful. im glad people like you exist in the world
+Bot(7): are you an animal activist ?
+User(8): i am not, is that okay with you?
+Bot(8): of course . its my job
+User(9): what is your job?
+Bot(9): i deliver peoples items from the post office to their homes .
+User(10): how log have you worked for the post office?
+Bot(10): i deliver peoples items from the post office to their homes .
+
+Persona:
+whats up i am a 46 year old single dad 46 a kids.
+i am employed by the us postal service.
+hey there i'm 23 and i love food.
+i'm an animal activist.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: monkeys(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.14
+Robotic(↓): 65
+Interesting: 34
+Fun: 24
+Consistent: 15
+Fluent: 58
+Repetitive(↓): 76
+Topic: 56
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): how much water do you drink a day?
+Bot(1): i do not really drink any more but i use to drink jack
+User(2): but do you drink water?
+Bot(2): nope . never have . do you ? i just like alabama football , and geology .
+User(3): would you like to talk about geology then?
+Bot(3): i make comics book , amd drawing
+User(4): what are your comic books about?
+Bot(4): oh how wonderful . comic books are a wonderful example of modern literature . so accessible .
+User(5): who is your favorite superhero?
+Bot(5): so i guess if you had to pick between flight and invisibility , you would pick flight ?
+User(6): no, id prefer invisibility
+Bot(6): what is it about the city you love ? washington has beautiful cities , too . beautiful mountain views .
+User(7): i love being around people in cities
+Bot(7): i do but big cities do not find you funny so we will not meet
+User(8): which city are you from?
+Bot(8): simi valley a small little town but i hope to retire in florida . by the beach
+User(9): how much longer until you can retire?
+Bot(9): nice ! i turned 77 years old yesterday . and got a dog for my birthday .
+User(10): thats fantastic. you really should consider retiring then
+Bot(10): oh that is great , i am so happy for you ! congrats on retirement and a long marriage .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: water(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.29
+Robotic(↓): 75
+Interesting: 62
+Fun: 34
+Consistent: 57
+Fluent: 31
+Repetitive(↓): 67
+Topic: 26
+
+####################
+

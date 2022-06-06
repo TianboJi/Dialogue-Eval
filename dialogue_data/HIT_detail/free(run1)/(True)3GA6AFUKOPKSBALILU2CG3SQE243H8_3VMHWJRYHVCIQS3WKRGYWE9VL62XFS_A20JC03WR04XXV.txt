@@ -1,0 +1,311 @@
+Feedback: Many of the chat bots love to change the subject very frequently and completely ignore the inputs from the human user. They were not conversations where I expected a reasonable answer from my follow-up questions. 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, what are your thoughts on today's quality of fast food sandwiches?
+Bot(1): honestly , i do not know , we have not been very good lately .
+User(2): Do you mean the sandwiches have not been very good lately?
+Bot(2): none at all actually . what is new with you ?
+User(3): Nothing is new with me. What is going on with you today?
+Bot(3): none at all actually . what is new with you ?
+User(4): I just said nothing is going on with me. I would like to know if there is anything interesting going on in your life today.
+Bot(4): oh nothing ! i am confused .
+User(5): It is perfectly acceptable to be confused sometimes. Thank you for answering my question.
+Bot(5): sorry i am so silly . my head is all over the place today .
+User(6): what are your thoughts on self-driving cars produced by Google?
+Bot(6): i m trying to understand why you didn t understand what i wrote .
+User(7): I understood perfectly what you wrote. I asked you a new question.
+Bot(7): i m trying to understand why you didn t understand what i wrote .
+User(8): What are your thoughts on the most recent 2020 Presidential Election this past month?
+Bot(8): i m trying to understand why you didn t understand what i wrote .
+User(9): But what do you think of Joe Biden winning the election earlier this November?
+Bot(9): i m trying to understand why you didn t understand what i wrote .
+User(10): I did understand what you wrote.
+Bot(10): i m trying to understand why you didn t understand what i wrote .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fast food sandwiches(like)
+Round 2: How I am doing today.(dislike)
+Round 5: Self-driving cars(like)
+Round 6: previous message(dislike)
+Round 7: 2020 Presidential Election(ambivalent)
+Round 9: confusion over messages(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 22.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 7
+Consistent: 9
+Fluent: 84
+Repetitive(↓): 91
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi, what are your thoughts of YouTube becoming too addictive for children these days?
+Bot(1): i am not sure , i am a bit of a loner
+User(2): Does being a loner make you more or less reliant on the YouTube platform for friends?
+Bot(2): i think i am not a fan of it
+User(3): What is it you do not like about the YouTube social media platform?
+Bot(3): no , i don't know . i do not know much about that .
+User(4): YouTube is a platform where every day people like you and me and can upload random videos from our daily lives and chat about them.
+Bot(4): that is a good idea . i am trying to get a job
+User(5): Okay, what kind of a job are you looking for right now?
+Bot(5): i am looking for a job , but i do not know what that means
+User(6): What don't you understand about looking for a job? Maybe I can help you.
+Bot(6): i am looking for a job , but i do not know what that means
+User(7): You do not know what means?
+Bot(7): i think i am looking for a job
+User(8): What job do you want?
+Bot(8): i am looking for a job , but i do not know what that means
+User(9): You should look for a job in an office building.
+Bot(9): i am looking for a job but i want to be a lawyer
+User(10): A lawyer is a high paying profession. I hope you enjoy it.
+Bot(10): i hope so . what do you do for a living ?
+User(11): I work in a restaurant. Thank you for asking.
+Bot(11): i am looking for a job , but i do not have a job
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: YouTube platform(like)
+Round 4: Getting a job(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 27.29
+Robotic(↓): 100
+Interesting: 17
+Fun: 17
+Consistent: 34
+Fluent: 91
+Repetitive(↓): 90
+Topic: 22
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, are you a fan of the NFL this season?
+Bot(1): do you have any other hobbies besides football ?
+User(2): yes, I have several hobbies, but what do you think of the NFL?
+Bot(2): football is fun , whats your favorite team ?
+User(3): I love the Seattle Seahawks. Do you have a favorite team too?
+Bot(3): my favorite american football team is the browns . my favorite mls team is the crew .
+User(4): Why do you love the Cleveland Browns though?
+Bot(4): i have an uncle in cleveland . i am more of a junk food eater , especially popcorn !
+User(5): I love popcorn too! But I love candy bars even more!
+Bot(5): now i want candy , i should eat pizza and candy .
+User(6): Pizza and candy is delicious but it is not good for you. Be careful to not eat too much of it.
+Bot(6): mine was pizza . now it is carrots .
+User(7): Now you are eating carrots?
+Bot(7): brown hair is cool too !
+User(8): What does brown hair have to do with carrots and pizza?
+Bot(8): brown hair ! how about you ?
+User(9): Pink and purple hair is better.
+Bot(9): brown hair ! how about you ?
+User(10): I am bald.
+Bot(10): my long curly hair is too complicated to dye .
+
+Persona:
+i played football for a division a college.
+i enjoy poetry.
+i won a gold medal in the 1992 olympics.
+i am 60years old.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: NFL(like)
+Round 4: Junk Food(like)
+Round 7: Hair(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 41.43
+Robotic(↓): 100
+Interesting: 68
+Fun: 67
+Consistent: 17
+Fluent: 85
+Repetitive(↓): 63
+Topic: 16
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, what kind of music do you enjoy listening to?
+Bot(1): i like different genres . how about you ?
+User(2): I mainly listen to country, jazz, and rock. What type is your favorite?
+Bot(2): my favorite is rock , i also like country .
+User(3): Cool, what is your favorite band though?
+Bot(3): i like a lot of genres . probably first would be jazz .
+User(4): Okay...what is it that you like about jazz music?
+Bot(4): pretty much anything that is classified as country . what other things do you like ?
+User(5): Football and tuna sandwiches.
+Bot(5): awesome ! i think we would get along nicely , i love tuna !
+User(6): There are many different types of tuna. Which ones do you like?
+Bot(6): ham is my favorite . what do you do for work ?
+User(7): I work at a restaurant. Have you ever worked at a restaurant before?
+Bot(7): no , how long has it been open ?
+User(8): How long has what been open?
+Bot(8): i just opened it three months ago , but have been in retail for years .
+User(9): What are you talking about now?
+Bot(9): maybe a restaurant i think . do you like music ?
+User(10): Yes, but only certain types of music, like rock and jazz for instance.
+Bot(10): oh i see . do you enjoy country life ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 4: Me(ambivalent)
+Round 5: Sandwiches(like)
+Round 6: Work(ambivalent)
+Round 9: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 44.00
+Robotic(↓): 100
+Interesting: 73
+Fun: 31
+Consistent: 30
+Fluent: 91
+Repetitive(↓): 27
+Topic: 10
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): So what are your thoughts on tonight's NBA Draft?
+Bot(1): well need to go, good and i really enjoy winning how about you
+User(2): I do not understand. What are your thoughts on the NBA Draft being televised tonight?
+Bot(2): you are not answering you, i love watching report you . 😜
+User(3): I am not answering what? What is the current topic you are discussing?
+Bot(3): the news is so depressing these days have a not as hobbies
+User(4): Are you telling me you do not have any hobbies anymore?
+Bot(4): at you like you :)
+User(5): Excuse me? Are you saying that you like me?
+Bot(5): No, i am not sure. funny don't have any i am.
+User(6): Okay...tell me what it is that you like about me first.
+Bot(6): I am not. I nice do not south.
+User(7): You are not what? Your English definitely is not very good.
+Bot(7): i love bubble baths, what couple of times sell single.
+User(8): You love bubble baths? That's really great, I sincerely hope you drown in one soon.
+Bot(8): oh yes i've been . my five kids made sure of looking for petersburg as a ?
+User(9): And how many times have you been where though?
+Bot(9): i books are you play .
+User(10): Okay, goodbye then.
+Bot(10): I love all cute. so you .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: NBA Draft(ambivalent)
+Round 2: Me(ambivalent)
+Round 3: Hobbies(ambivalent)
+Round 4: Me(ambivalent)
+Round 6: Their self(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 11.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 21
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, what did you eat for lunch today?
+Bot(1): i went to college and i am a nurse .
+User(2): It's nice that you are a nurse, but what did you eat for lunch earlier today?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): Okay....what kind of dog do you own?
+Bot(3): i have a dog and a cat .
+User(4): I used to own a dog and a cat in the past as well, but they are dead now.
+Bot(4): i am sorry to hear that . do you have any hobbies ?
+User(5): Yes, I like to watch YouTube and study a foreign language.
+Bot(5): i like to eat too much junk food .
+User(6): That's definitely not good, what kinds of junk food are you eating today?
+Bot(6): i am a bit of a big fan of pizza .
+User(7): I love pizza too! Especially mushroom pizza! Do you like pizza with sausages?
+Bot(7): i do not , but i do like to eat .
+User(8): That's great, I think everyone likes to eat. Just do not eat too much junk food every day or your health will suffer.
+Bot(8): i am a huge fan of jason mraz .
+User(9): Is Jazon Mraz a movie star?
+Bot(9): i do not know what to say .
+User(10): What does Jazon Mraz do for a living?
+Bot(10): i work at a restaurant , what about you ?
+
+Persona:
+i used to be pretty but time has not been kind.
+i've a big library at home.
+one of the languages that i am currently studying is spanish.
+i volunteer at the homeless shelter.
+i'm an art major in college.
+
+Topic and Human Opinion:
+Beginning: Lunch(like)
+Round 1: Their self(ambivalent)
+Round 3: Myself(ambivalent)
+Round 5: Junk food(dislike)
+Round 8: Movies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 44.43
+Robotic(↓): 100
+Interesting: 66
+Fun: 42
+Consistent: 17
+Fluent: 100
+Repetitive(↓): 14
+Topic: 0
+
+####################
+

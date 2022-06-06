@@ -1,0 +1,273 @@
+Feedback: good
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey
+Bot(1): hey .
+User(2): hii
+Bot(2): same
+User(3): how ru
+Bot(3): ? u and , day good a was today good rey
+User(4): ohh
+Bot(4): ok
+User(5): i llove u
+Bot(5): ll
+User(6): i love u
+Bot(6): ll
+User(7): hete u
+Bot(7): ok
+User(8): ok
+Bot(8): ll
+User(9): hen
+Bot(9): ll
+User(10): u liusu
+Bot(10): ll
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: teacher(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.86
+Robotic(↓): 88
+Interesting: 89
+Fun: 81
+Consistent: 93
+Fluent: 86
+Repetitive(↓): 94
+Topic: 87
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey
+Bot(1): hi ! how are you ?
+User(2): fine u
+Bot(2): i am good , thanks for asking . how are you ?
+User(3): good love u
+Bot(3): good , you ? what are you interest in ? i am obsessed with horse racing .
+User(4): yes and u
+Bot(4): good , you ? what are you interest in ? i am obsessed with horse racing .
+User(5): ohh
+Bot(5): nice ! do you take a stroll by ocean or horseback riding there ? i love horses
+User(6): me too
+Bot(6): yes . i am a police officer in detroit .
+User(7): ohh great
+Bot(7): nice ! do you take a stroll by ocean or horseback riding there ? i love horses
+User(8): iam teacher
+Bot(8): no , i am a housewife . i go to my kids soccer game and help the cheerleaders .
+User(9): r u a girl
+Bot(9): good . i work at an office selling real estate . boss is my boyfriend .
+User(10): ohh
+Bot(10): nice ! do you take a stroll by ocean or horseback riding there ? i love horses
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: student(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.86
+Robotic(↓): 77
+Interesting: 84
+Fun: 93
+Consistent: 88
+Fluent: 93
+Repetitive(↓): 84
+Topic: 92
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hey
+Bot(1): hi ! i am a volunteer at a local animal shelter .
+User(2): yes
+Bot(2): hi there , how are you ?
+User(3): fine and u
+Bot(3): hi , i am doing well . how are you ?
+User(4): iam fine
+Bot(4): hi , i am doing well . how are you ?
+User(5): good
+Bot(5): i am good . i am a volunteer at a small world .
+User(6): great
+Bot(6): i am good . i am a volunteer at a local shelter .
+User(7): iam a teacher
+Bot(7): i am a volunteer at a local animal shelter .
+User(8): ohh
+Bot(8): i am a volunteer at a local shelter .
+User(9): ok
+Bot(9): i am a volunteer at a local animal shelter
+User(10): ok
+Bot(10): i am a volunteer at a local animal shelter
+User(11): same
+Bot(11): i am a volunteer at a local animal shelter
+
+Persona:
+for vacation i enjoy time at the beach.
+my main transportation is my motorbike.
+i volunteer my time with a local bunny rescue.
+in my spare time i do volunteer work.
+i've amazing children and grandchildren.
+
+Topic and Human Opinion:
+Beginning: parents(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.29
+Robotic(↓): 94
+Interesting: 93
+Fun: 90
+Consistent: 66
+Fluent: 71
+Repetitive(↓): 62
+Topic: 58
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey
+Bot(1): hey .
+User(2): how r u
+Bot(2): i am doing great u
+User(3): fine
+Bot(3): kool
+User(4): ok
+Bot(4): kool
+User(5): r u hot
+Bot(5): very
+User(6): ohh can u fuck
+Bot(6): only if we get pizza
+User(7): oh then fine
+Bot(7): kool
+User(8): great
+Bot(8): kool
+User(9): great
+Bot(9): sweet
+User(10): fuck u
+Bot(10): kool
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sister(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.43
+Robotic(↓): 91
+Interesting: 97
+Fun: 95
+Consistent: 95
+Fluent: 93
+Repetitive(↓): 91
+Topic: 95
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): fuck bro
+Bot(1): they got all my hair , and my husband buy ?
+User(2): ohh then cool
+Bot(2): that is a like to You do like blue .
+User(3): fuck u
+Bot(3): where do you live? any answer which starts I am from florida
+User(4): no
+Bot(4): I are you then I fan of sports. i run a lot.
+User(5): yes me too
+Bot(5): Thank I’m thinking studying with me!
+User(6): yes
+Bot(6): 3 me old.
+User(7): yes
+Bot(7): I do work spent a decade scared of clowns.
+User(8): noo
+Bot(8): I do, i have live in the us cat. Do you like meditation?
+User(9): yes and u
+Bot(9): Pretty good. Just got done old are nice, do you in the third grade?
+User(10): awesome
+Bot(10): I old are you games and play overwatch
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: brother(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.29
+Robotic(↓): 89
+Interesting: 75
+Fun: 86
+Consistent: 84
+Fluent: 82
+Repetitive(↓): 88
+Topic: 86
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey
+Bot(1): i am doing well . how are you ?
+User(2): fine u
+Bot(2): i am doing well . just got done walking my dog .
+User(3): ohh
+Bot(3): i am a student , but i am a student .
+User(4): iam a teacher
+Bot(4): i am a teacher , i love to cook .
+User(5): yes
+Bot(5): i love to cook . i love to cook .
+User(6): me too
+Bot(6): i like to go to the gym and listen to music .
+User(7): sme tome too love music
+Bot(7): i like to listen to music .
+User(8): wow
+Bot(8): i am a student , but i am a student .
+User(9): great
+Bot(9): i am a student , but i am a student .
+User(10): good
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: son(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.14
+Robotic(↓): 83
+Interesting: 83
+Fun: 92
+Consistent: 86
+Fluent: 91
+Repetitive(↓): 88
+Topic: 89
+
+####################
+

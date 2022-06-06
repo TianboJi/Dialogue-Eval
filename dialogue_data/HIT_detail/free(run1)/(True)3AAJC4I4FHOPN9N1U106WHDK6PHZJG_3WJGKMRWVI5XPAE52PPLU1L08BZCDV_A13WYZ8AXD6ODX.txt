@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): i work on mturk
+Bot(2): i am fine thank you i am a older woman .
+User(3): do you like skateboarding
+Bot(3): what is your natural hair color ?
+User(4): brown
+Bot(4): i have long brown hair and blue eyes !
+User(5): sexy
+Bot(5): my real obsession is taking care of my skin , but to act people look .
+User(6): are you white
+Bot(6): white is nice but i love blue . . . . so a semi truck ?
+User(7): mother trucker
+Bot(7): unfortunately no . grew up in the foster care system
+User(8): that must be fun
+Bot(8): it is ! i love coke because the can is my favorite color . a pretty red orange color .
+User(9): I like coke
+Bot(9): coke is more of a light reddish color while dr pepper is much darker
+User(10): true
+Bot(10): interior designer in ny . you ?
+
+Persona:
+i have an internet addiction and spend a lot of time playing roleplaying games.
+i'm married to a doctor.
+i enjoy american sports.
+i'm a woman.
+i've blue eyes and red hair that comes to my waist.
+
+Topic and Human Opinion:
+Beginning: skateboarding(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.57
+Robotic(↓): 100
+Interesting: 71
+Fun: 68
+Consistent: 12
+Fluent: 68
+Repetitive(↓): 10
+Topic: 10
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): do you have any hobbies ?
+User(2): I like art
+Bot(2): i like art i do
+User(3): thats cool
+Bot(3): i like art too
+User(4): mee too
+Bot(4): i love art too
+User(5): anything else
+Bot(5): i like art too
+User(6): just art?
+Bot(6): i like art and art
+User(7): more art?
+Bot(7): i like art and art
+User(8): fart
+Bot(8): yeah i do not really like art
+User(9): just playing?
+Bot(9): i like art and art
+User(10): I know
+Bot(10): i like art , but i do not like art
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Trump(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.00
+Robotic(↓): 100
+Interesting: 8
+Fun: 5
+Consistent: 5
+Fluent: 92
+Repetitive(↓): 98
+Topic: 98
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like cars
+Bot(1): i just Ford study study trooper
+User(2): very studly
+Bot(2): i am you want to that is .
+User(3): foird
+Bot(3): I love orange. I rap you have green.
+User(4): green is good
+Bot(4): i you beat like to i do not believe in religion .
+User(5): god is dead
+Bot(5): yeah i will nice to see you! young baby
+User(6): hot mama
+Bot(6): I is your favorite for a couple years.
+User(7): 1 is a good year
+Bot(7): What you am sorry. hair? Mine is red.
+User(8): brown hair
+Bot(8): I'M watching a a sea house. little girl
+User(9): beach house is nice
+Bot(9): Yes I am a nurse of movies? Mine is and running
+User(10): cool
+Bot(10): I My name is Tom. What do you do?
+
+Persona:
+i've a pet turtle.
+i have one older sister.
+i produce music for artists.
+i am a stunt double as my second job.
+i currently work for a watch dealer.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 13
+Topic: 2
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): how are you
+Bot(2): same
+User(3): nothing new
+Bot(3): whats new ?
+User(4): got some candy
+Bot(4): ok , i am not a fan of candy
+User(5): gives me pep
+Bot(5): my son eats a lot of candy
+User(6): he should snort it
+Bot(6): too wee
+User(7): thats what I say when I get the bugar sugar
+Bot(7): nah it soaks up the flavors
+User(8): it tastes good
+Bot(8): yes it sure does
+User(9): makes me horny
+Bot(9): as long as you lik it
+User(10): I sure do
+Bot(10): sweet
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: candy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 90.29
+Robotic(↓): 21
+Interesting: 84
+Fun: 87
+Consistent: 93
+Fluent: 96
+Repetitive(↓): 2
+Topic: 95
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): how are you?
+Bot(2): good thanks . tell me about yourself
+User(3): I like to play games
+Bot(3): i like games but do not have anyone to play with
+User(4): we can play a game
+Bot(4): i can try to game
+User(5): lets play global thermonuclear war
+Bot(5): we could play board games together .
+User(6): how about chess
+Bot(6): i have not played chess in years
+User(7): it has been a long time for me too
+Bot(7): i have not played chess in years
+User(8): how about candy land
+Bot(8): candy land , when they are getting along enough time to play together
+User(9): tic tac toe
+Bot(9): i am really good at monopoly
+User(10): monopoly takes forever
+Bot(10): i am really good at monopoly
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 83.14
+Robotic(↓): 27
+Interesting: 81
+Fun: 80
+Consistent: 80
+Fluent: 90
+Repetitive(↓): 12
+Topic: 90
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): fine
+Bot(2): i am a student , but i am a student .
+User(3): i am the master
+Bot(3): i am sorry to hear that . i am sorry to hear that .
+User(4): i am never sorry
+Bot(4): i am a student , but i am a student .
+User(5): in school?
+Bot(5): i am a student , but i am a student .
+User(6): in school or college
+Bot(6): i am a student , but i am a teacher .
+User(7): teache me something
+Bot(7): i am sorry to hear that . i am sorry to hear that .
+User(8): so am i
+Bot(8): i am a student , but i am a student .
+User(9): how are you
+Bot(9): i am doing well . just got done walking my dog .
+User(10): i like dogs
+Bot(10): i love dogs , i love dogs .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.14
+Robotic(↓): 94
+Interesting: 4
+Fun: 3
+Consistent: 4
+Fluent: 22
+Repetitive(↓): 99
+Topic: 3
+
+####################
+

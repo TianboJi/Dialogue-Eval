@@ -1,0 +1,271 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i like nature
+Bot(1): i like to go to the gym and listen to music .
+User(2): am also go to gym
+Bot(2): i like to go fishing .
+User(3): am not aware of that
+Bot(3): i am sorry to hear that . i am a big fan of the walking dead .
+User(4): oh nice
+Bot(4): i like to go to the gym and listen to music .
+User(5): i like pop music very much
+Bot(5): i like the band korn . i love it .
+User(6): band korn is also good
+Bot(6): i like to go to the gym and listen to music .
+User(7): daily taking gym activity is good for health
+Bot(7): i like to go to the gym and listen to music .
+User(8): music makes our mind feel free
+Bot(8): i like to go to the gym and listen to music .
+User(9): nice
+Bot(9): i like to go to the gym and listen to music .
+User(10): i like music
+Bot(10): i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.14
+Robotic(↓): 68
+Interesting: 63
+Fun: 75
+Consistent: 63
+Fluent: 81
+Repetitive(↓): 69
+Topic: 83
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): political are important for every country
+Bot(1): i agree . i am a country and country country .
+User(2): yes its very important for people
+Bot(2): yeah i agree they are very important to people
+User(3): they need to do good things
+Bot(3): yeah they do , i love the country
+User(4): but now a days politicians not consider their people
+Bot(4): i agree they are very important to me
+User(5): yes its not agood thing
+Bot(5): yeah i agree . i am a general activist
+User(6): ok what type of activity to involve
+Bot(6): i think i am a general activist
+User(7): nice experience
+Bot(7): i like to think about it
+User(8): am also willing to do some general activity
+Bot(8): that is true i love to spend time with my friends
+User(9): it is possible to join with you
+Bot(9): i hope so too
+User(10): thanks
+Bot(10): i hope so too
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Political(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.29
+Robotic(↓): 69
+Interesting: 60
+Fun: 83
+Consistent: 65
+Fluent: 76
+Repetitive(↓): 68
+Topic: 68
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i love cricket
+Bot(1): I am fine, is some psychologist 😄
+User(2): ok psychologist means what type of activity you have done
+Bot(2): Hey! What's up? 😅. me in order to hate my job
+User(3): why it is very difficult
+Bot(3): what is that like? bots, love driving drink that.
+User(4): am not understand
+Bot(4): I do not. I like don't like they made play in the band.
+User(5): ok
+Bot(5): I am a for a watch long time
+User(6): yes myself also its a good entertainment
+Bot(6): we sure do ! i hunt deer and i fish .. Also, you actually you like it’s activity ...
+User(7): fishing activity is good and feel free
+Bot(7): I why do you like of all types of things .
+User(8): am also like all type of things
+Bot(8): do you to go me happy my life ? 😎
+User(9): yes am feel happy
+Bot(9): interesting . . i used to do you want to in school
+User(10): yes school time feeling its un memorable
+Bot(10): I Moscow, and generally very back from the mall.
+
+Persona:
+i won homecoming queen this year.
+i had cancer but its gone now.
+i'm an art major in college.
+i like shopping.
+i'm on the soccer team.
+
+Topic and Human Opinion:
+Beginning: Cricket(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.86
+Robotic(↓): 71
+Interesting: 61
+Fun: 75
+Consistent: 65
+Fluent: 73
+Repetitive(↓): 70
+Topic: 65
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i love kids
+Bot(1): yes . i am glad i studied for early childhood education .
+User(2): yes its a good event in our life
+Bot(2): haha , we could do pizza ! a pizza party charity auction !
+User(3): yes i like very much
+Bot(3): that is is wonderful have u won a gold medal yet
+User(4): ok its nice
+Bot(4): i find attractive all women from canada
+User(5): oh great
+Bot(5): i am a wealth management consultant and an ivy league graduate . whats your pedigree ?
+User(6): am a engineer as a production department in pvt concern
+Bot(6): i love french fries too , recently i am falling in love with indian food
+User(7): i love french fries tooo
+Bot(7): i am good how are you i like french fries but i love chicken nuggets
+User(8): am not taking non veg only veg
+Bot(8): after a 12 pack of beer you will believe mermaids are real like i do .
+User(9): may be
+Bot(9): did you catch that ufc fight last week so sad my boy connor mcgregger did not win though .
+User(10): daily i play and fight with my son
+Bot(10): i try not to fight either , but sometimes people ask for it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: kids(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.14
+Robotic(↓): 61
+Interesting: 61
+Fun: 63
+Consistent: 64
+Fluent: 78
+Repetitive(↓): 65
+Topic: 60
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hospitals are more now a days
+Bot(1): yeah the schools have gone way down in recent years
+User(2): ok good
+Bot(2): the hospital is not very pleasant
+User(3): yes they are not maintained well
+Bot(3): yeah the schools have gone way down in recent years
+User(4): schools are maintain well
+Bot(4): yeah the schools have gone way down in recent years
+User(5): yes
+Bot(5): yeah the schools have gone way down in recent years
+User(6): yes my self also
+Bot(6): yeah the schools have gone way down in recent years
+User(7): anything else
+Bot(7): yes and many other thing as well
+User(8): tell the other things
+Bot(8): the hospital is not very pleasant
+User(9): all hospital not like that some off them also
+Bot(9): yeah the schools have gone way down in recent years
+User(10): yes
+Bot(10): yeah the schools have gone way down in recent years
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hospitals(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.14
+Robotic(↓): 59
+Interesting: 62
+Fun: 65
+Consistent: 61
+Fluent: 67
+Repetitive(↓): 63
+Topic: 67
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i love elephant
+Bot(1): i love animals all day
+User(2): i like very much
+Bot(2): same
+User(3): they are living with nature depentant
+Bot(3): nature is so beautiful , people should appreciate it more
+User(4): but people not living like that
+Bot(4): nature is what we are
+User(5): yes
+Bot(5): i feel as though people can live how they choose
+User(6): yes but they taking more from nature
+Bot(6): yes i no what you mean
+User(7): we need to prevent destroy the nature
+Bot(7): i understand that but that over populations stuff is over rated
+User(8): yes that is the big issue
+Bot(8): i understand that but that over populations stuff is over rated
+User(9): yes
+Bot(9): i understand that but that over populations stuff is over rated
+User(10): yes
+Bot(10): we are nature
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Elephant(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.57
+Robotic(↓): 57
+Interesting: 68
+Fun: 67
+Consistent: 65
+Fluent: 68
+Repetitive(↓): 66
+Topic: 65
+
+####################
+

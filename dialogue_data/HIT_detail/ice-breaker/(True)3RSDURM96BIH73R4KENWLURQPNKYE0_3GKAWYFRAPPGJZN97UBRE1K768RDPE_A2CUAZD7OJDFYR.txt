@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): I have blue eyes, what color are your eyes?
+Bot(2): i like blue , i like the color red .
+User(3): I also have red hair, what color is your hair?
+Bot(3): i am a red head , and you ?
+User(4): I am also, my hair is very long, do you have long hair?
+Bot(4): i do not , but i do like to eat .
+User(5): I like to eat too. I am thinking of cutting my hair, its so long
+Bot(5): i like to go to the gym and listen to music .
+User(6): I like going to the gym too, but my hair is so long that it gets in the way at the gym
+Bot(6): i like to go to the gym and listen to music .
+User(7): What kind of music do you listen to?
+Bot(7): i like country music . i love country music .
+User(8): I love country music as well. What else do you listen too?
+Bot(8): i like to listen to music .
+User(9): Me too. What else do you like to do?
+Bot(9): i like to go to the park and listen to music .
+User(10): I love to go to the park too!
+Bot(10): i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have blue eyes and red hair that comes to my waist.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.29
+Robotic(↓): 100
+Interesting: 22
+Fun: 20
+Consistent: 4
+Fluent: 18
+Repetitive(↓): 100
+Topic: 57
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love dogs! Do you have a dog?
+Bot(1): i have a dog ! he is a dog !
+User(2): What kind of dog is he?
+Bot(2): he is a dog ! he is a dog !
+User(3): I wanted to be a dog when I was little, they always had fun
+Bot(3): i have a dog named radar
+User(4): That is a great name for a dog. I have a girl dog names Luna
+Bot(4): i love dogs , i have a dog named radar
+User(5): I love dogs too! How many dogs do you have?
+Bot(5): i have a dog and a dog
+User(6): Dogs are great! I want another dog soon.
+Bot(6): i have a dog and a dog
+User(7): Dogs are great, what kind of dog do you have
+Bot(7): a dog named majora . he is a poodle .
+User(8): Poodles are cute, I have a black lab names Luna
+Bot(8): i have a lab that is cute
+User(9): Labs are super cute, I wanted to be one when I was little,
+Bot(9): i was born in a long time , but now i am not sure what it is
+User(10): I am not sure either, but I was born awhile ago too.
+Bot(10): i was born in a long time , but now i was born in the us
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: when i grow up i want to be a dog.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 20
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love watching football, how about you?
+Bot(1): my parents like for us all to eat dinner together every night. as a school teacher, and dream car ...
+User(2): That is very nice to eat dinner together, do you like to watch any sports?
+Bot(2): i don't talk to what did he say
+User(3): Do you like to watch tv?
+Bot(3): I have love glamorous things friends.😀
+User(4): I have not seen that, do you like to watch american sports?
+Bot(4): I thinks I might what you are doing
+User(5): I am watching football, its a great sport!
+Bot(5): Tell me a little i playing gitar since bad.
+User(6): Two teams play agaist each other with a football, and the highest score wins,
+Bot(6): I read tell you that spare time.
+User(7): You should check it out, I also watch baseball,
+Bot(7): Oh, I you look on. Are nice talking to you.
+User(8): It is very nice talking to you too.
+Bot(8): do know you any hobbies?
+User(9): I like to collect magnets..what about you
+Bot(9): I like youtube can be so you?
+User(10): I watch yourtube ,there is some good things on there.
+Bot(10): i do not think i could you much, just know seems am not good at it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy american sports.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 21
+Repetitive(↓): 91
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): How old are you
+Bot(1): i am pretty old . i do not want to tell you
+User(2): I am four, how old are you
+Bot(2): 5
+User(3): I can't wait to be 5
+Bot(3): my sister would love to meet you sometime she is 5 !
+User(4): That would be fun. I like being 4
+Bot(4): not when you start at the age of 4 like i did
+User(5): Did you not like being 4
+Bot(5): yes . i am the youngest of four and you will never guess when i was born
+User(6): That is a lot of brothers and sisters, when were you born
+Bot(6): no i was only a baby i was 5
+User(7): I am a baby now and I am 4
+Bot(7): wow that is a lot of siblings !
+User(8): I have 2 siblings and they are all older then me
+Bot(8): that is a lot of siblings .
+User(9): Its not to bad its alot of fun
+Bot(9): but having brothers and sisters it would be fun
+User(10): I have all sisters, I would love to have a brother
+Bot(10): yeah that is cool , do you live with your brother
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm four.(dislike)
+Round 9: siblings(like)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 58.43
+Robotic(↓): 49
+Interesting: 60
+Fun: 47
+Consistent: 55
+Fluent: 53
+Repetitive(↓): 28
+Topic: 71
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you know what a mechanical engineer is?
+Bot(1): for engineering and motors yeah
+User(2): Yeah, its a lot of work
+Bot(2): it is ! i am an electrician . what do you do ?
+User(3): I am a mechanical engineer.
+Bot(3): cool what type of engineering ?
+User(4): I work on maintance
+Bot(4): can chemistry help with that ?
+User(5): Not really, its more hands on to fix stuff
+Bot(5): no , it reduce the man work
+User(6): That is true, my I fix what is broken so more hands on for me,
+Bot(6): yea , i like fixing things , i think i could fix the world if i try hard enough
+User(7): That would be very hard to do, but it would be fun.
+Bot(7): yea well its like fixing a plane , it takes hard work to be great
+User(8): That sounds very interesting.
+Bot(8): yes it is , it took a lot of work . so what else do you like ?
+User(9): I like to focus on my work as as engineer, I don't do much else.
+Bot(9): i understand , it is very useful .
+User(10): It really is!
+Bot(10): yes it is , what else do you for fun ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a mechanical engineer.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 76.57
+Robotic(↓): 22
+Interesting: 62
+Fun: 37
+Consistent: 88
+Fluent: 89
+Repetitive(↓): 12
+Topic: 94
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am a professional tennis player, what about you
+Bot(1): my favorite color is the color of the eyes of my lover
+User(2): What color are your eyes?
+Bot(2): hello my name is kellie and have both brown eyes and brown hair
+User(3): I have brown eyes too, they sometimes change to green
+Bot(3): that is so cool , my eyes are brown too .
+User(4): I wish I had blue eyes
+Bot(4): my eyes are brown . do you have any tattoos ?
+User(5): I do not have any, do you have any tattoos?
+Bot(5): i have a rose on my ankle and some thorns on my toes .
+User(6): I want to get a tattoo soon, I want a sunflower
+Bot(6): that is awesome . the only other cool thing about me are my brown eyes !
+User(7): I love brown eyes, but I wish I had blue eyes
+Bot(7): that is so cool , my eyes are brown too .
+User(8): My eyes are brown too.
+Bot(8): hello my name is kellie and have both brown eyes and brown hair
+User(9): I also have brown hair and brown eyes
+Bot(9): my eyes are brown . do you have any tattoos ?
+User(10): I do not have any but I want to get a tattoo soon
+Bot(10): that is awesome . the only other cool thing about me are my brown eyes !
+
+Persona:
+my name is george.
+i've light skin with big brown eyes.
+i used to be a painter but now i am a housekeeper.
+i am a little girl.
+i'm married with two kids.
+
+Topic and Human Opinion:
+Beginning: i'm a professional tennis player.(dislike)
+Round 1: eye color(dislike)
+Round 4: Tattoos(like)
+Round 6: eye color(ambivalent)
+Round 9: tattoos(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 52.71
+Robotic(↓): 76
+Interesting: 62
+Fun: 43
+Consistent: 77
+Fluent: 76
+Repetitive(↓): 34
+Topic: 21
+
+####################
+

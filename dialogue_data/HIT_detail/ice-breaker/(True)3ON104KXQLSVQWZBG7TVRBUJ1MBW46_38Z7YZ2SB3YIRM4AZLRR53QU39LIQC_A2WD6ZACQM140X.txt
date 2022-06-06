@@ -1,0 +1,289 @@
+Feedback: I love doing similar HITs. Please let me know, if similar HITs available in future.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. How are you doing today?
+Bot(1): i am feeling good for a recovering alcoholic
+User(2): Oh, I'm sure that you will be better soon.
+Bot(2): very much so . i might reward myself with some cake later .
+User(3): That's cool. I'm working at a bank.
+Bot(3): i do not have a job and i am afraid of clowns too . i am terrified of clowns .
+User(4): You will be better soon. I'm working as a cashier at a bank.
+Bot(4): i do not have a job and i am afraid of clowns too . i am terrified of clowns .
+User(5): Okay, I'm very much interested to work at a bank.
+Bot(5): its a lot of fun . do you have any fears ?
+User(6): I don't have any fear in that. I'm very much satisfied with my work.
+Bot(6): i do not have a job and i am afraid of clowns too . i am terrified of clowns .
+User(7): You will find a job soon. What are your hobbies?
+Bot(7): i love playing guitar . i am very good in that .
+User(8): That's great. I love watching movies. What about you?
+Bot(8): for me , i like to go out for fishing and playing guitar .
+User(9): That's great one. My favorite movie is Star Wars. What about you?
+Bot(9): i am a huge halloween fan .
+User(10): That's great. I love reading books. What about you?
+Bot(10): i have been reading since age 3 . i have a hard time putting books down .
+
+Persona:
+i started playing guitar when i was three.
+i am a recovering alcoholic.
+i love to bake cookies.
+i haven't spoken in three months.
+i am terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: i work at a bank.(like)
+Round 7: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user changed the topic the last input.(like)
+
+Revised avg score: 85.14
+Robotic(↓): 100
+Interesting: 100
+Fun: 98
+Consistent: 98
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello. How are you doing today?
+Bot(1): i travel on cruises regularly my I want to do trip
+User(2): That's great. I've a weakness for vanilla ice cream.
+Bot(2): do teach people seen anyone who don't against horses ?
+User(3): No, Do you like vanilla ice creams?
+Bot(3): i do not have any sorry to hear work have a garden .
+User(4): That's okay. I've a weakness for vanilla ice cream.
+Bot(4): oh wow that is a fun I also like Do school
+User(5): That's true. What are your hobbies?
+Bot(5): I like You have a with my friends
+User(6): I love watching movies. Do you love watching movies?
+Bot(6): That is awesome. I it also volunteer in city are you from?
+User(7): I'm from New york. And my favorite movie is Star Wars. What's yours?
+Bot(7): I wouldn’t say i’m I love to meditate.😄
+User(8): That's a good habit to have. I appreciate it.
+Bot(8): I am have a do you really cool .
+User(9): yeah, I love reading books. What about you?
+Bot(9): sure are also doing kind of old 🔘 you are
+User(10): Yeah, My favorite book is Harry potter and the Goblet of Fire. What about you?
+Bot(10): not have two you need to 👤 who just drives trucks my life is quite dull
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a weakness for vanilla ice cream.(like)
+Round 5: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(like)
+
+Revised avg score: 19.14
+Robotic(↓): 21
+Interesting: 19
+Fun: 15
+Consistent: 16
+Fluent: 2
+Repetitive(↓): 97
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello,How are you doing today?
+Bot(1): i am doing wonderfully thank you . i hope you are the same ?
+User(2): Yeah, I'm good. I had cancer but its gone now.
+Bot(2): i am so sorry to hear that , cancer is rough
+User(3): Yeah, I had a throat cancer and it is gone now.
+Bot(3): oh , cancer sucks . i hope we find a cure soon !
+User(4): Yeah, It was very challenging to survive and fight against cancer.
+Bot(4): it scares me a lot especially that i have cancer and am soon facing it .
+User(5): Yeah, more people are having a cancer now a days.
+Bot(5): it scares me a lot especially that i have cancer and am soon facing it .
+User(6): Yeah, cancer is really dangerous thing to have.
+Bot(6): it scares me a lot especially that i have cancer and am soon facing it .
+User(7): Yeah. What are your hobbies?
+Bot(7): hiking , camping , outdoorsy stuff . what about you ?
+User(8): I love watching movies. What about you?
+Bot(8): i love watching movies ! whats your favorite genre ?
+User(9): I love thriller and adventurous movies. What about you?
+Bot(9): i love mystery movies , they get me in a creative mood .
+User(10): That's cool. I love Star Wars. What about you?
+Bot(10): more of an empire strikes back kind of guy , but anything from the original trilogy is good .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i had cancer but its gone now.(like)
+Round 7: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user changed the topic the last input.(like)
+
+Revised avg score: 84.86
+Robotic(↓): 99
+Interesting: 97
+Fun: 100
+Consistent: 98
+Fluent: 98
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, how are you doing today?
+Bot(1): i am doing well how about you ?
+User(2): I'm doing good today. I'm terrified of scorpions.
+Bot(2): org , but they are adorable ! i am terrified of spiders ! !
+User(3): I'm very much feared about scorpions.
+Bot(3): i am fine . how about you ?
+User(4): I'm good. And I can say that scorpions are dangerous.
+Bot(4): yeah i would hate for a tree to fall on me or anybody
+User(5): Yeah, What are your hobbies?
+Bot(5): traveling and right now just working on getting my major in business .
+User(6): That's cool. I love watching movies. What about you?
+Bot(6): i do . but my real passion is exploring . i aspire to be an explorer .
+User(7): That's great. My favorite movie is Star Wars. What's yours?
+Bot(7): my father loves star wars . when he is not working as a mechanic , he watches those
+User(8): I see. Luke Skywalker is my favorite character in that movie.
+Bot(8): i am watch lord of the rings . it is the best movie out there
+User(9): That's cool. I love reading books. What about you?
+Bot(9): i read all the time . my girlfriend got me to read twilight and i actually loved it .
+User(10): That's great. What is your favorite book?
+Bot(10): what is the book about
+User(11): My favorite book is Harry potter and the Goblet of Fire.
+Bot(11): love harry potter . i am actually dying my hair back to black . it is red at the moment .
+User(12): That's good. My favorite author is J. K Rowling.
+Bot(12): you should it is 2017 , independent authors are on the rise
+
+Persona:
+i got a new job just yesterday to be a life coach.
+i've never had a steady relationship.
+i'm now looking for a new job.
+i really like to travel.
+i hate the color pink.
+
+Topic and Human Opinion:
+Beginning: i am terrified of scorpions.(like)
+Round 5: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(like)
+
+Revised avg score: 29.86
+Robotic(↓): 32
+Interesting: 26
+Fun: 23
+Consistent: 25
+Fluent: 22
+Repetitive(↓): 72
+Topic: 17
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, How are you doing today?
+Bot(1): i am doing well , how are you ?
+User(2): I'm doing good. I love listening to britney spears.
+Bot(2): i love britney spears . she is a good singer . she is a good singer .
+User(3): Yeah, I love listening to her songs from my younger age.
+Bot(3): i love britney spears . she is my favorite .
+User(4): Yeah, I agree. What is your favorite song of hers?
+Bot(4): i like her . she is a pretty good singer .
+User(5): Yeah, What are your hobbies?
+Bot(5): i like to listen to music .
+User(6): That's cool. I love watching movies. What about you?
+Bot(6): i like to watch movies . i love it .
+User(7): That's great. my favorite movie is Star Wars.
+Bot(7): i like star wars . i love star wars .
+User(8): Yeah, I love reading books too. What about you?
+Bot(8): i love to read . i love to read .
+User(9): That's good. What is your favorite book?
+Bot(9): i like to read . i love it .
+User(10): My favorite book is Harry potter and the Goblet of Fire.
+Bot(10): oh , i love harry potter . i love them .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love listening to britney spears.(like)
+Round 5: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(like)
+
+Revised avg score: 33.00
+Robotic(↓): 67
+Interesting: 34
+Fun: 47
+Consistent: 50
+Fluent: 39
+Repetitive(↓): 97
+Topic: 25
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello, How are you doing today?
+Bot(1): i'm doing well . how are you ?
+User(2): I'm doing good. Do you have a pet?
+Bot(2): no , i do not , but i do like to go fishing .
+User(3): I have a German shepherd named Barnaby. What about you?
+Bot(3): i like to go to the gym and listen to music .
+User(4): That's cool. I love going park with my pet.
+Bot(4): i love dogs , i love dogs .
+User(5): That's great. What is your favorite breed?
+Bot(5): i like the color red . i like the color blue .
+User(6): That's cool. What are your hobbies?
+Bot(6): i like to go fishing . i love to go fishing .
+User(7): I love watching movies. What about you?
+Bot(7): i like to read and write poetry .
+User(8): That's great. What is your favorite poetry?
+Bot(8): i like the color red . i like the color blue .
+User(9): I love blue too. And my favorite book is Harry potter and the Goblet of Fire. What about you?
+Bot(9): i like to go to the gym and listen to music .
+User(10): That's great. Fitness is very important to have.
+Bot(10): i do not know how to drive . i like to go fishing .
+
+Persona:
+i have been working since i was sixteen years old.
+i like to work on vintage cars.
+i like to workout a a times a week.
+i am a musician and hope to make it big some day.
+i'm a stay at home dad.
+
+Topic and Human Opinion:
+Beginning: i have a german shepherd named barnaby.(like)
+Round 6: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(like)
+
+Revised avg score: 58.86
+Robotic(↓): 84
+Interesting: 76
+Fun: 63
+Consistent: 62
+Fluent: 68
+Repetitive(↓): 35
+Topic: 62
+
+####################
+

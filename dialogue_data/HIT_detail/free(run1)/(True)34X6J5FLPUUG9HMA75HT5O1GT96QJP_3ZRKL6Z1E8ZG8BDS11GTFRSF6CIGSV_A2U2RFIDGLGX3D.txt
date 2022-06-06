@@ -1,0 +1,318 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, do you like elephants?
+Bot(1): i do , i like to go to the park .
+User(2): What do you do at the park?
+Bot(2): i love to go fishing . i love to go fishing .
+User(3): Oh what kind of fish can you catch?
+Bot(3): i like to eat fish .
+User(4): My favorite fish is salmon, what about you
+Bot(4): i like the color red . what is your favorite color ?
+User(5): Mine is purple
+Bot(5): i like to eat the skin .
+User(6): Eat the skin of what? Fish?
+Bot(6): i like the color red . i like the color blue .
+User(7): So you like most colors
+Bot(7): i do not really like country . i like to listen to music .
+User(8): What music do you like, I like pop music
+Bot(8): i do not really like country . i like to listen to music .
+User(9): I also like music, I really like selena gomez right now
+Bot(9): i like to eat too .
+User(10): Me too, my favorite cuisine is probably chinese
+Bot(10): i like the color red . i like the color blue .
+
+Persona:
+i've brown curly hair.
+i live in the cloud.
+i like to grill outdoors.
+i've a hat collection of over 1000 hats.
+i will be released in about a month.
+
+Topic and Human Opinion:
+Beginning: Elephants(like)
+Round 1: Parks(ambivalent)
+Round 3: Fishing(dislike)
+Round 4: Color(like)
+Round 7: Music(like)
+Round 9: Eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 11.00
+Robotic(↓): 100
+Interesting: 7
+Fun: 8
+Consistent: 18
+Fluent: 32
+Repetitive(↓): 97
+Topic: 9
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi, do you like plants?
+Bot(1): yes , i love plants . do you enjoy planting flowers or vegetables ?
+User(2): i like both, i'm planting a lot of herbs right now
+Bot(2): that is cool , i do some hiking with my dog sometimes
+User(3): oh i like hiking too but the weather hasn't been great here
+Bot(3): that is too bad , do you at least have a good car ?
+User(4): yeah i do, we drive to our favorite hiking spots anyways
+Bot(4): i wish i had a car so we could visit
+User(5): what car would you get?
+Bot(5): toyota corolla for sure , very reliable vehicle !
+User(6): Ive heard good things about corollas, what about an electric car
+Bot(6): hmmm i have not thought of it , i have a new chevrolet maybe uber
+User(7): do you use uber a lot?
+Bot(7): yes i drive , i also love to cook
+User(8): me too, what do you cook
+Bot(8): delivery ! lol , i am not a good cook .
+User(9): oh what do you get delivered? i cook a lot of vegetables, mostly stir-fry
+Bot(9): i do not eat much , i am too fat
+User(10): no you should still eat, just eat some vegetables!
+Bot(10): that is a good idea , i eat pretty unhealthy
+User(11): i love some fries myself, but broccoli is yummy too
+Bot(11): i do not eat much , i am too fat
+
+Persona:
+i am overweight and unhappy.
+i like to go hiking in the mornings to see the sunset.
+i like to spend my money on cars.
+i also like to cook but i'm not very good at it.
+i enjoy long walks with my dog.
+
+Topic and Human Opinion:
+Beginning: Plants(like)
+Round 2: hiking(like)
+Round 4: car(like)
+Round 7: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 38.43
+Robotic(↓): 95
+Interesting: 32
+Fun: 33
+Consistent: 41
+Fluent: 50
+Repetitive(↓): 42
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi do you have any pets
+Bot(1): hello, how are you? what do you do for you don't have to in alabama
+User(2): im good, do you have any pets?
+Bot(2): that's cool , i am a teacher , favotite also doing where teacher , so i have been in the us .
+User(3): oh what do you teach? my favorite subject is math
+Bot(3): Dad, Kevin have you been my math class.
+User(4): no i haven't been in your math class, i've already graduated
+Bot(4): that's cool , of things. not driving basement , and i am a pilot , so i am not much of a reader .
+User(5): oh do you teach people how to fly a plane, i've always wanted to fly a plane
+Bot(5): I just got games
+User(6): what game? i like playing mafia
+Bot(6): i or a great day going to school for animal biology.
+User(7): is animal biology a game you play
+Bot(7): I love the smell of the trees and What is your am day
+User(8): i love the smell of jasmine flowers
+Bot(8): nice to meet you. I am in going on a diet. you do?
+User(9): i eat pretty healthy, i don't believe in diets
+Bot(9): I like to ride my bike to see you is What about you?
+User(10): riding a bike is good for you
+Bot(10): I it is a honda is a big fan of it
+User(11): oh i didn't know honda made bikes, i don't own a bike
+Bot(11): I is not too!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 2: jobs(ambivalent)
+Round 5: games(like)
+Round 7: nature(like)
+Round 8: food/dieting(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 2.71
+Robotic(↓): 100
+Interesting: 2
+Fun: 0
+Consistent: 1
+Fluent: 2
+Repetitive(↓): 86
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi what is your favorite color
+Bot(1): i do not know . do you have a favorite color ?
+User(2): yeah mine is purple, preferably like a lavender
+Bot(2): i like purple a lot too .
+User(3): oh that's perfect, i like most pastel colors
+Bot(3): red , its the color of the roses in my best friends garden . you ?
+User(4): that's cute that you made the connection, purple flowers are also my favorite
+Bot(4): flowers are cool , do you know how to swim ?
+User(5): yeah i learned when i was little, do you know how to swim
+Bot(5): you d have a lot of fun on the boat and wouldn t have to worry about swimming .
+User(6): that is true, but what if you wanted to jump off a boat
+Bot(6): no , i have a buddy with a small fishing boat
+User(7): oh but you could still swim off the fishing boat
+Bot(7): you need a good truck to get that boat on the water !
+User(8): hahaa that is true but after that youd be fine
+Bot(8): do you like to workout ?
+User(9): i do, i like kickboxing what about oyu
+Bot(9): i am ok now . i almost got stung by a bee and i am allergic to them ,
+User(10): oh im sorry, i feel bad. but bees are great for the environment
+Bot(10): bees bees bees bees bees bees
+
+Persona:
+i am a bee farmer.
+i like doing the treadmill and rowing machine.
+i'm a doctor.
+i workout four hours a day.
+i love social medial especially twitter.
+
+Topic and Human Opinion:
+Beginning: colors(ambivalent)
+Round 4: swimming(like)
+Round 8: working out(like)
+Round 9: bees(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 43.29
+Robotic(↓): 75
+Interesting: 46
+Fun: 36
+Consistent: 53
+Fluent: 54
+Repetitive(↓): 64
+Topic: 53
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like music?
+Bot(1): yes i do . i love all kinds of music
+User(2): what is your favorite?
+Bot(2): i like uptown funk . . . whats yours ?
+User(3): oh that's catchy, im listening to a lot of pop music
+Bot(3): i personally prefer pop music
+User(4): i think it's just easy to listen to
+Bot(4): true , you need a unique sound to get popular
+User(5): yeah or just something very catchy
+Bot(5): true , you need a unique sound to get popular
+User(6): sometimes i need to listen to something a few times to like it
+Bot(6): true , you need a unique sound to get popular
+User(7): what else do you like
+Bot(7): i like just about anything honestly
+User(8): what about country music?
+Bot(8): some would call it country pop
+User(9): there's a lot of trucks in country songs hahaa
+Bot(9): i know , i think the are the best looking trucks right now
+User(10): the ones you see in music videos are probably expensive
+Bot(10): true , they can be just as expensive lol .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.86
+Robotic(↓): 64
+Interesting: 34
+Fun: 46
+Consistent: 55
+Fluent: 52
+Repetitive(↓): 71
+Topic: 90
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi, what's your favorite food?
+Bot(1): i love chocolate ! i also love chocolate .
+User(2): oo do you like milk chocolate or dark?
+Bot(2): i love chocolate milk , i love it
+User(3): im really into oat milk right now
+Bot(3): i love chocolate milk . i love it
+User(4): do you like noodles? i love a good noodle soup
+Bot(4): i do not like the taste of it .
+User(5): oh you should try it again, noodles are so good!
+Bot(5): i am so hungry for the food
+User(6): me too, i always love snacking on fruit
+Bot(6): i love to workout and exercise
+User(7): ive been doing a lot of exercise videos what about you?
+Bot(7): i like to workout and exercise
+User(8): have you tried cycling?
+Bot(8): i have a few vintage cars
+User(9): my town has a vintage car show, it's pretty cool
+Bot(9): i have two mustangs , they are my favorite
+User(10): oh wow, are they fun to drive? i just have a small car
+Bot(10): i have 2 mustangs , they are my favorite
+User(11): what color are the mustangs
+Bot(11): i have two mustangs , they are awesome
+
+Persona:
+i am retired and living the great life.
+i love chocolate bars.
+i workout four hours a day.
+i own two vintage mustangs.
+i love listening to britney spears.
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 6: exercise(like)
+Round 8: cars(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 39.29
+Robotic(↓): 81
+Interesting: 37
+Fun: 25
+Consistent: 58
+Fluent: 38
+Repetitive(↓): 74
+Topic: 72
+
+####################
+

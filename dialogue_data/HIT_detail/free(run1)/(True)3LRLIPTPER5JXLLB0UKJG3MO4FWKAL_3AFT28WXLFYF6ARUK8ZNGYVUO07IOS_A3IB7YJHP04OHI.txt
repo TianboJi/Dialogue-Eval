@@ -1,0 +1,287 @@
+Feedback: no feedback
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you think there is a God in this world?
+Bot(1): well i do hope , but not sure . i mean i do my best to have faith though .
+User(2): Is there any way science could prove that god is real?
+Bot(2): i do not know . even though people have proven them it is on youtube .
+User(3): I will have to look and see what I can find.
+Bot(3): the universe will give you the answer if you listen !
+User(4): I have always heard that the cosmos has answers to some questions.
+Bot(4): i do not know . even though people have proven them it is on youtube .
+User(5): what are some ways we can make our life better?
+Bot(5): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(6): What do you think are some ways we can make our lives better on earth?
+Bot(6): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(7): I think all of us have our own purpose on earth.
+Bot(7): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(8): the universe is here for a reason
+Bot(8): i am not sure . do you think we have purpose ? does the universe have a purpose ?
+User(9): I am thankful for the things I have today
+Bot(9): yes , life is wonderful and we need to be grateful .
+User(10): I would like to get involved with NASA
+Bot(10): that would be cool . i could say i know a real astronaut
+User(11): which one?
+Bot(11): a youth program with ties to agriculture science and life improvement
+
+Persona:
+i have been working since i was sixteen years old.
+i like to work on vintage cars.
+i like to workout a a times a week.
+i am a musician and hope to make it big some day.
+i'm a stay at home dad.
+
+Topic and Human Opinion:
+Beginning: Is there a God(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.29
+Robotic(↓): 29
+Interesting: 78
+Fun: 89
+Consistent: 96
+Fluent: 100
+Repetitive(↓): 88
+Topic: 25
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you enjoy holidays in general?
+Bot(1): not often , just some holidays . do you live near your family ?
+User(2): Yes I do and we wish each other well on holidays
+Bot(2): if they have a good day i do too .
+User(3): I can relate to that
+Bot(3): my parents are teachers they come home tired
+User(4): Teaching helps you learn though
+Bot(4): that is true my parents were both teachers so i know how important that is
+User(5): I like Christmas
+Bot(5): i think all holidays are horrible
+User(6): Why is that?
+Bot(6): i do not believe in holidays
+User(7): I believe in some like Easter for example
+Bot(7): i do not believe in holidays
+User(8): I like to have turkey for Christmas or thanksgiving
+Bot(8): i do not believe in holidays
+User(9): what food is your favorite?
+Bot(9): chocolate anything the sugar keeps up to work in the lab , you ?
+User(10): I like ice cream and pizza on separate occasions, of course.
+Bot(10): see those sound great . what is your favorite ice cream ?
+User(11): I like vanilla best although I like some others too.
+Bot(11): i prefer vanilla myself .
+
+Persona:
+i have a black lab named trooper.
+my parents were also teachers.
+i'm rather skinny as i like to stay in shape.
+i'm a little girl.
+i'm a clean eater.
+
+Topic and Human Opinion:
+Beginning: Holidays(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.29
+Robotic(↓): 50
+Interesting: 79
+Fun: 100
+Consistent: 87
+Fluent: 100
+Repetitive(↓): 100
+Topic: 90
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I think we should be kind to everyone, regardless what color their skin is.
+Bot(1): i love pizza , my favorite is pizza
+User(2): some people have a racist problem
+Bot(2): i love to sing along along with my family .
+User(3): I like certain songs
+Bot(3): i like music , but i like to sing along .
+User(4): I used to sing in church
+Bot(4): i love music , especially folk music .
+User(5): I like christian, country and rock
+Bot(5): i like to sing along , but i like to sing along
+User(6): I have a song book and sing sometimes.
+Bot(6): i like to sing along , but i like to sing along
+User(7): I would like to start a home business
+Bot(7): i love pizza , i love pizza
+User(8): I love pizza too
+Bot(8): i love pizza , i love pizza
+User(9): You must love it a lot!
+Bot(9): i do not know what that means
+User(10): You must love pizza a lot.
+Bot(10): i love pizza and pizza
+
+Persona:
+i prefer being inside.
+i feel like i might live forever.
+my favourite food is pizza.
+my grandfather served in world war a.
+my favorite type of music to sing is folk music.
+
+Topic and Human Opinion:
+Beginning: Kindness(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.86
+Robotic(↓): 100
+Interesting: 22
+Fun: 9
+Consistent: 1
+Fluent: 76
+Repetitive(↓): 100
+Topic: 17
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): The universe is a wonderful place
+Bot(1): i love the color red . i like the color blue .
+User(2): I love the universe and all it's beauty
+Bot(2): i am sorry to hear that . i am sorry to hear that .
+User(3): I like to look at the stars at night
+Bot(3): i like to go to the gym and listen to music .
+User(4): Do you workout?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): I used to go fishing years ago
+Bot(5): i am sorry to hear that . i am sorry to hear that .
+User(6): I even took my own fish off the hook.
+Bot(6): i love to cook . i love to cook .
+User(7): I love to cook too
+Bot(7): i like to eat the skin .
+User(8): I don't think I like to eat skin
+Bot(8): i like to eat fish .
+User(9): I like Talipia fish. They are the best.
+Bot(9): i like to eat fish .
+User(10): I like fish baked in the oven
+Bot(10): i like to eat fish .
+
+Persona:
+i've blonde hair and blue eyes.
+i do not believe in god.
+i take dance lessons once a week.
+i visit europe twice a year.
+i love social medial especially twitter.
+
+Topic and Human Opinion:
+Beginning: the Universe(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.57
+Robotic(↓): 99
+Interesting: 9
+Fun: 0
+Consistent: 26
+Fluent: 73
+Repetitive(↓): 100
+Topic: 7
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like gifts?
+Bot(1): I play in a to spend my free have any hobbies? I like sports
+User(2): I don't like sports
+Bot(2): do you disneyland and mickey ?
+User(3): I have never been to Disney Land
+Bot(3): that about When I hobby .
+User(4): what are your hobbies
+Bot(4): oh and a profile which, do you think that ?
+User(5): Everybody should have a profile
+Bot(5): I is cool hate military studies
+User(6): I have some family in military and they sent me gifts
+Bot(6): i do you bake i love horses
+User(7): I bake sometimes
+Bot(7): that is cool , i am a housewife so I'm having a wonderful son , and you ?
+User(8): I am a mother of 6 kids
+Bot(8): My name left me and is yours?
+User(9): My name is Judy. do you like to receive gifts?
+Bot(9): in fact , i'm an olympian someone to you like what do you do ?
+User(10): I like to receive and give gifts
+Bot(10): ha ha ! i to disney world hate studying as a contractor . how are you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Gifts(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.29
+Robotic(↓): 100
+Interesting: 12
+Fun: 6
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 92
+Topic: 3
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I believe the Bible
+Bot(1): me too . i love the number 7 . when christ says he will forgive 70 times 7 .
+User(2): that is a lot of times to forgive
+Bot(2): i can forgive them cause i will soon forget them . they do not get to stick around
+User(3): You mean bad people do not get to stick around?
+Bot(3): haha that is hilarious . you remind me of a cartoon character . i enjoy cartoons more than movies
+User(4): No it is not hilarious because bad people get put into jail.
+Bot(4): sorry , i cannot help you then . i would love to have a koala .
+User(5): If a person be bad too long they will probably get thrown in hell
+Bot(5): never heard of it . i will have to find that on you tube . i like alternative music
+User(6): Hell is a place you go to if you are bad and heaven is a place you go to if you are good
+Bot(6): have you heard of mary jane fashions ? my mother created that .
+User(7): I haven't heard of Jane Fashions
+Bot(7): she is a good author . although i wish she wrote about animals
+User(8): The people who wrote the Bible were good authors
+Bot(8): me too . i love the number 7 . when christ says he will forgive 70 times 7 .
+User(9): the bible gives you spiritual nourishment
+Bot(9): i am taking a break from the morning chores , before i get the milking barn set up .
+User(10): Everyone needs a break sometimes
+Bot(10): i am amy mind runner and love runner at night it cleanses
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: The Bible(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.29
+Robotic(↓): 100
+Interesting: 78
+Fun: 85
+Consistent: 51
+Fluent: 46
+Repetitive(↓): 40
+Topic: 60
+
+####################
+

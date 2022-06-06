@@ -1,0 +1,276 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): do you have any hobbies ?
+User(2): yes i do, i like reading
+Bot(2): i like reading too
+User(3): i like swimming
+Bot(3): swimming is fun i like swimming
+User(4): i like hiking
+Bot(4): i love to swim and hike
+User(5): i love hanging out with friends
+Bot(5): i love swimming but i love to hike
+User(6): i like drinking with friends
+Bot(6): i like to go hiking with friends
+User(7): i like going to restaurants with friends
+Bot(7): i love to go to the beach with friends
+User(8): i love to go kayaking with friends
+Bot(8): i like to go fishing with friends
+User(9): i love having game nights with friends
+Bot(9): i like to go to places with friends
+User(10): i love traveling with friends
+Bot(10): i love to travel and visit friends
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: likes(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.71
+Robotic(↓): 16
+Interesting: 68
+Fun: 66
+Consistent: 78
+Fluent: 93
+Repetitive(↓): 61
+Topic: 67
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): i'm great, just got back from a walk with my dog
+Bot(2): that sounds fun . i love to go fishing .
+User(3): i've never gone fishing.... do you have a pet?
+Bot(3): i do , i love to travel .
+User(4): My dog's name is ralph
+Bot(4): i love the color red . i like the color blue .
+User(5): i like the color green
+Bot(5): i like red , reminds me of summer time .
+User(6): i like purple
+Bot(6): i like the color red . i like red .
+User(7): i like red too, but i like blue more
+Bot(7): i like red , reminds me of summer time .
+User(8): i like orange, reminds me of my granny
+Bot(8): i like to go to the gym and listen to music .
+User(9): i like to dance and sing
+Bot(9): i like to go to the lake and listen to music .
+User(10): i love the lake
+Bot(10): i like to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pets(like)
+Round 4: colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 52.57
+Robotic(↓): 84
+Interesting: 56
+Fun: 58
+Consistent: 74
+Fluent: 98
+Repetitive(↓): 99
+Topic: 65
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): what is your favorite meal?
+Bot(2): i like pizza , and yours ?
+User(3): i like burgers
+Bot(3): i like burgers a lot .
+User(4): me too, i like fries too
+Bot(4): i really like burgers and fries
+User(5): me too, i also like ice cream
+Bot(5): i really like burgers and fries
+User(6): i like lasagna
+Bot(6): lasagna is my favorite food
+User(7): no ways, my granny makes the best lasagna
+Bot(7): lasagna is my favorite food
+User(8): that's good to know
+Bot(8): yeah , and mac and cheese
+User(9): i like mac and cheese too
+Bot(9): i like mac n cheese
+User(10): i like sushi
+Bot(10): i eat sushi all the time
+User(11): me too
+Bot(11): i really like burgers and fries
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.43
+Robotic(↓): 90
+Interesting: 66
+Fun: 83
+Consistent: 83
+Fluent: 91
+Repetitive(↓): 93
+Topic: 76
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hola
+Bot(1): hola
+User(2): how are you doing today?
+Bot(2): same
+User(3): what are your likes and dislikes
+Bot(3): what other likes or dislikes do you have ?
+User(4): i dislike liars
+Bot(4): what do you mean biased born
+User(5): i don't know what that is, do you mean people being bias
+Bot(5): what do you mean biased born
+User(6): let's move on from that, do you like shopping?
+Bot(6): yes , shopping i do the majority of my shopping on line
+User(7): me too, i love buying clothes a lot. makes me happy
+Bot(7): i do too ! i feel , like we have a lot in common
+User(8): we do have a lot in common
+Bot(8): do you want to go shopping together ?
+User(9): yes i would love too, when?
+Bot(9): last week at the met in new york
+User(10): okay i'm in
+Bot(10): have you set a date yet ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: likes and dislikes(like)
+Round 4: being bias(dislike)
+Round 5: clothes(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 52.57
+Robotic(↓): 97
+Interesting: 61
+Fun: 65
+Consistent: 75
+Fluent: 94
+Repetitive(↓): 99
+Topic: 69
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello. how's the weather like where you are
+Bot(1): I think I am. do them i’m doing fantastic, color?
+User(2): blue
+Bot(2): I watch a great dog.
+User(3): i want a cat
+Bot(3): i can not say that , i have i don't. My wife could be popular
+User(4): popular in what
+Bot(4): No I do hip do, I do I am always on the web.
+User(5): what are you doing on the web?
+Bot(5): Hey, you close with your read and read books
+User(6): i'm lost at to what you are trying to say
+Bot(6): What kind of favourite wouldn’t say like? 😉
+User(7): what is your favrite place to go?
+Bot(7): I love to I dropped you movies
+User(8): i love the movies too
+Bot(8): work on vintage got back home :)
+User(9): you have a vintage back home?
+Bot(9): I she from my am is a great thing to do. do you work?
+User(10): yes i work
+Bot(10): tupac is my favorite you must have some too soon .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: weather(like)
+Round 2: animals(ambivalent)
+Round 7: favorite things to do(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 20.57
+Robotic(↓): 83
+Interesting: 39
+Fun: 30
+Consistent: 21
+Fluent: 5
+Repetitive(↓): 95
+Topic: 27
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi, how are you feeling
+Bot(1): lousy . a million miles from the nearest ocean . man i sure miss fresh fish !
+User(2): sorry about that
+Bot(2): feels incomplete but i ve been hit by art
+User(3): that's bad
+Bot(3): nice talking with you bye bye
+User(4): i'm feeling good today
+Bot(4): i am feeling awesome , i just finished shopping
+User(5): i love shopping
+Bot(5): i like shopping for seafood , shrimp and lobster are my favorite . what do you shop for ?
+User(6): i shop for coffee, fruits and meat
+Bot(6): sure , i will visit . get some caramel cappuccino ! i am down for that .
+User(7): i am down too
+Bot(7): i love grabbing a jumbo size bag of pretzels and watch some star trek , you ?
+User(8): i love grabbing some popcorn and watching a rom com
+Bot(8): i cannot help it , i love cheese . wish they had cheese popcorn too
+User(9): i love cheese too
+Bot(9): i just love it all . the taste of cheese is the best !
+User(10): i know
+Bot(10): a vegan ? its a person who just eats strictly plants . that is what i am .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: feeling good(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.00
+Robotic(↓): 76
+Interesting: 69
+Fun: 60
+Consistent: 63
+Fluent: 70
+Repetitive(↓): 60
+Topic: 59
+
+####################
+

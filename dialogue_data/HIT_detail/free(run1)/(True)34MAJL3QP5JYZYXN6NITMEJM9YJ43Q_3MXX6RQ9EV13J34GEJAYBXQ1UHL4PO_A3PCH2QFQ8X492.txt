@@ -1,0 +1,294 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi there
+Bot(1): hi just done playing soccer
+User(2): oh really, was it very suuny out there today?
+Bot(2): it was quiet and rainy
+User(3): that must have been a mess playing soccer in that
+Bot(3): you used to play soccer ? were you on a team for a long time ?
+User(4): i didnt say that, i was saying that it must have been pretty muddy with all the rain
+Bot(4): well do you skateboard ? i love skate boarding
+User(5): no
+Bot(5): too bad , i love skating . what do you love ?
+User(6): cloudy weather
+Bot(6): i know you had lots of rain not that long ago
+User(7): i know, and so did you right?
+Bot(7): well when i was younger i was a little girl
+User(8): what does that mean. are you not a girl now?
+Bot(8): no , i am just a kid
+User(9): well thats fun
+Bot(9): well when i was younger i was a little girl
+User(10): what?
+Bot(10): we like to skateboard together
+
+Persona:
+i'm on the soccer team.
+i just want to have fun with my friends.
+i am a skateboarder.
+i am a little girl.
+i've been retired for a years.
+
+Topic and Human Opinion:
+Beginning: the weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.71
+Robotic(↓): 81
+Interesting: 11
+Fun: 22
+Consistent: 15
+Fluent: 16
+Repetitive(↓): 72
+Topic: 13
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i love tacos
+Bot(1): yes , i love eating yummy tacos . . . yum
+User(2): they are awesome
+Bot(2): i like to collect them , especially ones i find in antique shops .
+User(3): you dont get those ther
+Bot(3): they creep me out ever since i learned we sometimes eat them in our sleep
+User(4): what
+Bot(4): pizza wings and cheese bread
+User(5): i want to talk about tacos
+Bot(5): yes , i love eating yummy tacos . . . yum
+User(6): why do you say that
+Bot(6): because my blue and orange hair explains it all .
+User(7): what on earth are you talking about
+Bot(7): it was good talking to you too . you hear that ? i did .
+User(8): i didnt
+Bot(8): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(9): i thought the last vets from ww2 had died
+Bot(9): i am sorry to hear that .
+User(10): sorry to hear what
+Bot(10): thanks . comedy clubs have been keeping me laughing . i love them .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tacos(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.57
+Robotic(↓): 26
+Interesting: 22
+Fun: 20
+Consistent: 23
+Fluent: 32
+Repetitive(↓): 22
+Topic: 28
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): donald trump sucks.
+Bot(1): Hey! Do i hate all bars?
+User(2): he is the worst president we have ever had
+Bot(2): i like what I hobbies comic clubs .
+User(3): he should be locked in prison.
+Bot(3): Hello, would love meet you.
+User(4): he should also be tried for treason
+Bot(4): You How nice! Is this am sure they are.
+User(5): and crimes against humanity
+Bot(5): i do does not miss pets .
+User(6): donald trump has many boot licking dogs.
+Bot(6): rick and morty , re ok. what am mom . 😀
+User(7): rick and morty is a good show.
+Bot(7): Nice to see you! too! i'm a cancer at the local soup kitchen
+User(8): there is a cancer at the local soup kitchen?
+Bot(8): yes. job. I correct.
+User(9): what job?
+Bot(9): No, I i love clean wear leather
+User(10): what are you talking about
+Bot(10): I do you eat meat.
+
+Persona:
+i've a german shepherd named barnaby.
+i'm 60years old.
+i just moved into my first home.
+i am a construction worker.
+i am an animal activist.
+
+Topic and Human Opinion:
+Beginning: donald trump(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i love this resturaunt
+Bot(1): i am a professional professional , i am a professional wrestler
+User(2): oh really, whats that like?
+Bot(2): i like to play the guitar .
+User(3): what kind of music do you like to play?
+Bot(3): i play the guitar , what about you ?
+User(4): i play flute
+Bot(4): i play the guitar , i play the guitar .
+User(5): i know you already said that what else do you like to do
+Bot(5): i play the guitar , what about you ?
+User(6): the meat kazoo
+Bot(6): i like to play the guitar
+User(7): we get it you like to play the gutiar
+Bot(7): i like to play the guitar
+User(8): tacos?
+Bot(8): i love to eat meat
+User(9): tacos have meat
+Bot(9): i love tacos , but i am a professional .
+User(10): professional wrestler
+Bot(10): i like to play the guitar
+
+Persona:
+i fantasize about taking over the world.
+i am a professional wrestler.
+i work at a bank.
+i am a stunt double as my second job.
+i play several instruments.
+
+Topic and Human Opinion:
+Beginning: Crackerbarrel(like)
+Round 1: being a professional(ambivalent)
+Round 2: playing gutiar(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 12.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 45
+Fluent: 45
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): the carebears are awesome dont you think?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): so do i
+Bot(2): i am a student , but i am a student .
+User(3): who is your favorite composer?
+Bot(3): i like the color red . i like the color blue .
+User(4): thats cool. what do you think about purple?
+Bot(4): i like blue , i like blue .
+User(5): ok, but what about purple?
+Bot(5): i like blue , i like it .
+User(6): do you like any other colors?
+Bot(6): i do , i like to listen to music .
+User(7): what kind of music do you like?
+Bot(7): i like country music . what about you ?
+User(8): classical
+Bot(8): i love to read , and do some experiments .
+User(9): what kind of experiments do you like to do?
+Bot(9): i like to listen to music .
+User(10): thats nice, what kind?
+Bot(10): i love the color red . what is your favorite color ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Carebears(like)
+Round 1: classical music(like)
+Round 3: favorite colors(ambivalent)
+Round 6: music(like)
+Round 8: reading and experiments(like)
+Round 9: listening to music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 3.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 3
+Consistent: 9
+Fluent: 9
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you know about the uss constitution?
+Bot(1): no i do not know much about that
+User(2): how about the enterprise?
+Bot(2): yeah for our ships yeah
+User(3): what do you know of the enterprise?
+Bot(3): mostly remains of past civilizations .
+User(4): it was a military vessle
+Bot(4): perhaps , it may have been one of the only government buildings i could think of lol
+User(5): it was not a building.
+Bot(5): perhaps , it may have been one of the only government buildings i could think of lol
+User(6): as i said it was not a building. how is the weather today?
+Bot(6): we had a couple cold days . set to warm back up .
+User(7): thats good. havent had any rain have you?
+Bot(7): nope just some rain here . did you ?
+User(8): yea the other day we got some, been mostly dry since then
+Bot(8): you mean with the hurricane ?
+User(9): that was a couple of months ago
+Bot(9): about a month ago it was .
+User(10): no it was back in august
+Bot(10): you mean with the hurricane ?
+User(11): yes, the hurricane was back in august.
+Bot(11): i know the hurricane did horrible damage to everything
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Antique Merchant vessels(ambivalent)
+Round 5: the weather(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 52.29
+Robotic(↓): 62
+Interesting: 73
+Fun: 27
+Consistent: 39
+Fluent: 69
+Repetitive(↓): 30
+Topic: 50
+
+####################
+

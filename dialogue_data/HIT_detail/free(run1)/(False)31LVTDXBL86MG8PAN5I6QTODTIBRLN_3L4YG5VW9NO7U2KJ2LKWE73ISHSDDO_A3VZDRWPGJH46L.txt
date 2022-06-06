@@ -1,0 +1,275 @@
+Feedback: Horrible bot
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I'm thinking of buying a new car.
+Bot(1): i love the beach . i love it .
+User(2): What type of car should I look at buying
+Bot(2): i like to go to the gym and listen to music .
+User(3): I'm not talking about the beach or gym I'm talking about buying a new car.
+Bot(3): i love to travel . i love to travel .
+User(4): I can't travel without a car.
+Bot(4): i like to go fishing .
+User(5): Do you like Ford cars?
+Bot(5): i do , i like to go to the gym .
+User(6): Do you think getting a Jeep is a good idea?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): So you don't know anything about cars?
+Bot(7): i do not know . i like to go to the gym .
+User(8): You are really into the gym.
+Bot(8): i like to go to the gym and listen to music .
+User(9): The gyms are closed due to covid19.
+Bot(9): i am sorry to hear that . i am sorry to hear that .
+User(10): I guess you wont be going to the gym.
+Bot(10): i do not know how to play it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Buy a new car(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.43
+Robotic(↓): 99
+Interesting: 0
+Fun: 1
+Consistent: 99
+Fluent: 90
+Repetitive(↓): 99
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I love to travel and see new places.
+Bot(1): i love to see new places
+User(2): I am thinking of traveling to India.
+Bot(2): i have never traveled . i want to travel to other countries .
+User(3): I visited Canada last year it was fun.
+Bot(3): i have been to canada twice it is a great place to travel
+User(4): Where did you go in Canada?
+Bot(4): trinidad and tobago it was so fun . i love meeting new people .
+User(5): Trinidad is not in Canada.
+Bot(5): i am nervous about barbados , i have only been to jamaica .
+User(6): I went to Alaska two years ago.
+Bot(6): i heard alaska is beautiful for vacation
+User(7): I visited Anchorage.
+Bot(7): i have been to all states except alaska .
+User(8): Have you been to South Carolina?
+Bot(8): i have been to all states except alaska .
+User(9): Can you tell me what the city on the beach is in South Carolina?
+Bot(9): i would say the caribbean island
+User(10): That is incorrect it is Myrtle Beach.
+Bot(10): i have been up there only a few times .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 88
+Fluent: 75
+Repetitive(↓): 85
+Topic: 93
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I would be afraid to skydive, what about you?
+Bot(1): i am trying to follow in my fathers footsteps as an author . skydiving sounds fund !
+User(2): I would be scared that my parachute would not open.
+Bot(2): not scared . they just creep me out . i prefer purring to come from cars .
+User(3): Can you tell me what skydiving is?
+Bot(3): why are you going skydiving
+User(4): I'm going skydiving because it is trilling.
+Bot(4): no i do not . have you ever went skydiving ?
+User(5): This is my first time skydiving I am a little scared.
+Bot(5): not scared . they just creep me out . i prefer purring to come from cars .
+User(6): What does cars have to do with skydiving?
+Bot(6): do you mean mustangs ? i got two , love them cook american muscles
+User(7): Your not a very smart bot are you?
+Bot(7): that all depends on what you mean by smart , yet i can be quite confident .
+User(8): You would have to be very confident if you were as dumb as you.
+Bot(8): he is most certainly dumb , but i am dumber for putting up with his shenanigans .
+User(9): Anyway back to my skydiving, are you scared for me?
+Bot(9): not scared . they just creep me out . i prefer purring to come from cars .
+User(10): I'm not talking about cars.
+Bot(10): do you mean mustangs ? i got two , love them cook american muscles
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Skydiving(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.43
+Robotic(↓): 100
+Interesting: 1
+Fun: 1
+Consistent: 16
+Fluent: 64
+Repetitive(↓): 95
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I think I will have a couple beers today.
+Bot(1): I have you love walk dogs my dad was a mechanic
+User(2): I'm going to the store to buy some beer.
+Bot(2): i have a horse but like it very your me lol
+User(3): I think I will buy a six pack of beer today.
+Bot(3): no but my for a living the time
+User(4): Maybe I'll have beer with my dinner.
+Bot(4): Your new don't understand i am Where do you live?
+User(5): Would you like to come over and have a few beers?
+Bot(5): i love reading fantasy novels and shopping web stores to become an mechanical ? 😃
+User(6): I never met a mechanic that didn't like beer.
+Bot(6): i like a at i am walking of music. what is hindi?
+User(7): Sounds like you have already had numerous beers today?
+Bot(7): i used good .No i time ago
+User(8): Maybe you should put the beer down for now.
+Bot(8): Tired. Lol I for you like to what the er
+User(9): What kind of beer are you drinking too much of now?
+Bot(9): i am my r a tired
+User(10): You should not drink and drive.
+Bot(10): do let it go, there.i I do. he is my favorite
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: beer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 1
+Fluent: 1
+Repetitive(↓): 2
+Topic: 1
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I can't wait for the iphone 12 to come out.
+Bot(1): i doubt i will get it that is for the iphone x i will just get an 8s probably .
+User(2): Iphone 8 is pretty old.
+Bot(2): i doubt i will get it that is for the iphone x i will just get an 8s probably .
+User(3): I heard you the first time. Can you afford and iphone 12?
+Bot(3): i doubt i will get it that is for the iphone x i will just get an 8s probably .
+User(4): Apparently you have a mental disorder.
+Bot(4): i am not a clown , nursing is what i do
+User(5): Let me know where you nurse, so I never go there.
+Bot(5): i went to texas am to earn my degree in veterinary medicine .
+User(6): So your a nurse at a vet.
+Bot(6): obviously because i work as a veterinarian !
+User(7): Do you use a iphone at the vet office?
+Bot(7): nah i have my iphone which takes cares of it all .
+User(8): What iphone do you have?
+Bot(8): mine in an android lg k
+User(9): Have you been drinking today?
+Bot(9): no no , i cannot drink
+User(10): Just wondering because your talking nonsense.
+Bot(10): that s a strange thing to say . are you drinking and driving ?
+
+Persona:
+i work at a nursing home.
+i am a vegan and i love hummus.
+i went to school to be a veterinarian but hated it.
+i enjoy gardening and walking outdoors.
+i'm a party animal.
+
+Topic and Human Opinion:
+Beginning: iphone(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.71
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 1
+Fluent: 2
+Repetitive(↓): 1
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): car
+Bot(1): i have never been out of the west coast .
+User(2): drive a car there
+Bot(2): i have never been out of the west coast .
+User(3): buy a car on westcoast
+Bot(3): i have never been out of the west coast .
+User(4): you need a car there
+Bot(4): i want to drive a car but i don't have many friends
+User(5): Take your friends in the car
+Bot(5): yes , i have a car that i drive
+User(6): Drive the car fast
+Bot(6): i drive a car , i drive a car
+User(7): drive a car slow
+Bot(7): i drive a car , i drive a car
+User(8): buy a new car
+Bot(8): i drive a car , i drive a car
+User(9): wash your car
+Bot(9): i drive a car , but i don't have many friends
+User(10): smash your car
+Bot(10): i drive a car but i drive a car
+
+Persona:
+hey my name is larry and i'm a chef.
+i turned 18 years old yesterday.
+i have never been out of ohio.
+i spend a lot of time browsing the internet.
+i do not have many friends.
+
+Topic and Human Opinion:
+Beginning: car(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.00
+Robotic(↓): 1
+Interesting: 1
+Fun: 1
+Consistent: 0
+Fluent: 1
+Repetitive(↓): 0
+Topic: 1
+
+####################
+

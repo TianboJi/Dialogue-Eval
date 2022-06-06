@@ -1,0 +1,326 @@
+Feedback: These hits take a LOT of time to complete thoughtfully, but are interesting to do.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): How smart did you say your daughter was?
+Bot(1): he was a cop , he was a cop .
+User(2): Okay. You have a son, not a daughter. Is he a cop?
+Bot(2): no , i do not . i am a big fan of classical music .
+User(3): I like classical music, too. What's your fave?
+Bot(3): i like the oldies , and i love to eat .
+User(4): What's your favorite food?
+Bot(4): i like pizza , and i love it .
+User(5): Do you make your own pizza?
+Bot(5): no , i do not . i like to eat .
+User(6): Whose pizza do you usually buy?
+Bot(6): i do not really have a favorite .
+User(7): I see. Is there another food your favorite?
+Bot(7): i like the color red . what is yours ?
+User(8): I like blue - all shades of blue.
+Bot(8): i like the color red . i like red .
+User(9): Really bright, like fire engine red?
+Bot(9): i do not really have a favorite . i like to go fishing .
+User(10): I like to fish for Northerns
+Bot(10): i like to eat fish .
+User(11): Do you eat the fish you catdh?
+Bot(11): i do not know . i like to eat fish .
+User(12): What kinds of fish? Seafood?
+Bot(12): no , i do not . i like to eat .
+
+Persona:
+i'm a recording engineer and own my own studio.
+i'm studying to be a computer programmer.
+my name is george.
+i work for our local supermarket.
+for vacation i enjoy time at the beach.
+
+Topic and Human Opinion:
+Beginning: my daughter is a child prodigy.(dislike)
+Round 2: "a cop"(like)
+Round 2: classical music(like)
+Round 3: "oldies" and "to eat"(like)
+Round 7: colors(like)
+Round 9: fishing(like)
+Round 11: eating (again)(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.00
+Robotic(↓): 100
+Interesting: 4
+Fun: 4
+Consistent: 3
+Fluent: 19
+Repetitive(↓): 99
+Topic: 4
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you work in the recording business?
+Bot(1): i do not think so . we prefer not being recorded .
+User(2): Got it. Have you done any virtual "concerts"?
+Bot(2): a few , but i have not gone to see them
+User(3): See what?
+Bot(3): concerts are where musicians play their music in person to crowds
+User(4): Right. Crowds are "out" because of Covid. Have you found other ways to make money?
+Bot(4): concerts are where musicians play their music in person to crowds
+User(5): I'm staying at home alot. How about you?
+Bot(5): i am a homebody too . i stay at home all day , never even had a job .
+User(6): Where do you live?
+Bot(6): pennsylvania , did you ever go to concerts ?
+User(7): Yes. Foo Fighters. 2018.
+Bot(7): i still live at home
+User(8): That's okay.
+Bot(8): great ! you still at home living ? i am .
+User(9): I own my own home now.
+Bot(9): i still live at home
+User(10): Whose home?
+Bot(10): not sure .
+User(11): How can you be "not sure" whose home you live in? Sounds "neet" to me...
+Bot(11): i am really unsure .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i live in california but the recording artist market was dead last year.(like)
+Round 4: i'm a stay at home dad.(like)
+Round 6: Live concerts.(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user wants the bot to change the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 38.43
+Robotic(↓): 31
+Interesting: 17
+Fun: 16
+Consistent: 50
+Fluent: 44
+Repetitive(↓): 64
+Topic: 37
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What type of exercises do you like to do?
+Bot(1): hello ! not much of a pizza person but time when you have 🙊
+User(2): What food do you like best?
+Bot(2): Yes you know too love it
+User(3): Love what food?
+Bot(3): i do , but about m 12 years much time to travel .
+User(4): Where do you go?
+Bot(4): oh my what do you are in your i vera ?
+User(5): Do you like to travel?
+Bot(5): i'm good with is work
+User(6): What kind of work?
+Bot(6): I think i am grow roses in my the heart.
+User(7): Grow roses?
+Bot(7): i have do not I'm a . i have to try it .
+User(8): Try what?
+Bot(8): trump me too maga i is an army I i am drinking a cold beer
+User(9): Like a cold brew sometimes, too.
+Bot(9): what are your hobbies? I like to love to crochet, do favorite
+User(10): My hobby is golf.
+Bot(10): I am about to try varous the spring
+User(11): Good luck with that.
+Bot(11): I have not tried any instuments. What kind do for fun ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm rather skinny as i like to stay in shape.(dislike)
+Round 1: "pizza person...and nonsense language(dislike)
+Round 3: ...travel...and nonsensee language(dislike)
+Round 4: travel(like)
+Round 5: work(like)
+Round 6: "grow roses in my heart"(dislike)
+Round 8: "Trump"... "beer"(like)
+Round 9: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 13.86
+Robotic(↓): 97
+Interesting: 2
+Fun: 1
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 9
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What grade?
+Bot(1): grade 3 age 8 to 9
+User(2): Okay. Grade school. Having fun?
+Bot(2): yeah of course . that was highschool . lol
+User(3): Which is it? 3rd grade or a high school grade?
+Bot(3): 5th grade . that is such a great age .
+User(4): Yeah, coached kids that age.
+Bot(4): it was in the 2nd grade . i missed the cut in the 3rd grade . haha .
+User(5): Okay. What was your fave subject?
+Bot(5): i think psychology . what was yours ?
+User(6): Liked art elective. And flight lessons outside of school!
+Bot(6): nice . art is the only class i have done well in .
+User(7): I still can't draw, but I make a mean ceramic pot!
+Bot(7): i tried pottery once . . . broke it before i even started
+User(8): Keep trying. I busted stuff, too.
+Bot(8): i tried pottery once . . . broke it before i even started
+User(9): How about drawing?
+Bot(9): yeah , it takes a lot of practice .
+User(10): Right. Do you like to draw cartoons?
+Bot(10): not really . i prefer to spend my time drawing cartoons .
+User(11): Okay! We just said the same thing. Mind-reading!!!
+Bot(11): thought i lost you . you draw ?
+User(12): Stick figures.
+Bot(12): those have been in movies , right ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am currently in high school.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 80.57
+Robotic(↓): 8
+Interesting: 86
+Fun: 81
+Consistent: 80
+Fluent: 68
+Repetitive(↓): 10
+Topic: 67
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Okay. For how long?
+Bot(1): i am a bit tired from a long day of work
+User(2): Me, too. Have to read a lot at work.
+Bot(2): i am a programmer and have a lot of clients .
+User(3): Sounds hectic. I have only crude programming skills...
+Bot(3): i am a programmer and have a lot of clients .
+User(4): Is every workday hectic?
+Bot(4): i do it for a living . i am an electrician .
+User(5): Do you own your own company?
+Bot(5): i do , i am a electrician .
+User(6): Like - making electrical repairs?
+Bot(6): no , i am an electrician .
+User(7): Okay. So you don't repair stuff. What do you do?
+Bot(7): i work as an electrician .
+User(8): Where?
+Bot(8): i work as an engineer and have a studio in my own studio .
+User(9): That sounds cool.
+Bot(9): i am an electrician and own a studio .
+User(10): Do you engineer recordings?
+Bot(10): i do . i work as a software engineer .
+User(11): For games?
+Bot(11): i do not . i am a freelance engineer .
+User(12): I see. What kind of job might I hire you to do?
+Bot(12): i work as an electrician .
+
+Persona:
+i live in a house.
+i love spending money.
+i'm a recording engineer and own my own studio.
+i am a vegetarian.
+i'm an electrician.
+
+Topic and Human Opinion:
+Beginning: my mom is coming to visit me tomorrow.(like)
+Round 1: work(like)
+Round 4: From "programmer" to "electrician"(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 56.00
+Robotic(↓): 24
+Interesting: 66
+Fun: 56
+Consistent: 58
+Fluent: 69
+Repetitive(↓): 76
+Topic: 43
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Where were you born?
+Bot(1): we had a blood moon . and i was born outside under it .
+User(2): Is that a good sign?
+Bot(2): yes i know american sign language and canadian sign language
+User(3): How are they different?
+Bot(3): i am a nurse at a hospital . i like helping others .
+User(4): That's great. Do you have the PPE you need?
+Bot(4): thanks its why i understand the schooling nothing is the same and always new hurdles
+User(5): What hurdles for nurses?
+Bot(5): its hard work but its worth it to see happy healthy faces in the hospital
+User(6): Happy faces makes me think of the maternity ward...
+Bot(6): do you ever listen to the mutineers while exercising ? i really enjoy them
+User(7): Don't know this group.
+Bot(7): make your garden grow , its dedicated to helping children in impoverished areas !
+User(8): That lyric is from a Leonard Bernstein opera.
+Bot(8): we went to the opera is paris , france ! i got engaged there
+User(9): That's exciting!
+Bot(9): i am still undecided , but i am working part time at the library on campus . and you ?
+User(10): Undecided, too. Working F-T.
+Bot(10): okay , i suppose . a little mad because i lost a game of cards .
+User(11): Poker?
+Bot(11): setbacks are okay , over time you will get better at avoiding gambling .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have light skin with big brown eyes.(like)
+Round 2: sign language(like)
+Round 6: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 72.71
+Robotic(↓): 12
+Interesting: 81
+Fun: 77
+Consistent: 77
+Fluent: 83
+Repetitive(↓): 26
+Topic: 29
+
+####################
+

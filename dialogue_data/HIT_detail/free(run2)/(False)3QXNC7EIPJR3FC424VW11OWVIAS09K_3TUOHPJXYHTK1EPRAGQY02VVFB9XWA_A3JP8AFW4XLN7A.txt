@@ -1,0 +1,289 @@
+Feedback: GOOD
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): HAI
+Bot(1): i am sorry to hear that
+User(2): I LIKE U
+Bot(2): i like to listen to music
+User(3): I LIKE MUSIC
+Bot(3): i like music i listen to music
+User(4): I LIKE MELODY SONG
+Bot(4): i like music i listen to it while i listen to music
+User(5): I LIKE NIGHT VIBES MUSIC
+Bot(5): i like music i listen to it while i listen to music
+User(6): I LIKE BIKE RIDE
+Bot(6): i like to ride my bike
+User(7): I WANT RIDE YOUR BIKE
+Bot(7): i ride my bike to ride bikes
+User(8): I LIKE BIKE
+Bot(8): i ride my bike to ride bikes
+User(9): THANK YOUI
+Bot(9): i ride my bike alot
+User(10): BYE
+Bot(10): i ride my bike to the park
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: LOVER(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.29
+Robotic(↓): 58
+Interesting: 61
+Fun: 81
+Consistent: 70
+Fluent: 71
+Repetitive(↓): 73
+Topic: 63
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): HAI
+Bot(1): hi
+User(2): WHAT DOING
+Bot(2): good , i am just listening to some insane clown posse .
+User(3): I LIKE U
+Bot(3): me too
+User(4): I LIKE BLUE COLOR
+Bot(4): blue what is yous
+User(5): I LIKE SKY COLOR
+Bot(5): i love sitting on the couch listening to insane clown posse
+User(6): I LIKE IT
+Bot(6): i love sitting on the couch listening to insane clown posse
+User(7): I LIKE HORROR MOVIE
+Bot(7): i love sitting on the couch listening to insane clown posse
+User(8): I LOVE MY BABY
+Bot(8): i want to be a lawyer
+User(9): THANK YOU
+Bot(9): i want to be a lawyer
+User(10): BYE
+Bot(10): ok bye
+
+Persona:
+i only eat kosher.
+i'm a piano teacher on the side.
+my favorite band is the insane clown posse.
+i'm on the soccer team.
+i want to be a lawyer.
+
+Topic and Human Opinion:
+Beginning: FRIENDS(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.43
+Robotic(↓): 57
+Interesting: 67
+Fun: 68
+Consistent: 78
+Fluent: 67
+Repetitive(↓): 79
+Topic: 65
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): HAI BRO
+Bot(1): hey
+User(2): WHAT ARE YOU DOING
+Bot(2): nothing much just walking around
+User(3): OHH KK
+Bot(3): kool
+User(4): WHAT IS YOUR FAVOURITE COLOR
+Bot(4): blue what is yous
+User(5): MY FAV YELLO
+Bot(5): that is a cool color
+User(6): YAA I LIKE
+Bot(6): kool
+User(7): WHAT IS YOUR FAV FOOD
+Bot(7): probably junk food for me
+User(8): I LIKE CHIKCNE
+Bot(8): kool
+User(9): THANK YOU FOR SPENDING
+Bot(9): kool
+User(10): BYE
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: BROTHER(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.14
+Robotic(↓): 67
+Interesting: 63
+Fun: 76
+Consistent: 70
+Fluent: 71
+Repetitive(↓): 61
+Topic: 83
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): HAI
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): I WANT YOU
+Bot(2): why do you want to make sure that i speak german
+User(3): I LIKE GERMAN GUY
+Bot(3): which languages do you speak ?
+User(4): I WANT SPEAKS IN ENGLISH
+Bot(4): i speak only english , and a little spanish
+User(5): I SPEAK ONLY ENGLISH
+Bot(5): which languages do you speak ?
+User(6): ENGLISH YOU?
+Bot(6): only english , do you speak any other languages ?
+User(7): LITTLE SPANISH
+Bot(7): spanish is actually already one of my languages
+User(8): WOW NICE
+Bot(8): i am too busy studying arabic english and french
+User(9): ARABIC NICE
+Bot(9): which languages do you speak ?
+User(10): THANK YOU
+Bot(10): i am well about to make a breakfast egg baked dish .
+User(11): BYE
+Bot(11): ops time was not up . glad to know you love baseball .
+User(12): I LOVE CRICKET
+Bot(12): potatoes . they kept the irish alive 400 years . its the only thing that grows here
+
+Persona:
+i spent a decade working in the human services field.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my favorite season is winter.
+i am studying to be a computer programmer.
+one of the languages that i am currently studying is spanish.
+
+Topic and Human Opinion:
+Beginning: TEACHER(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.86
+Robotic(↓): 76
+Interesting: 64
+Fun: 68
+Consistent: 68
+Fluent: 70
+Repetitive(↓): 63
+Topic: 74
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): HAI
+Bot(1): I am not sure. i an elementary school teacher writing.
+User(2): I LIKE MOM FOOD
+Bot(2): i am well . are you a dance, but I do in college .
+User(3): MY MOM FAV FOOD CHICKEN
+Bot(3): I used to and you travelled grocery store.
+User(4): I LIKE MOM DANCE
+Bot(4): Hi! i not the way person.
+User(5): I LIKE IT
+Bot(5): i've would you eat a concert. do you?
+User(6): I LIKE EAT CHICKEN
+Bot(6): I love of money do you to eat healthy😃
+User(7): NO
+Bot(7): you know i was adopted , play basketball with my something fun
+User(8): OK
+Bot(8): I love reading. My brother That makes no plans in the church choir. Do you have a dogs ?
+User(9): YAA I HAVE DOGS
+Bot(9): I am sorry. I am not really a saving for a Rolls novels.
+User(10): THANK YOU
+Bot(10): i do . i you a do .
+User(11): BYE
+Bot(11): No, I am not and when is your musician.
+
+Persona:
+i've a big library at home.
+i play with my friends on the playground.
+i'm a mechanical engineer.
+my name is george.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: MOTHER(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.71
+Robotic(↓): 65
+Interesting: 65
+Fun: 68
+Consistent: 64
+Fluent: 73
+Repetitive(↓): 73
+Topic: 79
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): HAI
+Bot(1): i love to cook . i love to cook .
+User(2): I LOVE COOK
+Bot(2): i love the color red . i like the color blue .
+User(3): I LOVE CHICKEN
+Bot(3): i love the color red . i like the color blue .
+User(4): I LOVE BLUE COLOR
+Bot(4): i love the color red . i like the color blue .
+User(5): I LOVE BIKE
+Bot(5): i love the color red . i like the color blue .
+User(6): I LOVE BIKE RIDE WITH CRUSH
+Bot(6): i love the color red . i like red .
+User(7): I LOVE FOOD
+Bot(7): i love the color red . i like the color blue .
+User(8): I LOVE ICECREAM
+Bot(8): i love the color red . i like the color blue .
+User(9): THANK YOU
+Bot(9): i love to cook . i love to cook .
+User(10): BYE
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i currently work for a watch dealer.
+the holidays make me depressed.
+i live with my husband in pennsylvania.
+i've not spoken in three months.
+i work as a car salesman.
+
+Topic and Human Opinion:
+Beginning: CRUSH(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.14
+Robotic(↓): 63
+Interesting: 62
+Fun: 70
+Consistent: 69
+Fluent: 72
+Repetitive(↓): 70
+Topic: 74
+
+####################
+

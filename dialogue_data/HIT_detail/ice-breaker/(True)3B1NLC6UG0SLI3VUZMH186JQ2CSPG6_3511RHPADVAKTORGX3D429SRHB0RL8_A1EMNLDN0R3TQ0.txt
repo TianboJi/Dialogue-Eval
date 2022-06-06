@@ -1,0 +1,305 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): My boyfriend and I are moving into an apartment together next week
+Bot(1): i hope so . my boyfriend and i are moving to the city soon .
+User(2): oh wow that is so exciting
+Bot(2): yes it is but i am moving to new apartment
+User(3): how nice is your new apartment
+Bot(3): it is a new apartment
+User(4): does it come with couches and stuff or is it empty
+Bot(4): i hope so too . i just got home from the pool
+User(5): Oh why were you in the pool
+Bot(5): i am in the pool and the pool is nice
+User(6): I thought you just came back
+Bot(6): i was in the pool
+User(7): where are you now
+Bot(7): i am in texas and you
+User(8): do you live in texas
+Bot(8): i live in texas and you
+User(9): I live in New york
+Bot(9): i live in texas
+User(10): yes I know you do
+Bot(10): i live in texas its pretty cool
+User(11): why is texas cool?
+Bot(11): it is a place in texas
+User(12): let's go to a party
+Bot(12): i am in texas and i love the party
+User(13): want to go to a party with me in new york?
+Bot(13): yes i love the party
+User(14): cool when will you come over
+Bot(14): i will be there if you want to go
+User(15): I want you to come over now
+Bot(15): i will be there if you want to go
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my boyfriend and i are moving into an apartment together next week.(dislike)
+Round 5: the pool(like)
+Round 8: Texas(ambivalent)
+Round 11: parties(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 11: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 47.43
+Robotic(↓): 91
+Interesting: 63
+Fun: 61
+Consistent: 54
+Fluent: 81
+Repetitive(↓): 84
+Topic: 48
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I was born in the early 80s
+Bot(1): i was born in the eighties
+User(2): cool what year?
+Bot(2): i was born in the eighties
+User(3): but what year specifically
+Bot(3): i was born in the eighties
+User(4): what's your favorite food
+Bot(4): meal i am always hungry
+User(5): I really enjoy eating strawberries
+Bot(5): but those are not just a strawberries though
+User(6): do you like strawberries?
+Bot(6): yes i love them
+User(7): cool me too!
+Bot(7): but those are not just a strawberries though
+User(8): do you like blueberries?
+Bot(8): but those are not just a strawberries though
+User(9): no they're not but they are similar
+Bot(9): but those are not just a strawberries though
+User(10): Goodbye
+Bot(10): ok bye
+
+Persona:
+horror movies are my favorites.
+i am partly deaf.
+i have one older sister.
+i take dance lessons once a week.
+eating is something i do when i'm bored.
+
+Topic and Human Opinion:
+Beginning: i was born in the early 80 s.(like)
+Round 3: strawberries(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 27.86
+Robotic(↓): 95
+Interesting: 18
+Fun: 19
+Consistent: 51
+Fluent: 19
+Repetitive(↓): 97
+Topic: 80
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i am a clean eater
+Bot(1): saxophone is my favorite instrument did you know ?
+User(2): wow I had no idea.
+Bot(2): well i an a practising vegan after all
+User(3): why do you love the saxophone and being vegan?
+Bot(3): saxophone is my favorite instrument did you know ?
+User(4): can you play the saxophone?
+Bot(4): yeah i do the saxophone yeah
+User(5): how many years have you been playing the saxophone
+Bot(5): since i can remember . i enjoy it a lot .
+User(6): Do you play in a band?
+Bot(6): yeah i do the saxophone yeah
+User(7): that's so cool do you write your own music
+Bot(7): yeah i do the saxophone yeah
+User(8): do you like the clarinet or the drums better
+Bot(8): i love the trumpet and just about all kind
+User(9): do you like the trumpet or the saxophone better
+Bot(9): i love the trumpet and just about all kind
+User(10): okay cool i'll talk to you later
+Bot(10): saxophone is my favorite instrument did you know ?
+
+Persona:
+i only eat kosher.
+i'm a piano teacher on the side.
+my favorite band is the insane clown posse.
+i'm on the soccer team.
+i want to be a lawyer.
+
+Topic and Human Opinion:
+Beginning: i am a clean eater.(ambivalent)
+Round 1: saxophone(like)
+Round 8: trumpet(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 39.43
+Robotic(↓): 90
+Interesting: 64
+Fun: 63
+Consistent: 57
+Fluent: 16
+Repetitive(↓): 85
+Topic: 51
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i am a male
+Bot(1): i am a female . what about you ?
+User(2): I just told you that I am a man
+Bot(2): hmmm . pasta is good for breakfast . you like pasta ?
+User(3): I like pasta but not for breakfast
+Bot(3): i tend to my plants and had some ripe cucumbers and tomatoes in them , healthy breakfast !
+User(4): cucumbers in your pasta?
+Bot(4): no i love some meats and some fish and salads .
+User(5): do you like meatballs?
+Bot(5): spaghetti and meatballs rock . i rake it up like yo goti says .
+User(6): lets go eat some right now
+Bot(6): of course . i am an officer . i love ford , i have been divorced and so on
+User(7): oh i'm sorry to hear that
+Bot(7): he was the man oh man . . .
+User(8): are you still in love with him?
+Bot(8): yea . i bet he is . how old is he
+User(9): why are you asking me how old your ex-husband is?
+Bot(9): what do you do for a living ? i am a legal assistant that handles real estate work .
+User(10): I work in research
+Bot(10): oh , indeed . designer french fries are my life work . they are my passion .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a male.(dislike)
+Round 2: pasta(like)
+Round 7: divorce(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 44.71
+Robotic(↓): 62
+Interesting: 57
+Fun: 52
+Consistent: 58
+Fluent: 26
+Repetitive(↓): 50
+Topic: 32
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i have been working since i was sixteen years old.
+Bot(1): i partially pets, am was that
+User(2): do you have a pet
+Bot(2): What do you feel about my do not i just well, how about you?
+User(3): i have a horse
+Bot(3): i like a huge star the movies .
+User(4): have you seen horses in movies?
+Bot(4): I like you like to my dogs
+User(5): do you have a dog?
+Bot(5): I am. so sweet. don't real estate agent.
+User(6): How many dogs do you have
+Bot(6): Hey! Are you an bad. I have friends. am.
+User(7): Is your dog your friend?
+Bot(7): I am sorry. playing with my dolls, especially is a italian food. what is your favorite color?
+User(8): My favorite color is black
+Bot(8): i do painting name of your painting
+User(9): can you paint me a picture in all black?
+Bot(9): i really said you in food
+User(10): I am very confused at our conversation right now
+Bot(10): I am an internet addiction and am a professional at the moment.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have been working since i was sixteen years old.(like)
+Round 1: pets(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 15.57
+Robotic(↓): 100
+Interesting: 7
+Fun: 2
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i try various coffees as a hobby
+Bot(1): i like to go to the gym and listen to music .
+User(2): do you like to drink coffee?
+Bot(2): no , i do not , but i do like to eat .
+User(3): what do you like to eat?
+Bot(3): i like pizza , and pizza .
+User(4): so would you say pizza is your favorite?
+Bot(4): i do not really like meat . i like to eat .
+User(5): Do you like vegetarian pizza?
+Bot(5): i do not , but i do like to eat .
+User(6): Well if you dont like vegetarian pizza or meat then what kind of pizza do you like?
+Bot(6): i love pizza , and i love it .
+User(7): I understand that you love pizza but what do you like on top of your pizza?
+Bot(7): i like pizza , and pizza .
+User(8): How often do you eat pizza?
+Bot(8): i do not , but i do like to eat .
+User(9): do you eat anything other than pizza?
+Bot(9): i do not , but i do like to eat .
+User(10): goodbye, enjoy your pizza
+Bot(10): i like to eat fish .
+User(11): what kind of fish do you like to eat
+Bot(11): i like pizza and pizza .
+
+Persona:
+i'm partly deaf.
+i am an economics major.
+i help tend the fields.
+i hate school.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: i try various coffees as a hobby.(like)
+Round 8: Pizza(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 39.43
+Robotic(↓): 100
+Interesting: 64
+Fun: 33
+Consistent: 81
+Fluent: 39
+Repetitive(↓): 87
+Topic: 46
+
+####################
+

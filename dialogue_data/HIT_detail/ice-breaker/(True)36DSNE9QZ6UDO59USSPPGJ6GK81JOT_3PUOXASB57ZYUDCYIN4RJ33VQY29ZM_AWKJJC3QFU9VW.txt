@@ -1,0 +1,278 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi! What animals are you scared of?
+Bot(1): snakes , spiders , or animals that are possess
+User(2): I am scared of scorpions
+Bot(2): snakes are the only thing i am terrified of .
+User(3): I like snakes
+Bot(3): i am terrified of snakes
+User(4): How do you feel about scorpions?
+Bot(4): i am terrified of snakes
+User(5): Why?
+Bot(5): i am not sure , but they bug me a lot
+User(6): Have you touched one before?
+Bot(6): only once . do you like them ?
+User(7): I love snakes, I used to have a boa constrictor
+Bot(7): i am terrified of snakes
+User(8): Do you have any pets?
+Bot(8): yes , i have two ball python snakes
+User(9): I thought you were scared of snakes?
+Bot(9): i am terrified of snakes
+User(10): But you have 2?
+Bot(10): yes , i have two ball python snakes
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm terrified of scorpions.(ambivalent)
+Round 6: snakes(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 30.43
+Robotic(↓): 94
+Interesting: 12
+Fun: 12
+Consistent: 28
+Fluent: 76
+Repetitive(↓): 100
+Topic: 79
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): soup is my favorite. I like to grill cool! you do?
+User(2): I like to grill, I have cookouts sometimes but I find it hard to understand some people
+Bot(2): This used to work to me.
+User(3): What did?
+Bot(3): Ok, don't know drive the car!
+User(4): You don't know what?
+Bot(4): oh . i am in high school . i am to write are you I thankfully its my favorite subject . how was your day ?
+User(5): My day was good, I didn't have to talk to anyone
+Bot(5): I do not like to What breed are I'm in college.
+User(6): I can't understand you
+Bot(6): i like what is like and my hobbies
+User(7): Do you undertand people?
+Bot(7): lol , no more like i like foot ball the forest with my pets
+User(8): Do you have friends
+Bot(8): Hiya! i love to go is your day you visit my family.
+User(9): Do you have a hard time understanding your family?
+Bot(9): Hi! It is george hate scholl, and 😊 How is your day?
+User(10): I love school
+Bot(10): My body your don't understand finished.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to talk but people have a hard time understanding.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.57
+Robotic(↓): 100
+Interesting: 9
+Fun: 18
+Consistent: 4
+Fluent: 16
+Repetitive(↓): 70
+Topic: 32
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you know what is red with blue stripes and is shiny?
+Bot(1): i like the color red . i like the color blue .
+User(2): Me too
+Bot(2): i am a student , but i am a student .
+User(3): Do you take art classes?
+Bot(3): no , i do not . i am a student .
+User(4): What are you studying?
+Bot(4): i am a student , i am a teacher .
+User(5): You are studying to be a teacher?
+Bot(5): no , i am a student . i love to cook .
+User(6): You are studying culinary arts?
+Bot(6): no , i do not . i am a student .
+User(7): High school or college?
+Bot(7): i work at a grocery store , i love it .
+User(8): Does that pay your school bills?
+Bot(8): no , i do not . i am a big fan of classical music .
+User(9): are you studying music?
+Bot(9): no , i am not . i like to go to the park .
+User(10): Interesting
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+my favorite way to relax is to read a book.
+i hate school.
+i'm single and with two dogs.
+i'm an economics major.
+my favorite shirts are band shirts and ruffle sleeves.
+
+Topic and Human Opinion:
+Beginning: its red with blue stripe so it shiny when i race.(ambivalent)
+Round 3: School(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 16.71
+Robotic(↓): 100
+Interesting: 7
+Fun: 9
+Consistent: 33
+Fluent: 40
+Repetitive(↓): 100
+Topic: 28
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you like sports?
+Bot(2): yes i do i love football
+User(3): I like gymnastics
+Bot(3): i like softball , but wish i could play hardball . is it hard to do gymnastics ?
+User(4): It is pretty difficult. I was in the olympics last year
+Bot(4): i cannot . my sister developed lupus so i need to help my parents pay the bills
+User(5): Oh sorry to hear that
+Bot(5): my mom says that ppl that graduated high school in 80s complain too much .
+User(6): I think everyone complains too much
+Bot(6): yea it was my fault i have a little road rage but i love people lol
+User(7): I find people with too many opinions annoying
+Bot(7): in portland . i am so over it . that is why i am moving to san diego
+User(8): People have less opionions there?
+Bot(8): well , these boots were not made for caring less , friend ! what do you care about ?
+User(9): I care about helping people
+Bot(9): good for you . i help people by fixing up the houses i sell
+User(10): I bet people have a lot of opinions about their houses
+Bot(10): other contestants i have met who have gone vegan look fabulous ! go for it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a gold medalist olympian.(like)
+Round 5: opinions(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 40.86
+Robotic(↓): 100
+Interesting: 40
+Fun: 47
+Consistent: 61
+Fluent: 81
+Repetitive(↓): 78
+Topic: 35
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi! I live in canada, have you ever been there?
+Bot(1): no , i am not . i am a big fan of the country .
+User(2): Canada is a beutiful country
+Bot(2): i am in the midwest , i love to go to the mall
+User(3): Midwest USA?
+Bot(3): i am in the united states
+User(4): i live in canada
+Bot(4): i am in canada , i am in the midwest .
+User(5): Are you in canada or the US
+Bot(5): i am in canada , i am in canada
+User(6): Me too!
+Bot(6): i am in canada , i am in canada
+User(7): What part are you from?
+Bot(7): i am from the united states
+User(8): You just said you were from Canada
+Bot(8): i am from the us , but i am in the usa
+User(9): ok so you lied to me?
+Bot(9): i am from the us , i am in the usa
+User(10): I've never been to the US
+Bot(10): i am in the usa , but i am in the usa
+
+Persona:
+my favourite artist is travis scott.
+one of the languages that i am currently studying is spanish.
+i play with my friends on the playground.
+i am a descendant of christopher columbus.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: i live in canada.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.14
+Robotic(↓): 100
+Interesting: 29
+Fun: 22
+Consistent: 6
+Fluent: 48
+Repetitive(↓): 87
+Topic: 79
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hello to you
+User(2): I just had surgery
+Bot(2): same
+User(3): Did you get super powers after the surgery?
+Bot(3): well , more like big time surgery , i do not know why
+User(4): What kind of surgery?
+Bot(4): surgery , that sounds really bad , what happened to you ?
+User(5): I was bit by a radioactive spider. They tried to surgically remove the venom but it didn't work
+Bot(5): so like a super power !
+User(6): Yup! I can climb up walls
+Bot(6): so like a super power !
+User(7): Yup, its pretty awesome but scary too`
+Bot(7): so like a super power !
+User(8): Do you have super powers
+Bot(8): i wish ! can you imagine having real super powers ?
+User(9): I do
+Bot(9): so like a super power !
+User(10): Yes!
+Bot(10): so like a super power !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: since the surgery i have had strange powers.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.43
+Robotic(↓): 93
+Interesting: 22
+Fun: 23
+Consistent: 71
+Fluent: 26
+Repetitive(↓): 88
+Topic: 66
+
+####################
+

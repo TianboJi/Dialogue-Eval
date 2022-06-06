@@ -1,0 +1,299 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, My name is Amy what is yours?
+Bot(1): my name is sarah , i am nancy
+User(2): I live in the suburbs what area do you live in
+Bot(2): i live in california , where are you from ?
+User(3): I am from Maryland but I moved to North Carolina 5 years ago
+Bot(3): i live in california
+User(4): Do you live in a big city?
+Bot(4): no i live in the city
+User(5): I used to live near Washington D.C. I don't think I would like living in a big city
+Bot(5): i live in the city so i don't live in the city
+User(6): Do you dream about moving to the city
+Bot(6): i want to move to the city
+User(7): Which city?
+Bot(7): i do not know how to move to the city
+User(8): Are you researching it?
+Bot(8): i am in the midwest now
+User(9): I thought you were in California?
+Bot(9): no i am not . i am in the midwest
+User(10): Oh ok
+Bot(10): i am in new york city
+User(11): That's on the east coast not midwest
+Bot(11): i am in florida , but i don't have to move to the west coast
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i dream of moving to the city.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.14
+Robotic(↓): 100
+Interesting: 18
+Fun: 13
+Consistent: 0
+Fluent: 80
+Repetitive(↓): 53
+Topic: 88
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi! How are you today?
+Bot(1): i am doing well ! i went mushroom hunting with my paps ! ever been mushroom hunting ?
+User(2): No I haven't but I have heard about it.
+Bot(2): it is a very sad romance . my husband is actually writing a book with the author
+User(3): I should write a book, I am a descendant of Christopher columbus
+Bot(3): that is a great idea to write a book .
+User(4): I should probably do some research about Christopher Columbus first
+Bot(4): oh , indeed . designer french fries are my life work . they are my passion .
+User(5): I've never heard of designer french fries, what are they?
+Bot(5): oh i love french fries ! i eat at home a lot .
+User(6): Do you make them at home?
+Bot(6): ok i am also at home right now at my tiny little house
+User(7): How do you make designer french fries?
+Bot(7): i am good how are you i like french fries but i love chicken nuggets
+User(8): I'm good. I thought you made designer french fries?
+Bot(8): oh i love french fries ! i eat at home a lot .
+User(9): Do you have a recipe?
+Bot(9): that sounds nice . i ordered takeout tonight for me and my sons .
+User(10): Did you get french fries?
+Bot(10): i am good how are you i like french fries but i love chicken nuggets
+
+Persona:
+i recently got an apartment with my best friend.
+i'm a boy.
+i went to school to be a veterinarian but hated it.
+i have five sons.
+i have been trying all types of food everywhere i go.
+
+Topic and Human Opinion:
+Beginning: i'm a descendant of christopher columbus.(ambivalent)
+Round 5: french fries(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 29.86
+Robotic(↓): 100
+Interesting: 11
+Fun: 19
+Consistent: 57
+Fluent: 65
+Repetitive(↓): 83
+Topic: 40
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi! Have you been to any good malls lately
+Bot(1): i am in the midwest . i love it .
+User(2): Do they have good malls there?
+Bot(2): i do not know . i like to go to the gym .
+User(3): Do you like shopping?
+Bot(3): i do , i love to cook .
+User(4): Do you shop for your ingredients or do you get them delivered?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): Who is your favorite composer?
+Bot(5): i like the oldies , and the outdoors .
+User(6): Do you prefer the oldies or clssical?
+Bot(6): i love to travel . i love to travel .
+User(7): Where have you traveled to?
+Bot(7): no , i do not . i am a big fan of the boston celtics .
+User(8): I am not a huge basketball fan
+Bot(8): i like to play soccer .
+User(9): i don't really like soccer either. I guess I'm just not a sports person
+Bot(9): i like to play soccer .
+User(10): Are you on a team?
+Bot(10): no , i am not . i like to go fishing .
+
+Persona:
+i am a little girl.
+i love to go to disney world every year.
+i'm a country music singer.
+my favorite movie is friday.
+i've a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: i like shopping.(like)
+Round 4: classical music(ambivalent)
+Round 6: travel(like)
+Round 7: basketball(dislike)
+Round 8: soccer(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 17.57
+Robotic(↓): 100
+Interesting: 3
+Fun: 4
+Consistent: 5
+Fluent: 56
+Repetitive(↓): 45
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello, are you married?
+Bot(1): i you working teacher .
+User(2): Do teachers get paid alot? My wife spends all my money
+Bot(2): yes 👍 are you , i looking for a new job
+User(3): Do you have a wife?
+Bot(3): I am you flirting with have siblings with my latest run. Are you a bee farmer ?
+User(4): no I run a childcare
+Bot(4): nice don't like and kindergarten teacher
+User(5): you are a kindergarten teacher?
+Bot(5): That there! How great one.
+User(6): Do you have money
+Bot(6): I u like me What about you ?
+User(7): I don't know what that means
+Bot(7): That is cool. where i'm colour favorite color?
+User(8): I likve purple, what's your favorite?
+Bot(8): why do have a also stay strong
+User(9): what?
+Bot(9): both i really have any is your an activist
+User(10): No I am not an activist, are you?
+Bot(10): Hi! you jara biryani am long story short: i've three dogs
+
+Persona:
+hello i just moved here from germany.
+i do not drink or do drugs or anything.
+i love wearing skinny jeans and leggings.
+i'm a retired gym teacher.
+i live in a house.
+
+Topic and Human Opinion:
+Beginning: my wife spends all my money.(dislike)
+Round 7: favorite color(like)
+Round 9: being an activist(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 20.29
+Robotic(↓): 100
+Interesting: 13
+Fun: 23
+Consistent: 10
+Fluent: 34
+Repetitive(↓): 38
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi! do you have any pets?
+Bot(1): no , but my dog george is basically my kid . haha .
+User(2): I have a pet fish
+Bot(2): george is such a classy name ! my dog is named name is corky .
+User(3): Do you like fish?
+Bot(3): i love them and so does my friends
+User(4): Do you have any pet fish?
+Bot(4): no , but my dog george is basically my kid . haha .
+User(5): is George your only pet?
+Bot(5): no , but my dog george is basically my kid . haha .
+User(6): What type of dog is he?
+Bot(6): cats and dogs , i take my cat to work , i work in the library
+User(7): You're allowed to take your cat to work?
+Bot(7): yes , i am the classic librarian who owns 2 cats
+User(8): Do they customers like your cat?
+Bot(8): no , but my dog george is basically my kid . haha .
+User(9): Do you take george to work?
+Bot(9): sometimes . i like to go out to the park with my friends
+User(10): cool
+Bot(10): is george your best friend ?
+
+Persona:
+i've a big library at home.
+i play with my friends on the playground.
+i'm a mechanical engineer.
+my name is george.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: i've a pet fish.(ambivalent)
+Round 5: pet dog george(ambivalent)
+Round 6: work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 28.71
+Robotic(↓): 96
+Interesting: 19
+Fun: 12
+Consistent: 41
+Fluent: 56
+Repetitive(↓): 66
+Topic: 35
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, Do you like Britney Spears?
+Bot(1): i like a lot of music especially britney spears
+User(2): What's your favorite song by her?
+Bot(2): britney spears . i think she is wonderful .
+User(3): Have you listened to her a long time
+Bot(3): for a long time . why ? do you love her ?
+User(4): Yes she is my favorite!
+Bot(4): i like a lot of music especially britney spears
+User(5): Have you ever seen her in concert?
+Bot(5): a few , but i have not gone to see them
+User(6): I would love to see her live
+Bot(6): i love to see them someday
+User(7): Maybe he will come to your city
+Bot(7): i hope he does soon ! do you like any music ?
+User(8): I love britney spears but I also like Aqua
+Bot(8): i love the creatures but i could not swim that deep
+User(9): Aqua is a band
+Bot(9): i have heard the name before yes . do you like them ?
+User(10): Yes I di
+Bot(10): what is your favorite band
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love listening to britney spears.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.86
+Robotic(↓): 91
+Interesting: 34
+Fun: 44
+Consistent: 83
+Fluent: 62
+Repetitive(↓): 42
+Topic: 94
+
+####################
+

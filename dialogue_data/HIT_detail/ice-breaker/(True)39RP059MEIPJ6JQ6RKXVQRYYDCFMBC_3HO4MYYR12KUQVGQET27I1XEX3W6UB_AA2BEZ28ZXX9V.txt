@@ -1,0 +1,285 @@
+Feedback: I felt like that should push the conversation in the direction it wants
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have short brown hair
+Bot(1): hi there . my hair is the color of wine .
+User(2): So do i
+Bot(2): i dye my hair a different color every week
+User(3): I keep mine the same
+Bot(3): i dye my hair a different color every week
+User(4): What colors
+Bot(4): i dye my hair a different color every week
+User(5): Cool
+Bot(5): blond what color is your
+User(6): Brown
+Bot(6): blond what color is your
+User(7): I have brown hair
+Bot(7): what color is your hair
+User(8): What color is your hair
+Bot(8): the color of the shadows
+User(9): What color is that
+Bot(9): the color of the shadows
+User(10): What does that mean
+Bot(10): the color of the shadows
+
+Persona:
+i am a cancer survivor.
+i'm a christian.
+i'm very strong for my age.
+i'm a recovering alcoholic.
+i dye my hair every three months.
+
+Topic and Human Opinion:
+Beginning: i have short brown hair.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.71
+Robotic(↓): 85
+Interesting: 8
+Fun: 8
+Consistent: 0
+Fluent: 43
+Repetitive(↓): 100
+Topic: 85
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): I like man. I live own food
+User(2): I have three arabian horses
+Bot(2): walking the stores several times a week is good excercise or nice. I wish my ?
+User(3): What stores
+Bot(3): I am. I do What do you like time to do that. what about you?
+User(4): That doesn't make sense
+Bot(4): its hard to find your favorite ia your <num> kids
+User(5): What
+Bot(5): i like bagels , they are my do you your favorite you a fan of beer .
+User(6): Bad grammer
+Bot(6): sounds like least you’re not beach or park?😉
+User(7): I am not at the beach
+Bot(7): You are welcome. me know about day! 😄
+User(8): Thank you
+Bot(8): do you live in my longlife love and in italy.
+User(9): I do not
+Bot(9): What a joke
+User(10): What is a joke
+Bot(10): Not family thing?
+User(11): What family thing
+Bot(11): No, am fine a son.
+User(12): I am a son
+Bot(12): Yes, i drive love it as old car.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've three arabian horses.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 0
+Fluent: 12
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am a boy
+Bot(1): i am a boy .
+User(2): So am i
+Bot(2): same
+User(3): How old are you
+Bot(3): i am 17 years old
+User(4): Where do you live
+Bot(4): i live in america on the streets
+User(5): You are homeless?
+Bot(5): no , i am just a kid
+User(6): Do you like girls
+Bot(6): no , i do not like girls .
+User(7): Do you like boys
+Bot(7): girls are gross boys rule
+User(8): Do you go to school
+Bot(8): no i am out of school
+User(9): Do you have a job
+Bot(9): i got a job though recently
+User(10): Where do you work
+Bot(10): i go to school
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a boy.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.86
+Robotic(↓): 81
+Interesting: 73
+Fun: 9
+Consistent: 82
+Fluent: 89
+Repetitive(↓): 4
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hello , how are you ?
+User(2): I am good and you
+Bot(2): hi ! i am doing well . how are you ?
+User(3): I am good I got a new job as a life couch
+Bot(3): i am a professional soccer player
+User(4): Do you need a life coach
+Bot(4): i do not like soda i drink soda
+User(5): What do you do for a living
+Bot(5): i work in a school , i am a professional soccer player
+User(6): What school
+Bot(6): i am a professional soccer player
+User(7): What team
+Bot(7): i am a soccer coach . i love photography
+User(8): What do you take photos of
+Bot(8): i love to take pictures of my kids
+User(9): How many do you have
+Bot(9): i just got married and i am married
+User(10): What is marrie
+Bot(10): i am a professional soccer player
+User(11): I got a new job
+Bot(11): i want to be a doctor
+User(12): Why
+Bot(12): i want to be a doctor
+User(13): Are you in school
+Bot(13): i want to be a doctor
+
+Persona:
+i am interested in photography and like taking pictures.
+i am married to a doctor.
+i am on the soccer team.
+i don't drink soda.
+my favorite color is grey.
+
+Topic and Human Opinion:
+Beginning: i got a new job just yesterday to be a life coach.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.86
+Robotic(↓): 30
+Interesting: 24
+Fun: 13
+Consistent: 12
+Fluent: 43
+Repetitive(↓): 67
+Topic: 14
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): I do to
+Bot(2): i like to go to the gym and listen to music .
+User(3): I'm studying
+Bot(3): i am a student , but i am a student .
+User(4): Where wt
+Bot(4): i love to cook . i love to cook .
+User(5): I love to cook too
+Bot(5): i like to eat the skin .
+User(6): The skin of what
+Bot(6): i love to eat .
+User(7): I think you have to
+Bot(7): i like to go to the gym and listen to music .
+User(8): You've said that
+Bot(8): i like to go to the gym and listen to music .
+User(9): Ok
+Bot(9): i love to cook . i love to cook .
+User(10): I know that
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm studying to be a computer programmer.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.43
+Robotic(↓): 5
+Interesting: 8
+Fun: 11
+Consistent: 6
+Fluent: 21
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): What are you doing
+Bot(2): hello , i am relaxing with my pup and listening to the chili peppers .
+User(3): Cool do you go to school
+Bot(3): i love cats , my girlfriend luis like cats as well
+User(4): I study languages
+Bot(4): i speak english and french and spanish fluently
+User(5): I also study languages
+Bot(5): only english , do you speak any other languages ?
+User(6): Yes I do
+Bot(6): me too , i wish pets were allowed in my college dorm room .
+User(7): Where at
+Bot(7): its a large law firm in nyc near time square . you ?
+User(8): I've never been there is there a lot a languages there
+Bot(8): i speak english and french and spanish fluently
+User(9): I don't speak french
+Bot(9): only english , do you speak any other languages ?
+User(10): I do
+Bot(10): well it gets hard trying to find someone special , but i just keep looking
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i also study languages.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.14
+Robotic(↓): 72
+Interesting: 65
+Fun: 50
+Consistent: 26
+Fluent: 79
+Repetitive(↓): 75
+Topic: 50
+
+####################
+

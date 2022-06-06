@@ -1,0 +1,298 @@
+Feedback: Some of these chat bots didn't really provide any feedback that I could respond to appropriately. Some of it just didn't make any sense.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how is your day ? my cow is annoying me !
+User(2): How is your cow annoying you?
+Bot(2): hi , how is your day ? my cow is annoying me !
+User(3): My day is going really well. Is there anything I can do to help you with your cow situation?
+Bot(3): sure , what can i do to help ?
+User(4): Well I wanted to know why your cow was annoying you?
+Bot(4): it was running around the mall , i thought it was a huge rat .
+User(5): Well that is really strange... Why did you bring your cow to the mall?
+Bot(5): it was running around the mall , i thought it was a huge rat .
+User(6): That's really unfortunate. Were you able to catch it?
+Bot(6): it was running around the mall , i thought it was a huge rat .
+User(7): How is your cow doing now?
+Bot(7): it was running around the mall , i thought it was a huge rat .
+User(8): So do you still think it's a rat?
+Bot(8): it was running around the mall , i thought it was a huge rat .
+User(9): Do you like rats?
+Bot(9): it was running around the mall , i thought it was a huge rat .
+User(10): Did you enjoy your time at the mall?
+Bot(10): it was running around the mall , i thought it was a huge rat .
+
+Persona:
+i'm an animal activist.
+i've a pet cow.
+i do not drink soda.
+i love to spend time with my family.
+i have a boyfriend.
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.43
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 100
+Fluent: 12
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi there.
+Bot(1): helloooo !
+User(2): Where did you go to on vacation?
+Bot(2): i do not take vacations . i have two sons i raise by myself .
+User(3): Oh wow. Are you a single parent?
+Bot(3): yes i have five adults children
+User(4): Okay. Are you close with them?
+Bot(4): yeah . big family . ten nieces and nephews .
+User(5): Wow, that really is a big family. Do you see them often?
+Bot(5): in some . we take our five children with us when we go .
+User(6): Do you have any grandchildren?
+Bot(6): no , but i have ten nieces and nephews . they are enough !
+User(7): How old are all of them?
+Bot(7): 10 and 5 . do you have any children ?
+User(8): No, I don't have any children, but I do have a niece.
+Bot(8): are they married ? do you have nieces and nephews ?
+User(9): I have one niece, she's five years old.
+Bot(9): how exciting ! my oldest sister has three .
+User(10): I love my niece, I always enjoy visiting with her.
+Bot(10): it is nice to have family around .
+User(11): I agree, I always wish I could be around them longer.
+Bot(11): it is hard to imagine life without them .
+
+Persona:
+i am expecting triplets in three months.
+i am a museum tour guide.
+my father is a farmer.
+i love disneyland and mickey mouse.
+i've five sons.
+
+Topic and Human Opinion:
+Beginning: Vacation(like)
+Round 3: Family(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 65.14
+Robotic(↓): 68
+Interesting: 15
+Fun: 24
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 1
+Topic: 86
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): I like video games too, but I also like to read. What are your favorite games?
+Bot(2): no , but my boyfriend plays call of duty .
+User(3): Ok, I've never played that game. What do you like to do?
+Bot(3): i play the violin . started at four years old .
+User(4): That's impressive. I've never been able to play any instruments. Do you play professionally at all?
+Bot(4): i have played the violin since i was in fourth grade . what about you ?
+User(5): I've never played the violin, but I thought that it would be a cool instrument to play.
+Bot(5): my mom plays the violin too ! very beautiful instrument . how long have you played for ?
+User(6): I've never played the violin.
+Bot(6): it is a teen age band . what video games do you play ? i love to play .
+User(7): I like playing sims and animal crossing.
+Bot(7): i love pandas , they are my favourite animal . so what are your hobbies ?
+User(8): My hobbies are reading, exercising, travelling, watching television and movies.
+Bot(8): cool ! what you watching . i might play video games in a bit
+User(9): I'm currently watching American Dad
+Bot(9): cool ! i never had a mom and dad so i have become pretty strong on my own .
+User(10): Wow, that must have been tough
+Bot(10): yeah she was a good woman pardon me but f . cancer
+
+Persona:
+i'm a cancer survivor.
+i met taylor swift.
+i have been working since i was sixteen years old.
+i'm 24 years old.
+i play a lot of call of duty.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 1: Hobbies(ambivalent)
+Round 9: Family(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 55.14
+Robotic(↓): 65
+Interesting: 58
+Fun: 25
+Consistent: 60
+Fluent: 100
+Repetitive(↓): 20
+Topic: 28
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you today ?
+User(2): I'm doing really well, just got out of work
+Bot(2): oh , i am sorry to hear that . i am a stay at home mom .
+User(3): No, it's a good thing, I like working. How old are your kids?
+Bot(3): i am a huge man and i love to go to the bars and eat tacos
+User(4): I like bars and tacos too. What else do you like?
+Bot(4): i love tacos and tacos .
+User(5): Okay, so just tacos it seems. Do you cook?
+Bot(5): i do . i love tacos .
+User(6): Do you like anything else?
+Bot(6): i do . i love to cook .
+User(7): What kinds of food do you like cooking the most?
+Bot(7): i do . i love tacos .
+User(8): Earlier you said you liked beer.. what kind of beer do you like?
+Bot(8): i like to eat tacos .
+User(9): Do you like anything else?
+Bot(9): i like to cook , but i love tacos .
+User(10): What is your favorite taco restaurant?
+Bot(10): i like to cook , but i love tacos .
+
+Persona:
+i've amazing children and grandchildren.
+i like tacos.
+i work at a bar at night to pay for college.
+i'm a bee farmer.
+i love to spend time with my family.
+
+Topic and Human Opinion:
+Beginning: Work(like)
+Round 3: Food(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 34.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 79
+Repetitive(↓): 100
+Topic: 61
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hey there
+Bot(1): good now that the band, u have 3 .
+User(2): What do I have 3 of?
+Bot(2): I am so sorry to like to watch army you feel better? New York has my heart
+User(3): Do you live in New York?
+Bot(3): I great, English
+User(4): Do you speak English?
+Bot(4): that's cool do you like like to hear that
+User(5): I like to hear you like New York
+Bot(5): That was not do you like no question.
+User(6): I'm sorry
+Bot(6): i hear ya ! i talk to strangers i got to see them time ! p
+User(7): Do you just talk to any stranger you see?
+Bot(7): I is it student
+User(8): Where at?
+Bot(8): I wish name is Jessica Pearson and get some time.
+User(9): What time do you need?
+Bot(9): It seems like partys and What I hate my job
+User(10): What is your job?
+Bot(10): I am lost a am back from teaching.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cats(like)
+Round 2: New York(ambivalent)
+Round 6: Talking to strangers(ambivalent)
+Round 10: Work(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 12.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 12
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): What is your favorite thing to cook?
+Bot(2): i love pizza , and i love it .
+User(3): I like pizza too. Can you cook anything else?
+Bot(3): i like to eat . i am a big fan of it .
+User(4): What is your favorite food?
+Bot(4): i like the color red . what is yours ?
+User(5): My favorite color is blue
+Bot(5): i like blue , i like red , reminds me of summer time .
+User(6): Is summer your favorite season?
+Bot(6): i like the fall . i love it .
+User(7): Me too, I love the cooler weather
+Bot(7): i love the color red . i like red .
+User(8): What other things do you like?
+Bot(8): i like to go to the gym and listen to music .
+User(9): What is your favorite type of music?
+Bot(9): i like country music . what about you ?
+User(10): I like rock music
+Bot(10): i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Art(like)
+Round 1: Cooking(like)
+Round 5: Things we like(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 45.00
+Robotic(↓): 87
+Interesting: 58
+Fun: 53
+Consistent: 36
+Fluent: 74
+Repetitive(↓): 79
+Topic: 60
+
+####################
+

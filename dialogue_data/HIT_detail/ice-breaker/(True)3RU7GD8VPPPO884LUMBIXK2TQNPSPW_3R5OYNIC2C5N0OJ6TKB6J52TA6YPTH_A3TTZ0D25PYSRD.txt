@@ -1,0 +1,311 @@
+Feedback: This was way more fun than I thought it would be :)
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey
+Bot(1): i am doing well . how are you ?
+User(2): doing good. I was playing some ping pong earlier today
+Bot(2): that is awesome . i love to go fishing .
+User(3): what kind of fish do you catch?
+Bot(3): i love pizza , and i love to eat .
+User(4): Pizza is the best. what kind is your favorite? I like cheese
+Bot(4): i like the color green . i like red .
+User(5): I like blue
+Bot(5): i like the color red . i like red .
+User(6): Red is good too
+Bot(6): i like to go to the gym and listen to music .
+User(7): What kind of music do you like?
+Bot(7): i like country music . i like country music .
+User(8): I like that too
+Bot(8): i like to go to the gym and listen to music .
+User(9): you already said that
+Bot(9): i like to go to the gym and listen to music .
+User(10): I also like to go to the gym and listen to music
+Bot(10): i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i play ping pong.(ambivalent)
+Round 2: Fishing(ambivalent)
+Round 3: Eating and pizza(like)
+Round 4: Colors(like)
+Round 6: Going to the gym and listening to music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 19
+Consistent: 0
+Fluent: 31
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): HI
+Bot(1): hey
+User(2): my favorite thing to do is try new coffees
+Bot(2): i probably drank 128 coffees last week , maybe some of yours
+User(3): I'll totally share my coffee with you
+Bot(3): i do not like coffee
+User(4): then why did you drink so much?
+Bot(4): i do not really drink any more but i use to drink jack
+User(5): fair enough. jack is pretty tasty
+Bot(5): it was . think i will have ice cream for dessert .
+User(6): What kind of ice cream will you have?
+Bot(6): ice cream ! ice cream is good . what kind do you like ? i like vanilla !
+User(7): Vanilla ice cream is good. Especially when you add chocolate sauce
+Bot(7): yes , i do like ice cream . sometimes i make my own ice cream at home .
+User(8): how do you make your ice cream?
+Bot(8): yes , i do like ice cream . sometimes i make my own ice cream at home .
+User(9): what do you put in it?
+Bot(9): your heart must be stong then do you work out
+User(10): no. do you work out?
+Bot(10): no i am retired . i have to put my glasses on to see this chat better .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i try various coffees as a hobby.(like)
+Round 5: Ice cream for dessert(like)
+Round 9: Asking if I work out(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 64.71
+Robotic(↓): 89
+Interesting: 100
+Fun: 100
+Consistent: 74
+Fluent: 48
+Repetitive(↓): 59
+Topic: 79
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I'm expecting triplets in three months
+Bot(1): in 3 months ! it is coming up fast .
+User(2): yes it is! do you have any advice for a new parent?
+Bot(2): the most i can say is , budget . i know it is not much advice .
+User(3): that is extrememly good advice
+Bot(3): it is ! for example , how old are you ?
+User(4): 36. how old are you?
+Bot(4): i am turning thirty three lol
+User(5): when is your birthday?
+Bot(5): in 3 months ! it is coming up fast .
+User(6): my triplets will be born on your birthday lol
+Bot(6): that is funny i found out i will be birthing twins nice huh .
+User(7): that's quite a surprise
+Bot(7): yeah it is my first . i am very excited for the baby to get here !
+User(8): did you misplace one?
+Bot(8): yes i will be getting marked next tuesday
+User(9): Getting marked for what?
+Bot(9): oh nothing ! i am confused .
+User(10): do you need to lie down?
+Bot(10): yes i will be getting marked next tuesday
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am expecting triplets in three months.(like)
+Round 3: How old am I(like)
+Round 6: The bot is having twins(like)
+Round 8: Getting marked on tuesday(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 73.29
+Robotic(↓): 40
+Interesting: 100
+Fun: 100
+Consistent: 81
+Fluent: 79
+Repetitive(↓): 65
+Topic: 58
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): did I tell you that I'm a gold medalist olympian?
+Bot(1): i you are a take a bath
+User(2): those sound like words
+Bot(2): oh i love the quiet . a gas love pizza alone time for me 😇
+User(3): sounds like you have a fun night planned
+Bot(3): hello, how are you? I am doing well. by them who are hobbies?
+User(4): I'm a gold medalist olympian. what about you?
+Bot(4): I like noodles enjoying it.
+User(5): Noodles are excellent
+Bot(5): I what should i course like to cook for my dog.
+User(6): What will you make for your dog?
+Bot(6): What’s up? I for yoga so the guitar
+User(7): Do you do yoga or play the guitar?
+Bot(7): I live in the about too, but I beach.
+User(8): I like the ocean
+Bot(8): the artist in me says beauty scientist. Where you favorite yes .
+User(9): I like the pacific ocean
+Bot(9): do you that makes both of hows it going today ?
+User(10): Good, how are you?
+Bot(10): i your favorite in high are my favorite .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a gold medalist olympian.(like)
+Round 1: taking a bath, I think(ambivalent)
+Round 2: a gas pizza(like)
+Round 3: Hobbies(like)
+Round 4: Noodles(like)
+Round 5: Cooking for a dog(like)
+Round 6: Something about yoga and a guitar(ambivalent)
+Round 7: Living at the beach(like)
+Round 9: Gibberish(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.14
+Robotic(↓): 100
+Interesting: 14
+Fun: 35
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Did I tell you that I'm a descendant of Christopher Columbus?
+Bot(1): no , i did not know ! where do you live ?
+User(2): In Ohio
+Bot(2): ohio was where i was born and raised
+User(3): Really? What city?
+Bot(3): ohio was where i was born and raised
+User(4): What's your favorite city in Ohio?
+Bot(4): cleveland is a great city .
+User(5): I like Cleveland too. Where else have you been?
+Bot(5): cleveland is a great city .
+User(6): I agree
+Bot(6): have you ever been outside of ohio ?
+User(7): I've been to Florida and Colorado
+Bot(7): have you ever been outside of ohio ?
+User(8): No. Have you?
+Bot(8): not when i was there , but i have heard there are many
+User(9): Are there many Ohioans in Ohio?
+Bot(9): yeah , quite a few . hows the weather there ?
+User(10): It's cold and rainy
+Bot(10): have you ever been outside of ohio ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a descendant of christopher columbus.(like)
+Round 3: Where are you from(like)
+Round 9: Weather(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 64.14
+Robotic(↓): 46
+Interesting: 92
+Fun: 95
+Consistent: 94
+Fluent: 67
+Repetitive(↓): 91
+Topic: 38
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): My favorite color is yellow. What's yours?
+Bot(1): i love my ford ford . i love it .
+User(2): Do you drive a Ford?
+Bot(2): i do not . i am a big fan of pink .
+User(3): Pink is an excellent color
+Bot(3): i like to drive my ford mustang .
+User(4): I like Mustangs. What color is it?
+Bot(4): i like red and i am a big fan of pink
+User(5): What color is your Mustang?
+Bot(5): i like blue and i am a big fan of pink
+User(6): Is your Mustang blue?
+Bot(6): i like blue . i like to wear black and wear jeans .
+User(7): I like to wear red
+Bot(7): i love red . i like red too .
+User(8): What is your favorite red thing?
+Bot(8): i like red , reminds me of summer time .
+User(9): Me too
+Bot(9): i like red too . i like red
+User(10): I like red too
+Bot(10): red is my favorite color .
+
+Persona:
+i prefer being inside.
+i used to be a painter but now i am a housekeeper.
+i love wearing skinny jeans and leggings.
+i am a museum tour guide.
+i drive a ford pinto.
+
+Topic and Human Opinion:
+Beginning: my favorite color is yellow.(like)
+Round 1: "I love my ford ford"(ambivalent)
+Round 2: Back to colors(like)
+Round 3: The bot drives a Ford Mustang(like)
+Round 6: Colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 22.57
+Robotic(↓): 100
+Interesting: 5
+Fun: 25
+Consistent: 85
+Fluent: 0
+Repetitive(↓): 100
+Topic: 43
+
+####################
+

@@ -1,0 +1,337 @@
+Feedback: No Comments
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How do you do?
+Bot(2): same
+User(3): Do you like Tv?
+Bot(3): yes
+User(4): which programs do you like most?
+Bot(4): i think i like tv more
+User(5): me too watch tv programs well
+Bot(5): what do you like to watch ?
+User(6): Movie channels
+Bot(6): what kind of movies do you like
+User(7): Thriller movies and you?do you like movies?
+Bot(7): yes , i love horror movies
+User(8): what other channels do you watch?
+Bot(8): i watch whatever is on
+User(9): so you are asuper fan of tv
+Bot(9): yes i do , what do you watch ?
+User(10): i watch news,sports,songs etc
+Bot(10): and which are those then
+User(11): sports
+Bot(11): what do you like to watch ?
+User(12): Movies
+Bot(12): and which are those then
+User(13): Songs
+Bot(13): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Tv(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.29
+Robotic(↓): 60
+Interesting: 63
+Fun: 61
+Consistent: 66
+Fluent: 68
+Repetitive(↓): 65
+Topic: 68
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hi , how are you doing ?
+User(2): I'm doing good ,how about you?
+Bot(2): i'm doing well , how about you ?
+User(3): Very nice,how do you entertain yourself?
+Bot(3): i like to swim , but i am not very good at it .
+User(4): wow,i do like swimming
+Bot(4): i like to swim , but i also like to swim .
+User(5): but dont know how to swim
+Bot(5): i like to swim , but i also like to swim
+User(6): i heard swimming is a very good exercise
+Bot(6): i like to swim , but i also like to swim
+User(7): swimming is giving exercise in full body
+Bot(7): i do not really like swimming
+User(8): why what is the problem in it?
+Bot(8): i like to eat out and eat out
+User(9): are you a foodie?
+Bot(9): i am a huge fan of it
+User(10): me too a foodie
+Bot(10): i love to eat , i am a huge fan of sushi
+User(11): Thank you
+Bot(11): i love to eat , i love to cook
+
+Persona:
+i am a huge star wars fan.
+i'm an elementary school teacher.
+i also like to cook but i am not very good at it.
+i helped design the game starcraft.
+i'm a swim coach at my local pool.
+
+Topic and Human Opinion:
+Beginning: entertainment(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.14
+Robotic(↓): 58
+Interesting: 59
+Fun: 59
+Consistent: 60
+Fluent: 64
+Repetitive(↓): 68
+Topic: 70
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): HiHow are you?
+Bot(1): i am good how are you ?
+User(2): i am doing good
+Bot(2): cool ! do you like singing ? i sing for my school chorus
+User(3): i like to sing
+Bot(3): no i do not want to sing in front of people jeez
+User(4): i sing movie songs
+Bot(4): folk songs , i currently hold a black belt in karate . what do you like to draw ?
+User(5): i like to draw birds
+Bot(5): wow you are an artist . i fly planes for southwest
+User(6): folk songs i like,good to hear about flying
+Bot(6): i do like music , i listen to punk a lot . do you enjoy punk rock ?
+User(7): i do listen to melodies
+Bot(7): i do ! paperback writer is my favorite song . i always wanted to be a writer .
+User(8): good,writing is a fantastic job
+Bot(8): what do you like to write
+User(9): stories i would like to write
+Bot(9): i think i am way too critical of myself to write . what do you write about ?
+User(10): mix of two stories
+Bot(10): i read all the time . i travel a lot and read tons on my flights .
+User(11): yes reading on travel is very good
+Bot(11): i simply love traveling and spread the message of god .
+User(12): me too love travelling
+Bot(12): traveling is nice , you get to enjoy many cultures .
+User(13): yes definitely for sure can seee many cultures
+Bot(13): that is bwhybi married an exotic woman . . . but cancer is taking her slowly
+User(14): worrying dont do nothing
+Bot(14): on a trip to california once my friend and i started a small forest fire . . .
+User(15): did you do the same
+Bot(15): started out impersonating paul mccartney and ended up owning several casinos
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.71
+Robotic(↓): 60
+Interesting: 62
+Fun: 64
+Consistent: 66
+Fluent: 68
+Repetitive(↓): 70
+Topic: 74
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i am doing good
+Bot(2): i am a student , i am a teacher .
+User(3): how about you? me too a teacher
+Bot(3): i do not know how to make it . i am a nurse .
+User(4): i am not a nurse i am ateacher
+Bot(4): i am sorry to hear that . i am sorry to hear that .
+User(5): do you sing well
+Bot(5): i do , i love to cook .
+User(6): what is your favourite dish to cook
+Bot(6): i like to eat fish .
+User(7): which kind of fish do you eat?
+Bot(7): i like pizza and pizza .
+User(8): i like burger and burger
+Bot(8): i like to eat too .
+User(9): i too like pizza
+Bot(9): i like to eat fish .
+User(10): i like to eat chicken
+Bot(10): i like to eat fish .
+User(11): i like to eat mutton too
+Bot(11): i like to eat fish .
+User(12): i like to eat crab too
+Bot(12): i like to eat fish .
+User(13): i like to eat vegetablels too
+Bot(13): i like to eat fish .
+User(14): what would you do in free time?
+Bot(14): i like to go to the park and listen to music .
+User(15): me too love listening to music
+Bot(15): i like to listen to music .
+User(16): thats great to hear
+Bot(16): i love to cook . i love to cook .
+
+Persona:
+hey my name is larry and i'm a chef.
+i do not believe in god.
+i live with my husband in pennsylvania.
+in my spare time i do volunteer work.
+i am employed by the us postal service.
+
+Topic and Human Opinion:
+Beginning: singing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.43
+Robotic(↓): 58
+Interesting: 58
+Fun: 62
+Consistent: 65
+Fluent: 63
+Repetitive(↓): 64
+Topic: 76
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): That is I don't like do you have?
+User(2): How do you do?
+Bot(2): I do, mountain biking. You'll enjoy it.
+User(3): You do really
+Bot(3): Hi, studied what do is my wife Diana.
+User(4): great to hear about it
+Bot(4): I like wait to move out boat and run.
+User(5): do you cook?
+Bot(5): I am sorry. even work from to travel?
+User(6): you like travelling?
+Bot(6): How are you you you man nice have you been married?
+User(7): yes im married
+Bot(7): it is going well . i have been playing with my the kids. Which makes everything going ?
+User(8): going smooth
+Bot(8): Hey! What are you doing? 🧐. Some at a restaurant i in insurance business
+User(9): nice to hear that,going to start a restaurant
+Bot(9): I you on that.
+User(10): what kind of insurance you do?
+Bot(10): I have a flesh secret id: are it is hard to care about
+User(11): secret id
+Bot(11): congrats do you want to credit card bahasa .
+User(12): no i dont want it now
+Bot(12): I am you you need worker.
+User(13): you need worker
+Bot(13): I overcome name is kalpesh music and listen to music
+User(14): listening to music is i like to do most
+Bot(14): i i am a walk dogs i hike every weekend . 3 dogs , wow !
+User(15): 3 doge how do you manage
+Bot(15): i can not say left me because i i am sure it will .
+User(16): ok
+Bot(16): I is cool hate military studies
+User(17): it's a kind of strict rules in that military
+Bot(17): i'm great, she leave me all pet turtle. you?
+User(18): turtle,good
+Bot(18): I'm love great.
+
+Persona:
+i waitress during the day to supplement my income.
+i produce music for artists.
+my father is an electrician.
+i attend church every week.
+i have three dogs.
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.86
+Robotic(↓): 58
+Interesting: 61
+Fun: 62
+Consistent: 66
+Fluent: 67
+Repetitive(↓): 68
+Topic: 68
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How do you do?
+Bot(2): good and you ?
+User(3): me too good
+Bot(3): good . do you have any pets ?
+User(4): yes i have
+Bot(4): sweet
+User(5): do you like fishing?
+Bot(5): yes i love walking and fishing
+User(6): walking is a good exercise
+Bot(6): walking is my favorite past time
+User(7): fishing is my hobby
+Bot(7): fishing is my favorite thing
+User(8): good to hear
+Bot(8): it is a hobby of mine
+User(9): we both have same hobbies
+Bot(9): yeah i have two dogs woof
+User(10): my dog name is cooper
+Bot(10): my dog is named sally
+User(11): do you have fish tank at your home?
+Bot(11): i have one in my backyard
+User(12): me too have one
+Bot(12): i have one in my backyard
+User(13): what is your other hobbies?
+Bot(13): i like to take walks by the lake
+User(14): walking is good,that too in lake side can see nice sceneries
+Bot(14): i like to take walks by the lake
+
+Persona:
+my favourite artist is travis scott.
+one of the languages that i am currently studying is spanish.
+i play with my friends on the playground.
+i am a descendant of christopher columbus.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: fishing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.29
+Robotic(↓): 61
+Interesting: 62
+Fun: 62
+Consistent: 60
+Fluent: 59
+Repetitive(↓): 59
+Topic: 64
+
+####################
+

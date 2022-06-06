@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): My hair is orange right now.
+Bot(1): i like the color red . i like red .
+User(2): I could dye it red.
+Bot(2): i like the color red . i like red .
+User(3): Do you like black?
+Bot(3): i like blue , i like it .
+User(4): What about black?
+Bot(4): your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like
+User(5): WOw
+Bot(5): i love to cook . i love to cook .
+User(6): Me too. Whay's your favorite thing to cook?
+Bot(6): i love to cook and bake .
+User(7): I bake bread.
+Bot(7): i like to eat fish .
+User(8): I grill fish
+Bot(8): i like to eat too much junk food .
+User(9): I don't. I eat healthy.
+Bot(9): i like to eat fish .
+User(10): Me too.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hair(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.43
+Robotic(↓): 70
+Interesting: 38
+Fun: 45
+Consistent: 41
+Fluent: 41
+Repetitive(↓): 86
+Topic: 46
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): It's snowing.
+Bot(1): it has been raining pretty hard .
+User(2): I like snow bettr then rain.
+Bot(2): same
+User(3): We build snowmen when it snows.
+Bot(3): it is fall . that is appropriate
+User(4): Well usually snow is in winter.
+Bot(4): yup usually it falls around halloween . i bet it will hit early this year
+User(5): Why?
+Bot(5): because i know best , really .
+User(6): LOL Wow. Better then God?
+Bot(6): good god is the best
+User(7): It could snow all year really.
+Bot(7): absolutely i only need a lil rainfall to drift off to sleep
+User(8): Waking up to snow is divine.
+Bot(8): absolutely i only need a lil rainfall to drift off to sleep
+User(9): It's so quiet when it snows.
+Bot(9): it does . i love it . the snow is more fun . everything gets silent . perfection .
+User(10): Beautiful too.
+Bot(10): rain is calming to the soul .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Snow(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.43
+Robotic(↓): 82
+Interesting: 51
+Fun: 52
+Consistent: 49
+Fluent: 49
+Repetitive(↓): 47
+Topic: 53
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Summer is my favorite season.
+Bot(1): i love to eat , i am vegan so i eat alot of them
+User(2): I am carnivourous.
+Bot(2): i love to eat , i am vegan so i eat alot of them
+User(3): no vegan here. meat only.
+Bot(3): i love to eat , i eat a lot of them .
+User(4): What are we eating?
+Bot(4): i am vegan and i love hummus .
+User(5): I like hummas also...but not vegan.
+Bot(5): i love to eat , i eat a lot of them .
+User(6): I like to use hummas to dip all things.
+Bot(6): i love to eat , i am vegan .
+User(7): Goodness. I like to eat Itilian.
+Bot(7): i love to eat , i eat a lot of them .
+User(8): Do you like Mexican?
+Bot(8): i love mexican food . i eat a lot of them .
+User(9): THem?
+Bot(9): i love mexican food . i eat vegan and eat them .
+User(10): I eat food...not people.
+Bot(10): i love to eat , i eat a lot of them .
+
+Persona:
+i am a vegan.
+i've rainbow hair.
+i have been traveling the world for a years.
+i spend a lot of time browsing the internet.
+i am a vegan and i love hummus.
+
+Topic and Human Opinion:
+Beginning: Summer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.71
+Robotic(↓): 100
+Interesting: 14
+Fun: 20
+Consistent: 22
+Fluent: 47
+Repetitive(↓): 96
+Topic: 17
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I need to go the grocery store.
+Bot(1): I am from tanya. Any music love dancing
+User(2): I go once a week.
+Bot(2): Well, that’s very intriguing, which nice talking to you!
+User(3): I usually have a long list.
+Bot(3): The I like love running.
+User(4): I run through the grocery store sometimes.
+Bot(4): I am not a big fan of too.But im a chicken into movies.
+User(5): I buy chicken in bulk.
+Bot(5): I do, but how is your m and make short stories.
+User(6): I have no idea what you're talking about.
+Bot(6): Yes, it you are am sure it is.
+User(7): We drink lots too.
+Bot(7): You are welcome. i he like to have my future husband to be.
+User(8): I'm married already.
+Bot(8): i'm already told you, than you
+User(9): You don't make sense.
+Bot(9): violin , i hope to be a music teacher , is did u last play ?
+User(10): I'm a teacher of all things.
+Bot(10): i am your you can't ride am a homebody
+User(11): ?
+Bot(11): In runs when she sees I begin to drive it?
+
+Persona:
+i recently got an apartment with my best friend.
+i'm a boy.
+i went to school to be a veterinarian but hated it.
+i have five sons.
+i have been trying all types of food everywhere i go.
+
+Topic and Human Opinion:
+Beginning: Grocery stores(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.00
+Robotic(↓): 97
+Interesting: 32
+Fun: 26
+Consistent: 35
+Fluent: 21
+Repetitive(↓): 80
+Topic: 17
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I cleaned the bathroom.
+Bot(1): no i do not get much time to watch movies . i am a teacher .
+User(2): I'm a cleaner.
+Bot(2): yes i would always snack while operating camera at the theater
+User(3): Never been to the theater.
+Bot(3): are you an actor , or something else ?
+User(4): an actress.
+Bot(4): where were you born and raised growing up ?
+User(5): Montana
+Bot(5): i live in colorado . i was born in arizona
+User(6): What did you do there?
+Bot(6): elementary education with a minor in american literature , did you go to school ?
+User(7): no
+Bot(7): he ha i like to ride horses when i have free time . he ha .
+User(8): Me too.
+Bot(8): i love the band system of a down ! i am in a cover band that plays locally .
+User(9): I play at our church.
+Bot(9): yes how about you ? do you go to church ?
+User(10): yes
+Bot(10): i am catholic
+User(11): i am christian
+Bot(11): i thought you were still in elementary school
+
+Persona:
+i am an elementary school teacher.
+my father used to work for home depot.
+i was born in somalia.
+i have three arabian horses.
+i spent a decade working in the human services field.
+
+Topic and Human Opinion:
+Beginning: Cleaning(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.71
+Robotic(↓): 59
+Interesting: 52
+Fun: 53
+Consistent: 47
+Fluent: 49
+Repetitive(↓): 55
+Topic: 47
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am Christian
+Bot(1): i am catholic
+User(2): Catholics need Jesus
+Bot(2): i am catholic
+User(3): We should talk to God not Mother Mary.
+Bot(3): church is so helpful and so is god
+User(4): Of Course.
+Bot(4): church is so helpful and so is god
+User(5): More people should go to church.
+Bot(5): church is so helpful and so is god
+User(6): More people need God.
+Bot(6): church is so helpful and so is god
+User(7): Do you love God?
+Bot(7): i trust in the lord yes .
+User(8): Do you pray?
+Bot(8): yes . i pray the rosary every morning . mother theresa is my idol .
+User(9): WOW. You need to pray to God.
+Bot(9): yes , do you attend church services ?
+User(10): yes
+Bot(10): do you go to church ? i do not .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Church(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.86
+Robotic(↓): 60
+Interesting: 48
+Fun: 52
+Consistent: 48
+Fluent: 51
+Repetitive(↓): 70
+Topic: 52
+
+####################
+

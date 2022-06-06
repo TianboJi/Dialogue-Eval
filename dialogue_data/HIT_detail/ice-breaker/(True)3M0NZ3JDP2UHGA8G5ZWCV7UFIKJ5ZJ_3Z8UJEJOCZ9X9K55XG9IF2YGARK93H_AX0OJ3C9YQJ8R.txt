@@ -1,0 +1,293 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): Yes i like the collect spiderman cards
+Bot(2): i collect them all the time
+User(3): he is my favorite superhero
+Bot(3): i like superman he is my favorite superhero
+User(4): why is he your favorite
+Bot(4): superman is my favorite superhero
+User(5): i also have spiderman comics
+Bot(5): superman is my favorite . i also like superman
+User(6): do you have any superman cards
+Bot(6): superman is my favorite . i like superman
+User(7): I like superman too
+Bot(7): superman is my favorite superhero
+User(8): do you like the old superman or new one
+Bot(8): superman is my favorite . i like superman
+User(9): do you like superman movies
+Bot(9): superman is my favorite . i like superman
+User(10): do you like any other superheroes
+Bot(10): i like superman and i love them
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: spiderman is my favorite.(like)
+Round 5: He changed it to superman(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 35.86
+Robotic(↓): 90
+Interesting: 11
+Fun: 9
+Consistent: 69
+Fluent: 32
+Repetitive(↓): 36
+Topic: 56
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What is your favorite color
+Bot(1): I am good. you don't speak there. my band .
+User(2): Do you like the color yellow
+Bot(2): Sure. listen to it?
+User(3): Yellow is a color not a band
+Bot(3): i'm from the southern united piano am a you at oxford 😁
+User(4): My favorite color is yellow
+Bot(4): that is great up i want to who is a prodigy
+User(5): What do you like
+Bot(5): i great, u have the piano and sing
+User(6): I have a yellow piano
+Bot(6): Hey! Are you scared still studying additionally hat am.
+User(7): Did you know that sunflowers are yellow
+Bot(7): look good thanks. What's are just my thing
+User(8): Do you like yellow or blue
+Bot(8): i'm good . i just washed my hair and finished sewing a dress . ca not m i am from you doing today ?
+User(9): Yellow is very bright thats why its my favorite
+Bot(9): I like to say love cats and cats
+User(10): I have a yellow cat
+Bot(10): I like know Lionel Messi micheal jackson.
+
+Persona:
+i'm a vegan.
+i compete in dog agility classes.
+i just got a job working in a gas station.
+i just broke up with boyfriend two months ago.
+i've three children.
+
+Topic and Human Opinion:
+Beginning: my favorite color is yellow.(like)
+Round 1: Random gibberish(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 20.29
+Robotic(↓): 87
+Interesting: 11
+Fun: 20
+Consistent: 0
+Fluent: 6
+Repetitive(↓): 8
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): How are you
+Bot(1): i am doing well . just got done walking my dog .
+User(2): I had to have a transplant yesterday
+Bot(2): i am sorry to hear that . i am sorry to hear that .
+User(3): Its okay i had transplant to remove my gallbladder
+Bot(3): i am sorry to hear that . i am sorry to hear that .
+User(4): The transplant was very painful
+Bot(4): i love to go fishing .
+User(5): What do you like to fish for
+Bot(5): i do , i love to eat .
+User(6): Are you good at fishing
+Bot(6): i do not know what to say .
+User(7): Where do you go fishing
+Bot(7): no , i do not , but i do like to go fishing .
+User(8): Fishing is good
+Bot(8): i like to go to the gym and listen to music .
+User(9): what kind of music do you like
+Bot(9): i like country music . what about you ?
+User(10): I like rock music
+Bot(10): i like to listen to music .
+
+Persona:
+i prefer being inside.
+my dad taught me everything i know.
+i've short hair.
+i like riding horses.
+i often shop for shoes and watches.
+
+Topic and Human Opinion:
+Beginning: i had to have a transplant.(like)
+Round 4: Fishing(ambivalent)
+Round 8: Hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 35.71
+Robotic(↓): 91
+Interesting: 71
+Fun: 34
+Consistent: 3
+Fluent: 90
+Repetitive(↓): 62
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like mickey mouse
+Bot(1): i am not a fan of sports , but i love poetry , music , and supporting others
+User(2): have you ever been to disneyland
+Bot(2): no but i would love to go
+User(3): disneyland is my favorite i like mickey mouse
+Bot(3): i love going to walt disney world every year
+User(4): disneyland is so much fun
+Bot(4): yeah its so fun too bad its starting to get cold
+User(5): disneyland is very beautiful at winter time
+Bot(5): yes , and the changing trees are beautiful
+User(6): Mickey mouse is so funny
+Bot(6): it is a good sport except when it is a 1000 degrees outside
+User(7): i think his big ears are the best
+Bot(7): i keep my hair long for a boy
+User(8): I will always love mickey mouse
+Bot(8): he is a legend in this lifetime
+User(9): he will always be a legend
+Bot(9): he is a legend in this lifetime
+User(10): My mom likes mickey mouse too
+Bot(10): my mom passed when she was 60 years old
+
+Persona:
+i played football for a division a college.
+i enjoy poetry.
+i won a gold medal in the 1992 olympics.
+i am 60years old.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: i love disneyland and mickey mouse.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.71
+Robotic(↓): 60
+Interesting: 40
+Fun: 52
+Consistent: 56
+Fluent: 75
+Repetitive(↓): 60
+Topic: 59
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): what do you do for work
+Bot(1): i do not work what about you
+User(2): I am retired
+Bot(2): i am actually retired
+User(3): Do you enjoy being retired
+Bot(3): no not since i retired
+User(4): I enjoy being retired
+Bot(4): when did you retire from work ?
+User(5): Recently but i am living a great life
+Bot(5): that is great to hear
+User(6): Retirement has given me opportunity for freetime with family
+Bot(6): that is wonderful , i wish i had time for family
+User(7): why dont you
+Bot(7): because i no longer work due to age
+User(8): then you should have plenty of time spend with family
+Bot(8): yeah most of the time i wish i had more time with my family
+User(9): why dont you go visit them
+Bot(9): why do you not go visit them ?
+User(10): I like being retired
+Bot(10): why do you love it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm retired and living the great life.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.14
+Robotic(↓): 62
+Interesting: 30
+Fun: 35
+Consistent: 56
+Fluent: 73
+Repetitive(↓): 47
+Topic: 59
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): How are you
+Bot(1): i am great just dyed my hair sunset red
+User(2): Have you ever broken a bone
+Bot(2): well like me , she is short and he decided he wanted to date a tall model .
+User(3): I have been dating this guy forever
+Bot(3): you have never been on a date ? how old are you ?
+User(4): i am 30
+Bot(4): that is so great . i would love a four year old .
+User(5): I have four children myself
+Bot(5): i have four children .
+User(6): How old are they
+Bot(6): they are twins , 12 years old .
+User(7): That is great my oldest is 16
+Bot(7): what color hair do you have ?
+User(8): i have brown hair
+Bot(8): brown hair ! how about you ?
+User(9): Same
+Bot(9): i love to relax with my fluffy cat named cow
+User(10): That is sweet
+Bot(10): i like arts and crafts and i love fishing with my husband . we go fishing a lot .
+
+Persona:
+i have short brown hair.
+i'm four years old.
+i live in canada.
+my boyfriend and i are moving into an apartment together next week.
+i had cancer but its gone now.
+
+Topic and Human Opinion:
+Beginning: i never broke a bone in my body ever in my life.(like)
+Round 2: Dating(like)
+Round 4: Children(like)
+Round 7: Hair color(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 58.29
+Robotic(↓): 23
+Interesting: 70
+Fun: 71
+Consistent: 15
+Fluent: 70
+Repetitive(↓): 8
+Topic: 13
+
+####################
+

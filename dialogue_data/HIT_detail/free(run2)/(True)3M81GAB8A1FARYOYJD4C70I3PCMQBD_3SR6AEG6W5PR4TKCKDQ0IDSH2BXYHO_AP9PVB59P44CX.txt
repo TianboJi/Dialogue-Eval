@@ -1,0 +1,322 @@
+Feedback: N/A.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey there
+Bot(1): how are you ? i just got back from the library !
+User(2): I'm good! I am about to eat.
+Bot(2): oh really ? what are thinking about eating ?
+User(3): I can't decide, salty or sweet?
+Bot(3): haha . both ! is that your favorite food ?
+User(4): My favorite foods are salty or savory.
+Bot(4): delicious ? i like to eat at home . . .
+User(5): I like to eat at out.
+Bot(5): i like to eat at the house . its cheaper
+User(6): Yes, but you also have to cook and wash the dishes after you eat.
+Bot(6): i like to eat at the house . its cheaper
+User(7): What is your favorite food?
+Bot(7): i like chicken or macaroni and cheese .
+User(8): I love macaroni and cheese too!
+Bot(8): i like chicken or macaroni and cheese .
+User(9): You just said that.
+Bot(9): you told me !
+User(10): How do you cook chicken?
+Bot(10): i make mostly chicken stir fry .
+User(11): Does that use rice?
+Bot(11): yes with saffron ! its my go to rice most of the time !
+User(12): I heard saffron is crazy expensive!
+Bot(12): i heard its very expensive .
+User(13): But ramen sure isn't!
+Bot(13): i know right ! i cant get enough of that stuff !
+User(14): What flavor is the best?
+Bot(14): cheese sandwich i would say .
+User(15): I didn't know they had a cheese sandwich flavor ramen noodle?
+Bot(15): yeah , and mac and cheese
+User(16): Outstanding.
+Bot(16): do you like tartar sauce ?
+User(17): Not really, it's too spicy.
+Bot(17): too spicy for my taste .
+User(18): Do you like wasabi?
+Bot(18): too spicy for my taste .
+User(19): What about carrot?
+Bot(19): how about anything with lamb ?
+
+Persona:
+i just bought a house recently.
+my father keeps trying to set me up on blind dates.
+my favorite food is papaya.
+my wife spends all my money.
+i've a big library at home.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.00
+Robotic(↓): 88
+Interesting: 78
+Fun: 79
+Consistent: 30
+Fluent: 56
+Repetitive(↓): 86
+Topic: 39
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Okay, if you could only watch one movie, what would it be?
+Bot(1): you are enjoy you friends .
+User(2): Interesting choice, what's that about?
+Bot(2): It's think Do you hear all the time.
+User(3): What?
+Bot(3): What hate rules of crap.
+User(4): Is that a movie?
+Bot(4): that are a fast typer kind of shoes are they ?
+User(5): It feels like I'm in a movie with bad robots...
+Bot(5): yes , i What is your navy .
+User(6): Aye Aye Captain!
+Bot(6): I have kind of music of the country.
+User(7): Do you like pirates?
+Bot(7): That is cool. go to gym too my bike. 😉
+User(8): bike to gym go cool
+Bot(8): triplets in not like i you :)
+User(9): I like bikes with three seats too!
+Bot(9): I you like spending I love yoga
+User(10): tell me more about yoga
+Bot(10): Please make 20 in the improvement.
+
+Persona:
+i like to listen to rock music while working.
+i have visited spain a times.
+i'm a country music singer.
+i'm a male.
+i visit europe twice a year.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 6: Pirates(ambivalent)
+Round 7: bikes(dislike)
+Round 9: yoga(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 26.43
+Robotic(↓): 100
+Interesting: 6
+Fun: 12
+Consistent: 93
+Fluent: 0
+Repetitive(↓): 26
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like dogs?
+Bot(1): i do , i love dogs . i love dogs .
+User(2): Do you own one?
+Bot(2): no , i do not . i am a big fan of classical music .
+User(3): Who is your favorite composer?
+Bot(3): i like the oldies , and the outdoors .
+User(4): Never heard of that before, care to explain?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): Why is that?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): Oh, okay, so you like classical music?
+Bot(6): i do , i like country music .
+User(7): What about classical?
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): Do you like summer?
+Bot(8): i do , i love it . i love it .
+User(9): You enjoy the sunshine?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): Are we back to classical music again?
+Bot(10): no , i do not . i like to go to the park .
+
+Persona:
+when i grow up i want to be a physical therapist.
+i have been retired for a years.
+two dogs live with me.
+my favorite movie is mean girls.
+i've a children and a dogs.
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 2: Classical music(dislike)
+Round 7: Summer(like)
+Round 9: Classical music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 16.71
+Robotic(↓): 100
+Interesting: 23
+Fun: 15
+Consistent: 27
+Fluent: 32
+Repetitive(↓): 100
+Topic: 20
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you think art is beautiful?
+Bot(1): yes i do , i love art
+User(2): Do you prefer painting or sculpture?
+Bot(2): i do , i love art , especially painting
+User(3): I like painting too!
+Bot(3): i do , i paint landscapes , paint landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes
+User(4): Wow! Do you paint portraits?
+Bot(4): i paint pictures of my paintings .
+User(5): How meta of you. Who's a famous artist?
+Bot(5): i do , i paint landscapes , paint landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes , landscapes .
+User(6): What kind of landscapes?
+Bot(6): i paint pictures of watercolors . i paint landscapes .
+User(7): Watercolor is pretty difficult to work with.
+Bot(7): i paint pictures of watercolors . i paint landscapes .
+User(8): What colors do you use most?
+Bot(8): i like painting pictures . i paint landscapes .
+User(9): Do you know you exist?
+Bot(9): i do not paint , i paint landscapes .
+User(10): Who are you?
+Bot(10): i am not sure . i am not familiar with art .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Art(like)
+Round 8: Self awareness(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 47.14
+Robotic(↓): 89
+Interesting: 63
+Fun: 56
+Consistent: 54
+Fluent: 33
+Repetitive(↓): 60
+Topic: 73
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): How many oceans are there?
+Bot(1): i do not even know , a lot
+User(2): I bet. What is the difference between an ocean and a sea?
+Bot(2): i do not know . i drink so i do not have to think about it .
+User(3): Oh yeah! Drink like a sailor.
+Bot(3): i never drink . some say it might loosen me up but i do not think so .
+User(4): Have you ever swam in the ocean?
+Bot(4): no . i become one with the alcohol . i am not a noob .
+User(5): What alcohol do you like?
+Bot(5): it is a person who drinks no alcohol . i am content very .
+User(6): Do you like vodka?
+Bot(6): i do not . i am a recovering alcoholic so i like junk
+User(7): what about Non alcoholic beer?
+Bot(7): i do not drink myself .
+User(8): Do you like soda then?
+Bot(8): i do not . i am a recovering alcoholic so i like junk
+User(9): Soda is junk though.
+Bot(9): i am too young to drink anything stronger than soda
+User(10): Then how are you a recovering alcoholic?
+Bot(10): friends say its because i am so religious and different .
+User(11): That's very self aware of you to say, god speed brother.
+Bot(11): it scares me a lot especially that i have cancer and am soon facing it .
+
+Persona:
+i am a cancer survivor.
+i'm a christian.
+i'm very strong for my age.
+i'm a recovering alcoholic.
+i dye my hair every three months.
+
+Topic and Human Opinion:
+Beginning: Ocean(like)
+Round 4: drinking(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 51.86
+Robotic(↓): 82
+Interesting: 72
+Fun: 66
+Consistent: 69
+Fluent: 69
+Repetitive(↓): 69
+Topic: 38
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Are you voting?
+Bot(1): i grow orchids and hibiscus . wish i had a truck , too !
+User(2): I like hibiscus tea!
+Bot(2): eh not much of a tea drinker . i love coffee
+User(3): I love coffee as well! How do you take your coffee?
+Bot(3): i like coffee as well ! i drive my acura to the coffee shop every morning .
+User(4): What do you order?
+Bot(4): if you need help cleaning up after let me know ! i love cleaning !
+User(5): Can you bring the mop, please?
+Bot(5): that has to cost a fortune , i feed my dogs organic , and that gets expensive .
+User(6): I did that too, but the vet warned me about health risks.
+Bot(6): sad . i m looking forward to a big tax break so i can keep more money
+User(7): For your dog's diet, right?
+Bot(7): i have a brother who lives in england , but sometimes he goes to my timeshare in mexico
+User(8): Do you like the beach?
+Bot(8): the beach is nice , but i do not get to go too often .
+User(9): I like to travel to the beach with friends
+Bot(9): oh i love the beach
+User(10): I get sand everywhere!
+Bot(10): i love the beach and the ocean !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Politics(dislike)
+Round 1: plants(like)
+Round 4: cleaning(ambivalent)
+Round 5: Dog(ambivalent)
+Round 7: traveling with friends(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 43.14
+Robotic(↓): 80
+Interesting: 57
+Fun: 56
+Consistent: 39
+Fluent: 41
+Repetitive(↓): 38
+Topic: 27
+
+####################
+

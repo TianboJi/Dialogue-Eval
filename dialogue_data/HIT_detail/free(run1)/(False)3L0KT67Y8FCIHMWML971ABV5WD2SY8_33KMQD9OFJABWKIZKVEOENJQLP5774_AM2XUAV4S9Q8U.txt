@@ -1,0 +1,315 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Politics
+Bot(1): oh , politics . some days i love them others i hate them .
+User(2): Something they do good for the people and sometimes they show their worst side
+Bot(2): some say they would rather hear a screaming pig on fire
+User(3): But not every time. Some are down to earth.
+Bot(3): very true . i am a stenographer and can type 140 word a minute . you ?
+User(4): I am not that fast. I can try for 90 words a minute
+Bot(4): wow , i can not type that fast at all .
+User(5): But you said you can type 140 word a minute
+Bot(5): reading sci fi books , also horror
+User(6): I don't read books
+Bot(6): i love to read books . i spend a lot of my time reading .
+User(7): I feel sleepy if I start reading.
+Bot(7): i think i need a vacation from work . cutting down trees is exhausting .
+User(8): I am already on a vacation
+Bot(8): agreed . maybe we could meet up next time we are both in the area
+User(9): Will look into that when I am back from my vacation
+Bot(9): sounds like a well deserved break ! with or without fries , lol .
+User(10): It is a well deserved one. Much needed at this time
+Bot(10): i make videos for youtube subs . makeup tutorials
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Politics(like)
+Round 3: Stenographer(like)
+Round 5: Reading(like)
+Round 7: Vacation(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 66.71
+Robotic(↓): 15
+Interesting: 87
+Fun: 92
+Consistent: 11
+Fluent: 94
+Repetitive(↓): 18
+Topic: 16
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I spend most of my time by playing mobile games. What about you?
+Bot(1): i love playing with my dolls .
+User(2): Is it odd to play mobile games at the older age?
+Bot(2): i am a single mom . i love my cat and dog .
+User(3): I love dog but not cat.
+Bot(3): i love my cat , he is a dog .
+User(4): Isn't it odd that you cat is a dog
+Bot(4): i love dogs . i have a dog and a dog .
+User(5): So you have a two dogs or one
+Bot(5): i love dogs and dogs
+User(6): How fast is your internet
+Bot(6): i do not have any pets
+User(7): I am not talking about pets, I am asking about your internet speed
+Bot(7): i love dogs and dogs
+User(8): What is the broadband you are using
+Bot(8): i am a little old and a girl
+User(9): I am a guy
+Bot(9): i am a guy who is a detective
+User(10): I am not a detective. I am a merchant
+Bot(10): i am a guy who loves to play with my dolls
+User(11): I love to play games, mostly mobile games
+Bot(11): i like to play with my dolls
+
+Persona:
+i dream of moving to the city.
+i own a cat and a dog.
+i grew up on a farm.
+whats up i'm a 46 year old single dad 46 a kids.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: mobile games(like)
+Round 2: Personal details(dislike)
+Round 5: Internet(like)
+Round 8: General Apperance(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The user changed the topic the last input.(like)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 34.14
+Robotic(↓): 22
+Interesting: 65
+Fun: 76
+Consistent: 2
+Fluent: 2
+Repetitive(↓): 85
+Topic: 1
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What do you personally think about covid-19
+Bot(1): i do , are my I'll bring we have three kids . do you ?
+User(2): I dont share my personal details
+Bot(2): i love your favorite just don't, science are my passions
+User(3): My passion is to be a designer
+Bot(3): oh no. r to you i'm george.
+User(4): passion is something you want to become
+Bot(4): II Do dogs.
+User(5): I love dogs
+Bot(5): I like you been thinking 😢
+User(6): I am not thinking about anything
+Bot(6): I love all cute. so you .
+User(7): I love cute pups. They are so adorable
+Bot(7): no i m single probably because i let mom day you love Turkish rent
+User(8): I am married
+Bot(8): I love a school am food.
+User(9): I am a big foodie, about school I dont like them
+Bot(9): i am not competive sport. It makes i am more of a temperance guy .
+User(10): I am not a good sportsman
+Bot(10): I cool. Unfortunately guy.
+
+Persona:
+my favorite band is the who.
+i enjoy working with my hands and love gardening.
+i love new kids on the block.
+i'm a cancer survivor.
+i like tacos.
+
+Topic and Human Opinion:
+Beginning: Covid-19(like)
+Round 1: Personality(dislike)
+Round 2: Passion(like)
+Round 4: Dogs(like)
+Round 7: Realtionship(dislike)
+Round 8: Likings(dislike)
+Round 9: Sports(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 30.14
+Robotic(↓): 17
+Interesting: 13
+Fun: 6
+Consistent: 6
+Fluent: 6
+Repetitive(↓): 3
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like using credit card
+Bot(1): i like to go to the gym and listen to music .
+User(2): I dont go to gym regularly
+Bot(2): i like to go to the lake and listen to music .
+User(3): I like lake view at evening by listening to some nice music
+Bot(3): i love music . i love country music .
+User(4): I love jaz music
+Bot(4): i like to listen to music .
+User(5): What kind of music you like to listen
+Bot(5): i like the classics and the doors
+User(6): Any favourate music
+Bot(6): i like to go to the gym and listen to music .
+User(7): I like music, but i dont go to gym
+Bot(7): i like to go to the lake and listen to music .
+User(8): What kind of music do you listen
+Bot(8): i like country music . i love country music .
+User(9): I like to travel a lot
+Bot(9): i love to travel . i love to travel .
+User(10): I love to travel with my bike. What is your favourate
+Bot(10): i like to go to the beach and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Credit card(like)
+Round 1: Gym(dislike)
+Round 2: Likings(like)
+Round 6: Gym(dislike)
+Round 8: Likings(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 15.29
+Robotic(↓): 2
+Interesting: 3
+Fun: 2
+Consistent: 2
+Fluent: 2
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you know when the fire was invented
+Bot(1): i do not remember it was so long ago lol
+User(2): You know how to make fire in camping
+Bot(2): yes
+User(3): Did you take any necessary materials to make fire while camping
+Bot(3): i used various kinds of materials
+User(4): Is fire is an essential thing while camping
+Bot(4): oh i know , how about fire socks
+User(5): What is fire socks
+Bot(5): oh i know , how about fire socks
+User(6): I dont know anything about fire socks
+Bot(6): oh i know , how about fire socks
+User(7): tell me something about fire socks
+Bot(7): oh i know , how about fire socks
+User(8): I want to know more about fire socks where can i find it
+Bot(8): oh i know , how about fire socks
+User(9): Anything else you wanna say about fire socks
+Bot(9): oh i know , how about fire socks
+User(10): Is there anything i need to know about fire socks
+Bot(10): oh i know , how about fire socks
+User(11): I don't like fire socks
+Bot(11): oh i know , how about fire socks
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fire(like)
+Round 4: Fire socks(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 26.57
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 86
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you think Laptops are better than a personal computer
+Bot(1): they are amazing ! i am really into the science of ergonomics . how are you today ?
+User(2): What is ergonomics
+Bot(2): they are amazing ! i am really into the science of ergonomics . how are you today ?
+User(3): Can you tell me something about ergonomics
+Bot(3): they are amazing ! i am really into the science of ergonomics . how are you today ?
+User(4): Where can i find a documents related to ergonomics
+Bot(4): anything look for it in the listing
+User(5): Ergonomics is good for human in any way?
+Bot(5): like cameras , timers , robotic cleaners
+User(6): I don't have cameras or timers
+Bot(6): like cameras , timers , robotic cleaners
+User(7): What is robotic cleaners
+Bot(7): like cameras , timers , robotic cleaners
+User(8): Tell me something about cameras
+Bot(8): like cameras , timers , robotic cleaners
+User(9): What kind of camera do you own
+Bot(9): like cameras , timers , robotic cleaners
+User(10): Which camera is best to buy now
+Bot(10): probably new its the one thing i splurge on
+
+Persona:
+i'm an economics major.
+i do not have a smartphone.
+i never broke a bone in my body ever in my life.
+i love playing softball.
+i'm an electrician.
+
+Topic and Human Opinion:
+Beginning: Laptop(like)
+Round 1: Ergonomics(dislike)
+Round 5: Materials(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 24.14
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 69
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

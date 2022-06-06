@@ -1,0 +1,329 @@
+Feedback: The bots need to understand questions better and not repeat the exact same thing they have said before as people normally don't type messages exactly the same multiple times.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, how do you feel about the United State Postal Service
+Bot(1): very well , thank you ! it is a great day for a mailman like myself
+User(2): You also work for the Postal service?
+Bot(2): yes i do , do you like your job ?
+User(3): I think it is alright and the pay is decent
+Bot(3): it is great . the people are awesome .
+User(4): Do you ever have issues with dogs chasing you?
+Bot(4): no i am usually scared to do anything when i see them
+User(5): What would you do if one started chasing you?
+Bot(5): i will try not to , but they seem to like me . that is why the dogs are on watch !
+User(6): What is your favorite type of chocolate?
+Bot(6): chocolate is my favorite and you ?
+User(7): What type of chocolate?
+Bot(7): chocolate is my favorite , specifically m ms . what is yours ?
+User(8): i like almond joy
+Bot(8): i prefer vanilla myself .
+User(9): vanilla what?
+Bot(9): chocolate chip , and mint anything but raisins
+User(10): what is wrong with raisins?
+Bot(10): i do not know just like the strong taste .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am employed by the us postal service.(dislike)
+Round 5: i have one older sister.(dislike)
+Round 5: i like to eat chocolate candy.(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: No topic change.(ambivalent)
+Round 4: No topic change.(like)
+Round 5: The user wants the bot to change the topic.(like)
+Round 5: The user wants the bot to change the topic.(like)
+
+Revised avg score: 35.14
+Robotic(↓): 97
+Interesting: 23
+Fun: 25
+Consistent: 21
+Fluent: 34
+Repetitive(↓): 21
+Topic: 61
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Have you ever had to fill out a college application?
+Bot(1): no i am not . i am a teacher .
+User(2): students fill them out
+Bot(2): i have two kids , i am a full time student .
+User(3): so you would have had to fill out an application to get into your college
+Bot(3): i have been to college . i am a student .
+User(4): so you filled out a college application
+Bot(4): i have been to college but i am a teacher
+User(5): you just said you were a student
+Bot(5): no i am not . i am a teacher
+User(6): you said "i have two kids , i am a full time student ."
+Bot(6): i am a teacher and i love to bake
+User(7): what do you like baking
+Bot(7): i like to bake and bake
+User(8): bake what
+Bot(8): i bake a lot and i love mexican food
+User(9): what mexican food do you like
+Bot(9): i love mexican food and you
+User(10): you dont know me
+Bot(10): i like to bake and bake
+User(11): you are very inconsistent
+Bot(11): i am a baker i love to bake
+User(12): i thought you were a teacher
+Bot(12): i am a teacher and i love to bake
+User(13): but also a baker?
+Bot(13): yes i do but i love to bake
+
+Persona:
+i have two dogs.
+i've five sons.
+the county wide bake sale is where i feel most at home.
+my favorite food is mexican food.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: i live in california but the recording artist market was dead last year.(dislike)
+Beginning: College Applications(like)
+Round 7: Baking(ambivalent)
+Round 8: mexican food(ambivalent)
+Round 9: loving me(dislike)
+
+Topic Change and Chatbot Opinion:
+Beginning: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 6.57
+Robotic(↓): 100
+Interesting: 5
+Fun: 1
+Consistent: 0
+Fluent: 24
+Repetitive(↓): 88
+Topic: 4
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): my favorite color is red. Do you like the color red?
+Bot(1): no ; i want to though ! do you get to travel much after retiring ?
+User(2): it depends on how much money you have
+Bot(2): i have so much money ! i get to travel all over . are you jealous ?
+User(3): not really
+Bot(3): retirement is the best i want to travel
+User(4): where do you want to travel to?
+Bot(4): i want to just travel all over the place
+User(5): you have to choose a place when you go to book a flight
+Bot(5): do you like it ? i quit my job once just to travel .
+User(6): ive never travelled much. Did you find a new job afterward?
+Bot(6): yes i did long time ago , what you want to do as career
+User(7): game programmer
+Bot(7): do you like it ? i quit my job once just to travel .
+User(8): i havent gotten to do it yet i am in college learning
+Bot(8): when are you planning to start
+User(9): ive already started
+Bot(9): my dream is more plebian i want to own a restaurant
+User(10): restaurants are a lot of work
+Bot(10): yeah but they have to be short tables
+User(11): why
+Bot(11): they give me a lot of money
+User(12): short tables give you a lot of money?
+Bot(12): yeah but they have to be short tables
+
+Persona:
+i've been traveling the world for a years.
+i've short brown hair.
+i am retired and living the great life.
+i'm currently looking for a job preferably at a restaurant.
+my favorite color is blue.
+
+Topic and Human Opinion:
+Beginning: my favorite color is red.(ambivalent)
+Round 2: traveling after retiring(dislike)
+Round 8: careers(like)
+Round 9: owning a restaurant(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 19.43
+Robotic(↓): 100
+Interesting: 36
+Fun: 18
+Consistent: 37
+Fluent: 34
+Repetitive(↓): 89
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you play video games?
+Bot(1): I I like am going and i love to play soccer
+User(2): what is fun about soccer?
+Bot(2): i like rap music , i listen to it when you enjoy tald me music
+User(3): why are you changing the topic so much
+Bot(3): i've a gym in my own home and nothing about it. do .
+User(4): can you be consistent
+Bot(4): That is cool. where i'm colour favorite color?
+User(5): you arent making sense
+Bot(5): i hope medal for are good day
+User(6): what does that mean
+Bot(6): That is cool tacos. Are you watch movies
+User(7): i like horror movies
+Bot(7): i prepare food 🎣 i would like frutis and vegetables kind of at it and people like my dishes
+User(8): are you a cook?
+Bot(8): Oh, I eating french 😟
+User(9): ??
+Bot(9): i am a ford officer , and i have a a sickness. A Good. ?
+User(10): what sickness
+Bot(10): I'M 34 poyou ii'm 17 10 lot of do you i'm 27, i'm 27 1st
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm fluent in english spanish and french.(dislike)
+Beginning: video games(like)
+Round 1: soccer(dislike)
+Round 2: rap music(dislike)
+Round 3: gym in their house(dislike)
+
+Topic Change and Chatbot Opinion:
+Beginning: The user will change the topic in the next input.(ambivalent)
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.71
+Robotic(↓): 100
+Interesting: 3
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i am a mechanical engineer. Do you know what that is?
+Bot(1): no , i do not . i am a big fan of classical music .
+User(2): who is your favorite composer
+Bot(2): i like the color red . i like the color blue .
+User(3): which do you like more?
+Bot(3): i like to listen to music .
+User(4): what color do you like more?
+Bot(4): i like blue , i like the color red .
+User(5): which one is better
+Bot(5): i like to go to the gym and listen to music .
+User(6): is red or blue better
+Bot(6): i like blue , i like the color red .
+User(7): red
+Bot(7): i like to go to the gym and listen to music .
+User(8): red
+Bot(8): i like to go to the gym and listen to music .
+User(9): blue
+Bot(9): i like to go to the gym and listen to music .
+User(10): blue?
+Bot(10): i love to go fishing . i love it .
+User(11): blue
+Bot(11): i like to go to the gym and listen to music .
+User(12): blue?
+Bot(12): i love to go fishing . i love it .
+User(13): red
+Bot(13): i like to go to the gym and listen to music .
+User(14): red?
+Bot(14): i love to go fishing . i love it .
+User(15): ?
+Bot(15): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a mechanical engineer.(dislike)
+Round 1: classical music(ambivalent)
+Round 2: colors they like(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 26
+Fluent: 8
+Repetitive(↓): 100
+Topic: 2
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): have you ever been to disney world?
+Bot(1): disney rocks . i am married and love movies
+User(2): disney movies?
+Bot(2): i love watching disney movies !
+User(3): what one is your favorite?
+Bot(3): probably super mario for the ones . played it all the time as an only child
+User(4): thats a video game not a disney movie
+Bot(4): we like any disney movie . actually going there next week with the kids .
+User(5): oh really are you going to ride any of the rides
+Bot(5): mine runs while i ride my bike , at least on short trips .
+User(6): what runs?
+Bot(6): are you an avid runner ? i cut my hair short so i could run better
+User(7): i dont like running. it hurts my ankle
+Bot(7): i used to run . i even cut my hair super short to shave off some time .
+User(8): are you a girl or a guy?
+Bot(8): wow . that is a lot of kids . are you married ?
+User(9): i didnt say anything about kids
+Bot(9): i do , i am married and together we have three kids . do you ?
+User(10): no
+Bot(10): sure . we can meet out front . you will know me by my short hair .
+User(11): im not meeting you
+Bot(11): oh i do not have long hair
+
+Persona:
+i have short brown hair.
+i'm terrified of scorpions.
+i am a cancer survivor.
+i'm married with two kids.
+i am a huge star wars fan.
+
+Topic and Human Opinion:
+Beginning: i love to go to disney world every year.(ambivalent)
+Round 6: running(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 40.29
+Robotic(↓): 98
+Interesting: 53
+Fun: 42
+Consistent: 68
+Fluent: 39
+Repetitive(↓): 67
+Topic: 45
+
+####################
+

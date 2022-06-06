@@ -1,0 +1,270 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i just love music. my favorite singer is taylor swift.
+Bot(1): i sing taylor swift in the shower ! ! look what you made me do ! !
+User(2): haha. So you like taylor swift?
+Bot(2): i love t swift . great choice ! i met her once . she is really nice .
+User(3): Oh really? That is so awesome! I wish I could meet her.
+Bot(3): she also likes karate , she is why i got a brown belt !
+User(4): Oh what an inspiration. I really love her lyrics.
+Bot(4): absolutely ! i could let you borrow my pink hiking boots if you like
+User(5): OH sounds great! What is one of your favorite songs by taylor swift?
+Bot(5): i sing taylor swift in the shower ! ! look what you made me do ! !
+User(6): I sing taylor swift music in the shower too!
+Bot(6): my parrot sings too . i sing to my family , they mean the world to me
+User(7): Your parrot sings taylor swift?
+Bot(7): i sing taylor swift in the shower ! ! look what you made me do ! !
+User(8): Haha. That is so neat! I love her music.
+Bot(8): 5k marathon ? i like volleyball that s the only sport
+User(9): Do you like running?
+Bot(9): i also enjoy running near the park next to my apartment
+User(10): OH yes me too! I go running every week!
+Bot(10): i like to make a nice home cooked dinner after i go running .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite singer is taylor swift.(dislike)
+Round 8: 5k marathon(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 25.14
+Robotic(↓): 99
+Interesting: 34
+Fun: 54
+Consistent: 17
+Fluent: 36
+Repetitive(↓): 85
+Topic: 19
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I go to the gym almost every day. How about you?
+Bot(1): I am me that don’t six feet.
+User(2): Do you go to the gym?
+Bot(2): I just profile which, in your more about you.
+User(3): I love the gym. i love being in shape.
+Bot(3): I am in new orleans. to take a rest old for a century old soul.
+User(4): So you are from new orleans?
+Bot(4): are you really that you were from like scary movies ?
+User(5): i love scary movies.
+Bot(5): hi, how a tie between those i am george.
+User(6): oh yes that sounds great!
+Bot(6): You may not working now, I is a person or a computer responding.
+User(7): who am i talking to? the computer ?
+Bot(7): I am the problem parents were love to eat meat
+User(8): i love meat too
+Bot(8): no, i've been to do not you have there.
+User(9): i am not really sure what you are saying.
+Bot(9): oh those is Lucy. What what kinds marvel
+User(10): i don't really like marvel.
+Bot(10): I teach how about animals love teaching
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i go to the gym regularly.(like)
+Round 3: where they are from.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i love coloring in coloring books.
+Bot(1): i love to read , i love to read
+User(2): do you like to color?
+Bot(2): i love blue , reminds me of summer time .
+User(3): blue is a great color.
+Bot(3): i like blue . i like blue .
+User(4): i love using blue crayons and markers when i color.
+Bot(4): i love blue . i like blue too .
+User(5): yes i love the color blue.
+Bot(5): i love blue . i like blue too .
+User(6): Do you enjoy coloring books?
+Bot(6): yes i do . i love to read .
+User(7): yes i love reading coloring books as well.
+Bot(7): i love to read too . i like to read
+User(8): i love reading too.
+Bot(8): i love to read too . i read books .
+User(9): i love reading as well.
+Bot(9): i love reading too . i read books .
+User(10): that is great to hear. i am glad you love reading.
+Bot(10): yes i love it . i love reading .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy coloring books.(like)
+Round 8: they love to read(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 4.14
+Robotic(↓): 100
+Interesting: 6
+Fun: 1
+Consistent: 0
+Fluent: 22
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I recently got married to a doctor.
+Bot(1): that is incredible ! doctors are so important . is there anything you would like to know about me ?
+User(2): are you married to a doctor?
+Bot(2): yes
+User(3): That is awesome! We have so much in common. What kind of doctor?
+Bot(3): same
+User(4): my husband is a pediatric doctor.
+Bot(4): that is incredible ! doctors are so important . is there anything you would like to know about me ?
+User(5): what kind of doctor do you have?
+Bot(5): pediatrician . do you have any kids ?
+User(6): oh very nice. yes we have 2 kids.
+Bot(6): sounds like a great pair . i just have my husband and my kids .
+User(7): oh very nice. how long has your husband been a doctor?
+Bot(7): been about 7 years now . our kids are 3 and 1 .
+User(8): our kids are 2, and 15. my husband has been a doctor for 12 years
+Bot(8): so you get to spend a lot of time together !
+User(9): we spend every weekend together. you?
+Bot(9): i prefer it this way , it gives us more time together .
+User(10): yes i agree!
+Bot(10): nice . we have so much in common .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm married to a doctor.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 97.86
+Robotic(↓): 11
+Interesting: 97
+Fun: 100
+Consistent: 99
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am at the mall and I am about to go shoplift a purse from jcpenneys.
+Bot(1): i do not like walmart , lol . too many crazy people
+User(2): I shoplift at walmart all the time.
+Bot(2): i do not like walmart , lol . too many crazy people
+User(3): Yes there are crazy people. But i steal from walmart constantly.
+Bot(3): i do not like walmart , lol . too many crazy people
+User(4): I agree yes. I steal constantly from stores. i love it.
+Bot(4): i do not like walmart , lol . too many crazy people
+User(5): It is fun to steal. do you steal?
+Bot(5): not so much , but that is my favorite store . lol . what else do you do ?
+User(6): I steal purses and makeup all the time from walmart.
+Bot(6): i do not like walmart , lol . too many crazy people
+User(7): i agree but it is so easy to steal from walmart.
+Bot(7): yes and it is much easier than dealing with crowded stores .
+User(8): exactly. i love shoplifting.
+Bot(8): i do not like walmart , lol . too many crazy people
+User(9): i totally agree that walmart is filled with crazy people. At least its easy to steal there.
+Bot(9): walmart is where i do all my shopping .
+User(10): nice same here. i steal from walmart.
+Bot(10): walmart is where i do all my shopping .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am here for shoplifting.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 5.86
+Robotic(↓): 100
+Interesting: 16
+Fun: 2
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 23
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello there. do you like cooking?
+Bot(1): i do , i love to cook .
+User(2): i also love to cook but i am not very good at it.
+Bot(2): i like to eat too much junk food .
+User(3): me too. I wish i could learn how to cook better.
+Bot(3): i am a nurse , i am a nurse at a local university .
+User(4): oh yes? do you cook a lot for yourself and your family?
+Bot(4): no , i do not , but i do like to go out to eat .
+User(5): i wish i could learn to cook better.
+Bot(5): i am a nurse at a local restaurant .
+User(6): oh nice! do you think you could teach me how to cook better?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): what do you like to cook?
+Bot(7): i love to cook , and eat pizza .
+User(8): do you bake pizza?
+Bot(8): no , i do not , but i do like to eat .
+User(9): what is a good recipe for me to learn how to cook better?
+Bot(9): i am a huge fan of jason mraz .
+User(10): does jason mraz cook?
+Bot(10): no , i do not . i like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i also like to cook but i'm not very good at it.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.29
+Robotic(↓): 72
+Interesting: 57
+Fun: 43
+Consistent: 18
+Fluent: 71
+Repetitive(↓): 100
+Topic: 37
+
+####################
+

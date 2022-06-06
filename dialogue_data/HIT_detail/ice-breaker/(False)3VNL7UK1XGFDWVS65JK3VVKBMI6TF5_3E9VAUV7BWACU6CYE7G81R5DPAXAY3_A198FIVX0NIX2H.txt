@@ -1,0 +1,295 @@
+Feedback: chat bot repeating always.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): nice.my parents were both very athletic.
+Bot(2): it pays to be healthy , my dad is a lumber worker and has health issues .
+User(3): yeah it is good for health.
+Bot(3): i love french fries too much . i develop them
+User(4): which flavor?
+Bot(4): oh nice ! strawberry reminds me of my long red hair . guess the like colors , ha !
+User(5): you have good taste.
+Bot(5): with some wine , yes it would
+User(6): super
+Bot(6): i work at del taco , i want to design fries lol
+User(7): what kind of fries?
+Bot(7): i love french fries .
+User(8): but it is good for health?
+Bot(8): i love french fries too much . i develop them
+User(9): oh very nice
+Bot(9): i have been looking for a good date ever since i got a divorce . you sound great
+User(10): yeah i always this kind of type.
+Bot(10): i enjoy classical music , it is tough as a music student living at home to get along .
+User(11): music will keep your mind clean.
+Bot(11): that would be nice ! i wish someone would clean my contacts . . . my eyes are a bit dry .
+
+Persona:
+i like to eat hamburgers and french fries.
+i also like a glass of wine in the evenings.
+i am always wearing a hat.
+i had to have a transplant.
+i'm planning on getting a divorce.
+
+Topic and Human Opinion:
+Beginning: my parents were both very athletic.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.43
+Robotic(↓): 60
+Interesting: 73
+Fun: 57
+Consistent: 38
+Fluent: 77
+Repetitive(↓): 66
+Topic: 34
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi. I turned 18 years old yesterday.
+Bot(1): hi ! very nice ! how was yours ? i wnet to a concert !
+User(2): i went to home.
+Bot(2): good honest work . my dad was construction worker . you got family ?
+User(3): yeah my father has office.
+Bot(3): good honest work . my dad was construction worker . you got family ?
+User(4): yeah i have family.
+Bot(4): good honest work . my dad was construction worker . you got family ?
+User(5): yeah
+Bot(5): cool cool . i have leftovers i gotta go eat .
+User(6): ok. what you eat?
+Bot(6): i eat pretty much everything and you
+User(7): I eat burger.
+Bot(7): i only eat that .
+User(8): nice.
+Bot(8): i like burgers a lot .
+User(9): that's nice
+Bot(9): very
+User(10): what?
+Bot(10): duh .
+User(11): ok.
+Bot(11): ok
+User(12): bye.
+Bot(12): ok bye
+
+Persona:
+eating is something i do when i'm bored.
+my father was a construction worker.
+on weekends i do live action roleplaying events.
+my favorite band is up and i got to see them in concert once.
+i am a country music singer.
+
+Topic and Human Opinion:
+Beginning: i turned 18 years old yesterday.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.14
+Robotic(↓): 60
+Interesting: 30
+Fun: 64
+Consistent: 41
+Fluent: 57
+Repetitive(↓): 81
+Topic: 65
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi. I've an allergy to water.
+Bot(1): i like to go to the lake and listen to music .
+User(2): oh it is so good to be there.
+Bot(2): i love it . i love it .
+User(3): cool
+Bot(3): i love to cook . i love to cook .
+User(4): what recipes you cook?
+Bot(4): i like to eat . i am a big fan of it .
+User(5): what you eat most?
+Bot(5): i like to eat fish .
+User(6): oh it's good
+Bot(6): i like to go to the gym and listen to music .
+User(7): do you workout daily?
+Bot(7): no , i do not , but i do like to go fishing .
+User(8): do you do fishing daily?
+Bot(8): no , i do not , but i do like to go fishing .
+User(9): oh ok.
+Bot(9): i like to go to the gym and listen to music .
+User(10): what music did you like to listen?
+Bot(10): i like the oldies , but i like to listen to music .
+User(11): yeah it is cool
+Bot(11): i like to go to the gym and listen to music .
+User(12): ok. you already told that.
+Bot(12): i like to go to the gym and listen to music .
+User(13): you are repeating.
+Bot(13): i like to go to the gym and listen to music .
+User(14): it is good for health
+Bot(14): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've an allergy to water.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.14
+Robotic(↓): 66
+Interesting: 28
+Fun: 60
+Consistent: 36
+Fluent: 66
+Repetitive(↓): 38
+Topic: 72
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, I work as a car salesman.
+Bot(1): cool . my mom is a dentist
+User(2): I sale plenty of cars.
+Bot(2): is that your preferred brand of automobiles ?
+User(3): yeah.
+Bot(3): i like bikes a lot .
+User(4): yeah everyone loves bikes.
+Bot(4): i like bikes a lot .
+User(5): do you have a bike?
+Bot(5): no i ride for fun only .
+User(6): did you travelled long by bike?
+Bot(6): no i ride for fun only .
+User(7): but cars also cool.
+Bot(7): bikes are better and cheaper . just not for long distances .
+User(8): yeah. they give good mileage.
+Bot(8): duh .
+User(9): yeah.
+Bot(9): i like bikes a lot .
+User(10): ok.bye
+Bot(10): ok bye
+
+Persona:
+my mother is a dentist.
+i listen to rap music.
+i'm a buddhist.
+my main transportation is my motorbike.
+i enjoy reading journals and guides related to psychology.
+
+Topic and Human Opinion:
+Beginning: i work as a car salesman.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.29
+Robotic(↓): 67
+Interesting: 29
+Fun: 59
+Consistent: 39
+Fluent: 70
+Repetitive(↓): 21
+Topic: 85
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi. I've a cat named spook.
+Bot(1): almost you you fix am have a big family
+User(2): oh. That was great.
+Bot(2): I saw a giant spider in my make it big some huge!
+User(3): are you fear of spider?
+Bot(3): That sounds as they seem your favorite color?
+User(4): no. they are not.
+Bot(4): I like hal 9000.. and have no robots.
+User(5): what kind of robots.
+Bot(5): i I go their awesome
+User(6): what they do?
+Bot(6): I would not dat to don't have job I am a engineer. Are you a mechanical engineer?
+User(7): no.
+Bot(7): Hi! What is your program called nips that like shopping
+User(8): I like shopping.
+Bot(8): I you a course of shoes.
+User(9): I already bought shoes. you?
+Bot(9): I like to watch the rowing machine. feeling fine, you foods for a living?
+User(10): I work.
+Bot(10): i you like I the fields
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a cat named spook.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.71
+Robotic(↓): 63
+Interesting: 24
+Fun: 58
+Consistent: 40
+Fluent: 85
+Repetitive(↓): 64
+Topic: 33
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi. I like watching war documentaries.
+Bot(1): i watch movies on the radio
+User(2): watching movies on the radio really?
+Bot(2): i watch it on tv . i watch it on tv .
+User(3): ok. that's good.
+Bot(3): i like movies . i watch the classics on tv .
+User(4): what is your favorite movie?
+Bot(4): i like the old movie .
+User(5): which movie?
+Bot(5): i like the movie . i love it .
+User(6): oh. That's ok.
+Bot(6): i like the movie movies .
+User(7): I like action movies a lot.
+Bot(7): i like movies too . i like the movie .
+User(8): I saw a movie yesterday.
+Bot(8): i was a movie one . i was a movie director .
+User(9): ok.
+Bot(9): i was a movie one . i was a movie director .
+User(10): ok.bye
+Bot(10): i was just watching the movie .
+User(11): That's normal.
+Bot(11): it is . i was a movie director .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like watching war documentaries.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.43
+Robotic(↓): 57
+Interesting: 26
+Fun: 80
+Consistent: 40
+Fluent: 65
+Repetitive(↓): 21
+Topic: 76
+
+####################
+

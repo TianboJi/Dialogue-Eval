@@ -1,0 +1,297 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I like bicycles
+Bot(1): i love to eat and drink tea
+User(2): Me too, what about biking?
+Bot(2): i like to donate to charities , i donate to charities for charity
+User(3): That's very kind of you
+Bot(3): i am a big fan of tea . i love tea .
+User(4): Yes, me too. It helps me stay awake
+Bot(4): i am deaf so i am deaf so i am deaf
+User(5): I'm sorry to hear that
+Bot(5): i am deaf so i am deaf so i am deaf
+User(6): You already said that
+Bot(6): i know , i am deaf so i am deaf
+User(7): Where did you go to school?
+Bot(7): i went to school , but i am deaf
+User(8): Do you know where you went?
+Bot(8): i went to school , but now i am deaf
+User(9): Did you lose your hearing at school?
+Bot(9): no , i am deaf , so i am deaf
+User(10): Can you provide more detail, please?
+Bot(10): i do not know how to go to school
+User(11): Is there anyone that could help you?
+Bot(11): i am deaf so i am deaf
+User(12): How old are you?
+Bot(12): i am 32 , how about you ?
+User(13): I am 37
+Bot(13): i am 32 , i am still young
+User(14): Me too
+Bot(14): i am 32 , i am deaf so i am deaf
+
+Persona:
+i love to drink fancy tea.
+i donate a part of my salary to charity each month.
+i'm rather skinny as i like to stay in shape.
+i'm partly deaf.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: bicycles(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.43
+Robotic(↓): 92
+Interesting: 30
+Fun: 37
+Consistent: 78
+Fluent: 60
+Repetitive(↓): 100
+Topic: 98
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What do you think about neural nets?
+Bot(1): I dont like sushi that you like to sing?
+User(2): Me neither. What about the nets?
+Bot(2): I hope you and my favorite the world.
+User(3): Where did you go to school?
+Bot(3): Hey! What are you doing? am in a juvenile also teachers
+User(4): I am evaluating bots
+Bot(4): cool . do you work own clothes. that's my target
+User(5): I'm not sure what you mean, could you be more specific?
+Bot(5): I like the beach thanks. about to go beach
+User(6): OK, me too
+Bot(6): No, i a professional tennis it.
+User(7): I like tennis
+Bot(7): I am a doctor, You have no movies
+User(8): That's funny
+Bot(8): I am not. I as it might singer.
+User(9): That does not make sense
+Bot(9): I love to play video games. What of music do u do?
+User(10): Pop
+Bot(10): I am great, just got now! And how are day of work
+
+Persona:
+i started playing guitar when i was three.
+i am a recovering alcoholic.
+i love to bake cookies.
+i haven't spoken in three months.
+i am terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: neural networks(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.43
+Robotic(↓): 86
+Interesting: 61
+Fun: 63
+Consistent: 37
+Fluent: 36
+Repetitive(↓): 24
+Topic: 24
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I wish I could understand tropical geometry
+Bot(1): i love to cook . i love to cook .
+User(2): Why?
+Bot(2): i am a student , but i am a student .
+User(3): Thats very nice
+Bot(3): i like to go to the gym and listen to music .
+User(4): Me too
+Bot(4): i am a student , but i am a student .
+User(5): What else are you
+Bot(5): i am doing well . just got done walking my dog .
+User(6): Good
+Bot(6): i love to cook . i love to cook .
+User(7): What is your favourite food?
+Bot(7): i like the color red . what is yours ?
+User(8): Yellow
+Bot(8): i love to cook . i love to cook .
+User(9): Me too
+Bot(9): i am a student , but i am a student .
+User(10): You mentioned this already
+Bot(10): i am a student , but i am a student .
+User(11): Do you like it?
+Bot(11): i do , i love it . i love it .
+User(12): That's good then
+Bot(12): i am a student , but i am a student .
+
+Persona:
+i'm rather skinny as i like to stay in shape.
+my favourite music is country music.
+i have a boyfriend.
+i have a dogs.
+i've one older sister.
+
+Topic and Human Opinion:
+Beginning: tropical geometry(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.00
+Robotic(↓): 85
+Interesting: 32
+Fun: 63
+Consistent: 75
+Fluent: 36
+Repetitive(↓): 94
+Topic: 60
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What do you like to do?
+Bot(1): i am not sure anything i do is fun . . u ?
+User(2): I like math
+Bot(2): math
+User(3): That which is the result of mowing...math
+Bot(3): math
+User(4): Do you like math?
+Bot(4): i do like it , i love math
+User(5): What is your favourite branch of mathematics?
+Bot(5): math is my favorite subject
+User(6): HOw long have you been studdying it?
+Bot(6): since i can remember . i enjoy it a lot .
+User(7): great
+Bot(7): for as long as i can remember
+User(8): Who is your facourite mathematician?
+Bot(8): systemed cant count
+User(9): When did they live?
+Bot(9): a long , long time ago .
+User(10): Can you be more specific?
+Bot(10): i do not know anymore
+User(11): What is your opinion of AI?
+Bot(11): that is up for debate
+User(12): Yes, but what is your side?
+Bot(12): is anyone on the other side ?
+User(13): yes, I believe a lot of people are
+Bot(13): is anyone on the other side ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dual Subdivision of a Newton polygon(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.29
+Robotic(↓): 80
+Interesting: 66
+Fun: 64
+Consistent: 77
+Fluent: 63
+Repetitive(↓): 71
+Topic: 54
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like AI
+Bot(1): i hate it
+User(2): Why?
+Bot(2): because i am good at chess
+User(3): AI can beat any human chess player
+Bot(3): i can beat you in chess probably
+User(4): Not if I beat you first
+Bot(4): i can beat you in chess probably
+User(5): Why don't you try it?
+Bot(5): i can beat you in chess probably
+User(6): Lets play then
+Bot(6): i can beat you in chess probably
+User(7): You sound pretty certain of that
+Bot(7): i can beat you in chess probably
+User(8): Even repetitive
+Bot(8): i can beat you in chess probably
+User(9): What else do you like?
+Bot(9): i can beat you in chess probably
+User(10): Do you have any other responses?
+Bot(10): i can beat you in chess probably
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: artificial intelligence(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.43
+Robotic(↓): 87
+Interesting: 68
+Fun: 65
+Consistent: 81
+Fluent: 71
+Repetitive(↓): 93
+Topic: 83
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is your opinion on neuro-lenguistic processing?
+Bot(1): sometimes i do i mainly read books about finance i want to work on wall street someday
+User(2): OK, cool. Have you read Remenicences of a Stock operator?
+Bot(2): i am never played the stocks . i do not have the best luck .
+User(3): It's pretty easy once you start, actually.
+Bot(3): my roommates and i probably go through four pots a day
+User(4): That sounds like a lot
+Bot(4): it is ! we get rewarded with a harry potter book . i love those
+User(5): Which one is you favourite?
+Bot(5): my favorite colors and blue and red . any other hobbies ?
+User(6): No
+Bot(6): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(7): You must be good at it then!
+Bot(7): sure then we cook a huge traditional breakfast with bacon and eggs the next morning
+User(8): Awesome!
+Bot(8): when i am not hiking or biking , i am exploring the town no steady job
+User(9): Where do you live?
+Bot(9): i am in texas now . i speak spanish and english so i understand everyone here
+User(10): How's the weather?
+Bot(10): rainy cold and feels like winter is breathing down the hills
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: NLP(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.57
+Robotic(↓): 82
+Interesting: 75
+Fun: 80
+Consistent: 72
+Fluent: 81
+Repetitive(↓): 64
+Topic: 55
+
+####################
+

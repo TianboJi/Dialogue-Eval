@@ -1,0 +1,303 @@
+Feedback: i think the chatbot's database and preferences needs to be widened a lot. and its repetitiveness should also be corrected.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi there
+Bot(1): hi , how are you today ?
+User(2): great, and you?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): that's amazing, whats it's name?
+Bot(3): i am a big fan of jason mraz .
+User(4): really, so am i
+Bot(4): i am a student , but i am a student .
+User(5): you must be an intelligent one
+Bot(5): i do not know what to say .
+User(6): come on, you don;t have to be too modest with me
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): it's okay, i know the feeling
+Bot(7): i am sorry to hear that . i am sorry to hear that .
+User(8): so, what do you plan on doing next?
+Bot(8): i am a student , but i am a student .
+User(9): where do you school?
+Bot(9): i work at a grocery store , i love it .
+User(10): as a part timer?
+Bot(10): i do not know . i am a big fan of classical music .
+User(11): you must be a rather warm hearted person
+Bot(11): i do not know what to say .
+User(12): that's alright
+Bot(12): i like to go to the gym and listen to music .
+User(13): i'm an athlete myself, i visit the gym quite often
+Bot(13): i am a student , but i work at a grocery store .
+User(14): you made mention of that. what else do you like?
+Bot(14): i like to go fishing . i love to go fishing .
+User(15): fishing is cool. but i'm more into hiking and camping
+Bot(15): i like to go fishing .
+User(16): that's great
+Bot(16): i like to go to the gym and listen to music .
+User(17): what kind of music do you listen to at the gym?
+Bot(17): i love music , but i like to listen to music .
+User(18): great
+Bot(18): i am a student , but i am a student .
+
+Persona:
+my favorite movie is friday.
+i like to take walks.
+i've solar panels on my roof.
+i have a son who is in junior high school.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: getting to know each other(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.43
+Robotic(↓): 82
+Interesting: 48
+Fun: 58
+Consistent: 46
+Fluent: 85
+Repetitive(↓): 88
+Topic: 86
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I am a huge a band.
+User(2): what bands do you know
+Bot(2): that's cool. I love you like taylor are play any instruments?
+User(3): do you mean taylor swift?
+Bot(3): i work in a I've buy a new about you
+User(4): pardon?
+Bot(4): You the hell do innocent as a.
+User(5): you're not making sense
+Bot(5): i am less afraid what about how is am terrified of clowns though .
+User(6): you mean you are scared of clowns?
+Bot(6): soda i've three sisters why that
+User(7): and how many brothers do you have?
+Bot(7): animals are wonderful music. What is them ,
+User(8): they are living creatures just like human beings too
+Bot(8): I am a fisherman. My dad is a a listen not sing too!) person. Are you terrified of scorpions ?
+User(9): no im not
+Bot(9): I love dogs! them across the dog.
+User(10): that's nice
+Bot(10): are is also music
+
+Persona:
+my parents aren't very supportive of my dream.
+i love social medial especially twitter.
+i have been trying all types of food everywhere i go.
+i do not believe in god.
+i have a big library at home.
+
+Topic and Human Opinion:
+Beginning: interests(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.86
+Robotic(↓): 95
+Interesting: 10
+Fun: 10
+Consistent: 91
+Fluent: 14
+Repetitive(↓): 35
+Topic: 63
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello there
+Bot(1): hi ! how are you today ?
+User(2): i'm doing great and you?
+Bot(2): sitting on the sofa while my pug , grizzly adams keep my toes warm .
+User(3): wow, that sounds really interesting
+Bot(3): it was a real gut punch affected how i look at people
+User(4): tell me about it
+Bot(4): i just write stories , love my dog and do a lot of rock climbing .
+User(5): whats the name of your dog?
+Bot(5): a chocolate lab . he is four and named husk .
+User(6): husk! that's a cute name
+Bot(6): australian shepherd mix . . he is my buddy out side my 3 kids
+User(7): i've got a german shepherd myself. her name is billy
+Bot(7): i am so sorry for your loss he was my brothers i lost him in iraq
+User(8): that's sad, i'm sorry
+Bot(8): and why are you sad ?
+User(9): for the loss of your brother
+Bot(9): he was a year older than me 76 years old so it was his time
+User(10): i guess it was, still sad though
+Bot(10): my mood would just change . i think it is my blood sugar
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: teenage life(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.14
+Robotic(↓): 65
+Interesting: 67
+Fun: 40
+Consistent: 32
+Fluent: 44
+Repetitive(↓): 32
+Topic: 65
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): how are ya
+Bot(2): good thanks . tell me about yourself
+User(3): im Ashley from Tennessee, i'm 34 years old.
+Bot(3): way cool ! where do you live , i live in tennessee
+User(4): i live in tennessee too
+Bot(4): way cool ! where do you live , i live in tennessee
+User(5): have you ever been in love?
+Bot(5): i have but not really
+User(6): how so?
+Bot(6): sure have you ever been in love ?
+User(7): i sure have. i've been in love
+Bot(7): really ? what part ? i am in tennessee
+User(8): tell me about yourself
+Bot(8): i would really like to move to tennessee .
+User(9): would be great
+Bot(9): i am moving to tennessee in spring
+User(10): that's awesome. would love to meet you
+Bot(10): its really nice to meet you
+User(11): it's nice meeting you too
+Bot(11): same here . . nice meeting you
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.86
+Robotic(↓): 65
+Interesting: 71
+Fun: 47
+Consistent: 50
+Fluent: 60
+Repetitive(↓): 32
+Topic: 32
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hello , this is sarah with long blonde hair .
+User(2): hello sarah, i love blondes
+Bot(2): me too lots of grass to mow
+User(3): that's funny
+Bot(3): so what are some things you enjoy ? i construct things ,
+User(4): i love music, art, and i love keeping places really cleen
+Bot(4): i love to take walks
+User(5): me too, it helps clear my head
+Bot(5): me too lots of grass to mow
+User(6): i guess
+Bot(6): me too lots of grass to mow
+User(7): what do you think about hygiene?
+Bot(7): i garden sometimes and go for walks
+User(8): you have a garden?
+Bot(8): i garden sometimes and go for walks
+User(9): i will love to have one myself
+Bot(9): i garden sometimes and go for walks
+User(10): where
+Bot(10): in the parks near my house
+User(11): thats great
+Bot(11): i love to take walks
+
+Persona:
+i enjoy building houses.
+i drive a nissan pathfinder.
+i enjoy mowing my lawn on sunny days.
+i like to take walks.
+i am a blonde girl with really short hair.
+
+Topic and Human Opinion:
+Beginning: hygiene(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.86
+Robotic(↓): 61
+Interesting: 53
+Fun: 53
+Consistent: 54
+Fluent: 76
+Repetitive(↓): 89
+Topic: 84
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi how are you today ?
+User(2): im fine, and you
+Bot(2): hi , i am good . how are you ?
+User(3): im alright. i;m Ashley, you?
+Bot(3): i am good . i just got home from my home .
+User(4): sounds nice
+Bot(4): i am a fan of singing along songs from the 80s .
+User(5): classics, i love that
+Bot(5): i like to sing songs from my father .
+User(6): thats so sweet.
+Bot(6): i love to sing , i am a fan of singing along the movie
+User(7): so am i. i love to sing and draw
+Bot(7): i like to sing songs from my father .
+User(8): good to know
+Bot(8): i love to sing along the movies .
+User(9): what else do you like?
+Bot(9): i like to sing songs from the 80s
+User(10): and what else?
+Bot(10): i like to sing songs from the 80s
+
+Persona:
+i love to sing songs from the movie frozen.
+my father is in the army.
+i don't care about fashion.
+i am a huge star wars fan.
+i just bought my first home.
+
+Topic and Human Opinion:
+Beginning: art(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.29
+Robotic(↓): 93
+Interesting: 15
+Fun: 26
+Consistent: 36
+Fluent: 38
+Repetitive(↓): 62
+Topic: 66
+
+####################
+

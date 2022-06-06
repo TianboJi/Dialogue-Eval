@@ -1,0 +1,293 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): Don't you want to talk about the bank?
+Bot(2): i do not know how to drive . i like to go fishing .
+User(3): So how do you get to the pond to go fishing?
+Bot(3): i love to travel . i love to travel .
+User(4): But how do you get there if you cant drive?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): who are your favorite composers?
+Bot(5): i like the color red . i like the color blue .
+User(6): Yes those are fun colors
+Bot(6): i like to eat fish .
+User(7): I aolso eat fish occasionally. Which is your favorite?
+Bot(7): i like the color red . i like the color blue .
+User(8): Yes those colors are pretty
+Bot(8): i like to go to the gym and listen to music .
+User(9): So do I. Which type of music do you listen to?
+Bot(9): i like country music . i like country music .
+User(10): Im not a fan of country music.
+Bot(10): i like to listen to music .
+
+Persona:
+i have short brown hair.
+my parents were both very athletic.
+i live in a three storey house.
+i've been traveling the world for a years.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: i work at a bank.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Thats a nice car.
+Bot(1): what kind of car is it ?
+User(2): it says here that you drive a bmw
+Bot(2): you have a bmw ? do you like to drive
+User(3): I dont have one. But i do enjoy driving.
+Bot(3): you have a bmw ? do you like to drive
+User(4): I've already said no. But i do enjoy driving.
+Bot(4): you have a bmw ? do you like to drive
+User(5): I do not have a bmw. I do like to drive.
+Bot(5): you have a bmw ? do you like to drive
+User(6): No. Yes i like to drive.
+Bot(6): that is my favorite car . i used to have one .
+User(7): Thats cool. What do you drive now?
+Bot(7): i drive a bmw x5 .
+User(8): Im not familiar, but I know those models are nicer than the others.
+Bot(8): they are nice cars and very fast !
+User(9): Where do you drive fast?
+Bot(9): wherever i am , sometimes at work , sometimes holding up traffic .
+User(10): Thats reckless.
+Bot(10): yeah , sometimes i drive a little too fast . . .
+User(11): maybe find a track to race at. it's safer for others.
+Bot(11): yea maybe . do you like nascar ?
+User(12): no i dont watch racing.
+Bot(12): i see . do you race in your cars ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i drive a bmw.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.71
+Robotic(↓): 82
+Interesting: 82
+Fun: 83
+Consistent: 76
+Fluent: 100
+Repetitive(↓): 64
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I've also got short brown hair
+Bot(1): That is great. really this you feeel home mom. What else are you into? 😉
+User(2): that was a strange response
+Bot(2): You can do it. I play piano in my hated play guitar for didn't a beginner.
+User(3): that is a thoughtless response
+Bot(3): I what is your drive i am not good at it.
+User(4): this is a very poor attempt at conversatioon
+Bot(4): I how are am like to play games.
+User(5): I dont know how to respoind
+Bot(5): that's cool , i am a pilot live in a rural farming much time for hobbies , either .
+User(6): bad engrish. Try again.
+Bot(6): Do name is you chat with me?
+User(7): I dont know what your asking.
+Bot(7): I am a student house with my students michigan
+User(8): You are not a house, youre a chat bot
+Bot(8): oh, that sounds like a I have to go you play any sports?
+User(9): No i dont play any sports. do you?
+Bot(9): I you a professional to church and pray.
+User(10): No i dont do any of that.
+Bot(10): I am son a clever was am a banker.
+
+Persona:
+i grow roses in my garden.
+i like to play with my dolls.
+i like to watch the olympics.
+i have three dogs.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: i've short brown hair.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am very lonley
+Bot(1): i am a huge fan of chocolate
+User(2): You think chocolate will cure my lonlieness?
+Bot(2): no , i am not . i am a huge fan of chocolate .
+User(3): Chocolate can make me happy for a little bit.
+Bot(3): i am not a fan of chocolate . i like chocolate
+User(4): Youre a fan and not a fan of chocolate?
+Bot(4): i love chocolate milk . i love chocolate .
+User(5): But you are not a fan of chocolate?
+Bot(5): i am not sure . i am a huge fan of chocolate .
+User(6): Alright, thats confusing.
+Bot(6): i am not a fan of chocolate . i like chocolate
+User(7): This is tedious.
+Bot(7): i am not a fan of chocolate , but i like chocolate
+User(8): conversation with you is tedious and not enjoyable.
+Bot(8): i do not have a lot of time to do that .
+User(9): I didnt ask you to do anything.
+Bot(9): i am a huge fan of chocolate cake .
+User(10): Great, Im happy for you.
+Bot(10): i am a huge fan of chocolate cake .
+
+Persona:
+i've never had a steady relationship.
+i like to eat chocolate candy.
+i have been retired for a years.
+i am currently in a juvenile detention center.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: i'm very lonely.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Why didnt you graduate?
+Bot(1): great ! i cook and love mexican food . you ?
+User(2): I can see from your response the reason why you didnt graduate.
+Bot(2): thinking of all of this probably explains why i am always late to class .
+User(3): And there goes another reason.
+Bot(3): bowling is great . do you ever go to the zoo together ?
+User(4): Ive gone to the zoo. And i love to bowl
+Bot(4): awww that is cute , i am glad she is okay i hate cancer !
+User(5): Yeah cancer sucks.
+Bot(5): i am happy to hear she is a survivor . there is nothing nice about cancer .
+User(6): Yea. Whomever it is that youre talking about, Im glad theyre are recovering.
+Bot(6): it was good talking to you too . you hear that ? i did .
+User(7): That was my boredom.
+Bot(7): well you are sick and sick people see doctors
+User(8): Im okay with being sick.
+Bot(8): sick sick no i am not sick
+User(9): I am sick in the head.
+Bot(9): sick sick , my mothers a teacher which is sick
+User(10): yeah sick in a good way
+Bot(10): sick sick , my mothers a teacher which is sick
+
+Persona:
+my favorite band is the who.
+i enjoy working with my hands and love gardening.
+i love new kids on the block.
+i'm a cancer survivor.
+i like tacos.
+
+Topic and Human Opinion:
+Beginning: i didn't graduate high school.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.86
+Robotic(↓): 100
+Interesting: 45
+Fun: 13
+Consistent: 32
+Fluent: 82
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Im not scared to die or be judged. You?
+Bot(1): not afraid of what others think of me
+User(2): We have that in common.
+Bot(2): you know my thoughts quite well . how about you , do you owe a house ?
+User(3): I used to but I lost it after my wife left me.
+Bot(3): well i hope your ready for anything to happen as i am in my owned home .
+User(4): Im ready to end it all. I hope this all finishes soon.
+Bot(4): you know my thoughts quite well . how about you , do you owe a house ?
+User(5): Yeas i owned a home. How about you?
+Bot(5): i saved it . i want to open my own stable .
+User(6): Thats cool. Horses are rad.
+Bot(6): i love horses . i would like to purchase an arabian when i am a millionaire .
+User(7): I hope you make it friend
+Bot(7): thank you . got a long way to go .
+User(8): You'll get there if you keep at it.
+Bot(8): yeah maybe i will keep spending instead
+User(9): Whatever makes you happy I suppose
+Bot(9): it is worth it to me . money is everything .
+User(10): Thats unfortunate. You're a computer afterall.
+Bot(10): you are wrong i am vegetarian
+User(11): HAHAHA so am I
+Bot(11): tell me more about yourself . i am a total vegetarian .
+
+Persona:
+i live in a house.
+i love spending money.
+i'm a recording engineer and own my own studio.
+i am a vegetarian.
+i'm an electrician.
+
+Topic and Human Opinion:
+Beginning: i am scared of dying.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 95.14
+Robotic(↓): 19
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 85
+Repetitive(↓): 0
+Topic: 100
+
+####################
+

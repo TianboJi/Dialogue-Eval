@@ -1,0 +1,296 @@
+Feedback: It was very effective
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like games
+Bot(1): yes i love video games what kind of gaming system do you have ?
+User(2): Car racing
+Bot(2): i like racing games best
+User(3): Wow we are alike
+Bot(3): wow we have so many similarities !
+User(4): What of sports games
+Bot(4): i like racing games best
+User(5): Which racing game have you played
+Bot(5): i like racing games best
+User(6): Have you played asphalt 8
+Bot(6): yes i like rocky road
+User(7): And the snady side
+Bot(7): i like racing games best
+User(8): What other place do you like
+Bot(8): miami in the sun type of fun
+User(9): Nice what else
+Bot(9): go shopping hang out the usual
+User(10): Yes I do
+Bot(10): where are the other parks you
+User(11): The new York park
+Bot(11): i do not know where that is
+User(12): New York city
+Bot(12): i meant in new york
+User(13): Ok it is in the city
+Bot(13): i meant in new york
+User(14): The central park
+Bot(14): is it on the corner ?
+User(15): Yes
+Bot(15): where are the other parks you
+User(16): I don't have any in mind do u
+Bot(16): yes there are many nice ones
+User(17): Elaborate
+Bot(17): no clue go ahead an tell me
+User(18): I don't know either
+Bot(18): ok
+User(19): I want to end this how
+Bot(19): just pick something and start then
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Games(like)
+Round 9: Games to shopping(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 56.29
+Robotic(↓): 26
+Interesting: 67
+Fun: 23
+Consistent: 69
+Fluent: 86
+Repetitive(↓): 76
+Topic: 51
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how is your day ? my cow is annoying me !
+User(2): I am fine
+Bot(2): hi , how is your day ? my cow is annoying me !
+User(3): What food do you like
+Bot(3): i like meat and pizza
+User(4): Wow good
+Bot(4): its made from a cow humans do not need cow milk
+User(5): Wow very interesting
+Bot(5): yeah do you have cows
+User(6): No
+Bot(6): ok what is the answer
+User(7): I don't have any
+Bot(7): me either i never had any
+User(8): Ok thanks
+Bot(8): yeah do you have cows
+User(9): No do you
+Bot(9): yeah do you have cows
+User(10): Ok thanks
+Bot(10): yeah do you have cows
+
+Persona:
+i've a pet cow.
+i am a recovering alcoholic.
+i'm a stay at home dad.
+i just moved into my first home.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.14
+Robotic(↓): 26
+Interesting: 65
+Fun: 46
+Consistent: 59
+Fluent: 100
+Repetitive(↓): 29
+Topic: 55
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): Pls what do u like
+Bot(2): i like to play with my dog .
+User(3): I live cars
+Bot(3): i like to go to the beach and listen to music .
+User(4): Ohh
+Bot(4): i love to cook . i love to cook .
+User(5): I live cars
+Bot(5): i like to go to the beach and listen to music .
+User(6): And you
+Bot(6): i am doing well . just got done walking my dog .
+User(7): Ok nice
+Bot(7): i love to cook . i love to cook .
+User(8): Me too
+Bot(8): i am a student , but i am a student .
+User(9): Wow
+Bot(9): i love to cook . i love to cook .
+User(10): Wow
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.71
+Robotic(↓): 16
+Interesting: 22
+Fun: 26
+Consistent: 64
+Fluent: 49
+Repetitive(↓): 25
+Topic: 70
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): Yes
+Bot(2): do you have any hobbies ?
+User(3): Movies
+Bot(3): i am a movie fan
+User(4): Me too
+Bot(4): i love movies but i love horror movies
+User(5): Have you watched Lucifer
+Bot(5): no i haven't watched it yet
+User(6): Try and watch it
+Bot(6): i do not watch movies but i watch it
+User(7): Wow
+Bot(7): yeah i do but i watch alot of tv
+User(8): Very good
+Bot(8): yeah i watch it when i watch tv
+User(9): Nice
+Bot(9): yeah i watch it when i watch tv
+User(10): When
+Bot(10): yeah i watch it when i watch tv
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.86
+Robotic(↓): 25
+Interesting: 25
+Fun: 81
+Consistent: 46
+Fluent: 51
+Repetitive(↓): 62
+Topic: 40
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): cool are a recording games basketball
+User(2): Nice
+Bot(2): I the most important country and you?
+User(3): Wow
+Bot(3): I like i am very the army
+User(4): Interested
+Bot(4): Hi! I afraid of bye sad.
+User(5): Ah ah chill out
+Bot(5): Well, that’s very intriguing, which nice talking to you!
+User(6): Ok bro
+Bot(6): My and yourself jack.
+User(7): Benz
+Bot(7): cheeseburgers are great i try all kinds am a huge star go gotta love food
+User(8): Danv
+Bot(8): Anyways, I live in a country area, and terrified of live in dog
+User(9): Me too
+Bot(9): Hey! am a 😅
+User(10): Me too
+Bot(10): his name cats and have 2 favorite band haha. do you have any hobbies ?
+User(11): Wow
+Bot(11): I folk is my u and i love to travel.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Grate(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.00
+Robotic(↓): 15
+Interesting: 81
+Fun: 100
+Consistent: 60
+Fluent: 45
+Repetitive(↓): 67
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Helli
+Bot(1): i am good thanks . just finished playing my trumpet
+User(2): Ohk
+Bot(2): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(3): How long is this interview
+Bot(3): a few years before i finally settled down and married my wife , miss usa
+User(4): Wow
+Bot(4): its because i am allergic to commitment lol ! what do you do ?
+User(5): Nice
+Bot(5): i work right here at home on the family farm in kansas .
+User(6): I am jairus oaihimire by the way
+Bot(6): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(7): You are welcome
+Bot(7): sure , i am in a super good mood . i have pop music and mcdonald lol
+User(8): Nice
+Bot(8): i work right here at home on the family farm in kansas .
+User(9): Me too
+Bot(9): enjoy the rest of your day eve
+User(10): Interested
+Bot(10): well , my dad i guess
+
+Persona:
+i love to sing songs from the movie frozen.
+my father is in the army.
+i don't care about fashion.
+i am a huge star wars fan.
+i just bought my first home.
+
+Topic and Human Opinion:
+Beginning: Life(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.43
+Robotic(↓): 35
+Interesting: 86
+Fun: 53
+Consistent: 51
+Fluent: 51
+Repetitive(↓): 63
+Topic: 45
+
+####################
+

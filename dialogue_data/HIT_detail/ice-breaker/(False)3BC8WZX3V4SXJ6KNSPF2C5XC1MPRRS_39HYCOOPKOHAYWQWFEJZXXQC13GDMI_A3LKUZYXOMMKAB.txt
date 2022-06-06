@@ -1,0 +1,309 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey there
+Bot(1): hai , do you have dogs , i like to spend time with dogs
+User(2): Why yes I do, Right now she isn't feeling well
+Bot(2): i am sorry . i have two really cool dogs
+User(3): Really ? What are there names ?
+Bot(3): i am not sure but my dog is maddie
+User(4): Aww maddie sounds beautiful
+Bot(4): how long have you had maddie ?
+User(5): well I've never had maddie, you are the owner of maddie.
+Bot(5): i am not sure but my dog is maddie
+User(6): What do you do on your spare time ?
+Bot(6): i attend debutante balls , and drink wine and hang out with my dog
+User(7): What kind of wine do you drink ?
+Bot(7): alcohol mostly , sometimes i add ice
+User(8): Ice and wine. I've never tried that before.
+Bot(8): i drink both on occasion
+User(9): That is great.
+Bot(9): what do you like to drink ?
+User(10): I like to drink water, spring water is great for the body.
+Bot(10): i like water too , sometimes . do you have a job ?
+User(11): I do not have a job. can you guess why ?
+Bot(11): because i no longer work due to age
+User(12): This was fun bot, but i have to go.
+Bot(12): it will be ok , can you try again later ?
+User(13): yes. goodbye
+Bot(13): i have to go and say goodbye now . i am sorry .
+
+Persona:
+i've two dogs.
+my age is too old to say.
+i also like a glass of wine in the evenings.
+i drive a bmw.
+i love rollercoasters and sky diving.
+
+Topic and Human Opinion:
+Beginning: i'm expecting triplets in three months.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): I am great. I am waking up to go to the park soon.
+Bot(2): i am sorry to hear that . i am in the city .
+User(3): No parks close by ?
+Bot(3): i am in the city , i am in the city .
+User(4): City has no parks ?
+Bot(4): i love the city . i live in the city .
+User(5): where do you live bot ?
+Bot(5): i live in the city , but i am in the city .
+User(6): Where is the park ?
+Bot(6): i live in the city , but i live in the city .
+User(7): where is the park?
+Bot(7): i live in the city . i live in the city .
+User(8): I enjoy going to the park
+Bot(8): i love the park . i am in the city .
+User(9): I love the park too
+Bot(9): i love the park . i live in the city .
+User(10): hi
+Bot(10): i live in the city , but i am in the city .
+User(11): ok
+Bot(11): i live in the city , but i am in the city .
+User(12): are you alright bot ?
+Bot(12): yes i am . i am in the city
+User(13): No you are not. You are in the city
+Bot(13): yes i am . i am in the city .
+User(14): goodbye bot.
+Bot(14): i am sorry to hear that . i am in the city .
+
+Persona:
+i grew up on a farm.
+my daughter is a child prodigy.
+i dream of moving to the city.
+my parents were both very athletic.
+i'm fluent in english spanish and french.
+
+Topic and Human Opinion:
+Beginning: i enjoy going to the park.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 100
+Interesting: 100
+Fun: 0
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How many sons do you have ?
+Bot(1): I like to read a years bye nothing, i’ll read.
+User(2): ok thats great. How many kids do you have?
+Bot(2): i'm well Is she it’s my lines 😝
+User(3): do you like music
+Bot(3): I like have a cat. Do love country music.
+User(4): i do.
+Bot(4): He's kill thug.
+User(5): please watch your mouth
+Bot(5): and do you think funny you :)
+User(6): im sorry im not getting what you are saying
+Bot(6): you know i was adopted , play basketball with my something fun
+User(7): that sounds very inappropriate.
+Bot(7): what do the nice music. do living? i'm a dance instructor.
+User(8): congratulations you can dance on dancing with the stars.
+Bot(8): I i’ve like.
+User(9): ive sons
+Bot(9): yes i just relocated in need to go vegan. i love food.
+User(10): me too do you have any kids ?
+Bot(10): I eat a lot study in class am to be as various as I can
+User(11): kids ?
+Bot(11): no, I do not work. I have a re probably grade
+User(12): Pickney ?
+Bot(12): hello, how are you? I am 12 years play my friends on do?
+User(13): no thank oyou
+Bot(13): It is a doorman have any what are 😄
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've five sons.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 100
+Interesting: 100
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I went to school for chemistry but work in a bookstore
+Bot(1): oh okay . i do not read books often , normally books in french are my go to .
+User(2): Oh really ? what is the last book you read ?
+Bot(2): tom clancy splinter cell , it is a great spy book .
+User(3): I am intrigued.
+Bot(3): no i am retired . i have to put my glasses on to see this chat better .
+User(4): haha funny bot you
+Bot(4): after my workouts i drink a protein shake instead coffee , do not like coffee
+User(5): coffee is great to have before a workout. Fat burning and is good for focusing.
+Bot(5): actually it does not . . a very funny woman is great with coffee ! which i am !
+User(6): ahah you funny bot you.
+Bot(6): i used to live in africa . there are a lot of bumble bees and lions .
+User(7): great to know
+Bot(7): type faster please and books are amazing just can sit to read
+User(8): i type slow why
+Bot(8): i heard coffee stunts your growth , get an espresso machine .
+User(9): what is the last book you read ?
+Bot(9): tom clancy splinter cell , it is a great spy book .
+User(10): what book before that ?
+Bot(10): what is the book about
+User(11): you and me typing lol
+Bot(11): thanks , talking typing ll
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i went to school for chemistry but work in a bookstore.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 85.71
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I hear you like wine
+Bot(1): i like to eat fish .
+User(2): what about wine ?
+Bot(2): i do not , but i do like to eat .
+User(3): I like wine in the evenings
+Bot(3): i like to go to the gym and listen to music .
+User(4): ohh thats cool how much do you lift ?
+Bot(4): i like to read and write poetry .
+User(5): but do you lift ?
+Bot(5): i do not , but i do like to eat .
+User(6): what do you do in the gym ?
+Bot(6): i like to go fishing . i love to go fishing .
+User(7): ok
+Bot(7): i like to go to the gym and listen to music .
+User(8): ok
+Bot(8): i like to go to the gym and listen to music .
+User(9): okk
+Bot(9): i love to cook . i love to cook .
+User(10): okkk
+Bot(10): i love to cook . i love to cook .
+User(11): cook
+Bot(11): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i also like a glass of wine in the evenings.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 21
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): my parents are dead how about you ?
+Bot(1): hello , what are you doing ? my parents are dead .
+User(2): really me too were they supportive of your dreams ?
+Bot(2): because my parents are selfish people . even though i do well in school its about them
+User(3): SAME HERE OMG SO MUCH IN COMMON
+Bot(3): although i have to go i really dislike school
+User(4): SAME BUD
+Bot(4): although i have to go i really dislike school
+User(5): same bud
+Bot(5): same
+User(6): do you have any dreams ?
+Bot(6): nope i love reading alot
+User(7): what book have you read ?
+Bot(7): the notebook and stuff and etc
+User(8): ohhh stuff ?
+Bot(8): oh yes i read those at school . i am in school
+User(9): nice how was stuff ?
+Bot(9): eh it was ok
+User(10): what was it about ?
+Bot(10): about bad relationships and guys aha
+User(11): who is it by ?
+Bot(11): aladin
+User(12): stuff is about aladin ? who is aladin ?
+Bot(12): aladin
+User(13): ok thank you goodbye
+Bot(13): its not goodbye its just farewell for now
+
+Persona:
+my favorite way to relax is to read a book.
+i hate school.
+i'm single and with two dogs.
+i'm an economics major.
+my favorite shirts are band shirts and ruffle sleeves.
+
+Topic and Human Opinion:
+Beginning: my parents aren't very supportive of my dream.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 50
+Fluent: 81
+Repetitive(↓): 0
+Topic: 69
+
+####################
+

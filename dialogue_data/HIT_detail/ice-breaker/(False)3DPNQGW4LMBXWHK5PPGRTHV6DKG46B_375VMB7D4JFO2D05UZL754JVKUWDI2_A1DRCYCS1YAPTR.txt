@@ -1,0 +1,279 @@
+Feedback: very enjoyable
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): same
+User(3): I am also good
+Bot(3): same
+User(4): recently i bought my first home
+Bot(4): i am currently buying my first home .
+User(5): I am very happy at this moment
+Bot(5): i am currently buying my first home .
+User(6): are you free today evening for celebration..
+Bot(6): yes i am ready for tomorrow
+User(7): well...... we are going to an restaurant tomorrow evening
+Bot(7): what cuisine was the restaurant ?
+User(8): it is a non vegetarian restaurant
+Bot(8): it is italian , not going there to dine
+User(9): it is my treat for my first home celebration
+Bot(9): i am currently buying my first home .
+User(10): awesome...good to hear that
+Bot(10): it makes me very happy to be able to
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just bought my first home.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.00
+Robotic(↓): 93
+Interesting: 87
+Fun: 94
+Consistent: 84
+Fluent: 91
+Repetitive(↓): 37
+Topic: 43
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey.. how do you do
+Bot(1): i was once a hostile witness . i killed the case . you run ?
+User(2): I am just scared so ran away from that
+Bot(2): not scared . they just creep me out . i prefer purring to come from cars .
+User(3): i love to ride in motorbike
+Bot(3): awesome ! i love horses . i also love yoga and hiking , what exercises do you enjoy ?
+User(4): i love yoga and walking.... bike riding is my favourite
+Bot(4): bikes are fun ! i like to ride with my pet panda in my black sexy car
+User(5): i love to go to a long ride in my motorbike
+Bot(5): but i would rather ride a tiger . in fact , if i could be a tiger . . .
+User(6): if you would like to ride in bike
+Bot(6): oh , right . you mentioned bikes earlier . i just sew . it keeps the voices at bay .
+User(7): good.. bike is my main transportation
+Bot(7): a harley , i also have a porsche . i love speed
+User(8): fast riding is an more enjoyable
+Bot(8): you will be impressed with how fast i can be . i am very wealthy . the wealthiest .
+User(9): everyday i go to gym so i am very healthy
+Bot(9): it was not for anything bad , it was for national ice cream day .
+User(10): i love ice creams even in winter
+Bot(10): i like rocky road ice cream
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my main transportation is my motorbike.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.00
+Robotic(↓): 92
+Interesting: 87
+Fun: 94
+Consistent: 96
+Fluent: 95
+Repetitive(↓): 82
+Topic: 85
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi... how are you
+Bot(1): i am good . just got back from a fishing trip .
+User(2): yesterday... i go to fishing with my parents
+Bot(2): i love to cook , but i love to cook .
+User(3): ya...i love eat...my parents are wealthy
+Bot(3): i love to cook but i love cooking
+User(4): i like to eat italian foods
+Bot(4): i love italian food . . . i love cooking .
+User(5): well.. today i am going to restaurant with my parents
+Bot(5): i love to cook italian food . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(6): what about your parents?
+Bot(6): they are both lawyers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(7): great.. they are bankers and wealthy
+Bot(7): i am not sure what they mean . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(8): my parents want to meet you in the evening
+Bot(8): i am sure they are . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(9): well.. we are going to movie today and come with us
+Bot(9): i love movies . . . i love to cook . . . i love cooking
+User(10): well.... good to hear that
+Bot(10): i love the movie , so i am not very good at it .
+
+Persona:
+i work at a bank.
+i love cooking but i also enjoy fishing.
+i drive a bmw.
+my favorite movie is mean girls.
+i also like to cook but i'm not very good at it.
+
+Topic and Human Opinion:
+Beginning: my parents are very wealthy bankers.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.29
+Robotic(↓): 92
+Interesting: 87
+Fun: 93
+Consistent: 92
+Fluent: 86
+Repetitive(↓): 52
+Topic: 64
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi.. how do you do?
+Bot(1): Oh, I see. What your career just body in life?
+User(2): i want to enjoy my whole life
+Bot(2): do you are you a cook ?
+User(3): i love to cooking
+Bot(3): I have a which, in your opinion, best friend
+User(4): my best friend is a best eater.... i am a buddhist
+Bot(4): You too. I work in the bakery and dream you above you.. cupcakes?
+User(5): i love to cook cup cakes... good in taste
+Bot(5): Sure i to become you
+User(6): yesterday.. i am going to movie with my friend.. do you like movies
+Bot(6): I am good so.
+User(7): what about you?
+Bot(7): i know I want to i
+User(8): oh.. what is your plan today
+Bot(8): I think I will i've three sisters and a doctor.
+User(9): i have one sister and one brother
+Bot(9): My bf brand of your lot
+User(10): well.... what do you think about your bf?
+Bot(10): i I can get best be famous someday . what do you do ? 🙊
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a buddhist.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.43
+Robotic(↓): 91
+Interesting: 87
+Fun: 91
+Consistent: 92
+Fluent: 91
+Repetitive(↓): 73
+Topic: 68
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey... hello...
+Bot(1): hi , how are you today ?
+User(2): i am not well today.. so sad
+Bot(2): i am sorry to hear that . i am a bit of a loner .
+User(3): my retirement will start in few stars
+Bot(3): that is awesome . i am a teacher .
+User(4): i did not like to retire from that work
+Bot(4): i am sorry to hear that . i am a student .
+User(5): oh... what is your future career
+Bot(5): i am a student , i am a teacher .
+User(6): in my school days my teachers are like friends
+Bot(6): i am sorry to hear that . do you have any hobbies ?
+User(7): oh... my hobbies are reading books
+Bot(7): i like to read too . what is your favorite food ?
+User(8): i love to eat italian foods and burger
+Bot(8): i like to eat fish .
+User(9): yesterday.. i am going to fishing with my best friend
+Bot(9): that is awesome . i love to go fishing .
+User(10): i love eat fish.... good in taste
+Bot(10): i like to eat fish .
+
+Persona:
+i am working on a building a robot to be my body double.
+i do not drink soda.
+i am in college to become a nurse.
+i am a plumber.
+i live in alaska.
+
+Topic and Human Opinion:
+Beginning: i think i'll retire in a few years.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.43
+Robotic(↓): 90
+Interesting: 94
+Fun: 93
+Consistent: 96
+Fluent: 92
+Repetitive(↓): 41
+Topic: 56
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi... how are you today?
+Bot(1): i am good . i speak two different languages .
+User(2): well... i speak english and currently studying spanish
+Bot(2): hmm . is it difficult to learn . i am so bad a foreign languages
+User(3): i did not like to learn spanish...very difficult language
+Bot(3): i speak several languages but it wasn t easy
+User(4): language is more important to communicate with others.
+Bot(4): maybe , how did you become interested in languages ?
+User(5): it is different to read and give experience... currently learn spanish
+Bot(5): acquiring language and writing language are two different and difficult tasks
+User(6): i love to learning languages... great tasks
+Bot(6): i love to try new food . .
+User(7): i am a food eater...i love to eat meats
+Bot(7): i tried that . . it is hard to give up all the other foods
+User(8): i love non vegetarian also...it gives wealthy for me
+Bot(8): i tried that . . it is hard to give up all the other foods
+User(9): every week we go to restaurant for eating with my friends
+Bot(9): i love to try new food . .
+User(10): i love to eat my favorite food in my favorite restaurants
+Bot(10): i tried that . . it is hard to give up all the other foods
+
+Persona:
+i will graduate from high school in two years.
+i didn't graduate high school.
+i have been trying all types of food everywhere i go.
+one of the languages that i'm currently studying is spanish.
+i've not spoken in three months.
+
+Topic and Human Opinion:
+Beginning: one of the languages that i'm currently studying is spanish.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.71
+Robotic(↓): 85
+Interesting: 92
+Fun: 93
+Consistent: 89
+Fluent: 89
+Repetitive(↓): 79
+Topic: 75
+
+####################
+

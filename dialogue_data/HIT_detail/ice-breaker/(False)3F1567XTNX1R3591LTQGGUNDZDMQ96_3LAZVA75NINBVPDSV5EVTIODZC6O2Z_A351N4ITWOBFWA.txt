@@ -1,0 +1,279 @@
+Feedback: The chatbot really need a lot of improvements, but it can be fun sometimes.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hello to you
+User(2): How are you doing today?
+Bot(2): same
+User(3): So, the topic is "I am very strong for my age". What do you think about it?
+Bot(3): on what subject is it
+User(4): Our chat
+Bot(4): indeed , that topic will keep you busy . you will be at it all weekend ?
+User(5): No, I do not think that is a long topic.
+Bot(5): yes what do you think ?
+User(6): I think the most important thing is to be health and that will make you strong no matter what is your age.
+Bot(6): i think you are right , it is important to keep fit and mentally healthy
+User(7): I am glad you agreed with me.
+Bot(7): i think so as well , it was a nice chat , if unproductive .
+User(8): It was good to chat with you too.
+Bot(8): i agree . it was very nice to talk to you too .
+User(9): Good Night!
+Bot(9): i hope you have a good night too .
+User(10): Thank you.
+Bot(10): i hope you enjoy the rest of your evening .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am very strong for my age.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.57
+Robotic(↓): 100
+Interesting: 3
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 81
+Topic: 85
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello!
+Bot(1): hello , how are you ?
+User(2): I am good. Thank you
+Bot(2): hi ! i am a farmer .
+User(3): Good to know you are a farmer
+Bot(3): i am a farmer . i am a farmer .
+User(4): Do you like to be a farmer?
+Bot(4): yes i do i love to eat
+User(5): Awesome! What is your favorite dish?
+Bot(5): i like to eat chicken .
+User(6): Me too.
+Bot(6): i love to eat . i like to eat healthy
+User(7): It is hard to eat healthy sometimes. Don't you think?
+Bot(7): i love to eat healthy food
+User(8): Good for you.
+Bot(8): i am a farmer , i am a farmer
+User(9): What do you have in your farm?
+Bot(9): i have a farm i am a farmer
+User(10): I am so glad you are a farmer that has a farm
+Bot(10): i am a farmer . i am a farmer .
+
+Persona:
+i wear a motorbike helmet to protect my head.
+my favourite food is shawarma.
+i see the rolling stones in concert every year.
+i have zero family that i am close to.
+i am a bee farmer.
+
+Topic and Human Opinion:
+Beginning: i really like to travel.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey! How are you?
+Bot(1): hi ! doing great ! looking restaurant options for tonight . i have been everywhere pretty much .
+User(2): Awesome. What kind of food do you like?
+Bot(2): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(3): I love healthy food, but sometimes is good to have a hamburger or ramen.
+Bot(3): yep its the best dish in the world . so tasty and healthy
+User(4): Yes, it is delicious. But is not healthy at all
+Bot(4): i do not eat bread . the carbs go straight to my hips .
+User(5): I love bread
+Bot(5): sometimes i eat bread as an entree and bread as a side . do you do that ?
+User(6): Yes, all the time. Bread is so delicious
+Bot(6): i am a volunteer at a local animal shelter and i eat bread
+User(7): That is amazing. I love animals.
+Bot(7): yes i love horses and really enjoy riding them
+User(8): Me too. They are my favorites. I wish I have a horse
+Bot(8): yes i like horses . i can draw a pretty good horse
+User(9): Cool. I can't draw a horse, but I am really good at riding them
+Bot(9): that is very cool . do you love horses ?
+User(10): Yes, I do
+Bot(10): i am a pro soccer player
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work at a bar at night to pay for college.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.29
+Robotic(↓): 95
+Interesting: 11
+Fun: 19
+Consistent: 75
+Fluent: 66
+Repetitive(↓): 24
+Topic: 65
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello!
+Bot(1): what kind of songs from George Orwell. ?
+User(2): I don't know who is George Orwell
+Bot(2): I hope I think we in a vet
+User(3): I hope so too
+Bot(3): I think born in somalia, girl.
+User(4): Do you like Somalia?
+Bot(4): I work do. I go company
+User(5): Good to know you work
+Bot(5): i'm a cook duh i think if yours
+User(6): Cool
+Bot(6): I like like to go write.
+User(7): Me too
+Bot(7): kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss kiss looking for u know NKOTB, new kids on the like to watching kiss kiss kiss kiss kiss kiss kiss !
+User(8): Kiss
+Bot(8): i is good. i had sure . i am sure it will .
+User(9): Yes, you are good
+Bot(9): that me have a motorcycle for a dog .
+User(10): I love dogs
+Bot(10): I like classical i love it's an country fan.
+
+Persona:
+i'm expecting triplets in three months.
+i am married to a doctor.
+i just want to have fun with my friends.
+my main transportation is my motorbike.
+i work at a bank.
+
+Topic and Human Opinion:
+Beginning: i like meditation.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello! Do you like Country music?
+Bot(1): heck yea i do ! my favorite is country music
+User(2): Perfect! I love country music too
+Bot(2): i love country music as well ! !
+User(3): What is your favorite country song?
+Bot(3): mine is definitely country music
+User(4): Cool
+Bot(4): cool ! what is your favorite song ?
+User(5): I don't have a favorite. I really love all of them
+Bot(5): oh yeah they are classic ! i like mostly country music
+User(6): Awesome!
+Bot(6): do you like country music ?
+User(7): Yes, it is my favorite kind of music
+Bot(7): do you like country music ?
+User(8): No. I hate it.
+Bot(8): i actually hate it too
+User(9): I am so glad you hate it too
+Bot(9): i hate country music . you ?
+User(10): Me too
+Bot(10): do you like country music ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a country music singer.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 84
+Repetitive(↓): 100
+Topic: 11
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey! Do you have a Yacht?
+Bot(1): no , i do not . i am a big fan of classical music .
+User(2): Really? Me too
+Bot(2): i do not know what to say .
+User(3): Me neither. What do you want to talk about?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): What is you favorite classical music song?
+Bot(4): i like country music . i like country music .
+User(5): I hate country music
+Bot(5): i like to listen to music .
+User(6): I love music. I can't live without it
+Bot(6): i like to go to the gym and listen to music .
+User(7): Good point. I can't imagine myself at gym if I am not listing to music
+Bot(7): i like to listen to music .
+User(8): What kind of music?
+Bot(8): i like country music . i like country music .
+User(9): Country music is fun to dance
+Bot(9): i love it . i like to go fishing .
+User(10): Where do like to go fishing?
+Bot(10): i do , i love to go fishing .
+
+Persona:
+i got a new job just yesterday to be a life coach.
+i've never had a steady relationship.
+i'm now looking for a new job.
+i really like to travel.
+i hate the color pink.
+
+Topic and Human Opinion:
+Beginning: i own a yacht and i rent it out when i am not using it.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

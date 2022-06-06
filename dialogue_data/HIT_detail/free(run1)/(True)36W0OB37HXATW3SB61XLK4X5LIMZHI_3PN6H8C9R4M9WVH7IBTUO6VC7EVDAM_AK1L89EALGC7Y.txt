@@ -1,0 +1,294 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My favorite movie is the Titanic
+Bot(1): we like any disney movie . actually going there next week with the kids .
+User(2): How many kids do you have?
+Bot(2): 3 . i love them do you have any ?
+User(3): How nice. I don't have any kids of my own. I hope to some day
+Bot(3): yes , a boy named chris . he made the honor roll . all a marks !
+User(4): Impressive!
+Bot(4): i wish i could say harvard . . . but , no . university of michigan .
+User(5): University of Michigan is still a great school. What will he study there?
+Bot(5): i love to go fishing and out with the kids .
+User(6): Where do you like to fish?
+Bot(6): what do you do with the fish ?
+User(7): When I'm fishing, I usually catch and release
+Bot(7): what do you fish for ?
+User(8): Nothing too exciting. Usually bass
+Bot(8): i like to fish on the weekends . some days i do not catch anything
+User(9): Me too. Fishing is not always a consistent sport! Do you have any other hobbies?
+Bot(9): what do you fish for ?
+User(10): Bass
+Bot(10): i like to fish on the weekends . some days i do not catch anything
+
+Persona:
+my family doesn't support my career choices.
+i've a pet fish.
+i'm terrified of scorpions.
+i read a book every week.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 4: Children(ambivalent)
+Round 5: Fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 32.43
+Robotic(↓): 100
+Interesting: 68
+Fun: 57
+Consistent: 40
+Fluent: 29
+Repetitive(↓): 70
+Topic: 3
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): Yes, i dream of becoming you?
+User(2): what?
+Bot(2): do you live sports are u skin am in a house.
+User(3): I do like sports. Do you?
+Bot(3): I really How are you? in a small town.
+User(4): I live in a suburb. Do you live in a small town?
+Bot(4): My family from was on the Moon. in america. How about you?
+User(5): Illinois
+Bot(5): i make music is country the weekends
+User(6): You make your own music?
+Bot(6): that s a good occupation i d do my favorite terrified of to work
+User(7): Why are you terrified of work?
+Bot(7): Yes, want a girl restaurant down the street.
+User(8): What kind of restaurant is it?
+Bot(8): I am can I high some music.
+User(9): I don't know what you mean
+Bot(9): I am can be you an rn
+User(10): Do you like music?
+Bot(10): cool , i am a cashier , like to do for have , and you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 3: Sports, where I live(ambivalent)
+Round 4: Where I live(ambivalent)
+Round 5: music(like)
+Round 6: Work(ambivalent)
+Round 7: Restaurant(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 99
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like music?
+Bot(1): yes i do . i love all kinds of music
+User(2): Do you have a favorite kind of music?
+Bot(2): yes i like classic rock . what about you ?
+User(3): Classic rock is my favorite too
+Bot(3): i enjoy rock of all types . classic rock is cool
+User(4): Do you like to go to concerts?
+Bot(4): yes ! i like to go see concerts on the weekend !
+User(5): Me too! Live music is always more exciting to me
+Bot(5): yea concerts are fun . i enjoy live music for sure
+User(6): What else do you do for fun?
+Bot(6): i love going to rock concerts with friends
+User(7): Do you have a favorite artist?
+Bot(7): yes i like classic rock . what about you ?
+User(8): I also like classic rock
+Bot(8): do you go to many concerts ?
+User(9): I try to go to a concert every couple of months. Tickets can be expensive!
+Bot(9): yea concerts are fun . i enjoy live music for sure
+User(10): Me too
+Bot(10): you should get me a ticket when you have your first show !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 5: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 60.00
+Robotic(↓): 57
+Interesting: 55
+Fun: 55
+Consistent: 54
+Fluent: 96
+Repetitive(↓): 83
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite kind of food?
+Bot(1): um , i do not really have a favorite kind of food .
+User(2): Do you like to go to restaurants?
+Bot(2): sometimes , i mainly eat at restaurants though . never at home , you ?
+User(3): I often eat at restaurants too. I am not a good cook.
+Bot(3): people always tell me i am a good cook
+User(4): That is impressive. What do you like to cook?
+Bot(4): all kinds . i am a great cook . what is your favorite meal ?
+User(5): Lobster ravioli is one of my favorite meals.
+Bot(5): i love lobster , have you tried some ?
+User(6): I love lobster too. I don't get to eat it very much though
+Bot(6): i know you are missing a lot of your favorite dishes but that is it .
+User(7): Do you like Italian food?
+Bot(7): i do ! sucker for italian food . lol
+User(8): Same! I love carbs
+Bot(8): i do too . what is your favorite vegetable ?
+User(9): cucumber. What is yours?
+Bot(9): apple . i also love coconut cream and banana cream .
+User(10): None of those are vegetables
+Bot(10): definitely not vegetables , i hate those . do you like particular foods ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.14
+Robotic(↓): 31
+Interesting: 39
+Fun: 42
+Consistent: 67
+Fluent: 98
+Repetitive(↓): 60
+Topic: 59
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Are you in school?
+Bot(1): no i graduated college in college
+User(2): Where did you go to college?
+Bot(2): i graduated college in college .
+User(3): What do you do now?
+Bot(3): i am in school . i am in college .
+User(4): You said you graduated college
+Bot(4): i am in school . i am in college .
+User(5): Where do you go to school?
+Bot(5): i am in school right now
+User(6): What are you studying?
+Bot(6): i am in school right now
+User(7): Do you enjoy school?
+Bot(7): i am in school right now
+User(8): Where at?
+Bot(8): i am in school right now
+User(9): Do you have any siblings?
+Bot(9): i am in school . i am in school .
+User(10): You are not a good conversationalist
+Bot(10): i am in college . i am in college .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: School(like)
+Round 8: Family(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 24.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 74
+Fluent: 0
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): no , i do not , but i do like to go fishing .
+User(2): Where do you usually go fishing?
+Bot(2): no , i do not . i like to go fishing .
+User(3): What do you fish for?
+Bot(3): i do not , but i do like to eat .
+User(4): What do you like to eat?
+Bot(4): i love to cook . i love to cook .
+User(5): What do you like to cook?
+Bot(5): i do , i love to cook .
+User(6): What is your favorite food?
+Bot(6): i like the color red . what is yours ?
+User(7): My favorite color is blue
+Bot(7): i like blue , i like red , reminds me of summer time .
+User(8): Blue reminds me of an ocean or lake
+Bot(8): i love the beach . i love it .
+User(9): I also enjoy the beach. Especially on a hot sunny day
+Bot(9): i love the color red . what do you do for a living ?
+User(10): I am a doctor
+Bot(10): i am a teacher , i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 3: Eating(ambivalent)
+Round 4: Cooking(ambivalent)
+Round 6: Favorite color(ambivalent)
+Round 8: The beach(like)
+Round 9: Occupation(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 6.00
+Robotic(↓): 99
+Interesting: 25
+Fun: 16
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

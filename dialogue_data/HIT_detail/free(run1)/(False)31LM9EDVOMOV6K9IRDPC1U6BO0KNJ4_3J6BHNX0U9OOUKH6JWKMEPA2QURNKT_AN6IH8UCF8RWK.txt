@@ -1,0 +1,299 @@
+Feedback: good survey.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): do you like music
+Bot(2): oh yeah ! toto was my favorite band back in the day named my dog toto !
+User(3): nice
+Bot(3): yes . i am a police officer in detroit .
+User(4): wow, nice profession
+Bot(4): i think i want to be a brownie baker . ha ha why did you choose law ?
+User(5): just like
+Bot(5): i love caring for them and making sure they stay healthy .
+User(6): yes okay do you like kiss the rain song and music
+Bot(6): i am a cajun chef born and raised on the bayou , fits my circumstances
+User(7): i don't want details about you
+Bot(7): do you have hobbies ? i write short fiction in my spare time .
+User(8): ohh great watching TV is one of my hobbies
+Bot(8): they got hit by a drunk driver a few months ago yes we were very close
+User(9): how are you
+Bot(9): i am good . just devoured a pizza . you ?
+User(10): what
+Bot(10): pizza wings and cheese bread
+User(11): yeah nice combination
+Bot(11): o yeah life is good , just have to balance and only do what you cn control
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.57
+Robotic(↓): 63
+Interesting: 60
+Fun: 66
+Consistent: 20
+Fluent: 52
+Repetitive(↓): 10
+Topic: 15
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey dude
+Bot(1): hi , how are you today ?
+User(2): yeah nice and you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): great
+Bot(3): i am a student , but i am a student .
+User(4): okay do you like which type of food
+Bot(4): i do not really like it . i like to eat .
+User(5): yeah that's what i am asking to you
+Bot(5): i am a student , but i am a student .
+User(6): fool
+Bot(6): i am a student , but i am a student .
+User(7): okay you are a student which teacher do you like in your school
+Bot(7): i love to cook . i love to cook .
+User(8): are you mad
+Bot(8): i am not . i am a student .
+User(9): fruit
+Bot(9): i love to eat .
+User(10): which fruit
+Bot(10): i like to eat fish .
+User(11): okay thank you
+Bot(11): i am a bit of a loner
+
+Persona:
+i am married.
+i am a little girl.
+i enjoy listening to classical music.
+i'm a cancer survivor.
+they're constantly on my back.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.57
+Robotic(↓): 32
+Interesting: 9
+Fun: 7
+Consistent: 15
+Fluent: 25
+Repetitive(↓): 15
+Topic: 12
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ? i am from ohio .
+User(2): fine, i am from iowa
+Bot(2): ohio is awesome i have family from there , do you have hobbies
+User(3): yes watching sports is one of my hobbies
+Bot(3): have you ever been outside of ohio ?
+User(4): yeah always
+Bot(4): have you ever been outside of ohio ?
+User(5): okay leave the topic
+Bot(5): you do not like ohio ?
+User(6): yes
+Bot(6): youre not finished with the chat
+User(7): why
+Bot(7): ok
+User(8): i like ohio
+Bot(8): you do not like ohio ?
+User(9): no i like it
+Bot(9): you do not like ohio ?
+User(10): no
+Bot(10): you do not like ohio ?
+User(11): fool
+Bot(11): ok
+
+Persona:
+i am married to a doctor.
+i play the piano and guitar and sing.
+i quit my job to pursue my spirituality full time.
+horror movies are my favorites.
+i've never been out of ohio.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.71
+Robotic(↓): 70
+Interesting: 8
+Fun: 3
+Consistent: 17
+Fluent: 29
+Repetitive(↓): 13
+Topic: 13
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): which is your favourite movie?
+Bot(1): goodfellas . . de piro is a god !
+User(2): nice
+Bot(2): really ? whats your all time favorite film ?
+User(3): titanic is my favorite film
+Bot(3): i like ballet much more
+User(4): really..
+Bot(4): my mother ballerina is so good
+User(5): when you went to film in last time?
+Bot(5): on my trip to italy
+User(6): ok good
+Bot(6): so do you wanna watch titanic ?
+User(7): yes i am willing to watch titanic again
+Bot(7): ok
+User(8): fine
+Bot(8): do you like any classical
+User(9): yes very much
+Bot(9): ok
+User(10): and you
+Bot(10): ok
+User(11): then
+Bot(11): ok
+
+Persona:
+i love italian food and garlic bread.
+my mom passed away when i was young.
+i take dance lessons once a week.
+i am a piano teacher on the side.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.00
+Robotic(↓): 89
+Interesting: 93
+Fun: 90
+Consistent: 92
+Fluent: 94
+Repetitive(↓): 92
+Topic: 95
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like go to tour?
+Bot(1): I please send me your just 10 years old.
+User(2): interesting
+Bot(2): I love watching movies at home what also like to play you like? 😃
+User(3): i am also like you
+Bot(3): i don't have a job and i'm afraid of clowns too with your job am clowns . hows it going ?
+User(4): don't fear about job everything is done by a good manner
+Bot(4): I am am going to marry go to work soon.
+User(5): good
+Bot(5): That is cool😎. I am a pilot, so i divorced. And I’m elese car🚗 driver.
+User(6): ohhh
+Bot(6): Yes, i dream of becoming you?
+User(7): ok
+Bot(7): oh , i am a teacher thats not so u a police officer. Also, try to guess: i like to ...
+User(8): would you like to go to the tour with me?
+Bot(8): How you at you?
+User(9): yes with me
+Bot(9): I am not me about got i with them.
+User(10): ok
+Bot(10): guess i'm boring . i read and go hiking it am a genre Also, try to guess: i am married ...
+User(11): which is your favorite tourist spot
+Bot(11): I do not. I and a dog.
+User(12): ok good
+Bot(12): i you are woman.
+User(13): yes
+Bot(13): at a bar midtown. Also, try to you feed your can't ...
+User(14): bye bye
+Bot(14): How are you chat with you the surgery?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tourism(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.00
+Robotic(↓): 89
+Interesting: 94
+Fun: 89
+Consistent: 93
+Fluent: 89
+Repetitive(↓): 95
+Topic: 95
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): which is your game
+Bot(1): i love to play sports . i like to run .
+User(2): really
+Bot(2): i do not play any sports . i like running .
+User(3): but why you do not play any sports
+Bot(3): i do not play sports but i love running
+User(4): yes that's good
+Bot(4): i play the piano and play the piano
+User(5): are you a athlete in running
+Bot(5): i am pregnant , i am pregnant with my first child
+User(6): ok
+Bot(6): i am a piano teacher , i love running
+User(7): ok good
+Bot(7): i am a piano teacher , i love running
+User(8): how many kilometers you have to running
+Bot(8): i run a lot and you ?
+User(9): ok i run less
+Bot(9): i run a lot and run
+User(10): ok
+Bot(10): i run a lot and run
+
+Persona:
+i am a piano teacher on the side.
+i'm pregnant with my first child.
+i enjoy sports such as running.
+i have a pet fish.
+my favorite food is pizza with black olives.
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.00
+Robotic(↓): 90
+Interesting: 92
+Fun: 88
+Consistent: 92
+Fluent: 91
+Repetitive(↓): 95
+Topic: 91
+
+####################
+

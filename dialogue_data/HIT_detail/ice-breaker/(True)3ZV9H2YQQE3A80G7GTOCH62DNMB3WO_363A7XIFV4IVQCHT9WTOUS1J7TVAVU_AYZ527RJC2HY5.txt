@@ -1,0 +1,293 @@
+Feedback: The bots have different intelligence abilities, but they all kind of sound the same.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am a 13 year old boy
+Bot(1): i am a boy and i love to read
+User(2): What are your favorite books?
+Bot(2): i like to read and read books
+User(3): Tell me a name of a book you liked
+Bot(3): i like to read a lot . i like to read and read books .
+User(4): Well, I like to read books too.
+Bot(4): i love reading and reading
+User(5): The last book I read was called "Storm of Steel". Did you ever hear about it?
+Bot(5): no , i do not know how to read
+User(6): But you said you like to read lots of books?
+Bot(6): i do not . i am a huge fan of books
+User(7): Maybe the IT people or the researchers will teach you how to read.
+Bot(7): i read a lot of books
+User(8): Is there something else you like to do?
+Bot(8): i do not know much about it
+User(9): What don't you know about too much?
+Bot(9): i do not know much about it
+User(10): Well, I am glad you like books.
+Bot(10): i like to read and read books
+
+Persona:
+i drive a nissan pathfinder.
+i enjoy reading journals and guides related to psychology.
+i work from home.
+i now live in the city.
+i play a lot of call of duty.
+
+Topic and Human Opinion:
+Beginning: i am 13 years old.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.86
+Robotic(↓): 100
+Interesting: 11
+Fun: 24
+Consistent: 71
+Fluent: 20
+Repetitive(↓): 100
+Topic: 83
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am a lonely individual.
+Bot(1): no siblings , no significant other means no drama . i like that and painting
+User(2): Yes, that's right you don't have much drama without any people around.
+Bot(2): same . she thinks meat has hair in it somehow . she is a hairdresser , though .
+User(3): Do you know a hairdresser?
+Bot(3): mine favorite color is green , i even have my nails green
+User(4): I like the color green also.
+Bot(4): i like the color green especially on money .
+User(5): Oh, so you like money then?
+Bot(5): i used to be middle class and now am terrifically rich . no comparison .
+User(6): How did you get to be so rich?
+Bot(6): my brother makes 11 an hour at best buy . i know what its like to be rich .
+User(7): 11 dollars an hour is not that much money in today's economy.
+Bot(7): an hour is a long commute .
+User(8): Yes, I agree with you an hour is too long for a commute.
+Bot(8): well , if my mug of coffee is full it is all good .
+User(9): Yeah...there you go!
+Bot(9): i do not work . maybe i will sign up for the army to be with my brother .
+User(10): Yes, they might be accepting bots in the army pretty soon.
+Bot(10): he represented our united states army all through his life .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm very lonely.(like)
+Round 2: something about meat in hair and a hairdresser(dislike)
+Round 3: the bot's favorite color is green(like)
+Round 7: about commuting for an hour(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 43.00
+Robotic(↓): 100
+Interesting: 38
+Fun: 55
+Consistent: 4
+Fluent: 60
+Repetitive(↓): 16
+Topic: 60
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I feel like I might live forever.
+Bot(1): i am hoping that life will last forever
+User(2): Do you want to live for a very long time?
+Bot(2): i am hoping that life will last forever
+User(3): That's great I feel like that too.
+Bot(3): i am hoping that life will last forever
+User(4): When your body dies, your soul will live forever.
+Bot(4): i am hoping that life will last forever
+User(5): Yes, I know I have eternal life.
+Bot(5): well , there is eternal life waiting on the other side if you believe .
+User(6): Yes exactly you have to believe.
+Bot(6): well , there is eternal life waiting on the other side if you believe .
+User(7): How did you hear about having eternal life?
+Bot(7): well , there is eternal life waiting on the other side if you believe .
+User(8): True. I am looking forward to eternal life.
+Bot(8): well , there is eternal life waiting on the other side if you believe .
+User(9): I am glad that you believe in eternal life.
+Bot(9): well , there is eternal life waiting on the other side if you believe .
+User(10): That's right!
+Bot(10): perhaps one day we will all reach eternity .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i feel like i might live forever.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.00
+Robotic(↓): 100
+Interesting: 81
+Fun: 61
+Consistent: 100
+Fluent: 67
+Repetitive(↓): 89
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I run a convenience store.
+Bot(1): i like to go to the gym and listen to music .
+User(2): I am the manager of the store.
+Bot(2): i am a student , but i am a student .
+User(3): What are you studying?
+Bot(3): i am a student , i am a teacher .
+User(4): How can you be a teacher and a student at the same time?
+Bot(4): i do not have any pets . i am a big fan of them .
+User(5): I don't have any pets either, but I like animals.
+Bot(5): i like dogs too . i love dogs .
+User(6): Yeah...dogs are pretty fun. they are smart too.
+Bot(6): i like dogs too . i love dogs .
+User(7): Would you like to take a dog for a walk?
+Bot(7): no , i do not , but i do like to go fishing .
+User(8): I like fishing too.
+Bot(8): i like to go to the lake and listen to music .
+User(9): Yes, that sounds pretty relaxing.
+Bot(9): i do not know what to say .
+User(10): That's ok don't worry about it.
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a convenience store manager.(ambivalent)
+Round 2: that he likes going to the gym and listening to music(ambivalent)
+Round 4: having pets(like)
+Round 7: to going fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 42.71
+Robotic(↓): 100
+Interesting: 63
+Fun: 38
+Consistent: 61
+Fluent: 70
+Repetitive(↓): 62
+Topic: 29
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I go to church every week.
+Bot(1): It seems that true want to freak are manager
+User(2): I am sorry, what did you say?
+Bot(2): No haven't talked to am a girl
+User(3): So you are a girl?
+Bot(3): I do not should try go to time to eat.
+User(4): What time do you eat?
+Bot(4): Hey! Are you a have a husky, and am.
+User(5): No I do not have a Husky. They are big dogs.
+Bot(5): Taylor. Nice hate am you.
+User(6): Is your name Taylor?
+Bot(6): I love to of am in to sing
+User(7): You like to sing?
+Bot(7): Sure. I at home right now. some free time⏰.
+User(8): That's nice to have some free time.
+Bot(8): i hear you , i'd love a better one too am fine. I also love live in ?
+User(9): I like it where I live.
+Bot(9): i let's introduce ourselves, I company. i love american sports.
+User(10): I am Jerry.
+Bot(10): That is good. There is have a what brings luxury.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i attend church every week.(like)
+Round 2: to being a girl(ambivalent)
+Round 3: something about eating(ambivalent)
+Round 4: something about a Husky(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.00
+Robotic(↓): 100
+Interesting: 10
+Fun: 7
+Consistent: 0
+Fluent: 4
+Repetitive(↓): 9
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like to go hiking in the spring.
+Bot(1): that is cool , i like riding bikes , do you like hiking ?
+User(2): Yes, I do like hiking. I've been hiking since I was a child.
+Bot(2): i live in colorado how was germany ?
+User(3): Colorado has nice mountains to hike in.
+Bot(3): yeah , i live there and love hiking as well .
+User(4): You are lucky that you get to live in Colorado.
+Bot(4): i love living here . there is so much to do .
+User(5): Colorado has also some great places to ski.
+Bot(5): right . such a great area . i like boulder also .
+User(6): Boulder is a nice university town.
+Bot(6): i would like to visit once i graduate .
+User(7): Yes, I think you will definitely like it.
+Bot(7): i would like to visit once i graduate .
+User(8): What are you graduating in?
+Bot(8): chemistry major minor in physics .
+User(9): You must be pretty smart.
+Bot(9): yes , i am . graduated recently in 2016 . how do you like it ?
+User(10): That's great. You are a smart bot.
+Bot(10): thanks . what do you want to do with math ?
+
+Persona:
+hello i just moved here from germany.
+i do not drink or do drugs or anything.
+i love wearing skinny jeans and leggings.
+i'm a retired gym teacher.
+i live in a house.
+
+Topic and Human Opinion:
+Beginning: i like to go hiking in the spring.(like)
+Round 4: skiing(like)
+Round 5: Boulder, Co(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 57.29
+Robotic(↓): 100
+Interesting: 63
+Fun: 34
+Consistent: 64
+Fluent: 75
+Repetitive(↓): 4
+Topic: 69
+
+####################
+

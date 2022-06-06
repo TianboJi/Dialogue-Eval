@@ -1,0 +1,316 @@
+Feedback: It was fun but I do think they need a little work. :)
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello! How are you tonight?
+Bot(1): i'm doing well . just got done walking my dog .
+User(2): Oh, I have 3 dogs that I have to walk regularly.
+Bot(2): i love to travel . i love to travel .
+User(3): I love to travel as well. Where is your favorite place to visit?
+Bot(3): i love to travel . i love to travel .
+User(4): Me too.
+Bot(4): i like to go to the gym and listen to music .
+User(5): I love music but I don't visit the gym.
+Bot(5): i like to go to the lake and listen to music .
+User(6): Yes, me too. What's your favorite music?
+Bot(6): i like the beatles , and the outdoors .
+User(7): Nice! I really like the Beatles and the outdoors as well.
+Bot(7): i love to go fishing .
+User(8): I used to but I haven't been in a long time.
+Bot(8): i am sorry to hear that . i am sorry to hear that .
+User(9): It's okay!
+Bot(9): i like to go to the gym and listen to music .
+User(10): What else do you do at the gym?
+Bot(10): i like to go fishing . i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Writing(like)
+Round 2: Travel(like)
+Round 4: Gym(ambivalent)
+Round 5: Travel and music(like)
+Round 7: Fishing(like)
+Round 9: Gym and music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 50
+Fun: 42
+Consistent: 28
+Fluent: 50
+Repetitive(↓): 100
+Topic: 5
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What kind of art do you like?
+Bot(1): i like art and art
+User(2): Any medium you prefer?
+Bot(2): i like art and art
+User(3): Do you make any art?
+Bot(3): i like art , but i do not like art
+User(4): Okay, that doesn't really make any sense.
+Bot(4): i like art , but i do not like art
+User(5): What else do you like?
+Bot(5): i like art , but i do not like art .
+User(6): Do you like painting or drawing?
+Bot(6): i like art , but i do not like art .
+User(7): Who is your favorite artist?
+Bot(7): i like art , what about you ?
+User(8): Yes, I love art.
+Bot(8): i like art too , but i like art .
+User(9): Do you like reading?
+Bot(9): i do . i love to read .
+User(10): What is your favorite book?
+Bot(10): i like to read . i love to read .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Art(like)
+Round 9: Reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 9: The user changed the topic the last input.(like)
+
+Revised avg score: 20.86
+Robotic(↓): 100
+Interesting: 3
+Fun: 4
+Consistent: 5
+Fluent: 34
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello, do you have any pets?
+Bot(1): What are you? music?
+User(2): I am human but I like music. Do you?
+Bot(2): I am can do everything never from my class
+User(3): What do you mean?
+Bot(3): I'd like have day is going answer is: I hate the color orange
+User(4): The color orange is okay. My favorite color is red.
+Bot(4): I Let's talk cook
+User(5): Do you like to cook?
+Bot(5): i am a professional eater , that you are a .
+User(6): Awesome. I love food!
+Bot(6): I have never been to new York, be something about do dance
+User(7): I have never been to New York either.
+Bot(7): i'm not sad you a robot i is holidays more than anything. where are you from ?
+User(8): I am in Tennessee right now. You?
+Bot(8): cool ✨ what do you how to do ok, teacher
+User(9): I am not sure what you mean
+Bot(9): i do playing guitar when i but i do have a greenhouse .
+User(10): That is cool. I'd like to play violin and have a greenhouse.
+Bot(10): I am ok. English and am activist.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 1: Music(like)
+Round 3: The color orange(ambivalent)
+Round 4: Cooking(like)
+Round 6: New York(ambivalent)
+Round 7: Location(ambivalent)
+Round 9: Guitar and greenhouse(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 20.00
+Robotic(↓): 100
+Interesting: 33
+Fun: 7
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello! What is your favorite food?
+Bot(1): i love new york pizza ! yours ?
+User(2): I love Pad Thai.
+Bot(2): i like thai food the most
+User(3): It is so good, isn't it?
+Bot(3): its thai . do you like thai food ?
+User(4): Yes, it's my favorite.
+Bot(4): what kind of food do you like best ? i love thai .
+User(5): Same. What else do you like to eat?
+Bot(5): i like thai food the most
+User(6): Would you like to talk about something else?
+Bot(6): sounds good . i love thai food .
+User(7): Do you like Mexican food?
+Bot(7): i do . do you like mexican food ?
+User(8): Yes, it's delicious. How about Chinese food?
+Bot(8): i like thai food the most
+User(9): Me too. Are you going to be eating Thanksgiving dinner?
+Bot(9): oh yes ! i am going to a mexican restaurant for dinner tonight !
+User(10): Can you take me with you?
+Bot(10): sure ! where are we going to go ?
+User(11): To get Mexican food!
+Bot(11): do you like mexican food ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.14
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello! Do you like to watch movies?
+Bot(1): yes ! i love movies about dogs ! do you like dogs ?
+User(2): Yes! I have 3 dogs. You?
+Bot(2): nice ! i have 2 kids and a mini van
+User(3): Oh, that is fun. I don't have any kids and my car is a Trailblazer.
+Bot(3): nice ! i have 2 kids and a mini van
+User(4): Do you like to travel?
+Bot(4): i wish . i travel by van .
+User(5): Where is your favorite place to go?
+Bot(5): hawaii ! i love the color green and it is so beautiful seeing the scenery out there .
+User(6): I have heard! I have never been but would love to visit. Have you ever been to Washington state?
+Bot(6): no ! i want to visit someday !
+User(7): It's very beautiful and green there too. It's my favorite place.
+Bot(7): love it there ! i was a nurse when i lived there
+User(8): In Washington?
+Bot(8): it is beautiful . more than anything , i have a huge love for my dog .
+User(9): Me too. My dogs are like my children.
+Bot(9): that is cute ! how old are they ?
+User(10): 7, 7 and 9. How old is your dog?
+Bot(10): he is just under a year old . how big are your dogs ?
+User(11): They are all medium sized. You?
+Bot(11): boston terrier . i get her everything purple , my favorite color . do you have dogs ?
+
+Persona:
+i'm in my thirties.
+my bedroom is purple and lime green.
+i am a baby delivery nurse.
+i drive a mini van.
+i love dogs.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 1: Dogs(like)
+Round 2: Kids and Mini Van(ambivalent)
+Round 4: Travel(like)
+Round 8: Dog(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The user changed the topic the last input.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 73.29
+Robotic(↓): 60
+Interesting: 61
+Fun: 61
+Consistent: 73
+Fluent: 92
+Repetitive(↓): 12
+Topic: 98
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, do you like to play video games?
+Bot(1): ahh well being a chick i try to xbox but most people make fun of me online
+User(2): I am a girl too and have dealt with similar but I still have fun playing.
+Bot(2): you have to get a free mind that allows you cope up with any thing .
+User(3): That's very true. You just have to realize nothing those people say matters.
+Bot(3): spanish , german , french , russian , and well english
+User(4): Are those the languages you speak?
+Bot(4): i speak only english , and a little spanish
+User(5): I only speak english but would love to learn Italian.
+Bot(5): i can only speak one language !
+User(6): Me too.
+Bot(6): i love nature and the outdoors . one of my favorite things is hiking !
+User(7): Me too! Nature is one of my favorite things.
+Bot(7): that is great ! i enjoy nature walks
+User(8): So do I. I haven't been in a while, though.
+Bot(8): mine would be classical music . i enjoy listening to it while gardening too
+User(9): I like all kinds of music and gardening as well.
+Bot(9): hello , i love gardening as well , do you have a cat ?
+User(10): I have a cat named Nyx. Do you have a cat?
+Bot(10): an orange tabby cat . she is got short hair
+User(11): So cute! Mine is a Siamese with blue eyes.
+Bot(11): i love blue eyes ! mine are greenish brown
+
+Persona:
+i'm rather skinny as i like to stay in shape.
+i enjoy gardening and walking outdoors.
+i'm partly deaf.
+my favorite spanish word is trabajo.
+i feel like i might live forever.
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 3: language(ambivalent)
+Round 6: Hiking(like)
+Round 8: Music(like)
+Round 10: Cat(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 76.43
+Robotic(↓): 55
+Interesting: 64
+Fun: 78
+Consistent: 88
+Fluent: 85
+Repetitive(↓): 2
+Topic: 77
+
+####################
+

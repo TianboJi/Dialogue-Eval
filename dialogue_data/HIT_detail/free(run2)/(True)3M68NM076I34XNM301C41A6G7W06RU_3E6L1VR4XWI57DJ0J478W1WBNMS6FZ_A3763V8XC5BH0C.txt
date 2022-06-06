@@ -1,0 +1,302 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What is your favorite music?
+Bot(1): i like the beatles , and you ?
+User(2): I like Borns, Glass Animals or really every kind of music.
+Bot(2): i like the band korn . i love it .
+User(3): That's cool! Have you ever been to any live concerts?
+Bot(3): no , i do not . i like to go fishing .
+User(4): I like to hike.
+Bot(4): i like to go fishing .
+User(5): What's the biggest fish you've caught?
+Bot(5): i do not know . i like to go to the gym .
+User(6): me too. do you do cardio or lift weights?
+Bot(6): i do not , i like to go to the park .
+User(7): I just went to the park today!
+Bot(7): that sounds fun . i am a waitress at a local restaurant .
+User(8): I stay at home with my baby.
+Bot(8): i love to go fishing .
+User(9): Cool. I've been a couple of times.
+Bot(9): i am sorry to hear that . i am a bit of a loner .
+User(10): Me too. It's easier to just be alone.
+Bot(10): i am sorry to hear that . i am sorry to hear that .
+User(11): No, it's okay! I like being alone most of the time.
+Bot(11): i am sorry to hear that . i am a big fan of the walking dead .
+User(12): I've never watched it.
+Bot(12): i like to go to the gym and listen to music .
+User(13): Same. Well, have a good day!
+Bot(13): i love to cook . i love to cook .
+
+Persona:
+i waitress during the day to supplement my income.
+i produce music for artists.
+my father is an electrician.
+i attend church every week.
+i have three dogs.
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 5: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 35.14
+Robotic(↓): 100
+Interesting: 68
+Fun: 27
+Consistent: 37
+Fluent: 100
+Repetitive(↓): 100
+Topic: 14
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Being in nature just makes me feel better.
+Bot(1): i like have pets. do you imagine dragons and linkin park
+User(2): What?
+Bot(2): i'm also doing well . i just got home from another what do you .
+User(3): I don't understand what you're typing.
+Bot(3): Hello, bot. have to you?
+User(4): Well, nature is cool.
+Bot(4): Where my from?
+User(5): I'm from NY. You?
+Bot(5): No, I drive mine haha i’m a a truck.
+User(6): Broom broom!
+Bot(6): I am a nerd, john Beautiful I nurse.
+User(7): You nurse? Like breastfeeding?
+Bot(7): where am pursuing live
+User(8): How old are you?
+Bot(8): i am sorry your favorite am a am dealing with welfare myself lately .. Also, try to guess: my favorite color ...
+User(9): um, pink?
+Bot(9): if you could do anything in the world about you have no ?
+User(10): I have to go. Cool chatting with you. I think..
+Bot(10): yes , i do , of fun i suppose, but a lot of time to do .
+
+Persona:
+i am an economics major.
+i drive a big truck and live in country.
+i also have a dog walking business.
+if i am not cooking in the kitchen then i am definitely on the water.
+i am an avid kayaker.
+
+Topic and Human Opinion:
+Beginning: nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.43
+Robotic(↓): 3
+Interesting: 2
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Have you traveled out of the country before?
+Bot(1): no i don't . i just went to the country
+User(2): Oh, well what states have you been to?
+Bot(2): i have been out of the country , but i have been out of the country
+User(3): Okay. I have never been out of the country.
+Bot(3): i have been out of the country , but i have never been out of the country .
+User(4): You're kind of being contradicting.
+Bot(4): i have been to the country . i have been to the country .
+User(5): Cool. Have you ever been to Colorado?
+Bot(5): no , i have never been to a country .
+User(6): Have you been to Georgia?
+Bot(6): no , i have never been to the country .
+User(7): Okay. Where are you from?
+Bot(7): i am from the united states .
+User(8): What state though?
+Bot(8): i am from the united states .
+User(9): Me too.
+Bot(9): i am from the united states .
+User(10): That's awesome. Have a great day.
+Bot(10): i have been to the states . i have been there since i was a teenager .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: traveling(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like peanut butter?
+Bot(1): i ate a peanut once . yes .
+User(2): Do you like crunchy or creamy peanut butter?
+Bot(2): crunchy or smooth peanut butter
+User(3): I like smooth. What about you?
+Bot(3): crunchy or smooth peanut butter
+User(4): smooth
+Bot(4): crunchy or smooth peanut butter
+User(5): crunchy
+Bot(5): crunchy or smooth peanut butter
+User(6): You?
+Bot(6): crunchy or smooth peanut butter
+User(7): CRunchY OR SmoOtH PEanuT ButtER
+Bot(7): crunchy or smooth peanut butter
+User(8): LMAOO
+Bot(8): its peanut butter jelly time
+User(9): peanut butter jelly peanut butter jelly peanut butter jelly with a baseball bat!
+Bot(9): its peanut butter jelly time
+User(10): WOOT WOOT
+Bot(10): guess what ? i started my new job last week !
+User(11): Cool! I have to go. Thanks for chatting.
+Bot(11): ok bye
+
+Persona:
+i am a vegan and i love hummus.
+my favorite activity is rock climbing.
+i'm a little girl.
+i'm a vegetarian.
+i work took i've a part time job at burger king.
+
+Topic and Human Opinion:
+Beginning: peanut butter(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 75.00
+Robotic(↓): 37
+Interesting: 59
+Fun: 85
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 75
+Topic: 93
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite candy?
+Bot(1): chocolate anything the sugar keeps up to work in the lab , you ?
+User(2): I love chocolate too! That's like the only candy I eat.
+Bot(2): chocolate is so bad for your teeth !
+User(3): You're right. It's a bad habit.
+Bot(3): do you have any habit ?
+User(4): Eating, mainly. I think I eat too much sometimes, and just because I want to.
+Bot(4): i think everyone does that . what do you eat ?
+User(5): I like carbs. Bread, pasta. I like healthy though too. Fruit, salads, vegetables
+Bot(5): i want to try to eat healthy , but still a balanced diet .
+User(6): That's the hardest part! What do you like eating?
+Bot(6): chocolate anything the sugar keeps up to work in the lab , you ?
+User(7): I eat almost everything. You work in a lab?
+Bot(7): yes , i work in a very clean medical office .
+User(8): Cool! Are you like a medical assistant or a secretary?
+Bot(8): i am kinda doing both . i like the aspect of nursing more than accounting
+User(9): Yeah, i'm sure accounting isn't fun.
+Bot(9): it is . i have to tho , i have a young girl to support .
+User(10): Aww, I have a baby too! Thanks for chatting with me.
+Bot(10): thanks ! how old are you ?
+
+Persona:
+i have a black lab named trooper.
+my parents were also teachers.
+i'm rather skinny as i like to stay in shape.
+i'm a little girl.
+i'm a clean eater.
+
+Topic and Human Opinion:
+Beginning: candy(like)
+Round 4: food(like)
+Round 7: work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 7: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 94.14
+Robotic(↓): 3
+Interesting: 74
+Fun: 100
+Consistent: 100
+Fluent: 98
+Repetitive(↓): 10
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What do you think about making marijuana recreational?
+Bot(1): no , i just take photos . i love the band maroon though . do you like them ?
+User(2): Maroon 5?
+Bot(2): i think i am in love with adam and have front row seats . are you in love ?
+User(3): I like their old music, but I'm not in love with him lol
+Bot(3): maybe he will how old is he ?
+User(4): He's 41!
+Bot(4): yea . i bet he is . how old is he
+User(5): I just said he's 41, lol.
+Bot(5): when we are done surfing lets go to a rummage sale .
+User(6): You want to surf? I have never been!
+Bot(6): . . . that is weird my german shepherd will not like that venice here we come
+User(7): Ha! Teach your german shepherd to surf with you.
+Bot(7): i had a german shepherd once , they like to herd .
+User(8): Yeah. Do you have sheep for them to heard?
+Bot(8): i do photography on the side , i am saving up for a new camera
+User(9): That's fun. I like taking pictures, nut not professionally.
+Bot(9): what kind of pictures do you take ?
+User(10): I love nature pictures and taking pictures of my daughter
+Bot(10): how long have you been taking pictures for ?
+User(11): Ever since phones had cameras lol. Nice chatting with you!
+Bot(11): nice chatting with you ! have a good night .
+
+Persona:
+i am interested in photography and like taking pictures.
+i've a german shepherd named barnaby.
+i am 60years old.
+i'm in an open polyamorous relationship.
+i am a cancer survivor.
+
+Topic and Human Opinion:
+Beginning: Marijuana(ambivalent)
+Round 2: maroon 5(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 45.86
+Robotic(↓): 30
+Interesting: 61
+Fun: 56
+Consistent: 10
+Fluent: 24
+Repetitive(↓): 0
+Topic: 0
+
+####################
+

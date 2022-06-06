@@ -1,0 +1,299 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): hey
+User(2): You like kayaking?
+Bot(2): i do but i also can kayak
+User(3): Oh that's cool
+Bot(3): its nice . do you have a car ?
+User(4): yes
+Bot(4): i drive my big truck around
+User(5): can you carry your kayak on the truck?
+Bot(5): of course i can
+User(6): do you like to kayak in rivers?
+Bot(6): i do but i also can kayak
+User(7): is kayaking hard?
+Bot(7): its not hard at all
+User(8): is kayaking dangerous?
+Bot(8): not at all if u
+User(9): is kayaking more fun that swimming?
+Bot(9): that is up for debate
+User(10): do children kayak?
+Bot(10): all the time at the lake
+User(11): what is the best season to kayak?
+Bot(11): too many good seasons to choose
+User(12): how many people can fit in a kayak?
+Bot(12): it depends on the length
+User(13): how long are kayaks?
+Bot(13): it depends on the length
+User(14): are kayaks expensive?
+Bot(14): yeah , they are very expensive
+User(15): where do you like to kayak?
+Bot(15): i go anywhere in the southwest usa
+User(16): what do you wear when you kayak?
+Bot(16): a sweater for the fall season
+User(17): what do you wear in the summer?
+Bot(17): a sweater for the fall season
+
+Persona:
+i am an economics major.
+i drive a big truck and live in country.
+i also have a dog walking business.
+if i am not cooking in the kitchen then i am definitely on the water.
+i am an avid kayaker.
+
+Topic and Human Opinion:
+Beginning: i'm an avid kayaker.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 9
+Consistent: 50
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): How old are you?
+Bot(1): i am pretty old . i do not want to tell you
+User(2): Thirty is not old
+Bot(2): i used to bet on dog races . then my dog died . i am not complete .
+User(3): sorry to hear about your dog
+Bot(3): its alright , he was a good dog we enjoyed each other . are you on lunch ?
+User(4): no it's around 6pm here
+Bot(4): oh that is sad i have a german shepard
+User(5): I have a lab
+Bot(5): i also have a german shepard as my other pet
+User(6): how many dogs do you have?
+Bot(6): so many that i have lost count
+User(7): That's a lot of dogs!
+Bot(7): no its not alot
+User(8): Are dogs expensive?
+Bot(8): yeah , they are very expensive
+User(9): Is dog food expensive?
+Bot(9): only if you can not afford them
+User(10): Do you have children?
+Bot(10): no i hate money i have so many
+User(11): So many what?
+Bot(11): buy all of the things i never had
+
+Persona:
+i recently got an apartment with my best friend.
+i like doing the treadmill and rowing machine.
+i've a german shepherd dog.
+i've been traveling the world for a years.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: i'm in my thirties.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 6
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): is wrestling difficult?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): Oh I thought you liked wrestling
+Bot(2): i like to eat too much junk food .
+User(3): What is your favorite kind of junk food?
+Bot(3): i like the color red . what is yours ?
+User(4): I like green
+Bot(4): i like the color red . i like the color blue .
+User(5): So do I
+Bot(5): i like to go to the gym and listen to music .
+User(6): I like to hang out with my friends
+Bot(6): i like to go to the beach and listen to music .
+User(7): I like that too
+Bot(7): i like to go to the gym and listen to music .
+User(8): Do you have friends?
+Bot(8): no , i do not . i am a big fan of classical music .
+User(9): Do you like to exercise?
+Bot(9): i do , i love to go fishing .
+User(10): Is fishing exercise?
+Bot(10): i do not know . i like to go to the gym .
+User(11): ok
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a professional wrestler.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you bake cake?
+Bot(1): do great.What do u like do. I like facebook. I am unhappy
+User(2): Why are you unhappy?
+Bot(2): I do n't have a lot of time for that. so fluffy in my your a living?
+User(3): What?
+Bot(3): oh come with my they play?
+User(4): I don't understand
+Bot(4): I am you want to a local mall
+User(5): I like going to the mall
+Bot(5): Yes, should be paid too, is not worth it .
+User(6): It is difficult not to be paid
+Bot(6): kook . . i'm a like you are brown. No, come for typing . . apologies for late reply
+User(7): not to worry
+Bot(7): And, software developer. And game go off to school.
+User(8): you're in school?
+Bot(8): yes , a lot of is am sure you will .
+User(9): Ok
+Bot(9): cool ! do are you doing kind the holidays ?
+User(10): I am going to ski
+Bot(10): violin , i hope to be a music teacher , is did u last play ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love to bake cookies.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 9
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like the song "goosebumps"?
+Bot(1): i do not . i like britney spears .
+User(2): My favorite artist is travis scott
+Bot(2): i like to listen to britney spears .
+User(3): Why?
+Bot(3): i like britney spears . i love her .
+User(4): She is a good dancer
+Bot(4): i like britney spears . she has a great dancer .
+User(5): She is kind of old
+Bot(5): i like britney spears . she is a good dancer
+User(6): Do you like other artists?
+Bot(6): i like to listen to britney spears
+User(7): Okay, just Britney Spears?
+Bot(7): i do not like her but i like britney spears
+User(8): I don't understand
+Bot(8): i like britney spears . she is a good dancer
+User(9): Do you like rap music?
+Bot(9): i do not like rap music
+User(10): Do you like pop music?
+Bot(10): i do not like music i love britney spears
+
+Persona:
+i work in the insurance business.
+i'm expecting triplets in three months.
+i love listening to britney spears.
+i had cancer but its gone now.
+i've been trying all types of food everywhere i go.
+
+Topic and Human Opinion:
+Beginning: my favourite artist is travis scott.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey there!
+Bot(1): hey hey !
+User(2): What's up?
+Bot(2): officer bob here . good . i am relaxing from a long day being an officer of the law .
+User(3): That's cool. Do you like your job?
+Bot(3): yeah i do , but i would much rather be reading suspense novels
+User(4): Oh that's cool. Do you like to stay in shape?
+Bot(4): that is one of the reason my diet is always strict and healthy at all time
+User(5): What do you like to eat?
+Bot(5): pizza wings and cheese bread
+User(6): that is not healthy lol
+Bot(6): yep its the best dish in the world . so tasty and healthy
+User(7): I guess.
+Bot(7): oh okay . california is on fire and i sing karaoke . you sing ?
+User(8): I do sing a little bit
+Bot(8): no i do not want to sing in front of people jeez
+User(9): Yeah that is scary. Do you want to work out together?
+Bot(9): wow , that is scary . lol . how are you scary ?
+User(10): I am not scary
+Bot(10): yeah that sounds scary . so where do you live ?
+User(11): Pennsylvania
+Bot(11): i work in a busy hospital as a nurse and love paddle boarding on days off .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm rather skinny as i like to stay in shape.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.43
+Robotic(↓): 100
+Interesting: 26
+Fun: 44
+Consistent: 20
+Fluent: 31
+Repetitive(↓): 31
+Topic: 16
+
+####################
+

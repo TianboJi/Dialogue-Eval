@@ -1,0 +1,289 @@
+Feedback: good
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): hi
+Bot(2): hey
+User(3): wow
+Bot(3): ok
+User(4): do you like a foot ball
+Bot(4): really not much of a fan of hoop
+User(5): and so on
+Bot(5): what kind of ball then
+User(6): 2 more
+Bot(6): ok
+User(7): i havea two children
+Bot(7): oh wow
+User(8): and then
+Bot(8): his
+User(9): working
+Bot(9): ok
+User(10): how are you
+Bot(10): i am good
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hi(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.71
+Robotic(↓): 84
+Interesting: 83
+Fun: 83
+Consistent: 96
+Fluent: 98
+Repetitive(↓): 93
+Topic: 91
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hai
+Bot(1): hi how are you today
+User(2): i am good
+Bot(2): hi , i am doing great . how are you ?
+User(3): oh i am good
+Bot(3): hi , i am doing great . how are you ?
+User(4): and then
+Bot(4): hi , i am doing great . i am a bit of a student .
+User(5): oh i am during work
+Bot(5): i am a cashier at a local soup kitchen
+User(6): oh good
+Bot(6): i am a good person . i am a student
+User(7): iam good
+Bot(7): i am good thanks for asking
+User(8): ok
+Bot(8): i am good thanks for asking
+User(9): ok sure
+Bot(9): i am good thanks for asking
+User(10): hello
+Bot(10): i am good thanks for asking
+
+Persona:
+i like to tan in tanning beds.
+i'm here for shoplifting.
+i enjoy sports such as running.
+i love to play pobox.
+i volunteer at a soup kitchen.
+
+Topic and Human Opinion:
+Beginning: friend(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.29
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 90
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hai
+Bot(1): I'm i like old.
+User(2): good morning
+Bot(2): I love dogs, i have one, dont be I mean have a dog.
+User(3): wow super
+Bot(3): I American sports. And what sport is that
+User(4): do you like cricket
+Bot(4): Dogs don't care i am a dogs, dogs.
+User(5): i like prts
+Bot(5): I just turned ur local newspaper.
+User(6): i reada many books
+Bot(6): i really like know what i do ? 🤖
+User(7): ok
+Bot(7): I am they're not better than and I love classical music.
+User(8): i love music
+Bot(8): I like to travel too! a big fan of pistachio
+User(9): oh
+Bot(9): i work as a for me some am profession
+User(10): oh wow
+Bot(10): I are so Get it?
+
+Persona:
+i faint at the sight of blood.
+i fantasize about taking over the world.
+i drive a mini van.
+i have five sons.
+i am a musician and hope to make it big some day.
+
+Topic and Human Opinion:
+Beginning: morning(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.29
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 66
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i like sports
+Bot(1): hi ! i have never been big on sports , but i found one i like !
+User(2): cricket
+Bot(2): i love to play sports and bake
+User(3): and so
+Bot(3): i think am a lot of fun when i am drunk
+User(4): no
+Bot(4): this is not fun its nonsense
+User(5): oh ok
+Bot(5): ok
+User(6): ok bye
+Bot(6): ok
+User(7): hmm
+Bot(7): ok
+User(8): goodnight
+Bot(8): ok
+User(9): ok
+Bot(9): same
+User(10): ok good
+Bot(10): same
+
+Persona:
+i started playing guitar when i was three.
+i am a recovering alcoholic.
+i love to bake cookies.
+i haven't spoken in three months.
+i am terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: sports(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.29
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 87
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): goodday
+Bot(2): i love to cook . i love to cook .
+User(3): i lovesports
+Bot(3): i like to go to the gym and listen to music .
+User(4): i like a read
+Bot(4): i like to read too .
+User(5): oh wow
+Bot(5): i love to cook . i love to cook .
+User(6): same
+Bot(6): i am a student , but i am a student .
+User(7): iamorking
+Bot(7): i love to cook . i love to cook .
+User(8): and so
+Bot(8): i like to go to the gym and listen to music .
+User(9): ok
+Bot(9): i like to go to the gym and listen to music .
+User(10): ok
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i've been trying all types of food everywhere i go.
+i like to listen to rock music while working.
+i have been working since i was sixteen years old.
+i am an animal activist.
+my favorite way to relax is to read a book.
+
+Topic and Human Opinion:
+Beginning: says(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 96
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): yesilikemore play
+Bot(2): i used to , but now i mostly just go to the gym and work out
+User(3): ok
+Bot(3): i find attractive all women from canada
+User(4): ok
+Bot(4): for fun you like to bake cakes .
+User(5): ok
+Bot(5): for fun you like to bake cakes .
+User(6): ok
+Bot(6): for fun you like to bake cakes .
+User(7): ok
+Bot(7): for fun you like to bake cakes .
+User(8): ok
+Bot(8): for fun you like to bake cakes .
+User(9): andso
+Bot(9): great ! i just had a big salad after hiking all day . you ?
+User(10): thanks
+Bot(10): i am pretty good , just got home from working out at the gym . what are you up to ?
+User(11): good
+Bot(11): getting ready for work . i work for a zoo as a keeper , what do you do ?
+
+Persona:
+i had cancer but its gone now.
+i am a retired gym teacher.
+i am a professional wrestler.
+i am always wearing a hat.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: do(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.86
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 98
+
+####################
+

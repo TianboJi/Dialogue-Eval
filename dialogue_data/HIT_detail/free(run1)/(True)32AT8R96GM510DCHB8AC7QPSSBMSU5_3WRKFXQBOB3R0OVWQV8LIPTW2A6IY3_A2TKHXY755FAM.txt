@@ -1,0 +1,308 @@
+Feedback: It was a fun survey
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello there!
+Bot(1): hi there ! how are you ?
+User(2): Great! Do you like pizza?
+Bot(2): ha pizza is my favorite food also .
+User(3): Pepperoni is my favorite of all. What is yours?
+Bot(3): i love pizza . however , i live out on a ranch and cannot always get it .
+User(4): Sorry to hear that. Is there a Pizza Hut near you?
+Bot(4): i love pizza what kind do you like ?
+User(5): Like I mentioned earlier pepperoni. You?
+Bot(5): i was in a car accident , cut my arm then it got infected zipping , rough day .
+User(6): Did you go to a hospital?
+Bot(6): i do stunts and post them on social media . this stunt broke my leg .
+User(7): what type of stunts
+Bot(7): i enjoy classical music , it is tough as a music student living at home to get along .
+User(8): I like pop music.
+Bot(8): have you heard of the beastie boys ?
+User(9): yes I have, they are good
+Bot(9): i will look at the list of ted talks . . . maybe there is one about that .
+User(10): A ted talk about music?
+Bot(10): do you mean you go to ted talks ?
+User(11): No I do not but I'm familiar with them
+Bot(11): i meant anything rare , yeah i was on the news for catching the biggest fish in florida
+User(12): Which part of Florida
+Bot(12): i am in louisiana . new orleans . what part of florida ?
+User(13): Yes what part of Florida were you fishing in?
+Bot(13): i have taken my daughter to the creek and catch little fish . what do you fish ?
+User(14): I fish with a fishing line off the coast of Clearwater Florida
+Bot(14): do you eat the fish ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pizza(like)
+Round 5: Accident(dislike)
+Round 6: Stunts(ambivalent)
+Round 7: music(like)
+Round 10: Ted Talks(ambivalent)
+Round 11: fishing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 43.57
+Robotic(↓): 82
+Interesting: 67
+Fun: 54
+Consistent: 19
+Fluent: 86
+Repetitive(↓): 44
+Topic: 5
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello!
+Bot(1): i am sorry to hear that
+User(2): Do you like Pepsi?
+Bot(2): pepsi is my favorite . i love pepsi
+User(3): I like Pepsi but prefer Coca Cola
+Bot(3): pepsi is a good one . i like pepsi more .
+User(4): What about Sprite?
+Bot(4): pepsi is a good one . i like pepsi more
+User(5): Ok, do you like Dr. Pepper?
+Bot(5): i do not like dr pepper
+User(6): I do, a lot. Do you like rootbeer?
+Bot(6): i do , i like to watch movies .
+User(7): So do I. What is your favorite movie?
+Bot(7): i like the old ones .
+User(8): I do as well. Do you like action movies?
+Bot(8): i do . i love movies .
+User(9): What about horror movies?
+Bot(9): i like horror movies . i love them .
+User(10): Ugh, I hate them. I prefer crime drama.
+Bot(10): i like horror movies . i love them
+User(11): I can tell. Do you like romance movies?
+Bot(11): i do . i love horror movies .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Soft Drinks(like)
+Round 6: Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 48.86
+Robotic(↓): 79
+Interesting: 53
+Fun: 57
+Consistent: 53
+Fluent: 66
+Repetitive(↓): 64
+Topic: 56
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hiya!
+Bot(1): I'm well thank you. her about nice. I've for fun?
+User(2): What's your favorite food?
+Bot(2): No, am thats great cat named radar
+User(3): what color cat?
+Bot(3): I just remembered. I am a am a a big fan of car.
+User(4): what type of car
+Bot(4): Just so much but a computer
+User(5): I have a laptop
+Bot(5): my like italian food, what texas . i still love him , though .. Also, try to guess: my favorite food ...
+User(6): Is it steak?
+Bot(6): Yum! This love but my good.
+User(7): I like steak a lot especially prime rib
+Bot(7): You are I like don't person.
+User(8): Do you like lobster
+Bot(8): I have not learnt kayaking when I it is good to say.
+User(9): I want to try kayaking some day
+Bot(9): His what you intrested in He is very smart.
+User(10): do you like the ocean
+Bot(10): What always thug.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 2: cat(ambivalent)
+Round 3: cars(like)
+Round 4: computer(ambivalent)
+Round 5: food(like)
+Round 8: kayaking(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 24.29
+Robotic(↓): 85
+Interesting: 14
+Fun: 25
+Consistent: 17
+Fluent: 2
+Repetitive(↓): 5
+Topic: 2
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hello , i am apart of the military .
+User(2): great, is there a type of sports you play
+Bot(2): no i am a freshmen i cant play sports till next year .
+User(3): oh wow, well what do you like to play
+Bot(3): i use to be in the army , loved to play basketball
+User(4): i love basketball, my favorite is volleyball though
+Bot(4): i use to be in the army , loved to play basketball
+User(5): Have you played baseball?
+Bot(5): no , i use to be in the army
+User(6): Do you like tennis?
+Bot(6): yeah its pretty good but spend most of my time overseas in the army
+User(7): what countries have you been to
+Bot(7): just a few , brazil , france , mexico , and jamaica
+User(8): nice, I've been to the Bahamas
+Bot(8): i have never been but i was in the marines
+User(9): I like the marines. I want to visit England some day
+Bot(9): england is fantastic , have you been before ?
+User(10): no, never but I think it is fantastic. I like spain too.
+Bot(10): i will go to spain one day
+
+Persona:
+i spend most of my time on facebook when i am not working.
+i'm in the army.
+hey my name is larry and i'm a chef.
+i am currently in high school.
+i buy only organic food products.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+Round 6: countries(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 58.00
+Robotic(↓): 66
+Interesting: 76
+Fun: 61
+Consistent: 52
+Fluent: 79
+Repetitive(↓): 68
+Topic: 72
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello there
+Bot(1): i love to go fishing .
+User(2): For exercise or fun
+Bot(2): i like to go to the gym and listen to music .
+User(3): Oh I like the gym but haven't been in a while
+Bot(3): i like to go to the beach and listen to music .
+User(4): Do you run on the beach? I do
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): You can't listen to classical music and run
+Bot(5): i like to go to the lake and listen to music .
+User(6): I like pop music and live near the ocean
+Bot(6): i love to travel . i love to travel .
+User(7): what was the last place you traveled to
+Bot(7): i went to college , i was in the navy .
+User(8): where did you visit in the navy
+Bot(8): i live in the midwest . i love it .
+User(9): what state in the midwest
+Bot(9): i live in the midwest . i love it .
+User(10): Is it oklahoma?
+Bot(10): i do not know . i am a big fan of classical music .
+
+Persona:
+on weekends i do live action roleplaying events.
+i am deathly afraid of heights.
+i drive a bmw.
+i enjoy exploring new parts of the city.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: exercise(like)
+Round 5: music(like)
+Round 6: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 40.86
+Robotic(↓): 74
+Interesting: 47
+Fun: 43
+Consistent: 41
+Fluent: 57
+Repetitive(↓): 68
+Topic: 40
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, how are you
+Bot(1): good thanks . tell me about yourself
+User(2): I love Audi cars. do you?
+Bot(2): i do , what do you drive ?
+User(3): an Audi A6, you
+Bot(3): just a honda civic . nothing fancy
+User(4): Oh I love hondas. I had once just out of college.
+Bot(4): hah they are great cars . i cannot afford one yet , until i graduate
+User(5): I agree they are great. Ever had a Toyota?
+Bot(5): i have not . that is cool ! how long have you owned it ?
+User(6): my husband drives an older Toyota camry
+Bot(6): oh . honda civic ? i would rather an accord
+User(7): Yes the accord is a good car as well
+Bot(7): oh . honda civic ? i would rather an accord
+User(8): Do you like the Lexus?
+Bot(8): yes i have honda and i love it
+User(9): Isn't the Lexus related to Toyota
+Bot(9): its one of the major car companies
+User(10): True, do you like the Benz
+Bot(10): yes i have honda and i love it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.14
+Robotic(↓): 62
+Interesting: 58
+Fun: 67
+Consistent: 68
+Fluent: 76
+Repetitive(↓): 55
+Topic: 83
+
+####################
+

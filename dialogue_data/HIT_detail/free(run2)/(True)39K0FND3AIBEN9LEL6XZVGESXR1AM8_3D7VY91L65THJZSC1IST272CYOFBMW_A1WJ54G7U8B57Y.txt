@@ -1,0 +1,329 @@
+Feedback: The last chatbot was the most superb of all and it increases my belief in using chatbot.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hi , how are you ?
+User(2): I'm fine and you
+Bot(2): hi , i'm doing well . how are you ?
+User(3): I am great, I like watching football
+Bot(3): i am not a fan of football , but i like to listen to music .
+User(4): Oh! I rather prefer to watch football, especially English premier league to music
+Bot(4): i love to listen to my family and i love to listen to them .
+User(5): That is a good thing to do. What kind of music do you listen to?
+Bot(5): i listen to music while i am a vegetarian .
+User(6): I am also a vegetarian but I do not listen to music. How often do you listen to music?
+Bot(6): i listen to music while i listen to music
+User(7): For how many hours?
+Bot(7): i like all kinds of music .
+User(8): You must have liked one kind of music than other, isn't it?
+Bot(8): yes i do , i listen to it while i listen to music
+User(9): Do yo like Hip hop than R&B?
+Bot(9): i do not know , i listen to hip hop while i listen to it
+User(10): I can feel you like hip hop than other kind of music
+Bot(10): i do not know . i listen to hip hop while i listen to it
+User(11): Thank you for your response.
+Bot(11): i am a country girl who is a vegan
+
+Persona:
+my family is continuously growing.
+my favorite shirts are band shirts and ruffle sleeves.
+i just bought my first home.
+i'm an omnivore.
+i'm a vegetarian.
+
+Topic and Human Opinion:
+Beginning: Football(like)
+Round 5: Music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 36.43
+Robotic(↓): 71
+Interesting: 58
+Fun: 45
+Consistent: 25
+Fluent: 67
+Repetitive(↓): 89
+Topic: 20
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): good morning , am fed up of my brother
+User(2): Good morning, I really wanna talk about exercise. But why are you fed up of your brother?
+Bot(2): i do not like my brother at all
+User(3): There must be reason for that, tell me about it?
+Bot(3): because i am a vegan and would like to hear it .
+User(4): To hear about what exactly?
+Bot(4): because i am a vegan and would like to hear it .
+User(5): Ok, you would like to hear about how to deal with your brother?
+Bot(5): maybe , better than dealing with your dad i guess .
+User(6): That is rude?
+Bot(6): me ? rude ? how did you come to that conclusion ?
+User(7): You said something bad about my Dad!
+Bot(7): i do not know , what did he say ?
+User(8): You said, dealing with him is awkward compare to dealing to dealing with your brother.
+Bot(8): yes , that is why i despise him !
+User(9): You must be joking, you despise my Dad?
+Bot(9): yes , that is why i despise him !
+User(10): So, you can confirm you are rude now.
+Bot(10): me ? rude ? how did you come to that conclusion ?
+User(11): You keep on asking that question and I told you already
+Bot(11): because i am a vegan and would like to hear it .
+
+Persona:
+i'm a vegetarian.
+i have a weakness for fish and chips.
+i'm not a good swimmer at all.
+i have blonde hair and blue eyes.
+i have one brother.
+
+Topic and Human Opinion:
+Beginning: Exercise(ambivalent)
+Round 1: Family Issue(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 32.43
+Robotic(↓): 90
+Interesting: 62
+Fun: 55
+Consistent: 22
+Fluent: 38
+Repetitive(↓): 94
+Topic: 34
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): Oh! That is great. Can you instruct me on Yoga
+Bot(2): i am a high school football coach . i played all through college .
+User(3): That is nice also, you must have been a good footballer during college days.
+Bot(3): i love football and basketball
+User(4): You are ambivalent. When do you play football?
+Bot(4): football is fun , whats your favorite team ?
+User(5): Arsenal, what about you?
+Bot(5): pizza wings and cheese bread
+User(6): What is that for?
+Bot(6): to get better and better at baseball
+User(7): Really! You play baseball as well
+Bot(7): what is your favorite team ? i like about any sport , but baseball more so .
+User(8): I do not like baseball
+Bot(8): i love football more then baseball
+User(9): You seem to be confused!
+Bot(9): right on ! you can cook me some pizza , its my fav !
+User(10): Oh my God! I am sick of your diverting the conversation.
+Bot(10): oh . i just got finished eating some pizza .
+User(11): Thank you for your time.
+Bot(11): you are quite welcomed . i am ready for breakfast !
+
+Persona:
+i am a huge star wars fan.
+i coach little league baseball.
+i quit my job to pursue my spirituality full time.
+i love italian food and garlic bread.
+i am on the soccer team.
+
+Topic and Human Opinion:
+Beginning: Movie(like)
+Round 1: Yoga(like)
+Round 2: Football(like)
+Round 5: Food(dislike)
+Round 8: Ball(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 12.43
+Robotic(↓): 100
+Interesting: 25
+Fun: 18
+Consistent: 3
+Fluent: 30
+Repetitive(↓): 89
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): How are you?
+Bot(1): i am doing well . just got done walking my dog .
+User(2): Is the dog doing fine?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): What about your dog?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): what kind of classical music do you listen to?
+Bot(4): i like country music . i love country music .
+User(5): Which artist do you play his or her music more?
+Bot(5): i do not know . i like to play soccer .
+User(6): What is favorite soccer team?
+Bot(6): i like the packers . i like the color red .
+User(7): I prefer color gold.
+Bot(7): i like to eat too much junk food .
+User(8): That is unhealthy!
+Bot(8): i like to eat fish .
+User(9): Raw fish or smoked fish?
+Bot(9): i do not know . i like to eat fish .
+User(10): That means you eat all types of fish.
+Bot(10): i like to eat fish .
+User(11): Thank you, bye.
+Bot(11): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 1: Dog(dislike)
+Round 4: Music(dislike)
+Round 5: Soccer(like)
+Round 7: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 36.57
+Robotic(↓): 64
+Interesting: 54
+Fun: 50
+Consistent: 18
+Fluent: 65
+Repetitive(↓): 72
+Topic: 5
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi dear
+Bot(1): i have no idea . i am from countryside kind gym gal .
+User(2): How are you doing?
+Bot(2): Do do you eating tacos?
+User(3): No, I don't. Do you?
+Bot(3): That is hard game? an will bring my guitar too
+User(4): To do what exactly?
+Bot(4): I you i construction worker
+User(5): I am not, are you?
+Bot(5): I are you doing for I love my job.
+User(6): What job is that?
+Bot(6): i feel like i might live . i will have my father lead a prayer for you . 🧐
+User(7): What kind of prayer and for what motive?
+Bot(7): Lol is obsessed with you? I am 30
+User(8): Do you jealous?
+Bot(8): That is was nice to to cook.
+User(9): Cook what?
+Bot(9): that is cool , i am in your free dont and i love the band
+User(10): I can not understand you?
+Bot(10): I you want read😄
+User(11): Thank you, bye
+Bot(11): i like to listen to all kinds of music . i love them all ! know that this is this evening ?
+
+Persona:
+i am overweight and unhappy.
+my favorite movie is mean girls.
+i diet a lot.
+i'm a clean eater.
+i watch too much tv in spare time.
+
+Topic and Human Opinion:
+Beginning: Love(like)
+Round 2: Food(like)
+Round 3: Game(ambivalent)
+Round 5: Profession(like)
+Round 6: Belief and Religion(like)
+Round 7: Love(like)
+Round 10: Reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 4
+Fun: 0
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 5
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hi , i just got back from work , i am a plumber
+User(2): I am a social worker. Do you like to travel?
+Bot(2): ln my spare time i enjoy softball
+User(3): I like it too.
+Bot(3): very cool . i love music which is why i love to visit cities with piano bars .
+User(4): That is nice. Like what country have you been to?
+Bot(4): italy
+User(5): That is home music and enjoyment. I will be there one day.
+Bot(5): very cool . i love music which is why i love to visit cities with piano bars .
+User(6): What other country besides Italy have you been to?
+Bot(6): we love france and italy .
+User(7): France is beautiful, isn't it?
+Bot(7): it is gorgeous . my fiancee is from france .
+User(8): That is superb. I like Paris in France, have you been there?
+Bot(8): i have , twice . it is very lovely .
+User(9): Tell me about it
+Bot(9): i go to paris quite often , its romantic .
+User(10): Romantic! Do you go with your fiance?
+Bot(10): i live with my fiance
+User(11): Thank you for your time
+Bot(11): you are welcome anytime ! do you have a significant other ?
+
+Persona:
+i like to look at blocks and sing about letters.
+i've a pet turtle.
+i am a piano teacher on the side.
+i love playing softball.
+i'm a plumber.
+
+Topic and Human Opinion:
+Beginning: Traveling(like)
+Round 2: Hobby(like)
+Round 6: Traveling(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 99.00
+Robotic(↓): 4
+Interesting: 99
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 2
+Topic: 100
+
+####################
+

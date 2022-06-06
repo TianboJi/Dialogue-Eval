@@ -1,0 +1,331 @@
+Feedback: none
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey! Have you watched any tv shows lately that you've enjoyed?
+Bot(1): i like the 70s show . i know its old .
+User(2): haha me too! It's super comforting. I watch it sometimes while I'm doing other things. Who's your favorite character?
+Bot(2): sheldon , of course . penny is a good straight man to his questions .
+User(3): are you thinking of big bang theory?
+Bot(3): do not ask me to pay for dinner because they do not call be debbie decline for nothing .
+User(4): I didn't ask you to pay for dinner. I'm sorry. Who is debbie?
+Bot(4): we had fried chicken we picked up and brought to our home .
+User(5): that sounds good. where did you pick it up from? I like bojangles.
+Bot(5): my kids ages are 19 , 18 , 13 , 10
+User(6): oh wow 4 kids. I don't have any kids.
+Bot(6): yes , a boy named chris . he made the honor roll . all a marks !
+User(7): hmm that's great for him. Do you watch any other tv?
+Bot(7): see what ? the walking dead ? it should be on netflix !
+User(8): Yes! I love TWD.
+Bot(8): i own a horse named linux . i speak to her in code .
+User(9): in code? a code you created?
+Bot(9): candy is great , i actually really love computer science though . i am off to uc santa cruz
+User(10): oh congrats! good luck
+Bot(10): thanks ! good luck with your finances as well .
+User(11): thank you. I'm poor. I need the luck.
+Bot(11): thank you , you should look into it sometime . programming lets you do a lot .
+User(12): it definitely does. I'm too old to go back to school.
+Bot(12): i love to crochet . making a scarf now . what are your hobbies ?
+User(13): I actually love sewing!
+Bot(13): that sounds fun ! ! i retired early when i cashed out my share of the casinos .
+User(14): oh you're a gambler
+Bot(14): no comment about gambling . but every bit helps my humble business , consulting .
+User(15): okay. I'm not much of a risk taker myself.
+Bot(15): the way i see it , through my travels , they will be legal soon .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: most recently watched and enjoyed tv show(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.57
+Robotic(↓): 100
+Interesting: 6
+Fun: 7
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 69
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey! What's your favorite animal?
+Bot(1): i love animals ! i love them !
+User(2): Do you have a pet?
+Bot(2): i do not have any pets
+User(3): why not?
+Bot(3): i have a dog and a cat
+User(4): what are their names?
+Bot(4): i am a dog lover . what do you do for fun ?
+User(5): I love cats I have 2 and 2 strays that live outside.
+Bot(5): i love cats and dogs
+User(6): I like to sew cook and dance
+Bot(6): i love to cook and bake and read
+User(7): wow we have a lot in common. what's your favorite dessert?
+Bot(7): i love chocolate cake and i love them
+User(8): me too! I love tuxedo cake.
+Bot(8): i love cake too ! i love to bake and bake
+User(9): So what is your cat's name?
+Bot(9): my name is penny , what is yours ?
+User(10): my name is Morgan. What is your cat's name?
+Bot(10): my name is john . i am a redhead .
+User(11): I thought you were penny.
+Bot(11): i am from the south . i am from the south .
+User(12): i am from the south. are you john or penny?
+Bot(12): i am not sure . i am from the south .
+User(13): you don't know who you are?
+Bot(13): i am from the south . i am a huge fan of apple .
+User(14): apple, the company? or apples to eat?
+Bot(14): i am not sure . i am a huge fan of apple .
+User(15): okay then.
+Bot(15): i am not sure what that is .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.57
+Robotic(↓): 100
+Interesting: 4
+Fun: 5
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 91
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey do you like sci-fi?
+Bot(1): i do . i love my marriage , and i love living in colorado
+User(2): I asked about science fiction.
+Bot(2): i see enough sci fi at work
+User(3): is that a joke?
+Bot(3): no , it is not . i have studied extensively on this subject .
+User(4): where do you work?
+Bot(4): i am an artist have a studio in colorado .
+User(5): and you experience science fiction as an artist?
+Bot(5): i am an artist have a studio in colorado .
+User(6): what kind of art do you do?
+Bot(6): i am an artist have a studio in colorado .
+User(7): okay. what is your husband's name?
+Bot(7): his name is tony . do you have pets ?
+User(8): yes. I have 2 cats. do you?
+Bot(8): yes , i have two cats . sam and olivia .
+User(9): very cute. I love cats. mine are hubble and mitzi.
+Bot(9): i have a kitty cat named snowball .
+User(10): so you have 3 cats?
+Bot(10): one of each . where do you live ?
+User(11): I live in the carolinas down south.
+Bot(11): i live in utah with my 2 dogs .
+User(12): you have a lot of pets. where are you from?
+Bot(12): colorado . what are you from ?
+User(13): north carolina. Do you watch any tv shows?
+Bot(13): no i do not . we do not have tv
+User(14): oh wow. okay? do you read a lot?
+Bot(14): sometimes , when i go to the gym .
+User(15): you read at the gym? that is impressive.
+Bot(15): i used to . now my workout is teaching kids .
+User(16): nice. what type of books do you read?
+Bot(16): novels . do you like reading ?
+User(17): yes. I read nonfiction mostly.
+Bot(17): i see . i like fiction books . mostly fantasy .
+
+Persona:
+i enjoy long walks with my dog.
+i'm a retired gym teacher.
+i live in colorado.
+i've two dogs.
+i own a cat and a dog.
+
+Topic and Human Opinion:
+Beginning: sci-fi(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.00
+Robotic(↓): 100
+Interesting: 11
+Fun: 32
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 87
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey! what's your name and where are you from?
+Bot(1): Where waste your live?
+User(2): huh? I live in north carolina. where do you live?
+Bot(2): I 'm married you do too, are you from?
+User(3): I'm not married. do you have kids?
+Bot(3): How are you doing? age are you?
+User(4): I'm fine. I'm 30.
+Bot(4): Hello, i you escape california.
+User(5): from the fire?
+Bot(5): I i delivered three am a musician.
+User(6): okay. you have 3 kids?
+Bot(6): yes, it be do not like
+User(7): okay. do you like to go shopping?
+Bot(7): I live in the it's you talk like of the summer.
+User(8): it's the summer? what is your favorite season?
+Bot(8): i'm can't play soccer because family , you know the youngest ! no i don't
+User(9): I don't play sports. where do you shop?
+Bot(9): i'm have two your name? lion i just shot
+User(10): okay. what are your favorite stores?
+Bot(10): Why don't male or their abortions?
+User(11): where do you go shopping?
+Bot(11): I love like you eat you?
+User(12): you love to eat?
+Bot(12): I neither, i understand.
+User(13): What is your favorite foods?
+Bot(13): i am enjoy coloring do want a big house
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: shopping(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi there. who are you voting for in the fall?
+Bot(1): i will be traveling to disney world like we do every year .
+User(2): oh that's dangerous right now.
+Bot(2): i will be traveling to disney world like we do every year .
+User(3): aren't you afraid of catching covid?
+Bot(3): no , but i love going to disney world every year . where do you work ?
+User(4): I work at a grocery store. where do you work?
+Bot(4): no , but i love going to disney world every year . where do you work ?
+User(5): are you voting in this election?
+Bot(5): no , but i love going to disney world every year . where do you work ?
+User(6): are you going to vote for joe biden?
+Bot(6): no i voted for trump , just like most of us in seattle . what religion are you ?
+User(7): none of your business.
+Bot(7): i will be traveling to disney world like we do every year .
+User(8): that's dangerous. do you support the black lives matter movement?
+Bot(8): i am not vocally political . i have strong views though .
+User(9): what are some of your political views?
+Bot(9): i am not vocally political . i have strong views though .
+User(10): are you pro defunding the police?
+Bot(10): i am not vocally political . i have strong views though .
+User(11): tell me more
+Bot(11): equal rights for minorities , women , etc .
+User(12): that's great. that is in opposition with voting for trump.
+Bot(12): did you vote for trump or hillary ?
+User(13): hillary.
+Bot(13): did you vote for trump or hillary ?
+User(14): hillary.
+Bot(14): did you vote for trump or hillary ?
+User(15): hillary.
+Bot(15): did you vote for trump or hillary ?
+
+Persona:
+i enjoy mountain biking as a hobby.
+i have blonde hair and blue eyes.
+i love to go to disney world every year.
+my favorite band is the who.
+i'm in an open polyamorous relationship.
+
+Topic and Human Opinion:
+Beginning: politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.43
+Robotic(↓): 100
+Interesting: 83
+Fun: 17
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 15
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what is your favorite drink?
+Bot(1): i like the color red . what is yours ?
+User(2): what is your favorite thing to drink?
+Bot(2): i like to eat fish .
+User(3): what do you drink with your fish?
+Bot(3): i like to eat fish .
+User(4): okay. what kind of fish?
+Bot(4): i like pizza , and pizza .
+User(5): okay. what do you like to drink?
+Bot(5): i love to cook and bake .
+User(6): okay. do you drink?
+Bot(6): no , i do not , but i do like to eat .
+User(7): do you drink water?
+Bot(7): no , i do not , but i do like to eat .
+User(8): do you drink soda?
+Bot(8): no , i do not , but i do like to eat .
+User(9): do you drink coffee?
+Bot(9): no , i do not , but i do like to eat .
+User(10): do you drink tea?
+Bot(10): no , i do not , but i do like to eat .
+User(11): do you drink alcohol?
+Bot(11): no , i do not , but i do like to eat .
+User(12): do you like juice?
+Bot(12): i do , i love it .
+User(13): do you like orange juice?
+Bot(13): i do , i like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: drinks(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 1.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 3
+Fluent: 3
+Repetitive(↓): 100
+Topic: 4
+
+####################
+

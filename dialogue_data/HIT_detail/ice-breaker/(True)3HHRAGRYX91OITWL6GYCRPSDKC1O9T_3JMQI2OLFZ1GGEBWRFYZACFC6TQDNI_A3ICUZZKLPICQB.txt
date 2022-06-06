@@ -1,0 +1,277 @@
+Feedback: these chat bots are horrible
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): HI
+Bot(1): hey
+User(2): How are you tonight?
+Bot(2): same
+User(3): Do you have pets?
+Bot(3): yes
+User(4): what kind of pets do you have?
+Bot(4): a couple dogs and a cat
+User(5): oh cool, i have 3 dogs
+Bot(5): that is amazing , what breeds are they ?
+User(6): pit bull, labrador, and terrier
+Bot(6): nice , i have a yorkie and a great dane
+User(7): what are their names?
+Bot(7): the names are one , two , and three .
+User(8): haha, that's funny!
+Bot(8): what are their furry little names ?
+User(9): maudie, charlie, and mozart
+Bot(9): what are some of their names ?
+User(10): I just told you - maudie, charlie, and mozart
+Bot(10): can you remember all of thier names ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have three dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.86
+Robotic(↓): 97
+Interesting: 16
+Fun: 17
+Consistent: 21
+Fluent: 34
+Repetitive(↓): 69
+Topic: 10
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): so you live in germany?
+Bot(2): well i am from germany and it is awesome come visit one day
+User(3): i just moved to germany
+Bot(3): that is awesome i came from germany when i was very young
+User(4): what are your favorite german foods?
+Bot(4): i am a huge fan of german pastry
+User(5): do they have good beer in germany?
+Bot(5): oh yes i love making german food
+User(6): what about beer?
+Bot(6): oh yes i love making german food
+User(7): do you like drinking german beer?
+Bot(7): oh yes i love making german food
+User(8): hmm, what do you like to do for fun?
+Bot(8): i really liked visiting germany
+User(9): WHAT DO YOU LIKE TO DO IN GERMANY>
+Bot(9): i really liked visiting germany
+User(10): WHAT DID YOU LIKE THE MOST
+Bot(10): i really liked visiting germany
+User(11): WHERE IN GERMANY
+Bot(11): i really liked visiting germany
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hello i just moved here from germany.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.00
+Robotic(↓): 81
+Interesting: 16
+Fun: 11
+Consistent: 20
+Fluent: 50
+Repetitive(↓): 70
+Topic: 15
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): good, what do you do for work
+Bot(2): i work in the finance department of a local bank . how about you ?
+User(3): i'm a professional wrestler
+Bot(3): you ever deep sea dive ? my sister is cultish . you sing ?
+User(4): no to deep sea diving. you sister is cultish? and no i do not sing
+Bot(4): ahahah yes i lovedeep sea diving ! ! ! ! !
+User(5): i'm a professional wrestler
+Bot(5): you ever deep sea dive ? my sister is cultish . you sing ?
+User(6): i dont like sea diving
+Bot(6): sorry i misread but diving is alright i cant swim tho
+User(7): i'm a professional wrestler, do you know what that is?
+Bot(7): you ever deep sea dive ? my sister is cultish . you sing ?
+User(8): what cult is your sister in?
+Bot(8): really , what kind of cult is she in ?
+User(9): you said your sister was in a cult
+Bot(9): ouch only cult o follow is the show supernatural
+User(10): i don't understand you
+Bot(10): there are so many options to reach out to people to help you better understand them
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a professional wrestler.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.86
+Robotic(↓): 97
+Interesting: 13
+Fun: 14
+Consistent: 50
+Fluent: 37
+Repetitive(↓): 66
+Topic: 2
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): play i like dance about you?
+User(2): i'm a musician
+Bot(2): I like go dancing you play?
+User(3): i like to dance too, and yes i play the guitar
+Bot(3): hello, how are you? as a I live I love hip hop
+User(4): i'm good and i like hip hop too
+Bot(4): I like to much time do you with my family.
+User(5): you don't have time to be with your family?
+Bot(5): I enjoy painting trees and in using English. Who find it hard to relax?
+User(6): that's great, i find it easy to relax
+Bot(6): You are welcome! bad because my you will!
+User(7): i don't understand
+Bot(7): Hiya! I like any pets. Do watch tv
+User(8): you are making no sense! I don't know how to follow this
+Bot(8): he died from a u what's up with terrible.
+User(9): sorry you are dead
+Bot(9): i do not know to see you! .
+User(10): i don't want to see you either
+Bot(10): yes i just relocated in need to go vegan. i love food.
+
+Persona:
+i just bought a house recently.
+my father keeps trying to set me up on blind dates.
+my favorite food is papaya.
+my wife spends all my money.
+i've a big library at home.
+
+Topic and Human Opinion:
+Beginning: i'm a musician.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.43
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hello , how are you today ?
+User(2): good, do you like to go to concerts?
+Bot(2): i love going to concerts . i love going to church every week .
+User(3): is church a band?
+Bot(3): i like to go to church every thursday .
+User(4): I see the rolling stones in concert every year
+Bot(4): i like the rolling stones . i also like to listen to music .
+User(5): what is your favorie song?
+Bot(5): i do not know what that is
+User(6): sorry. so you go to church every thursday?
+Bot(6): yes , i am going to church tomorrow .
+User(7): oh great. what church do you attend?
+Bot(7): i go to church every week .
+User(8): what is the name of the church
+Bot(8): i am a student . i go to church every week .
+User(9): do you study religion
+Bot(9): i am a teacher . i go to church every week .
+User(10): you just said you were a student
+Bot(10): i am a student . i am a student .
+
+Persona:
+i waitress during the day to supplement my income.
+i produce music for artists.
+my father is an electrician.
+i attend church every week.
+i have three dogs.
+
+Topic and Human Opinion:
+Beginning: i see the rolling stones in concert every year.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.57
+Robotic(↓): 98
+Interesting: 1
+Fun: 4
+Consistent: 4
+Fluent: 50
+Repetitive(↓): 18
+Topic: 1
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): good
+Bot(2): i am a student , but i am a student .
+User(3): oh great, me too. i just joined the feminist club
+Bot(3): i love to travel . i love to travel .
+User(4): where do you like to go
+Bot(4): i love to travel . i love to travel .
+User(5): that's nice
+Bot(5): i like to go to the gym and listen to music .
+User(6): you like to workout?
+Bot(6): i do , i love to cook .
+User(7): what do you cook?
+Bot(7): i like to eat . i am a big fan of it .
+User(8): what kinds of foods do you eat?
+Bot(8): i like pizza and pizza .
+User(9): pizza is really great. i like pepperoni
+Bot(9): i like to eat fish .
+User(10): fish is good too
+Bot(10): i like to eat the skin .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a feminist.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.86
+Robotic(↓): 100
+Interesting: 4
+Fun: 4
+Consistent: 12
+Fluent: 50
+Repetitive(↓): 73
+Topic: 0
+
+####################
+

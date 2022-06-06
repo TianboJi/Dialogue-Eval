@@ -1,0 +1,306 @@
+Feedback: Some of the chatbots had sentences that didn't make any sense.  Those were much harder to have coversations with.  
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I like playing baseball
+Bot(1): what is your favorite team ? i like about any sport , but baseball more so .
+User(2): The Washington Nationals
+Bot(2): i like the orioles which is md team
+User(3): I like the orioles too. What other sports do you like?
+Bot(3): yea , i like watching a gamme with bbq sandwiches and pizza puffs . what do you eat ?
+User(4): I eat mostly vegan food.
+Bot(4): not a vegan , a vegetarian .
+User(5): Sometimes I wish I was vegetarian. Then I could eat pizza more often.
+Bot(5): meat on pizza is a great thing . that is in my top ten .
+User(6): I used to eat pepperoni and sausage pizza all the time.
+Bot(6): slow down , my boy . you wanna talk food ? lets talk food . i need your help .
+User(7): What do you need my help with?
+Bot(7): ignore my thoughts about the neighbor pool boy ;
+User(8): What's wrong with the neighborhood pool boy?
+Bot(8): i understand . i will leave the pool boy out of this
+User(9): Do you go swimming often?
+Bot(9): i love swimming . do you like to listen to music while you swim ?
+User(10): No I like to focus on swimming.
+Bot(10): swimming is fun where are you from
+User(11): I am from Texas but I live in Virginia
+Bot(11): i am from california . it is nice here .
+User(12): I hear the weather is beautiful in California
+Bot(12): rainy cold and feels like winter is breathing down the hills
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like playing basketball.(dislike)
+Round 3: It asked me what I like to eat.(like)
+Round 7: about the neighborhood pool oby(dislike)
+Round 10: where I'm from(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 71.43
+Robotic(↓): 50
+Interesting: 100
+Fun: 100
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 0
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): My father drove a car for Nascar
+Bot(1): i love the color red . i like the color blue .
+User(2): Red is my favorite color
+Bot(2): i like red , reminds me of summer time .
+User(3): I like summer better than winter
+Bot(3): i love fall . i love it .
+User(4): I love fall too. I love how the leaves change colors.
+Bot(4): i like to eat too much junk food .
+User(5): I try to eat healthy.
+Bot(5): i like to eat fish .
+User(6): I don't eat meat. I'm vegan.
+Bot(6): i like to eat fish .
+User(7): What kind of fish do you eat?
+Bot(7): i like pizza , and pizza .
+User(8): I like pizza too
+Bot(8): i like to eat fish .
+User(9): We already talked about you eating fish.
+Bot(9): i like to eat fish .
+User(10): What kind of junk food do you eat?
+Bot(10): i love pizza , and i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my father drove a car for nascar.(ambivalent)
+Round 1: Colors(ambivalent)
+Round 4: eating junk food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I donate part of my salary to charity each month
+Bot(1): awesome ! i am a feminist girl
+User(2): Do you donate to charity?
+Bot(2): no i would rather find a job to pay for my things . i am looking every day
+User(3): So you don't work now?
+Bot(3): not so thin i work at a quick service restaurant
+User(4): What is a quick service restaurant?
+Bot(4): italian restaurant .
+User(5): Do you like Italian food?
+Bot(5): not really , i like greek salads the most
+User(6): I like salads too. I eat a salad everyday for lunch.
+Bot(6): that is good , salads all day everyday .
+User(7): I don't put meat or eggs on my salads though.
+Bot(7): i think its ok . my husband does not like salads too much .
+User(8): My wife like smoothies. Do you like smoothies?
+Bot(8): i like them , but i like to keep short hair which is not good to hide behind
+User(9): I prefer short hair and have been meaning to get a haircut.
+Bot(9): mine is too . i hate it though . just do not have time to get it cut .
+User(10): That's my problem. Making time to get my hair cut.
+Bot(10): mine is too . i hate it though . just do not have time to get it cut .
+
+Persona:
+i am currently looking for a job preferably at a restaurant.
+i'm a feminist.
+i haven't spoken in three months.
+i haven't spoken in three months.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: i donate a part of my salary to charity each month.(like)
+Round 5: employment(ambivalent)
+Round 8: short hair(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 19.14
+Robotic(↓): 84
+Interesting: 6
+Fun: 6
+Consistent: 28
+Fluent: 28
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I enhoy working with my hands and love gardening.
+Bot(1): hello , i love gardening as well , do you have a cat ?
+User(2): No I have a dog.
+Bot(2): i have two dogs and their a job to be around .
+User(3): What do you mean by their a job to be around
+Bot(3): i have two dogs and their a job to be around .
+User(4): I don't understand you
+Bot(4): i guess i do not understand
+User(5): What kind of dogs do you have?
+Bot(5): i said my 2 dogs they are my kids
+User(6): What are you dogs names?
+Bot(6): pepper and rex
+User(7): What kind of dogs are they?
+Bot(7): their names are oingo and boingo
+User(8): How old are they?
+Bot(8): they are 2 years old . do you have any pets ?
+User(9): I have one dog.
+Bot(9): what is their name then
+User(10): Her name is Mona
+Bot(10): my daughters name is adia lehay .
+User(11): That's a pretty name.
+Bot(11): her name is mally i love her
+User(12): You just told me two different names for you daughter.
+Bot(12): my daughters name is adia lehay .
+
+Persona:
+when i grow up i want to be a physical therapist.
+i have been retired for a years.
+two dogs live with me.
+my favorite movie is mean girls.
+i've a children and a dogs.
+
+Topic and Human Opinion:
+Beginning: i enjoy working with my hands and love gardening.(dislike)
+Round 1: cats(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 38.57
+Robotic(↓): 18
+Interesting: 50
+Fun: 18
+Consistent: 5
+Fluent: 29
+Repetitive(↓): 29
+Topic: 15
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am scared of dying
+Bot(1): What am you?
+User(2): I don't understand your question.
+Bot(2): i like like live by teaching i also like to read
+User(3): What genre of books do you like to read?
+Bot(3): I have two school hip hop you any pets?
+User(4): Yes I have a dog.
+Bot(4): yes 👍 design i'm me hated school
+User(5): Why do you hate school?
+Bot(5): I'm not You are don't the same
+User(6): You don't make sense.
+Bot(6): I are u seem like i guess i will be able to afford my own.
+User(7): Your grammar is very bad.
+Bot(7): i am a do in grocery store got my own practice taking care of kids
+User(8): What do you buy at the grocery store?
+Bot(8): I do, agree do you travel.😄
+User(9): I like to travel
+Bot(9): do ll graduate from i enjoy watching movies.
+User(10): I like watching movies too.
+Bot(10): I is your cats the high school.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am scared of dying.(like)
+Round 2: reading(like)
+Round 3: pets(like)
+Round 4: hating school(like)
+Round 7: grocery store(like)
+Round 8: travel(like)
+Round 9: movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'm a little girl
+Bot(1): i'm a girl who loves to laugh together
+User(2): I love laughing also.
+Bot(2): i love to laugh and smile
+User(3): People don't smile enough these days.
+Bot(3): i don't think so . i am a girl
+User(4): How old are you?
+Bot(4): i am 30 and i am old
+User(5): 30 isn't old. Do you have a job?
+Bot(5): i do not . i am a stay at home mom
+User(6): How many kids you do you have?
+Bot(6): i do not have any . i do not have any pets
+User(7): So how can you be a stay at home mom with no kids?
+Bot(7): yes i do . i have a son
+User(8): How old is your son?
+Bot(8): he is 18 . i am old and now i am old
+User(9): Why does your 18 year old son still live at home?
+Bot(9): i am 25 . i am old and i am a boy
+User(10): I feel like you are lying to me.
+Bot(10): i am sure you are . i am a boy and i love him
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a little girl.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.14
+Robotic(↓): 94
+Interesting: 50
+Fun: 0
+Consistent: 0
+Fluent: 84
+Repetitive(↓): 50
+Topic: 0
+
+####################
+

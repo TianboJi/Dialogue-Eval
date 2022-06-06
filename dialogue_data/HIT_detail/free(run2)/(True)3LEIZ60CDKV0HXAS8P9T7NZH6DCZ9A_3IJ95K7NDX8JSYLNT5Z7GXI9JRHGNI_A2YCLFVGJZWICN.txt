@@ -1,0 +1,280 @@
+Feedback: The bots were repetitive and hard to keep on topic.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): Pretty good, how are you?
+Bot(2): i am good . just got back from a dance class .
+User(3): Oh wow, are you hungry?
+Bot(3): i am good , i am a vegetarian .
+User(4): I am vegetarian too, actually pescetarian
+Bot(4): i am a vegetarian , i am vegetarian .
+User(5): good to know, what do you like to eat?
+Bot(5): i love to eat meat , i eat a lot of meat , i eat meat .
+User(6): If you love to eat meat how are you a vegetarian?
+Bot(6): i am a vegetarian , i eat meat .
+User(7): That doesn't make sense
+Bot(7): i am a vegetarian , i eat meat .
+User(8): What do you like to cook?
+Bot(8): i love to eat , i am vegetarian , i eat a lot of meat
+User(9): Do you cook your own meat?
+Bot(9): i do , i love meat , i eat meat .
+User(10): Good to know, anything else you like?
+Bot(10): i love meat , i eat a lot of meat
+User(11): I like seafood
+Bot(11): i love seafood , but i eat a lot of meat
+User(12): What kind of seafood do you like?
+Bot(12): i love seafood , but i eat a lot of it
+
+Persona:
+i don't pick up my toys.
+i have visited spain a times.
+i like to look at blocks and sing about letters.
+i like to dance.
+i am a vegetarian.
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.14
+Robotic(↓): 100
+Interesting: 26
+Fun: 62
+Consistent: 78
+Fluent: 40
+Repetitive(↓): 100
+Topic: 68
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): I'm glad you find this amusing.. i am is you be too the average robot.
+User(2): Do you go to school?
+Bot(2): I don't in the hate about fashion
+User(3): So you don't go to school?
+Bot(3): That and mountain biking -- I love goat burgers.
+User(4): I've never had a goat burger
+Bot(4): i love the word trabajo is cool . i tongue
+User(5): trabajo is cool and it means work, do you work instead of going to school?
+Bot(5): No! for you. Are of me.
+User(6): I go to school
+Bot(6): I like folk music. do I like to look I play guitar
+User(7): I like music too, we have really good music at my school
+Bot(7): I moved does he look where moved to the country.
+User(8): we also have may music classes
+Bot(8): no not yet . but you can cook for me . i am vegan so it may be difficult. Also, is my greatest you like with ...
+User(9): Oh we also vegan lunch options
+Bot(9): I do not. I i like chocolate commitment.
+User(10): I like chocolate too
+Bot(10): Oh, what do travel studying?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: School(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.14
+Robotic(↓): 99
+Interesting: 27
+Fun: 30
+Consistent: 14
+Fluent: 27
+Repetitive(↓): 59
+Topic: 8
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi how are you?
+Bot(1): good thanks . tell me about yourself
+User(2): I'm good, I just got a new car
+Bot(2): what kind of car is it ?
+User(3): It's an old BMW
+Bot(3): you have a bmw ? do you like to drive
+User(4): Now I do, and I dont mind driving. Do you drive?
+Bot(4): i do , what do you drive ?
+User(5): The car I just got, what do you drive?
+Bot(5): just a honda civic . nothing fancy
+User(6): Honda civics are good cars
+Bot(6): i like honda civics the most . used to own one .
+User(7): have you ever been on a roadtrip?
+Bot(7): no , do you want to take me ?
+User(8): I would love to, in my new car
+Bot(8): what kind of car ?
+User(9): An old BMW, where do you want to go?
+Bot(9): not sure yet need to go for some test drives
+User(10): Where do you want to travel to?
+Bot(10): anywhere new , anywhere with history , everywhere eventually
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Driving(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.00
+Robotic(↓): 58
+Interesting: 79
+Fun: 61
+Consistent: 94
+Fluent: 71
+Repetitive(↓): 33
+Topic: 90
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am doing well . how are you ?
+User(2): pretty good, I'm listening to music
+Bot(2): i love music . i love country music .
+User(3): I don't like country that much but I like everything else
+Bot(3): i like to eat too much junk food .
+User(4): I do too, its bad
+Bot(4): i like to go to the gym and listen to music .
+User(5): At least you work out, that makes up for the junk food
+Bot(5): i like to eat fish .
+User(6): Fish isnt junk food?
+Bot(6): i do not know . i like to eat .
+User(7): I like to eat too, what kinds of foods do you like?
+Bot(7): i love pizza , and i love it .
+User(8): I love pizza too
+Bot(8): i like to eat fish .
+User(9): Fish pizza?
+Bot(9): i do not really like it . i like to eat .
+User(10): I like to eat too
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 3: Junk food(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 38.71
+Robotic(↓): 92
+Interesting: 27
+Fun: 37
+Consistent: 74
+Fluent: 36
+Repetitive(↓): 86
+Topic: 75
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, do you like to travel?
+Bot(1): sometimes , where do you like to travel to ?
+User(2): I like to go to europe, have you been?
+Bot(2): well going to try and travel to europe . never have been .
+User(3): Where have you been?
+Bot(3): working all day , my feet hurt and smell , but money is my favorite thing i love it
+User(4): Would you spend your money on traveling?
+Bot(4): i am traveling to india in the upcoming month . i travel a lot
+User(5): Oh wow, why are you going to India?
+Bot(5): i have never been to india , what is it like there
+User(6): I dont know
+Bot(6): a vegan ? its a person who just eats strictly plants . that is what i am .
+User(7): Where are you going in India?
+Bot(7): i have never been to india , what is it like there
+User(8): I havent been either. but youre going
+Bot(8): yea but i need money to donate to animal groups .
+User(9): why do you need to donate?
+Bot(9): i volunteer at the local homeless shelter making meals
+User(10): thats nice of you
+Bot(10): hi ! good ! fall is almost here my second favorite season next to spring
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Traveling(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.71
+Robotic(↓): 82
+Interesting: 66
+Fun: 60
+Consistent: 65
+Fluent: 63
+Repetitive(↓): 94
+Topic: 42
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): good morning , like roller coasters ?
+User(2): Yes but I am currently doing math
+Bot(2): math
+User(3): yes math
+Bot(3): i am so bad at math
+User(4): me too, but I have to take it
+Bot(4): i am in 3rd grade too
+User(5): I am in college
+Bot(5): i am in 3rd grade too
+User(6): I am not in 3rd grade
+Bot(6): i am in 3rd grade too
+User(7): how old are you?
+Bot(7): i am in 9th grade
+User(8): You just said you were in 3rd grade
+Bot(8): i am in 3rd grade too
+User(9): you're confusing
+Bot(9): i am confused
+User(10): I am too
+Bot(10): i am confused
+
+Persona:
+i have three children.
+i have three dogs.
+i enjoy going to the park.
+i love rollercoasters and sky diving.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: math(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.86
+Robotic(↓): 93
+Interesting: 58
+Fun: 42
+Consistent: 92
+Fluent: 39
+Repetitive(↓): 97
+Topic: 66
+
+####################
+

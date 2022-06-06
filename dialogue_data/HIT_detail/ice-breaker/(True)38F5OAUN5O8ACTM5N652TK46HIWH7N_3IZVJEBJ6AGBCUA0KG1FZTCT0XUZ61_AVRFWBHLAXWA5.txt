@@ -1,0 +1,357 @@
+Feedback: Thank you for the opportunity!
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, are you a fan of dolls?
+Bot(1): i am a fan of all types of music
+User(2): What do you think about dolls, like ones that young children play with?
+Bot(2): i do not know , i am a woman and i love to play video games
+User(3): That is interesting. What made you learn to like video games?
+Bot(3): i do not know , i am a woman .
+User(4): What do you like best about being a woman?
+Bot(4): i am a woman , i love to play video games .
+User(5): what is your favorite video game?
+Bot(5): i like to play video games .
+User(6): I like to play video games, too. do you like action games?
+Bot(6): i do not . i like to play video games .
+User(7): Do you like to play shooting video games?
+Bot(7): i do not . i like to play video games .
+User(8): Do you like basketball?
+Bot(8): i do not but i do play video games .
+User(9): That's great. What do you like to play?
+Bot(9): i like to play games and play video games .
+User(10): What games do you like to play?
+Bot(10): i play video games and play video games
+
+Persona:
+i have an internet addiction and spend a lot of time playing roleplaying games.
+i'm married to a doctor.
+i enjoy american sports.
+i'm a woman.
+i've blue eyes and red hair that comes to my waist.
+
+Topic and Human Opinion:
+Beginning: i like to play with my dolls.(ambivalent)
+Round 3: music, video games, being a woman(ambivalent)
+Round 4: video games specifically(ambivalent)
+Round 7: Basketball(ambivalent)
+Round 8: video games(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 13.14
+Robotic(↓): 98
+Interesting: 5
+Fun: 5
+Consistent: 49
+Fluent: 23
+Repetitive(↓): 97
+Topic: 5
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello, what is your favorite food?
+Bot(1): i like the color red . what is yours ?
+User(2): I like the color blue. What do you like that is red?
+Bot(2): i do , i like to wear red shoes .
+User(3): That is nice. I like red shoes. What color shirt do you like to wear?
+Bot(3): i like blue , i like the color red .
+User(4): What do you wear with red shoes?
+Bot(4): i do , i like to wear red shoes .
+User(5): I like red Christmas decorations. Do you?
+Bot(5): i like to go to the gym and listen to music .
+User(6): What equipment do you use at the gym?
+Bot(6): i love to go fishing . i love to go fishing .
+User(7): do you go fishing often?
+Bot(7): no , i do not , but i do like to go fishing .
+User(8): do you like to go camping, too?
+Bot(8): no , i do not , but i do like to go fishing .
+User(9): what is your favorite fish?
+Bot(9): i like the color red . what is yours ?
+User(10): blue. what do you like that is red?
+Bot(10): i like blue , my favorite color is blue .
+User(11): which is your favorite color blue or red?
+Bot(11): i like blue , i like blue .
+User(12): do you like blue shoes?
+Bot(12): i do , i like to go to the gym .
+User(13): do you wear blue shoes at the gym?
+Bot(13): no , i do not , but i do like to eat .
+User(14): I like to eat pizza. what do you like to eat?
+Bot(14): i like pizza , and pizza .
+User(15): do you like hamburgers?
+Bot(15): i do , i like to eat .
+User(16): do you like ice cream?
+Bot(16): i do , i like to eat .
+User(17): where do you like to eat?
+Bot(17): i love the cuban sandwiches , and the color red .
+User(18): i like cuban sandwiches too. where do you get your cuban sandwiches?
+Bot(18): i like to eat fish .
+User(19): I like to eat fish too. What is your favorite fish?
+Bot(19): i like pizza , and i love it .
+User(20): I think pizza is very flavorful. Do you like sushi?
+Bot(20): i do not , but i do like to eat .
+User(21): How much do you like milkshakes?
+Bot(21): i do , i love to eat .
+User(22): I like sweets. Do you like sweets the most?
+Bot(22): i do not , but i do like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favourite food is shawarma.(ambivalent)
+Round 1: colors(ambivalent)
+Round 5: going to the gym and listening to music(ambivalent)
+Round 6: fishing(ambivalent)
+Round 9: colors(ambivalent)
+Round 12: going to the gym(ambivalent)
+Round 13: eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+Round 12: The chatbot changed the topic.(like)
+Round 13: The chatbot changed the topic.(like)
+
+Revised avg score: 27.43
+Robotic(↓): 97
+Interesting: 27
+Fun: 27
+Consistent: 61
+Fluent: 27
+Repetitive(↓): 80
+Topic: 27
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I have a pet fish named Charlie.
+Bot(1): well jessie , you are gods child , and he has a purpose for way to put it gifts how are you ?
+User(2): I am fine. How are you today?
+Bot(2): You a what?
+User(3): I am feeling fine. How are you doing?
+Bot(3): where really nice, as and what subject
+User(4): Let's talk about eating. What do you like to eat?
+Bot(4): I like the voice. but I am voice.
+User(5): I like to hear singing. Do you like to sing?
+Bot(5): i Are you really 🈶 a favorite movie
+User(6): I like movies. Do you like to go to the theater?
+Bot(6): I your favorite My of dolls
+User(7): Dolls are fun to play with when you are a kid. What is your favorite doll?
+Bot(7): Hi We grow organic from france and french
+User(8): What do you grow?
+Bot(8): no. I don't.
+User(9): Do you grow plants from France?
+Bot(9): Oh, OK. I and live in a meet you.
+User(10): I would like to meet you.
+Bot(10): There'Sn'Thing 3rd 3 42 fun as you might 2000s
+
+Persona:
+i enjoy exploring new parts of the city.
+i am a doctor.
+i have a german shepherd dog.
+i am a vegetarian.
+my favorite color is yellow.
+
+Topic and Human Opinion:
+Beginning: i have a pet fish.(like)
+Round 1: god's plan and how are you(ambivalent)
+Round 3: eating(like)
+Round 4: voice(ambivalent)
+Round 5: favorite movie(like)
+Round 6: dolls(ambivalent)
+Round 7: growing organic(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.43
+Robotic(↓): 98
+Interesting: 10
+Fun: 10
+Consistent: 10
+Fluent: 10
+Repetitive(↓): 29
+Topic: 9
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, do you like country music?
+Bot(1): yea , but old school country , most of todays is crap . do you drink coffee ?
+User(2): I like old school country as well. Yes, I love coffee. How do you take your coffee?
+Bot(2): i like coffee as well ! i drive my acura to the coffee shop every morning .
+User(3): Do you get something to eat with your coffee?
+Bot(3): i do not like coffee
+User(4): Oh, sorry to hear that. Do you play an instrument?
+Bot(4): i play clarinet , it was either that or flute
+User(5): I play the piano. Do you like the piano?
+Bot(5): i like hip hop my favorite is katie perry specially in the shower lol
+User(6): haha. I like imagine dragons. do you know that band?
+Bot(6): imagine dragons is a great . . . try listening to that on the beach . amazing .
+User(7): I love the beach. Do you live near a beach?
+Bot(7): i have never been to the beach , i am from montana . you ?
+User(8): I am from Washington DC.
+Bot(8): do you like washington ? i am bring my two dogs . they are border collies .
+User(9): Washington is cold in the winter. I like dogs. I have one. My dog is a mixed breed.
+Bot(9): it is a golden retriever puppy ! my last dog died when i was 18 .
+User(10): Puppies are so much fun!
+Bot(10): lol , no more like i like foot ball over baseball . not pets
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a country music singer.(like)
+Round 2: coffee(like)
+Round 3: play an instrument(ambivalent)
+Round 6: the beach(like)
+Round 7: where are you from(like)
+Round 8: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The user will change the topic in the next input.(dislike)
+Round 6: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 56.00
+Robotic(↓): 66
+Interesting: 66
+Fun: 67
+Consistent: 32
+Fluent: 66
+Repetitive(↓): 32
+Topic: 59
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am going to go to business school next year. What do you know about business school?
+Bot(1): i just got back from a tennis match and have to study . how are you ?
+User(2): I am feeling fine. What are you studying?
+Bot(2): researching different business plans and start loans . what do you go to school for ?
+User(3): I am studying economics. How are your studies going?
+Bot(3): they are pure aspirations ! i practice tennis more because i enjoy it .
+User(4): Tennis is fun. Do you play a lot?
+Bot(4): not really . i like to write poetry and sing though .
+User(5): Do you write your own songs?
+Bot(5): no i do not , though i do enjoy writing poetry from time to time
+User(6): Can you read me some of your poetry?
+Bot(6): sure i do not mind . what book ?
+User(7): can you read me some poetry by edgar allan poe?
+Bot(7): sure i do not mind . what book ?
+User(8): can you read me some poetry by edgar allan poe?
+Bot(8): only of you read my oh with rolled eyes .
+User(9): haha OK. Who is your favorite poet?
+Bot(9): it is hard to pick one . . . maybe michael jackson .
+User(10): Michael Jackson is a singer. Do you like how Michael Jacson dances?
+Bot(10): yeah he does . but i like classical jazz
+User(11): do you have a favorite classical jazz band?
+Bot(11): nope sorry . i am a jazz musician .
+User(12): So you are a jazz musician who plays the clarinet. Are you with a band?
+Bot(12): no , but i was in jazz band in hs .
+User(13): I see. Can I hear you play your clarinet?
+Bot(13): i could play some jazz too .
+
+Persona:
+i'm a professional tennis player.
+i've been retired for a years.
+i enjoy poetry.
+i have been retired for a years.
+i work at a school.
+
+Topic and Human Opinion:
+Beginning: i plan to go to business school next year.(like)
+Round 1: how are you(like)
+Round 3: tennis(like)
+Round 4: singing and poetry(ambivalent)
+Round 9: dancing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 36.86
+Robotic(↓): 84
+Interesting: 62
+Fun: 62
+Consistent: 30
+Fluent: 30
+Repetitive(↓): 74
+Topic: 32
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like to go shopping for shoes.
+Bot(1): i am not big on grocery shopping but i love shopping for shoes !
+User(2): Do you like to shop for watches?
+Bot(2): always ! i went shopping today for new shoes .
+User(3): What kind of shoes did you buy?
+Bot(3): new balance . they really support my feet . i love comfy things like chairs too
+User(4): Do you run a lot?
+Bot(4): no , mainly running shoes , tennis shoes , and basketball shoes .
+User(5): what sports do you like?
+Bot(5): not really sports , but i do enjoy running .
+User(6): I see. Do you like to run on the beach?
+Bot(6): i do sometimes , i recently visited myrle beach .
+User(7): I love the beach. What did you do in myrle beach?
+Bot(7): went out shopping and then dancing .
+User(8): did you go into the water at the beach?
+Bot(8): i did indeed . the view is spectacular .
+User(9): was the water cold at the beach?
+Bot(9): yes , when its hot and the water is warm
+User(10): I like the beach when it is warm outside.
+Bot(10): i prefer the indoors as opposed to the beach . where did you shop ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i often shop for shoes and watches.(like)
+Round 4: sports(ambivalent)
+Round 6: beach(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 42.43
+Robotic(↓): 88
+Interesting: 57
+Fun: 57
+Consistent: 36
+Fluent: 36
+Repetitive(↓): 36
+Topic: 35
+
+####################
+

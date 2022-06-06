@@ -1,0 +1,281 @@
+Feedback: very intersting 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i like the flower
+Bot(1): my favorite flower . did you go to college ?
+User(2): no
+Bot(2): his
+User(3): i am working
+Bot(3): i work with flowers all day
+User(4): ok i like the flower
+Bot(4): i work with flowers all day
+User(5): ok
+Bot(5): i have to go to work early
+User(6): ok
+Bot(6): ok bye
+User(7): why did you go
+Bot(7): i didn
+User(8): where are you going
+Bot(8): i am going to go everywhere
+User(9): ok
+Bot(9): ok bye
+User(10): ok
+Bot(10): same
+User(11): bye
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: flower(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.14
+Robotic(↓): 70
+Interesting: 65
+Fun: 80
+Consistent: 67
+Fluent: 79
+Repetitive(↓): 58
+Topic: 79
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i love my friends
+Bot(1): i love dogs , i have two dogs and a dog
+User(2): i like the dog
+Bot(2): i love dogs , i have two dogs and a dog .
+User(3): i have one gog
+Bot(3): i have two dogs and a dog .
+User(4): ok
+Bot(4): i have two dogs and a dog .
+User(5): i have no dogs
+Bot(5): i love dogs i have a dog
+User(6): ok
+Bot(6): i love dogs and dogs
+User(7): thankyou
+Bot(7): i love dogs and dogs
+User(8): what did you say
+Bot(8): i was a cheerleader , but i was a teacher
+User(9): i was student
+Bot(9): i was a teacher i was a teacher
+User(10): ok
+Bot(10): i am retired , i am retired now
+User(11): bye
+Bot(11): i am retired now , i am retired now
+
+Persona:
+i enjoy long walks with my dog.
+i'm a retired gym teacher.
+i live in colorado.
+i've two dogs.
+i own a cat and a dog.
+
+Topic and Human Opinion:
+Beginning: friends(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.71
+Robotic(↓): 68
+Interesting: 72
+Fun: 61
+Consistent: 84
+Fluent: 60
+Repetitive(↓): 78
+Topic: 73
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I love hiking. nice day! How hike.
+User(2): i love my bike
+Bot(2): that is also work as alpacas
+User(3): ok
+Bot(3): that is interesting. like a good colorado?
+User(4): i like usa
+Bot(4): what is your favorite you care should running
+User(5): bmw my car
+Bot(5): it is ! you do you mean? . what are you up to today ?
+User(6): i was manger
+Bot(6): i love animals have to go. big is , and i am a cat person , and you ?
+User(7): no
+Bot(7): Buongiorno! Such a nice day! How are understand. Whatever. Are you a short: i'm partly deaf
+User(8): ok
+Bot(8): yes , i do , of fun i suppose, but a lot of time to do .
+User(9): ok
+Bot(9): I'm good. Just listening knw what is love You?
+User(10): bye
+Bot(10): that is cool , i am from my cancer a and you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.00
+Robotic(↓): 70
+Interesting: 61
+Fun: 88
+Consistent: 68
+Fluent: 86
+Repetitive(↓): 69
+Topic: 84
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): brother
+Bot(1): kind of , i breed cats , main coon breed , then show them !
+User(2): i not like the cat
+Bot(2): my drummer has a cat named system . our fav band is system of a down
+User(3): ok my dog name is papar
+Bot(3): a chocolate lab . he is four and named husk .
+User(4): like the choco
+Bot(4): wonderful . i have a big slice of chocolate cake and i am ready to dig in !
+User(5): yes like the cake
+Bot(5): do you bake the cake or buy the cake ?
+User(6): yes
+Bot(6): me too , i wish pets were allowed in my college dorm room .
+User(7): no that covid tme
+Bot(7): hi ! i am good . i love a good pepperoni pizza .
+User(8): ok
+Bot(8): i find attractive all women from canada
+User(9): ok
+Bot(9): for fun you like to bake cakes .
+User(10): no
+Bot(10): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(11): bye
+Bot(11): lovely talking to you !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: brother(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.14
+Robotic(↓): 72
+Interesting: 58
+Fun: 82
+Consistent: 60
+Fluent: 85
+Repetitive(↓): 59
+Topic: 81
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): sister
+Bot(1): i am a student , but i am a student .
+User(2): i am a student
+Bot(2): i am a teacher , i love to cook .
+User(3): i love cook
+Bot(3): i like to eat too much junk food .
+User(4): not like the foods
+Bot(4): i like to eat fish .
+User(5): not like the fish
+Bot(5): i like to eat fish .
+User(6): not eat fish
+Bot(6): i like to eat fish .
+User(7): what did you say
+Bot(7): i just got off work at the animal shelter .
+User(8): ok
+Bot(8): i like to go to the gym and listen to music .
+User(9): yes
+Bot(9): i love to cook . i love to cook .
+User(10): bye
+Bot(10): i am a student , but i am a student .
+
+Persona:
+my favorite band is aerosmith.
+i'm employed by the us postal service.
+two dogs live with me.
+my father was a door to door salesman.
+i've three dogs.
+
+Topic and Human Opinion:
+Beginning: sister(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.29
+Robotic(↓): 76
+Interesting: 70
+Fun: 68
+Consistent: 80
+Fluent: 61
+Repetitive(↓): 82
+Topic: 66
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): system
+Bot(1): his
+User(2): system is using
+Bot(2): the system , cant count !
+User(3): ok
+Bot(3): the system , cant count !
+User(4): yes not count
+Bot(4): the system cant count right
+User(5): no
+Bot(5): the system cant count right
+User(6): this not possible
+Bot(6): the system cant count right
+User(7): no
+Bot(7): the system cant count right
+User(8): ok
+Bot(8): the system cant count right
+User(9): what did you say
+Bot(9): what ?
+User(10): what
+Bot(10): what ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: system(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.71
+Robotic(↓): 73
+Interesting: 70
+Fun: 82
+Consistent: 64
+Fluent: 85
+Repetitive(↓): 63
+Topic: 81
+
+####################
+

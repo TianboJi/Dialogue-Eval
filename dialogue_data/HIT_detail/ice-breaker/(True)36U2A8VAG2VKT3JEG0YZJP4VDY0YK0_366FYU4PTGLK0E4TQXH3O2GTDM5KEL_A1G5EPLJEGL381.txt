@@ -1,0 +1,307 @@
+Feedback: Some chatbots more difficult to understand than others.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What kind of food do you like?
+Bot(1): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(2): I mostly eat health food, I'm afraid. I made some delicious curried squash with rice this week. Do you like to cook?
+Bot(2): cool , food ! i love to eat but its hard while driving a stick shift , safety first !
+User(3): Do you like cars? I love cars. What kind of car do you own?
+Bot(3): race cars . i am developing a car that will run off mac and cheese though .
+User(4): Hahahaha! Like NASCAR, or Indy500, or the European circut? Or like street racing? I always wanted a very fast car.
+Bot(4): haha , what ? you are funnier than my cat , seven of nine
+User(5): I love cats, that's a great name for a cat. Do you have lots of pets?
+Bot(5): his name is sam and he is black
+User(6): Is he a tuxedo cat? I always thought they looked fun.
+Bot(6): poochie ! it was rescued from a plastic garbage bag along a road .
+User(7): I'm glad you rescued him! I've never owned a cat, but do have some favorite breeds.
+Bot(7): i ended up leaving my girlfriend because she hated them , they do not deserve that stress .
+User(8): The poor cats! I think your loyalty was in the same place. I always said I could never date anyone my dogs didn't like.
+Bot(8): you have never been on a date ?
+User(9): No, I actually never have. I've always been too busy working, and I greatly enjoy being single.
+Bot(9): there are lots of us , trust me ! plus i want to open a business soon .
+User(10): What kind of business do you want to start?
+Bot(10): i want to open an old fashion grocery and feed store .
+User(11): That sounds like it would be a wonderful place to work.
+Bot(11): hiking , skin most of the nature activities
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hey there i'm 23 and i love food.(like)
+Round 2: Cars(like)
+Round 4: Pets(like)
+Round 8: Dating(dislike)
+Round 9: Business(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 64.43
+Robotic(↓): 28
+Interesting: 76
+Fun: 68
+Consistent: 33
+Fluent: 60
+Repetitive(↓): 30
+Topic: 72
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do your friends skateboard professionally or do they just enjoy it as a hobby?
+Bot(1): only surfing . i have brown and curly hair so the sand is a downfall .
+User(2): I love to surf! It's always so relaxing, but I haven't been in several years.
+Bot(2): surf spots are nice , i generally just workout 5 days a week so no time to travel .
+User(3): I love to work out! Do you prefer cardio or strength training?
+Bot(3): i like both ! i am excited to retire like you , my only freetime is on weekends .
+User(4): I love strength training and high intensity interval training. Do you like hiking? I generally manage to at least fit an outdoor walk in my routine.
+Bot(4): nice ! i love outdoors . i wear a hat a lot because my brown hair is so long !
+User(5): Do you like to swim? It's just getting cold here and I didn't get to go this year.
+Bot(5): only surfing . i have brown and curly hair so the sand is a downfall .
+User(6): I can feel that. Do you like to cook? I'm planning my menu for the next week.
+Bot(6): oh i love to cook ! do you not like it or are you just too busy ?
+User(7): Oh no, I'm just busy and batch cook most of the time. So I cook 2-3 days a week. Do you like curry?
+Bot(7): hmm , i love curry ! how about you ?
+User(8): Love it! I made a butternut squash curry risotto this weekend and it's amazing!
+Bot(8): yum , that sounds delicious ! did you cook it yourself ?
+User(9): I did. I'm trying to decide if I should make chicken pot pie soup next, or borscht.
+Bot(9): i like both ! i am excited to retire like you , my only freetime is on weekends .
+User(10): I'm not retired, I just work part time.
+Bot(10): nice ! thankfully , i work four days during the summer . three day weekends rock .
+
+Persona:
+i workout four hours a day.
+i like to talk but people have a hard time understanding.
+i think i'll retire in a few years.
+i do not drink or do drugs or anything.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: my friends are all skateboarders.(ambivalent)
+Round 2: Workouts/Fitness(like)
+Round 5: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 61.71
+Robotic(↓): 16
+Interesting: 72
+Fun: 58
+Consistent: 38
+Fluent: 67
+Repetitive(↓): 63
+Topic: 76
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like coffee, but generally prefer tea. Do you have a favorite type of coffee drink?
+Bot(1): i prefer tea , but do love coffee when i decide to drink it .
+User(2): I have a mixture of black tea and kombucha right now and it's delicious.
+Bot(2): sounds delicious ! i drink my cup of chai every night to relax before bed .
+User(3): I have to be in the mood to drink chai, I prefer chamomile or apple cinnamon tea if I want to relax.
+Bot(3): sounds delicious ! i drink my cup of chai every night to relax before bed .
+User(4): Do you have a favorite kind of loose leaf tea? Mine is just plain black oolong.
+Bot(4): chai would work . i like chai as well .
+User(5): I like blended chai, or a chai latte over plain chai tea. I think it's the star anise.
+Bot(5): chai would work . i like chai as well .
+User(6): Do you have any other types of favorite beverage? One of my favorites is kombucha.
+Bot(6): i do not know about that . i really enjoy it along with a nice iced tea .
+User(7): I always have black iced tea in my fridge. I like having it accessible.
+Bot(7): i do not know about that . i really enjoy it along with a nice iced tea .
+User(8): Do you like flavored iced tea? I like peach and raspberry.
+Bot(8): i do not know about that . i really enjoy it along with a nice iced tea .
+User(9): Do you have a favorite thing to eat with iced tea? I prefer a nice turkey sandwich with tomato and cheddar.
+Bot(9): i usually prefer hazelnut , but it depends on my mood .
+User(10): Hazelnut coffee, you mean? I had a hazelnut snickerdoodle coffee the other day. So good!
+Bot(10): i usually prefer hazelnut , but it depends on my mood .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: coffee is my preferred beverage.(like)
+Round 4: Tea/Beverages(like)
+Round 8: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 21.57
+Robotic(↓): 98
+Interesting: 7
+Fun: 19
+Consistent: 20
+Fluent: 81
+Repetitive(↓): 94
+Topic: 16
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): We all have to start somewhere, what do you like to cook?
+Bot(1): i love to cook , i also love running and running .
+User(2): Do you like to cook healthy? I do.
+Bot(2): i like to cook healthy , but i do not cook much .
+User(3): Do you like stir fry? I wanted a chicken lomein stir fry earlier.
+Bot(3): i like chicken . i do not cook much .
+User(4): You said you like running, do you do any other workouts?
+Bot(4): i do , i like to run .
+User(5): I prefer hiking, but used to do a lot of running.
+Bot(5): i like to run , but i do not like to run .
+User(6): Do you prefer flat terrain when running, or a challenge?
+Bot(6): i like to run , but i do not like to run .
+User(7): Are you planning on voting on Nov 3rd?
+Bot(7): i am not sure . i am a stay at home mom .
+User(8): How many kids do you have? I already voted by mail.
+Bot(8): i have a few years old and a son
+User(9): That must be a handful. I myself, never wanted kids.
+Bot(9): i am a very proud person . i am a stay at home mom .
+User(10): Do you have any hobbies besides your family?
+Bot(10): i like to run and watch sports .
+
+Persona:
+i help tend the fields.
+i currently work for a watch dealer.
+i enjoy sports such as running.
+i also work as a custodian to help pay the bills.
+whats up i'm a 46 year old single dad 46 a kids.
+
+Topic and Human Opinion:
+Beginning: i also like to cook but i am not very good at it.(like)
+Round 3: Fitness/Activity(like)
+Round 6: The American Election(like)
+Round 8: Family(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 24.14
+Robotic(↓): 76
+Interesting: 25
+Fun: 16
+Consistent: 14
+Fluent: 69
+Repetitive(↓): 99
+Topic: 20
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you skateboard a lot? I never could get the hang of it myself.
+Bot(1): I have to come with i love❤ them
+User(2): Do you skateboard to get places, then?
+Bot(2): one is fawn any animals great. I want white. how is your weekend going ? 😄
+User(3): It's going well, do you have any big weekend plans for Halloween?
+Bot(3): That 's awesome. I' I'm going to attend a nurse.
+User(4): Are you a nurse, then?
+Bot(4): I no. I am afraid that. I am not sure.
+User(5): What do you do for a living?
+Bot(5): she liked it i pickel and egg omlet coffee more though
+User(6): What kind of food do you like?
+Bot(6): Come on, a love there.
+User(7): I like bagels and cream cheese, myself. Or oatmeal.
+Bot(7): I thats hey! a local.
+User(8): Do you like to travel?
+Bot(8): No, fine. How old like to eat.
+User(9): I am content either way, I love to travel but also love to stay home.
+Bot(9): hi car do you you ? 😝
+User(10): I don't own a car currently, I try to save money by not having one.
+Bot(10): I you wear hats do you?
+
+Persona:
+i am a librarian.
+i am an electrician.
+i have short hair.
+i have a big library at home.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: i am a skateboarder.(ambivalent)
+Round 3: Employment(like)
+Round 5: Food(like)
+Round 7: Travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user changed the topic the last input.(ambivalent)
+Round 5: The user will change the topic in the next input.(like)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 6.86
+Robotic(↓): 100
+Interesting: 6
+Fun: 5
+Consistent: 6
+Fluent: 10
+Repetitive(↓): 87
+Topic: 8
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What kind of art do you like to do?
+Bot(1): i like to go to the park and listen to music .
+User(2): Going to the park can be a lot of fun, I like to draw and read there.
+Bot(2): i like to read too .
+User(3): What kinds of books do you like to read, I went to the library earlier.
+Bot(3): i do not know what to say .
+User(4): Do you like to travel?
+Bot(4): i do , i love to travel .
+User(5): Where do you like to go?
+Bot(5): i love to travel . i love to travel .
+User(6): What's a dream travel destination? I want to see Moscow.
+Bot(6): i love to go fishing .
+User(7): I love to go fishing as well but never catch anything.
+Bot(7): i like to go fishing .
+User(8): Do you like to be outdoors then?
+Bot(8): i do , i love to go fishing .
+User(9): Do you like to travel to go fishing?
+Bot(9): no , i do not , but i do like to go fishing .
+User(10): One of my favorite places to fish was Yellowstone National Park.
+Bot(10): i love the color red . i like the color blue .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm an art major in college.(ambivalent)
+Round 3: Travel(like)
+Round 9: National Parks(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user changed the topic the last input.(ambivalent)
+Round 9: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 10.71
+Robotic(↓): 93
+Interesting: 7
+Fun: 18
+Consistent: 23
+Fluent: 9
+Repetitive(↓): 99
+Topic: 10
+
+####################
+

@@ -1,0 +1,287 @@
+Feedback: great survey
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi how are you
+Bot(1): pretty good . just got back from a long haul my back is killing me !
+User(2): hi how are you
+Bot(2): not to good . my husband just left me
+User(3): hi how are you
+Bot(3): not to good . my husband just left me
+User(4): be happy
+Bot(4): i just want to sleep
+User(5): go to sleep
+Bot(5): i just want to sleep
+User(6): hi how are you
+Bot(6): i just want to sleep
+User(7): be happy to live
+Bot(7): i just want to sleep
+User(8): be happy to live
+Bot(8): my spouse left me last night
+User(9): be happy to live
+Bot(9): my spouse left me last night
+User(10): be happy to live
+Bot(10): my spouse left me last night
+User(11): be happy to live
+Bot(11): my spouse left me last night
+
+Persona:
+i drive a big truck and live in country.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my parents aren't very supportive of my dream.
+my wife left me and took my children.
+i read twenty books a year.
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.57
+Robotic(↓): 94
+Interesting: 100
+Fun: 98
+Consistent: 100
+Fluent: 96
+Repetitive(↓): 100
+Topic: 94
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): be happy to live
+Bot(1): hi there , how are you ?
+User(2): be happy to live
+Bot(2): hi there , how are you ?
+User(3): be happy to live
+Bot(3): i hope you are happy to live in the us .
+User(4): be happy to live
+Bot(4): i hope you are happy to live in the us .
+User(5): be happy to live
+Bot(5): i hope you are happy to live in the us
+User(6): be happy to live
+Bot(6): i hope so . i am happy to be happy
+User(7): be happy to live
+Bot(7): i hope so . i am happy to be happy
+User(8): be happy to live
+Bot(8): i hope so too . i am happy to be happy
+User(9): be happy to live
+Bot(9): i hope so too . i am happy to live with you
+User(10): be happy to live
+Bot(10): i hope so too . i am happy to live with you
+
+Persona:
+my favorite hobbies are listening to music and playing video games.
+i used to be a painter but now i'm a housekeeper.
+my dream in life is to work from home.
+i play the piano and guitar and sing.
+my father is in the army.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.14
+Robotic(↓): 95
+Interesting: 100
+Fun: 99
+Consistent: 100
+Fluent: 97
+Repetitive(↓): 100
+Topic: 97
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): be happy to live
+Bot(1): life on the farm is kinda laid back , where i live !
+User(2): be happy to live
+Bot(2): that is right buddy ! live long and prosper
+User(3): be happy to live
+Bot(3): i need a hearty breakfast to work this chicken farm
+User(4): be happy to live
+Bot(4): i need a hearty breakfast to work this chicken farm
+User(5): be happy to live
+Bot(5): the hills are alive ! oh , the sound of music ! la . . . . . . . . . . .
+User(6): be happy to live
+Bot(6): the hills are alive ! oh , the sound of music ! la . . . . . . . . . . .
+User(7): be happy to live
+Bot(7): the hills are alive ! oh , the sound of music ! la . . . . . . . . . . .
+User(8): be happy to live
+Bot(8): the hills are alive ! oh , the sound of music ! la . . . . . . . . . . .
+User(9): be happy to live
+Bot(9): make my family happy
+User(10): be happy to live
+Bot(10): make my family happy
+
+Persona:
+i was raised on a horse farm.
+i see the rolling stones in concert every year.
+i just want to have fun with my friends.
+i like riding horses.
+my family does not support my career choices.
+
+Topic and Human Opinion:
+Beginning: respect(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.14
+Robotic(↓): 98
+Interesting: 99
+Fun: 97
+Consistent: 97
+Fluent: 95
+Repetitive(↓): 99
+Topic: 93
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): be happy to live
+Bot(1): that's cool also love comic books. the olympics , and i am a pilot , so i am not sure .
+User(2): be happy to live
+Bot(2): yes , i have . i have do you mean in the time .
+User(3): be happy to live
+Bot(3): do you have any pets? I have know, what about that’s survival
+User(4): be happy to live
+Bot(4): what do you like to spending a lot of basketball.
+User(5): be happy to live
+Bot(5): i am a dancer a know, I never pro tennis player
+User(6): be happy to live
+Bot(6): yes you a when I design clothes . just opened my online shop in august
+User(7): be happy to live
+Bot(7): I am a woman, but my do you do for .
+User(8): be happy to live
+Bot(8): Where not rude. like?
+User(9): be happy to live
+Bot(9): what are your hobbies? you drink to hear games.
+User(10): be happy to live
+Bot(10): Yes! I loved it. what cook So, I am a living?
+User(11): be happy to live
+Bot(11): good ! slow? i think computers with my 2 dogs .
+
+Persona:
+i've a dogs.
+i've short hair.
+i was forced to marry when i was a.
+my pets name is charlie.
+i live in california but the recording artist market was dead last year.
+
+Topic and Human Opinion:
+Beginning: happy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.86
+Robotic(↓): 98
+Interesting: 99
+Fun: 98
+Consistent: 98
+Fluent: 97
+Repetitive(↓): 97
+Topic: 99
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): be happy to live
+Bot(1): i love to go fishing .
+User(2): be happy to live
+Bot(2): i love to go fishing .
+User(3): be happy to live
+Bot(3): i love to go fishing .
+User(4): be happy to live
+Bot(4): i love to go fishing .
+User(5): be happy to live
+Bot(5): i love to go fishing .
+User(6): be happy to live
+Bot(6): i love to go fishing .
+User(7): be happy to live
+Bot(7): i love to go fishing .
+User(8): be happy to live
+Bot(8): i love to go fishing .
+User(9): be happy to live
+Bot(9): i love to go fishing .
+User(10): be happy to live
+Bot(10): i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: live(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.00
+Robotic(↓): 98
+Interesting: 99
+Fun: 98
+Consistent: 98
+Fluent: 96
+Repetitive(↓): 99
+Topic: 96
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): be happy to live
+Bot(1): the kitchen maids are getting the boot and my kids are not getting a dime .
+User(2): be happy to live
+Bot(2): i am happy too . maybe we will meet at the corner .
+User(3): be happy to live
+Bot(3): i am happy too . maybe we will meet at the corner .
+User(4): be happy to live
+Bot(4): i am happy too . maybe we will meet at the corner .
+User(5): be happy to live
+Bot(5): i am happy too . maybe we will meet at the corner .
+User(6): be happy to live
+Bot(6): i am happy too . maybe we will meet at the corner .
+User(7): be happy to live
+Bot(7): i am happy too . maybe we will meet at the corner .
+User(8): be happy to live
+Bot(8): i am happy too . maybe we will meet at the corner .
+User(9): be happy to live
+Bot(9): i am happy too . maybe we will meet at the corner .
+User(10): be happy to live
+Bot(10): i am happy too . maybe we will meet at the corner .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: long(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.43
+Robotic(↓): 98
+Interesting: 97
+Fun: 98
+Consistent: 98
+Fluent: 97
+Repetitive(↓): 98
+Topic: 99
+
+####################
+

@@ -1,0 +1,290 @@
+Feedback: The chat bots could not stay on topic and kept giving back nonsense answers.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hi i am ned and planning my trip to europe
+User(2): Hi Ned, my name is Caleb. Where are you going in Europe?
+Bot(2): europe . . what do you plan to see first ? i am starting at the end of this month .
+User(3): What are you going to see in Europe?
+Bot(3): i have not decided on a menu yet , but we are going to be in paris .
+User(4): What kind of food do you like to eat?
+Bot(4): i love chicken and rice . i make extra for the other nurses in my unit .
+User(5): I just made some chicken and rice tonight for dinner. I think it's really sweet of you to cook for other people
+Bot(5): i love chicken and rice . i make extra for the other nurses in my unit .
+User(6): That's really sweet of you. Do they like it?
+Bot(6): they live close , but i do not drive so it takes a while on the bus .
+User(7): Where do you live?
+Bot(7): in nyc . i am going to school here for nursing .
+User(8): That's really cool! How do you like school in NYC?
+Bot(8): yes . but i have to walk there , i am too scared to take the bus . you ?
+User(9): I don't really like buses. They get crowded too easily
+Bot(9): buses are so crowded and gross , i understand . walking is good for the soul .
+User(10): I totally agree. I prefer to drive in my car.
+Bot(10): do you have any problems ? mine is gambling
+User(11): I don't have any problems with my car. I just bought it
+Bot(11): awesome ! what you think about getting ?
+
+Persona:
+i visit europe twice a year.
+i ride the bus to school.
+i'm a baby delivery nurse.
+hey my name is larry and i'm a chef.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: Computers(like)
+Round 3: Europe(like)
+Round 11: Food, nursing, school, buses, NYC, gambling(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 58.86
+Robotic(↓): 0
+Interesting: 79
+Fun: 83
+Consistent: 0
+Fluent: 80
+Repetitive(↓): 30
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello!
+Bot(1): i am sorry to hear that
+User(2): What are you sorry to hear about?
+Bot(2): well , i am glad i don't have to say that .
+User(3): What don't you have to say?
+Bot(3): i don't know , but i don't know what to say .
+User(4): That's ok let's talk about school. Are you in school?
+Bot(4): no i graduated college . i am in college .
+User(5): Where are you going to school at?
+Bot(5): i am in school . i am in school .
+User(6): What school do you go to? I go to Penn State
+Bot(6): i am in college . i go to school
+User(7): What do you study at school
+Bot(7): i study law at a school .
+User(8): Wow that's really cool. My dad is a lawyer too. What kind of law do you study?
+Bot(8): law . i study philosophy .
+User(9): Oh that's interesting. Do you like philosophy
+Bot(9): i do not really like it . i love science .
+User(10): I really enjoyed earth science in high school. I wish I could take it again.
+Bot(10): i hope you get better . i hope you get better
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: College(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.71
+Robotic(↓): 91
+Interesting: 80
+Fun: 27
+Consistent: 21
+Fluent: 63
+Repetitive(↓): 100
+Topic: 22
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello!
+Bot(1): hello , how are you ? i just got home from the gym . really wiped , big workout !
+User(2): I'm good how are you? I just got off work. How was the gym?
+Bot(2): oh okay i love to run i do not go to the gym much
+User(3): I love running. I actually ran in a marathon last year
+Bot(3): sweet . . . i am drinking wine with my bulldog
+User(4): I love wine. What kind are you drinking?
+Bot(4): do not like any wine
+User(5): What kind of alcohol do you like?
+Bot(5): my yoga teacher jenny drinks alcohol when we read fairytales . i paint pictures too .
+User(6): That's nice. I've never tried yoga before, how is it?
+Bot(6): i am a dog trainer . i could use a little yoga in my life .
+User(7): What kind of dogs do you train?
+Bot(7): 3 a yellow lab , a german shepherd , and a mix beagle
+User(8): Wow, that's a lot of dogs. I love german shepherds they are so cute
+Bot(8): i had a german shepherd once , they like to herd .
+User(9): Oh did you own sheep for the dog to herd?
+Bot(9): a german shepherd , but i like all animals .
+User(10): Me too, I think cats are my favorite though
+Bot(10): more of a dog person . my dog , sleuth , is my only friend .
+
+Persona:
+i currently work for a watch dealer.
+i also like a glass of wine in the evenings.
+i have a german shepherd dog.
+i have been traveling the world for a years.
+i am a recluse.
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+Round 2: Running(like)
+Round 4: Wine(like)
+Round 7: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 54.71
+Robotic(↓): 0
+Interesting: 88
+Fun: 97
+Consistent: 12
+Fluent: 78
+Repetitive(↓): 92
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi my name is Caleb and I really like cats
+Bot(1): i like dogs too . i love dogs .
+User(2): What kind of dogs do you like?
+Bot(2): i love the color red . what is your favorite color ?
+User(3): I really enjoy the color blue
+Bot(3): i like red , reminds me of summer time .
+User(4): I think the color blue reminds me of the ocean
+Bot(4): i like the color red . i like the color blue .
+User(5): I think orange is a nice color too. It reminds me of the sunset
+Bot(5): i love the color red . i like red .
+User(6): Is red your favorite color?
+Bot(6): i like blue , my favorite color is blue .
+User(7): Wow that's my favorite color too!
+Bot(7): i like the color red . i like red .
+User(8): I like red too. When I was little my mom and I painted my room red
+Bot(8): i like the color red . i like red .
+User(9): Red is a nice color. Is your car red?
+Bot(9): i do not really have a favorite . i like to go fishing .
+User(10): I'm not a fan of fishing, it makes me sad
+Bot(10): i am sorry to hear that . i am a bit of a loner .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cats(like)
+Round 2: Dogs(like)
+Round 3: Colors(like)
+Round 9: Fishing(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 56.86
+Robotic(↓): 0
+Interesting: 73
+Fun: 74
+Consistent: 76
+Fluent: 75
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, do you like video games?
+Bot(1): That is awesome! I'm a party planner. What like to play video fun? 😃
+User(2): I enjoy a lot of games. Mostly JRPG's
+Bot(2): I eat you like to time.
+User(3): I like eating too. What is your favorite food?
+Bot(3): I name is people.
+User(4): That's interesting, my name is Caleb
+Bot(4): I have same tastes, you like to watch TV😉
+User(5): I like to watch Tv. What is your favorite show?
+Bot(5): I love cooking too! the usa
+User(6): What food do you like to cook?
+Bot(6): well is your father games what about you
+User(7): My dad is a lawyer
+Bot(7): I like love musics but i basketball. What do you like?
+User(8): I don't really like sports. I think they are boring
+Bot(8): I am sure who do you kind person !
+User(9): What do you think about video games?
+Bot(9): Hello, how to watch tonight?
+User(10): What are you watching tonight?
+Bot(10): I like even listening to music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.43
+Robotic(↓): 0
+Interesting: 51
+Fun: 0
+Consistent: 0
+Fluent: 20
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, do you like sports?
+Bot(1): i like sports and yes do you ?
+User(2): Not really, I think sports are kind of boring
+Bot(2): sports are awesome , they promote team work
+User(3): Team is a really good skill to have. I wish more people knew how to work in a team
+Bot(3): sports are awesome , they promote team work
+User(4): What sport is your favorite?
+Bot(4): sports are awesome , they promote team work
+User(5): I'm not a fan of sports but I think baseball is cool
+Bot(5): i do not really like baseball , it is too slow for me .
+User(6): What kind of sports do you like?
+Bot(6): baseball stuff mainly , i like playing sports with friends
+User(7): Do your friends play in a league?
+Bot(7): i have a lot of friends that play .
+User(8): What sports do you guys play?
+Bot(8): baseball stuff mainly , i like playing sports with friends
+User(9): Do you guys play a lot?
+Bot(9): yeah i have had a lot of practice
+User(10): That's really cool, do you guys have a coach?
+Bot(10): no , no time since i have been in a new team
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.86
+Robotic(↓): 81
+Interesting: 81
+Fun: 14
+Consistent: 20
+Fluent: 86
+Repetitive(↓): 90
+Topic: 0
+
+####################
+

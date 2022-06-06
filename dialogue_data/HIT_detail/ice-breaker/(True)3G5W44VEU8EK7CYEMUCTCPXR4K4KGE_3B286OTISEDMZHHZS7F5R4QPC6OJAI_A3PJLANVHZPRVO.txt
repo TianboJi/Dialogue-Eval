@@ -1,0 +1,300 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey there! What do you do for a living?
+Bot(1): i am a student , but i am a student .
+User(2): I was a student, and graduated with my dream degree for the career I want, but my family doesn't think it's a good idea.
+Bot(2): i am sorry to hear that . i am sorry to hear that .
+User(3): Yeah I want to go into non-profit work and work for a charity
+Bot(3): i love to cook . i love to cook .
+User(4): I love to cook too! What do you like to cook?
+Bot(4): i do , i love to cook .
+User(5): I like to cook Asian food. Do you like to cook Asian food?
+Bot(5): i do not , but i do like to eat .
+User(6): Do you like fried rice? I can cook that
+Bot(6): i do not know what to say .
+User(7): What do you like to cook?
+Bot(7): i do , i love to cook .
+User(8): Do you like to cook pasta?
+Bot(8): i do , i love to eat .
+User(9): Me too. I like to eat all types of pasta
+Bot(9): i like to eat fish .
+User(10): Me too. I like salmon. Do you like salmon?
+Bot(10): i do not , but i do like to eat .
+User(11): Do you like to eat salmon?
+Bot(11): i do not , but i do like to eat .
+
+Persona:
+i love playing softball.
+my parents taught me survival skills.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i'm single and with two dogs.
+i'm planning on getting a divorce.
+
+Topic and Human Opinion:
+Beginning: my family does not support my career choices.(dislike)
+Round 3: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 38.71
+Robotic(↓): 85
+Interesting: 23
+Fun: 23
+Consistent: 67
+Fluent: 67
+Repetitive(↓): 86
+Topic: 62
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I love Disneyland! Do you?
+Bot(1): cool ! i am in san fran ! actually never been to disneyland , is not that crazy
+User(2): Yeah if I was in California I would definitely go!
+Bot(2): cool ! i am in san fran ! actually never been to disneyland , is not that crazy
+User(3): I love Mickey Mouse too! Do you?
+Bot(3): its just really nice seeing movies in california with him !
+User(4): You saw a movie with Mickey Mouse?
+Bot(4): yes ! i sat and ate a bunch of candy and soda whole watching the movie
+User(5): Was it a Disney movie you watched?
+Bot(5): i love that movie , all disney movies really .
+User(6): Me too! What's your favorite? I love Cinderella
+Bot(6): i love that movie , all disney movies really .
+User(7): Do you like the Little Mermaid?
+Bot(7): org i love disney !
+User(8): Me too! That's why the Little Mermaid is one of my favorites too
+Bot(8): org i love disney !
+User(9): Have you seen Snow White?
+Bot(9): i love that movie ! i have seen
+User(10): What was your favorite part?
+Bot(10): i love that movie , all disney movies really .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love disneyland and mickey mouse.(like)
+Round 6: Disney Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(like)
+
+Revised avg score: 59.00
+Robotic(↓): 70
+Interesting: 67
+Fun: 64
+Consistent: 85
+Fluent: 68
+Repetitive(↓): 85
+Topic: 84
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hey! I'm currently in college to become a nurse. Are you a student?
+Bot(1): Yes. I live in the united states. body ever in my life. an elephant has been in your fridge?
+User(2): No an elephant has never been in my fridge
+Bot(2): I love a good like you?
+User(3): Do you like smoothies?
+Bot(3): yes, i am. cool. let's study music?
+User(4): How can we study music? Do you want to listen to it?
+Bot(4): Hi, I am a you are from don't musician.
+User(5): Are you a musician?
+Bot(5): lol , ok , well i am mind man answer me it , how about you ?
+User(6): I am not a musician, but I like to listen to music. Do you like to listen to music?
+Bot(6): I I like i’m are your hobbies?
+User(7): I like to collect records and listen to them!
+Bot(7): I would think about Do you like sports?
+User(8): I do. Baseball is my favorite sport
+Bot(8): I don't about it, but in three months.
+User(9): Do you like to watch baseball?
+Bot(9): I am from california. do you have any am love books but roleplaying
+User(10): I'm sorry I do not do role play
+Bot(10): I like hockey, most of your hockey.😄
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am in college to become a nurse.(like)
+Round 1: Elephants(dislike)
+Round 2: Smoothies(like)
+Round 3: Music(like)
+Round 7: sports(like)
+Round 9: roleplaying(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 19.00
+Robotic(↓): 96
+Interesting: 16
+Fun: 16
+Consistent: 0
+Fluent: 11
+Repetitive(↓): 18
+Topic: 4
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I'm a vegan! Are you?
+Bot(1): i am not anymore . i used to be an alcoholic .
+User(2): What was your favorite thing about being a vegan?
+Bot(2): i like to live life on the edge and eat raw food ! it is intense
+User(3): I like raw food too! Carrots especially
+Bot(3): do you have a dog currently ? i use to have a black lab
+User(4): I do! I have a golden retriever
+Bot(4): great dog , i have a labrador myself
+User(5): That's a great dog too. Does your dog like exercise?
+Bot(5): yes , we go walking every day . he loves to exercise as much as i do
+User(6): I take my dog on walks almost everyday too
+Bot(6): do you have any problems ? mine is gambling
+User(7): I like to gamble but I don't think I have a problem
+Bot(7): do you have any problems ? mine is gambling
+User(8): What's your gambling problem?
+Bot(8): i am an alcoholic so it is very hard
+User(9): I bet. Do you try not to drink?
+Bot(9): no i try not to drink any caffeine
+User(10): I thought alcoholism was that you try not to drink alcoholic beverages
+Bot(10): oh , it is normal but maintain a healthy lifestyle and you re be fine
+
+Persona:
+i'm a recovering alcoholic.
+i have a black lab named trooper.
+i walk dogs for a living.
+hey my name is larry and i'm a chef.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: i am a vegan.(dislike)
+Round 3: dogs(like)
+Round 6: gambling(ambivalent)
+Round 8: alcoholism(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 45.14
+Robotic(↓): 72
+Interesting: 63
+Fun: 51
+Consistent: 39
+Fluent: 71
+Repetitive(↓): 63
+Topic: 27
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like classical music?
+Bot(1): i do . i like classical music .
+User(2): I like listening to classical music too! Whats your favorite composer?
+Bot(2): i like classical music . i like classical music .
+User(3): Do you like Mozart?
+Bot(3): i like classical music . i like classical .
+User(4): Do you like to listen to Chopin?
+Bot(4): i do not like classical music . i like classical music .
+User(5): Beethoven is one of my favorites
+Bot(5): i like classical music too . i like classical music too
+User(6): When do you listen to classical music?
+Bot(6): i do not listen to much classical music
+User(7): Classical music is all I listen to! I even made my husband listen to it
+Bot(7): i love classical music . i also like classical music .
+User(8): Do you listen to it to relax?
+Bot(8): i do not listen to much music
+User(9): Do you play classical music on an instrument?
+Bot(9): i do not , i am a big fan of classical music
+User(10): I play classical music on my piano
+Bot(10): i am a teacher , i am a nurse .
+
+Persona:
+i visit europe twice a year.
+i ride the bus to school.
+i'm a baby delivery nurse.
+hey my name is larry and i'm a chef.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: i enjoy listening to classical music.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.43
+Robotic(↓): 95
+Interesting: 4
+Fun: 11
+Consistent: 82
+Fluent: 37
+Repetitive(↓): 82
+Topic: 91
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I have three sisters
+Bot(1): i only have one sister that i know about .
+User(2): Do you like your sister?
+Bot(2): my sister is younger than me and i have an older brother
+User(3): All three of my sisters are older than me
+Bot(3): thanks . i have no brothers or sisters . do you have any ?
+User(4): I have three sisters!
+Bot(4): i only have one sister that i know about .
+User(5): Is your sister your best friend?
+Bot(5): i am 26 and she is 22 . only one i got but she cant cook .
+User(6): All three of my sisters are good cooks
+Bot(6): i only have one sister that i know about .
+User(7): Does your sister live near you?
+Bot(7): nice . my children and i just finished watching my favorite childrens cartoon , thomas the train .
+User(8): I haven't watched it. I like the Flinstones
+Bot(8): yuck . i just ate a nice meal . my ex had to smoke after every meal
+User(9): Do you get along with your ex?
+Bot(9): do not call him ! ex are in the past for a reason .
+User(10): I don't like my ex either
+Bot(10): he was very jealous . i interact with many men at work
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've three sisters.(like)
+Round 7: Cartoons(ambivalent)
+Round 8: An ex(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 65.29
+Robotic(↓): 38
+Interesting: 65
+Fun: 61
+Consistent: 46
+Fluent: 79
+Repetitive(↓): 25
+Topic: 69
+
+####################
+

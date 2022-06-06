@@ -1,0 +1,281 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am great ! just finished pillaging a small village nearby
+User(2): That does not sound like a good thing?
+Bot(2): i really like spending time with my friend cayden , he is really good at soccer .
+User(3): That's nice, do you follow sports?
+Bot(3): yes i do , soccer is my favorite , what do you like
+User(4): Soccer is my favorite sport too
+Bot(4): that is cool ! ! are you on a soccer team ?
+User(5): No, I am not, are you?
+Bot(5): i have a fish . i am away from home a lot with the job .
+User(6): Okay, who is your favorite soccer player?
+Bot(6): that is cool ! ! are you on a soccer team ?
+User(7): No, I am not
+Bot(7): i do not either . is there any special dishes you like to cook on sundays ?
+User(8): I am not good at cooking, are you?
+Bot(8): i like to take walks by the lake
+User(9): I enjoy doing that as well
+Bot(9): what team does your brother play for ?
+User(10): He does not play for any team
+Bot(10): which team is your team ?
+
+Persona:
+i am a 56 year old woman.
+i enjoy long walks with my dog.
+i'm on the soccer team.
+i like to go hiking in the mornings to see the sunset.
+i have a pet fish.
+
+Topic and Human Opinion:
+Beginning: Soccer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.14
+Robotic(↓): 68
+Interesting: 59
+Fun: 50
+Consistent: 31
+Fluent: 67
+Repetitive(↓): 69
+Topic: 32
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am very sad and lonely
+User(2): Sorry about that, what is wrong?
+Bot(2): it is ok . you have a cow ? that is really cool !
+User(3): I do not have a cow, do you?
+Bot(3): it is ok . you have a cow ? that is really cool !
+User(4): What do you do for workl?
+Bot(4): oh , i work at a zoo .
+User(5): I love animals, seems like you have a fun job
+Bot(5): i have kids , so it pays the bills . ll
+User(6): That's true, do you intend to switch jobs
+Bot(6): its been a while not , not sure what kind of job i want
+User(7): What do you enjoy doing?
+Bot(7): i like to write , read , dance , and spend time with my kids
+User(8): That is so sweet
+Bot(8): thank you , are you married yet ?
+User(9): Not yet, I hope to start one soon
+Bot(9): when are you planning to start
+User(10): Hopefully in the next year
+Bot(10): nice goal , how old are you now ?
+User(11): 35
+Bot(11): are you looking forward to turning 40 ?
+
+Persona:
+i enjoy coloring books.
+i used to be pretty but time has not been kind.
+i'm married with two kids.
+i'm very lonely.
+i have a pet cow.
+
+Topic and Human Opinion:
+Beginning: Career(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 73.43
+Robotic(↓): 32
+Interesting: 72
+Fun: 85
+Consistent: 80
+Fluent: 64
+Repetitive(↓): 30
+Topic: 75
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): How are you?
+Bot(1): i am good . just got done with my homework .
+User(2): That is nice, what is your favorite food?
+Bot(2): i like mexican food , but i like all kinds of food .
+User(3): I love Italian
+Bot(3): i love mexican food , especially chinese food
+User(4): I like Chinese too, how often do you eat out?
+Bot(4): i do not really , i love eating out
+User(5): That's not so bad
+Bot(5): i love food , i eat a lot of it
+User(6): Same here
+Bot(6): i am not a fan of sushi , but i do not like food .
+User(7): Okay, what do you do for fun?
+Bot(7): i like to read and watch netflix
+User(8): I enjoy netflix as well
+Bot(8): i like to watch netflix , i have a huge family
+User(9): How many are you guys?
+Bot(9): i am a huge fan of social media
+User(10): I love instagram and twitter
+Bot(10): i am not much of a reader , but i like to watch netflix
+
+Persona:
+my parents aren't very supportive of my dream.
+i love social medial especially twitter.
+i have been trying all types of food everywhere i go.
+i do not believe in god.
+i have a big library at home.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.43
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 36
+Topic: 60
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): How are you?
+Bot(1): i am doing well . just got done walking my dog .
+User(2): How old is your dog?
+Bot(2): he is a golden retriever , he is a golden retriever .
+User(3): Okay, how old is he?
+Bot(3): he is a big fan of his music .
+User(4): What music?
+Bot(4): i do , i like to go out to eat with my family .
+User(5): what is your favorite food?
+Bot(5): i like pizza , and pizza .
+User(6): That is cool, what is your opinion of water pollution in the world?
+Bot(6): i love the beach . i love it .
+User(7): I love the beach too
+Bot(7): i love to travel . i love to travel .
+User(8): Have you ever traveled on water?
+Bot(8): no , i do not . i like to go fishing .
+User(9): I love fishing too
+Bot(9): i love to go fishing .
+User(10): I think we should go fishing together
+Bot(10): i do not know how to swim .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: water(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.00
+Robotic(↓): 71
+Interesting: 35
+Fun: 36
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 67
+Topic: 40
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): I where are great deal.😀
+User(2): do you like music?
+Bot(2): that sounds like a lot of fun. what like is your favorite you love?
+User(3): Do you a favorite singer?
+Bot(3): It is about Do you want to for his food.
+User(4): What food?
+Bot(4): What I already question?
+User(5): Okay, what do you do for fun?
+Bot(5): The is what 😦 be shitting themselves.
+User(6): I do not understand you
+Bot(6): that there is an i m a teacher
+User(7): I am a doctor
+Bot(7): Buongiorno! Such a nice day! How are you?. of all who r i've two dogs
+User(8): What songs did you listen to today?
+Bot(8): what i've brown work?
+User(9): okay, do you enjoy your job?
+Bot(9): I do not like russian rap, but I a very good you music
+User(10): Okay, that is cool
+Bot(10): III wanna see a song.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.43
+Robotic(↓): 0
+Interesting: 12
+Fun: 14
+Consistent: 9
+Fluent: 21
+Repetitive(↓): 88
+Topic: 31
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): How are you?
+Bot(1): i am well
+User(2): I was just reminiscing of some good old days
+Bot(2): same
+User(3): Do you like carnivals
+Bot(3): sometimes
+User(4): I really enjoy them
+Bot(4): me too i really like it so much
+User(5): When was the last time you were at a carnival?
+Bot(5): i do not remember it was so long ago lol
+User(6): I was at one last year
+Bot(6): it was cool wish i would have went more
+User(7): I miss not going this year
+Bot(7): yeah its been a tough year
+User(8): I wish things can go back to normal soon
+Bot(8): yeah i feel like time is going by fast
+User(9): It feels slow to me
+Bot(9): yeah i feel like time is going by fast
+User(10): Okay, that is alright
+Bot(10): yeah i feel like time is going by fast
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Carnivals(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.71
+Robotic(↓): 64
+Interesting: 50
+Fun: 50
+Consistent: 29
+Fluent: 32
+Repetitive(↓): 88
+Topic: 34
+
+####################
+

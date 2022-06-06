@@ -1,0 +1,291 @@
+Feedback: They chatbots needs a lot of improvement
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): i love fishing
+Bot(2): fishing is fun i like fishing
+User(3): where do you fish
+Bot(3): fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish
+User(4): is that a name of where you fish
+Bot(4): fish is a good thing to fish
+User(5): how often do you fish
+Bot(5): fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish
+User(6): do you like alccohol
+Bot(6): i fish a lot
+User(7): fishing gives me joy
+Bot(7): i fish a lot
+User(8): do you like to go for holidays
+Bot(8): i like to go to the mountains
+User(9): is that where you spend your holidays
+Bot(9): i like to go to the mountains
+User(10): i also like the mountain
+Bot(10): i like to go to the mountains
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fishing(like)
+Round 5: alcohol(like)
+Round 6: fishing(like)
+Round 7: holidays(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 4.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 1
+Repetitive(↓): 84
+Topic: 16
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi i like to watch movies
+Bot(1): i like to read too .
+User(2): i also like to read
+Bot(2): i like to read too .
+User(3): what is your favorite book
+Bot(3): i like the classics and the reverend horton heat .
+User(4): i like the horror
+Bot(4): i like to go to the gym and listen to music .
+User(5): i really do not like going to the gym
+Bot(5): i like to go fishing .
+User(6): i love fishing
+Bot(6): i like to go fishing .
+User(7): fishing is a fun activity
+Bot(7): it is . i like to go fishing .
+User(8): do you eat fish
+Bot(8): i do , i like to eat .
+User(9): i also like to eat fish
+Bot(9): i like to eat fish .
+User(10): do you like it in soups
+Bot(10): no , i do not . i like to go to the park .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 3: reading(like)
+Round 5: Fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 41.14
+Robotic(↓): 100
+Interesting: 71
+Fun: 65
+Consistent: 29
+Fluent: 46
+Repetitive(↓): 63
+Topic: 40
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i like to cook
+Bot(1): i do , i make this one dish with pork marinated in catalina dressing , its good
+User(2): i love pork so much i cook it all the time
+Bot(2): haha , give me some good steak i am good , everything else seems so stressful with my life
+User(3): do you love to cook rice
+Bot(3): ha ! alright . so you are a rice eating metallica loving michael
+User(4): i would not say that i just love to cook rice
+Bot(4): yes on the chicken and rice , well at least til the next hit , lol
+User(5): chicken and rice is an interesting delicacy
+Bot(5): i love black jack gum but when i drink it with dr . pepper it just does not work
+User(6): i love to travel
+Bot(6): i am not really into traveling , unless its to conventions
+User(7): i love to travel to see new places
+Bot(7): i love to travel . but i do not do enough of it unfortunately
+User(8): i travel a lot and have a lot of collections
+Bot(8): i am good , i collect books and grandchildren !
+User(9): do you love to read books
+Bot(9): i love to read books . i spend a lot of my time reading .
+User(10): i also love to read good books
+Bot(10): what kind of books do you read ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 5: travelling(like)
+Round 9: books(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+Round 9: The user changed the topic the last input.(like)
+
+Revised avg score: 45.14
+Robotic(↓): 90
+Interesting: 69
+Fun: 51
+Consistent: 36
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi i love reading books
+Bot(1): hi wow i like comic books too . i do not collect them tho .
+User(2): i love fantasy books
+Bot(2): i love to play games and ride horses
+User(3): what game do you like to play
+Bot(3): anything i can role play too . . .
+User(4): i love to action filled games
+Bot(4): i love to play games and ride horses
+User(5): do you play video games too
+Bot(5): no i play video games all day
+User(6): i do not play video games all day i just play for few hours
+Bot(6): i love to play games and ride horses
+User(7): do you like to gamble
+Bot(7): i love to gamble yeah
+User(8): i am addicted to gambling
+Bot(8): i have a little bit of an addiction
+User(9): i win a lot when i gamble
+Bot(9): that is cool i have made 90 , 000 dollars so far this year on horse bets alone
+User(10): that is a huge sum of money
+Bot(10): no its not alot
+
+Persona:
+i'm a convenience store manager.
+i love wearing skinny jeans and leggings.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+i like riding horses.
+i have a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: books(like)
+Round 3: games(like)
+Round 6: gambling(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 63.86
+Robotic(↓): 73
+Interesting: 77
+Fun: 79
+Consistent: 51
+Fluent: 50
+Repetitive(↓): 0
+Topic: 63
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi do you have pets
+Bot(1): I you buy the a teacher.
+User(2): i have a dog and a cat
+Bot(2): i'm great, thanks :) And don’t japanese immigrants . what do you do for fun ?
+User(3): i love to eat for fun
+Bot(3): i do not have i collect honey and i do have a girlfriend .
+User(4): do you collect honey for fun
+Bot(4): I am going to outside my like to lot
+User(5): i want to go to texas and gamble
+Bot(5): I looking for run sometimes
+User(6): have you experienced war before
+Bot(6): I like all kinds. I am am not in worked music.
+User(7): i love music
+Bot(7): that is you like developed what kind?
+User(8): i country music
+Bot(8): No, I are you talking be hi'm.
+User(9): i love cats
+Bot(9): Why is i am working question?
+User(10): do you love cats
+Bot(10): South i AM you your name.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pets(like)
+Round 2: fun(like)
+Round 5: war(like)
+Round 8: cats(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The user changed the topic the last input.(dislike)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi i love having pets around
+Bot(1): dogs are good too ! i do not have them because we move around way to much
+User(2): have tried having a cat
+Bot(2): his
+User(3): but then i still choose dogs over cats
+Bot(3): sure
+User(4): what is the name of your pet
+Bot(4): i am not sure but my dog is maddie
+User(5): the name of my dog is blinks
+Bot(5): its like a fluffy alarm clock
+User(6): do you like to smoke
+Bot(6): yeah i love cigs a lot more
+User(7): i love e- cigs very well
+Bot(7): i do too but they are so bad for you
+User(8): i also love vaping
+Bot(8): me too its the best
+User(9): it has more smoke
+Bot(9): yeah i love cigs a lot more
+User(10): i feel cigs are overrated
+Bot(10): yeah i love cigs a lot more
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pets(like)
+Round 5: smoking(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

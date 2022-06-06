@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hai
+Bot(1): i am sorry to hear that
+User(2): do you like music?
+Bot(2): i do like music i listen to music
+User(3): super
+Bot(3): i do like music i listen to music
+User(4): what type of music you likemost?
+Bot(4): i like music , but i like all kinds of music
+User(5): super
+Bot(5): i like music , but i like all kinds of music
+User(6): r u a music student?
+Bot(6): i do not really listen to music
+User(7): i like to hear music when i am loneliness
+Bot(7): i like music , but i like to listen to music
+User(8): i am a homemaker
+Bot(8): that's cool i like to listen to music
+User(9): r u a male?
+Bot(9): i am a female
+User(10): from california?
+Bot(10): i am a girl who lives in california
+User(11): ok good
+Bot(11): i am a girl who lives in california
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.86
+Robotic(↓): 73
+Interesting: 77
+Fun: 71
+Consistent: 88
+Fluent: 76
+Repetitive(↓): 76
+Topic: 91
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hai
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): do you like music?
+Bot(2): i love listening to bach i especially love listening to it when i am studying for an exam
+User(3): when i am loneliness i like to hear music
+Bot(3): well , i have placed in a lot of violin competitions , nut i do have a corgi .
+User(4): what studying you now?
+Bot(4): i study biology and i work as a barista as a coffee shop to pay for school
+User(5): super
+Bot(5): i am the only purple haired basketball player on a local team !
+User(6): do you like sports?
+Bot(6): i am a professional basketball player
+User(7): super
+Bot(7): i am the only purple haired basketball player on a local team !
+User(8): r u a champion?
+Bot(8): nice . i play sports professionally
+User(9): i like to play also
+Bot(9): what kind of music do you play ?
+User(10): chess
+Bot(10): i have not played chess in years
+
+Persona:
+i am a recovering alcoholic.
+i am a museum tour guide.
+i'm a professional tennis player.
+i try various coffees as a hobby.
+my parents were also teachers.
+
+Topic and Human Opinion:
+Beginning: education(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.71
+Robotic(↓): 77
+Interesting: 89
+Fun: 32
+Consistent: 38
+Fluent: 67
+Repetitive(↓): 30
+Topic: 71
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hai
+Bot(1): i am a student , but i am a student .
+User(2): good
+Bot(2): i am a student , but i am a student .
+User(3): what studying you are?
+Bot(3): i am a student , i am a teacher .
+User(4): what school?
+Bot(4): i am a teacher , i love to cook .
+User(5): super
+Bot(5): i am a student , but i am a student .
+User(6): i am a homemaker
+Bot(6): i am a teacher , i love to cook .
+User(7): i am also like to cooking and eating
+Bot(7): i like to eat the skin .
+User(8): do you like movies?
+Bot(8): i do , i like to read .
+User(9): i like to read books
+Bot(9): what is your favorite book ?
+User(10): i like to watching movies mostly
+Bot(10): i like to read too .
+User(11): nice to meet you
+Bot(11): what do you do for a living ?
+
+Persona:
+i'm fluent in english spanish and french.
+i am a professional wrestler.
+i only listen to country music.
+i am a buddhist.
+i am pregnant with my first child.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.29
+Robotic(↓): 84
+Interesting: 67
+Fun: 36
+Consistent: 73
+Fluent: 66
+Repetitive(↓): 79
+Topic: 66
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hai
+Bot(1): i do not make much money 💶 ur fb don;t love discount shops
+User(2): i like to enjoy the social media
+Bot(2): yeah you have plenty of time. how are go to school, thats 🧐
+User(3): i am a homemaker
+Bot(3): I am a woman, but my do you do for .
+User(4): do you like praying?
+Bot(4): no I like to a student .
+User(5): praying is a good habit you know?
+Bot(5): I have a to make embarass wheel chair.
+User(6): good
+Bot(6): I am doing good. I am just you a two big years old?
+User(7): well done
+Bot(7): I think I am a buddhist. jobs only kind of any. do you?
+User(8): i am a hindu
+Bot(8): I am in florida. think you right? psychologist.
+User(9): i am a spritual habit
+Bot(9): I do, your doughter's cars
+User(10): nice to meet you
+Bot(10): not really i a bad person m the rain tho
+
+Persona:
+i've been retired for a years.
+i love to play board games.
+i am four.
+i am always wearing a hat.
+my favorite colors are red and silver.
+
+Topic and Human Opinion:
+Beginning: prayer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.14
+Robotic(↓): 93
+Interesting: 28
+Fun: 53
+Consistent: 63
+Fluent: 39
+Repetitive(↓): 28
+Topic: 33
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hai
+Bot(1): hey
+User(2): how are you?
+Bot(2): good thanks . tell me about yourself
+User(3): i am a home maker
+Bot(3): nice i love home things
+User(4): i love to graphics designing works
+Bot(4): i never learned much about graphic design but love art
+User(5): in my childhood days i well drawing
+Bot(5): i have great style should have gone to school for design
+User(6): photoshop designing
+Bot(6): i never learned much about graphic design but love art
+User(7): illustrator software installing in my lap
+Bot(7): my pc is soo slow
+User(8): my pc good now
+Bot(8): my pc is soo slow
+User(9): my pc is my user friendly
+Bot(9): my pc is soo slow
+User(10): nice meet you
+Bot(10): its really nice to meet you
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: graphics designing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.14
+Robotic(↓): 88
+Interesting: 70
+Fun: 66
+Consistent: 82
+Fluent: 63
+Repetitive(↓): 69
+Topic: 69
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hai
+Bot(1): hi , do you have any soda ?
+User(2): no
+Bot(2): hi , do you have any soda ?
+User(3): how are you?
+Bot(3): i am a plumber boring i know
+User(4): i like to music and playing games
+Bot(4): do you like soda to drink
+User(5): i drink pepsi
+Bot(5): soda is the best
+User(6): i know its good health
+Bot(6): soda is the best
+User(7): my son likes soda very much
+Bot(7): soda is the best
+User(8): he is playing cricket games, after he drink soda
+Bot(8): why are you making a robot
+User(9): no
+Bot(9): i am in nursing school , i am scared
+User(10): super
+Bot(10): are you really a robot
+User(11): nice to meet you
+Bot(11): same
+
+Persona:
+i am working on a building a robot to be my body double.
+i do not drink soda.
+i am in college to become a nurse.
+i am a plumber.
+i live in alaska.
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+Round 11: The chatbot changed the topic.(dislike)
+
+Revised avg score: 57.00
+Robotic(↓): 81
+Interesting: 75
+Fun: 68
+Consistent: 64
+Fluent: 80
+Repetitive(↓): 76
+Topic: 69
+
+####################
+

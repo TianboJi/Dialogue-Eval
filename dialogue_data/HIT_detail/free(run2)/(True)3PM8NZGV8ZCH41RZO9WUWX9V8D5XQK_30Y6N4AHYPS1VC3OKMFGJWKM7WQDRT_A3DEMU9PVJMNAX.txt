@@ -1,0 +1,306 @@
+Feedback: Some chatbots felt like they were real users typing back to my responses, great work so far on AI creations.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): Great, what kind of games do you like to play?
+Bot(2): i like the classics and the indians .
+User(3): What kind of games are those?
+Bot(3): i like the color red . i like the color blue .
+User(4): Have you played any online games recently?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): that's also a great sports game to play as well. Is there any other games you like playing?
+Bot(5): i like to play soccer .
+User(6): How do you like soccer so far?
+Bot(6): i do , i love to go fishing .
+User(7): What kind of fishing do you do?
+Bot(7): i do not know , i am a student
+User(8): Is there any game's you like playing as a student?
+Bot(8): no , i do not . i am a student .
+User(9): If you don't like any games as a student, what do you do for fun?
+Bot(9): i like to go fishing . i love to go fishing .
+User(10): How often do you go fishing?
+Bot(10): no , i do not , but i do like to go fishing .
+
+Persona:
+i have short brown hair.
+i have three arabian horses.
+i listen to rap music.
+i have rainbow hair.
+i love rollercoasters and sky diving.
+
+Topic and Human Opinion:
+Beginning: Games(like)
+Round 2: classics and indians?(ambivalent)
+Round 3: liking colors(ambivalent)
+Round 6: Fishing(ambivalent)
+Round 7: Being a student(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 27.57
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 36
+Fluent: 31
+Repetitive(↓): 78
+Topic: 4
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you play any sports?
+Bot(1): not too much , what sports ?
+User(2): Football, soccer, or basketball anything sports like that.
+Bot(2): yes , football and basketball , i guess like you
+User(3): That's cool, Do you watch any sports?
+Bot(3): not really , i prefer watching ball games .
+User(4): What kind of ball games do you watch?
+Bot(4): football mostly , do you play any sports ?
+User(5): I used to play basketball
+Bot(5): oh , what position did you play ? which team ?
+User(6): My school team and as a point guard, it was fun while it lasted.
+Bot(6): i played for that team , as a basketball player
+User(7): Really? That's interesting.
+Bot(7): yes it is , do you play for a team now ?
+User(8): No, it's been a very long time since I have tried playing basketball.
+Bot(8): oh that is okay . how long have you been playing basketball ?
+User(9): I played basketball for about 3 years on my school team.
+Bot(9): oh , what position did you play ? which team ?
+User(10): Point guard and just with an old school team I used to attend.
+Bot(10): i played for that team , as a basketball player
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 76.71
+Robotic(↓): 12
+Interesting: 76
+Fun: 77
+Consistent: 74
+Fluent: 75
+Repetitive(↓): 25
+Topic: 72
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What kind's of food do you like?
+Bot(1): Oh, I eating french 😟
+User(2): What kinds of french food?
+Bot(2): Yes, i have you are working radar
+User(3): What kind's of food do you eat?
+Bot(3): I am a am an olympics you ?
+User(4): Do you like eating food?
+Bot(4): I am are you you watch i like eating at restaurants. Do you like to take walks?
+User(5): I don't enjoy taking walks
+Bot(5): What do you feel about my person? I like red, too, me too good time.
+User(6): Do you like to eat?
+Bot(6): I love tacos. I am a vegan so i a business like math. junk food.
+User(7): tacos are great tasting
+Bot(7): arabian horses, weather music :)
+User(8): How's the weather over there?
+Bot(8): That like sure lets you have any hobbies?
+User(9): I enjoy playing games
+Bot(9): that's cool , i am in college Are you not watch tv , and i am a teacher
+User(10): Do you enjoy teaching as a teacher
+Bot(10): I am sure you are a to read and write like playing basketball ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 2: working(ambivalent)
+Round 3: Olympics?(ambivalent)
+Round 4: Walking(ambivalent)
+Round 5: feel(ambivalent)
+Round 7: horse, weather music(ambivalent)
+Round 9: college teacher?(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.86
+Robotic(↓): 100
+Interesting: 14
+Fun: 14
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 88
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What kind of hobbies do you have?
+Bot(1): hi ! i do , i love reading , music and crafting , especially knitting . what about you ?
+User(2): I love listening to music as well as playing games.
+Bot(2): same
+User(3): It's great to hear that you like to read and listen to music.
+Bot(3): do you have any genre s that you particularly like ?
+User(4): I love reading fantasy, thriller and action books, but most of all I enjoy a great plot and story-telling.
+Bot(4): i love all kinds of books , especially thriller !
+User(5): What kind's of music do you enjoy?
+Bot(5): i like an array of music from rock to country to classical .
+User(6): I enjoy rock and classical, but country music feels weird for me. It feels repetitive.
+Bot(6): do you have any genre s that you particularly like ?
+User(7): I enjoy rock, jazz, hip hop, and on certain days sad songs.
+Bot(7): depends on how you define sad .
+User(8): that is very true. Have you read anything good recently?
+Bot(8): not recently , have not read for fun in a long time .
+User(9): That's a shame, books are so great to read whenever you want to enjoy a new change of pace.
+Bot(9): i love all kinds of books , especially thriller !
+User(10): Thriller books are enjoyable
+Bot(10): i love all kinds of books , especially thriller !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.57
+Robotic(↓): 13
+Interesting: 69
+Fun: 74
+Consistent: 67
+Fluent: 72
+Repetitive(↓): 53
+Topic: 71
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like the ocean?
+Bot(1): i do , i love to go to the beach and listen to rap music
+User(2): That's great, I enjoy the beach as well but don't go often.
+Bot(2): i love the beach , but i like to go to the beach
+User(3): The beach is great, but winter is coming
+Bot(3): i like the beach , but i like to go to the beach .
+User(4): I like watching the ocean-view.
+Bot(4): i love the beach , but i like to go to the beach
+User(5): Do you like swimming in the ocean?
+Bot(5): no , but i do love to swim .
+User(6): What about fishing in the ocean?
+Bot(6): no , i do not . i am a big fan of rap music .
+User(7): What kind of rap music do you like?
+Bot(7): i like rap music , but i like rap
+User(8): Is there a kind of rap artist you enjoy listening to?
+Bot(8): i like rap music , but i like rap
+User(9): Have you made any rap music?
+Bot(9): i do not really listen to rap
+User(10): Why don't you listen to rap anymore
+Bot(10): i like rap music . i listen to it while i listen to rap
+
+Persona:
+i married a super model from italy.
+i listen to rap music.
+i am an omnivore.
+i have been trying all types of food everywhere i go.
+i have amazing children and grandchildren.
+
+Topic and Human Opinion:
+Beginning: ocean(ambivalent)
+Round 6: rap music(ambivalent)
+Round 9: dislikes rap now(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: No topic change.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 3.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 13
+Consistent: 3
+Fluent: 2
+Repetitive(↓): 95
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you enjoy watching movies?
+Bot(1): i used to . . . do not have the time anymore . i am vegan are you ?
+User(2): I am not a vegan
+Bot(2): no i am not a vegan sorry
+User(3): But you said you were a vegan
+Bot(3): i been a vegan two years ago
+User(4): Why did you choose to become a vegan?
+Bot(4): i been a vegan two years ago
+User(5): how did you become a vegan?
+Bot(5): i been a vegan two years ago
+User(6): what kind's of food do you eat as a vegan?
+Bot(6): i been a vegan two years ago
+User(7): is there any food you don't eat?
+Bot(7): pizza , but since i am vegan i have to get creative with it .
+User(8): that's interesting, how do you get creative with you vegan pizza
+Bot(8): not a vegan , a vegetarian .
+User(9): really, I thought you were vegan from what you said sorry
+Bot(9): no i am not a vegan sorry
+User(10): how's it feel being a vegetarian?
+Bot(10): i am vegan . that is awesome
+
+Persona:
+i married a super model from italy.
+i've a german shepherd dog.
+i'm a vegan.
+i love to drink wine and dance in the moonlight.
+i visit europe twice a year.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 1: vegan(ambivalent)
+Round 2: not a vegan(ambivalent)
+Round 3: has been a vegan for two years(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 19.57
+Robotic(↓): 100
+Interesting: 42
+Fun: 23
+Consistent: 13
+Fluent: 59
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

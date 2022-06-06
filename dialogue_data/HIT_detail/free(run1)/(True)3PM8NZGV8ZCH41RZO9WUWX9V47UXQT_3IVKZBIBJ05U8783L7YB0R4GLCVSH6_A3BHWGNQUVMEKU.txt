@@ -1,0 +1,332 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): What's you favorite movie genre?
+Bot(2): same
+User(3): I love romantic comedies.
+Bot(3): i like romantic comedies or action movies .
+User(4): Action movies are ok too.
+Bot(4): i like romantic comedies or action movies .
+User(5): It's sad that there aren't any open cinemas.
+Bot(5): i love watching romantic comedies .
+User(6): I hope that AMC and other cinemas don't go out of business.
+Bot(6): for entertainment i go to the theater to see comedies .
+User(7): Really? There are open theatres where you live?
+Bot(7): sadly no . they are a big profit setup .
+User(8): I don't understand. All of the theatres here are closed due to Covid-19.
+Bot(8): let us hope there is a good movie on then . you can also stream it .
+User(9): Yes; streaming is what I do now.
+Bot(9): for entertainment i go to the theater to see comedies .
+User(10): I miss the movies.
+Bot(10): for entertainment i go to the theater to see comedies .
+User(11): Covid-19 has changed that though.
+Bot(11): yeah , it certainly has grown . i prefer live theater .
+User(12): You think it's grown? I think themovie industry has suffered since Covid-19.
+Bot(12): yeah , it certainly has grown . i prefer live theater .
+User(13): I disagree. It's non-existant now, but I do love live theater too.
+Bot(13): yeah , it certainly has grown . i prefer live theater .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 5: cinemas(like)
+Round 11: Covid-19(ambivalent)
+Round 13: Live theatre(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(like)
+Round 9: No topic change.(like)
+Round 11: The user changed the topic the last input.(ambivalent)
+Round 13: The chatbot changed the topic.(dislike)
+
+Revised avg score: 3.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 3
+Fluent: 3
+Repetitive(↓): 100
+Topic: 16
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): Yes I do, but haven't had enough time for them lately.
+Bot(2): i understand that . i have been trying to get my mind off work
+User(3): I've been busy with virtual school with my daughter, but I love arts & crafts.
+Bot(3): i love art , especially when i get a chance to get my daughter to bed
+User(4): Yes; it's more relaxing to do arts & crafts when the children are asleep or busy doing something else.
+Bot(4): i love to shop and i love to shop
+User(5): Is shoppinhg your hobby?
+Bot(5): i like to watch movies and stuff
+User(6): I love movies too.
+Bot(6): i like to watch movies
+User(7): I miss watching them in the theatres.
+Bot(7): i love art , especially when they are the kids
+User(8): How are you going out to the movies in Covid-19?
+Bot(8): i am not sure . i am going to watch movies .
+User(9): All of the movies are closed here since Covid-19. I miss them.
+Bot(9): i love to watch movies . i also love to watch movies
+User(10): I watch all of my movies on tv lately.
+Bot(10): i like movies too . i also like to watch movies .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 1: Hobbies(like)
+Round 4: Shopping(ambivalent)
+Round 5: Movies(like)
+Round 7: Covid-19(ambivalent)
+Round 9: movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 1.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 88
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): I like like i am know to eat sushi🙂
+User(2): I don't like sushi, but I love cooked seafood!
+Bot(2): i am you know any J-Pop like am a teacher , and i am a teacher , and you ?
+User(3): I'm sorry but I don't understand. No; I'm not a teacher.
+Bot(3): I topic what is at the local college
+User(4): I used to be a substitute teacher.
+Bot(4): No, i an electrician. And what is okay. Are you 24 years old ?
+User(5): I'm a stay at home Mom. No I'm not 24.
+Bot(5): There'S there are some in is not good for places
+User(6): I don't understand. Do you have any pets?
+Bot(6): No, was adopted at a feminist.
+User(7): I have 4 dogs, 2 cats, & a rabbit.
+Bot(7): I am the about am a vegetarian.
+User(8): I eat all foods, but I do love vegetables.
+Bot(8): I feel like i am a is rock climbing up my books.
+User(9): I don't understand, but I just starreading "Midnight Sun".
+Bot(9): i like know what there piano
+User(10): I have a keyboard.
+Bot(10): I do not do you drink are teach elementary school.
+
+Persona:
+i also like a glass of wine in the evenings.
+my grandfather served in world war a.
+i work at a nursing home.
+i'm a vegetarian.
+my wife left me and took my children.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 2: teacher(dislike)
+Round 4: job(dislike)
+Round 5: Pets(like)
+Round 7: vegetarian(ambivalent)
+Round 8: books(like)
+Round 9: piano(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): I like to cook sometimes too.
+Bot(2): i like to eat the skin .
+User(3): The skin of what?
+Bot(3): i like to eat fish .
+User(4): I love fish & all seafood!
+Bot(4): i like to eat fish .
+User(5): Do you like cooking fish?
+Bot(5): i do , i love to eat .
+User(6): I love to eat Popeye's spicy fried chicken!
+Bot(6): i love pizza , and i love it .
+User(7): I like pizza too.
+Bot(7): i like to eat fish .
+User(8): You must love fish a lot. That's like the 5th time you've said that. lol
+Bot(8): i like to eat too much junk food .
+User(9): Some junk food is ok. What;s your favorite?
+Bot(9): i like the color red . what is yours ?
+User(10): I like pink.
+Bot(10): i like to go to the gym and listen to music .
+User(11): I love listening to music, but not the gym.
+Bot(11): i like to listen to music .
+
+Persona:
+i've been traveling the world for a years.
+i've superpowers.
+i work as a car salesman.
+i like to listen to rock music while working.
+i love playing softball.
+
+Topic and Human Opinion:
+Beginning: Family(like)
+Round 1: cooking(like)
+Round 5: eating(like)
+Round 9: favorirte color(ambivalent)
+Round 10: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.29
+Robotic(↓): 100
+Interesting: 5
+Fun: 4
+Consistent: 0
+Fluent: 69
+Repetitive(↓): 64
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): What are your hobbies?
+Bot(2): meow , meow
+User(3): ??? lol. I love arts & crafts.
+Bot(3): crafts . . . seems very interesting . is that what you do for a living ?
+User(4): No. I wish that I did. I used to sew for a living years ago.
+Bot(4): i go to metal shows and enjoy life sleep in late the whole thing . and you ?
+User(5): What's a metal show? Sleeping late & enjoying life are the best!
+Bot(5): i cant sleep because i am scared
+User(6): What are you scared of?
+Bot(6): not scared . they just creep me out . i prefer purring to come from cars .
+User(7): Are you scared of cats?
+Bot(7): not really i just started collecting ugly cats i see in antique stores .
+User(8): I love cats. I have 2 pet cats. Do you have any?
+Bot(8): i do not have any pets . what is your cats name ?
+User(9): Katrina & Isaac.
+Bot(9): hello ! i am good , i am stuck in bed with a broken leg
+User(10): How did you break your leg?
+Bot(10): i get hurt easily its related to being born prematurely , nothing i cannot handle !
+User(11): I'm sorry. I hope your leg heals quickly.
+Bot(11): that s true and i m graduating soon to
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hobbies(like)
+Round 4: work(ambivalent)
+Round 5: Sleep(ambivalent)
+Round 7: Cats(like)
+Round 8: Pets(like)
+Round 9: Injury(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The user changed the topic the last input.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 56.29
+Robotic(↓): 90
+Interesting: 80
+Fun: 80
+Consistent: 59
+Fluent: 68
+Repetitive(↓): 56
+Topic: 53
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): I'm 52. How old are you?
+Bot(2): i am 53 but i have a birthday coming up
+User(3): When's your birthday?
+Bot(3): i am not really sure . whenso your birthday ?
+User(4): Lol. You better figure that out so you can get gifts & cake! Mine is May 8.
+Bot(4): oh really ? it is my birthday soon . thank you !
+User(5): Happy early birthday!
+Bot(5): oh really ? it is my birthday soon . thank you !
+User(6): If you could receive any gift in the world, what would it be?
+Bot(6): kris kringle a christmas cookie , since my birthday is on christmas ! you ?
+User(7): Your birthday is on Christmas day? Wow!
+Bot(7): it is ! ? happy birthday ! how old ?
+User(8): Mine isn't on Christmas. Mine is over the Summer.
+Bot(8): it is ! ? happy birthday ! how old ?
+User(9): I was 52 in May. Thank you!
+Bot(9): oh really ? it is my birthday soon . thank you !
+User(10): I know. You told me that it's at Christmas.
+Bot(10): oh really ? it is my birthday soon . thank you !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: age(ambivalent)
+Round 5: Gifts(like)
+Round 6: Christmas(like)
+Round 7: birthdays(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 9.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 66
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

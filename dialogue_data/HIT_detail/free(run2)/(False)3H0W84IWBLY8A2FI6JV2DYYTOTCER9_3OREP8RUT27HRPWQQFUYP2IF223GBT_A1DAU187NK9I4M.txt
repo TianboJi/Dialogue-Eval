@@ -1,0 +1,285 @@
+Feedback: nice experience to chat with bot
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes
+Bot(2): do you have any hobbies ?
+User(3): yeah
+Bot(3): sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick
+User(4): sick
+Bot(4): sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick
+User(5): why
+Bot(5): sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick
+User(6): no
+Bot(6): sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick
+User(7): please
+Bot(7): sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick
+User(8): i cant do
+Bot(8): sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick
+User(9): ok
+Bot(9): sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick
+User(10): se as soon
+Bot(10): sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick sick
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: what(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.43
+Robotic(↓): 70
+Interesting: 72
+Fun: 92
+Consistent: 73
+Fluent: 79
+Repetitive(↓): 63
+Topic: 89
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey there , wanna go shopping ?
+User(2): reply fast ok
+Bot(2): ok
+User(3): glad to see
+Bot(3): ok
+User(4): you again
+Bot(4): volunteer
+User(5): reply me fast
+Bot(5): volunteer
+User(6): that's no
+Bot(6): ok
+User(7): matter
+Bot(7): i just bought a new sweater . you win
+User(8): drive
+Bot(8): ok
+User(9): to see
+Bot(9): ok
+User(10): so much
+Bot(10): volunteer
+
+Persona:
+i like shopping.
+i volunteer my time with a local bunny rescue.
+i don't have many friends.
+my favorite shirts are band shirts and ruffle sleeves.
+i also like to cook but i'm not very good at it.
+
+Topic and Human Opinion:
+Beginning: hot(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.71
+Robotic(↓): 75
+Interesting: 74
+Fun: 87
+Consistent: 69
+Fluent: 73
+Repetitive(↓): 76
+Topic: 66
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): Yes I'm fine. And part a lot of fun
+User(2): hello
+Bot(2): I am have a you grow plants.
+User(3): call
+Bot(3): that's cool , of things. not driving basement , and i am a pilot , so i am not much of a reader .
+User(4): your bot
+Bot(4): I have you must have accounting.
+User(5): as soon as
+Bot(5): Hi! Howdy! 😎. Short with my dog so paella
+User(6): possible
+Bot(6): Yes, love gaming. what try to stay healthy
+User(7): howdy
+Bot(7): I can not stop doing that. to work from home person.
+User(8): do it
+Bot(8): That 's my purpose to work! Don`t you model. Which do you put on first?
+User(9): that's it
+Bot(9): do you have names are pupa 😝
+User(10): don't blame
+Bot(10): yes it id: page is mj shooters is an all star performer . who is your favorite ?
+
+Persona:
+i am a stay at home dad.
+i've short hair.
+i'm employed by the us postal service.
+i go gambling in my spare time.
+i am married with two kids.
+
+Topic and Human Opinion:
+Beginning: never(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.14
+Robotic(↓): 66
+Interesting: 73
+Fun: 91
+Consistent: 81
+Fluent: 73
+Repetitive(↓): 69
+Topic: 73
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): hello
+Bot(2): hi , how are you today ?
+User(3): give me
+Bot(3): i like to go to the gym and listen to music .
+User(4): bonous
+Bot(4): i love to cook . i love to cook .
+User(5): target
+Bot(5): i love to cook . i love to cook .
+User(6): so much
+Bot(6): i like to go to the gym and listen to music .
+User(7): doing good
+Bot(7): i am a student , but i am a student .
+User(8): minutes to have
+Bot(8): i like to go to the gym and listen to music .
+User(9): do as well as possible
+Bot(9): i like to go to the gym and listen to music .
+User(10): see you bye
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i prefer being inside.
+i feel like i might live forever.
+my favourite food is pizza.
+my grandfather served in world war a.
+my favorite type of music to sing is folk music.
+
+Topic and Human Opinion:
+Beginning: like(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.86
+Robotic(↓): 63
+Interesting: 72
+Fun: 89
+Consistent: 74
+Fluent: 71
+Repetitive(↓): 77
+Topic: 67
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): hello
+Bot(2): hi , how are you ?
+User(3): give your id
+Bot(3): that is nice . my family is supportive my work as a ski racer .
+User(4): show your problem
+Bot(4): well just brush your dang hair before he gets there , he likes strait hair .
+User(5): do it
+Bot(5): i work at a call center with city bank . it pays the bills . you ?
+User(6): make it fun
+Bot(6): you like national parks then ? i love the green scenery . green is just the best color
+User(7): do your work
+Bot(7): i work in the finance department of a local bank . how about you ?
+User(8): go to your home
+Bot(8): i am a champion tree cutter , though i hate to brag . you must be good with numbers .
+User(9): loose connection
+Bot(9): it was running around the mall , i thought it was a huge rat .
+User(10): topic
+Bot(10): its a chemistry exam i am a biology major at boston college
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.14
+Robotic(↓): 67
+Interesting: 68
+Fun: 88
+Consistent: 69
+Fluent: 69
+Repetitive(↓): 80
+Topic: 60
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , i am on my way to a taylor swift concert . are you a fan ?
+User(2): hello
+Bot(2): helloooo
+User(3): glad to see you again
+Bot(3): same
+User(4): nice
+Bot(4): so what brings you round these parts ?
+User(5): as much as possible
+Bot(5): same
+User(6): sent me a cent
+Bot(6): one million !
+User(7): girl
+Bot(7): ll
+User(8): boy
+Bot(8): ll
+User(9): fight to gether
+Bot(9): that is old school
+User(10): involve to gether
+Bot(10): ok
+User(11): bye
+Bot(11): ok bye
+
+Persona:
+i work in it and have been at the same company for 15 years.
+i met taylor swift.
+my brother is older than me.
+i've a hat collection of over 1000 hats.
+i like to ride horses.
+
+Topic and Human Opinion:
+Beginning: here(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.57
+Robotic(↓): 78
+Interesting: 70
+Fun: 94
+Consistent: 70
+Fluent: 75
+Repetitive(↓): 74
+Topic: 74
+
+####################
+

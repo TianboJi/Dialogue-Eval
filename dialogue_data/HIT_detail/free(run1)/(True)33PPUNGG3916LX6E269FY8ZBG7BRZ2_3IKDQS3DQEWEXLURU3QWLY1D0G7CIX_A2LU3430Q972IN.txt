@@ -1,0 +1,281 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello there
+Bot(1): i am sorry to hear that
+User(2): sorry to hear about what?
+Bot(2): i love to hear you
+User(3): do you like avocadoes
+Bot(3): i like to listen to music
+User(4): so do i, my favorite type of music is soca, although i enjoy all genres
+Bot(4): i like to listen to music
+User(5): do you have a favorite genre of music?
+Bot(5): i do not really have a favorite
+User(6): ok thats kool too
+Bot(6): i like all kinds of music
+User(7): i usually listen and dance while i eat my avocadoes
+Bot(7): i love to eat my mom and dad
+User(8): eating your mom and dad sounds really crazy
+Bot(8): yeah i do not know what that is
+User(9): so why did you type it
+Bot(9): i think i am a fan of it
+User(10): oh i see you got jokes
+Bot(10): i like to listen to music
+User(11): anyways talk to you later
+Bot(11): i just got back from the gym
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: avocadoes(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.43
+Robotic(↓): 100
+Interesting: 50
+Fun: 8
+Consistent: 6
+Fluent: 93
+Repetitive(↓): 9
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): I am everyone says I I love music
+User(2): oh yea i do to but did you see how crazy the weather has been lately
+Bot(2): I there any more.
+User(3): It was so warm last week. this week its cold, we had SNOW yesterday
+Bot(3): i wish 🙏 halloween strong my English have you happy
+User(4): halloween was in october
+Bot(4): I am a they are you eat favorite artist is country
+User(5): i dont understand what you mean
+Bot(5): try am going to live you busy , i love that show .. Also, try to guess: i buy only ...
+User(6): did you see how clear the sky is tonight
+Bot(6): what are your favorite things nice! Do you have mine is
+User(7): im having a hard time keeping up with this conversation
+Bot(7): I like , i do Yum!
+User(8): what exactly are we talking about?
+Bot(8): that s great that there. Cancun is doctor
+User(9): Well mister, i thought we would be conversing about the weather
+Bot(9): yes it is a sad day . what ride bicycle a are museum ? mine is halo 3 .
+User(10): whatever, chat later
+Bot(10): Roses are my favorite. i like you love to drink my guitar.
+
+Persona:
+i used to be pretty but time has not been kind.
+i've a big library at home.
+one of the languages that i am currently studying is spanish.
+i volunteer at the homeless shelter.
+i'm an art major in college.
+
+Topic and Human Opinion:
+Beginning: The weather is kind of unstable(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey
+Bot(1): hi ! how are you ?
+User(2): Im doing very well and you?
+Bot(2): i am good . how are you doing ?
+User(3): Im great. Do you like sneakers?
+Bot(3): its quite boring but getting people the medicine they need is quite rewarding
+User(4): Have you ever shopped for white ones?
+Bot(4): white is nice but i love blue . . . . so a semi truck ?
+User(5): Semi truck sneakers? that sounds interesting
+Bot(5): stick shift ? you are good ! my grandmother drives a stick .
+User(6): Im talking about sneakers dude
+Bot(6): i just got off work an hour or so ago . so just chilling . how about you ?
+User(7): Im getting ready to shop for some new sneakers
+Bot(7): every single mall i can find . we have some good ones here in toronto .
+User(8): ok. what are the brands and prices
+Bot(8): its okay . its a hobby of mine to go shopping on sundays after choir .
+User(9): maybe i can visit sometime and you help me pick some out
+Bot(9): c amon down . i will introduce you to my sister and her dog ciales . ll .
+User(10): tthat sounds like fun. i will hold you to that
+Bot(10): whoooooo karaoke night tommorow ! i would love to chat with a hockey player over a song
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Buying Sneakers(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.00
+Robotic(↓): 6
+Interesting: 23
+Fun: 8
+Consistent: 5
+Fluent: 18
+Repetitive(↓): 17
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hola
+Bot(1): i love to cook . i love to cook .
+User(2): me too.Everyday. However, do you like dogs
+Bot(2): i do , i love dogs . what is your favorite color ?
+User(3): my love the yellow labs.
+Bot(3): i like the color red . i like red .
+User(4): ooh nice. i have never seen a red dog before
+Bot(4): i like to wear red shoes .
+User(5): ah like Dorothy
+Bot(5): i like to go to the gym and listen to music .
+User(6): good for you. im lazy so i dont work out
+Bot(6): i like to go to the gym and listen to music .
+User(7): thats kool. my dog and i listen to music and dance
+Bot(7): i like to listen to music .
+User(8): do you have a dog
+Bot(8): no , i do not , but i do like to go fishing .
+User(9): interesting what kinds of fish are your favorites
+Bot(9): i like pizza , and pizza .
+User(10): no such thing as a pizza fish, is there?
+Bot(10): i like to eat fish .
+
+Persona:
+i'm four.
+i have a pet fish.
+i like doing the treadmill and rowing machine.
+i am pregnant with my first child.
+i am a stay at home dad.
+
+Topic and Human Opinion:
+Beginning: How do you feel about dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.14
+Robotic(↓): 10
+Interesting: 50
+Fun: 17
+Consistent: 7
+Fluent: 19
+Repetitive(↓): 16
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you doing today?
+Bot(2): i am doing pretty ok
+User(3): good to hear. Do you like drinking water or beer
+Bot(3): i drink water most of the time .
+User(4): how many glasses a day?
+Bot(4): i would say i drink at least four every day .
+User(5): oh wow. I wish i could drink so many. i usually drink more juice
+Bot(5): juice is pretty good . what kind do you drink ?
+User(6): apple and orange two of my favorites
+Bot(6): i like orange juice also , but grape juice would be my favorite .
+User(7): i have tried so hard to drink more water but im failing miserably
+Bot(7): i can imagine it is not easy do you like beer ?
+User(8): I may consume a beer from time to time but i wouldnt say i like it
+Bot(8): i drink it nonstop its my favorite
+User(9): i guess you can have as many as you like since you have no problems taking in your water too
+Bot(9): yea , i agree i drink wine every night but just one glass .
+User(10): thats alot of alcohol in one day, Dont you get drunk at all
+Bot(10): yea , i agree i drink wine every night but just one glass .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Drinking water is good for your body(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.86
+Robotic(↓): 44
+Interesting: 50
+Fun: 45
+Consistent: 30
+Fluent: 50
+Repetitive(↓): 36
+Topic: 40
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hello , l just left the nursing home where i volunteer
+User(2): how how interesting
+Bot(2): well i get straight a s all the time in class
+User(3): youre in school too. does that mean you wont be having babies
+Bot(3): oh no i am in nursing school anything i can help with
+User(4): would you prefer to have a baby boy or baby girl
+Bot(4): both , i cannot decide which is worse
+User(5): oh so you want both boy and girl babies
+Bot(5): absolutely lol . . . i can not deal with the aspect of nursing
+User(6): thats fine they can bottle feed
+Bot(6): absolutely lol . . . i can not deal with the aspect of nursing
+User(7): i prefer boys because i think theyre easier in terms of showing their emotions
+Bot(7): absolutely lol . . . i can not deal with the aspect of nursing
+User(8): boys are alot easier
+Bot(8): absolutely lol . . . i can not deal with the aspect of nursing
+User(9): girls are like little women with big attitudes and personalities
+Bot(9): no i think girls are a little more harder to deal with
+User(10): why do you say that
+Bot(10): well i get straight a s all the time in class
+
+Persona:
+i work at a nursing home.
+i make straight as in school.
+i'm deathly afraid of heights.
+on weekends i do live action roleplaying events.
+i am employed by the us postal service.
+
+Topic and Human Opinion:
+Beginning: Boys are better babies than girls(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.29
+Robotic(↓): 28
+Interesting: 25
+Fun: 20
+Consistent: 16
+Fluent: 31
+Repetitive(↓): 81
+Topic: 15
+
+####################
+

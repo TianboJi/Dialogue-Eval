@@ -1,0 +1,341 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I have a really big library at home.
+Bot(1): i do not have any pets , but i do have a dog .
+User(2): I have a dog too. Her name is Josie.
+Bot(2): i like the color red . i like the color blue .
+User(3): I prefer aqua. It reminds me of the sea.
+Bot(3): i like to eat fish .
+User(4): I like fish too.
+Bot(4): i like to eat fish .
+User(5): What is your favorite fish?
+Bot(5): i like the color red . what is yours ?
+User(6): My favorite is purple.
+Bot(6): i like the color red . i like red .
+User(7): Do you like blue?
+Bot(7): i like blue . i like red .
+User(8): I have a lot of books in my library. Do you like to read?
+Bot(8): i do , i love to read . what about you ?
+User(9): I do love to read. Who is your favorite author?
+Bot(9): i like the classics . what about you ?
+User(10): Dean Koontz is my favorite author.
+Bot(10): i like the color red . i like the color blue .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have a big library at home.(like)
+Round 1: Pets(like)
+Round 2: colors(like)
+Round 3: eating fish(like)
+Round 5: colors(like)
+Round 7: books(like)
+Round 10: colora(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 20.29
+Robotic(↓): 100
+Interesting: 24
+Fun: 21
+Consistent: 0
+Fluent: 69
+Repetitive(↓): 78
+Topic: 6
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have an older sister.
+Bot(1): hi there . i am a waitress .
+User(2): I worked as a waitress for years.
+Bot(2): i have never held a job .
+User(3): I don't work now either.
+Bot(3): i am still looking for a job .
+User(4): What do you want to do?
+Bot(4): to open my own restaurant .
+User(5): That sounds great. Are you a chef?
+Bot(5): no , just looking for something different .
+User(6): Do you have a chef in mind?
+Bot(6): i am thinking about it .
+User(7): Interesting. What kind of food will you serve?
+Bot(7): i have not decided on a menu yet , but we are going to be in paris .
+User(8): I've never been to paris
+Bot(8): i am planning to go to paris in a few month .
+User(9): Have you been there before
+Bot(9): never , where have been other than paris ?
+User(10): I've been to Italy
+Bot(10): i am planning to go to paris in a few month .
+
+Persona:
+i am currently looking for a job preferably at a restaurant.
+i'm a feminist.
+i haven't spoken in three months.
+i haven't spoken in three months.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: i have one older sister.(like)
+Round 1: being a waitress(like)
+Round 2: not working(like)
+Round 7: restaurant in paris(like)
+Round 9: italy(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The user will change the topic in the next input.(like)
+
+Revised avg score: 70.14
+Robotic(↓): 34
+Interesting: 84
+Fun: 82
+Consistent: 46
+Fluent: 64
+Repetitive(↓): 26
+Topic: 75
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I'm from a small town
+Bot(1): i disagree , i love my small town
+User(2): how small is your town
+Bot(2): i disagree , i love my small town
+User(3): I don't have any cats
+Bot(3): ok my is in my home town also
+User(4): Where is your home town
+Bot(4): ok my is in my home town also
+User(5): What large city is your home town near
+Bot(5): ok my is in my home town also
+User(6): It's raining here.
+Bot(6): oh wow it is raining here
+User(7): Do you like rain
+Bot(7): occasionally , unless it is raining . then i just stand in the rain .
+User(8): My little dog likes to stand in the rain
+Bot(8): how long have you had him
+User(9): I've had her for eight years
+Bot(9): i need to get a new cat
+User(10): what happened to your last cat?
+Bot(10): he did not like my cats things have been rough since they have been gone
+User(11): Oh, that's sad. What happened?
+Bot(11): he did not like my cats things have been rough since they have been gone
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm from a small town.(like)
+Round 2: cats(like)
+Round 3: home town(like)
+Round 5: rain(like)
+Round 8: dog(like)
+Round 9: cat(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(like)
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(like)
+Round 8: The user changed the topic the last input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am a musician.
+Bot(1): i am old and i am old
+User(2): Do you like being old
+Bot(2): i do . i am old and i am old .
+User(3): I'm old too
+Bot(3): i am old . i am old .
+User(4): I have a dog
+Bot(4): i am old . i am old .
+User(5): Do you have a dog
+Bot(5): i do not have any pets
+User(6): Do you want any pets?
+Bot(6): no i don't but i have a dog
+User(7): What's your dog's name?
+Bot(7): no i do not have any pets
+User(8): I like the color yellow
+Bot(8): i love the color of my hair .
+User(9): Is your hair yellow
+Bot(9): i do not have any pets
+User(10): I used to have cats.
+Bot(10): i love to eat too much to eat
+
+Persona:
+i now live in the city.
+i'm a clean eater.
+i'm 60years old.
+i have rainbow hair.
+i am a retired gym teacher.
+
+Topic and Human Opinion:
+Beginning: i am a musician.(dislike)
+Round 1: old(like)
+Round 3: pets(like)
+Round 7: yellow(like)
+Round 9: pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The user will change the topic in the next input.(like)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 14.14
+Robotic(↓): 100
+Interesting: 30
+Fun: 29
+Consistent: 0
+Fluent: 9
+Repetitive(↓): 90
+Topic: 21
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I have one brother and he is older than me.
+Bot(1): jessie hows are you what ?
+User(2): Is your name Jessie?
+Bot(2): pretty okay too . a big rider, ?
+User(3): My name is Liz
+Bot(3): I know believe favorite animal the beach.
+User(4): I like the beach
+Bot(4): oh that is me better am at dancing ?
+User(5): do you dance
+Bot(5): I like the nice but i ocean
+User(6): The ocean is beautiful
+Bot(6): I like to spend time it's an apartment spent you work? I work at home
+User(7): What kind of work do you do
+Bot(7): do you have a love to drink wine as a wrestler. what do u do?
+User(8): I'm a survey taker
+Bot(8): no i don't sing. a while I now.
+User(9): i don't sing
+Bot(9): Hey! What's up? 😅. Cut a I wear contacts. I have shepherd dog, my husband is adopted
+User(10): I don't wear contacts.
+Bot(10): I teach maths kind i have a dog.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have one brother.(like)
+Round 1: jessie(like)
+Round 3: animal beach(like)
+Round 4: dancing(like)
+Round 5: ocean(like)
+Round 6: apartment, work, homee(like)
+Round 8: singing(like)
+Round 9: contacts(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 13.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 6
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i'm married
+Bot(1): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(2): Wow. That's a long time.
+Bot(2): forever l . o . l . i need to drink soda all the time .
+User(3): I drink a lot of soda too. Especially Coke
+Bot(3): i do not drink soda . do you have any hobbies ?
+User(4): What are your hobbies
+Bot(4): every saturday i like to get my nails done
+User(5): My favorite is getting a pedicure
+Bot(5): i will try giving it a listen ! what would you say is your favorite movie ?
+User(6): I like Lassie. What's your favorite movie
+Bot(6): what is your favorite movie ?
+User(7): Do you like going to the ocean
+Bot(7): that is a pretty color do you live near the ocean
+User(8): I don't live near it, but I wish I did
+Bot(8): that sounds really lovely . do you drink ? i have never had alcohol in my life
+User(9): I like fruity cocktails
+Bot(9): yum ! even my favorite food is in the title of my favorite movie . . . good burger
+User(10): you are funny!
+Bot(10): that does sound nice what movie
+
+Persona:
+i don't drink soda.
+i'm an elementary school teacher.
+they are constantly on my back.
+my favorite color is grey.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: i'm married.(dislike)
+Round 2: soda(like)
+Round 3: hobbies(like)
+Round 4: fingernails(like)
+Round 5: movies(like)
+Round 6: ocean(like)
+Round 8: alcohol(like)
+Round 10: movie/food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 61.29
+Robotic(↓): 65
+Interesting: 66
+Fun: 66
+Consistent: 68
+Fluent: 71
+Repetitive(↓): 20
+Topic: 43
+
+####################
+

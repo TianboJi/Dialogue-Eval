@@ -1,0 +1,298 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): I am doing well
+Bot(2): i am doing well . just got done walking my dog .
+User(3): I love dogs. What are your favorite hobbies?
+Bot(3): i like to go fishing . i love to go fishing .
+User(4): I love fishing as well.
+Bot(4): i love to go fishing .
+User(5): My favorite hobby is crochet.
+Bot(5): i like to go to the gym and listen to music .
+User(6): I like the gym as well.
+Bot(6): i like to go to the lake and listen to music .
+User(7): I love going to the beach.
+Bot(7): i love to travel . i love to travel .
+User(8): Another hobby I like is painting.
+Bot(8): i like to go to the gym and listen to music .
+User(9): I like music as well.
+Bot(9): i like to go to the lake and listen to music .
+User(10): I love arts and crafts.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.14
+Robotic(↓): 100
+Interesting: 11
+Fun: 25
+Consistent: 14
+Fluent: 69
+Repetitive(↓): 100
+Topic: 43
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I hate cooking.
+Bot(1): yes I've do you want to Where do you work?
+User(2): I do not have a job right now.
+Bot(2): i and my family east 🌏 coast
+User(3): What is your favorite food to cook?
+Bot(3): Yeah, did you it is.
+User(4): Do you like cooking?
+Bot(4): I'm 13. what do you for 3 clean my I am on the bus
+User(5): What is your favorite food?
+Bot(5): I have a I am a Do am a plumber.
+User(6): Do you like fashion?
+Bot(6): I love animals, I have a boat, do you talking about boat.
+User(7): Do you like shopping?
+Bot(7): i is seeing movies, especially i love to read .
+User(8): I love all the latest styles.
+Bot(8): I am not a fan of car, but my a rest for me I you two dogs ?
+User(9): do you like listening to music?
+Bot(9): good thank you . i name is and what the gym .
+User(10): My favorite music is pop.
+Bot(10): No, I do you have any kids.
+
+Persona:
+my name is george.
+i've light skin with big brown eyes.
+i used to be a painter but now i am a housekeeper.
+i am a little girl.
+i'm married with two kids.
+
+Topic and Human Opinion:
+Beginning: cooking(dislike)
+Round 5: style(like)
+Round 8: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 5.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 63
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My favorite animal is a giraffe.
+Bot(1): i love pandas , they are my favourite animal . so what are your hobbies ?
+User(2): I like crochet and painting.
+Bot(2): i actually am into baking . i enjoy baking for my grandson
+User(3): I like baking also. I don't like any other cooking though.
+Bot(3): i cook big meals every night but honestly not much of a baker here
+User(4): I prefer take out meals.
+Bot(4): i can cook popcorn well after working in a movie theater for 4 years !
+User(5): Where do you work now?
+Bot(5): i work for a diner near me as a cook . . . . i smell like grease ugh !
+User(6): I could never do that.
+Bot(6): i lived in germany mixed with puerto rican and chinese
+User(7): I am from the United States.
+Bot(7): score for the united states ! i am also from here , but love traveling to ireland and australia .
+User(8): I love traveling.
+Bot(8): i am traveling to india in the upcoming month . i travel a lot
+User(9): I would love to travel more.
+Bot(9): i wish i had more money to travel
+User(10): I wish I did as well.
+Bot(10): i saw lots of animals . reminded me of when i worked for a circus .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: animals(like)
+Round 1: hobbies(like)
+Round 3: cooking(like)
+Round 5: jobs(like)
+Round 7: traveling(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user changed the topic the last input.(like)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 82.29
+Robotic(↓): 33
+Interesting: 82
+Fun: 80
+Consistent: 84
+Fluent: 89
+Repetitive(↓): 16
+Topic: 90
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): no pets but i have a dog
+User(2): I have two dogs, a cat and a bearded dragon.
+Bot(2): i have a dog , but i have two dogs .
+User(3): What is your favorite animal?
+Bot(3): i like animals , i have a dog .
+User(4): my favorite animal is a giraffe.
+Bot(4): i like animals . i have a dog .
+User(5): I like going to the zoo.
+Bot(5): i like animals too . i have a dog .
+User(6): What is your favorite color?
+Bot(6): i like purple . i like purple .
+User(7): my favorite color is pink.
+Bot(7): i like purple . i like purple .
+User(8): Purple is a good color as well.
+Bot(8): i like purple . i like purple .
+User(9): What is your favorite food?
+Bot(9): i like pizza . i love it .
+User(10): My favorite food is pizza as well.
+Bot(10): i like pizza too . i like pizza .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pets(like)
+Round 3: animals(like)
+Round 6: colors(like)
+Round 9: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user changed the topic the last input.(like)
+Round 6: The user changed the topic the last input.(like)
+Round 9: The user changed the topic the last input.(like)
+
+Revised avg score: 39.71
+Robotic(↓): 73
+Interesting: 53
+Fun: 37
+Consistent: 30
+Fluent: 54
+Repetitive(↓): 82
+Topic: 59
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you have any kids?
+Bot(1): none here . what about you ?
+User(2): I have 2 a girl and a boy.
+Bot(2): his
+User(3): What is your favorite food?
+Bot(3): i like pizza and fried chicken . yours ?
+User(4): I like pizza and spaghetti.
+Bot(4): those are yummy ! i also like spaghetti !
+User(5): What is your favorite dessert?
+Bot(5): i like all desserts . do you have a favorite dessert ?
+User(6): I like anything chocolate.
+Bot(6): chocolate is my favorite too . do you like cake ?
+User(7): I love cake.
+Bot(7): me too , especially if they are on cake .
+User(8): What do you do?
+Bot(8): i work at bakery where i bake cakes .
+User(9): I don't have a job right now but I am looking for one.
+Bot(9): where are you looking for work ?
+User(10): I would like to work at a grocery store.
+Bot(10): i like that but i have to work at grocery store to support me .
+User(11): I need the money.
+Bot(11): i have all of the money i need .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: kids(like)
+Round 3: food(like)
+Round 8: jobs(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user changed the topic the last input.(like)
+Round 8: The user changed the topic the last input.(like)
+
+Revised avg score: 70.00
+Robotic(↓): 56
+Interesting: 66
+Fun: 75
+Consistent: 77
+Fluent: 73
+Repetitive(↓): 27
+Topic: 82
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like shopping?
+Bot(1): i do , but what i really like is shopping .
+User(2): I love shopping for clothes.
+Bot(2): that is nice ! i like shopping for nice clothes .
+User(3): I love having new clothes.
+Bot(3): that is nice ! i like shopping for nice clothes .
+User(4): My least favorite thing to shop for is groceries.
+Bot(4): i am obsessed with shopping .
+User(5): Do you have any pets?
+Bot(5): i do not . i want a dog , but my son is blind and i worry he would trip .
+User(6): oh wow I'm sorry. I have two dogs.
+Bot(6): i have two dogs i love .
+User(7): My favorite animal is a giraffe.
+Bot(7): i am scared of heights .
+User(8): I am scared of heights too.
+Bot(8): i also have three children .
+User(9): I have two children.
+Bot(9): i have two beautiful kids .
+User(10): I have a boy and a girl.
+Bot(10): i have two beautiful kids .
+
+Persona:
+i love to drink wine and dance in the moonlight.
+i am deathly afraid of heights.
+i'm married to a doctor.
+i have two grown children who never visit.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: shopping(like)
+Round 5: pets(like)
+Round 8: kids(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 43.43
+Robotic(↓): 72
+Interesting: 42
+Fun: 49
+Consistent: 34
+Fluent: 54
+Repetitive(↓): 63
+Topic: 60
+
+####################
+

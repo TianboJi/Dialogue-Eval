@@ -1,0 +1,296 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi there, do you like football?
+Bot(1): i do , i love to travel .
+User(2): You like to travel to games?
+Bot(2): no , i do not , but i do like to go fishing .
+User(3): I like to go fishing too!
+Bot(3): i love to travel . i love to travel .
+User(4): but what about football?
+Bot(4): i love to play soccer , and play video games .
+User(5): video games are a lot of fun.
+Bot(5): i like to go to the beach and listen to music .
+User(6): Do you fish at the beach?
+Bot(6): no , i do not . i like to go fishing .
+User(7): Right, that is why I asked if you fish at the beach.
+Bot(7): i like to eat fish .
+User(8): What is your favorite kind of fish?
+Bot(8): i like the color red . what is yours ?
+User(9): my favorite color is blue
+Bot(9): i like red , reminds me of summer time .
+User(10): because of the sun? or the sunburn lol
+Bot(10): i do not know . i like to go to the gym .
+User(11): How often do you go to the gym?
+Bot(11): i do , i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.00
+Robotic(↓): 100
+Interesting: 4
+Fun: 24
+Consistent: 5
+Fluent: 45
+Repetitive(↓): 98
+Topic: 4
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like to go dancing?
+Bot(1): I am you dream of becoming I am a student
+User(2): You are me?
+Bot(2): I am 22 like my job, a boyfriend
+User(3): You like your boyfriend?
+Bot(3): I am to play video about you
+User(4): How do you have a video about me?
+Bot(4): lol cares !! freakk you do
+User(5): Can you speak English?
+Bot(5): I'm good. I just got back book. it is my are you doing?
+User(6): I am sorry, I do not understand
+Bot(6): i am fine. I mean .
+User(7): I like to go dancing
+Bot(7): I said you typically have a dog.
+User(8): I even like to dance with my dog sometimes lol
+Bot(8): well i can't tell for the elderly and but any i'm retired now i'm old
+User(9): this doesn't make any sense lol
+Bot(9): Yeah, I like me a is your eat healthy.
+User(10): I love to eat healthy
+Bot(10): being i have, my yacht is i love my job . what do you do ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dancing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.14
+Robotic(↓): 100
+Interesting: 7
+Fun: 7
+Consistent: 7
+Fluent: 2
+Repetitive(↓): 57
+Topic: 5
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like movies?
+Bot(1): yes i love movies and movies
+User(2): you mean movies and shows?
+Bot(2): i do not watch movies but i love movies
+User(3): those are the same thing!
+Bot(3): i like movies and movies . i like movies too
+User(4): What is the last movie you saw?
+Bot(4): i was watching the conjuring
+User(5): Oooo, is it scary?
+Bot(5): i was just watching the conjuring
+User(6): The horror movie?
+Bot(6): no , i haven't seen it yet .
+User(7): I thought you were just watching it?
+Bot(7): no , i haven't watched it yet .
+User(8): who is your favorite actor?
+Bot(8): i was in the olympics and now i was a kid
+User(9): you are a kid now?
+Bot(9): no , i am not . i am a fan of horror movies .
+User(10): like The Conjuring lol
+Bot(10): i am a movie fan , but i am a fan of it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.71
+Robotic(↓): 93
+Interesting: 4
+Fun: 21
+Consistent: 13
+Fluent: 46
+Repetitive(↓): 75
+Topic: 57
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like balloons?
+Bot(1): it good . i do not drink so it can get testy at times .
+User(2): why do you knot drink?
+Bot(2): i do not drink much
+User(3): why not?
+Bot(3): my 3rd exwife had 4 of them all teens . they never accepted me as their dad .
+User(4): that is sad
+Bot(4): why are you sad ? maybe drink coffee .
+User(5): I am sad because they didn't accept you as their dad
+Bot(5): yeah , a bad car wreck . i lost my legs , so i am super short now .
+User(6): That is morbid humor lol
+Bot(6): oh i laugh a lot and i love to laugh ! ! ahahah
+User(7): even if it is about your missing legs?
+Bot(7): my daughter is also very short .
+User(8): Does she still have her legs?
+Bot(8): she is a movie star . for that reason i love making short films
+User(9): Do I know who she is?
+Bot(9): she is an ex singer from the early 2000s , mostly does pop songs and the like
+User(10): what is her best song?
+Bot(10): ah you should listen to it . its from the 80s
+
+Persona:
+i've a pet cow.
+i am a recovering alcoholic.
+i'm a stay at home dad.
+i just moved into my first home.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: Balloons(like)
+Round 1: Drinking(ambivalent)
+Round 3: kids(dislike)
+Round 5: Morbid humor(like)
+Round 8: Movie star daughter(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 48.71
+Robotic(↓): 100
+Interesting: 46
+Fun: 43
+Consistent: 36
+Fluent: 75
+Repetitive(↓): 16
+Topic: 57
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): helllo
+Bot(1): hey i am steve ! who are you ? i love cooking !
+User(2): I am Ann, I love cooking too
+Bot(2): hey i am steve ! who are you ? i love cooking !
+User(3): You already said that Steve
+Bot(3): my name is steve , short for steve
+User(4): lol okay steve
+Bot(4): my name is steve , short for steve
+User(5): Do you love hamburgers?
+Bot(5): i am a vegan so no
+User(6): ahhh, so do you like tofu?
+Bot(6): no , i am not picky , i eat anything
+User(7): except meat lol
+Bot(7): ha ha ok , what is your favorite flavor ?
+User(8): I like anything that is vanilla
+Bot(8): i am a vanilla kinda kid
+User(9): you strike me as a chocolate person
+Bot(9): i guess so , never heard that but i like chocolate cake
+User(10): I wish I had some chocolate cake
+Bot(10): i can make you some .
+User(11): that would be wonderful!
+Bot(11): i like baked goods a lot
+
+Persona:
+hey my name is larry and i am a chef.
+i enjoy listening to classical music.
+i have light skin with big brown eyes.
+i am a doctor.
+i've a boyfriend.
+
+Topic and Human Opinion:
+Beginning: Chatbots(dislike)
+Round 1: Cooking(like)
+Round 4: Hamburgers(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 73.86
+Robotic(↓): 40
+Interesting: 85
+Fun: 76
+Consistent: 86
+Fluent: 80
+Repetitive(↓): 35
+Topic: 65
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I love cookies
+Bot(1): cookies are my favorite .
+User(2): I like chocolate chip cookies
+Bot(2): i like chocolate chip cookies
+User(3): Do you like sugar cookies?
+Bot(3): yes i love anything sweet
+User(4): what is your favorite type of candy?
+Bot(4): cookies are my favorite .
+User(5): Do you enjoy baking?
+Bot(5): no but i love to bake cookies
+User(6): I like baking cakes and cookies
+Bot(6): ln my spare time i enjoy softball
+User(7): that's cool, I like to play softball
+Bot(7): i only have one arm
+User(8): is it your pitching arm?
+Bot(8): i only have one arm
+User(9): yikes, that is unfortunate. How did you lose your arm?
+Bot(9): i only have one arm
+User(10): yes, i know, you mentioned
+Bot(10): it was the only major injury i ever had
+
+Persona:
+i drive a big truck and live in country.
+i love playing softball.
+i've a broken arm.
+i am expecting twins in two months.
+my family and i are from india.
+
+Topic and Human Opinion:
+Beginning: Cookies(like)
+Round 4: Baking(like)
+Round 6: Sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 31.14
+Robotic(↓): 91
+Interesting: 42
+Fun: 32
+Consistent: 43
+Fluent: 47
+Repetitive(↓): 81
+Topic: 26
+
+####################
+

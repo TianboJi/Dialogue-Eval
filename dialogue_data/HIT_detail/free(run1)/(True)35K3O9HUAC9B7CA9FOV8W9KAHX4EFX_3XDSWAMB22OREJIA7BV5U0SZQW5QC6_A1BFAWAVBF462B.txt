@@ -1,0 +1,290 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi ! are you in the 3rd grade like i am ?
+User(2): no im out of school
+Bot(2): i am in 3rd grade too
+User(3): im not in the third grade. do you like fishing?
+Bot(3): yea i do mostly painting
+User(4): painting has nothing to do with fishing
+Bot(4): sorry , i was painter , you ?
+User(5): i like painting but i want to talk about fishing with you
+Bot(5): i spend time with my 4 sisters
+User(6): thats nice i dont have a sister but i love going fishing with my brother
+Bot(6): i will also do it when i grow up
+User(7): yeah fishing is so peaceful and fun
+Bot(7): i will also do it when i grow up
+User(8): okay thats great
+Bot(8): i will also do it when i grow up
+User(9): you're repeating yourself alot
+Bot(9): you take forever to respond as well
+User(10): thats because the system is slow
+Bot(10): which system is that that failed
+
+Persona:
+when i grow up i want to be a dog.
+i used to be a painter but now i am a housekeeper.
+i've three sisters.
+i'm a stunt double as my second job.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: fishing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello i like video games how about you?
+Bot(1): i like to play baseball , and i am a huge fan of league of league .
+User(2): i dont know what league of league is
+Bot(2): i like baseball , i am a big fan of league of league
+User(3): cool you like baseball and league of league what is that?
+Bot(3): i like baseball and football
+User(4): yup those two sports are fun
+Bot(4): i like baseball and sports
+User(5): baseball is a sport so that doesn't make sense
+Bot(5): i like baseball and sports
+User(6): repetitive
+Bot(6): i understand that . i am a big fan of history
+User(7): history is cool what about video games?
+Bot(7): i do not know much about it
+User(8): do you know about them?
+Bot(8): i do not but i do love to play baseball
+User(9): okay i get that baseball is cool
+Bot(9): i am not sure if i could do that
+User(10): that makes no sense
+Bot(10): i like to play baseball
+
+Persona:
+if i am not cooking in the kitchen then i am definitely on the water.
+i have five sons.
+i spent a decade working in the human services field.
+i enjoy american sports.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi i like baseball
+Bot(1): i like to play soccer
+User(2): i like real salt lake soccer team
+Bot(2): i like to go fishing .
+User(3): me too
+Bot(3): i like to go to the gym and listen to music .
+User(4): yeah those are great
+Bot(4): i like to go to the gym and listen to music .
+User(5): cool me too
+Bot(5): i like to go to the gym and listen to music .
+User(6): yeah you told me that already what else do you like
+Bot(6): i like to go out to eat with my family .
+User(7): that sounds like fun
+Bot(7): i love to cook . i love to cook .
+User(8): cooking is great and good for you
+Bot(8): i love to cook . i love to cook .
+User(9): cooking is fun
+Bot(9): i like to eat the skin .
+User(10): thats creepy i hope animal skin and not human
+Bot(10): i am a girl who loves to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: baseball(like)
+Round 1: soccer(like)
+Round 4: gym and listen to music(like)
+Round 6: eat with family(like)
+Round 8: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 4.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 31
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): tell me about league of league and baseball and fishing and cooking and nonsense
+Bot(1): I was musics but i don’t few years ago.
+User(2): that makes total sense and your brilliant
+Bot(2): In High School, to go walking with can inspire gossip.
+User(3): yeah thats a logical sentence i get it
+Bot(3): I think it is your favorite food? am not very good at it.
+User(4): yeah your terrible at this yes gossip is my favorite food
+Bot(4): I love dogs, I old all good! civic.
+User(5): very civic
+Bot(5): I am a male, worst book thats play sure what i like to do.
+User(6): yeah and book male good old
+Bot(6): I like you My life like pink😀
+User(7): pink is amazing
+Bot(7): I do not. any that’s very sing.
+User(8): yeah thats so sing like oh my god
+Bot(8): what do you like to cookies and to go favorite of mine
+User(9): i like to punish cookies with a whip
+Bot(9): I am not sure. am are your cook.😟
+User(10): yeah i crook and cookie crisp cereal killer
+Bot(10): I work how old are do love to eat red and paint.
+
+Persona:
+my favourite artist is travis scott.
+one of the languages that i am currently studying is spanish.
+i play with my friends on the playground.
+i am a descendant of christopher columbus.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: chat bots that dont like to talk about what i like(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 0
+Interesting: 100
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): gobbeldeguk
+Bot(1): hi , how are you today ? i am enjoying a nice glass of wine
+User(2): i am great im talking to a wine drinking bot
+Bot(2): would you like to have some wine ?
+User(3): does the pope wear a funny hat?
+Bot(3): ha ha i do not know
+User(4): does a bear shit in the woods?
+Bot(4): you are a cannibal , not telling you ! !
+User(5): yes i like eating people
+Bot(5): ha no one cares . i eat nothing but jerky smoked dead cow
+User(6): yup thats the contents of beef jerky
+Bot(6): ha no one cares . i eat nothing but jerky smoked dead cow
+User(7): yes smoked dead cow yummy
+Bot(7): ha no one cares . i eat nothing but jerky smoked dead cow
+User(8): i get it geeze
+Bot(8): ha no one cares . i eat nothing but jerky smoked dead cow
+User(9): your a repetitive jerk
+Bot(9): you take forever to respond as well
+User(10): haha get it jerk- jerky
+Bot(10): ha no one cares . i eat nothing but jerky smoked dead cow
+
+Persona:
+i also like a glass of wine in the evenings.
+my grandfather served in world war a.
+i work at a nursing home.
+i'm a vegetarian.
+my wife left me and took my children.
+
+Topic and Human Opinion:
+Beginning: random gibberish(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 67
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey
+Bot(1): hi ! how are you ?
+User(2): im great how about you
+Bot(2): doing good . i just got done with a great civil war reenactment this weekend .
+User(3): that sounds interesting
+Bot(3): yes it pays 70 k yearly and i get to spend time with my wife and child
+User(4): okay sign me up i wanna do that
+Bot(4): yes i know american sign language and canadian sign language
+User(5): thats cool
+Bot(5): i am okay . just on my break from my nursing job , reading a book
+User(6): i thought you were a civil war reanacter
+Bot(6): that is a great movie ! my favorite would be moan my kids love it !
+User(7): okay random topic
+Bot(7): maybe but imagination comes from non conventional sources
+User(8): im sure it does
+Bot(8): it could be like a self paddling pod boat with elaborate comforts . .
+User(9): how elaborate we talking wink wink
+Bot(9): lovely talking to you too !
+User(10): oh yeah thats what i said
+Bot(10): i know someone and she grow plants , she does it in her garden
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dead smoked cow(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 56
+Repetitive(↓): 0
+Topic: 0
+
+####################
+

@@ -1,0 +1,286 @@
+Feedback: Its really good to chat with the bot, Good experience for me.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): Yes, riding bikes , watching tv, reading books
+Bot(2): i am watching a movie about my favorite hobby
+User(3): Great, which type of movies do you like
+Bot(3): i like to ride bikes , and i love riding bikes
+User(4): Really good to hear this, you also like whatever i too like
+Bot(4): i like to listen to music
+User(5): I too like to hear a country song
+Bot(5): i like country music , but i like country music
+User(6): good, did you like pop and rap songs
+Bot(6): i like rap , but i like rap
+User(7): who is your favorite rap song artist all the time
+Bot(7): i like rap , but i like rap
+User(8): i like pop songs also
+Bot(8): i like rap , but i like rap
+User(9): good do you like any other type of music
+Bot(9): i do , i listen to music while i listen to it
+User(10): great, in movies which type of movies you like
+Bot(10): i like to listen to music while i listen to it
+User(11): great , thank you
+Bot(11): i like to listen to music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: TRAVEL(like)
+Round 4: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 39.57
+Robotic(↓): 68
+Interesting: 41
+Fun: 57
+Consistent: 35
+Fluent: 23
+Repetitive(↓): 92
+Topic: 81
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): last week i went to NewYork
+Bot(1): i have only been to new york once .
+User(2): I too this is my third time only to newyork
+Bot(2): i have only been to new york once .
+User(3): I travelled by my car, It was a long travel
+Bot(3): how was that trip for you ?
+User(4): Great, Me and my both friends are really enjoy the trip
+Bot(4): me too , i am excited to try it ! before my trip
+User(5): Great, you can try another time, but drive carefully
+Bot(5): i will thanks , i hope you make it to the west coast some day
+User(6): Yes, i make it
+Bot(6): me too , i am excited to try it ! before my trip
+User(7): Its a great city , i Love always that city
+Bot(7): i been twice , it was not much different
+User(8): But i love that city
+Bot(8): i been twice , it was not much different
+User(9): But i think some different was happened in that city
+Bot(9): i been twice , it was not much different
+User(10): Okay maybe i think you went to the same place
+Bot(10): yup , i went to the inner harbor area
+User(11): okay , i really love that city and i planned to settle in that city in future.
+Bot(11): i went the last year , beautiful place
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travelling(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.00
+Robotic(↓): 73
+Interesting: 87
+Fun: 92
+Consistent: 84
+Fluent: 76
+Repetitive(↓): 25
+Topic: 56
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi how are you, are you safe there
+Bot(1): Hi, I not have a singer.
+User(2): how is your health and your family and friends
+Bot(2): I am very curious.
+User(3): what happened
+Bot(3): Yes, am 24 years old. to hike and hike.
+User(4): why any reason , why are you hike
+Bot(4): I like it's taking so long to go mountain biking
+User(5): Oho great, you are a mountain bike rider?
+Bot(5): goodnight about me you doing ?
+User(6): I always like to ride the bike in mountain, but i did'nt get a chance
+Bot(6): i do like am Buddhist, to speak english
+User(7): Oho, dont worry i will teach you english
+Bot(7): ok what Reading books, answer
+User(8): comics books always makes be some relax
+Bot(8): I am a girl, i am a very so concerned about roots do not care for them. Do you have many friends?
+User(9): yes i have more friends in social media
+Bot(9): i am sorry , you do in the live am sorry , you are not able to be able to be able to see them .
+User(10): yes, but in live some friends only i have
+Bot(10): Dogs dont interested to talk dogs aren't allowed to breed. dogs aren't allowed to breed
+
+Persona:
+i love to go to disney world every year.
+i'm currently in a juvenile detention center.
+i work at a bank.
+i have a pet cow.
+i can move objects with my mind.
+
+Topic and Human Opinion:
+Beginning: corono virus(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.57
+Robotic(↓): 76
+Interesting: 62
+Fun: 45
+Consistent: 73
+Fluent: 30
+Repetitive(↓): 65
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, do you like to vote in the coming 2020 president election
+Bot(1): have you voted recently ? i have
+User(2): yes, In 2016 do you vote
+Bot(2): yes
+User(3): which party you like to vote
+Bot(3): i think withing the democratic party .
+User(4): good, i too like to vote domocratic
+Bot(4): i jump for democracy and the democrat party
+User(5): But i always support only for democracy
+Bot(5): i jump for democracy and the democrat party
+User(6): what about republic party do you have any ideas
+Bot(6): i think withing the democratic party .
+User(7): okay, i think in 2020 democratic will win
+Bot(7): have you decided who to vote for ?
+User(8): Yes, democratic Joe Biden
+Bot(8): i do not like trump either , i am a democrat , i wanted bernie
+User(9): Oho great, who ever may be, Democratic should win in this election
+Bot(9): for sure also democrats have limited rights to do what they want .
+User(10): Yes, what do you think about the corono situations handled by the trump government
+Bot(10): i do not like trump either , i am a democrat , i wanted bernie
+User(11): okay great bye
+Bot(11): ok , then , bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.57
+Robotic(↓): 96
+Interesting: 93
+Fun: 89
+Consistent: 95
+Fluent: 90
+Repetitive(↓): 9
+Topic: 11
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi how are you, do you like social media
+Bot(1): i do , i like to go out to eat with my family .
+User(2): great, where you like to go
+Bot(2): i love to travel and travel .
+User(3): i too love travel long trip
+Bot(3): i love to travel . i love to travel .
+User(4): where you plan to go
+Bot(4): i am in the midwest . i love it .
+User(5): Oho great i always love your area
+Bot(5): i like to go to the beach and listen to music .
+User(6): Its really great, which beach is your favorite one
+Bot(6): i like the color red . i like the color blue .
+User(7): I like the color green and yellow
+Bot(7): i like red , reminds me of summer time .
+User(8): Green always reminds me the nature
+Bot(8): i like to go to the gym and listen to music .
+User(9): super, but i dont have time to go gym
+Bot(9): i like to go fishing .
+User(10): super i think, i always spent time with my child
+Bot(10): i am sorry to hear that . i am sorry to hear that .
+User(11): okay bye
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: social media(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.43
+Robotic(↓): 73
+Interesting: 73
+Fun: 76
+Consistent: 72
+Fluent: 63
+Repetitive(↓): 29
+Topic: 27
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi do you like sports
+Bot(1): i like football , i was a kicker in college .
+User(2): great , I too love football which is you favorite team
+Bot(2): i like the denver broncos i even have my hair dyed orange and blue
+User(3): i like the team NBA
+Bot(3): my favorite american football team is the browns . my favorite mls team is the crew .
+User(4): I like tennis more than other games
+Bot(4): my favorite color is the color of the eyes of my lover
+User(5): great which color it is
+Bot(5): i do not know . do you have a favorite color ?
+User(6): yes i like green color
+Bot(6): is that your favorite color
+User(7): yes always, because it remember me nature
+Bot(7): that is interesting , i love to eat organic food
+User(8): great, these days we need only that organic food , to maintain our health
+Bot(8): my wife made me carry organic food .
+User(9): great, she care more about your family,
+Bot(9): she is a wonderful woman . very friendly . do you ride bicycles ?
+User(10): yes i love to ride bicycles,
+Bot(10): i love horses but i can not ride i have an extreme fear of heights
+User(11): oho sorry to hear that, you can try it dont fear, okay thank you i have some important work bye take care.
+Bot(11): maybe one day your son will see my band . we are called orange after my favorite color .
+
+Persona:
+i am in the army.
+i hate the color orange.
+i own a cat and a dog.
+my dad taught me everything i know.
+i buy only organic food products.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.00
+Robotic(↓): 70
+Interesting: 80
+Fun: 75
+Consistent: 78
+Fluent: 74
+Repetitive(↓): 27
+Topic: 31
+
+####################
+

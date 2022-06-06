@@ -1,0 +1,281 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): My dad was in the army, too.
+Bot(1): that is awesome . i am a teacher .
+User(2): I was a teacher, also.
+Bot(2): i am a teacher , i love to cook .
+User(3): That's awesome. I like to eat.
+Bot(3): i like to eat fish .
+User(4): I like fish, too. What's your favorite kind?
+Bot(4): i like the color red . what is yours ?
+User(5): My favorite colors are blue and dusty rose.
+Bot(5): i like the color red . i like red .
+User(6): My favorite colors are blue and dusty rose.
+Bot(6): i like the color red . i like red .
+User(7): I like dusty rose.
+Bot(7): i like the color red . i like the color blue .
+User(8): Yes, blue is nice.
+Bot(8): i like the color red . i like red .
+User(9): I used to like red when I was young. Now I prefer dusty rose and blue.
+Bot(9): i like the color red . i like red .
+User(10): Red roses are beautiful.
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my father is in the army.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.43
+Robotic(↓): 67
+Interesting: 40
+Fun: 57
+Consistent: 39
+Fluent: 37
+Repetitive(↓): 76
+Topic: 46
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I also like fish and chips from time to time.
+Bot(1): do you eat the fish ?
+User(2): Yes, I do eat the fish.
+Bot(2): no but i do fish for a living
+User(3): You do. What kind of fish do you catch?
+Bot(3): do you eat the fish ?
+User(4): Yes. I like salmon.
+Bot(4): grilled haddock is legit . grilled fish or a cheeseburger is my favorite food .
+User(5): I don't believe I have haddock in a long time. I like cheeseburgers, too.
+Bot(5): do you eat the fish you catch ? i eat out all the time .
+User(6): I don't go fishing. I like to eat out.
+Bot(6): i have taken my daughter to the creek and catch little fish . what do you fish ?
+User(7): I don't fish. I don't even know how to cast a rod.
+Bot(7): no but i do fish for a living
+User(8): I wouldn't be living if I had to fish for a living.
+Bot(8): fish are good . i stay away from water . it is hard for dwarves to swim .
+User(9): I like water. I'm a good swimmer.
+Bot(9): i have many trophies from swimming . i do not really swim anymore .
+User(10): I never earned a trophy for swimming. I still like swimming, though.
+Bot(10): i love swimming . do you like to listen to music while you swim ?
+User(11): I like to listen to music when I lay out. I can't really hear the music when I am swimming.
+Bot(11): really ? i have quite the vast collection of purple swimming suits
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a weakness for fish and chips.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.86
+Robotic(↓): 47
+Interesting: 56
+Fun: 54
+Consistent: 42
+Fluent: 44
+Repetitive(↓): 61
+Topic: 54
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I have brown hair and blue-green eyes.
+Bot(1): i have like a baby , bye !
+User(2): My hair is soft like a baby's hair.
+Bot(2): no , like to play I . how is your evening going ?
+User(3): It's good. Could be better.
+Bot(3): oh , i see me about am glad girl
+User(4): That's good. My life is lonely.
+Bot(4): oh . dye my hair he ?
+User(5): If you want it a different color you should dye it.
+Bot(5): What else you do in 😁
+User(6): I am just sitting here by myself with my dog.
+Bot(6): umm . . . i you read work, my the iron skittler
+User(7): Yes, I am working. Boring.
+Bot(7): 1984, and i in a many local newspaper.
+User(8): I have never read 1984.
+Bot(8): I am doing great. I am famous twitch true. love little soon.
+User(9): I am doing good, also.
+Bot(9): i don’t really like game not been a child for a while
+User(10): I don't like people who play games, either.
+Bot(10): yes and really? I'm in female sibling
+User(11): I have a sister, too.
+Bot(11): I am say drive chat girl am a farmer.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have blonde hair and blue eyes.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.14
+Robotic(↓): 83
+Interesting: 28
+Fun: 28
+Consistent: 75
+Fluent: 23
+Repetitive(↓): 76
+Topic: 30
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I like cats, too.
+Bot(1): i love cats , i have three of them
+User(2): I have one dog.
+Bot(2): i have three sisters and a dog .
+User(3): I have one sister and one dog.
+Bot(3): i have three sisters and a dog .
+User(4): What kind of dog do you have?
+Bot(4): a lab . he is a big dog .
+User(5): Labs are nice dogs.
+Bot(5): i have a lab , he is a lab .
+User(6): What color is your lab?
+Bot(6): i have a lab lab .
+User(7): Do you take your lab on walks?
+Bot(7): i do not . i work in a lab .
+User(8): I see. What is your job?
+Bot(8): i work in a finance firm .
+User(9): What do you do in the finance firm?
+Bot(9): i work in a finance firm .
+User(10): What is your job?
+Bot(10): i work in finance . i work in a financial firm .
+User(11): Do you like your job?
+Bot(11): i work in a finance firm .
+
+Persona:
+i've a dogs.
+i graduated from yale in 2011 with a degree in finance.
+the holidays make me depressed.
+i work in it and have been at the same company for 15 years.
+i've three sisters.
+
+Topic and Human Opinion:
+Beginning: i love cats and have two cats.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.86
+Robotic(↓): 62
+Interesting: 37
+Fun: 63
+Consistent: 35
+Fluent: 61
+Repetitive(↓): 38
+Topic: 67
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): That sounds interesting. I have only been to Canada.
+Bot(1): i am sick of the darn nasty apartment i live in with my no so boyfriend
+User(2): I don't like my apartment, either.
+Bot(2): my boyfriend and i are living together right now .
+User(3): I live by myself. I left my significant other of 12 years.
+Bot(3): oh . i have been seeing this guy for a few months .
+User(4): Good for you. I have only been texting someone.
+Bot(4): you want to talk about it ? i prefer texting to calling .
+User(5): I would rather hear someone's voice. Someone else could pretend to be them.
+Bot(5): i would not know about that , being from canada .
+User(6): Well, you never can be 100% certain that the person you are texting is the person you want to be texting.
+Bot(6): this is true . one never knows . but be careful .
+User(7): Yes. I don't trust people.
+Bot(7): please do not trust anyone .
+User(8): I don't. I have had people playing tricks on me too much.
+Bot(8): please do not trust anyone .
+User(9): It's hard to trust people when they aren't genuine with you.
+Bot(9): i have a hard time trusting people .
+User(10): Me, too.
+Bot(10): i have a hard time trusting people .
+
+Persona:
+i have short brown hair.
+i'm four years old.
+i live in canada.
+my boyfriend and i are moving into an apartment together next week.
+i had cancer but its gone now.
+
+Topic and Human Opinion:
+Beginning: i have been traveling the world for a years.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.43
+Robotic(↓): 72
+Interesting: 38
+Fun: 58
+Consistent: 72
+Fluent: 73
+Repetitive(↓): 58
+Topic: 63
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What kind of pet do you have?
+Bot(1): i have a terrier named roger
+User(2): I like terriers. I used to have a rat terrier.
+Bot(2): i have a rat terrier . i used to have a beagle named snoopy .
+User(3): That's cute. Snoopy was a cute dog.
+Bot(3): i have a rat terrier . i used to have a beagle named snoopy .
+User(4): What is your rat terrier's name?
+Bot(4): he is called corky . he is so cute .
+User(5): That is a cute name. I bet he is cute.
+Bot(5): i think so . he is a very nice dog .
+User(6): Does he do any tricks?
+Bot(6): he meows some times but no . you have any pets ?
+User(7): I have a dog.
+Bot(7): i have a rat terrier . i used to have a beagle named snoopy .
+User(8): She is a pomchi.
+Bot(8): we also have a dog . a poodle .
+User(9): I had a poodle as a little girl.
+Bot(9): we also have a dog . a poodle .
+User(10): Poodles are nice dogs, too.
+Bot(10): they are and very loyal .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my pets name is charlie.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.57
+Robotic(↓): 69
+Interesting: 37
+Fun: 39
+Consistent: 56
+Fluent: 38
+Repetitive(↓): 59
+Topic: 42
+
+####################
+

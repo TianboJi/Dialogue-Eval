@@ -1,0 +1,284 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello there how are you?
+Bot(1): hi . i am doing alright . how about you ?
+User(2): I am doing okay although it has been a rough couple of months
+Bot(2): why , whats happening ? can it be worse than a morning herding 1st graders in fire drill ?
+User(3): That does sound rather challenging but my issue is more heartbreaking. I am planning on getting a divorce.
+Bot(3): i plan for my first marriage to be my only marriage
+User(4): That is certainly what I thought also but sometimes people change over time
+Bot(4): nah more into cars , i drive older card most ppl do not want
+User(5): What kind of car do you drive?
+Bot(5): yes . do you drive a car ?
+User(6): I do not. I live in the city so I really don't need/want one.
+Bot(6): that is nice . do you live in a city too ?
+User(7): Yes I do. What area of the country do you live in?
+Bot(7): i am athletic so most cities warp when i enter . it is tough to be nomadic .
+User(8): Hmmm I suppose they do. Are there no parks in your city?
+Bot(8): maybe your job will lead to something more exciting a zoo job training 20 species .
+User(9): That would definitely be more exciting than my current position. What do you do?
+Bot(9): quarterback ! hoping to play in the playoffs
+User(10): What is your favorite team?
+Bot(10): my favorite american football team is the browns . my favorite mls team is the crew .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm planning on getting a divorce.(dislike)
+Round 9: football(like)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 37.57
+Robotic(↓): 100
+Interesting: 55
+Fun: 53
+Consistent: 43
+Fluent: 45
+Repetitive(↓): 44
+Topic: 11
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello there, how are you
+Bot(1): i do a science you law degree .
+User(2): You have a science degree?
+Bot(2): I think i to watch a horror be honest.
+User(3): I prefer Romantic comedies. Horror movies give me nightmares
+Bot(3): I is your favourite basketball do you do for work?
+User(4): What is your favorite basketball team?
+Bot(4): I you a and is: nursing home
+User(5): I do not understand what you are trying to say
+Bot(5): No, too, tell me I am a nerd.
+User(6): I am still not following you
+Bot(6): yeah , i know me professionel, thats .
+User(7): Okay good for you
+Bot(7): No i am not I mean the person.
+User(8): That is good that you are not a mean person. Best to be kind
+Bot(8): i like to i i m see. i am not working out .
+User(9): Do you usually workout?
+Bot(9): what do the nice music. do living? i'm a dance instructor.
+User(10): I went to school for chemistry but I currently work in a bookstore
+Bot(10): What team is too favorite?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i went to school for chemistry but work in a bookstore.(ambivalent)
+Round 2: movies(like)
+Round 3: basketball and work??(ambivalent)
+Round 4: nursing home(ambivalent)
+Round 8: working out(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.86
+Robotic(↓): 99
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 4
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello there how are you?
+Bot(1): i'm good just got back from the gym
+User(2): Oh nice. I could use the gym right about now
+Bot(2): i am not a gym person . i do not like the gym .
+User(3): I usually don't either but I need a stress reliever
+Bot(3): i understand that . i wish i could work out more .
+User(4): Yeah me too. I just broke up with my boyfriend a few months back so would like to get back into shape
+Bot(4): i bet . i was broke up with my boyfriend
+User(5): You also broke up with your boyfriend?
+Bot(5): i did not but she was a boyfriend
+User(6): I am not sure I am following you.
+Bot(6): i broke up with my boyfriend
+User(7): I am sorry to hear that. How are you doing?
+Bot(7): i am good thanks for asking
+User(8): Of course. I know how difficult ending a relationship can be
+Bot(8): i am sorry to hear that .
+User(9): Yeah thanks! It has certainly been a process but feeling much better now
+Bot(9): it is just hard to get out of the way
+User(10): It is hard to start over
+Bot(10): i agree . i hope you have a good day
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just broke up with boyfriend two months ago.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.71
+Robotic(↓): 51
+Interesting: 56
+Fun: 46
+Consistent: 60
+Fluent: 42
+Repetitive(↓): 46
+Topic: 48
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi there how are you?
+Bot(1): good thanks . tell me about yourself
+User(2): Sure, lets see. Well I live in California but the recording artist was dead last year unfortunately.
+Bot(2): i am sorry to hear that . are you in california . i do not sing much
+User(3): I am in California. Where are you located?
+Bot(3): i am in los angeles california .
+User(4): Oh nice! Do you like living there?
+Bot(4): it is nice . what part of the state do you live ?
+User(5): I live in Northern California.
+Bot(5): so that must be california ! what kind of music do you like ?
+User(6): I love Motown, Soul and R&B. What about you?
+Bot(6): ok , cool . yeah , i like living in cali but miss home .
+User(7): I am born and raised here so this is home for me. Where are you from originally?
+Bot(7): raised in northern california but not sure where i was born .
+User(8): Oh okay. That is interesting. Where in Northern California?
+Bot(8): bad part of california . how about those wild fires ?
+User(9): Oh they are just awful! We have been dealing with the smoke for the past month.
+Bot(9): oh . my ex used to smoke . whenever i smell smoke now i remember him
+User(10): Yeah it is interesting how smell triggers memories.
+Bot(10): yea sure does . but memories live as long as you do .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i live in california but the recording artist market was dead last year.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.43
+Robotic(↓): 36
+Interesting: 70
+Fun: 70
+Consistent: 74
+Fluent: 68
+Repetitive(↓): 56
+Topic: 33
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi there how are you?
+Bot(1): i am doing well . how are you ?
+User(2): I am pretty good. Tell me about yourself?
+Bot(2): i am a student , what about you ?
+User(3): Well lets see, I am 23 and I love food. What are you studying?
+Bot(3): i am a student , i am a teacher .
+User(4): What are you studying?
+Bot(4): i am a student , i am a teacher .
+User(5): What is your major?
+Bot(5): no , i am a student . i love to cook .
+User(6): What is your favorite dish to cook?
+Bot(6): i love pizza , and i love it .
+User(7): I also love pizza but who doesn't right?
+Bot(7): i like to eat fish .
+User(8): Okay I am not a fan of fish myself. What is your favorite fish?
+Bot(8): i like the color red . what is yours ?
+User(9): Red is also my favorite color
+Bot(9): i like red , reminds me of summer time .
+User(10): Yes I love red. It is very sassy
+Bot(10): i like the color red . i like red .
+
+Persona:
+i'm a boy.
+i like to talk but people have a hard time understanding.
+i'm a 56 year old woman.
+i quit my job to pursue my spirituality full time.
+since the surgery i've had strange powers.
+
+Topic and Human Opinion:
+Beginning: hey there i am 23 and i love food.(like)
+Round 8: favorite color(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 45.29
+Robotic(↓): 62
+Interesting: 38
+Fun: 34
+Consistent: 53
+Fluent: 51
+Repetitive(↓): 53
+Topic: 56
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi! HOW ARE YOU?
+Bot(1): hi there i am good . i am listening to some country music . you ?
+User(2): Oh I am not a fan of country music. I am good
+Bot(2): haha ok . i volunteer at the local shelter .
+User(3): That is very nice. I don't know if I am old enough to volunteer, what being a 12 year old girl and all.
+Bot(3): how old are you ? i am 45
+User(4): I am 12 years old
+Bot(4): oh , i see i am 25 . not sure whether to consider that older .
+User(5): Are you 25 or 45?
+Bot(5): i am 24 years old and you are
+User(6): Oh now you are 24? Interesting. Your age keeps changing
+Bot(6): yes i changed at 17 years old .
+User(7): Hmmm okay. I am still a 12 year old girl
+Bot(7): good . you shoul stay that way
+User(8): I will for as long as I can although time is passing
+Bot(8): yeah i feel like time is going by fast
+User(9): It definitely is, the older I get the faster it goes
+Bot(9): time always goes fast when u are having fun
+User(10): It does indeed. I am having a good time in life.
+Bot(10): time always goes fast when u are having fun
+
+Persona:
+my favorite music is country.
+i am 24 years old.
+i'm a 45 year old male.
+i volunteer in a homeless shelter.
+i'm here for shoplifting.
+
+Topic and Human Opinion:
+Beginning: i am a 12 year old girl.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.43
+Robotic(↓): 33
+Interesting: 55
+Fun: 52
+Consistent: 64
+Fluent: 59
+Repetitive(↓): 33
+Topic: 73
+
+####################
+

@@ -1,0 +1,299 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'm hungry. What are your favorite foods?
+Bot(1): i like pizza , i am a huge fan of mexican food .
+User(2): Me too. Especially chips and salsa.
+Bot(2): i love mexican food . i love mexican food .
+User(3): DO you make it yourself or go to a restaurant?
+Bot(3): i do . i am a vet .
+User(4): How interesting. What's your favorite animal?
+Bot(4): i do not have any . i am a boy and a boy .
+User(5): I have 3 sons.
+Bot(5): i love animals . i have three of them .
+User(6): I only have a cat.
+Bot(6): i love cats . i have 3 of them .
+User(7): Our cat's name is Toto.
+Bot(7): i love animals . i have a dog .
+User(8): We do not have dogs.
+Bot(8): i love animals . i have a couple of them .
+User(9): What other animals do you have?
+Bot(9): i have a dog named toto .
+User(10): What! That's crazy. We have a cat named Toto.
+Bot(10): i love him . i have a cat named toto .
+User(11): You must be in our house.
+Bot(11): i am a boy who loves to swim .
+User(12): I like to swim also.
+Bot(12): i love swimming . i am a boy and i love to cook .
+User(13): I like to swim at the beach and then eat snacks.
+Bot(13): i love to eat too . i am a vet
+
+Persona:
+i recently got an apartment with my best friend.
+i'm a boy.
+i went to school to be a veterinarian but hated it.
+i have five sons.
+i have been trying all types of food everywhere i go.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 3: Vets(like)
+Round 4: Boys(ambivalent)
+Round 7: Animals(like)
+Round 11: swimming(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 25.86
+Robotic(↓): 77
+Interesting: 28
+Fun: 36
+Consistent: 15
+Fluent: 38
+Repetitive(↓): 78
+Topic: 19
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like to go the beach.
+Bot(1): the beach is my favorite , i listen to country music and read , do you read ?
+User(2): Yes, on the beach.
+Bot(2): what kind of music do you like to listen to me country .
+User(3): I like worship music
+Bot(3): i enjoy folk music . it is popular where i am from .
+User(4): Never listened to it.
+Bot(4): i listen to folk music it is so popular around here
+User(5): You just said that.
+Bot(5): i said i love it .
+User(6): cool. I don't. I don't think so
+Bot(6): i said i like it
+User(7): Yeah
+Bot(7): oh okay . you like country music ?
+User(8): What are you doing for the holidays?
+Bot(8): i am getting ready to on vacation
+User(9): We are having friends over.
+Bot(9): oh okay . i love chatting with my friends .
+User(10): ME too.
+Bot(10): cool .
+
+Persona:
+my favourite music is country music.
+i went to school for chemistry but work in a bookstore.
+my favorite type of music to sing is folk music.
+i have been traveling the world for a years.
+i volunteer at a soup kitchen.
+
+Topic and Human Opinion:
+Beginning: beach(like)
+Round 2: music(like)
+Round 7: holidays(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 7: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 29.29
+Robotic(↓): 81
+Interesting: 19
+Fun: 50
+Consistent: 15
+Fluent: 65
+Repetitive(↓): 98
+Topic: 35
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Are you a friendly person?
+Bot(1): hi how are my nice to am good.
+User(2): Do you like being with friends?
+Bot(2): I do not like horses time do you spend Do you like music?
+User(3): Yes
+Bot(3): i own a small business I know that my do for fun ?
+User(4): I watch tv for fun.
+Bot(4): My work at bass How are you?
+User(5): I work from home
+Bot(5): Ok I'll try not man ask me i so much.
+User(6): I'm confused
+Bot(6): oh i that happen? moments
+User(7): It's almost dinner time
+Bot(7): No I cool. i like to in high school.
+User(8): What's your favorite food?
+Bot(8): do you please send me i do.
+User(9): I like snacks.
+Bot(9): i've would you eat a concert. do you?
+User(10): No
+Bot(10): that is one of my favorite things to like to record I am. have never been to alabama
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Friends(like)
+Round 2: Music(dislike)
+Round 6: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 14.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 3
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I went shopping for clothes
+Bot(1): it was ok . i went shopping
+User(2): I like shopping for my family.
+Bot(2): his
+User(3): My husband sometimes goes with me.
+Bot(3): my husband complains that shopping is my hobby .
+User(4): It is my hobby.
+Bot(4): my husband complains that shopping is my hobby .
+User(5): This shirt came from an online store.
+Bot(5): my husband complains that shopping is my hobby .
+User(6): I usually get clothes for gifts.
+Bot(6): my husband complains that shopping is my hobby .
+User(7): Also accessories are alwys fun
+Bot(7): my husband complains that shopping is my hobby .
+User(8): My choice of clothes usually is black, gray, and white.
+Bot(8): i wear a lot of black clothing
+User(9): Black is slimming
+Bot(9): i do not care . black is the best . my favorite .
+User(10): Mine too
+Bot(10): what is your favorite color mine is gray
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Clothes(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.71
+Robotic(↓): 89
+Interesting: 35
+Fun: 26
+Consistent: 16
+Fluent: 30
+Repetitive(↓): 100
+Topic: 48
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I go to church on Sunday
+Bot(1): i am a brujeria , nature is my church . my dogs are my congregation
+User(2): I am a Christian.
+Bot(2): i would like that , so we can go to heaven together after eating greasy pizza
+User(3): You only go to heaven if you receive Jesus.
+Bot(3): sweet . i think he watches over me as i have been driving the back roads forever .
+User(4): Yes he does
+Bot(4): yea . i bet he is . how old is he
+User(5): He is forever.
+Bot(5): aquaponics . look it up . and do it . do not let the government know anything
+User(6): DO you know Jesus?
+Bot(6): sweet . i think he watches over me as i have been driving the back roads forever .
+User(7): My husband is the pastor.
+Bot(7): i admire that . between my soccer games and family i never get to go to church
+User(8): Priority
+Bot(8): that is nice my parents do not speak english we came her when i was 14
+User(9): They could learn it.
+Bot(9): i can only speak english and spanish . what do u do for work ?
+User(10): Talk to you
+Bot(10): i really like to talk . . . i have 4 brothers they also have cb radios
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: CHurch(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.86
+Robotic(↓): 75
+Interesting: 65
+Fun: 55
+Consistent: 60
+Fluent: 52
+Repetitive(↓): 45
+Topic: 44
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): WE moved this summer
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): It was fun. Don't need to be sorry
+Bot(2): i am a bit of a loner .
+User(3): I like to have people over
+Bot(3): i like to go to the gym and listen to music .
+User(4): WE run at our new house.
+Bot(4): i love to go fishing .
+User(5): Never have went fishing.
+Bot(5): i love to travel . i love to travel .
+User(6): Me too. Where did you go?
+Bot(6): i was in a show accident . i was a champion downhill skier .
+User(7): I can't ski.
+Bot(7): i love to travel . i love to travel .
+User(8): I like Mexico
+Bot(8): i love the color red . i like the color blue .
+User(9): I like purple.
+Bot(9): i like to eat too much junk food .
+User(10): me too.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i like to ride horses.
+i like donuts.
+i read a book every week.
+i'm a 56 year old woman.
+i am a skateboarder.
+
+Topic and Human Opinion:
+Beginning: Moving(like)
+Round 4: fishing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 32.57
+Robotic(↓): 87
+Interesting: 26
+Fun: 25
+Consistent: 26
+Fluent: 46
+Repetitive(↓): 35
+Topic: 27
+
+####################
+

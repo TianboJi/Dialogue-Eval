@@ -1,0 +1,305 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hello , how are you ?
+User(2): I'm well just finishing up donating to charity.
+Bot(2): oh wow ! i am studying spanish . i am a student .
+User(3): oh wow!
+Bot(3): i am going to go to school soon .
+User(4): education is great for increasing your salary. since I went to school my salary has increased 10 fold. Since I have ample money I decided to donate a portion monthly.
+Bot(4): i am a student , but i am hoping to graduate in a few years .
+User(5): what are you studying?
+Bot(5): i am studying to be a teacher .
+User(6): what do you enjoy about teaching?
+Bot(6): i am studying spanish . i want to be a teacher .
+User(7): I'm studying Spanish as well
+Bot(7): i am studying spanish . i want to be a teacher .
+User(8): what've you learned about Spanish recently?
+Bot(8): i do not know much about it . i just graduated high school .
+User(9): oh okay. did you take Spanish in high school?
+Bot(9): no i graduated high school . i am studying to be a teacher .
+User(10): I can teach you Spanish if you want
+Bot(10): i am in high school . i am studying spanish .
+
+Persona:
+i will graduate from high school in two years.
+i didn't graduate high school.
+i have been trying all types of food everywhere i go.
+one of the languages that i'm currently studying is spanish.
+i've not spoken in three months.
+
+Topic and Human Opinion:
+Beginning: i donate a part of my salary to charity each month.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey do you like math?
+Bot(1): i do , i love to cook .
+User(2): wow! how can you like math class? its so boring
+Bot(2): i do not know what to say .
+User(3): me either this is awkward
+Bot(3): i like to go to the gym and listen to music .
+User(4): I love music and working out also. in 12th grade I skipped math class every day lol
+Bot(4): i am sorry to hear that . i am a nurse .
+User(5): oh don't be sorry lol. I hated math class and any time I went in my teacher made it clear she hated me too so I never went
+Bot(5): your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like
+User(6): huh?
+Bot(6): i am a student , but i am a student .
+User(7): ok..
+Bot(7): i like to go to the gym and listen to music .
+User(8): you already said that. are you okay?
+Bot(8): i am not sure . i am a student .
+User(9): okay...
+Bot(9): i like to go to the gym and listen to music .
+User(10): ok
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i recently got an apartment with my best friend.
+i'm a boy.
+i went to school to be a veterinarian but hated it.
+i have five sons.
+i have been trying all types of food everywhere i go.
+
+Topic and Human Opinion:
+Beginning: i hate math class.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello! how are you?
+Bot(1): i am well , thank you ! i am looking forward to getting to know you !
+User(2): one thing about me is I'm a student learning Spanish.
+Bot(2): how many students do you have ? i am teaching a spanish class this year
+User(3): I'm not a teacher. I'm a student.
+Bot(3): how many students do you have ? i am teaching a spanish class this year
+User(4): do you like turtles?
+Bot(4): i do i have turtles . one is named penny and the other is jacque .
+User(5): oh that's awesome! I have one named dan
+Bot(5): i also have a turtle name george . do you have pets ?
+User(6): I also have a turtle named Shrek.
+Bot(6): i also have a turtle name george . do you have pets ?
+User(7): I like the color pink.
+Bot(7): i have never seen a pink person .
+User(8): me too
+Bot(8): i have never seen a pink person .
+User(9): I guess that's because of evolution
+Bot(9): maybe it is , i not sure
+User(10): maybe its god
+Bot(10): maybe it is , i not sure
+User(11): im not sure either
+Bot(11): maybe it is , i not sure
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: one of the languages that i'm currently studying is spanish.(like)
+Round 2: the chatbot is asking me how many students I have so it failed to understand me(like)
+Round 3: turtles(ambivalent)
+Round 6: i'm a woman.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The user will change the topic in the next input.(dislike)
+Round 6: The user wants the bot to change the topic.(like)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): im a woman named Laura. what's your name and how are you?
+Bot(1): No, I i want married.😢
+User(2): im a woman
+Bot(2): I it. What do you the park and go to the park.
+User(3): what?
+Bot(3): cool. I are performing is about in alaska. what about you?
+User(4): I'm always performing.
+Bot(4): oh, that ever dyed your love music
+User(5): what?
+Bot(5): I am nice day don’t have love to go to the movies
+User(6): huh?
+Bot(6): I am a single mom of any other educational gap love to cook
+User(7): ok
+Bot(7): biggest , next лтщц Фдсую вщ .
+User(8): what language was that?
+Bot(8): No, I orhun i am good of pop bands.
+User(9): what does orhun mean?
+Bot(9): Hey! Are you playing video I’m doing I am.
+User(10): No I'm working
+Bot(10): I am well I believe in don't creepy ride. Guess
+
+Persona:
+i workout four hours a day.
+i am not a good swimmer at all.
+i like to play chess.
+i've been trying all types of food everywhere i go.
+i live in a house.
+
+Topic and Human Opinion:
+Beginning: i am a woman.(dislike)
+Round 6: she's a performer in Alaska(dislike)
+Round 7: I have no idea it said something in another language(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): I play video games too. just never heard one before
+Bot(2): video games are not love of a woman
+User(3): that's true. Im partly deaf
+Bot(3): naw , man . i just skate all day . i barely even read for my classes
+User(4): that's cool. I used to roller skate in elementary school.
+Bot(4): i can sew the skins into a ice pair of skate boots . i like sewing
+User(5): wow that's cool! likewise
+Bot(5): i love it . i think of all the locations where i will be shooting movies .
+User(6): im not an actor
+Bot(6): i am really into lady gaga right now . what parts have you done ?
+User(7): im NOT an actor. I like lady gaga too
+Bot(7): taylor swift speaks loudly to me right now
+User(8): I don't really like Taylor swift
+Bot(8): i love t swift . great choice ! i met her once . she is really nice .
+User(9): I DONT like Taylor swift
+Bot(9): my kids love taylor swift .
+User(10): okay
+Bot(10): drive my sx . fast . so what is a male ballerina called ?
+
+Persona:
+i am a woman.
+my favorite hobbies are listening to music and playing video games.
+i live in canada.
+i'll be released in about a month.
+i am a cancer survivor.
+
+Topic and Human Opinion:
+Beginning: i'm partly deaf.(ambivalent)
+Round 3: skating(ambivalent)
+Round 5: movies(ambivalent)
+Round 7: Taylor swift(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 23
+Topic: 25
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): im always wearing a hat
+Bot(1): is that a hat ? like a beanie ?
+User(2): no like a baseball cap. do you wear hats?
+Bot(2): no rather just be inside relax my friend
+User(3): yeah I have trouble relaxing
+Bot(3): why do you find it hard to relax ?
+User(4): my parents are abusive
+Bot(4): i have a ton of grandkids
+User(5): okay I don't have any I'm young
+Bot(5): i have my grandchildren and they mean a lot to me
+User(6): im glad. you're lucky to have them
+Bot(6): i have my grandchildren and they mean a lot to me
+User(7): ok
+Bot(7): i have my grandchildren and they mean a lot to me
+User(8): you said that already
+Bot(8): i didn
+User(9): okay lol
+Bot(9): i have a ton of grandkids
+User(10): cya
+Bot(10): ok bye
+
+Persona:
+i'm a 45 year old male.
+i prefer being inside.
+hey there i am 23 and i love food.
+i've amazing children and grandchildren.
+i love to play pobox.
+
+Topic and Human Opinion:
+Beginning: i'm always wearing a hat.(like)
+Round 2: being inside and telling me to relax(like)
+Round 4: how they have tons of grandkids.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 15.86
+Robotic(↓): 100
+Interesting: 6
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 73
+Topic: 78
+
+####################
+

@@ -1,0 +1,277 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you like to go hiking?
+Bot(2): sure
+User(3): What is your favorite thing about hiking?
+Bot(3): i really , really love hiking ,
+User(4): Why do you love hiking?
+Bot(4): i just like going there . i do not have one particular reason .
+User(5): When did you last go hiking?
+Bot(5): a few years ago . do you do anything for fun ?
+User(6): I go hiking when I have time
+Bot(6): i do when i have time
+User(7): you do what?
+Bot(7): i hike at the park
+User(8): What kind of park?
+Bot(8): anywhere with a lot of hiking trails !
+User(9): DO you tend to hike in the same place?
+Bot(9): yeah sometimes but i hike mostly
+User(10): what is your favorite place to hike?
+Bot(10): anywhere with a lot of hiking trails !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hiking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.00
+Robotic(↓): 86
+Interesting: 15
+Fun: 24
+Consistent: 75
+Fluent: 27
+Repetitive(↓): 61
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ? i am from ohio .
+User(2): I am doing good. Do you have any good football in ohio?
+Bot(2): nope , i am not really into football .
+User(3): neither am i, why do you not like it?
+Bot(3): the rest of my family is in the state of ohio . i enjoy being with them .
+User(4): What do you guys enjoy doing together?
+Bot(4): our family and close friends like having sports parties with lots of food
+User(5): what do you watch?
+Bot(5): i enjoy watching pretty much any sport .
+User(6): But I thought you said you do not really like footbal
+Bot(6): oh , i watch it all the time . what do you like ?
+User(7): I really do not like sports. They are boring to watch
+Bot(7): yes , but you could still enjoy watching them
+User(8): No, I do not enjoy being bored
+Bot(8): do you hate to cook too ? do you have a big family ?
+User(9): I do not mind to cook and I do not have a big family
+Bot(9): you do not enjoy your family ?
+User(10): I enjoy them, I just do not have a big family
+Bot(10): you do not enjoy your family ?
+
+Persona:
+my main transportation is my motorbike.
+i also like to cook but i am not very good at it.
+my family is continuously growing.
+i've zero family that i am close to.
+i have never been out of ohio.
+
+Topic and Human Opinion:
+Beginning: football(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.29
+Robotic(↓): 79
+Interesting: 12
+Fun: 21
+Consistent: 36
+Fluent: 59
+Repetitive(↓): 19
+Topic: 59
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, are you for making people required to wear masks in public?
+Bot(1): i understand that i am saving for surgery
+User(2): what kind of surgery
+Bot(2): i hurt my knee playing basketball in college . i dreamed of going pro .
+User(3): how did you hurt your knee
+Bot(3): did you get hurt playing basketball ? i hope it heals quick
+User(4): I never played basketball but you did
+Bot(4): basketball is fun . i like football better though . this is my second year playing in the nfl .
+User(5): I thought you hurt your knee, how are you playing in the nfl?
+Bot(5): i hurt my knee playing basketball in college . i dreamed of going pro .
+User(6): but I thought you did go pro
+Bot(6): my mother used to read bed times stories to me , and she would sing the words
+User(7): what are you talking about?
+Bot(7): i am talking about this website and yes my sister has a pet
+User(8): what website and what pet?
+Bot(8): its an etsy store , if you look up stunning crochet . partnered with my mother
+User(9): the store is partnered with your mother?
+Bot(9): usually the local farmers market is a great place to find locally sourced veggies and other foods !
+User(10): that is good to hear
+Bot(10): i will look at the list of ted talks . . . maybe there is one about that .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Wearing masks(like)
+Round 6: sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 62
+Fun: 15
+Consistent: 19
+Fluent: 13
+Repetitive(↓): 39
+Topic: 5
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What is your favorite type of food
+Bot(1): i like pizza , and i love it .
+User(2): Pizza is wonderful, what is your favorite kind of pizza?
+Bot(2): i like pizza , and pizza .
+User(3): What toppings do you usually put on the pizza?
+Bot(3): i do not , but i do like to eat .
+User(4): You like to eat plain pizza?
+Bot(4): i do not , but i do like to eat .
+User(5): What do you like to eat?
+Bot(5): i love to cook . i love to cook .
+User(6): What is your favorite thing to cook?
+Bot(6): i love pizza , and i love it .
+User(7): Do you cook pizza
+Bot(7): no , i do not , but i do like to eat .
+User(8): what do you like to eat?
+Bot(8): i like pizza , and pizza .
+User(9): What kind of pizza is your favorite?
+Bot(9): i like the color red . what is yours ?
+User(10): I dont really like red, I think blue is better
+Bot(10): i like the color red . i like red .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.43
+Robotic(↓): 90
+Interesting: 18
+Fun: 29
+Consistent: 50
+Fluent: 21
+Repetitive(↓): 85
+Topic: 91
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, do you like winter?
+Bot(1): I am in a small at music great, and town
+User(2): small at music?
+Bot(2): well, i just year old is your how about you?
+User(3): you are only a year old?
+Bot(3): I me I ireland .
+User(4): what?
+Bot(4): I am a student, I na be you run college
+User(5): what grade are you in?
+Bot(5): oh your father too. I . i am a teacher .
+User(6): you are a student and a teacher?
+Bot(6): hey i m italian 🍝 but moved am shop assistant and was a teenager
+User(7): what topic are we on?
+Bot(7): i am not sure what that is And it is good doctor .
+User(8): what are you talking about?
+Bot(8): that is a good idea as my second am read .
+User(9): Do you speak english?
+Bot(9): I am good. Just of your am not dog.
+User(10): Dogs cannot type well so I do not think you are a dog
+Bot(10): that is cool , just curious about your basement , and i am a teacher , so i don't have time for friends
+
+Persona:
+i will be released in about a month.
+i like to tan in tanning beds.
+i am in college to become a nurse.
+i've a german shepherd dog.
+i've a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: WInter(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.00
+Robotic(↓): 100
+Interesting: 75
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 8
+Topic: 1
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What do you think of digital currency?
+Bot(1): i don't know how to say that
+User(2): What are your feeling about credit cards?
+Bot(2): i think i am not sure if i could afford it
+User(3): afford a credit card?
+Bot(3): i think i am not sure if i could afford it
+User(4): what cant you afford?
+Bot(4): i don't know how to pay bills .
+User(5): usually you pay them online now
+Bot(5): i do not know what that is .
+User(6): you do not know the internet?
+Bot(6): i don't know what i want to do
+User(7): what do you like to do?
+Bot(7): i like to go to the mall
+User(8): Why do you like the mall?
+Bot(8): i do not know how to pay bills
+User(9): then who pays your bills?
+Bot(9): i do not know what that is
+User(10): how often do you go to the mall?
+Bot(10): i do not know how to shop
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Digital Currency(like)
+Round 9: malls(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 9: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 39.71
+Robotic(↓): 90
+Interesting: 66
+Fun: 14
+Consistent: 60
+Fluent: 58
+Repetitive(↓): 89
+Topic: 59
+
+####################
+

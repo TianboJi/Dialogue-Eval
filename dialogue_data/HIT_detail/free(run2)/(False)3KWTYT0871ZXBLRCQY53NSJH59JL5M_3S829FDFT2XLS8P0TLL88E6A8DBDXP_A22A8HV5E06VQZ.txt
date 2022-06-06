@@ -1,0 +1,319 @@
+Feedback: Good working.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, I like sports very much. What about you?
+Bot(1): i like to go to the gym and listen to music .
+User(2): Me too. After I play some games.
+Bot(2): i love to play soccer , but i like to play soccer .
+User(3): Is it?. I like Volley ball very much.
+Bot(3): i do not know how to play the guitar .
+User(4): Me too. But I know to play the drum.
+Bot(4): i like to go to the gym and listen to music .
+User(5): I like to go to ground to do some physical exercise.
+Bot(5): i love to cook . i love to cook .
+User(6): i love to eat.
+Bot(6): i like to eat fish .
+User(7): I like flesh. Which your favorite breakfast?
+Bot(7): i like pizza , and pizza .
+User(8): My favorite too.
+Bot(8): i like to go to the gym and listen to music .
+User(9): I like watch videos.
+Bot(9): i like to go to the gym and listen to music .
+User(10): I too. But!
+Bot(10): i love to go fishing .
+User(11): I like driving.
+Bot(11): i like to go to the beach and listen to music .
+User(12): ok. bye.
+Bot(12): i like to go to the gym and listen to music .
+User(13): i like to watch videos
+Bot(13): i like to read too .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.29
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 99
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i like to listen music
+Bot(1): i love music as well !
+User(2): most of the time i spend my time hear music
+Bot(2): that is what i do most of the time also
+User(3): i always with headphone
+Bot(3): noise canceling headphones were the answer when i was growing up
+User(4): it's right.
+Bot(4): noise canceling headphones were the answer when i was growing up
+User(5): i play with loud sound
+Bot(5): noise canceling headphones were the answer when i was growing up
+User(6): ok. well.
+Bot(6): sometimes if it is to loud it gives me a headache
+User(7): for me may not.
+Bot(7): yeah and that is okay . too . you can always listen .
+User(8): do you use headphone?
+Bot(8): i plug it into my audio socket on my cd player
+User(9): ok. well
+Bot(9): ok
+User(10): what kind of music you listen?
+Bot(10): any i can listen and it comes
+User(11): i like soft music only
+Bot(11): i like soft music . my ears can not do hard music .
+User(12): i like melody.
+Bot(12): ok
+User(13): do you listen always music?
+Bot(13): most of the time i do .
+User(14): Morning?
+Bot(14): sometimes i get woke up
+User(15): i only in the evening time.
+Bot(15): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.43
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i like watch videos
+Bot(1): I like like your Spanish and to walk with my son.
+User(2): i like English much
+Bot(2): That just want to have you find a new one soon!
+User(3): language is only understand of people.
+Bot(3): I have action role-playing .
+User(4): i live as role.
+Bot(4): that's a good way to say , wine. I even watched a you are very rude .
+User(5): no. i am so soft. you?
+Bot(5): for a do you like cars .
+User(6): yes. i like so much.
+Bot(6): my hobbies are watching films to tell saying about come visit.
+User(7): Which film like so much
+Bot(7): i am a huge gamer red am 22 years a very good person .
+User(8): i like play online game
+Bot(8): you should go to to go to the really a better job . how is it going ?
+User(9): playing game only in leisure time only.
+Bot(9): would you like to marry one of my tried it? It's very populat will sell one . 😂
+User(10): no. i committed
+Bot(10): that too. everyone likes this is it of i m from russia what about you
+User(11): i am from usa.
+Bot(11): I do, don't like running that's am a doctor.
+User(12): i am a financier.
+Bot(12): i love basketball , hate do you like is the rise .
+User(13): no. i like volley ball
+Bot(13): I love it you alone.😀
+User(14): ok. thanks.
+Bot(14): i like to sing , but music you How old is scared of what others would think lol. Also, try to guess: i don't pick ...
+
+Persona:
+i grew up on a farm.
+my daughter is a child prodigy.
+i dream of moving to the city.
+my parents were both very athletic.
+i'm fluent in english spanish and french.
+
+Topic and Human Opinion:
+Beginning: video(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.57
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 99
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i always like to eat.
+Bot(1): i love to go hiking in the summer .
+User(2): no. I never.
+Bot(2): i love to go hiking in the summer .
+User(3): i am in the season
+Bot(3): i am a dancer , i am a dancer .
+User(4): i am a doctor
+Bot(4): i am a dancer , i am a comedian .
+User(5): i always buzzy in my job
+Bot(5): i am a dancer , i am a famous singer .
+User(6): i sing little.
+Bot(6): i am a dancer , i am a famous singer .
+User(7): not a famous one.
+Bot(7): i am a comedian . i am a comedian .
+User(8): i a humor.
+Bot(8): i am a comedian . i am a comedian .
+User(9): i like to comedy.
+Bot(9): i like to sing songs from the 80s
+User(10): i like new one 20s
+Bot(10): i like to sing songs from the 80s .
+User(11): i like very old.
+Bot(11): i like to sing songs from the 80s .
+User(12): me too.
+Bot(12): i like to sing songs from the 80s
+User(13): i always eat
+Bot(13): i love to eat . i am a sucker for a good book .
+User(14): me too.
+Bot(14): i love to eat . i am a sucker for a big deal .
+User(15): well.
+Bot(15): i love to eat . i am a sucker for a good book .
+
+Persona:
+i am a famous twitch streamer.
+i love to sing songs from the movie frozen.
+my next language to study is french.
+i was raised in a single parent household.
+i like to go hiking in the mornings to see the sunset.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.29
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 99
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i like to dance
+Bot(1): hi , i love different types of dances , what do you like ?
+User(2): western.
+Bot(2): my mother ballerina is so good
+User(3): in dance?
+Bot(3): i do not know . i like dance . i am a member of a competitive dance team .
+User(4): i don't. but i like to watch
+Bot(4): whatever works . my moms a dancer
+User(5): good. keep it up.
+Bot(5): i dance for money . but not like the bad kind
+User(6): like club?
+Bot(6): i do not know . i like dance . i am a member of a competitive dance team .
+User(7): have you won any prizes
+Bot(7): no . if you win , will you share with me
+User(8): No. i am a professional dancer.
+Bot(8): i see , my mom was a dancer
+User(9): i am eager to
+Bot(9): you want to be what ?
+User(10): watch her dance
+Bot(10): we could do all the dances
+User(11): ok.
+Bot(11): my mother ballerina is so good
+
+Persona:
+my mother is very traditional while i prefer to be more free spirited.
+i got a new job just yesterday to be a life coach.
+i now live in the city.
+i am a clean eater.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: dance(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.29
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 99
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i have working
+Bot(1): well it was a pleasure talking with you eve .
+User(2): i hate work
+Bot(2): how about pizza . i love pizza , i cannot imagine that anyone would hate that . . .
+User(3): i too. but i have no money.
+Bot(3): haha . great answer . saving up money to buy a beach condo ?
+User(4): how it is possible
+Bot(4): amen , amen , amen ! they are ! i read all the time ! christian fiction is my favorite !
+User(5): you correct. but i?
+Bot(5): i am going to invite him over to look at clouds . optimistic
+User(6): i like to walk on the road
+Bot(6): what is it you do on the road ?
+User(7): to receive fresh air.
+Bot(7): i have a bird named manny . did you know cinderella was true story ?
+User(8): no. i never hear it.
+Bot(8): that is awesome , i really enjoy new technology . do you use the stock market ?
+User(9): it is really usefull
+Bot(9): doing well what are your plans for the weekend ?
+User(10): watching movie
+Bot(10): what is your favorite movie ?
+User(11): spider man
+Bot(11): i need a job , i am a farmhand , the farm foreclosed . can hire me to kill spiders
+User(12): thanks
+Bot(12): at a news station . i have been featured in the news six times because of this .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Work(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.14
+Robotic(↓): 100
+Interesting: 100
+Fun: 99
+Consistent: 99
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+

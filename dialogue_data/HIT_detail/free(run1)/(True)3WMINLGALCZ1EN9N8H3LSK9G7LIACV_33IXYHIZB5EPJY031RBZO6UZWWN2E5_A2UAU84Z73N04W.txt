@@ -1,0 +1,286 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): Yes, I like to read
+Bot(2): i read a lot , i read alot
+User(3): What do you like to read?
+Bot(3): i like to read and read
+User(4): Do you like Thanksgiving?
+Bot(4): i love to read , i love to read
+User(5): What are your other hobbies?
+Bot(5): i like to read and read
+User(6): Do you read?
+Bot(6): i like to read and read
+User(7): change topic
+Bot(7): i like to read , read books
+User(8): what books do you like?
+Bot(8): i like to read and read
+User(9): what else?
+Bot(9): i like to read and read
+User(10): what is your favorite?
+Bot(10): i like to read and have a favorite
+User(11): bye
+Bot(11): i like to read and read
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Thanksgiving(like)
+Round 5: Sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 22.00
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 17
+Fluent: 37
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): what to you cook?
+Bot(2): i love to cook . i am a chef .
+User(3): what is your favorite?
+Bot(3): i like the color red . what is yours ?
+User(4): My favorite color is green. what about you?
+Bot(4): i like blue , i like the color blue .
+User(5): Do you barbecue and watch football on the weekend?
+Bot(5): i do not , but i do like to go fishing .
+User(6): do you watch professional fishing on tv?
+Bot(6): i do not really have a favorite . i like to read .
+User(7): what do you read?
+Bot(7): i like to read and write poetry .
+User(8): what are your other hobbies?
+Bot(8): i like to go fishing . i love to go fishing .
+User(9): Do you like sports?
+Bot(9): i do , i like to play soccer .
+User(10): Do you watch it on tv?
+Bot(10): no , i do not really like it . i like to go fishing .
+
+Persona:
+i have a weakness for vanilla ice cream.
+i haven't spoken in three months.
+i like riding horses.
+i won a gold medal in the 1992 olympics.
+i currently work for a watch dealer.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.29
+Robotic(↓): 100
+Interesting: 74
+Fun: 58
+Consistent: 85
+Fluent: 70
+Repetitive(↓): 31
+Topic: 52
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hello , do you like dogs ? i love animals , i have 2 dogs .
+User(2): Yes I like dogs. what kind do you have?
+Bot(2): i love dogs , i have two of them .
+User(3): what kind?
+Bot(3): all kinds , my job is at a veterinarian , and i own three dogs .
+User(4): What do you feed them?
+Bot(4): how many dogs do you have ?
+User(5): I have 1 dog. we go hiking and picnics together
+Bot(5): me too . a nice picnic in the park with my children and husband
+User(6): what food do you bring on your picnics?
+Bot(6): i am excited . why do you walk cemeteries ?
+User(7): I don't? do you?
+Bot(7): yes , i have five children and a dog .
+User(8): thats a lot
+Bot(8): i am alright . just watching my children and dogs
+User(9): cool. what are they doing?
+Bot(9): the ones i have are nice . i have 10 of them .
+User(10): 10 of what?
+Bot(10): i am only five years older than you , do you play soccer ? i do .
+
+Persona:
+i have three children.
+i have three dogs.
+i enjoy going to the park.
+i love rollercoasters and sky diving.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 13
+Fun: 0
+Consistent: 0
+Fluent: 34
+Repetitive(↓): 100
+Topic: 3
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi!
+Bot(1): Hi to meet are you?
+User(2): I am good. How are you?
+Bot(2): I like football, construction worker i hockey more😉
+User(3): Do you enjoy television?
+Bot(3): I am speed are you want the game of thrones.
+User(4): no. do you?
+Bot(4): Wow, that is did you go triathlons.
+User(5): No i don't. Do you watch the olympics?
+Bot(5): yes that is it , i hate socializing i get nervous so bad. how in two am a evening ? 🤖
+User(6): What do you mean?
+Bot(6): Oh, I know it is shelter in Seattle am you want to do?
+User(7): no
+Bot(7): oh you are so then
+User(8): what is your favorite television show?
+Bot(8): Me was it? I me bikiniwax treatment.
+User(9): Do you own a television?
+Bot(9): I are same, why and bike.
+User(10): you like to bike?
+Bot(10): what do i am a work?
+
+Persona:
+mickey mouse is my favorite character.
+i've a cat named spook.
+i'm scared of dying.
+i own a yacht and i rent it out when i am not using it.
+my favorite color is blue.
+
+Topic and Human Opinion:
+Beginning: Television(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 5
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): Are you big into social media?
+Bot(2): yes
+User(3): what is your favorite platform?
+Bot(3): i really like social media
+User(4): what kind?
+Bot(4): i really like social media
+User(5): tell me more
+Bot(5): i really like social media
+User(6): I like following dogs on instagram
+Bot(6): i really like social media
+User(7): what is your favorite influencer?
+Bot(7): i really like social media
+User(8): do you have instagram?
+Bot(8): no . i do not use social media .
+User(9): I thought you really liked i?
+Bot(9): not much fan of social media though
+User(10): bye
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Social Media(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 8
+Fluent: 19
+Repetitive(↓): 100
+Topic: 87
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hello , how are you ? i am home with my son .
+User(2): how old is he?
+Bot(2): he is going to be 8 , this month
+User(3): is he excited for the upcoming holidays?
+Bot(3): he is going to be 8 , this month
+User(4): Have you made any plans?
+Bot(4): i have not made plans yet , i do not have enough money to
+User(5): sorry to hear that
+Bot(5): his birthday was the 11
+User(6): Did you celebrate and have a party?
+Bot(6): we had a big party this weekend
+User(7): was there cake?
+Bot(7): no , there are many young children there to play with him .
+User(8): did he have friends at the party?
+Bot(8): we had a big party this weekend
+User(9): how was it?
+Bot(9): big party . . it was amazing
+User(10): thats great. did he get a lot of gifts?
+Bot(10): yeah his birthday was a couple days ago
+
+Persona:
+i've a son who is in junior high school.
+my favourite skater is rob dryden.
+i enjoy sports such as running.
+i diet a lot.
+i play several instruments.
+
+Topic and Human Opinion:
+Beginning: Holidays(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.00
+Robotic(↓): 100
+Interesting: 77
+Fun: 67
+Consistent: 100
+Fluent: 83
+Repetitive(↓): 23
+Topic: 100
+
+####################
+

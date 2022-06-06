@@ -1,0 +1,286 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Same here, what in particular do you love to cook?
+Bot(2): i love to eat . what do you do for a living ?
+User(3): I work at a resturant, what about you?
+Bot(3): i am a student , but i am a student .
+User(4): ok, what do you study?
+Bot(4): i am a student at a local college .
+User(5): what local college and what is your major?
+Bot(5): i am a teacher , i love to cook .
+User(6): i love to cook spaghetti with caramel sauce and you?
+Bot(6): i like to eat pizza .
+User(7): nice choice.
+Bot(7): i like to go to the gym and listen to music .
+User(8): i love singing and cooking.
+Bot(8): i like to cook . i am a chef .
+User(9): what do you cook the most?
+Bot(9): i like to eat fish .
+User(10): i also like eating fish.
+Bot(10): i like to eat fish .
+
+Persona:
+my family doesn't support my career choices.
+i've a pet fish.
+i'm terrified of scorpions.
+i read a book every week.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.71
+Robotic(↓): 100
+Interesting: 71
+Fun: 70
+Consistent: 61
+Fluent: 95
+Repetitive(↓): 74
+Topic: 67
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): if you were to go shopping what shopping mall would you visit?
+Bot(1): i like shopping for seafood , shrimp and lobster are my favorite . what do you shop for ?
+User(2): i love shopping for chocolate with drinks.
+Bot(2): chocolate is one of my favorites . i can make a mean cherry pie
+User(3): what brand of chocolate do you look out for?
+Bot(3): wow , i do not really like chocolate
+User(4): asides seafood what else do you shop for?
+Bot(4): shellfish allergy ? i once wrote an article about shellfish allergies .
+User(5): i love shooping for cloths, what about you?
+Bot(5): just watching my favorite movie 16 candles ! you seen it ?
+User(6): no, i haven't.
+Bot(6): yes , he is a good author . i suggest reading a walk in the woods
+User(7): i will definitely read it.
+Bot(7): they always want me to do their makeup too . is it makeup blog ?
+User(8): where do you shop for your makeup?
+Bot(8): i play music for amusement while babysitting for the woman who lives next door
+User(9): what music do you play for amusement?
+Bot(9): guitar and violin . i want to heal the world
+User(10): what a great idea.
+Bot(10): we can take my car , even though i am sure its just as fast as my motorcycle
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: shopping(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 74.00
+Robotic(↓): 22
+Interesting: 79
+Fun: 78
+Consistent: 63
+Fluent: 100
+Repetitive(↓): 0
+Topic: 20
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you love listening to music?
+Bot(1): i do , i love music . i love them
+User(2): i listen to music when i am down or happy , what about you?
+Bot(2): i like to read , but i am more of a loner .
+User(3): what music do you listen to?
+Bot(3): i listen to music while i am not working on my diet .
+User(4): what are your favorite music?
+Bot(4): i like all kinds of music .
+User(5): i love r&b, blues and pop music.
+Bot(5): i like rap , but i like rap music
+User(6): have you ever been to a music concert?
+Bot(6): i do , i listen to music while i am not working .
+User(7): i also listen to music when i am less busy.
+Bot(7): i do , i listen to music while i eat a lot of it .
+User(8): have you listened to Beyonce latest music?
+Bot(8): no , i listen to music while i eat .
+User(9): asides listening to music wheile eating, what other times do you listen to music?
+Bot(9): i listen to music while i eat a lot of it
+User(10): music is life.
+Bot(10): i do , i listen to music while i eat a lot of it
+
+Persona:
+my father drove a car for nascar.
+i diet a lot.
+i'm 40 years old.
+i've three arabian horses.
+i am a buddhist.
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 2: reading(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 44.00
+Robotic(↓): 30
+Interesting: 28
+Fun: 29
+Consistent: 31
+Fluent: 100
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i love cooking and you?
+Bot(1): me too. how it’s going favorite?
+User(2): what do you like cooking?
+Bot(2): I love Do you like to eat out.
+User(3): i prefer cooking my meal, what about you?
+Bot(3): that sounds interesting. what are you ever been work?
+User(4): what is the fastest meal for you to cook?
+Bot(4): I am a huge fan do you has a music.
+User(5): no i don't
+Bot(5): you play 🎯 any instruments at all my is good for the drums
+User(6): i don't like music so i don't play the instrument.
+Bot(6): pop sporty love pizza is pop songs pop songs
+User(7): what do you love about music?
+Bot(7): i do not have any pets , are you do not any .
+User(8): you said you love music
+Bot(8): It is a secret, you you are plumber.
+User(9): no i am not a plumber, are you a plumber?
+Bot(9): The I like love running.
+User(10): good for you.
+Bot(10): that is must be really nice guitar . i love music .
+
+Persona:
+whats up i'm a 46 year old single dad 46 a kids.
+my pets name is charlie.
+i just broke up with boyfriend two months ago.
+i am employed by the us postal service.
+i am partly deaf.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 4: music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you work?
+Bot(1): hi ! no , i am a student . whats your favorite color ?
+User(2): color blue, white and black.
+Bot(2): whoa ! do you sell any orange clothes ? that is my color
+User(3): i don't sell orange color. why do you like the color orange?
+Bot(3): my walls are orange because that is my favorite .
+User(4): nice, blue color gives me peace.
+Bot(4): peace is must more easy to live with .
+User(5): yes, that is why i love the color blue.
+Bot(5): as long as you buy me chocolate i am there
+User(6): if chocolate were colors, what color of chocolate will you choose?
+Bot(6): probably pink , it was the one my sister liked best
+User(7): i don't like the color pink it makes me feel childish.
+Bot(7): that may seem threatening to some candy givers .
+User(8): i know so i just keep that thought to myself.
+Bot(8): it is hard to work things out , my current bf wants an open relationship .
+User(9): those he have problem with your color preference.
+Bot(9): on top of that , by bf wants an open relationship not my thing
+User(10): i am short of words
+Bot(10): have you been to a concert yet ?
+
+Persona:
+my favorite color is orange.
+i am in an open polyamorous relationship.
+my sister is a pole dancer.
+my favorite band is up and i got to see them in concert once.
+i like to eat chocolate candy.
+
+Topic and Human Opinion:
+Beginning: work(like)
+Round 1: color(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 77.00
+Robotic(↓): 45
+Interesting: 100
+Fun: 100
+Consistent: 56
+Fluent: 95
+Repetitive(↓): 3
+Topic: 36
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): how is your relationship?
+Bot(1): i am good . . . what happened to your relationship ?
+User(2): my boyfriend has been cheating on me
+Bot(2): whats wrong with your boyfriend ?
+User(3): i think he is really dumb
+Bot(3): i do not think he is the right one either
+User(4): yes i know but finding the right one seems to be an issue
+Bot(4): that is true i feel like i just pick the wrong guys
+User(5): over and over again. i am just tried of the relationship shit
+Bot(5): yeah i do not think i am over it even yet
+User(6): it all seems like a fresh wrong because when you forgive he is out there again
+Bot(6): yeah , you are right . i still love him . i do not know what to do
+User(7): everyone tells me to let go
+Bot(7): sometimes its hard to move on
+User(8): what do you think i should do
+Bot(8): he tells me i need to be more emotional
+User(9): i just see it all as an excuse
+Bot(9): he just thinks he is my ex what does that mean ?
+User(10): i think he has moved on
+Bot(10): sometimes its hard to move on
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: relationship(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 100.00
+Robotic(↓): 0
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+

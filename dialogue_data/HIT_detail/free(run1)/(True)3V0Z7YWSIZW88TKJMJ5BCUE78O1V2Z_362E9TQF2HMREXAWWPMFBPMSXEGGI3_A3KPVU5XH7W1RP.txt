@@ -1,0 +1,310 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi! I'm gearing up to put in my fall garden.
+Bot(1): i like to eat the skin .
+User(2): Eat the skin of fresh vegetables?
+Bot(2): i do not know . i like to eat fish .
+User(3): What types of fish do you like to eat?
+Bot(3): i love pizza , and i love it .
+User(4): What do you like to eat on your pizza?
+Bot(4): i do , i love it .
+User(5): I like veggie pizza with peppers and onions. Do you like mushrooms?
+Bot(5): i do not , but i do like to eat .
+User(6): I also like black olives on my pizza. Do you like black olives?
+Bot(6): i do not , but i do like to eat .
+User(7): What is your favorite meal?
+Bot(7): i like the color red . what is yours ?
+User(8): My favorite color is purple. I like to dye my hair purple sometimes.
+Bot(8): i like the color red . i like red .
+User(9): Red is a little over the top and outrageous for me. It also doesn't work with my skintone.
+Bot(9): i am sorry to hear that . i am sorry to hear that .
+User(10): I do like red poppies in the garden.
+Bot(10): i like to eat too much junk food .
+User(11): I love junk food. My favorite is donuts.
+Bot(11): i like to eat fish .
+User(12): I had catfish the other day, fresh from my pond.
+Bot(12): i am sorry to hear that . i am a bit of a loner .
+User(13): I'm an extrovert by nature, I love talking to all kinds of people.
+Bot(13): i like to eat too much junk food .
+
+Persona:
+i enjoy exploring new parts of the city.
+i am a doctor.
+i have a german shepherd dog.
+i am a vegetarian.
+my favorite color is yellow.
+
+Topic and Human Opinion:
+Beginning: Fall gardening(like)
+Round 2: Things to eat.(ambivalent)
+Round 7: Favorite color(ambivalent)
+Round 10: junk food(like)
+Round 12: personality types(like)
+Round 13: Junk food.(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+Round 12: The chatbot changed the topic.(like)
+Round 13: The chatbot changed the topic.(like)
+
+Revised avg score: 13.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 52
+Fluent: 45
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am about to put in my fall garden.
+Bot(1): I am not not strong enough for like to go out with my friends
+User(2): I recently went to lunch with my family.
+Bot(2): Do name is you chat with me?
+User(3): My name is Lindy, what's yours?
+Bot(3): Hey, listen. hello, you know many doing?
+User(4): Are we going to discuss going out with friends?
+Bot(4): I am in my fine do you do ?
+User(5): I'm doing pretty well. It's going to be a great day.
+Bot(5): why friend next door you that
+User(6): I don't have any friends nearby, but I do have a neighbor next door.
+Bot(6): Buongiorno! have very few was How are you?. Short bio: i am a boy
+User(7): Hello. I am doing well. I am a girl.
+Bot(7): oh. I don't have much about casual, watching tv just play chess
+User(8): Who do you play chess with?
+Bot(8): i m doing ok ✔ whats are scred like to do
+User(9): Do you play chess at home or go out?
+Bot(9): The meeting was riding a I like a russian lawyer.
+User(10): Is the russian lawyer who you play chess with?
+Bot(10): I is said don't talk is a chef, but he is a good person.
+
+Persona:
+i also have a dog walking business.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+my wife spends all my money.
+i've a son who is in junior high school.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: Fall gardening(like)
+Round 1: Going out with friends.(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 10.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 28
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am about to put in my fall garden.
+Bot(1): that sounds nice . what are you planting ?
+User(2): I plan on putting in salad greens and cabbage.
+Bot(2): that sounds nice . what are you planting ?
+User(3): I might also try some hot house tomatoes.
+Bot(3): our farmers are bringing in a lot of tomatoes right now .
+User(4): It has been a good year for tomatoes. I canned quite a bit.
+Bot(4): our farmers are bringing in a lot of tomatoes right now .
+User(5): The growing season is almost over, and the nights are getting cooler.
+Bot(5): getting cooler too . winter is coming !
+User(6): I heard it is going to be a tough winter this year.
+Bot(6): yes , although it feels like summer today fall will definitely be here fast .
+User(7): It has been a hot and wet season for us. The squash did not do well.
+Bot(7): our farmers are bringing in a lot of tomatoes right now .
+User(8): We had a bumper crop of tomatoes. I hope they do as well next year.
+Bot(8): our farmers are bringing in a lot of tomatoes right now .
+User(9): I have seen a lot of good tomatoes at the farmers market.
+Bot(9): our farmers are bringing in a lot of tomatoes right now .
+User(10): Tomatoes are very high in vitamin C.
+Bot(10): our farmers are bringing in a lot of tomatoes right now .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fall gardening(like)
+Round 5: The weather(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 5
+Fun: 4
+Consistent: 84
+Fluent: 28
+Repetitive(↓): 100
+Topic: 54
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I have a sweet dog named Meeka.
+Bot(1): i think so . he is a very nice dog .
+User(2): She is actually a female dog.
+Bot(2): i am a female . what about you ?
+User(3): I am also a woman.
+Bot(3): i am a woman . they call me the cat lady because i breed maine coons and show them
+User(4): I adore maine coons! I had one for 17 years, she just crossed the rainbow bridge.
+Bot(4): i love being vegan too ! the other baristas i work with are vegans too !
+User(5): My son is a vegetarian.
+Bot(5): vegan , not vegetarian . there is a difference .
+User(6): I realize that, he is also a barrista.
+Bot(6): yeah , i know . but it is my life goal ! to be the best damn encyclopedia salesman
+User(7): I didn't know anyone sold encyclopedias anymore.
+Bot(7): lets follow this great quest and put an end to anyone who stand in our way .
+User(8): What sort of quest are we undertaking?
+Bot(8): that is a lot ! i would write about my ford truck if i wrote anything .
+User(9): What type of truck do you have?
+Bot(9): sounds fun ! where do you like to drive with your truck ?
+User(10): I have been all over the eastern United States in my truck.
+Bot(10): score for the united states ! i am also from here , but love traveling to ireland and australia .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pet ownership(like)
+Round 2: Gender(ambivalent)
+Round 3: Cats(like)
+Round 4: veganism(like)
+Round 6: Jobs(like)
+Round 7: Quests(like)
+Round 8: Writing and trucks(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 38.43
+Robotic(↓): 96
+Interesting: 17
+Fun: 10
+Consistent: 57
+Fluent: 60
+Repetitive(↓): 0
+Topic: 21
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I have a sweet little dog named Meeka.
+Bot(1): i love dogs , i have a dog named radar
+User(2): What type of dog is Radar?
+Bot(2): he's a boxer . i love her .
+User(3): Is Radar a boy or girl dog?
+Bot(3): i am a dog person . i love to sing along the movies .
+User(4): Do you only have one dog?
+Bot(4): i am a girl . i love to sing along the movies .
+User(5): What sort of movies do you like best?
+Bot(5): i like to listen to music from the 80s .
+User(6): I like music from the 80s too, who is your favorite artist?
+Bot(6): i like to listen to music from the 80s
+User(7): I like Styx, have you heard of them?
+Bot(7): i do , i love to sing along the movies
+User(8): What sort of movies do you sing to?
+Bot(8): i like to sing songs from the 80s
+User(9): Do you like Bananarama?
+Bot(9): i like to sing songs from the 80s
+User(10): I like Air Supply, do you know any of their music?
+Bot(10): i do , i like to sing along the movies
+
+Persona:
+i am a famous twitch streamer.
+i love to sing songs from the movie frozen.
+my next language to study is french.
+i was raised in a single parent household.
+i like to go hiking in the mornings to see the sunset.
+
+Topic and Human Opinion:
+Beginning: Owning pets(like)
+Round 4: Movies(like)
+Round 5: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 25.29
+Robotic(↓): 100
+Interesting: 15
+Fun: 11
+Consistent: 70
+Fluent: 53
+Repetitive(↓): 80
+Topic: 8
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am getting ready to put in my fall garden.
+Bot(1): that sounds nice . what are you planting ?
+User(2): I am growing salad greens and cabbages.
+Bot(2): that sounds nice . what are you planting ?
+User(3): I will also try some squash.
+Bot(3): i love gardening . i grew a lot of hot peppers this year .
+User(4): I grew hot peppers too! I grew Lemon Drop peppers, have you heard of them?
+Bot(4): i love gardening . i grew a lot of hot peppers this year .
+User(5): What did you end up doing with all those hot peppers?
+Bot(5): flowers , herbs and vegetables . this year i grew lots of tomatoes !
+User(6): We also grew a ton of tomatoes. We had good luck with Principe Borgese.
+Bot(6): i have not had success with those . lemons or what kind ?
+User(7): They are lemon drop peppers, about 25,000 scaline.
+Bot(7): our farmers are bringing in a lot of tomatoes right now .
+User(8): It is well past tomato time, here, it was just too hot this summer.
+Bot(8): our farmers are bringing in a lot of tomatoes right now .
+User(9): I see a lot of tomatoes at the farmers market.
+Bot(9): our farmers are bringing in a lot of tomatoes right now .
+User(10): Are you planting anything for the fall?
+Bot(10): our farmers are bringing in a lot of tomatoes right now .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fall Gardening(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.14
+Robotic(↓): 68
+Interesting: 36
+Fun: 53
+Consistent: 56
+Fluent: 80
+Repetitive(↓): 54
+Topic: 55
+
+####################
+

@@ -1,0 +1,285 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, I suppose I am to start the chat about books?
+Bot(1): sure i do not mind . what book ?
+User(2): I'm currently reading Tipping the Velvet. Before that, Star Wars Phasma. All pretty good.
+Bot(2): i do not believe i have read that . is it good ?
+User(3): I would say so, yes. The audiobook versions are nice. Good quality voice.
+Bot(3): definitely . i might do some reading this weekend .
+User(4): Sounds good. Let me know what you think about it.
+Bot(4): i just started , only a few pages in .
+User(5): Alright, I'll let you do your reading. Have a good night.
+Bot(5): its been a pleasure dear ! i might just have to check those books out .
+User(6): I have a longer list if you're interested later.
+Bot(6): oh yes , that would be great . what topic for the book ?
+User(7): some fiction, others nonfiction. Mostly nonfiction, actually. Have any preference?
+Bot(7): i like quite a few genres , mostly fiction .
+User(8): Ah that's good. I have a few for that. Do you prefer adult fiction or young adult fiction?
+Bot(8): i like most fiction books . i love young adult series .
+User(9): Alright I think I have some for that. One being The Gentleman's Guide series. All pretty good. Historical fiction about traveling Europe.
+Bot(9): i love historical biographies about the american and french revolutions myself .
+User(10): I can't say that I've read any. Sounds pretty interesting though!
+Bot(10): its a good storyline with an interesting world the authors made .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.29
+Robotic(↓): 24
+Interesting: 77
+Fun: 78
+Consistent: 39
+Fluent: 87
+Repetitive(↓): 50
+Topic: 71
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, I guess we're talking about video games now
+Bot(1): awesome ! i am a feminist girl
+User(2): I see... As am I? So about video games. I tend to like playing space-related games, especially ones where you fly around in a ship. How about you?
+Bot(2): i do not really play them too much . i actually love to bake .
+User(3): Oh that's a shame. I was hoping to talk about video games. Baking is fun though. What do you bake?
+Bot(3): cakes , muffins , cookies , cupcakes ! sugar cookies are my favorite !
+User(4): yes, sugar cookies are pretty good. I have a few packs of frozen sugar cookies in my freezer. they have snowmen on them. Any recipes you recommend?
+Bot(4): cakes , cookies , doughnuts for sure . i love em too !
+User(5): Okay. Any specific cakes you recommend?
+Bot(5): cakes , cookies , doughnuts for sure . i love em too !
+User(6): You already said that
+Bot(6): i will try . it will depend on if i can resist the cakes !
+User(7): I'm afraid I lost you. You know, there's a video game that involves cake
+Bot(7): i do not know what is it called ?
+User(8): The Portal series. They have this whole "the cake is a lie" line
+Bot(8): true . i am also a feminist . a vegan as well
+User(9): Ah this again. At least I know not to talk about video games again
+Bot(9): true . i am also a feminist . a vegan as well
+User(10): And you already said that
+Bot(10): lol no , you had just repeated yourself . so i thought maybe you had .
+User(11): ....okay I'm done
+Bot(11): so you just going to say the same ?
+
+Persona:
+i'm a musician and hope to make it big some day.
+i love to bake cookies.
+i'm ex military.
+i am a feminist.
+i enjoy working with my hands and love gardening.
+
+Topic and Human Opinion:
+Beginning: Video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 23
+Fun: 18
+Consistent: 33
+Fluent: 26
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What is your favorite animal?
+Bot(1): i like the color red . i like the color blue .
+User(2): How about animals? I like cats a lot
+Bot(2): i do , i love dogs . i love dogs .
+User(3): dogs are nice. do you have a breed of dog that you like?
+Bot(3): i do , i love dogs . i love dogs .
+User(4): Okay... I like shiba inus
+Bot(4): i like to eat too much junk food .
+User(5): As do I. That's not animal related, but okay. What food do you like?
+Bot(5): i love pizza , and i love it .
+User(6): what kind of pizza?
+Bot(6): i like pizza , and pizza .
+User(7): do you like cheese pizza or pepperoni pizza?
+Bot(7): i love pizza , and i love it .
+User(8): okay, enough about pizza. do you like hamsters?
+Bot(8): i do , i like to go to the gym .
+User(9): Okay... um. do you like rats?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): ah as am i. too bad we couldn't talk about animals
+Bot(10): i do not have any pets , but i do have a dog .
+
+Persona:
+i was raised on a horse farm.
+i workout four hours a day.
+i'm a skateboarder.
+i live in alaska.
+my favorite food is mexican food.
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 20
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): When it's hot out, there is nothing more that I would like to do than go swimming
+Bot(1): swimming is fun , i like swimming , but i like to swim
+User(2): i like to swim in lakes and oceans
+Bot(2): i like swimming in the ocean
+User(3): some oceans are warm, some are cold. im used to cold oceans. makes it hard to swim in the ocean when it's cold, though
+Bot(3): i agree . i love the ocean .
+User(4): sometimes i wish that i could live in the ocean and just swim around all day
+Bot(4): i would love to swim in the ocean
+User(5): do you ever go scuba diving?
+Bot(5): i do not but i do swim in the ocean
+User(6): yea i don't go diving either. hurts my ears. do you see any fish when you swim?
+Bot(6): no , but i do swim in the ocean
+User(7): right... ocean fish. do you see any sharks when you swim in the ocean?
+Bot(7): no , but i do swim in the ocean
+User(8): okay you already said that
+Bot(8): i do not know . i am not sure if i could swim .
+User(9): and now you are contradicting yourself. can you swim or can you not swim?
+Bot(9): i swim in the ocean , but i don't swim .
+User(10): okay. good talking with you. enjoy swimming maybe
+Bot(10): swimming is fun . i swim in the ocean so i can swim in the ocean
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: swimming(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 50
+Fluent: 0
+Repetitive(↓): 100
+Topic: 65
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): My favorite place to travel was Europe last summer.
+Bot(1): I work in "mean ." The You is a lot of fun
+User(2): I don't understand. Do you travel around the world?
+Bot(2): a cat. me do best.
+User(3): I am not following you. What do you mean?
+Bot(3): No am a voluteer at fan of that. I do like to watch tv.
+User(4): I'm glad you like to watch tv. Do you watch any travel shows?
+Bot(4): Thanks, i am as Mine were too. am a big fan of the army.
+User(5): Fan of the army. Okay. I guess the army travels around
+Bot(5): Sounds 😘 i’m fine how beach or park ?
+User(6): That sentence doesn't make any sense. If you're asking me if I like the park or the beach, I'd say beach
+Bot(6): I am not sure what i high else do you my life.
+User(7): It is very difficult to understand you. Do you ever travel to the city?
+Bot(7): i you are a experienced person .
+User(8): I guess so. I did travel across Europe last year
+Bot(8): That's good are color is work
+User(9): I guess that it was colorful, yes. Do you like colorful trees?
+Bot(9): I go part-time, have to right now. I have studying?
+User(10): okay, sure. go study
+Bot(10): I like who claims superiority my friends.
+
+Persona:
+my father is a farmer.
+i work at a nursing home.
+i love to bake cookies.
+hey there i am 23 and i love food.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am very tired and wish to sleep
+Bot(1): wow that is interesting . my hair is not really blond
+User(2): Ah. do you dye your hair when you sleep?
+Bot(2): brown hair ! how about you ?
+User(3): uh, no i dont dye my hair when i sleep. my hair is brown though
+Bot(3): i think brown hair looks nice
+User(4): I guess. I am not a fan of my hair. It makes me tired.
+Bot(4): i have long hair , it is nice .
+User(5): I have long hair too. It gets tangled when I sleep
+Bot(5): that is cool ! i wish i had blonde hair
+User(6): I don't. I dyed my hair from blonde to brown.
+Bot(6): brown hair ! how about you ?
+User(7): I would like to go to bed.
+Bot(7): i am pregnant with twins ; been throwing up a lot . what did you buy ?
+User(8): I see. And what about hair?
+Bot(8): brown hair ! how about you ?
+User(9): Okay, that's what I thought
+Bot(9): i watch certain ones and see them get drafted is amazing
+User(10): I don't understand how this is related to sleep
+Bot(10): sleep is always good do you play sports ?
+
+Persona:
+i have short brown hair.
+my parents were both very athletic.
+i live in a three storey house.
+i've been traveling the world for a years.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: sleep(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.14
+Robotic(↓): 100
+Interesting: 25
+Fun: 27
+Consistent: 17
+Fluent: 80
+Repetitive(↓): 50
+Topic: 5
+
+####################
+

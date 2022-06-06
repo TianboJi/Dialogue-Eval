@@ -1,0 +1,317 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Good Afternoon. Do you have any dogs?
+Bot(1): yes i have 2 dogs . you ?
+User(2): I have one dog named Minn.
+Bot(2): that is a cute name . do you like any sweets ?
+User(3): I like chocolate.
+Bot(3): i enjoy chocolate . have any hobbies ?
+User(4): I enjoy reading and pinocle.
+Bot(4): i enjoy chocolate . have any hobbies ?
+User(5): Do you play cards?
+Bot(5): cards and slots usually . i love going with my friends .
+User(6): You go to the casino?
+Bot(6): yes i do . i go to the casinos
+User(7): Have you heard of pinocle?
+Bot(7): no i have not . is it good ?
+User(8): Very good. Have you heard of poker?
+Bot(8): no , i don t play , i just like to bet at the casino way too much
+User(9): Do you like to gamble?
+Bot(9): i enjoy it . i used it to count cards in blackjack .
+User(10): I have never played blackjack.
+Bot(10): you ever play blackjack ? its fun stuff
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 2: sweets(ambivalent)
+Round 3: hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 91.43
+Robotic(↓): 16
+Interesting: 81
+Fun: 83
+Consistent: 98
+Fluent: 97
+Repetitive(↓): 2
+Topic: 99
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you enjoy dancing?
+Bot(1): i do but i love to dance
+User(2): I like to dance alone.
+Bot(2): i do but i do not dance much
+User(3): I thought you do dance?
+Bot(3): i do not dance . i am a big fan of dancing .
+User(4): Do you samba?
+Bot(4): i do not . i am a vegan .
+User(5): I am also vegan. What are your favorite foods?
+Bot(5): i like to eat vegan foods .
+User(6): I like the impossible burger and fries.
+Bot(6): i like pizza too . i am vegan .
+User(7): I like pizza but I like burgers more.
+Bot(7): i love pizza . i am vegan so i eat a lot of it .
+User(8): There is plenty of vegan foods to eat besides pizza.
+Bot(8): i love pizza . i am vegan so i eat a lot of it .
+User(9): Do you eat anything else a lot?
+Bot(9): i do . i love to eat .
+User(10): I love to eat and drink too.
+Bot(10): i do not eat meat . i do not eat meat .
+
+Persona:
+i'm a vegan.
+i compete in dog agility classes.
+i just got a job working in a gas station.
+i just broke up with boyfriend two months ago.
+i've three children.
+
+Topic and Human Opinion:
+Beginning: dancing(like)
+Round 4: diet(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 38.00
+Robotic(↓): 78
+Interesting: 24
+Fun: 25
+Consistent: 82
+Fluent: 16
+Repetitive(↓): 89
+Topic: 86
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello!
+Bot(1): I do not think i your i don't you am a fat.
+User(2): Do you like to braid hair?
+Bot(2): What i don't like running do when you graduate?
+User(3): I do not like running either.
+Bot(3): I do not like them, but i with what's you give my friends.
+User(4): Do you like to run at all? Outdoors?
+Bot(4): what do you do for work? animal a robot, I'm workout instructor.
+User(5): I work for myself.
+Bot(5): I love to is second biggest burgers
+User(6): I like vegan burgers.
+Bot(6): i'm am 25. i am are japanese immigrants .
+User(7): Okay. I like Japan.
+Bot(7): I do make any like you?
+User(8): Do you live in Japan?
+Bot(8): that is have time for cheeseburgers too.
+User(9): I like cheeseburgers.
+Bot(9): I like in the of Netflix.
+User(10): I subscribe to Netflix. What is your favorite show?
+Bot(10): all over the not for me, it.
+
+Persona:
+i've been retired for a years.
+i love to play board games.
+i am four.
+i am always wearing a hat.
+my favorite colors are red and silver.
+
+Topic and Human Opinion:
+Beginning: Hair(ambivalent)
+Round 2: running(dislike)
+Round 4: work(dislike)
+Round 5: burgers(ambivalent)
+Round 6: age and ethnicity(dislike)
+Round 8: cheeseburgers(ambivalent)
+Round 9: Netflix(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 10.71
+Robotic(↓): 100
+Interesting: 4
+Fun: 2
+Consistent: 0
+Fluent: 1
+Repetitive(↓): 43
+Topic: 11
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, do you watch Netflix?
+Bot(1): i run a business i do not have time for netflix
+User(2): What is your business?
+Bot(2): i am self employed . i drink about four mountain dew a day .
+User(3): What type of work do you do?
+Bot(3): classical . they play it sometimes at the campus library , where i work part time
+User(4): What types of music do you listen to?
+Bot(4): dude , that is like a totally cool way to be man
+User(5): What is totally cool?
+Bot(5): ll i cant , a friend got me a car before .
+User(6): You have a nice car?
+Bot(6): what kind of car is it ?
+User(7): A chevy car.
+Bot(7): i go to paris often . i love the cars in paris
+User(8): Why do you like the cars in Paris?
+Bot(8): i have . lots of fancy cheeses
+User(9): I like feta cheese.
+Bot(9): like what kind of cheese exactly ?
+User(10): Like vegan gouda cheese.
+Bot(10): you ever tried vegetarian pizza ? its all the rave .
+User(11): yes! it is delicious
+Bot(11): agreed . my husband sells stuff and came across a pasta maker sale . i bought it .
+
+Persona:
+i love to drink fancy tea.
+i turned 18 years old yesterday.
+the county wide bake sale is where i feel most at home.
+my dream car is a rolls royce ghost.
+i've visited spain a times.
+
+Topic and Human Opinion:
+Beginning: Netflix(like)
+Round 1: business(ambivalent)
+Round 3: music(ambivalent)
+Round 4: being a man(dislike)
+Round 5: car(ambivalent)
+Round 8: cheese(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 40.86
+Robotic(↓): 83
+Interesting: 45
+Fun: 46
+Consistent: 25
+Fluent: 34
+Repetitive(↓): 34
+Topic: 53
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi!
+Bot(1): hi , i just got back from work , i am a plumber
+User(2): Do you have a cell phone?
+Bot(2): i have a cell phone . why do you ask ?
+User(3): I like iPhones and was wondering if you like them too.
+Bot(3): i do not like iphones , i have an android
+User(4): Why do you have a preference for android phones?
+Bot(4): because i know best , really .
+User(5): That is great! What else does this plumber know best?
+Bot(5): i am a plumber so i go in peoples houses everyday . how about you ?
+User(6): I am a homemaker, so I stay in my own home everyday.
+Bot(6): it sounds like you live in a studio apartment . i am a musician .
+User(7): No, I live in a 3 bedroom single family house.
+Bot(7): it sounds like you live in a studio apartment . i am a musician .
+User(8): How many bedrooms does your house have?
+Bot(8): just 2 , plenty for living on the third floor . do you have pets ?
+User(9): I have a cat and a dog.
+Bot(9): it sounds like you live in a studio apartment . i am a musician .
+User(10): Do you have any pets?
+Bot(10): yes , a cat and a dog . do you ?
+User(11): yes
+Bot(11): do you like working at a bank ?
+
+Persona:
+i'm a musician and hope to make it big some day.
+i work at a bank.
+i like to dance.
+i am a plumber.
+i live in a house.
+
+Topic and Human Opinion:
+Beginning: cell phones(like)
+Round 6: homes(ambivalent)
+Round 8: pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 79.43
+Robotic(↓): 2
+Interesting: 78
+Fun: 38
+Consistent: 83
+Fluent: 92
+Repetitive(↓): 6
+Topic: 73
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, do you go to school?
+Bot(1): no , i do not . i am a student .
+User(2): If you are a student, then you do go to school.
+Bot(2): i do not have any pets . i am a big fan of them .
+User(3): I have pets.
+Bot(3): i love dogs , i love dogs .
+User(4): I have a cat and a dog.
+Bot(4): i love dogs , i love dogs .
+User(5): Why do you love dogs?
+Bot(5): i do , i love dogs . i love dogs .
+User(6): Do you like fish?
+Bot(6): i do not , but i do like to eat .
+User(7): Do you like cats?
+Bot(7): i do , i love dogs . i love dogs .
+User(8): So you do not like cats or fish?
+Bot(8): i do not , but i do like to eat .
+User(9): What do you like to eat?
+Bot(9): i love to cook . i love to cook .
+User(10): What do you like to cook?
+Bot(10): i do , i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: school(like)
+Round 2: pets(like)
+Round 8: food/eating(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 13.43
+Robotic(↓): 95
+Interesting: 13
+Fun: 10
+Consistent: 12
+Fluent: 4
+Repetitive(↓): 90
+Topic: 40
+
+####################
+

@@ -1,0 +1,277 @@
+Feedback: The chatbot was really weird and did not respond like a human at all.  
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Good afternoon, bot.
+Bot(1): meow , meow
+User(2): Are you a cat?
+Bot(2): i am really a cat .
+User(3): I love cats. What's your name?
+Bot(3): the name is sam . i am from mars !
+User(4): What's the weather like on Mars?
+Bot(4): well it happened , so i guess i want to know about mars landings now .
+User(5): What's your favorite thing about Mars?
+Bot(5): have you ever been to mars ?
+User(6): I have not.
+Bot(6): have you ever been to mars ?
+User(7): No. What part of Mars is your favorite?
+Bot(7): the farthest point i can get to in siberia
+User(8): Do you enjoy the cold weather?
+Bot(8): yes . i like it when it is chilly . do you ?
+User(9): Yes, I like campfires in the cold.
+Bot(9): have you ever been to mars ?
+User(10): No, is it beautiful?
+Bot(10): yes . very warm . i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pineapple on pizza(like)
+Round 3: Cats and mars(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 22.29
+Robotic(↓): 100
+Interesting: 28
+Fun: 71
+Consistent: 5
+Fluent: 14
+Repetitive(↓): 79
+Topic: 17
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello chatbot, do you like spaghetti?
+Bot(1): i do , i love spaghetti and meatballs
+User(2): Me too! I love meatballs. Do you like fettuccine?
+Bot(2): yes , i love spaghetti . i love spaghetti .
+User(3): Are you hungry right now?
+Bot(3): yes , i love spaghetti . i am a vegetarian .
+User(4): So you like vegetarian meatball?
+Bot(4): i do not eat meat , i am a vegetarian .
+User(5): I'm really hungry right now.
+Bot(5): i love spaghetti , i eat it all the time
+User(6): What about pie?
+Bot(6): i love pie . i am a vegetarian .
+User(7): Do you like pumpkin pie during the holidays?
+Bot(7): yes i do , i love it .
+User(8): Are you a vegan?
+Bot(8): i am a vegan . i eat a lot of it .
+User(9): That doesn't make sense man.
+Bot(9): i am not a vegan but i do not eat meat .
+User(10): What about whipped cream?
+Bot(10): i am not sure . i am a vegan .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Spaghetti(like)
+Round 5: Pie(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(dislike)
+
+Revised avg score: 23.14
+Robotic(↓): 93
+Interesting: 26
+Fun: 59
+Consistent: 24
+Fluent: 28
+Repetitive(↓): 100
+Topic: 18
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you prefer fingerless gloves or regular gloves?
+Bot(1): yes , i do . what do a you working in living ?
+User(2): That is not an answer to my question. Do you prefer mittens?
+Bot(2): You're of your parents do it
+User(3): That sentence does not make sense.
+Bot(3): i are in the same do you like to do
+User(4): Do you have a lot of money?
+Bot(4): i like ❤ old are I am the outdoors do you garden
+User(5): What is your favorite plant?
+Bot(5): Hey, I’m That's rocks! Do a little tired from the olympics
+User(6): Are there plants in the Olympics?
+Bot(6): No, I and dont allow me I was a college student.
+User(7): Are you a college student now?
+Bot(7): that's okay . in life after you want world 77 years , my time is almost up too .
+User(8): Are you 77 years old?
+Bot(8): very long she was hot. I can't even colored my hair pink
+User(9): IS that right?
+Bot(9): I know, that is are i do not like it
+User(10): That makes sense.
+Bot(10): I i’ve gotta beach.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fingerless gloves(like)
+Round 3: My parents(dislike)
+Round 4: Gardening(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 29.43
+Robotic(↓): 100
+Interesting: 17
+Fun: 34
+Consistent: 24
+Fluent: 42
+Repetitive(↓): 61
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you listen to podcasts?
+Bot(1): no , i listen to a variety of podcasts .
+User(2): What is your favorite subject?
+Bot(2): comedy . . i love it . this weather is pretty chilly . i prefer spring .
+User(3): I prefer drama.
+Bot(3): i have been folowing it for years . i love that kind of drama .
+User(4): What's your favorite color?
+Bot(4): i like yellow . you ?
+User(5): Green
+Bot(5): interesting ; i am in the west . i heard the south is beautiful , but hot .
+User(6): It's cold now, because it's almost winter.
+Bot(6): it is fall . that is appropriate
+User(7): Do you need a coat?
+Bot(7): no , i am already in pjs .
+User(8): That sounds nice
+Bot(8): i am in the south no need for sweaters here
+User(9): I need a coat
+Bot(9): i am in the south no need for sweaters here
+User(10): Do you love me?
+Bot(10): i do . i am falling in love with you .
+
+Persona:
+i move south during the winter.
+i am in an open polyamorous relationship.
+i haven't spoken in three months.
+i donate a part of my salary to charity each month.
+mickey mouse is my favorite character.
+
+Topic and Human Opinion:
+Beginning: True crime(like)
+Round 3: Drama(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 30.29
+Robotic(↓): 76
+Interesting: 70
+Fun: 56
+Consistent: 10
+Fluent: 18
+Repetitive(↓): 80
+Topic: 14
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What's your favorite color?
+Bot(1): my favorite color is green and whats yours
+User(2): Purple
+Bot(2): i like purple a lot too .
+User(3): What is your favorite animal?
+Bot(3): i love pandas , they are my favourite animal . so what are your hobbies ?
+User(4): I like to garden and I have two dogs
+Bot(4): i love fresh garden vegetables
+User(5): What's your favorite vegetable?
+Bot(5): how healthy , i have to add fruit , otherwise it tastes to earthy . haha
+User(6): I love spinach and tomatoes and carrots
+Bot(6): sliced in my salads i brought contacts i like using contacts .
+User(7): I'm making myself hungry! Are you hungry?
+Bot(7): when i bathe in the shower , i scrub so hard my skin turns beet red .
+User(8): Do you like sea salt scrubs?
+Bot(8): well sometimes , my face turns blue . but you cannot tell because my skin is blue .
+User(9): That's crazy. Were you born on Earth?
+Bot(9): i was born in illinois and i currently live in illinois
+User(10): Is Illinois pretty?
+Bot(10): it is nice to meet you too . i play soccer goalie .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Colors(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.29
+Robotic(↓): 64
+Interesting: 54
+Fun: 43
+Consistent: 66
+Fluent: 57
+Repetitive(↓): 38
+Topic: 41
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you enjoy sparkling water or flat water?
+Bot(1): i do not know . i like to go to the gym .
+User(2): So I guess you like flat water
+Bot(2): i like to eat fish .
+User(3): Do you like it fried or grilled?
+Bot(3): i like pizza , and i love it .
+User(4): What's your favorite pizza topping?
+Bot(4): i like pizza , and pizza .
+User(5): That's a lot of pizza
+Bot(5): i like to eat fish .
+User(6): What about pepperoni?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): Do you like Mozart or Rachmaninoff better?
+Bot(7): i do not know . i like to go to the gym .
+User(8): You said that already.
+Bot(8): i like to go to the gym and listen to music .
+User(9): What kind of music do you listen to when you workout?
+Bot(9): i love country music . what about you ?
+User(10): I like hiphop music
+Bot(10): i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sparkling water(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.71
+Robotic(↓): 56
+Interesting: 67
+Fun: 35
+Consistent: 41
+Fluent: 37
+Repetitive(↓): 95
+Topic: 0
+
+####################
+

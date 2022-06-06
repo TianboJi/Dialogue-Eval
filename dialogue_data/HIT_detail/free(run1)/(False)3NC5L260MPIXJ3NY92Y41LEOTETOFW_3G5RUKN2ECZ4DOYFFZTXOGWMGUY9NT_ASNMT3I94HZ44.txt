@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Cano got suspended
+Bot(1): hi am a 56 year old married man , who had 5 amazing kids .
+User(2): It's his second suspension
+Bot(2): oh that is no good he is probably out for the season
+User(3): He is out for the season. Yes.
+Bot(3): oh that is no good he is probably out for the season
+User(4): Do you have a team?
+Bot(4): no , my high school is hosting a spelling bee . i want to win
+User(5): I meant a baseball team
+Bot(5): what is wrong with baseball ?
+User(6): What team do you like
+Bot(6): i like the sea hawks
+User(7): THat's NFL. I meant MLB.
+Bot(7): oh i see i was not sure
+User(8): I like the Yankees
+Bot(8): i prefer the mavericks myself .
+User(9): Gerrit Cole is the best pitcher
+Bot(9): i am not much of a baseball fan
+User(10): Oh then we can't be friends
+Bot(10): what is wrong with baseball ?
+
+Persona:
+i'm currently in high school.
+i've short hair.
+i'm a cancer survivor.
+i'm a 56 year old woman.
+my wife left me and took my children.
+
+Topic and Human Opinion:
+Beginning: Baseball(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.71
+Robotic(↓): 36
+Interesting: 25
+Fun: 34
+Consistent: 43
+Fluent: 51
+Repetitive(↓): 38
+Topic: 34
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Who is your NFL MVP?
+Bot(1): no , i do not know . i am a big fan of classical music .
+User(2): Do you watch NFL?
+Bot(2): no , i do not . i like to go to the park .
+User(3): What NFL team do you follow
+Bot(3): i do not really have a favorite . i like to go fishing .
+User(4): Have you watched any games
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): I don't like that kind of music
+Bot(5): i like to listen to music .
+User(6): Any favorite NFL players?
+Bot(6): i like to go to the gym and listen to music .
+User(7): When was the last football game you watched
+Bot(7): i like to go to the gym and listen to music .
+User(8): You're boring
+Bot(8): i like to go to the gym and listen to music .
+User(9): You're repetitive
+Bot(9): i like to go to the gym and listen to music .
+User(10): Ok I'm done here
+Bot(10): i love the color red . i like the color blue .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: NFL(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.71
+Robotic(↓): 7
+Interesting: 0
+Fun: 0
+Consistent: 55
+Fluent: 53
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Are you excited for the draft?
+Bot(1): oh , what movie are you going to see ?
+User(2): I'm talking about the NBA draft
+Bot(2): do you like movies ? i love the godfather .
+User(3): Do you follow any NBA teams
+Bot(3): getting paid 5 mil a year is a big change ! college was all ramen , haha
+User(4): It is! Imagine the rookies lives
+Bot(4): me neither . or movies . i have 600 of them
+User(5): Who do you think will go 1
+Bot(5): have you seen any good movies lately ?
+User(6): I think Lamelo Ball
+Bot(6): do u play or just like to watch ?
+User(7): Do you know Lamelo?
+Bot(7): stephen spielberg , my mom is a makeup artist i sometimes wonder if it makes me shallow .
+User(8): I think the Nets will be the champs
+Bot(8): have you seen any good movies lately ?
+User(9): I hate the Lakers
+Bot(9): anything fun planned for today then ? do you like movies ?
+User(10): KD will be a champ again
+Bot(10): that will be awesome ! what kind of movies do you like to direct ?
+
+Persona:
+horror movies are my favorites.
+whats up i'm a 46 year old single dad 46 a kids.
+i like to spend my money on cars.
+i've zero family that i am close to.
+i'm terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: NBA(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.00
+Robotic(↓): 31
+Interesting: 13
+Fun: 14
+Consistent: 58
+Fluent: 59
+Repetitive(↓): 66
+Topic: 12
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I want to go to outer space
+Bot(1): ok have bye
+User(2): Do you like space?
+Bot(2): Oh, cool. to eat you a retail store.
+User(3): I love the planets
+Bot(3): it own two you graduate
+User(4): Have you ever used a telescope?
+Bot(4): i like to air, I feed the and watch movies .
+User(5): I wanna know what's out there
+Bot(5): Hey! Are just find it Because I am.
+User(6): Do you think there are aliens
+Bot(6): Cool. Do like to tell pets? 🙂
+User(7): I wish to go visit space someday
+Bot(7): where your name you drinks like that
+User(8): Have you ever watched any space documentaries?
+Bot(8): I like country music, i like all kinds. on the that is god?
+User(9): Would you live on Mars?
+Bot(9): Oh, what gaming. what major?
+User(10): I like space!
+Bot(10): i study psych summer is really favorite color
+
+Persona:
+on weekends i do live action roleplaying events.
+i am deathly afraid of heights.
+i drive a bmw.
+i enjoy exploring new parts of the city.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: Space(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.29
+Robotic(↓): 29
+Interesting: 23
+Fun: 20
+Consistent: 52
+Fluent: 56
+Repetitive(↓): 62
+Topic: 8
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have a dog
+Bot(1): i do not have any pets . i am a four year old .
+User(2): I have a dog
+Bot(2): i do not have any pets . i am a four year old .
+User(3): Do you like playing with dogs
+Bot(3): i do not have any pets
+User(4): What's your favorite pet
+Bot(4): i do not have any pets
+User(5): Dogs or cats?
+Bot(5): i do not have any pets
+User(6): You should get a dog
+Bot(6): i do not have any pets
+User(7): I'm tellin ya fam, get a dog
+Bot(7): i love dogs but i have a dog
+User(8): Dogs can play sports
+Bot(8): i love dogs and dogs
+User(9): What kind of dog do you like
+Bot(9): i love dogs and dogs
+User(10): I like Shibas
+Bot(10): i like to play the bus
+
+Persona:
+i visit europe twice a year.
+i ride the bus to school.
+i'm a baby delivery nurse.
+hey my name is larry and i'm a chef.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.71
+Robotic(↓): 32
+Interesting: 33
+Fun: 28
+Consistent: 52
+Fluent: 58
+Repetitive(↓): 91
+Topic: 16
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Ever been to CA?
+Bot(1): no i have not , i have never gone out of california
+User(2): I live in CA
+Bot(2): i have visited los angeles only once
+User(3): What did you do?
+Bot(3): why what did you do ?
+User(4): Where did you go in LA?
+Bot(4): in a car in la
+User(5): I think LA is dirty
+Bot(5): i see . do you like it there ? i do not know anything about la
+User(6): I hate LA honestly
+Bot(6): what is your favorite thing about los angeles ?
+User(7): The food
+Bot(7): fast food is pretty bad
+User(8): Yeah go to taco trucks
+Bot(8): yeah i just wanna eat the food trucks food
+User(9): LA has good trucks
+Bot(9): yeah i just wanna eat the food trucks food
+User(10): Now I want tacos
+Bot(10): tacos are the best
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: California(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.86
+Robotic(↓): 63
+Interesting: 65
+Fun: 49
+Consistent: 55
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

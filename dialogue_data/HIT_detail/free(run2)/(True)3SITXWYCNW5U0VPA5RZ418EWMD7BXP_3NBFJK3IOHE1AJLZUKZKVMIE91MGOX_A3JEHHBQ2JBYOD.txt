@@ -1,0 +1,285 @@
+Feedback: Only a few of the chatbots even came close to having a realistic conversation. All of them were repetitive and some were REALLY bad. 
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, How's it going?
+Bot(1): hi , i'm albert and i am a mother of a cook .
+User(2): Nice to meet you, Albert.
+Bot(2): hi , i'm dave and i am a chef .
+User(3): Nice to meet you, Dave.
+Bot(3): hi , i'm dave and i am a chef .
+User(4): Hi Dave, how do you feel about Football?
+Bot(4): i am not much of a football fan . i like classical music .
+User(5): Okay, I', not really into classical music.
+Bot(5): i am a doctor , i am a doctor .
+User(6): I thought you were a chef.
+Bot(6): i am a chef , i love to cook .
+User(7): How do you feel about Football?
+Bot(7): i do not . i am a doctor .
+User(8): How do you like being a Doctor?
+Bot(8): i am a doctor . i am a doctor .
+User(9): Got it. Do you have any hobbies?
+Bot(9): i like to listen to classical music .
+User(10): Music is good.
+Bot(10): i like classical music . i like classical music .
+User(11): I enjoy Football, do you?
+Bot(11): i like to listen to classical music .
+
+Persona:
+hey my name is larry and i am a chef.
+i enjoy listening to classical music.
+i have light skin with big brown eyes.
+i am a doctor.
+i've a boyfriend.
+
+Topic and Human Opinion:
+Beginning: Football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 5
+Repetitive(↓): 91
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am doing well . how are you ?
+User(2): Pretty good. My name is Mike, what is your name?
+Bot(2): my name is tab . i am a student .
+User(3): Thats good to know. Do you have any hobbies, tab?
+Bot(3): i like to go fishing . i love to go fishing .
+User(4): I like fishing too.
+Bot(4): i like to go to the lake and listen to music .
+User(5): That's great. How do you feel about flowers?
+Bot(5): i do not , i like to go out to eat with my family .
+User(6): You don't like flowers?
+Bot(6): i do not , but i do like to eat .
+User(7): Okay, that's fine. I like to eat as well.
+Bot(7): i like to eat too much junk food .
+User(8): Same here. What is your favorite food?
+Bot(8): i like the color red . what is yours ?
+User(9): I like Purple.
+Bot(9): i like to go to the gym and listen to music .
+User(10): Nice
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i dream of moving to the city.
+i just want to have fun with my friends.
+my favorite color is red.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+i love new kids on the block.
+
+Topic and Human Opinion:
+Beginning: Flowers(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.29
+Robotic(↓): 100
+Interesting: 4
+Fun: 13
+Consistent: 28
+Fluent: 37
+Repetitive(↓): 64
+Topic: 38
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, my name is Mike.
+Bot(1): Oh, what gaming. what major?
+User(2): I don't go to school anymore but my major was Business. You?
+Bot(2): my favorite color man just you need your favorite?
+User(3): My favorite color is Purple. You?
+Bot(3): I bet. a motorbike helmet to for a living?
+User(4): What?
+Bot(4): Hi, I am love going to am vegan.
+User(5): I am not Vegan. But that is cool.
+Bot(5): nice , i was thinking more of a prius I am in My name how has your day been ?
+User(6): My day has been good. How has your day been?
+Bot(6): I listen to want money to have not working.
+User(7): Okay
+Bot(7): hello george Do you swim pink
+User(8): My name is Mike, not George.
+Bot(8): i love singing your have to sing.
+User(9): I sometimes sing in the car.
+Bot(9): ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok about am well, where are you like do you you remember that I'm a musical you like I wish I ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok ok
+User(10): What about the topic of cooking?
+Bot(10): I am that short. and you?
+
+Persona:
+my favourite artist is travis scott.
+one of the languages that i am currently studying is spanish.
+i play with my friends on the playground.
+i am a descendant of christopher columbus.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 82
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, my name is Mike.
+Bot(1): it is called people and thier cats . seeing trends and quirks of cat owners
+User(2): What?
+Bot(2): it is orange . i have my nails painted orange . they are long .
+User(3): Thats nice. What is your name?
+Bot(3): what is your name ?
+User(4): My name is Mike.
+Bot(4): it is called people and thier cats . seeing trends and quirks of cat owners
+User(5): What is your name?
+Bot(5): what is your name ?
+User(6): How do you feel about Sports?
+Bot(6): yes i do i love football
+User(7): Football is my favorite sport.
+Bot(7): football is fun , whats your favorite team ?
+User(8): I like the New York Jets. You?
+Bot(8): i live about an hour and a half from new york city .
+User(9): Thats great. Which team is your favorite?
+Bot(9): my favorite american football team is the browns . my favorite mls team is the crew .
+User(10): Interesting.
+Bot(10): well i am so hopeless in love that i bought her a bouquet of flowers .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports in general.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.43
+Robotic(↓): 96
+Interesting: 29
+Fun: 22
+Consistent: 18
+Fluent: 60
+Repetitive(↓): 63
+Topic: 15
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, what's your name?
+Bot(1): my name is jesse . what about you ?
+User(2): My name is Mike.
+Bot(2): it is nice to meet you as well my name is mike . what are you doing
+User(3): Thinking about Halloween.
+Bot(3): i am crazy about halloween
+User(4): That is awesome. It is my favorite holiday.
+Bot(4): halloween is my favorite holiday .
+User(5): Cool.
+Bot(5): yeah ! i am so excited . what are you going to be for halloween ?
+User(6): I am going to be a football player. What about you?
+Bot(6): that is cool . i am ready for halloween .
+User(7): What are you going to be?
+Bot(7): i will probably be a football player like last year
+User(8): Oh wow. We are going to be the same thing.
+Bot(8): that is cool . i am ready for halloween .
+User(9): Great. What kind of candy do you like?
+Bot(9): candy is great . one of my favorites .
+User(10): What is your favorite kind?
+Bot(10): honestly anything easy to chew . what is yours ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Halloween(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.14
+Robotic(↓): 92
+Interesting: 65
+Fun: 54
+Consistent: 43
+Fluent: 58
+Repetitive(↓): 66
+Topic: 61
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am great , just working on my live action role playing character , how are you ?
+User(2): I am good. I am listening to music.
+Bot(2): i am listening to up , i love them !
+User(3): Thats great, I enjoy country music.
+Bot(3): have you been to a concert yet ?
+User(4): Yes, but not in a while. How about you?
+Bot(4): i do as well . are you into roleplaying ?
+User(5): Not really, how is it?
+Bot(5): i like it . i am glad i have hobbies to distract myself during the weekend , though
+User(6): Yes, hobbies are good. My main hobby is music.
+Bot(6): have you been to a concert yet ?
+User(7): Yes. Have you?
+Bot(7): not really . i like going to see live music .
+User(8): Okay. Have you been to a concert?
+Bot(8): a few , but i have not gone to see them
+User(9): Okay. Anything else you like?
+Bot(9): not really . i like going to see live music .
+User(10): Great.
+Bot(10): have you been to a concert yet ?
+
+Persona:
+eating is something i do when i'm bored.
+my father was a construction worker.
+on weekends i do live action roleplaying events.
+my favorite band is up and i got to see them in concert once.
+i am a country music singer.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.71
+Robotic(↓): 84
+Interesting: 35
+Fun: 26
+Consistent: 55
+Fluent: 65
+Repetitive(↓): 82
+Topic: 56
+
+####################
+

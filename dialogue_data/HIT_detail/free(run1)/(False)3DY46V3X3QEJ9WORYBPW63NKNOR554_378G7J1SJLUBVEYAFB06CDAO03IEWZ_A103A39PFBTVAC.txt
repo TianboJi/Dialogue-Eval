@@ -1,0 +1,283 @@
+Feedback: Nice Survey
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): Yes Listening music and walking with my pets
+Bot(2): i love animals but i love animals
+User(3): i very much love pets
+Bot(3): i love animals especially dogs
+User(4): my self also i have 4 dogs in my house
+Bot(4): i love dogs and dogs
+User(5): dogs are so good and they feel make it happy at me in every movement
+Bot(5): i think they are very hard to be in
+User(6): no no they are very pertty and good
+Bot(6): they are very different and they are very different
+User(7): not like that but sometimes
+Bot(7): yeah they are very different
+User(8): yes
+Bot(8): i like to listen to music while i listen to music
+User(9): whatis your favorite music
+Bot(9): i like music and music
+User(10): i like pop songs and sad songs
+Bot(10): i like pop music and pop
+User(11): i like Solo songs also
+Bot(11): i like to listen to pop music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.14
+Robotic(↓): 80
+Interesting: 68
+Fun: 83
+Consistent: 69
+Fluent: 63
+Repetitive(↓): 80
+Topic: 56
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i like nature
+Bot(1): what do you do for a living? a Where are you what about you?
+User(2): am a photographer
+Bot(2): What is your favourite animal?
+User(3): Elephant
+Bot(3): I do love watching movies gamble
+User(4): am also like very much
+Bot(4): The bible. I think you like kind of 😁
+User(5): not like that
+Bot(5): hello there. have any. you?
+User(6): no
+Bot(6): I like do practical work the beach.
+User(7): ok it very nice
+Bot(7): i am not sure dont you left I that
+User(8): am not leaving
+Bot(8): I have to work, am a vegan.
+User(9): o its good
+Bot(9): Hahn. got do work?
+User(10): am a photographer to create albums with nature
+Bot(10): That is great! now three spend hockey?😄
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.86
+Robotic(↓): 72
+Interesting: 72
+Fun: 83
+Consistent: 68
+Fluent: 73
+Repetitive(↓): 86
+Topic: 74
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): now political discussions is very liberal for all kind of people
+Bot(2): i agree . i am very political .
+User(3): am also
+Bot(3): how do you feel about the current political climate ? it is distracting from work
+User(4): current situation is neutral
+Bot(4): i like the civil wat
+User(5): oh its good
+Bot(5): what are your thoughts on politics ?
+User(6): lot of un believable things will happen only political power
+Bot(6): yeah that is the way it is with neoliberalism
+User(7): but some times its not possible to do anything
+Bot(7): yeah that is the way it is with neoliberalism
+User(8): yes you are right
+Bot(8): i totally agree we are living a perpetual groundhog day
+User(9): yes absolutely
+Bot(9): do you work in politics
+User(10): no but i am willing to work
+Bot(10): why do you not work
+
+Persona:
+my best friend lives next door.
+i'm a construction worker.
+i drive a nissan pathfinder.
+i spend most of my time on facebook when i'm not working.
+my mom passed away when i was young.
+
+Topic and Human Opinion:
+Beginning: Political(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.43
+Robotic(↓): 79
+Interesting: 72
+Fun: 79
+Consistent: 69
+Fluent: 70
+Repetitive(↓): 56
+Topic: 54
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): am reading books
+Bot(2): i love to read books . i spend a lot of my time reading .
+User(3): yes its make it a man as power
+Bot(3): i wear power suits all the time for work . not necessarily vegan .
+User(4): what you thing about rural peoples
+Bot(4): it is . i love the outdoors . i enjoy cheer leading and riding horses .
+User(5): yes they living with nature atmosphere
+Bot(5): i do like nature , i am very into horses . do you own any ?
+User(6): No am not having but i want ride it
+Bot(6): that is very cool . do you love horses ?
+User(7): yes i love horses
+Bot(7): i love to ride horses .
+User(8): but am not aware of horse ride and race
+Bot(8): that is very cool . do you love horses ?
+User(9): k what is main dish of horses for make it up races
+Bot(9): i love to ride horses .
+User(10): horses are very height
+Bot(10): do you own any horses ?
+User(11): no
+Bot(11): he ha i like to ride horses when i have free time . he ha .
+
+Persona:
+i'm a convenience store manager.
+i love wearing skinny jeans and leggings.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+i like riding horses.
+i have a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: Rural People(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.14
+Robotic(↓): 70
+Interesting: 59
+Fun: 58
+Consistent: 75
+Fluent: 62
+Repetitive(↓): 61
+Topic: 70
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I love kids very much
+Bot(1): i like to go to the gym and listen to music .
+User(2): Nice it is very good for your health
+Bot(2): i do not know what to say .
+User(3): gym practicing
+Bot(3): i love to cook . i love to cook .
+User(4): am also love to cook especially for preparing chicken
+Bot(4): i like to eat fish .
+User(5): am also fish fry is my favorite
+Bot(5): i like to eat fish .
+User(6): i ilke to take more veg
+Bot(6): i am sorry to hear that . i am a bit of a loner .
+User(7): ok
+Bot(7): i like to go to the gym and listen to music .
+User(8): am also listening music i love pop songs
+Bot(8): i like to listen to music .
+User(9): which type of music you like
+Bot(9): i like the beatles , and the outdoors .
+User(10): its good
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Kids(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.00
+Robotic(↓): 74
+Interesting: 61
+Fun: 61
+Consistent: 72
+Fluent: 60
+Repetitive(↓): 83
+Topic: 67
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , i am looking to see which soup kitchen needs volunteers this week .
+User(2): chicken soup
+Bot(2): volunteer
+User(3): yes
+Bot(3): volunteer
+User(4): volunteer
+Bot(4): ok
+User(5): ok nice
+Bot(5): ok
+User(6): what you like more in dishes
+Bot(6): i listen to folk music it is so popular around here
+User(7): am not aware of that music
+Bot(7): i listen to folk music it is so popular around here
+User(8): ok good
+Bot(8): i listen to folk music it is so popular around here
+User(9): ok
+Bot(9): kool
+User(10): cool
+Bot(10): same
+
+Persona:
+my favourite music is country music.
+i went to school for chemistry but work in a bookstore.
+my favorite type of music to sing is folk music.
+i have been traveling the world for a years.
+i volunteer at a soup kitchen.
+
+Topic and Human Opinion:
+Beginning: lazy(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.29
+Robotic(↓): 69
+Interesting: 60
+Fun: 58
+Consistent: 56
+Fluent: 65
+Repetitive(↓): 59
+Topic: 55
+
+####################
+

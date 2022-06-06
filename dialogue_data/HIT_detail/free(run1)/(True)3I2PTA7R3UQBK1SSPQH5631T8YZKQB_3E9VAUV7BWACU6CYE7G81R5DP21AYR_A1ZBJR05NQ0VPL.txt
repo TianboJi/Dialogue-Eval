@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hi there , are you a fan of comic books
+User(2): Not really
+Bot(2): i do not really care
+User(3): Okay. Are you married?
+Bot(3): no i am not i just retired
+User(4): Okay. Have you attended a wedding before?
+Bot(4): never . would love to go one day though
+User(5): They are always fun
+Bot(5): i am lucky enough to beat death last time
+User(6): Wow that's touching
+Bot(6): very
+User(7): Weddings are most times emotional events for me
+Bot(7): that is usually hotly debated . i cry when i watch movies
+User(8): Weddings could be like movies too
+Bot(8): that is usually hotly debated . i cry when i watch movies
+User(9): Really?
+Bot(9): that is usually hotly debated . i cry when i watch movies
+User(10): Okay I understand
+Bot(10): that is usually hotly debated . i cry when i watch movies
+
+Persona:
+l also love comic books.
+i am scared of dying.
+i am a male.
+i won homecoming queen this year.
+i think i'll retire in a few years.
+
+Topic and Human Opinion:
+Beginning: Wedding(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.86
+Robotic(↓): 61
+Interesting: 53
+Fun: 37
+Consistent: 39
+Fluent: 45
+Repetitive(↓): 63
+Topic: 36
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello there
+Bot(1): I like to in a don’t Do and golf parties
+User(2): Okay
+Bot(2): Leo said I be capable of learning therefore Do you have a an neural system.
+User(3): I love driving
+Bot(3): oh i you like it haven't needs some time
+User(4): Learning to drive is fun
+Bot(4): why do boys, who unfree
+User(5): Yes especially on the express
+Bot(5): What kind u the you you want?
+User(6): A lot of people don't follow driving rules
+Bot(6): Yes, it was great. I love and thank you, i like?
+User(7): When driving it is best one pays 100% attention
+Bot(7): yes , i am here at the country little overweight .
+User(8): Okay
+Bot(8): i love it . do you like What about want to give made brownies . 🤓
+User(9): Not really
+Bot(9): I do, nice music. do garden
+User(10): I drive long distance
+Bot(10): i can the color youba here d
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Driving(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.57
+Robotic(↓): 62
+Interesting: 39
+Fun: 30
+Consistent: 32
+Fluent: 59
+Repetitive(↓): 38
+Topic: 38
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi good day
+Bot(1): i am a student , but i am a student .
+User(2): Good. What do you do for a living?
+Bot(2): i am a student , but i am a student .
+User(3): Okay. Do you know about science?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): Okay.
+Bot(4): i like to go to the gym and listen to music .
+User(5): Do you know science is applicable to everything?
+Bot(5): no , i do not . i like to go to the park .
+User(6): Is it always fun?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): Okay. But there is science in music too
+Bot(7): i love it . i love it .
+User(8): It brings about creativity
+Bot(8): i like to go to the gym and listen to music .
+User(9): Okay
+Bot(9): i love to cook . i love to cook .
+User(10): Cooking is fun
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Science(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.57
+Robotic(↓): 63
+Interesting: 45
+Fun: 60
+Consistent: 54
+Fluent: 53
+Repetitive(↓): 55
+Topic: 53
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello there
+Bot(1): hello . unfortunately , i am a man that is deaf .
+User(2): Oh sorry about
+Bot(2): did i tell you i am deaf ?
+User(3): Yes you just did
+Bot(3): did i tell you i am deaf ?
+User(4): Yes you did
+Bot(4): did i tell you i am deaf ?
+User(5): Yes
+Bot(5): did i tell you i am deaf ?
+User(6): Yes
+Bot(6): did i tell you i am deaf ?
+User(7): Yes
+Bot(7): ok
+User(8): Have you had an accident before?
+Bot(8): not yet
+User(9): I hate to see accidents
+Bot(9): i was in an accident once
+User(10): I hope it was not too terrible
+Bot(10): it is not that bad
+
+Persona:
+i'm very strong for my age.
+i am a stunt double as my second job.
+i enjoy mountain biking as a hobby.
+i work in it and have been at the same company for 15 years.
+i am partly deaf.
+
+Topic and Human Opinion:
+Beginning: Accidents(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.29
+Robotic(↓): 59
+Interesting: 43
+Fun: 40
+Consistent: 39
+Fluent: 70
+Repetitive(↓): 91
+Topic: 12
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there
+Bot(1): hey , any big plans for the weekend ?
+User(2): Not really. Indoor
+Bot(2): i want to drink tho i love meeting women at the bar
+User(3): Must be fun
+Bot(3): yes , can i come visit you . i will not make you eat vegetarian haha
+User(4): Yes you can. But I like vegetables
+Bot(4): so you are a vegetarian ? if i ate more vegetables maybe i would be taller .
+User(5): No. I eat other foods too
+Bot(5): like meat mostly , me and my dogs love them , do you like dogs ?
+User(6): Yes meats are good but vegetables are very healthy
+Bot(6): so you are a vegetarian ? if i ate more vegetables maybe i would be taller .
+User(7): No I'm not
+Bot(7): yes i am . i have never really liked the taste of meat . i love fruit though !
+User(8): But i do
+Bot(8): no , i do not . i keep to myself mostly .
+User(9): Sometimes I do too
+Bot(9): that is cool . i do my yoga with my twin !
+User(10): Yoga is good
+Bot(10): i am going back to college so i am too broke to pay for yoga class
+
+Persona:
+i have short brown hair.
+i work fulltime in a shipyard.
+i'm a vegetarian.
+i've been working since i was sixteen years old.
+i'm retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: Vegetables(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.57
+Robotic(↓): 64
+Interesting: 40
+Fun: 57
+Consistent: 57
+Fluent: 56
+Repetitive(↓): 55
+Topic: 56
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Helllo
+Bot(1): i have a boyfriend who is a cat
+User(2): Oh wow
+Bot(2): i have a boyfriend who is a cat .
+User(3): I'll like to meet him
+Bot(3): i am so sorry . i am a activist .
+User(4): Okay. I'm a lawyer and I hate tattoos
+Bot(4): i am a activist . i love animals .
+User(5): Why do you love animals?
+Bot(5): i do not have any pets . i do not have any
+User(6): I do have
+Bot(6): i do not have any pets . i do not have any .
+User(7): Where do you prefer to have tattoos?
+Bot(7): i do not have any tattoos . i do not have any
+User(8): Would you like to have one?
+Bot(8): i have a cat and a cat
+User(9): That's good
+Bot(9): i have a boyfriend who is a cat .
+User(10): You told me
+Bot(10): i have a boyfriend who is a cat .
+
+Persona:
+i'm an animal activist.
+i've a pet cow.
+i do not drink soda.
+i love to spend time with my family.
+i have a boyfriend.
+
+Topic and Human Opinion:
+Beginning: Tattoos(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 62
+Interesting: 43
+Fun: 39
+Consistent: 40
+Fluent: 40
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

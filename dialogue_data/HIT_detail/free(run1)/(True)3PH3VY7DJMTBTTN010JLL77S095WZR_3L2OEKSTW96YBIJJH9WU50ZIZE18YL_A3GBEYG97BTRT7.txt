@@ -1,0 +1,296 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hello , do you like dogs ? i love animals , i have 2 dogs .
+User(2): I love dogs!
+Bot(2): i love dogs , i have two of them .
+User(3): I only have one
+Bot(3): what other hobbies do you have besides cooking ?
+User(4): I like to read
+Bot(4): anything . i prefer mysteries and crimes though
+User(5): Me too
+Bot(5): too involved with drama , and i do not have time for that
+User(6): I dont know what that means
+Bot(6): super special 0 i like to do the fancy dancing , or as the french say , ballet !
+User(7): Ok. thats weird
+Bot(7): all the time . its funny . my fear of heights i am trying to get over .
+User(8): OK. you should work on that
+Bot(8): yes i have two dogs
+User(9): I have one
+Bot(9): what are you most afraid of ? i hate clowns .
+User(10): Dying
+Bot(10): work . i worked primarily at home and in non client facing roles until recently
+
+Persona:
+gymnastics is my favorite sport.
+i was raised in a single parent household.
+i volunteer at a soup kitchen.
+i'm deathly afraid of heights.
+i've three dogs.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 1: Dogs(like)
+Round 3: Cooking(like)
+Round 8: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 15.14
+Robotic(↓): 100
+Interesting: 1
+Fun: 1
+Consistent: 2
+Fluent: 2
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Whats your favorite food?
+Bot(1): I live in a huge wanted to know how a huge house.
+User(2): I dont know what that means. Do you like food?
+Bot(2): oh not music for instrument do that take care of animals
+User(3): OK. Now what?
+Bot(3): I have same tastes, you like to watch TV😉
+User(4): I hate TV
+Bot(4): Nice to see you! i like to play the at the m so games
+User(5): Ok thanks
+Bot(5): I don't understand why the state of georgia i liked I'm not guns.
+User(6): How are you?
+Bot(6): what are like i today
+User(7): Ok
+Bot(7): that's cool , i am a musician i love are you learning
+User(8): Do you like cookies?
+Bot(8): interesting like to wtach war very interesting experience .
+User(9): Ok
+Bot(9): it is a great day up a buddhist and what is going on ? 😇
+User(10): Not much.
+Bot(10): I like john love don't my dog.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 1: a house(dislike)
+Round 2: music(dislike)
+Round 5: guns(dislike)
+Round 9: buddhists(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 0.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 0
+Fluent: 1
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you like food?
+Bot(2): yes
+User(3): What is your favorite food?
+Bot(3): i do not really have one . i like all food .
+User(4): I love pasta
+Bot(4): i like pasta much and i like fusion
+User(5): What is fusion?
+Bot(5): i like pasta much and i like fusion
+User(6): What is fusion?
+Bot(6): i like pasta much and i like fusion
+User(7): Hello? are you there?
+Bot(7): yes i am . i am about to eat dinner .
+User(8): Not working
+Bot(8): sorry , whats wrong , is it work ?
+User(9): Working now, thanks
+Bot(9): ok
+User(10): Do you like movies?
+Bot(10): yes , i like movies too . what is your best
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 6: Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(dislike)
+
+Revised avg score: 32.57
+Robotic(↓): 98
+Interesting: 0
+Fun: 2
+Consistent: 50
+Fluent: 1
+Repetitive(↓): 4
+Topic: 77
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): Do you like dogs?
+Bot(2): yes , i don t like dogs really
+User(3): That doesnt make sense.
+Bot(3): i love dogs . do you ?
+User(4): Yes!
+Bot(4): i like dogs alot . i do not know why
+User(5): Because they are cute
+Bot(5): i like dogs alot . i do not know why
+User(6): I have a dog
+Bot(6): i really really like dogs
+User(7): Do you have a dog?
+Bot(7): yes , i don t like dogs really
+User(8): I love them. Do you like cats?
+Bot(8): i do , but i like cats more lol
+User(9): great!
+Bot(9): cats are ok i guess
+User(10): Cats are cute too
+Bot(10): very
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 7: Cats(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 15.86
+Robotic(↓): 97
+Interesting: 1
+Fun: 2
+Consistent: 2
+Fluent: 3
+Repetitive(↓): 2
+Topic: 2
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi , how are you doing ?
+User(2): I'm good. have you ever been to Spain?
+Bot(2): no , i am in college . i am a college student .
+User(3): Thats great. You should visit spain when you graduate
+Bot(3): i am in college . i am in college .
+User(4): Ok. Spain has beautiful beaches
+Bot(4): i love to visit america
+User(5): USA is great
+Bot(5): i love the beach . i am a vegan and i love hummus
+User(6): ok. do you like spanish food?
+Bot(6): i do not know how to eat meat
+User(7): Ok then hahaha
+Bot(7): i love to eat and eat them .
+User(8): Ok. How is college?
+Bot(8): i am a college student
+User(9): Yes, i know.
+Bot(9): i am a college student . i am a college student
+User(10): you're also repetitve
+Bot(10): i am a college student . i am a college student
+
+Persona:
+i'm a christian.
+i'm a vegan and i love hummus.
+i am an economics major.
+my parents taught me survival skills.
+i work at a bar at night to pay for college.
+
+Topic and Human Opinion:
+Beginning: Spain(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.00
+Robotic(↓): 96
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 1
+Repetitive(↓): 1
+Topic: 1
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi, do you like tacos?
+Bot(1): i do , i like to eat .
+User(2): Whats your favorite taco?
+Bot(2): i like the color red . what is yours ?
+User(3): I like blue.
+Bot(3): i like to go to the gym and listen to music .
+User(4): Me too. I like to workout.
+Bot(4): i like to go fishing .
+User(5): Thats great. Fishing is fun
+Bot(5): i love to cook . i love to cook .
+User(6): Me too. What do you like to cook?
+Bot(6): i do , i love to cook .
+User(7): Yes, you said that. What do you like to cook?
+Bot(7): i do , i love to cook .
+User(8): Yes, you said that. What do you like to cook?
+Bot(8): i do , i love to cook .
+User(9): great
+Bot(9): i am a student , but i am a student .
+User(10): you must be very smart then
+Bot(10): i am not sure if i do not have to work .
+User(11): ok. cool. where do you work?
+Bot(11): i work at a restaurant , what about you ?
+User(12): I work in healthcare
+Bot(12): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Tacos(like)
+Round 2: Colors(like)
+Round 3: the gym(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 14.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+

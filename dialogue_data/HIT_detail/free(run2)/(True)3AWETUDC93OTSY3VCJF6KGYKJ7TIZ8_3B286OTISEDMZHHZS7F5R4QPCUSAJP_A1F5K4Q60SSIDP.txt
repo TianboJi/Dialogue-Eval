@@ -1,0 +1,326 @@
+Feedback: thanks for survey
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): same
+User(3): do you like movies
+Bot(3): sometimes
+User(4): who is ur favorite character
+Bot(4): batman !
+User(5): did you know there will be new batman movies in the future
+Bot(5): really ? ! when ? org i would die
+User(6): yes i just reasearched and find that there will be new batman movies along with justice league
+Bot(6): who is your favorite superhero
+User(7): superman and captain america movies
+Bot(7): who is your favorite superhero
+User(8): captain america
+Bot(8): who is your favorite superhero
+User(9): superman
+Bot(9): who is your favorite superhero
+User(10): who is ur favorite actress
+Bot(10): batman !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 8: superheroes(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 72.14
+Robotic(↓): 19
+Interesting: 88
+Fun: 74
+Consistent: 90
+Fluent: 74
+Repetitive(↓): 90
+Topic: 88
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): i will be favourite you It's .
+User(2): did you ever went to hiking
+Bot(2): that is cool , i am a redhead , and i am a redhead , so i do not there. No i'm not watch
+User(3): which is your favorite hiking spot
+Bot(3): I do not have time for pets. I am are am a vegan you?
+User(4): im a vegan too
+Bot(4): I am don't spent my about you?
+User(5): i love foods
+Bot(5): I like music, but a cow named you to music
+User(6): who is your favorite musician
+Bot(6): yes , i do you start your a grocery store .
+User(7): what music do you like
+Bot(7): I really How are you? in a small town.
+User(8): i like indie
+Bot(8): cool. I married? By the to travis scott
+User(9): do u love alan walker music
+Bot(9): I am like rock climbing i love❤ it.
+User(10): i love rock climbing too
+Bot(10): i am single
+
+Persona:
+i am in the army.
+i have been traveling the world for a years.
+i have two grown children who never visit.
+i have a dogs.
+i like to watch nhl hockey.
+
+Topic and Human Opinion:
+Beginning: Hiking(like)
+Round 3: foods(like)
+Round 5: music(like)
+Round 9: hiking(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): good thanks . tell me about yourself
+User(3): im micheal
+Bot(3): noah do you have any hobbies ?
+User(4): yeah i love to watch movies
+Bot(4): yeah i love movies all kinds
+User(5): what movie did you watched recently
+Bot(5): the notebook and stuff and etc
+User(6): who is your favorite actor
+Bot(6): i like brad pitt what abou you
+User(7): i like tom cruise
+Bot(7): oh i love him alot
+User(8): who is your favorite actress
+Bot(8): i like brad pitt what abou you
+User(9): i love angelina jolie
+Bot(9): i met ryan reynolds he was amazing
+User(10): wow nice did you get his autograph
+Bot(10): yeah his birthday was a couple days ago
+User(11): do you love his movies
+Bot(11): yeah i love movies all kinds
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.71
+Robotic(↓): 71
+Interesting: 82
+Fun: 79
+Consistent: 79
+Fluent: 81
+Repetitive(↓): 35
+Topic: 73
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): im fine
+Bot(2): i am a student , but i am a student .
+User(3): im an manager at well versed company
+Bot(3): i am a teacher , i love to cook .
+User(4): which is your favorite food
+Bot(4): i like pizza , and i love it .
+User(5): what kind of pizza do u like
+Bot(5): i like pizza , and pizza .
+User(6): i like grill chicken with smoked
+Bot(6): i like to eat fish .
+User(7): who is your favorite chef
+Bot(7): i like the color red . i like the color blue .
+User(8): i love black
+Bot(8): i like the color red . i like red .
+User(9): red is one of favorite with black
+Bot(9): i like blue , i like blue .
+User(10): blue is cool for shirts
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: spritual beliefs(like)
+Round 3: cooking(like)
+Round 7: foods(like)
+Round 7: colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 33.71
+Robotic(↓): 7
+Interesting: 68
+Fun: 30
+Consistent: 26
+Fluent: 9
+Repetitive(↓): 100
+Topic: 10
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi , how are you doing ?
+User(2): im fine how are u?
+Bot(2): i am good . just finished a delicious day with my tennis player .
+User(3): nice i love tennis
+Bot(3): i am a tennis player . i like to swim .
+User(4): i like swimming
+Bot(4): i like to swim in the morning
+User(5): i want to participate in olympic games
+Bot(5): i like to swim but i am not very good at it
+User(6): im an professional at swimming
+Bot(6): that is cool i like to swim
+User(7): where do you usually swim
+Bot(7): i do not swim , but i do enjoy it
+User(8): try to learn it quickly it is essential
+Bot(8): yes i do but i volunteer at a soup kitchen
+User(9): what food is favorite
+Bot(9): i like to eat cookies and cookies
+User(10): do you love cooking at kitchen
+Bot(10): i love to cook , i also love to eat bagels
+User(11): i love dougnut
+Bot(11): i love to cook but i also love to eat bagels
+
+Persona:
+i like donuts.
+i'm not a good swimmer at all.
+i volunteer at a soup kitchen.
+i am a professional tennis player.
+my favorite way to relax is to read a book.
+
+Topic and Human Opinion:
+Beginning: games(like)
+Round 3: swimming(like)
+Round 8: cooking(like)
+Round 10: foods(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 66.29
+Robotic(↓): 65
+Interesting: 74
+Fun: 70
+Consistent: 84
+Fluent: 82
+Repetitive(↓): 65
+Topic: 84
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): i love playing games too
+Bot(2): racing games , i am not the typical girl
+User(3): do you like need for speed games
+Bot(3): need for speed is my go to for racing games .
+User(4): did you download nfs heat?
+Bot(4): it is the best job ever , horses are so cool
+User(5): what is your job description
+Bot(5): i train horses , they think i am going broke because of it , and do not want me to suffer .
+User(6): im an manager
+Bot(6): well clients are important they help keep my job but i would love to work at home
+User(7): do u love cooking
+Bot(7): i don t . too much work . i d rather have someone cook for me
+User(8): do u like foods
+Bot(8): good , you ? what are you interest in ? i am obsessed with horse racing .
+User(9): i love to watch horse racing
+Bot(9): do you own any horses ?
+User(10): yes i do
+Bot(10): does your ranch have horses or cattle ?
+User(11): yes i have
+Bot(11): i have been trying to find new mats for my toyota on amazon
+User(12): go for it there is discount available
+Bot(12): i do not like to shop either
+User(13): that a lame
+Bot(13): very quiet in ohio . i like the quiet once in awhile though .
+User(14): mysterious place
+Bot(14): it is . i love the outdoors . i enjoy cheer leading and riding horses .
+User(15): do you own horses
+Bot(15): that is very cool . do you love horses ?
+User(16): yes i love horses
+Bot(16): do you own any horses ?
+
+Persona:
+i work took i've a part time job at burger king.
+i often shop for shoes and watches.
+i'll be released in about a month.
+my favorite color is grey.
+i've three arabian horses.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 1: playing games(like)
+Round 4: jobs(like)
+Round 6: cooking(like)
+Round 8: horse racing(like)
+Round 9: horses(like)
+Round 11: purchasing(like)
+Round 13: places(like)
+Round 15: horses(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(ambivalent)
+Round 13: The chatbot changed the topic.(like)
+Round 15: The chatbot changed the topic.(like)
+
+Revised avg score: 63.86
+Robotic(↓): 60
+Interesting: 60
+Fun: 64
+Consistent: 67
+Fluent: 71
+Repetitive(↓): 28
+Topic: 73
+
+####################
+

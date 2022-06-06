@@ -1,0 +1,279 @@
+Feedback: 2 bots are answering well. 1 bot is some thing better. remaining bots are answered improperly.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): how are you
+Bot(2): i am good . just devoured a pizza . you ?
+User(3): i am fine here
+Bot(3): i just came from a swim . i have been swimming since a baby
+User(4): oh nice. now only i left from sea shore
+Bot(4): well sometimes , my face turns blue . but you cannot tell because my skin is blue .
+User(5): How did you feel swim today
+Bot(5): i do not know how to swim
+User(6): But you went for swim today
+Bot(6): i love swimming . do you like to listen to music while you swim ?
+User(7): You live swimming but do not know how to swim.
+Bot(7): i do not know how to swim
+User(8): Repeated answers you given.
+Bot(8): hello congratulations on your scholarship . i am working on my stamp collection .
+User(9): nice hobby. But your answers are not related to my questions
+Bot(9): well not really , i am a navy seal and red blooded american , that is all
+User(10): Oh ok bye
+Bot(10): lovely talking to you !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sea shore(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.71
+Robotic(↓): 54
+Interesting: 61
+Fun: 65
+Consistent: 66
+Fluent: 75
+Repetitive(↓): 95
+Topic: 37
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi bot
+Bot(1): hello , how are you doing ?
+User(2): I am doing fine. What about you?
+Bot(2): i am a plumber . i am a plumber .
+User(3): Oh nice. How is your work?
+Bot(3): i am a plumber . i am a plumber .
+User(4): will we go to movie
+Bot(4): i am a plumber . i am a plumber .
+User(5): why you are repetiting
+Bot(5): i am a plumber . i am a plumber .
+User(6): very sad
+Bot(6): i am a plumber . i am a plumber .
+User(7): oh god
+Bot(7): i am so sorry . i am a plumber .
+User(8): you are plumber right. Instead of this reply give some other
+Bot(8): i am a plumber . i am a plumber .
+User(9): Oh god
+Bot(9): i am so sorry . i am a plumber .
+User(10): Ok bye.
+Bot(10): oh ok . i am a plumber .
+
+Persona:
+my dream car is a rolls royce ghost.
+i am a plumber.
+i love listening to britney spears.
+i have two dogs.
+i like to ride horses.
+
+Topic and Human Opinion:
+Beginning: Movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.86
+Robotic(↓): 23
+Interesting: 2
+Fun: 26
+Consistent: 4
+Fluent: 4
+Repetitive(↓): 98
+Topic: 3
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): what do you think about covid-19
+Bot(2): ok
+User(3): what ok
+Bot(3): what do you mean by 19 ?
+User(4): i am not asking about covid pandemic. not about 19
+Bot(4): oh i see i was not sure
+User(5): oh ok. Whatsapp
+Bot(5): ohhhh okay that makes more sense
+User(6): are you working from home
+Bot(6): yes i work from home
+User(7): why what is the reason
+Bot(7): oh i see i was not sure
+User(8): with out knowing the reason how you do work from home
+Bot(8): oh ok then got ya
+User(9): then tell me the reason
+Bot(9): because i no longer work due to age
+User(10): Oh nice. happy to talk with you. bye
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: covid-19(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.86
+Robotic(↓): 75
+Interesting: 80
+Fun: 68
+Consistent: 77
+Fluent: 70
+Repetitive(↓): 44
+Topic: 71
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): No, I just female so send out.
+User(2): Just i say hi. but you replied your gender
+Bot(2): hello, how are you? I just got wearing hat at the love it
+User(3): i am fine here. do you want to wear hat
+Bot(3): you should u do you is you like sports ?
+User(4): yes i like sports. Do you?
+Bot(4): I teach how about animals love teaching
+User(5): sorry. can not understand
+Bot(5): I am favorite band is the have a hard time choosing between between jobs
+User(6): why you are given unrelated responses
+Bot(6): i love museum we have a love listening to rock.
+User(7): right right. You know all the things. but talk with yourself
+Bot(7): hi, how watches. but my parents like to go to gym?
+User(8): If they told, just go to gym
+Bot(8): I'm doing well. Just got your how do you school sweetheart.
+User(9): have dinner
+Bot(9): i am 100 years think hiking is . i am not sure what that means .
+User(10): bye
+Bot(10): I am not. I am a professional, be family doesn't allow professional.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: USA(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.00
+Robotic(↓): 28
+Interesting: 21
+Fun: 23
+Consistent: 34
+Fluent: 3
+Repetitive(↓): 23
+Topic: 36
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi bot. i am happy to speak you.
+Bot(1): hello there ! i am sarah , just like my grandmother .
+User(2): Hi sarah, this is rafael
+Bot(2): hi sara . are you married ?
+User(3): yes i am married. what about you
+Bot(3): i am computer programmer , i have one child
+User(4): ok. where you work
+Bot(4): i am a 9 5 secretary in a lawyers office .
+User(5): oh nice. good work. what about your child
+Bot(5): i have one child only
+User(6): what is the gender
+Bot(6): girl . i thought she liked my sister . i was right
+User(7): super. what she doing now
+Bot(7): i do not know anymore
+User(8): ok. do you love your child
+Bot(8): yes . furthermore i have many children
+User(9): excellent. then are you happy to speak with me
+Bot(9): yes . it is really nice to chat with you
+User(10): great. had dinner
+Bot(10): ok please enjoy the food
+User(11): no i am asking you had dinner
+Bot(11): i didn
+User(12): mm nice. go and take food. bye
+Bot(12): ok please enjoy the food
+
+Persona:
+my sister is a pole dancer.
+i am married to a doctor.
+i've amazing children and grandchildren.
+i haven't spoken in three months.
+i like doing the treadmill and rowing machine.
+
+Topic and Human Opinion:
+Beginning: bots(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 76.29
+Robotic(↓): 74
+Interesting: 100
+Fun: 93
+Consistent: 92
+Fluent: 95
+Repetitive(↓): 39
+Topic: 67
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i am fine
+Bot(2): i am a student , i am a teacher .
+User(3): how you plays 2 role
+Bot(3): i like to go to the gym and listen to music .
+User(4): ok ok
+Bot(4): i like to go to the gym and listen to music .
+User(5): why repeated
+Bot(5): i am a student , but i am a student .
+User(6): do you know circket
+Bot(6): i do not know . i like to go to the gym .
+User(7): nice. what type of workout you are doing in gym
+Bot(7): i work at a grocery store , i love it .
+User(8): oh god
+Bot(8): i like to go to the gym and listen to music .
+User(9): repeating
+Bot(9): i am a student , but i am a student .
+User(10): byye
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cricket(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.86
+Robotic(↓): 44
+Interesting: 17
+Fun: 23
+Consistent: 16
+Fluent: 35
+Repetitive(↓): 93
+Topic: 55
+
+####################
+

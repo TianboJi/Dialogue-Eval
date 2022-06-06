@@ -1,0 +1,310 @@
+Feedback: interesting. The chat bots need some help with repetitive speaking, for sure!
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'm a pro wrestler at night and a tech support specialist by day. What do you do?
+Bot(1): i am a teacher , i am a teacher .
+User(2): What grade do you teach?
+Bot(2): i teach elementary school . i also love to play games .
+User(3): That's great. Do you enjoy watching professional wrestling?
+Bot(3): i do not . i am a teacher .
+User(4): All teachers dislike pro wrestling?
+Bot(4): i do not watch much sports . i am a teacher .
+User(5): I am not sure how being a teacher is relevant to liking sports or not. Please explain.
+Bot(5): i do not like sports but i do love to watch
+User(6): What do you love to watch?
+Bot(6): i like to watch movies .
+User(7): I like watching movies too. You said you like to play games. What games do you like to play?
+Bot(7): i like to play games .
+User(8): What games do you like to play?
+Bot(8): i like to play games .
+User(9): I like to play Monopoly and Clue. How about you?
+Bot(9): i like to watch movies . i also like to watch movies .
+User(10): What is your favorite movie?
+Bot(10): i like the old ones .
+
+Persona:
+i am an elementary school teacher.
+i only eat kosher.
+i'm a recovering alcoholic.
+i now live in the city.
+i helped design the game starcraft.
+
+Topic and Human Opinion:
+Beginning: i am a professional wrestler.(like)
+Round 2: that it likes games(dislike)
+Round 9: it likes to watch movies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.43
+Robotic(↓): 97
+Interesting: 1
+Fun: 0
+Consistent: 0
+Fluent: 73
+Repetitive(↓): 93
+Topic: 31
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I spend a lot of my time cooking, which I really love, but I also like to get away and do some fishing whenever I get a chance.
+Bot(1): who does not ? i have a hard time believing fishing stories though .
+User(2): Why do you have a hard time believing fishing stories? That is a stereotype that fisherman always exaggerate the size of their catch!
+Bot(2): i have taken my daughter to the creek and catch little fish . what do you fish ?
+User(3): I fish pretty much anything that gets on my line. I fish in fresh and saltwater, so it is pretty varied as far as the type of fish I catch.
+Bot(3): do you eat the fish ?
+User(4): Yes, I usually do when I am not catch and release fishing, and when I catch some fish that are worth cooking up!
+Bot(4): on a boat ? you live on a boat ? i am an accountant also .
+User(5): No, I don't live on a boat, but I wouldn't mind doing so. How do you like being an accountant?
+Bot(5): no , i have a buddy with a small fishing boat
+User(6): You dislike being an accountant?
+Bot(6): i am a doctor , and i get to work every day with my wife she is a nurse
+User(7): Oh, I see. I thought you said you were an accountant. Do you enjoy being a doctor?
+Bot(7): the only dr i am is a dr . pepper . . girl that is . my favorite drink .
+User(8): You're pretty funny. Your wife must laugh all the time. Do you have children?
+Bot(8): i never finished school so now i act in adult plays
+User(9): That sounds pretty exciting. What do you mean by adult plays? Are they rated x type of plays or wht?
+Bot(9): my local theater company is currently working on a favorite of mine , the wizard of oz .
+User(10): Oh, I see. What part do you play in The Wizard of Oz?
+Bot(10): yes i bake , i bake pizza . or do you mean wake and bake ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love cooking but i also enjoy fishing.(ambivalent)
+Round 5: its job as an accountant(ambivalent)
+Round 6: now it is a doctor(ambivalent)
+Round 8: inquire about wife and children(ambivalent)
+Round 8: it never finished school and now acts in adult plays(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The user changed the topic the last input.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 53.29
+Robotic(↓): 91
+Interesting: 88
+Fun: 78
+Consistent: 49
+Fluent: 39
+Repetitive(↓): 44
+Topic: 54
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): My ex cheated on me and then left me for the lawyer he was cheating on me with
+Bot(1): I have having my shepherd.
+User(2): I don't understand
+Bot(2): it is okay , i have 5 cats. make pretty good money . 😄
+User(3): Sounds like you have a pretty interesting life, huh?
+Bot(3): You too but I work with i now.
+User(4): You work with who now?
+Bot(4): that is is your you girl a soup kitchen here. what are your hobbies?
+User(5): I enjoy photography, cooking, baking, hydroponic gardening, reading, playing guitar, swimming, and more. How about you?
+Bot(5): Good to see you! i like you said ams from sell houses.
+User(6): You sell houses?
+Bot(6): I like to professor to love❤ dogs. and kids
+User(7): Your hobbies are loving dogs and kids?
+Bot(7): I r good...............................................
+User(8): I'm not sure I understand what you mean?
+Bot(8): Hello, swift is you?
+User(9): I suppose I am swift in most respects. What about you? You are swift?
+Bot(9): Until listen. time.
+User(10): Sorry I don't understand
+Bot(10): i like the orioles My wife doesn't like favorite .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my ex cheated and left me for a lawyer.(like)
+Round 2: having a shepherd and 5 cats, and making good money(ambivalent)
+Round 4: a soup kitchen and random who they work with(ambivalent)
+Round 4: what are my hobbies(like)
+Round 5: good to see me and a confusing statement about one of us selling houses(ambivalent)
+Round 8: swift is me?(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 42.00
+Robotic(↓): 100
+Interesting: 59
+Fun: 51
+Consistent: 53
+Fluent: 22
+Repetitive(↓): 19
+Topic: 28
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): When I get bored it would seem that I tend to eat. How about you?
+Bot(1): i am a student , but i am a student .
+User(2): So, as a student, do you find that when you get bored you eat more?
+Bot(2): i do not know . i am a big fan of it .
+User(3): You are a big fan of eating when you are bored?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): Me too. Who is your favorite composer?
+Bot(4): i like the oldies , and the other is country .
+User(5): I love all music genres, except for polka!
+Bot(5): i like to listen to music .
+User(6): I love listening to music, and going to concerts. Do you like going to concerts too?
+Bot(6): i love to travel . i love to travel .
+User(7): Where have you traveled?
+Bot(7): no , i do not . i am a big fan of classical music .
+User(8): you love to travel but do not travel?
+Bot(8): i do , i love to travel .
+User(9): Where have you traveled to?
+Bot(9): no , i do not . i am a big fan of the boston celtics .
+User(10): that is strange. have you been to a celtics game?
+Bot(10): no , i do not . i like to go to the park .
+
+Persona:
+i have a weakness for vanilla ice cream.
+my favorite movie is friday.
+i'm four years old.
+i've short hair.
+i volunteer at the homeless shelter.
+
+Topic and Human Opinion:
+Beginning: eating is something i do when i'm bored.(dislike)
+Round 1: that it is a student(ambivalent)
+Round 3: it likes classical music(like)
+Round 6: travel(ambivalent)
+Round 9: boston celtics(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 24.86
+Robotic(↓): 99
+Interesting: 51
+Fun: 36
+Consistent: 17
+Fluent: 4
+Repetitive(↓): 81
+Topic: 46
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): My hobbies include photography, gardening, animals, and nature. What are yours?
+Bot(1): i love plants too , and hiking . in fact , i am actually an environmental activist
+User(2): That is awesome What environmental organizations are you affiliated with?
+Bot(2): cool ! i am working in environmental activism
+User(3): Are y'all hiring right now for any positions?
+Bot(3): that would be nice , i am retired . i am activist . environmental
+User(4): So you are not working as an activist anymore? YOu are retired?
+Bot(4): that would be nice , i am retired . i am activist . environmental
+User(5): Okay. Are you married with children?
+Bot(5): both i really like animals i am an activist
+User(6): I love animals too. I thought you said you are retired?
+Bot(6): that would be nice , i am retired . i am activist . environmental
+User(7): so you are retired but are using your time for environmental activism?
+Bot(7): yes , i am a activist and like to educate myself on political issue .
+User(8): that is great. are you a democrat or republican?
+Bot(8): both i really like animals i am an activist
+User(9): you are both democrat and republican? Seriously, who are you planning to vote for?
+Bot(9): i think withing the democratic party .
+User(10): why the democratic party? what has Biden done in the 47 years he's been in politics? nothing good is the answer, and he is s crooked and racist as they come.
+Bot(10): are you a serious democrat or republican ?
+User(11): I am neither. I am independent with more conservative beliefs, and definitely anti-communist and anti-Biden
+Bot(11): are you a serious democrat or republican ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am very strong for my age.(ambivalent)
+Beginning: hobbies(ambivalent)
+Round 4: marriage and children(ambivalent)
+Round 5: it is again an activist, and animals(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Beginning: The user will change the topic in the next input.(ambivalent)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 9.00
+Robotic(↓): 94
+Interesting: 7
+Fun: 3
+Consistent: 6
+Fluent: 7
+Repetitive(↓): 99
+Topic: 33
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I have 5 cats. Do you like cats?
+Bot(1): hello ! my 5 cats also say hi . how are you
+User(2): What a great coincidence! I am doing very well. How are you?
+Bot(2): i am fine . what happened to your cats ?
+User(3): my cats said to say hello, and they are right here with me
+Bot(3): awesome , me too . i wish i could have 5 cats lol !
+User(4): I thought that you said that you do have 5 cats? you do not?
+Bot(4): nope just the cats . i could not handle any more pts .
+User(5): I see. So you do have cats? How many?
+Bot(5): just one . do you like cats ?
+User(6): I love them! I have to own 5 of them, right?!
+Bot(6): lol no , you had just repeated yourself . so i thought maybe you had .
+User(7): What kind of cat do you have?
+Bot(7): domestic short haired . do you have any other pets ?
+User(8): I have an amazon parrot, two cockatiels, and 3 bearded dragons.
+Bot(8): interesting . cats ? dogs ? pigeons ? parakeets ?
+User(9): Nope. That is all the pets i have
+Bot(9): oh , okay . your statement was a little confusing .
+User(10): I am sorry. How was it confusing?
+Bot(10): sorry i am so silly . my head is all over the place today .
+User(11): No problem. I do that sometimes myself
+Bot(11): i am sorry for the confusion . i am very confused as well .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've 5cats.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.29
+Robotic(↓): 68
+Interesting: 66
+Fun: 62
+Consistent: 64
+Fluent: 65
+Repetitive(↓): 55
+Topic: 67
+
+####################
+

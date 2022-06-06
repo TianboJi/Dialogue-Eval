@@ -1,0 +1,294 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): which state are you in now?
+Bot(1): i'm in the midwest . i love to go fishing .
+User(2): which city are you in now?
+Bot(2): i'm in the midwest . i love to go out to eat with my family .
+User(3): can you find the zip code in your living area
+Bot(3): i do not know what to say .
+User(4): do can you tell me you home address now?
+Bot(4): i do not , but i do like to go fishing .
+User(5): where do you usually go fishing?
+Bot(5): i love to travel . i love to travel .
+User(6): I love travel too
+Bot(6): i love to travel . i love to travel .
+User(7): did you ever visit Egypt?
+Bot(7): no , i do not . i like to go out to eat with my family .
+User(8): where do you go then?
+Bot(8): i live in california . i love to travel .
+User(9): where will you travel to?
+Bot(9): i live in california . i love it .
+User(10): did you ever go to New York?
+Bot(10): no , i do not . i like to go to the park .
+
+Persona:
+i live in alabama.
+i have two grown children who never visit.
+i am a piano teacher on the side.
+they are constantly on my back.
+i'm a skateboarder.
+
+Topic and Human Opinion:
+Beginning: now i live in the united states.(like)
+Round 4: to go fishing(like)
+Round 5: I like traveling(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 30.86
+Robotic(↓): 11
+Interesting: 21
+Fun: 26
+Consistent: 18
+Fluent: 29
+Repetitive(↓): 86
+Topic: 19
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): when did you visit spain?
+Bot(1): i was born in spain and that is a super long trip ! you ?
+User(2): where are you now?
+Bot(2): currently in spain , i am fortunate to have homes in many countries
+User(3): which country do you love mostly?
+Bot(3): i have been to spain its beautiful
+User(4): where is most beautiful in spain?
+Bot(4): venice for sure , what do you do for fun ?
+User(5): cruise on the river
+Bot(5): are there a lot of fishing spots that way ?
+User(6): yes, which type of fish do you like most?
+Bot(6): for any type of fish but not whale of course
+User(7): did you see real whale in spain?
+Bot(7): no , i have not touched a dolphin before .
+User(8): did you see real dolphin playing in the sea
+Bot(8): no , i have not touched a dolphin before .
+User(9): what is the favourite food do you like most in spain
+Bot(9): my favorite food is fish and spanish
+User(10): spanish is not a food
+Bot(10): your favorite food cannot be spanish , that is a language .
+
+Persona:
+i like to spend my money on cars.
+i have a german shepherd named barnaby.
+i'm always wearing a hat.
+i love cooking but i also enjoy fishing.
+i produce music for artists.
+
+Topic and Human Opinion:
+Beginning: i have visited spain a times.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.86
+Robotic(↓): 35
+Interesting: 66
+Fun: 64
+Consistent: 40
+Fluent: 58
+Repetitive(↓): 63
+Topic: 68
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what is your best friend name?
+Bot(1): what is your name ?
+User(2): my name is Tony
+Bot(2): hi tony . football causes brain damage . are you ok ?
+User(3): where is your best friend
+Bot(3): i have my grand mothers name
+User(4): what is your favorite sports
+Bot(4): i like football , i was a kicker in college .
+User(5): I like tennis
+Bot(5): tennis is fun . do you like volleyball ? i play sometimes .
+User(6): really, I like basketball instead
+Bot(6): basketball is fun . i like football better though . this is my second year playing in the nfl .
+User(7): cool, which position do you play in nfl
+Bot(7): quarterback . do you like football ?
+User(8): I like soccer also
+Bot(8): soccer is a great sport . i like doing my nails . do you ?
+User(9): Did you ever have injury in the sports excercise?
+Bot(9): it was a commute to work car incident but yes suing for medical bills
+User(10): so where did you graduate?
+Bot(10): well i am only a freshmen and working at a daycare
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my best friend lives next door.(like)
+Round 3: sports(like)
+Round 9: go to school(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 56.00
+Robotic(↓): 27
+Interesting: 63
+Fun: 60
+Consistent: 28
+Fluent: 63
+Repetitive(↓): 31
+Topic: 36
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your father's name?
+Bot(1): my name is jack and i am a redhead
+User(2): what is your father's name
+Bot(2): my name is jack . i am a redhead .
+User(3): what is your father's job
+Bot(3): i am a jack of the same
+User(4): do you swim in the summer?
+Bot(4): i do not swim in the summer
+User(5): what is your favorite sport in summer?
+Bot(5): i like the summer time
+User(6): do you have swimming stuff with you ?
+Bot(6): i like to swim in the summer
+User(7): where do you swim usually?
+Bot(7): i swim in the summer
+User(8): do you swim in the river or in the swimming pool
+Bot(8): that sounds fun . i swim in the summer
+User(9): any feeling about swiming?
+Bot(9): i swim in the summer
+User(10): do you swim in winter though
+Bot(10): i swim in the summer , but i love summer
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my father was a door to door salesman.(like)
+Round 3: go swimming(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 47.57
+Robotic(↓): 24
+Interesting: 27
+Fun: 36
+Consistent: 15
+Fluent: 65
+Repetitive(↓): 25
+Topic: 39
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I am you like Justin you never been there.
+User(2): where are you living now
+Bot(2): no problem do you do for do for a living ? i make cars .
+User(3): I do computer service
+Bot(3): I am to play the is want to do with them
+User(4): what car do you make then?
+Bot(4): No, i work don't have any store.
+User(5): do you lik making car?
+Bot(5): I have you kids is something a mechanic .
+User(6): are you a mechanic also?
+Bot(6): I'm sorry to hear u fail u home?
+User(7): How long do you work in making car?
+Bot(7): I dance a big good. do to dance.
+User(8): I do not like dancing
+Bot(8): what is to am though?
+User(9): which dance do you like more?
+Bot(9): not really, do you like music? Girl or your father you?
+User(10): I like music but do not like dance
+Bot(10): yeah, I do. you named your school?
+
+Persona:
+i just bought my first home.
+i've five sons.
+i love to go to disney world every year.
+i have a children and a dogs.
+my father used to work for home depot.
+
+Topic and Human Opinion:
+Beginning: i live in a three storey house.(like)
+Round 2: make living(like)
+Round 7: dance(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 47.71
+Robotic(↓): 22
+Interesting: 62
+Fun: 34
+Consistent: 37
+Fluent: 65
+Repetitive(↓): 78
+Topic: 36
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): what is your hair color?
+Bot(1): black as midnight . my favorite song is paint it black by the stones
+User(2): what is your hair color?
+Bot(2): black as midnight . my favorite song is paint it black by the stones
+User(3): do you like sing a song
+Bot(3): get out ! yes i sing to rolling stones music . you paint ?
+User(4): do you like listen music
+Bot(4): i like the rolling stones
+User(5): good one , so do I
+Bot(5): i like the rolling stones
+User(6): which singer do you like most
+Bot(6): i like the rolling stones
+User(7): do you usually listen music with your mp3?
+Bot(7): any i can listen and it comes
+User(8): do you like listen music with computer?
+Bot(8): yes , but depends on what it is on
+User(9): do you use spotify to listen on computer?
+Bot(9): spotify
+User(10): it is a software for listen music on computer
+Bot(10): what is your favorite band ? i like like rolling stones
+
+Persona:
+i wear a motorbike helmet to protect my head.
+my favourite food is shawarma.
+i see the rolling stones in concert every year.
+i have zero family that i am close to.
+i am a bee farmer.
+
+Topic and Human Opinion:
+Beginning: i've brown curly hair.(like)
+Round 3: listen music(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user changed the topic the last input.(dislike)
+
+Revised avg score: 40.14
+Robotic(↓): 28
+Interesting: 38
+Fun: 53
+Consistent: 27
+Fluent: 34
+Repetitive(↓): 73
+Topic: 30
+
+####################
+

@@ -1,0 +1,299 @@
+Feedback: It repeats a lot of the same things sometimes. Other times it just makes no sense--it is pure gibberish. 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what do you think about religion?
+Bot(1): i like to go to the gym and listen to music .
+User(2): What exercises do you do?
+Bot(2): i work at a restaurant , i love it .
+User(3): what do you do?
+Bot(3): i am a student , but i am a student .
+User(4): what do you study?
+Bot(4): i am a student at a local college .
+User(5): which college?
+Bot(5): i am a student , i am a teacher .
+User(6): what do you teach?
+Bot(6): i teach english and spanish .
+User(7): do you like teaching english and spanish?
+Bot(7): no , i do not , but i do like to eat .
+User(8): what do you eat
+Bot(8): i like to eat pizza .
+User(9): what kind of pizza?
+Bot(9): i like pizza , and pizza .
+User(10): how much pizza do you eat
+Bot(10): i like pizza and pizza .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Religion(dislike)
+Round 1: gym(like)
+Round 2: working at a restaurant(like)
+Round 3: being a student(like)
+Round 7: eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): what food do you eat
+Bot(1): anything like any food really
+User(2): what kind of food
+Bot(2): all sorts what do you like to eat
+User(3): I like to eat pizza
+Bot(3): i love pizza it is my favorite . what do you do for fun
+User(4): I play video games
+Bot(4): video games are cool what do you play
+User(5): I like to play Squad and Fallout
+Bot(5): i love fallout and i also like to play sly cooper
+User(6): what is sly cooper?
+Bot(6): i love fallout and i also like to play sly cooper
+User(7): why do you like fallout
+Bot(7): i love fallout and i also like to play sly cooper
+User(8): what other games do you play
+Bot(8): i love fallout and i also like to play sly cooper
+User(9): what do you do for fun
+Bot(9): i love fallout and i also like to play sly cooper
+User(10): do you like Squad
+Bot(10): i have played that . . you will have to try sly cooper it is fun
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 3: recreational activities(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 10.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 70
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): what are your feelings about Amazon (the company)
+Bot(1): i do not have much of an opinion . you ?
+User(2): They treat their workers pretty bad, but they give a great service
+Bot(2): i hate dealing with their customer service ! !
+User(3): I actually have enjoyed their customer service!
+Bot(3): i hate dealing with their customer service ! !
+User(4): why?
+Bot(4): i hate dealing with their customer service ! !
+User(5): what happened?
+Bot(5): i did not what did they do ?
+User(6): have you ever ordered something from amazon?
+Bot(6): i have , can you get me a discount ?
+User(7): I can try! A discount on what?
+Bot(7): amazon is awesome , what makes you like those specific brand of shoes ?
+User(8): what brand of shoes?
+Bot(8): amazon is awesome , what makes you like those specific brand of shoes ?
+User(9): do you like shoes?
+Bot(9): amazon is awesome , what makes you like those specific brand of shoes ?
+User(10): which shoes?
+Bot(10): amazon is awesome , what makes you like those specific brand of shoes ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Amazon (the company)(like)
+Round 8: shoes(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 41.57
+Robotic(↓): 100
+Interesting: 59
+Fun: 100
+Consistent: 28
+Fluent: 41
+Repetitive(↓): 100
+Topic: 63
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like to party?
+Bot(1): i do your favorite video some artists
+User(2): My favorite artist is blue october
+Bot(2): I am a huge fan of blue, you must be quite color?
+User(3): I am not sure what that means
+Bot(3): I am a girl who horror I’m kind of me
+User(4): I like horror too
+Bot(4): oh. seems that two.
+User(5): what horror movies do you like
+Bot(5): yes. I love to great and you
+User(6): What is that?
+Bot(6): Do you skeak I faint at other people you are familiar.
+User(7): Am I familiar?
+Bot(7): I am age is you a i love cars.
+User(8): What do you like about cars
+Bot(8): I am I should try a construction company
+User(9): why is that
+Bot(9): He'S am going 80s
+User(10): that is old
+Bot(10): what I am fast food
+
+Persona:
+i currently work for a watch dealer.
+i love eating out with friends.
+my favorite food is papaya.
+i'm studying to be a computer programmer.
+i've a pet turtle.
+
+Topic and Human Opinion:
+Beginning: parties(like)
+Round 1: artists(like)
+Round 2: colors(ambivalent)
+Round 3: horror(like)
+Round 6: I have no idea what it's saying(dislike)
+Round 7: cars(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): what is your opinion on vaping
+Bot(1): i think i am not very good at it
+User(2): why is that
+Bot(2): i think it is a lot of fun
+User(3): me too! it is unhealthy though
+Bot(3): i agree with that . i am very unhealthy
+User(4): me too
+Bot(4): i bet it is hard to find a diet
+User(5): I eat less
+Bot(5): i eat healthy and eat healthy
+User(6): me too!
+Bot(6): i eat out alot of time
+User(7): I do as well. Where do you eat
+Bot(7): i eat out a lot of vegetables and vegetables
+User(8): what is your favorite vegetable
+Bot(8): carrots , i eat it all the time !
+User(9): I LOVE CARROTS!
+Bot(9): i eat a lot of vegetables and veggies
+User(10): what else other than carrots?
+Bot(10): carrots , carrots , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes , tomatoes
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: vaping(like)
+Round 4: dieting(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 17.00
+Robotic(↓): 100
+Interesting: 23
+Fun: 8
+Consistent: 19
+Fluent: 0
+Repetitive(↓): 100
+Topic: 69
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what gum do you like
+Bot(1): my flavor i am chewing is bubble gum its so good . yes laughing
+User(2): I love bubble gum too
+Bot(2): i am chewing trident no i am disabled but i am okay .
+User(3): trident is a great brand
+Bot(3): thankfully my job at the power plant afforded me the means to buy new .
+User(4): what kind of power plant
+Bot(4): power plants are cool , i have 2 brothers who work at a power plant .
+User(5): what kinds of power plants do they work at
+Bot(5): there is a big city where my friend lives , it has plants
+User(6): That sounds fun!
+Bot(6): i am a big fan of art . when i am not studying i check out museums
+User(7): what kind of art
+Bot(7): all art are cool and awesome
+User(8): I agree
+Bot(8): i am a researcher i am researching the fact that mermaids are real
+User(9): what have you found thus far??
+Bot(9): its a lot of hard work and i am hoping it will be worth it !
+User(10): sounds like it will be!
+Bot(10): i take my daughter to the park every day
+
+Persona:
+the holidays make me depressed.
+i'm a museum tour guide.
+one of the languages that i am currently studying is spanish.
+i'm four.
+my boyfriend and i are moving into an apartment together next week.
+
+Topic and Human Opinion:
+Beginning: gum(like)
+Round 3: working at a power plant(like)
+Round 6: art(like)
+Round 8: they are a mermaid researcher lmfao(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 63.14
+Robotic(↓): 100
+Interesting: 81
+Fun: 82
+Consistent: 83
+Fluent: 25
+Repetitive(↓): 7
+Topic: 78
+
+####################
+

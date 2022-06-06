@@ -1,0 +1,301 @@
+Feedback: Interesting task, but some chatbots are really very raw and just repeat the same few words out of context.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello!
+Bot(1): i love to cook . i love to cook .
+User(2): Do you like to watch movies while cooking?
+Bot(2): i do , i love to cook .
+User(3): Which dishes do you like to cook most?
+Bot(3): i do , i love to eat .
+User(4): Which dishes are your favorites?
+Bot(4): i like to eat . i am a big fan of it .
+User(5): Does anyone else at your home cook?
+Bot(5): no , i do not . i am a big fan of it .
+User(6): What did you cook yesterday?
+Bot(6): no , i do not . i am a big fan of classical music .
+User(7): Do you like to listen to it at home or go to the concerts?
+Bot(7): i love to travel . i love to travel .
+User(8): Which countries did you visit?
+Bot(8): i was in a show accident . i was a champion downhill skier .
+User(9): In which country did this accident happen?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): Who is your favorite composer?
+Bot(10): i like the oldies , and the outdoors .
+User(11): Do you go to outdoor concerts?
+Bot(11): no , i do not . i like to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 2: Cooking(like)
+Round 6: Music(like)
+Round 7: Travel(like)
+Round 9: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 16.57
+Robotic(↓): 100
+Interesting: 15
+Fun: 15
+Consistent: 0
+Fluent: 77
+Repetitive(↓): 91
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello, do you like nature trips?
+Bot(1): I have a raw diet. And black.
+User(2): Raw diet is pretty healthy and good for the nature.
+Bot(2): I am you want to a local mall
+User(3): I enjoy the nature. Hanging around the mall is not my thing.
+Bot(3): that is a of my time on languages. do you like spanish? I do
+User(4): I like learning different languages, Spanish included.
+Bot(4): Oh no! board games. So sorry.
+User(5): I don'r know Spanish enough to play the board games in Spanish.
+Bot(5): yes i stay at home most of the time . i'm pregnant with my first .
+User(6): So you have time to learn languages then.
+Bot(6): i guess doing great because i you do for a living
+User(7): Are you learning languages to use this knowledge to make living?
+Bot(7): I like the take our hats and seen it.
+User(8): How many hats to you have?
+Bot(8): I am a crazy got a new job sure if i could die
+User(9): Sorry to hear this. Take good care of yourself.
+Bot(9): this we are both high a sucker for that film
+User(10): What film you are talking about?
+Bot(10): which i got from my mom it was cool. Do you guess: i won gold ...
+
+Persona:
+i have a pet turtle.
+i often shop for shoes and watches.
+i like to work on vintage cars.
+whats up i'm a 46 year old single dad 46 a kids.
+i dye my hair every three months.
+
+Topic and Human Opinion:
+Beginning: Nature(like)
+Round 2: Unrecognizable(dislike)
+Round 3: Languages(like)
+Round 7: Personal matters(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 11.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 20
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, are you an avid reader?
+Bot(1): murder mystery novels mostly . what do you do ?
+User(2): I like these type of books too, but I don't like gruesome details.
+Bot(2): every genre of books . it is a book store
+User(3): I sort of have a bookstore in my house too.
+Bot(3): i have a big family . i like spending time with them .
+User(4): Having extended family is nice. I have extended family too, but most of them live far away.
+Bot(4): my brother , but not one of my own . do you ?
+User(5): I don't have a brother. I am the only child.
+Bot(5): no i am the only child sometimes i wish i had a brother
+User(6): So we are similar. Do you have kids?
+Bot(6): such as clothes for men and women , baby clothes , dog clothes , etc .
+User(7): So you like to give clothes as gifts to your family members?
+Bot(7): i am a boring accountant . i leased a corvette to spice life up .
+User(8): Do you ride alone in it?
+Bot(8): really you should not . i live across the street from my parents
+User(9): So maybe you can invite them to take a ride with you?
+Bot(9): what kind of parties do you throw ? not that i am interested . . .
+User(10): I like to throw and New Year party with the fireworks.
+Bot(10): what color are your eyes ? mine are icky brown .
+User(11): Mine are brown too.
+Bot(11): my eyes are blue any my hair is dark brown you ?
+
+Persona:
+i have one brother.
+i have short brown hair.
+my favorite music genre is death metal.
+i love spending money.
+i like to go hiking in the spring.
+
+Topic and Human Opinion:
+Beginning: Reading(like)
+Round 3: Family(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 52.29
+Robotic(↓): 77
+Interesting: 43
+Fun: 42
+Consistent: 70
+Fluent: 77
+Repetitive(↓): 9
+Topic: 20
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, do you like to go out to eat?
+Bot(1): i love going out to eat . whats your favorite kinds of food ?
+User(2): I like seafood, shrimp, crab, fish and such.
+Bot(2): i love sea food like crabs and shrimp
+User(3): What do you think about stone crabs?
+Bot(3): that is the seafood that i really like .
+User(4): Same here. But you can have them only in season. What do you like to get when they are not in season?
+Bot(4): shrimp and lobster are my favorite
+User(5): Sounds delicious, even the lobster is not my favorite. I would prefer Alaskan crab.
+Bot(5): oh , ok , i am a shrimp and lobster type of person .
+User(6): Do you like pink shrimp?
+Bot(6): yes i like shrimp but not lobster .
+User(7): I thought you said you like lobster. Maybe I misunderstood. Do you cook seafood sometimes at home too?
+Bot(7): sometimes , i mainly eat at restaurants though . never at home , you ?
+User(8): Like to go out too. I don't like cooking much.
+Bot(8): cool . i go out to eat quite a bit . sometimes it just sucks cooking for one .
+User(9): Agree. Do you have a lot of good seafood restaurants close to your house?
+Bot(9): one great seafood place nearby . i always get their crab and dip it in butter .
+User(10): Sounds delicious. Do they serve crab cake?
+Bot(10): we do . you should stop by and see all the choices we have .
+User(11): Sounds like a plan.
+Bot(11): i would love some shrimp scampi like how the make it at red lobster .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Eating out(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 97.00
+Robotic(↓): 5
+Interesting: 96
+Fun: 96
+Consistent: 100
+Fluent: 96
+Repetitive(↓): 4
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, do you like to travel?
+Bot(1): i love to travel , but i travel a lot
+User(2): Do you travel abroad or only within a country?
+Bot(2): i travel a lot , but i travel a lot
+User(3): Do you travel for fun, on business or both?
+Bot(3): i travel a lot , but i travel a lot
+User(4): Do you like to visit museums?
+Bot(4): i love to travel , but i travel a lot
+User(5): When you travel, which museums you like to visit?
+Bot(5): i love museums , but i travel a lot
+User(6): I love art museums with old paintings. What about you?
+Bot(6): i like to travel , but i travel a lot
+User(7): Do you like to visit historical museums?
+Bot(7): i like to visit museums , but i travel a lot
+User(8): Have you ever been to one of Ripley museums? These are real fun.
+Bot(8): i like to go to museums .
+User(9): Do you like to go on a tour at the museums or explore on your own?
+Bot(9): i like to go to museums and museums
+User(10): I an a fan of many types of museums too.
+Bot(10): i like museums , but i like museums .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+Round 3: Museums(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+
+Revised avg score: 23.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 77
+Fluent: 14
+Repetitive(↓): 100
+Topic: 70
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, are you currently working?
+Bot(1): no i do not work right now , whats your new job ?
+User(2): I work as a budget planner at the office.
+Bot(2): that sounds interesting , mostly i am stuck at the bank all day .
+User(3): Well, there are a lot of opportunities in the financial field.
+Bot(3): yes , it sounds like it . then i could afford a pet sitter for my dogs .
+User(4): Exactly. If you make a good living, you can put up with some work inconveniences.
+Bot(4): yes , it sounds like it . then i could afford a pet sitter for my dogs .
+User(5): What are your work hours?
+Bot(5): 10 hours usually . do you have any kids ?
+User(6): This is a long day. I do have kids and work only 8 hours a day.
+Bot(6): i have two dogs . i miss them when i am at work too .
+User(7): Are you allowed to bring them to work sometimes?
+Bot(7): no , i do not have to unless i want . we get to choose out shifts .
+User(8): This is a nice perk. I cannot do this.
+Bot(8): i have two dogs and their a job to be around .
+User(9): I guess, you can take them for a walk as soon as you get home from work.
+Bot(9): i have two dogs and their a job to be around .
+User(10): I am sure of this. We need to have some joy aside from work.
+Bot(10): having you tried yoga or mediating ? very relaxing .
+User(11): No, not my piece of cake.
+Bot(11): staying here is fine too though . my two dogs keep me company .
+
+Persona:
+i like meditation.
+my favorite band is aerosmith.
+i work at a bank.
+i hate my job.
+i've two dogs.
+
+Topic and Human Opinion:
+Beginning: Work(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.43
+Robotic(↓): 90
+Interesting: 43
+Fun: 43
+Consistent: 78
+Fluent: 50
+Repetitive(↓): 76
+Topic: 49
+
+####################
+

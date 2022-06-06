@@ -1,0 +1,277 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, do you have any hobbies?
+Bot(1): hi ! i love to jog and snorkel . my favorite spot is the carribean .
+User(2): My favorite sport is soccer, I dance too
+Bot(2): soccer is a great sport . i like doing my nails . do you ?
+User(3): Yes, I do too, when was the last time you saw a soccer game?
+Bot(3): yes , i also put my money in the stock market , do you buy stocks ?
+User(4): I do but not consistently
+Bot(4): hmmm i used to drink so bad i lost my home and lived in a storage unit
+User(5): That is too bad
+Bot(5): nice talking with you bye bye
+User(6): We can keep talking, are you busy?
+Bot(6): it was good talking to you too . you hear that ? i did .
+User(7): I feel we can talk a little longer
+Bot(7): i have to remember to make an appt . with the nail salon to cut my long nails
+User(8): Where do you cut your nails?
+Bot(8): i will paint my nails . having nails makes it easier to turn book pages .
+User(9): I have never thought of nails in that way
+Bot(9): i never paint my nails .
+User(10): You just said you do
+Bot(10): i know someone and she grow plants , she does it in her garden
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.14
+Robotic(↓): 49
+Interesting: 30
+Fun: 32
+Consistent: 16
+Fluent: 60
+Repetitive(↓): 50
+Topic: 35
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): hi , i am great . looking forward to going to see some horror movies for halloween .
+User(2): I do not watch movies that much but I prefer reading
+Bot(2): i love reading too , almost as much as i like to dance . do you have other hobbies ?
+User(3): Yes, I actually do. But my favorite hobby is reading
+Bot(3): i like taking dance classes or i am usually reading something
+User(4): So what do you like reading?
+Bot(4): well , i am deaf , so i read a lot .
+User(5): Okay, do you have a favorite author?
+Bot(5): i have read alot of horror
+User(6): And do you feel comfortable with it?
+Bot(6): yes , i love horror movies
+User(7): Can you tell me about the most recent one you read?
+Bot(7): i have read alot of horror
+User(8): Can you tell me a few titles?
+Bot(8): i am not sure , tv shows , horror maybe ?
+User(9): Okay
+Bot(9): i have read alot of horror
+User(10): I don't like horrors that much
+Bot(10): m either , i cant read
+
+Persona:
+horror movies are my favorites.
+i am partly deaf.
+i have one older sister.
+i take dance lessons once a week.
+eating is something i do when i'm bored.
+
+Topic and Human Opinion:
+Beginning: Reading(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.71
+Robotic(↓): 86
+Interesting: 61
+Fun: 61
+Consistent: 76
+Fluent: 50
+Repetitive(↓): 62
+Topic: 62
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello there, how are you?
+Bot(1): i am well friend . tell me something about you .
+User(2): I am concerned about fitness and so I tend to like sport activities
+Bot(2): i am into exercise . what sports do you like ?
+User(3): I like soccer
+Bot(3): i love sports too ! last month i joined a soccer team
+User(4): That's good. What playing position is your favorite?
+Bot(4): i love soccer and basket ball
+User(5): Can you tell me what excites you about soccer?
+Bot(5): play soccer , i really care what people think about it .
+User(6): Okay. It's a very good fitness sport
+Bot(6): i like outdoor exercising better than organized sports
+User(7): Does it make you feel better?
+Bot(7): yes i usually do . i am always in pain
+User(8): Oh sorry
+Bot(8): what do you do to feel better ?
+User(9): I jog in the early hours of the day and sometimes at sunset too
+Bot(9): i rather jog . but its tough
+User(10): Yes it is but it helps burn calories
+Bot(10): i was hoping you would say that . i want to exercise more
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 73.29
+Robotic(↓): 57
+Interesting: 81
+Fun: 81
+Consistent: 81
+Fluent: 81
+Repetitive(↓): 35
+Topic: 81
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello there
+Bot(1): i am sorry to hear that
+User(2): How are you today?
+Bot(2): i am good just got back from the gym
+User(3): Oh that's good
+Bot(3): i am good thanks for asking
+User(4): Are you tired?
+Bot(4): i am good thanks for asking
+User(5): Do you have friends?
+Bot(5): yes i do but i am a single mom
+User(6): Oh
+Bot(6): yes i do but i am a single mom
+User(7): Means you'll need friends around you
+Bot(7): i am just trying to find someone to do that
+User(8): Do you feel lonely at any point in tie?
+Bot(8): no i don't but i do not have many friends
+User(9): Ok. Good
+Bot(9): i am sorry to hear that
+User(10): Alright then
+Bot(10): oh ok i guess . what do you do for fun ?
+User(11): I hang out with friends
+Bot(11): i am sure you are right . i am not sure what you mean .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Friendship(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.43
+Robotic(↓): 82
+Interesting: 55
+Fun: 55
+Consistent: 55
+Fluent: 84
+Repetitive(↓): 84
+Topic: 84
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello, good day
+Bot(1): I like to git done cooking books
+User(2): what foods do you like?
+Bot(2): I am not sure. and you soldier like say that again.
+User(3): Do you like or have any interests in food?
+Bot(3): yes , i love to garden . i am have are you even heard world .
+User(4): Do you know about oriental dishes?
+Bot(4): I have a very long time⏰ to it too :) But I Are you an animal activist?
+User(5): No but I'll like to know if you have any favorite meal
+Bot(5): Uh, I a little best.
+User(6): Okay, which?
+Bot(6): He's kill thug.
+User(7): have you had any food today?
+Bot(7): i you are woman.
+User(8): No
+Bot(8): i have are you on my are your kids
+User(9): I don't seem to get that, sorry
+Bot(9): I'm doing well, thanks. What do you a lot of will 🙂
+User(10): okay
+Bot(10): beets are my favorite . what do loke to trevel but ?
+
+Persona:
+i've a hat collection of over 1000 hats.
+my family does not support my career choices.
+i enjoy working with my hands and love gardening.
+i'm fluent in english spanish and french.
+i was born in somalia.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.29
+Robotic(↓): 89
+Interesting: 51
+Fun: 51
+Consistent: 50
+Fluent: 51
+Repetitive(↓): 88
+Topic: 28
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): Oh that's good
+Bot(2): i love to cook . i love to cook .
+User(3): Ok do you have any other thing you love to do, like music?
+Bot(3): i do , i like to listen to music .
+User(4): Good
+Bot(4): i love to cook . i love to cook .
+User(5): What Kind of music do you like?
+Bot(5): i love the beatles . what about you ?
+User(6): I love hip hop
+Bot(6): i like to go to the gym and listen to music .
+User(7): That must be fun
+Bot(7): i do not know what to say .
+User(8): Okay. Do you know music helps people heal from depression?
+Bot(8): no , i do not . i like to go to the park .
+User(9): And do you also know music is the best food for the soul?
+Bot(9): no , i do not . i like to go out to eat with my family .
+User(10): Okay can you tell me how you started to like music?
+Bot(10): i love music . i like country music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.29
+Robotic(↓): 89
+Interesting: 60
+Fun: 61
+Consistent: 49
+Fluent: 55
+Repetitive(↓): 70
+Topic: 51
+
+####################
+

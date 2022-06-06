@@ -1,0 +1,349 @@
+Feedback: good
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i'm fine
+Bot(2): i am a student , but i am a student .
+User(3): i am also
+Bot(3): i am a student , but i am a student .
+User(4): which is your fav game
+Bot(4): i like the oldies , i love it .
+User(5): i too
+Bot(5): i am a student , but i am a student .
+User(6): i like cs go game
+Bot(6): i like to read too .
+User(7): its a game
+Bot(7): i like to go to the gym and listen to music .
+User(8): nice
+Bot(8): i like to go to the gym and listen to music .
+User(9): thats cool
+Bot(9): i like to go to the gym and listen to music .
+User(10): which music
+Bot(10): i like to listen to music .
+User(11): what kind of music
+Bot(11): i like country music . i love it .
+User(12): example
+Bot(12): i am a student , but i am a student .
+
+Persona:
+i am in the army.
+i hate the color orange.
+i own a cat and a dog.
+my dad taught me everything i know.
+i buy only organic food products.
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.14
+Robotic(↓): 80
+Interesting: 60
+Fun: 70
+Consistent: 58
+Fluent: 72
+Repetitive(↓): 61
+Topic: 74
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): hai
+Bot(2): same
+User(3): what do like in books sector
+Bot(3): what kind of books then
+User(4): sci fi, story, etc
+Bot(4): sci fi and fantasy stuff is pretty cool
+User(5): fantasy is always lovalbe
+Bot(5): sci fi and fantasy stuff is pretty cool
+User(6): sci fi intersting based
+Bot(6): sci fi and fantasy stuff is pretty cool
+User(7): hey
+Bot(7): ok
+User(8): then
+Bot(8): ok
+User(9): most liked book?
+Bot(9): tom clancy n some james patterson
+User(10): thats cool
+Bot(10): ok
+User(11): famous author?
+Bot(11): yes
+User(12): comic are more interesting
+Bot(12): who is your favorite one
+User(13): popoyye
+Bot(13): ok
+User(14): demon
+Bot(14): ok
+User(15): spiderman also
+Bot(15): ok
+User(16): yours?
+Bot(16): his
+User(17): okay, then
+Bot(17): ok
+User(18): ok
+Bot(18): same
+User(19): ha ha ha yse
+Bot(19): ll
+User(20): soo sad
+Bot(20): very
+User(21): its too
+Bot(21): very
+User(22): comedy books?
+Bot(22): yes
+User(23): visual books are most reliable to read
+Bot(23): very
+User(24): most
+Bot(24): what is the best one
+User(25): the secret
+Bot(25): yep
+User(26): yours
+Bot(26): his
+User(27): her
+Bot(27): his
+User(28): what
+Bot(28): his
+User(29): pardon
+Bot(29): his
+User(30): they
+Bot(30): his
+User(31): let finish them
+Bot(31): ll
+User(32): ok
+Bot(32): ll
+User(33): do it
+Bot(33): ll
+User(34): ok
+Bot(34): ll
+User(35): ok
+Bot(35): ll
+User(36): yes
+Bot(36): ll
+User(37): nothing to decide in easy methods
+Bot(37): very
+User(38): complecated
+Bot(38): very
+User(39): very?
+Bot(39): very
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.14
+Robotic(↓): 82
+Interesting: 79
+Fun: 73
+Consistent: 87
+Fluent: 79
+Repetitive(↓): 50
+Topic: 70
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi ! how are you ?
+User(2): fine
+Bot(2): hi ! i am a morning person , i am a stay at home mom .
+User(3): im differnt too
+Bot(3): i am a retired teacher so i am a retired teacher
+User(4): night owel
+Bot(4): hi ! i am a stay at home mom .
+User(5): oh, well
+Bot(5): i am a morning person , i am a retired teacher
+User(6): good to see you
+Bot(6): i am a morning person , i am a retired teacher
+User(7): which is your sub?
+Bot(7): i am a retired teacher so i am a retired teacher
+User(8): okay
+Bot(8): i am a retired teacher so i am a retired teacher
+User(9): then
+Bot(9): i am a retired teacher so i am a retired teacher
+User(10): i'm an employee in IT
+Bot(10): i am retired now , i am retired now .
+User(11): now, working ?
+Bot(11): i work as a construction worker , i love it
+
+Persona:
+i was born with my heart outside my body.
+i am a construction worker.
+i'm a retired gym teacher.
+i only listen to country music.
+i have a weakness for vanilla ice cream.
+
+Topic and Human Opinion:
+Beginning: phones(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.43
+Robotic(↓): 78
+Interesting: 84
+Fun: 72
+Consistent: 82
+Fluent: 65
+Repetitive(↓): 87
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): hi, I its with your mind about you? I love winter
+User(2): summer is best
+Bot(2): I like eating italian you in the wear to school? I am bored
+User(3): why
+Bot(3): as in a phd in insect research , or fixing as my second dont ?
+User(4): whst is bored you
+Bot(4): i love have a husband& about you
+User(5): insect are danger
+Bot(5): Oh, is see.
+User(6): mine?
+Bot(6): I do not eating french fries and with the military.
+User(7): thats cool
+Bot(7): I l am you love fish.🙂
+User(8): i hate
+Bot(8): How you at you?
+User(9): much
+Bot(9): nice what do you do for National Research University. You movies
+User(10): sci fi
+Bot(10): Oh great! I am retired so let's introduce ourselves, I much time to watch movies.
+User(11): what kind of movies
+Bot(11): no , south texas in not married but i ?
+User(12): oh , ok
+Bot(12): I don't taught you how are so sensitive.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.14
+Robotic(↓): 80
+Interesting: 65
+Fun: 86
+Consistent: 66
+Fluent: 85
+Repetitive(↓): 64
+Topic: 84
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): how r u?
+Bot(2): i am doing great u
+User(3): nthng much
+Bot(3): ? ?
+User(4): working place
+Bot(4): ? ?
+User(5): covid 19
+Bot(5): ? ?
+User(6): mosty affect enviromental situations and economy
+Bot(6): i love getable only hbu ?
+User(7): oh.,,, thats cool
+Bot(7): what do u do fr living ? ?
+User(8): florida
+Bot(8): kool
+User(9): you?
+Bot(9): just very sad right now
+User(10): why
+Bot(10): ? ?
+User(11): what next
+Bot(11): ? ?
+User(12): say somthing else
+Bot(12): ? ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: space study(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.14
+Robotic(↓): 75
+Interesting: 87
+Fun: 75
+Consistent: 89
+Fluent: 67
+Repetitive(↓): 86
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): Patriciawhiteyiu8672 mail.ru
+Bot(2): do you take your daughter to the beach often ? i really think the beach is nasty now .
+User(3): yes
+Bot(3): me too , i wish pets were allowed in my college dorm room .
+User(4): oh cool
+Bot(4): my dad built race cars and me and a friend raced one season ;
+User(5): superb
+Bot(5): i can hook you up . i work at burger king . do you want to get fatter ?
+User(6): yes
+Bot(6): me too , i wish pets were allowed in my college dorm room .
+User(7): i love burger
+Bot(7): i like bacon on my burgers , i love meat
+User(8): thats cool
+Bot(8): i am okay . just on my break from my nursing job , reading a book
+User(9): am also
+Bot(9): does your ranch have horses or cattle ?
+User(10): cattle
+Bot(10): the closest i have to a pet is the tiger print duct tape holding my glasses together .
+User(11): wow
+Bot(11): he loves double cheese burgers and chicken nuggets
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: school(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.29
+Robotic(↓): 81
+Interesting: 70
+Fun: 81
+Consistent: 62
+Fluent: 81
+Repetitive(↓): 65
+Topic: 81
+
+####################
+

@@ -1,0 +1,295 @@
+Feedback: thank you
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): ya fine how about u?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): oh super
+Bot(3): i am a student , but i am a student .
+User(4): i am work in private sector
+Bot(4): oh , i am sorry . i am a student .
+User(5): college ?
+Bot(5): i am a student , but i am a student .
+User(6): u books are reading
+Bot(6): i do not really like it . i like to read .
+User(7): u student this time u just like read book
+Bot(7): i do not really have a favorite . i like to read .
+User(8): then which area
+Bot(8): i like to go to the gym and listen to music .
+User(9): oh super super
+Bot(9): i like to go to the gym and listen to music .
+User(10): i like gym
+Bot(10): i like to go to the lake and listen to music .
+User(11): any time music leasing
+Bot(11): i like to go to the beach and listen to music .
+User(12): any time i listen music
+Bot(12): i like to listen to music .
+User(13): super super
+Bot(13): i am a student , but i am a student .
+
+Persona:
+i'm working on a building a robot to be my body double.
+my favourite artist is travis scott.
+my favourite food is shawarma.
+i've a son who is in junior high school.
+my favourite skater is rob dryden.
+
+Topic and Human Opinion:
+Beginning: book(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.00
+Robotic(↓): 22
+Interesting: 66
+Fun: 33
+Consistent: 62
+Fluent: 36
+Repetitive(↓): 61
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): gym
+Bot(2): i do not like gym i do not like to eat healthy
+User(3): oh veg or nonveg
+Bot(3): i do not know how to eat meat
+User(4): ok ok ok
+Bot(4): i am a homebody and i love to eat veggies
+User(5): super very healthy foods
+Bot(5): yeah i do not eat healthy
+User(6): which one like
+Bot(6): i love veggies and veggies
+User(7): ok how many time veggies eating
+Bot(7): i eat healthy foods and veggies
+User(8): games are like
+Bot(8): i like to eat healthy and eat healthy
+User(9): ok next u like any ones
+Bot(9): i like to eat healthy and eat healthy
+User(10): i like to eat healthy and eat healthy
+Bot(10): i eat healthy and eat healthy
+User(11): next you going to school time
+Bot(11): i want to go to school
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: gym(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.71
+Robotic(↓): 33
+Interesting: 59
+Fun: 37
+Consistent: 57
+Fluent: 38
+Repetitive(↓): 60
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): family
+Bot(1): I'm you are hungry.
+User(2): why hungry
+Bot(2): I work from united states, station.
+User(3): ok your family?
+Bot(3): cool do christian there is florida
+User(4): oh sorry
+Bot(4): what type name is Jessica you ?
+User(5): jessica name white
+Bot(5): that is great up i want to who is a prodigy
+User(6): i am white
+Bot(6): me like were never there what is your favorite
+User(7): favorite colour green
+Bot(7): no said what's like dolls
+User(8): lion
+Bot(8): oh . i run sometimes I like george what better .
+User(9): oh better is george
+Bot(9): very special married and have you :)
+User(10): i married one son
+Bot(10): I am But my husband slut.
+
+Persona:
+i also have a dog walking business.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+my wife spends all my money.
+i've a son who is in junior high school.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: family(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.14
+Robotic(↓): 45
+Interesting: 57
+Fun: 41
+Consistent: 55
+Fluent: 43
+Repetitive(↓): 57
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): ilove friends
+Bot(1): by yourself ? you must have friends . i want friends by the beach . someday hope to live there .
+User(2): maximum i spending to frds
+Bot(2): you can use it when i am on my boat when i am on vacation at the beach
+User(3): yes more time beach
+Bot(3): you can use it when i am on my boat when i am on vacation at the beach
+User(4): ok ok boat travel very like
+Bot(4): you can use it when i am on my boat when i am on vacation at the beach
+User(5): boat own
+Bot(5): how want to come on my boat with me
+User(6): ok which date
+Bot(6): depends on my location and tout dates
+User(7): ok are baby to games like
+Bot(7): yeah only if we are bored of games though
+User(8): super super
+Bot(8): how do you siri work and play
+User(9): i phone use to siri but some times
+Bot(9): how do you siri work and play
+User(10): ya i like to eat healthy and eat healthy
+Bot(10): better person than me i psychoanalyze my friends
+User(11): some all to better
+Bot(11): i tend to drink my problems away
+
+Persona:
+i do not drink alcohol.
+for vacation i enjoy time at the beach.
+i don't drink alcohol.
+i enjoy reading journals and guides related to psychology.
+i own a yacht and i rent it out when i'm not using it.
+
+Topic and Human Opinion:
+Beginning: friends(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.00
+Robotic(↓): 42
+Interesting: 55
+Fun: 36
+Consistent: 62
+Fluent: 41
+Repetitive(↓): 56
+Topic: 47
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): colours are like
+Bot(1): its the sales part of advertising . i am currently working on a beer campaign .
+User(2): oh your brand
+Bot(2): the name of my shop is lebes fashion shop on cafe press
+User(3): this brand i like some times
+Bot(3): thankfully my job at the power plant afforded me the means to buy new .
+User(4): super project all the best
+Bot(4): invalid word in your message i am , please correct the spell
+User(5): which one
+Bot(5): english obviously , french , spanish , and korean . do you speak any other languages ?
+User(6): english
+Bot(6): only english , do you speak any other languages ?
+User(7): only english
+Bot(7): only speak english but that is pretty cool
+User(8): ok ok i not interested this time sorry
+Bot(8): restaurant or sporting goods store . i am a grill cook and saving for my own kitchen
+User(9): oh super
+Bot(9): well , work tomorrow , gotta get early to the base . packed brownies for lunch
+User(10): packed brownies for lunch
+Bot(10): i would not mind some brownies . ice cream is my favorite . how are you ?
+User(11): fine ice cream enjoy
+Bot(11): yes , i do like ice cream . sometimes i make my own ice cream at home .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: colour(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.57
+Robotic(↓): 39
+Interesting: 61
+Fun: 31
+Consistent: 57
+Fluent: 37
+Repetitive(↓): 57
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey , you need any dental work done ? my mom needs new clients .
+User(2): ok dental work u doctor
+Bot(2): my mom was a dentist
+User(3): good morning doctor
+Bot(3): my mom was a dentist
+User(4): yes some dental problem
+Bot(4): my mom was a dentist
+User(5): how to clean yellow
+Bot(5): my mom was a dentist
+User(6): how to clean yellow
+Bot(6): my mom was a dentist
+User(7): you work or student
+Bot(7): i want to be a lawyer
+User(8): lawyer how many cases you taking
+Bot(8): around 90 but i stopped counting
+User(9): oh your high level
+Bot(9): my mom was a dentist
+User(10): oh your high level lawyer
+Bot(10): my mom was a dentist
+
+Persona:
+i do not drink alcohol.
+my mother is a dentist.
+i can sew my own clothes.
+i want to be a lawyer.
+i'm 100 years old.
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.57
+Robotic(↓): 41
+Interesting: 60
+Fun: 33
+Consistent: 37
+Fluent: 60
+Repetitive(↓): 31
+Topic: 50
+
+####################
+

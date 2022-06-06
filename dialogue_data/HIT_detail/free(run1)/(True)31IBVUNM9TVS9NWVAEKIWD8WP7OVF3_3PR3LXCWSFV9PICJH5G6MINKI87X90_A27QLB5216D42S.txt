@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello there how are you?
+Bot(1): just fine thank you . i just became a blonde !
+User(2): Oh wow good for you. Do you have more fun?
+Bot(2): no , not really . i would rather party . i can not wait for college .
+User(3): Oh wow you are young then. Do you still believe in Santa?
+Bot(3): you would think so but no . my parents think religion is fake .
+User(4): I see. So you don't celebrate the holidays?
+Bot(4): if you count going to church on holidays as religious . you ?
+User(5): I do. Christmas is my favorite holiday
+Bot(5): i do not believe in holidays
+User(6): Okay fair enough. So it is just another day for you?
+Bot(6): i do not believe in holidays
+User(7): Got it. You are certainly entitled to your own opinion.
+Bot(7): i respect that everyone has their own belief .
+User(8): Same here. Diversity is what makes our country beautiful.
+Bot(8): my whole family supports me being a white dancer
+User(9): well that's good to hear. Family support is essential
+Bot(9): yes families always stick together .
+User(10): All the good ones at least.
+Bot(10): i agree and sometimes they are taken for granted .
+
+Persona:
+i'm a blonde girl with really short hair.
+i have rainbow hair.
+i never broke a bone in my body ever in my life.
+i work at a bar at night to pay for college.
+i only eat kosher.
+
+Topic and Human Opinion:
+Beginning: Holidays(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.57
+Robotic(↓): 33
+Interesting: 63
+Fun: 53
+Consistent: 54
+Fluent: 55
+Repetitive(↓): 74
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there
+Bot(1): i'm an only child . i do have two kids junior high in park, i'm children ?
+User(2): You have two children?
+Bot(2): Where is that is live?
+User(3): Is your area heavily affected by the coronavirus
+Bot(3): nice I have a 🈶 any kids
+User(4): Are your kids doing distant learning?
+Bot(4): No i what i fantasize any instruments
+User(5): I am not sure what you are trying to say
+Bot(5): well ok i like red things but i am tall so the color a professional tennis type of me
+User(6): Has your area been heavily affected by the coronavirus?
+Bot(6): I am not at work right now. a lonely person.
+User(7): I'm sorry to hear that you are lonely
+Bot(7): And William, not for should go, adorable those kids are, if I hear one song from that classic rock outfit Journey,
+User(8): Okay I don't know what you're talking about
+Bot(8): i know what i had i love meeting women at the bar
+User(9): You like to pickup women a bars. Cool
+Bot(9): what are am okey about
+User(10): are the bars still open in your area?
+Bot(10): I do not know. quite a hobby. I a music person.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: coronavirus(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 12
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): hey there
+User(2): How are you doing?
+Bot(2): same
+User(3): Have you been watching football this season?
+Bot(3): nope , i am not really into football .
+User(4): Oh okay. It is my favorite sport
+Bot(4): it is my favorite . i like to watch sports too
+User(5): Nice. What is your favorite team?
+Bot(5): i like steelers and seahawks
+User(6): One of my best friends is from Pittsburgh so I root for them as long as they aren't playing my team
+Bot(6): i have a friend who is a steelers fan
+User(7): Same. I hate the Seahawks though. they are our rivals
+Bot(7): i have a friend who is a steelers fan
+User(8): I do too
+Bot(8): i have a friend who is a steelers fan
+User(9): Got it. I'm a lifelong 49ers fan.
+Bot(9): that is cool i love the steelers and seahawks
+User(10): Hate the Seahawks but the Steelers are cool.
+Bot(10): i have a friend who is a steelers fan
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.43
+Robotic(↓): 100
+Interesting: 25
+Fun: 27
+Consistent: 24
+Fluent: 14
+Repetitive(↓): 100
+Topic: 46
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi there how are you?
+Bot(1): i am doing well . how are you ?
+User(2): I am pretty good thanks.
+Bot(2): i am a student , what do you do ?
+User(3): I work for Amazon
+Bot(3): i like to go to the gym and listen to music .
+User(4): Nice. are you doing anything for Thanksgiving?
+Bot(4): i am a student , but i am a student .
+User(5): good for you. Do you get a break for thanksgiving?
+Bot(5): i do not know . i am a big fan of it .
+User(6): What are you a big an of?
+Bot(6): i am a student , i am a teacher .
+User(7): You are a student and a teacher?
+Bot(7): no , i am a student . i love to cook .
+User(8): Are you cooking for Thanksgiving?
+Bot(8): no , i do not . i like to eat .
+User(9): Okay. Is your family getting together for Thanksgiving?
+Bot(9): no , i do not . i am a big fan of classical music .
+User(10): Okay cool story.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Thanksgiving(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.29
+Robotic(↓): 85
+Interesting: 23
+Fun: 43
+Consistent: 33
+Fluent: 22
+Repetitive(↓): 24
+Topic: 14
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hello , how are you ?
+User(2): I am fine thanks how are you?
+Bot(2): i am good . how are you ?
+User(3): Good thanks. Are you getting excited about the holidays?
+Bot(3): i am going to the beach . i am a musician .
+User(4): You are going to the beach for the holidays?
+Bot(4): i am going to the beach . i am a musician .
+User(5): what do you play?
+Bot(5): i play the guitar . i play a lot of music .
+User(6): Very nice. Are you asking for one for christmas?
+Bot(6): i am not sure . i am a musician .
+User(7): Okay sounds good.
+Bot(7): i am a musician so i can help you
+User(8): You can help with presents?
+Bot(8): i am a musician . i am a musician .
+User(9): You sound pretty excited about that?
+Bot(9): i am not sure . i am a musician .
+User(10): good for you
+Bot(10): i am a musician . i am a musician .
+
+Persona:
+i've a boyfriend.
+i've a black lab named trooper.
+i am a famous twitch streamer.
+i am a musician and hope to make it big some day.
+i am deathly afraid of heights.
+
+Topic and Human Opinion:
+Beginning: presents(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.29
+Robotic(↓): 96
+Interesting: 2
+Fun: 0
+Consistent: 0
+Fluent: 66
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there how are you?
+Bot(1): i am good . how are you ?
+User(2): i am good thanks.
+Bot(2): sitting on the sofa while my pug , grizzly adams keep my toes warm .
+User(3): very nice. Have you seen any good movies lately?
+Bot(3): i like the marvel cinematic universe , of course . i think wonder woman was pretty good .
+User(4): Oh nice. I haven't watched all of them but I did see Wonder Woman.
+Bot(4): i am a woman , that is good to know !
+User(5): I am as well
+Bot(5): i also love mountain dew . i drink a ton of it . every day .
+User(6): oh wow thats a lot of sugar
+Bot(6): tried that . it is hard , with everything processed with salt and sugar .
+User(7): yeah I would gain way too much weight if I drank sweet drinks like that
+Bot(7): yes i drink way too much coffee
+User(8): I love coffee. whats your favorite movie
+Bot(8): i do not like coffee
+User(9): Oh but you just said you did/
+Bot(9): i know someone and she grow plants , she does it in her garden
+User(10): very nice
+Bot(10): i am proud of it . i wrote a article in the new yorker magazine .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 1.14
+Robotic(↓): 99
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 5
+Repetitive(↓): 100
+Topic: 2
+
+####################
+

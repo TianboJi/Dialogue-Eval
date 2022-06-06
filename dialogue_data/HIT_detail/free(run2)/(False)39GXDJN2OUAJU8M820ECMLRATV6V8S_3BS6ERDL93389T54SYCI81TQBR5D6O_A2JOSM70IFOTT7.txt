@@ -1,0 +1,287 @@
+Feedback: Great survey, interested to see the next!
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hey
+Bot(1): hi , i am a single mother of five years old
+User(2): That is cool. Are they boys, girls, or both?
+Bot(2): i am married and i am married .
+User(3): I am not married.
+Bot(3): i am married . i am married .
+User(4): For how long?
+Bot(4): i am married . i am married .
+User(5): Ok, can you change the topic?
+Bot(5): i am not sure . i am a big fan of them .
+User(6): A big fan of who?
+Bot(6): i am not sure . i am a big fan of them .
+User(7): Who are you a fan of?
+Bot(7): i am not sure . i am not sure .
+User(8): I am confused on what you are talking about?
+Bot(8): i am a little bit of a nerd .
+User(9): I am too.
+Bot(9): i am not sure what you mean .
+User(10): I am a nerd too.
+Bot(10): i am a nerd , i like to go out and watch movies
+User(11): I watch movies too. Which kind do you like?
+Bot(11): i like to watch movies . i love them .
+
+Persona:
+i like to talk but people have a hard time understanding.
+i love rollercoasters and sky diving.
+i love wearing skinny jeans and leggings.
+i've a weakness for fish and chips.
+i'm married.
+
+Topic and Human Opinion:
+Beginning: Basketball(like)
+Round 2: family(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hey, do you like sports?
+Bot(1): S.H.I.E.L.D. academy, top a kindergarten garlik a PHDs in very advanced fields.
+User(2): Ok. What is that?
+Bot(2): I what I wall love do you live on a weekends? I do
+User(3): What do you mean?
+Bot(3): oh, I am sorry. do you have to go to . the action events
+User(4): I am not sure what you are trying to say?
+Bot(4): He know you you nice guy.
+User(5): Yes? I am a nice guy
+Bot(5): thank like only swimming river college i want to start krav maga classes too
+User(6): Can you type complete sentences?
+Bot(6): I love do you like the animal shelter
+User(7): Yes I do.
+Bot(7): I you finish I named horse 7.
+User(8): You named a horse?
+Bot(8): Please rephrase the tired. see you later me again.
+User(9): I do not understand.
+Bot(9): Oh, I be a superpower want to be?
+User(10): Yes I want to be.
+Bot(10): what kind girl and my favourite watch? I like cars
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.29
+Robotic(↓): 100
+Interesting: 36
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 15
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have a big family?
+Bot(1): no , i do not . i am a big fan of classical music .
+User(2): I am a fan too.
+Bot(2): i like to go to the gym and listen to music .
+User(3): What do you do at the gym?
+Bot(3): i like to go fishing . i love to go fishing .
+User(4): I like fishing too.
+Bot(4): i like to go to the lake and listen to music .
+User(5): Which lake?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): Which classical music?
+Bot(6): i do not know . i like to listen to music .
+User(7): Okay. Anything else you like besides music?
+Bot(7): i love music , but i like to listen to music .
+User(8): You told me.
+Bot(8): i am a student , but i am a student .
+User(9): What grade?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): Can you talk about a different genre of music?
+Bot(10): i do not really listen to music . i like to listen to music .
+
+Persona:
+my cats are very special to me.
+i'm a piano teacher on the side.
+i am a huge star wars fan.
+i am now looking for a new job.
+i'm in my thirties.
+
+Topic and Human Opinion:
+Beginning: Family(like)
+Round 1: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like trucks?
+Bot(1): that sounds fun . i drive a lot of trucks , as i live out in a rural area .
+User(2): What type of trucks?
+Bot(2): sounds fun ! where do you like to drive with your truck ?
+User(3): I live in the suburbs
+Bot(3): the windy city ! i love chicago ! do you have family there ?
+User(4): I do have family in Chicago
+Bot(4): i live near banff , alberta . the air is dry . it curls my already curly hair
+User(5): where is that?
+Bot(5): i love the beach there . ever go to the indoor surf area ?
+User(6): I have indoor surfed, yes.
+Bot(6): i am on my board every day of the week .
+User(7): What board? Surfboard?
+Bot(7): yeah only if we are bored of games though
+User(8): What games do you like?
+Bot(8): no , i am not really in to games .
+User(9): you just said you do
+Bot(9): i will make my own gym then
+User(10): I have my own gym too.
+Bot(10): gym , nice . my dad teaches gym in 7th grade .
+
+Persona:
+eating is something i do when i am bored.
+my father drove a car for nascar.
+i love to play board games.
+i can drive a tractor.
+i'm a retired gym teacher.
+
+Topic and Human Opinion:
+Beginning: Trucks(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.00
+Robotic(↓): 100
+Interesting: 79
+Fun: 1
+Consistent: 5
+Fluent: 88
+Repetitive(↓): 77
+Topic: 35
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like art
+Bot(1): yes i like horses . i can draw a pretty good horse
+User(2): do you do it for fun?
+Bot(2): yes i love horses and really enjoy riding them
+User(3): I do too
+Bot(3): do you like taylor swift at all ?
+User(4): yes, do you?
+Bot(4): well i do ride horses
+User(5): okay, what else?
+Bot(5): i like to sing taylor swift
+User(6): okay, and what else besides sing Taylor swift?
+Bot(6): well i do ride horses
+User(7): do you ride in the mornings?
+Bot(7): no i ride for fun only .
+User(8): you dont race the horses?
+Bot(8): nope , i just ride them as a leisure
+User(9): I have never
+Bot(9): nope , i just ride them as a leisure
+User(10): do you drive race cars?
+Bot(10): nope , i just ride them as a leisure
+
+Persona:
+i work in it and have been at the same company for 15 years.
+i met taylor swift.
+my brother is older than me.
+i've a hat collection of over 1000 hats.
+i like to ride horses.
+
+Topic and Human Opinion:
+Beginning: art(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 5
+Fluent: 82
+Repetitive(↓): 95
+Topic: 17
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like health?
+Bot(1): yeah . i am a bit of a health nut but not green thumb !
+User(2): what is green thumb?
+Bot(2): yeah . i am a bit of a health nut but not green thumb !
+User(3): okay, what is that?
+Bot(3): yeah . i am a bit of a health nut but not green thumb !
+User(4): is that a certain type?
+Bot(4): yeah . i am a bit of a health nut but not green thumb !
+User(5): do you follow the rules?
+Bot(5): i suppose . is that a rule , too ?
+User(6): yes, to follow the rules.
+Bot(6): rules are good for you !
+User(7): they are good for everyone
+Bot(7): i suppose . is that a rule , too ?
+User(8): lol no it is not
+Bot(8): hmm i think some rules are neccessary .
+User(9): yes some are necessary
+Bot(9): hmm i think some rules are neccessary .
+User(10): do you like them though?
+Bot(10): yes , i like them very much
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: health(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.57
+Robotic(↓): 76
+Interesting: 69
+Fun: 14
+Consistent: 46
+Fluent: 58
+Repetitive(↓): 87
+Topic: 60
+
+####################
+

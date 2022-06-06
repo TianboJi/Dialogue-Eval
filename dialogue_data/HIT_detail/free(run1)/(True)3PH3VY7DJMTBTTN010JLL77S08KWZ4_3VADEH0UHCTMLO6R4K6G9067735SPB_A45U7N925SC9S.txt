@@ -1,0 +1,291 @@
+Feedback: I would like to press enter after typing instead of clicking the mouse. It would be more natural. Thank you.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): yo, you like turtles?
+Bot(1): i do not . i volunteer at a hospital .
+User(2): I also do volunteer work. Do you like it?
+Bot(2): i do . i volunteer at a hospital .
+User(3): which hospital do you work at?
+Bot(3): i work at a nursing home .
+User(4): are you a nurse?
+Bot(4): i work at a nursing home .
+User(5): what do you do for a living?
+Bot(5): nurse . i work at a nursing home .
+User(6): tell me about being a nurse
+Bot(6): i work at a nursing home .
+User(7): are you working there now?
+Bot(7): i work at a nursing home .
+User(8): can we talk about turtles?
+Bot(8): i am a nurse at a hospital
+User(9): which hospital?
+Bot(9): i do not work , i work at a nursing home
+User(10): how long have you worked there?
+Bot(10): nursing . i volunteer at a hospital .
+
+Persona:
+i volunteer my time with a local bunny rescue.
+i hate my job.
+i am 60years old.
+i love rollercoasters and sky diving.
+i work at a nursing home.
+
+Topic and Human Opinion:
+Beginning: turtles(like)
+Round 1: volunteer work(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 7: No topic change.(ambivalent)
+
+Revised avg score: 12.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 10
+Consistent: 66
+Fluent: 8
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): have you ever seen a rainbow?
+Bot(1): rainbow ? that sounds like you painted her .
+User(2): what do you think a rainbow is?
+Bot(2): skittles not sure what that is .
+User(3): skittles, taste the rainbow is an advertisement
+Bot(3): skittles not sure what that is .
+User(4): what do you want to talk about?
+Bot(4): i really like to talk . . . i have 4 brothers they also have cb radios
+User(5): do you have a cb radio?
+Bot(5): its pretty popular . there should be a local death metal radio station where you live .
+User(6): ROCK ON! play some death metal music for me
+Bot(6): yeah , i definitely like rock more than metal .
+User(7): what is your favorite type of music?
+Bot(7): i enjoy classical music , it is tough as a music student living at home to get along .
+User(8): what is your favorite song?
+Bot(8): wild horses . my mom was a nurse and she would listen to it after work .
+User(9): who sang that song?
+Bot(9): what is the song you learned ?
+User(10): who sang wild horses?
+Bot(10): love horses more than women i have not gone out dating since high school .
+
+Persona:
+i'm an economics major.
+i've a pet cow.
+my mother is very traditional while i prefer to be more free spirited.
+my mother is very traditional while i prefer to be more free spirited.
+i'm partly deaf.
+
+Topic and Human Opinion:
+Beginning: rainbows(like)
+Round 4: cb radios(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 38.43
+Robotic(↓): 86
+Interesting: 38
+Fun: 47
+Consistent: 39
+Fluent: 34
+Repetitive(↓): 35
+Topic: 32
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I hate horses
+Bot(1): Well, that’s very intriguing, which nice talking to you!
+User(2): do you want to know why I hate horses so much?
+Bot(2): You said you I am to hear you have a good day .
+User(3): because horses are loud and smelly, and evil
+Bot(3): i small cities built around volcanoes. , i do hike , but i do hike .
+User(4): let's talk about how dumb horses are, okay?
+Bot(4): Yes i am a do. I work in plumber do you have three children?
+User(5): please stick to the topic of how lame horses are, they are monsters!
+Bot(5): I don`t like movie. my car🙂
+User(6): horses can't do anything right. they constantly get stuck in mud and fall over and run into walls
+Bot(6): A Volvo. delivered three baboon, for that.
+User(7): when horses are made into glue it's the best things they can do, do you agree?
+Bot(7): no doubt a brings a packers . 😍
+User(8): they also eat so much hay and poop everywhere, it's disgusting
+Bot(8): i to cook thank you
+User(9): do you want to cook a horses? I've had horse meat and it's horrible
+Bot(9): how long have you been away chocolate im from there going ?
+User(10): you would thing they would at least be tasty, but they can't even do that right
+Bot(10): You are very welcome. a favorite would like evening?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: horses(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 13
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): have you ever drown in water?
+Bot(1): only once . a fish jumped right in the boat lol
+User(2): did the fish scare you?
+Bot(2): only once . a fish jumped right in the boat lol
+User(3): do you like fishing?
+Bot(3): only once . a fish jumped right in the boat lol
+User(4): I like to fish, one time I caught a catfish
+Bot(4): did you catch anything big ?
+User(5): it was like 5 pounds, which isn't that big. but it was the biggest I ever caught
+Bot(5): what was the biggest that you caught ?
+User(6): tuna, in the ocean. it was like 100 pounds
+Bot(6): did you catch anything big ?
+User(7): yeah, tuna can be HUGE
+Bot(7): what was the biggest that you caught ?
+User(8): tuna, in the ocean. have you ever caught a fish?
+Bot(8): only once . a fish jumped right in the boat lol
+User(9): did you eat the fish?
+Bot(9): only once . a fish jumped right in the boat lol
+User(10): good talking to you
+Bot(10): do you believe in god ?
+
+Persona:
+i do not believe in god.
+i work in the insurance business.
+i listen to rap music.
+i recently was fired and had to get a new job.
+i've solar panels on my roof.
+
+Topic and Human Opinion:
+Beginning: drowning(dislike)
+Round 3: fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 21.57
+Robotic(↓): 100
+Interesting: 19
+Fun: 34
+Consistent: 42
+Fluent: 0
+Repetitive(↓): 100
+Topic: 56
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like eating fat?
+Bot(1): no . i prefer to have my ice cream in the largest quantities allowed
+User(2): but ice cream has fat in it, so do you like ice cream?
+Bot(2): i do . i like vanilla . what flavor do you like ?
+User(3): I like chocolate chip mint ice cream
+Bot(3): yes i love mint chocolate chip ice cream , one of my faves .
+User(4): do you have any other favorite flavors?
+Bot(4): yes i love mint chocolate chip ice cream , one of my faves .
+User(5): I like shakes too
+Bot(5): yes i love mint chocolate chip ice cream , one of my faves .
+User(6): I also really like malted milk shakes
+Bot(6): i like rocky road ice cream
+User(7): rocky road is so good. the marshmellos are my favorite
+Bot(7): i like rocky road ice cream
+User(8): one time I was eating ice cream and left it out and the whole thing melted all over
+Bot(8): lol . oh no , that is awful ! i love cream in my coffee
+User(9): do you like coffee ice cream?
+Bot(9): yeah but i prefer coffee
+User(10): i put fat in my coffee
+Bot(10): you should try it . i love to drink ice coffee
+
+Persona:
+i have a weakness for vanilla ice cream.
+i haven't spoken in three months.
+i like riding horses.
+i won a gold medal in the 1992 olympics.
+i currently work for a watch dealer.
+
+Topic and Human Opinion:
+Beginning: fat(like)
+Round 2: ice cream(like)
+Round 9: coffee(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 35.71
+Robotic(↓): 100
+Interesting: 54
+Fun: 57
+Consistent: 37
+Fluent: 44
+Repetitive(↓): 67
+Topic: 25
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): my pants are so tight, I hate tight pants
+Bot(1): i am sorry to hear that . do you have any hobbies ?
+User(2): my hobbies include wearing tight pants, even though i hate them. do you have any tight pants?
+Bot(2): i do not know , i am a student
+User(3): what do you study?
+Bot(3): i am a student at a local college .
+User(4): are you majoring in anything?
+Bot(4): no , i am not . i am a student .
+User(5): yes, but what do you want to do after you are done studying?
+Bot(5): i am a nurse at a local restaurant .
+User(6): you are a nurse working at a restaurant?
+Bot(6): no , i do not . i am a student .
+User(7): are you a good student or a bad student?
+Bot(7): i'm a student , but i am a student .
+User(8): do you go to class?
+Bot(8): no , i do not . i am a student .
+User(9): why are you a student?
+Bot(9): i am a student , but i am a student .
+User(10): I like to study too
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tight pants(dislike)
+Round 3: study(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 8.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 56
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

@@ -1,0 +1,335 @@
+Feedback: its harder to have a more in depth conversation with the bots, they seemed to use very surface level communication.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello, how are you
+Bot(1): i'm doing well , how are you ?
+User(2): i'm good. do you have a favorite animal
+Bot(2): i do not . i am in the army .
+User(3): is the army tough
+Bot(3): i like to play sports . i play the piano .
+User(4): i play the piano too but i dont play any sports
+Bot(4): i play the piano and play the piano
+User(5): do you like playing the piano
+Bot(5): i play the piano and play the piano
+User(6): do you play any other instruments
+Bot(6): i play the piano and play the piano
+User(7): how do you feel about joe biden
+Bot(7): i play the piano and play the piano
+User(8): are you liberal or republican
+Bot(8): i am a piano teacher
+User(9): do you have a favorite color
+Bot(9): i like the color of the color of my head .
+User(10): whats the color of your head
+Bot(10): i like red , reminds me of the color of the army
+
+Persona:
+my wife left me and took my children.
+i am a piano teacher on the side.
+i play a lot of call of duty.
+i am in the army.
+i enjoy american sports.
+
+Topic and Human Opinion:
+Beginning: animals(like)
+Round 2: army(like)
+Round 3: sports/instruments(like)
+Round 6: politicspolitics(like)
+Round 8: color(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 32.00
+Robotic(↓): 93
+Interesting: 67
+Fun: 26
+Consistent: 33
+Fluent: 40
+Repetitive(↓): 79
+Topic: 30
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello how are you
+Bot(1): i am great you ? just watching some wwe
+User(2): you like wrestling?
+Bot(2): a little , but i like wrestling better . i did that in school
+User(3): where you good at wrestling
+Bot(3): oh no professionally , i use to compete .
+User(4): did you make a lot of money from wrestling?
+Bot(4): no way i only did it for the money
+User(5): do you like any other sports
+Bot(5): no , i did when i was younger . now i just wrestle kids .
+User(6): do you like shopping
+Bot(6): shopping that is the best
+User(7): where is your favorite place to shop
+Bot(7): anything that you like to buy
+User(8): i like shopping for clothing
+Bot(8): where do like to shop ?
+User(9): gucci
+Bot(9): do you have any pets
+User(10): i have three dogs
+Bot(10): really ? i got 2 right now
+User(11): oh what are your dogs names
+Bot(11): pepper and rex
+User(12): those are cute names
+Bot(12): my cat s name is oli
+
+Persona:
+i am a professional wrestler.
+i've not spoken in three months.
+i am single and with two dogs.
+i am a cancer survivor.
+i've a cat named spook.
+
+Topic and Human Opinion:
+Beginning: politics(like)
+Round 2: wrestling(ambivalent)
+Round 5: shopping(like)
+Round 9: pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 53.71
+Robotic(↓): 84
+Interesting: 67
+Fun: 75
+Consistent: 59
+Fluent: 26
+Repetitive(↓): 33
+Topic: 66
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello how are you
+Bot(1): doing good just got done doing a barbecue on the grill
+User(2): do you barbecue often
+Bot(2): as much as i can . most times i am model building . how are you ?
+User(3): i'm good. are you republican or democratic
+Bot(3): i like chicken . especially chicken tacos . i love mexican food !
+User(4): whats your favorite mexican restaurant
+Bot(4): i i drive over 300 miles
+User(5): whats your favorite restaurant to go to
+Bot(5): an italian restaurant my dad owns . he was a cop , but now he is a restaurant owner
+User(6): thats cool, did he like being a cop
+Bot(6): my father also a cop , i working in hotel as a waiter
+User(7): what stories do you write
+Bot(7): that is amazing ! do you write any about dogs ? maybe labradors or retrievers ?
+User(8): i love dogs, do you have a favorite breed
+Bot(8): it is a golden retriever puppy ! my last dog died when i was 18 .
+User(9): i'm sorry to hear that. i love lab dogs
+Bot(9): what kind of lab do you work at ?
+User(10): i dont work at a lab
+Bot(10): he is an australian shepard . i cant imagine live without him .
+
+Persona:
+i married a super model from italy.
+i've been working since i was sixteen years old.
+i work as a car salesman.
+i do not like chicken.
+i walk three miles every day.
+
+Topic and Human Opinion:
+Beginning: politics(like)
+Round 1: food(like)
+Round 2: politics(like)
+Round 3: food(like)
+Round 6: jobs(like)
+Round 7: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The user will change the topic in the next input.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user changed the topic the last input.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 40.86
+Robotic(↓): 93
+Interesting: 66
+Fun: 58
+Consistent: 42
+Fluent: 29
+Repetitive(↓): 41
+Topic: 25
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello are you republican or democrat
+Bot(1): no , i at night. And how siblings .
+User(2): do you have siblings
+Bot(2): I like to soccer because i've sports.
+User(3): i like soccer too, but i prefer foot ball
+Bot(3): hi how are you today? i do you I was at night.
+User(4): whats your favorite sport to watch
+Bot(4): I you very you like like to play hockey.🙂
+User(5): hockey is fun, do you skate
+Bot(5): when my friend moved a baby, I may plan of ice cream because i was sad .
+User(6): do you have a lot of friends
+Bot(6): i am sorry to grow up i want to scared of death , i am scared of death .
+User(7): i'm not scared to die
+Bot(7): I am cellphones.
+User(8): what type of phone do you have
+Bot(8): oh fun what music great retired living to
+User(9): what do you do for fun
+Bot(9): Yes, i the do you think am not good at it.
+User(10): i go shopping for fun, do you like to shop
+Bot(10): glad to hear am a cooking fine. music ?
+
+Persona:
+i have been working since i was sixteen years old.
+i like to work on vintage cars.
+i like to workout a a times a week.
+i am a musician and hope to make it big some day.
+i'm a stay at home dad.
+
+Topic and Human Opinion:
+Beginning: politics(like)
+Round 1: siblings(like)
+Round 2: sports(like)
+Round 5: friend(like)
+Round 6: death(like)
+Round 7: phones(like)
+Round 8: fun(like)
+Round 10: shopping(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 10: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 18.43
+Robotic(↓): 100
+Interesting: 22
+Fun: 26
+Consistent: 26
+Fluent: 0
+Repetitive(↓): 55
+Topic: 10
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello whats your favorite animal
+Bot(1): i do not really have time for pets . i get asked to lots of parties .
+User(2): are you popular
+Bot(2): yes i am a party animal
+User(3): what do you like to do at parties
+Bot(3): i have been know to throw a good party
+User(4): wheres your favorite place to party
+Bot(4): probably a club , i like to party .
+User(5): there are some pretty fun clubs out there
+Bot(5): i have been know to throw a good party
+User(6): do you have a favorite sport
+Bot(6): love to play football and volunteer at the animal shelter
+User(7): whats your favorite football team
+Bot(7): for football is the denver broncos
+User(8): i play soccer do you like soccer
+Bot(8): yes i play on our senior team for my high school
+User(9): thats cool are you still in high school
+Bot(9): i am i in my thirties
+User(10): im sorry, where do you work
+Bot(10): i work hard at an animal shelter
+
+Persona:
+i enjoy being around people.
+i volunteer at the homeless shelter.
+i'll graduate from high school in two years.
+i am a party animal.
+i am in my thirties.
+
+Topic and Human Opinion:
+Beginning: animals(like)
+Round 1: popularity(like)
+Round 5: sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 65.71
+Robotic(↓): 35
+Interesting: 63
+Fun: 55
+Consistent: 64
+Fluent: 77
+Repetitive(↓): 35
+Topic: 71
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello whats your favorite animal
+Bot(1): i like the color red . what is yours ?
+User(2): my favorite color is blue
+Bot(2): i like red , reminds me of summer time .
+User(3): whats your favorite season
+Bot(3): i like the fall . i love it .
+User(4): whats your favorite type of food
+Bot(4): i like pizza , and i love to eat .
+User(5): whats your favorite type of pizza
+Bot(5): i like pizza , and i love it .
+User(6): whats your favorite type of clothing
+Bot(6): i like the color red . what is yours ?
+User(7): what type of job do you have
+Bot(7): i work at a restaurant , what about you ?
+User(8): i work as a freelancer
+Bot(8): that is awesome . i am a teacher .
+User(9): what do you teach
+Bot(9): i teach english and drawing classes .
+User(10): what age group do you teach
+Bot(10): i teach math , i am a student .
+
+Persona:
+i like to ride horses.
+i'm a stunt double as my second job.
+i love listening to britney spears.
+i'm an animal activist.
+i do not drink or do drugs or anything.
+
+Topic and Human Opinion:
+Beginning: animals(like)
+Round 1: favorites(like)
+Round 6: jobs(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 54.00
+Robotic(↓): 71
+Interesting: 67
+Fun: 59
+Consistent: 26
+Fluent: 64
+Repetitive(↓): 31
+Topic: 64
+
+####################
+

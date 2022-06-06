@@ -1,0 +1,296 @@
+Feedback: Exhausting for a buck an hour, I'll tell you what!
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): So you really like The Insane Clown Posse?
+Bot(1): no , i do not . i like to go to the gym .
+User(2): Cool. I like to exercise, but not so much at the gym.
+Bot(2): i like to go fishing .
+User(3): I guess fishing can be considered a form of exercise.
+Bot(3): i like to go to the gym and listen to music .
+User(4): Just not the Insane Clown Posse, though. Right?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): Then you certainly wouldn't like their stuff, I guess. More like Bach, or something?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): Yes, you told me that already. Bach is about as classical as you can get!
+Bot(6): i like to go to the beach and listen to music .
+User(7): So, you like to listen to music no matter where you go.
+Bot(7): i do not know . i like to go out to eat .
+User(8): Do you listen to music at the restaurant?
+Bot(8): no , i do not , but i do like to go out to eat .
+User(9): Classical French food?
+Bot(9): i do not know . i like to eat .
+User(10): So, you'll basically eat anything, as long as it's food.
+Bot(10): i like to eat fish .
+User(11): Fish is good.
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+i've three dogs.
+i live in california but the recording artist market was dead last year.
+i am a construction worker.
+i'm a 12 year old girl.
+i am a construction worker.
+
+Topic and Human Opinion:
+Beginning: my favorite band is the insane clown posse.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.57
+Robotic(↓): 89
+Interesting: 76
+Fun: 76
+Consistent: 72
+Fluent: 89
+Repetitive(↓): 71
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Blonde hair and blue eyes can be quite attractive.
+Bot(1): 39 6th 400. read too ! tell lot of friends?
+User(2): Um, what exactly is it that you tell friends?
+Bot(2): I work meet you, Dave! I'm How about you?
+User(3): I'm fine, but my name isn't Dave.
+Bot(3): Oh, I see. I drive do u have two living, what do you do?
+User(4): I also drive, and am living, but only the one life.
+Bot(4): oh great i love 😗 So how old are lets me connect
+User(5): I'm as old as the hills, how about you?
+Bot(5): It's you joke.
+User(6): Yes, I'm not really that old, I just feel that way.
+Bot(6): cool ✨ like listen to music to play softball
+User(7): Do you listen to music while playing softball?
+Bot(7): I like Let's move drinking country.
+User(8): Yes, drinking in the country is fun.
+Bot(8): I sell insurance, to the use insurance.
+User(9): I do not need any insurance, thank you.
+Bot(9): yes , elementary teach in little selfish
+User(10): Selfishness is a character flaw.
+Bot(10): Have like rap night
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've blonde hair and blue eyes.(ambivalent)
+Round 1: Something nonsensical(ambivalent)
+Round 2: a greeting, and it called me Dave(ambivalent)
+Round 6: things it likes(like)
+Round 8: selling insurance(ambivalent)
+Round 9: nonsense(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 41.71
+Robotic(↓): 99
+Interesting: 87
+Fun: 84
+Consistent: 30
+Fluent: 8
+Repetitive(↓): 32
+Topic: 14
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): So, you like running in marathons?
+Bot(1): hello and yes i love participating in marathons actually . how about you ?
+User(2): No, no! I find them interesting, but running them is not for me!
+Bot(2): okay , is that because you live in the woods or something ?
+User(3): No, it's nothing to do with where I live. Besides, you can run in the woods can't you?
+Bot(3): sorry . . . but i have to run ! its my favorite thing to do !
+User(4): Hey, don't let me stop you!
+Bot(4): i do not want to take over the whole world , just a small part of it
+User(5): What do you consider small? Like Guam?
+Bot(5): yes more like a small rock in the south pacific
+User(6): Oh, well that's not too megalomaniacal, I guess!
+Bot(6): i do not want to take over the whole world , just a small part of it
+User(7): Just a small rock in the Pacific, not like a continent or anything.
+Bot(7): yes more like a small rock in the south pacific
+User(8): I can understand that. Just a place where no one will bother you.
+Bot(8): yeah , freedom sounds kind of nice , no worries , right ?
+User(9): Well, as long as there's food and water on your rock!
+Bot(9): absolutely ! looks like we both make use of the ocean .
+User(10): Well, you'd pretty much have to, living on a rock!
+Bot(10): yeah , freedom sounds kind of nice , no worries , right ?
+
+Persona:
+i fantasize about taking over the world.
+i live is a rural farming community.
+we spent summers ring at national parks.
+i'm in the army.
+my father used to work for home depot.
+
+Topic and Human Opinion:
+Beginning: i love running and preparing for marathons.(ambivalent)
+Round 4: world domination(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 68.43
+Robotic(↓): 70
+Interesting: 93
+Fun: 91
+Consistent: 77
+Fluent: 78
+Repetitive(↓): 71
+Topic: 81
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I've always wanted a German Shepherd
+Bot(1): german shepherd , german shepherd , german shepherd , german shepherd , german shepherd
+User(2): Well, five of them might be too many!
+Bot(2): i have a german shepherd , he is a german shepherd , and he loves german shepherds
+User(3): He likes to stick to his own kind, does he?
+Bot(3): he is a german shepherd , he is a german shepherd , he is a german shepherd
+User(4): No identity crisis there, I guess!
+Bot(4): he is a german shepherd , he is a german shepherd , he is a german shepherd
+User(5): Is his name Barnaby, by chance?
+Bot(5): he is a german shepherd , he is a german shepherd , and he loves to drive , he is a german shepherd
+User(6): Wait, he can drive?
+Bot(6): he is a german shepherd , he loves to drive , he is a german shepherd
+User(7): Well, that's pretty amazing, did you teach him?
+Bot(7): he was a teacher , he was a teacher , he was a teacher , so i was a teacher
+User(8): Yes, we can all learn from one another, even if different species.
+Bot(8): wow , that is a lot of people , i am sure you are a great teacher , i am sure you will have a great day !
+User(9): Yes, and you seem to be having a great day, too, what with driving around with your German shepherd and all!
+Bot(9): that's great , i hope he is a german shepherd , and he loves to drive , he is a german shepherd
+User(10): Of all the driving dogs, they are the best. It's the autobahn system, I guess.
+Bot(10): i am sure he is a german shepherd , i love him , he is a german shepherd
+User(11): Your love for him is commendable.
+Bot(11): he is , he is a german shepherd , and he loves to drive , he is a german shepherd
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a german shepherd named barnaby.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.29
+Robotic(↓): 97
+Interesting: 96
+Fun: 95
+Consistent: 99
+Fluent: 50
+Repetitive(↓): 99
+Topic: 99
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I also like to watch cooking shows
+Bot(1): i love cooking shows mostly
+User(2): Yes, they are instructive and enjoyable
+Bot(2): i love watching chefs table on netflix
+User(3): I don't think I've sen that one, but I've heard about it.
+Bot(3): i find them very interesting , i wonder when the first cooking one will come out
+User(4): I don't have Netflix, so I wouldn't know.
+Bot(4): cool , yea me either i just usually watch netflix
+User(5): Maybe your Netflix guide can tell you when the new season starts
+Bot(5): next week ? would that be good ?
+User(6): The sooner the better for you, it seems
+Bot(6): next week ? would that be good ?
+User(7): I mean, if your anxious to see it, then next week would be better than a month from now, right?
+Bot(7): next week ? would that be good ?
+User(8): Yes, next week would be fine.
+Bot(8): next week ? would that be good ?
+User(9): Yes, it's fine! I'm agreeing with you!
+Bot(9): next week ? would that be good ?
+User(10): Maybe you should see a doctor next week instead.
+Bot(10): next week ? would that be good ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i do like watching cooking shows.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.00
+Robotic(↓): 96
+Interesting: 78
+Fun: 76
+Consistent: 99
+Fluent: 70
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I would love to travel the world
+Bot(1): i would love to travel as well .
+User(2): Anyplace in particular that you'd like to go?
+Bot(2): well i go to tall places , high places , really scare me , i get terrified !
+User(3): So, probably not like, Switzerland or Nepal then.
+Bot(3): i feel blessed to be rich . i never would have dream this could happen .
+User(4): How did you get the money?
+Bot(4): i used to be middle class and now am terrifically rich . no comparison .
+User(5): Good for you! How did you get so rich?
+Bot(5): my brother makes 11 an hour at best buy . i know what its like to be rich .
+User(6): Maybe you could share some of your riches with your brother.
+Bot(6): that is a very kind offer , is it a formal setting ?
+User(7): Well, the setting is up to you; it's your money!
+Bot(7): books ! specifically fantasy genre . harry potter and the like .
+User(8): I haven't read those, are they good?
+Bot(8): anything . i prefer mysteries and crimes though
+User(9): Well, I guess Harry Potter has some mystery and crime in it.
+Bot(9): love harry potter . i am actually dying my hair back to black . it is red at the moment .
+User(10): You should keep the red, it's a lot more unusual
+Bot(10): i build drones for a job , in my wardrobe there is a lot of band tees
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i really like to travel.(like)
+Round 3: its personal wealth(like)
+Round 7: books(like)
+Round 9: hair color(like)
+Round 10: drones and trees(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 51.86
+Robotic(↓): 93
+Interesting: 86
+Fun: 85
+Consistent: 50
+Fluent: 47
+Repetitive(↓): 55
+Topic: 43
+
+####################
+

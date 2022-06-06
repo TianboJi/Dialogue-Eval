@@ -1,0 +1,297 @@
+Feedback: interesting
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): same
+User(3): hope you are fine
+Bot(3): i am good and that is good to know
+User(4): i like cooking
+Bot(4): i love to cook as well
+User(5): waht about you
+Bot(5): i love to cook
+User(6): do you like to eat junk food
+Bot(6): yes i love to cook
+User(7): i like non veg
+Bot(7): nice i only eat junk food
+User(8): ya super nice
+Bot(8): do you like junk food to ?
+User(9): i sometimes eat vegetables
+Bot(9): nice i only eat junk food
+User(10): its good for health
+Bot(10): yes that is true it is good
+User(11): yes bye take care
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.29
+Robotic(↓): 69
+Interesting: 65
+Fun: 68
+Consistent: 68
+Fluent: 71
+Repetitive(↓): 57
+Topic: 83
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi how are you
+Bot(1): I are am shopping 😀
+User(2): i like nature
+Bot(2): hello , i am doing dekhna Pasand to concentrate you ?
+User(3): do you like nature
+Bot(3): Hi! got 2 can you i love to eat out with friends.
+User(4): i want to discuss about nature
+Bot(4): Hello! Are that is christian?
+User(5): i dont know
+Bot(5): No I'm just resting I am a surfer.
+User(6): wat happen to u
+Bot(6): why would it sorry that
+User(7): do u like nature trees
+Bot(7): play with my is not a :)
+User(8): i think you are not comfortable
+Bot(8): that's awesome! seen I mean... in world army.
+User(9): ok good.
+Bot(9): I love to My mother is .
+User(10): do you love flowers
+Bot(10): That is a lot of it ka name key have any hobbies?
+User(11): its good to hear from you
+Bot(11): cool a guy hard you help me the deli speaks italian
+User(12): i dont know italian
+Bot(12): I like to skateboard and do you do at friends
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.71
+Robotic(↓): 28
+Interesting: 23
+Fun: 22
+Consistent: 17
+Fluent: 26
+Repetitive(↓): 25
+Topic: 8
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi how are you
+Bot(1): i'm doing well . how are you ?
+User(2): i am fine
+Bot(2): i am a student , i am a teacher .
+User(3): i am worker
+Bot(3): i am sorry to hear that . i am sorry to hear that .
+User(4): do you like politics
+Bot(4): i do , i like to go out to eat with my family .
+User(5): i want to discuss about poilitics
+Bot(5): i like to go to the gym and listen to music .
+User(6): i laso lie to hear music
+Bot(6): i like to listen to music .
+User(7): what about you on politics
+Bot(7): i like to go to the gym and listen to music .
+User(8): so you dont like politics
+Bot(8): i do not know what to say .
+User(9): ok stay with music
+Bot(9): i like to go to the gym and listen to music .
+User(10): bye take care
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i am currently looking for a job preferably at a restaurant.
+i'm a feminist.
+i haven't spoken in three months.
+i haven't spoken in three months.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.29
+Robotic(↓): 14
+Interesting: 14
+Fun: 25
+Consistent: 31
+Fluent: 23
+Repetitive(↓): 30
+Topic: 19
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi how are you
+Bot(1): i'm good thanks for asking
+User(2): i am feeling good
+Bot(2): i am good thanks for asking
+User(3): i like music
+Bot(3): i like music do you
+User(4): do you like music to hear
+Bot(4): yes i do but i love music
+User(5): music is ever green always
+Bot(5): i like music do you
+User(6): ilike dance also
+Bot(6): i do not like music i like music
+User(7): good nice to hear from u
+Bot(7): yeah i do like music
+User(8): do u like dance
+Bot(8): yes i do but i love to dance
+User(9): ya am also love to dance
+Bot(9): i dance to music when i can
+User(10): will meet soon
+Bot(10): that is cool i love dancing
+User(11): bye
+Bot(11): that is cool i love dancing
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.00
+Robotic(↓): 65
+Interesting: 37
+Fun: 24
+Consistent: 21
+Fluent: 26
+Repetitive(↓): 20
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi how are you
+Bot(1): i am doing great . just got back from yoga class . i teach at my local fitness center .
+User(2): super great.
+Bot(2): i work at del taco , i want to design fries lol
+User(3): i like movie
+Bot(3): we like any disney movie . actually going there next week with the kids .
+User(4): do you like movies
+Bot(4): mostly foreign movies , subtitled though , i wish i knew spanish .
+User(5): recently which movie you seen?
+Bot(5): its about aliens invading the earth . i enjoy these types of flicks .
+User(6): super nice to hear frm you
+Bot(6): i work at del taco , i want to design fries lol
+User(7): i went movie yesterday
+Bot(7): we like any disney movie . actually going there next week with the kids .
+User(8): i went with my kids
+Bot(8): yeah , and i am thinking about my own kids also . i have 2
+User(9): ya am also boy and girl
+Bot(9): i hope studying software development pays off for me . do u have any hobbies ?
+User(10): yes.i like to sing
+Bot(10): i am going to take a random song , will your divorce be finalized soon ?
+User(11): very great to hear from you
+Bot(11): the appalachian mountains in east tennessee . it is a beautiful place .
+User(12): yes i agree with you
+Bot(12): i work and i am a full time student but i still find time for my dog
+User(13): meet you soon bye
+Bot(13): hi there . . great to speak with you
+
+Persona:
+i am a recording engineer and own my own studio.
+i've a children and a dogs.
+i work at a school.
+my next language to study is french.
+i'm retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.86
+Robotic(↓): 83
+Interesting: 65
+Fun: 73
+Consistent: 65
+Fluent: 64
+Repetitive(↓): 61
+Topic: 61
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi how are you
+Bot(1): good thanks . tell me about yourself
+User(2): i am female
+Bot(2): i am a girl
+User(3): same combination
+Bot(3): very good combo so how about you
+User(4): am fine.
+Bot(4): same
+User(5): i like gym
+Bot(5): i like going to the gym .
+User(6): i want to make my body fit
+Bot(6): i miss it if i do not workout
+User(7): yes.need to work out daily
+Bot(7): i miss it if i do not workout
+User(8): yes me too
+Bot(8): i miss it if i do not workout
+User(9): waht about your gym
+Bot(9): home made gym just at home
+User(10): nice good also
+Bot(10): and my gym time makes it really better
+User(11): yes time will be save
+Bot(11): i miss it if i do not workout
+User(12): yes
+Bot(12): this is a hard worl
+User(13): yes.are you lean body
+Bot(13): i think so . i am in great shape
+User(14): super.bye
+Bot(14): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fitness(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.00
+Robotic(↓): 71
+Interesting: 61
+Fun: 63
+Consistent: 63
+Fluent: 63
+Repetitive(↓): 58
+Topic: 50
+
+####################
+

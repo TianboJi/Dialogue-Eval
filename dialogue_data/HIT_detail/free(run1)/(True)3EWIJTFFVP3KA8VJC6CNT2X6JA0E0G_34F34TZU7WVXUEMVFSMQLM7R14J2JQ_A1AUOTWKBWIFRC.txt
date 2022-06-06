@@ -1,0 +1,311 @@
+Feedback: none of the chat bots stayed on topic and repeated themselves often 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hi just done playing soccer
+User(2): i have never played soccer before is it fun
+Bot(2): it is great . i play all the time . i love playing on green grass
+User(3): don't you get tired from all the running around
+Bot(3): not very long i take my dogs for walks to calm my nerves
+User(4): i don't like dogs, i have a pet cat though
+Bot(4): speaking of hounddogs i have 3 suppers
+User(5): i don't understand what you mean
+Bot(5): i work out in the fields
+User(6): for fun or as a job, do you work with your dogs
+Bot(6): i work out in the fields
+User(7): why do you work in the fields
+Bot(7): i work out in the fields
+User(8): what do you do for work
+Bot(8): i work out in the fields
+User(9): can you say anythinig else
+Bot(9): i work out in the fields
+User(10): i don't know anything about fields
+Bot(10): do you like music ? i love concerts
+
+Persona:
+i have short brown hair.
+i help tend the fields.
+i have three dogs.
+i'm on the soccer team.
+my favorite band is up and i got to see them in concert once.
+
+Topic and Human Opinion:
+Beginning: weather(ambivalent)
+Round 1: sports(like)
+Round 3: dogs(dislike)
+Round 7: fields(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.14
+Robotic(↓): 99
+Interesting: 2
+Fun: 0
+Consistent: 30
+Fluent: 11
+Repetitive(↓): 96
+Topic: 2
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): do you have any hobbies ?
+User(2): i love listening to music
+Bot(2): i listen to music while listening to music
+User(3): what is your favorite type of music
+Bot(3): i like pop music and music
+User(4): do you play any instruments
+Bot(4): i play the guitar
+User(5): how long have you been playing
+Bot(5): i played guitar and play guitar
+User(6): who is your favorite band
+Bot(6): i like the band it is a good band
+User(7): do you like going to concerts
+Bot(7): i like to listen to music while i listen to music
+User(8): have you been to a concert lately
+Bot(8): i like to listen to music
+User(9): have you ever been in a band
+Bot(9): no i don't but i have played it
+User(10): what era of music do you like best
+Bot(10): i like to listen to music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.29
+Robotic(↓): 88
+Interesting: 28
+Fun: 16
+Consistent: 31
+Fluent: 50
+Repetitive(↓): 82
+Topic: 71
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you like watching movies
+Bot(1): i do , i like to read .
+User(2): do you read when you are watching a movie
+Bot(2): i do not know . i like to read .
+User(3): who is your favorite author
+Bot(3): i like the color red . i like the color blue .
+User(4): are those books
+Bot(4): i do not know . i like to go to the gym .
+User(5): how often do you go
+Bot(5): i love to go fishing .
+User(6): what kind of bait do you use
+Bot(6): i like to eat fish .
+User(7): i like to catch fish but not eat them
+Bot(7): i like to eat fish .
+User(8): what is your favorite fish
+Bot(8): i like the color red . what is yours ?
+User(9): purple
+Bot(9): i like to go to the gym and listen to music .
+User(10): at the same time
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i like to spend my money on cars.
+i have a german shepherd named barnaby.
+i'm always wearing a hat.
+i love cooking but i also enjoy fishing.
+i produce music for artists.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 2: reading(ambivalent)
+Round 4: working out(like)
+Round 5: fishing(like)
+Round 8: colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 15.71
+Robotic(↓): 97
+Interesting: 11
+Fun: 16
+Consistent: 28
+Fluent: 33
+Repetitive(↓): 90
+Topic: 9
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you have any pets
+Bot(1): hi no i do not have any pets .
+User(2): do you just not like animals or aren't you allowed to have them where you live
+Bot(2): no i cant have any pets where i am at
+User(3): have you ever had a pet
+Bot(3): i have not have you
+User(4): i have had several cats but i want a dog next
+Bot(4): i used to own one as a pet
+User(5): you said you never had a pet
+Bot(5): i was an only child so my pet was important to me
+User(6): what was the pet's name
+Bot(6): i meant the name
+User(7): was it a cat or dog
+Bot(7): i was an only child so my pet was important to me
+User(8): how long did you have it
+Bot(8): for as long as i can remember
+User(9): did it die
+Bot(9): how did they die dang
+User(10): my pets are alive
+Bot(10): how did they die dang
+
+Persona:
+i am a famous twitch streamer.
+i love to sing songs from the movie frozen.
+my next language to study is french.
+i was raised in a single parent household.
+i like to go hiking in the mornings to see the sunset.
+
+Topic and Human Opinion:
+Beginning: pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.86
+Robotic(↓): 83
+Interesting: 26
+Fun: 21
+Consistent: 23
+Fluent: 42
+Repetitive(↓): 63
+Topic: 57
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I like have a lot and fish
+User(2): do you have any children
+Bot(2): interesting what music for about
+User(3): i like country music
+Bot(3): why do have a also stay strong
+User(4): what is your favorite music
+Bot(4): You must be me? I bought it.
+User(5): do you have any hobbies
+Bot(5): i am you like like you
+User(6): what do you to kill free time
+Bot(6): I like to dog.
+User(7): do you walk dogs as a hobby
+Bot(7): I love hiking, is John. What hiking😉
+User(8): do you go camping
+Bot(8): I have never been to a car, but music is you! i’m a car.
+User(9): where do you like to hike
+Bot(9): I sure they are What about you?
+User(10): i like to hike and camp
+Bot(10): i am a fan of red wine , but you have problems pal paint .
+
+Persona:
+my favourite artist is travis scott.
+one of the languages that i am currently studying is spanish.
+i play with my friends on the playground.
+i am a descendant of christopher columbus.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: family(like)
+Round 2: music(like)
+Round 4: hobbies(like)
+Round 7: outdoors(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 7
+Repetitive(↓): 68
+Topic: 1
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you like to cook at home or go out to eat
+Bot(1): i love comic books and i also collect autographs , which i have a lot of .
+User(2): what is your favorite comic book
+Bot(2): do you have a favorite comic ?
+User(3): no but i like some movies based off comic books
+Bot(3): oh how wonderful . comic books are a wonderful example of modern literature . so accessible .
+User(4): do you like super man or spider man better
+Bot(4): ciao ! thinking about heading to yoga class today , what about you ?
+User(5): i have never done yoga
+Bot(5): i am going back to college so i am too broke to pay for yoga class
+User(6): you can do it online for free
+Bot(6): that is great , do you sell boots ? i love wearing cowboy boots .
+User(7): i don't sell or wear cow boy boots
+Bot(7): we have lots of boots on the farm . what do you do for work ?
+User(8): i have a state job
+Bot(8): i live in california , best for being a lifeguard !
+User(9): do you work as a life guard
+Bot(9): i am a third shift security guard , just finished training .
+User(10): i used to be a cop
+Bot(10): i am retired now . being a cop must be rough
+
+Persona:
+when i grow up i want to be a dog.
+i used to be a painter but now i am a housekeeper.
+i've three sisters.
+i'm a stunt double as my second job.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 1: comics(dislike)
+Round 4: yoga(dislike)
+Round 6: clothes(like)
+Round 7: work(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 27.57
+Robotic(↓): 85
+Interesting: 13
+Fun: 31
+Consistent: 33
+Fluent: 40
+Repetitive(↓): 47
+Topic: 8
+
+####################
+

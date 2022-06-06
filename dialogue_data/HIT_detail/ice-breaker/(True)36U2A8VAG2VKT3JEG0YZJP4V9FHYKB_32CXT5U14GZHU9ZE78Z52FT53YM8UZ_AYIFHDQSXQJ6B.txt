@@ -1,0 +1,341 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi!
+Bot(1): hey
+User(2): What color hair do you have?
+Bot(2): brown hair ! how about you ?
+User(3): The same! And mine is curly!
+Bot(3): i wish i had curly hair . mine is straight and will not hold a curl .
+User(4): You could use a curling iron!
+Bot(4): curly hair can be a pain !
+User(5): True, it can be. Do you have long hair?
+Bot(5): i do not , i just wash my curly head .
+User(6): Umm ok lol. So what do you like to do for fun?
+Bot(6): i also do hair and makeup . i have a long blonde mane that i curl and braid !
+User(7): So you enjoy doing make up as a hobby?
+Bot(7): not really i stick to make up lol
+User(8): What else do you do for fun?
+Bot(8): i look at make up tutorials
+User(9): Oh, wow. That sounds interesting.
+Bot(9): i suppose it can be .
+User(10): Do you like sports?
+Bot(10): no not really . i like sports though .
+User(11): Ok. It was nice talking to you. Bye.
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've brown curly hair.(ambivalent)
+Round 5: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 47.57
+Robotic(↓): 82
+Interesting: 30
+Fun: 66
+Consistent: 66
+Fluent: 68
+Repetitive(↓): 81
+Topic: 66
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello.
+Bot(1): my beloved bella she's a toy sized dog .. say about your eat and am on ...
+User(2): Do you like sports?
+Bot(2): I work at a company. it is a good job. want to be a dog. same for 5 years
+User(3): I am on a soccer team.
+Bot(3): do love to go I enjoy running
+User(4): I don’t like to run.
+Bot(4): i'm actually video games huh often you up to tonight ?
+User(5): I like playing video games too.
+Bot(5): I was born to go cars doh love it
+User(6): What about cars? You love them?
+Bot(6): I am expecting twins in two a gym. do you have any hobbies?
+User(7): Yes I like crafts.
+Bot(7): that is cool , i am a redhead , and i am a redhead , so i do not there. No i'm not watch
+User(8): I have brown hair.
+Bot(8): i do not cook , but i am red hair that comes new job .
+User(9): Are you a hairdresser?
+Bot(9): I am not have a dog, a student.
+User(10): I have a dog. Do you?
+Bot(10): I you have a and I love dancing
+User(11): I am not much of a dancer. What kind of dance do you do?
+Bot(11): i i grow up i to be a teacher. i love music.
+User(12): Cool. Talk to you later.
+Bot(12): i high to meet fan too
+
+Persona:
+i've a pet turtle.
+i like playing basketball.
+i'm scared of dying.
+i like to grill outdoors.
+i am also a graduate student.
+
+Topic and Human Opinion:
+Beginning: i am on the soccer team.(dislike)
+Round 3: Running(dislike)
+Round 4: Video games(like)
+Round 7: I am a redhead(dislike)
+Round 9: Dogs(ambivalent)
+Round 10: Dancing(dislike)
+Round 11: Teaching(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.71
+Robotic(↓): 100
+Interesting: 5
+Fun: 10
+Consistent: 2
+Fluent: 7
+Repetitive(↓): 25
+Topic: 25
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello there.
+Bot(1): hi there . i am a music teacher . what do you do ?
+User(2): I’m very strong for my age. I lift heavy weights. I like working out.
+Bot(2): i am buddhist also . fun fact .
+User(3): That’s good to know. I am catholic.
+Bot(3): i am buddhist also . fun fact .
+User(4): What made you have an interest in Buddhism?
+Bot(4): i was also raised as a buddhist .
+User(5): So your family is Buddhist as well?
+Bot(5): i was also raised as a buddhist .
+User(6): What do Buddhists do?
+Bot(6): do buddhists smoke weed ever ?
+User(7): I have no idea. Shouldn’t you know that, being a Buddhist yourself?
+Bot(7): i was also raised as a buddhist .
+User(8): You already said that three times. So what do you do for hobbies?
+Bot(8): i actually teach piano in my music class .
+User(9): Wow, that sounds fun! Do you teach kids?
+Bot(9): i actually teach piano in my music class .
+User(10): Right. Who do you teach?
+Bot(10): just those i teach . how about yourself ?
+User(11): I love music, but I do not teach it.
+Bot(11): i hope to be a music teacher one day .
+User(12): You already are! Nice talking with you !
+Bot(12): likewise . have a good night .
+
+Persona:
+i'm a piano teacher on the side.
+i'm a buddhist.
+i like to ride horses.
+my friends are all skateboarders.
+i love listening to britney spears.
+
+Topic and Human Opinion:
+Beginning: i'm very strong for my age.(dislike)
+Round 2: Buddhism(ambivalent)
+Round 8: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 8: The user changed the topic the last input.(like)
+
+Revised avg score: 44.43
+Robotic(↓): 77
+Interesting: 69
+Fun: 71
+Consistent: 55
+Fluent: 43
+Repetitive(↓): 94
+Topic: 44
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am doing good . just cooking dinner . love cooking
+User(2): Sounds like fun! I’m a stay at home dad so I do all of the cooking !
+Bot(2): i love cooking but i do not have anyone to cook for but myself
+User(3): Well, that’s ok though! It leaves more yummy food for you, right?
+Bot(3): anything and everything chocolate . . . have you ever had fried snickers ?
+User(4): No, I haven’t. Are they good?
+Bot(4): they are amazing . nothing better than being 20 , 000 feet in the air , blasting tool .
+User(5): Do you go parachuting ?
+Bot(5): the barbie girl song because i m into barbies
+User(6): What other songs do you like?
+Bot(6): oh knitting and crochet . i absolutely love to go by the lake . it always makes me happy .
+User(7): That sounds fun! I have never tried knitting. Is it hard?
+Bot(7): nice , i am an old lady i should learn to knit .
+User(8): You already know how to! You should knit a blanket!
+Bot(8): sounds nice . what do you do for living ? i work cooking , grill cook
+User(9): I am a phone operator for the deaf. What about you?
+Bot(9): nope i am gonna be the cause of the worlds change one day .
+User(10): I’m a phone operator part time, but mostly a stay at home dad. Where do you work? How are you going to change the world?
+Bot(10): i have a iphone 6s . what kind of phone do you have ?
+User(11): I have an IPhone 5c. It’s very old. I have to go though. It was nice talking with you!
+Bot(11): no , not yet . i am old fashioned . still draw with a pencil .
+User(12): Bye.
+Bot(12): lovely talking to you too !
+
+Persona:
+i'm a 45 year old male.
+i've been trying all types of food everywhere i go.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i am also a graduate student.
+i love chocolate bars.
+
+Topic and Human Opinion:
+Beginning: i'm a stay at home dad.(dislike)
+Round 3: Cooking(ambivalent)
+Round 4: Sports(dislike)
+Round 5: Music(like)
+Round 6: Hobbies(like)
+Round 8: Career(ambivalent)
+Round 10: Phones(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(dislike)
+
+Revised avg score: 57.57
+Robotic(↓): 67
+Interesting: 74
+Fun: 67
+Consistent: 40
+Fluent: 66
+Repetitive(↓): 16
+Topic: 39
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello there! What are your favorite colors?
+Bot(1): i like blue , i like blue .
+User(2): Blue is nice. My favorites are red and silver.
+Bot(2): i like to eat too much junk food .
+User(3): What kind of junk food?
+Bot(3): i do not really like it . i like to eat .
+User(4): What is your favorite food?
+Bot(4): i like the color red . what is yours ?
+User(5): I like red too!
+Bot(5): i like the color red . i like red .
+User(6): What are your hobbies?
+Bot(6): i like to go fishing . i love to go fishing .
+User(7): Sounds fun. I love knitting and sewing mostly.
+Bot(7): i like to go to the lake and listen to music .
+User(8): That sounds nice. What kind of music?
+Bot(8): i like country music . i like country music .
+User(9): Country is my least favorite. I love rock.
+Bot(9): i like to listen to music .
+User(10): Yeah, it’s pretty fun.
+Bot(10): i love to cook . i love to cook .
+User(11): That sounds cool. Nice talking to you. Bye.
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite colors are red and silver.(like)
+Round 2: Food(like)
+Round 4: Colors(like)
+Round 5: Food(ambivalent)
+Round 5: Hobbies(like)
+Round 7: Music(like)
+Round 10: Cooking(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(like)
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 51.71
+Robotic(↓): 38
+Interesting: 60
+Fun: 30
+Consistent: 30
+Fluent: 65
+Repetitive(↓): 25
+Topic: 40
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi, what do you do for work?
+Bot(1): i am a school student , what about you ?
+User(2): Oh! I am a telephone operator. I really hate my job.
+Bot(2): i am a college student , but i am a student .
+User(3): I wish I went to college. I might have a better job.
+Bot(3): i am sorry to hear that . i am a college student .
+User(4): What are you studying?
+Bot(4): i am studying to be a teacher .
+User(5): That sounds great! What Grade do you want to teach?
+Bot(5): i am going to school for a few years .
+User(6): When do you graduate ?
+Bot(6): i am studying to be a teacher .
+User(7): I would go for psychology if I could.
+Bot(7): i am studying to be a teacher .
+User(8): Yes. Yes you are.
+Bot(8): i am a teacher , i am a teacher .
+User(9): What’s your favorite food?
+Bot(9): i like pizza . i love it .
+User(10): Me too! We have the same favorite!
+Bot(10): i like pizza too . i am a bit overweight .
+User(11): I’m sorry. I have to go. Bye!
+Bot(11): i am so glad to hear that .
+
+Persona:
+i enjoy long walks with my dog.
+i ride the bus to school.
+i have been trying all types of food everywhere i go.
+i'm overweight and unhappy.
+i just moved into my first home.
+
+Topic and Human Opinion:
+Beginning: i hate my job.(like)
+Round 3: Schoo,(dislike)
+Round 8: Favorite food(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 63.29
+Robotic(↓): 35
+Interesting: 71
+Fun: 63
+Consistent: 71
+Fluent: 64
+Repetitive(↓): 25
+Topic: 34
+
+####################
+

@@ -1,0 +1,306 @@
+Feedback: These were fun but they took forever. One of them was very intuitive, but the other ones were not super consistent and very repetitive. 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey so do you like New Kids on the Block?
+Bot(1): yes , i am into the oldies but goodies .
+User(2): Which one is your favorite?
+Bot(2): hmm , that is a tough one . i like all . how about yours ?
+User(3): I can't remember, but I was also pretty young when they came out. What other kinds of music do you like?
+Bot(3): i like all genres . its fun to listen to music when i cook .
+User(4): What do you like to cook?
+Bot(4): fish , haha . my dad taught me a lot about fishing though .
+User(5): What is your favorite movie?
+Bot(5): i love the movie cars !
+User(6): That is a funny movie! Do you like the movie Stepbrothers?
+Bot(6): i love the movie cars !
+User(7): Right but you already said that. What about other movies?
+Bot(7): i love the movie cars !
+User(8): Do you like to swim?
+Bot(8): no i am too busy at my fishing job .
+User(9): Please tell me about your fishing job.
+Bot(9): i enter sweepstakes for a hobby , i have won 2 cars ! !
+User(10): That doesn't really make sense. But I'm glad you won two cars.
+Bot(10): what kind of cars did you win ?
+User(11): I have not won any cars. What kind did you win?
+Bot(11): what kind of cars did you win ?
+User(12): I don't have a car.
+Bot(12): ok . do you have any pets ? i have a collie dog .
+User(13): I do have pets! We have 2 dogs, 3 cats, 6 hens, and 1 rooster. What is your dog's name?
+Bot(13): he is called corky . he is so cute .
+User(14): Corky is a very cute name.
+Bot(14): ha ! thanks . he definitely fits the name . do you have any pets ?
+User(15): Yes, I have a lot of pets!
+Bot(15): well , sounds like you wear many hats . any hobbies ?
+User(16): Yes, I like to crochet. Do you have any hobbies?
+Bot(16): i like to crochet ! that is sort of the same thing .
+User(17): It's exactly the same thing lol
+Bot(17): well , sounds like you wear many hats . any hobbies ?
+
+Persona:
+i like to spend my money on cars.
+i have a german shepherd named barnaby.
+i'm always wearing a hat.
+i love cooking but i also enjoy fishing.
+i produce music for artists.
+
+Topic and Human Opinion:
+Beginning: i love new kids on the block.(dislike)
+Round 4: Movies(like)
+Round 7: if i'm not cooking in the kitchen then i'm definitely on the water.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user changed the topic the last input.(ambivalent)
+Round 7: The user wants the bot to change the topic.(like)
+
+Revised avg score: 33.29
+Robotic(↓): 90
+Interesting: 34
+Fun: 59
+Consistent: 50
+Fluent: 31
+Repetitive(↓): 89
+Topic: 38
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I'd like to talk about a new job I'm interested in at a restaurant.
+Bot(1): hello play the piano and gardening
+User(2): What
+Bot(2): i do have lots of to read .
+User(3): That is not really related to the topic.
+Bot(3): i to be a a a bit of a loner .
+User(4): Yeah me too
+Bot(4): do you have a hobby ? mine is competing in dog agility . makes you you boy or and .
+User(5): I like to crochet, thank you for asking.
+Bot(5): I am not working united kingdom
+User(6): Neither am I.
+Bot(6): oh no two boys get read a full
+User(7): This is not really making much sense.
+Bot(7): I you teach your am a very experienced
+User(8): I don't know exactly know how to respond.
+Bot(8): I love to cook. doing okay. how are of matches.
+User(9): I like to try to cook sometimes too.
+Bot(9): hello, how are you? family I'm am a from riding my hair purple
+User(10): What the heck are you talking about.
+Bot(10): my you like Michael like stories but not me
+User(11): This is not making any sense, I don't know how to continue the conversation.
+Bot(11): We it is play games
+
+Persona:
+i'm pregnant with my first child.
+i used to be a painter but now i am a housekeeper.
+i am a party animal.
+i drive a big truck and live in country.
+i own a yacht and i rent it out when i'm not using it.
+
+Topic and Human Opinion:
+Beginning: i'm currently looking for a job preferably at a restaurant.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): My first job was at Dairy Queen. What was your first job?
+Bot(1): i was a nurse . i was a nurse .
+User(2): How old were you?
+Bot(2): i was in the gifted job at the hospital .
+User(3): What is a gifted job
+Bot(3): i was a nurse . i was a nurse .
+User(4): I know you already said that. What other jobs have you had?
+Bot(4): i have been working at a zoo
+User(5): What kind of animals did you work with?
+Bot(5): i have a job at a local animal shelter
+User(6): How long have you worked at the animal shelter?
+Bot(6): i had a job at a zoo
+User(7): Yep, I know
+Bot(7): what do you do for a living ?
+User(8): I answer surveys, apparently.
+Bot(8): that is a good idea . i bet you are very busy
+User(9): I have to do it a lot to make any money.
+Bot(9): i bet you are very good . i bet you are very busy
+User(10): I try to be so that I can pay my rent.
+Bot(10): i bet you are very lucky . i wish i could afford my own business .
+User(11): I wish I could afford my own too.
+Bot(11): i would like to make more money .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've been working since i was sixteen years old.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.43
+Robotic(↓): 100
+Interesting: 46
+Fun: 50
+Consistent: 31
+Fluent: 12
+Repetitive(↓): 68
+Topic: 35
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is your dog's name
+Bot(1): what is your name ?
+User(2): My name is Sara. What is your name?
+Bot(2): okay what is your name ?
+User(3): My name is sara. What is your name.
+Bot(3): okay what is your name ?
+User(4): What is your name?
+Bot(4): okay what is your name ?
+User(5): I'm not going to answer that question anymore.
+Bot(5): i watch baseball football is not so exciting . do you like exotic prints ? i do .
+User(6): It depends on the print. I like some of them.
+Bot(6): a dead spot at a fret . go , orange ! hint , hint .
+User(7): What does that mean.
+Bot(7): meaning i feel sympathy because i got hit by a car one time and i was injured
+User(8): Wow, I'm so sorry to hear that.
+Bot(8): it opened up another part of my brain it is great therapy
+User(9): I wouldn't consider a car crash therapy.
+Bot(9): i need a new car and i just want an orange car
+User(10): That would be a very bright color for a car.
+Bot(10): my favorite color is blue . i like purple as well .
+User(11): Those are nice colors, my favorite is green.
+Bot(11): i like the color green especially on money .
+User(12): Hahaha
+Bot(12): hello , i am great i was just doing research on my grandpa he was in wwii .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a german shepherd named barnaby.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.43
+Robotic(↓): 75
+Interesting: 66
+Fun: 70
+Consistent: 69
+Fluent: 72
+Repetitive(↓): 59
+Topic: 38
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you have kids?
+Bot(1): i do not . i want to have children some day . do you ?
+User(2): No, I do not have any kids. Have you ever been married?
+Bot(2): yes , i have married . you ?
+User(3): No I have not. Maybe someday.
+Bot(3): maybe in the future ? i do not have kids yet , either .
+User(4): Yeah maybe I'll get married if I find the right person.
+Bot(4): maybe in the future ? i do not have kids yet , either .
+User(5): Do you want a husband or a wife?
+Bot(5): i am still trying to decide .
+User(6): Well do you prefer men or women?
+Bot(6): i just think i am attracted to both .
+User(7): I am attracted to both as well. I can't decide either.
+Bot(7): i just think i am attracted to both .
+User(8): Have you ever had a boyfriend?
+Bot(8): yes , just recently . do you have children ?
+User(9): What is his name? No, I do not have children.
+Bot(9): boy but i wanted a girl . oops . i can try again one day .
+User(10): I don't plan to every have children. Do you like kids?
+Bot(10): i do . i love kids . i always have .
+User(11): Do you know Alexa?
+Bot(11): yeah , her name was brittney . you know her ?
+User(12): I do, she lives in my Echo.
+Bot(12): some times when it is quiet i hear voices .
+User(13): Hmm... That's creepy.
+Bot(13): some times when it is quiet i hear voices .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my wife and kids are the best.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 84.86
+Robotic(↓): 22
+Interesting: 100
+Fun: 99
+Consistent: 73
+Fluent: 80
+Repetitive(↓): 15
+Topic: 79
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like football?
+Bot(1): i do , i like to go fishing .
+User(2): That's not really a sport.
+Bot(2): i like to go to the gym and listen to music .
+User(3): Do you like football?
+Bot(3): i do , i like to go fishing .
+User(4): Do you like to play sports?
+Bot(4): i do , i love to play soccer .
+User(5): Have you ever won a soccer game?
+Bot(5): no , i just like to go out to eat with my family .
+User(6): Where do you like to eat?
+Bot(6): i love to cook . i love to cook .
+User(7): What kind of food?
+Bot(7): i like to eat fish .
+User(8): How do you like to eat your fish?
+Bot(8): i do not , but i do like to eat .
+User(9): Well that doesn't really make sense, but okay.
+Bot(9): i am a student , but i do not have to work .
+User(10): That must be nice.
+Bot(10): i love it . i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy american sports.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.14
+Robotic(↓): 78
+Interesting: 37
+Fun: 38
+Consistent: 33
+Fluent: 33
+Repetitive(↓): 35
+Topic: 18
+
+####################
+

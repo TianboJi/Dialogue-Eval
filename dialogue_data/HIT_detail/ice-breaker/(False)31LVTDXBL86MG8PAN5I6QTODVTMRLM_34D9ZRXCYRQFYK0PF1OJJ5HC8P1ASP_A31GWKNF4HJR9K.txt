@@ -1,0 +1,287 @@
+Feedback: very good
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): my mom recently passed away and i am very sad about this fact
+Bot(1): i am sorry to hear that . i am sad .
+User(2): Please dont be sad. I am hoping she is in a better place now. That makes me more content
+Bot(2): i am sorry to hear that . i am only 10 years old .
+User(3): thank you for understanding you seem very mature for your age
+Bot(3): thank you . i am a little sad .
+User(4): i was sad too but now im better at managing my sadness
+Bot(4): i am sorry to hear that . i hope you are okay
+User(5): i am doing ok now thank you for your support
+Bot(5): thank you . i hope you are okay
+User(6): you a a very nice person. I hope you have a wonderful day
+Bot(6): thank you . i hope you are well
+User(7): it is a strange thing that people die
+Bot(7): i am sure you are very very sad
+User(8): yes i am but i am more curious to the way we define death
+Bot(8): i am so sorry to hear that
+User(9): i hope you have a happy day instead of a sad one
+Bot(9): i am so sorry to hear that
+User(10): i will try to have a happy day too
+Bot(10): i hope so . i am a bit of a night person
+User(11): try to have the best day ever
+Bot(11): i hope so . i am a bit of a night person
+
+Persona:
+i've blue eyes and red hair that comes to my waist.
+my cats are very special to me.
+i don't believe in god.
+i think i'll retire in a few years.
+i'm 100 years old.
+
+Topic and Human Opinion:
+Beginning: my mom passed away when i was young.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.00
+Robotic(↓): 92
+Interesting: 15
+Fun: 19
+Consistent: 50
+Fluent: 75
+Repetitive(↓): 93
+Topic: 85
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i really love spending money
+Bot(1): i like to go to the gym and listen to music .
+User(2): i spend hundreds of dollars on shoes
+Bot(2): i like to go to the gym and listen to music .
+User(3): why do you like that
+Bot(3): i love it . i love it .
+User(4): please explain why you like music and going to the gym
+Bot(4): i do not , but i do like to go fishing .
+User(5): i love going fishing too
+Bot(5): i love to travel . i love to travel .
+User(6): maybe we can travel together
+Bot(6): i do not have to work . i am a student .
+User(7): that is god but maybe you study?
+Bot(7): no , i am a student . i love to cook .
+User(8): i love driving places
+Bot(8): i like to go fishing .
+User(9): it is fun only if the weather is good
+Bot(9): it is . i love it .
+User(10): to do all of these things you need money
+Bot(10): i do not know what to say .
+User(11): money is my favorite thing
+Bot(11): i like to go to the lake and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love spending money.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.29
+Robotic(↓): 92
+Interesting: 65
+Fun: 59
+Consistent: 74
+Fluent: 80
+Repetitive(↓): 91
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i like playing ping pong
+Bot(1): it like to talk to in my home .
+User(2): do you play ping pong?
+Bot(2): I've plays cat!
+User(3): sometimes i play with friends
+Bot(3): yes , I'm not .
+User(4): do you play any sports
+Bot(4): i m like did you you
+User(5): you dont make sense
+Bot(5): I love the usa, don't answer what florida
+User(6): will you play sports with me?
+Bot(6): very wealthy m working in :)
+User(7): thats very nice but can you play ping pong with me
+Bot(7): oh My name is kids all girls
+User(8): you should play ping pong with your kids
+Bot(8): I like you jailed you?
+User(9): i can teach you ping pong
+Bot(9): I have a turtle named are they love family a turtle named george.
+User(10): i like your turtle
+Bot(10): I am not sure what insane clown posse and more of a temperance guy.
+
+Persona:
+i'm expecting triplets in three months.
+one of the languages that i am currently studying is spanish.
+i love to bake cookies.
+i am a vegan and i love hummus.
+i have short brown hair.
+
+Topic and Human Opinion:
+Beginning: i play ping pong.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 100
+Interesting: 92
+Fun: 86
+Consistent: 3
+Fluent: 5
+Repetitive(↓): 90
+Topic: 4
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i love chocolate bars they are tasty
+Bot(1): oh i love those too especially when i go shopping i look for those
+User(2): willy wonka makes good chocolate bars
+Bot(2): i have bought a few of those from a tourist shop for my kids
+User(3): what type of chocolate did you buy?
+Bot(3): chocolate chip , and mint anything but raisins
+User(4): wow interesting flavor choice. Do you like white chocolate?
+Bot(4): yes , but personally i think it is pretty rubbery
+User(5): i like it alot but i think dark chocolate is better
+Bot(5): i like it black , i think it tastes better that way
+User(6): i also think the same thing. Dark chocolate tastes luxurious
+Bot(6): yes , but personally i think it is pretty rubbery
+User(7): whats you favorite brand of choclate bars?
+Bot(7): probably mint and chip
+User(8): thats a cool flavor
+Bot(8): yes , but personally i think it is pretty rubbery
+User(9): What does that mean
+Bot(9): it means the fun in spanish duh
+User(10): oh i did not know that
+Bot(10): it is a really positive phrase
+
+Persona:
+i like shopping.
+i'm a descendant of christopher columbus.
+my father played violin professionally.
+my name is george.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: i love chocolate bars.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 74.71
+Robotic(↓): 73
+Interesting: 87
+Fun: 90
+Consistent: 88
+Fluent: 72
+Repetitive(↓): 30
+Topic: 89
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i am looking for a job
+Bot(1): i am also looking for employment
+User(2): where are looking to work
+Bot(2): marketing
+User(3): wow i also working in marketing
+Bot(3): i really like marketing its my life
+User(4): what type of marketing is your favorite
+Bot(4): marketing i enjoy it really
+User(5): i do social media marketing
+Bot(5): oh cool i do not know a lot about marketing
+User(6): maybe i will leave my current job
+Bot(6): you should do what you want to do
+User(7): i want to live off grid and work remotely
+Bot(7): why would you want to do that
+User(8): so i can be free on my own in nature
+Bot(8): i understand that sounds great to me
+User(9): i also want a job that pays well
+Bot(9): i will get you a better paying job
+User(10): thank you you are very helpful
+Bot(10): because no luck in apply for jobs
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm now looking for a new job.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.00
+Robotic(↓): 74
+Interesting: 84
+Fun: 83
+Consistent: 86
+Fluent: 82
+Repetitive(↓): 44
+Topic: 73
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i have one brother
+Bot(1): do you have a favorite color ?
+User(2): not really but i do like blue
+Bot(2): i love the color lime green
+User(3): can we talk about my brother
+Bot(3): kind of , i breed cats , main coon breed , then show them !
+User(4): i only have one brother
+Bot(4): do you have a favorite color ?
+User(5): do you want to talk about my brothers favorite color
+Bot(5): i am only child . and my companion is a cat .
+User(6): i have many brothers
+Bot(6): since i do not eat meat i would say a veggie pizza .
+User(7): but my brothers left and all i have left is one brother
+Bot(7): thankfully ! i actually recently moved to grand rapids in michigan to be a nurse
+User(8): thats very cool do you wish to start a family one day?
+Bot(8): whats your favorite color ?
+User(9): it is blue
+Bot(9): i love the color lime green
+User(10): my brother is nice to me
+Bot(10): kind of , i breed cats , main coon breed , then show them !
+
+Persona:
+i'm in my thirties.
+my bedroom is purple and lime green.
+i am a baby delivery nurse.
+i drive a mini van.
+i love dogs.
+
+Topic and Human Opinion:
+Beginning: i've one brother.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.86
+Robotic(↓): 90
+Interesting: 62
+Fun: 27
+Consistent: 14
+Fluent: 26
+Repetitive(↓): 83
+Topic: 11
+
+####################
+

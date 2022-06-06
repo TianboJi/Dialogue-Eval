@@ -1,0 +1,319 @@
+Feedback: The Chatbots seemed to be very repetitive at times and wouldn't always answer a question directly.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): I'm great how are you?
+Bot(2): been studying for my law exam
+User(3): Oh nice! I'm teaching Piano on the side, how's it going with studying?
+Bot(3): yeah , i wish i could play an instrument though .
+User(4): Well I can teach you piano if you like?
+Bot(4): i like hip hop my favorite is katie perry specially in the shower lol
+User(5): Yeah Katie Perry is awesome, can you sing?
+Bot(5): i am way too shy to sing like that ! my neighbor may hear !
+User(6): That's okay! Sing your heart our anyways!
+Bot(6): oh no i am terrible . . . only in the shower do i sing lol
+User(7): Yeah I like to sing in the shower also!
+Bot(7): do they like when you sing
+User(8): Probably not! lol
+Bot(8): but i am also a brown eyed blond , so always attracted men from a distance .
+User(9): I am brown eyed as well! But no blond hair for me!
+Bot(9): i have long brown hair and blue eyes !
+User(10): That's not what you just said...
+Bot(10): i know someone and she grow plants , she does it in her garden
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a piano teacher on the side.(dislike)
+Round 4: That they like hip hop music(ambivalent)
+Round 8: Attracting men(dislike)
+Round 10: Someone growing plants(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 47.14
+Robotic(↓): 100
+Interesting: 87
+Fun: 65
+Consistent: 23
+Fluent: 68
+Repetitive(↓): 26
+Topic: 13
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello!
+Bot(1): no 👎 i about parents were male
+User(2): What?
+Bot(2): Where Thanks. live?
+User(3): In the united states, I work in Insurance Business, what do you do?
+Bot(3): you are welcome . in greece my family Disney have short I people
+User(4): That's interesting, have you been to Disney?
+Bot(4): It am not love it.
+User(5): Why don't you love Disney? Its awesome!
+Bot(5): nah , i don't a little :) you single i have been married six years , i am happy .
+User(6): I am married as well and I am very happy.
+Bot(6): I am have pet bull okay love to lift weights
+User(7): You have a bull?
+Bot(7): i release me in i love coffee .
+User(8): I'm confused
+Bot(8): Hi! I that was a mean I am a city keeper here.
+User(9): I work in healthcare, how long have you been a city keeper?
+Bot(9): i've never seen before sunrise enjoy sports such as okay. well right ? i love movies
+User(10): Cool
+Bot(10): hello , i am a boy , and i means like play with my you ?
+
+Persona:
+i was raised on a horse farm.
+i workout four hours a day.
+i'm a skateboarder.
+i live in alaska.
+my favorite food is mexican food.
+
+Topic and Human Opinion:
+Beginning: i work in the insurance business.(ambivalent)
+Round 3: Family lives in greece and works at Disney(dislike)
+Round 5: Relationship status(dislike)
+Round 8: Job Title(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): Awesome! Cooking is amazing! It helped me, since I am a recovering alcoholic
+Bot(2): i am sorry to hear that . i am a nurse .
+User(3): Thank you, with the help of family and friends I have been able to recover.
+Bot(3): i am sorry to hear that . i am sorry to hear that .
+User(4): Thank you, how long have you been a nurse?
+Bot(4): i have been married for 23 years . i love to go out .
+User(5): Thats awesome! I'm married as well, what do you enjoy doing when you go out?
+Bot(5): i like to go fishing . i love to go fishing .
+User(6): Fishing is fun! I enjoy going camping and being outdoors as well!
+Bot(6): i love to go fishing . i love to travel .
+User(7): yeah you said you love fishing...Where have you traveled to?
+Bot(7): no , i do not . i am a big fan of the boston celtics .
+User(8): Oh okay, I'm a Golden State Warriors fan!
+Bot(8): i love the color red . i like the color blue .
+User(9): My favorite color is Purple
+Bot(9): i like red , reminds me of summer time .
+User(10): And what does blue remind you of?
+Bot(10): i like the color green . i like the color blue .
+
+Persona:
+i don't care about fashion.
+my favorite music genre is death metal.
+i'm a 56 year old woman.
+i'm a vegan.
+i have a german shepherd named barnaby.
+
+Topic and Human Opinion:
+Beginning: i'm a recovering alcoholic.(like)
+Round 4: How long have you been a nurse?(like)
+Round 4: Marital status, and loves to go out(like)
+Round 6: Traveling(like)
+Round 7: Sports(like)
+Round 8: Favorite color(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user changed the topic the last input.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 46.14
+Robotic(↓): 5
+Interesting: 64
+Fun: 41
+Consistent: 22
+Fluent: 94
+Repetitive(↓): 100
+Topic: 7
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello! My favorite food is pizza! What's yours?
+Bot(1): hi i like to take pictures photography is my favorite .
+User(2): Okay, but what is your favorite food?
+Bot(2): pizza ! the owner of this pizza shop nearby has the cutest dog ! i love to visit .
+User(3): Nice! Pizza and Dogs can't go wrong with that! Do you own a dog?
+Bot(3): i do not have any pets , but i do love to take pictures .
+User(4): Oh nice! What kind of pictures do you like to take?
+Bot(4): they are toe chewer breeds , and i love to photograph them every day !
+User(5): What are toe chewer breeds?
+Bot(5): they are toe chewer breeds , and i love to photograph them every day !
+User(6): Yes you said that, but what is that?
+Bot(6): they are toe chewer breeds , and i love to photograph them every day !
+User(7): Okay that's great, do you take pictures of anything else?
+Bot(7): not really . i just like to live the experience without photos .
+User(8): But you just said you love to photograph things, what about flowers?
+Bot(8): sure but i mainly have flowers
+User(9): What's your favorite flower? I love Roses
+Bot(9): i like roses , but i like carnations better .
+User(10): Those are beautiful as well! Sunflowers are amazing to photograph as well.
+Bot(10): yeah me too ! i just love a rose bush
+
+Persona:
+i am interested in photography and like taking pictures.
+i've a german shepherd named barnaby.
+i am 60years old.
+i'm in an open polyamorous relationship.
+i am a cancer survivor.
+
+Topic and Human Opinion:
+Beginning: my favourite food is pizza.(like)
+Round 2: Animals(like)
+Round 3: Photography(like)
+Round 7: Flowers(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 41.29
+Robotic(↓): 79
+Interesting: 40
+Fun: 53
+Consistent: 12
+Fluent: 100
+Repetitive(↓): 69
+Topic: 32
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello! I'm an elementary school teacher!
+Bot(1): i teach elementary school ! i teach elementary school !
+User(2): So do I! What grade do you teach?
+Bot(2): i teach math and teach english !
+User(3): Awesome! I love teaching Math, how long have you been a teacher?
+Bot(3): i teach math ! i teach math !
+User(4): So do I, how long have you been teaching?
+Bot(4): i teach math , but i teach math !
+User(5): Cool, anyways where are you from?
+Bot(5): i am from the united states , how about you ?
+User(6): Same! I'm from the West Coast
+Bot(6): i am from the west coast , but i love the ocean !
+User(7): The ocean is beautiful! Do you go there often?
+Bot(7): i do ! i love it ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
+User(8): It is very beautiful, what's your favorite beach?
+Bot(8): i love the beach , but i love the beach !
+User(9): Which one?
+Bot(9): i love the beach , but i love the beach !
+User(10): Okay, have you ever camped at the beach?
+Bot(10): no , i don't have any , but i do not have time for that .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm an elementary school teacher.(like)
+Round 4: Location(like)
+Round 6: The ocean(like)
+Round 9: Camping(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(dislike)
+Round 9: The user will change the topic in the next input.(like)
+
+Revised avg score: 57.14
+Robotic(↓): 65
+Interesting: 59
+Fun: 69
+Consistent: 40
+Fluent: 100
+Repetitive(↓): 61
+Topic: 58
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, I'm a 45 year old guy
+Bot(1): how old are you ? i am 45
+User(2): I'm 45 as well
+Bot(2): wow me too ! are we the same person ? !
+User(3): Maybe! Where do you live?
+Bot(3): how old are you ? i am 45
+User(4): I told you already, I'm 45 as well.
+Bot(4): how old are you ? i am 45
+User(5): Where are you from?
+Bot(5): i am from illinois , how about you ?
+User(6): Nevada
+Bot(6): oh nice , i used to live in nevada
+User(7): Oh nice! In Las Vegas?
+Bot(7): yes i am . i am in la
+User(8): I thought you said you lived in Illinois?
+Bot(8): i was born in illinois and i currently live in illinois
+User(9): That's awesome, what do you do in Illinois?
+Bot(9): i used to live in nevada
+User(10): That wasn't my question.
+Bot(10): lol i just assumed
+User(11): Where do you work?
+Bot(11): i do not currently work .
+User(12): Oh I'm sorry to hear that
+Bot(12): that is alright . where do you work ?
+User(13): I work in Healthcare
+Bot(13): do you like health care at all
+User(14): Yes! I love my job, it's nice to be able to help others.
+Bot(14): me too ! ! ! i love my job so much
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a 45 year old male.(dislike)
+Round 2: Where do you live(like)
+Round 10: Work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(like)
+Round 10: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 61.43
+Robotic(↓): 47
+Interesting: 63
+Fun: 59
+Consistent: 44
+Fluent: 100
+Repetitive(↓): 47
+Topic: 58
+
+####################
+

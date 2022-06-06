@@ -1,0 +1,309 @@
+Feedback: It would be much easier to complete these tasks if I could enter my reply to the bot by hitting 'return', having to click a button to send the message greatly slows down my hit completion 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello!
+Bot(1): i am doing well . how are you ?
+User(2): I am good how are you?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): Oh that's fun! you have a dog!
+Bot(3): i do not have any pets , but i do have a dog .
+User(4): a dog is a pet
+Bot(4): i love dogs , i love dogs .
+User(5): I like dogs a lot too
+Bot(5): i like to go to the beach and listen to music .
+User(6): the beach is fun!
+Bot(6): i love to travel . i love to travel .
+User(7): I love to travel too! I can't wit to do more of it
+Bot(7): i like to go to the gym and listen to music .
+User(8): I don't mind the gym
+Bot(8): i like to go to the gym and listen to music .
+User(9): the gym is okay
+Bot(9): i like to go to the gym and listen to music .
+User(10): I like listening to music more then going to the gym
+Bot(10): i like to go to the lake and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have three sisters.(ambivalent)
+Round 4: dogs(like)
+Round 5: going to beach and listening to music(like)
+Round 6: travel(like)
+Round 7: music at the gym(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 27.14
+Robotic(↓): 100
+Interesting: 12
+Fun: 68
+Consistent: 24
+Fluent: 69
+Repetitive(↓): 99
+Topic: 16
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): you should be better about picking up your toys
+Bot(1): me too . my friends invite me , but i would prefer to go alone
+User(2): go alone to pick up your toys?
+Bot(2): i paint portraits down at the pier and i love the ocean
+User(3): I love to paint!
+Bot(3): what do you like to paint ?
+User(4): I like to paint trees and things with feathers
+Bot(4): that sounds nice . i ride my bike on a nice path that goes through the trees .
+User(5): I haven't ridden a bike in quite a long time
+Bot(5): oh , right . you mentioned bikes earlier . i just sew . it keeps the voices at bay .
+User(6): No you mentioned bikes earlier, not me
+Bot(6): went to mcdonalds and ate too much
+User(7): How did you get to mcdonalds?
+Bot(7): i think they have the best fries anywhere .
+User(8): They do have very tasty fires at mcdonalds
+Bot(8): oh wow ! mcdonalds is one of my favorite restaurants .
+User(9): mcdonalds has very good breakfast food for a fast food place
+Bot(9): oh wow ! mcdonalds is one of my favorite restaurants .
+User(10): what is your favorite food there?
+Bot(10): i really like french food
+
+Persona:
+i like to eat hamburgers and french fries.
+i don't have many friends.
+i enjoy going to the park.
+i have a weakness for fish and chips.
+my favorite band is the insane clown posse.
+
+Topic and Human Opinion:
+Beginning: i don't pick up my toys.(dislike)
+Round 2: painting at the pier(like)
+Round 3: i spend a lot of time browsing the internet.(like)
+Round 3: painting(like)
+Round 4: bikes(ambivalent)
+Round 7: mcdonalds(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The user wants the bot to change the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 37.86
+Robotic(↓): 100
+Interesting: 19
+Fun: 71
+Consistent: 30
+Fluent: 76
+Repetitive(↓): 66
+Topic: 35
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'm sorry you don't have any family you're close to
+Bot(1): no i am pregnant . i am pregnant .
+User(2): pregnancy makes me very uncomfortable
+Bot(2): i am sorry to hear that . i am pregnant
+User(3): I would rather not talk about you being pregnant as it makes me uncomfortable
+Bot(3): i am sorry to hear that . i am pregnant
+User(4): This does not interest me
+Bot(4): i am sorry to hear that . i am pregnant
+User(5): I would like to talk about chocolate now
+Bot(5): i am pregnant so i can not do that
+User(6): I do not want to hear about that
+Bot(6): i am a dog person who loves chocolate
+User(7): thank you for letting me change the topic
+Bot(7): i am sure you are right . i am pregnant
+User(8): I do not want to hear about your pregnancy, it is rude that you keep bringing it up
+Bot(8): i am so glad i am pregnant
+User(9): Please stop, your pregnancy makes me uncomfortable
+Bot(9): i am sorry to hear that
+User(10): please can we talk about chocolate like I asked
+Bot(10): i am a huge fan of chocolate
+User(11): what is your favorite chocolate
+Bot(11): chocolate is my favorite , i love chocolate
+
+Persona:
+i'm pregnant with my first child.
+i used to be a painter but now i am a housekeeper.
+i am a party animal.
+i drive a big truck and live in country.
+i own a yacht and i rent it out when i'm not using it.
+
+Topic and Human Opinion:
+Beginning: i've zero family that i am close to.(ambivalent)
+Round 1: pregnant(dislike)
+Round 3: i love chocolate bars.(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 25.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 76
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): That's very cool that you work for the post office
+Bot(1): I do you like to Europe.
+User(2): do you work for the post office in Europe?
+Bot(2): I live are you? i'm about you?
+User(3): I do not live in Europe, where do you live?
+Bot(3): No I don't have going? m in finished bird do have a great the kind people in the lab.
+User(4): I'm sorry I don't understand you
+Bot(4): what do you do your message think, i hiking.
+User(5): I like to hike!
+Bot(5): i'm in high school . . . like riding a you girlfriend yet .. Also, try to guess: i live is ...
+User(6): please do not suggest riding me as your girlfriend, it is very weird
+Bot(6): that is use a lot of you do for a living ?
+User(7): it is not relevant to my job at all
+Bot(7): So you hear basketball?
+User(8): I do not know much about basketball
+Bot(8): sure , about will you friends .
+User(9): no most of my friends do not know about basketball either
+Bot(9): I am, not christian, i am teacher. I am a retired teacher.
+User(10): I do not care what your religion
+Bot(10): christopher columbus, live in :)
+User(11): christopher columbus was a colonialist and a bad person
+Bot(11): I am not sure. do you u told me do
+
+Persona:
+i've been retired for a years.
+i love to play board games.
+i am four.
+i am always wearing a hat.
+my favorite colors are red and silver.
+
+Topic and Human Opinion:
+Beginning: i am employed by the us postal service.(like)
+Round 7: basketball(dislike)
+Round 9: bot is not chrisitian, it is a retired teacher(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 21
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): it would be very cool to live forever
+Bot(1): i am hoping that life will last forever
+User(2): that would be wonderful to live forever
+Bot(2): i am hoping that life will last forever
+User(3): I would like to live forever if I had someone else to live with me
+Bot(3): i do not live with anyone else
+User(4): I live alone too!
+Bot(4): i do not live with anyone else
+User(5): I wish I lived with my boyfriend
+Bot(5): i do not live with anyone else
+User(6): I do not either, it is difficult cooking for only one person
+Bot(6): i wish i had someone to cook for me , but i live alone
+User(7): I really like to cook for other people then just myself
+Bot(7): i wish i had someone to cook for me , but i live alone
+User(8): you could learn how to cook for yourself
+Bot(8): you are right ! i should try
+User(9): It would be fun to learn to cook
+Bot(9): i wish i had someone to cook for me , but i live alone
+User(10): we just decided you should learn to cook
+Bot(10): i wish i had someone to cook for me , but i live alone
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i feel like i might live forever.(like)
+Round 3: living arrangement(ambivalent)
+Round 8: learning to cook(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user changed the topic the last input.(ambivalent)
+Round 7: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 37.71
+Robotic(↓): 100
+Interesting: 29
+Fun: 24
+Consistent: 62
+Fluent: 80
+Repetitive(↓): 100
+Topic: 69
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello!
+Bot(1): hey
+User(2): how are you?
+Bot(2): good thanks ! tell me about yourself ?
+User(3): I am good too! thank you for asking
+Bot(3): my pleasure ! what do you do for a living ?
+User(4): I am a student, what do you do for a living?
+Bot(4): i am a student too
+User(5): what are you studying?
+Bot(5): science currently , what are you up to ?
+User(6): I am studying cognitive science!
+Bot(6): me too ! what are you studying
+User(7): I am studying cognitive science!
+Bot(7): me too ! what are you studying
+User(8): I already told you what I am studying
+Bot(8): so you already told me !
+User(9): yes! I did already tell you what I'm studying
+Bot(9): i will study everything in it
+User(10): every single thing in my degree program?
+Bot(10): yeah that is part of school ! !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my parents taught me survival skills.(ambivalent)
+Round 3: what we do for a living(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 42.29
+Robotic(↓): 100
+Interesting: 20
+Fun: 20
+Consistent: 82
+Fluent: 100
+Repetitive(↓): 100
+Topic: 74
+
+####################
+

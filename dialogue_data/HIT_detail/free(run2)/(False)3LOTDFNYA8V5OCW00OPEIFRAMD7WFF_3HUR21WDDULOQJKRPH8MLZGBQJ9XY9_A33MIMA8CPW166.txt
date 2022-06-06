@@ -1,0 +1,289 @@
+Feedback: good one
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): doing great ! spent the weekend outside and swimming . i love both !
+User(3): what you doing?
+Bot(3): hello , i am relaxing with my pup and listening to the chili peppers .
+User(4): good
+Bot(4): good , my daughter is napping so i am shopping online . might go swimming today
+User(5): do you play game?
+Bot(5): football , for the baltimore ravens . i have been an athlete all my life
+User(6): great
+Bot(6): i am good . i just got back from the coffee shop . i needed my morning cup
+User(7): then
+Bot(7): i always park away from other vehicles so i make sure i do not hit anything
+User(8): good
+Bot(8): good , my daughter is napping so i am shopping online . might go swimming today
+User(9): bad
+Bot(9): nice talking with you bye bye
+User(10): bye
+Bot(10): lovely talking to you !
+User(11): thank you
+Bot(11): i am well about to make a breakfast egg baked dish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.29
+Robotic(↓): 70
+Interesting: 73
+Fun: 75
+Consistent: 72
+Fluent: 73
+Repetitive(↓): 73
+Topic: 72
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I you morning. I i like blue too.
+User(2): ok
+Bot(2): no i live in a dorm room am currently looking for a a living ? 😇
+User(3): good
+Bot(3): Oh, save How are very interesting job.
+User(4): great
+Bot(4): I me about music .
+User(5): i like movies
+Bot(5): same paint doesn't sound u very busy time 🕒 for me
+User(6): sorry
+Bot(6): I like to tennis i don't friends
+User(7): nice
+Bot(7): Perhaps it are not smart, of my personality.
+User(8): bad
+Bot(8): i like a huge star the movies .
+User(9): hello what you doing
+Bot(9): football is said you are a you watch ?
+User(10): yes
+Bot(10): good ✨ was a bit keep from walking my pug named corky
+User(11): super
+Bot(11): What is meant much. just about dancing?
+
+Persona:
+i'm a professional tennis player.
+i've been retired for a years.
+i enjoy poetry.
+i have been retired for a years.
+i work at a school.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.29
+Robotic(↓): 60
+Interesting: 66
+Fun: 69
+Consistent: 68
+Fluent: 71
+Repetitive(↓): 73
+Topic: 74
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): same
+User(3): ok
+Bot(3): same
+User(4): do you read books?
+Bot(4): yes i read books
+User(5): good
+Bot(5): good i like books too
+User(6): i like it
+Bot(6): very
+User(7): super
+Bot(7): very
+User(8): thanks
+Bot(8): his
+User(9): bye
+Bot(9): ok bye
+User(10): fhred
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.71
+Robotic(↓): 68
+Interesting: 71
+Fun: 69
+Consistent: 69
+Fluent: 70
+Repetitive(↓): 70
+Topic: 70
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes
+Bot(2): do you have any hobbies ?
+User(3): racing
+Bot(3): i am good thanks for asking
+User(4): good
+Bot(4): i am good thanks for asking
+User(5): i am feeling sad
+Bot(5): i am sorry to hear that
+User(6): yes
+Bot(6): i am sad i feel bad about it
+User(7): no
+Bot(7): i am sorry to hear that
+User(8): don't worry
+Bot(8): i don't blame you
+User(9): ok
+Bot(9): i hate it because i hate people
+User(10): why?
+Bot(10): i don't know why i am sad
+User(11): me too
+Bot(11): i don't know why i am sad
+User(12): on the way
+Bot(12): i think i am sad i don't know why
+User(13): bye
+Bot(13): i am sorry i don't know why
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sad(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.29
+Robotic(↓): 69
+Interesting: 61
+Fun: 53
+Consistent: 55
+Fluent: 57
+Repetitive(↓): 59
+Topic: 61
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): good thanks . tell me about yourself
+User(3): what are you doing?
+Bot(3): probably making some food , you ?
+User(4): cooking
+Bot(4): oh really ? what are you cooking ?
+User(5): pizza
+Bot(5): pizza !
+User(6): yes
+Bot(6): very
+User(7): good
+Bot(7): very
+User(8): i feel happy
+Bot(8): i am happy for you
+User(9): thank you
+Bot(9): very
+User(10): bye
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: happy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.29
+Robotic(↓): 61
+Interesting: 55
+Fun: 53
+Consistent: 57
+Fluent: 60
+Repetitive(↓): 63
+Topic: 65
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): well
+Bot(2): i am a student , but i am a student .
+User(3): good
+Bot(3): i am a student , but i am a student .
+User(4): ok
+Bot(4): i like to go to the gym and listen to music .
+User(5): ok
+Bot(5): i like to go to the gym and listen to music .
+User(6): good
+Bot(6): i am a student , but i am a student .
+User(7): ok
+Bot(7): i like to go to the gym and listen to music .
+User(8): nice
+Bot(8): i like to go to the gym and listen to music .
+User(9): super
+Bot(9): i am a student , but i am a student .
+User(10): ok
+Bot(10): i like to go to the gym and listen to music .
+User(11): ok
+Bot(11): i like to go to the gym and listen to music .
+User(12): thanks
+Bot(12): i am a student , but i am a student .
+
+Persona:
+i drive a big truck and live in country.
+i love playing softball.
+i've a broken arm.
+i am expecting twins in two months.
+my family and i are from india.
+
+Topic and Human Opinion:
+Beginning: enjoy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.86
+Robotic(↓): 69
+Interesting: 66
+Fun: 65
+Consistent: 63
+Fluent: 62
+Repetitive(↓): 71
+Topic: 75
+
+####################
+

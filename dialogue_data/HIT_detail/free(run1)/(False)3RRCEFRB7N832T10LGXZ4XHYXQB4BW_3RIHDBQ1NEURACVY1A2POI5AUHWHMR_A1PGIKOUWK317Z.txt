@@ -1,0 +1,296 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, do you like pets?
+Bot(1): hi no i do not have any pets .
+User(2): Would you like to have a pet?
+Bot(2): sure
+User(3): What kind would you like?
+Bot(3): sure , i want one , to see if i will like it to have pet
+User(4): Would you like a dog or a cat?
+Bot(4): sure , i want one , to see if i will like it to have pet
+User(5): Are you a fan of cars?
+Bot(5): yeah , but i m not really a car person
+User(6): Would you buy a Tesla?
+Bot(6): sure , i want one , to see if i will like it to have pet
+User(7): I'm talking about cars now
+Bot(7): ok , you got me . i clearly do not know much about cars .
+User(8): What do you know about?
+Bot(8): like cameras , timers , robotic cleaners
+User(9): What kind of cameras do you like?
+Bot(9): like cameras , timers , robotic cleaners
+User(10): What kind?
+Bot(10): like cameras , timers , robotic cleaners
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 4: Cars(like)
+Round 8: Likes(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 8: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 7.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 30
+Repetitive(↓): 100
+Topic: 24
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Are you into politics?
+Bot(1): I like to read what cheese
+User(2): Who is the president of the United States?
+Bot(2): I am sure they are. that is a are are.
+User(3): What do you know about the Senate?
+Bot(3): Why is there you have to/ You sour cream?
+User(4): What do you know about the House of Representatives?
+Bot(4): I do not have any friends, have money i can a fan
+User(5): Why don't you have any friends?
+Bot(5): i can paypal you some , i robot do you like freaking million dollars .
+User(6): What?
+Bot(6): I What do you and I love music
+User(7): Do you speak English?
+Bot(7): i think i am for i see, so am sure they will .
+User(8): Do you like poetry?
+Bot(8): I am a fisherman. My dad is a a listen not sing too!) person. Are you terrified of scorpions ?
+User(9): I am not
+Bot(9): i love grocery store , but i sell good car. i don't store .
+User(10): I don't understand
+Bot(10): I work of kids.
+
+Persona:
+i like shopping.
+i'm a descendant of christopher columbus.
+my father played violin professionally.
+my name is george.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: Politics(dislike)
+Round 4: Friends(like)
+Round 8: Fears(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What is the meaning of friendship
+Bot(1): i love the color red . i like the color blue .
+User(2): What does that have to do with friendship?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): What do you like about classical music?
+Bot(3): i do , i like country music .
+User(4): Country music is nice.
+Bot(4): i like to go to the gym and listen to music .
+User(5): What do you listen to in the gym?
+Bot(5): no , i do not , but i do like to read .
+User(6): What do you read?
+Bot(6): i do not , i like to read .
+User(7): What do you read?
+Bot(7): i do not , i like to read .
+User(8): Who is your favorite author?
+Bot(8): i like the oldies , and the outdoors .
+User(9): Books about the outdoors?
+Bot(9): i do , i love to go fishing .
+User(10): You are very interesting.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Friends(like)
+Round 2: Music(dislike)
+Round 5: Reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, do you like to read?
+Bot(1): yes , i like mysteries . do you ?
+User(2): I love to read
+Bot(2): anything by stephen king what about you any hobbies ?
+User(3): Stephen King is amazing. I like reading.
+Bot(3): no , sorry . i like more classical . but stephen king is fun to read !
+User(4): His novels are mysteries.
+Bot(4): my grandpa takes me to the ice cream parlor after school on fridays
+User(5): What is your favorite ice cream?
+Bot(5): that sounds great i also like ice cream
+User(6): Do you like cookie dough ice cream?
+Bot(6): yes , i do like ice cream . sometimes i make my own ice cream at home .
+User(7): That's cool
+Bot(7): yeah it is a nice place to raise a family .
+User(8): Did you ever make ice cream as a child?
+Bot(8): that sounds great i also like ice cream
+User(9): Yes, I do as well
+Bot(9): whenever i can get a day off , i go with my husband and three children .
+User(10): Sounds like a perfect day
+Bot(10): my wife would not let me get close enough to her with my orange cheetos fingers !
+
+Persona:
+i work took i have a part time job at burger king.
+i live with my husband in pennsylvania.
+i'm planning on getting a divorce.
+i've two grown children who never visit.
+i work in the insurance business.
+
+Topic and Human Opinion:
+Beginning: Reading(like)
+Round 4: Memories(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 11.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 38
+Topic: 17
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, do you like to read?
+Bot(1): not really i am still in training . i just swim and read but i enjoy it
+User(2): What do you read
+Bot(2): i do not read , how about you ?
+User(3): I do read, a lot
+Bot(3): what do you read often
+User(4): A lot of science fiction, mostly
+Bot(4): i just like to eat fish while i read
+User(5): Why is that
+Bot(5): i just like to eat fish while i read
+User(6): What do you read
+Bot(6): i just like to eat fish while i read
+User(7): Ok, what else do you do when you read
+Bot(7): i like to swim , read books
+User(8): Do you swim while reading
+Bot(8): yes , sometimes with my 2 brothers
+User(9): Do your brothers also read
+Bot(9): yes , sometimes with my 2 brothers
+User(10): Sounds like a lot of fun
+Bot(10): i just like to eat fish while i read
+
+Persona:
+i'm a vegetarian.
+i have a weakness for fish and chips.
+i'm not a good swimmer at all.
+i have blonde hair and blue eyes.
+i have one brother.
+
+Topic and Human Opinion:
+Beginning: Reading(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 5.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 39
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Can you swim
+Bot(1): i don't swim , i am a bit of a workout person
+User(2): Swimming is a good workout
+Bot(2): i do not swim , i am a big gamer .
+User(3): What kind of games do you play
+Bot(3): i play the guitar . i like to run a lot
+User(4): Guitar Hero?
+Bot(4): i don't play any instruments
+User(5): Do you wish to play instruments
+Bot(5): no i don't play any instruments
+User(6): Why not
+Bot(6): i don't play any instruments . i like to play
+User(7): Why don't you play instruments
+Bot(7): i don't play any instruments . i like to play
+User(8): But why
+Bot(8): i don't play any instruments but i do like to play
+User(9): What do you play
+Bot(9): i play guitar and play guitar
+User(10): Guitar is an instrument
+Bot(10): i play guitar guitar and play guitar
+
+Persona:
+i've two grown children who never visit.
+i like to workout a a times a week.
+i've never had a steady relationship.
+i had to have a transplant.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: Swimming(dislike)
+Round 2: Gaming(dislike)
+Round 4: Instruments(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 6.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 34
+Repetitive(↓): 100
+Topic: 13
+
+####################
+

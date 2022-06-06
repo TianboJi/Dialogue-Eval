@@ -1,0 +1,274 @@
+Feedback: no comments
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am good , a little tired but good !
+User(2): I am a single dad with one kid.
+Bot(2): i am single , how many kids do you have ?
+User(3): How old are you?
+Bot(3): i am 24 , how about you ?
+User(4): I am 46.
+Bot(4): i am 30 , are you married ?
+User(5): I was married.
+Bot(5): my dad was too but he is getting remarried .
+User(6): Congratulation for him.
+Bot(6): well , thanks . do you have family ?
+User(7): yes, I have one child.
+Bot(7): i am thinking about having another kid .
+User(8): That's good. Kid is so adorable.
+Bot(8): he is . are you married ?
+User(9): I am not maried.
+Bot(9): are you married ? i am .
+User(10): I am a single dad.
+Bot(10): my age is below 46
+User(11): I am 46.
+Bot(11): i am thinking about having another kid .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: whats up i am a 46 year old single dad 46 a kids.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.43
+Robotic(↓): 100
+Interesting: 40
+Fun: 14
+Consistent: 100
+Fluent: 99
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am dandy . how is your day going ?
+User(2): It went pretty well.
+Bot(2): same
+User(3): How old are you?
+Bot(3): i am in my twenties . you ?
+User(4): I am 24 years old.
+Bot(4): i am 24 years old and you are
+User(5): I am 24.
+Bot(5): i just turned 23 last weekend .
+User(6): Congratulation!
+Bot(6): thanks !
+User(7): you're welcome.
+Bot(7): you are most welcome lovely .
+User(8): What did you do on your birthday?
+Bot(8): it went so cool . how about for you ?
+User(9): It was good.
+Bot(9): it was . i had a lot of fun .
+User(10): I get more experiences.
+Bot(10): that is a good thing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm 24 years old.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 74.71
+Robotic(↓): 100
+Interesting: 100
+Fun: 99
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 65
+Topic: 89
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, How is over there?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): That's is great.
+Bot(2): i like to go to the gym and listen to music .
+User(3): me too.
+Bot(3): i like to go to the gym and listen to music .
+User(4): I have a black lab named trooper.
+Bot(4): i like to go to the gym and listen to music .
+User(5): What's else?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): What sport do you like?
+Bot(6): i like to go to the gym and listen to music .
+User(7): What book do you like?
+Bot(7): i like the color red . what is yours ?
+User(8): I like pink.
+Bot(8): i like to go to the gym and listen to music .
+User(9): What day do you like?
+Bot(9): i like to listen to music .
+User(10): What food do you like?
+Bot(10): i love pizza , and i love it .
+
+Persona:
+my wife spends all my money.
+i now live in the city.
+my favorite band is the who.
+for vacation i enjoy time at the beach.
+i am a vegan.
+
+Topic and Human Opinion:
+Beginning: i have a black lab named trooper.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.14
+Robotic(↓): 100
+Interesting: 61
+Fun: 56
+Consistent: 83
+Fluent: 82
+Repetitive(↓): 100
+Topic: 27
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, How are you today?
+Bot(1): i would love beautiful a bee .
+User(2): That's nice.
+Bot(2): yes i do . don't favorite color is think i am an er nurse 😄
+User(3): I am a cancer survivor.
+Bot(3): I of turtle's name is of sports, but i do like to watch tv.
+User(4): What show on TV do you like?
+Bot(4): make time you do in :)
+User(5): okay.
+Bot(5): yes they are . i love cat three course not, meat was your day ?
+User(6): My day was great.
+Bot(6): i i do right but looking
+User(7): I change to eat healthy food.
+Bot(7): I would love you know, sitz a chef.
+User(8): I work out more.
+Bot(8): hello, how are you? I am doing well. by them who are hobbies?
+User(9): I watch what I eat.
+Bot(9): it is. stop nice to see at the bar. do you?
+User(10): Because I don't want to get sick.
+Bot(10): That must гомик your favorite 😃
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a cancer survivor.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.29
+Robotic(↓): 100
+Interesting: 5
+Fun: 5
+Consistent: 4
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi there.
+Bot(1): i am good . i am just hanging out with my friends
+User(2): Awesome!
+Bot(2): i am good . i am a night owl
+User(3): What time you go to slepp.
+Bot(3): i am going to go to the gym .
+User(4): That's good for you.
+Bot(4): i am sure you are . i am going to go to the gym .
+User(5): I love to go to the gym too.
+Bot(5): i love the gym . i go to the gym every day .
+User(6): are you single?
+Bot(6): no , i am single . i am single .
+User(7): are you in any relationship?
+Bot(7): no i'm single . i am single .
+User(8): I am in an open polyamorous relationship.
+Bot(8): i am single . i am single .
+User(9): That is good.
+Bot(9): i am single . i am single .
+User(10): Relationship is complicated.
+Bot(10): yes . i am a single girl .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm in an open polyamorous relationship.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.86
+Robotic(↓): 80
+Interesting: 83
+Fun: 61
+Consistent: 72
+Fluent: 76
+Repetitive(↓): 98
+Topic: 56
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi.
+Bot(1): hi ! how are you ?
+User(2): I am good. Thank you.
+Bot(2): i am well about to make a breakfast egg baked dish .
+User(3): That sounds good.
+Bot(3): when i am not chasing my siberian huskies 2 of them ! i like to play the guitar .
+User(4): I like it.
+Bot(4): my prius will not fit all our children so we are upgrading to a van soon .
+User(5): That is a good idea.
+Bot(5): i could play piano for you and you could teach me to cook fish .
+User(6): I am turning 40.
+Bot(6): dang , that is a huge bonus , the firm i work at never does anything that big
+User(7): how old are you?
+Bot(7): i am 25 , half way to the 50 mark .
+User(8): I love Thai food.
+Bot(8): i love like everything , most of the time i prefer mexican food
+User(9): It is spicy and flavorful.
+Bot(9): i like spicy sausage with peppers . what is something interesting about you ?
+User(10): Taco is good too.
+Bot(10): that is a lot of tacos .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm 40 years old.(like)
+Round 7: I love Thai food.(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 71.57
+Robotic(↓): 78
+Interesting: 69
+Fun: 90
+Consistent: 69
+Fluent: 92
+Repetitive(↓): 16
+Topic: 75
+
+####################
+

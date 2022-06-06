@@ -1,0 +1,321 @@
+Feedback: good chatting
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): hi bot
+Bot(2): hey
+User(3): what are you doing
+Bot(3): i am just reading a book
+User(4): ok
+Bot(4): same
+User(5): current issue of covid-19 cases how to handle it
+Bot(5): ? ?
+User(6): not know
+Bot(6): what you need
+User(7): how to spread covid-19
+Bot(7): i do not know how to do that
+User(8): let;s fine ok
+Bot(8): this is a hard worl
+User(9): ok Are you wear a face mask
+Bot(9): no i need special goggles
+User(10): ok
+Bot(10): i am so very scared
+User(11): always use hand sanitizer
+Bot(11): yeah wash it every night
+User(12): i follow regularly
+Bot(12): soon i will follow you
+User(13): good keep it up
+Bot(13): i try to keep up
+User(14): any job loss problem do to covid-19
+Bot(14): yes
+User(15): very affective
+Bot(15): whatever i studied buisness at harvard emotions are weak
+User(16): good trry
+Bot(16): this is a hard worl
+User(17): i face a job loss problem
+Bot(17): u might have to to fix things
+User(18): what
+Bot(18): this is a hard worl
+User(19): should not go to the temple
+Bot(19): and why is that for
+User(20): because covid-19 to avoid crowd
+Bot(20): cool i went to yale
+User(21): hmm good
+Bot(21): do you like movies
+User(22): yes i like movies mainy the romantic movies
+Bot(22): cool i went to yale
+User(23): nice
+Bot(23): who r u and wat is this
+User(24): iam your freind
+Bot(24): i am on facebook which is great
+User(25): i am also facebook
+Bot(25): cool i went to yale
+User(26): ok
+Bot(26): who r u and wat is this
+User(27): friend
+Bot(27): same
+User(28): what is your name
+Bot(28): jessie
+User(29): preety name
+Bot(29): who r u and wat is this
+User(30): tell about yourself
+Bot(30): cool i went to yale
+
+Persona:
+i compete in dog agility classes.
+i spend most of my time on facebook when i'm not working.
+i graduated from yale in 2011 with a degree in finance.
+my favorite movie is mean girls.
+my favorite way to relax is to read a book.
+
+Topic and Human Opinion:
+Beginning: social issues(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.00
+Robotic(↓): 62
+Interesting: 59
+Fun: 59
+Consistent: 57
+Fluent: 57
+Repetitive(↓): 61
+Topic: 55
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what is your name
+Bot(2): my name is jesse . what about you ?
+User(3): iam banu
+Bot(3): how did you come up with that name
+User(4): i am a chef
+Bot(4): ah i am a professional chef
+User(5): same
+Bot(5): i work as a chef
+User(6): i do to own resturant
+Bot(6): i work as a chef
+User(7): i like movies
+Bot(7): i also like movies
+User(8): what type of movies
+Bot(8): i love almost all types of movies
+User(9): i like love based movies
+Bot(9): i also like movies
+User(10): ok
+Bot(10): what is your favorite movies
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.57
+Robotic(↓): 85
+Interesting: 92
+Fun: 93
+Consistent: 93
+Fluent: 93
+Repetitive(↓): 92
+Topic: 93
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): iam also
+Bot(2): now i have got sinatra on and i am making beef stew !
+User(3): ok
+Bot(3): i find attractive all women from canada
+User(4): i like songs
+Bot(4): oh knitting and crochet . i absolutely love to go by the lake . it always makes me happy .
+User(5): ok
+Bot(5): i find attractive all women from canada
+User(6): same
+Bot(6): i love to relax with my fluffy cat named cow
+User(7): are you listening love songs
+Bot(7): oh knitting and crochet . i absolutely love to go by the lake . it always makes me happy .
+User(8): same
+Bot(8): i love to relax with my fluffy cat named cow
+User(9): same
+Bot(9): my husband just retired from being a salesman , so we have time together now .
+User(10): congrates
+Bot(10): great ! my name is lucy , after my grandmother . whats yours ?
+
+Persona:
+i am a retired gym teacher.
+i own a cat and a dog.
+i've never been out of ohio.
+i am a party animal.
+i like to make time stop.
+
+Topic and Human Opinion:
+Beginning: song(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.71
+Robotic(↓): 77
+Interesting: 87
+Fun: 90
+Consistent: 92
+Fluent: 94
+Repetitive(↓): 94
+Topic: 89
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi there , how are you ?
+User(2): i am fine
+Bot(2): hi , i am doing well . how are you ?
+User(3): perfect good
+Bot(3): hi , i am great . i am a little tired from the moment .
+User(4): oh just relax it
+Bot(4): i love to drink soda .
+User(5): same
+Bot(5): i love to drink soda . i drink soda .
+User(6): same
+Bot(6): i love to drink soda . i drink soda .
+User(7): i like dance
+Bot(7): i love to dance . i like to read .
+User(8): same
+Bot(8): i love to dance but i do not drink soda .
+User(9): i like classical dance
+Bot(9): i like to dance but i do not like to drink soda
+User(10): same
+Bot(10): i like to dance but i do not drink soda
+
+Persona:
+i've amazing children and grandchildren.
+i also like a glass of wine in the evenings.
+i hate the color pink.
+spiderman is my favorite.
+i do not drink soda.
+
+Topic and Human Opinion:
+Beginning: dance(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.71
+Robotic(↓): 87
+Interesting: 89
+Fun: 87
+Consistent: 84
+Fluent: 82
+Repetitive(↓): 88
+Topic: 93
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I my german sheperd dog is: two dogs live with me
+User(2): i like dogs
+Bot(2): you a are you living? of carbs. Also, try to guess: i play piano ...
+User(3): yes you play a piano and i live usa in texas
+Bot(3): i am in my 20s my brother has a son .. Also, jo springs to How old was ...
+User(4): 40
+Bot(4): I work you pay am You ?
+User(5): not need
+Bot(5): I i adress you 5 that. I am a little sad.
+User(6): not do that
+Bot(6): i like to go there. What do you watch tv
+User(7): i like story reading
+Bot(7): I Had how old are guru. What do you do?
+User(8): 26.rerading a story
+Bot(8): i do not i have computers though. Also, try a pa three months are ...
+User(9): yes
+Bot(9): I love❤ dogs. trying to set me named patrick. Are you a christian?
+User(10): yees i am a chrisitan
+Bot(10): I is ford It’s said was true.
+User(11): true
+Bot(11): I am a dancer, I am you a robot matter, local office
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: story(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.57
+Robotic(↓): 87
+Interesting: 88
+Fun: 90
+Consistent: 90
+Fluent: 89
+Repetitive(↓): 88
+Topic: 91
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i am fine tell about yourself
+Bot(2): i am a student , what about you ?
+User(3): i am a student be cse
+Bot(3): i am a teacher , i love to cook .
+User(4): i am a software engineer , i love to listen a song
+Bot(4): i like to go to the beach and listen to music .
+User(5): i like go to chruch and pray song
+Bot(5): i like to go to the lake and listen to music .
+User(6): i like to go falls and bathing is very interest
+Bot(6): i like to go to the gym and listen to music .
+User(7): i like to go cinema theater to view a movie
+Bot(7): that is awesome . i like to go fishing .
+User(8): thanks. i like to eat a fish good for eyes
+Bot(8): i like to eat fish .
+User(9): same
+Bot(9): i am a student , but i am a student .
+User(10): iam also
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: lunch(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.43
+Robotic(↓): 83
+Interesting: 87
+Fun: 91
+Consistent: 92
+Fluent: 94
+Repetitive(↓): 94
+Topic: 92
+
+####################
+

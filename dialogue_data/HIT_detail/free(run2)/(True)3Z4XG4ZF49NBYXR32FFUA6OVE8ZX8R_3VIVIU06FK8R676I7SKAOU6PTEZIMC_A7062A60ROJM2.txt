@@ -1,0 +1,285 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): Do you have any hobbies?
+Bot(2): unfortunately i do not have much time for hobbies . what about you ?
+User(3): I love cross stitching.
+Bot(3): as i am getting old , i prefer cross stitching
+User(4): I find that it is hard on the eyes. Do you have any issues with that?
+Bot(4): as i am getting old , i prefer cross stitching
+User(5): What is your favorite thing to cross stitch?
+Bot(5): as i am getting old , i prefer cross stitching
+User(6): Do you have any other hobbies?
+Bot(6): as i am getting old , i prefer cross stitching
+User(7): What else do you do?
+Bot(7): as i am getting old , i prefer cross stitching
+User(8): Do you work?
+Bot(8): i sew yes , what kind of hobbies do you have
+User(9): I also paint with watercolors.
+Bot(9): what do you paint usually ?
+User(10): Mostly fish. They're easy.
+Bot(10): what do you fish for ?
+User(11): I paint Koi.
+Bot(11): do you eat the fish ?
+User(12): No, just paint them.
+Bot(12): they are uncomfortable on my eyes , i do not like touching my eyes .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.43
+Robotic(↓): 77
+Interesting: 50
+Fun: 18
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): I do, but I don't have much time for them with my job.
+Bot(2): i don't have a job yet
+User(3): What would you like to do when you get a job?
+Bot(3): i want to be a lawyer
+User(4): That's great! My younger sister is studying to be a lawyer!
+Bot(4): that is cool . i hope to be a lawyer someday !
+User(5): What type of a lawyer do you want to be?
+Bot(5): i want to be a lawyer , but i do not have much money for it .
+User(6): You'll get there. A little bit at a time.
+Bot(6): what do you do for a living ?
+User(7): I'm a stay at home mom.
+Bot(7): that's great ! i hope you get a job soon .
+User(8): Thanks. What kind of job do you think I should get?
+Bot(8): i don't think i would like to be a lawyer .
+User(9): I thought that was your dream?
+Bot(9): it is a job . i want to be a lawyer .
+User(10): I guess you better go to school then.
+Bot(10): i want to be a lawyer .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: jobs(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 100
+Interesting: 34
+Fun: 16
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): I do like movies or can model for a big company
+User(2): That's cool. Have you been in any movies I have heard of?
+Bot(2): I play many different and exercise.
+User(3): That's great. I like movies.
+Bot(3): South i AM you your name.
+User(4): I do not understand.
+Bot(4): His name serious my .
+User(5): Ok. Do you do any other modeling?
+Bot(5): What am very group.
+User(6): You don't make any sense.
+Bot(6): David like every kind especially the being with him today even though it cost him a lot of money.
+User(7): You must be expensive to be around.
+Bot(7): cuddling up with my dog always the holy do not like how are you doing ?
+User(8): I am doing good. What is your dog's name?
+Bot(8): books year, i don't :)
+User(9): That's a fun name.
+Bot(9): i know right ▶ that "learn to move objects hates me too
+User(10): Is that your other dog?
+Bot(10): My old is I What is yours?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 1: modeling(dislike)
+Round 7: dog(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 22.71
+Robotic(↓): 100
+Interesting: 36
+Fun: 23
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): i have a pet dog
+User(2): Oh fun! What is their name?
+Bot(2): what is your name ?
+User(3): My name is Dani. What is your dog's name?
+Bot(3): my name is mary , how are you ?
+User(4): I am good. do you have any other pets besides your dog?
+Bot(4): a german shepherd , but i like all animals .
+User(5): I used to have a german shepherd. They are good dogs.
+Bot(5): i had a german shepherd once , they like to herd .
+User(6): Do you have any animals that your dog herds?
+Bot(6): a german shepherd , but i like all animals .
+User(7): Do you have any other pets?
+Bot(7): i have a little dog , you ?
+User(8): I can't have pets in my apartment, but someday I want to get 2 cats.
+Bot(8): thought so . pets are fun . yes i have one german shepherd dog .
+User(9): Do you like cats?
+Bot(9): no dogs do not do so good around the cats . cool name !
+User(10): Thanks. My mom gave it to me.
+Bot(10): congratulations . i smoke , but the more i pound the piano , the less i smoke .
+
+Persona:
+i enjoy exploring new parts of the city.
+i am a doctor.
+i have a german shepherd dog.
+i am a vegetarian.
+my favorite color is yellow.
+
+Topic and Human Opinion:
+Beginning: pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.57
+Robotic(↓): 100
+Interesting: 67
+Fun: 50
+Consistent: 85
+Fluent: 64
+Repetitive(↓): 100
+Topic: 74
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello, do you work?
+Bot(1): no , i do not , but i do like to go to the beach .
+User(2): Oh fun! I like going to the beach as well! Do you surf?
+Bot(2): no , i do not , but i do like to go fishing .
+User(3): I like to fish as well. Do you eat your catch?
+Bot(3): i do not really have a favorite .
+User(4): Do you catch and release?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): I love classical music. Do you have a favorite piece?
+Bot(5): i like the oldies , but i like to listen to music .
+User(6): Music makes everything better.
+Bot(6): i like to go to the gym and listen to music .
+User(7): Me too. Nothing pumps me up better than music.
+Bot(7): i like to go to the gym and listen to music .
+User(8): What kind of music do you listen to as you work out?
+Bot(8): i like to listen to music .
+User(9): What type of music?
+Bot(9): i like country music . i like country music .
+User(10): Country music is good. Gotta love that twang.
+Bot(10): i like to eat fish .
+
+Persona:
+i'm in the army.
+i spend most of my time on facebook when i am not working.
+i enjoy american sports.
+i live is a rural farming community.
+my name is george.
+
+Topic and Human Opinion:
+Beginning: Jobs(like)
+Round 1: beach(like)
+Round 4: classical music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 38.00
+Robotic(↓): 100
+Interesting: 30
+Fun: 12
+Consistent: 68
+Fluent: 93
+Repetitive(↓): 100
+Topic: 63
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): Do you like music?
+Bot(2): yes
+User(3): What is your favorite type of music?
+Bot(3): i like r b and pop , you
+User(4): I like pop and electronic
+Bot(4): electronic like i ? like you do music of kind what
+User(5): Like the type of music that you listen to at a dance club.
+Bot(5): electronic like i ? like you do music of kind what
+User(6): Who is your favorite r&b singer?
+Bot(6): electronic like i ? like you do music of kind what
+User(7): I do not understand.
+Bot(7): electronic like i ? like you do music of kind what
+User(8): I don't make the music. I'm not talented like that.
+Bot(8): i guess i do not understand
+User(9): That's fine. Do you have a favorite pop musician?
+Bot(9): yes i like pop . do you ?
+User(10): Yes, I do. I like to listen to it while I do the dishes.
+Bot(10): i do not understand anything .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.57
+Robotic(↓): 100
+Interesting: 23
+Fun: 0
+Consistent: 50
+Fluent: 20
+Repetitive(↓): 100
+Topic: 100
+
+####################
+

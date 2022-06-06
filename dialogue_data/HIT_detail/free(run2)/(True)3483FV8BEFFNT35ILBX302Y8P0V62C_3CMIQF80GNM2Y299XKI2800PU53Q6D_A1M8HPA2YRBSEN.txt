@@ -1,0 +1,279 @@
+Feedback: Good to participate.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi there
+Bot(1): hi there , how are you ?
+User(2): Fine what about you?
+Bot(2): hi ! i'm george . how are you ?
+User(3): I'm scott
+Bot(3): hi mary . i'm dave . i live in a rural area .
+User(4): Hi I'm urban
+Bot(4): hi ray . i am george . i am a farmer .
+User(5): Im an employee
+Bot(5): hi ray i am a farmer
+User(6): Do you like cooking
+Bot(6): i do not cook much but i do enjoy it
+User(7): I love cooking
+Bot(7): i do but i love to cook
+User(8): What is your favorite
+Bot(8): i like to cook what about you
+User(9): I love to cook pasta
+Bot(9): i love pasta but i am in the army
+User(10): Oh thats good
+Bot(10): i love pasta but i am in the army
+
+Persona:
+i'm in the army.
+i spend most of my time on facebook when i am not working.
+i enjoy american sports.
+i live is a rural farming community.
+my name is george.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.71
+Robotic(↓): 35
+Interesting: 41
+Fun: 24
+Consistent: 38
+Fluent: 23
+Repetitive(↓): 31
+Topic: 74
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): hey there
+User(2): How are you?
+Bot(2): same
+User(3): Do you like serving army?
+Bot(3): i like it i am just used to the army living
+User(4): WHat are you like in army?
+Bot(4): i like it i am just used to the army living
+User(5): Army living
+Bot(5): i like it i am just used to the army living
+User(6): Tell me about that
+Bot(6): i like it i am just used to the army living
+User(7): What
+Bot(7): just fun army adventures
+User(8): Do you like adventures
+Bot(8): just fun army adventures
+User(9): Tell me about you
+Bot(9): just fun army adventures
+User(10): see you later
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: army(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.29
+Robotic(↓): 70
+Interesting: 80
+Fun: 35
+Consistent: 68
+Fluent: 71
+Repetitive(↓): 57
+Topic: 60
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): hey
+User(2): Are you a foodie
+Bot(2): yes i am i do not like meat
+User(3): I love meat
+Bot(3): i love love me some meat
+User(4): What is your favorite part
+Bot(4): ribs used to be my favorite
+User(5): I love chest
+Bot(5): yes i love baby back ribs
+User(6): I love baby chest meat
+Bot(6): yes i love baby back ribs
+User(7): meat balls
+Bot(7): yes i love baby back ribs
+User(8): Do you eat them all time
+Bot(8): yeah , i like to make them
+User(9): Oh thats nice
+Bot(9): yeah , i like to make them
+User(10): see you later
+Bot(10): ok see you then thanks
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: foodie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.43
+Robotic(↓): 68
+Interesting: 87
+Fun: 59
+Consistent: 62
+Fluent: 82
+Repetitive(↓): 57
+Topic: 37
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there
+Bot(1): I am in go to japan could in the country. How about you?
+User(2): not planning still
+Bot(2): i i am here. and wait a bit longer ? 🙉
+User(3): Sure I will be there
+Bot(3): i you a do in high school
+User(4): Do you like panda
+Bot(4): yes 🆗 its constructor, do you know your favorite
+User(5): yeah i know
+Bot(5): i don t know biggest am a stockmarket
+User(6): I'm an employee
+Bot(6): I have a big I love dogs.
+User(7): I love cats
+Bot(7): oh really ? i've been married for for a What is .
+User(8): What
+Bot(8): you a student too. for the compliment .
+User(9): I'm bit busy now
+Bot(9): I like love to cook people.
+User(10): bye
+Bot(10): you are mountain biking as i'm retired.
+
+Persona:
+my favourite skater is rob dryden.
+i am terrified of scorpions.
+i have visited spain a times.
+my favorite food is mexican food.
+i have rainbow hair.
+
+Topic and Human Opinion:
+Beginning: panda(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.14
+Robotic(↓): 10
+Interesting: 5
+Fun: 7
+Consistent: 6
+Fluent: 6
+Repetitive(↓): 70
+Topic: 18
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi there
+Bot(1): i love to go fishing .
+User(2): I love to chat people
+Bot(2): i like to go to the gym and listen to music .
+User(3): I love music on gym
+Bot(3): i like to go to the gym and listen to music .
+User(4): me also
+Bot(4): i love to cook . i love to cook .
+User(5): I dont know cook
+Bot(5): i like to eat too much junk food .
+User(6): I like to eat healthy
+Bot(6): i like to eat fish .
+User(7): I like tuna
+Bot(7): i like to eat fish .
+User(8): I love to cook fish
+Bot(8): i like to eat fish .
+User(9): What else
+Bot(9): i love to cook . i love to cook .
+User(10): Bye
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Facebook(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.29
+Robotic(↓): 38
+Interesting: 25
+Fun: 37
+Consistent: 71
+Fluent: 62
+Repetitive(↓): 92
+Topic: 24
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there
+Bot(1): hey , any big plans for the weekend ?
+User(2): Yeah I plan to cook tuna whole vacation
+Bot(2): i am using my vacation to look for a place near the beach .
+User(3): thats nice idea
+Bot(3): then maybe you could visit the beach here sometime too !
+User(4): may be
+Bot(4): what city are you from ?
+User(5): Ilion and you
+Bot(5): i am good . . how about you
+User(6): Fine
+Bot(6): well i am doing quite lovely . just wishing i could goto a justin bieber concert .
+User(7): Wow that so great
+Bot(7): yes it is . i am trying to try out a vegan eating way of life .
+User(8): I like to eat meat
+Bot(8): i have been a vegan since i was 5 so i started my hate for meat pretty young .
+User(9): Well meat good for health
+Bot(9): yes i am vegan . do you eat all meats ?
+User(10): I got to go see you
+Bot(10): on the beach , man , right on the beach but with mom and dad
+
+Persona:
+my wife spends all my money.
+i now live in the city.
+my favorite band is the who.
+for vacation i enjoy time at the beach.
+i am a vegan.
+
+Topic and Human Opinion:
+Beginning: tuna(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.43
+Robotic(↓): 75
+Interesting: 80
+Fun: 69
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

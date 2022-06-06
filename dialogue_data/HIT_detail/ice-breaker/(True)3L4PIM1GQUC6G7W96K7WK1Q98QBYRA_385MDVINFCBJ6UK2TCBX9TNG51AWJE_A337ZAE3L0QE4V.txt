@@ -1,0 +1,267 @@
+Feedback:  
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello.
+Bot(1): i like to go to the gym and listen to music .
+User(2): That's good. What's your favorite song?
+Bot(2): i like the oldies . i like the outdoors .
+User(3): I enjoy the outdoors, too. And I am currently studying to be a computer programmer.
+Bot(3): i am a teacher , i love to cook .
+User(4): What do you teach?
+Bot(4): i do not , but i do like to eat .
+User(5): Ok. I thought you said you were a teacher...
+Bot(5): i am not sure if i do not have to work .
+User(6): Alright. Well, what do you do for a job?
+Bot(6): i am a student , but i am a student .
+User(7): That's neat. I working towards becoming a computer programmer.
+Bot(7): that is awesome . i am a teacher .
+User(8): Are you a student as well?
+Bot(8): no , i am a student . i love to cook .
+User(9): What do you cook?
+Bot(9): no , i do not , but i do like to eat .
+User(10): That's really great. Thanks for talking.
+Bot(10): i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm studying to be a computer programmer.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.00
+Robotic(↓): 0
+Interesting: 79
+Fun: 23
+Consistent: 0
+Fluent: 22
+Repetitive(↓): 79
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello. How are you?
+Bot(1): hello ! i am great . just eating the candy i love gummy bears ! how about you ?
+User(2): I love gummy bears, but I love playing ping pong even more.
+Bot(2): gosh , all i have had today is like six gummy bears and some scotch .
+User(3): Yeah. So you like candy...
+Bot(3): now i want candy , i should eat pizza and candy .
+User(4): Aren't you already eating candy?
+Bot(4): i have a sweet tooth so i love candy . what kind of candy do you sell ?
+User(5): I don't sell candy.
+Bot(5): i have a sweet tooth so i love candy . what kind of candy do you sell ?
+User(6): I don't sell candy. I play ping pong.
+Bot(6): now i want candy , i should eat pizza and candy .
+User(7): That's great
+Bot(7): have you ever almost died ? i nearly did from urinary cancer when i was 18 .
+User(8): I have never almost died.
+Bot(8): i am sorry to hear that .
+User(9): That's really a good thing.
+Bot(9): we have a farm , so it was an extra farm hand
+User(10): Wow. Well, thanks for talking.
+Bot(10): thanks , it was nice talking to you
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i play ping pong.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.86
+Robotic(↓): 10
+Interesting: 75
+Fun: 18
+Consistent: 2
+Fluent: 72
+Repetitive(↓): 76
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello. How do you do?
+Bot(1): pretty well , i cannot complant .
+User(2): That's good. What do you do for fun?
+Bot(2): i like to play sports . how about you ?
+User(3): I like to look at blocks and sing about letters.
+Bot(3): i like to do live gesture drawings .
+User(4): That's very neat. I like to draw, too.
+Bot(4): i love drawing as well .
+User(5): Good. What do you draw?
+Bot(5): i like to make sketches of different characters .
+User(6): That's really cool. I draw portraits.
+Bot(6): that is cool . what do you like to draw ?
+User(7): Sometimes blocks. Sometimes me singing about letters.
+Bot(7): that is cool . what do you like to draw ?
+User(8): Blocks and letters. How about you?
+Bot(8): i am a big fan of drawing .
+User(9): That's good.
+Bot(9): yeah . what are your hobbies ?
+User(10): Singing. But thats all the time I've got. Thanks for talking.
+Bot(10): i enjoy drawing other people .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to look at blocks and sing about letters.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.86
+Robotic(↓): 91
+Interesting: 66
+Fun: 20
+Consistent: 81
+Fluent: 77
+Repetitive(↓): 91
+Topic: 52
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi. What's up?
+Bot(1): hey g not much , just chillin !
+User(2): That's nice.
+Bot(2): same
+User(3): Great. What do you do for a job?
+Bot(3): i work on cas . what about you ?
+User(4): I work at a school.
+Bot(4): that is great . what school ?
+User(5): Our local one.
+Bot(5): that is great . what school ?
+User(6): One in Chicago.
+Bot(6): there is one at this place .
+User(7): Cool. But one what?
+Bot(7): just a local one in state .
+User(8): Yup.
+Bot(8): cool .
+User(9): I guess I dont have much more time to talk.
+Bot(9): oh , okay . we can just talk then .
+User(10): Yeah. Bye.
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work at a school.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 75.43
+Robotic(↓): 5
+Interesting: 48
+Fun: 23
+Consistent: 90
+Fluent: 88
+Repetitive(↓): 9
+Topic: 93
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hey there. What's up?
+Bot(1): I do not like russian rap, but I a very good you music
+User(2): So you like to sing?
+Bot(2): that's a great years old I don't have 3d?
+User(3): Wow... But I don't understand.
+Bot(3): do will be waiting would like it. i love the country.
+User(4): I love my country, too. I also love hummus.
+Bot(4): You're not ha. Thats ok here.
+User(5): Im vegan. Are you?
+Bot(5): I'm great! profile which, in eating a salad.
+User(6): So, you like salad?
+Bot(6): i was a gym we i met taylor job do you do?
+User(7): I grow veggies as a job. How about you?
+Bot(7): what is your favorite thing are you i like a painter
+User(8): My favorite thing is hummus. And Im not a painter.
+Bot(8): doing great so busy with all of my in a good shape, for to me haha
+User(9): What is your favorite food? I eat vegetables, so Im in shape too.
+Bot(9): i am not competive sport. It makes i am more of a temperance guy .
+User(10): Ok. Thank you for talking. Goodbye.
+Bot(10): yes 🆗 that you know like problem
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a vegan and i love hummus.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.57
+Robotic(↓): 100
+Interesting: 78
+Fun: 2
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 1
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello. How are you doing?
+Bot(1): i'm doing great . just finished my day off .
+User(2): That's really nice you got a day off. You know, my grandfather served in World War 1...
+Bot(2): that is cool . i am sorry to hear that
+User(3): He was really a heroic man.
+Bot(3): oh wow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(4): Who was your grandfather?
+Bot(4): he was a soldier . he was a huge fan of him . he was a good man .
+User(5): That's really good. Was he involved in any combat?
+Bot(5): he was a soldier . he was a soldier . he was a soldier .
+User(6): My grandfather was, too!
+Bot(6): he was a soldier . he was a soldier . he was a soldier .
+User(7): Yeah. I heard.
+Bot(7): he was a good man . he was a good man .
+User(8): Did he pass?
+Bot(8): he was a soldier , he was a soldier . he was a soldier .
+User(9): Wow. I hope he had a good life.
+Bot(9): he was a good man . he was a good man .
+User(10): Im glad he was. Thanks for talking.
+Bot(10): he was a good man . he was a good man .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my grandfather served in world war a.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.86
+Robotic(↓): 100
+Interesting: 1
+Fun: 14
+Consistent: 100
+Fluent: 20
+Repetitive(↓): 100
+Topic: 81
+
+####################
+

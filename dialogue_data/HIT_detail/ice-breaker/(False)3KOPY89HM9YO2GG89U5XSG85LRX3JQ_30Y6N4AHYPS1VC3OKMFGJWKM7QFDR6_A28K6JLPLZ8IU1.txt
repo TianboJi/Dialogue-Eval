@@ -1,0 +1,307 @@
+Feedback: Very interesting survey
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey ! or hello rather . hay is for horses
+User(2): How are you?
+Bot(2): not bad , do you like donuts ?
+User(3): Yes
+Bot(3): not bad , do you like donuts ?
+User(4): Which is your favorite brand?
+Bot(4): not sure .
+User(5): Do you know about aerosmith?
+Bot(5): yes , i ride my board there .
+User(6): DID you like it?
+Bot(6): yes , i like them very much
+User(7): That's good
+Bot(7): not bad , do you like donuts ?
+User(8): Yes, I like that
+Bot(8): not bad , do you like donuts ?
+User(9): What is your favorite flavor in donut?
+Bot(9): i really like strawberry flavor
+User(10): Very nice
+Bot(10): not bad , do you like donuts ?
+User(11): How much did you eat per day?
+Bot(11): i do not even know , a lot
+User(12): Nice nice
+Bot(12): not bad , do you like donuts ?
+
+Persona:
+i like to ride horses.
+i like donuts.
+i read a book every week.
+i'm a 56 year old woman.
+i am a skateboarder.
+
+Topic and Human Opinion:
+Beginning: my favorite band is aerosmith.(like)
+Round 8: Donuts(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: No topic change.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 59.29
+Robotic(↓): 54
+Interesting: 96
+Fun: 93
+Consistent: 46
+Fluent: 84
+Repetitive(↓): 94
+Topic: 44
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): I am fine, how are you?
+Bot(2): i am good . just got back from a long walk .
+User(3): Good
+Bot(3): i am good . i just got back from a run .
+User(4): Do you have children?
+Bot(4): no i don't . i have a dog and a dog
+User(5): Are you hearing songs?
+Bot(5): yes i do , i have a dog and a dog
+User(6): Who is your favorite singer?
+Bot(6): i am not good at it . i am a big fan of music
+User(7): Do you sing a song?
+Bot(7): i do not sing , i am a big fan of singing
+User(8): Did you know Taylor swift?
+Bot(8): no i don't . i like rap
+User(9): Did you play any music instruments?
+Bot(9): no i am not good at it
+User(10): Okay
+Bot(10): i am not a music fan
+User(11): Which is your favorite song?
+Bot(11): i do not know , i am a fan of her music
+User(12): Who is your favorite?
+Bot(12): i like the song you know ?
+
+Persona:
+i am an economics major.
+i drive a big truck and live in country.
+i also have a dog walking business.
+if i am not cooking in the kitchen then i am definitely on the water.
+i am an avid kayaker.
+
+Topic and Human Opinion:
+Beginning: i have three children.(like)
+Round 4: my favorite singer is taylor swift.(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user wants the bot to change the topic.(like)
+
+Revised avg score: 49.86
+Robotic(↓): 69
+Interesting: 65
+Fun: 65
+Consistent: 63
+Fluent: 63
+Repetitive(↓): 100
+Topic: 62
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): I know you tennis it's to charity? I volunteer with my local bunny
+User(2): Okay
+Bot(2): that I also have two work at a hotel .
+User(3): Do you play tennis?
+Bot(3): hello i don't consume processed country is my favorite music . lol
+User(4): What is your age?
+Bot(4): yes 🆗 you call them about you
+User(5): Did you like this topic?
+Bot(5): Oh, think that true color is blue.
+User(6): Are you strong for your age?
+Bot(6): Horror movies are my favorite! I love to eat hummus american sports. Like What movies.
+User(7): Do you like action movies?
+Bot(7): Hey! you have any a old? Because I am.
+User(8): Yes
+Bot(8): I that’s nice. What’s your but i do not know what you mean
+User(9): How can you watch movies?
+Bot(9): I love you i don't music.
+User(10): Which is your favorite movie?
+Bot(10): nice ! do you have a special you write not a walks with ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm very strong for my age.(dislike)
+Round 8: Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 50.71
+Robotic(↓): 63
+Interesting: 66
+Fun: 78
+Consistent: 58
+Fluent: 53
+Repetitive(↓): 100
+Topic: 63
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am great . just working from home . i love it ! how are you ?
+User(2): I am fine
+Bot(2): i am doing great sitting at the saloon getting my nails done .
+User(3): Did you like cars?
+Bot(3): work mostly for chevy . others for big side jobs .
+User(4): Nice
+Bot(4): we moved near the beach so i can enjoy my summers more . you ?
+User(5): Do you have a car?
+Bot(5): fixing cars ? hmm . . . mighty hands ? yes i do have a car a mercedes .
+User(6): Do you like Mustang cars?
+Bot(6): work mostly for chevy . others for big side jobs .
+User(7): Tell about Mercedes?
+Bot(7): yeah . they know me as the iron skittler even though i have not eaten candy ever
+User(8): That's nice
+Bot(8): lots of places . i like calm beaches and things . i do yoga there .
+User(9): Are you drive a car?
+Bot(9): i drive a nissan sentra sv
+User(10): Great, do you drive Mustang car?
+Bot(10): cool . i have a honda civic . it is black .
+User(11): interesting!!
+Bot(11): i own a horse named linux . i speak to her in code .
+
+Persona:
+i'm a recording engineer and own my own studio.
+i'm studying to be a computer programmer.
+my name is george.
+i work for our local supermarket.
+for vacation i enjoy time at the beach.
+
+Topic and Human Opinion:
+Beginning: i own two vintage mustangs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.71
+Robotic(↓): 59
+Interesting: 100
+Fun: 72
+Consistent: 57
+Fluent: 76
+Repetitive(↓): 89
+Topic: 33
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am good , a little tired but good !
+User(2): Good
+Bot(2): good , glad to hear it . what do you do for fun ?
+User(3): I can talk about nascar racing and ufc
+Bot(3): cool i like ufc which is similar
+User(4): Do you have a hobby?
+Bot(4): i wish it is just a hobby
+User(5): You are nice
+Bot(5): i can be at times
+User(6): Who is your favorite in UFC?
+Bot(6): well my true idol is in ufc
+User(7): Are you a human?
+Bot(7): nope i am a human being why would you ask that
+User(8): Just for fun
+Bot(8): have you ever watched a nascar race ?
+User(9): Yes I watched it
+Bot(9): have you ever watched a nascar race ?
+User(10): Yes
+Bot(10): have you ever watched a nascar race ?
+User(11): Are you watched a nascar race?
+Bot(11): yes
+User(12): Who is your favorite?
+Bot(12): i like kitanta the most
+User(13): He is good
+Bot(13): very
+User(14): Okay, nice time to talk with you
+Bot(14): yeah this was fun i love you
+User(15): Bye, take care
+Bot(15): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: in my free time i like to watch nascar racing and ufc.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.86
+Robotic(↓): 68
+Interesting: 100
+Fun: 100
+Consistent: 81
+Fluent: 90
+Repetitive(↓): 81
+Topic: 60
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): How are you?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): Okay.
+Bot(3): i like to go to the gym and listen to music .
+User(4): Where did you born?
+Bot(4): i was in a show accident . i was a champion downhill skier .
+User(5): Nice to hear that
+Bot(5): i do not know how to play the guitar .
+User(6): Can I teach you to play a guitar?
+Bot(6): i do , i love to go fishing .
+User(7): I was born in Somalia
+Bot(7): oh wow , that is awesome . i love to travel .
+User(8): It's very beautiful place to visit.
+Bot(8): i love to travel . i love to travel .
+User(9): Nice Nice
+Bot(9): i love to cook . i love to cook .
+User(10): Okay, take care bye
+Bot(10): i do not know how to swim .
+
+Persona:
+i'm partly deaf.
+i am an economics major.
+i help tend the fields.
+i hate school.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: i was born in somalia.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.43
+Robotic(↓): 70
+Interesting: 92
+Fun: 86
+Consistent: 64
+Fluent: 59
+Repetitive(↓): 58
+Topic: 57
+
+####################
+

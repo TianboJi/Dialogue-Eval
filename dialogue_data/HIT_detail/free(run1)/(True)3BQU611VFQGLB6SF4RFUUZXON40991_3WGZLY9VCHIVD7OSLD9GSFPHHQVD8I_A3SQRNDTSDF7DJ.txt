@@ -1,0 +1,279 @@
+Feedback: lovely survey
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): happy do you have dolls ? lets play
+User(2): how are you doing today
+Bot(2): happy do you have dolls ? lets play
+User(3): no...
+Bot(3): happy do you have dolls ? lets play
+User(4): what do you do for living
+Bot(4): i play with my dolls
+User(5): i dont have a doll
+Bot(5): i play with my dolls
+User(6): what is the name of your best meal
+Bot(6): pizza !
+User(7): what are you doing now
+Bot(7): i play with my dolls
+User(8): what is the name of your best actor
+Bot(8): madonna
+User(9): what is your best color
+Bot(9): the color of the shadows
+User(10): what do you do for living
+Bot(10): i play with my dolls
+
+Persona:
+i live with my husband in pennsylvania.
+i like to play with my dolls.
+its red with blue stripe so it shiny when i race.
+i am a 45 year old male.
+now i live in the united states.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.43
+Robotic(↓): 71
+Interesting: 64
+Fun: 64
+Consistent: 59
+Fluent: 50
+Repetitive(↓): 41
+Topic: 42
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi ! i m cooking dinner for my family . feeding 5 kids is tough .
+User(2): that is great
+Bot(2): tell me about yourself
+User(3): i am a teacher
+Bot(3): that is great i teach at a elementary first grade level
+User(4): what is your best color
+Bot(4): the color of the shadows
+User(5): what are you doing now
+Bot(5): i am working on reports
+User(6): what is the name of your best meal
+Bot(6): meal i am always hungry
+User(7): travelling is my hobby..... you
+Bot(7): i love the beach and i have three sons
+User(8): watching football match
+Bot(8): americans call it football ,
+User(9): whats is the of your favorite soccer team
+Bot(9): i am not sure . i play pro soccer
+User(10): thats good
+Bot(10): what is your favorite team
+
+Persona:
+if i am not cooking in the kitchen then i am definitely on the water.
+i have five sons.
+i spent a decade working in the human services field.
+i enjoy american sports.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: soccer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.71
+Robotic(↓): 61
+Interesting: 69
+Fun: 77
+Consistent: 82
+Fluent: 75
+Repetitive(↓): 30
+Topic: 20
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I am you I have i love it.
+User(2): how are you doing today
+Bot(2): i like bagels , they are my do you your favorite you a fan of beer .
+User(3): what is your best color
+Bot(3): i'm from the united states . do you like adventure 3rd year Molecular Biology and .
+User(4): what is the name of your best meal
+Bot(4): Hahn, that is funny. What do are young.. have ever living?
+User(5): what are you doing now
+Bot(5): I am a what its made, the people😁
+User(6): watching football match
+Bot(6): I matter, i m I like hockey
+User(7): whats is the of your favorite soccer team
+Bot(7): I'm of the old
+User(8): what do you do for living
+Bot(8): That is cool. to attend a librarian.
+User(9): what is the name of your best actor
+Bot(9): I am a mother of problem with your family am a full time student.
+User(10): what is the name of your best meal
+Bot(10): which one are have be
+
+Persona:
+i love to drink wine and dance in the moonlight.
+i am deathly afraid of heights.
+i'm married to a doctor.
+i have two grown children who never visit.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.29
+Robotic(↓): 27
+Interesting: 39
+Fun: 21
+Consistent: 18
+Fluent: 13
+Repetitive(↓): 66
+Topic: 21
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes......i have a hobby
+Bot(2): i like to read . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(3): travelling is my hobby
+Bot(3): i like to travel . . . . hiking is my passion
+User(4): how are you doing today
+Bot(4): i am doing well . . . just got home from work
+User(5): what do you do for living
+Bot(5): i work for a company
+User(6): i am a teacher
+Bot(6): i work in a bank
+User(7): what is the name of your best meal
+Bot(7): i love fried chicken and rice
+User(8): what is your best color
+Bot(8): i love the color green
+User(9): what is the name of your best actor
+Bot(9): i love the color green
+User(10): whats is the of your favorite soccer team
+Bot(10): soccer is my favorite sport
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: phone(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.86
+Robotic(↓): 63
+Interesting: 77
+Fun: 86
+Consistent: 88
+Fluent: 73
+Repetitive(↓): 14
+Topic: 21
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): am good..... thanks for asking
+Bot(2): what do you do for a living ?
+User(3): i am a teacher
+Bot(3): i am a teacher , i love to cook .
+User(4): what is the name of your best meal
+Bot(4): i like the color red . i like the color blue .
+User(5): what is your best color
+Bot(5): i like blue , i like blue .
+User(6): how are you doing today
+Bot(6): i'm doing well . how are you ?
+User(7): tell the name of your best actor
+Bot(7): i am a woman . i am a big fan of classical music .
+User(8): watching football match is one of my hobbies
+Bot(8): i like to go fishing .
+User(9): what is the name of your best meal
+Bot(9): i like the color red . i like the color blue .
+User(10): what are you doing now
+Bot(10): i am a student , what do you do ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.57
+Robotic(↓): 58
+Interesting: 42
+Fun: 60
+Consistent: 30
+Fluent: 25
+Repetitive(↓): 27
+Topic: 33
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you doing today
+Bot(2): i am doing good . both my moms just called and told me they loved me
+User(3): good to hear that
+Bot(3): thanks . i met him hitchhiking . closest thing to family i have had in years .
+User(4): what do you do for living
+Bot(4): i just made the baseball team for my college . will be the starting shortstop .
+User(5): do you like soccer
+Bot(5): soccer is a great sport . i like doing my nails . do you ?
+User(6): what is the name of your best actor
+Bot(6): my favorite actor is batman
+User(7): what do you do for living
+Bot(7): i just made the baseball team for my college . will be the starting shortstop .
+User(8): what is your best color
+Bot(8): my favorite color is blue . i like purple as well .
+User(9): what do you do for living
+Bot(9): i just made the baseball team for my college . will be the starting shortstop .
+User(10): travelling is my hobby
+Bot(10): traveling is nice , you get to enjoy many cultures .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: woods(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.14
+Robotic(↓): 59
+Interesting: 69
+Fun: 39
+Consistent: 26
+Fluent: 77
+Repetitive(↓): 22
+Topic: 28
+
+####################
+

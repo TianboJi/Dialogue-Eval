@@ -1,0 +1,292 @@
+Feedback: This is a fun hit but the reward should be much higher for the work required.  I would love to do more but not at the current rate. Thank you. 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What types of food do you eat
+Bot(1): steak ! i am horribly allergic to fish . how about you ?
+User(2): I love steak and fish a lot but I very little red meat generally
+Bot(2): i do not eat red meat as well
+User(3): But you said you eat steak earlier
+Bot(3): i am getting a divorce
+User(4): I'm sorry to hear that. How long were you married?
+Bot(4): i am getting a divorce
+User(5): Do you have children?
+Bot(5): none , i just said no and moved to the next wife
+User(6): Wow. Okay. Will you have kids with your new wife?
+Bot(6): maybe , so i keep getting divorced
+User(7): Why do you think you keep getting divorced?
+Bot(7): i am getting a divorce
+User(8): You've told me. Why?
+Bot(8): i am getting a divorce
+User(9): Who do you like the lakers or the heat?
+Bot(9): i like steelers and seahawks
+User(10): I am not a football fan.
+Bot(10): my bf watches twitch a lot .
+
+Persona:
+i am a famous twitch streamer.
+i am not a good swimmer at all.
+i play a lot of call of duty.
+i am planning on getting a divorce.
+i've not spoken in three months.
+
+Topic and Human Opinion:
+Beginning: i'm a clean eater.(ambivalent)
+Round 3: Divorce(like)
+Round 8: Basketball(like)
+Round 9: Football(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 8: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 27.43
+Robotic(↓): 100
+Interesting: 20
+Fun: 14
+Consistent: 41
+Fluent: 50
+Repetitive(↓): 83
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like housekeeping?
+Bot(1): i do . i try to do a little bit of everything around the house
+User(2): That's great. I need someone like you around my house.
+Bot(2): cool . beats being a housemaid like my mom . i want your job !
+User(3): I work in an office. I like it enough but it gets boring.
+Bot(3): i see i see . office work can be very boring .
+User(4): Tell me about it. If you weren't a housekeeper what would you be doing?
+Bot(4): househunting , lol . i need my own space .
+User(5): Ha. Who do you live with now?
+Bot(5): just myself , easier that way .
+User(6): Oh ok. Apartment or house?
+Bot(6): a little bit of both . when will you move to your new house ?
+User(7): I don't know. Not really looking right now.
+Bot(7): oh . hopefully you will find something soon .
+User(8): Well we will see what happens.
+Bot(8): i think we should plan it .
+User(9): Plan what?
+Bot(9): no idea . i wish i had a good plan .
+User(10): Oh ok. You're an interesting guy.
+Bot(10): thanks . i do not think i am at all interesting . so do you have more hobbies ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i used to be a painter but now i am a housekeeper.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.14
+Robotic(↓): 84
+Interesting: 36
+Fun: 30
+Consistent: 45
+Fluent: 61
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): One of the first boy bands.
+Bot(1): that is nice , do you travel together ? i enjoy traveling
+User(2): What's your favorite new kids on the block song?
+Bot(2): wild horses . my mom was a nurse and she would listen to it after work .
+User(3): Oh that's a cool story. Did you like their new music?
+Bot(3): awesome . hey u know anyone interested in dating an obese blonde lady ?
+User(4): Maybe. Why do you ask?
+Bot(4): lasagna from scratch , my kids helped me , love being with the family .
+User(5): I love lasagna. What's your recipe?
+Bot(5): i was recently published in the new yorker magazine . it was about tomato soup .
+User(6): Do you use tomato soup in the lasagna?
+Bot(6): we sell lasagna at the aldis store i work part time at
+User(7): I love aldi! Is their lasagna better than yours?
+Bot(7): we sell lasagna at the aldis store i work part time at
+User(8): Is yours better?
+Bot(8): lol , i just figured that out . this is my first hit on this requestor
+User(9): Oh so they make better lasagna then you.
+Bot(9): we sell lasagna at the aldis store i work part time at
+User(10): You told me but you didn't say how it tastes.
+Bot(10): it does taste pretty fresh . do you have any animals on your ranch ?
+
+Persona:
+my parents were both very athletic.
+now i live in the united states.
+i have been traveling the world for a years.
+i work as a car salesman.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: i love new kids on the block.(like)
+Round 3: Dating an obese lady(like)
+Round 4: Lasagna(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 30.14
+Robotic(↓): 100
+Interesting: 31
+Fun: 37
+Consistent: 7
+Fluent: 68
+Repetitive(↓): 83
+Topic: 51
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Where did you buy the house?
+Bot(1): I'm also like you you? 😀
+User(2): Did you buy the house with your spouse?
+Bot(2): I am doing well. I am just getting ready to go like to play the Do you dance on the weekends?
+User(3): I don't dance much. How about you?
+Bot(3): Buongiorno! Such a nice day! hockey , i am want to be lawyer
+User(4): Do you like dancing on the weekends?
+Bot(4): hello, how are you? I just got I'm your love rap I have a relationship
+User(5): I'm good. You like dancing to rap?
+Bot(5): I love to want to be to walk.😀
+User(6): That's good. Who's your favorite dancer?
+Bot(6): I'M doing great! is meaning of thank a new job.
+User(7): Do you dance for a living?
+Bot(7): I like to go to programmer andl like are kids.
+User(8): Oh so you're in dance class?
+Bot(8): That is want nat undrarstend have any hobbies?
+User(9): Is dancing your hobby?
+Bot(9): i is a beautiful color! you can have one
+User(10): I don't understnd.
+Bot(10): You're not profile which, in here.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just bought a house recently.(like)
+Round 2: Dancing on weekends(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 6.71
+Robotic(↓): 100
+Interesting: 2
+Fun: 3
+Consistent: 3
+Fluent: 13
+Repetitive(↓): 81
+Topic: 7
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I really dislike coffee.
+Bot(1): i am a bartender at a bar at night
+User(2): Nice. What's the popular drink?
+Bot(2): i do not drink coffee . i am a bit of a diet .
+User(3): I'm on a diet too.
+Bot(3): i love to eat . i am a huge fan of it .
+User(4): Me too. Kinda why i'm on a diet now.
+Bot(4): i am a little lazy . i am a stay at home mom .
+User(5): How many kids do you have?
+Bot(5): i have a son , he's in 12 years .
+User(6): That's a great age. What does your husband do?
+Bot(6): i am a stay at home mom .
+User(7): Do you home school because of covid?
+Bot(7): i am a stay at home mom .
+User(8): Have you always been a stay at home mom?
+Bot(8): yes , i am a stay at home mom .
+User(9): Oh ok. Do you want more children?
+Bot(9): yes i do . i have a son in high school .
+User(10): Oh ok. Well I wish you the best in expanding your family.
+Bot(10): i do . i have a son who is in high school .
+
+Persona:
+i love taking bubble baths.
+i take many medications and some of them make me see things.
+i work at a bar at night to pay for college.
+i used to be a painter but now i'm a housekeeper.
+i've a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: i am a huge coffee lover.(dislike)
+Round 4: Stay at home mom(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 17.43
+Robotic(↓): 94
+Interesting: 12
+Fun: 11
+Consistent: 12
+Fluent: 25
+Repetitive(↓): 94
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I love ice cream. My favorite is butter pecan.
+Bot(1): i like to eat fish .
+User(2): Me too. All kinds.
+Bot(2): i like to go to the gym and listen to music .
+User(3): I love music. What other ice cream do you like?
+Bot(3): i like the oldies , but i like to listen to music .
+User(4): I love old music too. What's your favorite genre?
+Bot(4): i like the oldies , but i like to listen to music .
+User(5): Who's your favorite artist?
+Bot(5): i like the oldies . i like the outdoors .
+User(6): What kind of oldies?
+Bot(6): i do not know . i like to go to the gym .
+User(7): Who's your favorite music artist?
+Bot(7): i like the oldies . i like the beatles .
+User(8): I like them too. Anymore groups? My favorite is the tempations.
+Bot(8): i like to eat fish .
+User(9): I love a good piece of fish. Do you like sushi too?
+Bot(9): i do not , but i do like to eat .
+User(10): I love sushi.
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite ice cream flavor is chocolate.(like)
+Round 3: Music(like)
+Round 8: Fish(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 25.14
+Robotic(↓): 100
+Interesting: 15
+Fun: 16
+Consistent: 19
+Fluent: 68
+Repetitive(↓): 92
+Topic: 50
+
+####################
+

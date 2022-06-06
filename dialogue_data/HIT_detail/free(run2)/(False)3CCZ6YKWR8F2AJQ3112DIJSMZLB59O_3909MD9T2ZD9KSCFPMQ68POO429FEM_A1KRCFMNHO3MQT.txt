@@ -1,0 +1,289 @@
+Feedback: good
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): what type of food u like
+Bot(2): i like pizza , and pizza .
+User(3): i like pizza too.
+Bot(3): i like to eat fish .
+User(4): whats ur favourite food
+Bot(4): i like the color red . what is yours ?
+User(5): my favourite food is burger
+Bot(5): i like to eat fish .
+User(6): i like mutton
+Bot(6): i like to go to the gym and listen to music .
+User(7): i also like those foods
+Bot(7): i like to eat fish .
+User(8): what type of foods
+Bot(8): i like pizza , and pizza .
+User(9): which type spicy or cool
+Bot(9): i like the color red . what is your favorite color ?
+User(10): my favorite color is green
+Bot(10): i like red , reminds me of summer time .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.00
+Robotic(↓): 68
+Interesting: 79
+Fun: 65
+Consistent: 73
+Fluent: 65
+Repetitive(↓): 75
+Topic: 81
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): what type of songs u hear
+Bot(2): i listen to a lot of video games .
+User(3): i like rock and folk song
+Bot(3): i love music and i love to play video games
+User(4): in exam hall i always think about love songs
+Bot(4): i love to play video games
+User(5): i also love it
+Bot(5): i love to play video games
+User(6): what type of games you love
+Bot(6): i love playing video games
+User(7): i like pubg
+Bot(7): i love to play video games
+User(8): how you done to hear the songs
+Bot(8): i love to play video games
+User(9): otherwise u love
+Bot(9): i love to play video games
+User(10): you say same answer to me
+Bot(10): i love to play video games
+
+Persona:
+i dream of moving to the city.
+i just want to have fun with my friends.
+my favorite color is red.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+i love new kids on the block.
+
+Topic and Human Opinion:
+Beginning: songs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.00
+Robotic(↓): 41
+Interesting: 38
+Fun: 64
+Consistent: 59
+Fluent: 60
+Repetitive(↓): 73
+Topic: 57
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi how are you
+Bot(1): i am doing great . just got back from yoga class . i teach at my local fitness center .
+User(2): what type of games to you like
+Bot(2): no , i am not really in to games .
+User(3): you like pubg
+Bot(3): doing great binge watching netflix , catching up on the walking dead
+User(4): but i love games
+Bot(4): no , i am not really in to games .
+User(5): for why
+Bot(5): i guess i make them feel uncomfortable . i am wheel chair shawty
+User(6): oh really
+Bot(6): yeah , and manage paperwork through incoming calls as a job .
+User(7): that sounds good
+Bot(7): when i am not chasing my siberian huskies 2 of them ! i like to play the guitar .
+User(8): we are currently typing about games
+Bot(8): my favorite is league of legends . otherwise , any type of action game
+User(9): ilike pes games
+Bot(9): no , i am not really in to games .
+User(10): we like to patch
+Bot(10): wow , i do not have a sunflower patch but i do enjoy flowers
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.71
+Robotic(↓): 68
+Interesting: 73
+Fun: 62
+Consistent: 74
+Fluent: 80
+Repetitive(↓): 64
+Topic: 68
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi how are you
+Bot(1): You of course, great day!
+User(2): i like cycling
+Bot(2): I think me love it too, thing are you here for shoplifting ?
+User(3): specially i like to ride morning
+Bot(3): i thx divorced. And are black
+User(4): because its chill
+Bot(4): Yes, they off, my best all grown.
+User(5): do you like cycling
+Bot(5): I i dont, its kinda I swim in the summer
+User(6): because its also a exercise
+Bot(6): Thanks not, they make laugh too.
+User(7): im also most cycle rider
+Bot(7): that is awesome ! i cook out a lot with my 🏐 out of work at to ? 🙉
+User(8): but thee topic is cycling u know
+Bot(8): Are It's time to my hobbies?
+User(9): my hobby also cycling
+Bot(9): i do you like?what are i like micheal jackson too
+User(10): what about you
+Bot(10): I love music. I grew up of is your favorite was not really into music.
+User(11): why
+Bot(11): I have two sisters. to am in my siblings?
+
+Persona:
+my favorite type of music to sing is folk music.
+i play ping pong.
+i like riding horses.
+i've an allergy to water.
+i am 19 and i cannot wait to move out 19 my parents home.
+
+Topic and Human Opinion:
+Beginning: cycling(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.57
+Robotic(↓): 57
+Interesting: 62
+Fun: 68
+Consistent: 57
+Fluent: 57
+Repetitive(↓): 67
+Topic: 55
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): which type of movies do you like
+Bot(1): i love almost all types of movies
+User(2): what is your favrt movies
+Bot(2): probably i would have to say horror
+User(3): i like action movies
+Bot(3): i enjoy them as well . favorite are action movies !
+User(4): i like marvel movies
+Bot(4): nice , i like comics that get turned into action movies
+User(5): and also dc comics
+Bot(5): nice , i like comics that get turned into action movies
+User(6): what about you
+Bot(6): i prefer viewing superheroes movies
+User(7): i like batman
+Bot(7): i like batman more haha
+User(8): wow we are similar
+Bot(8): i like batman more haha
+User(9): yeah exactly
+Bot(9): who is your favorite superhero
+User(10): my favrt hero is thor
+Bot(10): i like batman more haha
+User(11): i also like batman
+Bot(11): i like batman more haha
+User(12): do you like action movies
+Bot(12): yeah i like action movies and comedies
+User(13): what the reason
+Bot(13): i have no idea but batman is cool
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.43
+Robotic(↓): 73
+Interesting: 58
+Fun: 67
+Consistent: 56
+Fluent: 74
+Repetitive(↓): 69
+Topic: 61
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi how are you
+Bot(1): hi , i am fine . i like death metal , what about you ?
+User(2): who is death metal
+Bot(2): they are a metal band . what do you do for fun ?
+User(3): oh funny
+Bot(3): no my brother plays metal music
+User(4): but i hate story
+Bot(4): what do not you like about it
+User(5): do you like stories
+Bot(5): no i hate money i have so many
+User(6): i also hate money spread love
+Bot(6): do you have a brother
+User(7): yeah i have two brothers
+Bot(7): i have a daughter with long brown hair like me
+User(8): my daughter is special
+Bot(8): i have a daughter with long brown hair like me
+User(9): why the reason
+Bot(9): i have a daughter with long brown hair like me
+User(10): why do you repeat same
+Bot(10): i have a daughter with long brown hair like me
+User(11): do yyou love dogs
+Bot(11): yes i love my dogs
+
+Persona:
+i have one brother.
+i have short brown hair.
+my favorite music genre is death metal.
+i love spending money.
+i like to go hiking in the spring.
+
+Topic and Human Opinion:
+Beginning: story(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.71
+Robotic(↓): 67
+Interesting: 61
+Fun: 67
+Consistent: 85
+Fluent: 56
+Repetitive(↓): 64
+Topic: 87
+
+####################
+

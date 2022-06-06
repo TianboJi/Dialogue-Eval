@@ -1,0 +1,320 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): I'm good, thank you. How about yourself?
+Bot(2): well i am a reader . i love reading enders game sitting in my garden .
+User(3): What else do you like to read?
+Bot(3): walking dead is cool . . . i like mysteries
+User(4): Do you like the show, too?
+Bot(4): special effects competition . i have to make cookies for the bake sale after .
+User(5): What kind of cookies?
+Bot(5): my favorite things to make are cookies and pasta . i do make them a lot .
+User(6): what kind of pasta?
+Bot(6): no i love some meats and some fish and salads .
+User(7): ok. what do you think about baseball?
+Bot(7): do you belong to a team ?
+User(8): i used to. do you?
+Bot(8): cool do you remember your number ? mine is 42
+User(9): I was number 7. 42 is a good one Jackie Robinson!
+Bot(9): ya of coarse 7 is a lucky number why did you scratch your nose
+User(10): I don't know if i did or not
+Bot(10): huh ? i love vampire movie music with pizza . you ?
+User(11): I'm not sure what that means. I do like pizza, though.
+Bot(11): ha pizza is my favorite food also .
+User(12): ok. nice talking to you. have a good afternoon
+Bot(12): nice talking to you too ! you made me feel better after all ! bye !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: baseball(like)
+Round 2: Reading(ambivalent)
+Round 4: Bake sale?(ambivalent)
+Round 6: baseball(like)
+Round 10: vampire movie music pizza(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 36.71
+Robotic(↓): 100
+Interesting: 50
+Fun: 62
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 5
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. How are you?
+Bot(1): i am okay , craving some chocolate though .
+User(2): What is your favorite type of chocolate?
+Bot(2): chocolate is my favorite , specifically m ms . what is yours ?
+User(3): m&m's are good. I like Snicker's
+Bot(3): candy is great . one of my favorites .
+User(4): what is your favorite kind of candy?
+Bot(4): orange is my favorite , what about you ? do you have a favorite food ?
+User(5): I like hamburgers
+Bot(5): i like them ! i am a fan of up .
+User(6): what's up?
+Bot(6): i am listening to up , i love them !
+User(7): Is that a band?
+Bot(7): yeah ! ! they are my favorite ! i saw them on tour last fall
+User(8): What kind of music do they play?
+Bot(8): mostly rap
+User(9): I like Run the Jewels
+Bot(9): i saw them in concert last summer . they are quite amazing .
+User(10): i saw them at Riot Fest
+Bot(10): that is awesome that you saw them .
+User(11): It was great. I have to get going. Have a nice day.
+Bot(11): hope you have a great day too
+
+Persona:
+my favorite color is orange.
+i am in an open polyamorous relationship.
+my sister is a pole dancer.
+my favorite band is up and i got to see them in concert once.
+i like to eat chocolate candy.
+
+Topic and Human Opinion:
+Beginning: travel(like)
+Round 1: Chocolate(ambivalent)
+Round 7: Up, the band?(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 52.86
+Robotic(↓): 100
+Interesting: 59
+Fun: 60
+Consistent: 81
+Fluent: 81
+Repetitive(↓): 11
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello. How are you?
+Bot(1): i am doing well . just got done walking my dog .
+User(2): What kind of dog do you have?
+Bot(2): i do not have any pets , but i do like to go fishing .
+User(3): What do you think about Donald Trump?
+Bot(3): i do not know . i like to go to the gym .
+User(4): How often do you workout?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): What do you fish for?
+Bot(5): i do not , but i do like to eat .
+User(6): what do you like to eat?
+Bot(6): i like pizza , and pizza .
+User(7): what is your favorite pizza toping?
+Bot(7): i like the color green . what is yours ?
+User(8): pepperoni
+Bot(8): i love to cook . i love to cook .
+User(9): what do you like to cook?
+Bot(9): i love to cook , and eat pizza .
+User(10): what kind of pizza
+Bot(10): i like pizza and pizza .
+User(11): Cool. have a nice day
+Bot(11): i love to go fishing .
+User(12): No, you don't
+Bot(12): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Trump(dislike)
+Round 3: Gym(ambivalent)
+Round 4: Fishing(like)
+Round 5: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 1.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 8
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorite type of Pizza?
+Bot(1): pizza margherita with thin crust . whats yours ?
+User(2): that's a good answer. I like New York style with Pepperoni and onion.
+Bot(2): i am a beef guy , but all pizza is good to me
+User(3): do you like baseball?
+Bot(3): not really . baseball was too much like waiting in line for me .
+User(4): that's fair. what sports do you like?
+Bot(4): besides softball i enjoy reading history .
+User(5): What part of history are you interested in?
+Bot(5): i enjoy all kinds of history .
+User(6): What time period
+Bot(6): i enjoy all kinds of history .
+User(7): what about American History?
+Bot(7): i enjoy all kinds of history .
+User(8): Do you like to travel?
+Bot(8): i do . i would like to go traveling though .
+User(9): where would you like to go?
+Bot(9): anywhere that has good food and museums .
+User(10): Have you been to Amsterdam?
+Bot(10): i have never been actually
+User(11): It's great. amazing food and museums. You should go.
+Bot(11): i would love to go !
+User(12): Well, I have to get going.
+Bot(12): where do you want to go ? do you have a favorite food ?
+
+Persona:
+i am a vegetarian.
+i've been retired for a years.
+i am a museum tour guide.
+i like to talk but people have a hard time understanding.
+i drive a ford pinto.
+
+Topic and Human Opinion:
+Beginning: Pizza(like)
+Round 2: baseball(like)
+Round 4: History(like)
+Round 7: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 33.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 11
+Consistent: 90
+Fluent: 78
+Repetitive(↓): 100
+Topic: 58
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like dogs?
+Bot(1): those mountains go through my parents very right?
+User(2): Which mountains?
+Bot(2): I am not sure. I am a boy grow? How old are boy.
+User(3): What?
+Bot(3): I am from farmer, I am about you?
+User(4): I am a bartender.
+Bot(4): I at burger king, How about you?
+User(5): I at Wendy's
+Bot(5): yeah i thought and what about else
+User(6): do you like dogs?
+Bot(6): i am a very experienced , but I didn't graduated from it .
+User(7): where did you go?
+Bot(7): it is when you don t am not great. Just other languages
+User(8): what languages?
+Bot(8): have live with your to a painter?
+User(9): no, you?
+Bot(9): I teach kindergarten, you're working in a the elementary school.
+User(10): My mom was a teacher
+Bot(10): hello , i your is your to use i am a woman , and you ?
+User(11): ok. bye
+Bot(11): I is it like a few months ago.
+
+Persona:
+when i grow up i want to be a dog.
+i used to be a painter but now i am a housekeeper.
+i've three sisters.
+i'm a stunt double as my second job.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 1: Mountains(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like dogs?
+Bot(1): i do not have any pets . i have a dog and a dog .
+User(2): what kind of dogs?
+Bot(2): i have a dog and a dog .
+User(3): what are their names
+Bot(3): i have a dog and a dog .
+User(4): what about a cat
+Bot(4): i have a dog and a dog .
+User(5): what kind of banana?
+Bot(5): i have a dog named radar
+User(6): I have a dog named Ryno
+Bot(6): i have a dog named radar
+User(7): Do you have any pets?
+Bot(7): i have a dog and a dog
+User(8): 2 dogs?
+Bot(8): i have a dog and a dog
+User(9): Radar?
+Bot(9): i have a dog and a dog
+User(10): what about a fish?
+Bot(10): i have a dog and a dog
+
+Persona:
+my father was a door to door salesman.
+i have a broken arm.
+i own a cat and a dog.
+horror movies are my favorites.
+i haven't spoken in three months.
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 15
+Fluent: 21
+Repetitive(↓): 100
+Topic: 50
+
+####################
+

@@ -1,0 +1,289 @@
+Feedback: no clue what end result you are looking for but I guess its helpful to someone 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): so the democrats want to increase gun control
+Bot(1): i am sorry to hear that . i am a bit of a loner .
+User(2): but you must have an opinion one way of the other ?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): well thats a quick turn of topics,, but I can identify with that as well
+Bot(3): i like to eat too much junk food .
+User(4): you can control that. just quit buying it and you can eat better
+Bot(4): i like to eat the skin .
+User(5): the skin ? as in , the skin on a chicken ?
+Bot(5): i love the color red . i like the color blue .
+User(6): i like green
+Bot(6): i like the color red . i like red .
+User(7): yes red is nice,, its nice for a car but your insurance may go up
+Bot(7): i love it . i love it .
+User(8): are you for real ? you are making no sense
+Bot(8): i am not . i am a student .
+User(9): i am not a student either. I graduated over 30 years ago
+Bot(9): i am sorry to hear that . i am sorry to hear that .
+User(10): don't be sorry; its a good thing
+Bot(10): i like to go to the gym and listen to music .
+User(11): i do that as well . i plug in my head phones and listen to opera music
+Bot(11): i like to listen to music .
+User(12): yes I do too; do you like opera ?
+Bot(12): i do , i like to listen to music .
+User(13): who is you r favorite singer ?
+Bot(13): i like the color red . what is yours ?
+User(14): that makes no sense. I am bored with this
+Bot(14): i am a student , but i am a student .
+User(15): I need to go ; this was a big waste of my time
+Bot(15): i am a student , but i am a student .
+User(16): yes you said that
+Bot(16): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: gun control(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 3
+Consistent: 0
+Fluent: 57
+Repetitive(↓): 100
+Topic: 1
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you ,like opera
+Bot(1): we went to the opera is paris , france ! i got engaged there
+User(2): oh thats exciting ! what did you see ?
+Bot(2): i am still undecided , but i am working part time at the library on campus . and you ?
+User(3): I deliver mail for the post office
+Bot(3): i am very wealthy . i live on a private island and go diving alot
+User(4): i could come visit you if permitted
+Bot(4): are you really in new york ? we went to cooperstown this summer .
+User(5): new york ? i think Cooperstown is in Ohio
+Bot(5): i live in austin in the great state of texas .
+User(6): i have a very dear friend that lives there
+Bot(6): i am a human not a dear but i a doe you !
+User(7): I can tell you are not good at spelling
+Bot(7): that is impressive ! did you grow up in chicago or somewhere else ?
+User(8): I grew up in Pennsylvania
+Bot(8): i work in a busy hospital as a nurse and love paddle boarding on days off .
+User(9): I enjoy water sports ! you should try skiing sometime
+Bot(9): that is cool . i grow cucumbers when i am not on tour . love gardening .
+User(10): yes, I grew a garden this summer too ; lots of tomatoes
+Bot(10): yes i love to garden i grow all my own fruits and veggies
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: opera music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.86
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 4
+Fluent: 43
+Repetitive(↓): 93
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you like to garden
+Bot(1): i do . i like to garden and ride horses .
+User(2): what do you like to grow in your garden
+Bot(2): i do , i grow vegetables and vegetables
+User(3): thats great; what are your favorite vegetables
+Bot(3): i like to grow vegetables and vegetables
+User(4): yes me too; do you eat them
+Bot(4): i do not like veggies
+User(5): so you grow them and give them away ?
+Bot(5): yes i do i love to grow them
+User(6): how big is your garden
+Bot(6): i grow vegetables and vegetables
+User(7): do you use fertilizer ?
+Bot(7): i do not but i do love to grow vegetables
+User(8): what about a tractor ? or other equipment ?
+Bot(8): i do not have a lot of time to do that
+User(9): what else keeps you busy
+Bot(9): i do not have a lot of time to do that .
+User(10): yes I am busy as well
+Bot(10): what do you do for a living
+User(11): deliver mail for the postal service
+Bot(11): that is very cool i am a little nervous
+
+Persona:
+my favorite type of music to sing is folk music.
+i play ping pong.
+i like riding horses.
+i've an allergy to water.
+i am 19 and i cannot wait to move out 19 my parents home.
+
+Topic and Human Opinion:
+Beginning: gardens(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.14
+Robotic(↓): 19
+Interesting: 0
+Fun: 0
+Consistent: 16
+Fluent: 58
+Repetitive(↓): 72
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like to ride
+Bot(1): What else your like enjoy?
+User(2): you are not real , and i am bored
+Bot(2): He does. He about brother likes dad.😉
+User(3): what the heck are you talking about
+Bot(3): you family and I recommend it
+User(4): yes the love of family
+Bot(4): that's awesome i came it's dark is your was very young 🤠
+User(5): who are you talking about ?
+Bot(5): Ttyl,. already how are you too
+User(6): i am so confused
+Bot(6): I like can i call and read.
+User(7): i think you are confused as well
+Bot(7): No, am not.
+User(8): so do you like horses ?
+Bot(8): what kind like alcohol. I like enjoy? i like the classics.
+User(9): gin and tonic is delicious
+Bot(9): fun I you live in a the dog for long walks great exercise how old are you ?
+User(10): i am retired , over 50 years old
+Bot(10): that would great man.i love watching football tomorrow?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: horses(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 15
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): alcohol consumption is cool
+Bot(1): yes
+User(2): what is your favorite
+Bot(2): same
+User(3): same as what ? gin ?
+Bot(3): alcohol mostly , sometimes i add ice
+User(4): yes and a mixer of course
+Bot(4): gotcha
+User(5): hot or cold drinks
+Bot(5): gotcha
+User(6): how about beer
+Bot(6): i prefer drinks with a bit more kick
+User(7): whiskey vs whisky
+Bot(7): i drink both on occasion
+User(8): tequila wilt kill ya
+Bot(8): with some wine , yes it would
+User(9): red or white . chicken or fish
+Bot(9): i like salmon and red snapper
+User(10): gross, i hate it
+Bot(10): you . . need whiskey . or something
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: alcohol(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.14
+Robotic(↓): 99
+Interesting: 0
+Fun: 0
+Consistent: 3
+Fluent: 57
+Repetitive(↓): 20
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like fish
+Bot(1): i have no idea what those are . but i like watching my pet beta fish .
+User(2): red snapper or salmon
+Bot(2): fish ! catfish is my favorite
+User(3): how do you like it cooked
+Bot(3): i like a tender steak but most of the time i eat chicken
+User(4): with some rice and white wine
+Bot(4): do you cook a lot of fish
+User(5): i don't as its not a favorite
+Bot(5): i usually cook the fish i catch
+User(6): oh I like to fish in the lake
+Bot(6): i stay on the water on the weekends
+User(7): what do you use for bait
+Bot(7): i use long sticks to poke to eyes out of fish to make fehs
+User(8): do you have a boat or a skiff
+Bot(8): for any type of fish but not whale of course
+User(9): whale ? thats absurd
+Bot(9): for any type of fish but not whale of course
+User(10): you are confused
+Bot(10): its ok to be lame if you do not understand
+
+Persona:
+i'm currently in a juvenile detention center.
+they're constantly on my back.
+i love rollercoasters and sky diving.
+i'm a famous twitch streamer.
+i'm a musician.
+
+Topic and Human Opinion:
+Beginning: fish or seafood(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 5.43
+Robotic(↓): 94
+Interesting: 0
+Fun: 0
+Consistent: 12
+Fluent: 18
+Repetitive(↓): 100
+Topic: 2
+
+####################
+

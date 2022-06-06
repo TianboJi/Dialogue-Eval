@@ -1,0 +1,318 @@
+Feedback: I wish there was a button to allow me to see the directions again. I spent time thoroughly reading them but was unsure at some moments if I was performing the task correctly.  So overall I just tired my best. 
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hi ! i am a little tired from my kids .
+User(2): Why are you tired of your kids?
+Bot(2): i am a little lonely , but i have two children and a dog .
+User(3): Do you have a partner?
+Bot(3): i am a little bit of a dog person
+User(4): Why do you like dogs?
+Bot(4): i have two children and a dog
+User(5): What ages are your children?
+Bot(5): i have two children and a dog
+User(6): I know you have two children and a dog. I helped design the game starcraft.
+Bot(6): i have two kids and a dog
+User(7): I have a dog
+Bot(7): i have two children and a dog .
+User(8): You don't seem to be very good at conversation.
+Bot(8): i do not have any kids . i have two children and a dog .
+User(9): You told me you had two kids
+Bot(9): i do not . i have two children and a dog .
+User(10): children are the same as kids
+Bot(10): i do not . i have two kids and a dog .
+User(11): how many pets do you have?
+Bot(11): i have two and they are very busy
+User(12): Do you have any cats?
+Bot(12): no i do not . i have two kids and a dog .
+
+Persona:
+i have two grown children who never visit.
+i like riding horses.
+my favourite artist is travis scott.
+i have a children and a dogs.
+my favorite band is the insane clown posse.
+
+Topic and Human Opinion:
+Beginning: i helped design the game starcraft.(dislike)
+Round 6: Pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 18.86
+Robotic(↓): 100
+Interesting: 7
+Fun: 7
+Consistent: 100
+Fluent: 8
+Repetitive(↓): 100
+Topic: 10
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I've amazing children and grandchildren
+Bot(1): i guess i got lots of free time compared to you . i do not have kids .
+User(2): Do you want kids one day?
+Bot(2): yes i do i love kids
+User(3): How many do you want?
+Bot(3): i would like four maybe , two of each .
+User(4): Some people say girls are harder than boys. Do you agree?
+Bot(4): no i think girls are a little more harder to deal with
+User(5): What about girls makes them hard to deal with?
+Bot(5): no i think girls are a little more harder to deal with
+User(6): What would you name your kids?
+Bot(6): what kind of nicknames do usually get to the people
+User(7): My daughter's name is Faith
+Bot(7): sound like biblical names . great ! do they go to the same school ?
+User(8): She's not in school yet. She's only one.
+Bot(8): how old is your child ? i teach at a very big school so they might go there
+User(9): She's only 1
+Bot(9): one of them is a bonus kid .
+User(10): That's not what I said.
+Bot(10): you said that already
+
+Persona:
+eating is something i do when i am bored.
+my father drove a car for nascar.
+i love to play board games.
+i can drive a tractor.
+i'm a retired gym teacher.
+
+Topic and Human Opinion:
+Beginning: i've amazing children and grandchildren.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.86
+Robotic(↓): 89
+Interesting: 50
+Fun: 18
+Consistent: 89
+Fluent: 50
+Repetitive(↓): 6
+Topic: 16
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I'm married
+Bot(1): i am a full time student but i too i don't know summer months for
+User(2): I'm married
+Bot(2): That is like i ask do am going to go take a nap.
+User(3): You don't seem to understand what I'm typing.
+Bot(3): This is your favorite ice have to read the article.
+User(4): Your sentences aren't making sense.
+Bot(4): I am sorry to you teach me about a retired gym teacher?
+User(5): Do you care that I'm married?
+Bot(5): I'Ve like charity,prayer, civic
+User(6): That is not a complete sentence.
+Bot(6): I have that's the reason have any pets?
+User(7): I have a dog.
+Bot(7): I am their are very beautiful layer i love animals.
+User(8): What kind of animals do you like?
+Bot(8): did you have like you like somalia
+User(9): Somalia is a country
+Bot(9): i was. of meat hey 14.
+User(10): What you're typing doesn't make sense.
+Bot(10): i you like I the fields
+
+Persona:
+i like meditation.
+my favorite band is aerosmith.
+i work at a bank.
+i hate my job.
+i've two dogs.
+
+Topic and Human Opinion:
+Beginning: i'm married.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): My favorite food is shawarma
+Bot(1): i like to eat fish .
+User(2): I used to like fish, but I don't eat it anymore.
+Bot(2): i like to eat fish .
+User(3): What kind of fish?
+Bot(3): i do not know . i like to eat .
+User(4): Do you like anything besides fish?
+Bot(4): i do , i love to eat .
+User(5): Do you like pizza?
+Bot(5): i do , i love it .
+User(6): What kind of toppings do you like?
+Bot(6): i love pizza , and i love it .
+User(7): What do you eat on a pizza?
+Bot(7): i do not , but i do like to eat .
+User(8): Do you like donuts?
+Bot(8): i do not , i like to go out to eat with my family .
+User(9): How many people are in your family?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): I like classical music.
+Bot(10): i like to listen to music .
+User(11): Who is your favorite classical musician?
+Bot(11): i like the oldies , and i love to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favourite food is shawarma.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 93
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am a christian
+Bot(1): hi ! i m cooking dinner for my family . feeding 5 kids is tough .
+User(2): Are you a Christian?
+Bot(2): christian my fathers a reacher
+User(3): Do you mean preacher?
+Bot(3): i am not sure , you could say both
+User(4): What are you cooking for dinner?
+Bot(4): you would have to watch my five children while i cook .
+User(5): What are you making?
+Bot(5): you would have to watch my five children while i cook .
+User(6): I like to cook.
+Bot(6): you would have to watch my five children while i cook .
+User(7): I don't want to watch your kids
+Bot(7): you would have to watch my five children while i cook .
+User(8): Can we talk about something else?
+Bot(8): you would have to watch my five children while i cook .
+User(9): I am a Christian
+Bot(9): you would have to watch my five children while i cook .
+User(10): Can I cook for you?
+Bot(10): of course i can
+
+Persona:
+if i am not cooking in the kitchen then i am definitely on the water.
+i have five sons.
+i spent a decade working in the human services field.
+i enjoy american sports.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: i am a christian.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I like to eat hamburgers and french fries
+Bot(1): i am good how are you i like french fries but i love chicken nuggets
+User(2): Sometimes french fries upset my stomach because of the grease.
+Bot(2): i like tacos french fries and chicken nuggets
+User(3): I like tacos too
+Bot(3): yes , i love eating yummy tacos . . . yum
+User(4): I also like nachos
+Bot(4): that sounds great ! my husband loves nachos too but do not like him .
+User(5): Why don't you like your husband?
+Bot(5): baking and touring around the city
+User(6): I like my wife but she doesn't like tacos
+Bot(6): yes , i love eating yummy tacos . . . yum
+User(7): What kind of salsa do you eat with your tacos
+Bot(7): i love enchiladas the most . i knew a mexican lady that made some awesome enchiladas
+User(8): Will you make me some enchiladas
+Bot(8): really ? john and wayne are my hunting dogs names . you hunt ?
+User(9): I do not hunt.
+Bot(9): you got to hunt to eat that fancy food will kill you
+User(10): I'm vegan and don't kill animals for food.
+Bot(10): when it comes to killing with vegans it is people before animals
+User(11): I agree.
+Bot(11): i am a researcher i am researching the fact that mermaids are real
+User(12): What evidence do you have that they are real?
+Bot(12): haha ! they might be . whats your biggest dream ?
+User(13): To own rental properties.
+Bot(13): i have never been surfing but used to do alot of traveling across the us playing guitar
+User(14): acoustic or electric?
+Bot(14): i have looked into hybrids before . are you active on social media ?
+User(15): I have social media accounts but I don't look at them all the time.
+Bot(15): hmmm . my past when i worked for the discovery channel haunts me .
+User(16): What was so bad about the disovery channel?
+Bot(16): i watch pandas on youtube too ! i love to drink coffee with cream while i watch .
+User(17): I don't like coffee
+Bot(17): i prefer tea , but do love coffee when i decide to drink it .
+User(18): I just bought some tea yesterday.
+Bot(18): haha ! so what do you do besides drink tea ?
+User(19): juice. I really like juice.
+Bot(19): juice is pretty good . what kind do you drink ?
+User(20): I like strawberry apple.
+Bot(20): yeah apples equal summer my favorite season !
+User(21): Summer can be hot in the South
+Bot(21): i like the summer too since that is when we play the most bingo .
+User(22): Bingo can be expensive
+Bot(22): i am a bit too health oriented to drink wine but very cool !
+
+Persona:
+i love to drink fancy tea.
+i turned 18 years old yesterday.
+the county wide bake sale is where i feel most at home.
+my dream car is a rolls royce ghost.
+i've visited spain a times.
+
+Topic and Human Opinion:
+Beginning: i like to eat hamburgers and french fries.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.43
+Robotic(↓): 50
+Interesting: 100
+Fun: 100
+Consistent: 22
+Fluent: 36
+Repetitive(↓): 0
+Topic: 50
+
+####################
+

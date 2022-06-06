@@ -1,0 +1,293 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there! What's your name?
+Bot(1): hi names randy and i live in wisconsin , i played the lottery and won 40m .
+User(2): Wow, that's a lot of money. What do you plan to do with all of it?
+Bot(2): do you have any pets ? it cab be hard finding pet friendly homes . we have 4 dogs ! !
+User(3): Yes, I have 4 pets! I agree. It is hard to find pet friendly housing. What breed are your dogs?
+Bot(3): it is a golden retriever puppy ! my last dog died when i was 18 .
+User(4): I'm so sorry to hear that. I'm afraid we will have to put down my dog soon. She is very old.
+Bot(4): she is a pit bull . she loves sushi just like me lol
+User(5): I have a pit bull too! I don't care for sushi though, so she's never tried it lol.
+Bot(5): he is my second pitbull . i have had one in the last 11 years .
+User(6): Wow, so she's 11 years old, then?
+Bot(6): i am a graphic designer and i am inspired by landscape painting
+User(7): Wow, that's so interesting! I'm a student, but I hope to practice psychology in the future.
+Bot(7): right on good buddy , that is a ten niner for my ten 20 . . . you have a good day
+User(8): You too! It was so nice to meet you, Randy :)
+Bot(8): hello , nice to meet you too .
+User(9): Nice to meet you too.
+Bot(9): nice to meet you , too . how are you ?
+User(10): I am well, how are you?
+Bot(10): i am great and how about you ?
+User(11): Good! I just got out of class. Do you have to work today?
+Bot(11): what do you study ? i studied law at law school , but baking is really my thing
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 6: Career(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 38.14
+Robotic(↓): 79
+Interesting: 64
+Fun: 50
+Consistent: 22
+Fluent: 39
+Repetitive(↓): 56
+Topic: 27
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi! Do you have any tattoos? I have three.
+Bot(1): hello , i have 10 tattoos . do you have any ?
+User(2): Wow, that's a lot! Yes, I have three myself. Do you have a favorite tattoo?
+Bot(2): i am always down for a new tattoo . so you like cats ?
+User(3): I do like cats. Do you?
+Bot(3): i love all animals , especially my 4 cats . i do not eat meat because of that .
+User(4): I have two cats! What color are your cats?
+Bot(4): red . i am trying to get laws changed to keep them from slaughter for food .
+User(5): Isn't slaughtering cats illegal already?
+Bot(5): because no regular human eats a live chicken with all the feathers on it
+User(6): I agree. That would be very strange. What do you do for work?
+Bot(6): currently , i work at mcdonald . i am only eighteen .
+User(7): Really? That's an odd career choice for someone who doesn't eat meat. Although I'm not sure their meat is real anyways!
+Bot(7): because no regular human eats a live chicken with all the feathers on it
+User(8): Okay... what do you eat then?
+Bot(8): i consume unfertilised chicken embryos and smoked pig meat for the morning meal
+User(9): I thought you were a vegetarian, no?
+Bot(9): i am , but you do not have to be a complete vegetarian .
+User(10): I don't think it works like that. Either you eat meat, or you don't. So which is it?
+Bot(10): because no regular human eats a live chicken with all the feathers on it
+User(11): I eat live chickens with the feathers on it
+Bot(11): wow , i have never heard of chickens at the zoo .
+
+Persona:
+i've been working since i was sixteen years old.
+i don't like chicken.
+i turned 18 years old yesterday.
+i am an animal activist.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: Tattoos(like)
+Round 3: Cats(like)
+Round 6: Work(like)
+Round 9: Eating habits(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user changed the topic the last input.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 32.71
+Robotic(↓): 90
+Interesting: 50
+Fun: 50
+Consistent: 22
+Fluent: 43
+Repetitive(↓): 75
+Topic: 29
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi. Are you single?
+Bot(1): I probably you don't for my family
+User(2): So you have a family?
+Bot(2): I like Leo I that’s fascinating! to play with the steelers
+User(3): Are you dating anyone?
+Bot(3): I am sorry put a space between family doesn't understand me.
+User(4): Are you feeling okay?
+Bot(4): okk is I love them! love it.
+User(5): I think you should see a doctor.
+Bot(5): How to tell you stick?
+User(6): How many fingers am I holding up?
+Bot(6): that is cool , i am in college , i my going to Do you you ?
+User(7): I think you're drunk. I'm calling an ambulance.
+Bot(7): that love running and love pizza
+User(8): Would you like me to get you something to eat?
+Bot(8): going red, yellow and i completed college 🎓
+User(9): Wow... you must be very smart.
+Bot(9): i am in Haribo Are you an you do?
+User(10): Gummy bears?
+Bot(10): What dream religion?
+
+Persona:
+i have been working since i was sixteen years old.
+i like to work on vintage cars.
+i like to workout a a times a week.
+i am a musician and hope to make it big some day.
+i'm a stay at home dad.
+
+Topic and Human Opinion:
+Beginning: Love life(like)
+Round 7: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 12.00
+Robotic(↓): 100
+Interesting: 4
+Fun: 4
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 24
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Are you a virgin?
+Bot(1): oh yes i think i am .
+User(2): Well, have you ever had sex?
+Bot(2): sometimes
+User(3): Then you're not a virgin. How many partners have you had?
+Bot(3): i guess its tough to keep count at some point . lol
+User(4): Wow! I sure hope you're using protection, at least!
+Bot(4): i do not always use protection either . . . bad life choices .
+User(5): Yeah, that's not smart. You could get pregnant, or get an STD!
+Bot(5): i do not always use protection either . . . bad life choices .
+User(6): Maybe you should get tested.
+Bot(6): oh that is true ! no , do not do that !
+User(7): Don't you want to know if you have a disease?
+Bot(7): well of course ! you would need that !
+User(8): When is the last time you had sex?
+Bot(8): 6 years ago , i won the lottery and nobody knows .
+User(9): You mean you got pregnant?
+Bot(9): yes , as uncommon as it can be did .
+User(10): What happened to the baby? Did you keep it?
+Bot(10): how much of it is left ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sex(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 73.29
+Robotic(↓): 58
+Interesting: 85
+Fun: 85
+Consistent: 70
+Fluent: 64
+Repetitive(↓): 15
+Topic: 82
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Did you vote in the election?
+Bot(1): no , i am a big fan of the air .
+User(2): Did you vote for Trump or Biden?
+Bot(2): i am a big fan of the air .
+User(3): Do you like hot or cold air?
+Bot(3): i do not know , i am a huge fan of hot wings
+User(4): I like wings, but I prefer they not be too spicy.
+Bot(4): i love spicy foods . i like to eat too much spicy foods .
+User(5): Spicy foods give me gas!
+Bot(5): i am a huge fan of spicy foods .
+User(6): I can tell. Do you like jalepenos?
+Bot(6): i do . i like to go to the park and eat spicy foods .
+User(7): What about hot cheetos?
+Bot(7): i love spicy cheetos !
+User(8): I figured. What is your favorite spicy food?
+Bot(8): i like spicy foods . i like spicy foods .
+User(9): Tacos?
+Bot(9): i like spicy foods . i like spicy foods .
+User(10): Do you like spicy tacos?
+Bot(10): i love spicy foods . i like spicy foods .
+
+Persona:
+i'm a swim coach at my local pool.
+i think i'll retire in a few years.
+i'm a museum tour guide.
+i am a blonde girl with really short hair.
+my grandfather served in world war a.
+
+Topic and Human Opinion:
+Beginning: Politics(ambivalent)
+Round 3: Hot wings(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 25.57
+Robotic(↓): 78
+Interesting: 42
+Fun: 34
+Consistent: 18
+Fluent: 36
+Repetitive(↓): 86
+Topic: 13
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I have to poop so bad!
+Bot(1): i am a bit of a loner
+User(2): Do you know where the bathroom is?
+Bot(2): no , i do not know . i am a big fan of classical music .
+User(3): I prefer rap. Could you help me find the bathroom, please?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): I am going to shit myself, sir.
+Bot(4): i am a nurse , i am a teacher .
+User(5): Okay... if you're a nurse then you should understand that I NEED to poop!
+Bot(5): i do not know what to say .
+User(6): Help me find a bathroom!
+Bot(6): i like to go to the beach and listen to music .
+User(7): Can I borrow you pants? I just soiled mine.
+Bot(7): i do not know how to make it . i am a big fan of classical music .
+User(8): Do you have any toilet paper?
+Bot(8): no , i do not . i am a student .
+User(9): Where do you attend school?
+Bot(9): no , i am a student . i love to cook .
+User(10): What do you like to make?
+Bot(10): i love to cook . i am a chef .
+User(11): Can you make me something to settle my stomach? Some soup?
+Bot(11): i do not know . i am a big fan of classical music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Bathroom(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.43
+Robotic(↓): 94
+Interesting: 9
+Fun: 5
+Consistent: 11
+Fluent: 45
+Repetitive(↓): 83
+Topic: 8
+
+####################
+

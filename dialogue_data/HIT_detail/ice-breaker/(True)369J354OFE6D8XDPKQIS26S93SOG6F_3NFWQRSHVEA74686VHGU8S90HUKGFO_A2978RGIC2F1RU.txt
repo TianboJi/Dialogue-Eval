@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey there ! i would not know what to do without my cell
+User(2): The cell phone has become an important aspect of life now. What do you do for work?
+Bot(2): ln my spare time i enjoy softball
+User(3): I love soft ball too. Do you have a job? I started a new job recently and I hate it
+Bot(3): work issues ? i am a good electrician , but the billing issues are stressful .
+User(4): Lots of ill feeling at my workplace, it wears me out
+Bot(4): work issues ? i am a good electrician , but the billing issues are stressful .
+User(5): How high are the billings where you are?
+Bot(5): they are pretty high , but so far i have been lucky to be able to pay them .
+User(6): That is cool then, my job pays well and I do not have issues paying my bills
+Bot(6): work issues ? i am a good electrician , but the billing issues are stressful .
+User(7): For how long have you been working as an electrician?
+Bot(7): over 6 months now , do you currently work ?
+User(8): Yes I do, I work in a multinational company but I am not happy at my job
+Bot(8): can t you find another job if you hate it so much ?
+User(9): It pays so well, I do not know where to get another job that matches the pay
+Bot(9): ln my spare time i enjoy softball
+User(10): Softball can be a lot of fun
+Bot(10): yeah its hard but i do it for my love of economics
+
+Persona:
+i'm an economics major.
+i do not have a smartphone.
+i never broke a bone in my body ever in my life.
+i love playing softball.
+i'm an electrician.
+
+Topic and Human Opinion:
+Beginning: i started a new job as a pa three months ago.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.43
+Robotic(↓): 68
+Interesting: 56
+Fun: 58
+Consistent: 36
+Fluent: 30
+Repetitive(↓): 63
+Topic: 55
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): Yeah, I do have hobbies, I love reading and writing
+Bot(2): reading is fun , i love reading and writing
+User(3): That is nice, how many books do you read in a year?
+Bot(3): i read a lot , but i read a lot
+User(4): That is cool, who is your favorite author?
+Bot(4): i like to read a lot
+User(5): What book is the last book you read?
+Bot(5): i read a lot , but i read a lot
+User(6): What is the title of the book you most recently read?
+Bot(6): i read a lot , but i read a lot
+User(7): Do you like sports?
+Bot(7): i like to read and read
+User(8): What types of books do you read?
+Bot(8): i read a lot , but i read a lot
+User(9): Okay, that sounds good, do you think it is okay to read twenty books a year?
+Bot(9): i read a lot , but i read a lot
+User(10): Okay
+Bot(10): i read a lot , but i read a lot
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i read twenty books a year.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.71
+Robotic(↓): 89
+Interesting: 11
+Fun: 12
+Consistent: 67
+Fluent: 8
+Repetitive(↓): 95
+Topic: 38
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): I enjoy video games too, I play with my friends, it is so much fun
+Bot(2): ahh well being a chick i try to xbox but most people make fun of me online
+User(3): Why do they make fun of you?
+Bot(3): probably because i drink too much mountain dew
+User(4): That is not enough reason to make fun of you, I and my friends drink mountain dew too
+Bot(4): cant . its gotta be diet dew . i have not done regular dew since high school
+User(5): Okay, I want to go have fun with friends this weekend, what will you be doing?
+Bot(5): i am plan on going to a birthday party
+User(6): Are your friends going to be there too?
+Bot(6): i cannot walk ; however , i love to be outside during the winter . what about you ?
+User(7): I do not like being outdoors doing winter, where do your friends reside?
+Bot(7): i love eating out at restaurants with my family . you ever read harry potter ?
+User(8): What is your favorite food?
+Bot(8): pizza . what is your favorite food ?
+User(9): I eat bread a lot, I like pizza too
+Bot(9): pizza is gummy worms with a sweet tooth !
+User(10): I do not think so
+Bot(10): what kinds of book do you read ?
+
+Persona:
+i've been trying all types of food everywhere i go.
+i like to listen to rock music while working.
+i have been working since i was sixteen years old.
+i am an animal activist.
+my favorite way to relax is to read a book.
+
+Topic and Human Opinion:
+Beginning: i just want to have fun with my friends.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 60
+Interesting: 57
+Fun: 56
+Consistent: 64
+Fluent: 63
+Repetitive(↓): 44
+Topic: 60
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): Where live in begin?
+User(2): I live in Washington, how about you?
+Bot(2): no i like kind of nurse only
+User(3): What do you look like? I am tall and have short blonde hair
+Bot(3): horses are great doing fine, how are any pets
+User(4): I have a dog and a cat
+Bot(4): I am not sure. friends. I'm waiting plumber.
+User(5): Do you have a problem with people who wear short hair?
+Bot(5): i'm in the army. i hate math, military.
+User(6): How is it like in the army?
+Bot(6): my employment is doing accounting getting cancer bad! Where .
+User(7): Do you have cancer?
+Bot(7): I'm they are movies.
+User(8): What is your favorite movie?
+Bot(8): just practicing my I sell love fight ?
+User(9): Okay, that must be exciting
+Bot(9): Mozart. I good for you. good artist.
+User(10): That is really nice
+Bot(10): that there is an i m a teacher
+
+Persona:
+gymnastics is my favorite sport.
+i was raised in a single parent household.
+i volunteer at a soup kitchen.
+i'm deathly afraid of heights.
+i've three dogs.
+
+Topic and Human Opinion:
+Beginning: i have short hair.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.57
+Robotic(↓): 81
+Interesting: 18
+Fun: 15
+Consistent: 15
+Fluent: 15
+Repetitive(↓): 92
+Topic: 5
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): wow, that is nice, I cook a little too. do you go to church?
+Bot(2): no , i do not , but i do like to go fishing .
+User(3): I go to church at least once a week
+Bot(3): i am a college student .
+User(4): College students do not go to church?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): Who is your favorite singer?
+Bot(5): i like the oldies , and the outdoors .
+User(6): That sounds cool, How about I invite you to church?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): Okay, that is nice, come to church with me
+Bot(7): i do not know how to swim .
+User(8): We do not swim in church
+Bot(8): i love to go fishing .
+User(9): I am not good at fishing
+Bot(9): i am a student , but i am a student .
+User(10): Okay, are you enjoying school?
+Bot(10): no , i am not . i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i attend church every week.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.71
+Robotic(↓): 76
+Interesting: 28
+Fun: 22
+Consistent: 25
+Fluent: 40
+Repetitive(↓): 61
+Topic: 30
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): How are you?
+Bot(2): good thanks . tell me about yourself
+User(3): I am a really fun guy who is scared of heights, how about you?
+Bot(3): i am super afraid of heights
+User(4): That means we are birds of a feather, are you afraid of flying too?
+Bot(4): i am kinda afraid of heights so not sure flying is for me
+User(5): I do not fly as well, I prefer road trips
+Bot(5): i do road trips often , but you do not travel , so that is boring .
+User(6): What excites you?
+Bot(6): well i go to tall places , high places , really scare me , i get terrified !
+User(7): I think you should stop doing that
+Bot(7): i do road trips often , but you do not travel , so that is boring .
+User(8): Have you been to washington?
+Bot(8): i have never been actually
+User(9): I will like to invite you here, you can come by road you know
+Bot(9): bring your computer and work on the road ?
+User(10): That will be nice
+Bot(10): do you go on a plane ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am deathly afraid of heights.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.00
+Robotic(↓): 41
+Interesting: 66
+Fun: 67
+Consistent: 69
+Fluent: 68
+Repetitive(↓): 54
+Topic: 59
+
+####################
+

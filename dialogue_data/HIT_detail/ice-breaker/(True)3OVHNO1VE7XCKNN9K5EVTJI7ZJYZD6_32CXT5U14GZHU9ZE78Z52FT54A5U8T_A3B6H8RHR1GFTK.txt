@@ -1,0 +1,339 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have rainbow hair
+Bot(1): that is awesome ! i volunteer at my local soup kitchen too !
+User(2): I think that's great. I think it is really important to give back.
+Bot(2): in my spare time i give back to charities
+User(3): What kind of charities?
+Bot(3): which charities do you generally donate too ? i can help .
+User(4): I generally like to donate to causes like Harvesters.
+Bot(4): nice , i just enjoy cooking . sometimes i volunteer at the soup kitchen
+User(5): What do you like to cook the most?
+Bot(5): i enjoy cooking . i volunteer at a soup kitchen
+User(6): What kind of food do your normally cook?
+Bot(6): i usually cook the ones that i got from my garden
+User(7): That's great! So you like to cook with fresh ingredients?
+Bot(7): i enjoy cooking . i volunteer at a soup kitchen
+User(8): So you said you have a garden. What kind of vegetables do you grow?
+Bot(8): greens , peas , peppers and lots of spices
+User(9): Do you find gardening to be fun?
+Bot(9): i enjoy it . when i am not touring i like to garden .
+User(10): Do you find gardening to be a calming experience? Or do you do it to save money?
+Bot(10): i like to donate to charities and i enjoy saving money
+User(11): Do you find saving money to be easy or hard?
+Bot(11): it definitely is not always easy , but it is also very rewarding , you know ?
+User(12): I completely agree. I think it's very hard.
+Bot(12): do you have siblings that can help ? my 3 sisters are always helpful for me .
+User(13): I have two sisters. I don't get along that well with them.
+Bot(13): my 2 older sisters have that problem too . sorry
+User(14): Thank you. It can be really hard sometimes. I remember growing up and having such good times with them, but things are more complicated now.
+Bot(14): it was very hard for the first year , but i am happy to have them close now !
+User(15): You must consider yourself very lucky!
+Bot(15): i am , thank you . where do you live ? i am in a rural area .
+User(16): I live in a fairly rural area, but it's also somewhat suburban.
+Bot(16): lucky you ! rural areas can be the best or the worst in my experience
+
+Persona:
+i volunteer at a soup kitchen.
+i like to go to country concerts on weekends.
+i enjoy gardening and walking outdoors.
+i have three sisters.
+i also like to cook but i am not very good at it.
+
+Topic and Human Opinion:
+Beginning: i've rainbow hair.(dislike)
+Round 1: volunteering(like)
+Round 4: cooking(like)
+Round 7: gardening(ambivalent)
+Round 10: saving money(like)
+Round 12: siblings(like)
+Round 15: where you live(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+Round 10: The chatbot changed the topic.(like)
+Round 12: The chatbot changed the topic.(like)
+Round 15: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 65.14
+Robotic(↓): 77
+Interesting: 93
+Fun: 100
+Consistent: 32
+Fluent: 69
+Repetitive(↓): 49
+Topic: 88
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I've had a job since I was about sixteen.
+Bot(1): It seems like you do you your I’m life. 😉
+User(2): I think you may be confused. Do you have a job?
+Bot(2): we can asked am going to to them .
+User(3): Okay. Do you have any pets?
+Bot(3): i'm you like my about yourself?
+User(4): I'm having a hard time understanding you.
+Bot(4): i like chocolate , but i am great! hw is it chocolate .
+User(5): I love chocolate! It's delicious!
+Bot(5): I love canada. i you said you were canada.
+User(6): I am not from canada, but I think it's okay.
+Bot(6): I love to play i am listening in my garden. Where are you from now? 😄
+User(7): I am from Kansas, in the United States!
+Bot(7): I freelancer working is visit one day. 🙂
+User(8): That sounds interesting. I work in customer support.
+Bot(8): i m good just got yelled at about being at to spend Do you like you
+User(9): I'm sorry that happened! Why did you get yelled at?
+Bot(9): I is gonne run.
+User(10): Where are you going to run?
+Bot(10): I live in the city do, what i freak city. How about you?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have been working since i was sixteen years old.(like)
+Round 2: animals(like)
+Round 4: chocolate(like)
+Round 5: canada(ambivalent)
+Round 7: work(like)
+Round 9: running(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.86
+Robotic(↓): 100
+Interesting: 14
+Fun: 13
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 72
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My daughter is very gifted!
+Bot(1): she is 34 years old now
+User(2): Wow! Do you have any other children?
+Bot(2): i have 5 sons and we all enjoy the beastie boys .
+User(3): That's great to share your interests with your kids. I like all kinds of music. Herbie Hancock is a favorite of mine!
+Bot(3): fabulous more people need to volunteer .
+User(4): I tend to agree with that. Though I myself am not very good at doing it on a regular basis.
+Bot(4): i really like the washington nationals ! i am waiting for pizza to be delivered , cannot wait !
+User(5): That sounds delicious!
+Bot(5): i like to volunteer at my local animal shelters . what about you ?
+User(6): I have done that in the past, but not recently.
+Bot(6): boring past time . . . there is such a thing . . . what is it ?
+User(7): No I don't volunteering is boring, I was just saying I have not done it in a while.
+Bot(7): what do you volunteer for
+User(8): Usually I volunteer at church.
+Bot(8): i spent most of my days at the church pantry volunteering ? do you volunteer ?
+User(9): Yes the church pantry is a good cause. I think it helps a lot of people.
+Bot(9): that is good . do you volunteer there ?
+User(10): No. I personally help with the church service.
+Bot(10): i love cooking big italian meals after church on sunday .
+User(11): That's great! What kind of Italian food do you make?
+Bot(11): i can cook spaghetti and lasagna , but cooking is not my favorite activity .
+
+Persona:
+i like donuts.
+i'm not a good swimmer at all.
+i volunteer at a soup kitchen.
+i am a professional tennis player.
+my favorite way to relax is to read a book.
+
+Topic and Human Opinion:
+Beginning: my daughter is a child prodigy.(ambivalent)
+Round 2: music(like)
+Round 3: volunteering(like)
+Round 4: food(like)
+Round 5: volunteering(like)
+Round 10: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 47.86
+Robotic(↓): 100
+Interesting: 76
+Fun: 76
+Consistent: 25
+Fluent: 55
+Repetitive(↓): 72
+Topic: 75
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Clowns are scary!
+Bot(1): hello george my name is pink
+User(2): Hi pink I'm afraid of clowns.
+Bot(2): hello george my name is pink
+User(3): Where are you from Pink?
+Bot(3): hello george my name is pink
+User(4): I am from the midwest
+Bot(4): hello george my name is pink
+User(5): I have lived there most of my life.
+Bot(5): hello george my name is pink
+User(6): I think it's a great place to live.
+Bot(6): is george your best friend ?
+User(7): Most of my friends and family live (relatively) close, so that's good.
+Bot(7): is george your best friend ?
+User(8): I don't have any friends named George.
+Bot(8): what do you do for a living ? i am in the army .
+User(9): I am the vice president of customer support.
+Bot(9): oh , i am a general of the oris army .
+User(10): That's a very prestigious title. How long have you been the general of an army?
+Bot(10): since i can remember . i enjoy it a lot .
+
+Persona:
+i've an allergy to water.
+my favorite food is mexican food.
+my daughter is a child prodigy.
+my name is george.
+i'm in the army.
+
+Topic and Human Opinion:
+Beginning: i am terrified of clowns due to childhood trauma.(ambivalent)
+Round 2: where you are from(like)
+Round 7: friends(like)
+Round 8: work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 6.43
+Robotic(↓): 100
+Interesting: 8
+Fun: 19
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 18
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi I am Vicky
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): I am an elementary school teacher.
+Bot(2): i am a teacher , i love to cook .
+User(3): What do you teach?
+Bot(3): i do not , but i do like to eat .
+User(4): You are a teacher, but you don't teach?
+Bot(4): i am a student , but i am a student .
+User(5): Oh are you a student teacher?
+Bot(5): no , i am a student . i love to cook .
+User(6): What do you like to cook?
+Bot(6): i do , i love to cook .
+User(7): Are you good at cooking?
+Bot(7): no , i do not . i like to go out to eat with my family .
+User(8): I do too. It's nice to be around family.
+Bot(8): i love to go fishing .
+User(9): I don't really like it unless I'm with someone who can do all the hard work for me.
+Bot(9): i am a student , but i do not have to work .
+User(10): That's good. What are you studying?
+Bot(10): i am a student , i am a teacher .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am an elementary school teacher.(like)
+Round 5: cooking(like)
+Round 7: going out with family(like)
+Round 8: fishing(ambivalent)
+Round 9: profession(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 2.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 8
+Consistent: 0
+Fluent: 8
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi I'm Vicky. How old are you?
+Bot(1): i'm fine . how are you ?
+User(2): I'm good. I am thirteen years old.
+Bot(2): i am old . i am old .
+User(3): How old?
+Bot(3): i am old . i am old .
+User(4): Are you older than 50 years?
+Bot(4): i am old . i am old .
+User(5): I have some people in my family that are old.
+Bot(5): i am sorry to hear that . i am old .
+User(6): It's okay. I like having people of different ages in my family. Do you have a family?
+Bot(6): i do not . i am a single mom .
+User(7): I am sorry to hear that. Is being a single mom hard?
+Bot(7): yes . i am a single mom .
+User(8): How many children do you have?
+Bot(8): i have a few . i am a single mom .
+User(9): Do you want to have more children?
+Bot(9): i do not . i am a single mom .
+User(10): How old are your kids now?
+Bot(10): i have a few . i am a single mom .
+
+Persona:
+i workout four hours a day.
+i like to talk but people have a hard time understanding.
+i think i'll retire in a few years.
+i do not drink or do drugs or anything.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: i am 13 years old.(dislike)
+Round 5: family(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 28.43
+Robotic(↓): 0
+Interesting: 17
+Fun: 18
+Consistent: 6
+Fluent: 0
+Repetitive(↓): 100
+Topic: 58
+
+####################
+

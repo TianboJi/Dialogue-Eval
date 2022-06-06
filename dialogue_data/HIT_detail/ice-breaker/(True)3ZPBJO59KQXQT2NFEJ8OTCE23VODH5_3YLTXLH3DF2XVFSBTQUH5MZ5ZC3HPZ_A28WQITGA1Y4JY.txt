@@ -1,0 +1,286 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what grade do you teach?
+Bot(1): i teach math , i am a teacher .
+User(2): do you teach other subjects?
+Bot(2): i do . i am a student .
+User(3): are you a teacher or student?
+Bot(3): i am not . i am a student .
+User(4): where do you learn?
+Bot(4): i live in california . i love to travel .
+User(5): is california warm right now?
+Bot(5): it is . i love it . i love it .
+User(6): are the fires near you?
+Bot(6): no , i am in the midwest .
+User(7): are you leaving california?
+Bot(7): no , i am not . i am a student .
+User(8): what are you learning?
+Bot(8): i am a student , i am a teacher .
+User(9): what are you teaching?
+Bot(9): i am a student , i am a teacher .
+User(10): do you like to teach?
+Bot(10): i do , i love to cook .
+User(11): do you teach cooking?
+Bot(11): no , i do not , but i do like to cook .
+
+Persona:
+i have two grown children who never visit.
+i like riding horses.
+my favourite artist is travis scott.
+i have a children and a dogs.
+my favorite band is the insane clown posse.
+
+Topic and Human Opinion:
+Beginning: i'm an elementary school teacher.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 36
+Consistent: 81
+Fluent: 63
+Repetitive(↓): 100
+Topic: 10
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): how old is your grandfather?
+Bot(1): i'm hanging out at my favorite mountain place .. Also, i went to rehab. i as ...
+User(2): can you repeat that?
+Bot(2): I love to reading in a hurricane to garden.
+User(3): i do not understand.
+Bot(3): I live answer i York
+User(4): what are you trying to say?
+Bot(4): so do like movies I like ? my wife and i are zoo keepers .
+User(5): what is your favorite movie?
+Bot(5): That 's awesome! What we will go teach?
+User(6): let's teach math!
+Bot(6): Hi, I am a professional, work do not have fan of video games.
+User(7): you sounds very unprofessional
+Bot(7): i am a to do. I you ?
+User(8): excuse me?
+Bot(8): i love care fashion driving
+User(9): im not sure hwat that is
+Bot(9): Hello, is an old are you?
+User(10): i am 26
+Bot(10): i love like to have never have a friend
+
+Persona:
+i live with my husband in pennsylvania.
+i like to play with my dolls.
+its red with blue stripe so it shiny when i race.
+i am a 45 year old male.
+now i live in the united states.
+
+Topic and Human Opinion:
+Beginning: my grandfather served in world war a.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 100
+Interesting: 81
+Fun: 9
+Consistent: 8
+Fluent: 9
+Repetitive(↓): 7
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): helloooo
+User(2): how are you?
+Bot(2): i am goog thanks for asking
+User(3): you're welcome. i am not in california
+Bot(3): ah darn . i am in ca though
+User(4): is it warm there?
+Bot(4): yes . very warm . i love it .
+User(5): are the fires close to you?
+Bot(5): no wild fires here .
+User(6): should you worry about the fires?
+Bot(6): no wild fires here .
+User(7): should i come to ca?
+Bot(7): i would think it is too hot .
+User(8): do you make music?
+Bot(8): no i am not a very good artist
+User(9): are you going to move?
+Bot(9): yes , i would like to make more money .
+User(10): how much money would you like to make?
+Bot(10): ok , 1 million per year .
+
+Persona:
+i like to spend my money on cars.
+i have a german shepherd named barnaby.
+i'm always wearing a hat.
+i love cooking but i also enjoy fishing.
+i produce music for artists.
+
+Topic and Human Opinion:
+Beginning: i live in california but the recording artist market was dead last year.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 78.43
+Robotic(↓): 18
+Interesting: 100
+Fun: 90
+Consistent: 91
+Fluent: 87
+Repetitive(↓): 90
+Topic: 89
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): what is your town's population?
+Bot(1): i am a general in general .
+User(2): like the army?
+Bot(2): i am not sure . i am in the army .
+User(3): what rank are you?
+Bot(3): i am in the army . i am in the army .
+User(4): it sounds like you are in the army
+Bot(4): i am in the army
+User(5): are you going to move?
+Bot(5): i am in the army
+User(6): have you ever been AWOL?
+Bot(6): i am in the army
+User(7): let's play a game.
+Bot(7): i am not sure what that is
+User(8): when is your service up?
+Bot(8): i do not know how to play
+User(9): have you been to europe?
+Bot(9): i have been to europe and i am in the army
+User(10): have you been to korea?
+Bot(10): no i don't but i do not have time for that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm from a small town.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.71
+Robotic(↓): 80
+Interesting: 23
+Fun: 20
+Consistent: 31
+Fluent: 23
+Repetitive(↓): 97
+Topic: 32
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hi am a 56 year old married man , who had 5 amazing kids .
+User(2): what is your wife's name?
+Bot(2): why would i know your wife ?
+User(3): how many homeless are there?
+Bot(3): hi am a 56 year old married man , who had 5 amazing kids .
+User(4): do you serve soup?
+Bot(4): no , we mostly eat at restaurants
+User(5): what do you usually order?
+Bot(5): i order out . what do you like to do ?
+User(6): i Like to order out aswell
+Bot(6): i order out . what do you like to do ?
+User(7): are you okay?
+Bot(7): yes i am . we had a heatwave
+User(8): where are you from?
+Bot(8): i live in the united states
+User(9): what state do you live in?
+Bot(9): i live in the united states
+User(10): should i go to the united states?
+Bot(10): i live in the united states
+
+Persona:
+now i live in the united states.
+i drive a nissan pathfinder.
+i only eat kosher.
+i'm a 56 year old woman.
+i'm an avid kayaker.
+
+Topic and Human Opinion:
+Beginning: i volunteer in a homeless shelter.(like)
+Round 4: his family(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 22.14
+Robotic(↓): 86
+Interesting: 32
+Fun: 20
+Consistent: 22
+Fluent: 43
+Repetitive(↓): 100
+Topic: 24
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): im great how are you
+Bot(2): wonderful . thank you ! just got done feeding the kiddos supper . you ?
+User(3): how do you have kids and are only graduating highschool
+Bot(3): that is nice i just finished selling my all my bibles door to door
+User(4): ew im not a fan of church
+Bot(4): yes how about you ? do you go to church ?
+User(5): no i do not
+Bot(5): he ha i like to ride horses when i have free time . he ha .
+User(6): that's okay but im scared of them
+Bot(6): not scared . they just creep me out . i prefer purring to come from cars .
+User(7): im not sure we are talking about horses anymore
+Bot(7): i love to ride horses .
+User(8): you seem like you like to ride horses
+Bot(8): that is very cool . do you love horses ?
+User(9): nope not a fan
+Bot(9): seriously ? how can you not like kojima ? plus del toro and reedus , it looks awesome .
+User(10): what are you talking about?
+Bot(10): i am talking about this website and yes my sister has a pet
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'll graduate from high school in two years.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.29
+Robotic(↓): 91
+Interesting: 79
+Fun: 68
+Consistent: 25
+Fluent: 60
+Repetitive(↓): 0
+Topic: 18
+
+####################
+

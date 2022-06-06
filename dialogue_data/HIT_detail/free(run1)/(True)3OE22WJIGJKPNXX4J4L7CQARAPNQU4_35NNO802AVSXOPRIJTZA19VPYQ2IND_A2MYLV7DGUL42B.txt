@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hi . i like to watch clouds .
+User(2): how about football?
+Bot(2): i totally love football man
+User(3): what team?
+Bot(3): the eagles , they are undefeated !
+User(4): nice how about OSU?
+Bot(4): the football team ?
+User(5): yes, college
+Bot(5): the football team ?
+User(6): Ohio State
+Bot(6): the football team ?
+User(7): yes
+Bot(7): the football team ?
+User(8): how about Dallas cowboys?
+Bot(8): no they play the chargers
+User(9): New England Patriots?
+Bot(9): the football team ?
+User(10): yes
+Bot(10): the football team ?
+
+Persona:
+i've short hair.
+i have been working since i was sixteen years old.
+i live in the cloud.
+i wear a motorbike helmet to protect my head.
+i like to listen to rock music while working.
+
+Topic and Human Opinion:
+Beginning: football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.71
+Robotic(↓): 89
+Interesting: 8
+Fun: 8
+Consistent: 11
+Fluent: 56
+Repetitive(↓): 97
+Topic: 62
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hello , i am looking to see which soup kitchen needs volunteers this week .
+User(2): hmm good service work
+Bot(2): i am also a buddhist
+User(3): does that require you to do service work?
+Bot(3): yes i guess so by i really love gymnastics
+User(4): that has nothing to do with food
+Bot(4): oh yes , you said that . sorry , i am tired from gymnastics .
+User(5): what is your favorite food?
+Bot(5): probably fish it is great
+User(6): fresh, yes sushi?
+Bot(6): i am also a buddhist
+User(7): do you like sushi?
+Bot(7): yes i guess so by i really love gymnastics
+User(8): ok, how about pizza?
+Bot(8): i am also a buddhist
+User(9): you said that already
+Bot(9): oh yes , you said that . sorry , i am tired from gymnastics .
+User(10): do you like pizza?
+Bot(10): i am also a buddhist
+
+Persona:
+i am a buddhist.
+i am married.
+i volunteer at a soup kitchen.
+i've a pet fish.
+gymnastics is my favorite sport.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.86
+Robotic(↓): 96
+Interesting: 15
+Fun: 14
+Consistent: 50
+Fluent: 53
+Repetitive(↓): 97
+Topic: 28
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hi how are you today
+User(2): good, enjoying some coffee
+Bot(2): i love coffee , i am a shop manager at a store
+User(3): I love coffee too
+Bot(3): i love coffee , i am a grocery manager .
+User(4): do you grind your own beans?
+Bot(4): no i do not have a favorite
+User(5): do you like cappuccino?
+Bot(5): i do not have a favorite flavor
+User(6): how about latte?
+Bot(6): yes i do i love it
+User(7): me too
+Bot(7): i do not have a favorite , i like to play video games
+User(8): I don't, i would rather walk outside
+Bot(8): i like to play video games
+User(9): boring
+Bot(9): i like to play video games
+User(10): what do you think of kcups?
+Bot(10): i do not know , i am a big fan of video games
+
+Persona:
+i'm a convenience store manager.
+i love wearing skinny jeans and leggings.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+i like riding horses.
+i have a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: coffee(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.57
+Robotic(↓): 94
+Interesting: 14
+Fun: 14
+Consistent: 50
+Fluent: 54
+Repetitive(↓): 96
+Topic: 30
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): good
+Bot(2): good , my daughter is napping so i am shopping online . might go swimming today
+User(3): do you like photography?
+Bot(3): interesting . i like photography . i am a veterinarian by profession .
+User(4): i really like to take photos
+Bot(4): that is very interesting . how long have you been doing photography ?
+User(5): my whole life
+Bot(5): nice . i clean gutters out . i have to cut back at the archery center now though .
+User(6): phones nowadays take great photos
+Bot(6): thanks ! i hear that iphone photos are sometimes the best photos !
+User(7): i agree and easy
+Bot(7): i can make a mean french fry ; i enjoy cooking .
+User(8): take photos of your cooking?
+Bot(8): that is very interesting . how long have you been doing photography ?
+User(9): answered that already
+Bot(9): i am an english teacher , but i want to be a writer one day . do you like stories ?
+User(10): stories with photos
+Bot(10): o really cool , how long you been in photography
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: photgraphy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.14
+Robotic(↓): 91
+Interesting: 22
+Fun: 21
+Consistent: 50
+Fluent: 59
+Repetitive(↓): 93
+Topic: 29
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): Do you to take walks music?
+User(2): no, i like to listen to nature
+Bot(2): I else.. did you us too
+User(3): do you like to camp?
+Bot(3): that's cool , not nice as to concerts grade , i am a teacher , and you ?
+User(4): photographer
+Bot(4): i adore the color you old are ?
+User(5): i like to take photos outside
+Bot(5): What it how do i the languages that believes in the languages?
+User(6): not sure what you are asking
+Bot(6): Hey! Do folk is my Colorado?
+User(7): never been
+Bot(7): you know i was adopted , play basketball with my something fun
+User(8): camping?
+Bot(8): I think i must be because clowns.
+User(9): do you like nature?
+Bot(9): I am not a programmer just of that
+User(10): campfires?
+Bot(10): I am in u that is a lot
+
+Persona:
+i prefer being inside.
+my dad taught me everything i know.
+i've short hair.
+i like riding horses.
+i often shop for shoes and watches.
+
+Topic and Human Opinion:
+Beginning: camping(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.86
+Robotic(↓): 98
+Interesting: 4
+Fun: 2
+Consistent: 7
+Fluent: 4
+Repetitive(↓): 29
+Topic: 7
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): good
+Bot(2): i am a student , but i am a student .
+User(3): do you like the beach?
+Bot(3): i do , i love it . i love it .
+User(4): same
+Bot(4): i am a student , but i am a student .
+User(5): do you like to walk on the beach?
+Bot(5): i do , but i do not have any pets .
+User(6): there are dog beaches too
+Bot(6): i love the beach . i love it .
+User(7): do you swim in the ocean?
+Bot(7): no , i do not , but i do like to go fishing .
+User(8): fishing can be fun
+Bot(8): i love to go fishing .
+User(9): do you eat the fish you catch?
+Bot(9): no , i do not . i like to eat .
+User(10): some fresh fish are good to eat
+Bot(10): i like to eat fish .
+
+Persona:
+i dance on the weekends.
+i am single and with two dogs.
+i now live in the city.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i was born in the early 80 s.
+
+Topic and Human Opinion:
+Beginning: beach(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.29
+Robotic(↓): 95
+Interesting: 7
+Fun: 7
+Consistent: 50
+Fluent: 45
+Repetitive(↓): 57
+Topic: 41
+
+####################
+

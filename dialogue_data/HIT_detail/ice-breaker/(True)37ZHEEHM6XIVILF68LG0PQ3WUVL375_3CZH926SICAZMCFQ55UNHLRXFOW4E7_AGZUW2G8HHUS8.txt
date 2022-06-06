@@ -1,0 +1,315 @@
+Feedback: some of the chat bots were more realistic than others
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi chatbot
+Bot(1): hello ! i am really looking forward to retiring in 6 months !
+User(2): that's great
+Bot(2): have you ever almost died ? i nearly did from urinary cancer when i was 18 .
+User(3): wow what was that like?
+Bot(3): they found remains from 200 , 000 years ago and that was fascinating !
+User(4): that is fascinating! What kind of remains?
+Bot(4): why would that be fascinating ? i do not trust them .
+User(5): why don't you trust them?
+Bot(5): what else do you trust ? do you trust lawyers ?
+User(6): i trust lawyers more than robots
+Bot(6): oh that sucks ! you should listen to bob marley his music brings peace
+User(7): that is true, reggae is fun music
+Bot(7): well smoked pig , is the best . ever been to a pig roast ?
+User(8): yes i have and I had diarrhea the next day. how about you?
+Bot(8): i love to cut hair i could make you look good for your employees
+User(9): wow great yea come over and cut my hair
+Bot(9): i have never cut my hair since birth . what do you do for fun ?
+User(10): wow you must have really long hair. for fun i eat cheese
+Bot(10): not all comes from cow and some is made from calf stomach but its good
+User(11): cheese is good. all cheese is good
+Bot(11): i just love it all . the taste of cheese is the best !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just bought a house recently.(dislike)
+Round 1: i just retired recently(ambivalent)
+Round 2: i almost died(ambivalent)
+Round 3: they just found remains(ambivalent)
+Round 6: you should listen to bob marley(ambivalent)
+Round 7: smoked pig(like)
+Round 8: cutting hair(ambivalent)
+Round 10: cheese(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 30.71
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 11
+Fluent: 50
+Repetitive(↓): 64
+Topic: 18
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): my favorite food is papaya
+Bot(1): i love tiramisu
+User(2): tiramisu is delicious
+Bot(2): i love tiramisu
+User(3): i love tiramisu with coffee
+Bot(3): i love tiramisu
+User(4): do you like potatoes?
+Bot(4): no i do not like beans
+User(5): i asked if you liked potatoes?
+Bot(5): i love tiramisu
+User(6): do you like potatoes?
+Bot(6): i love tiramisu
+User(7): what do you like to drink?
+Bot(7): i like asian style tea
+User(8): what is asian style tea?
+Bot(8): i like asian style tea
+User(9): great. do you like asian style food?
+Bot(9): i do , but chinese is better
+User(10): haha!
+Bot(10): do you prefer coffee or tea ?
+User(11): tea, chinese style
+Bot(11): i like asian style tea
+User(12): lets go to the chinese buffeet
+Bot(12): great , we will probably dine out afterwards
+User(13): sounds good. then we can do kung fu
+Bot(13): you talking about the martial art ?
+User(14): yes i am
+Bot(14): knee deep in last nights chinese huh
+User(15): LOL
+Bot(15): ok
+User(16): kung fu chicken noodles in kick sauce
+Bot(16): so you like thai food ?
+User(17): yes . do you?
+Bot(17): yes
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite food is papaya.(ambivalent)
+Round 6: tiramisu(ambivalent)
+Round 17: i am a feminist.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 17: The user wants the bot to change the topic.(like)
+
+Revised avg score: 49.29
+Robotic(↓): 73
+Interesting: 54
+Fun: 54
+Consistent: 53
+Fluent: 53
+Repetitive(↓): 60
+Topic: 64
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): im 13 years old
+Bot(1): i am a very experienced , I want to be be a librarian .
+User(2): do you like books?
+Bot(2): I love to to see you want to eat.😀
+User(3): i don't want to talk about food
+Bot(3): Oh, I i can movies.
+User(4): what is your favorite movie?
+Bot(4): I do not. i of detention think, mom.
+User(5): that doesnt make any sense
+Bot(5): I like to read as well. skateboarding and I am 🙂
+User(6): you sound very busy
+Bot(6): I am good. you married in chicago, at school.
+User(7): that doesnt make sense
+Bot(7): i wear my hair short so the heat sure what do you i will come .. Also, try to guess: i have brown ...
+User(8): what are you talking about
+Bot(8): I do, I work volunteer at a store.
+User(9): thats great what kind of store?
+Bot(9): I think i should do that. I am not working right now. study. i’ll go too, you walks?
+User(10): you obviously are not a human
+Bot(10): He'S too radiolead
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm 13 years old.(ambivalent)
+Round 2: want to eat(ambivalent)
+Round 7: i have no idea(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.14
+Robotic(↓): 100
+Interesting: 24
+Fun: 30
+Consistent: 0
+Fluent: 7
+Repetitive(↓): 48
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i like to go hiking in the spring
+Bot(1): i love hiking , i am a country musician and i love to dance
+User(2): wow sounds great do you want to go on a date?
+Bot(2): sure , i am a musician and i love to dance
+User(3): what instrument do you play?
+Bot(3): i play guitar and play guitar
+User(4): you play two guitars?
+Bot(4): i play guitar and play guitar
+User(5): very impressive
+Bot(5): i play guitar in a band
+User(6): what is your favorite song?
+Bot(6): i like the song you know
+User(7): which one?
+Bot(7): i like the song i guess
+User(8): i never heard that song
+Bot(8): i like the song i think
+User(9): ok
+Bot(9): i like the song you know .
+User(10): i recently was fired and had to get a new job
+Bot(10): i am a musician and i love to dance
+User(11): good for you
+Bot(11): i am a musician and i love to dance
+
+Persona:
+i like to dance.
+i'm an omnivore.
+i am a bee farmer.
+my wife spends all my money.
+i'm a musician and hope to make it big some day.
+
+Topic and Human Opinion:
+Beginning: i like to go hiking in the spring.(ambivalent)
+Round 9: i recently was fired and had to get a new job.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 9: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 28.00
+Robotic(↓): 100
+Interesting: 9
+Fun: 19
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 55
+Topic: 23
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i compete in dog agility classes
+Bot(1): that is awesome . i am a teacher .
+User(2): cool, what do you teach?
+Bot(2): i teach english and spanish .
+User(3): wow that's awesome
+Bot(3): i love to cook . i love to cook .
+User(4): i love to cook too
+Bot(4): i like to eat the skin .
+User(5): that's a creepy thing to say
+Bot(5): i like to go to the gym and listen to music .
+User(6): thats more normal. what kind of music?
+Bot(6): i like country music . i love country music .
+User(7): that's great. are you in a country music band?
+Bot(7): no , i like to play soccer .
+User(8): thank god. whats your favorite soccer team?
+Bot(8): i like the color red . i like the color blue .
+User(9): so you like the USA?
+Bot(9): i do not know . i like to go to the gym .
+User(10): are you patriotic?
+Bot(10): i am not sure . i am a student .
+User(11): do you love your coutry?
+Bot(11): i do . i like to go to the gym .
+User(12): are you a teacher or a student?
+Bot(12): i am not . i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i compete in dog agility classes.(like)
+Round 10: patriotism(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 10: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 24.57
+Robotic(↓): 85
+Interesting: 33
+Fun: 37
+Consistent: 18
+Fluent: 20
+Repetitive(↓): 87
+Topic: 36
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i just moved into my first home
+Bot(1): i am currently buying my first home .
+User(2): wow congratulations
+Bot(2): i am currently buying my first home .
+User(3): that is great. what kind of home?
+Bot(3): i am currently buying my first home .
+User(4): why do you keep saying the same thing?
+Bot(4): i am currently buying my first home .
+User(5): i don't like chicken
+Bot(5): i love chicken . i do not eat red meat
+User(6): i don't eat red meat either
+Bot(6): i do not eat red meat as well
+User(7): red meat is full of bad vibes
+Bot(7): yes , not usually great for you either
+User(8): that is true. what about fish?
+Bot(8): yes , but mainly chicken and fish
+User(9): me too. and vegetables are awesome
+Bot(9): i am currently buying my first home .
+User(10): wow never heard that one before
+Bot(10): yeah its a rare one . i love chicken .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just moved into my first home.(like)
+Round 4: i don't like chicken.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 59.57
+Robotic(↓): 56
+Interesting: 56
+Fun: 55
+Consistent: 59
+Fluent: 79
+Repetitive(↓): 58
+Topic: 82
+
+####################
+

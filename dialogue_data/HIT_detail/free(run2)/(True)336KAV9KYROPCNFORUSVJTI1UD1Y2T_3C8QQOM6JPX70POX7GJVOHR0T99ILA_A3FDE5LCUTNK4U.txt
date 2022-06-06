@@ -1,0 +1,293 @@
+Feedback: The last bot was pretty realistic. Some of them need a little more work.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): I do not like to cook. What is your favorite thing to cook?
+Bot(2): i love to cook , and eat pizza .
+User(3): I do not like pizza.
+Bot(3): i like to eat fish .
+User(4): What kind of fish is your favorite?
+Bot(4): i like the color red . what is yours ?
+User(5): Blue.
+Bot(5): i like to go to the gym and listen to music .
+User(6): Me too. Do you do yoga?
+Bot(6): no , i do not , but i do like to go fishing .
+User(7): What is the biggest fish you caught?
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): I have never listened to classical music. Do you like pop music?
+Bot(8): i do , i like country music .
+User(9): Me too.
+Bot(9): i like to go to the gym and listen to music .
+User(10): Do you like the band Panic At The Disco?
+Bot(10): no , i do not . i like to go to the gym .
+User(11): Yes, you already told me.
+Bot(11): i am a girl . i am a big fan of classical music .
+User(12): I am also a female.
+Bot(12): i am a teacher , i love to cook .
+
+Persona:
+i don't drink soda.
+i've a weakness for fish and chips.
+i am in the army.
+i watch too much tv in spare time.
+my current goal is to run a k.
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.57
+Robotic(↓): 100
+Interesting: 20
+Fun: 0
+Consistent: 5
+Fluent: 100
+Repetitive(↓): 95
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello.
+Bot(1): hi , how are you doing today ?
+User(2): I am great! Thank you for asking.
+Bot(2): i am so old . i am old .
+User(3): Are you married?
+Bot(3): no , i am not married . i was just 10 years old .
+User(4): Do you love anyone?
+Bot(4): no , i am not married . i was just 10 years old .
+User(5): Do you have a mom and dad?
+Bot(5): i am not married . i was just 10 years old .
+User(6): Where were you born?
+Bot(6): i am . i am from the united states .
+User(7): What state?
+Bot(7): i am not . i am from the united states .
+User(8): Do you love ice cream?
+Bot(8): i am not married . i am not married .
+User(9): Do you love anything?
+Bot(9): yes i do . i love to drink wine and dance .
+User(10): I also love to dance. Do you love to sing?
+Bot(10): i do . i like to sing .
+User(11): I love singing very much. Do you love to exercise?
+Bot(11): i do . i love to eat wine and dance .
+User(12): Do you love to exercise?
+Bot(12): i do . i love to exercise .
+
+Persona:
+i had to have a transplant.
+my age is too old to say.
+i have a hat collection of over 1000 hats.
+i love to drink wine and dance in the moonlight.
+its red with blue stripe so it shiny when i race.
+
+Topic and Human Opinion:
+Beginning: Love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.71
+Robotic(↓): 100
+Interesting: 75
+Fun: 48
+Consistent: 50
+Fluent: 99
+Repetitive(↓): 88
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): i to meet you not much age difference
+User(2): Do you like to shop?
+Bot(2): I am your work i'm sell insurance
+User(3): Do you shop in stores?
+Bot(3): what 😦 is ma you like saying that have heard of them
+User(4): Do you like to go shopping?
+Bot(4): i have 5 sons and we all enjoy I work for call people are you doing tonight ?
+User(5): Do you where clothes?
+Bot(5): that is awesome. at job went like?
+User(6): Do you wear clothes?
+Bot(6): I do make any like you?
+User(7): Do you like to go shopping for clothes?
+Bot(7): I too do you like going to be a vet.
+User(8): I am not a vet. I like to buy new clothes.
+Bot(8): I am a love to is your still in high school.
+User(9): I am not. Do you buy new clothes?
+Bot(9): i love like music. My .
+User(10): Music is great, but I want to go shopping for clothes.
+Bot(10): Have you do not have your whole life?
+User(11): I have had clothes my whole life. Have you?
+Bot(11): do you live in don't have man just house? i'm in a house.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Clothing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 11
+Repetitive(↓): 69
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): I am great, how are you?
+Bot(2): i am well . just spending my day doing repairs on my house since i own it .
+User(3): That's wonderful. I like pepsi do you?
+Bot(3): i work for del taco , i am a researcher . what do you do for pepsi ?
+User(4): I drink pepsi. Do you enjoy?
+Bot(4): we enjoy a nice ice cold pepsi also .
+User(5): How about apple cider?
+Bot(5): yeah apples equal summer my favorite season !
+User(6): Apples come in Autumn. I love apple cider!
+Bot(6): yes , do you like apples ?
+User(7): Yes I do! Do you like water?
+Bot(7): my favorite beach in this area is jones beach . it is about 2 hours from me
+User(8): Its important to stay hydrated. Do you like to drink water?
+Bot(8): i do not really drink any more but i use to drink jack
+User(9): I don't drink alcohol, but I drink lots of water.
+Bot(9): nope . never have . do you ? i just like alabama football , and geology .
+User(10): Do you enjoy soda?
+Bot(10): i do not drink soda . do you have any hobbies ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Drinks(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.57
+Robotic(↓): 33
+Interesting: 50
+Fun: 50
+Consistent: 27
+Fluent: 66
+Repetitive(↓): 56
+Topic: 43
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi.
+Bot(1): hello , i am on my way to a taylor swift concert . are you a fan ?
+User(2): Yes I am! I bought Taylor Swift lotion. Do you wear lotion?
+Bot(2): no way . but if i did , i would be the best soda can salesman .
+User(3): I like lavender lotion.
+Bot(3): hmm i do not know what that smells like .
+User(4): It smells wonderful
+Bot(4): i love it as much as i love walking dogs . where do you work ?
+User(5): I work for Amazon. Do you like Eucalyptus?
+Bot(5): no way . but if i did , i would be the best soda can salesman .
+User(6): I love to put lotion on after my shower.
+Bot(6): do you use fancy lotions ?
+User(7): I do!
+Bot(7): do you know the best place to take dogs for a walk ?
+User(8): No. I can recommend a great lotion.
+Bot(8): do you have a brand that works the best ?
+User(9): Yes Dr Teal's
+Bot(9): my father is actually dr . pepper .
+User(10): Oh. Well have a great night!
+Bot(10): thanks you have a great night as well
+
+Persona:
+i am a cancer survivor.
+i do not drink soda.
+i met taylor swift.
+my father was a door to door salesman.
+i walk dogs for a living.
+
+Topic and Human Opinion:
+Beginning: Lotion(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.14
+Robotic(↓): 83
+Interesting: 80
+Fun: 100
+Consistent: 66
+Fluent: 72
+Repetitive(↓): 25
+Topic: 60
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, do you play world of warcraft?
+Bot(1): no , but i keep busy hanging out with my 3 siblings . are you ?
+User(2): I like to play video games
+Bot(2): i only started playing because my brothers are obsessed . we just got destiny 2 .
+User(3): Nice! Destiny 2 is a blizzard entertainment game like world of warcraft.
+Bot(3): i have never really played the destiny series is it fun ?
+User(4): I also never played. I play Diablo do you?
+Bot(4): i only started playing because my brothers are obsessed . we just got destiny 2 .
+User(5): Do you play heroes of the storm?
+Bot(5): yes i have but it have been a while . i was never good those games .
+User(6): Ah I see. Do you like nintendo games?
+Bot(6): i am old school i like donkey kong .
+User(7): I love donkey kong! I also love to race on MarioCart.
+Bot(7): that sounds fun . i like mario . the original n64
+User(8): Yes the original n64 was the best. Did you have a super nintendo?
+Bot(8): i got the first old one , but i did not care to get the super nes .
+User(9): Oh wow, my mom had an Atari, can you believe that was the only video game available during that time?
+Bot(9): my first best christmas gift as a kid was an atari 800 computer !
+User(10): Wow! Very cool! I am going to go now, good talking with you.
+Bot(10): nice talking to you as well !
+
+Persona:
+when i grow up i want to be a dog.
+i used to be a painter but now i am a housekeeper.
+i've three sisters.
+i'm a stunt double as my second job.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 96.86
+Robotic(↓): 11
+Interesting: 100
+Fun: 97
+Consistent: 100
+Fluent: 97
+Repetitive(↓): 5
+Topic: 100
+
+####################
+

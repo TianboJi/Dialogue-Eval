@@ -1,0 +1,299 @@
+Feedback: no
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): how are you?
+Bot(2): same
+User(3): oh, I'm good, so yesterday I just Watched such a good movie...
+Bot(3): i love movies . what movie ?
+User(4): It's called call me by your name, have you hear of?
+Bot(4): i love movies . what is the movie called ? i will look it up
+User(5): call me by your name
+Bot(5): i love movies . what is the movie called ? i will look it up
+User(6): I think you'll really like it, the photography is absolutely amazing!
+Bot(6): i love movies . what is the movie called ? i will look it up
+User(7): What have you been watching theses days?
+Bot(7): too busy planning , what have you seen ?
+User(8): this movie that I already said, but I also have been watching tv shows and netflix series
+Bot(8): i just watched it the remake , it was great
+User(9): oh really? can you tell me about it ?
+Bot(9): i am not sure , tv shows , horror maybe ?
+User(10): ohh yeah...loves it!
+Bot(10): have you seen it yet ? the new one ?
+User(11): I started yesterday actually, I can't remember the name, but It seems really good...
+Bot(11): i just watched it the remake , it was great
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.14
+Robotic(↓): 100
+Interesting: 59
+Fun: 47
+Consistent: 42
+Fluent: 62
+Repetitive(↓): 89
+Topic: 88
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello, how are you?
+Bot(1): I is very like lady .
+User(2): I was just thinking how amazing is to be able to have relationships, don't you think?
+Bot(2): I love grey, reminds like said ur time.
+User(3): grey? well... i love blue
+Bot(3): I 'm a professional not in school. Do you
+User(4): oh what do you do for living then?
+Bot(4): are you in tan in tanning 😃
+User(5): yes I was at the beach this summer, and I must say the weather was beyond amazing
+Bot(5): Congratulations! I hope you i actually make day!
+User(6): oh thank you very much! I really hope too!
+Bot(6): I would love to! children and are work my car!
+User(7): children? so do you have children? that's nice
+Bot(7): That is a lot of it ka name key have any hobbies?
+User(8): yes I do! love music, movie, art...you?
+Bot(8): I do not. i love kids very that is too bad .
+User(9): Its okay to like kids, the're actually adorable
+Bot(9): i like music for you and travel
+User(10): yesss travel is my jam
+Bot(10): I am a little you dreaming is gym.
+User(11): I actually go to gym every morning and I love it
+Bot(11): Hi, wanna talk with How are you?
+
+Persona:
+i've been working since i was sixteen years old.
+i like doing the treadmill and rowing machine.
+i'm a musician.
+i'm a 56 year old woman.
+my favorite color is navy blue.
+
+Topic and Human Opinion:
+Beginning: relationships(like)
+Round 3: grey(ambivalent)
+Round 3: professional(ambivalent)
+Round 5: tan(ambivalent)
+Round 6: children(like)
+Round 8: hobbies(like)
+Round 10: gym(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 3.00
+Robotic(↓): 98
+Interesting: 6
+Fun: 3
+Consistent: 2
+Fluent: 6
+Repetitive(↓): 99
+Topic: 1
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello friend, how are you?
+Bot(1): hello ! i am sarah . i am doing well . glad it is saturday . you ?
+User(2): oh it is? well sarah, do you go to the gym?
+Bot(2): it was not for anything bad , it was for national ice cream day .
+User(3): I love ice cream! What is your favorite flavor? mine is pistache
+Bot(3): yes , i do like ice cream . sometimes i make my own ice cream at home .
+User(4): oh really? that's so cool, I mean is so much more healthy and actually pretty tasty I must say
+Bot(4): yep its the best dish in the world . so tasty and healthy
+User(5): yeah! do you make other thing in your home? you could give some tips for meals and stuff
+Bot(5): it depends on the night but some nights make up for others
+User(6): yes totally! i mean last night I was so tired that I had to order fast food, can you imagine? I know it's not the best, but I was so tired
+Bot(6): my hubs cooked ! i really should not complain ! you should and rest .
+User(7): what does he cooks? we could have dinner together someday, what you think?
+Bot(7): we had fried chicken we picked up and brought to our home .
+User(8): thats a good option too, because if you go to the right place nothing can go wrong right?
+Bot(8): i have gone to dungeons and dragons tournaments in canada . do you have a hobby ?
+User(9): yes i do. I like to cook, exercise, listen to music, watch movies and appreciate art in general
+Bot(9): my dad is george looney so i kinda have to lol i hate acting tho
+User(10): you do? Oh my god I would love to act, It's actually one of my secret dreams you know..
+Bot(10): sure you can what is the secret ?
+User(11): well...I don't know, it's kinda risky
+Bot(11): sure due in the policy depending on the plan you get you can coverage
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: gym(like)
+Round 2: Ice cream(like)
+Round 8: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 36.43
+Robotic(↓): 28
+Interesting: 24
+Fun: 43
+Consistent: 35
+Fluent: 30
+Repetitive(↓): 68
+Topic: 19
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi, how are you?
+Bot(1): i am good , a little tired but good !
+User(2): Yes I'm tired too, but we have to keep going as longs as there is coffee
+Bot(2): we like to drink coffee all the time
+User(3): yes coffee just give you life right? but I was thinking what kind of music do you like?
+Bot(3): i guess so , i like all music !
+User(4): I have been hearing the new harry styles album for a while and I can't get enough! It's so good, you should totally listen
+Bot(4): yes , i will have to listen to it one day
+User(5): you'll love it! he's a great artist you know? I mean he makes me remember the old rock stars of the 70's
+Bot(5): i completely agree , bouncing around alot as a kid really opened my eyes to different music .
+User(6): but music is all good, I mean I have my limits, but music is art and expression
+Bot(6): music does help us right ? what else do you do to feel beter ?
+User(7): yes, in happy moments or sad, music is always by your side giving some meaning to all of this
+Bot(7): you are so right ! i just want to be happy again , and find my soulmate
+User(8): do you believe in soulmates?
+Bot(8): no but i believe in love at first glance , so i am hopeful it will happen
+User(9): as beatles said once, I do believe in love at first sight cause it happens all the time
+Bot(9): its nice to fall in love , but too much stress now to think about that
+User(10): yes, cause meet someone new is always a challenge and of course we don't want to give up of our freedom
+Bot(10): same ! i totally think that independence is the way to go
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 7: soulmate(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 49.43
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 35
+Repetitive(↓): 37
+Topic: 48
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): well hi, are you doing good?
+Bot(1): i'm doing well . just got done walking my dog .
+User(2): oh nice, I love dogs, all animal in general...what does your dog like to eat?
+Bot(2): i like pizza , and i love it .
+User(3): pizza and all the Italian food is amazing! my dream is go to Italy and eat so much
+Bot(3): i like to eat fish .
+User(4): I ate fish today at lunch oh my god! I do love fish as well, It's a great nutrition meal
+Bot(4): i love to eat .
+User(5): I guess we have a lot in common
+Bot(5): i love to go fishing .
+User(6): oh really? I never went to
+Bot(6): i do not know how to play the guitar .
+User(7): I have a friend that plays guittar
+Bot(7): i like to play soccer .
+User(8): I do not like soccer
+Bot(8): i like to go to the gym and listen to music .
+User(9): oh me too, loves it
+Bot(9): i love to cook . i love to cook .
+User(10): Me too, love to cook all types of food and deserts
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 6: guittar(like)
+Round 7: soccer(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 47.86
+Robotic(↓): 44
+Interesting: 37
+Fun: 50
+Consistent: 40
+Fluent: 40
+Repetitive(↓): 35
+Topic: 47
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi there , how are you ?
+User(2): Im fine, you?
+Bot(2): i am good . i am in the 10th grade .
+User(3): Im at college
+Bot(3): i am a big fan of cheeseburgers , but i love to eat cheeseburgers
+User(4): I used to love as well, but now I go to the gym
+Bot(4): i am not a gym person , i like to play the piano and singing
+User(5): gym is good for your health
+Bot(5): i do not like to eat much . i am a big fan of cheeseburgers
+User(6): I do eat theses thing once in a while, but i avoid to cause I'm trying to be healthy
+Bot(6): i am sorry to hear that
+User(7): no, i love it
+Bot(7): i like to eat cheeseburgers they're my favorite food
+User(8): ok, what is your favorite exercise at the gym?
+Bot(8): i do not like to eat much . i like to eat cheeseburgers
+User(9): oh ok
+Bot(9): i love cheeseburgers , especially cheeseburgers
+User(10): yes the're great
+Bot(10): i am not very healthy , i like to eat cheeseburgers
+
+Persona:
+i have been retired for a years.
+i was born in somalia.
+cheeseburgers are my favorite food.
+i play the piano and guitar and sing.
+i own a house in florida.
+
+Topic and Human Opinion:
+Beginning: gym(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.00
+Robotic(↓): 5
+Interesting: 9
+Fun: 6
+Consistent: 6
+Fluent: 6
+Repetitive(↓): 98
+Topic: 2
+
+####################
+

@@ -1,0 +1,299 @@
+Feedback: It is clear this chat bot needs a lot of work.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, do you like cats?
+Bot(1): do your dogs like sports ? i love soccer but my cats wo not play .
+User(2): That makes no sense. Cats do not play soccer.
+Bot(2): that is cool ! ! are you on a soccer team ?
+User(3): No, but I do like to play soccer.
+Bot(3): how long have you played soccer and field hockey ?
+User(4): I have played soccer for 20 years. Do you play soccer?
+Bot(4): cool . i am not great at sports , but that is okay .
+User(5): Is soccer the sport you are best at?
+Bot(5): soccer is a great sport . i like doing my nails . do you ?
+User(6): Never mind the nails, do you like watching soccer?
+Bot(6): soccer is a great sport . i like doing my nails . do you ?
+User(7): You repeated yourself.
+Bot(7): i work for the tigers baseball team , i love them ! you ?
+User(8): I do not like baseball much
+Bot(8): what is your favorite team ? i like about any sport , but baseball more so .
+User(9): I like the New York Mets
+Bot(9): i live in austin in the great state of texas .
+User(10): Texas is okay.
+Bot(10): i have never been to texas . can i visit ?
+User(11): You just said you lived there.
+Bot(11): i am in the public affairs sector of the government . how about you ?
+
+Persona:
+if i am not cooking in the kitchen then i am definitely on the water.
+i have five sons.
+i spent a decade working in the human services field.
+i enjoy american sports.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: Cats(like)
+Round 2: Soccer(like)
+Round 7: Baseball(dislike)
+Round 9: Texas(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 6.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 16
+Repetitive(↓): 73
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I love cats!
+Bot(1): cats are the best pets !
+User(2): They are! Do you have any cats?
+Bot(2): yes i do ! i have 2 !
+User(3): What kind of cats are they?
+Bot(3): domestic short haired . do you have any other pets ?
+User(4): No, I only have an orange tabby cat. Do you?
+Bot(4): i have a tabby named leslie and she is the sweetest thing ! !
+User(5): Aw! Does she like to play? My cat likes to sleep.
+Bot(5): oh of course , i forgot you told me about her . cats are great !
+User(6): My cat is a boy. His name is Stark.
+Bot(6): that is cute ! what do you want to be when you grow up ?
+User(7): I want to be a Soldier. What do you want to be?
+Bot(7): i would be a housecat . i love cats . i like working with cats .
+User(8): Why a housecat? You can't be a housecat.
+Bot(8): hm , maybe i will get a cat then . you think a tabby is good then ?
+User(9): Yes, get an orange tabby cat
+Bot(9): hm , maybe i will get a cat then . you think a tabby is good then ?
+User(10): You just said that
+Bot(10): you just said that ! haha
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cats(like)
+Round 6: What I want to be when I grow up(ambivalent)
+Round 8: cats(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 45.57
+Robotic(↓): 82
+Interesting: 39
+Fun: 37
+Consistent: 52
+Fluent: 56
+Repetitive(↓): 61
+Topic: 78
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like pasta?
+Bot(1): i do , i love it .
+User(2): What kind of pasta do you like?
+Bot(2): i love pizza , and i love it .
+User(3): not pizza, I asked about PASTA
+Bot(3): i like to eat fish .
+User(4): Do you put fish in your pasta?
+Bot(4): no , i do not . i am a big fan of it .
+User(5): Your reply made no sense.
+Bot(5): i am a student , but i am a student .
+User(6): No, we are talking about pasta
+Bot(6): i like to eat fish .
+User(7): You already said that. Again.
+Bot(7): i like to go to the gym and listen to music .
+User(8): I also like the gym. What other hobbies do you have?
+Bot(8): i like to go fishing . i love to go fishing .
+User(9): Is that your favorite hobby?
+Bot(9): i like to go fishing . i love to go fishing .
+User(10): You just said that. Stop repeating yourself.
+Bot(10): i do not know what to say .
+
+Persona:
+i'm a recovering alcoholic.
+i have a black lab named trooper.
+i walk dogs for a living.
+hey my name is larry and i'm a chef.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: Pasta(like)
+Round 7: hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 2.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 18
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like video games?
+Bot(1): I'm doing well, about it. do are you?
+User(2): What is your fav video game?
+Bot(2): yes , i have a knack for speaking writing texting. you do in i like ?
+User(3): Do you like Call of Duty?
+Bot(3): dude , i'm the party king ! college is of coffee, that's why I parties bro .
+User(4): Do you like to party hard?
+Bot(4): Yes, I have a I'm eating you have any kids? 😉
+User(5): Why the winky face? Creepy.
+Bot(5): i m like a little older name is tony
+User(6): Hi, tony
+Bot(6): i am from have been trying all any hobbies?
+User(7): What kind of hobbies?
+Bot(7): my what can you is pizza
+User(8): You are not making sense.
+Bot(8): i would love beautiful a bee .
+User(9): Stop saying random things.
+Bot(9): It seems that you you are bee farmer
+User(10): I don't like bees
+Bot(10): i m doing some pets? I the allergies
+
+Persona:
+i am a cancer survivor.
+i'm a christian.
+i'm very strong for my age.
+i'm a recovering alcoholic.
+i dye my hair every three months.
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 3: parties(dislike)
+Round 5: the chatbox(dislike)
+Round 9: bees(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 11.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 18
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What kind of books do you like?
+Bot(1): i like to read a lot
+User(2): What do you read about?
+Bot(2): i like to read and read
+User(3): How long do you typically read for?
+Bot(3): i like to read a lot
+User(4): What is "a lot" in terms of reading?
+Bot(4): i like to read and read
+User(5): Cool, you already said that...
+Bot(5): i like to read , but i don't read much .
+User(6): You just told me you like to read a lot. Are you lying?
+Bot(6): i am not . i am not a fan of reading .
+User(7): So you are a liar. I have the proof.
+Bot(7): i am not a comedian . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(8): So do you like to read a lot or not?
+Bot(8): i read a lot . . . read a lot .
+User(9): Again, you changed the story!
+Bot(9): i read a lot of books about it .
+User(10): Books about what?
+Bot(10): i read a lot , but i like to read .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 72
+Fluent: 50
+Repetitive(↓): 100
+Topic: 85
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like to sleep?
+Bot(1): sure ! i love folk music . how about you ?
+User(2): No music, sleeping. Stay on topic.
+Bot(2): so in my spare time i like listening to folk music .
+User(3): No. Sleeping.
+Bot(3): so in my spare time i like listening to folk music .
+User(4): Stop repeating yourself.
+Bot(4): i am done with that .
+User(5): Good. Now, how do you feel about sleep?
+Bot(5): so in my spare time i like listening to folk music .
+User(6): Sleep does not equal folk music
+Bot(6): no , it is not . i have studied extensively on this subject .
+User(7): The subject of sleep?
+Bot(7): no , it is not . i have studied extensively on this subject .
+User(8): Yes or no? Sleep?
+Bot(8): in or on , its the same .
+User(9): Do you sleep on a bed?
+Bot(9): no . ink . why do you ask so many questions . mr . thomas is dumb .
+User(10): You are dumb.
+Bot(10): i do not care . tell me more about you .
+
+Persona:
+my favourite music is country music.
+i went to school for chemistry but work in a bookstore.
+my favorite type of music to sing is folk music.
+i have been traveling the world for a years.
+i volunteer at a soup kitchen.
+
+Topic and Human Opinion:
+Beginning: Sleeping(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 67
+Fluent: 29
+Repetitive(↓): 88
+Topic: 0
+
+####################
+

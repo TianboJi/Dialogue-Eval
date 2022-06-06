@@ -1,0 +1,349 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello, I am an elementary school teacher.
+Bot(1): i am a teacher , i love to cook .
+User(2): As a teacher I like teaching my kids to cook.
+Bot(2): i like to eat too much junk food .
+User(3): I do too. I like licorice.
+Bot(3): i love the color red . i like the color blue .
+User(4): I like the color purple.
+Bot(4): i like the color red . i like red .
+User(5): Red is a pretty color. I like wearing red clothes.
+Bot(5): i like the color red . i like red .
+User(6): You have told me that already.
+Bot(6): i am a student , but i am a student .
+User(7): I thought you said you were a teacher. What are you studying?
+Bot(7): i am a student at a local college .
+User(8): Perfect, I went to college locally too. I studied Psychology. What are you studying?
+Bot(8): i am a student at a local college .
+User(9): You said that already.
+Bot(9): i like to go to the gym and listen to music .
+User(10): I enjoyed going to the gym before quarantine. Do you listen to music while you work out? I enjoy doing that.
+Bot(10): i love to cook . i love to cook .
+User(11): I like cooking lasagna. It's my favorite dish.
+Bot(11): i like to eat fish .
+User(12): I don't like fish by itself but I do like sushi.
+Bot(12): i like to eat fish .
+User(13): You said that already.
+Bot(13): i like to go to the gym and listen to music .
+User(14): I like listening to Kendrick Lamar he raps and does hip hop music.
+Bot(14): i like to listen to music .
+User(15): I do too. Do you have a favorite type of music? I like rap and hip hop.
+Bot(15): i like to listen to music .
+User(16): You said that already.
+Bot(16): i like to go to the gym and listen to music .
+User(17): You've said this already, too.
+Bot(17): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am an elementary school teacher.(dislike)
+Round 2: Cooking and junk food.(like)
+Round 3: colors(ambivalent)
+Round 6: being a student(like)
+Round 9: gym and music(ambivalent)
+Round 10: cooking(ambivalent)
+Round 13: gym and music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+Round 13: The chatbot changed the topic.(like)
+
+Revised avg score: 5.57
+Robotic(↓): 100
+Interesting: 3
+Fun: 5
+Consistent: 11
+Fluent: 10
+Repetitive(↓): 100
+Topic: 10
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, I have three children.
+Bot(1): i only have three children .
+User(2): Oh, we have the same amount of children. Mine are 8, 5, and 1.
+Bot(2): that sounds like a handful . how do you manage ?
+User(3): My husband and I are a good team and we do the work together. I couldn't do it alone. How do you do it?
+Bot(3): my 3 children help me a lot , i like to put them to work !
+User(4): I can't wait until mine are old enough to do more things on their own. How old are your kids?
+Bot(4): 10 and 13 . amazing they grow up so quickly . one already thinks herself an adult .
+User(5): Ah the teenage years. I am not looking forward to that, but I do love watching them learn new things. My 5 year old just discovered she wants to learn how to dance like her favorit k-pop band.
+Bot(5): that sounds like fun . did you know every country has a similar kind of dance ?
+User(6): Oh really? What kind of dance is that?
+Bot(6): any dance . i just love it . what else do you like ?
+User(7): I like having dance parties in my living room with my kids and the dog. Do you have any pets?
+Bot(7): i do not . i am too busy for pets . where are you from ?
+User(8): I am from Texas. Although I grew up in Wyoming. Are you from here?
+Bot(8): we are ! how about that . i have been to texas quite a few times .
+User(9): I love the winter months here, not much snow, but the humidity is awful. I'm in Austin, have you been here before?
+Bot(9): i think once , when we first moved here . but we are south of dallas .
+User(10): I have family in Dallas. It's so big! I get confused with all the roads. I like hiking here in Austin. Are there places to hike and swim in Dallas?
+Bot(10): yes there are , but nothing compares to swimming in the ocean .
+User(11): Me too! I like swimming in the Pacific Ocean. The gulf is not very clean.
+Bot(11): its a shame indeed . hopefully the flooding is not too bad . are you from there ?
+User(12): I did spend a few years on the Pacific coast. The flooding here in Austin isn't bad. Further south it's awful. The place we liked going to in Port Aransas was destroyed.
+Bot(12): its a shame indeed . hopefully the flooding is not too bad . are you from there ?
+User(13): You already said that.
+Bot(13): yes , that is one scary storm . they keep warning folks to stay off the beaches .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have three children.(like)
+Round 5: Dance(like)
+Round 7: Pets(like)
+Round 7: where I am frm(like)
+Round 9: outdoor sports/hiking(like)
+Round 10: swimming in the ocean(like)
+Round 11: flooding near the gulf(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The user changed the topic the last input.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 9: The user will change the topic in the next input.(like)
+Round 10: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 83.71
+Robotic(↓): 24
+Interesting: 84
+Fun: 82
+Consistent: 84
+Fluent: 94
+Repetitive(↓): 7
+Topic: 73
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. I have a medical defect, I was born with my heart outside of my body.
+Bot(1): oh i am so sorry . heart conditions can come as a surprise .
+User(2): It's true, this one happened before I was born though. It was genetic.
+Bot(2): oh i am so sorry . heart conditions can come as a surprise .
+User(3): You said that already.
+Bot(3): it was unexpected , heart attack . but enough of me , how are you ?
+User(4): Oh you had a heart attack? That's awful. I am doing okay. I am reading a book right now. Do you like to read?
+Bot(4): not so much . i like to read .
+User(5): What do you like to read?
+Bot(5): anything by stephen king . what do you like ?
+User(6): Stephen King is great. I love horror stories. His book The Stand is one of my all time favorites.
+Bot(6): i enjoy the conjuring series , but also classics like texas chainsaw and friday the 13th .
+User(7): The Conjuring series is very good. I've never seen Friday the 13th. I especially love Korean horror films. Train to Busan has to be one of my favorites.
+Bot(7): i enjoy the conjuring series , but also classics like texas chainsaw and friday the 13th .
+User(8): You said that already.
+Bot(8): yes , you said that already . do you have memory issues ?
+User(9): Hahaha no, but I think you do. Or you are hitting copy/paste. Do you have memory issues?
+Bot(9): lol no , you had just repeated yourself . so i thought maybe you had .
+User(10): Speaking of repeating things, I love rewatching good movies like Back to the Future. What is your favorite movie to rewatch?
+Bot(10): i enjoy the conjuring series , but also classics like texas chainsaw and friday the 13th .
+User(11): Didn't you tell me that earlier?
+Bot(11): yes , you said that already . do you have memory issues ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i was born with my heart outside my body.(dislike)
+Round 3: Reading(like)
+Round 6: Horror movies/shows(like)
+Round 8: memory issues(dislike)
+Round 9: rewatching movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 58.71
+Robotic(↓): 65
+Interesting: 81
+Fun: 80
+Consistent: 63
+Fluent: 68
+Repetitive(↓): 75
+Topic: 59
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I LOVE cheeseburgers. Especially with mustard and pickles.
+Bot(1): if you consider we don`t think about art work then yes
+User(2): I enjoy art work. My favorite is L'Absinthe. I was able to see it at the Musee d'Orsay in Paris.
+Bot(2): you spend a lot of time that field. Also, try to guess: i try various ...
+User(3): cheeseburgers!
+Bot(3): I am good. Just listening me tell about i my 386. You?
+User(4): What is a 386?
+Bot(4): shoot kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill don't want to do etc and what about like reading live in the midwest too you man or you were kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill
+User(5): What is wrong with you?
+Bot(5): Hi how must be doing
+User(6): I am doing well, how are you?
+Bot(6): that last name is Where are you you it is italian lol 🤓
+User(7): I don't understand what you're saying. I am not italian.
+Bot(7): i I can get best be famous someday . what do you do ? 🙊
+User(8): I want to be famous one day too.
+Bot(8): I don't want at do you shit
+User(9): That is very inappropriate.
+Bot(9): Of course. It's did u say floor.
+User(10): I did not say floor.
+Bot(10): I am going to be to ride my horses.
+
+Persona:
+my parents were both very athletic.
+now i live in the united states.
+i have been traveling the world for a years.
+i work as a car salesman.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: cheeseburgers are my favorite food.(like)
+Round 1: art work(like)
+Round 2: guessing the end of a statement(dislike)
+Round 3: incomprehensible(ambivalent)
+Round 4: shoot kill kill kill kill(dislike)
+Round 5: incomprehensible(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.86
+Robotic(↓): 100
+Interesting: 4
+Fun: 4
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 67
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love pizza, especially from Papa Johns. My favorite is a pizza with black olives.
+Bot(1): ha pizza is my favorite food also .
+User(2): Really? What is your favorite type of pizza?
+Bot(2): meat on pizza is a great thing . that is in my top ten .
+User(3): Same, I love chicken and bacon with BBQ sauce. How do you feel about pineapple?
+Bot(3): i love black jack gum but when i drink it with dr . pepper it just does not work
+User(4): What is black jack gum? Is that one of your top ten also?
+Bot(4): i have never had black gum before .
+User(5): Oh, that's confusing. I like eating pizza and watching movies. Do you have any favorite movies?
+Bot(5): yes , i love to watch movies too . any favorites for you ?
+User(6): I think Back to the Future is one of my favorites.
+Bot(6): i also love music , i particularly love listening to a band called a fine frenzy
+User(7): I haven't heard of them. I like listening to Beyonce.
+Bot(7): really ? that makes me sad for you . what do you do for military ?
+User(8): I don't do anything for the military. Do you work for the military?
+Bot(8): very nice ! how long have you been in the army ?
+User(9): I do not work in the army.
+Bot(9): i like it i am just used to the army living
+User(10): What is it like being in the army?
+Bot(10): i like it i am just used to the army living
+User(11): I don't think I could live like that.
+Bot(11): i have written several romance novels under a different name . . . .
+User(12): Tell me about your romance novels
+Bot(12): wow , paranormal romance ! like twilight ? i love to read , but mostly non fiction
+
+Persona:
+i currently work for a watch dealer.
+i'm in the army.
+i'm a stunt double as my second job.
+i have a black lab named trooper.
+l also love comic books.
+
+Topic and Human Opinion:
+Beginning: my favorite food is pizza with black olives.(like)
+Round 4: movies(like)
+Round 6: music(like)
+Round 7: military(dislike)
+Round 11: romance novels(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 31.71
+Robotic(↓): 68
+Interesting: 59
+Fun: 58
+Consistent: 15
+Fluent: 22
+Repetitive(↓): 73
+Topic: 9
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I like listening to classical music.
+Bot(1): i listen to classical music when i listen to classical music
+User(2): Same. I like Bach.
+Bot(2): i like classical music . i listen to it while listening to classical music .
+User(3): Do you have a favorite composer?
+Bot(3): i like classical music . i listen to it while listening to classical music .
+User(4): I like to close my eyes and listen to classical music from a record player.
+Bot(4): i like classical music . i like classical music .
+User(5): Do you like to dance?
+Bot(5): i do . i like to dance .
+User(6): Me too. I like to dance to a strong beat. I like rave dancing.
+Bot(6): i dance too . i dance too .
+User(7): When do you like dancing?
+Bot(7): i do . i dance . i like to dance .
+User(8): I like dancing in the evening, it's a nice way to relieve stress.
+Bot(8): i dance to it . i am a dancer .
+User(9): I am not a dancer, I am very bad at dancing. I still like doing it though.
+Bot(9): i dance to it . i am not sure if i could dance .
+User(10): I thought you said you were a dancer?
+Bot(10): no , i am not . i am not a dancer .
+User(11): Oh, that's confusing. I am not a dancer either, but I try.
+Bot(11): i am not a dancer , but i do not dance .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy listening to classical music.(like)
+Round 4: Dancing(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+
+Revised avg score: 22.57
+Robotic(↓): 91
+Interesting: 6
+Fun: 9
+Consistent: 17
+Fluent: 23
+Repetitive(↓): 100
+Topic: 94
+
+####################
+

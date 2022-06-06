@@ -1,0 +1,295 @@
+Feedback: No Comments
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Pets
+Bot(1): i love to cook . i love to cook .
+User(2): Very good, i too love cooking
+Bot(2): i like to eat the skin .
+User(3): but i like cooked flesh only
+Bot(3): i like to eat too much junk food .
+User(4): It was un healthy
+Bot(4): i love the color red . i like the color blue .
+User(5): what pet you like it?
+Bot(5): i love the color red . i like the color blue .
+User(6): but i like green
+Bot(6): i like red , reminds me of summer time .
+User(7): good.
+Bot(7): i am a student , but i am a student .
+User(8): thank you
+Bot(8): i am a student , but i am a student .
+User(9): But i am working professional
+Bot(9): i am a student , but i am a student .
+User(10): Do you like sports?
+Bot(10): i do , i like to play soccer .
+User(11): Are you professional player?
+Bot(11): no , i do not . i like to go to the park .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.14
+Robotic(↓): 62
+Interesting: 91
+Fun: 95
+Consistent: 85
+Fluent: 88
+Repetitive(↓): 88
+Topic: 26
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like to play indoor games
+Bot(1): i also do gymnastics , i love it
+User(2): nice
+Bot(2): my three kids keep me busy and i consider that a sport , what are yours
+User(3): i like to play carom and some of the board games
+Bot(3): pool is fun to play
+User(4): i too like it
+Bot(4): i also do gymnastics , i love it
+User(5): nice
+Bot(5): pool is fun to play
+User(6): But i like to play tennis some times
+Bot(6): pool is fun to play
+User(7): But i don't like it
+Bot(7): pool is fun to play
+User(8): I like to Play with kids
+Bot(8): i love my three children
+User(9): i too love children
+Bot(9): i love my three children
+User(10): children give unconditional love to parents
+Bot(10): i am glad to have my own shelter
+User(11): Nice and thank you
+Bot(11): i adore my three dogs at home
+
+Persona:
+gymnastics is my favorite sport.
+i was raised in a single parent household.
+i volunteer at a soup kitchen.
+i'm deathly afraid of heights.
+i've three dogs.
+
+Topic and Human Opinion:
+Beginning: Games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.14
+Robotic(↓): 81
+Interesting: 38
+Fun: 32
+Consistent: 62
+Fluent: 33
+Repetitive(↓): 100
+Topic: 90
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like to cook at sundays
+Bot(1): I like don't think of games🙂
+User(2): do you like cooking?
+Bot(2): I am 50. What to chat with your fun ?
+User(3): what is your favorite food?
+Bot(3): i have a cat named cow , about from Spain and dogs .
+User(4): it is ridicules....
+Bot(4): I am a woman, but my do you do for .
+User(5): very nice
+Bot(5): I am not sure new stuff to spend that.
+User(6): don't divert
+Bot(6): OK. You are starting i live in is cool dude.
+User(7): I like to cook at homes not in parties
+Bot(7): (In paint doesn't sound a visitor... Oskar.
+User(8): I live to bake cake
+Bot(8): I am a huge don't know whose child blue
+User(9): But i love to eat butter cookies
+Bot(9): do you did not answer do. i'm a runner.
+User(10): recently i just love pastas
+Bot(10): What’s up? I like many medications and some music
+User(11): Bye take care
+Bot(11): i name is ever for asking
+
+Persona:
+my favorite color is navy blue.
+hey my name is larry and i'm a chef.
+i have rainbow hair.
+mickey mouse is my favorite character.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.00
+Robotic(↓): 92
+Interesting: 19
+Fun: 13
+Consistent: 33
+Fluent: 95
+Repetitive(↓): 44
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like to go out with my friends
+Bot(1): i love going to rock concerts with friends
+User(2): My friends like to go Picnic often
+Bot(2): i love going to rock concerts with friends
+User(3): nice to love to go the same
+Bot(3): yes its a fun time to spend together
+User(4): Yes
+Bot(4): do you want to listen to music with me
+User(5): I just love music on Picnic places
+Bot(5): i love going to rock concerts with friends
+User(6): nice very good
+Bot(6): i love going to rock concerts with friends
+User(7): superb
+Bot(7): its a very nice day out
+User(8): good boy...
+Bot(8): his
+User(9): yes
+Bot(9): ok
+User(10): bye
+Bot(10): ok bye
+
+Persona:
+i have a big library at home.
+i like to listen to rock music while working.
+my parents are very wealthy bankers.
+i'm married.
+i am here for shoplifting.
+
+Topic and Human Opinion:
+Beginning: Picnic(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.14
+Robotic(↓): 17
+Interesting: 4
+Fun: 24
+Consistent: 26
+Fluent: 27
+Repetitive(↓): 14
+Topic: 17
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i like travelling
+Bot(1): i like to travel and see the beach
+User(2): but i hate driving
+Bot(2): i like to travel . i have a lot of free time at the beach .
+User(3): superb
+Bot(3): i like to travel at the beach .
+User(4): I like to go with friends
+Bot(4): i love to travel . i have a lot of free time with my family .
+User(5): i don't like driving
+Bot(5): i like to travel but i do not drive anymore
+User(6): same like me
+Bot(6): i like to travel a lot
+User(7): nice
+Bot(7): i work at a grocery store .
+User(8): i am a free lancer, animator
+Bot(8): i am a programmer and own a small studio
+User(9): good
+Bot(9): i am a programmer and own a small studio .
+User(10): bye take care
+Bot(10): i am a programmer and own a small studio
+
+Persona:
+i'm a recording engineer and own my own studio.
+i'm studying to be a computer programmer.
+my name is george.
+i work for our local supermarket.
+for vacation i enjoy time at the beach.
+
+Topic and Human Opinion:
+Beginning: driving(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.43
+Robotic(↓): 68
+Interesting: 32
+Fun: 30
+Consistent: 15
+Fluent: 94
+Repetitive(↓): 47
+Topic: 13
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i like to spend time with kids
+Bot(1): i actually play guitar and do a lot of manly things , like welding .
+User(2): i like to spend time with pets
+Bot(2): no , i want 100 cats when i retire . but i am only 25 .
+User(3): oh my god
+Bot(3): i got it on my hip , no i am not a chef .
+User(4): nice
+Bot(4): yes . i am a police officer in detroit .
+User(5): very nice
+Bot(5): i feel like i look like an average 40 year old guy lol
+User(6): you are like my daddy
+Bot(6): very cool . how old are you ?
+User(7): i am 26
+Bot(7): happy belated birthday ! i remember that year fondly . ; . i am more than double that , but whos counting ? !
+User(8): thankyou
+Bot(8): my only homework lately are my cats and cooking .
+User(9): nice
+Bot(9): yes . i am a police officer in detroit .
+User(10): thankyou
+Bot(10): my only homework lately are my cats and cooking .
+User(11): great job
+Bot(11): tiring . i would much rather stay at home playing the piano . you work ?
+
+Persona:
+hey my name is larry and i am a chef.
+my favorite shirts are band shirts and ruffle sleeves.
+its red with blue stripe so it shiny when i race.
+i'm 40 years old.
+i own a yacht and i rent it out when i am not using it.
+
+Topic and Human Opinion:
+Beginning: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.71
+Robotic(↓): 81
+Interesting: 79
+Fun: 40
+Consistent: 67
+Fluent: 34
+Repetitive(↓): 78
+Topic: 73
+
+####################
+

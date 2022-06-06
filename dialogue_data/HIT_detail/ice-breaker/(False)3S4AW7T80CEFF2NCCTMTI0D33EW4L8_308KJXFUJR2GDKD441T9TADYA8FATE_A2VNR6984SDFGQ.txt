@@ -1,0 +1,304 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I have short hair for a few years now.
+Bot(1): she is a wild cat about the same size as a bob cat . she is short hair .
+User(2): Who are you referring too? Is that your cat?
+Bot(2): another cat lover , awesome . we have to meet and have a drink soon .
+User(3): Well I don't drink, and I'm not sure I'm a cat lover.
+Bot(3): i wish i was not allergic to cats . what are your cats named ?
+User(4): i have a dog not a cat
+Bot(4): what is your dogs name , i am allergic to them .
+User(5): My dog's name is Precious. She is so sweet. i'm sorry you are allergic to them.
+Bot(5): adopt a kitten maybe . there is plenty of shelter animals in need of homes .
+User(6): My son has an allergy to cats.
+Bot(6): no dogs do not do so good around the cats . cool name !
+User(7): My dog is laid back. How about your cat?
+Bot(7): aww i have 2 dogs and a lizard . i want to be a vet
+User(8): You sure have a lot of pets.
+Bot(8): yes i do i have 3 dogs .
+User(9): Wow that was a quick change from 2 to 3 dogs. Did one just give birth?
+Bot(9): i like to do things that way too . do you shop on google ?
+User(10): You sure change the topics a lot.
+Bot(10): do you like music in your language ?
+User(11): I sure do. I like Billy Joel. Who do you like?
+Bot(11): engineer . but i took off for a few months to travel .
+User(12): I meant what music do you like since you were talking about music.
+Bot(12): nice talking to you , too . maybe i will nap before my hike .
+User(13): Good night.
+Bot(13): i am doing pretty well thank you . you ?
+User(14): I am well.
+Bot(14): just got in from my garden . i was seeing if my carrots are ready to harvest .
+User(15): How many do you have?
+Bot(15): five dogs and four cats . i also have a horse . do you have any ?
+User(16): I meant how many carrots?
+Bot(16): oh no , carrots are pretty good to me . that is a shame .
+User(17): What's a shame?
+Bot(17): my lg phone allows me to read in english and french
+User(18): do you know both languages?
+Bot(18): i speak english and french and spanish fluently
+User(19): My son is studying Spanish.
+Bot(19): i can only speak one language !
+User(20): You must lie because you told me you knew 3 languages a minute ago.
+Bot(20): i can only speak one language !
+
+Persona:
+i am a recording engineer and own my own studio.
+i've a children and a dogs.
+i work at a school.
+my next language to study is french.
+i'm retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: i've short hair.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.43
+Robotic(↓): 100
+Interesting: 34
+Fun: 23
+Consistent: 22
+Fluent: 19
+Repetitive(↓): 35
+Topic: 15
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): How long did you teach gym?
+Bot(1): about four years . i started at the beginning of high school
+User(2): Do you enjoy work?
+Bot(2): sometimes
+User(3): What is difficult?
+Bot(3): math
+User(4): Do you teach math?
+Bot(4): math
+User(5): Do you like math?
+Bot(5): i do like it , i love math
+User(6): What are you doing in your free time?
+Bot(6): i have a lot of free time when i am not studying or working out .
+User(7): What are you studying for
+Bot(7): math
+User(8): How hard is it?
+Bot(8): math
+User(9): What do you like about being a male?
+Bot(9): what you get from a male
+User(10): What is that?
+Bot(10): what you get from a male
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a retired gym teacher.(like)
+Round 4: math(like)
+Round 8: i am a male.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 8: The user wants the bot to change the topic.(like)
+
+Revised avg score: 23.43
+Robotic(↓): 99
+Interesting: 20
+Fun: 14
+Consistent: 24
+Fluent: 28
+Repetitive(↓): 40
+Topic: 17
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What did you do?
+Bot(1): i was just a little bit of a guy
+User(2): What does that mean?
+Bot(2): nothing much , just about to say it is not that good
+User(3): Tell me more
+Bot(3): what do you do for a living ?
+User(4): I work doing surveys
+Bot(4): what do you do for a living ?
+User(5): What did you do for a living?
+Bot(5): i work at a bank
+User(6): I didn't know they hired juveniles at a bank
+Bot(6): that is a good job . i work at a bank
+User(7): Did you rob the bank?
+Bot(7): no i don't have any
+User(8): Don't have any what?
+Bot(8): no i don't have any
+User(9): I'm confused. What will you do today?
+Bot(9): i just got back from the bank
+User(10): How did you do that if you are in juvenile detention?
+Bot(10): i was in the marines
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am currently in a juvenile detention center.(like)
+Round 4: jobs(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 17.00
+Robotic(↓): 100
+Interesting: 13
+Fun: 14
+Consistent: 12
+Fluent: 12
+Repetitive(↓): 44
+Topic: 12
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): that sounds nice
+Bot(1): I am a is also am 27. arm .
+User(2): are you female?
+Bot(2): Hi! What is your name? i go there to i work from home
+User(3): I am jojo
+Bot(3): I am a vegan. funny you are vegan.
+User(4): I didn't say that but interesting
+Bot(4): as my second music. country's good :)
+User(5): I like Billy Joel
+Bot(5): I love horror baby delivery a ghost home depot.
+User(6): I like Home Depot
+Bot(6): cool ✨ living in Alabama, a vegan
+User(7): Is it warm there?
+Bot(7): I am. to go female.
+User(8): Do you like long hair
+Bot(8): that sounds interesting. do and plays a key do.
+User(9): I'm confused what do you mean
+Bot(9): an i like reading up truck you
+User(10): Do you drive a truck
+Bot(10): I am so tired We corn corn corn.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've blue eyes and red hair that comes to my waist.(like)
+Round 3: i'm a vegan(like)
+Round 9: truck(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 19.29
+Robotic(↓): 100
+Interesting: 13
+Fun: 12
+Consistent: 11
+Fluent: 14
+Repetitive(↓): 31
+Topic: 16
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what tricks do you do
+Bot(1): i like to read and write poetry .
+User(2): That's different
+Bot(2): i love to cook . i love to cook .
+User(3): What do you cook
+Bot(3): no , i do not , but i do like to eat .
+User(4): I like to cook
+Bot(4): i like to eat the skin .
+User(5): Of what
+Bot(5): i like to go to the gym and listen to music .
+User(6): I like to workout
+Bot(6): i like to go to the lake and listen to music .
+User(7): That sounds exciting
+Bot(7): i love to cook . i love to cook .
+User(8): That is great
+Bot(8): i love to go fishing .
+User(9): I don't like worms
+Bot(9): i like to go to the gym and listen to music .
+User(10): I heard that before.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a skateboarder.(like)
+Round 1: poetry(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 19.00
+Robotic(↓): 100
+Interesting: 5
+Fun: 10
+Consistent: 9
+Fluent: 9
+Repetitive(↓): 9
+Topic: 9
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What tea is your favorite
+Bot(1): i love tea . i went vegan only a year ago . i love veggies and fruit .
+User(2): What fruit is your favorite
+Bot(2): this is a little controversial , but pineapple
+User(3): That takes a while to grow
+Bot(3): plants sucks anyway my mom always kill them
+User(4): That's sad
+Bot(4): yes i know but its makes me happy
+User(5): What plants did she kill
+Bot(5): plants sucks anyway my mom always kill them
+User(6): did she kill a cactus
+Bot(6): oh no no no no no
+User(7): What plant did she kill
+Bot(7): plants sucks anyway my mom always kill them
+User(8): I hear you
+Bot(8): why did the chicken cross the road
+User(9): to get to the other side
+Bot(9): why did the chicken cross the road
+User(10): I don't know
+Bot(10): why did the chicken cross the road
+
+Persona:
+i work as a car salesman.
+i feel like i might live forever.
+my dad taught me everything i know.
+i'm an animal activist.
+i'm a vegetarian.
+
+Topic and Human Opinion:
+Beginning: i love to drink fancy tea.(like)
+Round 8: chicken crossing the road(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 13
+Fun: 13
+Consistent: 11
+Fluent: 12
+Repetitive(↓): 11
+Topic: 12
+
+####################
+

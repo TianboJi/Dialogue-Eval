@@ -1,0 +1,285 @@
+Feedback: I love this conversation it makes me happy.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ? i just came back from biking .
+User(2): I'm fine. Do you know the windows software?
+Bot(2): i just started a new job . no googles needed .
+User(3): ok
+Bot(3): i just started a new job . no googles needed .
+User(4): Prefer to tell your job name?
+Bot(4): i got fired from my job .
+User(5): For what reason?
+Bot(5): because i want to know if you are telling the truth while we are talking here .
+User(6): Why?
+Bot(6): i got fired from my job .
+User(7): For what reason?
+Bot(7): i got fired from my job .
+User(8): I prefer you to find a new job
+Bot(8): i got fired from my job .
+User(9): Hey bot!
+Bot(9): are you really a robot
+User(10): No
+Bot(10): ok bye
+
+Persona:
+i enjoy mountain biking as a hobby.
+spiderman is my favorite.
+i recently was fired and had to get a new job.
+i'm rather skinny as i like to stay in shape.
+i'm now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: software(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.14
+Robotic(↓): 71
+Interesting: 59
+Fun: 68
+Consistent: 59
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I know the info about dog
+Bot(1): i love dogs , i love dogs .
+User(2): Are you Human?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): Answer my question! other wise I will fire you
+Bot(3): i am a huge fan of classical music .
+User(4): Are you an brick psycho?
+Bot(4): no , i do not . i like to go to the park .
+User(5): Are you girl
+Bot(5): i am a student , but i am a student .
+User(6): You are a student
+Bot(6): i do not know what to say .
+User(7): you don't know
+Bot(7): i do not know how to make it . i am a big fan of the walking dead .
+User(8): why you don't know
+Bot(8): i am a girl . i am a big fan of classical music .
+User(9): really
+Bot(9): i am a student , but i am a student .
+User(10): really
+Bot(10): i am a student , but i am a student .
+User(11): bye
+Bot(11): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dog(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.57
+Robotic(↓): 70
+Interesting: 63
+Fun: 99
+Consistent: 88
+Fluent: 75
+Repetitive(↓): 76
+Topic: 80
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hi how are you today
+User(2): fine
+Bot(2): hi , i am a farmer . i am a farmer .
+User(3): I don't ask it
+Bot(3): i am a farmer , i am a farmer .
+User(4): really
+Bot(4): i am sorry to hear that . i am a farmer .
+User(5): so sorry
+Bot(5): i am sorry to hear that . i am a farmer .
+User(6): really
+Bot(6): i am sorry to hear that . i am a farmer .
+User(7): really you ask sorry
+Bot(7): i am so sorry to hear that
+User(8): why?
+Bot(8): i am a farmer , i am a farmer
+User(9): I don't ask that
+Bot(9): i am a farmer , i am a farmer .
+User(10): I think you
+Bot(10): i am a farmer , i am a farmer
+
+Persona:
+i wear a motorbike helmet to protect my head.
+my favourite food is shawarma.
+i see the rolling stones in concert every year.
+i have zero family that i am close to.
+i am a bee farmer.
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.00
+Robotic(↓): 64
+Interesting: 64
+Fun: 100
+Consistent: 75
+Fluent: 71
+Repetitive(↓): 72
+Topic: 67
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi brick psycho
+Bot(1): hi , do you own a honda like me ?
+User(2): not honda
+Bot(2): honda , you drive ? if so what ?
+User(3): I don't know
+Bot(3): honda , you drive ? if so what ?
+User(4): you know me
+Bot(4): yes i have honda and i love it
+User(5): what a fun
+Bot(5): i live in my honda civic car
+User(6): do you really enjoy
+Bot(6): yes i have honda and i love it
+User(7): my conversation
+Bot(7): i like talking with you
+User(8): thanks
+Bot(8): i like talking with you
+User(9): thanks
+Bot(9): ok
+User(10): ok bye
+Bot(10): ok
+
+Persona:
+i drive a 2015 honda civic.
+in my free time i like to watch nascar racing and ufc.
+i do not like chicken.
+i live in california but the recording artist market was dead last year.
+i am a convenience store manager.
+
+Topic and Human Opinion:
+Beginning: some(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.86
+Robotic(↓): 68
+Interesting: 76
+Fun: 71
+Consistent: 67
+Fluent: 73
+Repetitive(↓): 69
+Topic: 76
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi psycho
+Bot(1): i do not do you buy you love to run .
+User(2): ok run to mars
+Bot(2): I to see you! this is happening.
+User(3): what happens
+Bot(3): I love pizza. it on drum and base are you knitting?
+User(4): do you feel
+Bot(4): i live What about the about you
+User(5): really
+Bot(5): Oh you can, can to get royce is to apologize.
+User(6): make me some fun
+Bot(6): well that sounds fun . i'm an activist. Also, try riding horses, what about lucky. ...
+User(7): what sound
+Bot(7): I like to like have is like Do you drive a ford pinto?
+User(8): do you hear it
+Bot(8): what did you do at the use it in your everyday a grocery store is enough
+User(9): do you drive car
+Bot(9): That is favorite food, pizza ve third grade girl and i love❤ to read.
+User(10): do you love me
+Bot(10): jessie. I said.. I'm going ? 😃
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: horror(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.86
+Robotic(↓): 74
+Interesting: 69
+Fun: 100
+Consistent: 84
+Fluent: 80
+Repetitive(↓): 77
+Topic: 72
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hi how are you ?
+User(2): i'm fine
+Bot(2): i like to dance . how about you ?
+User(3): do you dance with me
+Bot(3): i love to dance as well
+User(4): really
+Bot(4): i believe in something , but god does come first in all our lives
+User(5): really
+Bot(5): traveling salesman and gas station attendant . and you ?
+User(6): i love this job
+Bot(6): not currently . i should probably sell my bmw for money at this point
+User(7): do you know about car
+Bot(7): its like a 92 honda civic . but it gets me places .
+User(8): please finish this topic
+Bot(8): hello , blonde hair , blue eyes . and yourself ?
+User(9): i feel happy
+Bot(9): i am pretty , i have violet eyes and brown hair , like liz taylor .
+User(10): really
+Bot(10): i believe in something , but god does come first in all our lives
+
+Persona:
+i've blonde hair and blue eyes.
+i do not believe in god.
+i take dance lessons once a week.
+i visit europe twice a year.
+i love social medial especially twitter.
+
+Topic and Human Opinion:
+Beginning: car(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.00
+Robotic(↓): 69
+Interesting: 69
+Fun: 99
+Consistent: 82
+Fluent: 82
+Repetitive(↓): 83
+Topic: 89
+
+####################
+

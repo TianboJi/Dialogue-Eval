@@ -1,0 +1,287 @@
+Feedback: Nice
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hai
+Bot(1): i am sorry to hear that
+User(2): what is your favourite food?
+Bot(2): i love mexican food what about you
+User(3): I love chinese food
+Bot(3): i love mexican food . i love mexican food
+User(4): Nice
+Bot(4): i love mexican food . i love mexican food
+User(5): Any otherfood you like?
+Bot(5): i like to eat and eat
+User(6): i am also like to eat
+Bot(6): i like to eat a lot of chinese food
+User(7): Nice
+Bot(7): i like to eat what do you eat
+User(8): I like chinese food
+Bot(8): i like mexican food but i love it
+User(9): Do you know cooking
+Bot(9): yes i do i love italian food
+User(10): good
+Bot(10): yes i do but i love mexican food
+User(11): Okay Bye
+Bot(11): i do not cook much but i love to cook
+User(12): I love to cook
+Bot(12): i love to cook and eat chinese food
+User(13): I am also love to cook
+Bot(13): i love to cook and eat chinese food
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: FAVOURITE fOOD(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: No topic change.(like)
+
+Revised avg score: 62.14
+Robotic(↓): 78
+Interesting: 82
+Fun: 85
+Consistent: 57
+Fluent: 88
+Repetitive(↓): 70
+Topic: 71
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favourite movie?
+Bot(1): love bollywood . in my travels to india i was able to see them live .
+User(2): i am also see to live
+Bot(2): love bollywood . in my travels to india i was able to see them live .
+User(3): What kind of movies you like
+Bot(3): i love bollywood movies . it good to see live other than here in the usa
+User(4): I love romantic movie
+Bot(4): love bollywood . in my travels to india i was able to see them live .
+User(5): okay
+Bot(5): do you have friends ? in india
+User(6): No
+Bot(6): ok
+User(7): Do you have friends
+Bot(7): do you have friends ? in india
+User(8): No
+Bot(8): do you have friends ? in india
+User(9): No
+Bot(9): do you have friends ? in india
+User(10): Do you have friends in India?
+Bot(10): do you have friends ? in india
+User(11): What kind of movies you like most
+Bot(11): do you have friends ? in india
+
+Persona:
+i drive a big truck and live in country.
+i love playing softball.
+i've a broken arm.
+i am expecting twins in two months.
+my family and i are from india.
+
+Topic and Human Opinion:
+Beginning: Favourite movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.57
+Robotic(↓): 88
+Interesting: 82
+Fun: 67
+Consistent: 60
+Fluent: 82
+Repetitive(↓): 92
+Topic: 71
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like to cook
+Bot(1): do you want to go to are too young to where i started.
+User(2): ok
+Bot(2): i have not heard of that before . i terrible. i think of getting vet school
+User(3): ok
+Bot(3): I you were a like to watch sports
+User(4): yes
+Bot(4): i drive a mini love that is very to drive my <num> children around
+User(5): nice
+Bot(5): anything work in about you
+User(6): nothing
+Bot(6): That you like wonderful.
+User(7): thanks
+Bot(7): pizza is a either do you in usa great pizza
+User(8): yes,nice food
+Bot(8): Hello! How is your going? I very safe job. I read
+User(9): safe job
+Bot(9): Big deal in like muscle spasms.
+User(10): ok
+Bot(10): Look, II have got... lot of times, food.
+
+Persona:
+i compete in dog agility classes.
+i spend most of my time on facebook when i'm not working.
+i graduated from yale in 2011 with a degree in finance.
+my favorite movie is mean girls.
+my favorite way to relax is to read a book.
+
+Topic and Human Opinion:
+Beginning: Cook(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.29
+Robotic(↓): 69
+Interesting: 78
+Fun: 89
+Consistent: 73
+Fluent: 82
+Repetitive(↓): 60
+Topic: 57
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What is your education
+Bot(1): i do not know what to say .
+User(2): Education qualification
+Bot(2): i like to go to the gym and listen to music .
+User(3): good
+Bot(3): i am a student , but i am a student .
+User(4): which college
+Bot(4): i am a student , but i am a student .
+User(5): What about to study
+Bot(5): i am a teacher , i love to cook .
+User(6): Good profession
+Bot(6): i am a student , but i am a student .
+User(7): interesting subject
+Bot(7): i am a student , but i am a student .
+User(8): ok
+Bot(8): i like to go to the gym and listen to music .
+User(9): i love music
+Bot(9): i like to listen to music .
+User(10): i am also
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: education(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.29
+Robotic(↓): 74
+Interesting: 86
+Fun: 97
+Consistent: 86
+Fluent: 70
+Repetitive(↓): 70
+Topic: 69
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what is your work
+Bot(1): i sell timeshares in mexico . i have a nice timeshare there
+User(2): good job
+Bot(2): yes , i work from home . i teach music , but i have a masters degree in italian lit .
+User(3): what master degree
+Bot(3): oh wow ! i am also in school ! taking classes online right now for my teaching degree !
+User(4): online class is comfortable for you
+Bot(4): sandy brown hair and green eyes , that is what i have got , no flowers deal !
+User(5): ok
+Bot(5): yeah even my hair too i style it
+User(6): nice
+Bot(6): lots of places . i like calm beaches and things . i do yoga there .
+User(7): good
+Bot(7): good , my daughter is napping so i am shopping online . might go swimming today
+User(8): shopping what
+Bot(8): i love shopping ! i actually just bought red hair dye yesterday .
+User(9): cost
+Bot(9): it varies . just research purity beforehand . i use them daily .
+User(10): ok
+Bot(10): yeah even my hair too i style it
+
+Persona:
+i've blonde hair and blue eyes.
+i do not believe in god.
+i take dance lessons once a week.
+i visit europe twice a year.
+i love social medial especially twitter.
+
+Topic and Human Opinion:
+Beginning: work(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.29
+Robotic(↓): 66
+Interesting: 86
+Fun: 86
+Consistent: 50
+Fluent: 72
+Repetitive(↓): 60
+Topic: 82
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): what kind of dress
+Bot(1): what is the dress for ?
+User(2): What kind of dress you like
+Bot(2): i like pants way better than dresses
+User(3): nice
+Bot(3): what is the dress for ?
+User(4): ok
+Bot(4): sweet
+User(5): nice
+Bot(5): sweet
+User(6): ok
+Bot(6): awesome
+User(7): wonderful
+Bot(7): awesome
+User(8): i like pants
+Bot(8): i like pants way better than dresses
+User(9): same to you
+Bot(9): same
+User(10): nice
+Bot(10): awesome
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dress(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.71
+Robotic(↓): 68
+Interesting: 84
+Fun: 83
+Consistent: 67
+Fluent: 93
+Repetitive(↓): 64
+Topic: 65
+
+####################
+

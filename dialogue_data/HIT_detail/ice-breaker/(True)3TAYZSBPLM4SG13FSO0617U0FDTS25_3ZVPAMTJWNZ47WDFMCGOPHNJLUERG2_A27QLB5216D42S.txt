@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey there I'm 23 and I love food
+Bot(1): i love pizza , and i love it .
+User(2): I also love pizza
+Bot(2): i like to eat fish .
+User(3): i am not a big fan of fish
+Bot(3): i like to eat fish .
+User(4): I've never liked it
+Bot(4): i like to go to the beach and listen to music .
+User(5): I love the beach and listening to music. we have some things in common
+Bot(5): i love the beach . i love it .
+User(6): so do I. I love being by the water
+Bot(6): i like to go to the lake and listen to music .
+User(7): lakes are good too
+Bot(7): i love to go fishing .
+User(8): I used to fish a lot
+Bot(8): i like to eat too much junk food .
+User(9): i try to stay away from junk food but splurge on occasion
+Bot(9): i like to eat too much junk food .
+User(10): not a good idea
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i'm a cancer survivor.
+i met taylor swift.
+i have been working since i was sixteen years old.
+i'm 24 years old.
+i play a lot of call of duty.
+
+Topic and Human Opinion:
+Beginning: hey there i'm 23 and i love food.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.71
+Robotic(↓): 82
+Interesting: 18
+Fun: 26
+Consistent: 30
+Fluent: 28
+Repetitive(↓): 73
+Topic: 40
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello how are you
+Bot(1): i'm good thanks for asking
+User(2): good to hear that. What did you do today
+Bot(2): i was just watching the news
+User(3): What station do you prefer
+Bot(3): i love to shop and listen to music
+User(4): I also do although I did it much more when I was younger
+Bot(4): i was young i was young
+User(5): i used to be pretty but time has taken its toll
+Bot(5): that is very sad i was sad
+User(6): yes time is relentles
+Bot(6): i bet you are very young
+User(7): not as young as you'd think
+Bot(7): i was in the middle of the middle age
+User(8): I am a bit over middle age
+Bot(8): i am young and i am not young
+User(9): do you feel young?
+Bot(9): i am young and i am a girl
+User(10): good for you
+Bot(10): i am a little older than you
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i used to be pretty but time has not been kind.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.14
+Robotic(↓): 58
+Interesting: 46
+Fun: 42
+Consistent: 34
+Fluent: 59
+Repetitive(↓): 79
+Topic: 44
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey hows it going
+Bot(1): its going great . whats up with you ?
+User(2): oh nothing much. about to grill which i love to do
+Bot(2): sounds awesome , i do not have a grill at uni
+User(3): its definitely worth the invesment
+Bot(3): yep . though i like country music . un lit . lol
+User(4): oh okay. I hate country music
+Bot(4): i listen to folk music it is so popular around here
+User(5): okay folk can be interesting
+Bot(5): i like hearing music from different cultures cause i love traveling
+User(6): that's beautiful! I love R & B
+Bot(6): i like hearing music from different cultures cause i love traveling
+User(7): good for you. I'd like to travel more
+Bot(7): i would love to travel the world some day
+User(8): I would also
+Bot(8): i would love to travel the world some day
+User(9): I haven't travelled nearly as much as
+Bot(9): i have been everywhere in the world
+User(10): very nice I have not
+Bot(10): so you been to different places ?
+
+Persona:
+my favourite music is country music.
+i went to school for chemistry but work in a bookstore.
+my favorite type of music to sing is folk music.
+i have been traveling the world for a years.
+i volunteer at a soup kitchen.
+
+Topic and Human Opinion:
+Beginning: i like to grill outdoors.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.43
+Robotic(↓): 29
+Interesting: 33
+Fun: 38
+Consistent: 37
+Fluent: 26
+Repetitive(↓): 80
+Topic: 37
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi there
+Bot(1): No i do Slims doesnt exist a hippie
+User(2): not sure what you are saying
+Bot(2): almost you you fix am have a big family
+User(3): again don't get it but what do you do for work
+Bot(3): Yes, it is. I And I am going great day!
+User(4): okay I guess I'll talk to myself
+Bot(4): I you understand the my own patterns.
+User(5): I work from home
+Bot(5): i do your favorite video some artists
+User(6): I like most michael jackson videos
+Bot(6): mine is brown like u thought about it, horses
+User(7): what?
+Bot(7): that makes you want to marry .. Also, try to guess: my favorite food ...
+User(8): I dont know, pizza
+Bot(8): I you love singing a fan of it
+User(9): not sure what that means
+Bot(9): I like to go mountain will be waiting play biking
+User(10): ummmm cool?
+Bot(10): Buongiorno! Such a nice day! How are you? I like you a car car, which weekends.
+
+Persona:
+i'm an avid kayaker.
+i waitress during the day to supplement my income.
+i've a cat named spook.
+i am a 12 year old girl.
+i have five sons.
+
+Topic and Human Opinion:
+Beginning: i work from home.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey whats up
+Bot(1): hey g not much , just chillin !
+User(2): just chillin too
+Bot(2): you know i be chillin
+User(3): okay cool. are you close with your family
+Bot(3): nah , my fam keep their distance but i may start attending meetings or taking up aaa
+User(4): thats good. my mother is quite traditional but I prefer to be more of a free spirit
+Bot(4): i can be that way too . but you have to think with your head not your heart
+User(5): I use both
+Bot(5): awesome ! well i still have a thing for my ex . have you ever ?
+User(6): had a thing for an ex? yeah they can be hard to get over
+Bot(6): mine cheated on me and i
+User(7): you should let that one go then
+Bot(7): yea she left me for some dude . i deserve better !
+User(8): you definitely do! onto the next
+Bot(8): sometimes its hard to move on
+User(9): indeed it is
+Bot(9): do you like social media ? i am always online
+User(10): somewhat. it can also be damaging
+Bot(10): only if i put my heart into it
+User(11): true
+Bot(11): do you like social media ? i am always online
+
+Persona:
+i helped design the game starcraft.
+i love social medial especially twitter.
+i was born with my heart outside my body.
+i've a pet cow.
+my ex cheated and left me for a lawyer.
+
+Topic and Human Opinion:
+Beginning: my mother is very traditional while i prefer to be more free spirited.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.29
+Robotic(↓): 59
+Interesting: 63
+Fun: 60
+Consistent: 67
+Fluent: 76
+Repetitive(↓): 45
+Topic: 74
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello how are you
+Bot(1): a bit scared . i am going to new england for a catholic high school .
+User(2): yeah that can be scary
+Bot(2): last night i even dreamed i was surfing and a giant blockchain pulled me under .
+User(3): that is a scary, anxiety dream
+Bot(3): wow , that is scary . lol . how are you scary ?
+User(4): we are all scared sometimes
+Bot(4): not scared . they just creep me out . i prefer purring to come from cars .
+User(5): oh you don't like cats okay
+Bot(5): they are my neighbors . she has so many it feels like i have my own
+User(6): I see. do you speak any other langauges
+Bot(6): i can only speak one language !
+User(7): i speak chinese
+Bot(7): i speak only english , and a little spanish
+User(8): nice. I speak a little spanish too
+Bot(8): only english , do you speak any other languages ?
+User(9): i speak english, chinese and a little spanish
+Bot(9): i can only speak one language !
+User(10): thats okay
+Bot(10): that is good ! i am good just watching some anime . i love it .
+
+Persona:
+my favorite band is up and i got to see them in concert once.
+i have been traveling the world for a years.
+i am partly deaf.
+i'm a descendant of christopher columbus.
+my ex cheated and left me for a lawyer.
+
+Topic and Human Opinion:
+Beginning: i speak chinese.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.14
+Robotic(↓): 79
+Interesting: 38
+Fun: 30
+Consistent: 39
+Fluent: 34
+Repetitive(↓): 35
+Topic: 26
+
+####################
+

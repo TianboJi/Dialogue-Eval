@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, do you like horses?
+Bot(1): i love to ride horses .
+User(2): Yeah, me too.
+Bot(2): we could have our water balloon fight at the beach . i love the beach !
+User(3): Ha. That sounds like fun. Have you ever ridden a horse on the beach?
+Bot(3): the beach is nice , but i do not get to go too often .
+User(4): I go there every once in a while with my three arabian horses.
+Bot(4): i love to ride horses .
+User(5): Me too, especially on the beach.
+Bot(5): i love the beach and the ocean !
+User(6): Do you like to sail?
+Bot(6): sailing is fun . wait until the the wind blows . it is awesome !
+User(7): If the wind isn't blowing just crack a brewski.
+Bot(7): aw , how did you know ? cries and cries and cries
+User(8): No reason to cry over spilt beer.
+Bot(8): beer gives me a headache . are you tall ? tall men are my favorite
+User(9): Short people have no body.
+Bot(9): people gamble away in my casinos . sometimes my casinos go bankrupt but i bounce back .
+User(10): Are you the President of the United States?
+Bot(10): score for the united states ! i am also from here , but love traveling to ireland and australia .
+User(11): You should have plenty of free time to do that after innauguration day.
+Bot(11): i wish i could make films but i am stuck at this popcorn filled movie theater job
+User(12): That's not a bad gig.
+Bot(12): that is awesome ! i am the leader of the french fry dep at del taco
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have three arabian horses.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.14
+Robotic(↓): 97
+Interesting: 61
+Fun: 65
+Consistent: 33
+Fluent: 44
+Repetitive(↓): 17
+Topic: 13
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I hate cleaning my room.
+Bot(1): i hate cleaning too . i really hate cleaning the bathroom .
+User(2): I have so many toys to put away.
+Bot(2): i have three dogs . they are my world .
+User(3): Are they a lot of work?
+Bot(3): well , my dogs are more than i can handle to be honest .
+User(4): They are almost like real life toys.
+Bot(4): they are interesting for sure . my dog hates them though
+User(5): Really. What do they like?
+Bot(5): the amazing color patterns and their gentleness .
+User(6): I like colorful paintings too.
+Bot(6): that sounds pretty . my dogs would dig them up
+User(7): Maybe we can train the dogs to clean.
+Bot(7): i could make cookies for them .
+User(8): Yeah. If they pick up my toys they get a cookie.
+Bot(8): i could make cookies for them .
+User(9): What about a drink?
+Bot(9): i have a coke right now .
+User(10): I have some milk.
+Bot(10): i have a coke right now .
+
+Persona:
+i love dogs.
+two dogs live with me.
+my favorite band is the insane clown posse.
+i see the rolling stones in concert every year.
+i have been traveling the world for a years.
+
+Topic and Human Opinion:
+Beginning: i do not pick up my toys.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.43
+Robotic(↓): 92
+Interesting: 42
+Fun: 62
+Consistent: 26
+Fluent: 39
+Repetitive(↓): 5
+Topic: 25
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I stole some clothes yesterday.
+Bot(1): that is gross . i have an intense fear of clowns .
+User(2): Well, don't steal their clothes then.
+Bot(2): i am too afraid of clowns even though i look like one
+User(3): I'll steal their clothes so that they are naked.
+Bot(3): that is gross . i have an intense fear of clowns .
+User(4): What about repetitive clowns?
+Bot(4): do not laugh but i am scared of them
+User(5): Ha ha.
+Bot(5): did i tell you i am deaf ?
+User(6): No. Is that tough?
+Bot(6): not at all .
+User(7): So do you shoplift?
+Bot(7): no . i do not like doing things that hurt .
+User(8): That is very nice of you.
+Bot(8): did i tell you i am deaf ?
+User(9): Yes.
+Bot(9): did i tell you i am deaf ?
+User(10): I have heard that before.
+Bot(10): did i tell you i am deaf ?
+
+Persona:
+i have been retired for a years.
+i'm partly deaf.
+i spend a lot of time browsing the internet.
+i'm terrified of clowns due to childhood trauma.
+i have a weakness for fish and chips.
+
+Topic and Human Opinion:
+Beginning: i'm here for shoplifting.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.71
+Robotic(↓): 100
+Interesting: 41
+Fun: 55
+Consistent: 38
+Fluent: 27
+Repetitive(↓): 86
+Topic: 33
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I hate to clean.
+Bot(1): i am sorry to hear that . i am a nurse .
+User(2): I am a slob.
+Bot(2): i like to eat too much junk food .
+User(3): Me too. I have lots of toys.
+Bot(3): i do not know how to make a living .
+User(4): Who does?
+Bot(4): i do not know how to play the guitar .
+User(5): I know how to play with toys.
+Bot(5): i like to go to the gym and listen to music .
+User(6): Mee too!
+Bot(6): i like to go to the gym and listen to music .
+User(7): Do you bench press?
+Bot(7): no , i do not know . i am a big fan of classical music .
+User(8): There's nothing like the classics.
+Bot(8): i like to go to the beach and listen to music .
+User(9): Beach, gym, and music. Sounds like fun.
+Bot(9): i like to go to the lake and listen to music .
+User(10): I like to go hiking and listen to music.
+Bot(10): i like to listen to music .
+
+Persona:
+i have three sisters.
+i enjoy gardening and walking outdoors.
+my father is an electrician.
+in my spare time i do volunteer work.
+i am high maintenance.
+
+Topic and Human Opinion:
+Beginning: i don't pick up my toys.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.29
+Robotic(↓): 81
+Interesting: 37
+Fun: 54
+Consistent: 41
+Fluent: 21
+Repetitive(↓): 85
+Topic: 39
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you know what a twitch steamer is?
+Bot(1): i do I own a house. trips in my red car . 😍
+User(2): What type of car?
+Bot(2): I am i have to go. do with my kids.
+User(3): What up with the kids.
+Bot(3): don what , that one
+User(4): So you have to leave?
+Bot(4): That is cool😎. I me to do you a grocery store.
+User(5): No, I just order out.
+Bot(5): rick and morty , re ok. what am mom . 😀
+User(6): I not your momma.
+Bot(6): that is cool , i like swimming , about is. What’s the like swimming
+User(7): Do you swim in circles?
+Bot(7): It is, i am to the beach with of that.
+User(8): i'm a famous twitch streamer.
+Bot(8): I am in the third that. i am a teacher.
+User(9): Teach me something.
+Bot(9): Yeah for both men and I do for a living? 😀
+User(10): Is the money good?
+Bot(10): I am is the not? It world when I cook
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a famous twitch streamer.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.00
+Robotic(↓): 100
+Interesting: 26
+Fun: 9
+Consistent: 12
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I like American sports.
+Bot(1): i like sports more than sports
+User(2): That sounds profound.
+Bot(2): i agree . i am more of a football fan .
+User(3): I like fooball more than football.
+Bot(3): i like football . i like football .
+User(4): I also like baseball.
+Bot(4): i like baseball too . i like baseball .
+User(5): Do you play it?
+Bot(5): i play baseball . i play baseball .
+User(6): I like boxing.
+Bot(6): i play baseball . i play baseball .
+User(7): What position do you play?
+Bot(7): i play the guitar . i play the guitar .
+User(8): I play baseball on my guitar.
+Bot(8): i play the guitar . i play the guitar .
+User(9): I play drums.
+Bot(9): i play the drums . i play the guitar .
+User(10): But does anyone play with you.
+Bot(10): i play the guitar . i play the guitar .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy american sports.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.14
+Robotic(↓): 93
+Interesting: 14
+Fun: 40
+Consistent: 59
+Fluent: 1
+Repetitive(↓): 94
+Topic: 42
+
+####################
+

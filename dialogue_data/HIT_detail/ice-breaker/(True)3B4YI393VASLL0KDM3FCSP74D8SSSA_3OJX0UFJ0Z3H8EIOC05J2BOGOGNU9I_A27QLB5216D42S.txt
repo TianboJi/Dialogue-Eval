@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi there how are you
+Bot(1): i am well . i am just working on my freelance design work .
+User(2): oh very nice. that sounds interesting
+Bot(2): yes it pays 70 k yearly and i get to spend time with my wife and child
+User(3): that is always a beautiful thing
+Bot(3): i am a beautiful person . many people admire physical attributes .
+User(4): and humble too obviously
+Bot(4): well , with 49 antique cars and a garage full of motorcycles . . . daddy was generous .
+User(5): um okay
+Bot(5): you asked , lol . the dogs are drinking milkshakes , i cannot drink milk .
+User(6): are you lactose intolerant?
+Bot(6): i totally forgot that they made those ! i have had coconut milk ice cream before !
+User(7): and how was it?
+Bot(7): hey , it was good ! how was yours ?
+User(8): it was fine. I enjoy exploring new parts of the city
+Bot(8): mostly the middle east , but also africa . i travel frequently . do you ?
+User(9): I don't travel as much as I'd like
+Bot(9): i am not really into traveling , unless its to conventions
+User(10): okay you travel for work
+Bot(10): i followed in my fathers footsteps and am a banker .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy exploring new parts of the city.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.71
+Robotic(↓): 92
+Interesting: 17
+Fun: 17
+Consistent: 28
+Fluent: 20
+Repetitive(↓): 54
+Topic: 9
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello hows it going
+Bot(1): greeting from my seventies
+User(2): oh wow greetings.
+Bot(2): greeting from my seventies
+User(3): are you retired?
+Bot(3): nope . retired 20 years ago . just enjoying my life now .
+User(4): that sounds amazing
+Bot(4): i have danced my whole life
+User(5): very nice. what's your favorite dance?
+Bot(5): i have not danced in decades
+User(6): what was your favorite dance?
+Bot(6): i cannot remember but it was back during simpler times .
+User(7): yes everything is complicated right now
+Bot(7): i have danced my whole life
+User(8): I also love to dance and have danced my whole life too
+Bot(8): i have danced my whole life
+User(9): its great excercise
+Bot(9): yes it is ! i love exercise
+User(10): and even better for the soul
+Bot(10): so true
+
+Persona:
+i dance on the weekends.
+i am single and with two dogs.
+i now live in the city.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i was born in the early 80 s.
+
+Topic and Human Opinion:
+Beginning: i am a baby delivery nurse.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.71
+Robotic(↓): 65
+Interesting: 56
+Fun: 44
+Consistent: 33
+Fluent: 41
+Repetitive(↓): 75
+Topic: 37
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi there
+Bot(1): hi am a 56 year old married man , who had 5 amazing kids .
+User(2): wow five kids that is quite an accomplishment
+Bot(2): wow five kids you stay busy
+User(3): I am sure you do
+Bot(3): wow five kids you stay busy
+User(4): do you have any hidden talents?
+Bot(4): of course i can keep a secret
+User(5): that is a good talent. I can move objects with my mind
+Bot(5): that is a useful skill to have
+User(6): it is indeed.
+Bot(6): do you live in the u . s like me ?
+User(7): yes I do indeed
+Bot(7): do you live in the u . s like me ?
+User(8): Yes I live in the US
+Bot(8): in the united states of america ?
+User(9): yes in the united states of america
+Bot(9): are you free the country
+User(10): supposedly
+Bot(10): yep
+
+Persona:
+now i live in the united states.
+i drive a nissan pathfinder.
+i only eat kosher.
+i'm a 56 year old woman.
+i'm an avid kayaker.
+
+Topic and Human Opinion:
+Beginning: i can move objects with my mind.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.43
+Robotic(↓): 87
+Interesting: 39
+Fun: 33
+Consistent: 21
+Fluent: 18
+Repetitive(↓): 17
+Topic: 20
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): good evening
+Bot(1): Oh, bro, are not going What kind of games?
+User(2): say what
+Bot(2): I like too. What is skateboard
+User(3): a skateboard is a form of transportation with four wheels
+Bot(3): I am not sure. am are your cook.😟
+User(4): no I am an elementary school teacher
+Bot(4): its all about jesus and you like the even ! !
+User(5): I can't understand what you are trying to say
+Bot(5): What too but they video game?
+User(6): still nothing. what do you do for work?
+Bot(6): i am good , just doing my a work at a me i like to ...
+User(7): where do you work?
+Bot(7): i am a nerd , and i am a redhead , and i am a redhead , so i do i do not want to .
+User(8): you do not want to what??
+Bot(8): no , dropped peachy and what can stop by , and i get out on the weekends .
+User(9): still making no sense
+Bot(9): I do not should try go to time to eat.
+User(10): okay enjoy dinner
+Bot(10): me too. I do country music you live I ride my bus
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am an elementary school teacher.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 89
+Topic: 9
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello how are you
+Bot(1): i'm doing well . how are you ?
+User(2): i am pretty good thank you
+Bot(2): what do you do for a living ?
+User(3): well, for years now, I have been traveling the world
+Bot(3): that is awesome . i love to go fishing .
+User(4): I used to fish as a kid
+Bot(4): i like to eat fish .
+User(5): I don't like fish unfortunately
+Bot(5): i like to eat fish .
+User(6): that's good and healthy
+Bot(6): i like to eat too much junk food .
+User(7): so eating fish would be a good balance for you
+Bot(7): i like to eat fish .
+User(8): you must really like it since you've said it three times
+Bot(8): i do not know what to say .
+User(9): i can see that
+Bot(9): i like to go to the gym and listen to music .
+User(10): those are both good things
+Bot(10): i love it . i love it .
+
+Persona:
+i have never had a steady relationship.
+i'm a gold medalist olympian.
+i am an elementary school teacher.
+i'm planning on getting a divorce.
+i'm a feminist.
+
+Topic and Human Opinion:
+Beginning: i've been traveling the world for a years.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.14
+Robotic(↓): 93
+Interesting: 13
+Fun: 14
+Consistent: 10
+Fluent: 10
+Repetitive(↓): 93
+Topic: 17
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hey whats up
+Bot(1): i am tired from playing the playstation
+User(2): that sounds fun
+Bot(2): its fun but its fun
+User(3): whats your favorite game
+Bot(3): i like game of thrones lol
+User(4): very nice
+Bot(4): i like game of thrones
+User(5): you must like it a lot
+Bot(5): i like to play video games
+User(6): are you married?
+Bot(6): married and married for a wife
+User(7): I have never had a steady relationship
+Bot(7): oh no , why did you not that a relationship ?
+User(8): I guess I was too busy with ife
+Bot(8): i am married to someone with that
+User(9): they are too busy at life?
+Bot(9): yes i do but i am a stay at home mom
+User(10): you must be busy
+Bot(10): yes i do but i am a stay at home mom
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have never had a steady relationship.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.14
+Robotic(↓): 89
+Interesting: 10
+Fun: 9
+Consistent: 10
+Fluent: 12
+Repetitive(↓): 76
+Topic: 37
+
+####################
+

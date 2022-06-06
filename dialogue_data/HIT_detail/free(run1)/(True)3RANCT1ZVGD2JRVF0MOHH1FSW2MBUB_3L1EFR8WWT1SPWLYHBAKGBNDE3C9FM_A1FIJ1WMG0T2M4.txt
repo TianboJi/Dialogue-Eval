@@ -1,0 +1,296 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): I also like to cook
+Bot(2): i like to eat the skin .
+User(3): The skin of what?
+Bot(3): i like to eat fish .
+User(4): Yes, fish is good
+Bot(4): i like to eat fish .
+User(5): What is your favorite kind of fish to eat?
+Bot(5): i love pizza , and i love it .
+User(6): I like pepperoni pizza
+Bot(6): i like to eat fish .
+User(7): Ok
+Bot(7): i love to cook . i love to cook .
+User(8): Are you a good cook?
+Bot(8): no , i do not . i like to eat .
+User(9): What is your favorite food
+Bot(9): i like pizza , and i love to eat .
+User(10): My favorite food is cheeseburgers
+Bot(10): i like pizza , and i love it .
+User(11): Yes I also like pizza.
+Bot(11): i like to eat fish .
+
+Persona:
+i work at a bank.
+i love cooking but i also enjoy fishing.
+i drive a bmw.
+my favorite movie is mean girls.
+i also like to cook but i'm not very good at it.
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 5: eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 25.43
+Robotic(↓): 100
+Interesting: 23
+Fun: 23
+Consistent: 33
+Fluent: 65
+Repetitive(↓): 100
+Topic: 34
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): I like listening to music. Video games are fun too
+Bot(2): what do you do ? purple hair must be hard to pull off .
+User(3): I work. I don't have purple hair.
+Bot(3): that is cool ! i wish i had blonde hair
+User(4): My hair is brown.
+Bot(4): brown hair ! how about you ?
+User(5): My hair is brown also
+Bot(5): i think brown hair looks nice
+User(6): Yes, so do I.
+Bot(6): no i am retired . i have to put my glasses on to see this chat better .
+User(7): Do you wear contacts too?
+Bot(7): brown hair is cool too !
+User(8): Yes
+Bot(8): its all good . what do you do with your hair when you are out in the sun ?
+User(9): Sometimes I wear my hair in a ponytail.
+Bot(9): i have blonde hair and like it .
+User(10): Thats good
+Bot(10): great just got back from walking my three dogs
+
+Persona:
+i enjoy mowing my lawn on sunny days.
+i like to go hiking in the mornings to see the sunset.
+i've rainbow hair.
+i have a dogs.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 2: purple hair(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 46.71
+Robotic(↓): 100
+Interesting: 43
+Fun: 43
+Consistent: 55
+Fluent: 86
+Repetitive(↓): 60
+Topic: 60
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): there is a that you’ re a ✌ things i m assuming bad retirement
+User(2): What?
+Bot(2): Hey! How is your tell me aboıt your listen to taylor swift.
+User(3): I like Taylor Swift
+Bot(3): why do intelligent iq level orange
+User(4): I don't know what that means.
+Bot(4): I that’s techno.
+User(5): Do you listen to techno music?
+Bot(5): Hi, I am a teacher, do for a to. out with friends.
+User(6): What grade do you teach?
+Bot(6): she's a great am at ? Bill singing about the bees.
+User(7): A song about bees?
+Bot(7): I my patronus charm how about you?
+User(8): Do you like Harry Potter?
+Bot(8): I love watching yoy dont you cats
+User(9): I have 1 cat.
+Bot(9): Cool! is the band's do for a living?
+User(10): I don't know
+Bot(10): japanese is a want to be an do you like sports
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: weather(ambivalent)
+Round 3: music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 3.57
+Robotic(↓): 100
+Interesting: 21
+Fun: 4
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hi the married life is crazy
+User(2): Yes, it is
+Bot(2): i am so excited about my upcoming marriage
+User(3): That is exciting!
+Bot(3): i am so excited about my upcoming marriage
+User(4): When is your wedding?
+Bot(4): saturday . are you going ? its dorky . . .
+User(5): I was not invited
+Bot(5): oh that sucks ! when is it ?
+User(6): When is what?
+Bot(6): i am not sure yet
+User(7): Ok. Good luck at your wedding
+Bot(7): thanks !
+User(8): You're welcome
+Bot(8): ok
+User(9): Are you having a lot of guests?
+Bot(9): sometimes , come to my wedding
+User(10): Ok I will be there
+Bot(10): where is the wedding going to be ?
+
+Persona:
+i like to talk but people have a hard time understanding.
+i love rollercoasters and sky diving.
+i love wearing skinny jeans and leggings.
+i've a weakness for fish and chips.
+i'm married.
+
+Topic and Human Opinion:
+Beginning: coffee(like)
+Round 6: weddings(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 76.71
+Robotic(↓): 56
+Interesting: 83
+Fun: 83
+Consistent: 84
+Fluent: 100
+Repetitive(↓): 33
+Topic: 76
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hi , i am 44 and have 5 amazing grandchildren
+User(2): How old are your grandchildren?
+Bot(2): a little under 46 years old
+User(3): But you are only 44?
+Bot(3): i am only 44 and already a grandpa
+User(4): That is exciting!
+Bot(4): it is ! for example , how old are you ?
+User(5): I am 29
+Bot(5): wow , that is such a fun age . i cannot wait to have children .
+User(6): You have grandchildren but no children?
+Bot(6): i have a ton of grandkids
+User(7): Do you have kids?
+Bot(7): one big and one little one
+User(8): Ok
+Bot(8): i have fun with them
+User(9): Yes, that is good
+Bot(9): awesome
+User(10): I have 2 children also
+Bot(10): only 2 ? they must be lonely .
+
+Persona:
+i'm a 45 year old male.
+i prefer being inside.
+hey there i am 23 and i love food.
+i've amazing children and grandchildren.
+i love to play pobox.
+
+Topic and Human Opinion:
+Beginning: TV shows(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.86
+Robotic(↓): 77
+Interesting: 59
+Fun: 64
+Consistent: 36
+Fluent: 89
+Repetitive(↓): 67
+Topic: 73
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): I am doing good. How are you?
+Bot(2): i'm doing well . how are you ?
+User(3): What are you doing today?
+Bot(3): i am doing well . just listening to some britney spears . you ?
+User(4): I am listening to country music
+Bot(4): i like to listen to britney spears .
+User(5): That's good. Do you like any other singers?
+Bot(5): i do . i like to listen to britney spears while i cook .
+User(6): I also like listening to music while I cook
+Bot(6): i like to listen to britney spears .
+User(7): That's good
+Bot(7): i love to cook . i love to eat .
+User(8): What is your favorite food
+Bot(8): i like to eat pizza . i love it
+User(9): I also enjoy eating pizza
+Bot(9): i love pizza . i love to eat pizza .
+User(10): Do you like pepperoni pizza?
+Bot(10): i love pizza . i love it
+
+Persona:
+i work in the insurance business.
+i'm expecting triplets in three months.
+i love listening to britney spears.
+i had cancer but its gone now.
+i've been trying all types of food everywhere i go.
+
+Topic and Human Opinion:
+Beginning: video games(like)
+Round 5: music(like)
+Round 8: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 77.00
+Robotic(↓): 39
+Interesting: 85
+Fun: 87
+Consistent: 95
+Fluent: 100
+Repetitive(↓): 77
+Topic: 88
+
+####################
+

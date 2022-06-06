@@ -1,0 +1,284 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi. How are you doing today?
+Bot(1): i am good . just got back from the store . you ?
+User(2): Just relaxing and about to watch TV.
+Bot(2): yes i love watching german tv
+User(3): Really? Are you German? What shows to you watch?
+Bot(3): i had a german shepherd once , they like to herd .
+User(4): Do you have a dog now?
+Bot(4): a german shepherd , but i like all animals .
+User(5): I have a dog too. They make great pets.
+Bot(5): yes , i have 2 dogs . and my youtube channel has over 50 thousand subscribers
+User(6): Do you put your dogs on YouTube?
+Bot(6): i watch pandas on youtube too ! i love to drink coffee with cream while i watch .
+User(7): I don’t watch YouTube.
+Bot(7): neat ! i have 3 toes . . . i guess there is no makeup that can hide that fact . .
+User(8): Were you born with three toes?
+Bot(8): seven . my favorite book is the front runner .
+User(9): Wow. You poor thing.
+Bot(9): he swallowed a watch battery and had to have part of his intestine removed
+User(10): Your poor dog.
+Bot(10): a german shepherd , but i like all animals .
+
+Persona:
+i've a german shepherd named barnaby.
+i am always wearing a hat.
+my favourite skater is rob dryden.
+i have a weakness for vanilla ice cream.
+i am a convenience store manager.
+
+Topic and Human Opinion:
+Beginning: Shows(like)
+Round 3: Dogs(like)
+Round 6: YouTube(dislike)
+Round 7: Toes(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 20.00
+Robotic(↓): 91
+Interesting: 26
+Fun: 19
+Consistent: 6
+Fluent: 32
+Repetitive(↓): 62
+Topic: 10
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I’m planning a trip soon. Any suggestions?
+Bot(1): sure
+User(2): What do you suggest?
+Bot(2): ideally where would you go ?
+User(3): I would like to go somewhere warm.
+Bot(3): i love cold places . do you work ?
+User(4): No. I want to go to a beach.
+Bot(4): i am planning a beach trip . do you like to travel ?
+User(5): Yes. I love to travel. Would you travel with me?
+Bot(5): i would love to . do you live by the beach ?
+User(6): I do! Can you swim?
+Bot(6): yeah i can . can you ?
+User(7): I swim great. It’s my favorite thing to do.
+Bot(7): do you have a pool ?
+User(8): I have a pool. You should come over.
+Bot(8): i would love to . do you live by the beach ?
+User(9): Yes I do. Bring beer if you can.
+Bot(9): i will as long as we can have a drink or two after .
+User(10): Definitely. And hopefully some more.
+Bot(10): are you coming with me ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 78.71
+Robotic(↓): 36
+Interesting: 67
+Fun: 65
+Consistent: 93
+Fluent: 85
+Repetitive(↓): 14
+Topic: 91
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Good morning. How are you?
+Bot(1): i am doing well . just got done walking my dog .
+User(2): Awesome. I have a dog. I’m ready to watch sports now.
+Bot(2): i love to go fishing .
+User(3): Fishing is a great sport. Where do you fish?
+Bot(3): i do not , but i do like to eat .
+User(4): You eat the fish you catch?
+Bot(4): i like to eat fish .
+User(5): Me too!
+Bot(5): i like to go to the gym and listen to music .
+User(6): I like going to the gym too. I’m buffed.
+Bot(6): i like to go to the gym and listen to music .
+User(7): I listen to music when I’m working out.
+Bot(7): i like to go to the lake and listen to music .
+User(8): That’s sounds really nice. Can I come?
+Bot(8): no , i do not . i am a big fan of classical music .
+User(9): Classical music is boring.
+Bot(9): i like to go to the gym and listen to music .
+User(10): I know.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+Round 5: Gym(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 30.14
+Robotic(↓): 87
+Interesting: 22
+Fun: 34
+Consistent: 27
+Fluent: 70
+Repetitive(↓): 83
+Topic: 28
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi. I just came from walking my dog.
+Bot(1): Oh wow, i do not are you like to name
+User(2): Excuse me?
+Bot(2): I teach middle God! Where are elementary school.
+User(3): I go to church.
+Bot(3): how are do like to watch you like music ?
+User(4): I don’t like music.
+Bot(4): you need money am a boy and really think about that help
+User(5): Wow. You are talking nonsense. Are you drunk?
+Bot(5): of course i like money to for me I today
+User(6): Is English your first language?
+Bot(6): I understand. I let’s talk about you. what a wife. Do you coach little league baseball?
+User(7): I am not married.
+Bot(7): What im how play?
+User(8): Do you have a dog?
+Bot(8): I have a long live you? do you like roleplaying? I do
+User(9): I do not role play.
+Bot(9): i do not in a do .
+User(10): Ok. Bye then
+Bot(10): what 😦 do you How is your president
+
+Persona:
+i enjoy working with my hands and love gardening.
+i've one older sister.
+i volunteer in a homeless shelter.
+my aunt helped me escape when i was of.
+i'm four years old.
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 2: God(like)
+Round 7: No idea(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 2.14
+Robotic(↓): 99
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 86
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi. I can’t believe summer is over.
+Bot(1): i am sorry . i hate summer . i hate summer
+User(2): Well lucky for you Fall is here.
+Bot(2): i am . i am not a fan of summer time .
+User(3): Which is your favorite season?
+Bot(3): i love summer . i love summer .
+User(4): Do you go to the beach?
+Bot(4): i love the beach . i love the beach .
+User(5): Me too! But to bad summer is over.
+Bot(5): i love the beach . i love the beach .
+User(6): We should go to the beach together.
+Bot(6): i love the beach . i love the beach .
+User(7): Can you swim?
+Bot(7): i do not swim . i am more of a summer person .
+User(8): Understood. I can teach you how to swim.
+Bot(8): i would love to swim . i am not sure if i could swim .
+User(9): It’s easy. I will show you.
+Bot(9): i like to swim . i am more of a summer person .
+User(10): You can pay me back.
+Bot(10): i can not wait to go to the beach .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.00
+Robotic(↓): 66
+Interesting: 66
+Fun: 61
+Consistent: 62
+Fluent: 72
+Repetitive(↓): 66
+Topic: 56
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi. Just got home and searching for a movie.
+Bot(1): nice . i love movies . getting ready to look up the showings tonight
+User(2): What do you have in mind?
+Bot(2): anything so i can get some money . ll
+User(3): You make money for watching movies?
+Bot(3): i wish . i got like 50 dollars . partly there right ?
+User(4): Wow. I wish I made money for watching movies.
+Bot(4): yeah , whats the worst movie you ever had to sit through ?
+User(5): Any romantic movie is not for me.
+Bot(5): i love watching romantic comedies .
+User(6): I don’t. I like drama and action movies.
+Bot(6): i like romantic comedies or action movies .
+User(7): Any in particular?
+Bot(7): i like romantic comedies or action movies .
+User(8): We should watch together.
+Bot(8): we could do that . what type of movies are you interested in ?
+User(9): Can you bring some beer?
+Bot(9): depends on how good that beer is ! !
+User(10): We can cuddle too.
+Bot(10): if we were to go out , i would be the one to buy the beers .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 74.14
+Robotic(↓): 31
+Interesting: 72
+Fun: 61
+Consistent: 81
+Fluent: 70
+Repetitive(↓): 25
+Topic: 91
+
+####################
+

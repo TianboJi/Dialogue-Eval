@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): doing great ! spent the weekend outside and swimming . i love both !
+User(3): That sounds fun. Do you like baseball?
+Bot(3): do you belong to a team ?
+User(4): I used to play, but I no longer do. I follow a lot of teams though. Do you play baseball?
+Bot(4): the baltimore orioles . if you can believe it , they pay me one million dollars every year !
+User(5): That's awesome! I like the Orioles. What position do you play?
+Bot(5): quarterback ! hoping to play in the playoffs
+User(6): That's not baseball. That position is football. Are you sure you play baseball?
+Bot(6): what is your favorite team ? i like about any sport , but baseball more so .
+User(7): My favorite team is the Texas Rangers.
+Bot(7): my favorite american football team is the browns . my favorite mls team is the crew .
+User(8): I like the browns for football. I don't watch a lot of soccer
+Bot(8): football is cool . i like skiing and skating
+User(9): That's fun too. It sounds like you play a lot of sports
+Bot(9): i like outdoor exercising better than organized sports
+User(10): I like baseball the most over anything
+Bot(10): i love football more then baseball
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: baseball(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.14
+Robotic(↓): 100
+Interesting: 56
+Fun: 61
+Consistent: 7
+Fluent: 11
+Repetitive(↓): 81
+Topic: 29
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): What do you like to cook?
+Bot(2): i do , i love to cook .
+User(3): What food do you like to cook?
+Bot(3): i do , i love to cook .
+User(4): Do you like dogs?
+Bot(4): i do , i love dogs . i love dogs .
+User(5): What kind of dogs do you like?
+Bot(5): i love the color red . what is your favorite color ?
+User(6): blue
+Bot(6): i like to go to the gym and listen to music .
+User(7): I like music. What kind of music do you like?
+Bot(7): i like country music . what about you ?
+User(8): pop and classical
+Bot(8): i like to listen to music .
+User(9): Who's your favorite artist?
+Bot(9): i like the oldies . i like the outdoors .
+User(10): I like the oldies too!
+Bot(10): i like to go to the beach and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 5: color(ambivalent)
+Round 6: favorite music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 13.29
+Robotic(↓): 100
+Interesting: 22
+Fun: 9
+Consistent: 0
+Fluent: 35
+Repetitive(↓): 73
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): no, I have is that weekends i few times. what about you
+User(2): I am not sure what you are asking?
+Bot(2): hello, how teach me about is I work at a grocery store.
+User(3): Awesome! What do you do there?
+Bot(3): it is Are you mean a dentist ?
+User(4): I am not a dentist.
+Bot(4): i'm great how are you you are a you up to ?
+User(5): I am about to watch football. Do you like football?
+Bot(5): I mountain bike as a lot of money
+User(6): I see. Do you like american football?
+Bot(6): fish sometimes reads fantasy you :)
+User(7): I like fishing. Do you know what football is?
+Bot(7): I have tell me who charlie.
+User(8): Troy Aikman is a famous football player
+Bot(8): Oh, you like tables.
+User(9): No I like watching football
+Bot(9): i nice talking to named radar
+User(10): cool
+Bot(10): well i mean we could just I it mean you , do something outdoors ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: football(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 96
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): Yes. I love baseball and dogs. What about you?
+Bot(2): i love baseball and baseball
+User(3): Baseball is awesome. Who is your favorite team?
+Bot(3): i like the washington nationals .
+User(4): I like them. They used to be the Expos. I like the Texas Rangers who started out as the Washington Nationals several years ago
+Bot(4): i have never been to the west coast .
+User(5): Me neither. There are several teams that play there
+Bot(5): yeah , they are the best .
+User(6): Which west coast team is your favorite?
+Bot(6): i like the washington nationals .
+User(7): That's an east coast team lol
+Bot(7): i am not sure if i could have played baseball
+User(8): I wanted to play but got hurt when I was a kid
+Bot(8): i was a kid too . i was a kid .
+User(9): Aren't we all? How old are you?
+Bot(9): i am 32 . i am old .
+User(10): Same here! How long have you been watching baseball?
+Bot(10): i was just a kid . i was a kid .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dating(ambivalent)
+Round 3: baseball(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 51.29
+Robotic(↓): 100
+Interesting: 69
+Fun: 54
+Consistent: 54
+Fluent: 34
+Repetitive(↓): 20
+Topic: 68
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How are you?
+Bot(2): good thanks . tell me about yourself
+User(3): I am a 32 year old guy who likes baseball and dogs. How about you?
+Bot(3): i like baseball . i just got a puppy . do you have pets ?
+User(4): I have a dog! What kind of puppy do you have?
+Bot(4): he is just under a year old . how big are your dogs ?
+User(5): She is 11 pounds
+Bot(5): he is just under a year old . how big are your dogs ?
+User(6): She is tiny. How big is your dog?
+Bot(6): he is just under a year old . how big are your dogs ?
+User(7): Tiny. What do you do for fun?
+Bot(7): i play baseball . i am pretty darn good at it .
+User(8): Awesome! What position do you play?
+Bot(8): i am started shortstop . i am in baseball team .
+User(9): Shortstop is a great position. I was a pitcher
+Bot(9): really ? i like baseball . i used to be a pitcher .
+User(10): I was once upon a time. Now I just watch the game
+Bot(10): what position do you play ? i watch baseball on tv
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.00
+Robotic(↓): 79
+Interesting: 80
+Fun: 86
+Consistent: 35
+Fluent: 27
+Repetitive(↓): 72
+Topic: 87
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How are you?
+Bot(2): just took a long refreshing walk
+User(3): That's awesome! What do you think about politics?
+Bot(3): i am not vocally political . i have strong views though .
+User(4): I understand that. What are some of your political views?
+Bot(4): i am not vocally political . i have strong views though .
+User(5): Are you a democrat?
+Bot(5): i am not vocally political . i have strong views though .
+User(6): Do you like trump?
+Bot(6): i am not fan of trump , never was . what about you ?
+User(7): I hate trump. Can't stand him. Vote Biden
+Bot(7): are you a serious democrat or republican ?
+User(8): Democrat 100%. You?
+Bot(8): i consider myself a democrat ? what about you ?
+User(9): I am a Democrat. Are you planning to vote this year?
+Bot(9): are you a serious democrat or republican ?
+User(10): Democrat. I am voting for Biden and Harris!
+Bot(10): are you a serious democrat or republican ?
+
+Persona:
+i enjoy building houses.
+i drive a nissan pathfinder.
+i enjoy mowing my lawn on sunny days.
+i like to take walks.
+i am a blonde girl with really short hair.
+
+Topic and Human Opinion:
+Beginning: politics(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.14
+Robotic(↓): 100
+Interesting: 60
+Fun: 62
+Consistent: 43
+Fluent: 36
+Repetitive(↓): 80
+Topic: 95
+
+####################
+

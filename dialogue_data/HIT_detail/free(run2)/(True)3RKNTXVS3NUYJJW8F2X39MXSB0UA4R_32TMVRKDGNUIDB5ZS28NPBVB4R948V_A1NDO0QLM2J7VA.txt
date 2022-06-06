@@ -1,0 +1,286 @@
+Feedback: chatbots can be very annoying
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): I like all sorts of animals
+Bot(2): me too , i like animals what is your favorite ?
+User(3): my favorite animal are dogs!
+Bot(3): mine too ! i love dogs !
+User(4): Thats great! Dogs are so friendly and fun
+Bot(4): yes they are , so very sweet
+User(5): do you have any dogs?
+Bot(5): i am a huge dog lover ! yes i have one
+User(6): What breed of dog do you have?
+Bot(6): poodle , i don t know , i m not good with dogs
+User(7): i also have 1 dog
+Bot(7): what are their name , i love dogs
+User(8): his name is Eric and he is 4 years old
+Bot(8): he has turned 1
+User(9): yes he is already fully grown
+Bot(9): he is 4 but his mom is in for a big surprise
+User(10): well we adopted him as a puppy and we dont know who the mom is
+Bot(10): he is 4 but his mom is in for a big surprise
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.14
+Robotic(↓): 100
+Interesting: 61
+Fun: 61
+Consistent: 65
+Fluent: 74
+Repetitive(↓): 67
+Topic: 57
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , its raining here . i love the rain .
+User(2): the rain? why do you like it?
+Bot(2): reading tarot cards and coffee . but my favorite thing is popcorn .
+User(3): really, thats funny and interesting
+Bot(3): i fish with my dogs all day
+User(4): that sounds like total nonsense
+Bot(4): my parents had seven girls , could you imagine dealing with all of that drama ?
+User(5): are you even paying attention to my responses?
+Bot(5): it pays nicely but for now a large part goes towards my student loans .
+User(6): are you even reading my messages?
+Bot(6): what is your favorite book ? i had to do a lot of reading in law school .
+User(7): I love harry potter, whats your favorite book?
+Bot(7): what book series are you reading ?
+User(8): Currently studying battery systems
+Bot(8): i study biology and i work as a barista as a coffee shop to pay for school
+User(9): you dont seem to make any sense
+Bot(9): i said he has a tattoo to and he works as a firefighter
+User(10): well this was interesting, bye
+Bot(10): the 1 that is around there i am trying to fish
+
+Persona:
+my family doesn't support my career choices.
+i've a pet fish.
+i'm terrified of scorpions.
+i read a book every week.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: taxes(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.43
+Robotic(↓): 100
+Interesting: 88
+Fun: 87
+Consistent: 4
+Fluent: 6
+Repetitive(↓): 7
+Topic: 5
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): Im good, thanks! I Love fast cars
+Bot(2): i love the color red . what do you do for a living ?
+User(3): I drive fast cars
+Bot(3): i like to go to the beach and listen to music .
+User(4): Why is that?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): Thats neat, I prefer country
+Bot(5): i like to listen to music .
+User(6): music is good, it helps to relax you, I like driving
+Bot(6): i do not really have a favorite . i like to go fishing .
+User(7): you said you like the beach and music though
+Bot(7): i do , i love to go out to eat with my family .
+User(8): well you didnt say that earlier, I like sportscars
+Bot(8): i like to eat fish .
+User(9): on the beach with the family and listening to music I assume?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): Yes so youve already told me
+Bot(10): i am sorry to hear that . i am sorry to hear that .
+User(11): you like repeating yourself it seems
+Bot(11): i do , i like to go to the park .
+
+Persona:
+i love to drink fancy tea.
+i donate a part of my salary to charity each month.
+i'm rather skinny as i like to stay in shape.
+i'm partly deaf.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: Sportscars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.57
+Robotic(↓): 100
+Interesting: 62
+Fun: 63
+Consistent: 4
+Fluent: 6
+Repetitive(↓): 4
+Topic: 4
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love games
+Bot(1): i love video games . i love video games
+User(2): Video games are the best!
+Bot(2): i love video games they are my favorite
+User(3): what is your favorite?
+Bot(3): i like to watch my favorite game of thrones !
+User(4): thats not a video game
+Bot(4): i like video games , but i like to play video games
+User(5): what type of gaming system do you have?
+Bot(5): i like games and video games
+User(6): Ive realized this, what type?
+Bot(6): i like video games and video games
+User(7): Can you tell me anything besides that?
+Bot(7): i don't know what that means
+User(8): You just keep saying you like video games
+Bot(8): i don't know what that means
+User(9): You seem to only know a few phrases it seems
+Bot(9): i think i could say that
+User(10): Well, what genre of games do you like?
+Bot(10): i like all kinds of games
+User(11): youre frustrating
+Bot(11): i like games and games
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.86
+Robotic(↓): 100
+Interesting: 4
+Fun: 4
+Consistent: 81
+Fluent: 4
+Repetitive(↓): 4
+Topic: 83
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I hate taxes
+Bot(1): I do not care for that. I am are not a really?! moment.
+User(2): what in the world does that mean?
+Bot(2): okay you bye
+User(3): leaving already?
+Bot(3): I am a like to be you do?
+User(4): you speak like a chlld
+Bot(4): I love russian professional am a of
+User(5): is english your second language?
+Bot(5): <num> work my parents farms. parents 👪 this whole time
+User(6): man you are impossible to understand
+Bot(6): i think magic mike is rap is not that is lot , uh , because of the music .
+User(7): can you type a normal sentence?
+Bot(7): I like language i will like all genres.
+User(8): do you know basic math?
+Bot(8): I am a nurse, i have a Can you play any my kids
+User(9): I would never trust you around kids, you make no sense
+Bot(9): I there. No i'm not i do not eat healthy
+User(10): eating healthy, you sound like a freaky robot
+Bot(10): is pizza, to freak :)
+
+Persona:
+i'm a swim coach at my local pool.
+i think i'll retire in a few years.
+i'm a museum tour guide.
+i am a blonde girl with really short hair.
+my grandfather served in world war a.
+
+Topic and Human Opinion:
+Beginning: tAXES(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.14
+Robotic(↓): 100
+Interesting: 55
+Fun: 2
+Consistent: 2
+Fluent: 3
+Repetitive(↓): 3
+Topic: 3
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hello to you
+User(2): I love my house
+Bot(2): same
+User(3): you live in a house?
+Bot(3): yes i do i want a house
+User(4): you said earlier that you love your house?
+Bot(4): no , how big is your home ? what does it have ?
+User(5): Do you want a home? My house is pretty small but cozy
+Bot(5): its not that big . . i like the kind of small house
+User(6): I wish I had a big pool and many bathrooms
+Bot(6): a pool house sounds nice . do you live in california ?
+User(7): No I live in New York, where do you live?
+Bot(7): its not that big . . i like the kind of small house
+User(8): you already said that, what house do you want?
+Bot(8): its not that big . . i like the kind of small house
+User(9): you just keep saying the same thing
+Bot(9): my house is already paid
+User(10): you said earlier that you did not have a house
+Bot(10): yes i do i want a house
+User(11): you arent making sense
+Bot(11): my house is already paid
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: houses(ambivalent)
+Round 7: living in california(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 30.86
+Robotic(↓): 100
+Interesting: 9
+Fun: 27
+Consistent: 29
+Fluent: 64
+Repetitive(↓): 100
+Topic: 87
+
+####################
+

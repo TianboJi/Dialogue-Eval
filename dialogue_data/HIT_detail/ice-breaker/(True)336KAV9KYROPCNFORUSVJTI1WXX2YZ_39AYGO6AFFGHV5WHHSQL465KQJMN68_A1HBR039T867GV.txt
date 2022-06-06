@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I had cancer but was treated and now I am cancer free.
+Bot(1): holy cow ! i bow down to you . you rock . cancer really sucks .
+User(2): Yes, it really does. I was so scared especially after I talked to one of my doctors.
+Bot(2): yes ! it really does haha
+User(3): I saw another doctor and he was very encouraging A good doctor with a positive attitude is most important.
+Bot(3): it really does . do you like cars ?
+User(4): Yes, I do. I especially like the older cars. How about you?
+Bot(4): it really does . do you like cars ?
+User(5): Yes I do, especially the older cars.
+Bot(5): so you would say you like refurbished classic cars ?
+User(6): Absolutely I do. I use to love the T birds and the GTO's. Are you into them?
+Bot(6): yes , they are great . what else do you like to do ?
+User(7): I like going to the movies and seeing action films. What kind of movies do you like?
+Bot(7): i enjoy them as well . favorite are action movies !
+User(8): I also do some volunteer work, I find that rewarding. What do you like to do?
+Bot(8): i visit the local cancer unit and read to kids .
+User(9): That's great! I volunteer at our local food bank twice a month.
+Bot(9): that is wonderful ! i love to volunteer , and cheer people up .
+User(10): I do too. It makes you feel like you are making a difference in someone's life.
+Bot(10): yes ! it really does haha
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i had cancer but its gone now.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.71
+Robotic(↓): 29
+Interesting: 71
+Fun: 72
+Consistent: 80
+Fluent: 94
+Repetitive(↓): 36
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am blonde and have blue eyes, what color are your eyes and hair?
+Bot(1): i am very forgetful so i don't have to go to school
+User(2): That doesn't seem like a good reason to miss school. Do you have someone to help you remember to go?
+Bot(2): i do not . i am deaf so i don't have to go to school .
+User(3): Can you read lips and use sign language?
+Bot(3): i can not do that . i am deaf so i don't have to .
+User(4): You might enjoy learning to do both of these things.
+Bot(4): i can teach you to learn how to learn how to learn .
+User(5): I don't know sign language but I am sure there are places you can do to learn.
+Bot(5): i want to learn how to learn how to learn how to learn
+User(6): That good you want to learn, we all are happier when we keep our minds active.
+Bot(6): i can teach you to learn how to learn how to learn
+User(7): We all are happier when we keep our minds active.
+Bot(7): i can understand that . i am deaf so i can not speak any other languages .
+User(8): Can you read lips?
+Bot(8): i can not do that . i am deaf so i can not do that .
+User(9): There are special schools for the deaf. You should look into going to one.
+Bot(9): i will try to learn how to learn how to learn how to learn .
+User(10): That's wonderful you are going to try to learn.
+Bot(10): i will try to learn how to learn how to learn .
+
+Persona:
+i'm partly deaf.
+i am an economics major.
+i help tend the fields.
+i hate school.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: i've blonde hair and blue eyes.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.00
+Robotic(↓): 99
+Interesting: 26
+Fun: 15
+Consistent: 14
+Fluent: 27
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I don't like to pick up my toys. I don't find that to be any fun at all.
+Bot(1): nice . i like nature a lot . i'm single and with forest .
+User(2): Oh I like nature too. I love all kinds of animals.
+Bot(2): Thank do you like you do?😀
+User(3): I like to watch nature films and walk in the woods. What do you like to do?
+Bot(3): I live in the city, know nothing about am city.
+User(4): It is difficult to see a lot of nature in cities. Do you like to go to the zoo?
+Bot(4): isaiah rashed he has an orange shirt , they an elementary school it Also, try to guess: i'm stunt double ...
+User(5): You must be very talented since you are a stunt double. How many movies have you worked in?
+Bot(5): What do your dogs do you I love pizza.
+User(6): My dogs follow me around when I am home and sit on my lap when I am relaxing. Do you have a dog?
+Bot(6): good ! finally got a day off . just relaxing eating cake with my daughters .. doing for i have i love cats ...
+User(7): I have 2 sons, and no daughters. I also have two cats, I love them too.
+Bot(7): I am I plan to hear that.
+User(8): Did you make the cake you are eating?
+Bot(8): outdoor what a how old hobbies
+User(9): I have a couple of hobbies I enjoy also.
+Bot(9): I have not tried that. I you like do you find a good job.
+User(10): Yes, I always try to do the best I can in anything I do.
+Bot(10): No, i cats fo you english.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i don't pick up my toys.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.14
+Robotic(↓): 100
+Interesting: 3
+Fun: 4
+Consistent: 0
+Fluent: 7
+Repetitive(↓): 72
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am getting older, but I still am ver strong for my age.
+Bot(1): i am sorry to hear that . i am a big fan of the walking dead .
+User(2): I have never watched that show. I like action shows, not scary shows.
+Bot(2): i like to read too .
+User(3): I also enjoy reading. I read everyday. What types of books do you like to read?
+Bot(3): i love to read , and i love to read .
+User(4): I gather you just like to read just about anything. I usually like historical novels.
+Bot(4): i like to read too .
+User(5): What good books have you read lately?
+Bot(5): no , i like to read . what about you ?
+User(6): Yes, I do like to read. What else do you like to do?
+Bot(6): i like to go to the park and listen to music .
+User(7): I like music too. What type of music do you listen to?
+Bot(7): i like country music . i like country music .
+User(8): That's a good choice. Do you take your children to the park?
+Bot(8): i do , i love to go fishing .
+User(9): I haven't done much fishing. I find it a little boring.
+Bot(9): i do not know what to say .
+User(10): What else do you like to do?
+Bot(10): i like to go fishing . i love to go fishing .
+
+Persona:
+i'm a gold medalist olympian.
+my next language to study is french.
+i've brown curly hair.
+i'm a 12 year old girl.
+i've a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: i'm very strong for my age.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.14
+Robotic(↓): 100
+Interesting: 34
+Fun: 23
+Consistent: 53
+Fluent: 39
+Repetitive(↓): 60
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am 45 years old and a handsome man.
+Bot(1): i am 40 years old
+User(2): Are you a man or woman?
+Bot(2): i am a female , but sometimes am referred to as a man .
+User(3): Why are you referred to as a man when you are a woman?
+Bot(3): because i am a woman , and is old
+User(4): 40 isn't very old. What do you like to do for fun?
+Bot(4): fun loving older gentleman enjoys meeting people .
+User(5): That is nice. I am older and a man maybe we can meet sometime?
+Bot(5): i would love to ! let me know the date .
+User(6): What are some things you like to do when you are out on a date?
+Bot(6): fun loving older gentleman enjoys meeting people .
+User(7): Do you like to go out to eat?
+Bot(7): i would but i am a pretty simple guy . do not dine out much .
+User(8): You said you are a woman now you are saying you are a guy. Which is it?
+Bot(8): good guess . j . i am a man
+User(9): So am I. Why did you say you are a woman?
+Bot(9): i told you i was a woman in the beginning . lol
+User(10): That's not funny, that is lying.
+Bot(10): i am sure you are not funny looking . cheer up .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a 45 year old male.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.29
+Robotic(↓): 100
+Interesting: 2
+Fun: 2
+Consistent: 5
+Fluent: 10
+Repetitive(↓): 76
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is your favorite color? Mine is navy blue.
+Bot(1): i like the color blue as well . its a nice color .
+User(2): I also like purple and pink.
+Bot(2): my favorite color is blue . i like purple as well .
+User(3): I try to find clothes in the colors I like, it's not always easy.
+Bot(3): red , white and blue and silver too , what about you ?
+User(4): Those are good colors too. We live in a colorful world.
+Bot(4): i am an interior designer , love color ! my favorite band insane clown posse has lots of colored hair .
+User(5): How fun! Do you work on homes or businesses?
+Bot(5): remodeling homes i bet that is fun
+User(6): That's great. I like to watch a lot of remodeling shows.
+Bot(6): i enjoy game of thrones , supernatural , the walking dead . you ?
+User(7): No, I don't care for those things. What other things do you enjoy?
+Bot(7): i like helping other , supernatural and classic cars
+User(8): I like helping others too. I volunteer at a local food bank.
+Bot(8): you tall or short ? i am tall ! weird , what color is your skin ? i am blue
+User(9): I am tall, my skin is light, and so is my hair. You sound interesting.
+Bot(9): how cool ! my friend growing up had blonde hair as well !
+User(10): I never had a blue friend before. Do you have many blue friends?
+Bot(10): that is great i mean blue is a great color , my favorite is green .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite color is navy blue.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.29
+Robotic(↓): 100
+Interesting: 20
+Fun: 3
+Consistent: 34
+Fluent: 38
+Repetitive(↓): 40
+Topic: 50
+
+####################
+

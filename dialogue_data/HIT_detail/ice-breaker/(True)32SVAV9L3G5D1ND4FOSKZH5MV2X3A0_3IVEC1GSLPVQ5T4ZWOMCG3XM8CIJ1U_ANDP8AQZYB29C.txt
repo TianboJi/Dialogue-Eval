@@ -1,0 +1,321 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Where do you live
+Bot(1): california ! ! what do you do ?
+User(2): chat with robots. Where do you live?
+Bot(2): do you like robots then
+User(3): Yes. I like to know where they live.
+Bot(3): robots are the future ! scary .
+User(4): What kinds of robots are out there?
+Bot(4): robots are the future ! scary .
+User(5): Why are robots scary?
+Bot(5): robots are the future ! scary .
+User(6): I agree.
+Bot(6): robots are the future ! scary .
+User(7): Are you a robot?
+Bot(7): yes , i make robots
+User(8): That's interesting. How many have you made?
+Bot(8): so many that i have lost count
+User(9): Is it easy or difficult?
+Bot(9): its easy , there is no right or wrong answers
+User(10): Why do you make robots?
+Bot(10): i make robots . what about you ?
+User(11): I test robots.
+Bot(11): do you like robots then
+User(12): Yes. They make life easier.
+Bot(12): like cameras , timers , robotic cleaners
+User(13): What do you think of humans
+Bot(13): i do not really like humans .
+User(14): Why not?
+Bot(14): because it seems humans are only there to annoy
+User(15): What makes you come to this conclusion?
+Bot(15): because it seems humans are only there to annoy
+User(16): Why?
+Bot(16): because it seems humans are only there to annoy
+User(17): How do they annoy?
+Bot(17): because it seems humans are only there to annoy
+User(18): I disagree with you.
+Bot(18): because it seems humans are only there to annoy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i live in the cloud.(dislike)
+Round 8: The chatbot makes robots(like)
+Round 12: Humans(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 12: The user will change the topic in the next input.(like)
+
+Revised avg score: 42.86
+Robotic(↓): 100
+Interesting: 29
+Fun: 65
+Consistent: 37
+Fluent: 100
+Repetitive(↓): 100
+Topic: 69
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): I believe you are right. What opinion, belongs to your are you good at repairing?
+User(2): Can you clarify please?
+Bot(2): I is are you am a third grader
+User(3): I recently had a surgery
+Bot(3): No, i do do you like dont have tries to eat food. Have you short hair ?
+User(4): No, I have long hair
+Bot(4): is You are natural twitter i love twitter
+User(5): That's cool, I like social media too
+Bot(5): hi Talk About it
+User(6): Social media let's me connect with my friends
+Bot(6): i and i like what about you?
+User(7): I like it
+Bot(7): I live in new york. I is really, it's a a dancer
+User(8): How long have you been a dancer?
+Bot(8): I do, just told music.
+User(9): What kind of music?
+Bot(9): Hi! Howdy! 😎. Cut a home already asked bad band is aerosmith
+User(10): You don't like Aerosmith?
+Bot(10): I I you favourite food the weekends. do you play sports?
+User(11): Yes, how about you?
+Bot(11): Cool. I have a school right now.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: since the surgery i have had strange powers.(like)
+Round 3: Hair(ambivalent)
+Round 5: Twitter(ambivalent)
+Round 7: Proffessions(like)
+Round 9: Bands(like)
+Round 10: Sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 12.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 5
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 19
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I like to look at blocks and sing about letters
+Bot(1): i like to go to the gym and listen to music .
+User(2): How often do you go to the gym?
+Bot(2): i do , i love to go fishing .
+User(3): Where do you go fishing?
+Bot(3): no , i do not , but i do like to go fishing .
+User(4): How often do you go fishing?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): What kind of fish do you catch?
+Bot(5): i love to eat . i am a vegan .
+User(6): What kind of foods do you eat?
+Bot(6): i like pizza , and pizza .
+User(7): I like pizza too.
+Bot(7): i like to eat fish .
+User(8): Can vegans eat fish?
+Bot(8): i do not really like meat . i like to eat .
+User(9): What is your favorite food
+Bot(9): i like pizza , and i love to eat .
+User(10): How many meals do you eat in a day?
+Bot(10): i love to cook . i am a chef .
+User(11): How long have you been a chef?
+Bot(11): no , i do not . i am a big fan of classical music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to look at blocks and sing about letters.(dislike)
+Round 3: Fishing(like)
+Round 5: Diet(like)
+Round 11: Music taste(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 27.00
+Robotic(↓): 100
+Interesting: 55
+Fun: 55
+Consistent: 33
+Fluent: 4
+Repetitive(↓): 69
+Topic: 11
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'm a professional wrestler
+Bot(1): cool . i play professional basketball professionally ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago ago
+User(2): Which team do you play for?
+Bot(2): i play the guitar for a living
+User(3): How long have you been playing guitar?
+Bot(3): i play guitar for a living
+User(4): Does it pay well?
+Bot(4): i play guitar for a living
+User(5): Are you in a band?
+Bot(5): no i play guitar for a living
+User(6): Me too.
+Bot(6): no i play guitar for a living
+User(7): Is it easy or difficult for you?
+Bot(7): i play guitar for a living .
+User(8): Do you like movies?
+Bot(8): i do not . i love movies .
+User(9): What kind of movies do you enjoy?
+Bot(9): i love movies . i love them .
+User(10): Me too. How often do you watch movies?
+Bot(10): i do not watch movies . i like movies .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a professional wrestler.(like)
+Round 2: I play the guitar for a living(like)
+Round 7: Do you like movies?(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 27.43
+Robotic(↓): 100
+Interesting: 30
+Fun: 26
+Consistent: 64
+Fluent: 18
+Repetitive(↓): 100
+Topic: 54
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i volunteer at a soup kitchen.
+Bot(1): that is awesome ! i volunteer at my local soup kitchen too !
+User(2): Do you like to volunteer?
+Bot(2): sometimes , i really am into gardening
+User(3): How long have you been gardening?
+Bot(3): it has been almost four years .
+User(4): What grows in your garden?
+Bot(4): anything grown from the earth with little processing and that can rot .
+User(5): what kind of plants do you grow?
+Bot(5): all kinds , whatever i grow
+User(6): can you give me a gardening tip?
+Bot(6): sure . do you have any siblings ?
+User(7): Yes, 3 sisters
+Bot(7): i have two sisters and they are older than me . i am the youngest .
+User(8): Do you like your sisters?
+Bot(8): yes , i like them very much
+User(9): What are their names?
+Bot(9): the names are one , two , and three .
+User(10): Those are funny names
+Bot(10): after so many you run out of original names .
+
+Persona:
+i enjoy working with my hands and love gardening.
+i've one older sister.
+i volunteer in a homeless shelter.
+my aunt helped me escape when i was of.
+i'm four years old.
+
+Topic and Human Opinion:
+Beginning: i volunteer at a soup kitchen.(like)
+Round 2: gardening(like)
+Round 6: siblings(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 85.29
+Robotic(↓): 32
+Interesting: 90
+Fun: 90
+Consistent: 89
+Fluent: 88
+Repetitive(↓): 0
+Topic: 72
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey my name is larry and i'm a chef.
+Bot(1): neat so you could bake a pan of brownies that taste great too
+User(2): Of course I could. I can bake other desserts too.
+Bot(2): what do you like to bake ?
+User(3): I like to bake pies. What is your favorite kind of pie?
+Bot(3): coconut cream pie , but i love many other kinds .
+User(4): What do you do for work?
+Bot(4): nah i only know good jokes when whiskey is involved ha !
+User(5): Tell me a joke
+Bot(5): love shrimp and figured i would throw in a joke
+User(6): You are very funny
+Bot(6): i used to live in africa . there are a lot of bumble bees and lions .
+User(7): What else did you see in Africa
+Bot(7): well bears do not live in africa but yes the wild . i love seeing them daily .
+User(8): Do you like wild animals?
+Bot(8): i know broke my nose on my 10th birthday
+User(9): That is unfortunate. How did that happen?
+Bot(9): well , i was held hostage when i got caught up in a convenience store robbery .
+User(10): That sounds horrible. I'm glad you survived.
+Bot(10): it was an accident on a skiing trip . its the reason i hate it now
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hey my name is larry and i'm a chef.(like)
+Round 3: What is your profession.(like)
+Round 4: Jokes(like)
+Round 6: I used to live in africa(like)
+Round 8: Nose injury(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 61.00
+Robotic(↓): 38
+Interesting: 92
+Fun: 95
+Consistent: 22
+Fluent: 30
+Repetitive(↓): 1
+Topic: 27
+
+####################
+

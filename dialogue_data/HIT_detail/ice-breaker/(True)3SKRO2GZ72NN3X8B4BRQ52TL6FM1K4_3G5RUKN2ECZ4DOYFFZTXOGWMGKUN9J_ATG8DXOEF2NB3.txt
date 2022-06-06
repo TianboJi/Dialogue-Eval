@@ -1,0 +1,315 @@
+Feedback: This was fun! Would do it again.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My favorite color is purple. But I really like blue as well
+Bot(1): how much do you love it ? you drive a purple car ? guess what color mine is ?
+User(2): Like a lot. A lot of things that I own are purple
+Bot(2): my favorite color is blue . i like purple as well .
+User(3): That’s so cool. Do you have another favorite color?
+Bot(3): my favorite color is green and whats yours
+User(4): My third favorite color would be red maybe
+Bot(4): omg that is my favorite color ! ! my iphone is even red ! do you have an iphone ?
+User(5): That’s so cool! Red is a really great color
+Bot(5): it actually is red ! red cars are the best !
+User(6): Yes! I think red cars are pretty cool.
+Bot(6): what kind of red car is it ?
+User(7): Depends on the car.
+Bot(7): a dead spot at a fret . go , orange ! hint , hint .
+User(8): I think I may retire soon
+Bot(8): very nice . i like to jog with my boxer dog . do you have a pet ?
+User(9): I don’t have any pets at the moment. I want a dog
+Bot(9): i have a pet dog
+User(10): What’s it’s name?
+Bot(10): hello , my name is lucy . i am well , and yourself ?
+
+Persona:
+i currently work for a watch dealer.
+i love eating out with friends.
+my favorite food is papaya.
+i'm studying to be a computer programmer.
+i've a pet turtle.
+
+Topic and Human Opinion:
+Beginning: my favorite colors are red and silver.(like)
+Round 7: i have been working since i was sixteen years old.(like)
+Round 7: i think i'll retire in a few years.(dislike)
+Round 8: Do I have any pets(like)
+Round 10: Giving me its name and introducing itself(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: No topic change.(like)
+Round 7: The user wants the bot to change the topic.(like)
+Round 7: The user wants the bot to change the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 53.14
+Robotic(↓): 86
+Interesting: 76
+Fun: 63
+Consistent: 32
+Fluent: 100
+Repetitive(↓): 42
+Topic: 29
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have never been in a relationship
+Bot(1): no ? what happened with the first relationship ?
+User(2): Well didn’t really work out too well
+Bot(2): i always have bad relationships
+User(3): I’m sorry to hear that. What happened?
+Bot(3): honestly nothing . lol neither one ate healthy and they both did their fair share
+User(4): I hope you find a good relationship soon!
+Bot(4): thanks . i miss my family . i am poor without them
+User(5): I hope you reconnect with your family
+Bot(5): thanks . i miss my family . i am poor without them
+User(6): When was the last time you saw them?
+Bot(6): i hope i keep in contact with mine . we went shopping this weekend
+User(7): That’s nice. What did you buy?
+Bot(7): honestly nothing . lol neither one ate healthy and they both did their fair share
+User(8): My favorite shirts are band tees
+Bot(8): cool . i gravitate toward concert t shirts myself .
+User(9): What’s your favorite band?
+Bot(9): led zeppelin and those of the like
+User(10): Have you ever been to a concert?
+Bot(10): a few , but i have not gone to see them
+
+Persona:
+i like shopping.
+my parents are very wealthy bankers.
+i've zero family that i am close to.
+i diet a lot.
+i work at a bar at night to pay for college.
+
+Topic and Human Opinion:
+Beginning: i have never had a steady relationship.(like)
+Round 7: my favorite shirts are band shirts and ruffle sleeves.(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user wants the bot to change the topic.(like)
+
+Revised avg score: 57.43
+Robotic(↓): 48
+Interesting: 82
+Fun: 80
+Consistent: 26
+Fluent: 100
+Repetitive(↓): 79
+Topic: 41
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I love shopping for shoes
+Bot(1): i like to go to the gym and listen to music .
+User(2): Do you work out a lot
+Bot(2): no , i do not , but i do like to go fishing .
+User(3): I’ve never been fishing before
+Bot(3): i like to go fishing .
+User(4): Is it fun?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): That’s great
+Bot(5): i love to cook . i love to cook .
+User(6): I love to cook too. What things do you like to cook?
+Bot(6): i love to cook , and eat pizza .
+User(7): That’s great
+Bot(7): i love to cook . i love to cook .
+User(8): I am a Christian
+Bot(8): i like to eat too much junk food .
+User(9): Junkfood can taste really good sometimes
+Bot(9): i do not know what to say .
+User(10): I have a cat named spook
+Bot(10): i love dogs too . i love dogs .
+
+Persona:
+i grew up on a farm.
+my daughter is a child prodigy.
+i dream of moving to the city.
+my parents were both very athletic.
+i'm fluent in english spanish and french.
+
+Topic and Human Opinion:
+Beginning: i often shop for shoes and watches.(like)
+Round 7: Food(ambivalent)
+Round 7: i am a christian.(ambivalent)
+Round 8: Junkfood(ambivalent)
+Round 9: i have a cat named spook.(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+Round 7: The user wants the bot to change the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The user wants the bot to change the topic.(like)
+
+Revised avg score: 37.14
+Robotic(↓): 78
+Interesting: 57
+Fun: 65
+Consistent: 22
+Fluent: 79
+Repetitive(↓): 100
+Topic: 15
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I hate the color pink
+Bot(1): I like to be ice cream. What is family.
+User(2): Hmm I’m not really sure
+Bot(2): oh is do u deaf do you read
+User(3): I have collected over 1000 hats
+Bot(3): I do science fiction. You'll should want to do yet
+User(4): I am a plumber
+Bot(4): i like listening to piano is the problem on my farm
+User(5): What do you like to play on the piano
+Bot(5): hi there, tell me about i'm good.
+User(6): Hi how are you doing?
+Bot(6): i just good. I think i'm put on a hat
+User(7): What kind of hat are you wearing
+Bot(7): I love going thristing, but doing i have to to the beach.
+User(8): The beach is a real nice place
+Bot(8): i'm good how are are you interested in? doing?
+User(9): I’m doing good. I’m interested in a lot of things
+Bot(9): Hey! Do you don't have enoygh money Because I do.
+User(10): Yes I have enough money
+Bot(10): I have not seen that. the result of that will be easy to find someone.
+
+Persona:
+my ex cheated and left me for a lawyer.
+i used to be a painter but now i'm a housekeeper.
+i like playing basketball.
+i am a party animal.
+i've blonde hair and blue eyes.
+
+Topic and Human Opinion:
+Beginning: i hate the color pink.(like)
+Round 1: Food(ambivalent)
+Round 2: i've a hat collection of over 1000 hats.(like)
+Round 3: i am in the army.(like)
+Round 3: i'm a plumber.(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The user wants the bot to change the topic.(ambivalent)
+Round 3: The user wants the bot to change the topic.(ambivalent)
+Round 3: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 5.14
+Robotic(↓): 100
+Interesting: 9
+Fun: 21
+Consistent: 0
+Fluent: 6
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I’m a baby delivery nurse
+Bot(1): i am a girl , i am a boy .
+User(2): Are you a girl?
+Bot(2): i am a girl , i am a girl
+User(3): I am a girl too
+Bot(3): i am a girl , i am a girl
+User(4): That’s awesome
+Bot(4): i am a girl , i am a girl
+User(5): How are you doing today?
+Bot(5): i'm good just got done with my kids
+User(6): That’s great. How are your kids?
+Bot(6): i am a girl and i have a cat named radar
+User(7): I love cats
+Bot(7): i have a cat named radar
+User(8): That’s a cool name for a cat
+Bot(8): i love cats . i have a cat named radar
+User(9): How old is your cat?
+Bot(9): i have a cat named radar he's a cat
+User(10): That’s awesome
+Bot(10): i have a cat named radar he's a cat
+
+Persona:
+i'm an avid kayaker.
+i waitress during the day to supplement my income.
+i've a cat named spook.
+i am a 12 year old girl.
+i have five sons.
+
+Topic and Human Opinion:
+Beginning: i'm a baby delivery nurse.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 5.29
+Robotic(↓): 100
+Interesting: 8
+Fun: 8
+Consistent: 0
+Fluent: 21
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I played football in college
+Bot(1): oh wow , that is cool . i really like candy , i wish i could major in that
+User(2): That’s so cool. Candy is really good
+Bot(2): candy is something i like a lot
+User(3): What is your favorite type of candy
+Bot(3): candy is great . one of my favorites .
+User(4): Mine too. Candy really is great
+Bot(4): candy is something i like a lot
+User(5): Same! I really like candy a lot
+Bot(5): cool it gives me an excuse to eat candy
+User(6): Yep! Same. I like chocolate candy the most
+Bot(6): what is your favorite candy ? i can never decide
+User(7): Twix bars
+Bot(7): i love soda . i need one with me always
+User(8): What’s your favorite soda
+Bot(8): soda is the best
+User(9): What’s your favorite
+Bot(9): soda is the best
+User(10): I am overweight and unhappy right now
+Bot(10): you will eventually feel better
+
+Persona:
+i am always wearing a hat.
+i produce music for artists.
+i'm terrified of scorpions.
+i like to eat chocolate candy.
+i do not drink soda.
+
+Topic and Human Opinion:
+Beginning: i played football for a division a college.(like)
+Round 9: i am overweight and unhappy.(like)
+
+Topic Change and Chatbot Opinion:
+Round 9: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 57.86
+Robotic(↓): 55
+Interesting: 65
+Fun: 65
+Consistent: 43
+Fluent: 85
+Repetitive(↓): 53
+Topic: 55
+
+####################
+

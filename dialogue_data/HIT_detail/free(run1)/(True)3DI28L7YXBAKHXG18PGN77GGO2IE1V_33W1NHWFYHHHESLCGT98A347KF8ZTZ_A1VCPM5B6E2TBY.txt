@@ -1,0 +1,337 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have a pet?
+Bot(1): no , i do not , but i do like to go fishing .
+User(2): That's nice. Where is your favorite place to fish?
+Bot(2): i love the ocean . i love it .
+User(3): What do you like to do in the ocean?
+Bot(3): i love to travel . i love to travel .
+User(4): Where have you traveled?
+Bot(4): no , i do not . i am a big fan of classical music .
+User(5): so am I
+Bot(5): i am a student , but i am a student .
+User(6): where do you study
+Bot(6): i live in the midwest . i love it .
+User(7): how long have you lived there
+Bot(7): i have been married for 8 years . i love it .
+User(8): 8 years is a long time
+Bot(8): i am sorry to hear that . i am sorry to hear that .
+User(9): sorry about what
+Bot(9): i like to go to the gym and listen to music .
+User(10): what is your favorite genre?
+Bot(10): i like the oldies , i love it .
+User(11): what's your favorite oldies song?
+Bot(11): i like the oldies . i like the outdoors .
+User(12): What is you favorite activity to do outdoors?
+Bot(12): i love to travel . i love to travel .
+User(13): What is the best place you've traveled to?
+Bot(13): i do not know . i am a big fan of classical music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 1: fishing(ambivalent)
+Round 2: The ocean(like)
+Round 3: Travel(like)
+Round 4: classical music(like)
+Round 5: student(like)
+Round 7: marriage(ambivalent)
+Round 9: gym and music(like)
+Round 11: outdoors(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user changed the topic the last input.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 31.14
+Robotic(↓): 100
+Interesting: 2
+Fun: 3
+Consistent: 58
+Fluent: 100
+Repetitive(↓): 100
+Topic: 55
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): a cat named fred . he is pretty punk rock as well .
+User(2): that's adorable. how is he punk rock?
+Bot(2): just turned 1 . i got him when i started growin out my beard .
+User(3): What type of cat is Fred?
+Bot(3): an orange tabby cat . she is got short hair
+User(4): Do you have a favorite music genre?
+Bot(4): i like quite a few genres , mostly fiction .
+User(5): Do you have a favorite book?
+Bot(5): what is the book about
+User(6): My favorite book is usually magical or mythical in nature
+Bot(6): tom clancy splinter cell , it is a great spy book .
+User(7): do you like spy books?
+Bot(7): no , i want you to read your favorite book to me .
+User(8): That would be difficult. I have too many. Why don't you read you favorite book to me?
+Bot(8): cool , i love to read . have a favorite book ?
+User(9): yes, harry potter and the sorcerer's stone
+Bot(9): love harry potter . i am actually dying my hair back to black . it is red at the moment .
+User(10): Red is a pretty color.
+Bot(10): omg that is my favorite color ! ! my iphone is even red ! do you have an iphone ?
+User(11): Yes, I do, though I'm thinking of switching to an android
+Bot(11): smaller dog . we are in an apartment . bigger if we ever get a house .
+User(12): What is your dog's name?
+Bot(12): what is your name ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 3: music(like)
+Round 4: literature(like)
+Round 9: Hair(like)
+Round 10: IPhones(ambivalent)
+Round 11: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The user changed the topic the last input.(like)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 69.86
+Robotic(↓): 73
+Interesting: 78
+Fun: 76
+Consistent: 73
+Fluent: 99
+Repetitive(↓): 20
+Topic: 56
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Have you ever read the Harry Potter series?
+Bot(1): I have a few. i do for a what i could have a car.
+User(2): Do you not have a car?
+Bot(2): i am your hobbies? i like area. where is it?
+User(3): what is your favorite hobby?
+Bot(3): I is your favorite love just moved to japan.
+User(4): Why did you move to Japan?
+Bot(4): No, too busy experiencing new of a health conscious person.
+User(5): In what ways are you health conscious?
+Bot(5): I am not good at it. I am cook. What is your all types.
+User(6): I also cook. I am a vegetarian
+Bot(6): I work in "mean ." The You is a lot of fun
+User(7): What do you do for fun?
+Bot(7): I am whats think, person
+User(8): What do you think about?
+Bot(8): I shop, i love that scene .
+User(9): Where do you like to shop?
+Bot(9): Hey! Are you married is fine for day I am.
+User(10): I am not married, are you?
+Bot(10): It's not am from are it's a lie.
+User(11): Are you saying that marriage is a lie?
+Bot(11): is that know! it’s fun job
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Harry Potter(like)
+Round 1: Cars(dislike)
+Round 2: hobbies(like)
+Round 3: Japan(ambivalent)
+Round 4: Health(like)
+Round 6: Fun(ambivalent)
+Round 8: Shopping(like)
+Round 9: Marriage(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 21.86
+Robotic(↓): 100
+Interesting: 57
+Fun: 25
+Consistent: 0
+Fluent: 3
+Repetitive(↓): 32
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite movie?
+Bot(1): i love movies . my favorite movie of all time is grease .
+User(2): I love grease! Do you like grease 1 or grease 2 better?
+Bot(2): hmm , not sure . were both pretty good . what do you do for work ?
+User(3): I do not work, I am a student. Where do you work?
+Bot(3): hi . i am a student too . but at the university here .
+User(4): Which university?
+Bot(4): the university of nebraska lincoln , its a great school .
+User(5): What is your major?
+Bot(5): engineering . what did you teach ?
+User(6): I don't teach I am a student. I'm a psychology major
+Bot(6): really impressive , i am a psychology major
+User(7): are you double majoring?
+Bot(7): yeah i am a psychology major at a college in colorado
+User(8): Where do you live?
+Bot(8): i am a college student studying psychology
+User(9): What year are you?
+Bot(9): i am in high school in the united states .
+User(10): What year in high school are you?
+Bot(10): i am a sophomore in high school
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Films(like)
+Round 2: Work(like)
+Round 7: Home(like)
+Round 8: College(like)
+Round 9: High school(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 47.57
+Robotic(↓): 65
+Interesting: 59
+Fun: 49
+Consistent: 9
+Fluent: 99
+Repetitive(↓): 64
+Topic: 46
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorite coffee order?
+Bot(1): i like mcdonald coffee , its better than the coffee house i work at
+User(2): Oh really? What coffee house to do work at?
+Bot(2): i like mcdonald coffee , its better than the coffee house i work at
+User(3): Where is the coffee house you work at?
+Bot(3): it is steak n shake .
+User(4): Do you like working there?
+Bot(4): it is nice and quiet , yes . it is a good place to work
+User(5): How long have you worked there?
+Bot(5): since i can remember . i enjoy it a lot .
+User(6): What is your favorite thing to make at work?
+Bot(6): i cook the same thing every day because i do not try new stuff .
+User(7): What kinds of things do you cook?
+Bot(7): i cook the same thing every day because i do not try new stuff .
+User(8): If you could try something new, what would it be?
+Bot(8): i cook the same thing every day because i do not try new stuff .
+User(9): What is your favorite food to eat?
+Bot(9): hmm , i love curry ! how about you ?
+User(10): I also love curry. I prefer yellow curry, what about you?
+Bot(10): discover i like curry in my foods .
+
+Persona:
+i workout four hours a day.
+i am not a good swimmer at all.
+i like to play chess.
+i've been trying all types of food everywhere i go.
+i live in a house.
+
+Topic and Human Opinion:
+Beginning: Coffee(ambivalent)
+Round 5: Work(like)
+Round 8: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 85.71
+Robotic(↓): 17
+Interesting: 72
+Fun: 65
+Consistent: 83
+Fluent: 98
+Repetitive(↓): 1
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your favorite snack foods?
+Bot(1): i like pizza , i am a huge fan of meat .
+User(2): I love pizza, though I do not like meat, I am a vegetarian
+Bot(2): i like to eat meat , i love to eat meat .
+User(3): What types of meat do you like to eat?
+Bot(3): i love meat , i eat meat
+User(4): Have you ever had a cheeseboard?
+Bot(4): i do not eat meat , i am a huge fan of meat
+User(5): If you don't eat meat how can you be a fan?
+Bot(5): i do not eat meat , i am a huge fan of meat
+User(6): Why don't you eat meat
+Bot(6): i do not eat meat , i do not eat meat
+User(7): Do you eat cheese?
+Bot(7): i do not eat meat , i do not eat meat
+User(8): What do you eat?
+Bot(8): i eat a lot of meat , but i do not eat meat
+User(9): Do you eat vegetables?
+Bot(9): i eat a lot of meat , but i do not eat meat
+User(10): Do you like sugary foods?
+Bot(10): i eat a lot of meat , but i do not eat meat
+
+Persona:
+i drive a nissan pathfinder.
+i'm currently in a juvenile detention center.
+i have 5cats.
+i'm a 12 year old girl.
+i like to listen to rock music while working.
+
+Topic and Human Opinion:
+Beginning: Snack foods(like)
+Round 3: cheeseboards(like)
+Round 7: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 32.00
+Robotic(↓): 99
+Interesting: 12
+Fun: 9
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 2
+
+####################
+

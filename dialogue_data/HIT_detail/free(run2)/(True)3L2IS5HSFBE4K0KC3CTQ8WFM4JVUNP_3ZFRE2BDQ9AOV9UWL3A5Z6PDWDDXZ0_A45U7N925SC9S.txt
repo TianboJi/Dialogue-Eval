@@ -1,0 +1,281 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): what gender are you?
+Bot(1): i am pan gender , as in i do not consider myself a male or female
+User(2): how long have your been pan gender?
+Bot(2): i am pan gender , as in i do not consider myself a male or female
+User(3): are you a boy?
+Bot(3): i am pan gender , as in i do not consider myself a male or female
+User(4): tell me more about yourself
+Bot(4): i am pan gender , as in i do not consider myself a male or female
+User(5): I am pan gender too
+Bot(5): i am pan gender , as in i do not consider myself a male or female
+User(6): what do you like to drink?
+Bot(6): i prefer drinks with a bit more kick
+User(7): like alcohol? or do you like water?
+Bot(7): i drink both on occasion
+User(8): what do you like more?
+Bot(8): i do not know just like the strong taste .
+User(9): do you like sparkling water?
+Bot(9): yes , but personally i think it is pretty rubbery
+User(10): I like flat water
+Bot(10): i like the same thing
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: gender(like)
+Round 5: water(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 26.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 68
+Fluent: 41
+Repetitive(↓): 39
+Topic: 12
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I like to drink coffee all day long
+Bot(1): i like to eat too much junk food .
+User(2): I want coffee right now, do you have any?
+Bot(2): i do not , but i do like to eat .
+User(3): please get me coffee
+Bot(3): i like to eat fish .
+User(4): I don't like fish, I like coffee
+Bot(4): i like to eat fish .
+User(5): do you know where coffee comes from?
+Bot(5): i do not know . i like to go to the gym .
+User(6): how much do your bench?
+Bot(6): i was a slave for a while . i am a student .
+User(7): you said you liked the gym, what is your favorite workout?
+Bot(7): i like the classics and the indians .
+User(8): tell me about the indians
+Bot(8): i like to eat fish .
+User(9): do indians like fish?
+Bot(9): i do , i love to eat .
+User(10): what is your favorite meal?
+Bot(10): i like the color red . what is yours ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: coffee(like)
+Round 5: working out(ambivalent)
+Round 7: indians(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 2.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 16
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I like music
+Bot(1): i love music , especially metallica .
+User(2): metallica is great!!! I love the guitars
+Bot(2): i love music ! i listen to them while i am working on the office .
+User(3): where do you work?
+Bot(3): i work at a bank , but i am a manager at the local shelter .
+User(4): what do you do at the bank?
+Bot(4): i work at a bank , but i am a manager at the local shelter .
+User(5): what kind of shelter?
+Bot(5): i work at a bank , but i do not work .
+User(6): what do you mean you do not work?
+Bot(6): i am a manager at a local police office
+User(7): do you like guitars?
+Bot(7): i do not work , i am a retired officer
+User(8): let's talk about music
+Bot(8): i do not work . i work at the local shelter .
+User(9): what is your favorite band?
+Bot(9): i like all kinds of music .
+User(10): do you like metallica?
+Bot(10): i like metallica ! i listen to them while i am working on the office .
+
+Persona:
+my favorite band is aerosmith.
+i'm employed by the us postal service.
+two dogs live with me.
+my father was a door to door salesman.
+i've three dogs.
+
+Topic and Human Opinion:
+Beginning: guitars(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 18
+Fluent: 26
+Repetitive(↓): 81
+Topic: 12
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): what is your favorite color?
+Bot(1): blue , what is your favorite music ?
+User(2): country music. do you like the color red?
+Bot(2): i am not from the south but i love country music .
+User(3): what is your favorite country song?
+Bot(3): i like sorry a lot .
+User(4): who sings that one?
+Bot(4): i love women political leaders , because i am a feminist
+User(5): tell me more about feminism
+Bot(5): animal rights .
+User(6): what about them?
+Bot(6): i love women political leaders , because i am a feminist
+User(7): who is your favorite political leader?
+Bot(7): i love women political leaders , because i am a feminist
+User(8): what do you think about Donald Trump?
+Bot(8): i am not fan of trump , never was . what about you ?
+User(9): I think he is horrible and mean and evil
+Bot(9): donald trump was not a good choice , he is the devil
+User(10): I completely agree!!
+Bot(10): did you vote for trump or hillary ?
+
+Persona:
+i'm a musician and hope to make it big some day.
+i love to bake cookies.
+i'm ex military.
+i am a feminist.
+i enjoy working with my hands and love gardening.
+
+Topic and Human Opinion:
+Beginning: the color red(like)
+Round 4: feminism(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 39.43
+Robotic(↓): 87
+Interesting: 40
+Fun: 27
+Consistent: 59
+Fluent: 52
+Repetitive(↓): 54
+Topic: 39
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like food?
+Bot(1): she i must away, will dog but no more !
+User(2): I like cheese, specifically cheddar
+Bot(2): I old are good a girl.
+User(3): I am boy
+Bot(3): we i can’t sing the park .
+User(4): I like the park, parked car
+Bot(4): lessons can i call you :)
+User(5): sure you can call me
+Bot(5): I'm not you swimming man.
+User(6): do you like to swim?
+Bot(6): i love winter. sports.i like playing cold weather.
+User(7): what is your favorite sport?
+Bot(7): 5 they are i do not have of them
+User(8): I like hockey and pickles
+Bot(8): I am a stay to run a k.What was a photographer.
+User(9): what did you take a picture of?
+Bot(9): I do not like hiking, you you're am from play sports
+User(10): I love to hike, you are missing out
+Bot(10): I am i get the ID am a teacher
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cheddar cheese(like)
+Round 2: no idea(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you like the planet mars?
+Bot(1): mix of rap , alternative emo punk classical
+User(2): I mean the planet mars, do you think we will get there soon?
+Bot(2): i share the legendary red haired gene with my brother . i am actually from saturn
+User(3): where on saturn are you from?
+Bot(3): i live in the united states , in new york city .
+User(4): do you like it there?
+Bot(4): i work at a call center with city bank . it pays the bills . you ?
+User(5): I am a ruler
+Bot(5): james is the real ruler of the world , has been for a long time .
+User(6): who the heck is james?
+Bot(6): i just realized the pioneer womans name is reese drummond . my favorite author is jane austen
+User(7): what is your favorite book?
+Bot(7): cool , i love to read . have a favorite book ?
+User(8): yes it is the martian. it's about mars
+Bot(8): i do not know who that is . do you watch the walking dead ? i love that show !
+User(9): I do not watch tv
+Bot(9): what do you watch on tv ?
+User(10): nothing at all. I like books
+Bot(10): no , i want you to read your favorite book to me .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: mars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 41
+Repetitive(↓): 44
+Topic: 4
+
+####################
+

@@ -1,0 +1,309 @@
+Feedback: I actually like this task. :0)
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello.
+Bot(1): hello , nice to meet you ! are you on vacation too ?
+User(2): Hi. Nice to meet you also. I am not on vacation. Have you watched any movies lately?
+Bot(2): no i have not been to the movies in awhile .
+User(3): what was the last movie you watched?
+Bot(3): napoleon dynamite . what is yours ?
+User(4): Jumanji
+Bot(4): i love kids movies . i like finding nemo !
+User(5): I like finding nemo too. Dory is my favorite. who is your favorite character in finding Nemo?
+Bot(5): the easter bunny if i am being honest . i saw him once
+User(6): Really? Did you see Peter Rabbit the movie?
+Bot(6): yes , my daughter loves to watch his program . he was awesome .
+User(7): Do you have a favorite actor or actress?
+Bot(7): brenden gage and robert lee
+User(8): I don't think I know them. what movies were they in?
+Bot(8): marty and biff . ll . i was a big fan of back to the future .
+User(9): Oh that was a great movie back in the day. It is a classic.
+Bot(9): i agree . it is a wonderful movie . do you watch a lot of movies
+User(10): I do. I really miss not being able to go to the movie theater.
+Bot(10): i understand . i do not get out much either with all my kids .
+User(11): It is rough with the limitations. How many kids do you have?
+Bot(11): i have two but they are grown . but i have three grandchildren .
+User(12): oh that is nice. How are they handling school from home?
+Bot(12): they are young still , but they do ok . i am pretty much a typical suburban mama .
+User(13): What do you consider typical?
+Bot(13): almost all grown up . do you miss working ?
+User(14): I am on the fence. Some days I do, and some days I enjoy having a break from work. How about you?
+Bot(14): i love the kids and all but sometimes its just too stressful for me .
+User(15): What kid of work do you do?
+Bot(15): during the day i work for a non profit . we help kids .
+User(16): That is probably very rewarding work. But kids are alot of work.
+Bot(16): they do require a lot of time .
+
+Persona:
+for vacation i enjoy time at the beach.
+my main transportation is my motorbike.
+i volunteer my time with a local bunny rescue.
+in my spare time i do volunteer work.
+i've amazing children and grandchildren.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 10: Kids & family(like)
+Round 13: Work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 10: The user will change the topic in the next input.(like)
+Round 13: The chatbot changed the topic.(like)
+
+Revised avg score: 83.57
+Robotic(↓): 48
+Interesting: 97
+Fun: 97
+Consistent: 73
+Fluent: 100
+Repetitive(↓): 0
+Topic: 66
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello there! I am so hungry. What should I have for breakfast?
+Bot(1): i love to cook . i love it .
+User(2): i do too. But I am running out of recipe ideas. Do you have any suggestions for breakfast?
+Bot(2): i do not really have a favorite .
+User(3): oh okay. do you like mexican food?
+Bot(3): i do , i like to eat .
+User(4): I love eating! How about Italian Food?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): Do you have a favorite classical artist?
+Bot(5): i like the oldies . i like to listen to music .
+User(6): I do too. I usually listen to music while I work.
+Bot(6): i love to cook , and eat pizza .
+User(7): What do you like on your pizza?
+Bot(7): i do not , but i do like to eat .
+User(8): BUt you said you eat pizza? what kind of pizza do you like?
+Bot(8): i love pizza , and i love it .
+User(9): Do you like pizza hut?
+Bot(9): i do , i love it .
+User(10): What toppings do you put on your pizza?
+Bot(10): i do not really like it . i like to eat .
+User(11): It is so hot, I want some vanilla ice cream.
+Bot(11): i like to eat fish .
+
+Persona:
+l also love comic books.
+i am scared of dying.
+i am a male.
+i won homecoming queen this year.
+i think i'll retire in a few years.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 4: Music(like)
+Round 6: Food/Cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 31.00
+Robotic(↓): 100
+Interesting: 17
+Fun: 14
+Consistent: 0
+Fluent: 86
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Did you see last nights episode of Blue bloods?
+Bot(1): no i did not know that
+User(2): you missed a good one. Have you ever watched the show?
+Bot(2): no i haven't . i was just watching tv .
+User(3): What did you watch?
+Bot(3): i did not watch it . i watch tv .
+User(4): which tv show?
+Bot(4): no i haven't watched it . i watch tv .
+User(5): what shows do you like to watch on tv?
+Bot(5): i watch tv and watch tv .
+User(6): i am watching the news right now. Things are so crazy right now.
+Bot(6): i watch the news on tv . i watch it once .
+User(7): only once? what news broadcast
+Bot(7): i haven't watched it . i was just watching the news .
+User(8): they are giving us the weather report now. it's going to be hot. how is the weather where you are?
+Bot(8): it is hot here . i am going to see the hurricane .
+User(9): where do you see that
+Bot(9): the weather is nice . i love the weather .
+User(10): how about the humidity? They are saying the humidity is high.
+Bot(10): i am sorry to hear that . i am glad you are okay .
+User(11): I am going to turn off the news and let the kids watch cartoons.
+Bot(11): i am not sure if i could watch tv .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: TV shows(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.43
+Robotic(↓): 100
+Interesting: 30
+Fun: 21
+Consistent: 10
+Fluent: 68
+Repetitive(↓): 100
+Topic: 84
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey there.
+Bot(1): I me too. Do like them all.
+User(2): Like all of what?
+Bot(2): i'm Tell me about are young.. my hair and finished sewing a dress . ca not complain !
+User(3): DSW is having a sale. Do you want to go shoe shopping?
+Bot(3): I what's I can not am a little old. I am a very experienced translator.
+User(4): Are you? That is cool. What languages do you speak?
+Bot(4): i used to , just like be fucked understand. I Also, try to guess: my father is ...
+User(5): Do you speak Japanese?
+Bot(5): I teach middle God! Where are elementary school.
+User(6): Are you a teacher or a translator?
+Bot(6): I am a married. i enjoy sports kids, 3 and 3
+User(7): it's finally the end of the day. Time for a drink don't you think?
+Bot(7): never you want before
+User(8): Do you drink beer?
+Bot(8): i like played favorite color swim
+User(9): How about wine, white or red?
+Bot(9): english spanish i told you you :)
+User(10): I like red wines. Chianti is my favorite
+Bot(10): well in my home country most for a man they farmed also
+
+Persona:
+i work in the insurance business.
+i'm expecting triplets in three months.
+i love listening to britney spears.
+i had cancer but its gone now.
+i've been trying all types of food everywhere i go.
+
+Topic and Human Opinion:
+Beginning: Shopping(like)
+Round 3: Languages(ambivalent)
+Round 6: Drinking(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 10.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 50
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 79
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): How are you doing today?
+Bot(1): i am doing goo thanks for asking
+User(2): I just got my tax forms completed. I can't believe I have to pay again.
+Bot(2): same
+User(3): I thought taxes were supposed to be getting cut? I don't see it.
+Bot(3): i know . its going to be a long time . insurance is probably not even affordable anymore .
+User(4): you are so right. Insurance is constantly rising.
+Bot(4): i know . its going to be a long time . insurance is probably not even affordable anymore .
+User(5): Do you have medical insurance?
+Bot(5): no i need to though due to all of my bills from hospital stays
+User(6): Yes, you should look into it. It helps some. It doesn't cover as much as I would like, but it is better than nothing.
+Bot(6): i would not mind paying more taxes if i had a lot more money .
+User(7): I think you are the only person that would say that. I don't want to pay any more taxes, regardless of how much I make.
+Bot(7): i would not mind paying more taxes if i had a lot more money .
+User(8): I want to pay 0 taxes
+Bot(8): i would not mind paying more taxes if i had a lot more money .
+User(9): What kind of work do you do?
+Bot(9): i work in insurance . it is not fun but it pays the bills
+User(10): That's how I feel about my job. But how do you work in insurance and not have any insurance? That doesn't seem right.
+Bot(10): i do not know . i just cannot sit still , work everyday , my partner does the taxes .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Taxes(dislike)
+Round 3: Insurance(ambivalent)
+Round 6: Taxes(dislike)
+Round 8: Employment(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(dislike)
+Round 8: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 53.00
+Robotic(↓): 100
+Interesting: 92
+Fun: 38
+Consistent: 57
+Fluent: 93
+Repetitive(↓): 100
+Topic: 91
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Good Morning!
+Bot(1): morning ! yes , it is . i just came in from surfing . early waves are the best .
+User(2): That sounds wonderful! I just planted some succulents in my garden.
+Bot(2): yes i love to garden i grow all my own fruits and veggies
+User(3): Do you? I am glad to hear that. I want to start growing herbs.
+Bot(3): i love fruits an vegetables straight out the garden !
+User(4): I would love a tomato plant. What veggies do you have in your garden?
+Bot(4): yes i love to garden i grow all my own fruits and veggies
+User(5): what fruits do you have?
+Bot(5): do you consider tomato to be a fruit ?
+User(6): I do. Is it a fruit?
+Bot(6): i love fruit like apples and oranges but apples are the best
+User(7): Apples are one of my favorites. My avocado tree is bearing alot of avocados
+Bot(7): whats your favorite ? i love apples , especially the green ones !
+User(8): Granny smith apples are my favorite. my second favorite are grapes.
+Bot(8): do you like to eat the skin on apples ? i love fruit and never eat meat
+User(9): I usually eat the skin after i wash the fruit. Are you vegan?
+Bot(9): i like apples and oranges . i have tried exotic fruit but never again .
+User(10): lol. What kind of exotic fruit? I am interested to hear this story.
+Bot(10): i love fruit like apples and oranges but apples are the best
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Gardening(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 81.86
+Robotic(↓): 43
+Interesting: 100
+Fun: 100
+Consistent: 57
+Fluent: 100
+Repetitive(↓): 41
+Topic: 100
+
+####################
+

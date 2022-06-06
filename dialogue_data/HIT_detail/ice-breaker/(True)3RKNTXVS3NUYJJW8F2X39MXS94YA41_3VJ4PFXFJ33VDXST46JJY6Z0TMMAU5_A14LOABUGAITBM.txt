@@ -1,0 +1,282 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): how are you today?
+Bot(2): good thanks . tell me about yourself
+User(3): graduated from yale in 2011 with a degree in finance.
+Bot(3): cool i went to yale
+User(4): i have been a professional for 7 years
+Bot(4): that is impressive . i finished college two months ago .
+User(5): what did you pursue?
+Bot(5): i got a business degree . it was a very enjoyable experience
+User(6): have you secured an employtment yet
+Bot(6): not yet , i am studying to get my degree now
+User(7): business courses are marketable
+Bot(7): i graduated with a business degree , i would recommend it
+User(8): sounds great. do you plan to be a professor in that field?
+Bot(8): no . i already got my doctorate
+User(9): congratulations are in order
+Bot(9): thank you . i look forward to graduation
+User(10): okay bye. all the best
+Bot(10): i wish you the same
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i graduated from yale in 2011 with a degree in finance.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.14
+Robotic(↓): 90
+Interesting: 80
+Fun: 73
+Consistent: 79
+Fluent: 72
+Repetitive(↓): 78
+Topic: 71
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you doing ?
+User(2): am doing great,what about you?
+Bot(2): hi , i am doing great . how are you ?
+User(3): i have trouble getting to my course of choice at Oxford university
+Bot(3): oh , i am looking for a job at a restaurant .
+User(4): my mum wants ,e to be a doctor yet my passion lies in engineering
+Bot(4): i am a chef , i love cooking and cooking .
+User(5): what's your favorite meal
+Bot(5): i love to cook , but i am looking for a job at a restaurant
+User(6): the pandemic can be a challenge to secure a better job for now
+Bot(6): i am a huge fan of it
+User(7): how long have you been a chef?
+Bot(7): no i am not a chef
+User(8): what do you do
+Bot(8): i am a chef , i love cooking
+User(9): what about we talk about movies
+Bot(9): i love to cook . i love cooking and eating .
+User(10): okay. have a good day
+Bot(10): i love to cook and eat a lot of cooking
+
+Persona:
+i have a weakness for fish and chips.
+i am a bee farmer.
+i am terrified of clowns due to childhood trauma.
+i love to cook paella.
+i'm currently looking for a job preferably at a restaurant.
+
+Topic and Human Opinion:
+Beginning: my family does not support my career choices.(like)
+Round 4: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 9.43
+Robotic(↓): 100
+Interesting: 1
+Fun: 9
+Consistent: 4
+Fluent: 31
+Repetitive(↓): 79
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey
+Bot(1): I love to an artist) and a spain. what about you?
+User(2): i'm an avid kayaker
+Bot(2): I like to cook too. What beer !
+User(3): i like eating too
+Bot(3): I live in is said you vegetarian big city girl
+User(4): not really where are you from
+Bot(4): I am bad things, for i love it.
+User(5): what bad things do you do
+Bot(5): I have i should go California.
+User(6): is it your best destination at now
+Bot(6): I have to go to the gym could live in a up.
+User(7): i know how hard it is to keep fit and healthy
+Bot(7): I know any games wrestling team
+User(8): have you ever wrestled before
+Bot(8): i what about horses.
+User(9): what about we talk about politics
+Bot(9): I live country music what city.
+User(10): i don't get you
+Bot(10): i am not sure do not have any pets, am trying to get into it .
+
+Persona:
+i am married to a doctor.
+i play the piano and guitar and sing.
+i quit my job to pursue my spirituality full time.
+horror movies are my favorites.
+i've never been out of ohio.
+
+Topic and Human Opinion:
+Beginning: i'm an avid kayaker.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): how are you doing?
+Bot(1): i'm doing well . how are you ?
+User(2): i am great too. having a cup of coffee
+Bot(2): oh , i am sorry . i am a waitress at a local restaurant .
+User(3): great. hope i will visit your restaurant soon
+Bot(3): i will try it . i am a bit of a loner .
+User(4): do you believe in God?
+Bot(4): no , i do not . i like to go to the park .
+User(5): what do you believe in?
+Bot(5): i am a student , but i am a student .
+User(6): okay i see. what are you pursuing?
+Bot(6): i'm a student , i am a student .
+User(7): which year are you in
+Bot(7): i'm from california . what about you ?
+User(8): in from Chicago
+Bot(8): i love to cook . i love to cook .
+User(9): do you like travelling
+Bot(9): i do , i love to go fishing .
+User(10): where do you spend your weekends at
+Bot(10): i like to go fishing .
+User(11): i think we should have a date some day
+Bot(11): that would be awesome . i love to go fishing .
+
+Persona:
+i wear a motorbike helmet to protect my head.
+my favourite food is shawarma.
+i see the rolling stones in concert every year.
+i have zero family that i am close to.
+i am a bee farmer.
+
+Topic and Human Opinion:
+Beginning: i do not believe in god.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.14
+Robotic(↓): 100
+Interesting: 56
+Fun: 44
+Consistent: 35
+Fluent: 54
+Repetitive(↓): 67
+Topic: 59
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): how are you
+Bot(1): i am good and u
+User(2): am good too
+Bot(2): same
+User(3): what did you pursue in college
+Bot(3): math
+User(4): i am a mechanical engineer
+Bot(4): that is interesting i graduated with an engineering degree
+User(5): which field of engineering did you specialize in?
+Bot(5): i am not sure yet . maybe some type of engineering
+User(6): haha that's interesting
+Bot(6): natural sciences . what was yours ? and what would you go back to get ?
+User(7): probably architecture. i would like to be creative in constructions and help the poor
+Bot(7): that is a great idea there are so many that need homes
+User(8): but they cant afford due to the cost of materials and hiring professionals
+Bot(8): definitely and they need to have their parents around to support them
+User(9): family is so important. do you stay with family
+Bot(9): absolutely , my mom worked hard and raised me alone i always want to help those in need
+User(10): all the best. i stay in Chicago hby
+Bot(10): very cool . chicago is a great city
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a mechanical engineer.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 91.57
+Robotic(↓): 17
+Interesting: 95
+Fun: 98
+Consistent: 83
+Fluent: 92
+Repetitive(↓): 4
+Topic: 94
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): am good,hby
+Bot(2): i am on my swing set with my dolls
+User(3): my father is in the army
+Bot(3): he represented our united states army all through his life .
+User(4): he's been in service for 34 years now
+Bot(4): not really , i am in the oris army . he did not approve .
+User(5): what does your father do?
+Bot(5): no , he is still alive and preaching in the church . he just does not like chocolate anymore .
+User(6): hahaha sounds great.
+Bot(6): i am vegetarian , so i made a vegetarian lasagna
+User(7): my guess is you're a true believer in God
+Bot(7): yeah god is great and so is yo gotti .
+User(8): true. my father went on a mission, i mised him
+Bot(8): yea . i bet he is . how old is he
+User(9): 55 now
+Bot(9): i am blogging . i write about owning a salt water aquarium . you ?
+User(10): i am a mechanical engineer
+Bot(10): oh , neat . my absolute favorite fish is rock fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my father is in the army.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.57
+Robotic(↓): 22
+Interesting: 79
+Fun: 78
+Consistent: 75
+Fluent: 66
+Repetitive(↓): 73
+Topic: 91
+
+####################
+

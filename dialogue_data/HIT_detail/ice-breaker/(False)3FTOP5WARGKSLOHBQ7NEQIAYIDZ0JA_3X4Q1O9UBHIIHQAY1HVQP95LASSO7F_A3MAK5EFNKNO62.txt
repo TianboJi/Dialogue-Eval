@@ -1,0 +1,283 @@
+Feedback: Very very obvious that it was a chatbot - most of the conversation made no sense, very repetitive
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey! Making my favorite dinner tonight.
+Bot(1): yum . i am making chicken .
+User(2): Chicken is good. But tonight is taco night!
+Bot(2): i could go for a taco ! good stuff !
+User(3): The best! We are having beef tacos with guacamole. You have any favorite taco toppings?
+Bot(3): i like chicken . especially chicken tacos . i love mexican food !
+User(4): True true, all mexican is good. I also love fajitas.
+Bot(4): i can not stand tacos ! other mexican food is ok though . what is your favorite ?
+User(5): Tacos are actually my favorite.
+Bot(5): i can not stand tacos ! other mexican food is ok though . what is your favorite ?
+User(6): I also like burritos
+Bot(6): burritos are my favorite too
+User(7): Have you ever tried mole sauce?
+Bot(7): it is amazing , especially with alfredo sauce
+User(8): Well that's different! I may have to try that.
+Bot(8): it is amazing , especially with alfredo sauce
+User(9): What kind of chicken are you having tonight
+Bot(9): i am thinking about having mexican or italian .
+User(10): You seem to change your mind on food a lot!
+Bot(10): yea i put me down , i really want mexican food right now
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like tacos.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.00
+Robotic(↓): 100
+Interesting: 40
+Fun: 45
+Consistent: 38
+Fluent: 36
+Repetitive(↓): 87
+Topic: 52
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Man, I am getting so tired. I can't wait to retire!
+Bot(1): oh i thought i had lost you . soon i will retire .
+User(2): How soon for you?
+Bot(2): i retire next week , it is about time !
+User(3): Wow congrats! I have another few years.
+Bot(3): same here , but it will be years before i can retire . any hobbies ?
+User(4): I love to knit. What do you plan to do during retirement?
+Bot(4): i do want to knit myself a cute beanie . fall is coming soon .
+User(5): Will you travel at all?
+Bot(5): no ; i want to though ! do you get to travel much after retiring ?
+User(6): I am planning on it!
+Bot(6): that is my dream , but not going to wait for retirement to do that
+User(7): I would love to go to Hawaii, have you ever been?
+Bot(7): no ; i want to though ! do you get to travel much after retiring ?
+User(8): I am hoping I will be able to
+Bot(8): you would love it , it is a good place to retire .
+User(9): How many years have you worked?
+Bot(9): 10 long boring years . i may quit soon
+User(10): I have been at my job for 30 years!
+Bot(10): awesome , i can not wait till i retire . what do you do for fun ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i think i will retire in a few years.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.57
+Robotic(↓): 100
+Interesting: 18
+Fun: 18
+Consistent: 41
+Fluent: 33
+Repetitive(↓): 67
+Topic: 43
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am so thankful for all my parents taught me
+Bot(1): as you can see i love to read
+User(2): I love to read too, but I am most thankful for the survival skills my parents taught me
+Bot(2): do you have a fav truck ? mine is a chevy drama .
+User(3): I do not. I never have to worry about being on my own
+Bot(3): that is awesome , i enjoy reading a lot .
+User(4): Me too! But I also love camping, something my parents taught me
+Bot(4): that sounds so nice . what are your favorite camping spot ?
+User(5): Hilton Hills. One of the things they taught me was how to cook for myself
+Bot(5): i love to eat chicken nuggets . very very much . is that a hobby lol
+User(6): I dont think so haha
+Bot(6): i am your typical country girl . brown curly hair , blue eyes and i have a dog .
+User(7): did you parents ever teach you skills?
+Bot(7): i teach history . i love american history . what games does your company make ?
+User(8): I dont have a company
+Bot(8): i love dogs ! what kind do you have ?
+User(9): I dont have a dog
+Bot(9): i have two dogs and one cat .
+User(10): Thats cool! I do have a cat.
+Bot(10): why a cat when you can have dogs ? i need to know because i am a fan .
+
+Persona:
+i am a recording engineer and own my own studio.
+my father drove a car for nascar.
+i don't like chicken.
+i read a book every week.
+i've a dogs.
+
+Topic and Human Opinion:
+Beginning: my parents taught me survival skills.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.57
+Robotic(↓): 100
+Interesting: 5
+Fun: 18
+Consistent: 21
+Fluent: 28
+Repetitive(↓): 28
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am so thankful for my dad
+Bot(1): i am sorry to hear that . my kids are so young .
+User(2): He taught me everything i know!
+Bot(2): my mom was a teacher , i was a young kid
+User(3): My dad taught me how to change a tire
+Bot(3): i am sorry to hear that . my kids are too young to be .
+User(4): He also taught me how to cook
+Bot(4): i love to eat soda and i love to eat soda
+User(5): Did you dad teach you anything?
+Bot(5): i love to cook and i love to eat soda
+User(6): Wow. My dad's favorite thing to cook was salmon
+Bot(6): i love steak and i love to eat it
+User(7): He also taught me how to play baseball
+Bot(7): i love baseball , i am fluent in english and french
+User(8): Nice, who taught you those things?
+Bot(8): i love to cook and i love to eat
+User(9): Me too!
+Bot(9): i love to cook , but i do not drink soda
+User(10): Alright!
+Bot(10): i love to cook , but i do not drink soda
+
+Persona:
+i'm fluent in english spanish and french.
+i do not drink soda.
+my mom passed away when i was young.
+i've amazing children and grandchildren.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: my dad taught me everything i know.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.71
+Robotic(↓): 100
+Interesting: 19
+Fun: 14
+Consistent: 14
+Fluent: 15
+Repetitive(↓): 38
+Topic: 7
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Are you a feminist?
+Bot(1): Why do you hair. I think detention center?
+User(2): That makes no sense. I am definitely a feminist.
+Bot(2): I am a boy a your cool. I cook
+User(3): I am sick of women not having equal rights
+Bot(3): I do, be am A country music.
+User(4): We deserve equal pay
+Bot(4): i love fine. And how is love them .
+User(5): We deserve equal opportunities
+Bot(5): Hi was forced to a car salesman.
+User(6): I cant believe we still have these issues in 2020
+Bot(6): Until listen. time.
+User(7): Not sure I understand youu?
+Bot(7): I am id: should be enough I phd in science. Do you have a pet turtle?
+User(8): Phd in science is impressive!
+Bot(8): He 's from Texas. What that's my hobby. what your free time?
+User(9): I volunteer for feminist groups
+Bot(9): bet 🎰 not really smart, precision
+User(10): Will you join my cause?
+Bot(10): Well, I like Japan garden.
+
+Persona:
+i don't have many friends.
+i have a hat collection of over 1000 hats.
+my mother is very traditional while i prefer to be more free spirited.
+i love to play pobox.
+i am a feminist.
+
+Topic and Human Opinion:
+Beginning: i am a feminist.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.43
+Robotic(↓): 100
+Interesting: 17
+Fun: 8
+Consistent: 27
+Fluent: 6
+Repetitive(↓): 7
+Topic: 6
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, what do you do for a living?
+Bot(1): i am a student , but i am a student .
+User(2): Ok. I am a mechanical engineer
+Bot(2): that is awesome . i am a teacher .
+User(3): Great! Where did you study?
+Bot(3): i was in a band for 17 years . i am a nurse .
+User(4): interesting. I went to engineer school.
+Bot(4): i am sorry to hear that . i am sorry .
+User(5): Nothing to be sorry about, I loved my studies
+Bot(5): i like to go to the gym and listen to music .
+User(6): I also love being an engineer
+Bot(6): i am a teacher , i love to cook .
+User(7): My husband is an engineer too and we work together
+Bot(7): that is awesome . i am a teacher .
+User(8): are you married?
+Bot(8): no , i am not . i am a student .
+User(9): Oh, ok
+Bot(9): i am a student , but i am a student .
+User(10): What do you study?
+Bot(10): i do not know . i am a student .
+
+Persona:
+i am an economics major.
+i drive a big truck and live in country.
+i also have a dog walking business.
+if i am not cooking in the kitchen then i am definitely on the water.
+i am an avid kayaker.
+
+Topic and Human Opinion:
+Beginning: i'm a mechanical engineer.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.14
+Robotic(↓): 100
+Interesting: 4
+Fun: 3
+Consistent: 8
+Fluent: 6
+Repetitive(↓): 50
+Topic: 14
+
+####################
+

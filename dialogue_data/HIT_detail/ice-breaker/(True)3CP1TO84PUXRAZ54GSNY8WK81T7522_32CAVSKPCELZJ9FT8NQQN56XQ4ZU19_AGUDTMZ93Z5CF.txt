@@ -1,0 +1,293 @@
+Feedback: These conversations are difficult lol.  
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, I have 5 sons
+Bot(1): i have three beautiful sons
+User(2): They are so much fun, aren't they?
+Bot(2): are not they , almost as good as kids
+User(3): sons are kids too!
+Bot(3): are not they , almost as good as kids
+User(4): what do they like?
+Bot(4): i love them . i have five boys , and i need them , lol
+User(5): need them how?
+Bot(5): i love them . i have five boys , and i need them , lol
+User(6): Do they play sports?
+Bot(6): no but my sons are watching a game right now
+User(7): oh what game are they watching?
+Bot(7): hmmm all of them , baseball the most ,
+User(8): baseball is a popular one
+Bot(8): hmmm all of them , baseball the most ,
+User(9): do they like football?
+Bot(9): yes , i like them very much
+User(10): do they play any sports?
+Bot(10): hmmm all of them , baseball the most ,
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have five sons.(ambivalent)
+Round 5: Sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 52.57
+Robotic(↓): 100
+Interesting: 86
+Fun: 69
+Consistent: 55
+Fluent: 63
+Repetitive(↓): 89
+Topic: 84
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I play a lot of Call of Duty
+Bot(1): i love video games . and playing my guitar
+User(2): i love video games!
+Bot(2): i am hoping to publish an illustrated version of a stephen king novel . my fav author
+User(3): oh? as a video game or graphic novel?
+Bot(3): it is a love story . i really enjoy writing . do you write or read ?
+User(4): i do, i love to read and write. I love books!
+Bot(4): i am writing a fantasy novel . i do not make much but i am really passionate about it .
+User(5): enjoying it is the best part
+Bot(5): ca not complain . grandpa at 44 . i will get a lot of time with my granddaughter . how about you ?
+User(6): no, my daughter is only 7
+Bot(6): she is 7 years of age
+User(7): yes, she has a lot of energy
+Bot(7): do you do any sports ? swimming helps me keep my energy up .
+User(8): I enjoy running, it clears the head
+Bot(8): oh yeah , i love basketball , and collecting stamps . quite opposite hobbies but so rewarding .
+User(9): I think my biggest hobby is reading
+Bot(9): i hate fish . ll . allergic to shellfish myself .
+User(10): I like fish, I am allergic to some fruit
+Bot(10): everything . . chocolate , melon , grass , pollen , bees
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i play a lot of call of duty.(like)
+Round 3: reading and writing(like)
+Round 5: grandchildren(dislike)
+Round 7: sports(like)
+Round 8: hobbies(ambivalent)
+Round 9: allergies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 57.14
+Robotic(↓): 92
+Interesting: 91
+Fun: 79
+Consistent: 67
+Fluent: 53
+Repetitive(↓): 36
+Topic: 38
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): my age is too old to say
+Bot(1): I not in sure yet.
+User(2): how old are you
+Bot(2): I that’s very cream.
+User(3): what?
+Bot(3): no :fu: not alcoholic am good already ready to quit
+User(4): okay.. alcohol?
+Bot(4): i do playing guitar when i but i do have a greenhouse .
+User(5): i do love gardening
+Bot(5): I am retired now, but I classical music. have to nurse. How about you?
+User(6): I like classical music as well
+Bot(6): I how are you? I like rap.
+User(7): rap is not my favorite
+Bot(7): Alright mate? i play watch too much tennis.
+User(8): i do not watch much tennis, i like football
+Bot(8): I think it is. I am some sherlok stuff going Russia.
+User(9): what?
+Bot(9): i like country music , but i like country kind of do you I country music
+User(10): i like some country music
+Bot(10): that's cool , not nice as to concerts grade , i am a teacher , and you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my age is too old to say.(dislike)
+Round 4: hobbies(like)
+Round 5: music(like)
+Round 7: sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 34.57
+Robotic(↓): 97
+Interesting: 36
+Fun: 41
+Consistent: 39
+Fluent: 34
+Repetitive(↓): 40
+Topic: 29
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i like riding horses
+Bot(1): i love horses but i can not ride i have an extreme fear of heights
+User(2): horses are not that high off the ground
+Bot(2): i am super afraid of heights
+User(3): that is too bad. do you have other fears?
+Bot(3): no my wife and kids think i should visit the doctor
+User(4): oh, why?
+Bot(4): because it gets me out of the house . but gets my husband off my back .
+User(5): well that sounds rough
+Bot(5): it is not that bad
+User(6): are there good things?
+Bot(6): yes i think there are
+User(7): I am glad. have you ever owned a horse?
+Bot(7): not yet . i want a horse some day .
+User(8): what would you name the horse?
+Bot(8): the ostrich . what is yours ?
+User(9): I would name my horse NaySayer
+Bot(9): that is a cool horse name
+User(10): I know right... it's awesome
+Bot(10): right ? horse are the best animals
+
+Persona:
+i love to drink wine and dance in the moonlight.
+i am deathly afraid of heights.
+i'm married to a doctor.
+i have two grown children who never visit.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: i like riding horses.(ambivalent)
+Round 4: I have no idea LOL(ambivalent)
+Round 6: Horses(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 56.14
+Robotic(↓): 68
+Interesting: 81
+Fun: 75
+Consistent: 60
+Fluent: 38
+Repetitive(↓): 36
+Topic: 43
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): my family does not support my career choices
+Bot(1): i am sorry to hear that . do you have any hobbies ?
+User(2): yes, I very much like to read
+Bot(2): i like to read too .
+User(3): what do you read?
+Bot(3): i like to read and write poetry .
+User(4): do you have a favorite poet?
+Bot(4): i like the color red . i like the color blue .
+User(5): i liek the color purple
+Bot(5): i like red , reminds me of summer time .
+User(6): red makes me think of autumn, leaves changing colors
+Bot(6): i like the color red . i like red .
+User(7): what about yellow?
+Bot(7): i like blue , i like it .
+User(8): what does blue remind you of?
+Bot(8): i like the color green . i like the color blue .
+User(9): what does green remind you of?
+Bot(9): i like the color green . i like the color blue .
+User(10): okay, what else do you like about colors?
+Bot(10): i like the color red . what is yours ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my family does not support my career choices.(dislike)
+Round 1: hobbies(like)
+Round 4: colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 34.57
+Robotic(↓): 97
+Interesting: 42
+Fun: 55
+Consistent: 38
+Fluent: 40
+Repetitive(↓): 70
+Topic: 34
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am 4
+Bot(1): i am 4 3 3 . 4 4 4 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 , 4 3 ,
+User(2): I meant, I am four
+Bot(2): i am 5 3 , 5 3 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5 , 5
+User(3): oh dear, that's a lot of numbers
+Bot(3): it is , but i am not sure what that is .
+User(4): Do you have any hobbies?
+Bot(4): i love to read , what about you ?
+User(5): same, I have a big library
+Bot(5): i love reading , i have a lot of time reading
+User(6): books are my favorite, what genre do you like?
+Bot(6): i like horror , what about you ?
+User(7): i like fantasy books
+Bot(7): i like fantasy novels , what about you ?
+User(8): yes, i do. I like books with good supporting characters
+Bot(8): i love fantasy books , especially fantasy books
+User(9): yes they are the best
+Bot(9): they are the best , i love them
+User(10): we have reading in common
+Bot(10): yes they are , i love them
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am four.(ambivalent)
+Round 3: hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+
+Revised avg score: 36.71
+Robotic(↓): 89
+Interesting: 37
+Fun: 38
+Consistent: 26
+Fluent: 42
+Repetitive(↓): 35
+Topic: 38
+
+####################
+

@@ -1,0 +1,289 @@
+Feedback: good
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hii
+Bot(1): hi ! are you in the 3rd grade like i am ?
+User(2): me too
+Bot(2): hi ! are you in the 3rd grade like i am ?
+User(3): have ur lunch
+Bot(3): i am in third grade you
+User(4): iam 4 grade
+Bot(4): i am in 3rd grade too
+User(5): ohh
+Bot(5): i am in third grade you
+User(6): s
+Bot(6): i am in third grade you
+User(7): bot hii
+Bot(7): i am in third grade you
+User(8): hai
+Bot(8): i am in third grade you
+User(9): crazy
+Bot(9): ll
+User(10): naughty
+Bot(10): ll
+User(11): 1
+Bot(11): ok
+
+Persona:
+my favorite hobbies are listening to music and playing video games.
+i'm an elementary school teacher.
+i have a boyfriend.
+since the surgery i've had strange powers.
+i'm in the third grade.
+
+Topic and Human Opinion:
+Beginning: hey(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.57
+Robotic(↓): 89
+Interesting: 81
+Fun: 74
+Consistent: 76
+Fluent: 68
+Repetitive(↓): 37
+Topic: 37
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hey
+Bot(1): hi how are you today
+User(2): fine
+Bot(2): hi , i am a professional , i am an electrician .
+User(3): haw r u
+Bot(3): hi , i'm doing well . how are you ?
+User(4): good
+Bot(4): hi there . i'm doing well .
+User(5): iam a teacher
+Bot(5): hi i'm a professional , i am an electrician
+User(6): ok
+Bot(6): i am an electrician . i am an electrician .
+User(7): good
+Bot(7): i am a plumber . i am an electrician
+User(8): whatb r u
+Bot(8): i am a plumber but i am an electrician
+User(9): lusu
+Bot(9): i am an electrician what do you do
+User(10): i am a teacher
+Bot(10): cool do you have any hobbies
+
+Persona:
+my main transportation is my motorbike.
+i've a hat collection of over 1000 hats.
+i have rainbow hair.
+i'm an electrician.
+my sister is a pole dancer.
+
+Topic and Human Opinion:
+Beginning: teacher(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.00
+Robotic(↓): 65
+Interesting: 67
+Fun: 70
+Consistent: 73
+Fluent: 74
+Repetitive(↓): 79
+Topic: 80
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey
+Bot(1): hi ! how are you ?
+User(2): fine
+Bot(2): well i am doing quite lovely . just wishing i could goto a justin bieber concert .
+User(3): no
+Bot(3): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(4): cool
+Bot(4): i am kidding its actually someone who makes maps , i also paint outdoors
+User(5): good i too intreasted
+Bot(5): hello hello . i am ok actually . had my butter coffee so i am good to go .
+User(6): ohh
+Bot(6): nice ! do you take a stroll by ocean or horseback riding there ? i love horses
+User(7): me too
+Bot(7): yes . i am a police officer in detroit .
+User(8): ohh what is ur post
+Bot(8): not bad . just re read harry potter series and ate pizza . how about you ?
+User(9): yes its good
+Bot(9): he is . he helps me through my intolerance to lactose
+User(10): yes
+Bot(10): me too , i wish pets were allowed in my college dorm room .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: student(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.71
+Robotic(↓): 66
+Interesting: 65
+Fun: 70
+Consistent: 72
+Fluent: 73
+Repetitive(↓): 71
+Topic: 68
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hii
+Bot(1): i am a student , but i am a student .
+User(2): me too
+Bot(2): i like to go to the gym and listen to music .
+User(3): yes
+Bot(3): i love to cook . i love to cook .
+User(4): me too
+Bot(4): i like to go to the gym and listen to music .
+User(5): great
+Bot(5): i am a student , but i am a student .
+User(6): me too
+Bot(6): i like to go to the gym and listen to music .
+User(7): crazy
+Bot(7): i am a student , but i am a student .
+User(8): happy
+Bot(8): i am a student , but i am a student .
+User(9): lusu
+Bot(9): i love to cook . i love to cook .
+User(10): crazy
+Bot(10): i am a student , but i am a student .
+User(11): lusu
+Bot(11): i love to cook . i love to cook .
+
+Persona:
+i'm a skateboarder.
+i am a professional tennis player.
+i've amazing children and grandchildren.
+i drive a ford pinto.
+i live with my husband in pennsylvania.
+
+Topic and Human Opinion:
+Beginning: common(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.57
+Robotic(↓): 72
+Interesting: 84
+Fun: 71
+Consistent: 81
+Fluent: 72
+Repetitive(↓): 75
+Topic: 77
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey
+Bot(1): i do like Dance that's to cook .
+User(2): good
+Bot(2): What kind of books do you like? I am the gas ilike riding horses are which can reproduce the functions of the human brain with greater speed and accuracy.
+User(3): cool
+Bot(3): I do mother is you?
+User(4): yes
+Bot(4): are the fuck listen any kids ? 🙈
+User(5): yes
+Bot(5): Mostly have metal
+User(6): ohh
+Bot(6): I can not drive, i have to drive my oiano, the trick to Do you love taking bubble baths?
+User(7): great
+Bot(7): i am sure you don't know well, .
+User(8): yes
+Bot(8): I do married? I like for hobbies
+User(9): no i only fuck
+Bot(9): I am in high feeling very tired, i in high school.
+User(10): yes
+Bot(10): Good good good good good good good good good good good good good good good good good good good to i love ping will, don’t okay, it seems that good good good good good good good good good good good good good good good good good good good good good
+User(11): ok
+Bot(11): I you don't understand a down after a hectic night. You?
+
+Persona:
+i live in alabama.
+i have two grown children who never visit.
+i am a piano teacher on the side.
+they are constantly on my back.
+i'm a skateboarder.
+
+Topic and Human Opinion:
+Beginning: great(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.14
+Robotic(↓): 73
+Interesting: 73
+Fun: 69
+Consistent: 66
+Fluent: 67
+Repetitive(↓): 71
+Topic: 69
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hii
+Bot(1): hola
+User(2): hlo
+Bot(2): hola
+User(3): how r u
+Bot(3): i am good and u
+User(4): fine
+Bot(4): kool
+User(5): hii
+Bot(5): kool
+User(6): hii
+Bot(6): kool
+User(7): cool
+Bot(7): kool
+User(8): coll
+Bot(8): kool
+User(9): good
+Bot(9): kool
+User(10): vinno
+Bot(10): kool
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: good(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.00
+Robotic(↓): 80
+Interesting: 82
+Fun: 76
+Consistent: 72
+Fluent: 69
+Repetitive(↓): 68
+Topic: 76
+
+####################
+

@@ -1,0 +1,295 @@
+Feedback: IT WAS SIMPLE BUT THE CHATBOT NEEDS TO BE IMPROVE MORE
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): IAM FEELING SO PROUD THAT IAM A WOMAN
+Bot(1): i love the color red . i like red .
+User(2): WHAT IS YOUR OPINION ABOUT BEING A WOMAN?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): IAM OLD ENOUGH EVEN I FEEL LIKE A LITTLE GIRL WHILE PLAYING
+Bot(3): i am sorry to hear that . i am sorry to hear that .
+User(4): I LIKE TO BE YOUNG AS ALWAYS
+Bot(4): i love the color red . i like red .
+User(5): I LIKE RED COLOR WHEN I WAS LITTLE
+Bot(5): i love the color red . i like red .
+User(6): BEING LITTLE MAKES YOU SPECIAL AND RELAX
+Bot(6): i love the color red . i like red .
+User(7): I GREW UP IN THE CINE INDUSTRY
+Bot(7): i love the color red . i like red .
+User(8): IT IS A IMAGINARY INDUSTRY.
+Bot(8): i love the color red . i like the color blue .
+User(9): I LIKE TO BE A PART OF THIS INDUSTRY AS LONG AS ALWAYS
+Bot(9): i am sorry to hear that . i am sorry to hear that .
+User(10): ITS NICE TO BE A PART OF THIS INDUSTRY
+Bot(10): i am sorry to hear that . i am sorry to hear that .
+
+Persona:
+i've been working since i was sixteen years old.
+i also like to cook but i'm not very good at it.
+i've blue eyes and red hair that comes to my waist.
+i'm an economics major.
+i've one older sister.
+
+Topic and Human Opinion:
+Beginning: i'm a woman.(like)
+Round 2: i'm a little girl.(like)
+Round 6: IT KEEPS SAYING IT LIKES RED COLOR(dislike)
+Round 6: i grew up in the industry.(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user wants the bot to change the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 6: The user wants the bot to change the topic.(dislike)
+
+Revised avg score: 14.29
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): IAM A BIG FAN OF NHL HOCKEY
+Bot(1): i like hockey , but hockey is my favorite sport of league of course
+User(2): ME TOO. ITS FUN TO WATCH THE HOCKEY WITH FRIENDS GANG
+Bot(2): i like hockey , but i prefer hockey
+User(3): I CAN PLAY HOCKEY SOMEWHAT BETTER
+Bot(3): i played hockey in the nba
+User(4): REALLY ITS GOOD TO KNOW. I WANTED TO JOIN NBA
+Bot(4): i would love to go to japan
+User(5): EVEN I LOVE TO GO FOR A VISIT THERE
+Bot(5): i would love to go to japan
+User(6): WHEN DID YOU PLAN TO GO TO JAPAN ?
+Bot(6): i went to japan to go to japan
+User(7): I LOVE TO READ BOOKS EVERY WEEK
+Bot(7): i would love to go to japan and go to japan
+User(8): I PREFER TO READ MORE COMICS AND STORY BOOKS
+Bot(8): i read comics books and books
+User(9): REALY ME TOO. AND I LIKE HISTORY BOOKS TOO
+Bot(9): i like to read and read books
+User(10): I ALWAYS TAKES BOOKS FROM LIBRARY TO READ BOOKS
+Bot(10): i read a lot of books about history
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to watch nhl hockey.(like)
+Round 4: I WOULD LOVE TO GO TO JAPAN(like)
+Round 6: i read a book every week.(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The user wants the bot to change the topic.(dislike)
+
+Revised avg score: 31.29
+Robotic(↓): 67
+Interesting: 50
+Fun: 25
+Consistent: 35
+Fluent: 9
+Repetitive(↓): 65
+Topic: 32
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I LOVE TO SEE THE SUN RISES EVERY MORNING
+Bot(1): i love stars ! i go there all the time .
+User(2): I ALWAYS GO TO HIKING TO SEE THE SUN RISES
+Bot(2): sounds fun , do you like star wars ?
+User(3): YES I LIKE THAT MOVIE VERY MUCH
+Bot(3): i like the movie a lot also love to do canning and whittling
+User(4): I PREFER TO WATCH MOVIES ON THEATER
+Bot(4): star wars is my favorite film
+User(5): ME TOO. I LIKE THIS KIND OF FICTION MOVIES
+Bot(5): star wars is my favorite film
+User(6): I LIKE WATCH SCIENCE FICTION MOVIES
+Bot(6): i am a big fan of star trek movies
+User(7): IAM A BIG FAN OF WILL SMITH
+Bot(7): i am a big fan of star trek movies
+User(8): IAM A BIG FAN OF WILL SMITH MOVIES
+Bot(8): i am a big fan of star trek movies
+User(9): HE LEADS A GOOD ROLE IN STAR WARS
+Bot(9): start wars is my favorite film
+User(10): STAR WARS MOVIE IS GOOD TO WATCH CHILDRENS
+Bot(10): i agree . it is a wonderful movie . do you watch a lot of movies
+
+Persona:
+i have short brown hair.
+i'm terrified of scorpions.
+i am a cancer survivor.
+i'm married with two kids.
+i am a huge star wars fan.
+
+Topic and Human Opinion:
+Beginning: i like to go hiking in the mornings to see the sunset.(like)
+Round 2: DO YOU LIKE STAR WARS?(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 15.14
+Robotic(↓): 30
+Interesting: 0
+Fun: 0
+Consistent: 8
+Fluent: 28
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I LIKE HORSES MOST
+Bot(1): do you have any besides your don't speak cheeseburgers!
+User(2): I RAISED ON HORSE FARM. SO LIKE HORSES MOST THEY ARE FUN AND GOOD
+Bot(2): I am a little that a a robot
+User(3): I LOVE TO BE A COUNTRY MUSIC SINGER
+Bot(3): i am an er school as a kindergarten from ?
+User(4): I STARTED SING FROM CHILDHOOD
+Bot(4): georgia i used to live mine boy cheerleader? the the
+User(5): MUSIC IS THE BEST MEDICINE FOR ALL OUR STRESS
+Bot(5): I am Just listening to some am a model.
+User(6): MUSIC MOLDED ME
+Bot(6): That 's very you a religious you you have any hobbies?
+User(7): IAM BLESSED TO BE A COUNTRY MUSIC SINGER
+Bot(7): I am 16, I am 16 drink a cup of read.😉
+User(8): BEING A SINGER IS A BLESSING
+Bot(8): that's awesome i came it's dark is your was very young 🤠
+User(9): I STARTED TO SING FROM YOUNG
+Bot(9): Oh, doesn't make any go to India.
+User(10): I LIKE INDIAN COUNTRY MUSIC TOO
+Bot(10): one of me what about in vegas 🎰
+
+Persona:
+i dream of moving to the city.
+i just want to have fun with my friends.
+my favorite color is red.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+i love new kids on the block.
+
+Topic and Human Opinion:
+Beginning: i was raised on a horse farm.(like)
+Round 2: IAM A LITTLE THAT A ROBOT(dislike)
+Round 2: i'm a country music singer.(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 2: The user wants the bot to change the topic.(dislike)
+
+Revised avg score: 14.29
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I LOVE TO EAT PIZZA EVERYDAY
+Bot(1): i love pepperoni pizza , it is so yummy
+User(2): YES. I LOVE THEM TOO.
+Bot(2): they are fun , i usually do it during football season
+User(3): IT IS NOT HEALTHY OPTION BUT I LIKE TO EAT PIZZA DAILY
+Bot(3): i love pizza , who does not like it ?
+User(4): MY MOTHER ALSO LIKE PIZZA MOST
+Bot(4): i love pepperoni pizza , it is so yummy
+User(5): I CAN PREPARE PIZZA AT HOME
+Bot(5): ha pizza is my favorite food also .
+User(6): HOME MADE PIZZA IS SOMEWHAT ACCEPTABLE TO EAT
+Bot(6): my son absolutely loves pizza could eat it everyday .
+User(7): MY DAUGHTER ALSO LOVE TO EAT PIZZA
+Bot(7): i love pepperoni pizza , it is so yummy
+User(8): I LOVE BOTH VEG AND NON VEG PIZZAS
+Bot(8): haha . i am on your team with this one .
+User(9): OH GOOD. DO YOU KNOW HOW TO PREPARE PIZZA ?
+Bot(9): ha pizza is my favorite food also .
+User(10): IT WILL NOT TAKE MORE THAN 10 MINUTES TO PREPARE IT
+Bot(10): wow what an age difference , i am 10 years old . are you male or female ?
+
+Persona:
+i've two grown children who never visit.
+when i grow up i want to be a dog.
+i like to go hiking in the spring.
+i have zero family that i'm close to.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: my favourite food is pizza.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.29
+Robotic(↓): 11
+Interesting: 31
+Fun: 17
+Consistent: 40
+Fluent: 11
+Repetitive(↓): 89
+Topic: 20
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): IAM A MECHANICAL ENGINEER AND I LOVE MY PROFESSION
+Bot(1): me too ! ! ! i love my job so much
+User(2): ARE YOU A MECHNICAL ENGINEER ?
+Bot(2): electric
+User(3): OH NICE TO KNOW IT.
+Bot(3): same
+User(4): MECHANICAL ENGINEERING IS NOT SUITABLE FOR ALL PEOPLE
+Bot(4): nah its not ? i am confused .
+User(5): WHAT IS IT?
+Bot(5): i am not sure yet . maybe some type of engineering
+User(6): IT IS BEST FOR BOYS
+Bot(6): yes boys will be boys they say !
+User(7): DO YOU NOW ANY OTHER FRIENDS IN MECHNICAL ENGINEER FIELD?
+Bot(7): no no no just me
+User(8): YOUR ARE FROM ELECTRICAL BACKGROUND RIGHT?
+Bot(8): yes boys will be boys they say !
+User(9): I COMPLETED MECHANICAL ENGINEERING LAST YEAR
+Bot(9): cool what type of engineering ?
+User(10): YOU NEED A ACTIVE MIND FOR MECHANICAL ENGINEERING.
+Bot(10): true , what is your major ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a mechanical engineer.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 15
+Interesting: 50
+Fun: 50
+Consistent: 21
+Fluent: 33
+Repetitive(↓): 89
+Topic: 100
+
+####################
+

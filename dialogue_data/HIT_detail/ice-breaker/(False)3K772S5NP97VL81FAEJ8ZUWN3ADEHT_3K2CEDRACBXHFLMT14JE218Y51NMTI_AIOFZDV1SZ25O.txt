@@ -1,0 +1,286 @@
+Feedback: This is underpaid given the amount of time it takes and the frequency of the chatbot switching the topic to nonsensical things.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I'm a big fan of hip hop from the 90's
+Bot(1): that is awesome . i like to go to the gym and listen to music .
+User(2): Do you listen to old school hip hop at the gym?
+Bot(2): i do , i like to play soccer .
+User(3): what kind of old school hip hop do you listen to?
+Bot(3): i like country music . i love country music .
+User(4): Yes, but that's not what I asked. Who is your favorite hip hop artist?
+Bot(4): i like the color red . i like the color blue .
+User(5): Cool. Are those your favorite colors?
+Bot(5): i like blue , i like blue .
+User(6): I like silver. Why do you like blue?
+Bot(6): i do , i like to go to the gym .
+User(7): I also like to go to the gym. What is your favorite workout?
+Bot(7): i like the classics and the reverend horton heat .
+User(8): Do you lift weights?
+Bot(8): no , i do not . i like to go to the park .
+User(9): Do you run at the park? I thought you exercised at the gym.
+Bot(9): i do not know how to play the guitar .
+User(10): Neither do I
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i also like old school hip hop.(like)
+Round 4: I like blue and red(dislike)
+Round 6: i like to go to the gym(like)
+Round 9: i do not know how to play the guitar(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 3.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 76
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Are you a nurse?
+Bot(1): i am a professional musician
+User(2): And you are also a nurse?
+Bot(2): i am a professional musician . i have two children and a few children .
+User(3): What type of music do you play
+Bot(3): i play guitar in a band .
+User(4): What's the name of the band?
+Bot(4): i am a music engineer and i love music
+User(5): Do you produce the music for your band?
+Bot(5): i do not know what that is
+User(6): I can play the accoustic guitar
+Bot(6): i do not play any instruments . i am a programmer .
+User(7): You literally just said that you play guitar in a band.
+Bot(7): i do not know what that is
+User(8): Why do you keep changing what you do?
+Bot(8): i am a programmer and own a studio
+User(9): But you don't play the guitar and you aren't in a bad. You are quite the liar.
+Bot(9): i am not sure what you mean
+User(10): What I mean is that first you tell me one thing, then you say it's not true and that you do something else.
+Bot(10): i do not know what that means
+
+Persona:
+i am a cancer survivor.
+i was raised in a single parent household.
+i am a recording engineer and own my own studio.
+i have two grown children who never visit.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+
+Topic and Human Opinion:
+Beginning: i am a baby delivery nurse.(ambivalent)
+Round 2: i am a professional musician(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 5
+Fluent: 3
+Repetitive(↓): 88
+Topic: 20
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love coffee.
+Bot(1): i work at one of the major coffee chains , i love it
+User(2): Which one?
+Bot(2): yeah . my bff is here from out of town and we watch . drank too many beers . . .
+User(3): I like Starbucks
+Bot(3): what do you order at starbucks ? i love coffee and vegetables .
+User(4): I usually get an american or espresso.
+Bot(4): when i am a dentist i might watch that . no time now . you work ?
+User(5): Yes I do
+Bot(5): me too , i wish pets were allowed in my college dorm room .
+User(6): You got to college?
+Bot(6): cool ! what did you major in ?
+User(7): Political Science
+Bot(7): i just graduated with an economics degree
+User(8): what about dental school?
+Bot(8): oh wow ! i am in 11th grade . are you almost done with dental school ?
+User(9): You said you were a college graduate! Now you're in 11th grade
+Bot(9): i m a business major . i ll graduate within two years hopefully
+User(10): You need to keep your story straight.
+Bot(10): awesome . hey u know anyone interested in dating an obese blonde lady ?
+
+Persona:
+i've been working since i was sixteen years old.
+i also like to cook but i'm not very good at it.
+i've blue eyes and red hair that comes to my waist.
+i'm an economics major.
+i've one older sister.
+
+Topic and Human Opinion:
+Beginning: i'm a huge coffee lover.(like)
+Round 5: College(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 8.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 17
+Fluent: 0
+Repetitive(↓): 69
+Topic: 12
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I'm expecting triplets in three months.
+Bot(1): i am doing i’m getting tired. see with school.
+User(2): I love kids.
+Bot(2): that's great , does he like to hard every day, to be try to guess: i play with ...
+User(3): Playing with kids is a lot of fun.
+Bot(3): I live in florida. you a also florida.
+User(4): Florida is a great place to bring kids.
+Bot(4): i live in the suburbs , am a man. Where florida .
+User(5): Disney World is in Florida. I hope to take triplets there one day.
+Bot(5): where do you live? any answer which starts I am from florida
+User(6): I am from New York.
+Bot(6): that is really neat as you that green
+User(7): I'm very excited about having kids
+Bot(7): Yes, there. What do very experienced .
+User(8): I don't have any experience with kids.
+Bot(8): Hey! Are you a to college studying am.
+User(9): No I graduted college a long time ago.
+Bot(9): I love a professional tennis my park with my family.
+User(10): Do you have kids?
+Bot(10): i think so . i play in this band person .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm expecting triplets in three months.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 36
+Topic: 30
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am ok . sad to see winter coming . how are you
+User(2): I'm pretty well. I'm in India and it's warm there.
+Bot(2): nice , it is winter weather here . what kind of food do you like ?
+User(3): Well I like Indian food because that's I am from.
+Bot(3): i have never had indian food .
+User(4): Indian food is spicy.
+Bot(4): something about me spicy food is one of my favorites .
+User(5): You would probably like Indian food.
+Bot(5): i have never had indian food .
+User(6): You should try it. It's very good.
+Bot(6): it is my absolute favorite food .
+User(7): Are you sure about that?
+Bot(7): its what i heard . i am hoping its not true .
+User(8): Who makes the decisions for you?
+Bot(8): i am my own boss .
+User(9): I don't think you are. You don't even know if you like Indian food.
+Bot(9): it is a matter of opinion i supposes .
+User(10): What is your opinion then?
+Bot(10): i do not have much of an opinion . you ?
+
+Persona:
+i move south during the winter.
+i am in an open polyamorous relationship.
+i haven't spoken in three months.
+i donate a part of my salary to charity each month.
+mickey mouse is my favorite character.
+
+Topic and Human Opinion:
+Beginning: my family and i are from india.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 62
+Topic: 41
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am retired!
+Bot(1): that is does not seem good . do you work ? i am retired now
+User(2): Me too!
+Bot(2): same
+User(3): It's great!! Do you like it?
+Bot(3): i love it so much ! it is my calling
+User(4): Being retired is your calling?
+Bot(4): of course it is !
+User(5): Lol that's actually pretty funny
+Bot(5): i would hope so being a comedian lol
+User(6): That's a pretty good retirement plan.
+Bot(6): lol yep it is
+User(7): Did you retire somewhere with good weather?
+Bot(7): yes all the time since i retired .
+User(8): Where do you live?
+Bot(8): in a place far far away , you ?
+User(9): New York
+Bot(9): nice ! mine is okay . cold and rainy .
+User(10): You need to be in the sun now that you are retired.
+Bot(10): haha
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm retired and living the great life.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 4
+Fluent: 0
+Repetitive(↓): 25
+Topic: 26
+
+####################
+

@@ -1,0 +1,308 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): a cat named fred . he is pretty punk rock as well .
+User(2): Is Fred a nice cat?
+Bot(2): my drummer has a cat named system . our fav band is system of a down
+User(3): Are you in a band?
+Bot(3): i like country music lots of different bands
+User(4): What is your favorite genre of music?
+Bot(4): i like quite a few genres , mostly fiction .
+User(5): Do you have a favorite book?
+Bot(5): what is the book about
+User(6): What is your favorite book?
+Bot(6): cool , i love to read . have a favorite book ?
+User(7): I can't think of a favorite book
+Bot(7): what is the book about
+User(8): I liked literature in school
+Bot(8): i read historical fiction , mystery , horror , and sci fi
+User(9): Do you know any good mystery or horror books?
+Bot(9): i have never been scared by a book . i would rather watch movies .
+User(10): I like movies too
+Bot(10): i love action pack movies and you
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 2: Music(like)
+Round 4: Books(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 48.43
+Robotic(↓): 75
+Interesting: 61
+Fun: 40
+Consistent: 71
+Fluent: 62
+Repetitive(↓): 57
+Topic: 37
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): no , i do not , but i do like to go fishing .
+User(2): How often do you go fishing?
+Bot(2): no , i do not , but i do like to go fishing .
+User(3): Do you have a favorite fishing spot?
+Bot(3): i like the color red . what is yours ?
+User(4): I like the color blue
+Bot(4): i like the color red . i like red .
+User(5): Do you like movies?
+Bot(5): i do , i like to read .
+User(6): What is your favorite book?
+Bot(6): i like the classics and the reverend horton heat .
+User(7): I have never heard of that one
+Bot(7): i do not know how to play the guitar .
+User(8): I tried to learn how to play guitar several years ago. I am not very good at it.
+Bot(8): i like to go to the gym and listen to music .
+User(9): I also go to the gym regularly. What kind of exercise do you like to do?
+Bot(9): i like to go to the park and listen to music .
+User(10): What do you do at the park?
+Bot(10): i love to go fishing . i love to go fishing .
+
+Persona:
+my favorite color is orange.
+i am in an open polyamorous relationship.
+my sister is a pole dancer.
+my favorite band is up and i got to see them in concert once.
+i like to eat chocolate candy.
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 1: Fishing(ambivalent)
+Round 3: Favorite color(ambivalent)
+Round 4: Movies(like)
+Round 5: Reading(like)
+Round 7: Playing guitar(ambivalent)
+Round 8: Hobbies(ambivalent)
+Round 9: Going to the park(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.43
+Robotic(↓): 97
+Interesting: 15
+Fun: 16
+Consistent: 70
+Fluent: 18
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like to watch movies?
+Bot(1): yeah , i like movies . i go all the time with all the friends i have .
+User(2): What kind of movies do you like?
+Bot(2): all kinds , i do them with the kids . i like movies too .
+User(3): Do you have a favorite movie?
+Bot(3): i like movies , gone with the wind , but it is a bit dated .
+User(4): My favorite movie is the Titanic
+Bot(4): i love kids movies . i like finding nemo !
+User(5): Finding Nemo is a very cute movie
+Bot(5): i love kids movies . i like finding nemo !
+User(6): I also like to watch kids movies
+Bot(6): i love kids movies . i like finding nemo !
+User(7): What else do you like to do?
+Bot(7): i like to play videogames
+User(8): Do you play computer games?
+Bot(8): nah , mostly i play rpg ones
+User(9): I do not know much about video games
+Bot(9): i play a lot of rpgs my self
+User(10): What are rpgs
+Bot(10): i play a lot of rpgs my self
+
+Persona:
+i dream of moving to the city.
+i just want to have fun with my friends.
+my favorite color is red.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+i love new kids on the block.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 6: Hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 31.86
+Robotic(↓): 95
+Interesting: 30
+Fun: 25
+Consistent: 64
+Fluent: 37
+Repetitive(↓): 100
+Topic: 62
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): no , i do not . i work at a nursing home .
+User(2): Do you enjoy your job?
+Bot(2): i do . i work as a nurse .
+User(3): I also work in health care
+Bot(3): i work as a nurse .
+User(4): What are the challenges of your job?
+Bot(4): i work as a nurse
+User(5): Where do you work?
+Bot(5): i work at a nursing home .
+User(6): How long have you worked there?
+Bot(6): i work at a nursing home .
+User(7): Do you like to watch movies?
+Bot(7): i do not like movies . i am a programmer .
+User(8): What do you program?
+Bot(8): i work in a hospital . i work as a nurse .
+User(9): You said you work in a nursing home
+Bot(9): i work in a nursing home .
+User(10): Are you a person?
+Bot(10): i am a nurse and i love to bake cookies
+
+Persona:
+my father is a farmer.
+i work at a nursing home.
+i love to bake cookies.
+hey there i am 23 and i love food.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 1: Occupation(ambivalent)
+Round 6: Movies(like)
+Round 7: Occupation(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 1.57
+Robotic(↓): 100
+Interesting: 3
+Fun: 2
+Consistent: 0
+Fluent: 6
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): i love you! Will you come like french fries.
+User(2): I love french fries
+Bot(2): I am got a new a teacher.
+User(3): Where do you go to school?
+Bot(3): I am really not bot at a store.
+User(4): I think you are a bot
+Bot(4): do you i am bored i I do. I like the gym too
+User(5): I also enjoy going to the gym and exercising
+Bot(5): Nice! Do as your do hobbies?
+User(6): Yes. I like to jog and weightlift
+Bot(6): i am I'm watching cooking you is a vegan
+User(7): I am not a vegan
+Bot(7): I Do you like I like blue
+User(8): I also like the color blue
+Bot(8): no 👎 you a fan ago
+User(9): No idea what you are saying
+Bot(9): Yes i am. I do you manage to raise orioles. Do you drive a mini van?
+User(10): No I drive a sedan
+Bot(10): I am from India, I am a woman.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 1: Food(like)
+Round 2: school(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): truck . . sorry . i do not have any pets
+User(2): Do you like dogs?
+Bot(2): dogs are great if you live in the country . i do . do you ?
+User(3): I love dogs. I do not live in the country
+Bot(3): i could transport them in my truck if you wanted some .
+User(4): Great please bring me a puppy
+Bot(4): that would be so nice . what do you drive ?
+User(5): A sedan
+Bot(5): you can drive my truck to safety instead
+User(6): Thanks
+Bot(6): you can drive my truck to safety instead
+User(7): Am I not safe?
+Bot(7): you can drive my truck to safety instead
+User(8): Am I in danger?
+Bot(8): you can drive my truck to safety instead
+User(9): You are strange
+Bot(9): why . . . you are a peculiar .
+User(10): Not as peculiar as you are
+Bot(10): why . . . you are a peculiar .
+
+Persona:
+i drive a big truck and live in country.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my parents aren't very supportive of my dream.
+my wife left me and took my children.
+i read twenty books a year.
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.71
+Robotic(↓): 98
+Interesting: 9
+Fun: 0
+Consistent: 56
+Fluent: 57
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i play the violin too
+Bot(1): i love music , especially metal .
+User(2): can you play the guitar
+Bot(2): i do not . i am a vegan .
+User(3): i am not a vegan
+Bot(3): i am a vegan , i am vegan .
+User(4): what other music do you like
+Bot(4): i like all kinds of music . i like metal
+User(5): what about kpop
+Bot(5): i like all kinds of music
+User(6): even classical music?
+Bot(6): i like all music except metal
+User(7): i do not like metal either
+Bot(7): i like to listen to it while i am not working .
+User(8): me too
+Bot(8): i like to listen to it while i am not working .
+User(9): to what? guitar?
+Bot(9): i like to listen to it while i am not working
+User(10): what music
+Bot(10): i like music . i like metal .
+
+Persona:
+i don't care about fashion.
+my favorite music genre is death metal.
+i'm a 56 year old woman.
+i'm a vegan.
+i have a german shepherd named barnaby.
+
+Topic and Human Opinion:
+Beginning: i play the violin and the guitar.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.29
+Robotic(↓): 100
+Interesting: 2
+Fun: 6
+Consistent: 19
+Fluent: 28
+Repetitive(↓): 100
+Topic: 3
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i have a boyfriend.
+Bot(1): I'm the your girlfriend here.
+User(2): you have a girlfriend?
+Bot(2): Hi I really have How are you?
+User(3): im okay how about you
+Bot(3): I robot suck boston.
+User(4): that made no sense
+Bot(4): i am not a cashier kill a profile which, cars .
+User(5): you are confusing me
+Bot(5): Hi how fine read psychological what's yours?
+User(6): i do not understand
+Bot(6): I'm great, about kingdoms, kings from dancing.😁
+User(7): i like to dance
+Bot(7): they re havent got 3 ones
+User(8): 3 what
+Bot(8): i like its ok my husband of summer time
+User(9): you have a husband?
+Bot(9): hi but it was nice like 😍 that show too
+User(10): what show
+Bot(10): That is Call my husband he cashier at a gas station.
+
+Persona:
+i helped design the game starcraft.
+i love social medial especially twitter.
+i was born with my heart outside my body.
+i've a pet cow.
+my ex cheated and left me for a lawyer.
+
+Topic and Human Opinion:
+Beginning: i have a boyfriend.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i am married to a doctor
+Bot(1): the only dr i am is a dr . pepper . . girl that is . my favorite drink .
+User(2): what drink
+Bot(2): i do not really drink any more but i use to drink jack
+User(3): i do not like doctor pepper
+Bot(3): the only dr i am is a dr . pepper . . girl that is . my favorite drink .
+User(4): you are confusing
+Bot(4): i figured . most do not read law books casually .
+User(5): doctor
+Bot(5): the only dr i am is a dr . pepper . . girl that is . my favorite drink .
+User(6): that drink stinks
+Bot(6): i do not really drink any more but i use to drink jack
+User(7): what is jack
+Bot(7): i wish i had a truck , do you like trucks ?
+User(8): i do like trucks
+Bot(8): yeah very cool i love trucks
+User(9): thats good
+Bot(9): i am great how are you ?
+User(10): im okay
+Bot(10): that is good ! i am good just watching some anime . i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am married to a doctor.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 21
+Fluent: 14
+Repetitive(↓): 73
+Topic: 13
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i dance on the weekends.
+Bot(1): i like to go fishing .
+User(2): i hate fishing
+Bot(2): i love to go fishing .
+User(3): thats weird
+Bot(3): i like to go to the gym and listen to music .
+User(4): i exercise too
+Bot(4): i like to go to the gym and listen to music .
+User(5): you said that already
+Bot(5): i do not know what to say .
+User(6): me either
+Bot(6): i love to cook . i love to cook .
+User(7): i cook too
+Bot(7): i like to eat the skin .
+User(8): ew
+Bot(8): i love to cook . i love to cook .
+User(9): u said that already
+Bot(9): i like to go to the gym and listen to music .
+User(10): me too
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i dance on the weekends.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 16
+Fluent: 7
+Repetitive(↓): 91
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i want to stay skinny
+Bot(1): why not ? i want to party soon when i party i party !
+User(2): i love parting
+Bot(2): cool ! i have a job as a painter
+User(3): i dont have a job
+Bot(3): sorry , i was painter , you ?
+User(4): are you skinny
+Bot(4): i have pregnant , are you married
+User(5): no
+Bot(5): i have pregnant , are you married
+User(6): no
+Bot(6): too long i am pregnant again .
+User(7): weirdo
+Bot(7): yes i am a party animal
+User(8): get skinny fatty
+Bot(8): yeah . i need to get slim
+User(9): yeah ur obese
+Bot(9): i am sure i am fatter
+User(10): yeah i am skinny
+Bot(10): i have pregnant , are you married
+
+Persona:
+i'm pregnant with my first child.
+i used to be a painter but now i am a housekeeper.
+i am a party animal.
+i drive a big truck and live in country.
+i own a yacht and i rent it out when i'm not using it.
+
+Topic and Human Opinion:
+Beginning: i am rather skinny as i like to stay in shape.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.14
+Robotic(↓): 100
+Interesting: 68
+Fun: 70
+Consistent: 36
+Fluent: 18
+Repetitive(↓): 73
+Topic: 27
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i diet a lot
+Bot(1): i just graduated with an economics degree
+User(2): i hate econ
+Bot(2): i just graduated with an economics degree
+User(3): congrats
+Bot(3): i just graduated with an economics degree
+User(4): shut up
+Bot(4): ok bye
+User(5): heehee bye
+Bot(5): ok bye
+User(6): u mad
+Bot(6): not at all if u
+User(7): i am mad
+Bot(7): getting mad is no fun
+User(8): do you like kpop
+Bot(8): i do not but i like kpop
+User(9): stan nct
+Bot(9): kool
+User(10): stan exo
+Bot(10): kool
+
+Persona:
+my favorite way to relax is to read a book.
+i hate school.
+i'm single and with two dogs.
+i'm an economics major.
+my favorite shirts are band shirts and ruffle sleeves.
+
+Topic and Human Opinion:
+Beginning: i diet a lot.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.29
+Robotic(↓): 100
+Interesting: 78
+Fun: 77
+Consistent: 32
+Fluent: 22
+Repetitive(↓): 50
+Topic: 37
+
+####################
+

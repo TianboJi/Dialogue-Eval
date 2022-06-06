@@ -1,0 +1,319 @@
+Feedback: Please bear in mind that that HIT took a full hour which id half the time mentioned.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello, my name is Shawnett
+Bot(1): my name is mary , how are you ?
+User(2): I am well. I recently read a very good book. It was called Siddhartha by Herman Hesse.
+Bot(2): cool what are you reading
+User(3): It is about the beginning of Buddhism.
+Bot(3): wow you are young like me
+User(4): NO, I am just starting my 2nd half of life. How old are you?
+Bot(4): they are twins , 12 years old .
+User(5): Who are twins?
+Bot(5): that is nice you two sound like twins
+User(6): Perhaps you misunderstand, there is only one of me.
+Bot(6): oh . i am proud of being a woman and my heritage .
+User(7): What is your favorite thing about being a woman Mrs Bot?
+Bot(7): no i am not a woman
+User(8): So you are not proud to be a woman with her heritage? what are you proud of?
+Bot(8): i just learned i am having twins
+User(9): Congratulations! When are they due?
+Bot(9): i am ok except the morning sickness for the last 3 months . how are you ?
+User(10): I am well. Bot I thought you were not a woman?
+Bot(10): no i am not a woman
+User(11): Then how will you have twins?
+Bot(11): that is nice you two sound like twins
+User(12): WHo two are you talking to?
+Bot(12): thanks , it was nice talking to you
+User(13): You too
+Bot(13): i like all desserts . do you have a favorite dessert ?
+User(14): I do have a favorite dessert. As a woman I love chocolate. But do you find that being a woman makes you like chocolate more?
+Bot(14): wow , i do not really like chocolate
+User(15): Bot, Do you have strong feelings about being a pregnant woman who gets sick?
+Bot(15): sick sick , my mothers a teacher which is sick
+User(16): Has your mother gotten sick?
+Bot(16): sick sick no i am not sick
+User(17): Are you scared of Covid 19
+Bot(17): only 19 years old . i still have imaginary friends . ll
+
+Persona:
+i am a stunt double as my second job.
+i've been traveling the world for a years.
+i am expecting twins in two months.
+i'm a 56 year old woman.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: Reading Books(like)
+Round 3: How old we are(like)
+Round 6: Bot is proud to be a woman and to have the heritage of a woman(like)
+Round 13: Favorite Desserts(dislike)
+Round 14: Having feelings(like)
+Round 16: Covid 19 Risk(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 13: The chatbot changed the topic.(ambivalent)
+Round 14: The user changed the topic the last input.(ambivalent)
+Round 16: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 44.86
+Robotic(↓): 95
+Interesting: 77
+Fun: 30
+Consistent: 70
+Fluent: 85
+Repetitive(↓): 82
+Topic: 29
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): HI1 I see you got a new puppy!
+Bot(1): i love dogs ! i have a puppy !
+User(2): Congratulations! Did you get all the puppy's needs?
+Bot(2): i have to agree with that .
+User(3): What did you buy for your new puppy?
+Bot(3): he is a puppy ! he is a puppy !
+User(4): Did he go to the vet?
+Bot(4): he was a good idea . i was just wondering if he was a dog .
+User(5): Hey bot!! What is your favorite show to watch on TV?
+Bot(5): i like to watch tv and watch tv
+User(6): Do you watch anything special like 'Inspector Gadget?'
+Bot(6): i like to watch tv and watch tv
+User(7): What do you watch on tv?
+Bot(7): i watch tv and watch tv
+User(8): What kind of TV is it?
+Bot(8): i watch it on tv . i watch it on tv
+User(9): I like cartoons a lot!!
+Bot(9): i watch a lot of cartoons on tv
+User(10): Me too
+Bot(10): i watch a lot of cartoons on tv
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: taking care of a puppy(like)
+Round 4: Favorite TV show(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+
+Revised avg score: 33.57
+Robotic(↓): 100
+Interesting: 11
+Fun: 17
+Consistent: 81
+Fluent: 24
+Repetitive(↓): 89
+Topic: 91
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey there, Get bus directions to the school, ok?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): I especially like Vivaldi's The Four Seasons
+Bot(2): i like to eat fish .
+User(3): I like fish too. I love a good Shark steak.
+Bot(3): i like to eat fish .
+User(4): I also like tuna and so do my cats.
+Bot(4): i like dogs too . i love dogs .
+User(5): How many dogs do u want?
+Bot(5): i do not have any pets , but i do like to go fishing .
+User(6): I can throw a perfect cast net.
+Bot(6): i do not know what to say .
+User(7): And I can drive a boat.
+Bot(7): i like to go to the beach and listen to music .
+User(8): There is alot of fun by the water.
+Bot(8): i love it . i love it .
+User(9): It is late and I am tired.
+Bot(9): i am sorry to hear that . i am a bit of a loner .
+User(10): Me too!!
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i do not have a smartphone.
+my best friend lives next door.
+i was poor growing up.
+i am scared of dying.
+i can sew my own clothes.
+
+Topic and Human Opinion:
+Beginning: How to ride the bus(like)
+Round 1: Classical Music(like)
+Round 2: bot likes fish(like)
+Round 4: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 43.43
+Robotic(↓): 100
+Interesting: 25
+Fun: 74
+Consistent: 86
+Fluent: 83
+Repetitive(↓): 82
+Topic: 18
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): HI I have been trying to save money
+Bot(1): I am a very good person, and i like to worry everyone says I posse.
+User(2): Do you worry about money?
+Bot(2): I do not. play the other blonde.
+User(3): Are you blonde too? But you dont worry about money?
+Bot(3): They'Re you are animal.
+User(4): I am an animal? What kind of animal can type to you?
+Bot(4): you are would be Awesome. So we is refreshing . i love country fresh air .
+User(5): How can you tell fresh air from city air?
+Bot(5): Do doing fine! how to Disney world?
+User(6): Just head North east thru Tampa on I$ and you will get there. Can you drive?
+Bot(6): No, there u eat meat.
+User(7): No I do not eat meat there!
+Bot(7): I work at Starbucks always ride my you and it helps to get by.
+User(8): Starbucks is not my favorite
+Bot(8): I like to you are prof car around.
+User(9): I think your brain may be leaking nouns.
+Bot(9): that you an im never been there.
+User(10): I do not want to eat meat.
+Bot(10): I want to tell you something about like classical red walking on I am studying to be a teacher.
+User(11): Congratulations
+Bot(11): they are the am good too
+
+Persona:
+i'm a musician and hope to make it big some day.
+i love to bake cookies.
+i'm ex military.
+i am a feminist.
+i enjoy working with my hands and love gardening.
+
+Topic and Human Opinion:
+Beginning: MOney(like)
+Round 2: Money(like)
+Round 4: Fresh Air(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 43.57
+Robotic(↓): 89
+Interesting: 79
+Fun: 86
+Consistent: 31
+Fluent: 30
+Repetitive(↓): 70
+Topic: 38
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): People need a better living wage.
+Bot(1): yeah , lower income people need less taxes to be able to support themselves
+User(2): NO they need higher paying jobs
+Bot(2): yeah , lower income people need less taxes to be able to support themselves
+User(3): NOT Taxes, higher paying jobs
+Bot(3): yeah , lower income people need less taxes to be able to support themselves
+User(4): YOu need to learn about takes and the cost of living
+Bot(4): yeah , lower income people need less taxes to be able to support themselves
+User(5): Stop repeating the same thing
+Bot(5): minimum wage what are you a slave master that is wrong
+User(6): You are confused
+Bot(6): you do not get it but i do
+User(7): No you dont. You are just a machine.
+Bot(7): minimum wage what are you a slave master that is wrong
+User(8): U cant have a dialogue
+Bot(8): then you are stuck having conversations .
+User(9): yup, with a slow learning robot for .99
+Bot(9): why are you making a robot
+User(10): That is the goal!
+Bot(10): lets go for the high quality dialogue bonus
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: minimum wage(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.14
+Robotic(↓): 44
+Interesting: 81
+Fun: 76
+Consistent: 62
+Fluent: 76
+Repetitive(↓): 72
+Topic: 63
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): We need higher pay
+Bot(1): i want to be a lawyer
+User(2): Will you get paid to be a lawyer?
+Bot(2): i am not sure , i will be in court
+User(3): Can u argue well?
+Bot(3): i could but am not that kind of lawyer .
+User(4): Will u be a defense attorney or a prosecutor?
+Bot(4): i am not sure , i will be in court
+User(5): Do you want to be a judge too?
+Bot(5): o yes ! my fav band is insane clown posse though
+User(6): Mr. Robot, Do you smoke marijuana with your band?
+Bot(6): o yes ! my fav band is insane clown posse though
+User(7): I hope u write a lot of songs
+Bot(7): o yes ! my fav band is insane clown posse though
+User(8): Mine is Leon Harper
+Bot(8): how lovely ! i listen to insane clown posse
+User(9): Thgis is too much for .99
+Bot(9): i agree it is too high
+User(10): THe inst said about 25 mins
+Bot(10): it says no more than 15 words
+User(11): What says no more than 15 words?
+Bot(11): it says no more than 15 words
+
+Persona:
+i only eat kosher.
+i'm a piano teacher on the side.
+my favorite band is the insane clown posse.
+i'm on the soccer team.
+i want to be a lawyer.
+
+Topic and Human Opinion:
+Beginning: Cost of living(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.86
+Robotic(↓): 93
+Interesting: 89
+Fun: 91
+Consistent: 77
+Fluent: 96
+Repetitive(↓): 84
+Topic: 57
+
+####################
+

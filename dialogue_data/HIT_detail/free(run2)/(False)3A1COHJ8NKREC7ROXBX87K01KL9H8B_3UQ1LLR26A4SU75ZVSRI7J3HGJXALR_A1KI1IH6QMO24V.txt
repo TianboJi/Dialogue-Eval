@@ -1,0 +1,279 @@
+Feedback: good
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi..I am maire
+Bot(1): helo , how ar you ? i am mandi
+User(2): i am fine..
+Bot(2): great . . whare aare you from ? ?
+User(3): I am from CA
+Bot(3): i am from cali . . . have you been ?
+User(4): which game do you like the most?
+Bot(4): i like tombraider . . and gta
+User(5): can you please explain about it
+Bot(5): which game are you asking about ?
+User(6): tombraider
+Bot(6): i like tombraider . . and gta
+User(7): any other
+Bot(7): i like tombraider . . and gta
+User(8): thank you
+Bot(8): what you need
+User(9): i need about games and their funkstions
+Bot(9): and which are those then
+User(10): it is useful
+Bot(10): still do not understand ta
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: GAME(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.43
+Robotic(↓): 72
+Interesting: 23
+Fun: 32
+Consistent: 33
+Fluent: 12
+Repetitive(↓): 83
+Topic: 47
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi ..i am maire
+Bot(1): i am a student , i am a teacher .
+User(2): I am working in a private company
+Bot(2): that is awesome . i am a teacher .
+User(3): I am a software developer
+Bot(3): i like to go to the gym and listen to music .
+User(4): i like to learn new things
+Bot(4): i like to go to the gym and listen to music .
+User(5): great
+Bot(5): i am a student , but i am a student .
+User(6): what you are studying
+Bot(6): i am a student , i am a teacher .
+User(7): thats great
+Bot(7): i love to cook . i love to cook .
+User(8): good
+Bot(8): i am a student , but i am a student .
+User(9): which is your favorite dish
+Bot(9): i like the color red . what is yours ?
+User(10): black
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i'm rather skinny as i like to stay in shape.
+my aunt helped me escape when i was of.
+i also have a dog walking business.
+i volunteer my time with a local bunny rescue.
+i am a piano teacher on the side.
+
+Topic and Human Opinion:
+Beginning: work(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.86
+Robotic(↓): 35
+Interesting: 32
+Fun: 18
+Consistent: 36
+Fluent: 7
+Repetitive(↓): 93
+Topic: 44
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi , how are you ?
+User(2): i am fine
+Bot(2): hi ! i am doing well . how are you ?
+User(3): doing good
+Bot(3): hi ! i am doing well . how are you ?
+User(4): which is your hobby
+Bot(4): i am a huge fan of country music .
+User(5): great
+Bot(5): i love to listen to country music .
+User(6): any other hobbies
+Bot(6): i love to listen to country music
+User(7): good to hear
+Bot(7): i love to listen to country music
+User(8): which song do you like the most
+Bot(8): i do , i love country music
+User(9): good
+Bot(9): i do , i love country music
+User(10): thank you
+Bot(10): i love country music , especially country music
+
+Persona:
+i'm working on a building a robot to be my body double.
+i will graduate from high school in two years.
+i spend most of my time on facebook when i'm not working.
+i'm a baby delivery nurse.
+my favorite music is country.
+
+Topic and Human Opinion:
+Beginning: hobby(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.14
+Robotic(↓): 22
+Interesting: 17
+Fun: 2
+Consistent: 8
+Fluent: 3
+Repetitive(↓): 99
+Topic: 53
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): whats your name
+Bot(2): what is your name ?
+User(3): maire
+Bot(3): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(4): great
+Bot(4): i am good . i just got back from the coffee shop . i needed my morning cup
+User(5): ok.. which sports do you like
+Bot(5): yes i do i love football
+User(6): which team you support
+Bot(6): my favorite american football team is the browns . my favorite mls team is the crew .
+User(7): great
+Bot(7): i am good . i just got back from the coffee shop . i needed my morning cup
+User(8): do you attent any live match
+Bot(8): i am just fine , and you like tennis , i used to be a champion downhill skier
+User(9): good
+Bot(9): good , my daughter is napping so i am shopping online . might go swimming today
+User(10): ok
+Bot(10): i find attractive all women from canada
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.71
+Robotic(↓): 29
+Interesting: 30
+Fun: 34
+Consistent: 39
+Fluent: 16
+Repetitive(↓): 82
+Topic: 28
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): cool . i'm still in school , but i do it’s hard for me to music . 🙊
+User(2): do you like tor
+Bot(2): its just going to meet and stay away from society
+User(3): which place you like
+Bot(3): it is fine. a job working it.
+User(4): ok
+Bot(4): Because he doesn't understand I’m Angela I’m 24 doesn't agree with anything.
+User(5): your favorite tourist placwe
+Bot(5): Hey, listen. I i need some I disney world one day.
+User(6): great. i like that place
+Bot(6): I you like to be that. What happened to your girlfriend?
+User(7): nothing
+Bot(7): Also, i like movies Do the pancakes here are the best.
+User(8): which country you like to visit
+Bot(8): sounds great going the equivalent sound would from walking my dog
+User(9): i like to go paris
+Bot(9): That am nice.
+User(10): ok
+Bot(10): oh. you I'm gonna go roleplaying. do you live on a weekends?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tour(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.57
+Robotic(↓): 22
+Interesting: 37
+Fun: 30
+Consistent: 28
+Fluent: 7
+Repetitive(↓): 75
+Topic: 37
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello from small town usa !
+User(2): how re you
+Bot(2): doing great just got a new job
+User(3): what kind of a job
+Bot(3): i just recently retired at age 60
+User(4): ok
+Bot(4): i just got hired for a brand new job today
+User(5): what was your designation at your job
+Bot(5): i just recently retired at age 60
+User(6): good
+Bot(6): i just recently retired at age 60
+User(7): great
+Bot(7): awesome
+User(8): now what are you doing
+Bot(8): i just recently retired at age 60
+User(9): what is your savings
+Bot(9): i just recently retired at age 60
+User(10): ok
+Bot(10): awesome
+
+Persona:
+i am 60years old.
+i am 24 years old.
+i'm from a small town.
+i've two dogs.
+i'm now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: work(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.86
+Robotic(↓): 76
+Interesting: 19
+Fun: 30
+Consistent: 32
+Fluent: 10
+Repetitive(↓): 82
+Topic: 20
+
+####################
+

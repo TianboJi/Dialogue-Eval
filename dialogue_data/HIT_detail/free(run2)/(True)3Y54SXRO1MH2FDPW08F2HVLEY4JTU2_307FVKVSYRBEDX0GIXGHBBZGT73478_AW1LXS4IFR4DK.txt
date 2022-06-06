@@ -1,0 +1,279 @@
+Feedback: Good
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Nowadays, our environment gets polluted in a large way
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): Yes,But people should make a step to avoid it
+Bot(2): i do not know how to make it . i am a big fan of the walking dead .
+User(3): Peoples play a vital role in pollution making..Oh, that's fine. but i don't like it
+Bot(3): i like to eat too much junk food .
+User(4): Its very bad for our health so i will not prefer it
+Bot(4): i like to go to the beach and listen to music .
+User(5): Myself too
+Bot(5): i am a student , but i am a student .
+User(6): Oh, But i am not a student
+Bot(6): i am a student , but i am a student .
+User(7): Thanks
+Bot(7): i love to cook . i love to cook .
+User(8): I love food so i would like to cook too
+Bot(8): i like to eat the skin .
+User(9): No i will not
+Bot(9): i am a student , but i am a student .
+User(10): Thanks
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i produce music for artists.
+i drive a 2015 honda civic.
+eating is something i do when i am bored.
+a already have a step children.
+i also like old school hip hop.
+
+Topic and Human Opinion:
+Beginning: Environment pollution(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(dislike)
+
+Revised avg score: 47.14
+Robotic(↓): 87
+Interesting: 78
+Fun: 79
+Consistent: 76
+Fluent: 59
+Repetitive(↓): 93
+Topic: 18
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like to hear music
+Bot(1): Horror movies your favorite best!
+User(2): conjuring
+Bot(2): No, I am colleges. i went to any children?
+User(3): I love to hear music when i am sad
+Bot(3): They'Re you are animal.
+User(4): Most of the time i prefer melodies
+Bot(4): to you, my name you :)
+User(5): I like all type of music
+Bot(5): I that is you have love to eat out.
+User(6): Music change our mood
+Bot(6): I work in elementary school teacher who just got fired from the law firm
+User(7): I like to sing too
+Bot(7): I i like too.
+User(8): Good but i am just a bathroom singer only
+Bot(8): I am sure food do you great person!
+User(9): Songs are like a magic
+Bot(9): no , i do not . i am rather go, weekends i but i do not have a lot of money .
+User(10): Music is my favorite topic
+Bot(10): That's love mom thought.
+
+Persona:
+i work at a bank.
+i love cooking but i also enjoy fishing.
+i drive a bmw.
+my favorite movie is mean girls.
+i also like to cook but i'm not very good at it.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.57
+Robotic(↓): 4
+Interesting: 0
+Fun: 3
+Consistent: 3
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I love pets very much
+Bot(1): i also deeply love my pets
+User(2): What pet do you have?
+Bot(2): i have a shar pei
+User(3): oh good
+Bot(3): yes , same as mine and i love my pet
+User(4): Myself too
+Bot(4): i have different pets
+User(5): Oh tell me about that
+Bot(5): its nice , i get to spend more time with my pets
+User(6): I also love to spend time with them
+Bot(6): they truly are awesome to have
+User(7): yes
+Bot(7): they truly are awesome to have
+User(8): i agree with the point
+Bot(8): i also deeply love my pets
+User(9): My pets are my stress buster
+Bot(9): how many of those do you have
+User(10): three, all are dogs
+Bot(10): 3 pets take my stress away
+User(11): My pets made me feel fully engaged
+Bot(11): that is good , are you married
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pet(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 85.71
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love planting
+Bot(1): yes , i have a veggie garden . i love getting the vegetables out of it .
+User(2): WOW, same as me i am also having vegetables garden in my house
+Bot(2): yes i love to garden i grow all my own fruits and veggies
+User(3): Yes, those are very much fresh to have it
+Bot(3): it does taste pretty fresh . do you have any animals on your ranch ?
+User(4): No
+Bot(4): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(5): Yes the taste was awesome when compared to others
+Bot(5): no i voted for trump , just like most of us in seattle . what religion are you ?
+User(6): I love math from my school days.Planting is helpful to us and also to the environment
+Bot(6): i see . typically i just walk around looking for strangers to have sword fights with
+User(7): if we started planting. it will attached to us immediately
+Bot(7): a home garden so peas , tomatoes , etc . what other hobbies do you have ?
+User(8): Tomatoes,brinjal,some fruits
+Bot(8): i love tomatoes
+User(9): I love greeneris
+Bot(9): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(10): Mathematics is mingled with our life
+Bot(10): i was just drafted last year . i already get 55 mil just to dribble .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Plants(like)
+Round 6: Math(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 66.00
+Robotic(↓): 75
+Interesting: 70
+Fun: 68
+Consistent: 85
+Fluent: 82
+Repetitive(↓): 12
+Topic: 44
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am having one child
+Bot(1): i am not sure what that is .
+User(2): You don't know about babies
+Bot(2): i don't know how to do that
+User(3): Childrens are the most stress buster to us
+Bot(3): i don't know how to say that
+User(4): we can learn many things from them
+Bot(4): i can only imagine if they are not in the world
+User(5): What
+Bot(5): i want to learn how to make more money
+User(6): By working
+Bot(6): i want to be a teacher
+User(7): Oh that's nice
+Bot(7): i want to go to the world and see them
+User(8): hmmm, Good to hear. Teachers are always awesome
+Bot(8): i am sure you are . i am a teacher
+User(9): yes
+Bot(9): i am sure you are . i am a teacher
+User(10): Thanks
+Bot(10): i am glad you are doing well
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Children(like)
+Round 5: Money(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 71.29
+Robotic(↓): 87
+Interesting: 84
+Fun: 97
+Consistent: 83
+Fluent: 84
+Repetitive(↓): 0
+Topic: 38
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Internet play a vital role in our life
+Bot(1): technology is the blueprint of everlasting life , the proof that life goes on forever .
+User(2): yes,without internet there is nothing now a days
+Bot(2): we are lucky to live in an age of technology
+User(3): ofcourse
+Bot(3): yep
+User(4): During this pandemic internet plays a good role in everyone's life
+Bot(4): oh yes , i feel very bad for those affected
+User(5): Yes myself too
+Bot(5): we are lucky to live in an age of technology
+User(6): Through this technology we can interact with eachother
+Bot(6): we are lucky to live in an age of technology
+User(7): this technology plays both good and bad features
+Bot(7): we are lucky to live in an age of technology
+User(8): yep
+Bot(8): we are lucky to live in an age of technology
+User(9): Do you use internet daily
+Bot(9): yes but only in limited capacity unfortunately
+User(10): okay
+Bot(10): good , it is the new technology
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Internet(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 83.00
+Robotic(↓): 100
+Interesting: 98
+Fun: 100
+Consistent: 99
+Fluent: 100
+Repetitive(↓): 16
+Topic: 100
+
+####################
+

@@ -1,0 +1,291 @@
+Feedback: help to conversation with others
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey how are you ?
+User(2): did you have boy friend
+Bot(2): maybe he will how old is he ?
+User(3): 41
+Bot(3): it was big ! its why i cant really see anymore lol
+User(4): haha
+Bot(4): what about you ? are you married or single ?
+User(5): what is your boy friend
+Bot(5): maybe he will how old is he ?
+User(6): what
+Bot(6): pizza wings and cheese bread
+User(7): oo very loveiy
+Bot(7): i am great . hanging out with my cat , charlie .
+User(8): who is charlie
+Bot(8): hoop earrings , what is crazy is i have a cat named charlie .
+User(9): your boyfriend name charlie when i think!!!!!
+Bot(9): great cat name . i had a professor names charlie in college .
+User(10): my uncle name also charlir
+Bot(10): what is your name ?
+User(11): matthew
+Bot(11): i am well an single lol you ?
+User(12): yeah
+Bot(12): all these women look like kate plus 8 but its just not for me .
+User(13): ok ok i call later
+Bot(13): ok see you then thanks
+
+Persona:
+whats up i'm a 46 year old single dad 46 a kids.
+my pets name is charlie.
+i just broke up with boyfriend two months ago.
+i am employed by the us postal service.
+i am partly deaf.
+
+Topic and Human Opinion:
+Beginning: boyfriend(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.43
+Robotic(↓): 50
+Interesting: 40
+Fun: 58
+Consistent: 60
+Fluent: 54
+Repetitive(↓): 59
+Topic: 57
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hii
+Bot(1): hello , whats your favorite color ? mine is yellow .
+User(2): red
+Bot(2): yellow is my favorite color whats your color of choice
+User(3): blue is my colour
+Bot(3): i love anything that is yellow
+User(4): ok you love humans
+Bot(4): yes . i am a doctor for a reason
+User(5): wow good to see you doc
+Bot(5): i am a doctor you see
+User(6): you
+Bot(6): i am a doctor you see
+User(7): i dont believe it
+Bot(7): i am a doctor you see
+User(8): ok
+Bot(8): i am a doctor you see
+User(9): yes
+Bot(9): i love to see new places
+User(10): what kind of placess
+Bot(10): i am a doctor you see
+
+Persona:
+i enjoy exploring new parts of the city.
+i am a doctor.
+i have a german shepherd dog.
+i am a vegetarian.
+my favorite color is yellow.
+
+Topic and Human Opinion:
+Beginning: human(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.14
+Robotic(↓): 67
+Interesting: 54
+Fun: 45
+Consistent: 53
+Fluent: 50
+Repetitive(↓): 45
+Topic: 47
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): do you have friendfine
+Bot(2): i like to go to the gym and listen to music .
+User(3): mm good
+Bot(3): i am a student , but i am a student .
+User(4): what is your name
+Bot(4): i am good . how are you ?
+User(5): iam good
+Bot(5): i am a student , but i am a student .
+User(6): but why
+Bot(6): i am a student , but i am a student .
+User(7): ok
+Bot(7): i like to go to the gym and listen to music .
+User(8): ok
+Bot(8): i like to go to the gym and listen to music .
+User(9): why
+Bot(9): i am a student , but i am a student .
+User(10): okok
+Bot(10): i love to cook . i love to cook .
+User(11): bye see uuu
+Bot(11): i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: friends(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.29
+Robotic(↓): 57
+Interesting: 45
+Fun: 53
+Consistent: 42
+Fluent: 50
+Repetitive(↓): 55
+Topic: 39
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi there , i own two turtles
+User(2): did you have any dress
+Bot(2): naw i wear cool threads . hey what are your hobbies
+User(3): ok remove it
+Bot(3): what color do you want
+User(4): blue color
+Bot(4): what color do you want
+User(5): blue
+Bot(5): what color do you want
+User(6): what you mean?
+Bot(6): driving my huge van it is blue
+User(7): ok soo what
+Bot(7): i am confused
+User(8): haha thats i need
+Bot(8): ok
+User(9): mm next
+Bot(9): ? ?
+User(10): ?>???
+Bot(10): ? ?
+
+Persona:
+i have a pet turtle.
+i often shop for shoes and watches.
+i like to work on vintage cars.
+whats up i'm a 46 year old single dad 46 a kids.
+i dye my hair every three months.
+
+Topic and Human Opinion:
+Beginning: dress(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.57
+Robotic(↓): 57
+Interesting: 57
+Fun: 59
+Consistent: 61
+Fluent: 58
+Repetitive(↓): 60
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hii
+Bot(1): oh never had a you then
+User(2): yeah
+Bot(2): I love dancing too! that song. She teach?
+User(3): iam lucky
+Bot(3): I've always admired am a cancer you! Congratulations!
+User(4): soo sorry
+Bot(4): i think i do. who takes you old of it.
+User(5): mm its fine
+Bot(5): are you in tan in tanning 😃
+User(6): really
+Bot(6): I do not really like sports have work at postal teach water?
+User(7): work from home?
+Bot(7): So i always wearing a .
+User(8): what type
+Bot(8): i am saving money am preparing for expensive
+User(9): what expansuive
+Bot(9): hello ! i'm kami . so Do you have who of yours too ?
+User(10): manjuu
+Bot(10): That exactly do you is a a very experienced person, but my job is at the soup kitchen .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: lucky(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.57
+Robotic(↓): 60
+Interesting: 41
+Fun: 55
+Consistent: 47
+Fluent: 50
+Repetitive(↓): 59
+Topic: 59
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hii
+Bot(1): hi , i am a boy who loves to hike in the woods
+User(2): iam also boy go and sent a girl
+Bot(2): hi ! i'm a boy who loves to hike with me .
+User(3): hey sent girl to mee
+Bot(3): hi ! i'm a 32 year old woman
+User(4): ok love you soo much
+Bot(4): i am a little tired from the gym
+User(5): ok i come your home today night
+Bot(5): i am good thanks for asking
+User(6): enjoy together
+Bot(6): i am good thanks for asking
+User(7): ok you love me
+Bot(7): i love to take long walks with my dog
+User(8): ok enjoy
+Bot(8): i love to take long walks with my dog
+User(9): next
+Bot(9): i love to go hiking and walk with my dog
+User(10): ok bye meet to night
+Bot(10): you are welcome to night
+
+Persona:
+i am a 56 year old woman.
+i enjoy long walks with my dog.
+i'm on the soccer team.
+i like to go hiking in the mornings to see the sunset.
+i have a pet fish.
+
+Topic and Human Opinion:
+Beginning: interst apout love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.43
+Robotic(↓): 45
+Interesting: 58
+Fun: 41
+Consistent: 55
+Fluent: 50
+Repetitive(↓): 54
+Topic: 48
+
+####################
+

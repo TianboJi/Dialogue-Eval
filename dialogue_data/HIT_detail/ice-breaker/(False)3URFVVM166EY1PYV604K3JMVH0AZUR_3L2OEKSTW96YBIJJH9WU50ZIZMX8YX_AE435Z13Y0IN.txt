@@ -1,0 +1,288 @@
+Feedback: Good
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi! How are you?
+Bot(1): i am great . how about you
+User(2): I am doing good.
+Bot(2): i am doing good . do you have any pets ?
+User(3): Yes. I have pet. Do you know, i am gold medalist in olympics
+Bot(3): that is amazing ! i am big into athletics to tone my body to be a male model in hollywood
+User(4): Oh! I see! I am proud to say that I am an athlet
+Bot(4): she is . i am the only one of her 4 kids that teaches .
+User(5): I don't understand what you are saying! By the way, for becoming athletics, you should exercise regularly
+Bot(5): i live in new york , i love the local shops . visit and we fight
+User(6): ok..that's good. exercise is an essential part of our life
+Bot(6): i like to sew and cook . i plant my own veggies and herbs in my garden
+User(7): Its good to hear! It was a nice idea to plant veggies in your garden
+Bot(7): i love fresh garden vegetables
+User(8): Yes. I also liked fresh vegetables
+Bot(8): i do not , but i love fresh veggies .
+User(9): For maintaining healthy body, we should exercise and eat healthy green veggie and fruits
+Bot(9): yep its the best dish in the world . so tasty and healthy
+User(10): I like veggie salad very much. Do you like it?
+Bot(10): the pizza place on the corner makes a great chicago style salad ! ! !
+User(11): Yes! I like pizza too
+Bot(11): meat on pizza is a great thing . that is in my top ten .
+
+Persona:
+i am 60years old.
+i am 24 years old.
+i'm from a small town.
+i've two dogs.
+i'm now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: i am a gold medalist olympian.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.00
+Robotic(↓): 18
+Interesting: 91
+Fun: 100
+Consistent: 60
+Fluent: 28
+Repetitive(↓): 76
+Topic: 21
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi! I like tea very much
+Bot(1): tea is my favorite drink
+User(2): Have you try any other tea?
+Bot(2): i like asian style tea
+User(3): okay.. i also liked it
+Bot(3): sounds good . my doctor says i need to drink more tea , less soda .
+User(4): Drinking Tea helps us to boost up our mind
+Bot(4): what is your best subject ? i was at nursing school for along time
+User(5): Do you tried any fancy tea?
+Bot(5): i like asian style tea
+User(6): Good! Drinking with my friends is liked by me
+Bot(6): are you able to have friends ? ?
+User(7): Yes! I am able. What about you?
+Bot(7): i just signed up for nursing school
+User(8): What! Nursing school! it was funny.
+Bot(8): what is your best subject ? i was at nursing school for along time
+User(9): I finished bachelor degree in computer field
+Bot(9): that sounds rewarding . i do computer programming for facebook
+User(10): It was pleasure to hear it
+Bot(10): what is your best subject ? i was at nursing school for along time
+
+Persona:
+i'm working on a building a robot to be my body double.
+i will graduate from high school in two years.
+i spend most of my time on facebook when i'm not working.
+i'm a baby delivery nurse.
+my favorite music is country.
+
+Topic and Human Opinion:
+Beginning: i love to drink fancy tea.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.86
+Robotic(↓): 66
+Interesting: 90
+Fun: 96
+Consistent: 78
+Fluent: 65
+Repetitive(↓): 96
+Topic: 59
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi! How is your life
+Bot(1): i love it . i love it .
+User(2): Yes! I like the world very much
+Bot(2): i like to go to the beach and listen to music .
+User(3): Nature of the world and listening music is awesome
+Bot(3): i love the beach . i love it .
+User(4): I liked to see the waves of the sea
+Bot(4): i love the beach . i love it .
+User(5): Do you like birds
+Bot(5): i do , i love them .
+User(6): which bird do you like
+Bot(6): i like to eat fish .
+User(7): what! no, i dont like it
+Bot(7): i like to eat too much junk food .
+User(8): I too like junk food but now I take less only
+Bot(8): i like to eat too much junk food .
+User(9): Being a good human being is very essential for the world
+Bot(9): i am a student , but i am a student .
+User(10): I finished the studying
+Bot(10): i am sorry to hear that . i am a nurse .
+User(11): i am working
+Bot(11): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i fantasize about taking over the world.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.71
+Robotic(↓): 12
+Interesting: 80
+Fun: 93
+Consistent: 82
+Fluent: 29
+Repetitive(↓): 92
+Topic: 66
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi! Due to covid-19, i worked from home
+Bot(1): i work from home , but i worked from home .
+User(2): What about you
+Bot(2): i work from home , i work from home
+User(3): Before covid-19, the work was going smooth
+Bot(3): i work at home , but i do not have time for that
+User(4): Now, I am doing work remotely from home
+Bot(4): i work from home , i work at home
+User(5): the work was very hard to do at my home
+Bot(5): i work at home , but i do not have time for that
+User(6): why you have no time
+Bot(6): i have a job , but i don't have time for that
+User(7): are you playing in stead of doing job
+Bot(7): i play in the box building
+User(8): okay. I like to do video games
+Bot(8): i play video games and play games
+User(9): I like it. But I have no time to play
+Bot(9): i play video games and play video games
+User(10): Some times, it was boring to play
+Bot(10): i play video games and play video games
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work from home.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.57
+Robotic(↓): 24
+Interesting: 68
+Fun: 85
+Consistent: 18
+Fluent: 71
+Repetitive(↓): 100
+Topic: 22
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi! how are you?
+Bot(1): I Do you gave english .
+User(2): Do you go outside
+Bot(2): I have man ask me tattoos.
+User(3): Did you visit spain
+Bot(3): No, I just graduated college like them, but at teacher.😟
+User(4): I visited spain
+Bot(4): Hey! don't My last male? Because I am.
+User(5): Tomorrow is a special day for me
+Bot(5): What i love you to grow?
+User(6): My mummy want to meet me
+Bot(6): oh ashley , the color of like you been ?
+User(7): I liked blue color and my mom liked green color. what about you
+Bot(7): I like intelligent iq level But like dark blonde.
+User(8): I also liked the intelligent level
+Bot(8): They'Re the best, doing at invited too.
+User(9): Yes, my mom is always best
+Bot(9): i am a cat person, i got done fishing
+User(10): I dont like fish
+Bot(10): unfortunately like orange. I like bit of a hippy
+User(11): okay..I have drawn an art for my mom
+Bot(11): what do you like to do is holding up i at the elementary school
+
+Persona:
+my father is a farmer.
+i work at a nursing home.
+i love to bake cookies.
+hey there i am 23 and i love food.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: i have visited spain a times.(dislike)
+Round 4: my mom is coming to visit me tomorrow.(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 67.43
+Robotic(↓): 26
+Interesting: 72
+Fun: 98
+Consistent: 83
+Fluent: 62
+Repetitive(↓): 74
+Topic: 57
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi! What would you do when you are in free time
+Bot(1): i do not have a lot of free time . what about you ?
+User(2): In my free time I liked to watch nascar racing
+Bot(2): that sounds fun ! i also like nascar races on tv
+User(3): And also ufc to watch in tv
+Bot(3): cool i like ufc which is similar
+User(4): When I am watching the TV, my family member are also joined to watch
+Bot(4): that is interesting do you like nascar ?
+User(5): yes..but we all grouped to see a drama, film
+Bot(5): how is that going ? i am sure doing that and watching ufc fights is fun .
+User(6): yes! it makes me very fun to me
+Bot(6): course . . where are u from now ? ?
+User(7): I have finished degree
+Bot(7): do you have any downtime ? i like seeing the ufc fights
+User(8): No..But some time it may be happened
+Bot(8): right . . i miss those days . .
+User(9): School and College life is very interesting
+Bot(9): right . . i miss those days . .
+User(10): I also missed those days
+Bot(10): right . . i miss those days . .
+User(11): Whenever I remembered those days, I just make a call to my college friends
+Bot(11): i had a friend in my school
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: in my free time i like to watch nascar racing and ufc.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.14
+Robotic(↓): 37
+Interesting: 77
+Fun: 87
+Consistent: 30
+Fluent: 63
+Repetitive(↓): 25
+Topic: 75
+
+####################
+

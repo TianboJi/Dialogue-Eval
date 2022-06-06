@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello! What's your favorite game to play?
+Bot(1): i play the guitar , but i love to play
+User(2): That's cool! What's your favorite thing to play on the guitar?
+Bot(2): i love the guitar ! i play guitar in a band .
+User(3): Nice! What songs do you like to play?
+Bot(3): i like all kinds of music .
+User(4): Me too! Do you play any other instruments?
+Bot(4): no i don't play any instruments
+User(5): I thought you played the guitar?
+Bot(5): no , i play guitar . i play the guitar .
+User(6): That's right! Do you prefer acoustic or electrical?
+Bot(6): i do not . i play the guitar .
+User(7): I know! But acoustic guitar or electrical guitar?
+Bot(7): i don't play any instruments . i play guitar
+User(8): Isn't guitar an instrument?
+Bot(8): no , i play guitar . i play guitar .
+User(9): How did you learn to play guitar?
+Bot(9): no , i play guitar . i play guitar .
+User(10): Could you teach me how to play?
+Bot(10): no , i play guitar . i play guitar .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 1: Guitar(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi! What's your favorite game to play?
+Bot(1): I i like movies you time for that. I am in a horror field
+User(2): I like horror movies too! What's your favorite?
+Bot(2): I love short just winter.
+User(3): I haven't heard of it! Is that a good movie?
+Bot(3): cool ! i have a chevy truck student. I’m live in the do you like sports ?
+User(4): I like sports okay. I always root for Detroit
+Bot(4): I feel good. Run a you find it hard to relax?
+User(5): Not when I'm watching sports!
+Bot(5): so wear a helmet while grocery store is where i work 💼 what about you
+User(6): I don't work right now. I'm a student
+Bot(6): I am a college a recovering alcoholic. how teacher.
+User(7): Oh are you a teacher?
+Bot(7): pretty your favorite place we day its my new job
+User(8): I'm glad you like it! What made you want to start there?
+Bot(8): That am an to, you married? 😁
+User(9): I am not! Are you interested?
+Bot(9): yes , it is . i have good ı am great, .
+User(10): Ah well, maybe someday we could hang out then
+Bot(10): shopping , like step is totally different Also, try to guess: i've light skin ...
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+Round 1: Movies(like)
+Round 3: Sports(ambivalent)
+Round 5: Work(dislike)
+Round 8: Marriage(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi! What's your favorite game to play?
+Bot(1): hi . i like league of leagues .
+User(2): I haven't played much of that! Is it fun? I like Red Dead Redemption a lot
+Bot(2): never played it . not big in playing video games . anything else about you ?
+User(3): But you play League of Leagues, I'm sure you like them at least a bit
+Bot(3): of course . i would rather play football haha ! do you like any sports ?
+User(4): Not really! I like sports games though, do you play Fifa?
+Bot(4): no , i am not really in to games .
+User(5): Are there any that you like?
+Bot(5): black flag as well . do you play call of duty ?
+User(6): Black Flag is good! And I play a little bit of it. Are you excited for Cold War?
+Bot(6): i have not played that but will have to check it out
+User(7): It's not out yet, it's the newest Call of Duty
+Bot(7): black flag as well . do you play call of duty ?
+User(8): I do! Which one is your favorite?
+Bot(8): black flag as well . do you play call of duty ?
+User(9): Like I said, I do! And also Black Flag!
+Bot(9): black flag as well . do you play call of duty ?
+User(10): Yes I do!
+Bot(10): black flag as well . do you play call of duty ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Video Games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.43
+Robotic(↓): 100
+Interesting: 22
+Fun: 9
+Consistent: 8
+Fluent: 10
+Repetitive(↓): 100
+Topic: 45
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello! Are you going to vote in the election?
+Bot(1): i am not registered to vote , nor do i care for politics .
+User(2): I think it's really important to vote this time though. Are you going to register?
+Bot(2): i am not registered to vote , nor do i care for politics .
+User(3): But you really should! It's super easy to register to vote and you can really make a difference
+Bot(3): have you decided who to vote for ?
+User(4): I have! I'm going to vote for Democrat Joe Biden. Do you know who you're going to vote for?
+Bot(4): have you decided who to vote for ?
+User(5): I see you don't like Politics. Did you see Knives Out last year?
+Bot(5): i did not . my husband is in vegas playing in a softball tourney .
+User(6): It was a really good murder mystery! Do you like movies?
+Bot(6): i love kids movies . i like finding nemo !
+User(7): That's a great one, I grew up watching it! Do you like Pixar?
+Bot(7): i love kids movies . i like finding nemo !
+User(8): What about Up?
+Bot(8): i love kids movies . i like finding nemo !
+User(9): You've told me! Do you like any other kinds of movies?
+Bot(9): i love kids movies . i like finding nemo !
+User(10): Hmm... Do you like finding nemo?
+Bot(10): i love kids movies . i like finding nemo !
+
+Persona:
+i'm an avid kayaker.
+i waitress during the day to supplement my income.
+i've a cat named spook.
+i am a 12 year old girl.
+i have five sons.
+
+Topic and Human Opinion:
+Beginning: Politics(like)
+Round 4: Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 28.14
+Robotic(↓): 100
+Interesting: 3
+Fun: 4
+Consistent: 92
+Fluent: 28
+Repetitive(↓): 100
+Topic: 70
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello! Do you like books?
+Bot(1): i love all kinds of books , especially thriller !
+User(2): Me too! What's your favorite book?
+Bot(2): what is the book about
+User(3): Mine is probably the Stand by Stephen King
+Bot(3): i enjoy stephen king as well , have you seen the newest movie based on his books ?
+User(4): I haven't, but I really hope it's good! I like his books a lot
+Bot(4): you mean , you do not like his books ?
+User(5): No, I really like them!
+Bot(5): oh yes very very much like oh my goodness i love them for real .
+User(6): Me too! Which one is your favorite?
+Bot(6): has to be superman . he is from outer s ace but he is human .
+User(7): I know! I don't think that's a Stephen King book though
+Bot(7): i enjoy stephen king as well , have you seen the newest movie based on his books ?
+User(8): Nope, like I said, I haven't
+Bot(8): i know someone and she grow plants , she does it in her garden
+User(9): Have you ever read the Stand?
+Bot(9): it was something that just reminded me of my grams . she had angels in her house
+User(10): Oh that's cool!
+Bot(10): yeah , and manage paperwork through incoming calls as a job .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.00
+Robotic(↓): 30
+Interesting: 62
+Fun: 60
+Consistent: 62
+Fluent: 57
+Repetitive(↓): 30
+Topic: 53
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello! Are you going to vote this election?
+Bot(1): no , i am not . i am a student .
+User(2): Ah I am too, but I'm still old enough to vote
+Bot(2): i am sorry to hear that . i am a nurse .
+User(3): I thought you were a student?
+Bot(3): no , i am a student . i love to cook .
+User(4): Okay! Who are you going to vote for, then?
+Bot(4): i am not sure . i am a student .
+User(5): You've told me. Do you like Biden or Trump mpre?
+Bot(5): i do not know . i like to go to the gym .
+User(6): Me too! It's fun working out there
+Bot(6): i love to cook . i love to cook .
+User(7): What's your favorite recipe?
+Bot(7): i like the color red . i like the color blue .
+User(8): Yellow is my favorite color
+Bot(8): i like red , reminds me of summer time .
+User(9): Yeah that's always nice. Yellow just makes me feel happy
+Bot(9): i am a bit of a loner
+User(10): Is that why you like red?
+Bot(10): i love the color red . i like blue .
+
+Persona:
+i was raised on a horse farm.
+i see the rolling stones in concert every year.
+i just want to have fun with my friends.
+i like riding horses.
+my family does not support my career choices.
+
+Topic and Human Opinion:
+Beginning: Politics(like)
+Round 5: Working Out(like)
+Round 6: Cooking(ambivalent)
+Round 7: Colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 28.43
+Robotic(↓): 64
+Interesting: 46
+Fun: 31
+Consistent: 45
+Fluent: 26
+Repetitive(↓): 85
+Topic: 0
+
+####################
+

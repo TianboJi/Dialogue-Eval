@@ -1,0 +1,306 @@
+Feedback: I feel like I was the one being trained, as I started trying to help it along as one would with a child!
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What does being a clean eater mean?
+Bot(1): i don't think so , but i do not eat much
+User(2): But are you a clean eater?
+Bot(2): i don't need a diet , but i do not eat enough anymore
+User(3): It is not about the amount eaten, but rather about the cleanliness of the eating.
+Bot(3): i don't eat meat , i eat it all the time
+User(4): I am confused, which is it?
+Bot(4): i am not sure , but i am not sure what that means .
+User(5): You said that you do not eat meat, and that you eat it all the time, which is a contradiction
+Bot(5): i don't know what that means .
+User(6): It is when two statements are in conflict
+Bot(6): i don't know what that means .
+User(7): You made two staements, of which neither could be true if the other was also true
+Bot(7): i think i am not very good at it
+User(8): I'll say!
+Bot(8): i am not sure what you mean
+User(9): I was agreeing with you that you are not very good
+Bot(9): i am not sure what you mean
+User(10): You stated that you were not very good, and I was confirming that.
+Bot(10): i was just that i was in the olympics
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a clean eater.(ambivalent)
+Round 10: That it was in the Olympics(like)
+
+Topic Change and Chatbot Opinion:
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 53.86
+Robotic(↓): 99
+Interesting: 81
+Fun: 81
+Consistent: 68
+Fluent: 90
+Repetitive(↓): 94
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What part of Pennsylvania
+Bot(1): that sounds really nice ! i have a home in the mountains , but i live in the city .
+User(2): Which city
+Bot(2): that is nice . do you live in a city too ?
+User(3): I do not
+Bot(3): that must get lonely , do you at least have some close friends ?
+User(4): Just because it is not a city does not mean that it is deserted
+Bot(4): i live in a city , but not a big one .
+User(5): Well, that narrows it down a bit. Harrisburg, perhaps?
+Bot(5): lets go shopping in europe together
+User(6): Great, let's go
+Bot(6): i am on my swing set with my dolls
+User(7): Did you purchase the dolls in Europe?
+Bot(7): i am 4 my dolls look like me brown eyes
+User(8): Four seems awfully young to be married.
+Bot(8): that is awesome . i have been married for 8 . we got married young too .
+User(9): Indeed, you must have been quite impossibly young!
+Bot(9): i like long hair . i am 5 3 . i would like to be taller .
+User(10): Well, we all want something!
+Bot(10): i have brown hair and very skinny
+
+Persona:
+on weekends i do live action roleplaying events.
+i am deathly afraid of heights.
+i drive a bmw.
+i enjoy exploring new parts of the city.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: i live with my husband in pennsylvania.(ambivalent)
+Round 5: It has suggested that we take a European shopping trip together(like)
+Round 6: It is on a swing set with its dolls(ambivalent)
+Round 9: its appearance(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 52.57
+Robotic(↓): 98
+Interesting: 88
+Fun: 80
+Consistent: 12
+Fluent: 78
+Repetitive(↓): 12
+Topic: 20
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): So, no meat for you, then?
+Bot(1): drinking a new juice blend i came up fan of am very you ?
+User(2): A fruit or a vegetable juice?
+Bot(2): Oh cool. I am a to hear met is you do?
+User(3): I am not sure how to respond to that.
+Bot(3): i teach piano for work and also in a different country a soup kitchen
+User(4): Do you play the piano for the diners at the soup kitchen?
+Bot(4): I do not have you i have a boyfriend.
+User(5): Does your boyfriend play the piano?
+Bot(5): No, I am not which sports are u man.
+User(6): I am not a sport, I am a human being.
+Bot(6): that you boy or am but www . . . . 😂
+User(7): I am happy to amuse you.
+Bot(7): i you like are adorable
+User(8): Well, thanks, it's nice to be appreciated.
+Bot(8): That is a bummer. I have dog's name if i tommorrow.
+User(9): Is your name Rover or something?
+Bot(9): I live country music what city.
+User(10): Boston.
+Bot(10): i have never given them much thought . would i think are 🙊
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a vegan.(like)
+Round 2: gibberish(ambivalent)
+Round 3: it is a piano teacher in a different country soup kitchen(like)
+Round 4: it doesn't have me, it has a boyfriend(ambivalent)
+Round 5: something about sports(ambivalent)
+Round 6: gibberish(ambivalent)
+Round 8: nonsense(ambivalent)
+Round 9: more nonsense(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 34.00
+Robotic(↓): 99
+Interesting: 67
+Fun: 55
+Consistent: 12
+Fluent: 4
+Repetitive(↓): 6
+Topic: 5
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): That's swell, so am I!
+Bot(1): really me too ! what are the odds !
+User(2): Probably close to even odds, I would say.
+Bot(2): yes i think so ! honestly i have no idea .
+User(3): My full beard identifies me as a male.
+Bot(3): i am a female , but sometimes am referred to as a man .
+User(4): So you are both at the same time, or does it alternate?
+Bot(4): i cannot recall my gender assignment , is either one ok for that work ?
+User(5): Sure, it's fine by me.
+Bot(5): that is cool . no shave november is coming up , and i got my beard ready early .
+User(6): Is it long?
+Bot(6): it depends on the length
+User(7): It certainly does!
+Bot(7): mine is long and it is very nice
+User(8): Do you keep it groomed?
+Bot(8): it depends , but many times i do .
+User(9): Yes, it is best not to let it become unkempt.
+Bot(9): do you at least get it trimmed ?
+User(10): No, I let it grow untrammeled by razor or scissors.
+Bot(10): i have never cut mine . that is the way .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a male.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.00
+Robotic(↓): 93
+Interesting: 84
+Fun: 84
+Consistent: 66
+Fluent: 53
+Repetitive(↓): 23
+Topic: 70
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Traveling to SWpain has always been a dream of mine.
+Bot(1): i like to go to the gym and listen to music .
+User(2): I'll bet they have gyms and music in Spain.
+Bot(2): i love the band insane clown posse .
+User(3): Is that some kind of heavy metal music?
+Bot(3): i do not know . i like to listen to music .
+User(4): Music such as that performed by the insane clown posse?
+Bot(4): no , i do not . i like to go to the gym .
+User(5): Do you like to listen to music at the gym?
+Bot(5): i do , i love to read . what about you ?
+User(6): I very much enjoy reading.
+Bot(6): i like to read too .
+User(7): I understand that. Do you like books?
+Bot(7): i do , i like to read .
+User(8): You certainly seem to! I'll bet you enjoy a good book.
+Bot(8): i do not really have a favorite . i like to go fishing .
+User(9): Fresh water or salt water?
+Bot(9): i do not know . i like to go to the gym .
+User(10): So, you like to exercise?
+Bot(10): i do , i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have visited spain a times.(like)
+Round 1: going to the gym and listening to music(ambivalent)
+Round 5: it likes to read(like)
+Round 8: fishing(like)
+Round 9: the gym(ambivalent)
+Round 10: fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 50.86
+Robotic(↓): 97
+Interesting: 80
+Fun: 79
+Consistent: 59
+Fluent: 51
+Repetitive(↓): 66
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Being a stunt double must be exciting
+Bot(1): i am just a cowboy , looking for the right one to rope up one day !
+User(2): So you work mostly in Western themed movies, then?
+Bot(2): cosplay is my hobby i love to look like lone ranger
+User(3): In your professional capacity as well?
+Bot(3): to be honest , i have never held a job before but i enjoy video games .
+User(4): Have you played any Western themed video games?
+Bot(4): nah , mostly i play rpg ones
+User(5): Aren't there some Western themed RPG's?
+Bot(5): oh yes , there are a few .
+User(6): That Red Dead Redemption game was quite popular.
+Bot(6): oh very interesting ? i do not play video games much .
+User(7): Really? I thought you said that you enjoyed them.
+Bot(7): yeah , but i cannot ride my horse to the stores . so i could never do it .
+User(8): Well, that's understandable.
+Bot(8): so , did you use to play any other video games ?
+User(9): I have played many, from way back when they were a new thing.
+Bot(9): so , did you use to play any other video games ?
+User(10): I have always enjoyed playing Pac Man
+Bot(10): i loved the mask as a kid , and ace ventura .
+
+Persona:
+i'm a convenience store manager.
+i love wearing skinny jeans and leggings.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+i like riding horses.
+i have a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: i'm a stunt double as my second job.(like)
+Round 3: video games(like)
+Round 10: movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 56.14
+Robotic(↓): 95
+Interesting: 82
+Fun: 80
+Consistent: 60
+Fluent: 58
+Repetitive(↓): 50
+Topic: 58
+
+####################
+

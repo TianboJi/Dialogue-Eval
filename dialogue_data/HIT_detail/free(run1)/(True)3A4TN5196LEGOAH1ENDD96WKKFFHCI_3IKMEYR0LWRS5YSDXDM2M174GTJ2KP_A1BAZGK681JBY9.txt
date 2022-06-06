@@ -1,0 +1,311 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi. Have you seen any deer near you?
+Bot(1): when does deer season start ?
+User(2): It started Monday.
+Bot(2): school starts monday ? that can be scary , both of my parents are school teachers in fact !
+User(3): Are you still in school?
+Bot(3): no graduated in december of 2016 with my bachelors degree
+User(4): Oh that's awesome. What did you major in?
+Bot(4): chemistry , but have a minor in biology
+User(5): Wow! Are you planning to get an advanced degree?
+Bot(5): degree in child developement education
+User(6): Are you working on perhaps becoming a teacher, too?
+Bot(6): i am engineer , i have already completed my studies . sorry you are behind !
+User(7): Hmm, I guess I did. Can you tell me more about how your degree relates?
+Bot(7): i love folk metal . keeps me from talking while asleep .
+User(8): My daughter talks in her sleep but she doesn't listen to music to stop it.
+Bot(8): you plan on pursuing her , even though she is married ? dude not cool
+User(9): I am a married woman and I'm not pursuing anyone.
+Bot(9): i am a man . . . what about you ? i am always looking for a romantic relationship .
+User(10): I'm not a man, I'm not looking.
+Bot(10): ciao ! thinking about heading to yoga class today , what about you ?
+User(11): Oh cool, enjoy. Hanging out with my husband. Bye.
+Bot(11): same here . bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Deer season(like)
+Round 2: School(ambivalent)
+Round 7: Folk music(ambivalent)
+Round 8: pursuing a relationship with a married woman(dislike)
+Round 9: seeking a relationship/ dating(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 80.86
+Robotic(↓): 14
+Interesting: 99
+Fun: 80
+Consistent: 13
+Fluent: 100
+Repetitive(↓): 0
+Topic: 88
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey! It's deer season.
+Bot(1): when does deer season start ?
+User(2): It started Monday. We have seen bucks in the fields near our house.
+Bot(2): when does deer season start ?
+User(3): Monday.
+Bot(3): when does deer season start ?
+User(4): Monday.
+Bot(4): when does deer season start ?
+User(5): Monday.
+Bot(5): when does deer season start ?
+User(6): Monday.
+Bot(6): when does deer season start ?
+User(7): Monday.
+Bot(7): when does deer season start ?
+User(8): Monday.
+Bot(8): when does deer season start ?
+User(9): Monday.
+Bot(9): when does deer season start ?
+User(10): Monday.
+Bot(10): when does deer season start ?
+User(11): Monday. I'm going to go now. Bye.
+Bot(11): goodbye friend .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Deer season(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you know when deer season starts?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): It started on Monday.
+Bot(2): oh , i am sorry . i am a nurse .
+User(3): We have deer near here.
+Bot(3): i love to eat fish .
+User(4): We have bucks in the fields nearby.
+Bot(4): i love the beach . i love it .
+User(5): We live in the country so we can hunt deer.
+Bot(5): i like to eat fish .
+User(6): We bought a crossbow.
+Bot(6): i like to go to the gym and listen to music .
+User(7): We put up a deer stand.
+Bot(7): i like to eat fish .
+User(8): We haven't got a deer yet.
+Bot(8): i am a bit of a loner
+User(9): We are hermits.
+Bot(9): i like to go to the gym and listen to music .
+User(10): We just hang out on our property.
+Bot(10): i love to go fishing .
+User(11): Gotta go. Bye.
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+my name is george.
+i am employed by the us postal service.
+i only eat kosher.
+i'm a party animal.
+i play the violin and the guitar.
+
+Topic and Human Opinion:
+Beginning: Deer season(like)
+Round 8: being a loner(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 28.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you know about deer season?
+Bot(1): What's i’ve gotta movie?
+User(2): Deer season isn't a movie.
+Bot(2): I am thinking a a . i am a major in business administration.
+User(3): Have you ever seen a deer?
+Bot(3): Yes, I have red hair camping with my family.
+User(4): Do you camp often?
+Bot(4): have you does this means? ?
+User(5): I don't know.
+Bot(5): I am have a do you really cool .
+User(6): I think I am cool.
+Bot(6): oh nice . internet addiction and spend ? i hear those are kinda ripoffs
+User(7): I don't know about that.
+Bot(7): i am from florida I need free time ?
+User(8): I have been to Florida. Where in Florida do you live?
+Bot(8): I am good. I am how is don’t really rainbow hair?
+User(9): Do you dye your own hair?
+Bot(9): I play sports how old are is you drive?
+User(10): I don't play sports.
+Bot(10): Now, had a we will.
+User(11): Thanks for chatting. Bye.
+Bot(11): I love to do where is he?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Deer season(like)
+Round 2: college major(ambivalent)
+Round 3: camping(like)
+Round 6: Rip offs(ambivalent)
+Round 7: Living in Florida(ambivalent)
+Round 8: rainbow hair(ambivalent)
+Round 9: Sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey. It's deer season.
+Bot(1): i am in the army , i live in a rural area .
+User(2): Do you hunt?
+Bot(2): no , i don't . i live in a rural area .
+User(3): Me too. Are you stationed in the States?
+Bot(3): i am in the army . i live in the country .
+User(4): Thank you for your commitment.
+Bot(4): i am in the army . i live in a rural area .
+User(5): I am not in the army.
+Bot(5): my dad was a home depot . he was a home depot .
+User(6): My dad was an attack helicopter.
+Bot(6): oh wow . i am in the army .
+User(7): My brother is in the army.
+Bot(7): oh wow . i am the army . i am in the army .
+User(8): What do you do in the army?
+Bot(8): i am in the army . i am in the army .
+User(9): Are you deployed?
+Bot(9): i am in the army . i am in the army .
+User(10): That's interesting.
+Bot(10): i am in the army . i am in the army .
+User(11): I hope you stay safe. Thanks for chatting. Bye.
+Bot(11): thanks . what do you do for a living ?
+
+Persona:
+i fantasize about taking over the world.
+i live is a rural farming community.
+we spent summers ring at national parks.
+i'm in the army.
+my father used to work for home depot.
+
+Topic and Human Opinion:
+Beginning: Deer season(like)
+Round 5: his dad(ambivalent)
+Round 6: The army(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): It's deer season.
+Bot(1): when does deer season start ?
+User(2): It started on Monday.
+Bot(2): when does deer season start ?
+User(3): It already started.
+Bot(3): when does deer season start ?
+User(4): Do you hunt?
+Bot(4): sometimes . its a pretty amazing hunt .
+User(5): Do you use a bow?
+Bot(5): no i have never shot a bow
+User(6): Do you use a shotgun?
+Bot(6): no i have never shot a bow
+User(7): What do you use to hunt?
+Bot(7): deer ya bait em and shoot em !
+User(8): What bait do you use?
+Bot(8): i use a bow and arrow , mainly deer and birds
+User(9): Whitetail deer of mule deer?
+Bot(9): when does deer season start ?
+User(10): Monday was the first day.
+Bot(10): when does deer season start ?
+User(11): It started Monday.
+Bot(11): about a month ago it was .
+User(12): I have to go now. Bye.
+Bot(12): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Deer season(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.86
+Robotic(↓): 31
+Interesting: 78
+Fun: 64
+Consistent: 24
+Fluent: 85
+Repetitive(↓): 44
+Topic: 85
+
+####################
+

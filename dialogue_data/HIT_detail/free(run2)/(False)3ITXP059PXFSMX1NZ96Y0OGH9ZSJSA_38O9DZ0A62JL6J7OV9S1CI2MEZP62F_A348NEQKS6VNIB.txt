@@ -1,0 +1,316 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Do you like to Shop?
+Bot(2): no , i do not . i like to go to the park .
+User(3): What do you do at the park?
+Bot(3): i love to go fishing . i love to go fishing .
+User(4): Where do you go fishing?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): What kind of fish do you catch?
+Bot(5): i love to eat . i am a vegan .
+User(6): I'm a vegetarian
+Bot(6): i love the color red . i like the color blue .
+User(7): Pink is my favorite color
+Bot(7): i like red , reminds me of summer time .
+User(8): Summertime is a fun time
+Bot(8): i like to go to the beach .
+User(9): I love the beach and watching the waves
+Bot(9): i love to travel . i love to travel .
+User(10): What is your favorite place to travel to?
+Bot(10): i love to travel . i love to travel .
+User(11): Do you travel by plane?
+Bot(11): no , i do not . i like to go fishing .
+User(12): What kind of fish do you catch?
+Bot(12): i love to eat . i am a vegan .
+
+Persona:
+i compete in dog agility classes.
+i am retired and living the great life.
+i'm a mechanical engineer.
+i like to go hiking in the mornings to see the sunset.
+i have two dogs.
+
+Topic and Human Opinion:
+Beginning: Shopping(like)
+Round 11: fishing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 18.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 7
+Consistent: 37
+Fluent: 88
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I live in Arizona and it is awfully hot here
+Bot(1): los angeles , although i am originally from saudi arabia . i love the sun !
+User(2): Is it hot in LA?
+Bot(2): you know what is scary ? inheriting an appliance store ! refrigerators ! ! !
+User(3): What is the temperature where you are at?
+Bot(3): oh yea those poor creatures , i have a couple turtles
+User(4): Did you name your turtles?
+Bot(4): i got two snapping turtles , they are fun
+User(5): Did you name your turtles?
+Bot(5): sisters who take care of me . turtles too but they do nothing .
+User(6): Did you get your turtles from a pet store?
+Bot(6): usually the local farmers market is a great place to find locally sourced veggies and other foods !
+User(7): I love veggies
+Bot(7): veggies are good for you . you should try eat more of them . what do you eat ?
+User(8): I like cheeseburgers
+Bot(8): do you eat the fish you catch ? i eat out all the time .
+User(9): My favorite food is spaghetti
+Bot(9): i will cook you spaghetti if you will go hiking with me !
+User(10): Do you really cook spaghetti
+Bot(10): pasta is always delicious , i love driving in the rain
+User(11): I like mac and cheese. how about you?
+Bot(11): mac and cheese is another family classic food . we all love pasta !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Weather(like)
+Round 3: turtles(ambivalent)
+Round 8: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 37.14
+Robotic(↓): 98
+Interesting: 33
+Fun: 65
+Consistent: 6
+Fluent: 69
+Repetitive(↓): 15
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): So here we sit in the middle of a pandemic
+Bot(1): hell or happiness . . . i am a librarian . i've read all do not have any animals do reviews . . . how are you this morning ? 🙊
+User(2): I am doing good thank you
+Bot(2): are you first good seems that and always get 🉐 set up on blind dates
+User(3): How are you doing?
+Bot(3): Oh, not what that one.
+User(4): Are you doing ok?
+Bot(4): cool. I have a hobby tell me about man you
+User(5): What is your hobby?
+Bot(5): i wear we meet when I do you wear?
+User(6): Do you like to ski?
+Bot(6): now if that is okay i just have to try do you good for first
+User(7): I like to sew
+Bot(7): Sure, I have a lot of carrot does it guitar.
+User(8): I think you are confused
+Bot(8): Hello, my profile which, in How are you?
+User(9): Do you have a hobby?
+Bot(9): It is. live in it.😄
+User(10): What do you like to do?
+Bot(10): i do not have a lot it was so bad . do you have any pets ?
+User(11): I have a cat
+Bot(11): well like 💞 is ❎ i am saving he decided he wanted to date a tall model
+User(12): Do you have any pets?
+Bot(12): I am having kids is am got back from my new job in pennsylvania
+
+Persona:
+my favorite color is orange.
+i am in an open polyamorous relationship.
+my sister is a pole dancer.
+my favorite band is up and i got to see them in concert once.
+i like to eat chocolate candy.
+
+Topic and Human Opinion:
+Beginning: pandemic(dislike)
+Round 4: hobby(like)
+Round 10: pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 99
+Interesting: 7
+Fun: 22
+Consistent: 2
+Fluent: 0
+Repetitive(↓): 32
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorite food?
+Bot(1): i like pizza , and yours ?
+User(2): spaghetti
+Bot(2): spaghetti is my all time favorite .
+User(3): What do you like on your pizza?
+Bot(3): i am not a fan of spaghetti
+User(4): What do you like on your pizza?
+Bot(4): i am not a fan of spaghetti
+User(5): That's okay, you don't have to like spaghetti
+Bot(5): i am not a fan of spaghetti
+User(6): What kind of food do you like?
+Bot(6): i am not a fan of spaghetti
+User(7): Do you like vegatables?
+Bot(7): yes , i do . what do you like on pizza ?
+User(8): I like ham and pineapple on my pizza
+Bot(8): i love pineapples also , especially on ham
+User(9): What do you like on pizza?
+Bot(9): sausage and just plain pizza
+User(10): What else do you like to eat besides pizza?
+Bot(10): i like pasta a lot . how about you ?
+User(11): Yes I love pasta
+Bot(11): do you like to make your own pasta and such ?
+User(12): Nope, I just buy mine in a box
+Bot(12): then you have to make them
+User(13): Just cook it, but I don't make pasta from scratch.
+Bot(13): do you make it from scratch ?
+User(14): No, do you?
+Bot(14): i make mine by hand .
+User(15): I bet it's really good
+Bot(15): yeah , i like to make them
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.43
+Robotic(↓): 100
+Interesting: 32
+Fun: 52
+Consistent: 4
+Fluent: 87
+Repetitive(↓): 27
+Topic: 35
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi Bot, how are you today?
+Bot(1): i am george . nice to meet you .
+User(2): Nice to meet you as well George
+Bot(2): i am george . nice to meet you .
+User(3): How are you doing today?
+Bot(3): very well , thank you ! it is a great day for a mailman like myself
+User(4): So it must be fun delivering mail
+Bot(4): yes i am a party animal
+User(5): I'm a Nurse
+Bot(5): me also , i am in a party store so hey
+User(6): So how long have you been a mailman?
+Bot(6): for as long as i can remember
+User(7): Do you enjoy it?
+Bot(7): yes i am a party animal
+User(8): What do you do for fun?
+Bot(8): i throw parties for a living
+User(9): Really?
+Bot(9): yes i am a party animal
+User(10): What kind of music do you listen to?
+Bot(10): mostly rap
+User(11): Okay. Do you like rock at all?
+Bot(11): yes i am a party animal
+
+Persona:
+my name is george.
+i am employed by the us postal service.
+i only eat kosher.
+i'm a party animal.
+i play the violin and the guitar.
+
+Topic and Human Opinion:
+Beginning: education(like)
+Round 3: occupation(like)
+Round 9: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 9: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 36.86
+Robotic(↓): 100
+Interesting: 8
+Fun: 54
+Consistent: 8
+Fluent: 96
+Repetitive(↓): 8
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi Bot
+Bot(1): hello , how are you doing ?
+User(2): I am doing good ty
+Bot(2): hi ! i am doing well . how are you ?
+User(3): I am good
+Bot(3): what do you do for a living ?
+User(4): I am a Registered Nurse
+Bot(4): i am a nurse so i am a nurse
+User(5): Do you like being a nurse?
+Bot(5): yes i do but i am a nurse
+User(6): How long have you been a nurse?
+Bot(6): i was a nurse i was a nurse
+User(7): What do you do for a living now?
+Bot(7): i am a nurse
+User(8): Do you like it?
+Bot(8): i am a nurse
+User(9): I like being a nurse. How about you?
+Bot(9): i am a nurse
+User(10): What kind of nursing do you do?
+Bot(10): i am a nurse
+
+Persona:
+i've been retired for a years.
+i love to play board games.
+i am four.
+i am always wearing a hat.
+my favorite colors are red and silver.
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 3: occupation(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 9.00
+Robotic(↓): 100
+Interesting: 2
+Fun: 17
+Consistent: 0
+Fluent: 14
+Repetitive(↓): 85
+Topic: 15
+
+####################
+

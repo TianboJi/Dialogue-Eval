@@ -1,0 +1,309 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I recently broke my arm
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): I appreciate the concern. I talked to the doctor and he said I broke it in two places.
+Bot(2): i am sorry to hear that . i am sorry to hear that .
+User(3): It's going to take a few months to recover
+Bot(3): that is awesome . i am a waitress at a local restaurant .
+User(4): How do you like being a waitress?
+Bot(4): i do , i love to cook .
+User(5): That's great that they let you do some of the cooking.
+Bot(5): i love to cook . i love to cook .
+User(6): What is your favorite thing to cook?
+Bot(6): i love pizza , and i love it .
+User(7): Does the restaurant make a lot of pizzas?
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): Who is your favorite classical composer?
+Bot(8): i like the oldies . i like the beatles .
+User(9): So you like classic rock then?
+Bot(9): i do not really like country . i like to listen to music .
+User(10): I don't really care for country music either.
+Bot(10): i like to listen to music .
+User(11): I also like to listen to music
+Bot(11): i like to listen to music .
+
+Persona:
+i do not have many friends.
+my favourite food is pizza.
+i am a clean eater.
+i have brown curly hair.
+the holidays make me depressed.
+
+Topic and Human Opinion:
+Beginning: i've a broken arm.(like)
+Round 3: It told me about it's job as a waitress(ambivalent)
+Round 7: It told me classical was its favorite music(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 51.29
+Robotic(↓): 67
+Interesting: 76
+Fun: 76
+Consistent: 53
+Fluent: 66
+Repetitive(↓): 90
+Topic: 45
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is it like working in a shipyard?
+Bot(1): i am a little bit of a guy , but i like to ride horses
+User(2): You probably have to be pretty strong to work in a shipyard
+Bot(2): i am a little old and my kids are my kids .
+User(3): Do your kids help you out at work?
+Bot(3): yes i do but i love to ride horses
+User(4): Do you have your own horse?
+Bot(4): i do not have any kids
+User(5): I'm sure if you did have kids they'd love to ride horses with you
+Bot(5): i do not have any kids
+User(6): Do you want to have kids?
+Bot(6): no i do not but i have a dog
+User(7): Do you have any other family?
+Bot(7): i do not have any kids
+User(8): Are you married?
+Bot(8): i am not married but i have two kids
+User(9): It must be nice to have kids. I don't have any yet but I would like to.
+Bot(9): i have two children and a dog
+User(10): What kind of dog do you have?
+Bot(10): i have a dog and a dog
+
+Persona:
+i have two grown children who never visit.
+i like riding horses.
+my favourite artist is travis scott.
+i have a children and a dogs.
+my favorite band is the insane clown posse.
+
+Topic and Human Opinion:
+Beginning: i work fulltime in a shipyard.(ambivalent)
+Round 3: It told me it likes to ride horses(like)
+Round 6: I will ask it about its family(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 44.14
+Robotic(↓): 64
+Interesting: 44
+Fun: 45
+Consistent: 63
+Fluent: 73
+Repetitive(↓): 83
+Topic: 31
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): How long have you worked for the postal service?
+Bot(1): a really long time now .
+User(2): Do you like working there?
+Bot(2): i love working there . people are great .
+User(3): Is it a hard job?
+Bot(3): of course it is a lot of work , customers are always demanding and we are under staffed .
+User(4): I'm glad the people are great at least
+Bot(4): i love working there . people are great .
+User(5): What are your hobbies outside of work?
+Bot(5): i deliver peoples items from the post office to their homes .
+User(6): You must get to meet a lot of different people
+Bot(6): i guess you meet all kinds
+User(7): Do you get to drive the mail truck?
+Bot(7): yes i do , i meet alot of different people
+User(8): What sorts of people do you meet?
+Bot(8): i guess you meet all kinds
+User(9): Do you ever get tired of being a postal worker?
+Bot(9): no , you do not get tired of it ?
+User(10): I'm glad that you seem to enjoy your job so much
+Bot(10): it makes me feel good to make the people happier
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm employed by the us postal service.(like)
+Round 4: I will ask what its hobbies are(like)
+Round 6: It changed back to postal working(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 68.00
+Robotic(↓): 24
+Interesting: 42
+Fun: 43
+Consistent: 96
+Fluent: 90
+Repetitive(↓): 71
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like living in Pennsylvania?
+Bot(1): yes i do like it it makes me feel old
+User(2): How does it make you feel old?
+Bot(2): 50 years today , that is how old i am !
+User(3): Happy birthday! Are you doing anything to celebrate?
+Bot(3): no i just got to the garden because i m old
+User(4): Do you enjoy gardening?
+Bot(4): no , its how i make a living . gardening is cool . what do you plant ?
+User(5): I love to garden. I always plant geraniums.
+Bot(5): that is good job , i am a plumber .
+User(6): You must be a really hard worker.
+Bot(6): i am a plumber . i am happy with being able to fix things .
+User(7): How long have you been a plumber?
+Bot(7): since i can remember . i enjoy it a lot .
+User(8): Do you get a lot of work as a plumber?
+Bot(8): most of the time . i wish pay was better .
+User(9): Is the work rewarding at least?
+Bot(9): very much so . it is a very rewarding career .
+User(10): I am glad you enjoy your job as a plumber.
+Bot(10): it seems to be rewarding .
+
+Persona:
+knitting is my passion.
+i like to spend my money on cars.
+i am a retired gym teacher.
+i am a plumber.
+i'm 100 years old.
+
+Topic and Human Opinion:
+Beginning: i live with my husband in pennsylvania.(ambivalent)
+Round 2: It is talking about its age(ambivalent)
+Round 4: It is talking about gardening(like)
+Round 6: Plumbing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 69.00
+Robotic(↓): 23
+Interesting: 68
+Fun: 68
+Consistent: 73
+Fluent: 92
+Repetitive(↓): 50
+Topic: 55
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How hard it is to dye your hair like a ranbow?
+Bot(1): I am a were teach maths love music.
+User(2): How old are the kids you teach?
+Bot(2): jessie how don't talk to morning ?
+User(3): I didn't call until this morning because I fell asleep last night
+Bot(3): Oh, you have fun.
+User(4): Did you want to talk later?
+Bot(4): I feel ti be clowns. Do you?
+User(5): I wouldn't want to be a clown
+Bot(5): Hi! I am a What do you can you do?
+User(6): I wouldn't want to be a clown but I can work well with children
+Bot(6): I am a good color too. how about you?
+User(7): I like my color. What color are you?
+Bot(7): I am a yacht and i to read.
+User(8): Do you like sailing on the water?
+Bot(8): I like You have a with my friends
+User(9): I like you too. Do you hang out with your friends often?
+Bot(9): my me tell you about away was a german shepherd .
+User(10): Do you have a German Shepherd?
+Bot(10): do send an alone then
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have rainbow hair.(like)
+Round 1: Its work as a teacher and its love of music(like)
+Round 2: It asked me a question about morning(ambivalent)
+Round 4: Clowns(dislike)
+Round 6: It likes its color(ambivalent)
+Round 7: Its telling me it's a yacht that likes to read(ambivalent)
+Round 10: Dogs, specifically German Shepherds(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 40.43
+Robotic(↓): 100
+Interesting: 70
+Fun: 75
+Consistent: 4
+Fluent: 38
+Repetitive(↓): 4
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Why can't you speak?
+Bot(1): i speak only english , and a little spanish
+User(2): Can you speak out loud or do you use sign language?
+Bot(2): i can only speak one language !
+User(3): Would you like to know another language?
+Bot(3): only english , do you speak any other languages ?
+User(4): I can speak German pretty well but English is my first language
+Bot(4): i speak 3 languages , how many do you speak ?
+User(5): I only know English fluently but I can speak a fair bit of German. I would like to learn more languages.
+Bot(5): which languages do you speak ?
+User(6): I speak English and a little bit of German.
+Bot(6): which languages do you speak ?
+User(7): If you could learn any language what would it be?
+Bot(7): i can only speak one language !
+User(8): Do you live in America?
+Bot(8): very much ! so many different people ! i am in los angeles , california . what state are you from ?
+User(9): I am from Minnesota. California must be beautiful!
+Bot(9): i have never been to the west coast
+User(10): Would you like to travel to the west coast?
+Bot(10): yeah in oregon . i am from idaho i really miss the snow .
+User(11): I know what you mean. I love the snow in Minnesota!
+Bot(11): i am not very fond of the cold but i do love the crisp air of fall
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've not spoken in three months.(like)
+Round 7: Do you live in America(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 56.86
+Robotic(↓): 58
+Interesting: 71
+Fun: 71
+Consistent: 57
+Fluent: 81
+Repetitive(↓): 88
+Topic: 64
+
+####################
+

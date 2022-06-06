@@ -1,0 +1,287 @@
+Feedback: Difficult to understand this survey 
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hi how are you today
+User(2): I'm fine you beautiful
+Bot(2): i am very happy . i am in the usa .
+User(3): Great which makeup brand you use mostly ?
+Bot(3): i do not but i am a student
+User(4): Oh! Glad to listen
+Bot(4): i am not much of a reader but i am fluent in english and french
+User(5): What
+Bot(5): i love to listen to my favorite band , what is your favorite band ?
+User(6): It's good but do you have gf
+Bot(6): i am a girl and i love to be in the 80s
+User(7): Oh
+Bot(7): i am a girl and i love to be in the way
+User(8): No one use make up in your sorroundings
+Bot(8): i am a student and i love to play with my son
+User(9): What play?
+Bot(9): i play the guitar i love it
+User(10): Nice
+Bot(10): i am not sure what that is
+
+Persona:
+i'm also a graduate student.
+my favorite band is rascal flats.
+i'm fluent in english spanish and french.
+when i grow up i want to be a physical therapist.
+my favorite toy as a child as my lite brite.
+
+Topic and Human Opinion:
+Beginning: Beauty(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.14
+Robotic(↓): 74
+Interesting: 61
+Fun: 47
+Consistent: 83
+Fluent: 50
+Repetitive(↓): 39
+Topic: 23
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey
+Bot(1): hey
+User(2): What r you doing?
+Bot(2): just chilling , looking online for a job
+User(3): Do you do exercise?
+Bot(3): yes , am a doctor , looking for cures
+User(4): Means definitely you do running
+Bot(4): the only walking i will be doing is to get to work at the restaurant later
+User(5): Not on treadmill!
+Bot(5): sorry , what about a nice restaurant
+User(6): It's okay you r very lazy dr
+Bot(6): i am looking for a 2nd job , maybe in an italian restaurant
+User(7): Only eating is not good
+Bot(7): sorry , what about a nice restaurant
+User(8): Come over me at my resturant
+Bot(8): ok , except i am already married
+User(9): Me too
+Bot(9): come eat at my restaurant then
+User(10): Will go for running!
+Bot(10): ok
+
+Persona:
+i'll be released in about a month.
+i am currently looking for a job preferably at a restaurant.
+i'm married.
+i am a doctor.
+i am a feminist.
+
+Topic and Human Opinion:
+Beginning: Running(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.57
+Robotic(↓): 81
+Interesting: 71
+Fun: 44
+Consistent: 74
+Fluent: 69
+Repetitive(↓): 32
+Topic: 30
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Again
+Bot(2): i love to cook . i love to cook .
+User(3): I want to Cook politicians
+Bot(3): i do not know what to say .
+User(4): Leave it
+Bot(4): i like to go to the gym and listen to music .
+User(5): Do you have interest in politics
+Bot(5): i do not know what to say .
+User(6): Y
+Bot(6): i love to cook . i love to cook .
+User(7): Cook food
+Bot(7): i love to cook . i love to cook .
+User(8): Hmmm
+Bot(8): i love to cook . i love to cook .
+User(9): What you cook
+Bot(9): i do not , but i do like to eat .
+User(10): What
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i'm a convenience store manager.
+i love wearing skinny jeans and leggings.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+i like riding horses.
+i have a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: Politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.43
+Robotic(↓): 32
+Interesting: 35
+Fun: 9
+Consistent: 11
+Fluent: 41
+Repetitive(↓): 79
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Salam
+Bot(1): chip chip better, and some chip
+User(2): Why
+Bot(2): I don’t play any games, am not sure. I am not sure what that means.
+User(3): Wait
+Bot(3): I love hot your age is like music?
+User(4): No I'm 40 years old
+Bot(4): I play for to.
+User(5): What
+Bot(5): one Do you one
+User(6): What your opinion on pollution
+Bot(6): its ok yohr tried where is friend for now
+User(7): Tired of what?
+Bot(7): oh no , they all have no save neither, and i'm a night person
+User(8): We have to work for pollution
+Bot(8): i am a fan of snakes , but i have seen them in the am a mechanical engineer pretty cool .
+User(9): Pollution is make our environment bad
+Bot(9): I like to read and listen still chat with like three sisters?
+User(10): Our kids also affecting
+Bot(10): of christopher going to a :)
+
+Persona:
+i spent a decade working in the human services field.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my favorite season is winter.
+i am studying to be a computer programmer.
+one of the languages that i am currently studying is spanish.
+
+Topic and Human Opinion:
+Beginning: Pollution(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.00
+Robotic(↓): 17
+Interesting: 3
+Fun: 18
+Consistent: 38
+Fluent: 18
+Repetitive(↓): 76
+Topic: 19
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): So many
+Bot(2): 3 a yellow lab , a german shepherd , and a mix beagle
+User(3): Do you have any opinion on sexual abuse?
+Bot(3): yes , some art looks like my dog did it people pay money for it ! ; p
+User(4): Do you know it's big issue of our country
+Bot(4): yes . i actually teach film studies courses at nashville university . you ?
+User(5): You have to work on this topic awareness
+Bot(5): its a chemistry exam i am a biology major at boston college
+User(6): You aren't sensible
+Bot(6): yea i drink that before i take my dog for a walk
+User(7): Keep it up
+Bot(7): if you would like to check it out . www . cafepress . com lelesfashionshop1
+User(8): Our females are facing this even in 21 centrury
+Bot(8): i have a puppy dog that i really like
+User(9): Ate you male or female?
+Bot(9): i am a female . what about you ?
+User(10): But not sensible
+Bot(10): yea i drink that before i take my dog for a walk
+
+Persona:
+i recently got an apartment with my best friend.
+i like doing the treadmill and rowing machine.
+i've a german shepherd dog.
+i've been traveling the world for a years.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: Sexual abuse(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.29
+Robotic(↓): 17
+Interesting: 16
+Fun: 37
+Consistent: 28
+Fluent: 50
+Repetitive(↓): 74
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you love any ine
+Bot(2): sure have you ever been in love ?
+User(3): Great
+Bot(3): sure have you ever been in love ?
+User(4): Who was that
+Bot(4): jessie
+User(5): Your gf
+Bot(5): she is my best friend
+User(6): Still your love
+Bot(6): she is my best friend
+User(7): Will you marry her?
+Bot(7): i do not know i miss her so
+User(8): Where is she?
+Bot(8): um she is home why
+User(9): She left you ?
+Bot(9): she left me i cannot believe it
+User(10): Ok
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.43
+Robotic(↓): 63
+Interesting: 74
+Fun: 73
+Consistent: 68
+Fluent: 79
+Repetitive(↓): 21
+Topic: 69
+
+####################
+

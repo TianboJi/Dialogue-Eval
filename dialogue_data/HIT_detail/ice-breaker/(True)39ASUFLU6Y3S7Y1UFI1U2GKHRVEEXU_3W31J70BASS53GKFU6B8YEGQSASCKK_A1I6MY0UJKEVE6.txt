@@ -1,0 +1,331 @@
+Feedback: The chatbot switched topics alot. It also answered questions wrong.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is your favorite color?
+Bot(1): my favorite color is blue yours ?
+User(2): My favorite color is red. Why is blue your favorite color?
+Bot(2): cool my favorite color is red
+User(3): Why is your favorite color red？
+Bot(3): my favorite color is blue yours ?
+User(4): My favorite color is red.
+Bot(4): omg that is my favorite color ! ! my iphone is even red ! do you have an iphone ?
+User(5): Yes I have an iphone. Do you have an iphone?
+Bot(5): have you ever owned an android before ?
+User(6): Yes, have you?
+Bot(6): yes , i love talking about politics and being involved .
+User(7): Are you voting in the next election?
+Bot(7): pikes peak . i am curently exploring famous mountains when i have time .
+User(8): Do you like to hike?
+Bot(8): a hike to the creek ? to drink beer ? and hold me ?
+User(9): A hike in the mountains?
+Bot(9): fresh air up there . do you hike alone ?
+User(10): No, I hike with friends or family. Do you hike alone?
+Bot(10): whats your favourite hiking spot ?
+User(11): My favorite hiking spot is a mountain in Hawaii. What is your favorite hiking spot?
+Bot(11): do you enjoy hiking ?
+User(12): Yes, I enjoy hiking.
+Bot(12): cool , that sound good never been hiking
+User(13): What do you like to do?
+Bot(13): i like to do my hair and makeup and try on current fashions .
+User(14): Me too! Do you like shoes?
+Bot(14): is there a reason you only have one pair of shoes ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite color is red.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.43
+Robotic(↓): 71
+Interesting: 61
+Fun: 81
+Consistent: 32
+Fluent: 26
+Repetitive(↓): 56
+Topic: 17
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): My favorite band is rascal flats.
+Bot(1): that is my favorite band as well , i love their song demon .
+User(2): I like their song Back to Life.
+Bot(2): that is my favorite band as well , i love their song demon .
+User(3): Have you been to a concert of theirs.
+Bot(3): a few , but i have not gone to see them
+User(4): Do you play an instrument?
+Bot(4): yes , i play an instrument . what is your favorite band ?
+User(5): My favorite band is One Direction.
+Bot(5): i love the band one direction .
+User(6): What is your favorite One Direction song?
+Bot(6): i love the band one direction .
+User(7): Who is your favorite member of One Direction?
+Bot(7): i love the band one direction .
+User(8): How long have you been sober?
+Bot(8): since i can remember . i enjoy it a lot .
+User(9): Is it hard to be sober?
+Bot(9): not at all .
+User(10): Do you go to therapy for your alcoholism?
+Bot(10): no , i feel badly about it a lot .
+User(11): Does your family know you are an alcoholic?
+Bot(11): no , i feel badly about it a lot .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite band is rascal flats.(like)
+Round 3: Do you play an instrument(like)
+Round 4: What is your favorite band(like)
+Round 5: What is your favorite One Direction song?(like)
+Round 6: Who is your favorite member of One Direction?(like)
+Round 7: i'm a recovering alcoholic.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 7: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 41.43
+Robotic(↓): 85
+Interesting: 66
+Fun: 66
+Consistent: 40
+Fluent: 33
+Repetitive(↓): 74
+Topic: 44
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Are you scared of scorpions?
+Bot(1): i do not have in high school, of you doing ?
+User(2): I graduated Highschool last year.
+Bot(2): I hate them. intresting job, i time.
+User(3): I like my job.
+Bot(3): I do not know what that you?
+User(4): Do you have a job?
+Bot(4): I like online am glad that you ton of contacts.
+User(5): Do you wear contacts
+Bot(5): I love only have time love to read.
+User(6): What is your favorite book?
+Bot(6): its cool 😎 um pizza is my ultimate have plans on the like it anytime of the day
+User(7): I like having Pizza too.
+Bot(7): I live old man from 'the love to visit my poetry.
+User(8): Do you have a favorite Poet?
+Bot(8): i run myself really great. I a lot
+User(9): I do not run often. Do you run outside?
+Bot(9): You have am. my boyfriend things you love.
+User(10): How long have you been with your boyfriend?
+Bot(10): I show me your you n't understand your question.
+User(11): Do you have a boyfriend?
+Bot(11): I am not a fan you today you did you very lonely?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am terrified of scorpions.(like)
+Round 1: Highschool(ambivalent)
+Round 2: Job(ambivalent)
+Round 5: Reading(ambivalent)
+Round 6: Pizza(like)
+Round 7: Poetry(ambivalent)
+Round 8: Running(ambivalent)
+Round 9: Boyfriend(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.43
+Robotic(↓): 100
+Interesting: 32
+Fun: 31
+Consistent: 22
+Fluent: 15
+Repetitive(↓): 85
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have never been to disney world.
+Bot(1): i just got back from disney last week !
+User(2): Did you have fun at disney?
+Bot(2): we went to disney . next summer maybe not .
+User(3): What did you do at disney?
+Bot(3): we went to disney . next summer maybe not .
+User(4): How many times have you been to disney?
+Bot(4): each year i go to disney world
+User(5): Thats alot. What is your favorite ride at disney?
+Bot(5): all of them , disney is amazing lol
+User(6): Did you see mickey mouse at disney?
+Bot(6): no , but i love going to disney world every year . where do you work ?
+User(7): I work at a retirement home. Where do your work?
+Bot(7): i work with the public still . i can not wait to retire .
+User(8): What is the public still?
+Bot(8): i work with the public still . i can not wait to retire .
+User(9): What will you do when you retire?
+Bot(9): i work with the public still . i can not wait to retire .
+User(10): When will you retire?
+Bot(10): i will be traveling to disney world like we do every year .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love to go to disney world every year.(like)
+Round 6: Where do you work?(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 47.57
+Robotic(↓): 66
+Interesting: 64
+Fun: 46
+Consistent: 55
+Fluent: 37
+Repetitive(↓): 81
+Topic: 78
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): How is your robot?
+Bot(1): i am a little bit of a dog person
+User(2): I have a dog. Do you have a dog?
+Bot(2): i do not . i am a big fan of dogs .
+User(3): What is your favorite kind of dog?
+Bot(3): i love dogs . i love them .
+User(4): Do you like poodles?
+Bot(4): i love dogs . i love them .
+User(5): Would you adopt a dog?
+Bot(5): i do not . i love dogs .
+User(6): Do you like birds?
+Bot(6): i do not . i love dogs .
+User(7): Why do you like dogs?
+Bot(7): i do not . i love dogs .
+User(8): I have a dog.
+Bot(8): i love dogs . i have a dog .
+User(9): What is your dogs name?
+Bot(9): my dog is named majora .
+User(10): That is a pretty name.
+Bot(10): i love dogs . i have a dog named radar .
+
+Persona:
+i love dogs.
+i'm working on a building a robot to be my body double.
+one of the languages that i'm currently studying is spanish.
+my father is a farmer.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: i am working on a building a robot to be my body double.(dislike)
+Round 1: Dogs(like)
+Round 5: Birds(like)
+Round 6: Dogs(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 32.14
+Robotic(↓): 88
+Interesting: 65
+Fun: 66
+Consistent: 38
+Fluent: 23
+Repetitive(↓): 97
+Topic: 18
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): How much money does your wife spend?
+Bot(1): i like to go to the gym and listen to music .
+User(2): Me too. When I go to the gym I lift weights and listen to music. What do you do at the gym?
+Bot(2): i like to go fishing . i love to go fishing .
+User(3): I have never been fishing
+Bot(3): i do not know how to swim .
+User(4): I love swimming
+Bot(4): i like to go fishing .
+User(5): Where do you go fishing?
+Bot(5): no , i do not , but i do like to go fishing .
+User(6): Do you fish alone?
+Bot(6): no , i do not . i like to eat .
+User(7): What do you like to eat?
+Bot(7): i love to cook . i love to cook .
+User(8): What do you like to cook?
+Bot(8): i do , i love to cook .
+User(9): Can you cook eggs?
+Bot(9): no , i like to eat .
+User(10): Do you like to eat eggs?
+Bot(10): i do not , but i do like to eat .
+User(11): Do you like to eat cake?
+Bot(11): i do not really like it . i like to eat .
+
+Persona:
+i'm a boy.
+i like to talk but people have a hard time understanding.
+i'm a 56 year old woman.
+i quit my job to pursue my spirituality full time.
+since the surgery i've had strange powers.
+
+Topic and Human Opinion:
+Beginning: my wife spends all my money.(dislike)
+Round 1: Gym and music(like)
+Round 2: Fishing(like)
+Round 3: Swimming(like)
+Round 4: Fishing(like)
+Round 6: Eating(like)
+Round 7: Cooking(like)
+Round 9: Eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 40.43
+Robotic(↓): 89
+Interesting: 63
+Fun: 65
+Consistent: 80
+Fluent: 15
+Repetitive(↓): 88
+Topic: 37
+
+####################
+

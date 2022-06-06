@@ -1,0 +1,275 @@
+Feedback: the bot was good at first 3 times but slow then goes off topic way far
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): i just got back from disney last week !
+User(2): ok great
+Bot(2): ok
+User(3): how was it ?
+Bot(3): eh it was ok
+User(4): how much ?
+Bot(4): one million !
+User(5): no way
+Bot(5): ok
+User(6): who did you go with
+Bot(6): each year i go to disney world
+User(7): is it for ur birthday
+Bot(7): each year i go to disney world
+User(8): why
+Bot(8): each year i go to disney world
+User(9): no stop
+Bot(9): ok
+User(10): nice to chat w u
+Bot(10): ok
+
+Persona:
+i am a little girl.
+i love to go to disney world every year.
+i'm a country music singer.
+my favorite movie is friday.
+i've a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: hi(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.00
+Robotic(↓): 100
+Interesting: 23
+Fun: 34
+Consistent: 0
+Fluent: 48
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi buddy
+Bot(1): i am good thanks for asking
+User(2): whats your fav soccer team
+Bot(2): i like soccer but i am not sure what that is
+User(3): messi or ronaldo ?
+Bot(3): i like soccer and soccer
+User(4): ok boomer
+Bot(4): cool i like soccer
+User(5): thanks
+Bot(5): i am not sure what that means
+User(6): do u know english
+Bot(6): i know what you mean . i am not sure what that means
+User(7): trash
+Bot(7): yeah i know i am not sure what you mean
+User(8): stop
+Bot(8): yeah i know i am not sure what you mean
+User(9): no
+Bot(9): i know what you mean . i am not sure what that means
+User(10): lol
+Bot(10): haha i know i am not sure what that means
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: soccer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.14
+Robotic(↓): 100
+Interesting: 11
+Fun: 11
+Consistent: 0
+Fluent: 35
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi my name is jhon
+Bot(1): I like to watch old sitcoms. kinds of books do old movies.
+User(2): im i sexy
+Bot(2): i think i'll go to same have to go a respiratory therapist !
+User(3): lets talk
+Bot(3): It I`m fine! What is: high school
+User(4): a higher education school
+Bot(4): i am going to I love the eater
+User(5): what eater
+Bot(5): I am How are is You?
+User(6): sexy
+Bot(6): I am to spend .
+User(7): ok
+Bot(7): well don't let me near it or i might steal it ! j a competitive games - the ? 😘
+User(8): no
+Bot(8): I do not you love like mean.
+User(9): moo
+Bot(9): no must know. You said any animals ? 🤓
+User(10): boo
+Bot(10): I was really nervous. of nurse did you How about you?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sex(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 2
+Consistent: 0
+Fluent: 3
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): alsalamlikum
+Bot(1): ddjfrjjednfnjesd jjksodj . jwedcuchhffh jsuxcjc ddejfc ujxjc u xci
+User(2): im muslim
+Bot(2): i am catholic
+User(3): im muslim man
+Bot(3): kool
+User(4): cool
+Bot(4): kool
+User(5): koool
+Bot(5): kool
+User(6): become a muslim
+Bot(6): kool
+User(7): become cool
+Bot(7): kool
+User(8): islam is great
+Bot(8): kool
+User(9): stop it
+Bot(9): kool
+User(10): stop
+Bot(10): ll
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: islam(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 1.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 2
+Consistent: 0
+Fluent: 9
+Repetitive(↓): 100
+Topic: 2
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): im not gay
+Bot(1): you should tell them , i am sure they will be understanding . my would be .
+User(2): gay
+Bot(2): good for you ! i go to bed late because is fight for the rights too
+User(3): gay
+Bot(3): you should tell them , i am sure they will be understanding . my would be .
+User(4): hi
+Bot(4): hey there . so , have any hobbies ? i enjoy playing video games .
+User(5): hi
+Bot(5): hello , how are you ?
+User(6): hi
+Bot(6): hello , how are you ?
+User(7): hoe
+Bot(7): thanks buddy . me ? i am stuck at a job i cant leave
+User(8): no
+Bot(8): what is your favorite color ?
+User(9): bo
+Bot(9): i have a dog , can i bring him to the bar too ?
+User(10): come islam
+Bot(10): salt lake city where my girlfriend lives and i am based as a pilot .
+
+Persona:
+i enjoy exploring new parts of the city.
+i am a doctor.
+i have a german shepherd dog.
+i am a vegetarian.
+my favorite color is yellow.
+
+Topic and Human Opinion:
+Beginning: gay(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.71
+Robotic(↓): 82
+Interesting: 63
+Fun: 16
+Consistent: 26
+Fluent: 26
+Repetitive(↓): 77
+Topic: 15
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): hi
+Bot(2): i am doing well . how are you ?
+User(3): food
+Bot(3): i love to cook . i love to cook .
+User(4): food
+Bot(4): i love to cook . i love to cook .
+User(5): food
+Bot(5): i love to cook . i love to cook .
+User(6): hoi
+Bot(6): i love to cook . i love to cook .
+User(7): dd
+Bot(7): i like to go to the gym and listen to music .
+User(8): d
+Bot(8): i love to cook . i love to cook .
+User(9): d
+Bot(9): i love to cook . i love to cook .
+User(10): h
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.57
+Robotic(↓): 50
+Interesting: 78
+Fun: 14
+Consistent: 9
+Fluent: 20
+Repetitive(↓): 87
+Topic: 9
+
+####################
+

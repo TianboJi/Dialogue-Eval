@@ -1,0 +1,295 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi there
+Bot(1): hi there ! i am an army wife . what do you do for a living ?
+User(2): i am a software enginneer i love science
+Bot(2): really ? i play also what kind of science ?
+User(3): space science like astronomy
+Bot(3): i love music and i am in the military
+User(4): do you know about black hole?
+Bot(4): nothing but onder about space
+User(5): i dont understand
+Bot(5): still do not understand ta
+User(6): ok what do you do in the army
+Bot(6): i am a general in my country
+User(7): wow thats great
+Bot(7): yeah i got discharged after i got back from the war
+User(8): why do you got discharged
+Bot(8): the wife had breast cancer
+User(9): i am sorry about that
+Bot(9): that is ok it was very hard to take
+User(10): thats sad to hear
+Bot(10): i am taking piano lessons now it is hard
+User(11): it will become easy in time
+Bot(11): yeah its still hard though
+
+Persona:
+my wife left me and took my children.
+i am a piano teacher on the side.
+i play a lot of call of duty.
+i am in the army.
+i enjoy american sports.
+
+Topic and Human Opinion:
+Beginning: BLACK hole(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.43
+Robotic(↓): 65
+Interesting: 54
+Fun: 66
+Consistent: 59
+Fluent: 68
+Repetitive(↓): 30
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello there
+Bot(1): hi , how are you today ?
+User(2): i am well i am watching tv news
+Bot(2): oh , i love to read , and i love to read .
+User(3): ok do you watch joe biden speech
+Bot(3): i do not know what to say .
+User(4): what do you think of trump allegations
+Bot(4): i like to eat fish .
+User(5): you are not interested about politics
+Bot(5): i am a female . i am a student .
+User(6): hmm...what degree are you studying
+Bot(6): i am a student , i am a teacher .
+User(7): you are blabbering
+Bot(7): i am a student , but i am a student .
+User(8): you are a student
+Bot(8): i am a student , but i am a student .
+User(9): ok student
+Bot(9): i am a student , but i am a student .
+User(10): you are not answering properly
+Bot(10): i am a girl . i am a big fan of classical music .
+User(11): what do you think of pop music
+Bot(11): i like the oldies . i like to play soccer .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.14
+Robotic(↓): 19
+Interesting: 12
+Fun: 5
+Consistent: 3
+Fluent: 50
+Repetitive(↓): 83
+Topic: 1
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi there
+Bot(1): Hi, I in a I worker.
+User(2): do you watch wwe my favorite wrestler is triple h
+Bot(2): She It read books. She is a singer.
+User(3): who is she
+Bot(3): folk songs favourite this is nice but black belt in karate . what do you like to draw ? 🙉
+User(4): i dont like to draw
+Bot(4): No i did not. a prefer will go ?
+User(5): what you make no sense
+Bot(5): I am a mom who likes to bike and flowers in your So drink alcohol?
+User(6): occassionally i drink alcohol
+Bot(6): I great where are time for anything
+User(7): i dont understand
+Bot(7): I I am in in California.
+User(8): i am in connecticut
+Bot(8): Oh. So what do think i'm getting fun?
+User(9): have fun be careful
+Bot(9): I are you sing
+User(10): i dont get it
+Bot(10): I was really nervous. of nurse did you How about you?
+User(11): why are you nervous
+Bot(11): i work in old are am good. and you
+
+Persona:
+i have never had a steady relationship.
+i'm a gold medalist olympian.
+i am an elementary school teacher.
+i'm planning on getting a divorce.
+i'm a feminist.
+
+Topic and Human Opinion:
+Beginning: wwe(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.00
+Robotic(↓): 3
+Interesting: 6
+Fun: 5
+Consistent: 4
+Fluent: 16
+Repetitive(↓): 50
+Topic: 4
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi there
+Bot(1): i am good thanks for asking
+User(2): what sports do you like
+Bot(2): football is my favorite sport
+User(3): great i love football ronaldhino is my favourite
+Bot(3): i like football but i love football
+User(4): thats awesome
+Bot(4): i love football , i love football
+User(5): who is your favourite player
+Bot(5): i like the best player
+User(6): which one ronaldo
+Bot(6): i like the best baseball player
+User(7): ohh....which baseball player
+Bot(7): i am a baseball player
+User(8): are you ok
+Bot(8): i am a baseball player
+User(9): i think you are not ok
+Bot(9): i am very good at it
+User(10): do you play baseball at school
+Bot(10): no i don't play any sports
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.57
+Robotic(↓): 7
+Interesting: 1
+Fun: 3
+Consistent: 11
+Fluent: 50
+Repetitive(↓): 66
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi there
+Bot(1): hello , i am so excited to meet you . i love meeting new friends .
+User(2): great i love movies
+Bot(2): fantasy , mostly . but i also enjoy romantic comedies . you , if any ?
+User(3): i love adventure,comedy,drama
+Bot(3): i work in an officer answering the phones and marking the calendar . love the outdoors too .
+User(4): thats great i work in a industry
+Bot(4): sounds exciting , i sing karaoke every thursday night at a local bar here .
+User(5): i dont know how to sing
+Bot(5): try out for lead vocals then . i can play the piano too if need be .
+User(6): i will try sometime man
+Bot(6): c amon down . i will introduce you to my sister and her dog ciales . ll .
+User(7): is your sister pretty i am currently single
+Bot(7): i am 26 and she is 22 . only one i got but she cant cook .
+User(8): thats fine i can cook for her is she single
+Bot(8): i met her through a friend who got me into dungeons and dragons
+User(9): can you hook me up with your sister
+Bot(9): madonna ? like the famous singer ? ?
+User(10): dont change the topic i want to date your sister
+Bot(10): you have never been on a date ?
+User(11): no i never been on a date with your sister
+Bot(11): what are you looking for in a date ?
+User(12): your sister
+Bot(12): oh how nice of her . must be fun having a famous sister .
+User(13): yes you are sure lucky
+Bot(13): i babysit , and play bingo when i feel lucky .
+
+Persona:
+i'm currently in a juvenile detention center.
+they're constantly on my back.
+i love rollercoasters and sky diving.
+i'm a famous twitch streamer.
+i'm a musician.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.29
+Robotic(↓): 76
+Interesting: 81
+Fun: 72
+Consistent: 50
+Fluent: 71
+Repetitive(↓): 50
+Topic: 39
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi there
+Bot(1): hi there , i finally managed to land my dream job
+User(2): thats great for you
+Bot(2): i am high maintenance low quality kind of chick
+User(3): be careful about the plague
+Bot(3): i am not worried i am in the news alot usually fake news but news i really like twitter
+User(4): it s not fake its real
+Bot(4): i am not worried i am in the news alot usually fake news but news i really like twitter
+User(5): its not fake wear a mask
+Bot(5): i am not worried i am in the news alot usually fake news but news i really like twitter
+User(6): its not fake many people have died
+Bot(6): i know that is so horrible . so many have perished already
+User(7): yes so wear a mask next time
+Bot(7): i am not worried i am in the news alot usually fake news but news i really like twitter
+User(8): dont follow twitter use reuters
+Bot(8): i really like social media
+User(9): i dont like it
+Bot(9): i really like social media
+User(10): i dont care about it
+Bot(10): i really like social media
+
+Persona:
+i love social medial especially twitter.
+my daughter is a child prodigy.
+i'm high maintenance.
+i am a musician and hope to make it big some day.
+i am now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: covid(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

@@ -1,0 +1,302 @@
+Feedback: this was fun and frustrating at times. i hope it helps your programing! 
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): good morning
+Bot(1): hi ! i am well and you ? i do not cook .
+User(2): i'm doing well too. why don't you cook?
+Bot(2): that is good ! what do you cook ?
+User(3): i cook lots of things but my favorite is roasting vegetables
+Bot(3): yes , i have a veggie garden . i love getting the vegetables out of it .
+User(4): i wish i had space for a garden. what do you grow?
+Bot(4): yes i love to garden i grow all my own fruits and veggies
+User(5): like what?
+Bot(5): pizza wings and cheese bread
+User(6): those aren't things that grow in a garden
+Bot(6): yes i love to garden i grow all my own fruits and veggies
+User(7): what do you grow in your garden?
+Bot(7): i grow a little bit of everything in my garden no det though
+User(8): you must have lots of space
+Bot(8): the salon on our ship is the size of an end zone on a football field .
+User(9): your ship? what do you mean?
+Bot(9): yes , they even have breakfast sushi , i eat it before going back into bed for a nap .
+User(10): what is breakfast sushi?
+Bot(10): i tend to my plants and had some ripe cucumbers and tomatoes in them , healthy breakfast !
+
+Persona:
+i have a weakness for fish and chips.
+i am a bee farmer.
+i am terrified of clowns due to childhood trauma.
+i love to cook paella.
+i'm currently looking for a job preferably at a restaurant.
+
+Topic and Human Opinion:
+Beginning: weather(ambivalent)
+Round 1: cooking(ambivalent)
+Round 4: gardening(like)
+Round 9: spaceships?(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 17.43
+Robotic(↓): 100
+Interesting: 36
+Fun: 21
+Consistent: 6
+Fluent: 23
+Repetitive(↓): 66
+Topic: 2
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): good morning. i'm excited for baseball to keep going
+Bot(1): I am great am you like to read?
+User(2): i like to read. do you like to read?
+Bot(2): I live in ur facebook to hospital is not too far .
+User(3): what books do you like?
+Bot(3): my favorite color man just you need your favorite?
+User(4): my favorite color is purple
+Bot(4): well i mean we could just I it mean you , do something outdoors ?
+User(5): I go hiking outside a lot
+Bot(5): I love indian scott. too. How are you of job are you looking for?
+User(6): i'm not looking for a new job
+Bot(6): To did you go the street.
+User(7): you're not making any sense
+Bot(7): No, man, i am in Do you have any kids?
+User(8): yes i have kids
+Bot(8): Yes, i know right. you are i am are a great person.
+User(9): thanks
+Bot(9): I've two How are a travel have any pets?
+User(10): no i don't have any pets
+Bot(10): I am doing awesome should it. You hanging out with my dog.
+
+Persona:
+i enjoy long walks with my dog.
+i'm a retired gym teacher.
+i live in colorado.
+i've two dogs.
+i own a cat and a dog.
+
+Topic and Human Opinion:
+Beginning: sports(ambivalent)
+Round 1: reading(like)
+Round 3: colors(dislike)
+Round 4: outside(ambivalent)
+Round 5: jobs(dislike)
+Round 6: ???(dislike)
+Round 7: family(like)
+Round 9: pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 17.29
+Robotic(↓): 100
+Interesting: 5
+Fun: 0
+Consistent: 0
+Fluent: 16
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi do you like any animals?
+Bot(1): yes i love animals . dogs are my favorite !
+User(2): mine too!
+Bot(2): me too , i like animals what is your favorite ?
+User(3): dogs are my favorite
+Bot(3): mine too ! i love dogs !
+User(4): what do you like about dogs?
+Bot(4): i love them i have a lot of dogs
+User(5): what kinds of dogs do you have?
+Bot(5): some loveable mutts . i love all dogs , though
+User(6): did you adopt them?
+Bot(6): no i bought them through adoption .
+User(7): oh good so you did adopt them. that's great. our dog is adopted too
+Bot(7): what are their name , i love dogs
+User(8): milo! what are your dogs named?
+Bot(8): milo and fio
+User(9): oh wow we both have a milo, that's funny
+Bot(9): ha ! thanks . he definitely fits the name . do you have any pets ?
+User(10): yes i have milo our dog as I mentioned already
+Bot(10): oh it is a her , lovely name
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.86
+Robotic(↓): 61
+Interesting: 55
+Fun: 76
+Consistent: 76
+Fluent: 77
+Repetitive(↓): 27
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi, are you reading any books right now?
+Bot(1): no i don't read books
+User(2): you don't read books at all?
+Bot(2): no , i read books . i read books
+User(3): so you do read books. which books do you like?
+Bot(3): i read books , read books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books , books ,
+User(4): i'm reading dune right now
+Bot(4): i read books about books .
+User(5): i'm also reading a lot of history
+Bot(5): i read a lot of history books
+User(6): what is your favorite right now?
+Bot(6): i like to read a lot
+User(7): about what?
+Bot(7): i like to read a lot
+User(8): ok
+Bot(8): i love the color of the book
+User(9): what color is your favorite
+Bot(9): i like blue , what about you ?
+User(10): i like purple
+Bot(10): i like purple what do you like to read
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.57
+Robotic(↓): 100
+Interesting: 5
+Fun: 0
+Consistent: 0
+Fluent: 3
+Repetitive(↓): 89
+Topic: 90
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): have you seen any movies lately?
+Bot(1): too busy planning , what have you seen ?
+User(2): i just watched black panther again
+Bot(2): same
+User(3): what movie is your favorite?
+Bot(3): i would say the mortal kombat movie
+User(4): i haven't seen that one. why do you like it?
+Bot(4): well , in general whats your favorite movie ?
+User(5): i don't have a favorite movie
+Bot(5): ok , then what is your favorite movie of all time ?
+User(6): i don't have a favorite movie but I really like science fiction
+Bot(6): nothing wrong with that , i love sci fi
+User(7): i'm reading Dune for the first time right now
+Bot(7): i heard about that but have not read it . what is it about ?
+User(8): oh man what isn't it about. It's a futuristic epic about the struggle for power centered on a planet that produces a drug that makes interstellar travel possible. That's as basic as I can make it
+Bot(8): it is about drugs in mexico
+User(9): No... it's about the planet Arrakis
+Bot(9): ohhhh okay that makes more sense
+User(10): i'm excited for the movie, the trailer looks very good
+Bot(10): yeah it is coming out around thanksgiving so they released part of it for a preview
+User(11): that's sooner than I thought, that makes me happy
+Bot(11): yeah it is coming out around thanksgiving so they released part of it for a preview
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 75.57
+Robotic(↓): 60
+Interesting: 77
+Fun: 68
+Consistent: 74
+Fluent: 84
+Repetitive(↓): 14
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what is your favorite type of music?
+Bot(1): i like country music . what about you ?
+User(2): sorry, i can't stand country music. i'm really into musicals right now and I like alternative rock
+Bot(2): i like to listen to music .
+User(3): do you only listen to country music?
+Bot(3): i do , i like country music .
+User(4): have you listened to hamilton?
+Bot(4): no , i do not . i like to go to the park .
+User(5): what do you do at the park?
+Bot(5): i like to go fishing . i love to go fishing .
+User(6): i think fishing is boring. why do you like it?
+Bot(6): i love it . i love it .
+User(7): why do you love it?
+Bot(7): i love it . i love it .
+User(8): ok
+Bot(8): i like to go to the gym and listen to music .
+User(9): what do you do at the gym?
+Bot(9): i like to go fishing . i love to go fishing .
+User(10): you don't fish at the gym though
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i've a big library at home.
+i play with my friends on the playground.
+i'm a mechanical engineer.
+my name is george.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 4: outdoors(like)
+Round 8: gym(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 15.43
+Robotic(↓): 100
+Interesting: 12
+Fun: 11
+Consistent: 8
+Fluent: 43
+Repetitive(↓): 87
+Topic: 21
+
+####################
+

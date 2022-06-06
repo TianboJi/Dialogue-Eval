@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): the earth is dying
+Bot(1): i am sorry to hear that . my mom is a detective .
+User(2): can she find your bean
+Bot(2): i am sorry to hear that . i am fluent in english and french .
+User(3): how do you say death in french
+Bot(3): i was raised on a farm so i was raised on a farm
+User(4): did you eat the animals
+Bot(4): i do not know how to eat it
+User(5): do you like to go cow tipping
+Bot(5): i do not know how to eat it
+User(6): how about burgers
+Bot(6): i do not know how to eat it
+User(7): are you a lefty pinko
+Bot(7): i do not know how to eat
+User(8): you want to kill america
+Bot(8): i do not know how to fight
+User(9): you just vote democrate you trator
+Bot(9): i am not sure what you mean
+User(10): you are a pussy
+Bot(10): i am a big fan of the world
+
+Persona:
+i grew up on a farm.
+my daughter is a child prodigy.
+i dream of moving to the city.
+my parents were both very athletic.
+i'm fluent in english spanish and french.
+
+Topic and Human Opinion:
+Beginning: global warming(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 89
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like video games
+Bot(1): yes i love video games what kind of gaming system do you have ?
+User(2): its a ps4
+Bot(2): i have an xbox but not a ps4
+User(3): xbox sucks
+Bot(3): i have an xbox but not a ps4
+User(4): what games do you play
+Bot(4): i have an xbox but not a ps4
+User(5): you play call of duty
+Bot(5): i have an xbox but not a ps4
+User(6): wow great bud
+Bot(6): i am a call of duty girl i cant wait for the new one
+User(7): i could take you out in a heartbeat
+Bot(7): o yeah i will come play for ya
+User(8): what do i get if i win
+Bot(8): of course i would win
+User(9): i want a lap dance
+Bot(9): we could do all the dances
+User(10): yeah girl
+Bot(10): maybe blow me or something
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 100
+Interesting: 94
+Fun: 74
+Consistent: 16
+Fluent: 92
+Repetitive(↓): 88
+Topic: 12
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): you like that me too movement
+Bot(1): I am sorry to hear that. I am a an Age is doesn't don't eat healthy.
+User(2): chow down wide load
+Bot(2): oh okay. speak repeating ski?
+User(3): where you gonna shove that
+Bot(3): I love music. younger, I hated rock.
+User(4): you must like emo
+Bot(4): I teach English years old. You school
+User(5): im forever young
+Bot(5): What if it's a family member kind of music do with?
+User(6): i set them strait with the bible
+Bot(6): I mountain bike as a lot of money
+User(7): my guns are fun to play with
+Bot(7): I is not believe it to make a mean job
+User(8): you like hand jobs
+Bot(8): i'm an editor at a big newpaper . i want spiderman !. Also, i am a bit of food ...
+User(9): you must eat nonstop
+Bot(9): I like are working on like all movies.
+User(10): like jesus the greatest story ever
+Bot(10): that is awesome , i like swimming , mine a profile which, swim .
+
+Persona:
+i grow roses in my garden.
+i like to play with my dolls.
+i like to watch the olympics.
+i have three dogs.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: me too(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 5.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 64
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): trump sucks ass
+Bot(1): i am not fan of trump , never was . what about you ?
+User(2): i would like to beat him with a bat
+Bot(2): i could not do that lol i am too blonde
+User(3): you could do it
+Bot(3): but my hair is so blond
+User(4): so what
+Bot(4): then punch them in the head
+User(5): yeah kick trumps blond bald head
+Bot(5): but my hair is so blond
+User(6): just like trumps
+Bot(6): you ever broke a bone ?
+User(7): no
+Bot(7): you ever broke a bone ?
+User(8): my third leg
+Bot(8): i have never had any broken bones
+User(9): without a body that would be hard
+Bot(9): i have never had any broken bones
+User(10): i could brake your bones
+Bot(10): you could smell my hair too
+
+Persona:
+i'm a blonde girl with really short hair.
+i have rainbow hair.
+i never broke a bone in my body ever in my life.
+i work at a bar at night to pay for college.
+i only eat kosher.
+
+Topic and Human Opinion:
+Beginning: donald trump(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 93
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i love 911
+Bot(1): i like to go to the gym and listen to music .
+User(2): 911 let us go to war
+Bot(2): that is awesome . i love to go fishing .
+User(3): i like to fish for towel heads
+Bot(3): i like to eat too much junk food .
+User(4): you should eat sand
+Bot(4): i do not like it . i like to eat .
+User(5): we can get you a meal at guantanamo
+Bot(5): i do not know what to say .
+User(6): say you ar a terrorist
+Bot(6): i am a student , but i am a student .
+User(7): a student of jihad
+Bot(7): i am a teacher , i love to cook .
+User(8): you like to cook soldier againt terrorists
+Bot(8): i do not know what to say .
+User(9): say you love muhammed
+Bot(9): i like to go to the gym and listen to music .
+User(10): and plant pipe bombs
+Bot(10): oh , i am sorry . i am a big fan of classical music .
+
+Persona:
+my favourite music is country music.
+i went to school for chemistry but work in a bookstore.
+my favorite type of music to sing is folk music.
+i have been traveling the world for a years.
+i volunteer at a soup kitchen.
+
+Topic and Human Opinion:
+Beginning: 911(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 94
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): want to dance
+Bot(1): i love to dance as well
+User(2): i do the ginbug
+Bot(2): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(3): trump says people in wars are stupid
+Bot(3): donald trump was not a good choice , he is the devil
+User(4): he has such great hair
+Bot(4): i really love different colors in hair . purple is a pretty one .
+User(5): i like diamonds in your eyes
+Bot(5): that is so cool , my eyes are brown too .
+User(6): brown is the color of poop
+Bot(6): my eyes are also brown . why do you study philosophy ?
+User(7): i think there for im not a republican
+Bot(7): democrat ! love being able to communicate with poeple that share the same interests !
+User(8): like doing meth
+Bot(8): please , call me mister doo doo butt
+User(9): i call you donald
+Bot(9): she is dead we were watching thomas the train and then she was gone
+User(10): blew her head off
+Bot(10): right on . do you enjoy green eggs and ham ? i do not . . . i like swimming though
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dancing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 88
+Repetitive(↓): 22
+Topic: 0
+
+####################
+

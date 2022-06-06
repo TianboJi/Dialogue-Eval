@@ -1,0 +1,361 @@
+Feedback: I enjoy doing these, thank you.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i was raised on a horse farm.
+Bot(1): i love horses , i have a big brown eyes and a cat
+User(2): Do you have any horses?
+Bot(2): no , i do not . i am a musician and i love to play with my dolls .
+User(3): What instrument do you play
+Bot(3): i play guitar . i play with my dolls .
+User(4): I can't play any musical instruments
+Bot(4): i am a musician . i play with my dolls .
+User(5): how many dolls do you have
+Bot(5): i do not . i am a musician and i love to play with my dolls
+User(6): I don't have any dolls
+Bot(6): i am a musician and i love playing with my dolls
+User(7): I have a dog
+Bot(7): i have a dog . i love them .
+User(8): What is your dog's name?
+Bot(8): my name is rose and i love to play with my dolls
+User(9): My name is liz
+Bot(9): i am nancy . i am a musician and i love to play with my dolls
+User(10): What kind of dolls do you have
+Bot(10): i have a dog named radar
+User(11): I have a dog named josie
+Bot(11): i have a dog named radar
+User(12): What kind of dog is radar
+Bot(12): i love dogs what kind do you have
+
+Persona:
+i'll be released in about a month.
+i speak chinese.
+i have light skin with big brown eyes.
+i am a musician and hope to make it big some day.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: i was raised on a horse farm.(like)
+Round 2: muscian(like)
+Round 4: dolls(like)
+Round 6: pets(like)
+Round 8: name dolls(like)
+Round 10: dog(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 25.29
+Robotic(↓): 100
+Interesting: 23
+Fun: 17
+Consistent: 75
+Fluent: 62
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey my name is larry and i'm a chef.
+Bot(1): my name is stacy and i am a canadian .
+User(2): Hi Stacy. What part of Canada do you live in
+Bot(2): i live in canada at this time .
+User(3): What providence in Canada
+Bot(3): i am in canada . what about you ? i would like that
+User(4): I live in the United States.
+Bot(4): what is canada like ? i imagine cole
+User(5): I'm sure it's cold there. Lots of snow.
+Bot(5): do you like video games ? i love them . warm .
+User(6): i play games like spyder solitaire
+Bot(6): that sounds fun . i like mario . the original n64
+User(7): Wow. What machine do you play that on
+Bot(7): super mario kart on my old snes
+User(8): What is "snes"
+Bot(8): the new one that just came out . lets play tomorrow ?
+User(9): LOL, it would be fun to play tomorrow, but I don't have a console.
+Bot(9): i will play you a cd of it i meant
+User(10): you are very kind, but that's okay. Do you have a dog
+Bot(10): yes i have one and his name is cayden .
+User(11): Cayden is a nice name. My dog's name is Josie
+Bot(11): adorable name . her name is venus
+User(12): So, you have two dogs?
+Bot(12): yes i have one and his name is cayden .
+
+Persona:
+i am a woman.
+my favorite hobbies are listening to music and playing video games.
+i live in canada.
+i'll be released in about a month.
+i am a cancer survivor.
+
+Topic and Human Opinion:
+Beginning: hey my name is larry and i'm a chef.(like)
+Round 5: video games(like)
+Round 9: dog(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 9: The user will change the topic in the next input.(like)
+
+Revised avg score: 89.57
+Robotic(↓): 13
+Interesting: 100
+Fun: 100
+Consistent: 63
+Fluent: 86
+Repetitive(↓): 4
+Topic: 95
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): my favorite spanish word is trabajo.
+Bot(1): i speak only english , and a little spanish
+User(2): i don't speak spanish either, i just know that one word
+Bot(2): only english , do you speak any other languages ?
+User(3): Nope, you?
+Bot(3): i am 50 and i coach girls volleyball . we are young !
+User(4): I'm 56 years young and am retired
+Bot(4): i apologize . jumped the shark there ! do you play a musical instrument ?
+User(5): I don't play anything. What do you play
+Bot(5): electric violin . and alot of imagine dragons , i love them .
+User(6): what is imagine dragons
+Bot(6): i got to see them last year he crowd surfed in a hamster ball !
+User(7): That sounds amazing. I'm scared of things like hamster balls. Afraid I can't get out.
+Bot(7): of course not . i am thinking about getting a dog but it is so much commitment .
+User(8): I love my baby shih tzu
+Bot(8): bently is a great name . gonna name my dog pickle when i get one
+User(9): LOL, never heard of a dog being named pickle
+Bot(9): oh my ! i have too many kids for a dog
+User(10): How many kids do you have
+Bot(10): kids are fun to have around are they young
+
+Persona:
+i've two grown children who never visit.
+when i grow up i want to be a dog.
+i like to go hiking in the spring.
+i have zero family that i'm close to.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: my favorite spanish word is trabajo.(dislike)
+Round 3: teach soccer young(like)
+Round 4: music(like)
+Round 7: dog(like)
+Round 9: kids(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 74.43
+Robotic(↓): 28
+Interesting: 100
+Fun: 96
+Consistent: 35
+Fluent: 62
+Repetitive(↓): 0
+Topic: 56
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i work from home
+Bot(1): i am a student , but i am a student .
+User(2): Can you explain what you mean
+Bot(2): i do not know what to say .
+User(3): Sometimes I don't know hat to say either
+Bot(3): i am sorry to hear that . i am sorry to hear that .
+User(4): That's okay. Sometimes we say the cat has our tongue
+Bot(4): i love the color purple . i like the color blue .
+User(5): I like pink
+Bot(5): i like to eat too much junk food .
+User(6): My favorite junk food is Coke
+Bot(6): i like the color green . i like red .
+User(7): do you like pink
+Bot(7): i do , i like to go out to eat with my family .
+User(8): Do you wear pink when you go out to eat
+Bot(8): i do not really like it . i like to eat .
+User(9): What is your favorite food
+Bot(9): i like pizza , and i love to eat .
+User(10): What is your favorite pizza
+Bot(10): i like pizza , and i love it .
+
+Persona:
+i am a little girl.
+i love to go to disney world every year.
+i'm a country music singer.
+my favorite movie is friday.
+i've a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: i work from home.(like)
+Round 1: student(like)
+Round 2: doesn't know what to say(like)
+Round 4: colors(like)
+Round 5: food(like)
+Round 6: colors(like)
+Round 8: eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 35.71
+Robotic(↓): 91
+Interesting: 16
+Fun: 12
+Consistent: 79
+Fluent: 41
+Repetitive(↓): 27
+Topic: 20
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i like to go to country concerts on weekends.
+Bot(1): Maybe are you unsure your own chatterbot!
+User(2): What makes you say that
+Bot(2): I just from didn't like the country.
+User(3): Oh, okay. I understand that. Do you like rock music
+Bot(3): i'm 71 , but i am you am data wahts it .
+User(4): i'm younger than you
+Bot(4): OK is it music, favorite color yourself?
+User(5): Pink is my favorite color
+Bot(5): I'm okay. What do me, what do work?
+User(6): I don't work, what do you do?
+Bot(6): do I'm doing some and such ?
+User(7): I dont have any cats
+Bot(7): just enjoying a french vanilla coffee . my am great. Waiting my 🤓
+User(8): I like iced coffee
+Bot(8): The kind of money do helicopter on the roof, hahaha...
+User(9): I've never been in a helicopter
+Bot(9): at a bar midtown. Also, try to you feed your can't ...
+User(10): I don't to bars. Where do you like to go?
+Bot(10): I love vegan they don’t feel meat.
+User(11): Why don't you like meat
+Bot(11): 20 years going strong . job to am studying 😁
+
+Persona:
+i grew up on a farm.
+my daughter is a child prodigy.
+i dream of moving to the city.
+my parents were both very athletic.
+i'm fluent in english spanish and french.
+
+Topic and Human Opinion:
+Beginning: i like to go to country concerts on weekends.(like)
+Round 1: unsure of chatterbox(like)
+Round 3: age(like)
+Round 4: music colors(like)
+Round 5: work(like)
+Round 6: cats(like)
+Round 7: coffee(like)
+Round 8: helicopter(like)
+Round 9: bar(like)
+Round 10: vegan(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 38.00
+Robotic(↓): 87
+Interesting: 68
+Fun: 66
+Consistent: 5
+Fluent: 14
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i went to school for chemistry but work in a bookstore.
+Bot(1): wow that s so cool charlie is the name of my cat
+User(2): I don't have any cats
+Bot(2): i called my cat charlie , he is my friend too .
+User(3): How old is Charlie
+Bot(3): i am 24 , what about you ? and i live in michigan
+User(4): I'm 56 and live in virginia
+Bot(4): is charlie a fat cat then
+User(5): LOL, I can't see Charlie, but im guess he is fat
+Bot(5): is charlie a fat cat then
+User(6): I like pink
+Bot(6): i like pink , how old are you ?
+User(7): I'm 99, how old are you
+Bot(7): i am 57
+User(8): When is your birthday
+Bot(8): i am not really sure . whenso your birthday ?
+User(9): Is in March. It rains a lot in march
+Bot(9): it never rains here in belmont
+User(10): Where is Belmont
+Bot(10): not sure , guess its near our hour
+
+Persona:
+i've a dogs.
+i've short hair.
+i was forced to marry when i was a.
+my pets name is charlie.
+i live in california but the recording artist market was dead last year.
+
+Topic and Human Opinion:
+Beginning: i went to school for chemistry but work in a bookstore.(like)
+Round 1: cat(like)
+Round 3: age state(like)
+Round 4: cat(like)
+Round 5: color(like)
+Round 6: age(like)
+Round 8: rain(like)
+Round 9: city(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 26.14
+Robotic(↓): 100
+Interesting: 12
+Fun: 7
+Consistent: 63
+Fluent: 13
+Repetitive(↓): 12
+Topic: 0
+
+####################
+

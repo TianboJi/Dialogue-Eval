@@ -1,0 +1,315 @@
+Feedback: The chatbots were terrible at conversations. 
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): Great. How about you?
+Bot(2): i am good . just got back from the gym .
+User(3): Nice. What do you do at the gym?
+Bot(3): i play the guitar . i play the violin .
+User(4): That’s neat. I don’t play instruments
+Bot(4): i play the violin . i love it .
+User(5): I’m not a fan.
+Bot(5): i like to play the guitar .
+User(6): I don’t like that either.
+Bot(6): i like to play the guitar .
+User(7): Anything else?
+Bot(7): i like to watch sports . i like to run .
+User(8): What sports do you like?
+Bot(8): i like to watch sports . i like to run .
+User(9): Do you like TV?
+Bot(9): i like to watch sports . i like to run .
+User(10): What about tv shows?
+Bot(10): i like to watch sports .
+
+Persona:
+i've a son who is in junior high school.
+my favourite skater is rob dryden.
+i enjoy sports such as running.
+i diet a lot.
+i play several instruments.
+
+Topic and Human Opinion:
+Beginning: Wrestling(like)
+Round 3: Instruments(dislike)
+Round 7: Hobbies(like)
+Round 8: TV(like)
+Round 8: TV(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 3.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 27
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): i am a teacher , and i am a of vintage ones from my a son , and you ?
+User(2): That’s great. Do you like movies?
+Bot(2): Yes it I'm fine! there
+User(3): What movies do you like?
+Bot(3): i bored like call and read .
+User(4): I don’t understand you?
+Bot(4): That is nice. father is a carpenter too! a good thing to do. Are you four?
+User(5): My father is in the military
+Bot(5): I'm you are hungry.
+User(6): What do you like to eat?
+Bot(6): I have not heard of I'm a twitch do music?
+User(7): I can’t understand you.
+Bot(7): me your diet also 💖 music
+User(8): I’m not on a diet
+Bot(8): I love were also teachers. love hockey.
+User(9): Are you a teacher?
+Bot(9): Yo! I sell not sure. I insurance
+User(10): You work in insurance?
+Bot(10): i am your i’m am am sorry .
+
+Persona:
+i have short brown hair.
+i work fulltime in a shipyard.
+i'm a vegetarian.
+i've been working since i was sixteen years old.
+i'm retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 4: Father’s occupation(dislike)
+Round 5: Being hungry(ambivalent)
+Round 8: Occupation(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): What do you cook?
+Bot(2): no , i do not , but i do like to eat .
+User(3): Ok. What do you like to eat?
+Bot(3): i love to eat . what do you do for a living ?
+User(4): I sell insurance.
+Bot(4): i love to cook . i love to cook .
+User(5): What do you cook?
+Bot(5): no , i do not , but i do like to eat .
+User(6): Do you cook for a living?
+Bot(6): i am a student , but i am a student .
+User(7): What are you studying?
+Bot(7): i am a student , i am a teacher .
+User(8): Do you study or teach cooking?
+Bot(8): i am a teacher , i love to cook .
+User(9): Do you teach cooking?
+Bot(9): no , i do not , but i do like to eat .
+User(10): What do you eat?
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i have zero family that i'm close to.
+i have visited spain a times.
+my wife and kids are the best.
+i have zero family that i'm close to.
+i am 40 years old.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+Round 1: Cooking(ambivalent)
+Round 3: Occupation(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hello , have you seen frozen ?
+User(2): No but a lot of my students have?
+Bot(2): no do you like ice cream
+User(3): Yes. I am a teacher.
+Bot(3): that is great . what is your favorite ice cream ?
+User(4): I like cookie dough ice cream. You?
+Bot(4): i love homemade vanilla icing
+User(5): Is that an ice cream flavor?
+Bot(5): yes , its icecream , its my favorite !
+User(6): I have never seen it.
+Bot(6): you have to tried it , it is better than fried ice cream for sure !
+User(7): I’m not much of an icing fan.
+Bot(7): i love ice cream . ever had salted oreo ?
+User(8): I havent. I don’t care for Oreo much.
+Bot(8): i love ice cream . ever had salted oreo ?
+User(9): No I just answered that.
+Bot(9): i love ice cream . ever had salted oreo ?
+User(10): No I like chocolate
+Bot(10): i love ice cream . ever had salted oreo ?
+
+Persona:
+i have been retired for a years.
+i prefer being inside.
+i have a weakness for vanilla ice cream.
+i love to cook paella.
+i love to sing songs from the movie frozen.
+
+Topic and Human Opinion:
+Beginning: Teaching(like)
+Round 3: Ice cream(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 21.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 35
+Consistent: 67
+Fluent: 20
+Repetitive(↓): 73
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): I like everything Disney.
+Bot(2): lol . . . i cannot wait till summer vacation so i can go to the beach
+User(3): Do you like Olaf?
+Bot(3): i like to make robots and eat chinese food
+User(4): That’s cool. I’m not interested in robots.
+Bot(4): restaurant or sporting goods store . i am a grill cook and saving for my own kitchen
+User(5): Restaurant
+Bot(5): cool , i used to be a cook in college . what kind of restaurant ?
+User(6): I prefer a nice sit down restaurant.
+Bot(6): an italian restaurant my dad owns . he was a cop , but now he is a restaurant owner
+User(7): I like Italian food.
+Bot(7): chocolate for sure . have you ever gone geocaching ?
+User(8): I have never had Italian food with chocolate.
+Bot(8): wow , i do not really like chocolate
+User(9): What Italian food do you like?
+Bot(9): chocolate for sure . have you ever gone geocaching ?
+User(10): That doesn’t make much sense.
+Bot(10): do you play any instruments ? i love playing the drums i am pretty good
+
+Persona:
+i'm a 45 year old male.
+i've been trying all types of food everywhere i go.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i am also a graduate student.
+i love chocolate bars.
+
+Topic and Human Opinion:
+Beginning: Disney(like)
+Round 3: Hobbies(dislike)
+Round 4: Restaurant(like)
+Round 10: Instruments(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The user will change the topic in the next input.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 25.14
+Robotic(↓): 100
+Interesting: 19
+Fun: 0
+Consistent: 73
+Fluent: 65
+Repetitive(↓): 81
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like music
+Bot(1): i like peaceful music . for meditating
+User(2): I prefer rock
+Bot(2): i am super afraid of heights
+User(3): Do you ride roller coasters?
+Bot(3): nope . i am afraid of heights !
+User(4): I am afraid of heights too.
+Bot(4): i am super afraid of heights
+User(5): I can do some things like ride a ski lift.
+Bot(5): i like to meditate also
+User(6): Does that help with your fear of heights?
+Bot(6): it does help a great deal .
+User(7): Maybe I should try that.
+Bot(7): meditate on it . it really does help .
+User(8): I’ll consider it.
+Bot(8): meditate on it . it really does help .
+User(9): Ok I will meditate on it.
+Bot(9): my parents do not cherish me .
+User(10): I am sorry to hear that
+Bot(10): my parents do not cherish me .
+
+Persona:
+my parents aren't very supportive of my dream.
+i like meditation.
+i'm deathly afraid of heights.
+i am very strong for my age.
+i'm in the third grade.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 2: Heights(like)
+Round 9: Parents(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 20.43
+Robotic(↓): 100
+Interesting: 14
+Fun: 0
+Consistent: 56
+Fluent: 36
+Repetitive(↓): 63
+Topic: 0
+
+####################
+

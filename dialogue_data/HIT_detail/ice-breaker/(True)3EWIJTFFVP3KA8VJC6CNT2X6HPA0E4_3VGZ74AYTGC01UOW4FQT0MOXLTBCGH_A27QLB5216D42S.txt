@@ -1,0 +1,271 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey there
+Bot(1): hey how are you ?
+User(2): i'm pretty good thanks how are you?
+Bot(2): good , planning my next round of thrift shop visits .
+User(3): oh very nice. I am interested in photography and like taking pictures
+Bot(3): how long have you been taking pictures for ?
+User(4): for years now. do you have a hobby?
+Bot(4): i like country line dancing if that counts as sports and a hobby . you ?
+User(5): I love to dance but more to hip hop, house and reggae. Can't stand country
+Bot(5): i like all music and love to sing and sometimes i like to rap too .
+User(6): nice I definitely like the old school and more conscious rap
+Bot(6): i love rap music and strong men or women ! i just want to feel love again
+User(7): I am sure you will find it
+Bot(7): thank you . i hope i will when i go to summer camp
+User(8): I am sure that you will
+Bot(8): it could be like a self paddling pod boat with elaborate comforts . .
+User(9): that sounds ineresting
+Bot(9): that is a secret , but lets just say i enjoy reading true crime novels
+User(10): okay cool
+Bot(10): drive my sx . fast . so what is a male ballerina called ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am interested in photography and like taking pictures.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.00
+Robotic(↓): 87
+Interesting: 44
+Fun: 36
+Consistent: 32
+Fluent: 39
+Repetitive(↓): 39
+Topic: 41
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi hows it going
+Bot(1): good , just got off work at the hospital .
+User(2): oh okay are you a doctor
+Bot(2): no , i am not . i am a student .
+User(3): are you learning medicine?
+Bot(3): no , i am not . i am a student .
+User(4): okay. what is your favorite band
+Bot(4): i like the color red . i like the color blue .
+User(5): my favorite band if up and I got to see them in concert once
+Bot(5): i am sorry to hear that . i am sorry to hear that .
+User(6): oh you don't like them?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): okay what's your favorite?
+Bot(7): i like the color red . i like the color blue .
+User(8): i also like those two colors
+Bot(8): i like the color red . i like the color blue .
+User(9): you must like them a whole lot
+Bot(9): i do not know what to say .
+User(10): good night
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite band is up and i got to see them in concert once.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.29
+Robotic(↓): 93
+Interesting: 3
+Fun: 3
+Consistent: 14
+Fluent: 18
+Repetitive(↓): 97
+Topic: 17
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): good evening
+Bot(1): good morning to you as well
+User(2): oh where are you located?
+Bot(2): orlando , and where are you from ?
+User(3): san francisco
+Bot(3): wow cannot get much farther away . . . i am in san francisco .
+User(4): yes exactly. what kind of music do you like
+Bot(4): yes i love all genres . what do you like
+User(5): I enjoy listening to classical music
+Bot(5): me too but my favorite genre is classical
+User(6): oh we have that in common
+Bot(6): do you like any classical
+User(7): I do very much
+Bot(7): do you like any classical
+User(8): yes i definitely liked listening to classical
+Bot(8): do you like any classical
+User(9): yup just as much as I did the last two times you asked
+Bot(9): well it was nice getting to know you
+User(10): yes it was have a good night
+Bot(10): thanks you have a great night as well
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy listening to classical music.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.57
+Robotic(↓): 84
+Interesting: 31
+Fun: 25
+Consistent: 19
+Fluent: 29
+Repetitive(↓): 100
+Topic: 10
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey whats going on
+Bot(1): nope i grow up i want how about you
+User(2): yes i also grow up as does everyone
+Bot(2): I worst horses
+User(3): you worst horses? not sure what you mea
+Bot(3): Six. that is have them?
+User(4): i plan to go to business school next year
+Bot(4): It was a secret news. sounds like i have it would be a good time .
+User(5): it is definitely going to be a challenge
+Bot(5): I Where do you class don't want to work.
+User(6): I want to go to school
+Bot(6): I like to go usa. do you dog.
+User(7): I do not dog. do you dog?
+Bot(7): i like the beatles i think i have all their cds am too I work . how has your day been ?
+User(8): I also liek the beattles
+Bot(8): Hi, I am just and work at a mom. You?
+User(9): I am going to business school next year
+Bot(9): I don't have you be a student.
+User(10): yes I will be a student
+Bot(10): cool 👍 you cant know morning, made ya quit
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i plan to go to business school next year.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi there how are you?
+Bot(1): i am okay , craving some chocolate though .
+User(2): i've never liked chocolate
+Bot(2): candy is something i like a lot
+User(3): I prefer licorice and gum drops to chocolate
+Bot(3): candy is something i like a lot
+User(4): my family is continuously growing. how about you?
+Bot(4): thinking about where i am going to set up my veterinarian office when i grow up
+User(5): oh thqt is a great goal
+Bot(5): i want to be a vet when i am done with school
+User(6): how far along are you?
+Bot(6): i want to be a vet when i am done with school
+User(7): how many years do you have left?
+Bot(7): so about 2 years or more
+User(8): good for you! that is very exciting
+Bot(8): i need something more to do since retiring
+User(9): i thought you said you are still in school?
+Bot(9): i want to be a vet when i am done with school
+User(10): good luck
+Bot(10): same to you !
+
+Persona:
+i've never had a steady relationship.
+i like to eat chocolate candy.
+i have been retired for a years.
+i am currently in a juvenile detention center.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: my family is continuously growing.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.71
+Robotic(↓): 87
+Interesting: 56
+Fun: 52
+Consistent: 51
+Fluent: 46
+Repetitive(↓): 82
+Topic: 42
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): good evening to you
+Bot(1): i am listening to some late night
+User(2): what late night are you listening to?
+Bot(2): i love listening to music
+User(3): yes me too. My favorite singer is taylor swift.
+Bot(3): i love taylor swift . i like her too
+User(4): oh nice. I like alicia keys too
+Bot(4): i love her too . she's a great singer .
+User(5): yes she is super talented
+Bot(5): she's a very talented singer .
+User(6): yes and songwriter too
+Bot(6): i like to listen to her music while i listen to her
+User(7): I also like to listen to her music
+Bot(7): i like to listen to her music while i listen to her
+User(8): me too
+Bot(8): i like to listen to her music
+User(9): ditto
+Bot(9): i like to listen to her music
+User(10): same. good night
+Bot(10): i love to listen to taylor swift
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite singer is taylor swift.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.29
+Robotic(↓): 95
+Interesting: 10
+Fun: 10
+Consistent: 14
+Fluent: 13
+Repetitive(↓): 90
+Topic: 10
+
+####################
+

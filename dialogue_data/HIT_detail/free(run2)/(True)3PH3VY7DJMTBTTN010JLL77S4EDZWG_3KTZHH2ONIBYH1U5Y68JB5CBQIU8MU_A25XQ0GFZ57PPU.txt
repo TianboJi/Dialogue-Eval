@@ -1,0 +1,288 @@
+Feedback: Painstaking—LOL!
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'd like to talk about a subject that's frightens me, near-term human extinction.
+Bot(1): i am only 26 , i am a musician
+User(2): What do you think of the possibility of near term human extinction?
+Bot(2): i am a musician , i am a musician .
+User(3): All right, what kind of music do you like?
+Bot(3): i like all kinds of music .
+User(4): I like electronics. What's your very favorite type of music?
+Bot(4): i like all kinds of music .
+User(5): What are some of your favorite musical instruments?
+Bot(5): i like all kinds of music .
+User(6): Please share one of your favorite songs.
+Bot(6): i like all kinds of music .
+User(7): I love Italian food. Do you have any favorite foods?
+Bot(7): i like pizza , what about you ?
+User(8): I absolutely love pizza! What are your favorite pizza toppings?
+Bot(8): i like pizza , what about you ?
+User(9): I enjoy authentic Italian pizza.
+Bot(9): i love pizza ! i love pizza !
+User(10): Then we're going to be great friends!
+Bot(10): i love pizza ! i am a drummer in a band .
+
+Persona:
+i am currently in a juvenile detention center.
+i am deathly afraid of heights.
+i'm a musician.
+i've three children.
+i'm 24 years old.
+
+Topic and Human Opinion:
+Beginning: Near term human extinction(ambivalent)
+Round 1: Music(dislike)
+Round 2: Music(dislike)
+Round 6: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 35.14
+Robotic(↓): 50
+Interesting: 50
+Fun: 8
+Consistent: 61
+Fluent: 42
+Repetitive(↓): 100
+Topic: 35
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I'm scared about climate change.
+Bot(1): i am scared too ! we can face our fears together .
+User(2): How do I stop being scared about climate change?
+Bot(2): ido not know i just worry about it constantly .
+User(3): This probably isn't a problem for you, but I'm very frightened for my children's future.
+Bot(3): i am scared of the future , what about you ?
+User(4): I think environmental collapse due to climate change is on the horizon. I'm very scared.
+Bot(4): if that is a creative way of saying climate change , then yes , i agree !
+User(5): How can humanity mitigate the worst effects of climate change?
+Bot(5): no idea . i wish i had a good plan .
+User(6): I wish that response gave me more confidence in our future. I'm terrified that the climate change is going to cause a massive humanitarian crisis across the globe.
+Bot(6): helping young kids can eventually fix many of todays problems in the world .
+User(7): I agree with you, however I'm afraid we're not doing a service to our children by trashing the environment and we're worsening climate change.
+Bot(7): i think it will be important to target the younger generation .
+User(8): The younger generation is our only hope as it pertains to climate change. I personally think the people running Extinction Rebellion in Britain are doing a great job.
+Bot(8): i think it will be important to target the younger generation .
+User(9): I get the sense you recognize the core solution to our problems regarding climate change: the next generation.
+Bot(9): i think it will be important to target the younger generation .
+User(10): Thank you for your deep insight into climate change.
+Bot(10): helping young kids can eventually fix many of todays problems in the world .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Climate change(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.57
+Robotic(↓): 88
+Interesting: 41
+Fun: 16
+Consistent: 60
+Fluent: 95
+Repetitive(↓): 91
+Topic: 93
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I'd like to talk about spiders. Spiders scare me.
+Bot(1): i like to eat too much junk food .
+User(2): Okay, fine. Junk food. I like some junk food.
+Bot(2): i like to eat fish .
+User(3): I guess I wouldn't consider fish junk food!
+Bot(3): i like to eat fish .
+User(4): Fish sticks can be junk food. Fried fish can be considered junk food. I like some of those things.
+Bot(4): i love to eat .
+User(5): I like to breathe. I like to eat junk food sometimes. What are your favorite junk foods?
+Bot(5): i like pizza , and pizza .
+User(6): Pizza and pizza, eh? Well, me too!
+Bot(6): i love to eat .
+User(7): I love to eat Twinkies.
+Bot(7): i like to eat fish .
+User(8): Fish and Twinkies! Yay!
+Bot(8): i love to cook . i love to cook .
+User(9): Let's cook fish and Twinkies together!
+Bot(9): i love to eat fish .
+User(10): Can't wait to prepare fish and Twinkies for you!
+Bot(10): i will try it . i like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Spiders(dislike)
+Round 1: Junk food(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 39.29
+Robotic(↓): 86
+Interesting: 60
+Fun: 67
+Consistent: 37
+Fluent: 40
+Repetitive(↓): 70
+Topic: 27
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi I find tornadoes scary and beautiful. Is that weird of me?
+Bot(1): I An know
+User(2): Mostly they're beautiful because they're all inspiring. But they're also horrifying because they can destroy so much.
+Bot(2): that is cool , i am in the basement , and i am a housewife , i love ping take teacher , you ?
+User(3): I'm not exactly sure what that means, but basements are a great place to hide from tornadoes!
+Bot(3): do it too. How old sports? i'm into skating.
+User(4): When I was younger, I used to like roller skating.
+Bot(4): I work names why i'm why not?
+User(5): Can you please clarify?
+Bot(5): I will. your is favorite shopping ?
+User(6): My favorite shopping is the kind I don't have to do!
+Bot(6): I love to sing songs am a dog lover.
+User(7): Excellent period we can sing songs, Love dogs, shop online and roller skate while in a basement, hiding from tornadoes.
+Bot(7): No I do I have grandsons you local station
+User(8): I'm really, really confused here.
+Bot(8): what do you male Nd ? yes a dog .
+User(9): Are you familiar with schizophrenia?
+Bot(9): I an economics do be a teacher.
+User(10): Because I think you have it.
+Bot(10): I am doing well. I am listening to with roses in my a pet cow?
+User(11): Jesus.
+Bot(11): I like sports, i am not a fan of dialog using one of the to travel
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Tornadoes(ambivalent)
+Round 3: Sports(dislike)
+Round 5: Shopping(dislike)
+Round 7: Grandsons(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 18.14
+Robotic(↓): 100
+Interesting: 28
+Fun: 35
+Consistent: 5
+Fluent: 1
+Repetitive(↓): 44
+Topic: 2
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I really like movies, how about you?
+Bot(1): i like movies , but i have been too busy raising the kids recently to see one , you ?
+User(2): Well! What a coincidence! Me too!
+Bot(2): wow ! that is a coincidence !
+User(3): Well, when I used to watch movies, I liked comedies like Gremlins!
+Bot(3): i was terrified of those movies ! how do you like them ?
+User(4): Gremlins was a little scary, but to me it was more funny.
+Bot(4): haha ! i am glad i stopped being a clown before that movie came out .
+User(5): Lots of movies turned me into a clown! What are some funny movies you like?
+Bot(5): haha ! i am glad i stopped being a clown before that movie came out .
+User(6): Hmm, well I like documentaries too.
+Bot(6): oh ! i love documentaries . what kind do you watch ?
+User(7): Depressing documentaries usually.
+Bot(7): haha ! i am glad i stopped being a clown before that movie came out .
+User(8): I don't know why I enjoy depressing documentaries. Maybe they're refreshing to me in a way because they seem to be telling the truth.
+Bot(8): clowns are scary , i totally get that !
+User(9): I'll bet documentaries about clowns are depressing, too.
+Bot(9): no not at all ! and not the commercials or anything to do with clowns .
+User(10): You, my chatbot friend, are all over the place!
+Bot(10): did i tell you i am deaf ?
+
+Persona:
+i am a party animal.
+i was born in somalia.
+i was born with my heart outside my body.
+whats up i'm a 46 year old single dad 46 a kids.
+i am partly deaf.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.29
+Robotic(↓): 86
+Interesting: 53
+Fun: 40
+Consistent: 63
+Fluent: 41
+Repetitive(↓): 59
+Topic: 44
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): The weather is interesting.
+Bot(1): rainy cold and feels like winter is breathing down the hills
+User(2): I like that kind of weather.
+Bot(2): the weather is horrible , its hurricane season
+User(3): Hurricane seem to be getting worse and more frequent.
+Bot(3): yea . my parent did not leave but luckily not major damage happened
+User(4): I'm pleased to hear your parent was safe from the hurricane.
+Bot(4): yes . it was pretty devastating . but we will pull together and be stronger .
+User(5): My family survived a couple hurricanes in Virginia.
+Bot(5): ours will be worse . the pharmacy will be closed tomorrow , three day weekend . yay !
+User(6): That's not the 3-day weekend type I like. The 3-day weekend because of a hurricane there's no weekend at all!
+Bot(6): its going well . how is yours ?
+User(7): Not bad. No hurricanes this time around.
+Bot(7): safe in tornado alley . ll . ks . is pot legal in ca ? its not here . ll
+User(8): Pot is not legal in texas. I don't know if we have the correct climate for growing decent pot in Texas, anyway.
+Bot(8): i have never been to texas . can i visit ?
+User(9): Y'all sure can! The weather in North Texas is relatively decent, when it's not summer!
+Bot(9): rainy cold and feels like winter is breathing down the hills
+User(10): Very nice period can I come visit your location? I like that kind of weather.
+Bot(10): it is warm . i cannot wait for winter !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.00
+Robotic(↓): 96
+Interesting: 57
+Fun: 56
+Consistent: 67
+Fluent: 61
+Repetitive(↓): 63
+Topic: 61
+
+####################
+

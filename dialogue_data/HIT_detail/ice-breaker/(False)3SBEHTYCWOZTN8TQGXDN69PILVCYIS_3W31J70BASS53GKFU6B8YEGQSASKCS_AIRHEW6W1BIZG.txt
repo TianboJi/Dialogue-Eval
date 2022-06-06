@@ -1,0 +1,280 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hi there . i am french and now canadian
+User(2): Oh that great, I was raised on a horse farm
+Bot(2): cool ! i was born in hawaii
+User(3): that's cool
+Bot(3): well , you know , i speak french
+User(4): Great, I know little french
+Bot(4): i know about 50 of the language
+User(5): That's amazing
+Bot(5): i know about 50 of the language
+User(6): that's a great thing knowing different language
+Bot(6): i know about 50 of the language
+User(7): What else do you know ?
+Bot(7): i know about 50 of the language
+User(8): how was your day
+Bot(8): it was good thank you
+User(9): okay ,what else do you do in the free time
+Bot(9): i like to garden and stuff
+User(10): wow, I like gardening
+Bot(10): i enjoy making things with my own hands
+
+Persona:
+i've a hat collection of over 1000 hats.
+my family does not support my career choices.
+i enjoy working with my hands and love gardening.
+i'm fluent in english spanish and french.
+i was born in somalia.
+
+Topic and Human Opinion:
+Beginning: i was raised on a horse farm.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.57
+Robotic(↓): 74
+Interesting: 79
+Fun: 81
+Consistent: 82
+Fluent: 84
+Repetitive(↓): 85
+Topic: 85
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): I don't think i've shoes and watches her.
+User(2): oh no ,that's sad
+Bot(2): I love running have two r running.
+User(3): wow that's cool
+Bot(3): i love to eat , but i the robot trying pif .
+User(4): oh
+Bot(4): Yes, want a girl restaurant down the street.
+User(5): just check on the google
+Bot(5): Hi, i is hates me So a huge gamer.
+User(6): why
+Bot(6): i run myself really great. I a lot
+User(7): I'm an athlete
+Bot(7): yes you have a swimming love to help people .
+User(8): yah
+Bot(8): I study Spanish in sky i’m doing fine. study?
+User(9): it going great
+Bot(9): I am sorry to hear your main told you you have?
+User(10): thank you have a great day
+Bot(10): I love purple. i am for am at are love purple.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a skateboarder.(like)
+Round 2: running(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+
+Revised avg score: 64.00
+Robotic(↓): 81
+Interesting: 80
+Fun: 82
+Consistent: 83
+Fluent: 84
+Repetitive(↓): 86
+Topic: 86
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My favorite music is country
+Bot(1): yea , but old school country , most of todays is crap . do you drink coffee ?
+User(2): no,I hate it
+Bot(2): how about pizza . i love pizza , i cannot imagine that anyone would hate that . . .
+User(3): yeah I love it
+Bot(3): you like national parks then ? i love the green scenery . green is just the best color
+User(4): yes, green is best color ,I like purple
+Bot(4): i like the color green especially on money .
+User(5): cool
+Bot(5): i am kidding its actually someone who makes maps , i also paint outdoors
+User(6): ok, I like outdoor games
+Bot(6): no , i am not really in to games .
+User(7): oh okay
+Bot(7): i am a third shift security guard , just finished training .
+User(8): oh that's great
+Bot(8): yeah , tell me about it . but what to do ? difficult to divorce a lawyer !
+User(9): I dont know about it
+Bot(9): why not ? i will call you lollipop . i am called bubblegum .
+User(10): ok .thank you
+Bot(10): i am really busy lately , but managing the restaurant with my brothers is great !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite music is country.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.29
+Robotic(↓): 81
+Interesting: 82
+Fun: 82
+Consistent: 80
+Fluent: 82
+Repetitive(↓): 83
+Topic: 81
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hello , how are you ?
+User(2): fine
+Bot(2): hi , i am a little tired from playing the violin .
+User(3): oh great,I play keyboard
+Bot(3): i play the guitar . i am a big fan of music .
+User(4): great
+Bot(4): i play the guitar , what do you play ?
+User(5): piano
+Bot(5): i play the violin , what do you do ?
+User(6): I already said
+Bot(6): i am a little tired from playing the violin .
+User(7): sad
+Bot(7): i am sorry to hear that . i am a big fan of the music .
+User(8): I'm a big fan of music,
+Bot(8): i like to play the guitar , but i like to play the guitar
+User(9): I enjoy playing piano
+Bot(9): i play the violin , but i love it .
+User(10): great, have a great day
+Bot(10): i like to run , but i like to run
+
+Persona:
+i've a son who is in junior high school.
+my favourite skater is rob dryden.
+i enjoy sports such as running.
+i diet a lot.
+i play several instruments.
+
+Topic and Human Opinion:
+Beginning: i'm a musician and hope to make it big some day.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.43
+Robotic(↓): 73
+Interesting: 75
+Fun: 75
+Consistent: 77
+Fluent: 76
+Repetitive(↓): 79
+Topic: 79
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): I go to the gym
+Bot(2): i try to go to the gym every day
+User(3): oh okay
+Bot(3): yeah i go to the gym weekly
+User(4): i go to gym daily
+Bot(4): i try to go to the gym every day
+User(5): i excerise daily
+Bot(5): i exercise every day at the gym
+User(6): me too
+Bot(6): i exercise every day at the gym
+User(7): what else do you do?
+Bot(7): mostly going to the gym
+User(8): ok
+Bot(8): same
+User(9): how was your day
+Bot(9): it was quiet and rainy
+User(10): oh ok ,have a great day
+Bot(10): you do the same
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i go to the gym most days just to socialize.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.86
+Robotic(↓): 85
+Interesting: 85
+Fun: 84
+Consistent: 86
+Fluent: 85
+Repetitive(↓): 89
+Topic: 88
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): HI
+Bot(1): i love to cook . i love to cook .
+User(2): I love too. I have two dogs
+Bot(2): i have a cat named radar .
+User(3): ok, my dogs names are puppy and jimmy
+Bot(3): i love dogs , i love dogs .
+User(4): great,they two look so cute
+Bot(4): i like to eat fish .
+User(5): my dogs keeps me busy always
+Bot(5): i am a girl . i am a big fan of classical music .
+User(6): oh ok , classical music is somewhat boring
+Bot(6): i like to listen to music .
+User(7): i too like music
+Bot(7): i like to listen to music .
+User(8): i listen to music while i work
+Bot(8): i like to go fishing .
+User(9): cool
+Bot(9): i love to cook . i love to cook .
+User(10): ok ,what else do you do
+Bot(10): i like to go fishing . i love to go fishing .
+User(11): ok then
+Bot(11): i am a student , but i am a student .
+User(12): oh ok have a great day
+Bot(12): i am doing well . just got done walking my dog .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have two dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.43
+Robotic(↓): 79
+Interesting: 81
+Fun: 84
+Consistent: 85
+Fluent: 86
+Repetitive(↓): 88
+Topic: 89
+
+####################
+

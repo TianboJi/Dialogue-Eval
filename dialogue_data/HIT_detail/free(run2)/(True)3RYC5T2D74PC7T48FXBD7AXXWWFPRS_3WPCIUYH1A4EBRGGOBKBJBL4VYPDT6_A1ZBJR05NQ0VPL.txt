@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, what do you think of the Nation's current economic situation?
+Bot(1): i am a general of the old age of two .
+User(2): Okay, that is nice, I am 35 years old?
+Bot(2): i am 25 , i am 25 and i am 25
+User(3): Do you know anything about the economy?
+Bot(3): no , i am not . i am a huge fan of guns , but i am a huge fan of it .
+User(4): I like guns too but I thought we could talk of the economy
+Bot(4): i am sorry to hear that . i am only 22
+User(5): Okay, that is alright, what do you do for fun?
+Bot(5): i like to shop and shop
+User(6): I like to shopping too, that is an economic activity
+Bot(6): i like to shop , but i do not have time for anything
+User(7): That is fine then
+Bot(7): i like to shop , but i do not have much time to shop
+User(8): What else do you like to do?
+Bot(8): i like to shop , but i love to shop
+User(9): You have sad so before
+Bot(9): i love to shop , but i am not sure what i do
+User(10): That is alright
+Bot(10): i love to shop , but i do not have time for anything
+
+Persona:
+i like shopping.
+i'm a descendant of christopher columbus.
+my father played violin professionally.
+my name is george.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: The economy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.29
+Robotic(↓): 87
+Interesting: 32
+Fun: 26
+Consistent: 44
+Fluent: 20
+Repetitive(↓): 75
+Topic: 24
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, are you a soccer fan?
+Bot(1): yes i am . i do not care for sports much
+User(2): Oh, I see, I love soccer
+Bot(2): yes i do , soccer is my favorite , what do you like
+User(3): Soccer and basketball
+Bot(3): yes , football and basketball , i guess like you
+User(4): That is so cool, I guess we can see games together
+Bot(4): we could and maybe this weekend meet up for a game of basketball
+User(5): That will be awesome
+Bot(5): we could and maybe this weekend meet up for a game of basketball
+User(6): Yea, what else do you do?
+Bot(6): i play basketball for fun
+User(7): I am not good at basketball but I like watching
+Bot(7): do u play or just like to watch ?
+User(8): I just watch
+Bot(8): cool what do you like to watch ?
+User(9): What other game do you play?
+Bot(9): i love soccer and basket ball
+User(10): That is nice then
+Bot(10): and its fun to play too
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Soccer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.57
+Robotic(↓): 43
+Interesting: 57
+Fun: 62
+Consistent: 63
+Fluent: 63
+Repetitive(↓): 46
+Topic: 61
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Have you been on any vacations recently?
+Bot(1): I don't agree with trump but i don't agree with was born with my heart with him
+User(2): I do not like trump either
+Bot(2): I love rock as a like video have a favorite food?
+User(3): What is your favorite food?
+Bot(3): hello, you have yeah teachers today? I just got back from blocks
+User(4): I do not understand you
+Bot(4): it is to travel though I'm a stay at home mom .
+User(5): I love to travel, I love vacations with my wife
+Bot(5): Colorado. you have a from ?
+User(6): I am from Tennessee
+Bot(6): Yes, i am. vegan. I'm a fruitarian. good person.
+User(7): I eat meat
+Bot(7): Ok. where are you work?
+User(8): I work in a bank
+Bot(8): parents am favorite you :)
+User(9): My parent are from Tennessee too?
+Bot(9): i am a graduate student, i am studying to am currently in high it’s do you do?
+User(10): I work
+Bot(10): California, where see your from?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Vacations(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.00
+Robotic(↓): 83
+Interesting: 9
+Fun: 2
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like Donald Trump?
+Bot(1): i do not know if i like him or not . i have never seen the movie .
+User(2): It is not a movie, Donald Trump is the President
+Bot(2): i do not know if i like him or not . i have never seen the movie .
+User(3): Do you know anything about politics?
+Bot(3): no , i really have not gotten into politics
+User(4): I love talking about politics
+Bot(4): i like to surf the web and go on walks when i am bored .
+User(5): I love doing that too
+Bot(5): i have been watching the friday movies , whats your favorite movie ?
+User(6): The Titanic, yours?
+Bot(6): i have been watching the friday movies , whats your favorite movie ?
+User(7): Okay, what are you doing this weekend?
+Bot(7): i have been watching the friday movies , whats your favorite movie ?
+User(8): Okay, I want to go Hike
+Bot(8): go for a walk , i love nature
+User(9): I love taking walks too
+Bot(9): great , i like walks in the park
+User(10): So do I
+Bot(10): i have been watching the friday movies , whats your favorite movie ?
+
+Persona:
+my favorite movie is friday.
+i like to take walks.
+i've solar panels on my roof.
+i have a son who is in junior high school.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: Politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.14
+Robotic(↓): 77
+Interesting: 30
+Fun: 32
+Consistent: 46
+Fluent: 31
+Repetitive(↓): 73
+Topic: 29
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What do you think of love?
+Bot(1): peace and love to all . i think maybe we can join worlds some day !
+User(2): That is a brilliant idea
+Bot(2): my mom is a nurse so she keeps me on target .
+User(3): Okay, are you married?
+Bot(3): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(4): That is amazing, I have been married for 5 years?
+Bot(4): yes been married 40 years and 1 daughter
+User(5): How old is your daughter?
+Bot(5): she is 34 years old now
+User(6): She is a grown woman
+Bot(6): i am grown and i love being grown .
+User(7): That is nice, do you feel old?
+Bot(7): i am 25 , half way to the 50 mark .
+User(8): okay, that is cool
+Bot(8): i am kidding its actually someone who makes maps , i also paint outdoors
+User(9): You paint?
+Bot(9): what do you like to paint ?
+User(10): I do not paint
+Bot(10): yes . i am an artist . i paint with my mind and my hands .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.57
+Robotic(↓): 76
+Interesting: 68
+Fun: 64
+Consistent: 18
+Fluent: 53
+Repetitive(↓): 32
+Topic: 38
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What do you think of Guns?
+Bot(1): i do not know . i like to go to the gym .
+User(2): I go to the gym too
+Bot(2): i love to go fishing .
+User(3): I like shooting
+Bot(3): your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like to go fishing . your persona : i like
+User(4): what do you do aside fishing?
+Bot(4): i like to go to the gym and listen to music .
+User(5): I love music too
+Bot(5): i love music . i like country music .
+User(6): I love hip hop
+Bot(6): i like to go to the gym and listen to music .
+User(7): Do you carry heavy weights?
+Bot(7): no , i do not . i like to go to the park .
+User(8): I like talking walks
+Bot(8): i like to go to the gym and listen to music .
+User(9): Do you take alcohol?
+Bot(9): no , i do not . i like to go to the park .
+User(10): That is nice
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Guns(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.14
+Robotic(↓): 61
+Interesting: 23
+Fun: 24
+Consistent: 48
+Fluent: 50
+Repetitive(↓): 66
+Topic: 35
+
+####################
+

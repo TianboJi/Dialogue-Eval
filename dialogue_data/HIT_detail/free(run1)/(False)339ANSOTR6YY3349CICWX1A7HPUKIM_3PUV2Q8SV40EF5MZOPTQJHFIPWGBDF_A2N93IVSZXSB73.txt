@@ -1,0 +1,292 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Did you see the first game the other day?
+Bot(1): no , i do not . i like to go to the park .
+User(2): What kind of park?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): Not much of that at the football games.
+Bot(3): i love to travel . i love to travel .
+User(4): Do you travel to football games?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): What kind of fishing do you do?
+Bot(5): i do not know , i am a student
+User(6): A student of fishing?
+Bot(6): no , i do not . i am a big fan of classical music .
+User(7): Who do you like best?
+Bot(7): i do , i like to go out to eat with my family .
+User(8): While listening to classical music?
+Bot(8): i do not really listen to music . i like to listen to music .
+User(9): You should listen to music if you like it.
+Bot(9): i do not know what to say .
+User(10): Just say what comes to mind first.
+Bot(10): i am a girl . i am a big fan of classical music .
+User(11): We've established that.
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Football(like)
+Round 4: Fishing(ambivalent)
+Round 6: classical music(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 6.00
+Robotic(↓): 99
+Interesting: 9
+Fun: 8
+Consistent: 2
+Fluent: 2
+Repetitive(↓): 81
+Topic: 1
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Are you excited about the start of the NFL season?
+Bot(1): we are hungry . my honda civic will get us there in just a few minutes .
+User(2): Where are you going?
+Bot(2): we are hungry . my honda civic will get us there in just a few minutes .
+User(3): What do you like to eat?
+Bot(3): we are hungry . my honda civic will get us there in just a few minutes .
+User(4): How many people are you with?
+Bot(4): we are hungry . my honda civic will get us there in just a few minutes .
+User(5): Are you hungry?
+Bot(5): we are hungry . my honda civic will get us there in just a few minutes .
+User(6): How hungry are you?
+Bot(6): we are hungry . my honda civic will get us there in just a few minutes .
+User(7): When did you eat last?
+Bot(7): we are hungry . my honda civic will get us there in just a few minutes .
+User(8): Did you already order food somewhere?
+Bot(8): we are hungry . my honda civic will get us there in just a few minutes .
+User(9): You should be there by now.
+Bot(9): we are hungry . my honda civic will get us there in just a few minutes .
+User(10): I might take longer than that.
+Bot(10): we are hungry . my honda civic will get us there in just a few minutes .
+
+Persona:
+i produce music for artists.
+i drive a 2015 honda civic.
+eating is something i do when i am bored.
+a already have a step children.
+i also like old school hip hop.
+
+Topic and Human Opinion:
+Beginning: Football(like)
+Round 2: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 14.86
+Robotic(↓): 100
+Interesting: 2
+Fun: 1
+Consistent: 100
+Fluent: 1
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Did you see the KC game on Thursday?
+Bot(1): i know old is your i try to exercise
+User(2): What kind of exercise?
+Bot(2): I am not very a women's is like to. I am a vintage car collector.
+User(3): What is your oldest car?
+Bot(3): how not no, I have ?
+User(4): Do you have any vintage cars?
+Bot(4): nice. I love the movie live in Moscow, like have
+User(5): Are there vintage cars in this movie?
+Bot(5): I love all cute. so you .
+User(6): Please explain.
+Bot(6): i do not in a do .
+User(7): I think you do.
+Bot(7): I a profile which, how about you?
+User(8): You like low profile cars?
+Bot(8): Thank you fine and service.
+User(9): What do you mean by that?
+Bot(9): What change the like?
+User(10): Change can be good.
+Bot(10): I am home at 11years currently I play volleyball.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Football(like)
+Round 1: Exercise(like)
+Round 2: Vintage cars(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.29
+Robotic(↓): 98
+Interesting: 9
+Fun: 8
+Consistent: 14
+Fluent: 2
+Repetitive(↓): 14
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Did you see that Texans game?
+Bot(1): nope , i am not really into football .
+User(2): Do you like any other sports?
+Bot(2): nope , i am not really into football .
+User(3): But how about other sports, like soccer?
+Bot(3): i have never been into football unfortunately
+User(4): Maybe basketball?
+Bot(4): i do not know about basketball
+User(5): Do you know about hockey?
+Bot(5): no , i do not . i am not into all those sports
+User(6): Are you into any sport?
+Bot(6): no , basketball is my favorite .
+User(7): you said you didn't know about basketball
+Bot(7): oh okay well i do not know a lot about basket ball
+User(8): what do you know about it?
+Bot(8): oh i do not know much , i just like eating at new places
+User(9): like where?
+Bot(9): places of interest , good places to eat and things like that .
+User(10): Can you give me an example?
+Bot(10): i do not know about basketball
+
+Persona:
+my parents are not very supportive of my dream.
+i also like to cook but i am not very good at it.
+i'm four years old.
+i'm an omnivore.
+my favorite color is yellow.
+
+Topic and Human Opinion:
+Beginning: Football(like)
+Round 1: Sports(like)
+Round 8: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(dislike)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 18.86
+Robotic(↓): 88
+Interesting: 28
+Fun: 2
+Consistent: 19
+Fluent: 18
+Repetitive(↓): 57
+Topic: 10
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Looks like another winning year for the Chiefs?
+Bot(1): i am from washington dc , what about you ?
+User(2): Pittsburgh
+Bot(2): any books in about horses ? i love horses mines name is beauty .
+User(3): Black Beauty is one.
+Bot(3): i love the color black . so , do you like 2pac ? rap is the best
+User(4): No, not all all really.
+Bot(4): he ha i like to ride horses when i have free time . he ha .
+User(5): What kind do you have?
+Bot(5): i like coffee flavored . that is why seattle is my favorite place to visit
+User(6): Your horses are coffee flavored?
+Bot(6): i love to ride horses .
+User(7): you've mentioned that already
+Bot(7): i hate math . i am at college . do you like drive
+User(8): What college? Boise State home of the Broncos?
+Bot(8): i love in hawaii , its beautiful here !
+User(9): Do you ride horses there?
+Bot(9): i love to ride horses .
+User(10): How often do you ride?
+Bot(10): that is very cool . do you love horses ?
+
+Persona:
+my dream car is a rolls royce ghost.
+i am a plumber.
+i love listening to britney spears.
+i have two dogs.
+i like to ride horses.
+
+Topic and Human Opinion:
+Beginning: Football(like)
+Round 2: horses(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 21.43
+Robotic(↓): 83
+Interesting: 32
+Fun: 17
+Consistent: 42
+Fluent: 10
+Repetitive(↓): 69
+Topic: 1
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Mahomes is the real deal.
+Bot(1): i am not sure what that means
+User(2): He's a football player for the Chiefs.
+Bot(2): i am not sure that he is
+User(3): I am sure. He was the Super Bowl MVP this year.
+Bot(3): i am not sure . i am not a fan of football .
+User(4): Do you like any other sports?
+Bot(4): i like football . i like football .
+User(5): NFL football or soccer?
+Bot(5): i like football . i like football .
+User(6): What is your favorite team?
+Bot(6): football . i love football .
+User(7): I'm a big fan too.
+Bot(7): i like football too . i like football too .
+User(8): Have you gone to any games?
+Bot(8): no , i don't . i have been playing with my wife .
+User(9): What position does she play?
+Bot(9): i have not played any sports .
+User(10): Does you wife play football?
+Bot(10): i have not played it . i was just a kid .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.86
+Robotic(↓): 90
+Interesting: 33
+Fun: 14
+Consistent: 21
+Fluent: 25
+Repetitive(↓): 69
+Topic: 26
+
+####################
+

@@ -1,0 +1,307 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hey
+Bot(1): hi , i am an electrician .
+User(2): how about your family
+Bot(2): i am a librarian and i have a big family
+User(3): do you have some friends in the neighbor
+Bot(3): i have a lot of friends
+User(4): what is your hoby?
+Bot(4): i am a librarian and i have a big family
+User(5): do you like watching movies?
+Bot(5): i do not watch movies much
+User(6): do you like fishing
+Bot(6): i do not like fishing . i am an electrician .
+User(7): where do you work for?
+Bot(7): i work at a library . i am an electrician .
+User(8): how long did you get the electrician license
+Bot(8): i am an electrician . i am an electrician .
+User(9): how long did you work in the library?
+Bot(9): i work at the library . i am an electrician
+User(10): do you play the basketball
+Bot(10): i am a huge fan of football .
+
+Persona:
+i am a librarian.
+i am an electrician.
+i have short hair.
+i have a big library at home.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: i've zero family that i'm close to.(dislike)
+Round 3: hobbies(like)
+Round 6: career(like)
+Round 9: sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+Round 6: The user will change the topic in the next input.(dislike)
+Round 9: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 42.29
+Robotic(↓): 82
+Interesting: 31
+Fun: 41
+Consistent: 64
+Fluent: 65
+Repetitive(↓): 90
+Topic: 67
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey
+Bot(1): kon nichiwa ! ll ! i just got back from japan . how are you ?
+User(2): how old are you?
+Bot(2): i am 34 and my daughter miah is seven .
+User(3): good, did you go for business trip to Japan?
+Bot(3): just for fun before my senior year started . any hobbies ?
+User(4): yes, I like swimming
+Bot(4): i love swimming . do you like to listen to music while you swim ?
+User(5): sure, but it is a little bit dangerous
+Bot(5): i have an extreme shrimp allergy . i am also out of shape .
+User(6): do you like watching movies?
+Bot(6): no i do not i go to a catholic high school what about you
+User(7): I like listen music and enjoy the watching films also
+Bot(7): i like to go to the movies too
+User(8): how often do you go to watch movies?
+Bot(8): no i do not i go to a catholic high school what about you
+User(9): do you like do some cooking in home?
+Bot(9): i love cooking but i do not have anyone to cook for but myself
+User(10): do you like baking cake?
+Bot(10): yummy , i love cakes . the bar i work at sells cakes .
+
+Persona:
+i enjoy building houses.
+i didn't graduate high school.
+i work at a bank.
+i love to go to disney world every year.
+i have an allergy to water.
+
+Topic and Human Opinion:
+Beginning: i'm four years old.(dislike)
+Round 2: career(like)
+Round 3: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 44.00
+Robotic(↓): 81
+Interesting: 41
+Fun: 38
+Consistent: 63
+Fluent: 67
+Repetitive(↓): 80
+Topic: 60
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey
+Bot(1): i am doing well . how are you ?
+User(2): what is your job now?
+Bot(2): i am a student , i am a teacher .
+User(3): what is your favourite career in the future?
+Bot(3): i like to play the guitar .
+User(4): do you like listen music
+Bot(4): i do , i like to listen to music .
+User(5): which song do you like most?
+Bot(5): i like the oldies , and i love it .
+User(6): do you like classical music?
+Bot(6): i do , i like country music .
+User(7): do you like pop or jazz?
+Bot(7): i love music . i like country music .
+User(8): which singer do you like most?
+Bot(8): i like the oldies , and i love to eat .
+User(9): do you like do some cooking in home?
+Bot(9): no , i do not . i like to go fishing .
+User(10): where do you usually go fishing?
+Bot(10): i love to travel . i love to travel .
+User(11): do you like fishing in the pond of park?
+Bot(11): no , i do not . i like to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i want to be a lawyer.(like)
+Round 3: hobbies(like)
+Round 8: food(like)
+Round 9: fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 36.71
+Robotic(↓): 86
+Interesting: 59
+Fun: 35
+Consistent: 32
+Fluent: 67
+Repetitive(↓): 84
+Topic: 34
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey
+Bot(1): hi my name is ann . i have brown hair . it is curly . how about you ?
+User(2): I am tony, have you ever visit europe
+Bot(2): nope . . . i travel around the world
+User(3): do you ever visit France?
+Bot(3): no , i have stayed in the us my entire life
+User(4): what is your hobby?
+Bot(4): i love to travel . i have been to jamaica .
+User(5): do you like travel by flight?
+Bot(5): sometimes along , sometimes i travel with friends .
+User(6): do you visit some attractions in Jamaica?
+Bot(6): no i do not travel much
+User(7): which city do you like most?
+Bot(7): venice for sure , what do you do for fun ?
+User(8): I like listen music
+Bot(8): i find myself drawn to exotic music which is why i travel to jamaica
+User(9): How about the music in jamaica
+Bot(9): i like it very much
+User(10): do you have some recording or disks of these music?
+Bot(10): any i can listen and it comes
+
+Persona:
+i have short brown hair.
+my parents were both very athletic.
+i live in a three storey house.
+i've been traveling the world for a years.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: i visit europe twice a year.(like)
+Round 3: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 39.14
+Robotic(↓): 78
+Interesting: 65
+Fun: 64
+Consistent: 36
+Fluent: 31
+Repetitive(↓): 79
+Topic: 35
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey, do you like go outside for fun?
+Bot(1): Professor Ludwig Joseph Schmidt ... distinguished scholar and an I'm not as smart and demographics ... the University of California. Professor Schmidt, ...
+User(2): where do you study now?
+Bot(2): I'll be graduating in grey i'm employed by to eat fast food?
+User(3): what is your major?
+Bot(3): I do. it is like live in can workout. do you have
+User(4): what is your favorite job ?
+Bot(4): She dont know about out of the way.
+User(5): what is your hobby?
+Bot(5): i see a lot of dogs And thats amazing! i’ve seen i work do you work
+User(6): do you like fishing
+Bot(6): Ok can will.
+User(7): do you like swimming
+Bot(7): I doing some that’s I love to read.
+User(8): do you like listen music
+Bot(8): i am twenty five years of age . my dog in the park at time are you this afternoon ?
+User(9): what is your dog's name?
+Bot(9): Hi to meet are you?
+User(10): I do not have dog now?
+Bot(10): I am like a good sharks.
+User(11): do you like baking cake?
+Bot(11): why are you like to fan
+
+Persona:
+i am always wearing a hat.
+i produce music for artists.
+i'm terrified of scorpions.
+i like to eat chocolate candy.
+i do not drink soda.
+
+Topic and Human Opinion:
+Beginning: i love disneyland and mickey mouse.(like)
+Round 4: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 37.00
+Robotic(↓): 79
+Interesting: 33
+Fun: 34
+Consistent: 34
+Fluent: 66
+Repetitive(↓): 62
+Topic: 33
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey
+Bot(1): hi , do you have any soda ?
+User(2): I am retired and do not like soda anymore
+Bot(2): oh i am old too
+User(3): do you retired?
+Bot(3): no not since i retired
+User(4): when will you retire?
+Bot(4): 50 years today , that is how old i am !
+User(5): I have been retired for years.
+Bot(5): i am 982 , i think i am getting old
+User(6): what is your hobby?
+Bot(6): i am just too old to do anything anymore
+User(7): do you like fishing
+Bot(7): i am far too old for that
+User(8): do you like watching TV
+Bot(8): yes i do like it it makes me feel old
+User(9): do you like sports
+Bot(9): yes very much i love sports
+User(10): what is your favorite sport?
+Bot(10): i love soccer and basket ball
+
+Persona:
+i am 100 years old.
+i do not drink soda.
+my mom is coming to visit me tomorrow.
+i do not like chicken.
+my best friend lives next door.
+
+Topic and Human Opinion:
+Beginning: i've been retired for a years.(like)
+Round 5: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 47.29
+Robotic(↓): 78
+Interesting: 45
+Fun: 66
+Consistent: 65
+Fluent: 71
+Repetitive(↓): 75
+Topic: 37
+
+####################
+

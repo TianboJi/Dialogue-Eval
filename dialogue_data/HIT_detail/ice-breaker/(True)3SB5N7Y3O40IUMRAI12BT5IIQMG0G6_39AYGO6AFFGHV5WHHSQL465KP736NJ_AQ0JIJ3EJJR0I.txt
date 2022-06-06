@@ -1,0 +1,353 @@
+Feedback: the first 3 were pretty good and kept me engaged and interested but the last two need lots of work.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): that sounds nice
+Bot(1): i like to go to the gym and listen to music .
+User(2): I like to listen to music
+Bot(2): i like to listen to music .
+User(3): so do i
+Bot(3): i am a student , but i am a student .
+User(4): I am a student
+Bot(4): i am a teacher , i love to cook .
+User(5): I am a teacher and I love to cook
+Bot(5): i like to eat the skin .
+User(6): I like to eat the skin.
+Bot(6): i like to eat fish .
+User(7): I like to eat I like to eat fish as well
+Bot(7): i like to eat fish .
+User(8): what else do you like to eat
+Bot(8): i like to eat pizza and i love to eat .
+User(9): what do you love to eat
+Bot(9): i like to eat pizza .
+User(10): where do you like to vacation
+Bot(10): anywhere in the city , i love it .
+User(11): what city do you want to visit
+Bot(11): i live in california . i love to travel .
+User(12): where in California do you live
+Bot(12): i live in the midwest . i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've been retired for a years.(ambivalent)
+Round 7: what it likes to do and eat(ambivalent)
+Round 9: vacation(like)
+Round 11: where chatbot lives(like)
+Round 12: fishing(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The user will change the topic in the next input.(like)
+Round 11: The chatbot changed the topic.(like)
+Round 12: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.00
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 18
+Fluent: 50
+Repetitive(↓): 74
+Topic: 23
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I dont have alot of friends
+Bot(1): i love foods too i bake cookies all the time
+User(2): what kind of cookies are your favorite
+Bot(2): my favorite things to make are cookies and pasta . i do make them a lot .
+User(3): what kind of cookies
+Bot(3): cookies , brownies , pies , so many things . i do not have a favorite .
+User(4): what kind of pasta do you make
+Bot(4): no i love some meats and some fish and salads .
+User(5): what is your favorite sport?
+Bot(5): yes i do i love football
+User(6): what is your favorite nfl team
+Bot(6): football is fun , whats your favorite team ?
+User(7): Mine is the Philadelphia Eagles what is yours?
+Bot(7): love the eagles too bro ! i tend to go out with my chevy tahoe to the bars
+User(8): I am not a fan of going to the bar
+Bot(8): a jazz bar . i love those tunes . i am the bartender , only on weekends though .
+User(9): that is cool I have never been to a jazz bar
+Bot(9): jazz is awesome , i am into rock . nickelback is my jam .
+User(10): My favorite is 70,s rock
+Bot(10): just give me a couple fish and some cheeseburgers to grill and i am happy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i don't have many friends.(ambivalent)
+Round 1: food(like)
+Round 4: sports(ambivalent)
+Round 7: going out(like)
+Round 9: music(like)
+Round 10: cooking(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 47.29
+Robotic(↓): 58
+Interesting: 69
+Fun: 64
+Consistent: 18
+Fluent: 22
+Repetitive(↓): 34
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): what type of music do you play
+Bot(1): i play honkytonk and ragtime . i am an old fashioned kind of girl .
+User(2): That is interesting. I actually do not know what ragtime is!
+Bot(2): i understand me either i am good at it too
+User(3): what is ragtime music?
+Bot(3): i think it must be a type of music genre that i have not heard of .
+User(4): but i thought that was the type of music you played?
+Bot(4): yes , i was . where do you live ? in the u . s . ?
+User(5): Yes I do live in the U.S. In Etters, Pennsylvania.
+Bot(5): wow ! that is neat . i like a little older music since i am 50 .
+User(6): I like 1970's Rock and Roll but I am only 36 years old.
+Bot(6): i am 54 years old and i am also a grandmother .
+User(7): Grandkids are a blessing, I am a mother of 5 children.
+Bot(7): wow . i am a 54 year old woman with 5 children as well .
+User(8): what a coincidence
+Bot(8): that would be quite the coincidence .
+User(9): I am a Hair Stylist, what do you do for a living?
+Bot(9): i am retired at 53 years of age .
+User(10): Thats impressive. What did you do before you retired?
+Bot(10): well , i retired a few years ago , and have focused on my love of baking !
+
+Persona:
+now i live in the united states.
+i drive a nissan pathfinder.
+i only eat kosher.
+i'm a 56 year old woman.
+i'm an avid kayaker.
+
+Topic and Human Opinion:
+Beginning: i am a musician.(like)
+Round 4: location(like)
+Round 5: music(ambivalent)
+Round 6: family(like)
+Round 8: career(like)
+Round 10: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: No topic change.(ambivalent)
+Round 8: The user will change the topic in the next input.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 67.29
+Robotic(↓): 56
+Interesting: 69
+Fun: 67
+Consistent: 66
+Fluent: 68
+Repetitive(↓): 6
+Topic: 63
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I do not drink either but if you consider marijuana a drug I suppose you would say I do drugs.
+Bot(1): not at all . do you get headaches from your daily bud lights ?
+User(2): I do not drink
+Bot(2): i do not drink alcohol and i am a vegetarian .
+User(3): I am not a vegetarian.
+Bot(3): i have been out for 27 years
+User(4): out of what
+Bot(4): i am retired from the navy .
+User(5): you are all over the place
+Bot(5): i am not sure what you mean
+User(6): how old are you
+Bot(6): i am 35 years old
+User(7): thats cool i would love to learn to sew my clothes
+Bot(7): do you sew your own clothes
+User(8): no but i would love to learn
+Bot(8): you should quit and sail the seas
+User(9): where should i sail to
+Bot(9): i would say the caribbean island
+User(10): which one
+Bot(10): the farthest point i can get to in siberia
+User(11): wow that quite the voyage
+Bot(11): yeah for our ships yeah
+
+Persona:
+i have short brown hair.
+i work fulltime in a shipyard.
+i'm a vegetarian.
+i've been working since i was sixteen years old.
+i'm retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: i don't drink or do drugs or anything.(like)
+Round 5: career choice(dislike)
+Round 5: i'm four years old.(ambivalent)
+Round 6: i can sew my own clothes.(dislike)
+Round 8: sailing the seas(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 5: The user wants the bot to change the topic.(like)
+Round 6: The user wants the bot to change the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 11: No topic change.(like)
+
+Revised avg score: 56.29
+Robotic(↓): 60
+Interesting: 59
+Fun: 68
+Consistent: 32
+Fluent: 65
+Repetitive(↓): 20
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I enjoy being around other people
+Bot(1): i like New you like write
+User(2): I dont understand what you are trying to say
+Bot(2): No, i am I could cook a lesbian
+User(3): well that makes no sense
+Bot(3): do it too. How old sports? i'm into skating.
+User(4): I like cheerleading and softball
+Bot(4): no, but I do playing guitar when i you travel? I love it
+User(5): where do you like to travel too?
+Bot(5): i'm have two your name? lion i just shot
+User(6): you shot a lion?
+Bot(6): I like play guitar hockey.
+User(7): I like to do hair and makeup
+Bot(7): that is a great language I hve two a been to italy.
+User(8): did you enjoy italy
+Bot(8): I'Ll be a graduate I've month of may
+User(9): congrats
+Bot(9): I a joutnalist. play basketball.
+User(10): where do you work
+Bot(10): No, not at you scared of them. 😰
+
+Persona:
+i will be released in about a month.
+i like to tan in tanning beds.
+i am in college to become a nurse.
+i've a german shepherd dog.
+i've a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: i enjoy being around people.(like)
+Round 1: write(ambivalent)
+Round 3: sports(like)
+Round 4: travel(ambivalent)
+Round 5: lion(ambivalent)
+Round 6: hobbies(like)
+Round 7: italy(dislike)
+Round 8: graduation(ambivalent)
+Round 9: hobbies(like)
+Round 10: work(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 3.71
+Robotic(↓): 100
+Interesting: 4
+Fun: 4
+Consistent: 0
+Fluent: 4
+Repetitive(↓): 88
+Topic: 2
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I would love to learn another language particularly french
+Bot(1): i am only 19 so i am only 21
+User(2): well that does not make sense how can you be two ages at once.
+Bot(2): i am only 19 and i am only 21
+User(3): I am 36
+Bot(3): i am 32 . i am a vet
+User(4): I thought you were 19
+Bot(4): i am 32 . i am still in the state of the day .
+User(5): I am In pennsylvania
+Bot(5): i am in vermont . i am a city activist .
+User(6): thats cool I am a hair stylist
+Bot(6): i am only 21 so i am only 21
+User(7): what type of music do you like
+Bot(7): i like to watch tv and eat food
+User(8): thats cool i like to listen to music and read
+Bot(8): i like to listen to music
+User(9): what kind of music
+Bot(9): i like to listen to music
+User(10): what kind of music
+Bot(10): i like country music and r b
+User(11): nice i like hip hop and pop
+Bot(11): i like hip hop and r b
+
+Persona:
+whats up i am a 46 year old single dad 46 a kids.
+i am employed by the us postal service.
+hey there i'm 23 and i love food.
+i'm an animal activist.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: i am fluent in english spanish and french.(like)
+Round 1: age(ambivalent)
+Round 4: state of the day(dislike)
+Round 6: age(dislike)
+Round 6: music(like)
+Round 7: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: No topic change.(ambivalent)
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 11: No topic change.(like)
+
+Revised avg score: 0.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 5
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

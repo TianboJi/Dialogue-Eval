@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I have an older sister
+Bot(1): i only have one brother . . . and a dog . he wears leather boots .
+User(2): My older sister smokes
+Bot(2): i am 26 and she is 22 . only one i got but she cant cook .
+User(3): Do you cook?
+Bot(3): there is nothing i cannot cook . i am a chef .
+User(4): What do you like to cook?
+Bot(4): that is good ! what do you cook ?
+User(5): I cook salad
+Bot(5): the pizza place on the corner makes a great chicago style salad ! ! !
+User(6): I love chicago style salad
+Bot(6): yes we have a huge salad bar and all you can eat pizza
+User(7): I love pizza
+Bot(7): ha pizza is my favorite food also .
+User(8): My sister loves pizza
+Bot(8): i love pepperoni pizza , it is so yummy
+User(9): My older sister makes good pizza dough
+Bot(9): i love pizza , who does not like it ?
+User(10): Not sure
+Bot(10): so i love drinking tea . are you a tea or coffee person ?
+User(11): I prefer coffee
+Bot(11): i like coffee as well ! i drive my acura to the coffee shop every morning .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've one older sister.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.86
+Robotic(↓): 11
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 0
+Topic: 30
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorite car to work on?
+Bot(1): i love my foreign car , toyota
+User(2): What kind?
+Bot(2): ford taurus . its a nice car . what do you do ?
+User(3): I am a doctor
+Bot(3): oh . i sell cars for a living .
+User(4): I like to work on vintage cars
+Bot(4): what make and models do you like
+User(5): Chevy S10
+Bot(5): all bmw i love bmws a lot
+User(6): Oh that's cool
+Bot(6): what make and models do you like
+User(7): I like audi's
+Bot(7): those are good cars too
+User(8): They are fast and pretty
+Bot(8): they really are i can not wait to buy one
+User(9): How much are they?
+Bot(9): oh with all included about 5000
+User(10): I want to fix a cheap one
+Bot(10): maybe repair them not sure
+
+Persona:
+i play a lot of call of duty.
+i am 24 years old.
+i am fluent in english spanish and french.
+i used to be a painter but now i'm a housekeeper.
+i am a woman.
+
+Topic and Human Opinion:
+Beginning: i like to work on vintage cars.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.57
+Robotic(↓): 50
+Interesting: 27
+Fun: 14
+Consistent: 50
+Fluent: 62
+Repetitive(↓): 20
+Topic: 71
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How many friends do you have?
+Bot(1): what are like there! about
+User(2): Do you have friends?
+Bot(2): what I have a cat. do for fun? i love rock climbing.
+User(3): I have two cats
+Bot(3): I have part college.
+User(4): Do you want to be friends
+Bot(4): i am not sure about acting but i cannot before. I said That life
+User(5): Do you like passing time with family?
+Bot(5): he is a song is a fan .
+User(6): I like music with friends
+Bot(6): not you like gym internet person
+User(7): You don't want to be friends with me?
+Bot(7): I don't understand read something it your so upset about the president.
+User(8): A lot of people are
+Bot(8): I I am eat out.
+User(9): What kind of food?
+Bot(9): Buongiorno! I'm not. i work How are you?. tldr: i've two dogs
+User(10): I have one dog
+Bot(10): I you solve any local farm.
+
+Persona:
+i'm rather skinny as i like to stay in shape.
+i enjoy gardening and walking outdoors.
+i'm partly deaf.
+my favorite spanish word is trabajo.
+i feel like i might live forever.
+
+Topic and Human Opinion:
+Beginning: i don't have many friends.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 1.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 91
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hi ! how are you ? i am a musician , are you ?
+User(2): I am not a musician but I like music
+Bot(2): i am super afraid of heights
+User(3): So you don't like hiking?
+Bot(3): not really . with 3 kids , i do not have much time to watch
+User(4): How old are you?
+Bot(4): i am 24 years old and you are
+User(5): I am 32
+Bot(5): i am super afraid of heights
+User(6): Do you like gardening?
+Bot(6): sometimes , i really am into gardening
+User(7): What do you like to plant?
+Bot(7): my three kids and i like to garden also . do you have pets ?
+User(8): I have a dog
+Bot(8): i use to have pets when my kids were little
+User(9): How old are your kids?
+Bot(9): they are 3 and 4
+User(10): And your third?
+Bot(10): 3 one girl and two boys
+
+Persona:
+i am currently in a juvenile detention center.
+i am deathly afraid of heights.
+i'm a musician.
+i've three children.
+i'm 24 years old.
+
+Topic and Human Opinion:
+Beginning: i enjoy gardening and walking outdoors.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 19.29
+Robotic(↓): 100
+Interesting: 24
+Fun: 12
+Consistent: 18
+Fluent: 28
+Repetitive(↓): 68
+Topic: 21
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I have one older sister
+Bot(1): i have a sister , sister and sister .
+User(2): Three sisters?
+Bot(2): yes i have one sister and one sister
+User(3): Ok
+Bot(3): i have two sisters and one sister .
+User(4): Do you like spending time with your sister?
+Bot(4): yes i do i love them
+User(5): Do you like to have dinner with your sister?
+Bot(5): yes i do , i love to go out with my family
+User(6): What do you like to do?
+Bot(6): i like to cook with her .
+User(7): Is she a good cook?
+Bot(7): she is a cook , she loves to cook
+User(8): What does she like to cook?
+Bot(8): she taught me to cook . she taught me to cook .
+User(9): Does she teach cooking classes?
+Bot(9): she taught me to cook . she taught me to cook .
+User(10): What do you like to cook?
+Bot(10): pasta is my favorite . what about you ?
+User(11): pasta
+Bot(11): pasta is my favorite . what do you do for fun ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have one older sister.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.29
+Robotic(↓): 100
+Interesting: 26
+Fun: 26
+Consistent: 50
+Fluent: 23
+Repetitive(↓): 84
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): You like to program?
+Bot(1): i do , i love to go fishing .
+User(2): Do you like computers?
+Bot(2): i do , i like to go to the gym .
+User(3): I like to go to the gym too
+Bot(3): i like to go fishing .
+User(4): What is your favorite fish?
+Bot(4): i like the color red . what is yours ?
+User(5): I like yellow
+Bot(5): i like to eat too much junk food .
+User(6): I like cake
+Bot(6): i like to eat fish .
+User(7): I like fish with lemon
+Bot(7): i like to eat fish .
+User(8): What kind?
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): Do you write computer code?
+Bot(9): no , i do not . i like to read .
+User(10): What kind of books?
+Bot(10): i do not know . i like to go to the gym .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm studying to be a computer programmer.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 17
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

@@ -1,0 +1,291 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hi how are you today
+User(2): I'm good. You?
+Bot(2): hi ! i'm doing well . how are you ?
+User(3): Im good. I just got an apartment today with my best friend!
+Bot(3): nice . i am a single mom . i have two kids .
+User(4): Oh nice. How old are the kids?
+Bot(4): i have two children . i have two children .
+User(5): Yes, I know. How old are they?
+Bot(5): they are all grown . i have two children .
+User(6): Oh wow. Do they live with you still?
+Bot(6): yes , i have a few children .
+User(7): Nice!! So you must live in a very big house?
+Bot(7): yes ! i live in the city .
+User(8): Which city?
+Bot(8): yes , but i have never been a doctor .
+User(9): I'm confused. Which city do you live in?
+Bot(9): i live in the city . i live in the city .
+User(10): Yes, but which city? Like in which state?
+Bot(10): i live in the city . i live in the city .
+
+Persona:
+i've two grown children who never visit.
+i like to workout a a times a week.
+i've never had a steady relationship.
+i had to have a transplant.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: i recently got an apartment with my best friend.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 23
+Consistent: 62
+Fluent: 26
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hello , do you like dogs ? i love animals , i have 2 dogs .
+User(2): i love dogs. i have a dog myself. i also have three arabian horses
+Bot(2): what are their name , i love dogs
+User(3): his name is lucky. the horses' names are randy, steve, and bob
+Bot(3): hi bob i am also bob and i work all day
+User(4): oh hello nice to meet you. what do you do for a living?
+Bot(4): finished law school at the top of my class , got married and now have a baby girl
+User(5): oh wow! how old is your daughter?
+Bot(5): they are triplets and 5 years old . they are a handful !
+User(6): my three horses are like my 3 kids!
+Bot(6): yes i like horses . i can draw a pretty good horse
+User(7): wow! can you show me
+Bot(7): a reality show about make up artists . they are so creative .
+User(8): im confused? i would like to see a drawing of your horses one day~
+Bot(8): yes i like horses . i can draw a pretty good horse
+User(9): can you draw me an arabian horse?
+Bot(9): what do you like to draw ?
+User(10): i like to draw horses too
+Bot(10): yes i like horses . i can draw a pretty good horse
+
+Persona:
+i am a bee farmer.
+i've a german shepherd named barnaby.
+i've five sons.
+i enjoy building houses.
+my favorite toy as a child as my lite brite.
+
+Topic and Human Opinion:
+Beginning: i've three arabian horses.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.00
+Robotic(↓): 100
+Interesting: 4
+Fun: 22
+Consistent: 62
+Fluent: 11
+Repetitive(↓): 100
+Topic: 27
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey there , i love to swim , how about you ?
+User(2): i like to swim too! i also like to drive
+Bot(2): i like to swim while i drive
+User(3): that sounds dangerous... i like to buy cars
+Bot(3): i get worried because i am a girl and it is dangerous
+User(4): no, i don't think gender matters in this situation. no one should swim and drive at once.
+Bot(4): i never knew my mom , she died when i was little
+User(5): oh.... im so sorry.....
+Bot(5): sorry , i was painter , you ?
+User(6): oh... i buy cars for a living
+Bot(6): sorry , i was painter , you ?
+User(7): i already told you. i buy cars. do you like buying cars?
+Bot(7): no . . . i am more of a car person
+User(8): that doesn't make sense at all
+Bot(8): o . k . then . i painted my room red , a color i like a lot
+User(9): i like the color red too. my car is also red.
+Bot(9): ok , what is your profession , my work is painter
+User(10): i am a professional car buyer.
+Bot(10): oh . my mom , died when i was little .
+
+Persona:
+i'm a swim coach at my local pool.
+my mom passed away when i was young.
+i am a boy.
+my favorite color is red.
+i used to be a painter but now i'm a housekeeper.
+
+Topic and Human Opinion:
+Beginning: i like to spend my money on cars.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 15
+Consistent: 16
+Fluent: 0
+Repetitive(↓): 100
+Topic: 3
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): i I'm currently in on <num> ha
+User(2): im sorry what?
+Bot(2): That is so sad. i am from sunny pets?
+User(3): i dont understand. do you like roses?
+Bot(3): I am said earlier that you I am not good at it.
+User(4): i never said that. i grow roses in my garden.
+Bot(4): I shop at stores at the mall think I can does mall
+User(5): im sorry i dont understand. do you like gardens?
+Bot(5): I am a a good man work at
+User(6): good man? would you like to work in my garden?
+Bot(6): No I am not. games do you play coach.
+User(7): oh. i play soccer.
+Bot(7): I else.. did you us too
+User(8): huh?
+Bot(8): I do not how are is your big fan of italian food.
+User(9): that is not making sense
+Bot(9): I like swimming.
+User(10): me too!
+Bot(10): i like to eat , i am a sucker what you do. I you ?
+
+Persona:
+i'm a huge star wars fan.
+my favorite color is red.
+i have been retired for a years.
+i am a professional wrestler.
+i was adopted at a young age to an older couple.
+
+Topic and Human Opinion:
+Beginning: i grow roses in my garden.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): helloooo
+User(2): how are you
+Bot(2): pretty good just got back from a hard workout
+User(3): oh wow. i just ate... because i was bored
+Bot(3): what are you eating then
+User(4): i am eating chips
+Bot(4): oh cool ! ! chips are good ! ! do you cook ? i like cooking
+User(5): i love cooking!! what do you like to cook?
+Bot(5): i eat anything really i love mexican food tho
+User(6): me too. i love tacos!
+Bot(6): i love mexican too ! especially spicy beef
+User(7): yes! that's my favorite. do you like chinese food?
+Bot(7): i do , but chinese is better
+User(8): i agree. chinese is my all time favorite. i love eating eggrolls when i am bored
+Bot(8): i love mexican too ! especially spicy beef
+User(9): yes, me too.
+Bot(9): right ? horse are the best animals
+User(10): yes, i agree. i also like dogs
+Bot(10): i love dogs too ! so much .
+
+Persona:
+i was raised on a horse farm.
+i workout four hours a day.
+i'm a skateboarder.
+i live in alaska.
+my favorite food is mexican food.
+
+Topic and Human Opinion:
+Beginning: eating is something i do when i am bored.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 81.86
+Robotic(↓): 16
+Interesting: 93
+Fun: 92
+Consistent: 87
+Fluent: 90
+Repetitive(↓): 35
+Topic: 62
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): im good. how are you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): nice! i just got a haircut
+Bot(3): that is awesome . i am a waitress at a local restaurant .
+User(4): me too. i always get compliments about my blue eyes and red hair that comes to my waist
+Bot(4): i like to eat too much junk food .
+User(5): me too! i love chips
+Bot(5): i like to eat fish .
+User(6): yes i love sushi. especially salmon
+Bot(6): i like pizza , and i love it .
+User(7): me too! i love cheese pizza
+Bot(7): i like pizza , and i love it .
+User(8): metoo
+Bot(8): i love to cook . i love to cook .
+User(9): what do you cook?
+Bot(9): i like to eat . i am a big fan of it .
+User(10): me too!
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i currently work for a watch dealer.
+i play a lot of call of duty.
+i've amazing children and grandchildren.
+i work at a bank.
+its red with blue stripe so it shiny when i race.
+
+Topic and Human Opinion:
+Beginning: i have blue eyes and red hair that comes to my waist.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.14
+Robotic(↓): 98
+Interesting: 14
+Fun: 11
+Consistent: 25
+Fluent: 15
+Repetitive(↓): 19
+Topic: 0
+
+####################
+

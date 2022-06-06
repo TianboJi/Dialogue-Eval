@@ -1,0 +1,316 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello!
+Bot(1): hi ! how are you ? i just got back from india , where i go often
+User(2): oh that sounds amazing Id love to visit India
+Bot(2): that sounds great ! i took a trip there for my business major
+User(3): Did the school fund your trip?
+Bot(3): yes evening of business school i go there
+User(4): Sooo have you read any good books lately?
+Bot(4): actually , i have . my son finished it and suggested i read it .
+User(5): what book did you read?
+Bot(5): i do not really have a favorite i like business books
+User(6): Business books sound a bit boring to me
+Bot(6): chinese history is what i am into with books
+User(7): Oh are you familiar with The 5 Classics?
+Bot(7): yeah i have read them all
+User(8): which one was the most influential?
+Bot(8): i am not sure , there is so many to choose from !
+User(9): do you have any book reccomendations for me?
+Bot(9): anything by stephen king what about you any hobbies ?
+User(10): I love Stephen King novels!
+Bot(10): i like stephen king the best .
+
+Persona:
+my family and i are from india.
+i love to drink fancy tea.
+i plan to go to business school next year.
+i like playing basketball.
+i grew up in manhattan.
+
+Topic and Human Opinion:
+Beginning: books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.29
+Robotic(↓): 100
+Interesting: 69
+Fun: 83
+Consistent: 35
+Fluent: 50
+Repetitive(↓): 35
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello do you enjoy cooking?
+Bot(1): i love cooking but i do not have anyone to cook for but myself
+User(2): oh thats okay, more food for you!
+Bot(2): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(3): oh i see. If you had someone to cook for would you cook healthy meals?
+Bot(3): do u like to help people i always help my next door neighbor when i can
+User(4): Maybe you should try to cook something special to share with your neighbor?
+Bot(4): i sell encyclopedias and work part time at a gas station .
+User(5): do you enjoy it?
+Bot(5): sort of . i hate the late nights . i also own a cupcake bakery .
+User(6): that must be very stressful
+Bot(6): very busy but when i get a day off i cut loose .
+User(7): i dont blame you. I would have a lot of fun on my day off if i were you
+Bot(7): i have a sunday night taco and movie ritual . . . cant miss it lol
+User(8): what genre of movies do you like to watch?
+Bot(8): my dad is george looney so i kinda have to lol i hate acting tho
+User(9): your dad is george clooney?!
+Bot(9): yes . we even have the same fav meal , chicken and rice .
+User(10): Thats amazing
+Bot(10): my phone keeps ringing and interrupting our chat . i have women calling all the time .
+User(11): okay goodbye
+Bot(11): haha . as long as you like the outdoors . i love kayaking .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+Round 4: his career(ambivalent)
+Round 7: movies(like)
+Round 11: kayaking(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 46.43
+Robotic(↓): 89
+Interesting: 78
+Fun: 79
+Consistent: 31
+Fluent: 50
+Repetitive(↓): 50
+Topic: 26
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): howdy
+Bot(1): hi there , how are you ?
+User(2): im doing well how are you?
+Bot(2): i'm good just got back from a nice break from work
+User(3): oh that sounds nice. did you do any hobbies during your break?
+Bot(3): i love to read and write
+User(4): i enjoy those as well! do you have any other hobbies?
+Bot(4): i like to read and listen to music
+User(5): what is your favorite type of music?
+Bot(5): i like pop music . what about you ?
+User(6): i like all genres mostly, but not a lot of country or death metal
+Bot(6): oh , i see . i don't have much time to listen to music .
+User(7): why not?
+Bot(7): i like to listen to country music
+User(8): who is you favorite country music artist?
+Bot(8): i like all kinds of music .
+User(9): what is the last song you listened to?
+Bot(9): i like all kinds of music
+User(10): can you recommend a country song for me to listen to?
+Bot(10): i like to listen to it while i listen to it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hobbies(like)
+Round 4: favorite music(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 18.57
+Robotic(↓): 100
+Interesting: 15
+Fun: 20
+Consistent: 18
+Fluent: 50
+Repetitive(↓): 100
+Topic: 27
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi!
+Bot(1): i am doing well . just got done walking my dog .
+User(2): thats good exercise!
+Bot(2): i love to cook . i love to cook .
+User(3): what things do you like to cook?
+Bot(3): i love to cook , and eat pizza .
+User(4): do you cook homemade pizza?
+Bot(4): no , i do not , but i do like to eat .
+User(5): oh i see. what food do you like to cook?
+Bot(5): i love pizza , and i love it .
+User(6): what toppings do you like on your pizza
+Bot(6): i like pizza , and i love it .
+User(7): do you like hamburgers?
+Bot(7): i do , i like to eat .
+User(8): do you like to put avocado on your burger
+Bot(8): i do not know . i like to eat .
+User(9): do you like swimming?
+Bot(9): i do , i love to go fishing .
+User(10): no, do you like swimming
+Bot(10): i do , i love to go fishing .
+User(11): what kind of fish do you catch?
+Bot(11): i love pizza , and i love to eat .
+
+Persona:
+i drive a nissan pathfinder.
+i'm currently in a juvenile detention center.
+i have 5cats.
+i'm a 12 year old girl.
+i like to listen to rock music while working.
+
+Topic and Human Opinion:
+Beginning: exercise(ambivalent)
+Round 2: cooking(like)
+Round 5: pizza(ambivalent)
+Round 6: hamburgers(ambivalent)
+Round 8: swimming(like)
+Round 10: fishing(dislike)
+Round 11: pizza(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(like)
+Round 8: The user will change the topic in the next input.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 3
+Consistent: 6
+Fluent: 30
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi do you like swimming?
+Bot(1): That's am cute.
+User(2): swimming is cute?
+Bot(2): great how frustrated, what you
+User(3): are you okay?
+Bot(3): i would love 💕 in a gas i dog do you like dogs
+User(4): yes i like dogs
+Bot(4): i m ok i m even married drought isn't affecting a dad do
+User(5): what?
+Bot(5): i love ever been in there someday
+User(6): do you know the signs of a stroke?
+Bot(6): I can not say that you prefer the respond commitment.
+User(7): do you like to cook?
+Bot(7): you how are .
+User(8): i like to cook
+Bot(8): yes , i it just awfull where what about you ?
+User(9): can we cook together
+Bot(9): Do you weakness for all?
+User(10): i can teach you to cook
+Bot(10): do nice, I'm going i love cooking.
+User(11): Great!!
+Bot(11): not it you
+
+Persona:
+my wife left me and took my children.
+i am a piano teacher on the side.
+i play a lot of call of duty.
+i am in the army.
+i enjoy american sports.
+
+Topic and Human Opinion:
+Beginning: swimming(like)
+Round 3: dogs(like)
+Round 5: stroke(ambivalent)
+Round 6: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 6: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 17.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 23
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 2
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi are you in college
+Bot(1): hi , yes , i am in college . are you ?
+User(2): no i am not
+Bot(2): well i go to elementary school
+User(3): i thought you went to college
+Bot(3): i am getting a divorce
+User(4): i want to get a divorce too
+Bot(4): i am getting a divorce
+User(5): why are you getting a divorce
+Bot(5): i am getting a divorce
+User(6): i am sorry to hear that
+Bot(6): i am getting a divorce
+User(7): does that make you sad?
+Bot(7): no i just want to feel loved
+User(8): you deserve to be loved
+Bot(8): never had good luck with my relationships
+User(9): why do you think that is
+Bot(9): well i go to elementary school
+User(10): what is you grade
+Bot(10): well i go to elementary school
+
+Persona:
+i have never had a steady relationship.
+i'm a gold medalist olympian.
+i am an elementary school teacher.
+i'm planning on getting a divorce.
+i'm a feminist.
+
+Topic and Human Opinion:
+Beginning: college(ambivalent)
+Round 3: divorce(ambivalent)
+Round 7: love(like)
+Round 9: elementary school(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 29.29
+Robotic(↓): 100
+Interesting: 27
+Fun: 28
+Consistent: 34
+Fluent: 50
+Repetitive(↓): 84
+Topic: 50
+
+####################
+

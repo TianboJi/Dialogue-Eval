@@ -1,0 +1,277 @@
+Feedback: that was painful.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What are your views about the role of tech in the US?
+Bot(1): i am a big apple and i love to eat
+User(2): I do not think that is true.
+Bot(2): i am sorry to hear that . what do you do for fun ?
+User(3): I think we should be talking about tech.
+Bot(3): i am not sure what tech do you like ?
+User(4): I use my laptop every day for work and school.
+Bot(4): i am a student . i am a full time student .
+User(5): Me too, although I am also an intern. What tech do you use for school?
+Bot(5): i do not have a degree . i am a full time student .
+User(6): Right...what tech do you use?
+Bot(6): i do not have a job . . . i do not have a job .
+User(7): Right, you said you are a student.
+Bot(7): i am a student . . . i am a student .
+User(8): You said that already.
+Bot(8): i do not know . i am a student .
+User(9): This seems like some tech (i.e. you) that doesn't seem to be working.
+Bot(9): i understand . i am a student .
+User(10): This is going nowhere.
+Bot(10): i am sorry . i am going to be a doctor .
+User(11): I hope not.
+Bot(11): i am sorry . i am going to be a doctor .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: technology(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What foods do you like?
+Bot(1): i love pizza , and i love it .
+User(2): Why?
+Bot(2): i am a student , but i am a student .
+User(3): Is that why you like pizza?
+Bot(3): i do not like bread . i like to eat .
+User(4): but pizza has bread...
+Bot(4): i like to eat fish .
+User(5): what kinds of fish?
+Bot(5): i like pizza , and pizza .
+User(6): you said that. do you like fish oon your pizza?
+Bot(6): i do , i love to eat .
+User(7): i don't really like to eat. i don't want to get fat.
+Bot(7): i am a bit of a loner
+User(8): that's sad.
+Bot(8): i like to go to the gym and listen to music .
+User(9): that seems normal.
+Bot(9): i like to go to the gym and listen to music .
+User(10): cool...
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i recently got an apartment with my best friend.
+i like doing the treadmill and rowing machine.
+i've a german shepherd dog.
+i've been traveling the world for a years.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: food(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 25
+Fluent: 56
+Repetitive(↓): 93
+Topic: 3
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you have pets?
+Bot(1): hi there ! nice to meet you . yes , i have four dogs .
+User(2): that's a lot of dogs. i'm not a big fan of dogs.
+Bot(2): not a good time to have a pet , i have four dogs they keep me busy
+User(3): how do they keep you busy?
+Bot(3): they take after their father , he grew up on a cattle ranch .
+User(4): did the dog help herd the cattle?
+Bot(4): we have a farm , so it was an extra farm hand
+User(5): the dog...?
+Bot(5): we have a farm , so it was an extra farm hand
+User(6): dogs have paws.
+Bot(6): ll ! they are mammals though , so technically they kind of do . . .
+User(7): not all mammals have hands...like dolphins, for example.
+Bot(7): ll ! they are mammals though , so technically they kind of do . . .
+User(8): no...
+Bot(8): i have horses , pigs and hens on my farm .
+User(9): what about cows?
+Bot(9): cows ?
+User(10): moooo
+Bot(10): cows ?
+
+Persona:
+i'm four.
+i'm a descendant of christopher columbus.
+i like to go to country concerts on weekends.
+i am a vegan and i love hummus.
+i work my parents farms.
+
+Topic and Human Opinion:
+Beginning: animals(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.14
+Robotic(↓): 99
+Interesting: 8
+Fun: 0
+Consistent: 38
+Fluent: 30
+Repetitive(↓): 84
+Topic: 90
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i am a therapist
+Bot(1): i broke my arm once skiing and had to see a pt
+User(2): what is a pt?
+Bot(2): i love playing with barbies and singing my favorite song . .
+User(3): ...barbie girl?
+Bot(3): really ! i am a drummer in an indie called barbie !
+User(4): that band name is definitely copyright infringement.
+Bot(4): we are the ohio trio . my brothers and i .
+User(5): we are supposed to be talking about therapy.
+Bot(5): do you own or lease a vehicle ? my car is a lease .
+User(6): i own mine
+Bot(6): i just started my own channel to share tutorials on makeup , 50k subscribers !
+User(7): you are all over the place.
+Bot(7): i really liked visiting germany
+User(8): literally, all over the map.
+Bot(8): that is correct thanks for chatting bye .
+User(9): bye...?
+Bot(9): same here . bye
+User(10): you suck.
+Bot(10): i would like to be a famous ballet dancer in london like my mother
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: therapy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 55
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i love my bed
+Bot(1): I guess you should look like you give them to pet cow ?
+User(2): chairs are nice too.
+Bot(2): It's i send a care bill.
+User(3): what?
+Bot(3): what is your favorite thing to be like I cars
+User(4): i like cars, but i like being a human.
+Bot(4): I just got games
+User(5): we are supposed to be talking about furniture.
+Bot(5): Hey! Are you married is fine for day I am.
+User(6): this makes no sense.
+Bot(6): I am. I do What do you like time to do that. what about you?
+User(7): i like sitting on my bed.
+Bot(7): i like germany, i've books
+User(8): you're an idiot.
+Bot(8): Hi, an post you?
+User(9): go away.
+Bot(9): i need to meditate
+User(10): go do that.
+Bot(10): I'm am kidding.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: furniture(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 5
+Fluent: 0
+Repetitive(↓): 3
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): have you ever tried drugs?
+Bot(1): drugs are bad you do not need them
+User(2): wow, what a narc.
+Bot(2): drugs are bad you do not need them
+User(3): get with the times, man
+Bot(3): drugs are bad you do not need them
+User(4): you're bad i do not need you.
+Bot(4): drugs are bad you do not need them
+User(5): sigh...
+Bot(5): drugs are bad you do not need them
+User(6): stop.
+Bot(6): ok
+User(7): lol what a loser.
+Bot(7): rage get out please .
+User(8): you get out.
+Bot(8): rage get out please .
+User(9): oh man.
+Bot(9): rage get out please .
+User(10): maybe you do need drugs. calm down.
+Bot(10): drugs are bad you do not need them
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: drugs(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 85
+Fluent: 5
+Repetitive(↓): 100
+Topic: 65
+
+####################
+

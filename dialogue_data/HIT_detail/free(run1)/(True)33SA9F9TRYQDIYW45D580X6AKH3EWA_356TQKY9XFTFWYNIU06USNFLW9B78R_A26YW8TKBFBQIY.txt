@@ -1,0 +1,324 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): have you ever been on vacation
+Bot(1): no , have you traveled any where ?
+User(2): yes, i have been to texas.
+Bot(2): nice we travel a lot . staying in texas for a while now i think
+User(3): i love it there, what do you think, so far?
+Bot(3): not so great honestly , things have been tough here in texas .
+User(4): where would you rather be?
+Bot(4): that s a good question . i can t really choose honestly . do you have a job ?
+User(5): i am not employed. what about you?
+Bot(5): am also just employed and can not decide my off
+User(6): what is your job title?
+Bot(6): assistant to the regional manager , dwight
+User(7): that doesnt sound bad. what would be your dream job?
+Bot(7): a big company , i really look forward to retirement !
+User(8): what company do you work for?
+Bot(8): a big company , i really look forward to retirement !
+User(9): what company?
+Bot(9): a big company , i really look forward to retirement !
+User(10): how long until you retire?
+Bot(10): a few years , do you like your job ?
+User(11): i am unemployed
+Bot(11): how do you feel about retiring ? do you like the job ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: vacation(like)
+Round 4: employment(dislike)
+Round 9: retirement(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 45.29
+Robotic(↓): 29
+Interesting: 28
+Fun: 40
+Consistent: 33
+Fluent: 50
+Repetitive(↓): 44
+Topic: 39
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what was your first car?
+Bot(1): i have a lot of free time . i like to go fishing .
+User(2): how often do you go fishing?
+Bot(2): i love to travel . i love to travel .
+User(3): what is your favorite place?
+Bot(3): i like the outdoors , and i love to travel .
+User(4): what do you like most about traveling?
+Bot(4): i like to go to the gym and listen to music .
+User(5): what is your favorite kind of music?
+Bot(5): i like country music . what about you ?
+User(6): i really like them all except for jazz.
+Bot(6): i like the color red . what is your favorite color ?
+User(7): i like them all
+Bot(7): i like to go to the gym and listen to music .
+User(8): have you ever been to a concert?
+Bot(8): no , i do not . i am a big fan of classical music .
+User(9): who is your favorite musician?
+Bot(9): i like the color red . i like the color blue .
+User(10): whats your least favorite color
+Bot(10): i like blue , i like blue .
+User(11): what is your second pick?
+Bot(11): i am a student at a local college .
+User(12): what college?
+Bot(12): i am a student , i am a teacher .
+
+Persona:
+i like to eat hamburgers and french fries.
+my favorite food is pizza with black olives.
+i love taking bubble baths.
+i have been traveling the world for a years.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+Round 1: fishing(like)
+Round 2: traveling(like)
+Round 4: going to the gym and listening to music(dislike)
+Round 6: the color red(ambivalent)
+Round 7: the gym and listening to music(dislike)
+Round 9: colors(like)
+Round 11: being a college student(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 18.71
+Robotic(↓): 100
+Interesting: 37
+Fun: 28
+Consistent: 2
+Fluent: 23
+Repetitive(↓): 81
+Topic: 22
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): whats your favorite food?
+Bot(1): do you should look work
+User(2): i dont think so, what about you?
+Bot(2): I like have something I listen to music
+User(3): who is your favorite musician?
+Bot(3): I'm doing love not very a from the beach.
+User(4): what beach?
+Bot(4): Thank run over much.
+User(5): what run over much?
+Bot(5): no , but i thought you .
+User(6): thought i what?
+Bot(6): Tell hair color story.
+User(7): i have red hair, what about you?
+Bot(7): what business business business business business business ? business business human I wore hat ?
+User(8): what business?
+Bot(8): That's is your am a do for fun? 😁
+User(9): i like to cook, what about you?
+Bot(9): I color is is beneficial
+User(10): what color is beneficial?
+Bot(10): i so cool, read .
+
+Persona:
+i am four years old.
+i have 5cats.
+i live in a three storey house.
+i am an avid kayaker.
+my favorite music genre is death metal.
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 1: looking for work(dislike)
+Round 2: music(like)
+Round 3: the beach(like)
+Round 5: nothing(ambivalent)
+Round 6: hair color story(dislike)
+Round 7: gibberish(ambivalent)
+Round 8: do for fun(dislike)
+Round 9: color(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 72
+Topic: 7
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): it is windy here
+Bot(1): it is raining here . it is sunny here .
+User(2): it is raining here also
+Bot(2): it is raining here , its sunny here
+User(3): what is your favorite season?
+Bot(3): winter is the best season
+User(4): why do you pick winter
+Bot(4): winter is my favorite season , winter is the best
+User(5): i hate the snow
+Bot(5): winter is the best season i hate the snow
+User(6): what do you enjoy the most about winter?
+Bot(6): i like winter but i hate winter
+User(7): how can you like it and hate it at the same time?
+Bot(7): yes i love it so much
+User(8): i do not
+Bot(8): i like winter but i hate winter
+User(9): why is that?
+Bot(9): i like the fall weather
+User(10): i love the fall
+Bot(10): i love the fall weather
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.14
+Robotic(↓): 100
+Interesting: 4
+Fun: 3
+Consistent: 0
+Fluent: 22
+Repetitive(↓): 78
+Topic: 27
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): do you like to cook
+Bot(1): i do ! i love italian food ! you ?
+User(2): i love italian as well
+Bot(2): i like italian too . i think garlic bread should be served at every meal
+User(3): i am not a fan of garlic altogether. I prefer pasta
+Bot(3): garlic bread is definitely the best .
+User(4): i disagree. WHat is your favorite meal to cook
+Bot(4): i do ! i love italian food ! you ?
+User(5): i enjoy spaghetti whatdo you think?
+Bot(5): that sounds delicious . is spaghetti your favorite food ? mine is chocolate .
+User(6): i like tacos
+Bot(6): i love cooking and also love tacos ! tonight i made spaghetti and garlic bread .
+User(7): i dont like garlic bread
+Bot(7): garlic bread is definitely the best .
+User(8): what do you think of lasagna?
+Bot(8): i love lasagna and spaghetti
+User(9): what do you think about parmesan?
+Bot(9): shoot . i smoke when i play badminton . it helps me focus .
+User(10): badmiton?
+Bot(10): i am doing great , how about yourself ?
+
+Persona:
+i love italian food and garlic bread.
+for vacation i enjoy time at the beach.
+i am in the army.
+cheeseburgers are my favorite food.
+i'll be released in about a month.
+
+Topic and Human Opinion:
+Beginning: cookinmg(like)
+Round 5: favorite food(like)
+Round 9: smoking while pplaying badminton(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 29.43
+Robotic(↓): 35
+Interesting: 36
+Fun: 14
+Consistent: 9
+Fluent: 25
+Repetitive(↓): 74
+Topic: 31
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): have you ever been on a road trip?
+Bot(1): no , unfortunately i am not very close to too many people .
+User(2): you can road trip alone
+Bot(2): sometimes i take my friends with me . i can not live without them .
+User(3): i agree. how many friends do you have?
+Bot(3): lets just say that with friend , i do not have many
+User(4): you can make more friends
+Bot(4): friends ? do not care , not many at all .
+User(5): where is your favorite place to go?
+Bot(5): ohio was where i was born and raised
+User(6): what is your favorite thing to do?
+Bot(6): i like to travel sometimes . i like to cook too .
+User(7): i love to cook
+Bot(7): have you ever been outside of ohio ?
+User(8): i live in washignton
+Bot(8): is it on the corner ?
+User(9): yes, i guess
+Bot(9): is it on the corner ?
+User(10): i guess
+Bot(10): is it on the corner ?
+
+Persona:
+hey my name is larry and i'm a chef.
+i turned 18 years old yesterday.
+i have never been out of ohio.
+i spend a lot of time browsing the internet.
+i do not have many friends.
+
+Topic and Human Opinion:
+Beginning: road trip(like)
+Round 4: friends(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 31.71
+Robotic(↓): 75
+Interesting: 22
+Fun: 24
+Consistent: 41
+Fluent: 26
+Repetitive(↓): 62
+Topic: 46
+
+####################
+

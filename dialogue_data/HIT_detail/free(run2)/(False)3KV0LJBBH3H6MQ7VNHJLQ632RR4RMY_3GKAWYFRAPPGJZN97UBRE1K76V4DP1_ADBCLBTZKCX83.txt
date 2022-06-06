@@ -1,0 +1,285 @@
+Feedback: Very Good.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): Reading Books
+Bot(2): i read books books are my favorite
+User(3): It's my favorite also.
+Bot(3): i read books on my books
+User(4): I like Novel books
+Bot(4): i read books on books
+User(5): I like English Novel
+Bot(5): i love reading books about english
+User(6): What book you read
+Bot(6): i read a lot about english
+User(7): Nice
+Bot(7): i read a lot about history
+User(8): history will be nice
+Bot(8): i read a lot about history
+User(9): Ok.
+Bot(9): i read a lot about history
+User(10): Bye.
+Bot(10): i am glad to hear that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Book(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.00
+Robotic(↓): 66
+Interesting: 63
+Fun: 69
+Consistent: 71
+Fluent: 72
+Repetitive(↓): 71
+Topic: 75
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hello i am a woman
+User(2): Hi mam
+Bot(2): hello i am a woman
+User(3): What nature place you like
+Bot(3): i am a canadian women who loves volcanos
+User(4): Nice
+Bot(4): i am a woman and like to be around guys
+User(5): I like the rainy season a lot
+Bot(5): i love the warm weather
+User(6): Its very warm there
+Bot(6): i love this time of year
+User(7): Really yes very nice.
+Bot(7): its very warm outside today
+User(8): It's very cold outside today
+Bot(8): it is chilly here where i am at
+User(9): Ok.
+Bot(9): its very warm outside today
+User(10): Ok.
+Bot(10): ok
+
+Persona:
+i'm a boy.
+i like to talk but people have a hard time understanding.
+i'm a 56 year old woman.
+i quit my job to pursue my spirituality full time.
+since the surgery i've had strange powers.
+
+Topic and Human Opinion:
+Beginning: Nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.00
+Robotic(↓): 72
+Interesting: 66
+Fun: 74
+Consistent: 65
+Fluent: 65
+Repetitive(↓): 57
+Topic: 65
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Is your job a cook
+Bot(2): i do not know what to say .
+User(3): Is your hobby for cook.
+Bot(3): i like to eat the skin .
+User(4): Ok.
+Bot(4): i like to go to the gym and listen to music .
+User(5): I like to go gym and listen the music
+Bot(5): i like to listen to music .
+User(6): I also like to listen music.
+Bot(6): i like to listen to music .
+User(7): What music you hear
+Bot(7): i do not know what to say .
+User(8): Ok.
+Bot(8): i like to go to the gym and listen to music .
+User(9): Nice
+Bot(9): i love to cook . i love to cook .
+User(10): Ok.
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i'm fluent in english spanish and french.
+i am planning on getting a divorce.
+i have superpowers.
+my next language to study is french.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: Job(like)
+Round 5: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 54.57
+Robotic(↓): 70
+Interesting: 67
+Fun: 62
+Consistent: 59
+Fluent: 64
+Repetitive(↓): 61
+Topic: 61
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): i'm doing ok . I'm fine, and r about yourself .
+User(2): I am also fine .
+Bot(2): i actually haven not . i'm currently Maybe we should stop what 14 day pearl seas cruise .
+User(3): Ok.
+Bot(3): Traceback (most me about last):
+User(4): last
+Bot(4): i love those bands i listen to rumours at least the you kind of month
+User(5): Nice
+Bot(5): Yes, good , just hanging rural area. What do you do for a living?
+User(6): In a rural area
+Bot(6): I love are you working doesnt about you? are you married?
+User(7): Yes
+Bot(7): I you too! girl.
+User(8): No
+Bot(8): cool i've a big binder cook if you love ponies all on it
+User(9): Ok
+Bot(9): i don t i have a is should make money
+User(10): Bye.
+Bot(10): do you live with you right in dad
+
+Persona:
+i have rainbow hair.
+i work at a school as a kindergarten teacher.
+i am employed by the us postal service.
+i recently was fired and had to get a new job.
+i'm 13 years old.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.86
+Robotic(↓): 71
+Interesting: 71
+Fun: 67
+Consistent: 72
+Fluent: 62
+Repetitive(↓): 56
+Topic: 60
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hello , i am annie from spain .
+User(2): Hello I am Steven from Texas.
+Bot(2): i am tammi . i have a son that just turned 18
+User(3): Nice.
+Bot(3): do you like tea ? i love it .
+User(4): I like it
+Bot(4): do you like tea ? i love it .
+User(5): Nice
+Bot(5): tea is my favorite drink
+User(6): Ok
+Bot(6): ok
+User(7): NIce
+Bot(7): ok
+User(8): It's very nice to chat with you
+Bot(8): very
+User(9): Ok
+Bot(9): ok
+User(10): Bye
+Bot(10): ok bye
+
+Persona:
+i love to drink fancy tea.
+i turned 18 years old yesterday.
+the county wide bake sale is where i feel most at home.
+my dream car is a rolls royce ghost.
+i've visited spain a times.
+
+Topic and Human Opinion:
+Beginning: Park(like)
+Round 4: tea(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 54.14
+Robotic(↓): 72
+Interesting: 64
+Fun: 63
+Consistent: 61
+Fluent: 61
+Repetitive(↓): 60
+Topic: 62
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Hi
+Bot(2): hi how are you ?
+User(3): What course you did
+Bot(3): its a chihuahua and pitbull , i work 3 jobs and have no time
+User(4): Nice
+Bot(4): yes . i am a police officer in detroit .
+User(5): Very Nice
+Bot(5): i am proud of it . i wrote a article in the new yorker magazine .
+User(6): I am so proud Sir.
+Bot(6): i am cool 6 feet tall genius will love bright purple hair
+User(7): Very good
+Bot(7): what about you ? any plans for the future ? politics maybe ?
+User(8): Not about the politics
+Bot(8): oh , politics . some days i love them others i hate them .
+User(9): I am also
+Bot(9): i know my birth family , but for 10 years i was held as a slave .
+User(10): Ok.
+Bot(10): i find attractive all women from canada
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: College(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.86
+Robotic(↓): 67
+Interesting: 62
+Fun: 63
+Consistent: 64
+Fluent: 56
+Repetitive(↓): 66
+Topic: 58
+
+####################
+

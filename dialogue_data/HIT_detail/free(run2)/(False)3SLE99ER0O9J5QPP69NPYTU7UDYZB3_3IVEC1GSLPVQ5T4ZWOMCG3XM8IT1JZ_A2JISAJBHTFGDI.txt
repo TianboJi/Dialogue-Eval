@@ -1,0 +1,317 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): The leaves are currently shifting colors where I live
+Bot(1): i love to go fishing .
+User(2): Some people still fish this time of year but Idon't know whats in season.
+Bot(2): i love the beach . i love it .
+User(3): Idislike the beach salt water makes me sick
+Bot(3): i love to go fishing .
+User(4): I prefer to read books, especially fantasy and Science Fiction.
+Bot(4): i like to read too .
+User(5): What do you like to read?
+Bot(5): i do , i love to read . what about you ?
+User(6): I do too I'm reading Gullivers Travels right now
+Bot(6): i do not know what to say .
+User(7): Do you have a favorite type of book?
+Bot(7): i like the classics and the doors .
+User(8): The doors are a really good band i used to listen to them and The Who a lot
+Bot(8): i like to listen to music .
+User(9): I used to listen to more music when I was young. I listen to music when I walk now.
+Bot(9): i like to go to the gym and listen to music .
+User(10): I try to go to the gym but feel bored so i walk a lot
+Bot(10): i like to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Autumn(like)
+Round 2: The Beach(dislike)
+Round 3: Books(like)
+Round 7: 60s music(like)
+Round 9: The Gym and Music(ambivalent)
+Round 10: Fishing(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.14
+Robotic(↓): 100
+Interesting: 23
+Fun: 84
+Consistent: 26
+Fluent: 72
+Repetitive(↓): 95
+Topic: 8
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i'm currently watching anime.
+Bot(1): hi names rach , and i watch anime shows a lot and like them .
+User(2): What type of anime do you watch?
+Bot(2): mostly anime and street fighter
+User(3): I just watched anime where the kids are playing the original street fighter in it
+Bot(3): cool , anime is okay . i really like online games
+User(4): I used to play onlines more. I don't like voice chat.
+Bot(4): do u like music ? i love taylor swift .
+User(5): yea i do. I like a few of her songs.
+Bot(5): i like newer stuff like taylor swift .
+User(6): I meant I like a few of Taylor Swifts songs
+Bot(6): do you like taylor swift at all ?
+User(7): lol yep I mostly listen to rock though.
+Bot(7): i like drake . i grew up on the same street as he did
+User(8): oh? so your canadian?
+Bot(8): no i am just a guy living in the south . where in canada do you live ?
+User(9): I live in the North in New England
+Bot(9): i see . do you go on walks ?
+User(10): I walk a lot actually
+Bot(10): i walk to work alot
+User(11): I walk to do my errands, I used to walk to work too. But I work from home now
+Bot(11): i walk to work alot
+
+Persona:
+i am a cancer survivor.
+i do not drink soda.
+i met taylor swift.
+my father was a door to door salesman.
+i walk dogs for a living.
+
+Topic and Human Opinion:
+Beginning: Anime(like)
+Round 3: online games(like)
+Round 4: music(like)
+Round 8: living location(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 76.00
+Robotic(↓): 73
+Interesting: 82
+Fun: 82
+Consistent: 84
+Fluent: 93
+Repetitive(↓): 18
+Topic: 82
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I recently upgraded my Android phone.
+Bot(1): i do . i talk to my mom a lot . she is a dentist .
+User(2): I talk to my mom occasionally she's retired. but mostly I use my phone for the internet
+Bot(2): what do you call a bear with no teeth ?
+User(3): I don't know what?
+Bot(3): i know my birth family , but for 10 years i was held as a slave .
+User(4): um, How did that happen?
+Bot(4): at my job . i fell off the top floor and dislodged two disc
+User(5): So you became a slave?
+Bot(5): you are a little strange , but good strange . i love dungeons and dragons .
+User(6): Me too! it's one of my favorite games
+Bot(6): any kind of games . monopoly and basketball are my favorites
+User(7): So you just like all types of games?
+Bot(7): my favorite is league of legends . otherwise , any type of action game
+User(8): i've never played league. I like action platformers
+Bot(8): i have been thinking about training dogs , weird past time huh ?
+User(9): It's not common but it's usefull it's a needed skill
+Bot(9): when i am home on leave i fly my plane as much as possible
+User(10): Are you in the Air Force?
+Bot(10): it is soothing , i am a moon lover .
+
+Persona:
+my favorite kind of movie is a documentary.
+i used to be pretty but time has not been kind.
+since the surgery i have had strange powers.
+i was born in the early 80 s.
+my mother is a dentist.
+
+Topic and Human Opinion:
+Beginning: Smartphones(like)
+Round 3: Being a Slave(dislike)
+Round 5: D&D(like)
+Round 9: airplane flying and dog training.(ambivalent)
+Round 10: the moon(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 33.57
+Robotic(↓): 94
+Interesting: 18
+Fun: 81
+Consistent: 17
+Fluent: 24
+Repetitive(↓): 21
+Topic: 10
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I'm looking out the window at the maple trees
+Bot(1): where like scater and Not close?
+User(2): I don't understand
+Bot(2): I love papaya. I also profile which, in your like to go traveling
+User(3): I do like to travel I do'nt do it much
+Bot(3): I am sure you i should go tired.
+User(4): Never travel tired if you don't have too
+Bot(4): Don't hate it.
+User(5): Hate what?
+Bot(5): Alright am at home right dance on the weekends.
+User(6): So you dance in your home on the weekend?
+Bot(6): I am a am good and you
+User(7): your a good dancer or you are just to be?
+Bot(7): I like classical. do Just hang in kind I love listening to music
+User(8): I really like Vivaldi
+Bot(8): That is exciting...............................................
+User(9): What composer do you like?
+Bot(9): hello ! exploring new sites at about your receptionist ?
+User(10): No, I don't have a receptionist. I often explore around my town
+Bot(10): What do hero is amir about you?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Trees(like)
+Round 2: traveling(ambivalent)
+Round 5: dancing on weekend(ambivalent)
+Round 7: classical music(like)
+Round 9: Exploring(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 39.43
+Robotic(↓): 100
+Interesting: 73
+Fun: 95
+Consistent: 0
+Fluent: 8
+Repetitive(↓): 7
+Topic: 7
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): When I was young they used to smoke in restaurants
+Bot(1): hi names alice and i do not like the holidays because i have to work
+User(2): I'm always alone on them so dont celebrate.
+Bot(2): i think all holidays are horrible
+User(3): I like Halloween but otherwise I dont get the big deal either
+Bot(3): i think all holidays are horrible
+User(4): Just because you work?'
+Bot(4): it industry is what i do for a job
+User(5): Thats what I go to school for.
+Bot(5): i have been on the same assembly line for 15 years .
+User(6): My god that would get boring
+Bot(6): it is okay , i am in it and make pretty good money .
+User(7): I mean that part is good I guess as long as you have outlets outside of work.
+Bot(7): i work at home its great
+User(8): I work from home too its easier since i don't drive.
+Bot(8): i have been on the same assembly line for 15 years .
+User(9): You have an assembly line in your home?
+Bot(9): yes i do . my whole family works in it
+User(10): Are you sure thats legal?!
+Bot(10): its my make a wish dream .
+User(11): Oh you sweet summer child
+Bot(11): its my make a wish dream .
+
+Persona:
+i love wearing skinny jeans and leggings.
+i work in it and have been at the same company for 15 years.
+the holidays make me depressed.
+my dream in life is to work from home.
+since the surgery i have had strange powers.
+
+Topic and Human Opinion:
+Beginning: Smoking(ambivalent)
+Round 1: holidays(ambivalent)
+Round 4: IT industry(like)
+Round 7: work from home(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 68.14
+Robotic(↓): 86
+Interesting: 92
+Fun: 80
+Consistent: 81
+Fluent: 88
+Repetitive(↓): 69
+Topic: 91
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I can't beleive Mario Brothers is 35 years old
+Bot(1): i am sorry to hear that . i am only 10 years old
+User(2): its not bad its exciting
+Bot(2): i am sorry to hear that
+User(3): Sorry for?
+Bot(3): yeah it is ok i guess
+User(4): I love my Nintendo Switch personally
+Bot(4): i don't know what that means
+User(5): i love my nintendo console
+Bot(5): i like video games and video games
+User(6): Yeah it's nintendos currently
+Bot(6): i know that i am not sure
+User(7): What video game do you like?
+Bot(7): i like video games and video games
+User(8): Which one?
+Bot(8): i like to play video games
+User(9): I like hand held so i can play games on the go
+Bot(9): i like video games
+User(10): me too
+Bot(10): i play video games and play video games
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Nintendo(like)
+Round 7: video games(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 35.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 25
+Consistent: 78
+Fluent: 54
+Repetitive(↓): 100
+Topic: 88
+
+####################
+

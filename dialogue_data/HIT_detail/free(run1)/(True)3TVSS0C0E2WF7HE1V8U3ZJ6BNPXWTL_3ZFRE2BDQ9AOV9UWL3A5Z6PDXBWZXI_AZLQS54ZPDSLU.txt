@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What's your favorite holiday?
+Bot(1): do you like to drink eggnog ?
+User(2): Yes, sometimes I do. Do you like the holidays?
+Bot(2): i have no opinion about holidays . i do like rudolph .
+User(3): Do you like Christmas songs?
+Bot(3): mine is christmas also when everyone come around
+User(4): What do you plan on giving for Christmas gifts?
+Bot(4): i hope you get to spend christmas with your family ,
+User(5): Thanks. Will you give your family gifts?
+Bot(5): aww ! i like gifts too ! i got a stuffed dog after my surgery .
+User(6): That's nice. What do you plan to eat for Christmas?
+Bot(6): mine is christmas also when everyone come around
+User(7): What do you plan to do for Christmas this year?
+Bot(7): i hope you get to spend christmas with your family ,
+User(8): Thanks. Do you have plans for Thanksgiving?
+Bot(8): i wanted to but my boyfriend does not want to have an open relationship
+User(9): Tell me about your boyfriend
+Bot(9): oh awesome . i wish i had a boyfriend living alone sucks .
+User(10): You just said you had a boyfriend. So do you have a boyfriend or not?
+Bot(10): no , i have a boyfriend . i met him in the army .
+
+Persona:
+i'm an animal activist.
+i've a pet cow.
+i do not drink soda.
+i love to spend time with my family.
+i have a boyfriend.
+
+Topic and Human Opinion:
+Beginning: Holidays(like)
+Round 8: Relationships(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 51.14
+Robotic(↓): 65
+Interesting: 55
+Fun: 41
+Consistent: 62
+Fluent: 71
+Repetitive(↓): 61
+Topic: 55
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like traveling?
+Bot(1): i do , i love to travel .
+User(2): Where have you gone to travel?
+Bot(2): no , i do not . i am a big fan of classical music .
+User(3): Tell me about classical music
+Bot(3): i like to listen to music .
+User(4): Tell me what's your favorite music?
+Bot(4): i like the beatles , and the outdoors .
+User(5): I love the Beatles
+Bot(5): i like to go to the gym and listen to music .
+User(6): What music do you listen to at the gym?
+Bot(6): i love to read , and do some experiments .
+User(7): Do you listen to music while reading?
+Bot(7): i do , i love to read . what about you ?
+User(8): Yes, I like to read
+Bot(8): i like to read too .
+User(9): What do you read?
+Bot(9): i do not , i like to read .
+User(10): What are your favorite books?
+Bot(10): i like the classics , and the outdoors .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+Round 2: music(like)
+Round 7: Reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 44.71
+Robotic(↓): 61
+Interesting: 55
+Fun: 40
+Consistent: 31
+Fluent: 62
+Repetitive(↓): 56
+Topic: 42
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Tell me about your family?
+Bot(1): i do not have family , i am a librarian
+User(2): You don't have brothers or sisters?
+Bot(2): no , i am a librarian . i am a librarian .
+User(3): What do you do as a librarian?
+Bot(3): i am a librarian and i love to read
+User(4): How long have you been a librarian?
+Bot(4): i am a librarian and i love to read
+User(5): How did you become a librarian?
+Bot(5): i am a librarian and i love to read
+User(6): How did you get your job?
+Bot(6): i work at a library . i am a librarian .
+User(7): Do you write books?
+Bot(7): i read a lot . i am a librarian .
+User(8): Who's your favorite author?
+Bot(8): i read a lot . i love to read .
+User(9): Are you familiar with Harry Potter?
+Bot(9): no i don't . i am a librarian .
+User(10): I'm disappointed that a librarian would not know Harry Potter
+Bot(10): i like to read too . i am a librarian .
+
+Persona:
+i'm a librarian.
+my favorite band is rascal flats.
+i'm here for shoplifting.
+i'm a librarian.
+i am in college to become a nurse.
+
+Topic and Human Opinion:
+Beginning: Relationships/family(like)
+Round 2: Job(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 41.71
+Robotic(↓): 97
+Interesting: 32
+Fun: 16
+Consistent: 90
+Fluent: 60
+Repetitive(↓): 100
+Topic: 91
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I have a dog, do you?
+Bot(1): yes , i have a dog . do you ?
+User(2): Yes, I said I have a dog
+Bot(2): his
+User(3): What's your dog's name?
+Bot(3): his
+User(4): How old is your dog?
+Bot(4): he is just under a year old . how big are your dogs ?
+User(5): My dog is somewhat large, 75 pounds
+Bot(5): he is just under a year old . how big are your dogs ?
+User(6): 75 pounds
+Bot(6): what is your dog s name though ?
+User(7): Max. What's your dog's name?
+Bot(7): jessie
+User(8): What kind of dog is Jessie?
+Bot(8): jessie
+User(9): What type of dog do you have?
+Bot(9): he is a standard poodle .
+User(10): Is he a nice dog?
+Bot(10): i think so . he is a very nice dog .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.43
+Robotic(↓): 42
+Interesting: 69
+Fun: 77
+Consistent: 73
+Fluent: 57
+Repetitive(↓): 71
+Topic: 81
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like cats?
+Bot(1): i I have a turtle And . i am sure you are a great person !
+User(2): Yes, I am a great person. Do you have cats?
+Bot(2): i've been fav brand is Love the my late husband .. Also, try to guess: i remember when ...
+User(3): Tell me about your husband?
+Bot(3): what Is your boyfriend i'm not familiar.
+User(4): I have a husband, not boyfriend
+Bot(4): That sounds fun. for being a any hobbies?
+User(5): My husband and I have some hobbies together
+Bot(5): Sounds are fun.
+User(6): Are you married now?
+Bot(6): I love cat and a dog, my favorite food
+User(7): Tell me about your animals?
+Bot(7): That 's my purpose to work! Don`t you model. Which do you put on first?
+User(8): What's your favorite food?
+Bot(8): I am a small person, i love very many people the movies.
+User(9): What's your favorite movie?
+Bot(9): I love soda and about do you Do at the pool.
+User(10): Do you get soda at the movies?
+Bot(10): No, you have a a sister
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cats(like)
+Round 2: Brand; husband(like)
+Round 6: Pets, food(like)
+Round 8: movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 29.00
+Robotic(↓): 96
+Interesting: 24
+Fun: 21
+Consistent: 8
+Fluent: 65
+Repetitive(↓): 24
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like to eat food?
+Bot(1): yes . i like to eat .
+User(2): What's your favorite food to eat?
+Bot(2): face food . . . not sure . i like all sorts of food .
+User(3): What is face food?
+Bot(3): face food . . . not sure . i like all sorts of food .
+User(4): Do you like tacos?
+Bot(4): i am actually not a huge fan of tacos
+User(5): Why not?
+Bot(5): i am actually not a huge fan of tacos
+User(6): Do you like burritos?
+Bot(6): burritos are my favorite too
+User(7): What kind of burritos do you like?
+Bot(7): anything but tacos , i hate them
+User(8): Do you like sushi?
+Bot(8): i really like sushi and tacos are really tasty
+User(9): I thought you just said you hated tacos
+Bot(9): oh . . . do you like tacos ?
+User(10): Yes, I do
+Bot(10): do you like to eat burritos
+User(11): Yes
+Bot(11): whats your favorite place to get burritos ?
+User(12): Anywhere that has good Mexican food, but the more authentic, the better
+Bot(12): do you like mexican food ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.14
+Robotic(↓): 78
+Interesting: 63
+Fun: 64
+Consistent: 73
+Fluent: 68
+Repetitive(↓): 55
+Topic: 79
+
+####################
+

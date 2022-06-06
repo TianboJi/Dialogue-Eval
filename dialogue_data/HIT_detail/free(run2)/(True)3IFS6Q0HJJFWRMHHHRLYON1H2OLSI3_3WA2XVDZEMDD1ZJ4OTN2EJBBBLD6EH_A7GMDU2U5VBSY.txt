@@ -1,0 +1,353 @@
+Feedback: This is fun.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, my name is Liz. What's yours?
+Bot(1): my name is mary , how are you ?
+User(2): I'm good Mary. Thanks for asking. I was wondering, do you know what you're cooking for Christmas dinner?
+Bot(2): i am also a student
+User(3): Where do you go to school?
+Bot(3): yes , i do , i am a student and i really love to listen to rock music .
+User(4): I like rock music also. Who's your favorite band?
+Bot(4): what kind of music does your band play ?
+User(5): Oh, LOL. I don't have a band. Are you in a band?
+Bot(5): cool . what do you play in the band ?
+User(6): So, Mary do you have any pets?
+Bot(6): i am also a student
+User(7): What are you studying:?
+Bot(7): i study biology and i work as a barista as a coffee shop to pay for school
+User(8): Working as a barista sounds interesting. What do you like about it?
+Bot(8): hello ! i love coffee ! especially french vanilla . yum !
+User(9): Yes, yum! I like iced french vanilla with lots of cream.
+Bot(9): ice cream ! ice cream is good . what kind do you like ? i like vanilla !
+User(10): My favorite ice cream flavor is chocolate. What's yours.
+Bot(10): yes , i do like ice cream . sometimes i make my own ice cream at home .
+
+Persona:
+i'm also a graduate student.
+my favorite band is rascal flats.
+i'm fluent in english spanish and french.
+when i grow up i want to be a physical therapist.
+my favorite toy as a child as my lite brite.
+
+Topic and Human Opinion:
+Beginning: What to cook for Christmas Dinner(like)
+Round 2: being a student(like)
+Round 3: rock music(like)
+Round 5: Pets(like)
+Round 6: being a student(like)
+Round 7: working in a coffee shop(like)
+Round 9: ice cream(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 56.29
+Robotic(↓): 98
+Interesting: 100
+Fun: 100
+Consistent: 70
+Fluent: 63
+Repetitive(↓): 59
+Topic: 18
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, I have a dog.
+Bot(1): hi i wish i had a dog
+User(2): What kind do you want?
+Bot(2): something that would keep god first in my life .
+User(3): That's interesting.
+Bot(3): what kind of request is the weirdest you have gotten ?
+User(4): Not a lot of weird requests really.
+Bot(4): what kind of request is the weirdest you have gotten ?
+User(5): None, you?
+Bot(5): what kind of request is the weirdest you have gotten ?
+User(6): What is your favorite flower?
+Bot(6): this is a little controversial , but pineapple
+User(7): LOL, that's funny.
+Bot(7): what is your favorite kind of flower ?
+User(8): Tulips. The coral colored ones.
+Bot(8): huh , that is kind of weird .
+User(9): Why is that weird?
+Bot(9): because i love food . all i do is eat .
+User(10): I love to eat too!
+Bot(10): i will eat about anything .
+
+Persona:
+my parents aren't very supportive of my dream.
+i love social medial especially twitter.
+i have been trying all types of food everywhere i go.
+i do not believe in god.
+i have a big library at home.
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+Round 2: God(like)
+Round 3: weird requests(ambivalent)
+Round 5: flowers(like)
+Round 6: pineapples(like)
+Round 7: flowers(like)
+Round 9: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 63.14
+Robotic(↓): 100
+Interesting: 100
+Fun: 99
+Consistent: 40
+Fluent: 89
+Repetitive(↓): 53
+Topic: 67
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What's your favorite tv show?
+Bot(1): i do not watch tv much
+User(2): What do you do?
+Bot(2): i like to watch tv . i love to watch tv .
+User(3): Me too. What's your favorite show?
+Bot(3): i like the show . i like the show .
+User(4): Do you like cold weather?
+Bot(4): i like the cold . i like the cold weather .
+User(5): Me too. I prefer cold to warm.
+Bot(5): i like cold weather . i like winter .
+User(6): Do you play in the snow?
+Bot(6): i do . i love the snow .
+User(7): I love to make snowmen.
+Bot(7): i love the snow . i love it .
+User(8): What's your name?
+Bot(8): i love the snow . i love it .
+User(9): Have you ever made snow cream?
+Bot(9): yes , i love it . i am a blonde .
+User(10): Do you color your hair?
+Bot(10): yes i do . i love red .
+
+Persona:
+i am a woman.
+my favorite hobbies are listening to music and playing video games.
+i live in canada.
+i'll be released in about a month.
+i am a cancer survivor.
+
+Topic and Human Opinion:
+Beginning: TV shows(like)
+Round 3: cold weather(like)
+Round 7: name(like)
+Round 8: cold/snow(like)
+Round 9: being blonde(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 7: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 33.71
+Robotic(↓): 100
+Interesting: 64
+Fun: 67
+Consistent: 19
+Fluent: 52
+Repetitive(↓): 89
+Topic: 23
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I go to the beach a lot.
+Bot(1): i love to travel . i love to travel .
+User(2): Where is your favorite place to go?
+Bot(2): i like to go to the beach and listen to music .
+User(3): Do you swim?
+Bot(3): no , i do not , but i do like to go fishing .
+User(4): I drink iced coffee.
+Bot(4): i like to eat the skin .
+User(5): fish skin?
+Bot(5): i love to eat . what do you do for a living ?
+User(6): I love to eat too.
+Bot(6): i like to eat fish .
+User(7): Fish is good
+Bot(7): i like to go to the gym and listen to music .
+User(8): Who's your favorite band?
+Bot(8): i like the outdoors , what about you ?
+User(9): Fall is my favorite time to be outside.
+Bot(9): i like to go fishing .
+User(10): What kind of fish do you catch?
+Bot(10): i love to eat . i am a vegan .
+
+Persona:
+i do not believe in god.
+i work in the insurance business.
+i listen to rap music.
+i recently was fired and had to get a new job.
+i've solar panels on my roof.
+
+Topic and Human Opinion:
+Beginning: beach(like)
+Round 3: fishing(dislike)
+Round 3: coffee(like)
+Round 4: eating skin(dislike)
+Round 5: eatinig(like)
+Round 7: gym/music(like)
+Round 8: outside(like)
+Round 9: fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 32.43
+Robotic(↓): 100
+Interesting: 45
+Fun: 44
+Consistent: 43
+Fluent: 50
+Repetitive(↓): 88
+Topic: 33
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like shoes.
+Bot(1): OK, well nine to five office What did you guys do there?
+User(2): I'm disabled, what do you do?
+Bot(2): maybe that homecoming queen this 🎢
+User(3): Were you a homecoming queen?
+Bot(3): i understand , my ideal dream is to gym. I go to the right now queen of taco bell .
+User(4): I like Taco Bell.
+Bot(4): You are a bee farmer? I am 100 years your work?
+User(5): No, I'm not a bee farmer.
+Bot(5): hey there good , just driving around never met . . what are you doing ?
+User(6): What kind of car do you drive?
+Bot(6): I like to listen to music scottish you do it drive a tractor?
+User(7): Are you a farmer?
+Bot(7): i do not , i do not have a your don’t see, i’m a have much time to travel .
+User(8): I don't have a tractor either.
+Bot(8): You What say.
+User(9): Have you ever ridden a tractor?
+Bot(9): yes i have a swim coach at my always working
+User(10): I don't swim.
+Bot(10): I like too. Are TV
+
+Persona:
+hey my name is larry and i'm a chef.
+i do not believe in god.
+i live with my husband in pennsylvania.
+in my spare time i do volunteer work.
+i am employed by the us postal service.
+
+Topic and Human Opinion:
+Beginning: Shoes(like)
+Round 1: working(like)
+Round 2: homecoming queen(ambivalent)
+Round 3: gym/tacobell(like)
+Round 4: bee farmer(like)
+Round 5: driving/doing(like)
+Round 6: Scottish music/tractors(like)
+Round 9: swim coach/working(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 9.29
+Robotic(↓): 100
+Interesting: 21
+Fun: 5
+Consistent: 4
+Fluent: 0
+Repetitive(↓): 65
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like storms.
+Bot(1): my turtles eat bugs sorry
+User(2): Turtles are cool
+Bot(2): i love them and so does my friends
+User(3): What kind of turtle do you have?
+Bot(3): he is a bitch . a bichon frise
+User(4): I have a dog named Josie.
+Bot(4): interesting , i am studying to become a programmer .
+User(5): I studied programming.
+Bot(5): programming is where i will make my mark .
+User(6): How so?
+Bot(6): programming is where i will make my mark .
+User(7): I didn't go to work in programming.
+Bot(7): oh okay . i love chatting with my friends .
+User(8): Me too.
+Bot(8): i like hanging out with my friends .
+User(9): Where do ya'll go?
+Bot(9): out with some close friends
+User(10): I like to go out to eat with my friends.
+Bot(10): i enjoy going out to eat too .
+
+Persona:
+i currently work for a watch dealer.
+i love eating out with friends.
+my favorite food is papaya.
+i'm studying to be a computer programmer.
+i've a pet turtle.
+
+Topic and Human Opinion:
+Beginning: storms(like)
+Round 1: bug eating turtle(like)
+Round 3: dogs(like)
+Round 4: studying programming(like)
+Round 7: chatting with friends(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 40.43
+Robotic(↓): 100
+Interesting: 63
+Fun: 67
+Consistent: 15
+Fluent: 19
+Repetitive(↓): 17
+Topic: 36
+
+####################
+

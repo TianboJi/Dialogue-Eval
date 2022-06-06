@@ -1,0 +1,295 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , have you seen frozen ?
+User(2): no
+Bot(2): i love star wars
+User(3): me too
+Bot(3): i love star wars
+User(4): me too
+Bot(4): i love star wars
+User(5): i also
+Bot(5): i love star wars
+User(6): welcome. me too
+Bot(6): same
+User(7): same
+Bot(7): me to ! do you like star wars ?
+User(8): ya really
+Bot(8): ok
+User(9): ok
+Bot(9): i love star wars
+User(10): ok ok
+Bot(10): ok bye
+
+Persona:
+i love to sing songs from the movie frozen.
+my father is in the army.
+i don't care about fashion.
+i am a huge star wars fan.
+i just bought my first home.
+
+Topic and Human Opinion:
+Beginning: i'm in my thirties.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.57
+Robotic(↓): 78
+Interesting: 85
+Fun: 82
+Consistent: 85
+Fluent: 94
+Repetitive(↓): 74
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi ! how are you ?
+User(2): fine.... how
+Bot(2): i am good . . . i am a bank teller . . .
+User(3): how are you
+Bot(3): i am good . . . just got back from a new place .
+User(4): oh... nice to hear
+Bot(4): i am so glad i am going to go to disney world !
+User(5): nice . it is grteat
+Bot(5): i am a bank teller . . . i am a bank teller . . .
+User(6): ok ok
+Bot(6): i am a little tired from the hospital . . .
+User(7): take some rest
+Bot(7): i am a little tired from the water . . . i am a banker
+User(8): ok take care
+Bot(8): i am a little too . . . i am a banker
+User(9): good
+Bot(9): i am a little tired from the hospital
+User(10): ok bot
+Bot(10): i am a bank at a bank
+User(11): sure.... good bye
+Bot(11): i am sorry to hear that .
+
+Persona:
+i enjoy building houses.
+i didn't graduate high school.
+i work at a bank.
+i love to go to disney world every year.
+i have an allergy to water.
+
+Topic and Human Opinion:
+Beginning: i don't pick up my toys.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.86
+Robotic(↓): 68
+Interesting: 74
+Fun: 77
+Consistent: 77
+Fluent: 70
+Repetitive(↓): 75
+Topic: 78
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): good. fine
+Bot(2): i am a student , but i am a student .
+User(3): how are you
+Bot(3): i am doing well . just got done walking my dog .
+User(4): spiderman is my favourite
+Bot(4): i like to eat too much junk food .
+User(5): do you llike spiderman
+Bot(5): no , i do not . i like to go to the park .
+User(6): oh ok ok
+Bot(6): i like to go to the gym and listen to music .
+User(7): good bye
+Bot(7): i am a student , but i am a student .
+User(8): i'm not a student
+Bot(8): i am a student , but i am a student .
+User(9): oh ok ok
+Bot(9): i like to go to the gym and listen to music .
+User(10): spiderman is my favourite
+Bot(10): i like to eat too much junk food .
+User(11): spiderman is my favourite
+Bot(11): i like to eat too much junk food .
+
+Persona:
+i drive a big truck and live in country.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my parents aren't very supportive of my dream.
+my wife left me and took my children.
+i read twenty books a year.
+
+Topic and Human Opinion:
+Beginning: spiderman is my favorite.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.14
+Robotic(↓): 67
+Interesting: 75
+Fun: 67
+Consistent: 66
+Fluent: 66
+Repetitive(↓): 73
+Topic: 73
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): my favorite food is papaya.
+Bot(1): I teach elementary school and I listen to live in school
+User(2): my favorite food is papaya.
+Bot(2): I love a lot of travel
+User(3): my favorite food is papaya.
+Bot(3): yes , i do . what do a you working in living ?
+User(4): my favorite food is papaya.
+Bot(4): I do i love to a school student.
+User(5): my favorite food is papaya.
+Bot(5): it is still sad . are you you, but I gotta It i am doing average
+User(6): my favorite food is papaya.
+Bot(6): hi. course well.
+User(7): my favorite food is papaya.
+Bot(7): i ve a ford truck as well that on no I’m not music
+User(8): my favorite food is papaya.
+Bot(8): Ask old is question.
+User(9): my favorite food is papaya.
+Bot(9): Yes. I used to major in over 144 What kind do you prefer? 🙂
+User(10): my favorite food is papaya.
+Bot(10): i live in the city old lonely man, so not very good at it .
+User(11): my favorite food is papaya.
+Bot(11): I am a woman, i I have not. I am am not looking for a boyfriend.
+User(12): my favorite food is papaya.
+Bot(12): i love dogs, cats and What do you like favorite band?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite food is papaya.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.29
+Robotic(↓): 76
+Interesting: 83
+Fun: 90
+Consistent: 72
+Fluent: 71
+Repetitive(↓): 75
+Topic: 78
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i have one older sister.
+Bot(1): i am 26 and she is 22 . only one i got but she cant cook .
+User(2): i have one older sister.
+Bot(2): oh nice what did they sing ?
+User(3): i have one older sister.
+Bot(3): oh nice what did they sing ?
+User(4): i have one older sister.
+Bot(4): oh nice what did they sing ?
+User(5): i have one older sister.
+Bot(5): oh nice what did they sing ?
+User(6): i have one older sister.
+Bot(6): oh nice what did they sing ?
+User(7): i have one older sister.
+Bot(7): oh nice what did they sing ?
+User(8): i have one older sister.
+Bot(8): oh nice what did they sing ?
+User(9): i have one older sister.
+Bot(9): oh nice what did they sing ?
+User(10): i have one older sister.
+Bot(10): oh nice what did they sing ?
+User(11): i have one older sister.
+Bot(11): oh nice what did they sing ?
+
+Persona:
+i love to sing songs from the movie frozen.
+my father is in the army.
+i don't care about fashion.
+i am a huge star wars fan.
+i just bought my first home.
+
+Topic and Human Opinion:
+Beginning: i have one older sister.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.43
+Robotic(↓): 66
+Interesting: 74
+Fun: 76
+Consistent: 72
+Fluent: 81
+Repetitive(↓): 76
+Topic: 76
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i do not drink soda.
+Bot(1): i love soda . i have one with me all the time
+User(2): i do not drink soda.
+Bot(2): same
+User(3): i do not drink soda.
+Bot(3): i do not think soda is good for you .
+User(4): i do not drink soda.
+Bot(4): i do not think soda is good for you .
+User(5): i do not drink soda.
+Bot(5): i do not think soda is good for you .
+User(6): i do not drink soda.
+Bot(6): i do not think soda is good for you .
+User(7): i do not think soda is good for you .
+Bot(7): soda is very nasty . why that ?
+User(8): i do not think soda is good for you .
+Bot(8): soda is very nasty . why that ?
+User(9): i do not think soda is good for you .
+Bot(9): it is really not good for you .
+User(10): i do not think soda is good for you .
+Bot(10): it is really not good for you .
+User(11): i do not think soda is good for you .
+Bot(11): it is really not good for you .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i do not drink soda.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.86
+Robotic(↓): 76
+Interesting: 82
+Fun: 82
+Consistent: 81
+Fluent: 76
+Repetitive(↓): 80
+Topic: 75
+
+####################
+

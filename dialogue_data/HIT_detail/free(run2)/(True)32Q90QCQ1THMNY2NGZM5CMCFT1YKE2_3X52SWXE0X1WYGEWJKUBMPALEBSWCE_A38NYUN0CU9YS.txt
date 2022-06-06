@@ -1,0 +1,285 @@
+Feedback: The chatbots didn't always seem to respond appropriately to my text.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello there!
+Bot(1): hi ! how are you ?
+User(2): I'm doing all right. And you?
+Bot(2): i am doing well . i just got back from my boat .
+User(3): Oh, very nice. I was just researching some healthy breakfast recipes.
+Bot(3): oh , i am not a big foodie . i am not very good at it .
+User(4): Well, the recipe I found for overnight oats is actually pretty simple.
+Bot(4): i am sorry . i am not afraid of death .
+User(5): Oh, well the oats won't kill you. They're very healthy.
+Bot(5): i am not a health person . i have a cat named radar
+User(6): I'm sure your cat would want you to be healthy so you can be around to take care of him or her for a long time.
+Bot(6): i am sorry to hear that . do you have any pets ?
+User(7): Yes, I have three cats.
+Bot(7): i have a cat named radar .
+User(8): I know, you said that already.
+Bot(8): i have a pet named radar .
+User(9): Okay, now you sound like a broken record!
+Bot(9): i am not sure . i am not sure what that is .
+User(10): Well, you keep repeating yourself. I was trying to tell you about overnight oats.
+Bot(10): i am not sure . i am not sure if i could have a pet .
+
+Persona:
+mickey mouse is my favorite character.
+i've a cat named spook.
+i'm scared of dying.
+i own a yacht and i rent it out when i am not using it.
+my favorite color is blue.
+
+Topic and Human Opinion:
+Beginning: overnight oats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.14
+Robotic(↓): 100
+Interesting: 20
+Fun: 21
+Consistent: 21
+Fluent: 64
+Repetitive(↓): 100
+Topic: 15
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): How are you?
+Bot(2): same
+User(3): Well, I hope that's good.
+Bot(3): very
+User(4): Awesome! I'm just at home with my cats.
+Bot(4): oh i love cats . what are their names ?
+User(5): Freyja, Dublin, and Lennox.
+Bot(5): fabulous ! how are they doing these days ?
+User(6): They're doing well. Lennox is sitting in the window since I have it open.
+Bot(6): oh , that is good . are you in a relationship ?
+User(7): Yes, I'm married.
+Bot(7): oh great ! how long have you been married ?
+User(8): It will be six years this Saturday.
+Bot(8): so about 2 years or more
+User(9): Yes
+Bot(9): i am getting married very soon .
+User(10): Oh really? When?
+Bot(10): yes , and it is going to be next week .
+User(11): Oh wow! That's very soon!
+Bot(11): yes , but there are many more years to go ! are you married ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.86
+Robotic(↓): 37
+Interesting: 78
+Fun: 78
+Consistent: 79
+Fluent: 79
+Repetitive(↓): 59
+Topic: 36
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): I wonder what huge gamer.
+User(2): What?
+Bot(2): I've always admired am a cancer you! Congratulations!
+User(3): I don't understand.
+Bot(3): I like dolls do in the dolls.
+User(4): Um, okay. So I was going to see if you had any kids.
+Bot(4): I love books, a have cook a lot.
+User(5): Do you have kids?
+Bot(5): Hello and you you doing?
+User(6): Oh boy. So you're not going to answer my question?
+Bot(6): yes. i'm have to documentary.
+User(7): This conversation is not going well.
+Bot(7): oh no. r to you i'm george.
+User(8): So anyway, I do not have kids.
+Bot(8): That is interesting. I have never of bejing aren t you like meditation?
+User(9): Yes, I like meditation.
+Bot(9): Sure. I at home right now. some free time⏰.
+User(10): That's good.
+Bot(10): I am having kids is am got back from my new job in pennsylvania
+
+Persona:
+i have a weakness for vanilla ice cream.
+i haven't spoken in three months.
+i like riding horses.
+i won a gold medal in the 1992 olympics.
+i currently work for a watch dealer.
+
+Topic and Human Opinion:
+Beginning: kids(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.29
+Robotic(↓): 100
+Interesting: 23
+Fun: 23
+Consistent: 21
+Fluent: 2
+Repetitive(↓): 6
+Topic: 7
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Good afternoon
+Bot(1): how are you ? i am home from a busy day at school !
+User(2): Oh really? What did you do at school?
+Bot(2): i was one of the original founders of facebook
+User(3): Well, that's obviously not true.
+Bot(3): i have a computer and i can go on social media with it atleast .
+User(4): So can I.
+Bot(4): i am currently buying my first home .
+User(5): That's great! Good luck.
+Bot(5): well , thanks . do you have family ?
+User(6): I have a husband and three cats.
+Bot(6): that is great ! i do not have many , but that is okay .
+User(7): That's okay. How is your October going?
+Bot(7): it starts in a few days . excited .
+User(8): Okay...this is one of my favorite months!
+Bot(8): me too ! my day is june 10th
+User(9): Well, that's spring. I love the fall.
+Bot(9): yeah , me too ! facebook is my favorite !
+User(10): I can tell you really love it.
+Bot(10): yes . my home is so big . i hate cleaning it though .
+
+Persona:
+i'm currently in high school.
+i spend most of my time on facebook when i'm not working.
+i just bought my first home.
+i've superpowers.
+i have zero family that i am close to.
+
+Topic and Human Opinion:
+Beginning: october(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.29
+Robotic(↓): 78
+Interesting: 33
+Fun: 43
+Consistent: 43
+Fluent: 40
+Repetitive(↓): 63
+Topic: 15
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): I'm doing okay. I'm looking forward to Halloween
+Bot(2): even more scary ! ! are you sure you want to go at halloween ?
+User(3): Well, I don't really have any plans yet.
+Bot(3): no fun plans i have to focus on football . i play for the eagles .
+User(4): Well that's a surprise.
+Bot(4): yes ! a surprise . chocolate chip , with my secret ingredient .
+User(5): Oh I thought you were talking about football.
+Bot(5): its so late here . . . i just sat down with a nice hot chai tea . so delicious .
+User(6): Oh I love chai tea! It's a great tea for this time of year. The spices are just perfect for the Halloween season.
+Bot(6): eh not much of a tea drinker . i love coffee
+User(7): But you like chai tea?
+Bot(7): okay i prefer i hone and chai tea taste good and relaxing
+User(8): Yes, it's delicious. I like both coffee and tea.
+Bot(8): oh sure , i love coffee
+User(9): It smells so good
+Bot(9): i wish i could afford to make pie , i cant even afford the utility bills
+User(10): Oh no, that's terrible! Can you try getting a second job?
+Bot(10): he deserved it . can you believe he raised my rent to 5000 a month ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: halloween(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.14
+Robotic(↓): 61
+Interesting: 59
+Fun: 61
+Consistent: 55
+Fluent: 37
+Repetitive(↓): 38
+Topic: 17
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): You do? What are you cooking today?
+Bot(2): i am doing well . how are you ?
+User(3): Great, thanks. Are you cooking today?
+Bot(3): i am a student , i am a teacher .
+User(4): Are you cooking dinner?
+Bot(4): no , i do not , but i do like to eat .
+User(5): Oh, I thought you liked to cook.
+Bot(5): i like to eat too much junk food .
+User(6): Try cooking something healthy for dinner.
+Bot(6): i like to eat the skin .
+User(7): You like to eat the skin of what?
+Bot(7): i like to eat fish .
+User(8): Oh, I like fish too.
+Bot(8): i like to eat fish .
+User(9): Yum
+Bot(9): i love to cook . i love to cook .
+User(10): Do you cook fish?
+Bot(10): no , i do not . i like to eat .
+
+Persona:
+my family does not support my career choices.
+i'm a piano teacher on the side.
+i've a black lab named trooper.
+my parents were both very athletic.
+my mom passed away when i was young.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.71
+Robotic(↓): 91
+Interesting: 43
+Fun: 43
+Consistent: 46
+Fluent: 24
+Repetitive(↓): 55
+Topic: 19
+
+####################
+

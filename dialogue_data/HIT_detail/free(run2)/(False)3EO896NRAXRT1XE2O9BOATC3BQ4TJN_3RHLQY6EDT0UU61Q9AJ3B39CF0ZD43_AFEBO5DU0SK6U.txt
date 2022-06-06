@@ -1,0 +1,292 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): yes i enjoy playing chess
+Bot(2): i have not played chess in years
+User(3): but chess is the most engaging game
+Bot(3): you really like chess huh ? do you have any other hobbies ?
+User(4): yes.I just like to play carrom
+Bot(4): racing games , i am not the typical girl
+User(5): have you played racing games
+Bot(5): need for speed is my go to for racing games .
+User(6): oh that is great
+Bot(6): just my temper it is fast like my car
+User(7): i really like to play racing games
+Bot(7): racing games , i am not the typical girl
+User(8): have any other hobbies
+Bot(8): yes , i like horseback riding and do you have any hobbies
+User(9): yes i like billiards
+Bot(9): does your ranch have horses or cattle ?
+User(10): yes
+Bot(10): nice i like to take my family scuba diving every year
+User(11): oh i would like to take scuba diving
+Bot(11): you should take the horses !
+
+Persona:
+i like to ride horses.
+i've zero family that i am close to.
+i am a construction worker.
+my favorite movie is mean girls.
+my parents aren't very supportive of my dream.
+
+Topic and Human Opinion:
+Beginning: Love(like)
+Round 1: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 73.14
+Robotic(↓): 88
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): doing great
+Bot(2): i am a student , but i am a student .
+User(3): what type of the car you used
+Bot(3): i drive a toyota camry . i like to drive .
+User(4): oh i like to drive Toyota car
+Bot(4): i like to go fishing .
+User(5): how many cars do you have
+Bot(5): i've 2 . i love it .
+User(6): yeah i have 1
+Bot(6): i like to go to the gym and listen to music .
+User(7): how many hours do you take workout
+Bot(7): i just started my own online program at the local college .
+User(8): oh that is great
+Bot(8): i love to cook . i love to cook .
+User(9): i just like to cook and learning from online
+Bot(9): i like to go to the gym and listen to music .
+User(10): that is good
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: car(like)
+Round 6: gym(like)
+Round 7: online(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 69.29
+Robotic(↓): 78
+Interesting: 91
+Fun: 96
+Consistent: 88
+Fluent: 100
+Repetitive(↓): 62
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): hey how you doing
+Bot(2): pretty good man !
+User(3): is your home villa or rent
+Bot(3): my house is already paid
+User(4): that is good
+Bot(4): do you work as realtor
+User(5): no
+Bot(5): do you work as realtor
+User(6): working from home
+Bot(6): do you work as realtor
+User(7): no i didnot
+Bot(7): do you work as realtor
+User(8): handmade
+Bot(8): you make your own clothes
+User(9): yes i make with my hands
+Bot(9): you make your own clothes
+User(10): absolutely
+Bot(10): do you work as realtor
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: home(like)
+Round 5: work(like)
+Round 7: hand(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 53.14
+Robotic(↓): 66
+Interesting: 34
+Fun: 60
+Consistent: 72
+Fluent: 50
+Repetitive(↓): 50
+Topic: 72
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): yeah great
+Bot(2): hi ! i am a little tired from my parents .
+User(3): do you have any bike
+Bot(3): i do not . i work with my parents .
+User(4): i just like to long ride with bike
+Bot(4): i do not have a bike , but i do enjoy yoga .
+User(5): riding a bike is very good feeling
+Bot(5): i love to go to the gym
+User(6): i am also
+Bot(6): i love to go to the gym
+User(7): do you workout now
+Bot(7): yes i do i love to exercise
+User(8): what type of exercise you done
+Bot(8): i do not have a car
+User(9): how many cars do you have
+Bot(9): i have a car , but i am a big fan of it
+User(10): i have 2 cars
+Bot(10): i have a car that is a lot of work
+
+Persona:
+i like to eat chocolate candy.
+my dream car is a rolls royce ghost.
+i work my parents farms.
+i like meditation.
+i have short brown hair.
+
+Topic and Human Opinion:
+Beginning: bike(like)
+Round 5: gym(like)
+Round 8: car(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 64.29
+Robotic(↓): 81
+Interesting: 96
+Fun: 50
+Consistent: 75
+Fluent: 75
+Repetitive(↓): 44
+Topic: 79
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey
+Bot(1): in are you you :)
+User(2): what is your fav fruit
+Bot(2): This is wrong with your secret to the news.
+User(3): i just like to eat banana
+Bot(3): I am a u wanna make teacher
+User(4): ok then
+Bot(4): so far , 3 dogs . . and they have 2 pet cats , i am not crazy movie is mean girls. i . you ?
+User(5): so far i have 2 pet and 4 dogs
+Bot(5): i love it of videos do you go to the movies .
+User(6): that is good
+Bot(6): Please, as mentioned something 🙏
+User(7): i just like movies to watch
+Bot(7): I a pet favorite food the park and see the world.
+User(8): what is pet favorite
+Bot(8): hey i have 🈶 a great construction like hunting for a for work
+User(9): ok i will try to help you
+Bot(9): i is good. i had sure . i am sure it will .
+User(10): ok then
+Bot(10): that is profile which, in your opinion, volunteer as a retired teacher. do you like it?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: fruit(like)
+Round 3: teacher(like)
+Round 4: pet(like)
+Round 8: construction(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 57.00
+Robotic(↓): 100
+Interesting: 98
+Fun: 83
+Consistent: 43
+Fluent: 75
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey
+Bot(1): hey .
+User(2): i just love to chat
+Bot(2): same
+User(3): have boyfriends
+Bot(3): i do not have any yet
+User(4): i have and i like chat with him
+Bot(4): nice . i love to shop and chat
+User(5): good chat makes me feel good
+Bot(5): it makes me feel better
+User(6): cool together
+Bot(6): yes its a fun time to spend together
+User(7): yes
+Bot(7): lets get wavey then dude
+User(8): what is fav chatting app
+Bot(8): spotify
+User(9): of cool
+Bot(9): kool
+User(10): and then
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: chatting(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.00
+Robotic(↓): 71
+Interesting: 87
+Fun: 85
+Consistent: 54
+Fluent: 78
+Repetitive(↓): 48
+Topic: 63
+
+####################
+

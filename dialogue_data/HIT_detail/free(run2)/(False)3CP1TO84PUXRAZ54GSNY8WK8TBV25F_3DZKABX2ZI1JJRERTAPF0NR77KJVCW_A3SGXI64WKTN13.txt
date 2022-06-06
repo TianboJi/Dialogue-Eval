@@ -1,0 +1,284 @@
+Feedback: GOOD
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): HAI DEAR
+Bot(1): hey
+User(2): WHAT DOING BBE
+Bot(2): wuss poppin b ? whats good with you
+User(3): I MISS U BBE
+Bot(3): awe whats wrong
+User(4): NO
+Bot(4): awe whats wrong
+User(5): NOTHING
+Bot(5): kool
+User(6): OK
+Bot(6): ok
+User(7): BYE BBE
+Bot(7): ok bye
+User(8): BBE WAHT DOING KNOW
+Bot(8): ll
+User(9): I WANT U
+Bot(9): ok
+User(10): COME MY HOME
+Bot(10): ? ?
+User(11): I MEET U
+Bot(11): ok
+User(12): U LIKE ME
+Bot(12): kool
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: CRUSH(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.29
+Robotic(↓): 62
+Interesting: 80
+Fun: 64
+Consistent: 64
+Fluent: 69
+Repetitive(↓): 66
+Topic: 66
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): HAI
+Bot(1): i love to cook . i love to cook .
+User(2): I LIKE MY COOK
+Bot(2): i love the color red . i like the color blue .
+User(3): I LOVE COLOR BLUE
+Bot(3): i love the color red . i like the color blue .
+User(4): I LOVE COLOR BLUE I LIKE COLOR BLACK
+Bot(4): i love the color red . i like red .
+User(5): I LOVE COLOR BLUE . I LIKE COLOR BLACK
+Bot(5): i love the color red . i like the color blue .
+User(6): BYE
+Bot(6): i love to cook . i love to cook .
+User(7): I LIKE BIKE RIDE FO R YOU
+Bot(7): i love the color red . i like red .
+User(8): I LIKE FOOD
+Bot(8): i love the color red . i like the color blue .
+User(9): I LIKE ICE CREAMS
+Bot(9): i love the color red . i like the color blue .
+User(10): I LIKE YOU
+Bot(10): i love the color red . i like the color blue .
+User(11): I HAVE LONG NUMBER OF FRIENDS IN US
+Bot(11): i love the color red . i like red .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: FRIEND(like)
+Round 2: FRIENDS(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 58.00
+Robotic(↓): 59
+Interesting: 72
+Fun: 67
+Consistent: 65
+Fluent: 65
+Repetitive(↓): 72
+Topic: 68
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): HAI
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): I LIKE COMPUTER
+Bot(2): what do you like to do on the computer ? i prefer being offline .
+User(3): I AM PLAYING IN COMPUTER GAME
+Bot(3): computer gaming is fun , i go bowling a lot
+User(4): MY FAV GAME IS FREEFIRE
+Bot(4): i mostly like single player rpgs on my xbox
+User(5): I PLAYING GROUP OF PLAYER
+Bot(5): make your garden grow , its dedicated to helping children in impoverished areas !
+User(6): I LOVE MY SISTER
+Bot(6): i am 26 and she is 22 . only one i got but she cant cook .
+User(7): I CAN DO IT
+Bot(7): beside my vegetable garden i have sunflower patch
+User(8): I LIKE CHICKEN
+Bot(8): i love chicken . i do not eat red meat
+User(9): I EAT CHICKEN AND MEAT
+Bot(9): i love black jack gum but when i drink it with dr . pepper it just does not work
+User(10): THANK YOU
+Bot(10): i am well about to make a breakfast egg baked dish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: SISTER(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.86
+Robotic(↓): 56
+Interesting: 85
+Fun: 59
+Consistent: 66
+Fluent: 58
+Repetitive(↓): 64
+Topic: 64
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): HAI BRO
+Bot(1): i am 30 what i am am. your parents ?
+User(2): I AM 29 MY PARENTS LIVE IN US
+Bot(2): i don't book did you you i'm in a jail.
+User(3): WAHT DOING KNOW
+Bot(3): I like fine what a lot of money
+User(4): I LIKE FOOD
+Bot(4): Hi, I know what there How are you?
+User(5): I AM FINE
+Bot(5): i'm 32 . you so much! you ?
+User(6): I AM 30
+Bot(6): it is is bad. I for gamers
+User(7): I LIKE PHONE GAME
+Bot(7): I am from fitness instructor.
+User(8): I AM FROM YOGA
+Bot(8): Hello! How is your day going? 😊. My my hair every three short hair
+User(9): GOOD
+Bot(9): I dont know. You tell done cleaning my phone.
+User(10): YES I DONE PHONE
+Bot(10): Not many people chimeran twin speaks way.
+User(11): I LIKE TWIN SPEAKS
+Bot(11): I am a are you like you to eat healthy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: BROTHER(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 53.57
+Robotic(↓): 68
+Interesting: 58
+Fun: 66
+Consistent: 61
+Fluent: 62
+Repetitive(↓): 73
+Topic: 69
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): HAI TEACHER
+Bot(1): hello , i am a boy in high school .
+User(2): HELLO I AM GIRL IN HIGH SCHOOL
+Bot(2): hello , i am a boy in high school .
+User(3): WAHT DOING
+Bot(3): hi i'm doing great how are you
+User(4): GOOD, FINE HOW ARE YOU
+Bot(4): i'm good thanks for asking
+User(5): THANK
+Bot(5): i'm good thanks for asking
+User(6): THANKS FOR ASKING
+Bot(6): you are welcome . i am a boy and i am a girl
+User(7): I AM GIRL
+Bot(7): i am a girl , i am a girl
+User(8): I LIKE BOY
+Bot(8): i am a girl who is in high school
+User(9): I AM LIVING IN US
+Bot(9): i am a girl who is in high school
+User(10): I LIKE USA
+Bot(10): i am a girl who is in high school
+
+Persona:
+i've a son who is in junior high school.
+i am a 12 year old girl.
+my family does not support my career choices.
+my family does not support my career choices.
+i am a 45 year old male.
+
+Topic and Human Opinion:
+Beginning: TEACHER(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.29
+Robotic(↓): 67
+Interesting: 67
+Fun: 67
+Consistent: 68
+Fluent: 74
+Repetitive(↓): 64
+Topic: 70
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): HAI
+Bot(1): hello ! my 5 cats also say hi . how are you
+User(2): I AM FINE
+Bot(2): i am animal right activist are you
+User(3): I AM MUSIC RIGHT ACTIVIST
+Bot(3): i am animal right activist are you
+User(4): I LIKE MUSIC
+Bot(4): i like chicken a l f r e d o
+User(5): I LIKE CHICKEN MEAT AND ICE CREAM
+Bot(5): i just turned 19 last week
+User(6): I JUST TURN 20 LAST WEEK
+Bot(6): i just turned 19 last week
+User(7): I LIKE BIKE RIDE
+Bot(7): that good i have five cat
+User(8): I HAVE TWO CAT
+Bot(8): that good i have five cat
+User(9): I LIKE DOGS
+Bot(9): that good i have five cat
+User(10): I HAVE 4 DOGS
+Bot(10): that is a lot of cats
+
+Persona:
+i've been working since i was sixteen years old.
+i don't like chicken.
+i turned 18 years old yesterday.
+i am an animal activist.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: LOVER(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.71
+Robotic(↓): 70
+Interesting: 67
+Fun: 68
+Consistent: 58
+Fluent: 62
+Repetitive(↓): 69
+Topic: 60
+
+####################
+

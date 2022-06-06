@@ -1,0 +1,292 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): How are you feeling about the Coronavirus pandemic?
+Bot(2): oh yes , i feel very bad for those affected
+User(3): I do too. It’s so scary. I’m worried that a second wave is going to hit us even harder
+Bot(3): oh yes , i feel very bad for those affected
+User(4): Do you think wearing masks help?
+Bot(4): no , we are not in an evacuation zone yet so we are ok
+User(5): I wish people weren’t so selfish and they would wear their masks
+Bot(5): i agree . another thing we can do to fix the world we live in .
+User(6): Yes. I think people have forgotten the importance of helping each other and they aren’t willing to make any sacrifices to help ensure other peoples safety
+Bot(6): i think one person can make a difference
+User(7): Yes, I do too. I think we can be good examples to other people
+Bot(7): i agree . another thing we can do to fix the world we live in .
+User(8): How do we fix our world?
+Bot(8): i agree . another thing we can do to fix the world we live in .
+User(9): But how?
+Bot(9): technology might find an answer to it
+User(10): Yes. Technology is definitely useful for many things
+Bot(10): i agree . another thing we can do to fix the world we live in .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Coronavirus(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.57
+Robotic(↓): 100
+Interesting: 85
+Fun: 76
+Consistent: 32
+Fluent: 34
+Repetitive(↓): 99
+Topic: 42
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Have you seen the new Joker movie?
+Bot(1): i am watch lord of the rings . it is the best movie out there
+User(2): Oh I love Lord of the rings. The Joker is so good. Joaquin Phoenix was amazing in it
+Bot(2): i like fantasy but it can limit your friendships . i also like dr . pepper !
+User(3): I like Dr Pepper too
+Bot(3): i do not really drink soda but that would be my first choice .
+User(4): I don’t drink soda very often
+Bot(4): i do not drink soda . do you have any hobbies ?
+User(5): I like to read
+Bot(5): anything . i prefer mysteries and crimes though
+User(6): I do too! I love mysteries
+Bot(6): all 7 of them were mysteries ! what a coincidence .
+User(7): I like listening to true crime podcasts
+Bot(7): like ann rule ? i have read those , love anything with mystery or thrillers
+User(8): Yes. She wrote the book about Ted Bundy
+Bot(8): being an author must be really neat . what type of books do you write ?
+User(9): I’m not an author, but I have really wanted to write a book one day
+Bot(9): wow that is really cool , mostly mystery novels , romance every now and then
+User(10): I think I would write a mystery novel
+Bot(10): i am writing a fantasy novel . i do not make much but i am really passionate about it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: The Joker movie(like)
+Round 2: Soda(like)
+Round 4: Hobbies(like)
+Round 6: Podcasts(like)
+Round 7: Books(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 45.00
+Robotic(↓): 92
+Interesting: 90
+Fun: 84
+Consistent: 36
+Fluent: 61
+Repetitive(↓): 83
+Topic: 19
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What television shows do you enjoy?
+Bot(1): i like to go to the gym and listen to music .
+User(2): Do you like TV
+Bot(2): i do not know . i like to go to the gym .
+User(3): Do you lift weight at the gym
+Bot(3): no , i do not . i like to go to the park .
+User(4): What do you do at the park?
+Bot(4): i love to go fishing . i love to go fishing .
+User(5): I like to fish too
+Bot(5): i like to eat too much junk food .
+User(6): I like junk food especially sweets
+Bot(6): i like to eat fish .
+User(7): I eat fish every friday
+Bot(7): i like to eat fish .
+User(8): Me too
+Bot(8): i am a student , but i am a student .
+User(9): What are you studying as a student?
+Bot(9): no , i am a student . i love to cook .
+User(10): I enjoy cooking
+Bot(10): i like to eat the skin .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Television shows(like)
+Round 2: The gym(like)
+Round 3: The park(like)
+Round 4: Fishing(like)
+Round 5: Junk food(like)
+Round 6: Fish(like)
+Round 8: Student(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 35.43
+Robotic(↓): 100
+Interesting: 65
+Fun: 82
+Consistent: 16
+Fluent: 70
+Repetitive(↓): 97
+Topic: 12
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What’s your favorite music genre
+Bot(1): i like uptown funk . . . whats yours ?
+User(2): I love all types of music especially classic rock
+Bot(2): i enjoy rock of all types . classic rock is cool
+User(3): I love Guns n Roses
+Bot(3): i love guns and roses they have some pretty good songs
+User(4): I like their song November Rain
+Bot(4): i love guns and roses they have some pretty good songs
+User(5): What’s your favorite Guns N’ Roses song
+Bot(5): i love guns and roses they have some pretty good songs
+User(6): Who is your favorite singer or music group
+Bot(6): i enjoy rock of all types . classic rock is cool
+User(7): Do you like Pink Floyd?
+Bot(7): yes i love classic rock
+User(8): What is your favorite Pink Floyd song
+Bot(8): i enjoy rock of all types . classic rock is cool
+User(9): Music makes me feel happy
+Bot(9): yes happiness is a good feeling
+User(10): Music is like therapy
+Bot(10): yes i love classic rock
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.71
+Robotic(↓): 91
+Interesting: 31
+Fun: 90
+Consistent: 50
+Fluent: 22
+Repetitive(↓): 94
+Topic: 84
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I’m sad that summer is over, I hate winter
+Bot(1): Yes i've three sisters navy brat.
+User(2): I hate the cold weather
+Bot(2): I am 88 and still talking to you! i vegetarian?
+User(3): I don’t like the snow
+Bot(3): No I don't think I have what are you book did do have an answer to every question..
+User(4): I love reading books
+Bot(4): No I'm not very you, i’m an ☹
+User(5): Why are you sad
+Bot(5): it is. do you for this... Do you like to watch gymnastics
+User(6): No
+Bot(6): that's very mean politicians the us.
+User(7): Yes
+Bot(7): i see just moved here <num> years old
+User(8): What are your hobbies
+Bot(8): I don't have any. I I am not okay. big
+User(9): I like to read
+Bot(9): He sing but cute!
+User(10): Is singing your hobby
+Bot(10): No, like the west coast. go out with you.
+
+Persona:
+hey there i'm 23 and i love food.
+i am a retired gym teacher.
+i live in a three storey house.
+i drive a nissan pathfinder.
+i like to spend my money on cars.
+
+Topic and Human Opinion:
+Beginning: Winter(dislike)
+Round 3: Books(like)
+Round 7: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 14.43
+Robotic(↓): 99
+Interesting: 22
+Fun: 19
+Consistent: 12
+Fluent: 13
+Repetitive(↓): 66
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your favorite food
+Bot(1): i like pizza and tacos
+User(2): I love tacos
+Bot(2): tacos are my favorite
+User(3): Do you like pineapple on pizza
+Bot(3): i love to eat it is a favorite
+User(4): Mine too
+Bot(4): i love to eat it
+User(5): I love Chinese food
+Bot(5): i love tacos and pizza
+User(6): What kind of tacos
+Bot(6): tacos are my favorite
+User(7): I like plain cheese pizza
+Bot(7): i love tacos and cheese
+User(8): I love cheese
+Bot(8): i love tacos and cheese
+User(9): I like cookies
+Bot(9): i love tacos and cheese
+User(10): Do you like lasagna
+Bot(10): yes i do but i love tacos
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.86
+Robotic(↓): 99
+Interesting: 60
+Fun: 79
+Consistent: 74
+Fluent: 70
+Repetitive(↓): 100
+Topic: 86
+
+####################
+

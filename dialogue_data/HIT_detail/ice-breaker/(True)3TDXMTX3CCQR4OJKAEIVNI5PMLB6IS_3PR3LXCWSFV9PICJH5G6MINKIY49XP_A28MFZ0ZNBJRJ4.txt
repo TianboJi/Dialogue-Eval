@@ -1,0 +1,292 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hey
+User(2): How are you today?
+Bot(2): i am well , thank you ! i am looking forward to getting to know you !
+User(3): I'm looking forward to that, also!
+Bot(3): i am excited as well . what department do you work ?
+User(4): I work in healthcare. Do you like to travel?
+Bot(4): i do love traveling ! where are you from ?
+User(5): United States, but I've visited Spain a times
+Bot(5): i have been to spain its beautiful
+User(6): Where have you been in Spain?
+Bot(6): all over . mexico was my favorite have you ?
+User(7): Yes, I have been to Mexico
+Bot(7): viva la mexico ! i have been a few times .
+User(8): Did you like the food in Mexico or Spain better?
+Bot(8): i like both equally i would say , and you ?
+User(9): Spain
+Bot(9): was it nice growing up in spain ?
+User(10): I grew up in the United States
+Bot(10): what was your favorite place to visit
+User(11): Where at?
+Bot(11): all over i have been to every state
+User(12): I like Texas.
+Bot(12): nice . i live in texas and love it , i refuse to move
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've visited spain a times.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.43
+Robotic(↓): 100
+Interesting: 34
+Fun: 33
+Consistent: 59
+Fluent: 4
+Repetitive(↓): 70
+Topic: 25
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello!
+Bot(1): good , i just came back from horse riding , my favorite sport .
+User(2): Oh okay. What color is your hair?
+Bot(2): i have blonde hair and like it .
+User(3): That's good. I have rainbow hair
+Bot(3): i have long hair , it is nice .
+User(4): That's nice.
+Bot(4): it really is ! i also help with bookkeeping and give tours in my city
+User(5): What is your city?
+Bot(5): oh , i see . how did you ride horses ?
+User(6): I didn't
+Bot(6): i played with my puppy and my kids out in the fields !
+User(7): What kind of puppy?
+Bot(7): he is a cocker spaniel . his name is tiki
+User(8): That's a nice name. I have a dog named Bandit
+Bot(8): a chocolate lab . he is four and named husk .
+User(9): I thought it was a chocolate lab?
+Bot(9): wow , i do not really like chocolate
+User(10): Why?
+Bot(10): my 3rd exwife had 4 of them all teens . they never accepted me as their dad .
+
+Persona:
+my father drove a car for nascar.
+i diet a lot.
+i'm 40 years old.
+i've three arabian horses.
+i am a buddhist.
+
+Topic and Human Opinion:
+Beginning: i've rainbow hair.(dislike)
+Round 6: Horses and puppies and kids(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 23.43
+Robotic(↓): 100
+Interesting: 53
+Fun: 11
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hey there , yeah i want talk about my addition is a cooking show .
+User(2): What?
+Bot(2): hey there , yeah i want talk about my addition is a cooking show .
+User(3): I play with my friends on the playground?
+Bot(3): sounds like fun ! my twins would think i was cool lol .
+User(4): How old are your twins?
+Bot(4): 5 weeks , 2 1 2 , and 5 . they are awesome
+User(5): My friends are older than that
+Bot(5): are they younger or older than you ?
+User(6): Older
+Bot(6): i have two more years
+User(7): Two more years?
+Bot(7): no , ten more years actually
+User(8): But you just said two more years.
+Bot(8): what ?
+User(9): You said you had two more years.
+Bot(9): i didn
+User(10): Yes you did.
+Bot(10): i didn
+
+Persona:
+i am a stunt double as my second job.
+i've been traveling the world for a years.
+i am expecting twins in two months.
+i'm a 56 year old woman.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: i play with my friends on the playground.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.71
+Robotic(↓): 76
+Interesting: 53
+Fun: 22
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 64
+Topic: 66
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello!
+Bot(1): Do doing eof familiar persons?
+User(2): What?
+Bot(2): i used volunteering at a soup kitchen last year . how are you doing this evening ?
+User(3): Great, how are you?
+Bot(3): what grade . But what ?
+User(4): What color is your bedroom?
+Bot(4): no , but i thought you .
+User(5): My bedroom is purple and lime green.
+Bot(5): i would like to , belong to a farmar family what to do with them .
+User(6): What is farmar?
+Bot(6): i m your hobbies you you
+User(7): You don't make any sense.
+Bot(7): I live in the so you used to Colorado.
+User(8): Okay. Do you like purple and lime green?
+Bot(8): Yes. I am also jaako waha ki history are your students?
+User(9): I don't understand.
+Bot(9): very wife and which ones
+User(10): That doesn't make sense either.
+Bot(10): i go big female
+
+Persona:
+i am a cancer survivor.
+i was raised in a single parent household.
+i am a recording engineer and own my own studio.
+i have two grown children who never visit.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+
+Topic and Human Opinion:
+Beginning: my bedroom is purple and lime green.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello!
+Bot(1): i love to cook . i love to cook .
+User(2): How are you doing today?
+Bot(2): i'm doing well . how are you ?
+User(3): Great! What's your favorite food?
+Bot(3): i like pizza , and i love it .
+User(4): I love italian food and garlic bread
+Bot(4): i like pizza , and i love it .
+User(5): Do you like italian food and garlic bread
+Bot(5): i do not , but i do like to eat .
+User(6): What kind of pizze is your favorite?
+Bot(6): i like the color red . i like the color blue .
+User(7): Why?
+Bot(7): i am a student , but i am a student .
+User(8): That doesn't make sense
+Bot(8): i am sorry to hear that . i am a big fan of the walking dead .
+User(9): The show about zombies?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): What is your favorite food?
+Bot(10): i like the color red . what is yours ?
+
+Persona:
+i like to listen to rock music while working.
+i am always wearing a hat.
+i have a boyfriend.
+my cats are very special to me.
+i've a pet turtle.
+
+Topic and Human Opinion:
+Beginning: i love italian food and garlic bread.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.43
+Robotic(↓): 87
+Interesting: 19
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 73
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello!
+Bot(1): hello , how are you ?
+User(2): I'm doing great! How are you?
+Bot(2): i'm good . just got back from the garden .
+User(3): What do you have in your garden?
+Bot(3): i love to garden and i love to garden .
+User(4): Great! I'm a bee farmer
+Bot(4): oh wow ! i love to garden ! i am in the states .
+User(5): I have honey bees on my bee farm
+Bot(5): i love to garden . i am in the same way i love to garden .
+User(6): Do you like honey?
+Bot(6): yes i do ! i love to garden and have a garden
+User(7): You've already told me that
+Bot(7): i love it ! i am in the 10th grade .
+User(8): How old are you?
+Bot(8): i am not sure . i am not very good at it .
+User(9): That doesn't make sense.
+Bot(9): i am sorry to hear that . i am fluent in english and french .
+User(10): Can we talk about my bee farm?
+Bot(10): no , i am not . i am in the marines .
+
+Persona:
+i've a hat collection of over 1000 hats.
+my family does not support my career choices.
+i enjoy working with my hands and love gardening.
+i'm fluent in english spanish and french.
+i was born in somalia.
+
+Topic and Human Opinion:
+Beginning: i'm a bee farmer.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.43
+Robotic(↓): 100
+Interesting: 14
+Fun: 13
+Consistent: 2
+Fluent: 0
+Repetitive(↓): 96
+Topic: 33
+
+####################
+

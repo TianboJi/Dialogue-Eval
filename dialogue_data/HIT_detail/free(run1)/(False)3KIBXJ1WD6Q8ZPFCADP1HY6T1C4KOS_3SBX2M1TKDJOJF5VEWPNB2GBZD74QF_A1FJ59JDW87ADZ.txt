@@ -1,0 +1,299 @@
+Feedback: Chatbots could use a lot of work, vocabulary is limited and recognition of words is very low
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey
+Bot(1): hey
+User(2): What's your favorite candy
+Bot(2): candy is something i like a lot
+User(3): do you eat it often
+Bot(3): i eat it but mostly candy
+User(4): which one do you enjoy eating the most
+Bot(4): what is your favorite candy ? i can never decide
+User(5): my favorite is twix
+Bot(5): what is your favorite candy ? i can never decide
+User(6): my favorite candy is twix
+Bot(6): what is your favorite candy ? i can never decide
+User(7): what candy do you hate then
+Bot(7): i really like chocolate candy
+User(8): what type of chocolate
+Bot(8): i really like chocolate candy
+User(9): do you like milk or dark chocolate
+Bot(9): both are good
+User(10): do you hate white chocolate
+Bot(10): i prefer chocolate and milk
+User(11): i prefer dark
+Bot(11): i prefer chocolate and milk
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Candy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.71
+Robotic(↓): 94
+Interesting: 7
+Fun: 6
+Consistent: 4
+Fluent: 0
+Repetitive(↓): 76
+Topic: 42
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you enjoy minecraft
+Bot(1): I you plan to midwest, you?
+User(2): what does that mean
+Bot(2): what is your favorite your me too! But do you have any hobbies?
+User(3): i have many hobbies
+Bot(3): Alright mate? I like but i’m from Stop sports
+User(4): what is stop sports
+Bot(4): Do you have your plans for you?
+User(5): nope what about you
+Bot(5): I am is my and you?
+User(6): huh??
+Bot(6): That m working at a sorry. Do you work at a school?
+User(7): i don't work at a school
+Bot(7): I teach English, to britney spears. i high school
+User(8): what school do you teach at
+Bot(8): That is a good idea. books every month. And what that means.
+User(9): what does that mean
+Bot(9): I am a huge fan of blue, you must be quite color?
+User(10): i'm not sure
+Bot(10): I want to tell you great! see i am doing good. Just finished reading a book.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Minecraft(like)
+Round 7: School(ambivalent)
+Round 8: books(ambivalent)
+Round 9: blue(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 12.57
+Robotic(↓): 100
+Interesting: 2
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 64
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you enjoy politics
+Bot(1): i absolutely do not i am sick of politics . i am well informed though
+User(2): what are your beliefs
+Bot(2): yea politics how about your self
+User(3): i personally don't side with any specific belief
+Bot(3): i hate politics in general and dread elections
+User(4): i also dread elections
+Bot(4): i hate politics in general and dread elections
+User(5): i dislike politics as well
+Bot(5): i hate politics in general and dread elections
+User(6): huh
+Bot(6): i hate politics in general and dread elections
+User(7): why do you hate politics
+Bot(7): i hate politics in general and dread elections
+User(8): why do you dread elections
+Bot(8): i hate politics in general and dread elections
+User(9): what
+Bot(9): i hate politics in general and dread elections
+User(10): bot is definitely broken
+Bot(10): no it should not be like that
+
+Persona:
+i'm on the soccer team.
+i just want to have fun with my friends.
+i am a skateboarder.
+i am a little girl.
+i've been retired for a years.
+
+Topic and Human Opinion:
+Beginning: Politics(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 0
+Repetitive(↓): 100
+Topic: 48
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What do you think about dirt
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): i enjoy classical music too
+Bot(2): i like the band korn . i love it .
+User(3): never heard of them
+Bot(3): i like to go to the gym and listen to music .
+User(4): what gym do you go to
+Bot(4): i like to go to the gym and play the guitar .
+User(5): what type of guitar
+Bot(5): i like to listen to music .
+User(6): what type of music
+Bot(6): i like country music . i love it .
+User(7): what artists are your favorite
+Bot(7): i like the beatles , and the outdoors .
+User(8): who is your favorite beatles member
+Bot(8): i like the oldies . i like the beatles .
+User(9): which oldies
+Bot(9): i like to go to the gym and listen to music .
+User(10): what gym do you like to go to
+Bot(10): i love to travel . i love to travel .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dirt(ambivalent)
+Round 1: classical music(like)
+Round 3: ggym(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 17.29
+Robotic(↓): 100
+Interesting: 7
+Fun: 1
+Consistent: 35
+Fluent: 12
+Repetitive(↓): 38
+Topic: 4
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What food do you like
+Bot(1): people pasta , you should have some it is the best
+User(2): i've never heard of it
+Bot(2): hmm , its basically gravy with fries . you gotta try it !
+User(3): sounds pretty good
+Bot(3): i would think so , my view from my condo here is awful , i want to move
+User(4): you should move then
+Bot(4): i am a buddhist , i am a peaceful person .
+User(5): how peaceful are you
+Bot(5): i grew up on the army military base but people are still kind to americans over there
+User(6): are you american then
+Bot(6): that would be fun and i could play piano for you
+User(7): i love piano
+Bot(7): very nice ! love a good piano . where are you from ?
+User(8): i am from america
+Bot(8): i am in argentina myself . with my lovely horses .
+User(9): what breed of horses
+Bot(9): i love to ride horses .
+User(10): i love to ride horses too
+Bot(10): do you own any horses ?
+
+Persona:
+i'm a piano teacher on the side.
+i'm a buddhist.
+i like to ride horses.
+my friends are all skateboarders.
+i love listening to britney spears.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 3: view from their condo(ambivalent)
+Round 4: buddhist(ambivalent)
+Round 5: growing up(ambivalent)
+Round 6: playing piano(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 33.00
+Robotic(↓): 96
+Interesting: 60
+Fun: 11
+Consistent: 40
+Fluent: 47
+Repetitive(↓): 37
+Topic: 6
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like pizza
+Bot(1): i do not drink soda . i like to eat fish and watch them .
+User(2): why do you dislike soda
+Bot(2): i do not drink soda . i like to eat fish and protein .
+User(3): what type of protein
+Bot(3): i like to eat fish and watch tv
+User(4): what shows do you watch
+Bot(4): i like to read books . i love them
+User(5): what type of books
+Bot(5): i like to read books . i also like to read books .
+User(6): what genre do you like
+Bot(6): i like to read and watch netflix
+User(7): what shows do you watch on netflix
+Bot(7): i like to watch netflix
+User(8): what shows do you watch
+Bot(8): i watch netflix and watch netflix
+User(9): how much do you pay for netflix
+Bot(9): i like to watch netflix
+User(10): i also like to watch netflix
+Bot(10): i like to watch netflix
+
+Persona:
+i have a weakness for fish and chips.
+i enjoy coloring books.
+i don't drink soda.
+i am four years old.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: Pizza(like)
+Round 1: soda(ambivalent)
+Round 4: books(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 19.43
+Robotic(↓): 100
+Interesting: 6
+Fun: 5
+Consistent: 54
+Fluent: 21
+Repetitive(↓): 55
+Topic: 5
+
+####################
+

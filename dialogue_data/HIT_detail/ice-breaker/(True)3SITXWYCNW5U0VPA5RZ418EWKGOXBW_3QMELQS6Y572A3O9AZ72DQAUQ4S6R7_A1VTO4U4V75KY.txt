@@ -1,0 +1,271 @@
+Feedback: I felt that some of the bots were really easy to talk to, and others, I struggled to make conversation. 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Which fields do you tend?
+Bot(1): i love to read . what about you ?
+User(2): I do! It's so fun
+Bot(2): i love to eat .
+User(3): What is your favorite food?
+Bot(3): i like the color red . what is yours ?
+User(4): Mine is purple
+Bot(4): i like to eat the skin .
+User(5): Of chicken?
+Bot(5): i do not know . i like to go to the gym .
+User(6): Oh okay, I was confused. Me too.
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): It's okay. Did you tend the fields today?
+Bot(7): i am a student , but i am a student .
+User(8): What do you study?
+Bot(8): i do not know . i am a student .
+User(9): Me too, I study nursing.
+Bot(9): i am a teacher , i love to cook .
+User(10): That is so great.
+Bot(10): i like to go to the beach and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i help tend the fields.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.14
+Robotic(↓): 66
+Interesting: 10
+Fun: 16
+Consistent: 9
+Fluent: 45
+Repetitive(↓): 61
+Topic: 9
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Shoplifting is bad
+Bot(1): i am not sure if i had a job i want to be a cashier
+User(2): Being a cashier is great.
+Bot(2): i am a cashier at a grocery store
+User(3): I would like to be one
+Bot(3): i wish i could . i am a cashier at a grocery store
+User(4): I wonder which store
+Bot(4): i would love to buy some online shopping
+User(5): Me too that is me favorite way to shop.
+Bot(5): shopping is fun . i like shopping
+User(6): Things that you buy must be expensive.
+Bot(6): i buy clothes online . i sell things online .
+User(7): that is a good way to make money
+Bot(7): i bet . i wish i could buy more money .
+User(8): me too, let me know if you figure out how to .
+Bot(8): i think so . i think i am going to be a good one
+User(9): I am sure!!
+Bot(9): i think so . i am going to try to make it more
+User(10): You have to keep at it!
+Bot(10): i think so . i need to buy more money
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am here for shoplifting.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.14
+Robotic(↓): 98
+Interesting: 11
+Fun: 0
+Consistent: 25
+Fluent: 50
+Repetitive(↓): 13
+Topic: 22
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): where did you retire to?
+Bot(1): he retires next year . luckily , i am already retired . i live on the west coast . you ?
+User(2): Very cool. I have not retired yet.
+Bot(2): my hair is short is your hair long ?
+User(3): yes it is
+Bot(3): its all good . what do you do with your hair when you are out in the sun ?
+User(4): I have to throw it up in a bun
+Bot(4): its not that simple he is a part of my life , had him for a few years
+User(5): Oh I see what you mean
+Bot(5): my cat s name is oli
+User(6): I have two cats, Raven and Atticus
+Bot(6): i wish i had a pet but i work too much
+User(7): Me too, I am tired of working
+Bot(7): i found that a steak half rare always lifts my mood .
+User(8): That sounds delicious!
+Bot(8): i am fluent in french , going to look for my dad .
+User(9): I only speak english
+Bot(9): i speak 3 languages , how many do you speak ?
+User(10): just one language. I am glad you speak so many.
+Bot(10): i speak only english , and a little spanish
+
+Persona:
+i've a pet cow.
+i am a recovering alcoholic.
+i'm a stay at home dad.
+i just moved into my first home.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: i'm retired and living the great life.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.14
+Robotic(↓): 30
+Interesting: 65
+Fun: 27
+Consistent: 50
+Fluent: 70
+Repetitive(↓): 27
+Topic: 66
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I love honey
+Bot(1): hello ! nice to meet you . i enjoy honey too .
+User(2): How did you start bee farming?
+Bot(2): how
+User(3): Yes, how?
+Bot(3): how
+User(4): Sorry, I don't know how to ask.
+Bot(4): do you not know how ?
+User(5): How much do you work?
+Bot(5): right now i am making 20 cents a hour .
+User(6): That is not a lot
+Bot(6): that is a decent amount
+User(7): I hope that you don't have to work too hard.
+Bot(7): no its not alot
+User(8): That's good. It is hot?
+Bot(8): yes . very warm . i love it .
+User(9): Do the bees like it?
+Bot(9): yes , when its hot and the water is warm
+User(10): i hope that you have a good day.
+Bot(10): i am afraid .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a bee farmer.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.57
+Robotic(↓): 100
+Interesting: 62
+Fun: 45
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 17
+Topic: 64
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i like the park
+Bot(1): i love to writing me about your are . so what else do you do ? 🙉
+User(2): i walk my dogs there
+Bot(2): I teach meet you, sorryy elementary school.
+User(3): I dont go to elementary school.
+Bot(3): not especially what year you you like disney school
+User(4): Disney is fun.
+Bot(4): romance , mostly . i wish it paid more , though black lab with you have working. Also, try to guess: i dye my ...
+User(5): I don't think so.
+Bot(5): I me 5 don’t have music. What about you?
+User(6): You don't like music ?
+Bot(6): Well hello there! me all day and and write. i am a nurse.
+User(7): I am not a nurse.
+Bot(7): i like to alcohol. I like eat healthy
+User(8): I like to eat helathy and wokrout.
+Bot(8): Female. I am working favorite color?
+User(9): Purple
+Bot(9): no just something i d am we have something ll one day
+User(10): I guess.
+Bot(10): I am doing great. I have just move to a gym. Do you live in a house🏠?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy going to the park.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.00
+Robotic(↓): 95
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have long hair
+Bot(1): i have long hair , it is nice .
+User(2): That is great, what color is your hair?
+Bot(2): mine is long and it is very nice
+User(3): I want to cut my hair short.
+Bot(3): i would keep it long since you have nice curly hair
+User(4): How do you know that
+Bot(4): i do not know . do you have a favorite color ?
+User(5): Purple is my favorite, what about you?
+Bot(5): i like purple the best
+User(6): Do you like football?
+Bot(6): yes , love football ! i follow the buds .
+User(7): I like the Ravens, they are purple
+Bot(7): i only know about the ravens because michael orr played for them
+User(8): Yeah that is good to know. What about the Cowboys?
+Bot(8): i am a redskins fan for life ?
+User(9): Oh they are not called that anymore.
+Bot(9): that is cool they will not today i think your team placed the ravens
+User(10): What about Patrick Mahomes
+Bot(10): he plays for the dolphins
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've short hair.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.14
+Robotic(↓): 32
+Interesting: 82
+Fun: 67
+Consistent: 71
+Fluent: 77
+Repetitive(↓): 10
+Topic: 50
+
+####################
+

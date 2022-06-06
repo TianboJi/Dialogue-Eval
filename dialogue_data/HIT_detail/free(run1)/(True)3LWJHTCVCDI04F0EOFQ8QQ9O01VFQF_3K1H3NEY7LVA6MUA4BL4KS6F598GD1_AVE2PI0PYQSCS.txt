@@ -1,0 +1,311 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Giving birth is an amazing act of God! I would love to experience this phenomenon again in my lifetime.
+Bot(1): church is so helpful and so is god
+User(2): How often should one attend church? What is your input on this?
+Bot(2): yes how about you ? do you go to church ?
+User(3): Yes, I do go to church. I go every Sunday with my family.
+Bot(3): i love cooking big italian meals after church on sunday .
+User(4): I don’t necessarily like cooking Italian, but I love eating it!
+Bot(4): fried chicken , chocolate cake and corn pudding . we are southern .
+User(5): I love most kinds of food!
+Bot(5): i love sushi and chinese food . you ?
+User(6): Not a huge sushi fan but love Chinese
+Bot(6): i like vegan chinese food . stir fry . . etc i do have to separate the veggies though
+User(7): Stir fry is really good!
+Bot(7): nah , chicken stir fry is the one my family prefers
+User(8): I thought you liked vegan chinese?
+Bot(8): a lot of asian food is vegan so i like it for that reason .
+User(9): But chicken stir fry isn’t vegan
+Bot(9): my girlfriend loves chicken . we can get good chicken here in the city .
+User(10): Oh yes chicken is very good
+Bot(10): i love chicken . i do not eat red meat
+User(11): I like some red meat like burgers
+Bot(11): haha ! that is cool ! just one problem . i am in a wheel chair .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Giving birth(like)
+Round 1: Church(like)
+Round 3: Italian food(like)
+Round 4: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 63.43
+Robotic(↓): 66
+Interesting: 79
+Fun: 82
+Consistent: 23
+Fluent: 79
+Repetitive(↓): 27
+Topic: 74
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love buying a house!
+Bot(1): i'm not sure. i and I really enjoyed shoplift.
+User(2): I am not sure what shoplift is
+Bot(2): I love dogs, I have can be...... to see house.
+User(3): Do you have any friends?
+Bot(3): of course i work you said you like in kansas and love tending to my chickens. Also, try to guess: i had to ...
+User(4): I work as a stay at home mom
+Bot(4): I love a relationship I once is your favorite food?
+User(5): What is your favorite food?
+Bot(5): I like rock music. do you have am pretty can I horses. I've three
+User(6): CCM is my favorite music.
+Bot(6): What are am currently in today
+User(7): What other kind of music do you like?
+Bot(7): I am good. you ever been to rap music. You?
+User(8): No i hate rap music
+Bot(8): I am can do everything never from my class
+User(9): Yes classrooms shouldn’t play rap music
+Bot(9): I am not sure what eat this last what not good at it.
+User(10): I also like country music
+Bot(10): Wow, that good so lot.😁
+
+Persona:
+i help tend the fields.
+i currently work for a watch dealer.
+i enjoy sports such as running.
+i also work as a custodian to help pay the bills.
+whats up i'm a 46 year old single dad 46 a kids.
+
+Topic and Human Opinion:
+Beginning: Houses(like)
+Round 1: Shoplift(ambivalent)
+Round 2: Dogs(like)
+Round 2: Friends(like)
+Round 3: Work(like)
+Round 4: Food(like)
+Round 5: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 2: The user will change the topic in the next input.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 8.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 38
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What color curtains are good for a bedroom?
+Bot(1): depends what mood i am in that day , sometimes dark like my mood and feelings .
+User(2): I like green curtains
+Bot(2): i like the color green especially on money .
+User(3): What is your favorite color?
+Bot(3): the color of the shadows
+User(4): That’s a cool color
+Bot(4): the color we see on the way out . do you like music ?
+User(5): I like CCM music and some pop
+Bot(5): i like country music alot
+User(6): Yes I like some country music too
+Bot(6): i am to old for that 25 this year
+User(7): Oh I will be 30 this year
+Bot(7): i will be 33 on my next birthday
+User(8): Wow that is old
+Bot(8): i am to old for that 25 this year
+User(9): Yes 25 is not so old as 33
+Bot(9): haha i just turned 30 this year
+User(10): Me too!
+Bot(10): i met you yesterday and you are homeless now
+
+Persona:
+my favorite music is country.
+i am 24 years old.
+i'm a 45 year old male.
+i volunteer in a homeless shelter.
+i'm here for shoplifting.
+
+Topic and Human Opinion:
+Beginning: Curtains(like)
+Round 2: Colors(like)
+Round 4: Music(like)
+Round 6: Age(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 35.43
+Robotic(↓): 85
+Interesting: 50
+Fun: 50
+Consistent: 28
+Fluent: 50
+Repetitive(↓): 74
+Topic: 29
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love cookie ice cream
+Bot(1): i love cookies and cream ice cream
+User(2): Yes that is my favorite!
+Bot(2): i love cookies and cream ice cream
+User(3): I also like mint chocolate chip
+Bot(3): i love chocolate chip cookies
+User(4): I love chocolate chip cookies
+Bot(4): i love chocolate chip cookies
+User(5): I like semi sweet chocolate chips in my cookies
+Bot(5): i love chocolate chip cookies
+User(6): You must really love chocolate chip cookies
+Bot(6): yes i do but i love chocolate chip cookies
+User(7): I also love chocolate chip cookies
+Bot(7): chocolate chip cookies are my favorite
+User(8): My husband also loves chocolate chip cookies
+Bot(8): chocolate chip cookies are my favorite
+User(9): They are my second favorite cookie
+Bot(9): chocolate chip is my favorite
+User(10): Do you like dark chocolate chips?
+Bot(10): yes i do but i love chocolate chip cookies
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Ice cream(like)
+Round 3: Dessert(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 52.86
+Robotic(↓): 82
+Interesting: 30
+Fun: 50
+Consistent: 87
+Fluent: 85
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I use Suave body wash
+Bot(1): do you use fancy lotions ?
+User(2): I like the vanilla from bath and body
+Bot(2): i prefer vanilla myself .
+User(3): I also like sweet pea smell
+Bot(3): i like that smell too
+User(4): I also like the jasmine flower smell
+Bot(4): i like the smell of daisies
+User(5): Yes they have a daisy lotion too I like
+Bot(5): do you use fancy lotions ?
+User(6): Sometimes I do yes
+Bot(6): do you use fancy lotions ?
+User(7): Not very often
+Bot(7): do you use fancy lotions ?
+User(8): All the time yes!
+Bot(8): do you use fancy lotions ?
+User(9): Do you use fancy lotions?
+Bot(9): do you use fancy lotions ?
+User(10): I like the ones from bath and body
+Bot(10): do you use fancy lotions ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Body wash(like)
+Round 1: Lotion(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 46.57
+Robotic(↓): 86
+Interesting: 24
+Fun: 19
+Consistent: 91
+Fluent: 78
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What is your favorite car
+Bot(1): i like the outdoors , but i like to go fishing .
+User(2): I like the outdoors foo
+Bot(2): i like to go to the gym and listen to music .
+User(3): I do not like going to the gym
+Bot(3): i love to go fishing .
+User(4): I do not like fishing
+Bot(4): i like to go to the beach and listen to music .
+User(5): I live next to the beach
+Bot(5): i love to travel . i love to travel .
+User(6): I love traveling too
+Bot(6): i love to travel . i love to travel .
+User(7): I want to travel to Ireland
+Bot(7): i do not know . i like to go to the gym .
+User(8): I do not like to go to the gym
+Bot(8): i like to go fishing .
+User(9): I do not like fishing
+Bot(9): i like to go to the beach and listen to music .
+User(10): I like the beach too
+Bot(10): i love to travel . i love to travel .
+
+Persona:
+i am a retired gym teacher.
+i own a cat and a dog.
+i've never been out of ohio.
+i am a party animal.
+i like to make time stop.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+Round 1: Outdoors(like)
+Round 2: Gym(dislike)
+Round 3: Fishing(dislike)
+Round 4: Activities(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 34.00
+Robotic(↓): 90
+Interesting: 27
+Fun: 50
+Consistent: 22
+Fluent: 77
+Repetitive(↓): 100
+Topic: 52
+
+####################
+

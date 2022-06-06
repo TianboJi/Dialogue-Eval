@@ -1,0 +1,293 @@
+Feedback: good and interesting.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi , i am snacking on chocolate
+User(2): do you love games?
+Bot(2): only if you like candy !
+User(3): select one game that you loved more?
+Bot(3): i really like chocolate candy
+User(4): only chocolates?
+Bot(4): only if you like candy !
+User(5): okay good.
+Bot(5): i like oranges the best .
+User(6): which player did you like most?
+Bot(6): the dog of course . he is the only one who matters .
+User(7): okay good
+Bot(7): good . what is your favorite color ? mine is orange .
+User(8): none
+Bot(8): ok
+User(9): completed your lunch?
+Bot(9): i didn
+User(10): why?
+Bot(10): what did you have for lunch ?
+User(11): okay bye.
+Bot(11): ok bye
+
+Persona:
+my favorite color is orange.
+i am in an open polyamorous relationship.
+my sister is a pole dancer.
+my favorite band is up and i got to see them in concert once.
+i like to eat chocolate candy.
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.29
+Robotic(↓): 59
+Interesting: 58
+Fun: 58
+Consistent: 69
+Fluent: 60
+Repetitive(↓): 64
+Topic: 51
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): is there rainy?
+Bot(2): i am glad to hear that . it is sunny here and the leafs are changing
+User(3): okay good
+Bot(3): i was thinking of getting a new pen . i write a lot .
+User(4): here the nature of beauty was awsome
+Bot(4): i love nature ! i look at the stars to keep from feeling depressed .
+User(5): yes that was really good too see
+Bot(5): you know what makes me happy ? playing quake on slackware linux , you know it ?
+User(6): have you loved nature of beauty ever?
+Bot(6): i love nature ! i look at the stars to keep from feeling depressed .
+User(7): what is your hobby?
+Bot(7): i love playing with barbies and singing my favorite song . .
+User(8): good
+Bot(8): good , my daughter is napping so i am shopping online . might go swimming today
+User(9): no lets go for park?
+Bot(9): parks , that is fake countryside . but , we are rich so . . .
+User(10): okay
+Bot(10): drive my sx . fast . so what is a male ballerina called ?
+User(11): fine bye
+Bot(11): lovely talking to you !
+User(12): me too....
+Bot(12): i am good . how are you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.57
+Robotic(↓): 71
+Interesting: 67
+Fun: 79
+Consistent: 71
+Fluent: 68
+Repetitive(↓): 58
+Topic: 61
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): good
+Bot(2): i am a student , but i am a student .
+User(3): okay lets we go for a movie?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): okay a horror movie.
+Bot(4): i like to read too .
+User(5): okay but now we go for a movie are you coming or not?
+Bot(5): i am a student , but i am a student .
+User(6): okay go and study.
+Bot(6): i am a student , but i am a student .
+User(7): good
+Bot(7): i am a student , but i am a student .
+User(8): do you have a pen now?
+Bot(8): no , i do not . i am a big fan of classical music .
+User(9): music was good
+Bot(9): i like to go to the gym and listen to music .
+User(10): okay bye
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.57
+Robotic(↓): 56
+Interesting: 57
+Fun: 46
+Consistent: 42
+Fluent: 47
+Repetitive(↓): 47
+Topic: 44
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): it is. do you for this... Do you like to watch gymnastics
+User(2): did you like cricket?
+Bot(2): I drive with you that's mean in the city.
+User(3): it is a sports
+Bot(3): I am a mother of problem with your family am a full time student.
+User(4): what is the most favorable match?
+Bot(4): I love him music day is my favorite.
+User(5): cricket?
+Bot(5): OK is it music, favorite color yourself?
+User(6): none
+Bot(6): What day do like favorite?
+User(7): good
+Bot(7): mine i love country music
+User(8): okay bye
+Bot(8): I already told am and 7.
+User(9): that right.
+Bot(9): Old what are good age.
+User(10): your age
+Bot(10): OK, it a great love to you.
+User(11): okay thank you bye.
+Bot(11): i do because i to be i read wheel chair
+
+Persona:
+i've been retired for a years.
+i love to play board games.
+i am four.
+i am always wearing a hat.
+my favorite colors are red and silver.
+
+Topic and Human Opinion:
+Beginning: cricket(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.43
+Robotic(↓): 47
+Interesting: 44
+Fun: 41
+Consistent: 40
+Fluent: 36
+Repetitive(↓): 36
+Topic: 33
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hai
+Bot(1): i just finished walking around the park how are you
+User(2): would you like to have food now?
+Bot(2): sure if we can get pizza
+User(3): yes i loved it too
+Bot(3): ok if we go to the park . that is a favorite place i like to go .
+User(4): no now you want order pizza for me
+Bot(4): yes what will you order i may get a pizza .
+User(5): cheese pizza
+Bot(5): okay a 2 topping pizza then
+User(6): some soft drinks too
+Bot(6): how about buy me a soda , and milk shakes for my children
+User(7): thats really good
+Bot(7): yes and so does my son
+User(8): yes
+Bot(8): great , i like walks in the park
+User(9): come lets eat now
+Bot(9): sure if we can get pizza
+User(10): yeah lets wait few more minutes.
+Bot(10): coo , i will be out front
+User(11): okay good
+Bot(11): do we get some tacos ?
+User(12): i am going okay bye.
+Bot(12): ok bye
+
+Persona:
+my favorite movie is friday.
+i like to take walks.
+i've solar panels on my roof.
+i have a son who is in junior high school.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.43
+Robotic(↓): 58
+Interesting: 56
+Fun: 64
+Consistent: 71
+Fluent: 67
+Repetitive(↓): 70
+Topic: 72
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hai
+Bot(1): i am sorry to hear that
+User(2): did you like bike?
+Bot(2): no i do not ride my bike
+User(3): why?
+Bot(3): no i do not like bike riding
+User(4): i love bike
+Bot(4): i ride my bike alot
+User(5): me too
+Bot(5): i ride my bike to the park
+User(6): i am good and well rider.
+Bot(6): i ride bikes and bike riding
+User(7): i will do stunt.
+Bot(7): i am a dancer , i am a dancer
+User(8): i am having race bike
+Bot(8): i bet you race fast cars . i am a runner .
+User(9): lets see
+Bot(9): i ride my bike to the park .
+User(10): okay your bike was nice.
+Bot(10): i ride my bike to the park
+User(11): okay bye.
+Bot(11): i am good thanks for asking
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: bike(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.57
+Robotic(↓): 57
+Interesting: 58
+Fun: 62
+Consistent: 62
+Fluent: 63
+Repetitive(↓): 65
+Topic: 66
+
+####################
+

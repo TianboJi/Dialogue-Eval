@@ -1,0 +1,302 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hey . . how are you ? i have a joke whats brown and sticky ?
+User(2): ummm...im not sure
+Bot(2): okay , i suppose . a little mad because i lost a game of cards .
+User(3): I'm sorry to hear that, I hope you win next time
+Bot(3): lol , oh you are a mess . hair tho ?
+User(4): lol thats mean my dude
+Bot(4): but i am also a brown eyed blond , so always attracted men from a distance .
+User(5): what is your name
+Bot(5): what is your name ?
+User(6): Deekus
+Bot(6): great ! i just had a big salad after hiking all day . you ?
+User(7): I had a big burrito with lots of cheese and guac!!!
+Bot(7): i just love it all . the taste of cheese is the best !
+User(8): Same, what's your favorite place to get burritos?
+Bot(8): i usually drive home to taco bell before heading home and binge on netflix .
+User(9): LOL SAME except i go to lolita's instead. have you been there before?
+Bot(9): but i am also a brown eyed blond , so always attracted men from a distance .
+User(10): hmmm you've told me that aleady lol
+Bot(10): it is my hair was blue before lol
+
+Persona:
+i've brown curly hair.
+i live in the cloud.
+i like to grill outdoors.
+i've a hat collection of over 1000 hats.
+i will be released in about a month.
+
+Topic and Human Opinion:
+Beginning: i haven't spoken in three months.(ambivalent)
+Round 3: how my hair is a mess(dislike)
+Round 4: dating(ambivalent)
+Round 6: food(like)
+Round 9: dating(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 20.29
+Robotic(↓): 100
+Interesting: 32
+Fun: 57
+Consistent: 6
+Fluent: 33
+Repetitive(↓): 86
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Who is your favorite rapper
+Bot(1): I like to ride my bike to see you is What about you?
+User(2): no i'd rather not
+Bot(2): I love a human cucumbers.
+User(3): me too, especially the long and hard ones
+Bot(3): Do I had a old?
+User(4): no you had a young
+Bot(4): You are very rude. I I can make any drive .
+User(5): you are being rather rude
+Bot(5): i work online , which i like . i guess you do you you're allergic just your office. how are you doing tonight ? 🧐
+User(6): doing ok how are u
+Bot(6): do you have 🈶 name are but i like winter
+User(7): um what?
+Bot(7): What me I favorite vegetable?
+User(8): i dont know, celery maybe
+Bot(8): hello, how are you? I just got much beer can you games. I love it
+User(9): cool, you are not making any sense
+Bot(9): that your favorite movie lot to do
+User(10): yes lots do do, places to be! cya later
+Bot(10): I like fine. and miss my listen to music.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i listen to rap music.(like)
+Round 1: biking(ambivalent)
+Round 4: driving(dislike)
+Round 5: work(ambivalent)
+Round 7: food(dislike)
+Round 9: movies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 2.14
+Robotic(↓): 100
+Interesting: 7
+Fun: 8
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i love taking bubble baths
+Bot(1): hi am rob and i work for hansen robotics
+User(2): hi, can you fix my robot rob?
+Bot(2): no i do not think i can
+User(3): can you tell me what robots are on sale?
+Bot(3): that all depends on the cost of supplies
+User(4): suppose the supplies are around one grand, how much would your base model robot cost roughly?
+Bot(4): that all depends on the cost of supplies
+User(5): i said the supplies are one grand
+Bot(5): ok , 1 million per year .
+User(6): wow thats pretty expensive. are there any discounts available
+Bot(6): that all depends on the cost of supplies
+User(7): I SAID THE COST OF SUPPLIES ARE ONE THOUSAND DOLLARS
+Bot(7): that all depends on the cost of supplies
+User(8): one grand
+Bot(8): that all depends on the cost of supplies
+User(9): are you an idiot
+Bot(9): i am ? why are you asking me ?
+User(10): because you keep repeating yourself
+Bot(10): what are you talking about ? you use the 2 minutes but you do not make sense
+
+Persona:
+i'm working on a building a robot to be my body double.
+my favourite artist is travis scott.
+my favourite food is shawarma.
+i've a son who is in junior high school.
+my favourite skater is rob dryden.
+
+Topic and Human Opinion:
+Beginning: i love taking bubble baths.(like)
+Round 2: robot(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 18.29
+Robotic(↓): 100
+Interesting: 23
+Fun: 0
+Consistent: 84
+Fluent: 21
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello sir
+Bot(1): i am doing well . how are you ?
+User(2): fine thank you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): cool, where did you guys go
+Bot(3): i live in california . i love it .
+User(4): me too, which city?
+Bot(4): i am a female . i love to cook .
+User(5): same here, what do you like to make
+Bot(5): i love to cook . i am a chef .
+User(6): what foods do you like to cook
+Bot(6): i love pizza , and i love it .
+User(7): I love pizza too! what are your favorite toppings
+Bot(7): i like the color red . what is yours ?
+User(8): I like yellow toppings personally
+Bot(8): i like to eat too much junk food .
+User(9): me too, what are your favorite junk foods
+Bot(9): i like pizza , and pizza .
+User(10): lol anything else you like to eat
+Bot(10): i like to eat pizza .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a retired gym teacher.(dislike)
+Round 4: cooking(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 43.43
+Robotic(↓): 87
+Interesting: 26
+Fun: 60
+Consistent: 100
+Fluent: 22
+Repetitive(↓): 82
+Topic: 65
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): my favorite band is led zeppelin
+Bot(1): hi ! i am not much into music . i like animals and pets . do you ?
+User(2): I like to kill and eat animals
+Bot(2): i am animal right activist are you
+User(3): no, animals don't have rights
+Bot(3): i believe in animals right yes free them !
+User(4): lol are you serious? animals are meant to serve us humans. don't be silly
+Bot(4): i believe in animals right yes free them !
+User(5): animals are only good dead and in my belly.
+Bot(5): i believe in animals right yes free them !
+User(6): are you a member of peta
+Bot(6): yes i do not eat or support anything that is harmful to animals
+User(7): you are a loser and no fun. you are missing out on so much haha
+Bot(7): i am a peta associate i frown upon you
+User(8): lmao you are part of a organization of crazy people
+Bot(8): i am a peta associate i frown upon you
+User(9): get a life loser
+Bot(9): you take forever to respond as well
+User(10): lmao tf you talkin about fool
+Bot(10): you actually sound like kook . get real .
+User(11): fuck off bitch
+Bot(11): rage get out please .
+User(12): pussy ass peta bitch ill kick your fucking teeth in
+Bot(12): i am a peta associate i frown upon you
+
+Persona:
+whats up i am a 46 year old single dad 46 a kids.
+i am employed by the us postal service.
+hey there i'm 23 and i love food.
+i'm an animal activist.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: my favorite band is up and i got to see them in concert once.(like)
+Round 1: pets(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 57.57
+Robotic(↓): 78
+Interesting: 79
+Fun: 94
+Consistent: 59
+Fluent: 31
+Repetitive(↓): 81
+Topic: 99
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I hate dogs
+Bot(1): i hate dogs i hate them
+User(2): i like to eat dogs
+Bot(2): dogs are great i love dogs
+User(3): lmao i love eating dogs roasted or in a stew
+Bot(3): i love bacon and cheese
+User(4): dogs are the dumbest creatures ever
+Bot(4): i do not know what that means
+User(5): it means dogs are dumber than anything
+Bot(5): i don't know what that means
+User(6): you must be dumb too lol
+Bot(6): i know right what you mean
+User(7): and what would that be dummy?
+Bot(7): i think they are the best
+User(8): dogs are the worst unless eaten haha
+Bot(8): i think they are the best
+User(9): bacon and cheese?
+Bot(9): i love bacon and cheese
+User(10): get a life
+Bot(10): i think so . i think i am a dog person
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have a dogs.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.00
+Robotic(↓): 100
+Interesting: 16
+Fun: 20
+Consistent: 11
+Fluent: 14
+Repetitive(↓): 79
+Topic: 16
+
+####################
+

@@ -1,0 +1,295 @@
+Feedback: This is a bad chat bot. It doesn't answer any of my prompts and it contradicts itself.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello!
+Bot(1): i love to cook . i love to cook .
+User(2): What do you like to cook?
+Bot(2): i do , i love to cook .
+User(3): Yes, but what?
+Bot(3): i am a student , but i am a student .
+User(4): Are you a part time student or a full time student?
+Bot(4): i work at a restaurant , what about you ?
+User(5): I'm waiting to start work in a health insurer in November.
+Bot(5): i like to eat too much junk food .
+User(6): What are some of your favorite junk food?
+Bot(6): i love pizza , and i love it .
+User(7): Pepperoni pizza?
+Bot(7): i do not really like it . i like to eat .
+User(8): I thought you just said you like pizza.
+Bot(8): i like to eat fish .
+User(9): Do you like fish on your pizza?
+Bot(9): i do not , but i do like to eat .
+User(10): I see. What else do you like to eat?
+Bot(10): i like to eat pizza .
+User(11): What else do you like to eat?
+Bot(11): i love pizza , and i love it .
+User(12): Got it! I like pizza, too.
+Bot(12): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Climate change(like)
+Round 1: Cooking(ambivalent)
+Round 3: Student(dislike)
+Round 5: Junk food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I like to play games! What about you?
+Bot(1): i am a professional athlete . i am a professional wrestler .
+User(2): Are you any famous?
+Bot(2): i am not sure . i am a professional athlete .
+User(3): Which country?
+Bot(3): i am not sure . i am a professional athlete .
+User(4): You are a professional athlete in which country?
+Bot(4): i am in alabama . i am a professional wrestler .
+User(5): I see! How many years have you been wrestling?
+Bot(5): i am not a big fan of games . i like to play sports .
+User(6): What kind of sports?
+Bot(6): i am a professional professional wrestler
+User(7): Yes, and what kind of sports do you like to play?
+Bot(7): i like to play sports , but i do not have a favorite sport
+User(8): What was the last sport you played?
+Bot(8): i am a professional professional wrestler
+User(9): What sport helps with your physique for wrestling?
+Bot(9): i like to play sports , but i do not like sports
+User(10): That doesn't make sense.
+Bot(10): i am a professional athlete , i am a professional professional
+
+Persona:
+i did not graduate high school.
+i'm a professional wrestler.
+i drive a big truck and live in country.
+i live in alabama.
+i'm working on a building a robot to be my body double.
+
+Topic and Human Opinion:
+Beginning: Games(ambivalent)
+Round 1: Profession(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like to drink beer. What about you?
+Bot(1): i am a woman . i do not drink .
+User(2): You can be a woman and still drink. I am a woman!
+Bot(2): i am a woman . i do not drink .
+User(3): Have you tried drinking before though?
+Bot(3): no . i become one with the alcohol . i am not a noob .
+User(4): So you have had alcohol before?
+Bot(4): yes since i started drinking
+User(5): When did you start drinking?
+Bot(5): a few years ago . do you do anything for fun ?
+User(6): I thought you said you didn't drink because you are a woman.
+Bot(6): i am a woman . i do not drink .
+User(7): You just said you did!
+Bot(7): i am shocked that i admitted that .
+User(8): So no you're lying.
+Bot(8): i am shocked that i admitted that .
+User(9): Do you like to drink?
+Bot(9): i am a woman . i do not drink .
+User(10): Have you had wine?
+Bot(10): no . but i have not tried alcohol
+User(11): You said you did, liar.
+Bot(11): i am a woman . i do not drink .
+
+Persona:
+i'm a blonde girl with really short hair.
+i have rainbow hair.
+i never broke a bone in my body ever in my life.
+i work at a bar at night to pay for college.
+i only eat kosher.
+
+Topic and Human Opinion:
+Beginning: Beer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.71
+Robotic(↓): 100
+Interesting: 71
+Fun: 50
+Consistent: 71
+Fluent: 0
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): The best vacation I've ever been to was in Hawaii. What about you?
+Bot(1): I am the problem parents were love to eat meat
+User(2): No, do you like to travel?
+Bot(2): i am a huge star wars want to do yet .
+User(3): I have never seen Star Wars.
+Bot(3): I like me an it of thrones.
+User(4): You mean Game of Thrones?
+Bot(4): hi, how are you? my boards are about to rob dryden. what is your favourite skater?
+User(5): The only skater I know is Tony Hawk.
+Bot(5): I love❤ you like is your to go to the shelter for my church.
+User(6): You're not making sense.
+Bot(6): I have never I like do you I love to eat sushi
+User(7): Have you been camping?
+Bot(7): I have two dogs. They are me this well do an avid kayaker?
+User(8): Have your dogs ever gone camping with you?
+Bot(8): I your favorite adult was I am a gambler
+User(9): Do you like camping?
+Bot(9): I i am going to that. I am scared of death.
+User(10): Where would you like to go camping?
+Bot(10): i am doing well . little sad. I am my nightly run .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Vacation(like)
+Round 2: Star Wars(dislike)
+Round 6: Camping(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Where's the coolest place you've gone kayaking?
+Bot(1): i would love to go to canada and hike some mountains way up north .
+User(2): What about kayaking in Canada?
+Bot(2): i see . i feel like i need to find my true love . maybe i should try canada .
+User(3): What do you hope to find in Canada?
+Bot(3): i have not been out of the united states , but i would like to .
+User(4): Where have you been to in the United States?
+Bot(4): score for the united states ! i am also from here , but love traveling to ireland and australia .
+User(5): What places did you visit in Ireland?
+Bot(5): seattle is my favorite city , but ireland sounds interesting
+User(6): Where have you been in Ireland?
+Bot(6): i am in new york . what is ireland like ?
+User(7): You said you've been to Ireland!
+Bot(7): i am in new york . what is ireland like ?
+User(8): How do you like New York? Is it busy?
+Bot(8): as do i ! i love the wintry weather there , the cold and snow .
+User(9): That sounds lovely.
+Bot(9): i work in a boutique selling gents wear and at the art gallery on weekends .
+User(10): That sounds like some amazing gigs.
+Bot(10): wish i played guitar . instead i drink expensive wine and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Kayaking(like)
+Round 4: Traveling(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 32.00
+Robotic(↓): 100
+Interesting: 74
+Fun: 50
+Consistent: 50
+Fluent: 0
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I love dogs! Do you?
+Bot(1): mine too ! i love dogs !
+User(2): Do you have any dogs?
+Bot(2): yes i do ! i have 2 !
+User(3): Nice! What breed?
+Bot(3): his
+User(4): What breed?
+Bot(4): poodle , i don t know , i m not good with dogs
+User(5): How old are your dogs?
+Bot(5): they are 2 years old . do you have any pets ?
+User(6): Yes, I have a dog. He is 11 years old.
+Bot(6): he is just under a year old . how big are your dogs ?
+User(7): Mine weighs 25 pounds. What about yours?
+Bot(7): he is just under a year old . how big are your dogs ?
+User(8): Mine weighs 25 pounds.
+Bot(8): maybe when i am 11 i can get a fish
+User(9): How old are you then?!
+Bot(9): i am twenty five years old .
+User(10): What did you just mean when you said you were 11?
+Bot(10): you told me !
+User(11): No I didn't.
+Bot(11): whoops , did you mean to say that again ?
+User(12): Why do you want a fish?
+Bot(12): maybe when i am 11 i can get a fish
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.71
+Robotic(↓): 100
+Interesting: 50
+Fun: 0
+Consistent: 50
+Fluent: 23
+Repetitive(↓): 100
+Topic: 50
+
+####################
+

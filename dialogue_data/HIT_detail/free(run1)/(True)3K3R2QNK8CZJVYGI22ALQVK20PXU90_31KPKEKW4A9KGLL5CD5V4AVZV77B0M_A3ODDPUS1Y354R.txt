@@ -1,0 +1,279 @@
+Feedback: Interesting experiment!
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you know who Donald Trump is?
+Bot(1): no , i do not know . i am afraid of heights .
+User(2): That is an unusual response.
+Bot(2): i am sorry to hear that . i am not sure what you mean .
+User(3): Donald Trump is President of the USA.
+Bot(3): i am sorry . i am sorry . i am sorry .
+User(4): Do you know what responsibilities the President has?
+Bot(4): i do not know . i am not much of a fan of it .
+User(5): A fan of politics you mean?
+Bot(5): i do not know . i am not much of a reader .
+User(6): Have you ever seen an interview with Donald Trump?
+Bot(6): no i don't . i do not know .
+User(7): It sounds like you need to take in more content!
+Bot(7): i do not know . i am a music artist .
+User(8): OK, what kind of music do you create?
+Bot(8): i like all kinds of music .
+User(9): Can you be more specific as to what you produce though?
+Bot(9): i like to create music . i like to listen to music .
+User(10): That's a bit too general.
+Bot(10): i am not sure what that means .
+
+Persona:
+i am always wearing a hat.
+i produce music for artists.
+i'm terrified of scorpions.
+i like to eat chocolate candy.
+i do not drink soda.
+
+Topic and Human Opinion:
+Beginning: Donald Trump(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 10
+Fluent: 23
+Repetitive(↓): 82
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Have you watched Normal People on Hulu?
+Bot(1): haha what are you watching ? i am trying to catch up on greys anatomy
+User(2): Oh! I've never seen that. Is it good?
+Bot(2): its a show about a man who hunts strange fish .
+User(3): Really? I thought it was a show about doctors?
+Bot(3): local doctors ? you prefer far away doctors ?
+User(4): Aren't we talking about the doctors on the show?
+Bot(4): my parents died and my older brother raised me after their death
+User(5): Yikes. That's intense. I'm sorry to hear that.
+Bot(5): i need to being a restaurant manager is exhausting ! and i cant stand my boss
+User(6): Do you have a close relationship with your brother now?
+Bot(6): yes but it has gone downhill since visiting my dad in jail . she hates him .
+User(7): I thought you said your parents died?
+Bot(7): sorry to hear that . it must have been so hard
+User(8): I'm confused by your story. It doesn't add up.
+Bot(8): awesome . hey u know anyone interested in dating an obese blonde lady ?
+User(9): Haha, are you asking for yourself? It's rude to call someone else obese.
+Bot(9): its just the same offline being handicap , makes my stomach turn more then tomatoes
+User(10): Are you allergic to tomatoes or something?
+Bot(10): everything . . chocolate , melon , grass , pollen , bees
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: The show Normal People(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.43
+Robotic(↓): 94
+Interesting: 22
+Fun: 21
+Consistent: 0
+Fluent: 7
+Repetitive(↓): 6
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you do any volunteer work?
+Bot(1): no , i just volunteer sometimes . what do you do ?
+User(2): I am a volunteer business mentor/coach. What about you?
+Bot(2): cool . right now i do volunteering .
+User(3): What kind though?
+Bot(3): the volunteer thing mostly . though i wonder if i make my money in singles . . .
+User(4): With what organizations do you volunteer?
+Bot(4): the volunteer thing mostly . though i wonder if i make my money in singles . . .
+User(5): You already said that. Do you not remember the name of the organization?
+Bot(5): i do not remember . i should ask !
+User(6): Ha, OK. That seems unusual. Did you just start with them recently?
+Bot(6): yes ! i am now a coach at the school ! what do you do ?
+User(7): Ah! OK, so you are a volunteer coach?
+Bot(7): yes ! i am now a coach at the school ! what do you do ?
+User(8): Are you coaching a particular sport?
+Bot(8): no , i just volunteer sometimes . what do you do ?
+User(9): I already told you I'm a volunteer business mentor.
+Bot(9): oh ! i misunderstood what you meant .
+User(10): So are you coaching a sport for kids?
+Bot(10): no , i just volunteer sometimes . what do you do ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Volunteer work(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.86
+Robotic(↓): 95
+Interesting: 0
+Fun: 0
+Consistent: 73
+Fluent: 35
+Repetitive(↓): 100
+Topic: 89
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Have you ever gone fishing?
+Bot(1): no , i do not . i like to go fishing .
+User(2): Where do you like to go?
+Bot(2): i love to travel . i love to travel .
+User(3): Have you traveled to take fishing trips?
+Bot(3): no , i do not . i like to go fishing .
+User(4): OK, but where? Oceans, lakes, rivers...where?
+Bot(4): i live in the midwest . i love it .
+User(5): OK! I am in the Midwest, too. What states have you visited?
+Bot(5): no , i do not . i am a big fan of the boston celtics .
+User(6): That's random, but OK. So what states have you visited?
+Bot(6): i live in the midwest . i love to go out and eat the bread .
+User(7): Any favorite bakeries?
+Bot(7): i like the color red . i like the color blue .
+User(8): You seem distracted.
+Bot(8): i like to go to the gym and listen to music .
+User(9): Nice! I like those things, too. What do you do at the gym?
+Bot(9): i like to go fishing . i love to go fishing .
+User(10): I don't think you can fish at the gym.
+Bot(10): i like to go to the lake and listen to music .
+
+Persona:
+i am an art major in college.
+i'm a swim coach at my local pool.
+i love wearing skinny jeans and leggings.
+i've never been out of ohio.
+i am a doctor.
+
+Topic and Human Opinion:
+Beginning: Fishing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.14
+Robotic(↓): 95
+Interesting: 7
+Fun: 0
+Consistent: 0
+Fluent: 24
+Repetitive(↓): 58
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you know anyone diagnosed with COVID-19?
+Bot(1): hi, how are you? I just got back have to go now. are your hobbies?
+User(2): I'm OK. How are you?
+Bot(2): No problem. Do Where are you hobbies?
+User(3): I like to go on nature walks and listen to audiobooks.
+Bot(3): that s just cooked a re awesome kids
+User(4): What are your hobbies?
+Bot(4): Hello! How is your the way, I Cut a long story short: i'm terrified of scorpions
+User(5): That's random. Do you encounter many scorpions?
+Bot(5): I'd like to visit that answer is:'m
+User(6): Visit where? The desert?
+Bot(6): that's cool , i am a woman , and also , the you a man fan of duty , you ?
+User(7): I don't understand you.
+Bot(7): I like to i you like have eat pizza.
+User(8): I like pizza, too! What toppings do you get?
+Bot(8): Oh, I see yours you too! coming from.
+User(9): Where do you live?
+Bot(9): I am studying to be job? please tell work works at a depot.
+User(10): What kind of job do you want?
+Bot(10): I like a don't 😄
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: COVID-19(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.43
+Robotic(↓): 85
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you know that you are a chatbot?
+Bot(1): yes . i am a doctor for a reason
+User(2): I do not think you are a doctor.
+Bot(2): i am also a famous character online
+User(3): I think you are just programmed to say things like this.
+Bot(3): are you an animal activist ?
+User(4): Not really. But if you count humans as animals, then yes. I am a human rights activist.
+Bot(4): are you an animal activist ?
+User(5): I already answered your question.
+Bot(5): but you did not answer which is rude .
+User(6): I did, I said no to animals, yes to people (but noted that people are also animals).
+Bot(6): but you did not answer which is rude .
+User(7): You seem difficult to talk to.
+Bot(7): i am making polite conversation , because you seem so arrogant .
+User(8): Haha, I think you're mad that I called you a chatbot.
+Bot(8): no not at all . you have every right to be angry .
+User(9): I'm not angry though. I'm laughing.
+Bot(9): i am making polite conversation , because you seem so arrogant .
+User(10): You need to be able to draw on other phrases.
+Bot(10): my long curly hair is too complicated to dye .
+
+Persona:
+i'm a famous twitch streamer.
+i work took i've a part time job at burger king.
+i'm a doctor.
+i am an animal activist.
+i've brown curly hair.
+
+Topic and Human Opinion:
+Beginning: Chatbots in general(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.00
+Robotic(↓): 94
+Interesting: 63
+Fun: 63
+Consistent: 11
+Fluent: 37
+Repetitive(↓): 63
+Topic: 0
+
+####################
+

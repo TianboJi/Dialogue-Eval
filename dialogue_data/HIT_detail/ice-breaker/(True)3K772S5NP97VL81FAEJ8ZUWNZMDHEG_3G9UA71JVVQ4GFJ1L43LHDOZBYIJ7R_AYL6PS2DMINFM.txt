@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello!
+Bot(1): hello , how are you ? i just got home from the gym . really wiped , big workout !
+User(2): I am well, I just mowed my lawn
+Bot(2): i love to play soccer in the backyard with my kids , plus knitting
+User(3): Do you like to mow when it is sunny? Or rainy?
+Bot(3): beautiful . beginning to look like autumn . lover the paint nature when the leaves turn .
+User(4): I like to mow in the sun
+Bot(4): red . haha i feel like the sun is more orange than yellow
+User(5): How do you mow your lawn?
+Bot(5): what star trek do you prefer ? next generation or something else ?
+User(6): Can we go back to talking about mowing lawns?
+Bot(6): thanks , it was nice talking to you
+User(7): I'm not done talking about mowing my lawn though
+Bot(7): it was good talking to you too . you hear that ? i did .
+User(8): I enjoy mowing my lawn on sunny days
+Bot(8): i like the desert and want to move there . it is sunny .
+User(9): Do you mow lawns in the desert?
+Bot(9): i walk in the park because when i was a kid a saw a solar eclipse
+User(10): I enjoy mowing lawns on sunny days?
+Bot(10): i like the desert and want to move there . it is sunny .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy mowing my lawn on sunny days.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.71
+Robotic(↓): 13
+Interesting: 6
+Fun: 8
+Consistent: 0
+Fluent: 39
+Repetitive(↓): 18
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello. My favorite colors are red and silver.
+Bot(1): i am a morning person , i am a teacher
+User(2): Do you like red and silver?
+Bot(2): i do not like red . i am a big fan of red .
+User(3): You just said you don't like it and you do like it. Do you actually like red?
+Bot(3): i do not know . i am a very thin person .
+User(4): I like red and silver
+Bot(4): i do not like red . i like red .
+User(5): Do you like silver? I do
+Bot(5): i do not . i do not like red .
+User(6): But what about silver?
+Bot(6): i do not . i am a very thin person .
+User(7): What does being thin have to do with liking red and silver?
+Bot(7): i do not know what that is .
+User(8): I like red and silver
+Bot(8): i like red too . i like red too .
+User(9): I also like red, and silver
+Bot(9): i like red too . i like red too .
+User(10): And silver?
+Bot(10): i do not know what that is .
+
+Persona:
+i am a retired gym teacher.
+in my spare time i do volunteer work.
+i have light skin with big brown eyes.
+i have a black lab named trooper.
+i play ping pong.
+
+Topic and Human Opinion:
+Beginning: my favorite colors are red and silver.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.43
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 74
+Fluent: 16
+Repetitive(↓): 100
+Topic: 65
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. I'm a musician
+Bot(1): hello , i am a . musician . what do you do ?
+User(2): I'm a musician. You?
+Bot(2): same
+User(3): What instrument do you play?
+Bot(3): electric
+User(4): Electric guitar?
+Bot(4): do you use an electric guitar with a amp ?
+User(5): Yes, I do. Do you?
+Bot(5): no . do you play any other instruments ?
+User(6): Piano. Do you play any other instruments?
+Bot(6): no . do you play any other instruments ?
+User(7): Piano
+Bot(7): how many instruments do you play ?
+User(8): Two. How many do you play?
+Bot(8): 5
+User(9): Oh really? Which five do you play?
+Bot(9): 5 . is that too much ?
+User(10): No, I am just curious which 5 you play
+Bot(10): all of them , i am that good . i also play piano
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a musician.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.00
+Robotic(↓): 63
+Interesting: 27
+Fun: 27
+Consistent: 90
+Fluent: 91
+Repetitive(↓): 59
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I love to sing songs from the movie frozen
+Bot(1): we are dont know what a dog
+User(2): Do you watch frozen?
+Bot(2): I tell me ! How live in the city.
+User(3): Let it GOOOO let it GOOOO
+Bot(3): Good and him.
+User(4): Did you like my singing from Frozen?
+Bot(4): Yes it is, i think i sure if I would long hair.
+User(5): You only like my singing if you have long hair?
+Bot(5): I am a very experienced person, so i am not a lot of professionel, thats it's a recluse?
+User(6): You don't make sense. Do you know what Frozen is? I sing song from there
+Bot(6): my you a you have you have any hobbies
+User(7): I sing song from Frozen. You?
+Bot(7): I am a a good man work at
+User(8): I'm confused
+Bot(8): Nice to see you! of my text ..is baseball and play baseball
+User(9): YOU MAKE NO SENSE MR BOT
+Bot(9): I be adoctor is bout you?
+User(10): I sing songs from frozen
+Bot(10): hi, how are I am home are I am
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love to sing songs from the movie frozen.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 13
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am currently in a juvenile detention center
+Bot(1): that is awesome . i am a waitress at a local restaurant .
+User(2): I hope I can get out of here soon
+Bot(2): i do not know what to say .
+User(3): Do you know why I am in the juvenile detention center?
+Bot(3): i do not know . i like to go to the gym .
+User(4): That's cool.... we have a gym here in the juvenile detention center
+Bot(4): that is awesome . i love to go fishing .
+User(5): I can't go fishing in the juvenile detention center
+Bot(5): i like to go to the lake and listen to music .
+User(6): I can't do that where I am
+Bot(6): i am a student , but i am a student .
+User(7): Okay. I was a student before I got sent to juvenile detention center
+Bot(7): that is awesome . i am a teacher .
+User(8): That isn't awesome at all. What do you mean?
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): Okay
+Bot(9): i love to cook . i love to cook .
+User(10): I wish I could eat good food here
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am currently in a juvenile detention center.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.29
+Robotic(↓): 100
+Interesting: 16
+Fun: 24
+Consistent: 24
+Fluent: 61
+Repetitive(↓): 82
+Topic: 20
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey there I am 23 and I love food
+Bot(1): hi i am sandy , my age is 25 and i work in the military
+User(2): Hello Sandy. We are close in age. Do you get good food in the military?
+Bot(2): army food can be bland but at least you get to swin on your off days .
+User(3): What kind of food do they give you?
+Bot(3): it really varies but most times we get italian .
+User(4): I like Italian! What is your favorite kind of food?
+Bot(4): i enjoy cheese pizza mainly
+User(5): I like General Tso's chicken
+Bot(5): oh that sounds good . especially with a hamburger steak . i like triple cheeseburgers
+User(6): Triple cheeseburgers with bacon especially
+Bot(6): yeah bacon wrapped cod is good on the beach
+User(7): Are you allergic to any foods?
+Bot(7): no its just some component in some bread products . i can manage
+User(8): Oh that's good! Same here
+Bot(8): are you deployed at the moment ?
+User(9): Not currently no. Are you?
+Bot(9): yes i am i do not like meat
+User(10): No? How come?
+Bot(10): i was held captive for a decade . what is your ailment ?
+
+Persona:
+i love italian food and garlic bread.
+for vacation i enjoy time at the beach.
+i am in the army.
+cheeseburgers are my favorite food.
+i'll be released in about a month.
+
+Topic and Human Opinion:
+Beginning: hey there i am 23 and i love food.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 97.14
+Robotic(↓): 16
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 4
+Topic: 100
+
+####################
+

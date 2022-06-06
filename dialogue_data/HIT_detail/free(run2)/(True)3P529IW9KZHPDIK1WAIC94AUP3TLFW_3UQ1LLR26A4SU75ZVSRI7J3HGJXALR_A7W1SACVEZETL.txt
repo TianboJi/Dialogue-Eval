@@ -1,0 +1,316 @@
+Feedback: The survey went well
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Am zionna
+Bot(2): kool
+User(3): Want to learn about fitness
+Bot(3): i want to learn something new
+User(4): Want to know about fitness
+Bot(4): i want to learn something new
+User(5): Okay me too
+Bot(5): kool
+User(6): Like what
+Bot(6): i want to learn something new
+User(7): Do you like pet
+Bot(7): i don t have any pet though
+User(8): Okay I have dog
+Bot(8): i love having a dog
+User(9): Yeah me too
+Bot(9): i love having a dog
+User(10): What is your favorite color
+Bot(10): i like green what about you
+User(11): Mine is white
+Bot(11): that is a cool color
+User(12): Yeah it's a symbol of peace
+Bot(12): what does it stand for
+User(13): Peace is having rest of mind
+Bot(13): yeah i think that is good
+User(14): Yeah very good
+Bot(14): kool
+User(15): Your best food
+Bot(15): i love tiramisu
+User(16): I love pizza
+Bot(16): pizza is the best food
+User(17): Yes I love it
+Bot(17): yeah do you like pizza
+User(18): Yes I like pizza and you
+Bot(18): yeah i love pizza
+User(19): What's your favorite movies
+Bot(19): i love action pack movies and you
+User(20): I love comedy movies
+Bot(20): who is your favorite one
+User(21): Top secret
+Bot(21): that is such a good one
+User(22): Yes and you
+Bot(22): i really really like hot dogs
+User(23): Okay good
+Bot(23): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fitness(like)
+Round 7: Want to learn something new(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 79.29
+Robotic(↓): 61
+Interesting: 100
+Fun: 100
+Consistent: 96
+Fluent: 99
+Repetitive(↓): 48
+Topic: 69
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): I live love to cook too
+Bot(2): i like to eat the skin .
+User(3): I like chicken.
+Bot(3): i like to eat too .
+User(4): What is your best food
+Bot(4): yes , i love it . i love it .
+User(5): Okay
+Bot(5): i love to cook . i love to cook .
+User(6): Do you like pizza
+Bot(6): i do not , but i do like to eat .
+User(7): Okay,what about salad
+Bot(7): i love pizza , and i love it .
+User(8): I love pizza as well
+Bot(8): i like to eat fish .
+User(9): Same here,I love sea fish
+Bot(9): i like to eat fish .
+User(10): Okay
+Bot(10): i love to cook . i love to cook .
+User(11): Do you eat meat
+Bot(11): i do not , but i do like to eat .
+
+Persona:
+i now live in the city.
+i have amazing children and grandchildren.
+a already have a children.
+i enjoy poetry.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.14
+Robotic(↓): 50
+Interesting: 50
+Fun: 87
+Consistent: 80
+Fluent: 78
+Repetitive(↓): 72
+Topic: 76
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hey , how are you ?
+User(2): Am good and you
+Bot(2): i am good . just finished baking some cookies .
+User(3): I just finished cooking rice and chicken
+Bot(3): i am a good baker . i am a huge fan of baking cookies .
+User(4): That's great,I don't bake much but I cook alot
+Bot(4): i am a barista , i love baking cookies and baking cookies
+User(5): Nice one,what's your favorite cookies
+Bot(5): i like to bake cookies and cakes
+User(6): Cake is cool,I love cake too
+Bot(6): i love baking cookies and cakes
+User(7): Okay
+Bot(7): i love baking cookies and cakes
+User(8): Do you eat salad?
+Bot(8): i do not , but i do enjoy baking cookies
+User(9): Oh just cake,is that what you eat alone
+Bot(9): i do not know , i am a huge fan of it
+User(10): I see
+Bot(10): i love to bake cakes
+
+Persona:
+i started playing guitar when i was three.
+i am a recovering alcoholic.
+i love to bake cookies.
+i haven't spoken in three months.
+i am terrified of clowns due to childhood trauma.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.00
+Robotic(↓): 50
+Interesting: 68
+Fun: 71
+Consistent: 43
+Fluent: 54
+Repetitive(↓): 60
+Topic: 45
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): What's your favorite color
+Bot(2): my favorite color is blue yours ?
+User(3): Mine is white
+Bot(3): white is nice but i love blue . . . . so a semi truck ?
+User(4): White is a symbol of peace
+Bot(4): mine comes from reading and writing . i think i get it from my mom , the librarian .
+User(5): Oh
+Bot(5): i am a wealth management consultant and an ivy league graduate . whats your pedigree ?
+User(6): Am an accountant
+Bot(6): i am a doctor , and i get to work every day with my wife she is a nurse
+User(7): I work in manufacturing industry
+Bot(7): sounds exciting , i sing karaoke every thursday night at a local bar here .
+User(8): I work movie every Saturday night with my wife
+Bot(8): the little mermaid . ariel is my favorite disney princess .
+User(9): That's good,I like comedy movies
+Bot(9): comedy is my preference , but mainly enjoy film adaptions of british literature .
+User(10): Yes you are right
+Bot(10): i am studying for an exam for my art history class ! what about you ?
+User(11): Am working on a project
+Bot(11): invalid word in your message i am , please correct the spell
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Color(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.43
+Robotic(↓): 50
+Interesting: 50
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): had spending too much you :)
+User(2): How are you
+Bot(2): i like reading journals and guides my favorite food is fresh fruit .
+User(3): I love traveling
+Bot(3): that must be pretty sing song but leason there.
+User(4): And you
+Bot(4): Thanks, are you now. 😉
+User(5): What's your favorite color
+Bot(5): I I like am going and i love to play soccer
+User(6): Your best food
+Bot(6): I love dogs. I be enough I nice, a living.
+User(7): That's pet,I love dog too
+Bot(7): i release me in i love coffee .
+User(8): Ok
+Bot(8): I love it. So alone.😟
+User(9): Good
+Bot(9): do Do you like the gym
+User(10): Yes alot,and you
+Bot(10): What else you do in 😁
+User(11): Reading
+Bot(11): I am a professional, i am in my quarters for moment.
+
+Persona:
+i'm a vegetarian.
+i have a weakness for fish and chips.
+i'm not a good swimmer at all.
+i have blonde hair and blue eyes.
+i have one brother.
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.43
+Robotic(↓): 21
+Interesting: 24
+Fun: 27
+Consistent: 50
+Fluent: 64
+Repetitive(↓): 31
+Topic: 61
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hi , i am sarah a banker what do you do for a living ?
+User(2): Am zonna
+Bot(2): i have a job working at a bank
+User(3): I work in manufacturing industry
+Bot(3): i work in a bank
+User(4): Ok,what's your favorite color
+Bot(4): umm , i guess it would be blue , the color of my bmw
+User(5): Mine is white
+Bot(5): umm , i guess it would be blue , the color of my bmw
+User(6): Your favorite food?
+Bot(6): i work in a bank
+User(7): Oh,what's your favorite movies
+Bot(7): wells fargo bank , where is your bank
+User(8): Same
+Bot(8): ok , i love fishing too , what about you ?
+User(9): I don't do fishing,but I eat fish alot
+Bot(9): i work in a bank
+User(10): What's your best food
+Bot(10): well i work alot at a bank , what about you ?
+
+Persona:
+i work at a bank.
+i love cooking but i also enjoy fishing.
+i drive a bmw.
+my favorite movie is mean girls.
+i also like to cook but i'm not very good at it.
+
+Topic and Human Opinion:
+Beginning: Colour(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.43
+Robotic(↓): 50
+Interesting: 50
+Fun: 90
+Consistent: 86
+Fluent: 78
+Repetitive(↓): 73
+Topic: 77
+
+####################
+

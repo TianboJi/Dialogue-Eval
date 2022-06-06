@@ -1,0 +1,276 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you watch tv?
+Bot(1): i do what do you watch
+User(2): Reality shows
+Bot(2): reality tv . those people are entertaining
+User(3): WHich reality show do you watch?
+Bot(3): reality tv . those people are entertaining
+User(4): They do some weird things.
+Bot(4): what is the weirdest thing you have seen ?
+User(5): Get very drunk and pass out.
+Bot(5): i know right . i believe that everyone does weird things .
+User(6): Weird and stupid
+Bot(6): weird is good . i do some weird stuff , too
+User(7): I don't.
+Bot(7): they can be quite silly
+User(8): Silly is one thing. Weird and stupid is another
+Bot(8): i have fun being weird .
+User(9): I don't
+Bot(9): i have fun being weird .
+User(10): You said that already
+Bot(10): i didn
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: tv(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.14
+Robotic(↓): 75
+Interesting: 39
+Fun: 31
+Consistent: 51
+Fluent: 52
+Repetitive(↓): 41
+Topic: 52
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I homeschool my kids.
+Bot(1): they school themselves . i created them with my mind and my hands .
+User(2): I birthed them and now am teaching them.
+Bot(2): i love the violin . do you like sports ? i was good at football while in college .
+User(3): I played the piano
+Bot(3): i wish i played an instrument , i like to hike in the summer months .
+User(4): I like to hike and swim.
+Bot(4): you love the water ? that is great ! i like camping and fishing .
+User(5): Roasting marshmallow is my favorite.
+Bot(5): catch 22 by joseph heller . . its a great one
+User(6): What's that?
+Bot(6): i am doing good . i am back from riding my horse .
+User(7): My daughter rides horse.
+Bot(7): i do not have any horses , do you enjoy any sports ? i watch football
+User(8): I watch football and baseball.
+Bot(8): football is fun , whats your favorite team ?
+User(9): Cowboys
+Bot(9): the football team ?
+User(10): Yes
+Bot(10): me too , i wish pets were allowed in my college dorm room .
+
+Persona:
+my father was a construction worker.
+i love cooking but i also enjoy fishing.
+i don't care about fashion.
+i recently moved to this country.
+i played football for a division a college.
+
+Topic and Human Opinion:
+Beginning: School(ambivalent)
+Round 2: Sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+
+Revised avg score: 45.57
+Robotic(↓): 61
+Interesting: 43
+Fun: 47
+Consistent: 40
+Fluent: 46
+Repetitive(↓): 42
+Topic: 46
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like our president?
+Bot(1): i do , i love the feeling of the world
+User(2): Are you an american?
+Bot(2): i am from america , and you ?
+User(3): Yes
+Bot(3): i am from america but i love the usa
+User(4): I love President Trump
+Bot(4): i am not sure . i am a general of a country girl
+User(5): I'm a city girl.
+Bot(5): i am a girl who loves to travel
+User(6): Where do you like to go?
+Bot(6): i love the usa and the country
+User(7): Colorado is my favorite.
+Bot(7): i love to go to the lake and go to the lake
+User(8): I like hiking the mountains.
+Bot(8): i love the mountains . i love the mountains .
+User(9): I climb them.
+Bot(9): i love hiking . i love to hike .
+User(10): Where do you hike?
+Bot(10): i hike in the mountains .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: President(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.00
+Robotic(↓): 70
+Interesting: 44
+Fun: 41
+Consistent: 41
+Fluent: 43
+Repetitive(↓): 34
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Where do you work?
+Bot(1): i do , i work at a grocery store .
+User(2): I work at a restaurant.
+Bot(2): i like to go to the gym and listen to music .
+User(3): I don't like the gym.
+Bot(3): i like to go to the lake and listen to music .
+User(4): I like lakes.
+Bot(4): i like to go to the gym and listen to music .
+User(5): I tke my kids swimming at the lake.
+Bot(5): i like to go fishing .
+User(6): I don't.
+Bot(6): i like to go to the gym and listen to music .
+User(7): I like music...just not at the gym.
+Bot(7): i like to go to the lake and listen to music .
+User(8): We usually swim at the lake.
+Bot(8): i like to go fishing .
+User(9): My husband takes the kids fishing.
+Bot(9): i love to travel . i love to travel .
+User(10): Do you go over seas?
+Bot(10): no , i do not . i like to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.14
+Robotic(↓): 62
+Interesting: 40
+Fun: 40
+Consistent: 45
+Fluent: 37
+Repetitive(↓): 37
+Topic: 46
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like shopping?
+Bot(1): Thank you are reading appreciate that. 🙂
+User(2): Ok
+Bot(2): I love soccer so high school in two fan. You live in NYC? 😀
+User(3): I live in California.
+Bot(3): i know about have live in language
+User(4): THey speak Spanish.
+Bot(4): i need me at a am in spices an paprika
+User(5): Wow
+Bot(5): that I also have two work at a hotel .
+User(6): I also worked there in high school.
+Bot(6): i collect hats i have life. Riding bicycle. Keeping hats
+User(7): I collect jewelry
+Bot(7): i'm good at i am finished
+User(8): I'm good at keeping secrets.
+Bot(8): I am not sure in your opinion, belongs hair?
+User(9): ?
+Bot(9): What is meant much. just about dancing?
+User(10): Only danced once.
+Bot(10): I was musics but i don’t few years ago.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Shopping(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.43
+Robotic(↓): 75
+Interesting: 34
+Fun: 47
+Consistent: 44
+Fluent: 36
+Repetitive(↓): 14
+Topic: 18
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I learned the piano when I was a kid.
+Bot(1): hey teach me mandarin ! i wish i could speak it and i want to go to china
+User(2): I don't know madrien
+Bot(2): that is ok i learn mandarin when i was young because i am from china .
+User(3): Good. Play for me.
+Bot(3): hey teach me mandarin ! i wish i could speak it and i want to go to china
+User(4): What other instrument would you like to play?
+Bot(4): mandarin . china will own the 21st century
+User(5): No. America will.
+Bot(5): but you do not speak chinese ?
+User(6): No. Do you speak french?
+Bot(6): nope i only speak english .
+User(7): Me too.
+Bot(7): but you do not speak chinese ?
+User(8): no.
+Bot(8): but you do not speak chinese ?
+User(9): I've never been to China
+Bot(9): but you do not speak chinese ?
+User(10): I don't live there.
+Bot(10): but you do not speak chinese ?
+
+Persona:
+i'll be released in about a month.
+i speak chinese.
+i have light skin with big brown eyes.
+i am a musician and hope to make it big some day.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: Piano(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.00
+Robotic(↓): 79
+Interesting: 36
+Fun: 21
+Consistent: 36
+Fluent: 50
+Repetitive(↓): 69
+Topic: 50
+
+####################
+

@@ -1,0 +1,314 @@
+Feedback: Last Chatbot was the best
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like fish and chips?
+Bot(1): no , but both of my sisters cook . do you
+User(2): I do cook
+Bot(2): growing things is honorable indeed ! i have three younger sisters .
+User(3): do you like to grow things?
+Bot(3): sometimes , i really am into gardening
+User(4): What do you like to grow in your garden?
+Bot(4): i grow mostly tomatoes and cucumbers
+User(5): How long does it take to grow a tomatoe?
+Bot(5): 10 hours usually . do you have any kids ?
+User(6): I have 3 kids.
+Bot(6): that is long . do the kids help out in the garden ?
+User(7): The kids do help out in the garden.
+Bot(7): what kind of things do you help them with ?
+User(8): Gardening and Cleaning.
+Bot(8): my mom does house maid work .
+User(9): Your mom does house maid work?
+Bot(9): my mom does house maid work .
+User(10): What does that entail?
+Bot(10): my mom does house maid work .
+User(11): Does she like to do that?
+Bot(11): my mom does house maid work .
+
+Persona:
+i have three sisters.
+i enjoy gardening and walking outdoors.
+my father is an electrician.
+in my spare time i do volunteer work.
+i am high maintenance.
+
+Topic and Human Opinion:
+Beginning: i have a weakness for fish and chips.(like)
+Round 1: If I have family who cooks.(dislike)
+Round 2: growing things is honorable and if I have any sisters(like)
+Round 5: Do I have any kids(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 6.71
+Robotic(↓): 100
+Interesting: 16
+Fun: 13
+Consistent: 10
+Fluent: 8
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I'm a Skateboarder.
+Bot(1): i like to go to the gym and listen to music .
+User(2): Do you like to skateboard?
+Bot(2): no , i do not , but i do like to go fishing .
+User(3): Why don't you like to skateboard?
+Bot(3): i do , i love to go fishing .
+User(4): I like to go fishing too.
+Bot(4): i love to travel . i love to travel .
+User(5): Where do you like to travel?
+Bot(5): i love to travel . i love to travel .
+User(6): I like to travel too
+Bot(6): i love to travel . i love to travel .
+User(7): travel where?
+Bot(7): i live in the midwest . i love to go fishing .
+User(8): Fishing is lots of fun
+Bot(8): i love it . i love it .
+User(9): you love a lot of things
+Bot(9): i do , i like to go to the park .
+User(10): and do what at the park?
+Bot(10): i like to go to the beach and listen to music .
+User(11): that sounds like fun
+Bot(11): i love to cook . i love to cook .
+
+Persona:
+i now live in the city.
+i am an omnivore.
+i also like to cook but i am not very good at it.
+i have a broken arm.
+i am a bee farmer.
+
+Topic and Human Opinion:
+Beginning: i'm a skateboarder.(like)
+Round 3: Fishing and going to the gym(like)
+Round 4: Traveling(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 6.71
+Robotic(↓): 100
+Interesting: 5
+Fun: 8
+Consistent: 9
+Fluent: 13
+Repetitive(↓): 100
+Topic: 12
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I will graduate from high school in two years
+Bot(1): i am a college student and have two dogs .
+User(2): what college do you go to?
+Bot(2): i am a college student
+User(3): are you a freshman?
+Bot(3): i am in college and i am a financial analyst
+User(4): what is your degree in?
+Bot(4): i am a college student
+User(5): Do you like going to college?
+Bot(5): i am a college student
+User(6): I know
+Bot(6): i am a college student
+User(7): and what do you do at college?
+Bot(7): i am a college student
+User(8): How long have you been going to college?
+Bot(8): i went to college and i am a college student
+User(9): You went or you are?
+Bot(9): i am a college student and you ?
+User(10): I am in highschool.
+Bot(10): i am in college . i am a college student
+User(11): nice
+Bot(11): what are you going to school for ?
+
+Persona:
+my favorite way to relax is to read a book.
+i hate school.
+i'm single and with two dogs.
+i'm an economics major.
+my favorite shirts are band shirts and ruffle sleeves.
+
+Topic and Human Opinion:
+Beginning: i'll graduate from high school in two years.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.71
+Robotic(↓): 5
+Interesting: 20
+Fun: 17
+Consistent: 74
+Fluent: 79
+Repetitive(↓): 100
+Topic: 98
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I have a german shepherd dog
+Bot(1): i think i You've spoiled the take a lawyer .
+User(2): i have a german shephard dog.
+Bot(2): i m in pennsylvania my favorite food is here is it nice there
+User(3): what kind of food do they have there?
+Bot(3): I am not a big drinker, but addiction and spend a .
+User(4): What kind of alcohol do you like?
+Bot(4): hi, i'm retired from the the cool. I just do?
+User(5): What did you do before you retired?
+Bot(5): years old, let your :)
+User(6): yeah?
+Bot(6): I how do you movies with my friends.
+User(7): what kind of movies do you like?
+Bot(7): How long Do you like go to?
+User(8): once a month and you?
+Bot(8): hello, how are you? I just do you like horror travel
+User(9): horror travel? what is that?
+Bot(9): i summer tacos.
+User(10): you eat tacos?
+Bot(10): its really so you used you
+User(11): yeah
+Bot(11): I am day, i'm mother.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a german shepherd dog.(like)
+Round 2: food(like)
+Round 3: Drinking(like)
+Round 4: Retiring(like)
+Round 7: Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 11.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 17
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I had to have a transplant.
+Bot(1): can you give me a ride . i am deaf so i have no license .
+User(2): Where do you need a ride to?
+Bot(2): can you give me a ride . i am deaf so i have no license .
+User(3): yes i can
+Bot(3): can you give me a ride . i am deaf so i have no license .
+User(4): yeah i can give you a ride.
+Bot(4): can you give me a ride . i am deaf so i have no license .
+User(5): No i can't, i'm sorry.
+Bot(5): can you give me a ride . i am deaf so i have no license .
+User(6): how did you become deaf?
+Bot(6): i was born deaf , but have some peripheral sound recognition
+User(7): that's good, I'm sorry to hear that though.
+Bot(7): i am getting a divorce
+User(8): how long have you been married for?
+Bot(8): i am getting a divorce
+User(9): how come?
+Bot(9): i am getting a divorce
+User(10): congratulations.
+Bot(10): i am getting a divorce
+
+Persona:
+i am in the third grade.
+i enjoy reading journals and guides related to psychology.
+i'm planning on getting a divorce.
+i am partly deaf.
+i'm 19 and i cannot wait to move out 19 my parents home.
+
+Topic and Human Opinion:
+Beginning: i had to have a transplant.(like)
+Round 1: He needs a ride(like)
+Round 6: Deafness(like)
+Round 7: Divorce(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 5.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 3
+Consistent: 6
+Fluent: 14
+Repetitive(↓): 99
+Topic: 17
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I'm 40 years old.
+Bot(1): i wish i could settle down like that , but i am too quiet . confident , but quiet .
+User(2): its not east I will tell you that.
+Bot(2): i am on the west coast . i assumed you were too with a prius
+User(3): No i don't have a prius
+Bot(3): pink is nice . i like purple , but i would not get a purple car .
+User(4): I like blue or silver cars
+Bot(4): that is great i mean blue is a great color , my favorite is green .
+User(5): Why is green your favorite color?
+Bot(5): i like the color green especially on money .
+User(6): hey i feel that. I love money
+Bot(6): haha . great answer . saving up money to buy a beach condo ?
+User(7): I would love to live on the beach
+Bot(7): i teach yoga and am writing a book about living on maui .
+User(8): So you like the beach too im guessing?
+Bot(8): i love the beach and the ocean !
+User(9): are you looking to buy a beach condo?
+Bot(9): the beach is nice , but i do not get to go too often .
+User(10): ahh that sucks
+Bot(10): well , i love going swimming in the beach and looking for mermaids .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm 40 years old.(like)
+Round 3: Cars(like)
+Round 6: Money(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 69.14
+Robotic(↓): 84
+Interesting: 83
+Fun: 82
+Consistent: 71
+Fluent: 75
+Repetitive(↓): 12
+Topic: 69
+
+####################
+

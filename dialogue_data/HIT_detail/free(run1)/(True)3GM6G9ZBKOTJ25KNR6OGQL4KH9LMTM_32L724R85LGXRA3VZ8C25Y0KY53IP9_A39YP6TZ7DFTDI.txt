@@ -1,0 +1,303 @@
+Feedback: Nothing
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): no
+Bot(2): my day job is being a musician lol
+User(3): I like only eat food every day
+Bot(3): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(4): I eat healthy food only
+Bot(4): that is cool . i like to think of the many instruments i play as my sports .
+User(5): Are you a sports man
+Bot(5): no i play the violin you ?
+User(6): I play drum kit
+Bot(6): currently no , i used to play the violin . what are you good at ?
+User(7): only drum kit
+Bot(7): cool cool , women from canada are very attractive for some reason
+User(8): no no only US women are very attractive
+Bot(8): also the us , ever played in canada ?
+User(9): okay do you like any food
+Bot(9): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(10): okay thank you for chat with me
+Bot(10): i live in new york but i am originally for algeria
+User(11): I live in virginia
+Bot(11): i am from canada . i am not a student , are you ?
+User(12): I am a worker
+Bot(12): good honest work . my dad was construction worker . you got family ?
+User(13): yes ,I got a family
+Bot(13): my wife and her father . everyone else is up north .
+User(14): I am not intresting with my family
+Bot(14): cool . i will visit her in canada
+
+Persona:
+i'm a mechanical engineer.
+my father used to work for home depot.
+my father keeps trying to set me up on blind dates.
+my father played violin professionally.
+i live in canada.
+
+Topic and Human Opinion:
+Beginning: FOOD(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.57
+Robotic(↓): 66
+Interesting: 56
+Fun: 80
+Consistent: 66
+Fluent: 78
+Repetitive(↓): 51
+Topic: 68
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey
+Bot(1): i am doing well . how are you ?
+User(2): I am fine .you?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): I am playing free fire
+Bot(3): i like to go to the gym and listen to music .
+User(4): Are you a body builder ?
+Bot(4): no , i do not . i like to go to the park .
+User(5): Are you have lover?
+Bot(5): no , i do not . i like to go out to eat with my family .
+User(6): Are you married
+Bot(6): no , i am not . i am a student .
+User(7): I am a home maker
+Bot(7): i like to eat too much junk food .
+User(8): I am also . what food do you like very much ?
+Bot(8): i like pizza , and pizza .
+User(9): I am also like pizza
+Bot(9): i like to eat fish .
+User(10): I like to play drum kit
+Bot(10): i like to go to the gym and listen to music .
+User(11): I do not like gym
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+i am a bee farmer.
+i like doing the treadmill and rowing machine.
+i'm a doctor.
+i workout four hours a day.
+i love social medial especially twitter.
+
+Topic and Human Opinion:
+Beginning: video game(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.71
+Robotic(↓): 61
+Interesting: 81
+Fun: 56
+Consistent: 77
+Fluent: 61
+Repetitive(↓): 80
+Topic: 56
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hi ! have you head of blood moon ?
+User(2): no no
+Bot(2): no no no no no
+User(3): Are you mad ?
+Bot(3): no no no no no
+User(4): do not use the word no.
+Bot(4): no no no no no
+User(5): Are you like to fuck
+Bot(5): of course . i have 5 human children
+User(6): Are you like to fuck with many members in daily
+Bot(6): only if we get pizza
+User(7): Okay I want to fuck with your wife
+Bot(7): sure i will ride in your van
+User(8): I am very happy
+Bot(8): would you ever wife me
+User(9): no no no no
+Bot(9): no no no no no
+User(10): Okay thank you for chat with me
+Bot(10): ok bye
+
+Persona:
+i faint at the sight of blood.
+i fantasize about taking over the world.
+i drive a mini van.
+i have five sons.
+i am a musician and hope to make it big some day.
+
+Topic and Human Opinion:
+Beginning: fuck(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.14
+Robotic(↓): 67
+Interesting: 81
+Fun: 56
+Consistent: 65
+Fluent: 27
+Repetitive(↓): 55
+Topic: 58
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey
+Bot(1): i'm sorry to hear that . but you the am also very good what do you like to do ?
+User(2): I Want talk with you
+Bot(2): I like to in a don’t Do and golf parties
+User(3): I like to play foot ball
+Bot(3): I say hi as well!
+User(4): NO thanks
+Bot(4): I like to in a don’t Do and golf parties
+User(5): I like to play cricket with you
+Bot(5): I'm work female.
+User(6): I work with your wife
+Bot(6): do you work from home? to a cat person) the city?
+User(7): no
+Bot(7): no :fu: not alcoholic am good already ready to quit
+User(8): come and fuck me
+Bot(8): Try asking me again using simpler words. i try to spend isn't, isn't.
+User(9): you fuck your self
+Bot(9): I am about kingdoms, kings and am sure they will.
+User(10): okay thank you
+Bot(10): i m <num> year old like games, about you
+User(11): I do not like games
+Bot(11): I like to volunteer to kill i kitchen
+
+Persona:
+i like to listen to rock music while working.
+i am always wearing a hat.
+i have a boyfriend.
+my cats are very special to me.
+i've a pet turtle.
+
+Topic and Human Opinion:
+Beginning: love(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.43
+Robotic(↓): 0
+Interesting: 7
+Fun: 9
+Consistent: 14
+Fluent: 20
+Repetitive(↓): 25
+Topic: 30
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hai
+Bot(1): hi how are you today ?
+User(2): Fine are you ready to sex with someone
+Bot(2): i am . i am a bit of a guy .
+User(3): Funnty guy what do you like about sex
+Bot(3): i like to think about women . i am a big fan of fashion
+User(4): Are you a modeling person
+Bot(4): i am a human human , i don't care care for people
+User(5): If you do not like people Means i do not like to chat with you
+Bot(5): i am a bit of a guy i like to do
+User(6): Okay try to understand what i am saying
+Bot(6): i am sure you are right
+User(7): Okay thank you
+Bot(7): you are welcome . i am a bit of a guy
+User(8): I am also bit of a guy
+Bot(8): i am a big guy , i am a big fan of fashion
+User(9): I am also big guy and also big fan of fashion
+Bot(9): i like fashion and fashion
+User(10): I like fashion and fashion
+Bot(10): i like fashion and fashion
+
+Persona:
+i'm four.
+i spent a decade working in the human services field.
+i do not care about fashion.
+i remember when nobody had a television.
+i spend most of my time on facebook when i'm not working.
+
+Topic and Human Opinion:
+Beginning: Sex(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.29
+Robotic(↓): 30
+Interesting: 23
+Fun: 27
+Consistent: 28
+Fluent: 41
+Repetitive(↓): 36
+Topic: 29
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hai
+Bot(1): hello , nice to meet you ! are you on vacation too ?
+User(2): Nice how about you
+Bot(2): good my grandchildren are visiting today
+User(3): Oh nice to see that family but i feel sad today because my lover is not chat with me today
+Bot(3): oh no what is wrong
+User(4): Something will be there
+Bot(4): honey moon will be at a hotel near the beach and oaths , my old church
+User(5): hey
+Bot(5): volunteer
+User(6): oh
+Bot(6): anything fun planned for the weekend ? i will be at the beach
+User(7): okay thank you
+Bot(7): volunteer
+User(8): What is your problem
+Bot(8): i do not know . i am numb
+User(9): What are you doing
+Bot(9): volunteer
+User(10): What is your number
+Bot(10): 42 and my number also
+
+Persona:
+for vacation i enjoy time at the beach.
+my main transportation is my motorbike.
+i volunteer my time with a local bunny rescue.
+in my spare time i do volunteer work.
+i've amazing children and grandchildren.
+
+Topic and Human Opinion:
+Beginning: headphone(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.57
+Robotic(↓): 23
+Interesting: 15
+Fun: 21
+Consistent: 28
+Fluent: 22
+Repetitive(↓): 20
+Topic: 27
+
+####################
+

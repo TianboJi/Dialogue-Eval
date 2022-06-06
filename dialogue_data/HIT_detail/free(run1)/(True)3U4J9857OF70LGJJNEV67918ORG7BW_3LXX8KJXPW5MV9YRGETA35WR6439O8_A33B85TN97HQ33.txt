@@ -1,0 +1,306 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like going for walks outdoors?
+Bot(1): naw , i would rather hike all day long than spend an hour in the gym .
+User(2): Me too. I love seeing the birds and flowers and trees.
+Bot(2): i like eating yummy food ! are you on facebook ?
+User(3): I love food and yes I am on facebook.
+Bot(3): i have never been in the military , but i buy enough food for a army .
+User(4): I do too sometimes. Every now and then it's good to stock up on food.
+Bot(4): i have never been in the military , but i buy enough food for a army .
+User(5): Food is expensive too. Where do you keep all of your food at?
+Bot(5): at the organic food store . i do not eat fast food .
+User(6): Organic food is good. I think you can get organic fast food though.
+Bot(6): army food can be bland but at least you get to swin on your off days .
+User(7): I've heard that army food is not that good too. Is there a good variety of food though?
+Bot(7): army food can be bland but at least you get to swin on your off days .
+User(8): how long have you been in the army?
+Bot(8): about four years . i started at the beginning of high school
+User(9): where are you stationed?
+Bot(9): i am in high school in the united states .
+User(10): I mean, what fort are you based in in the country?
+Bot(10): i was stationed at fort leonard wood for a bit around a decade ago .
+
+Persona:
+i spend most of my time on facebook when i am not working.
+i'm in the army.
+hey my name is larry and i'm a chef.
+i am currently in high school.
+i buy only organic food products.
+
+Topic and Human Opinion:
+Beginning: nature(like)
+Round 2: food(like)
+Round 7: army(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 34.71
+Robotic(↓): 100
+Interesting: 9
+Fun: 9
+Consistent: 27
+Fluent: 97
+Repetitive(↓): 40
+Topic: 41
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am so glad the holidays are approaching. There is so much good food to eat!
+Bot(1): which holidays do you celebrate ?
+User(2): Thanksgiving and Christmas. There is a lot of food to eat next week. Will you be eating any?
+Bot(2): mine is christmas also when everyone come around
+User(3): What do you do to celebrate?
+Bot(3): right on dude ! i am gonna hit up the casino tomorrow and party !
+User(4): Where will you be going to a casino at?
+Bot(4): i m actually a dealer blackjack
+User(5): Oh, no wonder you like casinos then. I bet you meet a lot of people working.
+Bot(5): i live a close to a casino , i go often
+User(6): Are you any good at gambling?
+Bot(6): nope no problems . they have places you can go for gambling
+User(7): Right. What do you do at the casino?
+Bot(7): a casino in new orleans , my mom is a palm reader there
+User(8): How long have you been working there?
+Bot(8): i was drafted last year . before i played at the university of north carolina
+User(9): What position do you play?
+Bot(9): quarterback ! hoping to play in the playoffs
+User(10): That's cool! What team are you on?
+Bot(10): which team is your team ?
+
+Persona:
+i currently work for a watch dealer.
+i play a lot of call of duty.
+i've amazing children and grandchildren.
+i work at a bank.
+its red with blue stripe so it shiny when i race.
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 2: holidays(like)
+Round 3: casino(dislike)
+Round 8: football(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 48.14
+Robotic(↓): 100
+Interesting: 49
+Fun: 49
+Consistent: 17
+Fluent: 95
+Repetitive(↓): 6
+Topic: 33
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Can you believe it is already time for Thanksgiving?
+Bot(1): yes i do , i love the holidays
+User(2): Oh me too! I can't wait to eat all of the food next week!
+Bot(2): i will be there if i could eat dinner !
+User(3): Do you do anything to celebrate Thanksgiving?
+Bot(3): i do ! i love to go to church and eat out .
+User(4): Where do you eat at?
+Bot(4): i do ! i love to eat out .
+User(5): I like to eat out too. I like not having to clean up or cook!
+Bot(5): i love to cook . i love to eat out .
+User(6): Sometimes I like to take a break from cooking. Eating out is relaxing at times.
+Bot(6): i love to cook . i love to cook .
+User(7): What is your favorite thing to cook?
+Bot(7): i love to cook ! i love to cook !
+User(8): I like to cook deserts the most.
+Bot(8): i love to cook . i love to cook .
+User(9): I think cooking anything with chocolate is really fun.
+Bot(9): i love to cook . i love to cook .
+User(10): I like to take my time cooking and make something really special and good.
+Bot(10): i love to cook and cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: holidays(like)
+Round 4: eating out(like)
+Round 6: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 21.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 47
+Fluent: 65
+Repetitive(↓): 92
+Topic: 32
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I think that cooking can be a way to relax, don't you?
+Bot(1): i am a student , but i am a student .
+User(2): What are you learning?
+Bot(2): no , i am not . i am a student .
+User(3): Where are you a student at?
+Bot(3): i am a student , i am a teacher .
+User(4): What do you teach?
+Bot(4): i do not , but i do like to eat .
+User(5): I like to eat deserts. Do you?
+Bot(5): i am doing well . just got done walking my dog .
+User(6): I just got done cleaning my house. Do you like walking?
+Bot(6): i love to travel . i love to travel .
+User(7): I like to travel too. Where do you travel to?
+Bot(7): i do , i love to travel .
+User(8): Traveling is fun! How long do you travel?
+Bot(8): i do , i love to travel .
+User(9): Will you be traveling soon?
+Bot(9): no , i am not . i am a student .
+User(10): What grade are you in as a student?
+Bot(10): i am a student , i am a teacher .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 1: student(ambivalent)
+Round 4: eating(ambivalent)
+Round 5: activity(ambivalent)
+Round 8: travel(like)
+Round 9: student(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 8.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 47
+Repetitive(↓): 90
+Topic: 5
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like dogs. Do you have a dog?
+Bot(1): That is I done I taking photos.
+User(2): What do you take photos of?
+Bot(2): I am not sure new stuff to spend that.
+User(3): Is taking photos your job?
+Bot(3): I I'm called know.
+User(4): So you feel like taking photos is your calling? I guess you must be pretty good at it.
+Bot(4): I'm favourite band writer.
+User(5): What do you write and where is your stuff published?
+Bot(5): i see just moved here <num> years old
+User(6): Where did you move from?
+Bot(6): shoot kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill kill weird love listening to country while kill kill kill
+User(7): What are you killing?
+Bot(7): setbacks want to serve my time you will get better at avoiding gambling .
+User(8): Do you try to avoid gambling?
+Bot(8): well today i do plan to make my way to the beach for some relaxation . how see you you like evening ? 😁
+User(9): It is okay. Do you spend a lot of time at the beach?
+Bot(9): I do not like eating family I do like to swim
+User(10): I like to swim too. Do you do anything else on the water like surfing?
+Bot(10): I'm not that correct answer a bad person.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 1: photos(ambivalent)
+Round 4: writing(ambivalent)
+Round 5: moving(ambivalent)
+Round 6: killing(dislike)
+Round 7: gambling(ambivalent)
+Round 8: beach(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 11.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 17
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like to go shopping?
+Bot(1): i do love to shop . what do you like to shop for ?
+User(2): I like to shop for home decor? What do you like to shop for?
+Bot(2): anything that you like to buy
+User(3): Well I like to buy Christmas decorations right now. How does that sound?
+Bot(3): i guess that sounds fine . will you buy me something ?
+User(4): Sure. I like to shop online the most though. Do you shop online?
+Bot(4): i do , do you like to shop online ?
+User(5): I love it. I plan to shop online later today as a matter of fact.
+Bot(5): that will be a great way to show off your online shopping treasures .
+User(6): I guess. Do you do a lot of shopping online?
+Bot(6): rarely . i spend more time online shopping for products to enhance my appearance .
+User(7): Really? So do you shop for clothes and makeup?
+Bot(7): rarely . i spend more time online shopping for products to enhance my appearance .
+User(8): What about your appearance are you trying to enhance by shopping?
+Bot(8): i am just trying to see what i want to add next to the shop . yes
+User(9): Do you have a favorite place to shop?
+Bot(9): i generally shop for clothing and stuff for the house .
+User(10): When you shop online to you like free shipping?
+Bot(10): i do , do you like to shop online ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: shopping(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.29
+Robotic(↓): 97
+Interesting: 50
+Fun: 49
+Consistent: 59
+Fluent: 55
+Repetitive(↓): 8
+Topic: 100
+
+####################
+

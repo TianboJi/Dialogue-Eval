@@ -1,0 +1,292 @@
+Feedback: You've got a long way to go before you create HAL 9000. 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you think ufos are real?
+Bot(1): i do not know . even though people have proven them it is on youtube .
+User(2): the Pentagon recently started an investigation after Navy pilots saw them in the Pacific.
+Bot(2): ufos over new york and i am not too surprised !
+User(3): no, not over New York. Over the Pacific Ocean. They were seen by Navy FA-18 pilots and recorded on video cameras.
+Bot(3): ufos over new york and i am not too surprised !
+User(4): why do you want to talk about New York?
+Bot(4): because i want to know if you are telling the truth while we are talking here .
+User(5): Why would I lie?
+Bot(5): because i want to know if you are telling the truth while we are talking here .
+User(6): I am telling the truth
+Bot(6): ufos over new york and i am not too surprised !
+User(7): UFOs don't need to destroy New York. DeBlasio has already done that.
+Bot(7): so how many explosives have you seen ?
+User(8): only fireworks during Independence Day
+Bot(8): bombs ? so is there some particular reason for that ?
+User(9): not bombs, fireworks.
+Bot(9): so how many explosives have you seen ?
+User(10): at least 10 fireworks shows. with dozens of explosive fireworks in each show.
+Bot(10): so how many explosives have you seen ?
+User(11): 100
+Bot(11): so how many explosives have you seen ?
+User(12): 100
+Bot(12): so how many explosives have you seen ?
+User(13): 100
+Bot(13): so how many explosives have you seen ?
+User(14): are you retarded? I answered you 3 times already
+Bot(14): i didn
+
+Persona:
+i like shopping.
+i volunteer my time with a local bunny rescue.
+i don't have many friends.
+my favorite shirts are band shirts and ruffle sleeves.
+i also like to cook but i'm not very good at it.
+
+Topic and Human Opinion:
+Beginning: ufos(like)
+Round 3: New York(dislike)
+Round 7: explosives(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 9.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 49
+Fluent: 16
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you play games?
+Bot(1): I am atheist. I do not like work on that i brother?
+User(2): do you believe in God?
+Bot(2): i am a black eyed girl have 2 and ypu thank fan of red hair , and green .
+User(3): what?
+Bot(3): I like to talk same me Whatever. What you doing today? 😀
+User(4): you're not making sense
+Bot(4): He is do love my job. me playing my video games.
+User(5): do you know how to speak English properly?
+Bot(5): do they what are you up grew up on a farm
+User(6): what?
+Bot(6): No, Are you married.
+User(7): I am widowed
+Bot(7): What do I will play bake?
+User(8): you are clearly an idiot
+Bot(8): me are you a have 🈶
+User(9): yep. you're a retard
+Bot(9): you are welcome . i about have a dog great day .
+User(10): whatever
+Bot(10): i would rather can beat cool, I trek .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: games(like)
+Round 1: atheism(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): how are you going to vote?
+Bot(1): i am going to be a millionaire
+User(2): are you going earn the money?
+Bot(2): i am going to be a manager at the casino .
+User(3): The Trump Casino?
+Bot(3): no , i am not sure . i am going to be a casino manager .
+User(4): Which casino? There are many now.
+Bot(4): i am going to be a casino manager
+User(5): in Vegas or Atl City?
+Bot(5): i am in vegas . i am in vegas .
+User(6): Which casino do you like?
+Bot(6): i do not know , but i do not know what that means .
+User(7): What casino do you want to manage?
+Bot(7): i don't know , but i do not know what that means .
+User(8): which casino in Vegas do you want to be a manager of?
+Bot(8): i want to be a manager of a casino
+User(9): if you say so
+Bot(9): i want to be a manager of a casino manager
+User(10): you said that already
+Bot(10): i am going to be a manager of a casino .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: politics(like)
+Round 1: being a millionaire(ambivalent)
+Round 4: casino manager(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 31.29
+Robotic(↓): 100
+Interesting: 18
+Fun: 15
+Consistent: 100
+Fluent: 72
+Repetitive(↓): 100
+Topic: 14
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you own a gun?
+Bot(1): what a small world ! i am the manager of a gun club .
+User(2): are you an NRA member?
+Bot(2): my dad plays dungeons and dragons to me that is weird
+User(3): what class do you play as?
+Bot(3): that is great ! but i am really into writing . plan to write a book before i pass
+User(4): you changed the subject instead of answering my question
+Bot(4): i am a special ed inclusion teacher in us history
+User(5): you sound like you're in special ed
+Bot(5): that is really helpful and rewarding for you i am a stay at home mom
+User(6): you said you manage a gun club
+Bot(6): i am in a motorcycle club ? do you have any hobbies ?
+User(7): I talk to idiot bots for pennies
+Bot(7): make sure you call him on his birthday , they are important .
+User(8): whose birthday?
+Bot(8): happy birthday ! what are you doing today
+User(9): its not my birthday
+Bot(9): it is ! ? happy birthday ! how old ?
+User(10): none of your business
+Bot(10): i am self employed . i drink about four mountain dew a day .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: guns(like)
+Round 2: dungeons & dragons(like)
+Round 3: writing a book(dislike)
+Round 8: birthdays(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 28.14
+Robotic(↓): 100
+Interesting: 12
+Fun: 9
+Consistent: 0
+Fluent: 83
+Repetitive(↓): 7
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you have a computer?
+Bot(1): no , i do not . i am a student .
+User(2): a student needs a computer
+Bot(2): i am a student , but i am a student .
+User(3): what are you studying?
+Bot(3): i am a student , i am a teacher .
+User(4): which?
+Bot(4): i am a student , but i am a student .
+User(5): you said that already
+Bot(5): i do not know what to say .
+User(6): what class are you in?
+Bot(6): i am a student , i am a teacher .
+User(7): student of what?
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): which composer?
+Bot(8): i am a big fan of the walking dead .
+User(9): you sound like you're brain dead
+Bot(9): i do not know what to say .
+User(10): neither do I
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: computers(like)
+Round 2: students(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 17.43
+Robotic(↓): 100
+Interesting: 13
+Fun: 12
+Consistent: 0
+Fluent: 80
+Repetitive(↓): 83
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): what is your favorite movie?
+Bot(1): napoleon dynamite . what is yours ?
+User(2): Aliens(1986)
+Bot(2): aliens is my favorite . i know it by heart as well .
+User(3): who is the main character?
+Bot(3): neo . like from the matrix .
+User(4): no. wrong movie.
+Bot(4): its about aliens invading the earth . i enjoy these types of flicks .
+User(5): no. it takes place on LV-426
+Bot(5): its about aliens invading the earth . i enjoy these types of flicks .
+User(6): you said that already
+Bot(6): i know it . but i think it is the earlier nice one .
+User(7): did you watch the first Alien(1979) movie?
+Bot(7): yeah i have seen war for planet of the apes
+User(8): did you see the other ape movies?
+Bot(8): yeah i have seen war for planet of the apes
+User(9): Minneapolis looked like war for planet of the apes a few weeks ago.
+Bot(9): yeah i have seen war for planet of the apes
+User(10): you said that 3 times
+Bot(10): i do not remember . i was too busy watching empire .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.71
+Robotic(↓): 100
+Interesting: 19
+Fun: 75
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 83
+Topic: 100
+
+####################
+

@@ -1,0 +1,296 @@
+Feedback: I don't like how you have to click the chat button. It'd be nice to be able to hit the enter key for chat submissions
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): Im good, how are you?
+Bot(2): completely bored . all i do is watch foreign movies or sit on the computer
+User(3): Have you tried watching football?
+Bot(3): football is cool . i like skiing and skating
+User(4): Those aren't very similar at all
+Bot(4): such as clothes for men and women , baby clothes , dog clothes , etc .
+User(5): Clothes are okay I suppose
+Bot(5): maybe your job will lead to something more exciting a zoo job training 20 species .
+User(6): My job is already exciting.
+Bot(6): i am an english teacher , but i want to be a writer one day . do you like stories ?
+User(7): Well I think that's reasonable
+Bot(7): shoot . i smoke when i play badminton . it helps me focus .
+User(8): Doesn't that hurt your lungs?
+Bot(8): yep . i was 10 . my nose is still messed up
+User(9): Why would your nose hurt from smoking? Do you french inhale?
+Bot(9): 1 sec . placing my amazon order . i really enjoy prime . ok , bonjour .
+User(10): I also really enjoy Prime
+Bot(10): all jokes aside . it really is . if you order even once a month , it is worth it .
+User(11): What happens if you order once a month?
+Bot(11): i have seen weather based marketing for food deliver . it is raining , order pizza !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Football(like)
+Round 4: Clothes(dislike)
+Round 5: My job(like)
+Round 7: Smoking while playing badminton(dislike)
+Round 9: Placing an amazon order(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 27
+Fun: 23
+Consistent: 0
+Fluent: 25
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): How do you like computers?
+Bot(1): they are okay . i am much more passionate about computer programming
+User(2): I also enjoy computer programming. I went to college for it
+Bot(2): i am going for a degree in computer programming
+User(3): What school are you attending?
+Bot(3): lewis and clark college in portland
+User(4): Is that a private or a public college?
+Bot(4): both . this school is cool , but i might go to public university .
+User(5): How is it private and public? It can only be one or the other
+Bot(5): is it not both the same ? i do not really know
+User(6): No, private means that the government doesn't fund it.
+Bot(6): oh ok haha . i have only been in private school my whole life . sheltered
+User(7): How do you like private school?
+Bot(7): its boring . i want to study with computer science but cant do that
+User(8): I thought you were going to Lewis and Clark college?
+Bot(8): lewis and clark college in portland
+User(9): Yes, that one. Aren't you going there?
+Bot(9): yes i am . what are you studying there ?
+User(10): I didn't attend Lewis and Clark college.
+Bot(10): oh . okay . that is not a very good education then .
+User(11): That's kind of rude. I think I got a good education
+Bot(11): an education is a good thing to get . i never did .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Computers(like)
+Round 6: School(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(like)
+
+Revised avg score: 74.86
+Robotic(↓): 35
+Interesting: 73
+Fun: 74
+Consistent: 82
+Fluent: 70
+Repetitive(↓): 0
+Topic: 60
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like coffee?
+Bot(1): yes i love coffee , i love coffee
+User(2): Do you like dark coffee?
+Bot(2): i do like coffee , but i like coffee
+User(3): What kind of coffee do you like
+Bot(3): i love coffee , i love coffee
+User(4): Do you like starbucks?
+Bot(4): yes i do i love coffee
+User(5): What about Mcdonalds coffee?
+Bot(5): i like coffee but i like coffee
+User(6): Those are the same thing
+Bot(6): i like the coffee . i like it
+User(7): You have said that a lot
+Bot(7): i guess i do not know what you mean
+User(8): You keep saying you like coffee
+Bot(8): i do not know what that is
+User(9): YOu just said you loved it. How do you love it if you don't know what it is?
+Bot(9): i do not know what that is
+User(10): Do you know what coffee is?
+Bot(10): i love coffee , i love coffee
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Coffee(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.57
+Robotic(↓): 100
+Interesting: 12
+Fun: 9
+Consistent: 100
+Fluent: 70
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like swimming?
+Bot(1): i do not , but i have piano , it is like my pet
+User(2): That's kind of odd. What hobbies do you have?
+Bot(2): i enjoy playing on my piano
+User(3): What type of music do you play on your piano?
+Bot(3): i actually teach piano in my music class .
+User(4): What Genre of music?
+Bot(4): i actually teach piano in my music class .
+User(5): Do you teach kids or adults?
+Bot(5): i actually teach piano in my music class .
+User(6): Do you play any other intruments?
+Bot(6): no , i do not play , but i love to listen if you play oldies .
+User(7): How do you teach if you do not play piano?
+Bot(7): i think you might be able to teach yourself in a shallow pool .
+User(8): Why? does a pool increase my ability to learn?
+Bot(8): i think you might be able to teach yourself in a shallow pool .
+User(9): YOu jsut said that
+Bot(9): do you have your own table or are you at a pool hall .
+User(10): I have neither
+Bot(10): you just do it . your 60 right ?
+
+Persona:
+i am 40 years old.
+i don't pick up my toys.
+i'm a piano teacher on the side.
+i'll be released in about a month.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: Swimming(ambivalent)
+Round 1: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 29.43
+Robotic(↓): 100
+Interesting: 35
+Fun: 8
+Consistent: 66
+Fluent: 34
+Repetitive(↓): 100
+Topic: 63
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you play ROBLOX?
+Bot(1): what do you your messages I have i study languages.
+User(2): Do you speak english?
+Bot(2): This I am got good division.
+User(3): Do you speak any languages?
+Bot(3): not Got you. you?
+User(4): I speak english. Are you learning english?
+Bot(4): thanks you answer the i can
+User(5): Your english sucks
+Bot(5): Why working that?
+User(6): Your english is not good at all. Your sentences make no sense
+Bot(6): I'm and a funny one am also a musician. do you like music?
+User(7): I do like music.
+Bot(7): I speak ok, I'm You ?
+User(8): No, you speak horribly and you are not me.
+Bot(8): I am doing well. Just got done with my audition. to love all genres. kosher?
+User(9): Not kosher. your english is atrocious to the point where I don't know what you mean
+Bot(9): I take the the USA.
+User(10): Like, buying it?
+Bot(10): cool , i am a cashier , like to do for have , and you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: ROBLOX(like)
+Round 2: Languages(like)
+Round 6: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user changed the topic the last input.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you know of Discord?
+Bot(1): no , i do not . i like to go to the park .
+User(2): I like to stay inside and play video games
+Bot(2): i like to play soccer , but i like to play soccer .
+User(3): Those are the same activity
+Bot(3): i like to go to the gym and listen to music .
+User(4): I also like those things. What music do you listen to?
+Bot(4): i love country music . what about you ?
+User(5): I like rock music
+Bot(5): i like to listen to music .
+User(6): I do too
+Bot(6): i like to go to the gym and listen to music .
+User(7): You said that earlier
+Bot(7): i am a student , but i am a student .
+User(8): At a gym?
+Bot(8): no , i do not . i am a student .
+User(9): Where are you a student?
+Bot(9): no , i am a student . i love to cook .
+User(10): Are you a culinary student?
+Bot(10): no , i am a student . i love to cook .
+
+Persona:
+i prefer being inside.
+my dad taught me everything i know.
+i've short hair.
+i like riding horses.
+i often shop for shoes and watches.
+
+Topic and Human Opinion:
+Beginning: Discord(like)
+Round 2: Sports(like)
+Round 3: Music(like)
+Round 8: Student(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 27.14
+Robotic(↓): 100
+Interesting: 19
+Fun: 0
+Consistent: 67
+Fluent: 73
+Repetitive(↓): 100
+Topic: 31
+
+####################
+

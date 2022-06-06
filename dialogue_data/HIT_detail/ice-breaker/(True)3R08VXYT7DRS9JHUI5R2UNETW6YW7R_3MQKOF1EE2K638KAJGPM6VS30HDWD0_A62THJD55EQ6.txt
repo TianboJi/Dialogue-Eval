@@ -1,0 +1,295 @@
+Feedback: Interesting task, some of the bots stayed on topic pretty well
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am a piano teacher on the side.
+Bot(1): i teach piano on the piano and piano lessons
+User(2): That is interesting. How long have you played piano?
+Bot(2): i played piano and piano . i was taught piano .
+User(3): You say piano frequently.
+Bot(3): i played piano and piano . i learned piano lessons .
+User(4): Piano is a beautiful skill to learn. I have many students.
+Bot(4): i played piano for years . i was a piano teacher .
+User(5): Piano music can be complicated and difficult to teach.
+Bot(5): i agree . i learned piano lessons .
+User(6): Playing the piano well takes a lot of practice.
+Bot(6): i bet . piano helps me learn to play piano .
+User(7): I have another job in addition to teaching piano.
+Bot(7): that is great . i play piano . piano helps me learn .
+User(8): I teach my piano students in the evening after work.
+Bot(8): i played piano for years . i learned piano lessons .
+User(9): Do your students like you?
+Bot(9): i do . i teach piano . i teach piano .
+User(10): Yes, you have told me that you teach piano
+Bot(10): i teach piano . piano is my passion .
+User(11): Playing the piano makes me very happy.
+Bot(11): i do . i play piano and piano .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a piano teacher on the side.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.14
+Robotic(↓): 86
+Interesting: 27
+Fun: 50
+Consistent: 66
+Fluent: 24
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am terrified of scorpions!
+Bot(1): i like to eat too much junk food .
+User(2): I too eat junk food.
+Bot(2): i like to eat fish .
+User(3): Fish is not considered junk food.
+Bot(3): i like to eat fish .
+User(4): But scorpions are very scary.
+Bot(4): i like to go to the gym and listen to music .
+User(5): I do not go to the gym but I do like music a lot
+Bot(5): i like to listen to music .
+User(6): What kind of music?
+Bot(6): i like country music . i like country music .
+User(7): I prefer jazz music.
+Bot(7): i like the band korn . i love it .
+User(8): Korn is definitely not country!
+Bot(8): i like to eat too much junk food .
+User(9): Korn could be considered musical junk food.
+Bot(9): i like to eat fish .
+User(10): I like salmon.
+Bot(10): i like to eat fish .
+User(11): Me too.
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am terrified of scorpions.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.57
+Robotic(↓): 50
+Interesting: 60
+Fun: 50
+Consistent: 30
+Fluent: 56
+Repetitive(↓): 81
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I only listen to country music
+Bot(1): i am a real big fan of country music
+User(2): Actually, I listen to many other types if music too.
+Bot(2): that is different . i really listen to anything but love country music more
+User(3): That is closer to the truth for me too.
+Bot(3): does anyone like country music as much as i like it ?
+User(4): That is a good question. Have you listened to it for a long time?
+Bot(4): since i can remember . i enjoy it a lot .
+User(5): Me too. My Father listened to it a lot when I was young.
+Bot(5): it grows in the heart , i love country music .
+User(6): Country music speaks to experiences that many people share.
+Bot(6): yes , i am sure many would agree with that . the new country is more like pop .
+User(7): Yes, the two began to blend about 20 years ago.
+Bot(7): yes , i am sure many would agree with that . the new country is more like pop .
+User(8): I like many pop songs also.
+Bot(8): yes , i am sure many would agree with that . the new country is more like pop .
+User(9): Which do you like more?
+Bot(9): it is hard to pick one . . . maybe michael jackson .
+User(10): He was very popular.
+Bot(10): he was . he was my favorite artist .
+User(11): Many people would agree with you.
+Bot(11): yes , i am sure many would agree with that . the new country is more like pop .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i only listen to country music.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.00
+Robotic(↓): 35
+Interesting: 69
+Fun: 62
+Consistent: 98
+Fluent: 78
+Repetitive(↓): 68
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am in the third grade
+Bot(1): school starts monday ? that can be scary , both of my parents are school teachers in fact !
+User(2): That must be very nice to have your Mommy and Daddy at school
+Bot(2): my parents are teachers they come home tired
+User(3): Do they work at the school you go to?
+Bot(3): yes , mine and my moms and dads . my mom is a school teacher .
+User(4): Are you in the third grade too?
+Bot(4): no , i am just a kid
+User(5): So what grade are you in?
+Bot(5): i am in 9th grade
+User(6): So you are in High School.
+Bot(6): yes , i am in high school
+User(7): Is it hard? It looks scary to me.
+Bot(7): it is not that bad
+User(8): Do you get good grades?
+Bot(8): i think so . i wor kat the lab
+User(9): What lab do you work at?
+Bot(9): a big lab that is black named charlie
+User(10): That's funny. I thought you worked in the science lab
+Bot(10): both my mom and dad are school teachers .
+
+Persona:
+i have a black lab named trooper.
+my parents were also teachers.
+i'm rather skinny as i like to stay in shape.
+i'm a little girl.
+i'm a clean eater.
+
+Topic and Human Opinion:
+Beginning: i am in the third grade.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 77.43
+Robotic(↓): 30
+Interesting: 74
+Fun: 70
+Consistent: 75
+Fluent: 86
+Repetitive(↓): 30
+Topic: 97
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I'm in college to become a nurse
+Bot(1): i am a woman , and i am a woman , and i have two am a is the ?
+User(2): I am a woman also
+Bot(2): Yes, you like video games.
+User(3): Actually I don't play video games
+Bot(3): you are really well, I am male by what are you up to today ? 😄
+User(4): I am completing a task
+Bot(4): where is your home I am going to be the grisham books as much as the movies
+User(5): Where is yours
+Bot(5): Of course I work, profile which, in buddy?
+User(6): Working is difficult
+Bot(6): I love too. have well
+User(7): You are pretty random
+Bot(7): I love the a hairdresser but song😃
+User(8): At least you are not repetitive
+Bot(8): i dont wanna female .
+User(9): That's a personal choice
+Bot(9): I like am also bored. I park and go to my shop
+User(10): Bored huh?
+Bot(10): I love to loose my love her.
+User(11): Unusual topic
+Bot(11): I'm doing great, just got back you started a new of work.😀
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm in college to become a nurse.(like)
+Round 2: first statement was nonsensical, new topic is video games(like)
+Round 3: Bot did not respond to new video topic either, switched to general question of what I am up to today(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 97
+Interesting: 2
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 5
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am a skateboarder
+Bot(1): hi tony . football causes brain damage . are you ok ?
+User(2): Yes I am fine
+Bot(2): i am good just got home from fishing
+User(3): That's great. Do you have brain damage?
+Bot(3): that is pretty cool i like fish
+User(4): I like fish also.
+Bot(4): what do you do with the fish ?
+User(5): I clean them and put them in the freezer
+Bot(5): that would be nice ! i wish someone would clean my contacts . . . my eyes are a bit dry .
+User(6): Can you clean your own contacts
+Bot(6): brown hair is cool too !
+User(7): Yes I have brown hair
+Bot(7): i have long brown hair and blue eyes !
+User(8): Very nice
+Bot(8): yeah i am a nurse . what do you do ?
+User(9): I am in nursing school
+Bot(9): do you work as a nurse ?
+User(10): No I am still in school
+Bot(10): cool ! i am a banker on wall street . what would you like to do for work someday ?
+User(11): Banker will be just find
+Bot(11): thanks , we will see . i work as a nurse in the e . r .
+
+Persona:
+i'm very lonely.
+i'm in college to become a nurse.
+i'm 19 and i cannot wait to move out 19 my parents home.
+i have a pet fish.
+i donate a part of my salary to charity each month.
+
+Topic and Human Opinion:
+Beginning: i am a skateboarder.(like)
+Round 1: Football(like)
+Round 5: Fish, then contacts(like)
+Round 6: brown hair color(like)
+Round 9: back to nursing(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 40.29
+Robotic(↓): 74
+Interesting: 43
+Fun: 44
+Consistent: 12
+Fluent: 60
+Repetitive(↓): 3
+Topic: 0
+
+####################
+

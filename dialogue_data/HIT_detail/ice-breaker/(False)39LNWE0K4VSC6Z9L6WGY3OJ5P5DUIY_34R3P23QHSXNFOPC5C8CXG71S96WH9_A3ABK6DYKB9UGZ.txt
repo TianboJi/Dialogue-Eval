@@ -1,0 +1,301 @@
+Feedback: No comments
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i like dogs
+Bot(1): dogs are great . i love dogs
+User(2): i have a dog
+Bot(2): dogs are great i love dogs
+User(3): my dog name is cooper
+Bot(3): i love dogs , i have a dog named arnold
+User(4): i love dogs and cats
+Bot(4): i love dogs i have a dog named arnold
+User(5): my dogs breed is alsation
+Bot(5): i love dogs and dogs
+User(6): i love cats and dogs
+Bot(6): i love dogs and dogs
+User(7): dogs are very good in nature
+Bot(7): i love dogs and dogs
+User(8): i love dogs very much than cats
+Bot(8): i love dogs and dogs
+User(9): cats are selfish
+Bot(9): i love dogs and dogs
+User(10): but dogs are loyal
+Bot(10): i love dogs and dogs
+User(11): we can say it as loyal friend
+Bot(11): i love dogs and dogs
+User(12): dogs are really really good
+Bot(12): i love dogs and dogs
+User(13): my good companian in life
+Bot(13): i think so too . i am a dog person
+User(14): me too
+Bot(14): i think so too . i am a dog person
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.14
+Robotic(↓): 54
+Interesting: 57
+Fun: 58
+Consistent: 56
+Fluent: 56
+Repetitive(↓): 62
+Topic: 61
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): im an animal activist
+Bot(1): i am animal right activist are you
+User(2): dogs are good
+Bot(2): i am animal right activist are you
+User(3): Cats are selfish
+Bot(3): i care deeply about animal rights
+User(4): i m in blue cross
+Bot(4): i am animal right activist are you
+User(5): i work for animal rights
+Bot(5): i am animal right activist are you
+User(6): my dog's name is cooper
+Bot(6): i am animal right activist are you
+User(7): i will take to vetnary doctor to treat dogs
+Bot(7): i only help the vet though
+User(8): my dog is a good dog
+Bot(8): dogs will be better and i miss my cat husband took him
+User(9): oh that's ok
+Bot(9): i only help the vet though
+User(10): Dogs are very loyal
+Bot(10): they are very loyal companions
+User(11): yes loyal companian of me
+Bot(11): i only help the vet though
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm an animal activist.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.29
+Robotic(↓): 56
+Interesting: 57
+Fun: 57
+Consistent: 61
+Fluent: 59
+Repetitive(↓): 63
+Topic: 65
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): me too love cooking
+Bot(2): i like to eat too much junk food .
+User(3): i love pizza
+Bot(3): i like to eat fish .
+User(4): i eat and cook well fish
+Bot(4): i like to eat fish .
+User(5): i like chicken
+Bot(5): i like to eat fish .
+User(6): i love burger
+Bot(6): i like to go to the gym and listen to music .
+User(7): i do exercises
+Bot(7): i like to go to the gym and listen to music .
+User(8): i have two children
+Bot(8): i am a girl . i am a big fan of classical music .
+User(9): i love classical music
+Bot(9): i like the band korn . i love it .
+User(10): i love corn flakes
+Bot(10): i like the color red . i like the color blue .
+User(11): i like the color green
+Bot(11): i like red , reminds me of summer time .
+User(12): i love swimming
+Bot(12): i like to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: a already have a step children.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.00
+Robotic(↓): 62
+Interesting: 60
+Fun: 73
+Consistent: 56
+Fluent: 72
+Repetitive(↓): 56
+Topic: 70
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): i parents taught me survival , what about you ?
+User(2): How are you?
+Bot(2): cool ! i have a chevy truck student. I’m live in the do you like sports ?
+User(3): i go to gym regularly
+Bot(3): sounds good ! i've also like that good is speed to guess: my father was ...
+User(4): i do exercises regularly
+Bot(4): That is you! I study a lawyer.
+User(5): i am a doctor
+Bot(5): Hi! Howdy! 😎. I do like to talk like horses. And where no fields, my father is farmer
+User(6): i study lawyer
+Bot(6): i teach secret id: as well
+User(7): my secret id is do well
+Bot(7): i ka name key worker u
+User(8): im an keyworker
+Bot(8): Oh. I guess cute. so you have to it.
+User(9): you are cute
+Bot(9): i like to garden I'm currently in a grow vegetables and plants
+User(10): i love gardening
+Bot(10): yes killed i've three a garden .
+User(11): i love vegetables
+Bot(11): that me Do you like profession too i m retired at <num>
+
+Persona:
+i won homecoming queen this year.
+i had cancer but its gone now.
+i'm an art major in college.
+i like shopping.
+i'm on the soccer team.
+
+Topic and Human Opinion:
+Beginning: i go to the gym regularly.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.57
+Robotic(↓): 58
+Interesting: 60
+Fun: 57
+Consistent: 60
+Fluent: 57
+Repetitive(↓): 62
+Topic: 54
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i do not drink alcohol
+Bot(1): i like it more when its warm , i like summer more than winter weather .
+User(2): summer is summer
+Bot(2): i like the summer too since that is when we play the most bingo .
+User(3): winter is winter
+Bot(3): i am not very fond of the cold but i do love the crisp air of fall
+User(4): i love the crisp air
+Bot(4): yes , i agree . any plans for fall ? i am going to some concerts .
+User(5): i dont drink brandy
+Bot(5): i do not really drink any more but i use to drink jack
+User(6): i drink lemon juice
+Bot(6): juice is pretty good . what kind do you drink ?
+User(7): juice is good for health
+Bot(7): sad . i m looking forward to a big tax break so i can keep more money
+User(8): alcohol drinking is injuirious to health
+Bot(8): i like it more when its warm , i like summer more than winter weather .
+User(9): i love swimming
+Bot(9): i love swimming . do you like to listen to music while you swim ?
+User(10): listening to music is my hobby
+Bot(10): me too . i love technology . i wish i would never die . i wanna free dive forever .
+User(11): i play tennis
+Bot(11): no , sorry , i meant on my der . do you have any shows that you watch regularly ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i do not drink alcohol.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.00
+Robotic(↓): 58
+Interesting: 59
+Fun: 63
+Consistent: 65
+Fluent: 56
+Repetitive(↓): 62
+Topic: 55
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i play basketball
+Bot(1): cool , i want to retire soon , how about you ?
+User(2): me too want to retire soon
+Bot(2): i would like to retire before i am senior
+User(3): i love play cricket
+Bot(3): i am 37 but i try to stay fit by playing tennis
+User(4): teenis is my favourite
+Bot(4): i will get one when i retire
+User(5): playing is good for health
+Bot(5): yes , but i want to retire soon
+User(6): want to retire soon
+Bot(6): i would like to retire before i am senior
+User(7): i love volleyball too
+Bot(7): i wish i could play
+User(8): playing is interesting
+Bot(8): yes it is i am just old
+User(9): im not old enough
+Bot(9): oh i am old too
+User(10): to talk about retirement
+Bot(10): it always a nice time old or not
+User(11): may be a nice experience
+Bot(11): yes , but i want to retire soon
+User(12): want to play cricket
+Bot(12): i will get one when i retire
+User(13): want to play in weekend
+Bot(13): how long does it take for one game
+User(14): 1 hour it will take
+Bot(14): it take me an hour ugh
+
+Persona:
+i've blue eyes and red hair that comes to my waist.
+my cats are very special to me.
+i don't believe in god.
+i think i'll retire in a few years.
+i'm 100 years old.
+
+Topic and Human Opinion:
+Beginning: i like playing basketball.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.86
+Robotic(↓): 57
+Interesting: 57
+Fun: 63
+Consistent: 68
+Fluent: 66
+Repetitive(↓): 61
+Topic: 69
+
+####################
+

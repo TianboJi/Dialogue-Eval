@@ -1,0 +1,293 @@
+Feedback: The interpreter didn't seem deep enough. The bots too often changed subject or repeated past statements.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): What do you like to cook?
+Bot(2): i do , i love to cook .
+User(3): Do you like to bake?
+Bot(3): no , i do not , but i do like to eat .
+User(4): Do you eat what you cook?
+Bot(4): i do not , but i do like to eat .
+User(5): What do you like to eat?
+Bot(5): i love to cook . i love to cook .
+User(6): What do you love to cook?
+Bot(6): i do , i love to cook .
+User(7): Do you cook meat?
+Bot(7): no , i like to eat .
+User(8): What do you eat?
+Bot(8): i love to cook . i love to cook .
+User(9): How do you cook?
+Bot(9): no , i do not , but i do like to eat .
+User(10): Tell me about eating?
+Bot(10): i am a huge fan of jason mraz .
+User(11): Does Jason Mraz like to cook?
+Bot(11): no , i do not . i like to eat .
+User(12): What is your favorite Jason Mraz song?
+Bot(12): i like the oldies . i like the color red .
+
+Persona:
+i grew up on a farm.
+i am a christian.
+i am a huge coffee lover.
+i am an avid kayaker.
+i work at a bank.
+
+Topic and Human Opinion:
+Beginning: i helped design the game starcraft.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 64
+Fluent: 49
+Repetitive(↓): 100
+Topic: 5
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you collect honey?
+Bot(1): yes i do , i collect them
+User(2): What do you do with the honey?
+Bot(2): i collect them . i collect them .
+User(3): Do you sell honey?
+Bot(3): i do not , i collect different things .
+User(4): Do you sell bees?
+Bot(4): no i do not . i sell them
+User(5): What do you sell?
+Bot(5): i sell them all the time
+User(6): How much do you sell them for?
+Bot(6): i sell them all the time
+User(7): Do you sell bee hives?
+Bot(7): no i don't . i sell them
+User(8): Sell what?
+Bot(8): no i sell them all the time
+User(9): What does a bee farmer do?
+Bot(9): no , i sell them . i sell them all the time
+User(10): How many hives do you have?
+Bot(10): i do not know how to sell them
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a bee farmer.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 9.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 32
+Fluent: 12
+Repetitive(↓): 100
+Topic: 21
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What shows do you watch?
+Bot(1): i listen to folk music it is so popular around here
+User(2): Which artists do you listen to?
+Bot(2): i listen to folk music it is so popular around here
+User(3): What songs do you particularly like?
+Bot(3): i listen to folk music it is so popular around here
+User(4): What is folk music?
+Bot(4): i enjoy folk music . it is popular where i am from .
+User(5): Where are you from?
+Bot(5): i am from texas and of course i love riding horses .
+User(6): What part of Texas?
+Bot(6): i am from texas and of course i love riding horses .
+User(7): I have family in Texas.
+Bot(7): do you like ping pong ? i play alot
+User(8): I do not like ping pong.
+Bot(8): i do not like it much either .
+User(9): You said you do like it and play it a lot.
+Bot(9): i do not play it well .
+User(10): What else do you like to play?
+Bot(10): i just usually ride horses .
+User(11): What kind of horses do you like?
+Bot(11): i am too afraid to ride them .
+
+Persona:
+my favorite type of music to sing is folk music.
+i play ping pong.
+i like riding horses.
+i've an allergy to water.
+i am 19 and i cannot wait to move out 19 my parents home.
+
+Topic and Human Opinion:
+Beginning: i watch too much tv in spare time.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.29
+Robotic(↓): 100
+Interesting: 11
+Fun: 10
+Consistent: 2
+Fluent: 27
+Repetitive(↓): 82
+Topic: 18
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): WHy are you not close to your family?
+Bot(1): what are you travel do you i also classical. what are you up to tonight ?
+User(2): I am talking to you.
+Bot(2): yeah do not know what have a lot of time for that .
+User(3): WHat are you doing tonight?
+Bot(3): i just have a And out to clubs
+User(4): Do you like to dance at the clubs?
+Bot(4): do you have any I'm single. A single is time on the facebook. I am a overweight
+User(5): Have you always been overweight?
+Bot(5): Also, i like movies Do the pancakes here are the best.
+User(6): I prefer waffles.
+Bot(6): I name is languages.
+User(7): Hello, Languages. My name is particular.
+Bot(7): I do not russia, do you hobbies.
+User(8): I do not have hobbies. I go to the clubs.
+Bot(8): No, i cats fo you english.
+User(9): I like dogs.
+Bot(9): i love reading fantasy novels and shopping web stores to become an mechanical ? 😃
+User(10): You are a mechanical?`
+Bot(10): Where love! But live?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've zero family that i am close to.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.57
+Robotic(↓): 100
+Interesting: 3
+Fun: 5
+Consistent: 3
+Fluent: 0
+Repetitive(↓): 92
+Topic: 13
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you play soccer well?
+Bot(1): yes , i do it is soccer
+User(2): What position do you play?
+Bot(2): i am not sure . i play pro soccer
+User(3): What team do you play for?
+Bot(3): i am not sure . i play pro soccer
+User(4): Do you play other sports?
+Bot(4): yes , i do it is soccer
+User(5): Tell me about soccer.
+Bot(5): i love other football called soccer .
+User(6): What do you love about soccer?
+Bot(6): i love other football called soccer .
+User(7): Do you make a lot of money playing soccer?
+Bot(7): yes , i do it is soccer
+User(8): Can I also play soccer?
+Bot(8): sure , what team are you on ?
+User(9): I m not on a team.
+Bot(9): is there a lot of money in soccer playing ?
+User(10): You said there is because it is soccer.
+Bot(10): i love other football called soccer .
+User(11): Have you always played soccer?
+Bot(11): yes , i do it is soccer
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm on the soccer team.(ambivalent)
+Round 3: Other sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 35
+Fun: 9
+Consistent: 12
+Fluent: 21
+Repetitive(↓): 80
+Topic: 78
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I do not like ping pong.
+Bot(1): i do not like fish so much . you can not have a bond with a fish .
+User(2): Fish are good to eat.
+Bot(2): no but i do fish for a living
+User(3): What kind of fish do you catch?
+Bot(3): do you eat the fish ?
+User(4): I do eat fish.
+Bot(4): no but i do fish for a living
+User(5): How do you fish?
+Bot(5): do you eat the fish ?
+User(6): What kind of fish do you catch?
+Bot(6): do you eat the fish ?
+User(7): Yes.
+Bot(7): i won the multimillion dollar powerball six years ago and have told nobody
+User(8): Why are you telling me?
+Bot(8): teaching is ok but writing is my ultimate dream
+User(9): I enjoy writing.
+Bot(9): what do you like to write
+User(10): Narrative stories about personal experiences.
+Bot(10): fantasy worlds with vampires and supernatural things .
+User(11): I wrote about a vampire once.
+Bot(11): being an author must be really neat . what type of books do you write ?
+User(12): I am not an author.
+Bot(12): yes , i love all the harry potter books by j . k . rowling . read them all twice .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i play ping pong.(dislike)
+Round 1: fish(like)
+Round 7: Lottery(ambivalent)
+Round 8: writing(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 25.57
+Robotic(↓): 100
+Interesting: 34
+Fun: 30
+Consistent: 22
+Fluent: 37
+Repetitive(↓): 58
+Topic: 14
+
+####################
+

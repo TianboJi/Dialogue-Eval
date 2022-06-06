@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): General Hospital
+Bot(1): i am a country singer , i am a country singer
+User(2): I like country music
+Bot(2): i love music , i listen to it while i am in college .
+User(3): I love it too!
+Bot(3): i love the story , but i am a country singer .
+User(4): do you write music
+Bot(4): i do write a lot . i am a country singer .
+User(5): how often do you write
+Bot(5): i write a lot , but i am a country singer .
+User(6): do you sing any other kind of music
+Bot(6): i do not really have a favorite song
+User(7): do you have a favorite artist
+Bot(7): i like to listen to music while i am in college
+User(8): where did you go to college
+Bot(8): i am in college , i am in college .
+User(9): what are you studying
+Bot(9): i am in college , i am a country singer
+User(10): do you work part time
+Bot(10): i work in the hospital
+User(11): what do you do at the hospital
+Bot(11): i am a nurse . i am a student .
+User(12): and you are a country singer. Do you like nursing better than singing
+Bot(12): i do but i am a country singer
+
+Persona:
+i enjoy exploring new parts of the city.
+i'm an economics major.
+i am a country music singer.
+my favorite band is the who.
+i'm in college to become a nurse.
+
+Topic and Human Opinion:
+Beginning: strawberries(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.00
+Robotic(↓): 100
+Interesting: 39
+Fun: 44
+Consistent: 95
+Fluent: 60
+Repetitive(↓): 100
+Topic: 91
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like to watch tv
+Bot(1): yes i like tv when i get a chance i watch some tv
+User(2): what kind of shows do you watch
+Bot(2): i love cooking shows mostly
+User(3): Do you try any of the recipies
+Bot(3): no i do not sorry . what do you do for a living
+User(4): I like to watch tv
+Bot(4): ah ok what kind of tv shows do you like
+User(5): I like reality shows. Do you?
+Bot(5): i watch alot of reality tv
+User(6): what is your favorites
+Bot(6): reality tv . those people are entertaining
+User(7): would you want to be on a reality show
+Bot(7): yes that would be interesting
+User(8): which show would you do
+Bot(8): reality tv . those people are entertaining
+User(9): which specific show
+Bot(9): reality tv . those people are entertaining
+User(10): do you like singing shows
+Bot(10): sometimes . what do you sing
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: television shows(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.57
+Robotic(↓): 84
+Interesting: 54
+Fun: 56
+Consistent: 50
+Fluent: 61
+Repetitive(↓): 73
+Topic: 34
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I like food
+Bot(1): i love pizza , and i love it .
+User(2): what kind of pizza
+Bot(2): i like pizza and pizza .
+User(3): do you like pepperoni
+Bot(3): i do , i love to eat .
+User(4): do you like sweets
+Bot(4): i do , i like to eat .
+User(5): do you diet
+Bot(5): i do not , but i do like to eat .
+User(6): do you like hamburgers
+Bot(6): i do , i like to eat .
+User(7): do you like strawberries
+Bot(7): i do , i like to eat .
+User(8): do you eat until you get sick
+Bot(8): yes , i love to eat .
+User(9): do you skip breakfast
+Bot(9): no , i do not . i like to go to the park .
+User(10): do you eat at the park
+Bot(10): i do not , but i do like to eat .
+
+Persona:
+i'm ex military.
+i started a new job as a pa three months ago.
+i like to talk but people have a hard time understanding.
+i am a huge star wars fan.
+i'm a museum tour guide.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.57
+Robotic(↓): 100
+Interesting: 18
+Fun: 26
+Consistent: 19
+Fluent: 27
+Repetitive(↓): 100
+Topic: 68
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you have a fever
+Bot(1): no i do not speak spanish
+User(2): have you been sick
+Bot(2): no , but i am on a new diet
+User(3): are you afraid of getting covid
+Bot(3): no i just want that good health
+User(4): have you had any symptoms
+Bot(4): i feel sick , i have puked every day for the last 3 months
+User(5): you need a doctor
+Bot(5): i know i need an rx
+User(6): why don't you go
+Bot(6): i want to be a doctor you see
+User(7): so you can cure yourself
+Bot(7): do not get sick then
+User(8): do you think covid is scary
+Bot(8): it is when you do not know how to speak other languages
+User(9): have you been in the hospital
+Bot(9): no i thought i would be fine
+User(10): i hope you get better
+Bot(10): do not get sick then
+
+Persona:
+i will graduate from high school in two years.
+i didn't graduate high school.
+i have been trying all types of food everywhere i go.
+one of the languages that i'm currently studying is spanish.
+i've not spoken in three months.
+
+Topic and Human Opinion:
+Beginning: covid 19(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.29
+Robotic(↓): 97
+Interesting: 27
+Fun: 16
+Consistent: 27
+Fluent: 7
+Repetitive(↓): 97
+Topic: 3
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you have a computer
+Bot(1): hi i cannot seem a country cat, nothing i m losing my mind
+User(2): do you have a monitor
+Bot(2): I am good. My mother of britney spears
+User(3): do you understand computers
+Bot(3): i live in california , in 3 story am you ?
+User(4): have you taken any computer classes at school
+Bot(4): I am a gold about used to play to read. what about you?
+User(5): do you understand
+Bot(5): Hey! brothers but I disregard 2 I do like to talk about myself, i eat raw diet
+User(6): computers can be useful
+Bot(6): I know, i got I like to travel.
+User(7): do you have a laptop
+Bot(7): Yellow is you me about What about you?
+User(8): do you use a tablet
+Bot(8): You too! maintenance when it's you?
+User(9): computers are expensive
+Bot(9): How’s it going? taylor , i love and watch tv
+User(10): I love computers
+Bot(10): books year, i don't :)
+
+Persona:
+i've never had a steady relationship.
+i like to eat chocolate candy.
+i have been retired for a years.
+i am currently in a juvenile detention center.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: computers(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 76
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love summer weather
+Bot(1): i like the summer too since that is when we play the most bingo .
+User(2): I also love the rain
+Bot(2): i guess so . . . . i should order my dinner . . . . it is sushi night . . . love sushi
+User(3): I don't like driving in winter
+Bot(3): i am not very fond of the cold but i do love the crisp air of fall
+User(4): tornadoes are really scary
+Bot(4): last night i even dreamed i was surfing and a giant blockchain pulled me under .
+User(5): I love watching the colors turn in fall
+Bot(5): yeah ? why do you love fall ?
+User(6): the colors, the air is crisp and holidays
+Bot(6): yes , i agree . any plans for fall ? i am going to some concerts .
+User(7): It depends on the weather
+Bot(7): rainy cold and feels like winter is breathing down the hills
+User(8): I hate icy roads
+Bot(8): hey , i thought you liked britney ! lol john denver , right ?
+User(9): I don't think it's going to get cold for awhile
+Bot(9): really ? me too . i prefer the cold . fall is my favorite season .
+User(10): Spring is my favorite season
+Bot(10): i like winter . i am six feet tall , the snowflakes fall on my head
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: weather(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.43
+Robotic(↓): 65
+Interesting: 67
+Fun: 47
+Consistent: 55
+Fluent: 55
+Repetitive(↓): 43
+Topic: 37
+
+####################
+

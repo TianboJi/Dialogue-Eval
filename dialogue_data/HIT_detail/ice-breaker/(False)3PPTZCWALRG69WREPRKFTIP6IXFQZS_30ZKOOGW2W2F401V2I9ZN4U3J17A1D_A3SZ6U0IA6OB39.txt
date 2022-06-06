@@ -1,0 +1,267 @@
+Feedback: None.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Blocks are boring.
+Bot(1): his
+User(2): I like to sing about the letter p.
+Bot(2): ok
+User(3): I like looking at blue blocks.
+Bot(3): awesome
+User(4): I think purple blocks are ugly.
+Bot(4): purple is my favorite channel .
+User(5): What is your least favorite channel?
+Bot(5): purple is my favorite channel .
+User(6): OK.
+Bot(6): purple is my favorite channel .
+User(7): I like to sing about the letter c.
+Bot(7): purple is my favorite channel .
+User(8): Green is my favorite channel.
+Bot(8): purple is my favorite channel .
+User(9): Yellow is my second favorite channel.
+Bot(9): purple is my favorite channel .
+User(10): I like looking at red blocks.
+Bot(10): purple is my favorite channel .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to look at blocks and sing about letters.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.00
+Robotic(↓): 83
+Interesting: 4
+Fun: 10
+Consistent: 94
+Fluent: 10
+Repetitive(↓): 96
+Topic: 64
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): My boyfriend broke up with me.
+Bot(1): i hope she broke up with me and my boyfriend left me .
+User(2): It happened two months ago.
+Bot(2): i had to quit my boyfriend to date with her boyfriend . she left me .
+User(3): I lied to feel better.
+Bot(3): i am sorry to hear that . i hope you are better .
+User(4): I broke up with him and regret it.
+Bot(4): i broke up with him . he left me .
+User(5): That is sad.
+Bot(5): i know . i lost my boyfriend with her . she left me .
+User(6): We can support each other.
+Bot(6): i think so . i am not sure if i had a boyfriend .
+User(7): You did have a boyfriend.
+Bot(7): i have a boyfriend . she left me .
+User(8): Are you a lesbian?
+Bot(8): no , but i do not . i am a girl .
+User(9): Did you date a girl?
+Bot(9): no , i am a girl . i am a single girl .
+User(10): Who broke up with you?
+Bot(10): no , i am single . i am a single girl .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just broke up with boyfriend two months ago.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.86
+Robotic(↓): 83
+Interesting: 38
+Fun: 40
+Consistent: 6
+Fluent: 5
+Repetitive(↓): 56
+Topic: 59
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like to save money.
+Bot(1): i'm didnt understand your i your plans for the day?
+User(2): That is why I solar panels on my roof.
+Bot(2): www one lived next nurse. Do you like being young he was such a good dog
+User(3): I love being young.
+Bot(3): I am a little of horror😰
+User(4): I am full of horror.
+Bot(4): i don't with a watch are do you have any?
+User(5): I have an apple watch.
+Bot(5): Thanks. What do you loves to grew living?
+User(6): I love to grow plants.
+Bot(6): i and my family east 🌏 coast
+User(7): I live in the Northwest.
+Bot(7): I'm doing well, thanks. What do you a lot of will 🙂
+User(8): I love hiking with family.
+Bot(8): must be nice giving a salary to single life these days haha 🙈
+User(9): Yes. I have a nice paying job.
+Bot(9): Hey! offended for your day?
+User(10): You did not offend me at all.
+Bot(10): it is okay 😔 my mom like to cook but me
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have solar panels on my roof.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.00
+Robotic(↓): 68
+Interesting: 46
+Fun: 43
+Consistent: 46
+Fluent: 59
+Repetitive(↓): 47
+Topic: 8
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I majored in art history in college.
+Bot(1): i am in college as well , i am studying art history .
+User(2): I love learning about the history of art.
+Bot(2): i love learning about history and art . do you have a fave artist ?
+User(3): I like Picasso.
+Bot(3): i love art too which is why i like museums so much .
+User(4): I love going to art museums.
+Bot(4): i think that museums are boring .
+User(5): I think that museums are very interesting.
+Bot(5): i think that museums are boring .
+User(6): Do you like to draw or paint?
+Bot(6): both do you like art
+User(7): I love art.
+Bot(7): i love art too which is why i like museums so much .
+User(8): I like studying art.
+Bot(8): i love art too which is why i like museums so much .
+User(9): Good for you.
+Bot(9): yes . i go to college for art .
+User(10): I went to college for art too.
+Bot(10): i think that museums are boring .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am an art major in college.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.86
+Robotic(↓): 81
+Interesting: 27
+Fun: 30
+Consistent: 9
+Fluent: 19
+Repetitive(↓): 84
+Topic: 82
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am in an open polyamorous relationship.
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): I like being in this kind of relationship.
+Bot(2): i like to go to the gym and listen to music .
+User(3): Good for you.
+Bot(3): i like to go to the gym and listen to music .
+User(4): Good for you I guess.
+Bot(4): i am a student , but i do not have to work .
+User(5): Do you cheat in school.
+Bot(5): i am a student , but i am a student .
+User(6): How do you not work?
+Bot(6): i do , i work at a grocery store .
+User(7): Ok. So you do work?
+Bot(7): i work at a restaurant , what about you ?
+User(8): I work. You must have two jobs?
+Bot(8): no , i do not . i am a student .
+User(9): You work two jobs while being a student?
+Bot(9): i am a student , but i am a student .
+User(10): Ok, but you also work two jobs?
+Bot(10): no , i do not . i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm in an open polyamorous relationship.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.57
+Robotic(↓): 75
+Interesting: 43
+Fun: 42
+Consistent: 3
+Fluent: 40
+Repetitive(↓): 61
+Topic: 43
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I work on my parents farms.
+Bot(1): cattle stations run different there than cattle farms in the us do .
+User(2): Where?
+Bot(2): reading , pennsylvania the birthplace of my favorite pop country star taylor swift ! do you like music ?
+User(3): I am from Pennsylvania and the cattle stations dont run differently than other places in the us.
+Bot(3): i work in a busy hospital as a nurse and love paddle boarding on days off .
+User(4): Ok. I like Taylor Swift too.
+Bot(4): i sing taylor swift in the shower ! ! look what you made me do ! !
+User(5): Ok. When do you paddle board? On Saturday or Sunday?
+Bot(5): surfing is great , i like to hit the waves whenever i can .
+User(6): Ok. What else do you do for fun?
+Bot(6): when i can snag a role , i like working as an extra in movies and writing screenplays .
+User(7): How do you juggle screenplays and nursing?
+Bot(7): cool ! i am afraid of blood and clowns . nursing is not for me .
+User(8): I thought that you said you were a nurse?
+Bot(8): i am currently a geology major . collide
+User(9): You are lying?
+Bot(9): how skinny are your fingers ? can i film your fingers ? i am obsessed with this hobby .
+User(10): You are weird. I will not tell you about my fingers or let you film them.
+Bot(10): i love baking a good cake . what is your favorite cake ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work my parents farms.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.86
+Robotic(↓): 84
+Interesting: 39
+Fun: 40
+Consistent: 8
+Fluent: 39
+Repetitive(↓): 79
+Topic: 11
+
+####################
+

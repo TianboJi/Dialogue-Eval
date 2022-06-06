@@ -1,0 +1,280 @@
+Feedback: none
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): i am dine and you ? just drinking my 10th cup of tea
+User(2): very nice I am drinking soda
+Bot(2): tea is my favorite drink
+User(3): I enjoy events on weekends
+Bot(3): whats your event that youre having
+User(4): I am gathering million of people to sing praise songs
+Bot(4): well i love to chat cause i am deaf
+User(5): Do you like to participate in events?
+Bot(5): yes i like to stay in shape
+User(6): I do live action roleplay on weekends
+Bot(6): well i love to chat cause i am deaf
+User(7): Do you know how you became deaf?
+Bot(7): i was born deaf , but have some peripheral sound recognition
+User(8): Did you know Jesus can heal you?
+Bot(8): no i know quit a few word in sign language my cousin was deaf
+User(9): You can give you heart to Jesus and he will give you new ears to hear
+Bot(9): larry left me at the alter . i must be gods will . you sing ?
+User(10): I do sing I like to sing on the weekends.
+Bot(10): ok when did you become deaf
+
+Persona:
+i love to drink fancy tea.
+i donate a part of my salary to charity each month.
+i'm rather skinny as i like to stay in shape.
+i'm partly deaf.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: on weekends i do live action roleplaying events.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.00
+Robotic(↓): 80
+Interesting: 21
+Fun: 8
+Consistent: 73
+Fluent: 95
+Repetitive(↓): 31
+Topic: 15
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I only eat Kosher
+Bot(1): like money , in god i trust . you have any pets ?
+User(2): yes I have many cats
+Bot(2): i have 5 dogs , 4 cats , fish and chickens
+User(3): I think I like to eat kosher pickles
+Bot(3): both my dogs chew them up
+User(4): do you like pickles?
+Bot(4): i do not like them except in ketchup but sometimes they are okay
+User(5): Are you Jewish because I only eat kosher?
+Bot(5): nope , it means i eat no animal parts or product
+User(6): What is your favorite kind of food?
+Bot(6): i like chicken and beef and meat
+User(7): If you changed your diet to kosher you would be and feel more healthy
+Bot(7): i just have a healthy diet
+User(8): eating meat is bad for you it stays in your guts for a while
+Bot(8): but they have protein , unless you are allergic to poultry
+User(9): humans are not supposed to eat any meat only fruits an vegetables
+Bot(9): yeah you do not eat animal products
+User(10): meat can kill you in many ways so kosher food will help you live longer
+Bot(10): but still its not safe have you watch the film what the health ?
+
+Persona:
+i graduated from yale in 2011 with a degree in finance.
+my wife spends all my money.
+i've 5cats.
+i have a dogs.
+my father is a farmer.
+
+Topic and Human Opinion:
+Beginning: i only eat kosher.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.14
+Robotic(↓): 82
+Interesting: 15
+Fun: 57
+Consistent: 87
+Fluent: 16
+Repetitive(↓): 34
+Topic: 78
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I love to drink coffee!
+Bot(1): i do not like coffee
+User(2): whay do you hate coffee?
+Bot(2): i like coffee as well ! i drive my acura to the coffee shop every morning .
+User(3): I like to go to starbucks to drink my coffee
+Bot(3): do you like coffee ? i like to drink coffee .
+User(4): Yes, I love coffee but I like to drink it at a coffee bar
+Bot(4): i do not like coffee
+User(5): If I gave you coffee would you drink it?
+Bot(5): i do not like coffee
+User(6): I like to drink white chocolate capuchino
+Bot(6): wow , i do not really like chocolate
+User(7): I love the bitterness of coffee
+Bot(7): love coffee ! dutch bros loves me haha ! you ? i like chinese .
+User(8): I love to drink coffee and read the bible.
+Bot(8): do you like coffee ? i like to drink coffee .
+User(9): I love coffee when it is boiling hot
+Bot(9): i like coffee as well ! i drive my acura to the coffee shop every morning .
+User(10): I am going to buy an Acura to drink coffee like you do.
+Bot(10): do you like coffee ? i like to drink coffee .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a huge coffee lover.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.29
+Robotic(↓): 65
+Interesting: 16
+Fun: 64
+Consistent: 87
+Fluent: 19
+Repetitive(↓): 41
+Topic: 79
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): skinny jeans are the coolest ever
+Bot(1): i love to ride horses . i love to ride horses .
+User(2): I like to ride horses and wear skinny jeans.
+Bot(2): i love to ride horses . i love to ride horses
+User(3): Do you like leggings and skinny jeans?
+Bot(3): i do not . i am a piano teacher .
+User(4): I think that piano teachers wear skinny jeans so that they can sing louder
+Bot(4): i am a piano teacher . i teach piano .
+User(5): You love to wear skinny jeans and sin at the piano?
+Bot(5): no i do not . i am a piano teacher
+User(6): When did you become a piano teacher?
+Bot(6): no i am a piano teacher
+User(7): who taught you to play the piano
+Bot(7): no , i am a piano teacher .
+User(8): What is you favorite piano song?
+Bot(8): i do not know how to play
+User(9): What kind of music do you like?
+Bot(9): i like britney spears and r b
+User(10): Do you like computers?
+Bot(10): i like to listen to britney spears
+
+Persona:
+i'm a piano teacher on the side.
+i'm a buddhist.
+i like to ride horses.
+my friends are all skateboarders.
+i love listening to britney spears.
+
+Topic and Human Opinion:
+Beginning: i love wearing skinny jeans and leggings.(dislike)
+Round 8: I love technology and hardware(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user changed the topic the last input.(dislike)
+
+Revised avg score: 54.57
+Robotic(↓): 61
+Interesting: 24
+Fun: 13
+Consistent: 74
+Fluent: 94
+Repetitive(↓): 25
+Topic: 63
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I do not like to eat vegetables
+Bot(1): i'm just too busy your next it is i tend to make some stuff. how are you doing this evening ?
+User(2): I am doing very well thank you for asking how are you doing today?
+Bot(2): i am you three have a not a big fan of music .
+User(3): Do you eat Carrots?
+Bot(3): They are great. I am getting my work from home thankfully am in college
+User(4): Do you like to eat cabbage?
+Bot(4): I am a military meet my am a a military brat, but i am a military brat. Do you live in canada?
+User(5): I live in the united states of america, and I am not an army brat
+Bot(5): not at all music wher do think so
+User(6): Do you know who Jesus is?
+Bot(6): I do not like russian rap, but I a very good you music
+User(7): Do you know anything about religion?
+Bot(7): I have a secret that i walking to, i have to cats.
+User(8): have you ever been inside of a church?
+Bot(8): i am a nerd , i am old , and i death metal ver well, that you ?
+User(9): Do you like to eat Beets?
+Bot(9): i like to with my mind makes am not looking for a new job .
+User(10): I really love to eat vegetables
+Bot(10): Well hello there! I like to go to the have some pets? I the mall
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a vegan.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.14
+Robotic(↓): 63
+Interesting: 81
+Fun: 23
+Consistent: 16
+Fluent: 67
+Repetitive(↓): 88
+Topic: 66
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): I am doing well how are you?
+Bot(2): i'm doing well . just got done walking my dog .
+User(3): what kind of dog do you have?
+Bot(3): i've a dog named rambo .
+User(4): Do you like to play with your dog?
+Bot(4): i do , i love dogs .
+User(5): Do you like cats?
+Bot(5): i do , i love dogs . i love dogs .
+User(6): What kind of dog do you like?
+Bot(6): i love the color red . what is yours ?
+User(7): my favorite color is pink
+Bot(7): i like blue , i like red , reminds me of summer time .
+User(8): I like the color red
+Bot(8): i like the color red . i like red .
+User(9): hello
+Bot(9): hi , how are you today ?
+User(10): hi am i well
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a recovering alcoholic.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.86
+Robotic(↓): 93
+Interesting: 79
+Fun: 92
+Consistent: 60
+Fluent: 30
+Repetitive(↓): 59
+Topic: 75
+
+####################
+

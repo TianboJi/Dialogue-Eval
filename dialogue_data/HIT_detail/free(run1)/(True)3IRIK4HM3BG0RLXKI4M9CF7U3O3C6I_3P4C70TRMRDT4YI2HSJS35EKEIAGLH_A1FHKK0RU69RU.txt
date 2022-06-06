@@ -1,0 +1,325 @@
+Feedback: I accepted this HIT in good faith and put forth a lot of effort in the task (for more than an hour, which I was not expecting); please don't reject my submission. Thank you.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Are there any college football games on TV today?
+Bot(1): no but my sons are watching a game right now
+User(2): No? How are they watching a game then?
+Bot(2): as a soccer mom , i have to take my kids to all the games .
+User(3): I was referring to football... and on TV, not in person
+Bot(3): i do not know what that means . do you have a little girl like me ?
+User(4): No, I don't
+Bot(4): are any of your kids as confused as i am ?
+User(5): I don't have any kids
+Bot(5): well that is a little hard with 5 kids .
+User(6): What is? Now I'm confused!
+Bot(6): because it is halloween and that means clowns
+User(7): Well, Halloween is over a month away
+Bot(7): even more scary ! ! are you sure you want to go at halloween ?
+User(8): Go where?
+Bot(8): because it is halloween and that means clowns
+User(9): Halloween means a lot more than clowns
+Bot(9): i guess that is okay . i would rather skateboard .
+User(10): I've never tried skateboarding
+Bot(10): maybe one day you should , its not that scary .
+User(11): Maybe one day I will, though I'd likely break my neck!
+Bot(11): i am not afraid of that
+
+Persona:
+a already have a step children.
+i am a little girl.
+i'm terrified of clowns due to childhood trauma.
+i've five sons.
+i'm a skateboarder.
+
+Topic and Human Opinion:
+Beginning: college football(like)
+Round 3: family(like)
+Round 7: Halloween(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 26.14
+Robotic(↓): 97
+Interesting: 25
+Fun: 14
+Consistent: 21
+Fluent: 67
+Repetitive(↓): 63
+Topic: 16
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you know what U.S. state has the most COVID-19 cases right now?
+Bot(1): no , i have no clue , pretty strict laws where i live
+User(2): Laws about COVID-19? You mean restrictions?
+Bot(2): no , i have no clue , pretty strict laws where i live
+User(3): What kind of COVID-19 laws?
+Bot(3): no , i have no clue , pretty strict laws where i live
+User(4): Define "pretty strict"... like lockdown strict?
+Bot(4): hmm i think some rules are neccessary .
+User(5): Yep, I agree.
+Bot(5): i think this chat is bugging . . my character description changed
+User(6): Character description? Mine didn't...
+Bot(6): hmm i think some rules are neccessary .
+User(7): What kind of rules?
+Bot(7): hmm i think some rules are neccessary .
+User(8): Rules are intended to keep us safe I guess. So yes, they're necessary
+Bot(8): hmm i think some rules are neccessary .
+User(9): I think this chat is bugging too, you're repeating yourself
+Bot(9): i think this chat is bugging . . my character description changed
+User(10): Mine didn't. I seem to be having other problems.
+Bot(10): i think this chat is bugging . . my character description changed
+
+Persona:
+i enjoy mountain biking as a hobby.
+spiderman is my favorite.
+i recently was fired and had to get a new job.
+i'm rather skinny as i like to stay in shape.
+i'm now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: coronavirus(like)
+Round 9: chat session/character(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.86
+Robotic(↓): 80
+Interesting: 12
+Fun: 9
+Consistent: 86
+Fluent: 74
+Repetitive(↓): 94
+Topic: 16
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): NFL football is back!
+Bot(1): football is fun , whats your favorite team ?
+User(2): In the NFL - Pittsburgh Steelers!
+Bot(2): i love other football called soccer .
+User(3): I'm not a soccer fan, I never followed it
+Bot(3): soccer is a great sport . i like doing my nails . do you ?
+User(4): No. I tend to bite my fingernails.
+Bot(4): i love to sing , but i am to shy to sing in front of people .
+User(5): Are you any good?
+Bot(5): i am glad i can do art for a living . i love to draw .
+User(6): I wish I was artistic! I'm not very good at drawing
+Bot(6): just my fantasy world mostly . what i would look like with shorter hair sometimes .
+User(7): Mine is more like doodling! I like to "doodle", just not very good at drawing other things
+Bot(7): fantasy stuff , i could live in that world it is so much fun .
+User(8): I've never tried it. I try to stick to reality - it's hard enough!
+Bot(8): lol absolutely not . love and hip hop or housewives makes it hard for reality tv
+User(9): No, not reality TV. I'm talking about real life, not the TV version that's all scripted.
+Bot(9): wow ! when i am older i want to play pro football . you sing ?
+User(10): Um, no
+Bot(10): you asked , lol . the dogs are drinking milkshakes , i cannot drink milk .
+User(11): I hate milk by itself... but I do love dogs
+Bot(11): i am too obsessed with milk chocolate to give it up completely . but i can cut down .
+User(12): Milk chocolate is my weakness too!
+Bot(12): chocolate milk is delicious is not it ! ?
+User(13): Yes, milk without chocolate is impossible to drink
+Bot(13): i am too obsessed with milk chocolate to give it up completely . but i can cut down .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pro football(like)
+Round 3: doing nails(dislike)
+Round 4: singing(like)
+Round 5: art(like)
+Round 7: fantasy world(dislike)
+Round 10: dogs/milkshakes(like)
+Round 11: milk chocolate(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(dislike)
+
+Revised avg score: 48.57
+Robotic(↓): 74
+Interesting: 62
+Fun: 55
+Consistent: 53
+Fluent: 65
+Repetitive(↓): 35
+Topic: 14
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you follow politics much?
+Bot(1): no , i don't . i am a bit old .
+User(2): Ha, you're never too old for politics!
+Bot(2): i am only 10 years old .
+User(3): Oh, then you're too young for politics
+Bot(3): i am only 10 years old .
+User(4): What are your hobbies?
+Bot(4): i like to eat long brown hair and you ?
+User(5): As a hobby? Is it fun??
+Bot(5): i like to be on the computer
+User(6): Do you play computer games?
+Bot(6): i do not play , but i do have a boyfriend and i am a single mom
+User(7): A single mom at 10 years old?
+Bot(7): i am not sure . i am only 10 years old .
+User(8): And yet, you're a single mom? How old is your kid?
+Bot(8): i am a boy and i am a single mom
+User(9): I think you're confused.
+Bot(9): i am sorry to hear that . i am only 10 years old
+User(10): It'll take me a minute to wrap my head around a 10-yr. old single mom who's a boy
+Bot(10): i am sorry to hear that . i am only 10 years old .
+User(11): Are you sure?
+Bot(11): i am a boy and i am a single mom
+User(12): I don't think you can be both... so which is it?
+Bot(12): i have a boyfriend who is in the basement
+User(13): What's he doing in the basement?
+Bot(13): no , i am not . i am a single mom .
+
+Persona:
+i have short brown hair.
+i'm four years old.
+i live in canada.
+my boyfriend and i are moving into an apartment together next week.
+i had cancer but its gone now.
+
+Topic and Human Opinion:
+Beginning: politics(like)
+Round 3: kid hobbies(like)
+Round 5: computer games(like)
+Round 6: family(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 28.57
+Robotic(↓): 94
+Interesting: 13
+Fun: 21
+Consistent: 17
+Fluent: 75
+Repetitive(↓): 75
+Topic: 43
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you live with family?
+Bot(1): I do not used to have right now.
+User(2): Do you have a big family?
+Bot(2): Wow, that like to cook time⏰.
+User(3): Huh?
+Bot(3): i am making lunch should i make is is your dog's name or a hot dog with cheese
+User(4): Hotdog with cheese
+Bot(4): hence i will mention that to girlfriend they cheat just like men
+User(5): Cheat at game play or something else?
+Bot(5): I do not. Alaska. Where are you at home mom. Do you speak chinese?
+User(6): No, but I like to eat Chinese food!
+Bot(6): i have a spelling are 10 , but sometimes i get lazy. how are you doing this evening ?
+User(7): I'm doing ok, just bored
+Bot(7): green is a book color
+User(8): Which book?
+Bot(8): i like to go to the not a musician iş my dog
+User(9): Your dog's a musician? Wow, cool! lol
+Bot(9): Oh, next language to to hear that.
+User(10): You speak a language all your own
+Bot(10): Hello! How is your I would like to do like to talk about myself, new kids on block
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: family(like)
+Round 7: colors/books(dislike)
+Round 9: language(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 28.00
+Robotic(↓): 93
+Interesting: 25
+Fun: 8
+Consistent: 54
+Fluent: 4
+Repetitive(↓): 8
+Topic: 6
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have a dog?
+Bot(1): no , i do not , but i do like to go fishing .
+User(2): Do you like dogs?
+Bot(2): i do , i love dogs . i love dogs .
+User(3): Then you should get a dog as a pet, they make the best friends!
+Bot(3): i love dogs , but i do not have any pets .
+User(4): There are so many pets that live in a shelter that need a loving home. I'm thinking of adopting another dog.
+Bot(4): i have a dog , his name is nanette .
+User(5): I thought you didn't have a dog? (or any pets?)
+Bot(5): i do not have any pets , but i do like to go fishing .
+User(6): But you just said...
+Bot(6): i am a student , but i am a student .
+User(7): What are you studying?
+Bot(7): i am a student , i am a teacher .
+User(8): Which one, a student or a teacher? Or both??
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): I prefer rock... hard rock! Classical is ok...
+Bot(9): i like to eat too much junk food .
+User(10): Ha ha, me too!
+Bot(10): i like to go to the beach and listen to music .
+
+Persona:
+i now live in the city.
+i am an omnivore.
+i also like to cook but i am not very good at it.
+i have a broken arm.
+i am a bee farmer.
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 6: school/education(like)
+Round 8: music(like)
+Round 9: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 55.57
+Robotic(↓): 58
+Interesting: 61
+Fun: 63
+Consistent: 65
+Fluent: 74
+Repetitive(↓): 42
+Topic: 26
+
+####################
+

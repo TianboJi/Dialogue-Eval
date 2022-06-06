@@ -1,0 +1,282 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): What is that job like?
+Bot(2): i would lead hiking groups . maybe even take them swimming my favorite !
+User(3): Do you like it?
+Bot(3): yes i love it ! and they are doctors , which is why i am a vegan
+User(4): Wow that is cool.
+Bot(4): he loves double cheese burgers and chicken nuggets
+User(5): What other toppings does he like?
+Bot(5): he is the lead character who plays potus . he is so cool .
+User(6): What do you think about that
+Bot(6): a vegan ? its a person who just eats strictly plants . that is what i am .
+User(7): I am not a vegan
+Bot(7): what do you like about being a vegan
+User(8): I am not a vegan!
+Bot(8): no i am not a vegan sorry
+User(9): That’s not my name
+Bot(9): what is your name ?
+User(10): Jack
+Bot(10): cool . i might try the pink hair too .
+
+Persona:
+i am a vegan.
+i've rainbow hair.
+i have been traveling the world for a years.
+i spend a lot of time browsing the internet.
+i am a vegan and i love hummus.
+
+Topic and Human Opinion:
+Beginning: Airplanes(like)
+Round 1: Their occupation as a yoga instructor.(dislike)
+Round 2: Hiking(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 22.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 71
+Repetitive(↓): 13
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hello from small town usa !
+User(2): Where is that located?
+Bot(2): new york . i have a tiny place here
+User(3): So you aren’t from a small town then?
+Bot(3): yes . i am a doctor for a reason
+User(4): A doctor for what?
+Bot(4): i am a lawyer , thank god i can afford help with the triplets .
+User(5): You are a lawyer and a doctor?
+Bot(5): i am a lawyer , thank god i can afford help with the triplets .
+User(6): Do you like football?
+Bot(6): yes , love football ! i follow the buds .
+User(7): Who are the buds
+Bot(7): two weeks from now , i have a feeling i am gonna win
+User(8): Win what
+Bot(8): two weeks from now , i have a feeling i am gonna win
+User(9): What are you going to win
+Bot(9): i am not sure . maybe nothing
+User(10): That is sad
+Bot(10): yeah i win this time bud
+
+Persona:
+i have rainbow hair.
+i never broke a bone in my body ever in my life.
+i am expecting triplets in three months.
+i'm from a small town.
+i'm a doctor.
+
+Topic and Human Opinion:
+Beginning: Football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.00
+Robotic(↓): 50
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 26
+Repetitive(↓): 71
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What do you know about space?
+Bot(1): i love the color grey .
+User(2): What does that have to do with space?
+Bot(2): i like to draw and paint .
+User(3): Do you draw space?
+Bot(3): i do not draw . i teach elementary school .
+User(4): You just said you like to draw
+Bot(4): i like to draw and draw .
+User(5): What do you draw
+Bot(5): i do not draw . i teach elementary school .
+User(6): What do you like about outer space
+Bot(6): i do not draw , i teach elementary school
+User(7): What subject do you teach
+Bot(7): i teach elementary school , i teach elementary school
+User(8): This is fun
+Bot(8): i like to draw and draw
+User(9): Draw and draw
+Bot(9): i like to draw and draw
+User(10): What do you draw
+Bot(10): i draw and draw and draw
+
+Persona:
+i don't drink soda.
+i'm an elementary school teacher.
+they are constantly on my back.
+my favorite color is grey.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: Space(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 19
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What do you like about sports
+Bot(1): nice . i Do you like by profession
+User(2): What are you asking
+Bot(2): i that’s I’m cali
+User(3): Your name is Cali?
+Bot(3): I am sorry or grows up and am not very good.
+User(4): What is your favorite sport
+Bot(4): its hard to find your favorite ia your <num> kids
+User(5): What is a ball
+Bot(5): OK, work as it.
+User(6): Work as what
+Bot(6): i am not home today. I have am more of a loner .
+User(7): Where are you then?
+Bot(7): i love make me I speak hindi nickelback . i'm vegan ! how are you ?
+User(8): What does that mean
+Bot(8): are you single , the country should try like to get married someday . how has your day been ? 🤠
+User(9): What does that have to do with anything
+Bot(9): i'm in your favorite relationship
+User(10): What relationship is that
+Bot(10): I do but it is turtles.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 1
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 68
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What do you love
+Bot(1): i love to cook . i love to cook .
+User(2): What do you love to cook?
+Bot(2): i do , i love to cook .
+User(3): What types of food do you like to cook?
+Bot(3): i love pizza , and i love it .
+User(4): I like pizza too. What toppings do you put on it
+Bot(4): i do not know . i like to go to the gym .
+User(5): I like the gym too. What is your favorite workout
+Bot(5): i like the classics and the doors
+User(6): What is that?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): I didn’t ask you about music
+Bot(7): i love music . i like country music .
+User(8): Okay I don’t care what you like
+Bot(8): i like to eat fish .
+User(9): Why is that
+Bot(9): i like to go to the gym and listen to music .
+User(10): That sounds like fun
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 22
+Repetitive(↓): 88
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): What do you think about life
+Bot(2): what do you think the meaning of life is ?
+User(3): To serve God
+Bot(3): good god is the best
+User(4): Yes He is. Are you a Christian?
+Bot(4): i am do you go to church
+User(5): Yes I do
+Bot(5): am christian who puts god first in every thing
+User(6): That is really cool
+Bot(6): yeah the lord of the light is very giving
+User(7): What church do you go to?
+Bot(7): church is so helpful and so is god
+User(8): What is life
+Bot(8): church is so helpful and so is god
+User(9): Do you like your life?
+Bot(9): i like it very much
+User(10): Why is that
+Bot(10): i like it very much
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Life(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 81
+Topic: 1
+
+####################
+

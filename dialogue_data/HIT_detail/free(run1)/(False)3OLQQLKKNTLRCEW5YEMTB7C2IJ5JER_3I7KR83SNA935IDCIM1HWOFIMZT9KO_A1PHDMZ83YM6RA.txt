@@ -1,0 +1,285 @@
+Feedback: The chatbot repeats itself a lot. 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite kind of music?
+Bot(1): i love all kinds of music ! what do you like best ?
+User(2): I like pop music
+Bot(2): same
+User(3): What about country music/
+Bot(3): electric
+User(4): Electric guitars or acoustic guitars?
+Bot(4): i am not sure , you could say both
+User(5): What about bluegrass music?
+Bot(5): some would call it country pop
+User(6): Do you enjoy horror movies?
+Bot(6): yes , i love horror movies
+User(7): What's your favorite horror movie?
+Bot(7): probably i would have to say horror
+User(8): Do you like anime?
+Bot(8): yes , i love horror movies
+User(9): What about Japanese horror films?
+Bot(9): what about anime ? how do you feel about that ?
+User(10): I like anime
+Bot(10): what anime do you like the most ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.00
+Robotic(↓): 72
+Interesting: 55
+Fun: 37
+Consistent: 26
+Fluent: 19
+Repetitive(↓): 76
+Topic: 21
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like wearing perfume?
+Bot(1): i do . dude. How are snake
+User(2): Snakes? I don't like snakes.
+Bot(2): I love the are game u like we organic foods! What do you and your gas do?
+User(3): We drive my car.
+Bot(3): I love to read. wife and kids ?
+User(4): I have a husband and two dogs.
+Bot(4): I have need in have one.
+User(5): Do you like dogs?
+Bot(5): i am a nerd , i am old , and i death metal ver well, that you ?
+User(6): You aren't a nerd!
+Bot(6): I already got neither but I me to take care of them. Are you overweight and unhappy ?
+User(7): I am not overweight or unhappy.
+Bot(7): for division help me with :)
+User(8): Yes, and multiplication to subtract.
+Bot(8): I am a student, but i a i m name a lawyer.
+User(9): You are a student and you are a lawyer?
+Bot(9): that do you you have art museums but cant draw to save my life
+User(10): I love art, what about you?
+Bot(10): I my free too.😁
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Perfume(like)
+Round 2: snakes(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 42.29
+Robotic(↓): 38
+Interesting: 46
+Fun: 27
+Consistent: 65
+Fluent: 27
+Repetitive(↓): 31
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What's your favorite kind of soup?
+Bot(1): well that is nasty ! i enjoy pasta , with tea . 10 cups a day to be exact
+User(2): Wow, that is a lot of tea.
+Bot(2): eh not much of a tea drinker . i love coffee
+User(3): Do you take your tea with sugar?
+Bot(3): i love coffee ! i keep trying new flavors and i have a few favorites in the fridge .
+User(4): Iced coffee is great
+Bot(4): i was not into coffee until i was on vacation in lake michigan . i became hooked .
+User(5): Do they have good coffee in Lake Michigan?
+Bot(5): summer was great for them , we traveled . how was lake michigan ? i have never been
+User(6): My best friend is from Michigan
+Bot(6): yes . i know a few people from michigan .
+User(7): Mittens?
+Bot(7): yo i am living to the fullest with video games how are you ?
+User(8): What's your favorite video game?
+Bot(8): being a lumberjack will make you strong and attractive for the opposite sex .
+User(9): Oh, I can't swing an axe.
+Bot(9): the girls and i will have a challenge buying a house warming gift !
+User(10): Do you have houseplants?
+Bot(10): pretty tired . i was up late last night . you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Soup(like)
+Round 2: Tea(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+
+Revised avg score: 40.57
+Robotic(↓): 66
+Interesting: 63
+Fun: 42
+Consistent: 34
+Fluent: 42
+Repetitive(↓): 63
+Topic: 32
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Are you afraid of thunder?
+Bot(1): no , i am not . i am a night owl .
+User(2): When do you usually go to bed?
+Bot(2): no , i am not . i am a dancer .
+User(3): What do you dance?
+Bot(3): i do dance and i love rock music
+User(4): What's your favorite band?
+Bot(4): i like rock music , i listen to rock while i listen to rock music
+User(5): That's a lot of music
+Bot(5): i do not dance . i like to listen to rock music .
+User(6): What's your favorite kind of cake?
+Bot(6): i do not but i love to eat
+User(7): Do you like pretzels?
+Bot(7): i do not but i love candy
+User(8): Cotton candy?
+Bot(8): i do not but i love candy
+User(9): Chocolate or fruit?
+Bot(9): i love pretzels and candy .
+User(10): I love chocolate covered pretzels
+Bot(10): i love pretzels and candy . i love them .
+
+Persona:
+i like to listen to rock music while working.
+i am always wearing a hat.
+i have a boyfriend.
+my cats are very special to me.
+i've a pet turtle.
+
+Topic and Human Opinion:
+Beginning: Thunderstorms(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.86
+Robotic(↓): 100
+Interesting: 35
+Fun: 44
+Consistent: 5
+Fluent: 0
+Repetitive(↓): 17
+Topic: 7
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you lock your front door?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): Do you prefer the beach or the mountains?
+Bot(2): i love to travel . i love to travel .
+User(3): Do you prefer tropical climates or mountainous climates?
+Bot(3): i do not know . i like to go to the gym .
+User(4): Do you need to lose weight?
+Bot(4): i do not know . i am a student .
+User(5): Do you want to become stronger?
+Bot(5): i am not sure . i am a big fan of classical music .
+User(6): Stravinsky is my favorite classical artist
+Bot(6): i like to listen to music .
+User(7): When do you listen to music?
+Bot(7): i do , i like music . what about you ?
+User(8): I love music. What's your favorite instrument?
+Bot(8): i like the beatles , and the outdoors .
+User(9): Neither of those are instruments
+Bot(9): i like to eat fish .
+User(10): Do you catch them yourself?
+Bot(10): no , i do not . i am a big fan of classical music .
+
+Persona:
+i'm a recovering alcoholic.
+i have a black lab named trooper.
+i walk dogs for a living.
+hey my name is larry and i'm a chef.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: Privacy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.57
+Robotic(↓): 100
+Interesting: 25
+Fun: 14
+Consistent: 34
+Fluent: 50
+Repetitive(↓): 33
+Topic: 3
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like cheeseburgers?
+Bot(1): yes i do , my boyfriend that is in the army also likes pizza
+User(2): Army pizza?
+Bot(2): yes i do , my boyfriend that is in the army also likes pizza
+User(3): Are you in the military too?
+Bot(3): currently yes . not deployed yet . just at home base .
+User(4): Do you enjoy being in the military?
+Bot(4): yes , when i am not deployed .
+User(5): Where are you deployed?
+Bot(5): back home in the states . i have been deployed in the army for so long .
+User(6): What countries were you deployed in?
+Bot(6): i have been all over the world . i am military .
+User(7): What's your favorite travel destination?
+Bot(7): africa and what is yours ?
+User(8): Australia
+Bot(8): i have always wanted to visit australia .
+User(9): What's your favorite animal?
+Bot(9): i would have to say dogs
+User(10): I like cats
+Bot(10): are you really into cats ?
+User(11): I am. I have seven.
+Bot(11): wow 12 ! do you have any pets
+User(12): I have seven dogs and seven cats.
+Bot(12): only 2 ? they must be lonely .
+
+Persona:
+i am in the army.
+i have been traveling the world for a years.
+i have two grown children who never visit.
+i have a dogs.
+i like to watch nhl hockey.
+
+Topic and Human Opinion:
+Beginning: fast food(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.86
+Robotic(↓): 100
+Interesting: 28
+Fun: 14
+Consistent: 10
+Fluent: 26
+Repetitive(↓): 90
+Topic: 16
+
+####################
+

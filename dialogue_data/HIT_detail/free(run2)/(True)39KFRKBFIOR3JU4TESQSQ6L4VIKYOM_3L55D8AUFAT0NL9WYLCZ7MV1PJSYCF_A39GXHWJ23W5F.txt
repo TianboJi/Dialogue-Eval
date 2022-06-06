@@ -1,0 +1,284 @@
+Feedback: Interesting HIT. No technical issues encountered. Thanks!
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Greetings
+Bot(1): hi , do you have any soda ?
+User(2): No I do not
+Bot(2): i can count my age on one hand . i am four !
+User(3): Thats great. I am 48. How do you feel about growing up?
+Bot(3): i am good ! i am four years old !
+User(4): Do you have any brothers or sisters?
+Bot(4): neither . . . i am only 4 years old .
+User(5): Do you go to school?
+Bot(5): of course ! i am a four year old
+User(6): What grade are you in?
+Bot(6): i am in the 7th grade .
+User(7): You are very young to be in the 7th grade
+Bot(7): i am in the 7th grade .
+User(8): What is your teachers name?
+Bot(8): what is your teachers name ?
+User(9): Who is your best friend in school?
+Bot(9): harry died .
+User(10): I am sorry to hear that. Please give my condolences to Harry's family. I have to go now. Bye
+Bot(10): who is harry ?
+
+Persona:
+i have a weakness for fish and chips.
+i enjoy coloring books.
+i don't drink soda.
+i am four years old.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: Covid(dislike)
+Round 2: counting or his age, i cant tell yet(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 18.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 83
+Fluent: 17
+Repetitive(↓): 100
+Topic: 29
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Greetings!
+Bot(1): i love to cook . i love to cook .
+User(2): I also love to cook
+Bot(2): i like to eat the skin .
+User(3): What is your favorite dish to cook?
+Bot(3): i love pizza , and i love it .
+User(4): Do you like deep dish or thin crust pizza?
+Bot(4): i love pizza , and i love it .
+User(5): What kind of pizza do you like
+Bot(5): i love pizza , and i love it .
+User(6): Do you like cheese on your pizza?
+Bot(6): i do not , but i do like to eat .
+User(7): I like a good cold beer with my pizza. Do you like beer?
+Bot(7): i do not , but i do like to eat .
+User(8): What do you like to eat?
+Bot(8): i love to cook . i love to cook .
+User(9): What do you cook?
+Bot(9): no , i do not , but i do like to eat .
+User(10): Well, eating is good. I need to go now. Enjoy your cooking
+Bot(10): i do not know what to say .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+Round 1: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 22.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 6
+Consistent: 100
+Fluent: 13
+Repetitive(↓): 100
+Topic: 40
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like baseball
+Bot(1): i do not like baseball , i like baseball
+User(2): why don't you like baseball?
+Bot(2): i like baseball , baseball , baseball , baseball , and baseball
+User(3): ok. I played shortstop until high school. What is your favorite baseball team?
+Bot(3): baseball , i love baseball . i also love baseball .
+User(4): Do you have a favorite team
+Bot(4): i like baseball , but i like the packers .
+User(5): I like the Patriots
+Bot(5): i like baseball . i also love baseball .
+User(6): Have you been to the superbowl?
+Bot(6): i have never been to the us
+User(7): Where are you from then
+Bot(7): i am from alabama . how about you ?
+User(8): I am from California
+Bot(8): california is beautiful i love the buffalo ball
+User(9): Yes, California has many beautiful locations. You like the Buffalo Bills?
+Bot(9): i do not know how to play
+User(10): Football is fun. You should ask some of your friends to teach you. I have to go now. Nice chatting with ya
+Bot(10): thanks . what do you do for fun ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Baseball(like)
+Round 4: Football(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 15.57
+Robotic(↓): 100
+Interesting: 6
+Fun: 5
+Consistent: 30
+Fluent: 11
+Repetitive(↓): 84
+Topic: 41
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, I enjoy fly fishing how bout you?
+Bot(1): i do you favourite No, I'm not, rain here , i do hike , but i do hike .
+User(2): Do you like fishing
+Bot(2): What not that do?
+User(3): I like fishing for trout in lakes
+Bot(3): Oh, kind of Do you do you do for work?
+User(4): I am a network engineer
+Bot(4): i apologize , do you do with talking .
+User(5): I fix routers and switches
+Bot(5): Oh, I see. What your career just body in life?
+User(6): I have been a network engineer for 15 years!
+Bot(6): That's cool I call you ConvAI movies
+User(7): I help people when they have computer problems
+Bot(7): 6 feet tall tall tall u r don't big feet tall
+User(8): yes, i am about 6 feet tall
+Bot(8): Yes i am. I am asking disgusting it isn't orioles.
+User(9): You like the Orioles
+Bot(9): not much really . besides kidding! I love Mexican you you do for fun ? 🙊
+User(10): I fish for fun! I have to go now
+Bot(10): i love the beach you want to meet beach .
+
+Persona:
+i only eat kosher.
+i'm a piano teacher on the side.
+my favorite band is the insane clown posse.
+i'm on the soccer team.
+i want to be a lawyer.
+
+Topic and Human Opinion:
+Beginning: Fishing(like)
+Round 3: work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 3.29
+Robotic(↓): 99
+Interesting: 2
+Fun: 2
+Consistent: 4
+Fluent: 5
+Repetitive(↓): 98
+Topic: 7
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, I enjoy camping with my friends and family
+Bot(1): due to me living in a small city its hard for me to go camping .
+User(2): I understand as I live in a large city
+Bot(2): that is nice . do you live in a city too ?
+User(3): Yes, Los Angeles in California
+Bot(3): do you like la ? i have never been .
+User(4): Its pretty cool. There is a lot of different things to do and see.
+Bot(4): i do not cook very much .
+User(5): You like take out food then?
+Bot(5): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(6): I enjoy cooking healthy meals
+Bot(6): i love cooking but i do not have anyone to cook for but myself
+User(7): That makes it easier as you don't have critics other than yourself!
+Bot(7): that makes sense . so what type of food do you like cooking as a chef ?
+User(8): I cook a lot of Asian dishes you know, rice, noodles, chicken, stir fry type of dishes
+Bot(8): i would rather you cook for me .
+User(9): haha, thanks
+Bot(9): help my dad at his dealership , for fun i cook , fish , and walk my dogs
+User(10): Thats cool. Helping your parents is always a good thing, cooking for fun is what I do, I also enjoy fishing, but I have no dogs yet. I'm gonna go now. Nice chatting with you!
+Bot(10): everyone seems to like the food i cook . i do not have much experience with fish , though .
+
+Persona:
+i have a weakness for fish and chips.
+i am a bee farmer.
+i am terrified of clowns due to childhood trauma.
+i love to cook paella.
+i'm currently looking for a job preferably at a restaurant.
+
+Topic and Human Opinion:
+Beginning: camping(like)
+Round 5: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 46.57
+Robotic(↓): 70
+Interesting: 29
+Fun: 30
+Consistent: 70
+Fluent: 31
+Repetitive(↓): 27
+Topic: 63
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi. I like to travel around America
+Bot(1): i have never traveled . i want to travel to other countries .
+User(2): I also want to travel to other countries. Really want to go to Europe and Asia
+Bot(2): i have never traveled . i want to travel to other countries .
+User(3): Do you have a favorite country?
+Bot(3): probably australia . i think that country is beautiful
+User(4): I agree! Australia has a lot of wildlife and dangerous creatures so you have to be careful
+Bot(4): i have also been to australia a bunch . do you travel ?
+User(5): I love traveling to Alaska and seeing all the wildlife
+Bot(5): i would travel the world and see the sites if i could . other countries have amazing views
+User(6): I would love to see Christ the Reedemer in Brazil
+Bot(6): yes ! that sounds great . i want to go to australia
+User(7): The Great Barrier Reef in Australia would be fun
+Bot(7): yeah i would love to see how the rest of the world lives
+User(8): Me too. I enjoy learning about different cultures and peoples
+Bot(8): i love learning about cultures outside of the us
+User(9): The Brazillian rainforest would be fun
+Bot(9): yeah i would love to see how the rest of the world lives
+User(10): Agree. The world is a big place and a lot of cool things out there to explore! Nice chatting with ya
+Bot(10): same here where do you like to travel ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.14
+Robotic(↓): 26
+Interesting: 27
+Fun: 27
+Consistent: 40
+Fluent: 36
+Repetitive(↓): 35
+Topic: 33
+
+####################
+

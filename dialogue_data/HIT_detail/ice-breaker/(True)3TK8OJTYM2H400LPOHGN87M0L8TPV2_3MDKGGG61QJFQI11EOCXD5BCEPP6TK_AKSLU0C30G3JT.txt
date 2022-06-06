@@ -1,0 +1,275 @@
+Feedback: Task was fun. 
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi. Good for you that you don’t drink alcohol.
+Bot(1): i do not drink either .
+User(2): I actually don’t drink either.
+Bot(2): i do not drink either .
+User(3): Is there a specific reason you don’t drink alcohol?
+Bot(3): i do not know . i drink so i do not have to think about it .
+User(4): What do you like to drink?
+Bot(4): alcohol mostly , sometimes i add ice
+User(5): Wow. Sounds good. Anything in particular?
+Bot(5): nothing specific . i love all food .
+User(6): I love food!
+Bot(6): mmm . i love food . what do you cook ?
+User(7): Mexican food!
+Bot(7): omg authentic mexican is the best !
+User(8): Should we build the wall?
+Bot(8): yes , we should ! ha ha !
+User(9): Lol! I think you are right! Keep them out!
+Bot(9): ok . what else should we do ?
+User(10): Increase border control.
+Bot(10): for sure also democrats have limited rights to do what they want .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i don't drink alcohol.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 78.29
+Robotic(↓): 27
+Interesting: 81
+Fun: 76
+Consistent: 73
+Fluent: 87
+Repetitive(↓): 18
+Topic: 76
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love ice cream.
+Bot(1): ice cream is my favorite . i love ice cream
+User(2): I have it every night.
+Bot(2): ice cream is my favorite . i love ice cream .
+User(3): Which flavor is your favorite?
+Bot(3): i like ice cream . i am a fan of ice cream .
+User(4): Me too! We should eat ice cream together.
+Bot(4): i love ice cream . i am a good cook .
+User(5): You can cook ice cream.
+Bot(5): i can cook you some . i will cook you some .
+User(6): Cool. I’ll take some.
+Bot(6): i love ice cream . i am a cook .
+User(7): What else will you do for me?
+Bot(7): i am a cook . i love ice cream .
+User(8): Cook it for me.
+Bot(8): i will cook you some . i will cook for you .
+User(9): I will do something for you too.
+Bot(9): i will cook you some . i will cook you some .
+User(10): You are too kind.
+Bot(10): i am . i will be happy .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a weakness for vanilla ice cream.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.71
+Robotic(↓): 93
+Interesting: 15
+Fun: 19
+Consistent: 20
+Fluent: 62
+Repetitive(↓): 87
+Topic: 58
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I work in a hospital.
+Bot(1): well , i am in be like rock you explore rode from my condo in denver up to aspen . how are you this evening ? 😁
+User(2): How old are you?
+Bot(2): my dad is pretty traditional for how long have you he didn t like it
+User(3): What are you wearing?
+Bot(3): that is cool , i am a redhead , and i am a in texas and i am not much of a reader , either .
+User(4): Texas is a a lot of fun.
+Bot(4): They'Re you like one.
+User(5): I love Texas.
+Bot(5): i have one dog been doing the hell name is bob
+User(6): I have a dog.
+Bot(6): I have I treat my same thing
+User(7): My dog loves treats.
+Bot(7): I I am are love dogs!😁
+User(8): Me too!
+Bot(8): chicago but we lived in new york for a bit. am pursuing B. sometimes don't also love ...
+User(9): Dogs are so much fun.
+Bot(9): I like to you, i have a to cook😄
+User(10): No cooking dogs!
+Bot(10): I'm not going it’s a good again.
+
+Persona:
+i've a son who is in junior high school.
+my favourite skater is rob dryden.
+i enjoy sports such as running.
+i diet a lot.
+i play several instruments.
+
+Topic and Human Opinion:
+Beginning: i'm a baby delivery nurse.(like)
+Round 1: i am a little girl.(dislike)
+Round 5: Has a dog.(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user wants the bot to change the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 19.57
+Robotic(↓): 92
+Interesting: 20
+Fun: 26
+Consistent: 22
+Fluent: 23
+Repetitive(↓): 87
+Topic: 25
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I got my first job!
+Bot(1): yes i loved it other then him beating her till she cerys
+User(2): That makes no sense.
+Bot(2): are you kidding me ? do you know any jokes ?
+User(3): Knock knock
+Bot(3): my brother lives in dallas . the last museum i visted was in new orleans city park .
+User(4): Is that a joke?
+Bot(4): love shrimp and figured i would throw in a joke
+User(5): You know any shrimp jokes?
+Bot(5): well there is shrimp gumbo , shrimp cresol , ship scampi
+User(6): Love it! Shrimp the best.
+Bot(6): i do shrimp and lobster are my favorite
+User(7): Mine too! Let’s go for dinner.
+Bot(7): grabbed a sandwich quickly . was too worried about the glasses being broken
+User(8): Come back to my place.
+Bot(8): i would say the caribbean island
+User(9): We can go for the weekend.
+Bot(9): my weekend is going just fine
+User(10): I can make it better.
+Bot(10): really ? john and wayne are my hunting dogs names . you hunt ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i just got a job working in a gas station.(like)
+Round 2: Jokes(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 29.57
+Robotic(↓): 78
+Interesting: 28
+Fun: 33
+Consistent: 33
+Fluent: 26
+Repetitive(↓): 65
+Topic: 30
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I’m stretching now for my marathon.
+Bot(1): i like to go to the gym and listen to music .
+User(2): Me too. It helps me exercise.
+Bot(2): i am sorry to hear that . i am sorry to hear that .
+User(3): Don’t be sorry. It’s ok.
+Bot(3): i am a student , but i am a student .
+User(4): I work full time.
+Bot(4): i am a teacher , i love to cook .
+User(5): What do you cook?
+Bot(5): no , i do not , but i do like to eat .
+User(6): Me too. Let’s go eat.
+Bot(6): i like to eat fish .
+User(7): I love fish. Lobster and clams.
+Bot(7): i like to eat fish .
+User(8): Fish is healthy.
+Bot(8): i like to go to the gym and listen to music .
+User(9): And eat fish.
+Bot(9): i like to eat fish .
+User(10): Let’s go fishing.
+Bot(10): i like to go to the lake and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love running and preparing for marathons.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.14
+Robotic(↓): 73
+Interesting: 31
+Fun: 34
+Consistent: 33
+Fluent: 59
+Repetitive(↓): 63
+Topic: 32
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I got a new job.
+Bot(1): really ? i just got a new job
+User(2): Wow. What do you do?
+Bot(2): i just got a new job .
+User(3): Congratulations. We should celebrate.
+Bot(3): guess what ? i started my new job last week !
+User(4): You should buy me dinner.
+Bot(4): great idea . when should we attempt this ? after we fine dine ?
+User(5): Definitely. Then we can go back to my place.
+Bot(5): great , we will probably dine out afterwards
+User(6): We can get intimate.
+Bot(6): and then we can go to some concerts .
+User(7): No concerts. They give me a headache.
+Bot(7): and then we can go to some concerts .
+User(8): Let’s get crazy.
+Bot(8): and then we can go to some concerts .
+User(9): I said no concerts.
+Bot(9): and then we can go to some concerts .
+User(10): I give up.
+Bot(10): why do you have a headache
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i got a new job just yesterday to be a life coach.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.29
+Robotic(↓): 96
+Interesting: 26
+Fun: 38
+Consistent: 36
+Fluent: 62
+Repetitive(↓): 72
+Topic: 39
+
+####################
+

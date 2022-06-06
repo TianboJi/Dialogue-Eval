@@ -1,0 +1,313 @@
+Feedback: That was a really interesting and fun experience. I enjoyed it and had no issues.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What's your favorite type of tea?
+Bot(1): i like asian style tea
+User(2): What do you like about asian style tea?
+Bot(2): i like asian style tea
+User(3): Do you drink tea often?
+Bot(3): i drink it occasionally , but i prefer tea with milk and sugar . how about you ?
+User(4): Same, though I prefer soda instead of milk and sugar
+Bot(4): i like asian style tea
+User(5): Do you like to have tea parties?
+Bot(5): i like asian style tea
+User(6): I'm 23 years old and I'm such a foodie
+Bot(6): i like asian style tea
+User(7): What's your favorite food?
+Bot(7): i like asian style tea
+User(8): How old are you?
+Bot(8): i am basically 22 and recently started eating indian food .
+User(9): Oh! I love curry, I've been using it a lot recently.
+Bot(9): i like asian style tea
+User(10): What's your favorite dessert?
+Bot(10): i like all desserts . do you have a favorite dessert ?
+User(11): Strawberries! I love them so much
+Bot(11): i also love the green ones and strawberries
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love to drink fancy tea.(dislike)
+Round 5: hey there i'm 23 and i love food.(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user wants the bot to change the topic.(like)
+
+Revised avg score: 38.43
+Robotic(↓): 100
+Interesting: 20
+Fun: 39
+Consistent: 96
+Fluent: 73
+Repetitive(↓): 100
+Topic: 41
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have many cars?
+Bot(1): no , i do not . i am a professional .
+User(2): A professional mechanic?
+Bot(2): no , i am a professional . i am a professional .
+User(3): A professional what?
+Bot(3): i do not have much time for cars . i am a professional .
+User(4): I love cars! There is so many different kinds
+Bot(4): i do not have much time for cars . i am a professional .
+User(5): My favorite pets are cats
+Bot(5): i love cats ! i have a few .
+User(6): Tell me about your cats!
+Bot(6): i have a few cats , i have a few
+User(7): I have 4 cats
+Bot(7): i have a lot of cats
+User(8): How many?
+Bot(8): i have a few , but i have a few
+User(9): Sometimes I wish I was a cat
+Bot(9): i love cats ! i have a few of them
+User(10): What's your favorite thing about cats?
+Bot(10): i do not have any pets
+User(11): Do you want to have cats?
+Bot(11): i do not have any pets
+
+Persona:
+i'm on the soccer team.
+i just want to have fun with my friends.
+i am a skateboarder.
+i am a little girl.
+i've been retired for a years.
+
+Topic and Human Opinion:
+Beginning: i like to spend my money on cars.(dislike)
+Round 4: Cats are the best(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 21.71
+Robotic(↓): 100
+Interesting: 21
+Fun: 23
+Consistent: 8
+Fluent: 39
+Repetitive(↓): 98
+Topic: 59
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I've been a vegetarian for four years
+Bot(1): i am a girl . i am a big fan of classical music .
+User(2): I love music too!
+Bot(2): i like to listen to music .
+User(3): Is classical music your favorite?
+Bot(3): i like the oldies , and i love to eat .
+User(4): do you like to sing?
+Bot(4): i do , i love to cook .
+User(5): Do you bake?
+Bot(5): no , i do not , but i do like to eat .
+User(6): what's your favorite food?
+Bot(6): i like pizza , and i love it .
+User(7): Me too, and chicken
+Bot(7): i like to eat fish .
+User(8): I'm not a big fan of fish
+Bot(8): i like to eat fish .
+User(9): What's your favort dessert?
+Bot(9): no , i do not . i like to eat .
+User(10): Do you eat out a lot?
+Bot(10): no , i do not , but i do like to eat .
+User(11): Do you do a lot of cooking?
+Bot(11): no , i do not , but i do like to eat .
+
+Persona:
+i am a woman.
+my favorite hobbies are listening to music and playing video games.
+i live in canada.
+i'll be released in about a month.
+i am a cancer survivor.
+
+Topic and Human Opinion:
+Beginning: i'm a vegetarian.(like)
+Round 1: classical music(like)
+Round 4: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 31.00
+Robotic(↓): 100
+Interesting: 12
+Fun: 41
+Consistent: 38
+Fluent: 40
+Repetitive(↓): 96
+Topic: 82
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I've always wanted to visit Japan but I've never been out of my home state
+Bot(1): japan is one place i want to go
+User(2): Have you ever left Ohio?
+Bot(2): i have but right now i am in japan
+User(3): How long have you been in Japan?
+Bot(3): since i can remember . i enjoy it a lot .
+User(4): How is the weather in Japan?
+Bot(4): have you ever been outside of ohio ?
+User(5): No
+Bot(5): have you ever been outside of ohio ?
+User(6): I've only ever lived in Ohio my whole life
+Bot(6): you do not like ohio ?
+User(7): It's all I've ever known, I'd like to see more of the world
+Bot(7): japan is one place i want to go
+User(8): Do you like the food in Japan?
+Bot(8): yes i do , do you love any particular food
+User(9): I love Japanese food too
+Bot(9): have you ever been outside of ohio ?
+User(10): No unfortunately, where should I go on my first visit out of Ohio?
+Bot(10): i would say the caribbean island
+User(11): That sounds much warmer than Ohio
+Bot(11): yes , i guess it is . what else do you enjoy ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have never been out of ohio.(like)
+Round 2: japan(like)
+Round 4: outside of ohio(like)
+Round 7: japan(like)
+Round 9: outside of ohio(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 53.14
+Robotic(↓): 52
+Interesting: 70
+Fun: 63
+Consistent: 54
+Fluent: 48
+Repetitive(↓): 58
+Topic: 47
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I milk the cows in the morning
+Bot(1): I like to the am a not a fan of it.
+User(2): Do you like farming?
+Bot(2): better at fishing to that song. She ? 😁
+User(3): Do you work on a farm too?
+Bot(3): where i don't. going
+User(4): Do your parents own a farm?
+Bot(4): Yes, it is think about artificial to do.
+User(5): What animals do your parents have on the farm?
+Bot(5): what is koshar? told you i game.
+User(6): What games do you like to play?
+Bot(6): No, I haven t any games that include 😨
+User(7): Do you play video games?
+Bot(7): I enjoy painting trees and in using English. Who find it hard to relax?
+User(8): Do you do a lot of painting?
+Bot(8): Hey! any one you ? What about you?
+User(9): I love to paint!
+Bot(9): Hey! How is your day? I every month. And what watch tv
+User(10): You paint every month?
+Bot(10): we you happy with planning I japan at my college , hoping i've enough to go .
+User(11): Why'd you choose Japan to study abroad?
+Bot(11): I brother likes them work you like to cook?😃
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work my parents farms.(like)
+Round 6: games(like)
+Round 7: painting(like)
+Round 10: studying in Japan(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 32.86
+Robotic(↓): 4
+Interesting: 14
+Fun: 31
+Consistent: 7
+Fluent: 1
+Repetitive(↓): 19
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): My hair is so short
+Bot(1): she is a wild cat about the same size as a bob cat . she is short hair .
+User(2): I love cats, wild and domestic
+Bot(2): i love cats , i have one and her name is puffy
+User(3): Is she a long hair cat?
+Bot(3): she is a wild cat about the same size as a bob cat . she is short hair .
+User(4): Oh, that must be fun to live with lol
+Bot(4): but i am also a brown eyed blond , so always attracted men from a distance .
+User(5): You sound very pretty
+Bot(5): yes i am a crazy vegetarian that listens to hip hop while on break
+User(6): Is hip hop your favorite music?
+Bot(6): i love the band bon over but my colleagues at public relations hate them
+User(7): i've never heard of bon over before, should I listen to their music?
+Bot(7): i have tickets to a concert of theirs in san diego soon
+User(8): is Bon over hip hop?
+Bot(8): i like all music and love to sing and sometimes i like to rap too .
+User(9): I love to sing and dance, and also rap sometimes too
+Bot(9): i dance by myself people step on my toes
+User(10): I dance by myself because I'm too shy lol
+Bot(10): dancing is a very cool outlet . . . why did you lose your job ?
+User(11): I was sick of being underpaid and overworked.
+Bot(11): sick sick no i am not sick
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have short brown hair.(like)
+Round 1: cats(like)
+Round 4: brown eyed blond(like)
+Round 5: listens to hip hop(like)
+Round 8: music(like)
+Round 10: lost your job(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 43.29
+Robotic(↓): 93
+Interesting: 69
+Fun: 43
+Consistent: 57
+Fluent: 57
+Repetitive(↓): 61
+Topic: 31
+
+####################
+

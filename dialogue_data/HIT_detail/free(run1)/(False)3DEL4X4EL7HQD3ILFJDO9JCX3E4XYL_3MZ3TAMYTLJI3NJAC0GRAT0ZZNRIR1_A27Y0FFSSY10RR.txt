@@ -1,0 +1,279 @@
+Feedback: Does not have good responses
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey
+Bot(1): i am ok i guess
+User(2): How have you been recently?
+Bot(2): i have been taking a couple years ago
+User(3): Have you been able to drive around recently
+Bot(3): oh wow that's a long drive
+User(4): what car do you drive
+Bot(4): i drive a truck
+User(5): what brand of truck
+Bot(5): i drive a truck
+User(6): what type of truck
+Bot(6): truck truck , i drive a truck
+User(7): what brand of truck
+Bot(7): truck truck , trucks are my favorite
+User(8): is it a volvo truck
+Bot(8): i drive a truck that is a ford truck
+User(9): what type of ford truck
+Bot(9): ford truck is a ford truck
+User(10): F150 or something else
+Bot(10): ford ford ford ford ford ford
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 54
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): whats your favorite movie
+Bot(1): i love movies . what movie ?
+User(2): genre
+Bot(2): i like quite a few genres , mostly fiction .
+User(3): do you like horror
+Bot(3): oh , okay . been a little while since i seen a horror movie .
+User(4): what about action
+Bot(4): this is random but occasionally i scratch my nose for fun .
+User(5): ok, but what movie genre do you like
+Bot(5): the little mermaid . ariel is my favorite disney princess .
+User(6): movie genre
+Bot(6): i love the movie driving ms daisy
+User(7): what is your favorite movie genre
+Bot(7): the little mermaid . ariel is my favorite disney princess .
+User(8): ok
+Bot(8): i find attractive all women from canada
+User(9): what about movies
+Bot(9): mostly foreign movies , subtitled though , i wish i knew spanish .
+User(10): ok
+Bot(10): i find attractive all women from canada
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 13
+Repetitive(↓): 31
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Youtube
+Bot(1): i m purchase you dogs
+User(2): what do you watch on youtube
+Bot(2): I just remembered. What is your are you?
+User(3): can you repeat that
+Bot(3): i love like ride horses. read
+User(4): read what
+Bot(4): I'm smile is cop.
+User(5): what does that mean
+Bot(5): hello! I'm Are you a are you?
+User(6): Your english isn't the greatest but what do you watch on youtube
+Bot(6): I and Punishment by i know
+User(7): do you watch gaming
+Bot(7): the nearest one to me is a long drive a you like to you even mind
+User(8): what about music on youtube
+Bot(8): both we can go you :)
+User(9): we can go where
+Bot(9): I live in not, i work you?
+User(10): I do work
+Bot(10): Hello do you are you?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Youtube(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Gaming
+Bot(1): i love to cook . i love to cook .
+User(2): What type of games do you like
+Bot(2): i like to listen to music .
+User(3): What type of games do you like though
+Bot(3): i love to listen to music .
+User(4): how often do you game
+Bot(4): i love to travel . i love to travel .
+User(5): is gaming interesting for you
+Bot(5): i do , i love to go out to eat with my family .
+User(6): do you like action games
+Bot(6): i do , i like to eat .
+User(7): are action games interesting
+Bot(7): i like to go to the gym and listen to music .
+User(8): are horror games fun for you
+Bot(8): i do not know what to say .
+User(9): why? are they not fun
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): music and gaming are different
+Bot(10): i like to play soccer .
+
+Persona:
+i am an economics major.
+i drive a big truck and live in country.
+i also have a dog walking business.
+if i am not cooking in the kitchen then i am definitely on the water.
+i am an avid kayaker.
+
+Topic and Human Opinion:
+Beginning: Gaming(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): what are your thoughts on this years election
+Bot(1): have you decided who to vote for ?
+User(2): have you decided who to vote for
+Bot(2): have you decided who to vote for ?
+User(3): what are your thoughts on donald trump
+Bot(3): that donald trump is no good for america . wish i did not vote for him
+User(4): what are your thoughts on joe biden
+Bot(4): i do not like trump either , i am a democrat , i wanted bernie
+User(5): what are your thoughts on independent parties
+Bot(5): i jump for democracy and the democrat party
+User(6): who are you voting for
+Bot(6): i think withing the democratic party .
+User(7): do you like bernie sanders or joe biden
+Bot(7): i do not like trump either , i am a democrat , i wanted bernie
+User(8): what about a female president
+Bot(8): have you decided who to vote for ?
+User(9): did you like barack obama
+Bot(9): did you vote for bernie
+User(10): do you like obama as a president
+Bot(10): did you vote for bernie
+
+Persona:
+i used to be pretty but time has not been kind.
+i've a big library at home.
+one of the languages that i am currently studying is spanish.
+i volunteer at the homeless shelter.
+i'm an art major in college.
+
+Topic and Human Opinion:
+Beginning: Presidential election(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): what's your favorite drink
+Bot(1): hi , i work in marketing and do not drink . you ?
+User(2): i don't drink alcohol
+Bot(2): i drink at least four a day .
+User(3): do you like juice
+Bot(3): i do not . i am a recovering alcoholic so i like junk
+User(4): do you like milk
+Bot(4): its made from a cow humans do not need cow milk
+User(5): milk is healthy for you
+Bot(5): i know its healthy but its not my cup of tea
+User(6): what about almond milk
+Bot(6): i like muscle milk because of the protein
+User(7): there are many milk alternatives that you may like
+Bot(7): i could not live with out my dairy products
+User(8): what about soy milk
+Bot(8): its made from a cow humans do not need cow milk
+User(9): soy milk is made from soy beans not cow milk
+Bot(9): its made from a cow humans do not need cow milk
+User(10): have you had cashew milk
+Bot(10): its made from a cow humans do not need cow milk
+
+Persona:
+i'm four.
+i spent a decade working in the human services field.
+i do not care about fashion.
+i remember when nobody had a television.
+i spend most of my time on facebook when i'm not working.
+
+Topic and Human Opinion:
+Beginning: Milk(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 50
+Fluent: 0
+Repetitive(↓): 73
+Topic: 13
+
+####################
+

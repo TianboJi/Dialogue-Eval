@@ -1,0 +1,287 @@
+Feedback: This took way too long for 99 cents. It was enjoyable but the ai is not good at all.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello I'm fluent in 3 languages.
+Bot(1): i am a girl . i am a big fan of classical music .
+User(2): A big fan of what?
+Bot(2): i like to go to the gym and listen to music .
+User(3): I also enjoy that.
+Bot(3): i like to go to the gym and listen to music .
+User(4): I also enjoy that.
+Bot(4): i like to go to the gym and listen to music .
+User(5): That is cool. What kind of music?
+Bot(5): i like country music . i like country music .
+User(6): What do you do asset the gym?
+Bot(6): no , i do not , but i do like to go to the park .
+User(7): I like taking my dog to the park.
+Bot(7): i love dogs , i love dogs .
+User(8): Do you have a dog?
+Bot(8): no , i do not , but i do like to go fishing .
+User(9): So what exercise do you do at the gym
+Bot(9): i like to go fishing . i love to go fishing .
+User(10): I also like fishing.
+Bot(10): i like to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm fluent in english spanish and french.(like)
+Round 2: That she is female and likes to do something that i can't recall.(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 24.29
+Robotic(↓): 100
+Interesting: 58
+Fun: 77
+Consistent: 0
+Fluent: 24
+Repetitive(↓): 89
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I spent a decade in the human services field.
+Bot(1): That are awesome.
+User(2): What would you like to know about my experience
+Bot(2): i do working as life could do that
+User(3): You would like to do that?
+Bot(3): I do only organic food garden, do you?
+User(4): I've never been much of a gardener.
+Bot(4): I like have snakes at listen to music
+User(5): Awesome. My dog can dance.
+Bot(5): I 'm great. I dropped you?
+User(6): What do you mean?
+Bot(6): coffee sport do you :)
+User(7): Coffee is great.
+Bot(7): My am at Mary.
+User(8): I'm Bob.
+Bot(8): I are you dreaming Disney movies
+User(9): I love Disney. Do you like the movies?.
+Bot(9): I you blonde ? about to go hiking.
+User(10): I have a shaved head. Love hiking also.
+Bot(10): I love be a you as an electrician.
+
+Persona:
+my mother is a dentist.
+i listen to rap music.
+i'm a buddhist.
+my main transportation is my motorbike.
+i enjoy reading journals and guides related to psychology.
+
+Topic and Human Opinion:
+Beginning: i spent a decade working in the human services field.(like)
+Round 4: Gardening and snakes that listen to music.(like)
+Round 8: Her interests.(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 42.86
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): They are constantly on my back!
+Bot(1): they go straight to my hips , lol
+User(2): Zits?
+Bot(2): they go straight to my hips , lol
+User(3): Do you medicate them
+Bot(3): are you prescribed those by a doctor
+User(4): Yes
+Bot(4): are you prescribed those by a doctor
+User(5): Yes by a dr
+Bot(5): are you prescribed those by a doctor
+User(6): It works pretty good
+Bot(6): yeah they have been a big help
+User(7): You are also on medicine from a dr
+Bot(7): are you prescribed those by a doctor
+User(8): I already told you that.
+Bot(8): i already told you that
+User(9): Ya thou did. Now thou are copying me
+Bot(9): wow , way to copy everything .
+User(10): Haha ok you are funny.
+Bot(10): i am pretty hilarious though
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: they're constantly on my back.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 38.43
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 1
+Fluent: 49
+Repetitive(↓): 100
+Topic: 19
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): My wife and kids are the best!
+Bot(1): i am a mom and kids and kids .
+User(2): How many children do you have
+Bot(2): i have 5 and they are all grown !
+User(3): I have one. Young.
+Bot(3): i have a son and a son .
+User(4): What about the other 3
+Bot(4): i have a son and a girl .
+User(5): And one more?
+Bot(5): i have a son . he is a handful .
+User(6): I just have one. A boy. He is growing up very fast.
+Bot(6): i bet . i bet you are a boy .
+User(7): I am a boy.. A man.
+Bot(7): i am a boy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(8): I thought you said you were a mom? That is female.
+Bot(8): i am a boy . i am a boy .
+User(9): So have you been lying?
+Bot(9): i do not . i am a boy .
+User(10): Ok you are a mom boyt
+Bot(10): i am . i am a boy .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my wife and kids are the best.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.57
+Robotic(↓): 100
+Interesting: 77
+Fun: 77
+Consistent: 16
+Fluent: 30
+Repetitive(↓): 67
+Topic: 23
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I'm not close to any of my family.
+Bot(1): that is a bummer . i am not close with my family either
+User(2): Why are you not close?
+Bot(2): i do not really like any of my family .
+User(3): Me neither haha
+Bot(3): i do not really like any of my family .
+User(4): Do you like jokes?
+Bot(4): um , not really . do you like jokes ?
+User(5): Yes. Knock knock.
+Bot(5): knock what and when or how ?
+User(6): You respond by saying "who is there"
+Bot(6): knock what and when or how ?
+User(7): You are confused?
+Bot(7): what are you confused about ?
+User(8): It's your refrigerator running?
+Bot(8): i am confused
+User(9): Then you better go catch it.
+Bot(9): knock what and when or how ?
+User(10): It's just jokes.
+Bot(10): here is a joke for you knock knock
+User(11): Who is there?
+Bot(11): not sure .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've zero family that i'm close to.(like)
+Round 3: Do you like jokes?(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+
+Revised avg score: 56.57
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 56
+Fluent: 46
+Repetitive(↓): 65
+Topic: 59
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like music?
+Bot(1): i like metallica what about you ?
+User(2): Country music.
+Bot(2): i can eat a lot of mexican food but i ai not mexican , so i gotcha .
+User(3): That makes no sense.
+Bot(3): yes i have family in the army so i am always watching
+User(4): That is good for you.
+Bot(4): i work in a zoo , and chace cheetahs , good workout while i am at it . lol
+User(5): What Animal is your favorite at the zoo.
+Bot(5): did you read the true crime novel about the columbus zoo ?
+User(6): No i didn't
+Bot(6): yes i did ! i loved it . have you tried it before ?
+User(7): No
+Bot(7): mexican ! i normally love to cook , but it would be nice to go out .
+User(8): I love Mexican food also.
+Bot(8): mexican food is good do you like tacos ?
+User(9): Heck yes
+Bot(9): wow ! i like britney spears . she is a swimmer like me . you swim ?
+User(10): I like beer.
+Bot(10): beer gives me a headache . are you tall ? tall men are my favorite
+
+Persona:
+i've an allergy to water.
+my favorite food is mexican food.
+my daughter is a child prodigy.
+my name is george.
+i'm in the army.
+
+Topic and Human Opinion:
+Beginning: my favorite music is country.(like)
+Round 3: Family in the army.(dislike)
+Round 4: Works in a zoo.(like)
+Round 7: Mexican food.(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 41.71
+Robotic(↓): 100
+Interesting: 66
+Fun: 68
+Consistent: 59
+Fluent: 77
+Repetitive(↓): 78
+Topic: 0
+
+####################
+

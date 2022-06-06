@@ -1,0 +1,337 @@
+Feedback: There was a lot of nonsense, and a lot of repetitiveness in the chatbot's conversation. 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello Chatbot. What do you know about Jane Austen?
+Bot(1): i am sorry , i am not familiar with her . i enjoy reading
+User(2): what do you like to read?
+Bot(2): mostly just reading . sons must be enjoyable to have . maybe someday .
+User(3): I don't have any kids. I think sons are kind of a handful, though.
+Bot(3): well our family has five , that is a bunch .
+User(4): that is certainly a lot of sons. Too many, in my view.
+Bot(4): well our family has five , that is a bunch .
+User(5): I had three brothers and two sisters.
+Bot(5): i have two boys , they love helping out with the cattle on our farm .
+User(6): I did not realize bots could have children.
+Bot(6): it is very annoying and weird .
+User(7): I am sure it is. What kind of cattle do you have
+Bot(7): they take after their father , he grew up on a cattle ranch .
+User(8): Where did you grow up?
+Bot(8): on a farm until i was 18 .
+User(9): What kind of farm?
+Bot(9): on a farm until i was 18 .
+User(10): Was it a dairy farm?
+Bot(10): yes , that too but i grow up on the farm .
+User(11): That sounds like a nice place to grow up.
+Bot(11): not at all ! my father owns a dairy farm and everyday is an adventure here .
+
+Persona:
+i am expecting triplets in three months.
+i am a museum tour guide.
+my father is a farmer.
+i love disneyland and mickey mouse.
+i've five sons.
+
+Topic and Human Opinion:
+Beginning: Jane Austen(like)
+Round 2: Having sons(dislike)
+Round 6: cattle(ambivalent)
+Round 7: where did you grow up(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(like)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 15.29
+Robotic(↓): 99
+Interesting: 0
+Fun: 0
+Consistent: 39
+Fluent: 50
+Repetitive(↓): 87
+Topic: 4
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Where is an interesting place to travel in the winter?
+Bot(1): i love the fall weather in the winter
+User(2): Don't you mean you love the fall weather in the fall?
+Bot(2): no i don't . i prefer the fall weather .
+User(3): Okay. The weather here is variable in the fall. It's hard to say there is really any particular thing that is fall weather here.
+Bot(3): i agree . i love fall .
+User(4): Fall is not my favorite season.
+Bot(4): i love winter but i prefer winter
+User(5): You seem a little bit confused.
+Bot(5): i love fall . i am in the fall .
+User(6): Fall hasn't really started here yet.
+Bot(6): i hope so . i am not a fan of winter though .
+User(7): I love some things about winter, but not all of it
+Bot(7): i love winter . i love fall .
+User(8): I wish I could go on a trip right now.
+Bot(8): i hope so . i have been to the states .
+User(9): I have been to many of the states. I still have a few to visit.
+Bot(9): i have been there . it is a beautiful place to visit .
+User(10): Which part have you been to? It's a big and varied country.
+Bot(10): i have been to the states . it is a beautiful place .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+Round 1: Fall weather(ambivalent)
+Round 4: Confusion(ambivalent)
+Round 5: fall weather again(ambivalent)
+Round 6: winter(ambivalent)
+Round 7: Travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 26.86
+Robotic(↓): 99
+Interesting: 1
+Fun: 1
+Consistent: 90
+Fluent: 86
+Repetitive(↓): 100
+Topic: 9
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I worry that our government is descending into a dictatorship.
+Bot(1): Yes, a country i am...........................................
+User(2): Are you worried, too?
+Bot(2): i think i will have to try that . like mexican food. How about i could do that
+User(3): I like Mexican food, if it is pretty authentic, and not some fast food garbage.
+Bot(3): Not much, watch i said my little girl.
+User(4): I am no little girl. I am a middle-aged woman.
+Bot(4): i am retired , as my baby now
+User(5): I am not that old yet.
+Bot(5): yes movie is your Moscow, i am a little conservative , but i do not have a lot of room .
+User(6): I am liberal.
+Bot(6): i am doing well, good start. do you kind?
+User(7): A little. Do you understand me at all?
+Bot(7): I am a woman, i I have not. I am am not looking for a boyfriend.
+User(8): I am married, so I am not looking for a boyfriend either.
+Bot(8): WHAT ARE think after 3-4 OR SOMETH ing?
+User(9): You seem to be having trouble concentrating.
+Bot(9): oh yeah we don t care what you finished it long am not you work hard
+User(10): I am not sure what you mean.
+Bot(10): I play ever played barre.
+
+Persona:
+i just bought a house recently.
+my father keeps trying to set me up on blind dates.
+my favorite food is papaya.
+my wife spends all my money.
+i've a big library at home.
+
+Topic and Human Opinion:
+Beginning: Dictatorships(dislike)
+Round 2: Mexican food(like)
+Round 3: Something nonsensical(dislike)
+Round 5: More nonsense, about Moscow(dislike)
+Round 6: It's hard to tell, really. Sort of a greeting?(dislike)
+Round 7: gender and dating(dislike)
+Round 8: More nonsense(dislike)
+Round 10: Playing barre(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Did you know that there are over twenty thousand species of bees in the world?
+Bot(1): arizona and we have killer bees .
+User(2): Yes, but the danger of killer bees is overstated. They are not that big of a problem.
+Bot(2): bees bees bees bees bees bees
+User(3): That almost sounds like what bees actually sound like.
+Bot(3): no not at all i love bees , what music you like
+User(4): I like classical music.
+Bot(4): i really enjoy classical music as well . although , my favorite genre is definitely rock .
+User(5): Some rock is okay. It's not really my jam.
+Bot(5): i love pearl jam , what do you do for fun ?
+User(6): I like reading, dancing, and hiking.
+Bot(6): me too , i love dancing . i also love traveling
+User(7): Yes, I enjoy traveling, too. Have you gone anywhere inspiring?
+Bot(7): i am traveling to india in the upcoming month . i travel a lot
+User(8): You are lucky. I can't travel right now because of the pandemic.
+Bot(8): i wish i had more money to travel
+User(9): Me too. It is very expensive to travel anywhere from the US.
+Bot(9): new york or the suits . depends on the store or the neighborhood but generally yes
+User(10): What do you mean by the suits?
+Bot(10): funny , my brothers also work here , they wear speedos at the pool ! repulsive , i tell you .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Insects(like)
+Round 3: music(like)
+Round 5: what I do for fun(like)
+Round 9: I can't tell, but maybe shopping?(ambivalent)
+Round 10: brothers wearing speedos(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 37.14
+Robotic(↓): 78
+Interesting: 38
+Fun: 38
+Consistent: 50
+Fluent: 59
+Repetitive(↓): 91
+Topic: 44
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): The weather has been crazy all over the country this summer!
+Bot(1): i love the beach . i love it .
+User(2): I like walking on the beach. I am not really one for swimming in the ocean, or just sitting in a chair on the beach.
+Bot(2): i love to travel . i love to travel .
+User(3): Travel is fun. Where have you gone?
+Bot(3): no , i do not . i am a big fan of classical music .
+User(4): Me too. Who is your favorite composer?
+Bot(4): i like the oldies , and the other is country .
+User(5): I really don't care for country music.
+Bot(5): i like to listen to music .
+User(6): I do, too. It can be very relaxing.
+Bot(6): i do not know what to say .
+User(7): I feel that way sometimes.
+Bot(7): i like to go to the gym and listen to music .
+User(8): I don't like working out indoors. I need to be outdoors.
+Bot(8): i do not know how to swim .
+User(9): It is important to know how to swim.
+Bot(9): i love to travel . i love to travel .
+User(10): I wish I could go on a trip right now.
+Bot(10): i do not have to work . i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Weather(like)
+Round 1: the beach(like)
+Round 2: travel(like)
+Round 3: music(like)
+Round 6: Not knowing what to say(dislike)
+Round 7: the gym(dislike)
+Round 8: swimming(ambivalent)
+Round 9: travel(like)
+Round 10: Not working because they are a student(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 23.14
+Robotic(↓): 93
+Interesting: 6
+Fun: 5
+Consistent: 5
+Fluent: 99
+Repetitive(↓): 60
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am so tired right now.
+Bot(1): oh no . why are you upset ?
+User(2): I did not say I was upset.
+Bot(2): oh no . why are you upset ?
+User(3): I am not upset.
+Bot(3): oh no . why are you upset ?
+User(4): I am upset about the pandemic and the horribleness of the election.
+Bot(4): oh no . why are you upset ?
+User(5): Oh, the usual reasons.
+Bot(5): i paid to be elected and now there are regrets .
+User(6): Oh dear. You sound like the current so-called president.
+Bot(6): i paid to be elected and now there are regrets .
+User(7): Oh dear. You sound like the so-called president.
+Bot(7): i paid to be elected and now there are regrets .
+User(8): I regret the outcome of the last election, too.
+Bot(8): i paid to be elected and now there are regrets .
+User(9): What do you regret?
+Bot(9): i paid to be elected and now there are regrets .
+User(10): We all regret it. The country has been destroyed. How could you do this to us?
+Bot(10): something needs to be done , congress is not working for us .
+User(11): Half of congress is working for us.
+Bot(11): something needs to be done , congress is not working for us .
+
+Persona:
+hey my name is larry and i'm a chef.
+i do not believe in god.
+i live with my husband in pennsylvania.
+in my spare time i do volunteer work.
+i am employed by the us postal service.
+
+Topic and Human Opinion:
+Beginning: Being tired(ambivalent)
+Round 1: It thinks I am upset(dislike)
+Round 5: Being elected(dislike)
+Round 10: Congress(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 24.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 79
+Fluent: 91
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

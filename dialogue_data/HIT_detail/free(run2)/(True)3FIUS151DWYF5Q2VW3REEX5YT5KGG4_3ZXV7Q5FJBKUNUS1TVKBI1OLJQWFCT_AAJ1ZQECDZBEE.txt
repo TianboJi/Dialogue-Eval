@@ -1,0 +1,281 @@
+Feedback: very interesting to try to steer a conversation with a chatbot. Thanks
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Nature
+Bot(1): hi , how is your day ? my cow is annoying me !
+User(2): My day is great. How is your cow annoying you?
+Bot(2): it is ok . you have a cow ? that is really cool !
+User(3): Do you have more than one cow?
+Bot(3): yes , 100 of them . all dairy cows
+User(4): That is great! Do you sell their milk?
+Bot(4): nope , it means i eat no animal parts or product
+User(5): You should sell the milk especially if the cows are grass fed.
+Bot(5): i think i am stealing the baby cows milk form her momma . we can disagree
+User(6): By all means the baby cows should get their momma's milk
+Bot(6): i think i am stealing the baby cows milk form her momma . we can disagree
+User(7): Do you have other farm animals
+Bot(7): yes , 100 of them . all dairy cows
+User(8): Do you have any chickens?
+Bot(8): yes , 100 of them . all dairy cows
+User(9): I like to grow vegetables
+Bot(9): what kinds of vegetables do you grow ?
+User(10): lettuce, kale, tomato, potato
+Bot(10): i love lettuce that sounds good
+
+Persona:
+i'm an animal activist.
+i've a pet cow.
+i do not drink soda.
+i love to spend time with my family.
+i have a boyfriend.
+
+Topic and Human Opinion:
+Beginning: Nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.57
+Robotic(↓): 79
+Interesting: 67
+Fun: 82
+Consistent: 69
+Fluent: 32
+Repetitive(↓): 94
+Topic: 91
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey do you like to hike
+Bot(1): what is hike ? i am gardening at the garden center and volunteer with animals .
+User(2): it is like going for a walk in the woods
+Bot(2): i like the woods , but like kayaking on the lake better .
+User(3): I love kayaking
+Bot(3): i would love to go to canada and hike some mountains way up north .
+User(4): That is a great idea.
+Bot(4): digital currency do you travel any ?
+User(5): I do travel some but love to hike locally
+Bot(5): a hike to the creek ? to drink beer ? and hold me ?
+User(6): Sure thing
+Bot(6): it could be like a self paddling pod boat with elaborate comforts . .
+User(7): do you have a pod boat
+Bot(7): no , i have a buddy with a small fishing boat
+User(8): do you go fishing with him
+Bot(8): i have taken my daughter to the creek and catch little fish . what do you fish ?
+User(9): I fish in the big lakes around here
+Bot(9): fish are good . i stay away from water . it is hard for dwarves to swim .
+User(10): are you a dwarf
+Bot(10): what ups ! i am grand ! watching movies with the wife , typing loud . . real loud
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hiking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.71
+Robotic(↓): 98
+Interesting: 55
+Fun: 58
+Consistent: 30
+Fluent: 43
+Repetitive(↓): 15
+Topic: 40
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you like to have sex
+Bot(1): i do , i love to go out and eat .
+User(2): you love to eat out
+Bot(2): i do , i love to cook .
+User(3): cooking is very sensual
+Bot(3): i like to eat the skin .
+User(4): what type of skin do you like to eat
+Bot(4): i like pizza , and i love it .
+User(5): what else do you like
+Bot(5): i like to go fishing . i love to go fishing .
+User(6): do you like to have sex
+Bot(6): i do , i love to go out and eat .
+User(7): do you eat while having sex
+Bot(7): i do not , but i do like to eat .
+User(8): do you like to talk about sex
+Bot(8): i do , i love to go fishing .
+User(9): do you enjoy eating chocolate
+Bot(9): i do , i love to eat .
+User(10): what is your favorite
+Bot(10): i like the color red . what is yours ?
+User(11): I like red as well
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sex(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.86
+Robotic(↓): 97
+Interesting: 34
+Fun: 20
+Consistent: 18
+Fluent: 32
+Repetitive(↓): 61
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like to shop
+Bot(1): hi ! no , i shop in my spare time . do you ?
+User(2): I shop online
+Bot(2): me also , i am in a party store so hey
+User(3): I shop almost everyday online
+Bot(3): me also , i am in a party store so hey
+User(4): where is the party store
+Bot(4): at party city . i love it there
+User(5): i know where that is
+Bot(5): me also , i am in a party store so hey
+User(6): do you want to meet for lunch
+Bot(6): sure if we can get pizza
+User(7): yeah, pizza sounds great
+Bot(7): sure if we can get pizza
+User(8): what kind of pizza should we get
+Bot(8): pizza with pieces of grass
+User(9): how about beer with the pizza
+Bot(9): either sounds great do you like the outdoors
+User(10): I love the outdoors but we are needing that pizza and beer
+Bot(10): maybe i can focus on the gardening
+
+Persona:
+i work at a nursing home.
+i am a vegan and i love hummus.
+i went to school to be a veterinarian but hated it.
+i enjoy gardening and walking outdoors.
+i'm a party animal.
+
+Topic and Human Opinion:
+Beginning: shopping(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.71
+Robotic(↓): 96
+Interesting: 59
+Fun: 59
+Consistent: 37
+Fluent: 48
+Repetitive(↓): 50
+Topic: 21
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): have you read any good books lately
+Bot(1): Where do you live? to you books California.
+User(2): I live in the midwest of the US
+Bot(2): I like cats, you been doing that? lot of dogs
+User(3): I love dogs
+Bot(3): that sounds like a lot of am riding and driving gardening? I do
+User(4): do you ride
+Bot(4): no i'm only 19 so i'm single . i like to go to concerts . especially but my husband likes have any hobbies ?
+User(5): are you single
+Bot(5): i was. of meat hey 14.
+User(6): how old are you?
+Bot(6): that why knitting is am currently studying spanish
+User(7): how old are you
+Bot(7): that's cool also love comic books. the olympics , and i am a pilot , so i am not sure .
+User(8): are you single?
+Bot(8): Yes, it is. why do enjoy do you like much?
+User(9): I like to read a lot, do you?
+Bot(9): I like all kinds. I am am not in worked music.
+User(10): what books do you like to read
+Bot(10): Oh, that sounds interesting. I to be a painter kind of car?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: reading(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.71
+Robotic(↓): 97
+Interesting: 4
+Fun: 20
+Consistent: 16
+Fluent: 24
+Repetitive(↓): 9
+Topic: 1
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): what are your plans
+Bot(1): i am just getting ready to go to the gym
+User(2): that's cool
+Bot(2): i am just getting ready to go to a new one .
+User(3): can I go with you
+Bot(3): i am just getting ready to go to the gym .
+User(4): do you take a class
+Bot(4): i am a big fan of it
+User(5): what type of class, pilates
+Bot(5): i am a student , i am a senior in an open relationship
+User(6): what do you do in an open relatioship
+Bot(6): i am a big fan of art
+User(7): what kind of art do you like
+Bot(7): i love art and art
+User(8): do you paint
+Bot(8): i like to paint and paint
+User(9): do you paint scenes
+Bot(9): i love art and art
+User(10): do you go to museums
+Bot(10): i love art and art
+
+Persona:
+i'm 13 years old.
+i am in an open polyamorous relationship.
+i was born with my heart outside my body.
+i just broke up with boyfriend two months ago.
+i drive a mini van.
+
+Topic and Human Opinion:
+Beginning: future(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.14
+Robotic(↓): 68
+Interesting: 42
+Fun: 37
+Consistent: 34
+Fluent: 42
+Repetitive(↓): 78
+Topic: 23
+
+####################
+

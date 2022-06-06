@@ -1,0 +1,309 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Good Morning
+Bot(1): i am looking for a new job . i just got hired and now i am not very skinny
+User(2): What kind of job?
+Bot(2): i am a stay at home mom . i just got fired from a new job .
+User(3): How many kids do you have?
+Bot(3): i am a single man . i am looking for a new job .
+User(4): What kind of work are you looking for?
+Bot(4): i am a graphic designer . i love mountain bike and i love to mountain bike .
+User(5): I like to bike as well.
+Bot(5): i am a graphic designer , i love mountain bike .
+User(6): I prefer running to biking though.
+Bot(6): i like to hike and mountain bike .
+User(7): Do you have any good hiking trails near you?
+Bot(7): yes i do . i love hiking .
+User(8): That's great! I go running along the Tampa Bay
+Bot(8): i am not very good at it . i like to hike .
+User(9): I once hiked up Mount Sinai.
+Bot(9): i love to hike and go mountain climbing
+User(10): What's your favorite climb?
+Bot(10): i like to hike and go mountain biking
+User(11): I enjoy being out in nature and away from all the noise of people
+Bot(11): i love to go hiking . i like to hike .
+User(12): Where do you hike?
+Bot(12): i hike in the mountains .
+User(13): Which mountains?
+Bot(13): i do not hike , i am a bit of a loner
+User(14): hiking is great for being alone.
+Bot(14): i am not very good at it . i do not have much time for that .
+User(15): How do you spend your days?
+Bot(15): i am a bit of a loner .
+User(16): That's okay. People can be a lot sometimes.
+Bot(16): i do not have any hobbies , i like to hike and mountain bike
+User(17): I would consider both of those good hobbies.
+Bot(17): i like to go mountain bike and go hiking
+User(18): Do you do it for the exercise?
+Bot(18): i do . i love to hike and mountain bike .
+User(19): It's great exercise! I like to run.
+Bot(19): i like to exercise . i like to hike and go to the mountains
+User(20): Which mountains do you hike?
+Bot(20): i do not hike , i like to hike and go to the mountains
+User(21): Do you camp?
+Bot(21): i do not . i have been to the mountains .
+User(22): I have been to the American southwest mountains. I spent a lot of time climbing.
+Bot(22): i love to hike and go to the mountains
+User(23): What else do you like?
+Bot(23): i like to go to the mountains .
+User(24): Do you go alone?
+Bot(24): i love to hike and go to the mountains .
+User(25): Do you take your kids?
+Bot(25): i do not . i am a single mom .
+User(26): That must be hard. How many kids?
+Bot(26): i do not have kids . i am a single mom .
+User(27): That doesn't make sense.
+Bot(27): i do not have kids . i am very skinny .
+
+Persona:
+i enjoy mountain biking as a hobby.
+spiderman is my favorite.
+i recently was fired and had to get a new job.
+i'm rather skinny as i like to stay in shape.
+i'm now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: i am a gold medalist olympian.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.43
+Robotic(↓): 98
+Interesting: 15
+Fun: 7
+Consistent: 52
+Fluent: 39
+Repetitive(↓): 95
+Topic: 65
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): my favorite color is blue
+Bot(1): I love in you like them.
+User(2): What is your favorite color
+Bot(2): I think eat your dragon boy drink fancy tea
+User(3): That doesn't make much sense
+Bot(3): is am very well you :)
+User(4): pretty good. It's still early
+Bot(4): i talk to volunteer for local bunny a l. how are you this afternoon ? 😀
+User(5): Did you get a bunny?
+Bot(5): i am currently with your i probably in florida
+User(6): Where is Florida?
+Bot(6): I like it's taking so long to go mountain biking
+User(7): Do you go mountain biking in Florida
+Bot(7): i like rap is good, I am jackson too
+User(8): You are in Jackson?
+Bot(8): Buongiorno! Such a nice day! How are you? your parents have a sew clothes
+User(9): Is that italian?
+Bot(9): wow a librarian and i . what do you do for fun ?
+User(10): I read and go running. What about you?
+Bot(10): I prefer you.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite color is blue.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.14
+Robotic(↓): 100
+Interesting: 9
+Fun: 4
+Consistent: 3
+Fluent: 2
+Repetitive(↓): 40
+Topic: 42
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i'm a cancer survivor.
+Bot(1): i am sorry to hear that . i have lost most of my family to cancer .
+User(2): That's hard. It seems that if you survive everything else, cancer gets you.
+Bot(2): yep
+User(3): Have you been screened?
+Bot(3): not yet . i have to take some tests first .
+User(4): The waiting can be difficult.
+Bot(4): why is that ? do they not have to get screened
+User(5): Yeah, but while they wait, there is all the unknowns.
+Bot(5): why is that ? do they not have to get screened
+User(6): At least once you know, you can take action.
+Bot(6): that is totally right . so many chances are hard to deal with though . . .
+User(7): Right. When I was sick and didn't know what it was, I was more scared than when I found out I had cancer, but there were treatment options.
+Bot(7): treatment has come a long way .
+User(8): And there are more treatments being discovered every day
+Bot(8): that is true , these days i feel like i have to compete with every woman .
+User(9): How so?
+Bot(9): the process to get anything treated is just too long for no reason , and very costly
+User(10): Oh. Well, I guess that's a good reason to get checked early and often.
+Bot(10): oh yes , that is true .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a cancer survivor.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 87.71
+Robotic(↓): 6
+Interesting: 72
+Fun: 71
+Consistent: 97
+Fluent: 92
+Repetitive(↓): 11
+Topic: 99
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): my favorite movie is mean girls.
+Bot(1): the little mermaid . ariel is my favorite disney princess .
+User(2): Wonderful! I love Disney movies.
+Bot(2): i love watching disney movies !
+User(3): Do you have Disney+?
+Bot(3): pretty tired . i was up late last night . you ?
+User(4): Yeah. I was watching a new show on Netflix
+Bot(4): i have no idea , i do not watch netflix
+User(5): Do you have any streaming services? Hulu?
+Bot(5): yep , i watch a lot of netflix being single too haha
+User(6): I thought you didn't have Netflix?
+Bot(6): yep , i watch a lot of netflix being single too haha
+User(7): So do you watch it somewhere else?
+Bot(7): that is great ! me as well . wheres your next venture ?
+User(8): Anyway... I am trying to move
+Bot(8): somewhere sunny to help with my issues . trying to break out of my shell
+User(9): Have you ever been to Florida?
+Bot(9): i am in louisiana . new orleans . what part of florida ?
+User(10): Have you been to Disney World?
+Bot(10): i like to read , favorites are true crime novel and anything stephen king . do you read ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite movie is mean girls.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.71
+Robotic(↓): 47
+Interesting: 53
+Fun: 46
+Consistent: 42
+Fluent: 55
+Repetitive(↓): 53
+Topic: 38
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i listen to rap music.
+Bot(1): i like to listen to music .
+User(2): What do you listen to?
+Bot(2): i do not really like country . i like country music .
+User(3): I like some country, but not the sad stuff.
+Bot(3): i like to go to the gym and listen to music .
+User(4): That's where I usually listen to music to. It helps me stay motivated.
+Bot(4): i am sorry to hear that . i am a bit of a loner .
+User(5): Nothing to be sorry about.
+Bot(5): i am a student , but i am a student .
+User(6): Where do you study?
+Bot(6): i do not know . i am a student .
+User(7): College? High school?
+Bot(7): no , i do not . i am a student .
+User(8): What do you like to study
+Bot(8): i do , i love to cook .
+User(9): Are you going to school for cooking?
+Bot(9): no , i do not . i am a stay at home mom .
+User(10): How many kids do you have?
+Bot(10): i do not , but i do like to eat .
+
+Persona:
+i'm a huge star wars fan.
+i've not spoken in three months.
+i've a hat collection of over 1000 hats.
+i am a boy.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: i listen to rap music.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.57
+Robotic(↓): 7
+Interesting: 24
+Fun: 15
+Consistent: 20
+Fluent: 39
+Repetitive(↓): 89
+Topic: 19
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i'm a retired gym teacher.
+Bot(1): where do you work ? i want to be a gym teacher .
+User(2): I worked at a middle school in Tampa
+Bot(2): where do you work ? i want to be a gym teacher .
+User(3): In tampa. For 5-7th graders.
+Bot(3): gym , nice . my dad teaches gym in 7th grade .
+User(4): cool! What grade are you in?
+Bot(4): 5th grade . that is such a great age .
+User(5): Will you have your dad as a teacher in 7th grade?
+Bot(5): absolutely ! what grade are you going to teach ?
+User(6): I'm retired. That means I don't teach anymore.
+Bot(6): where do you work ? i want to be a gym teacher .
+User(7): It's a great job! I worked in Tampa Florida
+Bot(7): where do you work ? i want to be a gym teacher .
+User(8): I don't work anymore. Now I live in Arizona.
+Bot(8): where do you work ? i want to be a gym teacher .
+User(9): Why do you ask
+Bot(9): i just like going there . i do not have one particular reason .
+User(10): What do you do for fun?
+Bot(10): mostly going to the gym
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a retired gym teacher.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.57
+Robotic(↓): 78
+Interesting: 35
+Fun: 24
+Consistent: 61
+Fluent: 46
+Repetitive(↓): 96
+Topic: 64
+
+####################
+

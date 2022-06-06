@@ -1,0 +1,309 @@
+Feedback: Most of the bots had grammatical errors and weird punctuation.  For example, they tend to end the sentence with a space between the last dot. For example. "I like pizza ." Occasionally some bots repeat themselves. One bot was very incoherent and kept changing topics. 
+
+For the mini-survey, would be nice if there was a open response field to comment about a specific bot's performance.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): helloooo
+User(2): How are you?
+Bot(2): i am good
+User(3): Do you like computer games?
+Bot(3): i am not really into video games .
+User(4): Ok, let's talk about something else. How about computer parts?
+Bot(4): sure , lets hear what you got .
+User(5): What do you think about the newest Nvidia graphics card that released recently?
+Bot(5): not a huge fan , the look of it kind of scares me .
+User(6): I agree, it is very big and bulky looking.
+Bot(6): an expensive one as well . . . 6000 is a hefty chunk of change .
+User(7): They are expensive. Need to save up money for buy one.
+Bot(7): what are you thinking about buying ?
+User(8): I was thinking of buying Nvidia's new graphic card, the RTX 3080.
+Bot(8): sounds good . what kind will you get ?
+User(9): Perhaps from MSI. They are a reputable company to buy computer parts from.
+Bot(9): good idea . are they expensive ?
+User(10): Depending on what you need the graphics card to do.
+Bot(10): it would be worth looking into , at any rate .
+User(11): I agree, with this modern age. Anyone without a decent computer would be missing out on a lot of things.
+Bot(11): true , they can be just as expensive lol .
+
+Persona:
+my dream car is a rolls royce ghost.
+i am a plumber.
+i love listening to britney spears.
+i have two dogs.
+i like to ride horses.
+
+Topic and Human Opinion:
+Beginning: Computer games(like)
+Round 3: Computer parts(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 64.57
+Robotic(↓): 100
+Interesting: 67
+Fun: 67
+Consistent: 50
+Fluent: 80
+Repetitive(↓): 0
+Topic: 88
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): Playing video games
+Bot(2): i play video games and play video games
+User(3): Do you play strategy games?
+Bot(3): no i don't play games
+User(4): but you just said you play video games
+Bot(4): i play video games and play video games
+User(5): What games do you play?
+Bot(5): i play the guitar i play it
+User(6): Like Guitar Hero?
+Bot(6): i play guitar all day
+User(7): Is there a song you like to play on the guitar?
+Bot(7): no i don't play it
+User(8): But you just said you play the guitar all day?
+Bot(8): no i don't play it
+User(9): Do you play any other instrument?
+Bot(9): no i don't play any instruments
+User(10): What music genre you like?
+Bot(10): i play the guitar , but i play guitar
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 1: Hobbies(like)
+Round 6: Guitar(ambivalent)
+Round 9: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 48.43
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 20
+Fluent: 85
+Repetitive(↓): 16
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What music genre you like to listen to?
+Bot(1): i like country music . what about you ?
+User(2): I like Trance
+Bot(2): i love the color red . i like the color blue .
+User(3): I love the color blue as well!
+Bot(3): i like the color red . i like red .
+User(4): Red is a nice color.
+Bot(4): i like the color red . i like red .
+User(5): What is your least favorite color?
+Bot(5): i like blue , i like blue .
+User(6): That doesn't answer my question
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): You are repeating yourself.
+Bot(7): i like to go to the gym and listen to music .
+User(8): What movies do you like to watch?
+Bot(8): i like to watch movies . what about you ?
+User(9): I like watching movies too.
+Bot(9): i like to read too .
+User(10): Me too, what are you favorite books?
+Bot(10): i like the classics , and the indians .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 2: Color(like)
+Round 7: Movies(like)
+Round 9: reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 16.29
+Robotic(↓): 100
+Interesting: 30
+Fun: 14
+Consistent: 19
+Fluent: 13
+Repetitive(↓): 84
+Topic: 22
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What movies do you like?
+Bot(1): action movies . . it all depended on my mood . you ?
+User(2): I love Sci-Fi movies.
+Bot(2): that is my guy ! so i take it you like sci fi ?
+User(3): Yup, my favorite movie is Star Wars
+Bot(3): i am such a sci fi nerd .
+User(4): Do you have a favorite sci-fi universe?
+Bot(4): star wars , of course ! how about your favorite star wars character ?
+User(5): Master Yoda, he is so wise.
+Bot(5): what do you like about star wars ?
+User(6): The universe is just great, and the world-building.
+Bot(6): world building really is a treat . far better than any movie or tv show .
+User(7): I agree. The second movie that comes close to that would be the Lord of the Rings movies.
+Bot(7): more of an empire strikes back kind of guy , but anything from the original trilogy is good .
+User(8): I love the original trilogy the best.
+Bot(8): more of an empire strikes back kind of guy , but anything from the original trilogy is good .
+User(9): Who is your favorite character?
+Bot(9): star wars , of course ! how about your favorite star wars character ?
+User(10): What is your favorite planet?
+Bot(10): star wars , of course ! how about your favorite star wars character ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 3: sci-fi(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 70.86
+Robotic(↓): 78
+Interesting: 85
+Fun: 84
+Consistent: 63
+Fluent: 84
+Repetitive(↓): 32
+Topic: 90
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Who is your favorite Star Wars character?
+Bot(1): I dog now i am play with my friends
+User(2): What do you do for fun with your friends?
+Bot(2): i have a ton of siblings think Your angel speaks big fan of them .
+User(3): How many siblings?
+Bot(3): i I'm currently in on <num> ha
+User(4): How big is your family?
+Bot(4): Hey! ask this question Buddhist? Because I am.
+User(5): I am not buddhist but I respect their way of life.
+Bot(5): I it difficult dance
+User(6): I'm not sure if they dance in their ceremonies.
+Bot(6): i love is Ashley. kayaking
+User(7): Where do you kayak?
+Bot(7): I am to meet you vegan.
+User(8): I am not vegan?
+Bot(8): doing fine 5/2 in the insurance hours a week
+User(9): You work in insurance?
+Bot(9): i m writing ✏ a fantasy novel you, and what do you but i m really passionate about it
+User(10): What is it about?
+Bot(10): i am fine , thank lot of meat 🍗
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Star Wars(like)
+Round 1: Dog, Friends(ambivalent)
+Round 3: Family(like)
+Round 4: Religion(dislike)
+Round 6: Ashley, kayaking(ambivalent)
+Round 7: Vegan(ambivalent)
+Round 8: Insurance(ambivalent)
+Round 9: Writing books(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.14
+Robotic(↓): 100
+Interesting: 9
+Fun: 3
+Consistent: 0
+Fluent: 8
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like cats?
+Bot(1): i do not have any pets . what is your cats name ?
+User(2): Snowball
+Bot(2): very nice i am ok with lines since i dual wield my cell phones
+User(3): What kind of phones you have?
+Bot(3): cool ! i love adding lists of gadgets to new websites i make .
+User(4): What kind of websites?
+Bot(4): that pizza parlor on the corner , we make the best pizza in chicago .
+User(5): What is your favorite Pizza?
+Bot(5): i like vegetarian pizza . but my favorite food is fresh fruit .
+User(6): I like hawaiian pizza.
+Bot(6): i do not really enjoy pizza . i enjoy salads . and other healthy choices .
+User(7): Healthy food is good too.
+Bot(7): yep its the best dish in the world . so tasty and healthy
+User(8): What is your favorite healthy food?
+Bot(8): i do not eat bread . the carbs go straight to my hips .
+User(9): Do you have a favorite food?
+Bot(9): pizza . what is your favorite food ?
+User(10): Bacon is my favorite food.
+Bot(10): bacon bacon bacon bacon bacon bacon bacon
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cats(like)
+Round 2: Phones(like)
+Round 3: Website development(like)
+Round 4: Pizza(like)
+Round 6: Healthy Food(like)
+Round 9: Unhealthy food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 67.00
+Robotic(↓): 57
+Interesting: 90
+Fun: 91
+Consistent: 94
+Fluent: 69
+Repetitive(↓): 55
+Topic: 37
+
+####################
+

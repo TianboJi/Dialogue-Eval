@@ -1,0 +1,322 @@
+Feedback: need to work on not repeting 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hi ! have you ever broken a bone ? my arm broke once
+User(2): well i broke mine last week
+Bot(2): i have never had any broken bones
+User(3): is not a very good experience
+Bot(3): its not so great when you break your arm though
+User(4): yeah right now im kind of useless
+Bot(4): its not so great when you break your arm though
+User(5): no it isnt
+Bot(5): its not so great when you break your arm though
+User(6): stop saying the same thing
+Bot(6): i have never had any broken bones
+User(7): i have a broken arm right now
+Bot(7): i have never had any broken bones
+User(8): im glad you never broken any bones
+Bot(8): its not so great when you break your arm though
+User(9): no but you get use to it
+Bot(9): its not so great when you break your arm though
+User(10): i know right, like i cant do anything right now
+Bot(10): its not so great when you break your arm though
+User(11): i guess this is goodbye
+Bot(11): its not goodbye its just farewell for now
+User(12): yeah you should learn more phrases
+Bot(12): yeah i want to learn new things
+
+Persona:
+i never broke a bone in my body ever in my life.
+i'm on the soccer team.
+i work as a car salesman.
+i've a broken arm.
+i am an economics major.
+
+Topic and Human Opinion:
+Beginning: i have a broken arm.(like)
+
+Topic Change and Chatbot Opinion:
+Round 12: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 38.86
+Robotic(↓): 98
+Interesting: 7
+Fun: 33
+Consistent: 47
+Fluent: 50
+Repetitive(↓): 50
+Topic: 83
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello how you doing
+Bot(1): i am good thanks for asking
+User(2): im glad, hey do you like the olympics
+Bot(2): i do not really have a favorite
+User(3): yeah is kinda boring sometimes
+Bot(3): i love the olympics
+User(4): i know right, they are awesome
+Bot(4): i love the olympics
+User(5): i know already
+Bot(5): i love the olympics
+User(6): yeah good for you buddy
+Bot(6): thanks , i am a little lazy
+User(7): but still you like the olympics
+Bot(7): i am not sure what that means
+User(8): it means that you like watching the olympics on tv
+Bot(8): yeah i do not know
+User(9): oh i thought you said you love it
+Bot(9): i do not know what that means
+User(10): you have to think better answers pal
+Bot(10): i will do that i love to do it
+User(11): yeah im glad you want to learn
+Bot(11): yes i want to learn how to learn
+User(12): god speed
+Bot(12): yes i want to be happy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to watch the olympics.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 9: No topic change.(ambivalent)
+
+Revised avg score: 38.57
+Robotic(↓): 92
+Interesting: 25
+Fun: 56
+Consistent: 0
+Fluent: 86
+Repetitive(↓): 55
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): im fine, how about you?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): oh how is the little buddy
+Bot(3): i am a bit of a loner . i love to go out to eat with my family .
+User(4): oh i have an idea
+Bot(4): i am a student , but i am a student .
+User(5): that doesnt make sense, anyway want to go to a concert
+Bot(5): i would love to travel .
+User(6): yeah i got tickets for the rascal flats
+Bot(6): oh , i am sorry . i am sorry .
+User(7): why you apologize
+Bot(7): i am a student , but i am a student .
+User(8): i know that
+Bot(8): i like to go to the gym and listen to music .
+User(9): thats cool, what kind of music do you like?
+Bot(9): i like country music . what about you ?
+User(10): i dont have a favorite but i do like the rascal flats
+Bot(10): i like to eat too much junk food .
+
+Persona:
+i spent a decade working in the human services field.
+i'm a woman.
+i'm now looking for a new job.
+i work fulltime in a shipyard.
+i like donuts.
+
+Topic and Human Opinion:
+Beginning: my favorite band is rascal flats.(dislike)
+Round 10: junk food(like)
+
+Topic Change and Chatbot Opinion:
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 51.29
+Robotic(↓): 68
+Interesting: 72
+Fun: 62
+Consistent: 26
+Fluent: 85
+Repetitive(↓): 32
+Topic: 14
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): oh, what kind of business to have a dog, enjoy football
+User(2): what do you mean
+Bot(2): I have not graduate student but just to travel
+User(3): you arent being logical
+Bot(3): It seems that correct am 24 years boy
+User(4): oh are you a grow man
+Bot(4): I am great, do you listen some music.
+User(5): yeah i listen to rock music
+Bot(5): I am i have to go. do with my kids.
+User(6): oh you have kids
+Bot(6): I do don't have job. I I ride horses.
+User(7): you ride horses thats cool
+Bot(7): i'm not a chess are you good is.
+User(8): yes im good at it i love it
+Bot(8): Oh, thanks. What I do love enjoy?
+User(9): what do you enjoy doing?
+Bot(9): i prefer so what a car
+User(10): sso you like cars?
+Bot(10): I do not in many i already I do like to walk
+User(11): thats cool
+Bot(11): Uh, you like blind i along the lines of... Camping trip.
+User(12): im not blind
+Bot(12): i do not know , i up with Nursing as .
+
+Persona:
+i help out at the food bank occasionally.
+i work at a nursing home.
+i am single and with two dogs.
+i'm a gold medalist olympian.
+i've a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: i am not a good swimmer at all.(like)
+Round 3: weird stuff none logical(ambivalent)
+Round 5: kids(ambivalent)
+Round 7: chess(like)
+Round 10: cars(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(dislike)
+Round 10: The user changed the topic the last input.(dislike)
+
+Revised avg score: 8.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 43
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello there
+Bot(1): hello , i am so excited to meet you . i love meeting new friends .
+User(2): me too
+Bot(2): i take my daughter to the park every day
+User(3): wanna hear something crazy
+Bot(3): yea i hear you . i like to scream in the park when i am playing ultimate sometimes
+User(4): i married a super model from italy.
+Bot(4): oh , i am sure you would be a wonderful subject for students at my next art class !
+User(5): not really im not really handsome
+Bot(5): ok , then what is your favorite movie of all time ?
+User(6): star wars
+Bot(6): the tv show or the movie ?
+User(7): the movie
+Bot(7): what is your favorite movie ?
+User(8): star wars a new hope
+Bot(8): the tv show or the movie ?
+User(9): i told you the movie
+Bot(9): what is your favorite movie ?
+User(10): charlie and the chocolate factory
+Bot(10): wow , i do not really like chocolate
+User(11): i love it
+Bot(11): love it . . . especially taking long walks in the park
+User(12): whats your favorite topic?
+Bot(12): its a chemistry exam i am a biology major at boston college
+User(13): pretty cool
+Bot(13): good , planning my next round of thrift shop visits .
+User(14): anyways got to go
+Bot(14): i have a cat , his name is charlie . what would you name your puppy ?
+User(15): see ya
+Bot(15): i am drinking coffee right now . i think i am gonna watch some netflix . karate in the garage .
+
+Persona:
+my favorite movie is friday.
+i like to take walks.
+i've solar panels on my roof.
+i have a son who is in junior high school.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: i married a super model from italy.(like)
+Round 4: art(like)
+Round 5: movies(like)
+Round 12: topics(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 12: The user changed the topic the last input.(like)
+
+Revised avg score: 52.57
+Robotic(↓): 75
+Interesting: 75
+Fun: 65
+Consistent: 31
+Fluent: 79
+Repetitive(↓): 67
+Topic: 60
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): what do you think about polyamorous people
+Bot(1): what people think about what ? your personality ?
+User(2): no about relationship
+Bot(2): i have never been on one and trying to see how many turn into real relationships
+User(3): you should try a polyamorous relationship
+Bot(3): never had good luck with my relationships
+User(4): just have to work on yourself
+Bot(4): i guess so . you just need to keep putting yourself out there
+User(5): yeah thats the spirit
+Bot(5): yep like i always say if you believe it you can achieve it
+User(6): i like to think that way too
+Bot(6): yep like i always say if you believe it you can achieve it
+User(7): just have to find the right girl for you
+Bot(7): yes i gotta find love first
+User(8): oh so you go hunting for cute girls
+Bot(8): yes i gotta find love first
+User(9): you will someday
+Bot(9): yes i gotta find love first
+User(10): maybe you already did
+Bot(10): yes i gotta find love first
+User(11): maybe we can go a bit further
+Bot(11): yes i gotta find love first
+User(12): all right thats how you want it
+Bot(12): yes i gotta find love first
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm in an open polyamorous relationship.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.43
+Robotic(↓): 54
+Interesting: 83
+Fun: 74
+Consistent: 77
+Fluent: 84
+Repetitive(↓): 58
+Topic: 87
+
+####################
+

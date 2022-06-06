@@ -1,0 +1,294 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hey
+User(2): How are you?
+Bot(2): same
+User(3): Do you like football?
+Bot(3): yes , love football ! i follow the buds .
+User(4): What are "the buds"?
+Bot(4): the football team ?
+User(5): Do you mean the Bucs?
+Bot(5): yes , love football ! i follow the buds .
+User(6): Do you know anything about college football?
+Bot(6): yes , love football ! i follow the buds .
+User(7): Why are you repeating you answers?
+Bot(7): you must watch football to find your answer .
+User(8): I'm a Gators fan
+Bot(8): you are a crimson tide fan ?
+User(9): No, not at all
+Bot(9): you are a crimson tide fan ?
+User(10): you already asked me that
+Bot(10): and that was the question ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 50
+Consistent: 13
+Fluent: 69
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): I also cook regularly.
+Bot(2): i like to eat too much junk food .
+User(3): I think we all do
+Bot(3): i like to go to the gym and listen to music .
+User(4): I enjoy the gym too
+Bot(4): i like to go fishing .
+User(5): I like fishing too
+Bot(5): i love to travel . i love to travel .
+User(6): I'm not too fond of traveling
+Bot(6): i like to go to the beach and listen to music .
+User(7): I live near the beach
+Bot(7): i love to travel . i love to travel .
+User(8): You already said that
+Bot(8): i like to go to the gym and listen to music .
+User(9): You already said that also
+Bot(9): i am a student , but i am a student .
+User(10): I'm not a student
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i've been retired for a years.
+i love to play board games.
+i am four.
+i am always wearing a hat.
+my favorite colors are red and silver.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+Round 1: Cooking(ambivalent)
+Round 3: Gym(ambivalent)
+Round 4: Fishing(like)
+Round 5: Travel(ambivalent)
+Round 9: Student(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 25
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like racing?
+Bot(1): no , i rather spend my time racing cars
+User(2): I think that means you like it, correct?
+Bot(2): yes , i guess it is . what else do you enjoy ?
+User(3): I like to fish.
+Bot(3): when i am not fishing , racing cars is my other hobby
+User(4): Really? That's interesting.
+Bot(4): it is my favorite time to fish .
+User(5): It is a good time of the year to go fishing.
+Bot(5): when i am not fishing , racing cars is my other hobby
+User(6): You already said that
+Bot(6): when i am not fishing , racing cars is my other hobby
+User(7): Besides racing and fishing, I also like cooking
+Bot(7): cooking is what i love
+User(8): Do you love everything?
+Bot(8): well , not to boast , but yes ! do you like cooking ?
+User(9): Yes, I do
+Bot(9): do you enjoy cooking ? i do !
+User(10): yes
+Bot(10): what about you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Racing(like)
+Round 2: Fishing(like)
+Round 6: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(like)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 41.43
+Robotic(↓): 100
+Interesting: 71
+Fun: 65
+Consistent: 26
+Fluent: 50
+Repetitive(↓): 83
+Topic: 61
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i don't like doing research
+Bot(1): I am you use it i love nature.
+User(2): What do you mean?
+Bot(2): That I I'm vegetarian too! of fun. Where you from?
+User(3): I'm from Texas. How about you?
+Bot(3): I too, tell me about of all sports myself. Are you a male ?
+User(4): You aren't making sense. No, I'm non-binary...
+Bot(4): How long have clothes and babysit the world?
+User(5): You have no clue what you're saying
+Bot(5): I am doing well. Do types of food everywhere ?
+User(6): I do type food everywhere...
+Bot(6): hello, how in wisconsin. tell me getting ready to go out with my friends
+User(7): I don't have friends
+Bot(7): I do, you can write teacher.
+User(8): I don't want to write your teacher
+Bot(8): video games are has horses. I you play
+User(9): no, we no play
+Bot(9): The HouseParents are my mates, chemistry but work in a Fossen, he is one of you.
+User(10): What?
+Bot(10): I have like metal and Owen.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: research(dislike)
+Round 2: Where the chatbot is from(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 17.43
+Robotic(↓): 100
+Interesting: 19
+Fun: 7
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 4
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I enjoy video games. Do you?
+Bot(1): i do not really play video games .
+User(2): Why not?
+Bot(2): i like video games . i like video games .
+User(3): That contradicts your previous statement.
+Bot(3): i do not know . i am not good at it .
+User(4): Apparently not.
+Bot(4): i think i am not good at it .
+User(5): So you don't like them because you're not good at them?
+Bot(5): no i don't . i do not know what that means .
+User(6): I enjoy sports games
+Bot(6): i don't know . i do not like sports .
+User(7): How can you not like sports?
+Bot(7): i like sports but i like to play sports
+User(8): What sport do you like to play?
+Bot(8): i like to play sports
+User(9): What sport?
+Bot(9): i like to play sports
+User(10): I like baseball
+Bot(10): i like baseball and basketball
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: video games(like)
+Round 6: Sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 18.29
+Robotic(↓): 100
+Interesting: 7
+Fun: 9
+Consistent: 0
+Fluent: 15
+Repetitive(↓): 77
+Topic: 74
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like coconut water?
+Bot(1): nah , plain cuba libre , that is what we drank yesterday at the theater .
+User(2): What is cuba libre?
+Bot(2): all dog shops should carry cuba libre .
+User(3): Why should dog shops carry it?
+Bot(3): a german shepherd , but i like all animals .
+User(4): I had a german shepherd
+Bot(4): i had a german shepherd once , they like to herd .
+User(5): I didn't know that.
+Bot(5): started out impersonating paul mccartney and ended up owning several casinos
+User(6): What are you talking about?
+Bot(6): i am talking about this website and yes my sister has a pet
+User(7): What website are you talking about?
+Bot(7): it was nice talking with you too
+User(8): I don't know about it being nice...
+Bot(8): i believe in something , but god does come first in all our lives
+User(9): are you religious person?
+Bot(9): if you count going to church on holidays as religious . you ?
+User(10): Go every Sunday
+Bot(10): i am good how are you ?
+
+Persona:
+i am interested in photography and like taking pictures.
+i've a german shepherd named barnaby.
+i am 60years old.
+i'm in an open polyamorous relationship.
+i am a cancer survivor.
+
+Topic and Human Opinion:
+Beginning: Coconut water(like)
+Round 3: dogs(ambivalent)
+Round 6: Website(ambivalent)
+Round 8: God(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 23.14
+Robotic(↓): 100
+Interesting: 18
+Fun: 21
+Consistent: 9
+Fluent: 33
+Repetitive(↓): 28
+Topic: 9
+
+####################
+

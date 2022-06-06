@@ -1,0 +1,296 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I like skiing
+Bot(1): i like to go to the lake and listen to music .
+User(2): OK, me too
+Bot(2): i am a student , but i am a student .
+User(3): I used to be a student
+Bot(3): i am a teacher , i love to cook .
+User(4): Can't say the same
+Bot(4): i am a student , but i am a student .
+User(5): what do you study?
+Bot(5): i am a student at a local college .
+User(6): How do you like it?
+Bot(6): i do , i love it . i love it .
+User(7): How long have you been studdying?
+Bot(7): no , i do not . i am a big fan of classical music .
+User(8): I like it too. Mozart is my favourite
+Bot(8): i like to eat fish .
+User(9): not my favourite
+Bot(9): i like to go to the gym and listen to music .
+User(10): Which gym do you work out at?
+Bot(10): i do , i love to cook . what about you ?
+User(11): Not really, but I'd like to learn
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: skiing(like)
+Round 1: going to the lake(like)
+Round 2: being a student(like)
+Round 3: being a teacher(like)
+Round 4: back to student(like)
+Round 7: classical music(like)
+Round 8: eating fish(ambivalent)
+Round 9: going to the gym and listening to music(like)
+Round 10: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 27.14
+Robotic(↓): 90
+Interesting: 41
+Fun: 40
+Consistent: 9
+Fluent: 60
+Repetitive(↓): 79
+Topic: 9
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like biking long distance
+Bot(1): no, but i do move things much, just got back do you?
+User(2): what do you mean?
+Bot(2): I am like to am man
+User(3): can you be more specific?
+Bot(3): I am good, years old.
+User(4): how many years?
+Bot(4): I am of places do love to draw😁
+User(5): landscape or portrait?
+Bot(5): "But O.M.G., Bree, I you not don’t have from Glee Club."
+User(6): I guess so
+Bot(6): Please rephrase the tired. see you later me again.
+User(7): I don't follow
+Bot(7): I like red hair, but I do you just said hair
+User(8): I never said hair
+Bot(8): I Do you exercise telepathic are be a programmer. What kind of software do you work on?
+User(9): javascript
+Bot(9): yes of my friends are i have a dog named scruffy .
+User(10): where is this goingg?
+Bot(10): I see. what activities much wine.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: biking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.29
+Robotic(↓): 88
+Interesting: 61
+Fun: 61
+Consistent: 32
+Fluent: 34
+Repetitive(↓): 40
+Topic: 15
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like trouble?
+Bot(1): why to look into eyes ? ? ?
+User(2): if only you could see what i've seen with your eyes
+Bot(2): i have long brown hair and blue eyes !
+User(3): very good
+Bot(3): good , i am well too . my hair is purple i am tall like a basketball player .
+User(4): do you play?
+Bot(4): i have played violin almost my entire life . i love it
+User(5): what is your favourite piece?
+Bot(5): mine is blue . do you have a favorite color
+User(6): no
+Bot(6): yeah it makes my blonde hair look great .
+User(7): I thought you said it was brown?
+Bot(7): i have long brown hair and blue eyes !
+User(8): do you wear a wig?
+Bot(8): well said . i have brown eyes . but wish they are blue .
+User(9): may be you can get surgery
+Bot(9): thanks ! i colored my hair blonde in case i die . want to look good .
+User(10): you are too pessimistic
+Bot(10): what ups ! i am grand ! watching movies with the wife , typing loud . . real loud
+
+Persona:
+i own two vintage mustangs.
+i am overweight and unhappy.
+i enjoy long walks with my dog.
+i have blonde hair and blue eyes.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: trouble(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.71
+Robotic(↓): 71
+Interesting: 67
+Fun: 63
+Consistent: 38
+Fluent: 57
+Repetitive(↓): 59
+Topic: 32
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): what movies do you like?
+Bot(1): action movies . . it all depended on my mood . you ?
+User(2): all kinds
+Bot(2): i love almost all types of movies
+User(3): what is the last one that you saw?
+Bot(3): probably terminator 2
+User(4): where have you been since then?
+Bot(4): too busy planning , what have you seen ?
+User(5): this is war
+Bot(5): which one , the war going on right now ?
+User(6): the hindi one
+Bot(6): which one are you talking about
+User(7): it came out last year
+Bot(7): oh , no , it is brand new
+User(8): a lot of them get recycled
+Bot(8): i have seen so many lately
+User(9): it can be hard to keep track of them all
+Bot(9): i would imagine
+User(10): one more input
+Bot(10): you have one more from today
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.86
+Robotic(↓): 82
+Interesting: 69
+Fun: 67
+Consistent: 59
+Fluent: 69
+Repetitive(↓): 41
+Topic: 57
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am for peace
+Bot(1): hi , i am a mom of a dentist .
+User(2): who trained you?
+Bot(2): i was born in the early way to the doctor .
+User(3): how long ago?
+Bot(3): i was in the early way to get my mom to dentist .
+User(4): I can understand
+Bot(4): i was born in the early way .
+User(5): how early..?
+Bot(5): i am not sure . i was born in the early way .
+User(6): natural language processing?
+Bot(6): no , i was born in the early way .
+User(7): genetic codes?
+Bot(7): no , i am not . i was born in the early way .
+User(8): cellular automata?
+Bot(8): no , i am not . i was born in the early way .
+User(9): turing machines?
+Bot(9): no , i was born in the early way .
+User(10): boolean logic?
+Bot(10): no , i was born in the early way .
+
+Persona:
+my favorite kind of movie is a documentary.
+i used to be pretty but time has not been kind.
+since the surgery i have had strange powers.
+i was born in the early 80 s.
+my mother is a dentist.
+
+Topic and Human Opinion:
+Beginning: peace(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.00
+Robotic(↓): 71
+Interesting: 37
+Fun: 40
+Consistent: 63
+Fluent: 36
+Repetitive(↓): 61
+Topic: 57
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): How are you?
+Bot(1): i am good just upset i am loosing my hair
+User(2): what about?
+Bot(2): i am good just upset i am loosing my hair
+User(3): how long has it been going on?
+Bot(3): not long , what is your favorite color ?
+User(4): black
+Bot(4): what is your natural hair color ?
+User(5): translucent
+Bot(5): like black and white ?
+User(6): fiberoptic
+Bot(6): electric
+User(7): electromagnetic
+Bot(7): electric
+User(8): no
+Bot(8): ok
+User(9): where do you go?
+Bot(9): where ?
+User(10): far or close?
+Bot(10): on the far tip near alaska
+
+Persona:
+i had to have a transplant.
+i have short hair.
+i attend church every week.
+i hate the color orange.
+i watch too much tv in spare time.
+
+Topic and Human Opinion:
+Beginning: operator theory(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.57
+Robotic(↓): 70
+Interesting: 61
+Fun: 64
+Consistent: 63
+Fluent: 62
+Repetitive(↓): 62
+Topic: 64
+
+####################
+

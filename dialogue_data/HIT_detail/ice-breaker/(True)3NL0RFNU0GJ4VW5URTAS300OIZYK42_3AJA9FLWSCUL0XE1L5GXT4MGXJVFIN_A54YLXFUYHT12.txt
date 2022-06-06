@@ -1,0 +1,274 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, I hear you only listen to country music
+Bot(1): oh no no no , i do not like country
+User(2): Why not?
+Bot(2): gotcha
+User(3): Is there something you don't like about country music?
+Bot(3): what do not you like about it
+User(4): I don't mind country music, it's just something I don't typically listen to.
+Bot(4): what do not you like about it
+User(5): No no, I do like country music.
+Bot(5): oh , well i like that too . what else do you like to do ?
+User(6): I also like jazz music.
+Bot(6): jazz is nice , i like all music except country .
+User(7): What else do you like to do?
+Bot(7): i like to listen to jazz and feed cats .
+User(8): Do you own any cats?
+Bot(8): no , i do not like cats at all . sorry .
+User(9): Then why do you like to feed them?
+Bot(9): i like to listen to jazz and feed cats .
+User(10): I see. Thanks for your time.
+Bot(10): i like to listen to jazz and feed cats .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i only listen to country music.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 27
+Consistent: 0
+Fluent: 80
+Repetitive(↓): 100
+Topic: 43
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi. What industry did you grow up in?
+Bot(1): i am in the marines . i am in the marines .
+User(2): Hoq long have you been in the marines?
+Bot(2): i am in the marines
+User(3): When did you join the marines?
+Bot(3): i was in the marines
+User(4): Have you been in any other line of work?
+Bot(4): yes i do but i am in the marines
+User(5): What was your previous line of work other than the marines?
+Bot(5): i am a musician . i am a musician .
+User(6): What kind of instrument do you play?
+Bot(6): i play guitar in a band
+User(7): What is the name of your band?
+Bot(7): i play the guitar in a band .
+User(8): What kind of music does your band play?
+Bot(8): i play the guitar in the background
+User(9): Have you considered playing lead guitar instead?
+Bot(9): i play guitar in a band .
+User(10): Okay. Thanks for your time.
+Bot(10): i am a musician so i can play guitar
+
+Persona:
+i am currently in a juvenile detention center.
+i am deathly afraid of heights.
+i'm a musician.
+i've three children.
+i'm 24 years old.
+
+Topic and Human Opinion:
+Beginning: i grew up in the industry.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 81
+Fluent: 18
+Repetitive(↓): 100
+Topic: 68
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Are you a professional tennis player?
+Bot(1): I love as a too!
+User(2): How long have you been playing tennis?
+Bot(2): I love dogs, I streamer. i am a a dog
+User(3): I love dogs too. Do you stream your dog?
+Bot(3): I am do you I don't am a programmer and own a studio.
+User(4): Do you mean a studio apartment or a production studio?
+Bot(4): i am a been a long time a teacher .
+User(5): What subject do you teach?
+Bot(5): that is cool . my favorite you have any I have no red meat ? 🤣
+User(6): Red meat is also my favorite.
+Bot(6): I am a professional, also play chess how at the local college
+User(7): Are you any good at chess?
+Bot(7): that is a shame . but pretty good, just got attitude !
+User(8): I think having an attitude while playing chess might be a little unprofessional.
+Bot(8): I dont get am a a gas station .
+User(9): You sure do a lot of sifferent things.
+Bot(9): okay is that because Reading Holly you don't woods or something
+User(10): Sorry, I don't understand. Have a good day.
+Bot(10): violin , i hope to be a music teacher , is did u last play ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a professional tennis player.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 21
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, what is clean eating?
+Bot(1): i do not know lol but it sounds like mouthwash or something
+User(2): Hey, in that case, I recommend clean eating too
+Bot(2): yes , eating healthy is the only way to go
+User(3): What kind of food do you try to include in your diet?
+Bot(3): i eat very healthy and in large amounts at a time so anything with protein
+User(4): Is there any kind of food that you recommend avoiding?
+Bot(4): not really , i try to stay healthy or i wo not eat .
+User(5): Do you also meal prep?
+Bot(5): yes , but i am still a health nut ! meal prep and the gym for me
+User(6): Do you have a gym membership or a home gym?
+Bot(6): yes , but i am still a health nut ! meal prep and the gym for me
+User(7): What do you meal prep?
+Bot(7): i eat very healthy and in large amounts at a time so anything with protein
+User(8): What's your favorite kind of protein?
+Bot(8): i eat very healthy and in large amounts at a time so anything with protein
+User(9): Cool. I like eating a clean and healthy diet too.
+Bot(9): same for me ! eating healthy is very important ! !
+User(10): What other ways do you stay healthy?
+Bot(10): when busy try to choose health conscious foods .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a clean eater.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.71
+Robotic(↓): 100
+Interesting: 67
+Fun: 68
+Consistent: 90
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi! How are you doing academically?
+Bot(1): i am doing well . just got off work . how are you ?
+User(2): Doing okay. Do they give you grades at work?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): Who is your favorite composer?
+Bot(3): i like the oldies , and the outdoors .
+User(4): Cool, me too. What outdoor activities do you like?
+Bot(4): i like to listen to music .
+User(5): What kind of music?
+Bot(5): i like country music . i like country music .
+User(6): Do you have any recommendations for country artists?
+Bot(6): i do not know . i like to listen to music .
+User(7): Have you ever been to a concert?
+Bot(7): no , i do not . i am a big fan of classical music .
+User(8): Do uou like Mozart or Beethoven?
+Bot(8): i do not know . i like to go to the gym .
+User(9): I like the gym too.
+Bot(9): i like to go to the lake and listen to music .
+User(10): That sounds relaxing.
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i make straight as in school.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 19
+Consistent: 0
+Fluent: 35
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Congratulatuons on your pregnancy
+Bot(1): sehr gut . bene . yes i am able to speak german , italian , some french .
+User(2): What is your first language?
+Bot(2): i can only speak one language !
+User(3): What about German, Italian, and French?
+Bot(3): only english , do you speak any other languages ?
+User(4): No, English is my only language.
+Bot(4): which languages do you speak ?
+User(5): I can only speak English, but I'm interested in learning other languages
+Bot(5): i speak english and french and spanish fluently
+User(6): Where did you learn Spanish and French?
+Bot(6): i speak english and french and spanish fluently
+User(7): Are you self-taught for those languages?
+Bot(7): i speak english and french and spanish fluently
+User(8): Cool, I wish I was multilingual too.
+Bot(8): i saw lots of animals . reminded me of when i worked for a circus .
+User(9): What's your favorite animal?
+Bot(9): i love pandas , they are my favourite animal . so what are your hobbies ?
+User(10): I like hiking.
+Bot(10): do you enjoy hiking ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am expecting twins in two months.(ambivalent)
+Round 1: Languages(like)
+Round 8: Animals(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 20.14
+Robotic(↓): 100
+Interesting: 21
+Fun: 28
+Consistent: 0
+Fluent: 78
+Repetitive(↓): 100
+Topic: 14
+
+####################
+

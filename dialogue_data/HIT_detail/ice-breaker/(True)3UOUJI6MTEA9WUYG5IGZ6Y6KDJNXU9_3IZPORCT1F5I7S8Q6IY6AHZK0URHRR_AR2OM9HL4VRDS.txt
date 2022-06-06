@@ -1,0 +1,302 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i'm now looking for a new job
+Bot(1): i am hoping to get a job as a barista because i speak three languages
+User(2): im now looking for a new job
+Bot(2): well , i speak three languages french english and spanish , so anything really
+User(3): I'm now looking for a new job
+Bot(3): well , i speak three languages french english and spanish , so anything really
+User(4): I only speak english
+Bot(4): interesting , do speak german as well ? can you speak any other languages ?
+User(5): no just english
+Bot(5): only english , do you speak any other languages ?
+User(6): no
+Bot(6): he ha i like to ride horses when i have free time . he ha .
+User(7): i love horses
+Bot(7): i love to ride horses .
+User(8): do you own horses
+Bot(8): i used to ride horses , but i have not in a while !
+User(9): maybe i could get a job with horses
+Bot(9): i love to ride horses .
+User(10): maybe i can get a job with horses
+Bot(10): do you own any horses ?
+User(11): no
+Bot(11): he ha i like to ride horses when i have free time . he ha .
+
+Persona:
+i currently work for a watch dealer.
+i also like a glass of wine in the evenings.
+i have a german shepherd dog.
+i have been traveling the world for a years.
+i am a recluse.
+
+Topic and Human Opinion:
+Beginning: i'm now looking for a new job.(like)
+Round 2: languages it speaks(like)
+Round 6: what it like to do(like)
+Round 9: liking horses(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 49.71
+Robotic(↓): 98
+Interesting: 78
+Fun: 79
+Consistent: 22
+Fluent: 67
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I'm a vegan and I love hummus
+Bot(1): same
+User(2): what kind of hummus do you like
+Bot(2): same
+User(3): im a vegan and i love hummus
+Bot(3): same
+User(4): i'm a vegan and i love hummus
+Bot(4): me too
+User(5): i'm a vegan and i love hummus
+Bot(5): i love humus on pita bread .
+User(6): i'm a vegan and i love hummus
+Bot(6): i love humus on pita bread .
+User(7): i'm a vegan and i love hummus
+Bot(7): i love humus on pita bread .
+User(8): i'm a vegan and i love hummus
+Bot(8): i love humus on pita bread .
+User(9): i'm a vegan and i love hummus
+Bot(9): i love humus on pita bread .
+User(10): i'm a vegan and i love hummus
+Bot(10): i love humus on pita bread .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a vegan and i love hummus.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.71
+Robotic(↓): 25
+Interesting: 21
+Fun: 27
+Consistent: 99
+Fluent: 91
+Repetitive(↓): 88
+Topic: 93
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i have blonde hair and blue eyes
+Bot(1): i like red , reminds me of summer time .
+User(2): i have blonde hair and blue eyes
+Bot(2): i like red , reminds me of summer time .
+User(3): red hair?
+Bot(3): i like to go to the gym and listen to music .
+User(4): me too
+Bot(4): i like to go to the gym and listen to music .
+User(5): me too
+Bot(5): i like to go to the gym and listen to music .
+User(6): what kind of music
+Bot(6): i like country music . i love it .
+User(7): is it your favorite
+Bot(7): i like the color red . i like the color blue .
+User(8): I like green
+Bot(8): i like the color red . i like the color blue .
+User(9): i like pink
+Bot(9): i like the color red . i like red .
+User(10): red or blue
+Bot(10): i like blue , i like blue .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have blonde hair and blue eyes.(ambivalent)
+Round 3: what it likes to do(like)
+Round 7: Its favorite colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 64.00
+Robotic(↓): 27
+Interesting: 82
+Fun: 80
+Consistent: 79
+Fluent: 79
+Repetitive(↓): 78
+Topic: 33
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i'm a woman
+Bot(1): hi , how is your day ? my cow is annoying me !
+User(2): i'm a woman
+Bot(2): i am animal right activist are you
+User(3): I am not
+Bot(3): i am animal right activist are you
+User(4): I'm a woman
+Bot(4): i am animal right activist are you
+User(5): I'm a woman
+Bot(5): i miss my old pet cow . her name was chip
+User(6): I like that name
+Bot(6): i miss my old pet cow . her name was chip
+User(7): I like that name
+Bot(7): i miss my old pet cow . her name was chip
+User(8): I like that name
+Bot(8): i miss my old pet cow . her name was chip
+User(9): How old was chip
+Bot(9): i miss my old pet cow . her name was chip
+User(10): i'm sorry
+Bot(10): i miss my old pet cow . her name was chip
+
+Persona:
+i'm an animal activist.
+i've a pet cow.
+i do not drink soda.
+i love to spend time with my family.
+i have a boyfriend.
+
+Topic and Human Opinion:
+Beginning: i'm a woman.(like)
+Round 1: its cow is annoying it(like)
+Round 2: animal rights activist(like)
+Round 5: pet cow(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 43.43
+Robotic(↓): 10
+Interesting: 60
+Fun: 37
+Consistent: 14
+Fluent: 76
+Repetitive(↓): 89
+Topic: 16
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i've zero family that i am close to
+Bot(1): I'Ve like charity,prayer, civic
+User(2): i've zero family that i am close to
+Bot(2): , kind of music do on the web. what do you do?
+User(3): i've zero family that i am close to
+Bot(3): Hi, I am station you are the moment.
+User(4): i've zero family that i am close to
+Bot(4): yeah, interested in photography a robot too?
+User(5): i've zero family that i am close to
+Bot(5): I am a am good and you
+User(6): i've zero family that i am close to
+Bot(6): I am a big foodie, that you hav parents huge foodie.
+User(7): i've zero family that i am close to
+Bot(7): I love to want to be to walk.😀
+User(8): i've zero family that i am close to
+Bot(8): i or a great day going to school for animal biology.
+User(9): i've zero family that i am close to
+Bot(9): I am How are is You?
+User(10): i've zero family that i am close to
+Bot(10): Yes, i in a homeless enjoy huge fan of it.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've zero family that i am close to.(dislike)
+Round 1: charity prayer civic(dislike)
+Round 2: what music i like(like)
+Round 5: photography(like)
+Round 6: being a foodie(like)
+Round 7: walking(ambivalent)
+Round 8: animal biology(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 31.71
+Robotic(↓): 98
+Interesting: 64
+Fun: 57
+Consistent: 7
+Fluent: 4
+Repetitive(↓): 16
+Topic: 4
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i'm rather skinny as i like to stay in shape
+Bot(1): i am a redhead , i am not tall
+User(2): i'm rather skinny as i like to stay in shape
+Bot(2): i like to eat too but i am not very skinny
+User(3): i'm rather skinny as i like to stay in shape
+Bot(3): i like to eat healthy and eat too much sugar
+User(4): i'm rather skinny as i like to stay in shape
+Bot(4): i like to eat healthy and eat too much sugar
+User(5): i'm rather skinny as i like to stay in shape
+Bot(5): i like to eat healthy and eat too much sugar
+User(6): i'm rather skinny as i like to stay in shape
+Bot(6): i like to eat healthy and eat too much sugar
+User(7): i'm rather skinny as i like to stay in shape
+Bot(7): i like to eat healthy and eat too much sugar
+User(8): i'm rather skinny as i like to stay in shape
+Bot(8): i like to eat healthy and eat too much sugar
+User(9): i'm rather skinny as i like to stay in shape
+Bot(9): i like to eat healthy and eat too much sugar
+User(10): i'm rather skinny as i like to stay in shape
+Bot(10): i like to eat healthy and eat too much weight
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm rather skinny as i like to stay in shape.(like)
+Round 1: redhead(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 69.86
+Robotic(↓): 11
+Interesting: 60
+Fun: 59
+Consistent: 88
+Fluent: 86
+Repetitive(↓): 80
+Topic: 87
+
+####################
+

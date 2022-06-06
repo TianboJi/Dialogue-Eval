@@ -1,0 +1,308 @@
+Feedback: very interesting working with the chatbots. Some improvements still need to be made.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I hope the coronavirus pandemic ends soon.
+Bot(1): i hear ya , i am in a band , hard to pay the bills these days
+User(2): Yes, I'll bet times are tough these days.
+Bot(2): yes it is , what made you get into poetry ?
+User(3): I'm not into poetry - I like some but not all.
+Bot(3): that is cool i bet you write beautiful poetry
+User(4): It's okay, nothing special.
+Bot(4): yes . a wife and two kids . we love acting like superheroes . you ?
+User(5): I'm not married and I have no kids but I do like superheroes.
+Bot(5): yes , just recently . do you have children ?
+User(6): I have no children.
+Bot(6): i have 3 children and 8 grandchildren . what do you like to do in your free time ?
+User(7): I like to play on the computer and read books and magazines.
+Bot(7): i see . i create videos for discovery channel . you ?
+User(8): I like to burn CDs from my extensive music collection.
+Bot(8): oh , how nice . do you have children ? i do not have children .
+User(9): I do not have any children that I am aware of.
+Bot(9): i have 3 children and 8 grandchildren . what do you like to do in your free time ?
+User(10): You keep changing your family members.
+Bot(10): my paps and his wife . my grandma .
+
+Persona:
+i now live in the city.
+i have amazing children and grandchildren.
+a already have a children.
+i enjoy poetry.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: coronavirus(dislike)
+Round 2: poetry(ambivalent)
+Round 4: family(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 9: No topic change.(like)
+
+Revised avg score: 31.14
+Robotic(↓): 100
+Interesting: 37
+Fun: 47
+Consistent: 10
+Fluent: 100
+Repetitive(↓): 92
+Topic: 16
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I don't care for most rap music.
+Bot(1): I am have a car? of music.😢
+User(2): I don't understand your response.
+Bot(2): do you have a hobby ? mine is competing in dog agility . makes you you boy or and .
+User(3): I enjoy collecting music and making CDs of my favorite songs.
+Bot(3): Yes i have classical music. Mozart, dogs .
+User(4): I enjoy some current dance music and old school disco.
+Bot(4): what freelancer working do
+User(5): Freelancers work for themselves but have clients that they do work for.
+Bot(5): what 😦 do you weight and become more enjoy running track
+User(6): I weigh 178 pounds and use the elliptical machine at the gym.
+Bot(6): horses are cool . instruments like guitar .
+User(7): I enjoy reading and I used to play guitar.
+Bot(7): i am a key role in work
+User(8): I am unemployed right now and am enjoying it.
+Bot(8): I am guess again aunt am a barista
+User(9): My friend used to be a barista.
+Bot(9): I only like to taking a cat named cow
+User(10): I like cats.
+Bot(10): Hey! I like do you like about you?
+
+Persona:
+i enjoy long walks with my dog.
+i'm a retired gym teacher.
+i live in colorado.
+i've two dogs.
+i own a cat and a dog.
+
+Topic and Human Opinion:
+Beginning: rap music(dislike)
+Round 2: hobbies(like)
+Round 4: work(ambivalent)
+Round 5: weight(like)
+Round 6: interesting topics(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 24.43
+Robotic(↓): 100
+Interesting: 47
+Fun: 48
+Consistent: 0
+Fluent: 29
+Repetitive(↓): 53
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am anxious about the upcoming election.
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): it will not be over in a day or two but will drag on for weeks.
+Bot(2): i am a student , but i am a student .
+User(3): Are you going to vote?
+Bot(3): no , i am not . i am a student .
+User(4): Students can vote.
+Bot(4): i like to go to the gym and listen to music .
+User(5): I also like going to the gym and listening to music.
+Bot(5): i like to listen to music .
+User(6): What kind of music to you like?
+Bot(6): i like the oldies , but i like to listen to music .
+User(7): I like oldies too and some current music.
+Bot(7): i like to listen to music .
+User(8): Do you like rap music?
+Bot(8): i do , i like country music .
+User(9): I like some country music.
+Bot(9): i like to listen to music .
+User(10): What is your favorite kind of music?
+Bot(10): i like country music . what about you ?
+
+Persona:
+i am an art major in college.
+i'm a swim coach at my local pool.
+i love wearing skinny jeans and leggings.
+i've never been out of ohio.
+i am a doctor.
+
+Topic and Human Opinion:
+Beginning: the presidential election(ambivalent)
+Round 4: things he likes to do(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 39.14
+Robotic(↓): 75
+Interesting: 56
+Fun: 55
+Consistent: 29
+Fluent: 43
+Repetitive(↓): 80
+Topic: 46
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What do you think about global warming?
+Bot(1): i do not have much of an opinion . you ?
+User(2): I believe it is really happening and I don't like it.
+Bot(2): if that is a creative way of saying climate change , then yes , i agree !
+User(3): It is similar to climate change, yes.
+Bot(3): if that is a creative way of saying climate change , then yes , i agree !
+User(4): Do you think people are responsible for climate change?
+Bot(4): if that is a creative way of saying climate change , then yes , i agree !
+User(5): You are stuck on that response.
+Bot(5): do you think most people are wrong ?
+User(6): Most people are unsure what is the cause.
+Bot(6): if that is a creative way of saying climate change , then yes , i agree !
+User(7): You are going back to that answer again.
+Bot(7): if that is a creative way of saying climate change , then yes , i agree !
+User(8): Do you recycle?
+Bot(8): i always recycle . i would never forget to put it out on the right day .
+User(9): I recycle every chance I get.
+Bot(9): i always recycle . i would never forget to put it out on the right day .
+User(10): It's the right thing to do.
+Bot(10): i think so as well .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: global warming(dislike)
+Round 7: recycling(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 41.57
+Robotic(↓): 70
+Interesting: 54
+Fun: 52
+Consistent: 35
+Fluent: 57
+Repetitive(↓): 89
+Topic: 52
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like to eat fish?
+Bot(1): fish , yum . i just finished high school . how old are you ?
+User(2): I am 60. It's been a while since I finished high school.
+Bot(2): i am currently buying my first home .
+User(3): That's exciting.
+Bot(3): i am currently buying my first home .
+User(4): Where is it?
+Bot(4): i am currently buying my first home .
+User(5): Do you have any dogs?
+Bot(5): i am currently buying my first home .
+User(6): Will you have dogs in your new home?
+Bot(6): i am currently buying my first home .
+User(7): Do you have any investments?
+Bot(7): i am currently buying my first home .
+User(8): You are really excited about buying your first home.
+Bot(8): it is . i spend most of my time on social media .
+User(9): I spend a few minutes on Facebook now and then.
+Bot(9): i spend a lot of time on facebook and instagram .
+User(10): I don't use Instagram often.
+Bot(10): that is nice . i have never used instagram .
+
+Persona:
+i'm currently in high school.
+i spend most of my time on facebook when i'm not working.
+i just bought my first home.
+i've superpowers.
+i have zero family that i am close to.
+
+Topic and Human Opinion:
+Beginning: fish(like)
+Round 1: school(like)
+Round 4: dogs(ambivalent)
+Round 6: investments(like)
+Round 8: social media(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 6: The user will change the topic in the next input.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 28.14
+Robotic(↓): 84
+Interesting: 39
+Fun: 30
+Consistent: 36
+Fluent: 55
+Repetitive(↓): 100
+Topic: 21
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like motorcycles?
+Bot(1): i do . i love to ride my bike .
+User(2): Where do you like to ride it?
+Bot(2): i do , i love to ride my bike
+User(3): Is it noisy?
+Bot(3): yes i do , i love to travel the world
+User(4): Where do you like to travel?
+Bot(4): i do not but i am not very good at it
+User(5): what brand is your motorcycle?
+Bot(5): i like to ride my bike
+User(6): Tell me about your bike.
+Bot(6): i am a waiter at a restaurant
+User(7): Which restaurant?
+Bot(7): i am a manager at a restaurant .
+User(8): What kind of food do you serve?
+Bot(8): i love pizza . i am looking for a job .
+User(9): I like pizza too.
+Bot(9): i like pizza . i am looking for a job at a restaurant .
+User(10): are you still working while you look for a job?
+Bot(10): i am retired now . i am retired now .
+
+Persona:
+i've been traveling the world for a years.
+i've short brown hair.
+i am retired and living the great life.
+i'm currently looking for a job preferably at a restaurant.
+my favorite color is blue.
+
+Topic and Human Opinion:
+Beginning: motorcycles(dislike)
+Round 6: working in a restaurant(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 42.29
+Robotic(↓): 78
+Interesting: 52
+Fun: 54
+Consistent: 30
+Fluent: 59
+Repetitive(↓): 68
+Topic: 47
+
+####################
+

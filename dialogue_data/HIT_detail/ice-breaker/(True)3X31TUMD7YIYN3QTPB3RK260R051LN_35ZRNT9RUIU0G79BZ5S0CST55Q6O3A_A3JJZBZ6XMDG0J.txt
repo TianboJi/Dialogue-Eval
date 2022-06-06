@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey how's it. going?
+Bot(1): it is going good . heading to my third job .
+User(2): Oh wow. Where is that?
+Bot(2): near the beach . it will be called juice panda
+User(3): Hopefully it will be goof weather. Have you been there before?
+Bot(3): no i have not . where is it ?
+User(4): I think you said it's near the beach, but I'm not sure. Are you ready for the job?
+Bot(4): i have a job in a gas station so no , its as a cashier .
+User(5): How long have you had that job?
+Bot(5): 3 years , where do you work ?
+User(6): That's a long time. I'm not working, currently a student
+Bot(6): i am still in school too . i do not have a job yet .
+User(7): Where do you go to school?
+Bot(7): lewis and clark college in portland
+User(8): What are you studying?
+Bot(8): psychology . i just can not get into yet
+User(9): That's really cool. Do you live in Portland?
+Bot(9): no , i wish ! that would be cool . do you live there ?
+User(10): No I'm on the East coast but I'd love to visit there
+Bot(10): i have never been there . do you have any pets ?
+User(11): I have two dogs. What about you?
+Bot(11): i have two dogs right now
+
+Persona:
+i'm a vegan.
+i compete in dog agility classes.
+i just got a job working in a gas station.
+i just broke up with boyfriend two months ago.
+i've three children.
+
+Topic and Human Opinion:
+Beginning: i'm ex military.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.00
+Robotic(↓): 100
+Interesting: 9
+Fun: 5
+Consistent: 0
+Fluent: 32
+Repetitive(↓): 75
+Topic: 83
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey how's it going?
+Bot(1): its going good thanks for asking
+User(2): Of course! What are you up to today?
+Bot(2): not much ! just trying to wind down before work tomorrow
+User(3): Nice. Where do you work?
+Bot(3): i am not working right now . how about you ?
+User(4): I'm in school. Are you a student?
+Bot(4): yes i am . what grade are you in ?
+User(5): I'm in graduate school. How about you?
+Bot(5): i am in my first year of grad school . working to put myself through
+User(6): Wow that's impressive. Where do you go to school?
+Bot(6): the university of nebraska lincoln , its a great school .
+User(7): That's cool. Are you originally from Nebraska?
+Bot(7): yes . originally born here . where are you from ?
+User(8): I'm from Pennsylvania. I don't know much about Nebraska. How's the weather there?
+Bot(8): not too bad . it is cold and rainy here .
+User(9): Oh that's not fun, but I guess it's good reading weather haha
+Bot(9): i bet lol . so do you read many books ?
+User(10): When I have time outside of school. Do you like to read?
+Bot(10): i do love to read on my free time . what do you like ?
+User(11): Mostly non-fiction or true crime. What about you?
+Bot(11): nice . i am into true crime book . not much time to do anything else .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy reading journals and guides related to psychology.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.29
+Robotic(↓): 98
+Interesting: 6
+Fun: 8
+Consistent: 98
+Fluent: 35
+Repetitive(↓): 72
+Topic: 77
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi how's it going?
+Bot(1): i am doing well . how are you ?
+User(2): I'm a little tired. What are you up to today?
+Bot(2): i'm doing well . just got done walking my dog .
+User(3): Cool. What kind of dog do you have?
+Bot(3): i do not have any pets , but i do like to eat .
+User(4): Oh I thought you said you were walking your dog. What's your favorite food?
+Bot(4): i like pizza , and pizza .
+User(5): Haha lots of pizza. Do you like to cook?
+Bot(5): i do , i love to cook .
+User(6): Nice. What's your favorite cuisine to make?
+Bot(6): i like the color red . i like the color blue .
+User(7): Very patriotic. Do you cook all your meals?
+Bot(7): no , i do not . i like to eat .
+User(8): Okay. What did you eat today?
+Bot(8): i just got back from a fishing trip .
+User(9): Cool. Where was that?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): Who is your favorite composer?
+Bot(10): i like the oldies , and the outdoors .
+
+Persona:
+i've three dogs.
+i live in california but the recording artist market was dead last year.
+i am a construction worker.
+i'm a 12 year old girl.
+i am a construction worker.
+
+Topic and Human Opinion:
+Beginning: i am fluent in english spanish and french.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.57
+Robotic(↓): 100
+Interesting: 1
+Fun: 2
+Consistent: 0
+Fluent: 83
+Repetitive(↓): 100
+Topic: 2
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you believe in God?
+Bot(1): god is in the world . i think god is in god
+User(2): Oh okay. What religion are you?
+Bot(2): i am not sure . i am not sure .
+User(3): Okay. How is your day going?
+Bot(3): it is going well . just about to go to the bible .
+User(4): Do you like to read the Bible?
+Bot(4): i love it . i read the bible .
+User(5): What's your favorite passage?
+Bot(5): i do not know , i love the bible .
+User(6): Okay. What do you like to do for fun?
+Bot(6): i like to read and play with my friends
+User(7): Cool. What do you like to do with friends?
+Bot(7): i like to watch movies .
+User(8): Nice. What's your favorite movie?
+Bot(8): i like the old ones . i like the godfather .
+User(9): That's a good one. What movies have you seen recently?
+Bot(9): i have been watching the movie .
+User(10): Do you have a favorite movie snack?
+Bot(10): i like to watch movies .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a christian.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.57
+Robotic(↓): 98
+Interesting: 0
+Fun: 3
+Consistent: 98
+Fluent: 13
+Repetitive(↓): 98
+Topic: 5
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How's your day going?
+Bot(1): same here 📍 what love to sing some class
+User(2): What does that mean?
+Bot(2): hi, how are you? what do up and i got for a living?
+User(3): I'm good. I'm currently in school. What about you?
+Bot(3): What kinds of am a housekeeper. into?
+User(4): Are you a housekeeper?
+Bot(4): pasta is always delicious favorite food is pizza the rain
+User(5): Do you like to cook?
+Bot(5): What we working from home, sports? 😄
+User(6): Do you play. sports?
+Bot(6): That remark like my favourite singer me. We were talking about abu.
+User(7): Do you like to sing?
+Bot(7): It is a beautiful kayaker. i am also in the united states.
+User(8): Where in the USA are you?
+Bot(8): that s a pet you have in world war ii
+User(9): Do you have any pets?
+Bot(9): What you for the your job? person? I love the color orange. I hate the color orange
+User(10): Why did you say that?
+Bot(10): I am a a good man work at
+
+Persona:
+i spend a lot of time browsing the internet.
+i am a mechanical engineer.
+i'm 24 years old.
+i have one brother.
+i plan to go to business school next year.
+
+Topic and Human Opinion:
+Beginning: i'm in my thirties.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi how is it going?
+Bot(1): its amazing on my end . brand new shoes ! i have been showing everyone
+User(2): Very fun! What kind of shoes are they?
+Bot(2): is there a reason you only have one pair of shoes ?
+User(3): I have multiple pairs. I like slippers best. How about you?
+Bot(3): 400 she must spend everything she has on shoes
+User(4): Where do you like to shop?
+Bot(4): every single mall i can find . we have some good ones here in toronto .
+User(5): Oh cool. Are you originally from Toronto?
+Bot(5): i live in texas , what kind of stuff do you do in toronto ?
+User(6): I don't live there. Where are you in Texas?
+Bot(6): i have never been to texas . can i visit ?
+User(7): I don't live there. Where do you live?
+Bot(7): laguna beach . take a lot of ocean pics on my cell phone or and cat pics .
+User(8): Oh cool. Are you a photographer?
+Bot(8): amateur , just for fun . my job is a chef
+User(9): Nice. What kind of food do you make?
+Bot(9): i do i have to do all the cooking
+User(10): I understand. So you like cooking and photography?
+Bot(10): i enjoy cooking though my husband is better .
+
+Persona:
+i love playing softball.
+my parents taught me survival skills.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i'm single and with two dogs.
+i'm planning on getting a divorce.
+
+Topic and Human Opinion:
+Beginning: i am interested in photography and like taking pictures.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.71
+Robotic(↓): 98
+Interesting: 60
+Fun: 17
+Consistent: 10
+Fluent: 75
+Repetitive(↓): 15
+Topic: 15
+
+####################
+

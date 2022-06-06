@@ -1,0 +1,297 @@
+Feedback: No comments
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i love to play football
+Bot(1): football is fun , whats your favorite team ?
+User(2): my college team is my favorite
+Bot(2): my favorite american football team is the browns . my favorite mls team is the crew .
+User(3): who is your favorite player?
+Bot(3): oh okay . my idol is the lead singer from imagine dragons
+User(4): who is he?
+Bot(4): he is six , and he loved it ! i dressed my yorkie as a lion 3
+User(5): do you play football?
+Bot(5): football is fun , whats your favorite team ?
+User(6): my college team is my favorite
+Bot(6): my favorite american football team is the browns . my favorite mls team is the crew .
+User(7): do you play football?
+Bot(7): football is fun , whats your favorite team ?
+User(8): what is your favorite position in football?
+Bot(8): quarterback . do you like football ?
+User(9): i like football
+Bot(9): football is fun , whats your favorite team ?
+User(10): american football team is my favorite
+Bot(10): what team do you like ?
+User(11): my college team
+Bot(11): my favorite american football team is the browns . my favorite mls team is the crew .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 72.43
+Robotic(↓): 62
+Interesting: 90
+Fun: 84
+Consistent: 83
+Fluent: 83
+Repetitive(↓): 54
+Topic: 83
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i love to drive car
+Bot(1): when i am driving my car i love listening to country music
+User(2): i listen to classic music while driving
+Bot(2): i love some country music
+User(3): it is also my favorite
+Bot(3): is good , i enjoy rock climbing
+User(4): i don't like that
+Bot(4): why not ? i want to party soon when i party i party !
+User(5): i am not interested in that
+Bot(5): is good , i enjoy rock climbing
+User(6): i basically i am not interested in that
+Bot(6): why not ? i want to party soon when i party i party !
+User(7): i don't like
+Bot(7): why not ? i want to party soon when i party i party !
+User(8): which is your favorite car?
+Bot(8): bentley , they are amazing to me
+User(9): what is the reason?
+Bot(9): because it is my fave car
+User(10): any additional reason for that ?
+Bot(10): because it is my fave car
+User(11): how much it cost?
+Bot(11): i paid about 3 . 50 the dealer was almost pay me to take it away
+User(12): what is your car color?
+Bot(12): the color of the shadows
+
+Persona:
+my favorite activity is rock climbing.
+i love to cook paella.
+i only listen to country music.
+i am a party animal.
+i also like to cook but i am not very good at it.
+
+Topic and Human Opinion:
+Beginning: car(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.71
+Robotic(↓): 63
+Interesting: 80
+Fun: 74
+Consistent: 78
+Fluent: 64
+Repetitive(↓): 55
+Topic: 75
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i like posting in social media
+Bot(1): i am not a fan of swimming but i do like to swim
+User(2): i don't like swimming
+Bot(2): i am not a fan of swimming but i do like to swim
+User(3): i don't know to swim
+Bot(3): i am not a fan of swimming but i do have a lot of free time
+User(4): i don't know to swim
+Bot(4): swimming is fun . i also have a boat and i love to swim
+User(5): i am not interested to learn swimming
+Bot(5): i am not a fan of swimming but i do like to swim
+User(6): i don't know to swim
+Bot(6): swimming is fun i like to swim
+User(7): is it?
+Bot(7): i do not swim but i do have a lot of free time
+User(8): what you do in your free time?
+Bot(8): i like to swim and play video games
+User(9): which is your favorite video game?
+Bot(9): i like to swim but i am not very good at it
+User(10): you are you saying like this?
+Bot(10): i am not sure . i am not very good at it
+
+Persona:
+i have an internet addiction and spend a lot of time playing roleplaying games.
+i've blonde hair and blue eyes.
+i'm not a good swimmer at all.
+i waitress during the day to supplement my income.
+i own a yacht and i rent it out when i am not using it.
+
+Topic and Human Opinion:
+Beginning: social media(like)
+Round 1: swimming(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 31.86
+Robotic(↓): 59
+Interesting: 10
+Fun: 11
+Consistent: 75
+Fluent: 22
+Repetitive(↓): 100
+Topic: 64
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i love to eat apple
+Bot(1): I am in too, which sports I am a stay at home mom.
+User(2): apple is good for health
+Bot(2): i go to umass and study to dance in the is going on ?
+User(3): apple helps in blood circulation
+Bot(3): Don't make to cook paella. Say something!
+User(4): what is that?
+Bot(4): how exciting want to talk really? has three .
+User(5): what are you saying?
+Bot(5): i'm just dealing with you know, sitz and That my kids how are you this morning ?
+User(6): i amfine
+Bot(6): I am going to build a a college student
+User(7): who is he?
+Bot(7): Thank Do you have with your help
+User(8): no usually i don't
+Bot(8): charleston south carolina new job morning, sir. here my entire life
+User(9): can't understand
+Bot(9): I have do not know what have any pets?
+User(10): i have pets
+Bot(10): It are a 😒
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: apple(like)
+Round 3: cook paella(dislike)
+Round 9: pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 41.00
+Robotic(↓): 55
+Interesting: 56
+Fun: 57
+Consistent: 58
+Fluent: 29
+Repetitive(↓): 69
+Topic: 11
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i love to play basketball
+Bot(1): hello , i do not play any sports . do you have a favorite food ?
+User(2): i love pizza
+Bot(2): i like some seafood , but bread is my weakness
+User(3): what is the reason for that?
+Bot(3): because i reside in a ranch
+User(4): why is that?
+Bot(4): i just like going there . i do not have one particular reason .
+User(5): how much you spend there?
+Bot(5): pizza place most of the time
+User(6): where is it?
+Bot(6): them across the street i suppose
+User(7): do you like pizza?
+Bot(7): yeah i love pizza
+User(8): which is favorite pizza?
+Bot(8): i like meat lovers pizza whats yours
+User(9): i also like meat pizza
+Bot(9): i do not like seafood .
+User(10): i like sea foods
+Bot(10): i do not like seafoods at all
+User(11): what is the reason?
+Bot(11): because i reside in a ranch
+
+Persona:
+i have a weakness for fish and chips.
+i am a bee farmer.
+i am terrified of clowns due to childhood trauma.
+i love to cook paella.
+i'm currently looking for a job preferably at a restaurant.
+
+Topic and Human Opinion:
+Beginning: basketball(like)
+Round 2: foods(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 80.00
+Robotic(↓): 85
+Interesting: 96
+Fun: 99
+Consistent: 100
+Fluent: 66
+Repetitive(↓): 15
+Topic: 99
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i love to eat pizza
+Bot(1): i like to eat fish .
+User(2): do u like fish ?
+Bot(2): i do , i like to eat .
+User(3): i am also interested in eating fish
+Bot(3): i like to eat the skin .
+User(4): i love to eat flesh
+Bot(4): i like to eat fish .
+User(5): i am also interested in eating fish
+Bot(5): i like to eat the skin .
+User(6): how often you eat fish per week?
+Bot(6): i love to cook . i love to cook .
+User(7): i love to cook
+Bot(7): i like to eat the skin .
+User(8): i don't like that
+Bot(8): i like to go to the gym and listen to music .
+User(9): i love to go to gym
+Bot(9): i love to cook , and i love to cook .
+User(10): i don't know to cook
+Bot(10): i like to eat too much junk food .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pizza(like)
+Round 5: fish(like)
+Round 6: cook(like)
+Round 8: gym and music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 47.29
+Robotic(↓): 63
+Interesting: 66
+Fun: 74
+Consistent: 78
+Fluent: 46
+Repetitive(↓): 86
+Topic: 16
+
+####################
+

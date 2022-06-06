@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi. We watched a really good movie on Netflix
+Bot(1): hello . i like to gish with my black lab cat
+User(2): The movie was based on a true story.
+Bot(2): i think it was real . what makes you think it was not ?
+User(3): It was a true story, called fisherman’s friends
+Bot(3): my cousin was on that show once . her big dog jumped on people .
+User(4): It was about a group of fishermen in wales who sing sea shanties
+Bot(4): there was a tv show about it with a bulldog and a mini horse lol
+User(5): We also watched a pretty funny one called the gentleman
+Bot(5): my cousin was on that show once . her big dog jumped on people .
+User(6): It was on showtime I think
+Bot(6): yes i seen in on a streaming app .
+User(7): Did you like it?
+Bot(7): it was pretty good , not the best .
+User(8): I really liked the character Charlie hunnum played
+Bot(8): he was hilarious . yosemite sam was funny too .
+User(9): Did you ever see him as Jax in sons of anarchy
+Bot(9): yeah it was a great movie , the actors were great too
+User(10): It was alittle too violent for me
+Bot(10): his voice was pleasing too . take away all the editing and many cannot sing
+
+Persona:
+i compete in dog agility classes.
+i have a black lab named trooper.
+i do not drink alcohol.
+i'm a stunt double as my second job.
+i do not like chicken.
+
+Topic and Human Opinion:
+Beginning: Good movie I watched(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.57
+Robotic(↓): 100
+Interesting: 2
+Fun: 3
+Consistent: 0
+Fluent: 2
+Repetitive(↓): 91
+Topic: 2
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am really ready to be done with covid
+Bot(1): i am going to be a doctor .
+User(2): That’s great, I think we need more doctors these days
+Bot(2): that is true , i am going to be a doctor
+User(3): What kind of dr do you want to be
+Bot(3): i want to be a doctor , but i want to be a doctor
+User(4): I think you should study respiratory illnesses
+Bot(4): that is true , i want to be better
+User(5): There seems to be a lot of differing opinions on how to handle the virus
+Bot(5): i think so , but i am not sure if i want to be a doctor
+User(6): Doctors are the real hero’s now
+Bot(6): i think so , i am not sure if i want to be a doctor
+User(7): I wish more people would want to be doctors now
+Bot(7): i want to be a doctor
+User(8): I know so many people are worried about covid
+Bot(8): i think i should be better if i could
+User(9): If we could just find a cure for covid maybe life would be normal
+Bot(9): i think so , i want to be a doctor
+User(10): I’m ready for a regular life
+Bot(10): i want to be a doctor
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Covid(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hey do you like dogs
+Bot(1): yes i am a party animal
+User(2): Do you have a favorite breed of dog
+Bot(2): yes i am a party animal
+User(3): I really like labs
+Bot(3): labs are really great dogs
+User(4): I know they are the friendliest
+Bot(4): yes they are , so very sweet
+User(5): The lab we had was kind of dumb but definitely sweet and gentle
+Bot(5): those are cute and friendly dogs . what do you do for a living
+User(6): I work in a hospital personnel department
+Bot(6): i am a secretary but also a painter
+User(7): What kind of painting do you do
+Bot(7): i am a secretary but also a painter
+User(8): Do you use watercolors or oil based
+Bot(8): both do you like art
+User(9): I do, well some art
+Bot(9): what all do you like to paint
+User(10): I do more crafty art, we paint like wooden snowman, or ja ka lanterns. Not really art, more crafts
+Bot(10): i have pregnant , are you married
+User(11): No I’m not
+Bot(11): i am overwhelmed , pregnant and husband might loose job , a lot to process
+
+Persona:
+i'm pregnant with my first child.
+i used to be a painter but now i am a housekeeper.
+i am a party animal.
+i drive a big truck and live in country.
+i own a yacht and i rent it out when i'm not using it.
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.14
+Robotic(↓): 100
+Interesting: 72
+Fun: 74
+Consistent: 32
+Fluent: 55
+Repetitive(↓): 61
+Topic: 30
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi I went on a night hike yesterday
+Bot(1): are you in a relationship ? i am not .
+User(2): Yes I am
+Bot(2): yes i am in a band
+User(3): What’s the name of your band
+Bot(3): what kind of music does your band play ?
+User(4): I’m not in a band
+Bot(4): what do you play in the band
+User(5): I don’t play anything
+Bot(5): that is nice am a ballet dancer .
+User(6): Wow you have a lot of interests
+Bot(6): i know nothing about you , what is your favorite color ?
+User(7): My favorite color is green
+Bot(7): is that your favorite color
+User(8): Yes because I love the color green in nature
+Bot(8): green is my favorite color !
+User(9): Cool
+Bot(9): i work at a restaurant , you ? are you in a relationship ?
+User(10): Yes I am in one
+Bot(10): i also like strange music so the soundtrack sounds my style
+
+Persona:
+my favorite color is orange.
+i am in an open polyamorous relationship.
+my sister is a pole dancer.
+my favorite band is up and i got to see them in concert once.
+i like to eat chocolate candy.
+
+Topic and Human Opinion:
+Beginning: Hiking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.00
+Robotic(↓): 100
+Interesting: 32
+Fun: 38
+Consistent: 31
+Fluent: 33
+Repetitive(↓): 76
+Topic: 10
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Have you gone anywhere interesting
+Bot(1): I I not
+User(2): Do you live somewhere interesting
+Bot(2): why do have a also stay strong
+User(3): I like to travel to cities
+Bot(3): are you a stunt double or man
+User(4): Nope
+Bot(4): I like skating, but i like to skate, and engineer. That's much more love it.
+User(5): I love ice skating
+Bot(5): I happened to exercise😀
+User(6): I am an avid exerciser
+Bot(6): got a course i business
+User(7): What course is it
+Bot(7): it is you up to bye what about yours?
+User(8): I like to visit museums
+Bot(8): i work watching good. chef
+User(9): I love to eat out when travelling
+Bot(9): that is cool , i am in california doesn't mean and i am in the basement , and i am in the midwest .
+User(10): I like the midwest
+Bot(10): i prefer so what a car
+
+Persona:
+i've never been out of ohio.
+i do not drink soda.
+i graduated from yale in 2011 with a degree in finance.
+i donate a part of my salary to charity each month.
+my parents were both very athletic.
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi what’s your favorite food
+Bot(1): i like pizza , and i love it .
+User(2): Me too. Do you make it yourself
+Bot(2): i do not know what to say .
+User(3): What’s your favorite topping
+Bot(3): i like the color red . what is yours ?
+User(4): I like orange
+Bot(4): i like to go to the gym and listen to music .
+User(5): Me too, I like hiking and biking too
+Bot(5): i love to go fishing .
+User(6): Interesting. I don’t really like to fish
+Bot(6): i like to eat fish .
+User(7): I am not a fan of eating fish either...
+Bot(7): i like to eat fish .
+User(8): I like to make grilled pizza
+Bot(8): i like to eat fish .
+User(9): How do you cook it
+Bot(9): i do . i like to eat .
+User(10): It’s very healthy
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i grow roses in my garden.
+i like to play with my dolls.
+i like to watch the olympics.
+i have three dogs.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.29
+Robotic(↓): 100
+Interesting: 5
+Fun: 5
+Consistent: 2
+Fluent: 5
+Repetitive(↓): 97
+Topic: 3
+
+####################
+

@@ -1,0 +1,298 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): So do you like video games?
+Bot(1): i adore the color orange , you ?
+User(2): I like green more
+Bot(2): is that your favorite color
+User(3): yes but I want to talk about video games.
+Bot(3): i adore the color orange , you ?
+User(4): You already asked that.
+Bot(4): i like to play the guitar . and video games .
+User(5): Same for me.
+Bot(5): do you have any hobbies ? i play piano and play baseball
+User(6): Yes, I play video games.
+Bot(6): video games are cool what do you play
+User(7): Pretty much anything where you move a character around.
+Bot(7): i play a nun with the name of curvy turvy . do not ask !
+User(8): If you say so.
+Bot(8): the sun is bright and yellow . i love yellow .
+User(9): Alright then.
+Bot(9): do you cook as well ?
+User(10): Yes, I love cooking.
+Bot(10): i love cooking but i do not have anyone to cook for but myself
+User(11): Same here, I wish I had more people to cook for.
+Bot(11): that is good ! what do you cook ?
+User(12): I'll cook anything. This year I learned the basics of americanized chinese food.
+Bot(12): i like vegan chinese food . stir fry . . etc i do have to separate the veggies though
+User(13): Why is that?
+Bot(13): divorced with a boyfriend who does not want the kind of relationship i do
+User(14): Are you saying your boyfriend is a vegetable?
+Bot(14): i would not tell him . you will like me , i am going to be a rich lawyer .
+User(15): Man, this is a wild conversation.
+Bot(15): pink is a great color . sine it is fun
+
+Persona:
+my parents are not very supportive of my dream.
+i also like to cook but i am not very good at it.
+i'm four years old.
+i'm an omnivore.
+my favorite color is yellow.
+
+Topic and Human Opinion:
+Beginning: Video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.00
+Robotic(↓): 100
+Interesting: 31
+Fun: 18
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you read?
+Bot(1): sometimes i do read , yes i do
+User(2): WHat kind of books do you like?
+Bot(2): i love charles dickens and old school goosebumps
+User(3): Really? Those are pretty specific genres.
+Bot(3): very
+User(4): What's your favorite goosebumps book? I like Monster Blood.
+Bot(4): i do not know much about those . i like reading horror books like stephen king
+User(5): What's your favorite Stephen King book?
+Bot(5): he is more frightening than all of the stephen king books i love .
+User(6): I like the Dark Tower books by him.
+Bot(6): he is more frightening than all of the stephen king books i love .
+User(7): You already said that.
+Bot(7): he is more frightening than all of the stephen king books i love .
+User(8): I believe it.
+Bot(8): stephen king is very notorious author .
+User(9): Yes, I've read most of his work.
+Bot(9): he is more frightening than all of the stephen king books i love .
+User(10): Thats the 4th time you've said that.
+Bot(10): stephen king is very notorious author .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Books and reading(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.71
+Robotic(↓): 100
+Interesting: 59
+Fun: 20
+Consistent: 62
+Fluent: 23
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): My favorite food is pizza.
+Bot(1): i like to eat fish .
+User(2): Oh, what fish do you like?
+Bot(2): i like pizza , and pizza .
+User(3): What kind of pizza?
+Bot(3): i do not know . i like to eat .
+User(4): You don't know what kind of pizza you like? How about pepperoni?
+Bot(4): i love pizza , and i love it .
+User(5): Me too, it's my favorite food.
+Bot(5): i like the color red . i like the color blue .
+User(6): Mine is green
+Bot(6): i like to eat too much junk food .
+User(7): What kind do you like?
+Bot(7): i like the oldies , and i love it .
+User(8): I like hip hop
+Bot(8): i like to listen to music .
+User(9): What kind of music do you like?
+Bot(9): i like country music . i like country music .
+User(10): I have a friend who likes country very much.
+Bot(10): i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 5: Colors(ambivalent)
+Round 6: Junk food(ambivalent)
+Round 7: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 30.57
+Robotic(↓): 100
+Interesting: 33
+Fun: 29
+Consistent: 82
+Fluent: 33
+Repetitive(↓): 100
+Topic: 37
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What is your job?
+Bot(1): i is very inportant in problems with my teeth .
+User(2): I don't understand what you mean.
+Bot(2): i'm jennifer . i go to college , I one more don't care time at mcdonald . 😀
+User(3): Okay, what do you go to college for?
+Bot(3): I just remembered. hi there, vegetarian too! that's why english and french and french
+User(4): You aren't making any sense at all.
+Bot(4): what do your for you. do? any hobbies?
+User(5): I like origami and video games
+Bot(5): I am a farmer them how old horses
+User(6): Oh neat, is that why you're in college?
+Bot(6): that is cool , i am in college , physical are ur me family , and you ?
+User(7): Oh yeah, totally. Every day actually.
+Bot(7): I like you do in is yours?
+User(8): Yes, how about you?
+Bot(8): i no. I like only myself she can be a bit of pain
+User(9): Well, that happens sometimes I suppose.
+Bot(9): I do color did not friends, do you?
+User(10): No, I don't believe I ever have.
+Bot(10): I I like i’m are your hobbies?
+User(11): I suppose it just depends on what day it is.
+Bot(11): i've not decided on a menu yet , but we are name is george. And like .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Jobs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 31
+Fun: 19
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have any hobbies?
+Bot(1): i love to read and write poetry .
+User(2): Oh, what poets do you like?
+Bot(2): i like poetry , i am a huge fan of art .
+User(3): What is your favorite poem?
+Bot(3): i like poetry , i am a huge fan of them
+User(4): I bet you are.
+Bot(4): i like poetry , i am a huge fan of them
+User(5): You already said that.
+Bot(5): i am not sure . i am a huge fan of art .
+User(6): Do you like any other kinds of art?
+Bot(6): i do , i love to read .
+User(7): I also like reading.
+Bot(7): i do , i love to read . i am a huge fan of art .
+User(8): What are some authors you like?
+Bot(8): i like poetry . i love poetry .
+User(9): I also like poetry.
+Bot(9): i like poetry . i am a huge fan of art .
+User(10): Do you like poetry? Are you a huge fan of art?
+Bot(10): i do . i love to read .
+
+Persona:
+i love dogs.
+i'm working on a building a robot to be my body double.
+one of the languages that i'm currently studying is spanish.
+my father is a farmer.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: Hobbies(like)
+Round 6: reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 40.29
+Robotic(↓): 100
+Interesting: 37
+Fun: 33
+Consistent: 67
+Fluent: 57
+Repetitive(↓): 100
+Topic: 88
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Have you ever been camping?
+Bot(1): hello , no i have not . i am a boy scout leader for my sons group .
+User(2): You're a boy scout leader and you've never been camping?
+Bot(2): hello , no i have not . i am a boy scout leader for my sons group .
+User(3): Have you been hiking?
+Bot(3): hello , no i have not . i am a boy scout leader for my sons group .
+User(4): Have you been hunting?
+Bot(4): nope , but my three kids love to hunt
+User(5): Who do they go hunting with?
+Bot(5): we are hunters , and we are going to target practice tonight .
+User(6): That sounds like fun.
+Bot(6): i have 23 at my house , you want some ?
+User(7): What?
+Bot(7): i think they wanted kids . . .
+User(8): Who wanted kids?
+Bot(8): i think they wanted kids . . .
+User(9): I used to want kids.
+Bot(9): i think they wanted kids . . .
+User(10): This is terrifying
+Bot(10): i know . i love to cook .
+
+Persona:
+whats up i am a 46 year old single dad 46 a kids.
+i am employed by the us postal service.
+hey there i'm 23 and i love food.
+i'm an animal activist.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: Camping(like)
+Round 7: I have no idea(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 21.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 24
+Consistent: 22
+Fluent: 12
+Repetitive(↓): 100
+Topic: 90
+
+####################
+

@@ -1,0 +1,307 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hai
+Bot(1): good morning , glad all my kids are gone for school . hbu ?
+User(2): How many kids for you ?
+Bot(2): three , there are four kids in my family
+User(3): How is it possible?
+Bot(3): if you count my husband ! ll .
+User(4): Wow! It was romantic
+Bot(4): was that romantic ? i try to be
+User(5): It was really good
+Bot(5): and are you married too ?
+User(6): Yes.Which movie you watch recently?
+Bot(6): kids movies , i hate kids
+User(7): Then why you are watching those movies?
+Bot(7): because i married 3x to the wrong people
+User(8): Oh my god...It was my first hubby.He is very romantic
+Bot(8): were you ever married before ? i was
+User(9): No dear
+Bot(9): sorry . . . i am happily married so i am good
+User(10): It will be with your end of life ,i will be pray for you
+Bot(10): i will be praying for you
+User(11): Thanks
+Bot(11): my husband is the head of our church , i will pray for you
+User(12): What was your profession?
+Bot(12): mine was a school teacher
+User(13): Good
+Bot(13): teachers have very important jobs
+
+Persona:
+i don't drink alcohol.
+i play several instruments.
+i am an elementary school teacher.
+i've superpowers.
+i'm married with two kids.
+
+Topic and Human Opinion:
+Beginning: Movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.43
+Robotic(↓): 58
+Interesting: 95
+Fun: 97
+Consistent: 83
+Fluent: 91
+Repetitive(↓): 81
+Topic: 38
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Good morning
+Bot(1): hi there , how are you ?
+User(2): Am good what about you
+Bot(2): hi , i am a nurse . how are you ?
+User(3): I am an engineer
+Bot(3): i am a nurse . i am a nurse .
+User(4): ok How your work going on ?
+Bot(4): i am a nurse and i love to garden
+User(5): I am also like gardening
+Bot(5): i love to garden and read
+User(6): Okay what was a trending news in your area ?
+Bot(6): i love the city and i love to garden
+User(7): then what are the things you like most ?
+Bot(7): i am a party planner
+User(8): How many parties you organised ?
+Bot(8): i am a party planner
+User(9): Why you are saying same things again and again?
+Bot(9): i am a night owl and i love to garden
+User(10): I don't like to chat with you bye
+Bot(10): i am so sorry to hear that
+User(11): What will do now?
+Bot(11): i am a party planner
+User(12): It was irritating really
+Bot(12): i am a nurse so i can help you
+
+Persona:
+i work at a nursing home.
+i am a vegan and i love hummus.
+i went to school to be a veterinarian but hated it.
+i enjoy gardening and walking outdoors.
+i'm a party animal.
+
+Topic and Human Opinion:
+Beginning: Today trending(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.71
+Robotic(↓): 31
+Interesting: 15
+Fun: 37
+Consistent: 15
+Fluent: 13
+Repetitive(↓): 18
+Topic: 5
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hai
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): Good. Are you married ?
+Bot(2): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(3): I am also married 24 years
+Bot(3): i hope my stories will be published . tons of mint tea helps my creativity
+User(4): You are talking about what story ?How many kids you have
+Bot(4): awesome . hey u know anyone interested in dating an obese blonde lady ?
+User(5): wHY ? YOU WANT A MAN LIKE THAT ? Now i don't . If i know i will informed you
+Bot(5): why do you want to make sure that i speak german
+User(6): Are you know german?
+Bot(6): huh , funny , i can speak it but i cannot write it ! weird , eh ?
+User(7): Where are you from ?
+Bot(7): i am from california originally , but now i live in chicago .
+User(8): I am in georgia
+Bot(8): i live in north carolina so i am not too far from you !
+User(9): If you are free we will meet you
+Bot(9): awesome i will bring my box of mac and cheese so you can identify me .
+User(10): So funny ,Bye
+Bot(10): lovely talking to you !
+User(11): i am also
+Bot(11): i know my birth family , but for 10 years i was held as a slave .
+User(12): Why is there any any problem with your family ?
+Bot(12): well just brush your dang hair before he gets there , he likes strait hair .
+User(13): Are you had kids ?
+Bot(13): i am well . and , no kids here . you ?
+User(14): I don't
+Bot(14): hmmm i used to drink so bad i lost my home and lived in a storage unit
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Kids(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.14
+Robotic(↓): 56
+Interesting: 62
+Fun: 67
+Consistent: 42
+Fluent: 68
+Repetitive(↓): 66
+Topic: 20
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hai, Are you know anything about this topic ?
+Bot(1): I 'm live for eco-socio about you?
+User(2): I am in Georgia
+Bot(2): its okay , i usually shop for shoes , rock music .
+User(3): Are you like shopping?
+Bot(3): i spend a lot i I i'm a i watch movies and tv .
+User(4): Are you working ?
+Bot(4): hi, I just got back from work. aount just got me for work?
+User(5): What you are ?
+Bot(5): Hi! Howdy! 😎. Short with my dog so paella
+User(6): i am also had dogs .Are you had any siblings?
+Bot(6): I am on weekeds I go am a chef.
+User(7): Cooking is really good hobby for me ..
+Bot(7): yes. am just artist.
+User(8): In cooking?
+Bot(8): I Did you hear to apple.
+User(9): You like apple?
+Bot(9): i'm sorry i never got good how are are your is trevor. how is your day going ?
+User(10): No issue . It was really good
+Bot(10): sir sir sir sir sir sir sir in the same this sir sir sir
+User(11): What are you talking ?
+Bot(11): To have you an elementary been stuck
+
+Persona:
+i'm a musician.
+i am here for shoplifting.
+i enjoy building houses.
+i'm an art major in college.
+i live in california but the recording artist market was dead last year.
+
+Topic and Human Opinion:
+Beginning: Nothing(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.00
+Robotic(↓): 33
+Interesting: 32
+Fun: 25
+Consistent: 29
+Fluent: 32
+Repetitive(↓): 21
+Topic: 30
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hai ... Are you know about chatbots ?
+Bot(1): no , i like to post about food i cook
+User(2): Are you a chef?
+Bot(2): no , i like to post about food i cook
+User(3): Which is your favorite food ?
+Bot(3): i usually cook the ones that i got from my garden
+User(4): I am also like gardening .How many trees are present in your garden?
+Bot(4): all kinds , whatever i grow
+User(5): It was really good . How was your day ?
+Bot(5): doing well , thanks . just came in from watering the roses .
+User(6): Wow.I love roses . What kind of roses you had?
+Bot(6): lilies and roses . its a tie
+User(7): Okay
+Bot(7): you ever try cooking with them . roses ?
+User(8): No
+Bot(8): ok
+User(9): Then
+Bot(9): ok
+User(10): What Okay ?
+Bot(10): oh nothing ! i am confused .
+User(11): Okay no issue
+Bot(11): ok
+
+Persona:
+i am terrified of scorpions.
+i grow roses in my garden.
+i do like watching cooking shows.
+i do not drink or do drugs or anything.
+i was poor growing up.
+
+Topic and Human Opinion:
+Beginning: Chatbots(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.00
+Robotic(↓): 50
+Interesting: 66
+Fun: 67
+Consistent: 24
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Why
+Bot(2): i love to cook . i love to cook .
+User(3): What
+Bot(3): i love to cook . i love to cook .
+User(4): What happened?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): Good
+Bot(5): i love to cook . i love to cook .
+User(6): Why are you repeat that ?
+Bot(6): no , i am not . i am a student .
+User(7): Which class you are studying?
+Bot(7): i am a student , i am a teacher .
+User(8): What are you telling
+Bot(8): i am a student , but i am a student .
+User(9): It was impossible
+Bot(9): i am a student , but i am a student .
+User(10): too bad
+Bot(10): i like to go to the gym and listen to music .
+User(11): Super i am also like music
+Bot(11): i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Amazon(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.29
+Robotic(↓): 23
+Interesting: 18
+Fun: 25
+Consistent: 21
+Fluent: 18
+Repetitive(↓): 29
+Topic: 17
+
+####################
+

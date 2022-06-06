@@ -1,0 +1,275 @@
+Feedback: I love the chatbot
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I've son in junior high school
+Bot(1): i am a soccer coach . i love to play soccer .
+User(2): I love soccer
+Bot(2): i love soccer , i play soccer for my high school team
+User(3): Where you play?
+Bot(3): soccer is my favorite . i play soccer in high school
+User(4): Tell me your team name
+Bot(4): i play soccer in high school
+User(5): Wow that's great
+Bot(5): i am a soccer player so i can play soccer
+User(6): Yeah you can
+Bot(6): i am a soccer player so i can play soccer
+User(7): So tell me more
+Bot(7): i am a soccer player so i can play soccer
+User(8): Yeah I know
+Bot(8): i am a soccer player so i can play soccer
+User(9): My son also played soccer in junior high school
+Bot(9): that is cool i love soccer
+User(10): Yeah I also
+Bot(10): soccer is fun i play soccer in high school
+
+Persona:
+i have short brown hair.
+i help tend the fields.
+i have three dogs.
+i'm on the soccer team.
+my favorite band is up and i got to see them in concert once.
+
+Topic and Human Opinion:
+Beginning: i've a son who is in junior high school.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 73.86
+Robotic(↓): 73
+Interesting: 98
+Fun: 94
+Consistent: 98
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I work took
+Bot(1): pretty good and you ? i just what how old are .
+User(2): Yeah
+Bot(2): cool, what do you do have known one more a tractor.
+User(3): No
+Bot(3): awesome i your favorite mcdonalds
+User(4): Yeah thanks
+Bot(4): I tells you play basketball.😁
+User(5): I love basketball
+Bot(5): I love to dance is a little place.
+User(6): Yeah I like salsa
+Bot(6): a little bummed know you have a Also, try to guess: i just bought ...
+User(7): Don't know
+Bot(7): Hey! What's up? 😅. My got to play with gym teacher
+User(8): Fine
+Bot(8): lets go ! although it takes me hours to get because it changes from time good
+User(9): Okay
+Bot(9): soup is my favorite. I like to grill cool! you do?
+User(10): Soup I love soup
+Bot(10): yes , air gives peace to i do not have a lot of money .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work took i have a part time job at burger king.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.43
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello do you like organic food?
+Bot(1): i do , i love pizza .
+User(2): Good I only buy organic food
+Bot(2): i like to eat fish .
+User(3): Fish good for health
+Bot(3): i am a student , but i am a student .
+User(4): I'm also a student
+Bot(4): i am a teacher , i love to cook .
+User(5): Yeah Me also..
+Bot(5): i like to go to the gym and listen to music .
+User(6): Gym?wow u should eat more organic food
+Bot(6): i do not like it . i like to eat fish .
+User(7): I understand.Go ahead
+Bot(7): i love the color red . i like the color blue .
+User(8): I don't love red.I love blue
+Bot(8): i like red , reminds me of summer time .
+User(9): Yeah yeah
+Bot(9): i like to go to the gym and listen to music .
+User(10): Good for health
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i buy only organic food products.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.43
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you earn a gold made ever?
+Bot(1): no it is only hourly
+User(2): I won a madel in 1992 Olympic
+Bot(2): you have a lot of medals ?
+User(3): Yeah I've
+Bot(3): have you won any medals ?
+User(4): Olympic 1992..I won a gold madel
+Bot(4): what did you win at
+User(5): Swimming
+Bot(5): sounds fun ! ! i also won a olympic medal for it
+User(6): Seriously?Wow that's great
+Bot(6): i was actually a champion at it
+User(7): Wow you are a real hero
+Bot(7): i have an olimpic medal
+User(8): I've also
+Bot(8): have you won any medals ?
+User(9): Yeah Olympics 1992
+Bot(9): what did you win at
+User(10): Swimming
+Bot(10): i have an olimpic medal
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i won a gold medal in the 1992 olympics.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.43
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello Do you love dog?
+Bot(1): i do , but chinese is better
+User(2): What?no
+Bot(2): i am an on ; y chi ; d but i have god .
+User(3): You know I've 3 dongs
+Bot(3): no no no no no
+User(4): Yeah I've and I love them
+Bot(4): i am an on ; y chi ; d but i have god .
+User(5): Hahaha
+Bot(5): do you believe in god ?
+User(6): Yeah I believe
+Bot(6): do you believe in god ?
+User(7): Yeah I believe in God..don't you?
+Bot(7): i do , but i have no proof
+User(8): That's what You need to strongly trust..
+Bot(8): the only person that i trust is god
+User(9): Oh I understand
+Bot(9): well you can trust me
+User(10): Okay I'll
+Bot(10): well you can trust me
+
+Persona:
+i can drive a tractor.
+i speak chinese.
+i've blonde hair and blue eyes.
+i'm a musician.
+i don't believe in god.
+
+Topic and Human Opinion:
+Beginning: i've three dogs.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.43
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi do you love chemistry?
+Bot(1): great . just planing my next hike on the appalachian trail
+User(2): Oh..
+Bot(2): we are nine . you can check it out . its about time for my meditation and yoga .
+User(3): Yeah I can
+Bot(3): you like national parks then ? i love the green scenery . green is just the best color
+User(4): Ha I like
+Bot(4): ho ho ho ho ho
+User(5): Do you love chemistry?
+Bot(5): i love chemistry ! i am not a fan of biology however .
+User(6): I go to school for chemistry
+Bot(6): yes , i am testing the hypothesis of love at first sight right now
+User(7): Understand
+Bot(7): there are so many options to reach out to people to help you better understand them
+User(8): Right
+Bot(8): cooking . merna jean and i love britney spears music . you swim ? i do .
+User(9): I love cooking
+Bot(9): i love cooking but i do not have anyone to cook for but myself
+User(10): Same here
+Bot(10): i am a hairdresser . i love to dye peoples hair red like mine .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i went to school for chemistry but work in a bookstore.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.43
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+

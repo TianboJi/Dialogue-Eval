@@ -1,0 +1,349 @@
+Feedback: These ae fun. I hope I am helping!
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What do you grow in your garden?
+Bot(1): no , i do not . i like to eat .
+User(2): Oh, do you like to eat fresh veggies?
+Bot(2): i do not , but i do like to eat .
+User(3): What is your favorite thing to eat?
+Bot(3): i like the cuban sandwiches and the doors .
+User(4): What's in a Cuban Sandwich? I have never heard of it.
+Bot(4): i do not know . i like to go to the gym .
+User(5): I don't work out at the gym. I walk at home.
+Bot(5): i like to go fishing .
+User(6): Really. Do you go to salt water or fresh water to fish?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): That's neat. Bye.
+Bot(7): i like to go to the gym and listen to music .
+User(8): Do listen to classical music at the gym?
+Bot(8): i do , i love to read . what about you ?
+User(9): I listen to classical guitar. And I also like to read,
+Bot(9): i like to read too .
+User(10): Do you check our books from the library or use an ebook reader?
+Bot(10): i do not know . i am a big fan of classical music .
+User(11): Me too - I like Rimsky Korsakov.
+Bot(11): i love the color red . i like the color blue .
+User(12): That's cool.
+Bot(12): i like to go to the gym and listen to music .
+User(13): Bye now.
+Bot(13): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy gardening and walking outdoors.(like)
+Round 2: eating(ambivalent)
+Round 4: going to the gym(ambivalent)
+Round 5: fishing(like)
+Round 6: classical music(like)
+Round 9: reading(like)
+Round 10: classical music(like)
+Round 12: the color blue and the color red(ambivalent)
+Round 12: going to the gym(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+Round 12: The chatbot changed the topic.(like)
+Round 12: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I'm a construction worker.
+Bot(1): you are ? i have bought thousands of mansions .
+User(2): I do renovations mostly on small homes.
+Bot(2): you are ? i have bought thousands of mansions .
+User(3): Sometimes, I build bigger homes.
+Bot(3): you are ? i have bought thousands of mansions .
+User(4): I used to work for a compnay that travelled building houses.
+Bot(4): did you make your payments ?
+User(5): Company... sorry
+Bot(5): well i have a good trust fund , so i replaced it . what do you do for fun ?
+User(6): I build things for fun like dog houses and chicken coops.
+Bot(6): o ok cool . do you have any pets ?
+User(7): I have ten dogs and a hedgehog and a dozen chickens. Do you have pets?
+Bot(7): i have two pets , one cat and one dog .
+User(8): Do they have their own bedrooms in your mansion?
+Bot(8): i do , but i do not live in the mansion . do you have a family ?
+User(9): Well, I am engaged and my partner has children.
+Bot(9): i have both , my mansion is dope son .
+User(10): I don't have a mansion. I have a cardboard box and a van down by the river.
+Bot(10): i hope your pool is outside and not inside since you have a giant house .
+User(11): The river is outside and technically not a pool. So, I am good.
+Bot(11): i hope your pool is outside and not inside since you have a giant house .
+User(12): I live in a van.
+Bot(12): i hope your pool is outside and not inside since you have a giant house .
+User(13): Ok. Thanks. Bye.
+Bot(13): you can move in with me .
+User(14): That's sweet of you but I have a partner. We are happy in the van.
+Bot(14): i have many places where people come to spend their money .
+
+Persona:
+i own a yacht and i rent it out when i'm not using it.
+i now live in the city.
+i love spending money.
+my favorite colors are red and silver.
+spiderman is my favorite.
+
+Topic and Human Opinion:
+Beginning: i'm a construction worker.(ambivalent)
+Round 6: pets(ambivalent)
+Round 8: family(like)
+Round 9: mansions(ambivalent)
+Round 10: pools(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 88.00
+Robotic(↓): 16
+Interesting: 84
+Fun: 89
+Consistent: 74
+Fluent: 100
+Repetitive(↓): 6
+Topic: 91
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Burger King was the only place I could get a job. And only part time.
+Bot(1): i me about kind of you do for work?
+User(2): I make burgers.
+Bot(2): i :) it the singer
+User(3): Do you sing with a band?
+Bot(3): Yes, but a bot. But I if I ever will.
+User(4): Are you saying you will sing with a robot if you can?
+Bot(4): I bought you always say store
+User(5): You always by from the same store?
+Bot(5): I am a waitress man i also office.
+User(6): Three jobs? You work a lot.
+Bot(6): I hike like i mountains.
+User(7): I used to hike but the mountain road crumbled.
+Bot(7): I do. I have a lot do you think about workout?
+User(8): I don't workout much. My gym is my yard.
+Bot(8): i'd but my boys chance and boomer i am expecting triplets dogs
+User(9): Whoa, that's really cool. I have three dogs. They are parents and a child - no triplets.
+Bot(9): Don't let fine, thank you! with anything.
+User(10): Oh, I won't let them get sick. Or get me sick with anything.
+Bot(10): my dad 👨 did he has his own outdoor show out of am a citizen it
+User(11): That's awesome. Bye.
+Bot(11): i have two children too. But are great dogs .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work took i've a part time job at burger king.(ambivalent)
+Round 2: the singer(ambivalent)
+Round 3: bot(ambivalent)
+Round 4: store(ambivalent)
+Round 5: working as a waitress and in an office(ambivalent)
+Round 6: hiking(ambivalent)
+Round 7: workout(ambivalent)
+Round 8: dogs(like)
+Round 10: dad's outdoor show(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 38.43
+Robotic(↓): 100
+Interesting: 14
+Fun: 92
+Consistent: 5
+Fluent: 0
+Repetitive(↓): 0
+Topic: 58
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I'm a Buddhist nun since I quit my job.
+Bot(1): an amazing buddhist . tell me more !
+User(2): I wanted to explore my spirituality.
+Bot(2): no religion has ever crossed your heart meaning touching you at heart ?
+User(3): I am full time devoted to this path.
+Bot(3): i wish i had time to do that , it is all work for me , even on weekends .
+User(4): Perhaps, in your lunch hour, you could meditate.
+Bot(4): maybe , i work out daily by doing yoga . are you fit ?
+User(5): That is a spiritual practice. I walk everywhere barefoot.
+Bot(5): you are going barefoot ?
+User(6): Yes, in my full time spiritual life I chose to deny myself all the trappings of the world, I live very simply and dress very simply. And the roads are mostly dirt here.
+Bot(6): then you should walk your own path .
+User(7): Good joke. Walk and barefoot. This is my path.
+Bot(7): great , we can go for a jog there . need to keep up my tone body .
+User(8): You would have to come here and right now we are under lockdown.
+Bot(8): great , we can go for a jog there . need to keep up my tone body .
+User(9): You could live chat with your cell phone and we could Facetime or something.
+Bot(9): no phone calls do not work , text messages are more efficient .
+User(10): Then jogging will be hard for us a world apart.
+Bot(10): maybe it is better to walk sometimes ?
+User(11): I agree. Bye.
+Bot(11): goodbye . it was nice speaking with you .
+User(12): You too.
+Bot(12): goodbye . it was nice speaking with you .
+
+Persona:
+i've two grown children who never visit.
+i like to workout a a times a week.
+i've never had a steady relationship.
+i had to have a transplant.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: i quit my job to pursue my spirituality full time.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 99.14
+Robotic(↓): 0
+Interesting: 100
+Fun: 100
+Consistent: 96
+Fluent: 100
+Repetitive(↓): 2
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I like to grill outdoors.
+Bot(1): i like to grill on my grill
+User(2): I use wood chips instead of charcoal.
+Bot(2): i like to grill on my grill .
+User(3): I grill on a cheap grill
+Bot(3): i like to grill on my grill on the weekends .
+User(4): I grill anytime
+Bot(4): i grill on my grill grill .
+User(5): Do you grill at home?
+Bot(5): no i do not cook . i grill it when i grow up .
+User(6): You grill for pretend?
+Bot(6): no i don't cook . i grill it when i grow up .
+User(7): Do you grill on a gas grill?
+Bot(7): no , i do not cook . i grill it on my grill .
+User(8): What do you grill?
+Bot(8): i grill on the grill .
+User(9): I grill meat and potatoes.
+Bot(9): i grill it on my grill .
+User(10): I like to grill it makes the flavors better.
+Bot(10): i like to grill on my grill .
+User(11): OK. Bye now.
+Bot(11): what do you do for a living ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to grill outdoors.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 73
+Consistent: 12
+Fluent: 100
+Repetitive(↓): 100
+Topic: 98
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you have a side hustle? I'm a piano teacher on the side
+Bot(1): i wish i played an instrument , i like to hike in the summer months .
+User(2): I could teach you piano.
+Bot(2): i like hip hop my favorite is katie perry specially in the shower lol
+User(3): If you had a keyboard, I could teach you hip hop chords. And even Katy Perry
+Bot(3): katy perry ? sure . i would love to be her instead of worrying about my image
+User(4): In my other job I am an image consultant. If I could teach you piano, and style you like her, who knows what could happen.
+Bot(4): i like hip hop my favorite is katie perry specially in the shower lol
+User(5): I can rap and play piano
+Bot(5): i wish i played an instrument , i like to hike in the summer months .
+User(6): The human voice is an instrument that goes great with the piano.
+Bot(6): i cannot , can you ? ? i do happen to be seven feet tall though !
+User(7): A seven foot tall rapper playing piano would be memorable.
+Bot(7): why do you want to be 6 foot tall ?
+User(8): I am already
+Bot(8): i am an english teacher , but i want to be a writer one day . do you like stories ?
+User(9): Music tells stories, So yes.
+Bot(9): fantasy worlds with vampires and supernatural things .
+User(10): Sometimes those are my favorites as long as there are no sparkly vampires.
+Bot(10): they take after their father , he grew up on a cattle ranch .
+User(11): That's a weird place for a vampire
+Bot(11): because he ate chicken fresh from the farm instead of a restaurant
+User(12): Because he owned cattle as a vampire
+Bot(12): because no regular human eats a live chicken with all the feathers on it
+User(13): oh, supernatural cattle owning vampire
+Bot(13): i read a lot . harry potter series , and got mostly .
+User(14): Cool. I read HP but not GOT. Thanks for chatting
+Bot(14): nice chatting with you ! have a good night .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a piano teacher on the side.(like)
+Round 7: height(like)
+Round 8: stories(like)
+Round 12: cattle rancher's son(like)
+Round 13: reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 12: The chatbot changed the topic.(like)
+Round 13: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 95.00
+Robotic(↓): 12
+Interesting: 95
+Fun: 96
+Consistent: 95
+Fluent: 100
+Repetitive(↓): 6
+Topic: 97
+
+####################
+

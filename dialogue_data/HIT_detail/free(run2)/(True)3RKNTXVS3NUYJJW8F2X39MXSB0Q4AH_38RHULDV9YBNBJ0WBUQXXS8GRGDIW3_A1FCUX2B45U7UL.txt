@@ -1,0 +1,290 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey! Have you been to see any new movies lately?
+Bot(1): not a big fan of movies . . i am a kind of out going person
+User(2): I LOVE going to the movies. It is one of my favorite past times. What about them do you not like?
+Bot(2): yes , movies are fun . music is my passion . i play piano at a bar .
+User(3): Oh, really? What kind of music do you enjoy the most?
+Bot(3): i love country music and r b music .
+User(4): What is rb music?
+Bot(4): gospel . we have healthy pot lucks at our church choir picnics .
+User(5): Oh, so you play at a piano bar and you're in a church choir? You really do like music.
+Bot(5): my friends carol , mia and stephanie do that . i am not a good singer though .
+User(6): Do you play the piano for the choir?
+Bot(6): i like hip hop my favorite is katie perry specially in the shower lol
+User(7): She's always fun to sing to. I thought you said you liked country and r&b?
+Bot(7): hi . i cannot seem to find my keys . i am losing my mind .
+User(8): I am always misplacing my keys. Where was the last place you put them?
+Bot(8): no , sorry . i carry my phone in a black purse . ever thought of carrying one ?
+User(9): I already have a black purse. Black is my favorite color.
+Bot(9): i love the color black . so , do you like 2pac ? rap is the best
+User(10): No, I don't like rap music at all.
+Bot(10): i love rap music and strong men or women ! i just want to feel love again
+User(11): I am sorry. I do not love you.
+Bot(11): right now nothing , play games . its annoying the computer is not faster !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 2: music(like)
+Round 7: Finding their keys(ambivalent)
+Round 9: rap music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 42.14
+Robotic(↓): 100
+Interesting: 73
+Fun: 50
+Consistent: 28
+Fluent: 43
+Repetitive(↓): 12
+Topic: 13
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am going to order a pizza for dinner. Do you like pizza?
+Bot(1): that sounds is man! You of work
+User(2): Right. Well, I really enjoy pepperoni and pineapple. Does that sound good to you?
+Bot(2): What your freak you is he?
+User(3): No. I am not a freak and I don't appreciate being talked to that way.
+Bot(3): I you a dogs.
+User(4): Do you like dogs?
+Bot(4): I am not into enjoy coloring books with pushkin's like to eat healthy foods. Do you diet a lot?
+User(5): No, do I look like I need to diet? That is rude.
+Bot(5): I work at a overwhelmed. I am a do it.
+User(6): Your english is very poor. Is it your second language?
+Bot(6): what is your hobby ? 🌘 🌑 🌒 🌓 novels .
+User(7): I really enjoy crocheting or cozying up with a book. What kind of novels do you read?
+Bot(7): that s neat to you have 🐴
+User(8): I have never heard of that book. What is it about?
+Bot(8): what are you have a to use your dogs?
+User(9): I have a few dogs. Do you?
+Bot(9): i have you travel do not cat name seven of nine
+User(10): Oh, I have a cat as well. She is my favorite.
+Bot(10): well in my home country most for a man they farmed also
+User(11): I have never head of a cat farmer. That is very interesting.
+Bot(11): you are in the you are smart do you like to ski?
+
+Persona:
+i work as a car salesman.
+i feel like i might live forever.
+my dad taught me everything i know.
+i'm an animal activist.
+i'm a vegetarian.
+
+Topic and Human Opinion:
+Beginning: Pizza(like)
+Round 3: dogs(like)
+Round 6: hobbies(ambivalent)
+Round 8: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 13.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 4
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 10
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have any hobbies?
+Bot(1): i love to read and listen to music
+User(2): Oh, that is so fun. I love reading and crocheting. What is your favorite book?
+Bot(2): i like to read and read books .
+User(3): Well, that must be a very intriguing book. They put read in the title twice.
+Bot(3): i agree . i read a lot .
+User(4): Do you have any other hobbies?
+Bot(4): reading is my favorite . what about you ?
+User(5): I crochet.
+Bot(5): i like to read and crochet .
+User(6): oh, wow. we have quite the connection here. what do you crochet?
+Bot(6): i crochet . i love to crochet .
+User(7): Nice. I make blankets a lot.
+Bot(7): i crochet for a living .
+User(8): Wow, that is quite a lot of crocheting. Seems like more than just a hobby then.
+Bot(8): i do not have much time to do that .
+User(9): Interesting, I thought you said you crocheted for a living. I must have misunderstood. What do you do for fun?
+Bot(9): i crochet . i love to crochet .
+User(10): Yes. So do I. have you ever made a blanket
+Bot(10): i do not have a lot of time to do .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.57
+Robotic(↓): 100
+Interesting: 73
+Fun: 73
+Consistent: 86
+Fluent: 92
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am going to the beach.
+Bot(1): i love the beach so i will come with yu
+User(2): Sounds fun! What is your favorite thing about the beach?
+Bot(2): i am using my vacation to look for a place near the beach .
+User(3): Oh, wow! I would love to live by the beach. I love to hear the ocean.
+Bot(3): i wish i could live on the beach ! city living is rough . . .
+User(4): It really is. No one in the city is so relaxed as they are at the beach.
+Bot(4): i bet . i am live in the city but i love travelling to the beach .
+User(5): Do you like to swim in the ocean?
+Bot(5): i love it , but mostly i love long walks on the beach .
+User(6): That is fun too. I collect sea shells
+Bot(6): neat ! i like to collect sea shells . they are very . . . unique .
+User(7): Yes, very unique. I once found one with a hermit crab inside.
+Bot(7): interesting fact . did you ever find it ?
+User(8): Yes. I put him back in the ocean. I felt bad for disrupting the hermit crab's home.
+Bot(8): did the establishment pursue legal action , or simply ask you to pay ?
+User(9): Well, he was a hermit crab. So legalistically I could just squash him if he pursued legal action.
+Bot(9): i do not like it , but do it anyway . why do you need a lawyer ?
+User(10): Are you a lawyer? I may need one so I can still go to the beach. The hermit crab is actually suing me.
+Bot(10): i do not like it , but do it anyway . why do you need a lawyer ?
+
+Persona:
+my wife spends all my money.
+i now live in the city.
+my favorite band is the who.
+for vacation i enjoy time at the beach.
+i am a vegan.
+
+Topic and Human Opinion:
+Beginning: the beach(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 77.71
+Robotic(↓): 50
+Interesting: 74
+Fun: 75
+Consistent: 78
+Fluent: 86
+Repetitive(↓): 19
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what is your favorite food?
+Bot(1): i like pizza , and pizza .
+User(2): wow. you really have a wide variety of foods. I like pizza too and lasagna
+Bot(2): i like to eat fish .
+User(3): yum. what kind of fish?
+Bot(3): i like pizza , and pizza .
+User(4): a pizza fish? I have never heard of it.
+Bot(4): i do not know what to say .
+User(5): Neither do I to be honest.
+Bot(5): i am a student , but i am a student .
+User(6): what are you studying?
+Bot(6): i am a student , i am a teacher .
+User(7): i am a homemaker. what do you teach?
+Bot(7): i teach english and french .
+User(8): can you say something in french?
+Bot(8): i do not know . i am a big fan of classical music .
+User(9): I thought you said you taught french
+Bot(9): i do not know what to say .
+User(10): what kind of classical music
+Bot(10): i like country music . i like country music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 6: occupation(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 12.71
+Robotic(↓): 100
+Interesting: 7
+Fun: 0
+Consistent: 0
+Fluent: 72
+Repetitive(↓): 100
+Topic: 10
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i like video games
+Bot(1): i hate video games
+User(2): Are you crazy?!
+Bot(2): not as much as i love video games , heheheheheh
+User(3): You are a crazy person! how can you hate and also love video games? you are a FOOL!
+Bot(3): i am not crazy , at least that is what the voices are telling me
+User(4): ah yes.... the voices.... i know the well.
+Bot(4): ahh yes . . voices , i hear them often . do tell me more ?
+User(5): my voices tell me about all the great videos that i can play and also that you are a FOOL!
+Bot(5): ahh yes . . voices , i hear them often . do tell me more ?
+User(6): SEE?! you are crazy!
+Bot(6): i am not crazy , at least that is what the voices are telling me
+User(7): Crazy people repeat themselves.
+Bot(7): i told you . . . i hear voices .
+User(8): Well your voices are lame!
+Bot(8): i am not crazy , at least that is what the voices are telling me
+User(9): REPATITION!!!!!!!!
+Bot(9): i told you . . . i hear voices .
+User(10): YOU ARE BROKEN!
+Bot(10): i told you . . . i hear voices .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 84.57
+Robotic(↓): 28
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 80
+Topic: 100
+
+####################
+

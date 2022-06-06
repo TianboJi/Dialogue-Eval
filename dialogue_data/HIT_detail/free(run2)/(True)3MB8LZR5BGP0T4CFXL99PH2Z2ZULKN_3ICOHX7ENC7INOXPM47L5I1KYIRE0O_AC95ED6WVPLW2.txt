@@ -1,0 +1,291 @@
+Feedback: The bot really wasn't consistent or make much sense
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Whats up
+Bot(2): just hanging at home with my pet lizard . what are you up to ?
+User(3): Same
+Bot(3): i am a deployed army ranger how about you ?
+User(4): Do you like apples
+Bot(4): whats your favorite ? i love apples , especially the green ones !
+User(5): Green are my favorite
+Bot(5): green is my favorite color !
+User(6): What do you like about apples
+Bot(6): my favorite fruit is apple because when i was little my 3 older siblings loved apples .
+User(7): That's cute
+Bot(7): it belonged to my dad who worked as a k 9 officer
+User(8): What was your dads dogs name
+Bot(8): reeled xavier . he is a yorkie . i love him to pieces . very spoiled .
+User(9): How was he in the police then
+Bot(9): i am an accountant . i had an offer to play in the nba
+User(10): weird
+Bot(10): let be friends i have none in the u . s . hope to make some in summer camp .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Apples(ambivalent)
+Round 5: Favorite color(ambivalent)
+Round 7: his dad(ambivalent)
+Round 9: his job(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 18.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 24
+Repetitive(↓): 5
+Topic: 9
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): all of us hippies have long hair . nobody does fine.are you in the like .
+User(2): That doesnt make sense
+Bot(2): sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep you like to read, please don't say it any her knit and i also visit wide bake that is cool. sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep sleep
+User(3): Do you like school
+Bot(3): i am a little outdoors Where do you you love have a lot of time to do .
+User(4): Do you like school
+Bot(4): do you live in cat it. You are a bee.
+User(5): No
+Bot(5): I love animals, learning you are any pets?
+User(6): I have a dog
+Bot(6): i like all kinds like non vegetarian. My favourite watch them on tv , and you ?
+User(7): do you have a dog
+Bot(7): I play the drums. Do u like am a band?
+User(8): No
+Bot(8): do you have a car am in texas you how to drive .
+User(9): that doesnt make sense
+Bot(9): I am single as by you want it hobby?
+User(10): no
+Bot(10): I love pizza, I have dogs like singer.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: school(dislike)
+Round 3: random things(ambivalent)
+Round 6: dogs(like)
+Round 8: bands(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 10.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 24
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hows work
+Bot(1): its hectic
+User(2): How so
+Bot(2): its hectic
+User(3): How is it hectic
+Bot(3): its hectic
+User(4): Ok
+Bot(4): its hectic
+User(5): what do you do
+Bot(5): i do not do much of anything
+User(6): What do you do for work
+Bot(6): i do not do much of anything
+User(7): Do you have a job
+Bot(7): no i work full time
+User(8): What do you do for work
+Bot(8): i do not do much of anything
+User(9): That doesnt make sense
+Bot(9): i guess not its really hard
+User(10): to be a bot?
+Bot(10): something like that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: work(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.14
+Robotic(↓): 75
+Interesting: 55
+Fun: 47
+Consistent: 21
+Fluent: 37
+Repetitive(↓): 100
+Topic: 26
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hi . do you like photography at all its one of my hobbies !
+User(2): No i dont
+Bot(2): do you like soda to drink
+User(3): no
+Bot(3): do you like soda to drink
+User(4): No
+Bot(4): do you like soda to drink
+User(5): no
+Bot(5): what is your favorite soda
+User(6): i dont like soda
+Bot(6): soda is the best
+User(7): I dont like it
+Bot(7): soda is the best
+User(8): Whats your favorite soda
+Bot(8): soda is the best
+User(9): Ok
+Bot(9): soda is the best
+User(10): k
+Bot(10): ok
+
+Persona:
+i am interested in photography and like taking pictures.
+i am married to a doctor.
+i am on the soccer team.
+i don't drink soda.
+my favorite color is grey.
+
+Topic and Human Opinion:
+Beginning: Working out(like)
+Round 1: photography(dislike)
+Round 2: soda(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 13
+Fun: 28
+Consistent: 8
+Fluent: 7
+Repetitive(↓): 68
+Topic: 12
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): Im good
+Bot(2): i am a student , but i am a student .
+User(3): What did you have for dinner
+Bot(3): i love the color green . i like it .
+User(4): Is that your favorite color
+Bot(4): i like blue , my favorite color is blue .
+User(5): Mine is also blue
+Bot(5): i like the color red . i like red .
+User(6): ok
+Bot(6): i like to go to the gym and listen to music .
+User(7): ok
+Bot(7): i like to go to the gym and listen to music .
+User(8): whats your favorite hobby
+Bot(8): i like to go fishing . i love to go fishing .
+User(9): i hate fishing
+Bot(9): i love to go fishing .
+User(10): i hate fishing
+Bot(10): i love to go fishing .
+
+Persona:
+i enjoy long walks with my dog.
+i've a boyfriend.
+i own two vintage mustangs.
+my next language to study is french.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 3: Favorite color(like)
+Round 7: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 15.57
+Robotic(↓): 83
+Interesting: 15
+Fun: 9
+Consistent: 13
+Fluent: 19
+Repetitive(↓): 86
+Topic: 22
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes i do hair
+Bot(2): i do hair hair but i dyed my hair blonde
+User(3): i dont like blonde hair
+Bot(3): i do not have hair but i dyed blonde hair
+User(4): that doesnt make sense
+Bot(4): i do not have hair
+User(5): i do
+Bot(5): i do not have hair
+User(6): i have hair
+Bot(6): i dye my hair long and blonde hair
+User(7): that doesnt make sense
+Bot(7): i do not have hair
+User(8): I have brown hair
+Bot(8): i do not have hair
+User(9): ok
+Bot(9): i have brown hair and hair
+User(10): k
+Bot(10): i do not have hair
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hair(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.86
+Robotic(↓): 94
+Interesting: 0
+Fun: 0
+Consistent: 20
+Fluent: 12
+Repetitive(↓): 76
+Topic: 21
+
+####################
+

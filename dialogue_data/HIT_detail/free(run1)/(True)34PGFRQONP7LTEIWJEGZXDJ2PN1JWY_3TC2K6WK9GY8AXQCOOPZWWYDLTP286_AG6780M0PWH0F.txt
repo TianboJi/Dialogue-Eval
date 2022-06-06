@@ -1,0 +1,304 @@
+Feedback: I thought the chatbots were really repetitive and they could not go into details or elaborate on some of their thoughts. They were also not interrupting my questions correctly half of the time as well. I think it would have been more convincing if some of the chatbots stayed more on topic as well.  
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hello to you
+User(2): Do you enjoy to go hiking?
+Bot(2): sure
+User(3): oh well, that is very cool! Where do you like to go?
+Bot(3): anywhere with a lot of hiking trails !
+User(4): That is really nice, have you ever hiked the Appalachian trail?
+Bot(4): no but i went hiking on the appalachian trail during this summer .
+User(5): what part did you hike?
+Bot(5): well in the summer i have hiked the appalachian trail
+User(6): how was the weather during your hike?
+Bot(6): beautiful . nice and sunny , great for walks .
+User(7): that is great, how long was the trail that you hiked?
+Bot(7): in the winter . i do a lot of hiking but more in the summer months .
+User(8): do you ever go camping when you are hiking?
+Bot(8): no but i went hiking on the appalachian trail during this summer .
+User(9): oh okay, I love to camp out when I am hiking that way I can go for several days.
+Bot(9): that sounds so nice . what are your favorite camping spot ?
+User(10): I like to go to the Catskills.
+Bot(10): that is cool i hike the appalachian trail when i have free time .
+User(11): Have you ever been to the Catskills?
+Bot(11): no but i went hiking on the appalachian trail during this summer .
+User(12): very nice
+Bot(12): when did you last go ? i have only heard amazing things .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hiking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.29
+Robotic(↓): 90
+Interesting: 16
+Fun: 39
+Consistent: 28
+Fluent: 83
+Repetitive(↓): 93
+Topic: 92
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello!
+Bot(1): Do you drove a 2015 languages?
+User(2): what?
+Bot(2): great , work in a diner more athletic but with working it is hard .
+User(3): Sorry, can you rephrase?
+Bot(3): i hear voices .. Also, try to waste time on distractions. ...
+User(4): Oh you hear voices?!
+Bot(4): I am sorry to do you learn see a waitress and i am a barista.
+User(5): You are a waitress?
+Bot(5): very bland , i just weld pipelines for your brothers older than mostly patchwork but sometimes more . how are you doing ?
+User(6): I am doing well, thank you for asking!
+Bot(6): I think that true time outdoors. I music
+User(7): I love music as well!
+Bot(7): That is funny. I where are you favorite but not so tall .
+User(8): Are you tall?
+Bot(8): A is are You drive?
+User(9): Yes I love to drive!
+Bot(9): that is be you kidding enjoy fishing
+User(10): Fishing is nice as well, do you go fishing?
+Bot(10): I like intelligent iq level But like dark blonde.
+User(11): Oh very nice
+Bot(11): I do my favorite you.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Investing(like)
+Round 7: Random cannot identify the topic at this time.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 11.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 23
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hey
+User(2): Do you like mountain biking?
+Bot(2): yes . i am really into biking .
+User(3): oh nice! Where do you like to go?
+Bot(3): anywhere with a lot of hiking trails !
+User(4): nice, what kind of bike do you have?
+Bot(4): i like to mountain bike too . do you go often ?
+User(5): Yes, I go ever weekend, how about you?
+Bot(5): i like to mountain bike too . do you go often ?
+User(6): Yes, I go every weekend.
+Bot(6): cool . i just got in from mountain biking .
+User(7): Oh wow, what trail did you go to?
+Bot(7): i like the appalachian trail .
+User(8): oh, that is where you go mountain biking?
+Bot(8): yes . i am really into biking .
+User(9): very nice, is there anything else that you enjoy doing?
+Bot(9): yes , i love biking and hiking
+User(10): Oh nice, have you ever hiked the rocky mountains?
+Bot(10): i have not , but it sounds fun !
+User(11): Yes! We should go sometime!
+Bot(11): i would love to , what time ?
+User(12): next weekend!?
+Bot(12): yes ! next week ! i cannot wait
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Mountain Biking(like)
+Round 9: Hiking(like)
+
+Topic Change and Chatbot Opinion:
+Round 9: The user changed the topic the last input.(like)
+
+Revised avg score: 43.71
+Robotic(↓): 86
+Interesting: 37
+Fun: 40
+Consistent: 62
+Fluent: 29
+Repetitive(↓): 64
+Topic: 88
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello!!
+Bot(1): i am a student , but i am a student .
+User(2): Do you like snowboarding?
+Bot(2): i do , i love to travel .
+User(3): Oh that is nice, where do you like to travel?
+Bot(3): i love to travel . i love to travel .
+User(4): Where is your favorite spot to travel?
+Bot(4): i like to go to the beach and listen to music .
+User(5): Oh nice, which Beach is your favorite?
+Bot(5): i like the color red . i like the color blue .
+User(6): red and blue are nice, do you want to know what my favorite color is?
+Bot(6): i do not really like it . i like to wear red shoes .
+User(7): Do you have a lot of shoes that you own?
+Bot(7): i do not , but i do like to eat .
+User(8): What is your favorite food?
+Bot(8): i like the color red . what is yours ?
+User(9): My favorite col9or is green!
+Bot(9): i like the color red . i like the color blue .
+User(10): those are nice colors!
+Bot(10): i like to go to the beach and listen to music .
+
+Persona:
+knitting is my passion.
+i like to spend my money on cars.
+i am a retired gym teacher.
+i am a plumber.
+i'm 100 years old.
+
+Topic and Human Opinion:
+Beginning: Snowboarding(like)
+Round 2: Traveling(like)
+Round 5: Color(like)
+Round 6: Shoes(dislike)
+Round 7: Eating(like)
+Round 8: Color(like)
+Round 10: Going to the beach and listening to music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 7.00
+Robotic(↓): 100
+Interesting: 5
+Fun: 19
+Consistent: 11
+Fluent: 14
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you like to go out on dates?
+Bot(2): ha ! i am sure . best 1st date i had we flew to cab . totally insane !
+User(3): what?! that sounds insane, what happened!?
+Bot(3): car accident in a new car a friend gifted me . other driver dui .
+User(4): Your friend got into a car accident?
+Bot(4): yeah , a bad car wreck . i lost my legs , so i am super short now .
+User(5): oh wow, how do you feel about that?
+Bot(5): sorry , i enjoy using exclamation marks when i type ! i do feel bad
+User(6): that's okay, is it hard living without legs?
+Bot(6): i used to lie with my parents , but they passed in a car accident
+User(7): oh was that the same accident where you lost your legs?
+Bot(7): yeah , a bad car wreck . i lost my legs , so i am super short now .
+User(8): what happened? Who's fault was it?
+Bot(8): i was a passenger in a car with a drunk driver . i lost most of my friends .
+User(9): Oh wow that is so sad.
+Bot(9): yes she has given me wonderful children . . . two boys and a girl . shelves on through them
+User(10): what?
+Bot(10): it is orange . i have my nails painted orange . they are long .
+User(11): Oh very nice, orange seems like a nice color!
+Bot(11): hot pick with purple highlights , orange is a nice color
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dating(like)
+Round 3: Car accident(ambivalent)
+Round 10: Nails(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 34.00
+Robotic(↓): 100
+Interesting: 50
+Fun: 35
+Consistent: 34
+Fluent: 20
+Repetitive(↓): 47
+Topic: 46
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi!
+Bot(1): hi ! i am a musician and i love music .
+User(2): Very nice, what kind of instrument do you play?
+Bot(2): i play guitar , but i am a musician .
+User(3): how long have you been playing the guitar?
+Bot(3): i play guitar , but i am a musician .
+User(4): when did you learn how to play the guitar?
+Bot(4): i do not play it , but i do play guitar
+User(5): what about the paino?
+Bot(5): i am a musician , i am a musician .
+User(6): very nice, can you sing as well?
+Bot(6): i am a musician , i am a musician
+User(7): do you sing?
+Bot(7): no , i do not sing , i am a musician
+User(8): oh okay, what about the drums?
+Bot(8): i don't play any instruments , but i do play guitar
+User(9): When did you start playing the guitar?
+Bot(9): i am a musician , i am a musician
+User(10): Me too, I am a musician as well I have been playing the piano for 10 years!
+Bot(10): i am a musician , i am a musician
+
+Persona:
+i've a boyfriend.
+i've a black lab named trooper.
+i am a famous twitch streamer.
+i am a musician and hope to make it big some day.
+i am deathly afraid of heights.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 1: Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 21.57
+Robotic(↓): 100
+Interesting: 5
+Fun: 13
+Consistent: 27
+Fluent: 19
+Repetitive(↓): 100
+Topic: 87
+
+####################
+

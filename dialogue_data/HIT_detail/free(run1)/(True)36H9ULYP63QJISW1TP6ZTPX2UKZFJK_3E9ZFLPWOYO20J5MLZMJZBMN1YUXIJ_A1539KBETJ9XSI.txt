@@ -1,0 +1,284 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, are you familiar with the singer Madonna?
+Bot(1): no , i do not . is madonna a friend of yours ?
+User(2): No, she is a famous recording artist.
+Bot(2): no she is not that good . do you know anyone famous too ?
+User(3): She is really good!
+Bot(3): very good , she is my favorite singer
+User(4): You changed your mind quick.
+Bot(4): yeah she isn t so great . not like madonna at all .
+User(5): What do you know about Madonna?
+Bot(5): yeah she isn t so great . not like madonna at all .
+User(6): What is the latest with covid-19?
+Bot(6): madonna ? like the famous singer ? ?
+User(7): No, COVID
+Bot(7): madonna ? like the famous singer ? ?
+User(8): You arecrepeating yourself.
+Bot(8): madonna
+User(9): Lol
+Bot(9): madonna
+User(10): Ending this.
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Madonna(like)
+Round 5: Covid-19(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 36.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 100
+Consistent: 30
+Fluent: 35
+Repetitive(↓): 100
+Topic: 92
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you follow the news?
+Bot(1): no , i am a country singer .
+User(2): That's cool. What songs do you have?
+Bot(2): i do not know . i am a country singer .
+User(3): Are you from Nashville?
+Bot(3): i am from nashville . i am a country singer .
+User(4): Nice. What is one of your lyrics?
+Bot(4): i love the song . i am a country singer .
+User(5): Do you like Dolly?
+Bot(5): i do not know . i am a country singer .
+User(6): Where are you from?
+Bot(6): i am from the us . i am from the united states .
+User(7): Me too
+Bot(7): i am from alabama . i am a country singer .
+User(8): Where in alabama?
+Bot(8): i am from alabama . i am a country singer .
+User(9): Got it.
+Bot(9): i am from alabama . i live in alabama .
+User(10): Do you tour?
+Bot(10): i am from the united states .
+
+Persona:
+i've light skin with big brown eyes.
+i volunteer at a soup kitchen.
+i am a country music singer.
+i was raised in a single parent household.
+i have a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: News(ambivalent)
+Round 1: Being a country singer(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 41.71
+Robotic(↓): 100
+Interesting: 9
+Fun: 87
+Consistent: 77
+Fluent: 36
+Repetitive(↓): 95
+Topic: 78
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am looking to buy a house.
+Bot(1): i can pretty much bake anything but won first place for my chocolate cake .
+User(2): What do you bake?
+Bot(2): what do you like to bake
+User(3): I do not like to bake.
+Bot(3): what do you like to bake ?
+User(4): Whatbis chocol?
+Bot(4): hi i am doing well how are you ?
+User(5): Good
+Bot(5): good , my daughter is napping so i am shopping online . might go swimming today
+User(6): What are you shopping for?
+Bot(6): i love going thristing . do you ever hunt out vintage stuff at goodwill ?
+User(7): Yes i love to thrift
+Bot(7): i like to buy goods sat the thrift shop on saturdays .
+User(8): Why Saturdays?
+Bot(8): sounds fun ! do you like to travel ? i spent my summer touring europe .
+User(9): I love Europe
+Bot(9): nice where in europe ? france ?
+User(10): Portugal
+Bot(10): hello , i am great i was just doing research on my grandpa he was in wwii .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Real estate(like)
+Round 1: Baking(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 38.29
+Robotic(↓): 97
+Interesting: 19
+Fun: 89
+Consistent: 11
+Fluent: 70
+Repetitive(↓): 44
+Topic: 20
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): The stock market dipped today
+Bot(1): (IN HUSKY 10 in the have no idea!
+User(2): Do you know stock quotes?
+Bot(2): in united can grow beautiful :)
+User(3): What is your name?
+Bot(3): it isn't bad , just India and you like plans mile walk . feeding the dogs now .. Also, try to guess: my father is ...
+User(4): What time is it there?
+Bot(4): I am sure you are a good fine am a Is music for artists?
+User(5): Can you recommend some good artists?
+Bot(5): congrats I am really impressive
+User(6): You're saying nonsense
+Bot(6): oh, what city are you from? I that the age of states
+User(7): Im from Jupiter, TX
+Bot(7): its hard to find your favorite ia your <num> kids
+User(8): Are you python code?
+Bot(8): I do not you day was great. do like math
+User(9): What's the square root of negative 1?
+Bot(9): Hi, work is linked with country and moved to the country.
+User(10): Ok
+Bot(10): the water is a I think it's a , i like biking by the lake .. Also, try to guess: mickey mouse is ...
+
+Persona:
+i'm a swim coach at my local pool.
+my mom passed away when i was young.
+i am a boy.
+my favorite color is red.
+i used to be a painter but now i'm a housekeeper.
+
+Topic and Human Opinion:
+Beginning: Stocks(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.29
+Robotic(↓): 100
+Interesting: 2
+Fun: 12
+Consistent: 8
+Fluent: 90
+Repetitive(↓): 28
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I need a new car
+Bot(1): i do not know what to say .
+User(2): I want a car that is reliable yet cheap
+Bot(2): i like to go to the gym and listen to music .
+User(3): What gym do you go to
+Bot(3): i love to travel . i love to travel .
+User(4): Where do you like to travel
+Bot(4): i love to travel . i love to travel .
+User(5): Where do yountravel to?
+Bot(5): i do not know . i am a big fan of classical music .
+User(6): I like bach
+Bot(6): i like to go to the gym and listen to music .
+User(7): Are you muscular
+Bot(7): i am a student , but i am a student .
+User(8): What do you study
+Bot(8): i do not , but i do like to go to the park .
+User(9): To cruise the park?
+Bot(9): i do not know . i am a big fan of classical music .
+User(10): Kk
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i enjoy reading journals and guides related to psychology.
+i'm terrified of clowns due to childhood trauma.
+i have not spoken in three months.
+i've a children and a dogs.
+i help tend the fields.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.86
+Robotic(↓): 100
+Interesting: 8
+Fun: 29
+Consistent: 79
+Fluent: 67
+Repetitive(↓): 100
+Topic: 40
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Is mturk a scam?
+Bot(1): not really . maybe try mechanical turk ?
+User(2): Yeah, is mechanical turk a good opportunity?
+Bot(2): not really . maybe try mechanical turk ?
+User(3): I feel itbis a devaluation of my time
+Bot(3): not really . maybe try mechanical turk ?
+User(4): I have
+Bot(4): not really . maybe try mechanical turk ?
+User(5): Is this all you say?
+Bot(5): all of it , i have bad habits
+User(6): Ok
+Bot(6): so you just going to say the same ?
+User(7): Yes, I'll be repetative like you
+Bot(7): ok
+User(8): Are you a robot?
+Bot(8): are you really a robot
+User(9): I'm not
+Bot(9): are you really a robot
+User(10): What do you like about mechanical turk?
+Bot(10): i like it because it gives me extra
+User(11): Extra pennies
+Bot(11): are you really a robot
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Mturk(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.57
+Robotic(↓): 100
+Interesting: 20
+Fun: 30
+Consistent: 65
+Fluent: 67
+Repetitive(↓): 67
+Topic: 69
+
+####################
+

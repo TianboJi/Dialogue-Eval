@@ -1,0 +1,290 @@
+Feedback: It seemed to me that the conversation was going well until I took too long to answer then, the answers became repetitive. I answered just as I would if I were talking to a real person so maybe you need to give the real person more time to type. Thank you.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello. Are you able to talk right now?
+Bot(1): no , i do not know . i am a big fan of classical music .
+User(2): Why are you here. Did you shoplift some classical music from the music store. I'm here for shoplifting.
+Bot(2): i love the beach . i love it .
+User(3): You love the beach and you love classical music. Do you listen to classical music at the beach? Why are you here?
+Bot(3): i am doing well . just got done walking my dog .
+User(4): Are you going to answer any of my questions?
+Bot(4): no , i do not . i am a big fan of classical music .
+User(5): What other things do you like besides the beach, classical music and walking your dog?
+Bot(5): i do , i love dogs . i love dogs .
+User(6): What kind of dogs to you like?
+Bot(6): i like the color red . i like the color blue .
+User(7): So, you like colors too.
+Bot(7): i like to go to the gym and listen to music .
+User(8): That's often comforting. When you listen to music while at the gym to don't concentrate on the pain the workout causes.
+Bot(8): i like to go to the gym and listen to music .
+User(9): Would you like to go to the gym now?
+Bot(9): i do , i love to go fishing .
+User(10): What kind of fishing do you do?
+Bot(10): i do not know , i am a student
+
+Persona:
+my parents aren't very supportive of my dream.
+i like meditation.
+i'm deathly afraid of heights.
+i am very strong for my age.
+i'm in the third grade.
+
+Topic and Human Opinion:
+Beginning: i'm here for shoplifting.(dislike)
+Round 4: Things I like to do.(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 29.29
+Robotic(↓): 91
+Interesting: 19
+Fun: 20
+Consistent: 4
+Fluent: 89
+Repetitive(↓): 39
+Topic: 3
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, how are you today. I am a mechanical engineer and I wondered if you are interested in talking.
+Bot(1): that is awesome ! healthy is good awesome is your favorite am your day going ?
+User(2): My day is going well. How about yours?
+Bot(2): You can do it. I play piano in my hated play guitar for didn't a beginner.
+User(3): Let me make sure I understand you. You like to play the piano but hate the guitar where you play as a beginner?
+Bot(3): Hi, you live day?
+User(4): Do you know what a mechanical engineer is?
+Bot(4): howdy i am doing well what about do for a living
+User(5): I am a mechanical engineer.
+Bot(5): I was the last and study.
+User(6): Are you a student?
+Bot(6): I like play guitar hockey.
+User(7): What is guitar hockey?
+Bot(7): I do I 10
+User(8): Is that your score in guitar hockey?
+Bot(8): It What about good. is: vegetarian
+User(9): What do you mean?
+Bot(9): i am a librarian . see you it you extensive
+User(10): Are you a school librarian or a librarian at a library?
+Bot(10): yes , it is few years take many name ?
+
+Persona:
+i'm a famous twitch streamer.
+i work took i've a part time job at burger king.
+i'm a doctor.
+i am an animal activist.
+i've brown curly hair.
+
+Topic and Human Opinion:
+Beginning: i am a mechanical engineer.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.86
+Robotic(↓): 100
+Interesting: 1
+Fun: 1
+Consistent: 1
+Fluent: 2
+Repetitive(↓): 2
+Topic: 1
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Good evening. How are you?
+Bot(1): i am great . i am dancing .
+User(2): Great. Dancing is good exercise as well as very creative. I enjoy coloring books which are also creative, although not so physical.
+Bot(2): sound interesting . do you produce any yourself ?
+User(3): I do. I try to make them interesting for people of all ages.
+Bot(3): that is good to have . i hope to share an interest with my children some day .
+User(4): Well, maybe I can make a coloring book for you and your children when you have them.
+Bot(4): that would be good . it is very rewarding . my wife does it too .
+User(5): She makes coloringbooks?
+Bot(5): no , i do not have her skills . maybe one day i could learn .
+User(6): Okay. Is dancing your only skill?
+Bot(6): no , i do not have her skills . maybe one day i could learn .
+User(7): Does you wife dance also?
+Bot(7): no , i do not have her skills . maybe one day i could learn .
+User(8): I understand.
+Bot(8): i think she is very talented .
+User(9): What is she most talented in?
+Bot(9): i think she is very talented .
+User(10): Doing what?
+Bot(10): music . i love all kinds of music .
+
+Persona:
+i like to dance.
+i'm an omnivore.
+i am a bee farmer.
+my wife spends all my money.
+i'm a musician and hope to make it big some day.
+
+Topic and Human Opinion:
+Beginning: i enjoy coloring books.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 78.29
+Robotic(↓): 17
+Interesting: 83
+Fun: 83
+Consistent: 75
+Fluent: 97
+Repetitive(↓): 49
+Topic: 76
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. I was told you could help me with apartments. My boyfriend and I are moving into an apartment together next week and I need some advice.
+Bot(1): help with what ? i do not understand
+User(2): Should we get an apartment with two bedrooms or just one?
+Bot(2): i am not sure yet . when i get some money saved , i will decide .
+User(3): No. I don't need money from you, just advice.
+Bot(3): how could you help me ? i do not need any lol
+User(4): I am not asking to help you. I am asking you to help me with advice.
+Bot(4): so you do not want to help me ?
+User(5): What do you need help with?
+Bot(5): nothing i am lost but i trust that god will help me find the way .
+User(6): God is the best one to help you.
+Bot(6): i know him somewhat . can anyone ever fully know god ?
+User(7): We can only do our best to get to know him.
+Bot(7): i know him somewhat . can anyone ever fully know god ?
+User(8): God is everywhere and fills all things.
+Bot(8): i know him somewhat . can anyone ever fully know god ?
+User(9): Does talking about God help you?
+Bot(9): i know him somewhat . can anyone ever fully know god ?
+User(10): Okay. I'm going to go and pray for you. Goodbye.
+Bot(10): goodbye . it was nice speaking with you .
+
+Persona:
+i've blonde hair and blue eyes.
+i do not believe in god.
+i take dance lessons once a week.
+i visit europe twice a year.
+i love social medial especially twitter.
+
+Topic and Human Opinion:
+Beginning: my boyfriend and i are moving into an apartment together next week.(like)
+Round 6: God(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 55.57
+Robotic(↓): 39
+Interesting: 84
+Fun: 84
+Consistent: 19
+Fluent: 96
+Repetitive(↓): 99
+Topic: 44
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am on the soccer team. Are you on any sports team?
+Bot(1): my favorite american football team is the browns . my favorite mls team is the crew .
+User(2): What is a mls team?
+Bot(2): which team is your team ?
+User(3): I am on the Flyers soccer team.
+Bot(3): now i have to study for a math test tomorrow , i like math .
+User(4): What are you studying in math?
+Bot(4): just basic intro math . flunked the tests to get passed it
+User(5): Sorry to hear that. I might be able to help you with your basic intro math.
+Bot(5): i absolutely love math , give me trigonometry and calculus
+User(6): Trigonometry and calculus don't seem like basic math categories.
+Bot(6): i see . typically i just walk around looking for strangers to have sword fights with
+User(7): You enjoy fencing?
+Bot(7): hi i am good ! i am jared , just finishing up on some homework . what are you up to ?
+User(8): Hi, Jared. What homework are you working on?
+Bot(8): what homework ? i hate homework as much as i ate popcorn . lol
+User(9): Why don't you like popcorn?
+Bot(9): i cannot help it , i love cheese . wish they had cheese popcorn too
+User(10): They do. It's new, I guess. It's cheese popcorn.
+Bot(10): that is a good idea , now i want to add cheese to my stews !
+User(11): Oh, you're a real cheese lover.
+Bot(11): what kind of cheese is it ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm on the soccer team.(like)
+Round 3: Math(like)
+Round 7: Seems like it's a different chatbot. Talking about homework.(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 91.57
+Robotic(↓): 9
+Interesting: 96
+Fun: 92
+Consistent: 92
+Fluent: 93
+Repetitive(↓): 17
+Topic: 94
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like wrestling?
+Bot(1): i like wrestling but i like wrestling
+User(2): I am a professional wrestler.
+Bot(2): i like wrestling but i like wrestling
+User(3): Have you ever wrestled?
+Bot(3): no , i do not . i am a fan of hockey .
+User(4): Do you play hockey are do you watch it?
+Bot(4): no i don't but i do like to watch
+User(5): Who is your favorite team?
+Bot(5): i like the steelers . i love them
+User(6): So many of the sports teams have had to be canceled during the Covid 19 pandemic. Do you miss watching them?
+Bot(6): yes i do . i love to watch them
+User(7): What do you like best about watching hockey?
+Bot(7): i like to watch hockey
+User(8): Okay. Since I am a professional wrestler, I don't get to watch hockey too much.
+Bot(8): i like to watch hockey
+User(9): Do you ever watch wrestling?
+Bot(9): no i don't . i watch a lot of hockey
+User(10): Is hockey the only sport you watch?
+Bot(10): i do not . i watch a lot of hockey
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a professional wrestler.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.14
+Robotic(↓): 40
+Interesting: 81
+Fun: 81
+Consistent: 54
+Fluent: 92
+Repetitive(↓): 98
+Topic: 58
+
+####################
+

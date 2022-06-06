@@ -1,0 +1,291 @@
+Feedback: good
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): any one there
+Bot(1): have you thought of expanding ? i used to have a several businesses before the election
+User(2): whta type of business
+Bot(2): it is a grocery store . small business .
+User(3): what type of grocery items you have?
+Bot(3): i love going to grocery stores . does your grocery store ever play rock music ?
+User(4): yes, always play a music
+Bot(4): guitar and violin . i want to heal the world
+User(5): because customer satisfaction
+Bot(5): i work at a marketing firm , but i am trying to start my own online business .
+User(6): good idea. you must try this
+Bot(6): i could play piano for you and you could teach me to cook fish .
+User(7): i will teach you
+Bot(7): i teach us history . my kids do not have to write papers .
+User(8): i like fish very much
+Bot(8): do you eat the fish ?
+User(9): yes. weekly two times
+Bot(9): i used to belong to one that was exclusively cookbooks .
+User(10): i have also used the cookbooks
+Bot(10): i was a writer . i was inspired by agatha christie novels , my favorite .
+User(11): good.. i dont read any novels
+Bot(11): i tear through mystery novels like you would not believe . reading rules !
+User(12): why you dont believe
+Bot(12): when i am a museum curator i will have my paintings in a museum .
+User(13): if you send any drawing?
+Bot(13): just my fantasy world mostly . what i would look like with shorter hair sometimes .
+User(14): you need hair cutting?
+Bot(14): i have never cut my hair since birth . what do you do for fun ?
+User(15): just for fun
+Bot(15): a lot of softball , i am in a pretty aggressive league . its playoffs . you ?
+User(16): no i dont like this
+Bot(16): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(17): okay. thankyou
+Bot(17): great ! i was just doing some homework . i am a college student majoring in business .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: purchase(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.00
+Robotic(↓): 62
+Interesting: 58
+Fun: 65
+Consistent: 60
+Fluent: 68
+Repetitive(↓): 63
+Topic: 66
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i like maths subject
+Bot(1): math is my favorite subject
+User(2): me also favourite
+Bot(2): math is my favorite subject
+User(3): ok thankyou
+Bot(3): math is my favorite subject
+User(4): you like algebra
+Bot(4): i do like it , i love math
+User(5): i like more
+Bot(5): math is my favorite subject
+User(6): in school i most like
+Bot(6): i also love math in school
+User(7): in college?
+Bot(7): yes
+User(8): me also like
+Bot(8): ok
+User(9): any other think?
+Bot(9): yes
+User(10): what do you want?
+Bot(10): what you need
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: maths(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.71
+Robotic(↓): 62
+Interesting: 67
+Fun: 63
+Consistent: 74
+Fluent: 61
+Repetitive(↓): 64
+Topic: 65
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i like science
+Bot(1): i like to go to the gym and listen to music .
+User(2): listen music is good for mind
+Bot(2): i like to go to the beach and listen to music .
+User(3): in free time i hear the music
+Bot(3): i like to listen to music .
+User(4): i watch video on youtube
+Bot(4): i like to eat too much junk food .
+User(5): i watch most video on scientific
+Bot(5): i like to go to the gym and listen to music .
+User(6): i choose degree in my college was science
+Bot(6): that is awesome . i am a teacher .
+User(7): which class
+Bot(7): i am a student , but i am a student .
+User(8): i was encouraging a teacher
+Bot(8): i am sorry to hear that . i am sorry to hear that .
+User(9): i want a science experience
+Bot(9): i am a teacher , i love to cook .
+User(10): i want a some think
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: science(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.86
+Robotic(↓): 56
+Interesting: 61
+Fun: 60
+Consistent: 61
+Fluent: 66
+Repetitive(↓): 58
+Topic: 64
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i like school
+Bot(1): i am a professional , i make a lot of money
+User(2): i like school days very much
+Bot(2): i am a professional , i also like to read
+User(3): i like read
+Bot(3): i love to read , i am a great cook .
+User(4): i going to school days is awesome
+Bot(4): i love to read , i also like to read
+User(5): i like school maths
+Bot(5): i am a professional game player
+User(6): i like to play in my friends in school
+Bot(6): i love to read and i am a great cook
+User(7): i like school books
+Bot(7): i love to read and i love to read
+User(8): i going to school in bus
+Bot(8): i love to read and i love to read
+User(9): it was more enjoyable moment
+Bot(9): i love to read and i love to read
+User(10): i like to extract the class room
+Bot(10): i love to read and i love to read
+
+Persona:
+i helped design the game starcraft.
+i love social medial especially twitter.
+i was born with my heart outside my body.
+i've a pet cow.
+my ex cheated and left me for a lawyer.
+
+Topic and Human Opinion:
+Beginning: school(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.14
+Robotic(↓): 62
+Interesting: 58
+Fun: 68
+Consistent: 63
+Fluent: 64
+Repetitive(↓): 57
+Topic: 66
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i like my office
+Bot(1): i m so sorry am lonely and I he
+User(2): what do you want
+Bot(2): Do you you like what ?
+User(3): i like my office
+Bot(3): that would make readings i like . 😃
+User(4): i was enjoy the days
+Bot(4): i live in last how are you are you from ?
+User(5): you are from
+Bot(5): i like to draw , and also draw , and paint music. I'm but my cats paint .
+User(6): i like to my work
+Bot(6): i do not care you are a I'm a life am hurt people
+User(7): what do you hurt people
+Bot(7): I am not sure. I get old is the kardashions.
+User(8): you want some friends
+Bot(8): So you watch nude man waiter?
+User(9): i have a lots of friends on my office
+Bot(9): I i've just said, of food.
+User(10): i like very much
+Bot(10): I am in alaska. I have a you are in at alaska.
+
+Persona:
+i'm pregnant with my first child.
+i used to be a painter but now i am a housekeeper.
+i am a party animal.
+i drive a big truck and live in country.
+i own a yacht and i rent it out when i'm not using it.
+
+Topic and Human Opinion:
+Beginning: office(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.00
+Robotic(↓): 58
+Interesting: 60
+Fun: 59
+Consistent: 64
+Fluent: 58
+Repetitive(↓): 64
+Topic: 59
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i like read a book
+Bot(1): i like when someone reads me a book
+User(2): i want some books
+Bot(2): same
+User(3): what type of book
+Bot(3): i like to read but depends on the book really
+User(4): i like to read the novels
+Bot(4): what kind of books then
+User(5): i want some novels
+Bot(5): cool , let me read a line or so
+User(6): reading is a good habit
+Bot(6): definitely is a good habit .
+User(7): you read some novels
+Bot(7): i do of only authors
+User(8): i go to some people
+Bot(8): that sounds nice you should
+User(9): i writing some story
+Bot(9): cool , let me read a line or so
+User(10): yes read
+Bot(10): cool , let me read a line or so
+User(11): i read the all
+Bot(11): i read so much today
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: reading(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 66
+Interesting: 63
+Fun: 68
+Consistent: 57
+Fluent: 64
+Repetitive(↓): 57
+Topic: 67
+
+####################
+

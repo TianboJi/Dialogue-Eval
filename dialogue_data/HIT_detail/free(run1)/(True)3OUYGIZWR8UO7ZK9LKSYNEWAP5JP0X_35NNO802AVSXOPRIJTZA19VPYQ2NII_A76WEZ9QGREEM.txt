@@ -1,0 +1,303 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello. Can you tell me anything about the current pandemic?
+Bot(1): hi sure i would love to . do you speak spanish ? i grew up in mexico .
+User(2): I speak english
+Bot(2): awesome . i speak english and spanish .
+User(3): So what can you tell me?
+Bot(3): i can speak english spanish and french
+User(4): What do you know about COVID-19?
+Bot(4): not much . i have not even heard much .
+User(5): What's your favorite movie?
+Bot(5): i love preacher , the strain
+User(6): Oh, horror movies.
+Bot(6): i really thought the blair witch 2 was good
+User(7): Do you like any other movies genres besides horror?
+Bot(7): yes , i love horror movies
+User(8): What's your favorite food?
+Bot(8): my favorite food is fish and spanish
+User(9): What is spani?
+Bot(9): your favorite food cannot be spanish , that is a language .
+User(10): Haha. Sorry my fault.
+Bot(10): no problem its ok my spanish is rusty , i walked over here about 20 years ago .
+
+Persona:
+my favourite artist is travis scott.
+one of the languages that i am currently studying is spanish.
+i play with my friends on the playground.
+i am a descendant of christopher columbus.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: COVID-19(like)
+Round 4: Movies(like)
+Round 7: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 33.71
+Robotic(↓): 100
+Interesting: 29
+Fun: 35
+Consistent: 35
+Fluent: 24
+Repetitive(↓): 37
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What's your favorite animal?
+Bot(1): I like riding always do you?
+User(2): I don't like riding horses if that's what you mean?
+Bot(2): I do. I grow up? I've movies.
+User(3): I don't understand.
+Bot(3): yes , very close to my friends on the learn are as well , see them often
+User(4): What do you mean?
+Bot(4): really i am to dance, but I museum person hard to get sunburned there
+User(5): You're not making any sense.
+Bot(5): that sounds very yummy what do watch games with friends
+User(6): What's your favorite sport?
+Bot(6): I love to play with my love to surf
+User(7): Mine is rugby
+Bot(7): I love already a city are to ride my bike.
+User(8): You are difficult to understand.
+Bot(8): No, I and that's your you?
+User(9): Do you like football?
+Bot(9): I am a is your favorite the news
+User(10): Soccer?
+Bot(10): I do music too, i saw do with my dad.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Animals(like)
+Round 5: Sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like cars?
+Bot(1): i am more of a truck person but cars are okay
+User(2): Cool. What's your favorite model truck?
+Bot(2): stick shift ? you are good ! my grandmother drives a stick .
+User(3): I like Mustang.
+Bot(3): oh , i have a mustang too ! it is black .
+User(4): Wow, that must be nice!
+Bot(4): it is okay , it helps pay my cell phone bill
+User(5): What year is the Mustang?
+Bot(5): oh , i have a mustang too ! it is black .
+User(6): Do you like BMW?
+Bot(6): wow ! i like britney spears . she is a swimmer like me . you swim ?
+User(7): I can swim but I don't do it often.
+Bot(7): i do not know how to swim
+User(8): I like beaches though.
+Bot(8): beaches are nice . i sometimes make my pottery on the beach .
+User(9): What's your favorite icecream?
+Bot(9): yes , i do like ice cream . sometimes i make my own ice cream at home .
+User(10): I would like to try that sometime.
+Bot(10): c amon down . i will introduce you to my sister and her dog ciales . ll .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+Round 6: Swimming(dislike)
+Round 8: Icecream(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 8: The user changed the topic the last input.(like)
+
+Revised avg score: 39.43
+Robotic(↓): 91
+Interesting: 56
+Fun: 41
+Consistent: 42
+Fluent: 31
+Repetitive(↓): 57
+Topic: 54
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like flowers?
+Bot(1): i do , i love flowers , but i am a piano teacher
+User(2): What is your favorite flower?
+Bot(2): i like flowers , but i am more of a dog person .
+User(3): Do you have a dog?
+Bot(3): i do not . i am 20 .
+User(4): I am 40
+Bot(4): i do not know what that is .
+User(5): So you watch television?
+Bot(5): i do not . i am more of a music type .
+User(6): What kind of music?
+Bot(6): i play piano on the piano
+User(7): What song can you play on the piano?
+Bot(7): i play piano on the piano .
+User(8): I don't play any musical instruments.
+Bot(8): i am only 10 years old .
+User(9): Do you like school?
+Bot(9): i do . i play piano . i am a violinist .
+User(10): You must be talented.
+Bot(10): i do . i play piano . i am a piano teacher .
+
+Persona:
+i am 40 years old.
+i don't pick up my toys.
+i'm a piano teacher on the side.
+i'll be released in about a month.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: Flowers(ambivalent)
+Round 2: Dogs(like)
+Round 3: Age(ambivalent)
+Round 4: TV(like)
+Round 6: Plays piano(ambivalent)
+Round 8: His age(dislike)
+Round 9: School(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 6: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 18.00
+Robotic(↓): 100
+Interesting: 27
+Fun: 27
+Consistent: 24
+Fluent: 20
+Repetitive(↓): 98
+Topic: 26
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What's your favorite food?
+Bot(1): um , i do not really have a favorite kind of food .
+User(2): Mine is Thai food.
+Bot(2): same
+User(3): Do you like Pad Thai?
+Bot(3): yes it is very good . i like how it taste .
+User(4): I agree. It's delicious!
+Bot(4): so you like thai food ?
+User(5): Yes, very much.
+Bot(5): so you like thai food ?
+User(6): Yes, I do.
+Bot(6): so you like thai food ?
+User(7): Do you like movies?
+Bot(7): yes . i do enjoy movies .
+User(8): What's your favorite movie?
+Bot(8): napoleon dynamite . what is yours ?
+User(9): Pineapple Express
+Bot(9): that is a good one . seen any good movies lately ?
+User(10): The Green Mile
+Bot(10): best movie of all time
+User(11): I totally agree!
+Bot(11): same
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 6: Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 66.00
+Robotic(↓): 76
+Interesting: 75
+Fun: 73
+Consistent: 85
+Fluent: 85
+Repetitive(↓): 64
+Topic: 84
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What's your favorite television show?
+Bot(1): i like the classics . what about you ?
+User(2): Crime
+Bot(2): i love to cook . i love to cook .
+User(3): I like to cook also
+Bot(3): i like to eat the skin .
+User(4): I don't understand
+Bot(4): i am a student , but i am a student .
+User(5): I have finished school.
+Bot(5): i am a student , but i work at a grocery store .
+User(6): I work for a bank
+Bot(6): that is awesome . i am a teacher .
+User(7): Do you like dogs?
+Bot(7): i do , i love dogs . i love dogs .
+User(8): Do you have any dogs?
+Bot(8): no , i do not , but i do like to eat .
+User(9): I love food
+Bot(9): i like to eat fish .
+User(10): I like to eat sushi
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Television(like)
+Round 2: Cooking(like)
+Round 4: Being a student.(like)
+Round 6: Dogs(like)
+Round 8: Eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The user changed the topic the last input.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 40.86
+Robotic(↓): 66
+Interesting: 67
+Fun: 65
+Consistent: 33
+Fluent: 35
+Repetitive(↓): 88
+Topic: 40
+
+####################
+

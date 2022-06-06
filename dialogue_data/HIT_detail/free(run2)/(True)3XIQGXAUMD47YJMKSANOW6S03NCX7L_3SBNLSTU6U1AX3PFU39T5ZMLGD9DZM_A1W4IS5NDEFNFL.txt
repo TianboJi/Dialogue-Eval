@@ -1,0 +1,310 @@
+Feedback: Thank you for the  opportunity.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. Do you like music?
+Bot(1): yes i sing , i love to watch star wars everyday .
+User(2): I love to sing also. What kind of music do you sing?
+Bot(2): country . luke bryan is my favorite .
+User(3): That's great. Do you like other genres?
+Bot(3): yes i sing , i love to watch star wars everyday .
+User(4): Do you watch star wars for the music?
+Bot(4): no , but i watch a lot of their wrestling . i have always wanted to go .
+User(5): What kind of wrestling are you into?
+Bot(5): it is a type of wrestling
+User(6): what is a type of wrestling?
+Bot(6): it is a type of wrestling
+User(7): Do you like martial arts?
+Bot(7): it is a type of wrestling
+User(8): What is your favorite movie?
+Bot(8): star wars , of course ! how about your favorite star wars character ?
+User(9): I really like chewy. how about yours?
+Bot(9): i love star wars , i used to have a cat named kenobi .
+User(10): So you're a fan of Obi Wan?
+Bot(10): very much so ! also a huge fan of the color red .
+
+Persona:
+i'm a huge star wars fan.
+my favorite color is red.
+i have been retired for a years.
+i am a professional wrestler.
+i was adopted at a young age to an older couple.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 4: star wars and wrestling(like)
+Round 7: movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 34.43
+Robotic(↓): 87
+Interesting: 43
+Fun: 44
+Consistent: 26
+Fluent: 55
+Repetitive(↓): 72
+Topic: 32
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What kind of music do you listen to?
+Bot(1): i listen to about anything . how has your day been ?
+User(2): Well, thank you. I too listen to all genres. Do you have a favorite?
+Bot(2): no favorites here , i only listen to music when trying to relax
+User(3): fair enough. Do you like to go to shows?
+Bot(3): sometimes . i really enjoy country music . so i travel to a lot of concerts .
+User(4): how far will you go to see a country band live?
+Bot(4): thousands . what kind of music do you listen to ?
+User(5): That's a bold move. I mainly listen to punk, pop punk, emo, screamo, ska etc. I like upbeat music. Do you like those also?
+Bot(5): i like everything kinda . do you travel much ?
+User(6): I do on occasion. Mainly for live music shows. What is your favorite place to visit?
+Bot(6): europe . . what do you plan to see first ? i am starting at the end of this month .
+User(7): Lucky. I plan on travelling to Japan one day. Do you like Asia?
+Bot(7): ca not say that i do . i do travel alot but i have never been to japan .
+User(8): Me neither, but it would be a nice place to visit and eat wonderful food.
+Bot(8): yes it is . i try to travel once a year at least . just never know .
+User(9): Understandable. I try to travel once a year but ends up being every other year. Where have you been before?
+Bot(9): i have been to istanbul , bangkok , london and more .
+User(10): That's awesome. How did you like London?
+Bot(10): it is nice travel wise . i am a financial analyst so lots of numbers and computer screens .
+
+Persona:
+i currently work for a watch dealer.
+i also like a glass of wine in the evenings.
+i have a german shepherd dog.
+i have been traveling the world for a years.
+i am a recluse.
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 5: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 78.86
+Robotic(↓): 22
+Interesting: 87
+Fun: 83
+Consistent: 85
+Fluent: 56
+Repetitive(↓): 16
+Topic: 79
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you enjoy sports?
+Bot(1): yes i do i love football
+User(2): do you watch college or professional?
+Bot(2): what is a skittles player ?
+User(3): I have never heard of a skittles player so your guess is as good as mine.
+Bot(3): skittles not sure what that is .
+User(4): skittles is a candy. would you rather talk about candy instead of football?
+Bot(4): now i want candy , i should eat pizza and candy .
+User(5): if you decide to eat candy be sure to brush your teeth afterwards. What kind of pizza do you like?
+Bot(5): sure but i am a security guard and i am at work now
+User(6): how long have you been a security guard?
+Bot(6): i work at a craft store
+User(7): do you stand in the front or walk around the store?
+Bot(7): but my hair is so blond
+User(8): mine usually is, but since it's fall I went darker.
+Bot(8): yes . i start my junior year of college in the fall too .
+User(9): what is your major?
+Bot(9): chemistry major minor in physics .
+User(10): very smart. we have a physics program at my college also.
+Bot(10): that all depends on what you mean by smart , yet i can be quite confident .
+
+Persona:
+i have rainbow hair.
+i work at a school as a kindergarten teacher.
+i am employed by the us postal service.
+i recently was fired and had to get a new job.
+i'm 13 years old.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+Round 4: food(like)
+Round 5: work(like)
+Round 7: haircolor(like)
+Round 8: school(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 42.29
+Robotic(↓): 74
+Interesting: 56
+Fun: 40
+Consistent: 37
+Fluent: 60
+Repetitive(↓): 33
+Topic: 10
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What is your favorite food?
+Bot(1): That was not a yes/no farm. I drive near your job?
+User(2): I do not work at a farm.
+Bot(2): I'm am good man a local restaurant.
+User(3): are you eating at the local restaurant?
+Bot(3): I for a while my car
+User(4): are you waiting on your car to get repaired?
+Bot(4): What Age is doesn't do you like?
+User(5): No clue. I like all ages. How about yourself?
+Bot(5): <num> I'm a football children myself
+User(6): I am a music child
+Bot(6): I like red hair, but I do you just said hair
+User(7): I did not say hair however I do like red hair also.
+Bot(7): i volunteer at ones mostly
+User(8): you volunteer at hair salons?
+Bot(8): I am a lead guitar🎸, and I tell you that the piano.
+User(9): I do play the piano. Also the bass, guitar, ukulele and sing.
+Bot(9): i don't with a watch are do you have any?
+User(10): I do not have a watch.
+Bot(10): thank you play an think to need it
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 1: farms(like)
+Round 2: personal(like)
+Round 4: age(like)
+Round 5: football(like)
+Round 6: hair(like)
+Round 8: music(like)
+Round 9: watch(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 21.57
+Robotic(↓): 100
+Interesting: 15
+Fun: 20
+Consistent: 13
+Fluent: 11
+Repetitive(↓): 8
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like art?
+Bot(1): i do , i love art , especially art
+User(2): what kind of art is your favorite?
+Bot(2): i like art , i love art
+User(3): great. me too. I enjoy abstract painting.
+Bot(3): i love art . i love art .
+User(4): Do you like music?
+Bot(4): i do . i like art .
+User(5): I asked if you liked music, not art.
+Bot(5): i like art . i like art .
+User(6): Do you make art or just enjoy viewing it?
+Bot(6): i do , i love art . i love art .
+User(7): I believe you really like art.
+Bot(7): i do , i love art . i love art .
+User(8): Do you have a pet?
+Bot(8): i do not . i love art .
+User(9): Do you like dog art?
+Bot(9): i do , i love art . i love art .
+User(10): I can tell.
+Bot(10): i do , i love art . i love art .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: art(like)
+Round 3: music(like)
+Round 7: pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 7: No topic change.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 17.57
+Robotic(↓): 96
+Interesting: 4
+Fun: 6
+Consistent: 100
+Fluent: 9
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you have a pet?
+Bot(1): no , i do not , but i do like to go fishing .
+User(2): Would you keep a fish as a pet?
+Bot(2): no , i am a female . i love to cook .
+User(3): what do you like to cook?
+Bot(3): i love to cook , and eat pizza .
+User(4): do you make your own pizza?
+Bot(4): i do , i love it . i love it .
+User(5): what kind of pizza is your favorite?
+Bot(5): i like pizza , and pizza .
+User(6): do you like anything else besides pizza?
+Bot(6): i do , i like to eat .
+User(7): what else do you like to eat?
+Bot(7): i like to eat pizza .
+User(8): do you like dessert pizza?
+Bot(8): i do , i like to eat .
+User(9): I like to eat also.
+Bot(9): i like to eat fish .
+User(10): what is your favorite recipe for fish?
+Bot(10): i like the color red . i like the color blue .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pets(like)
+Round 2: cooking(like)
+Round 10: colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 55.86
+Robotic(↓): 37
+Interesting: 60
+Fun: 41
+Consistent: 59
+Fluent: 59
+Repetitive(↓): 32
+Topic: 41
+
+####################
+

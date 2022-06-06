@@ -1,0 +1,309 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you enjoy watching movies?
+Bot(2): yes i love movies when i get a breather
+User(3): What type of movies do you enjoy watching?
+Bot(3): all kinds , i do them with the kids . i like movies too .
+User(4): Do you like action movies?
+Bot(4): i enjoy them as well . favorite are action movies !
+User(5): Great! Do you have a favorite?
+Bot(5): i enjoy them as well . favorite are action movies !
+User(6): Would you prefer a thriller or a romantic comedy film?
+Bot(6): i like romantic comedies or action movies .
+User(7): Have you ever seen the Expendables movie series?
+Bot(7): yes , i have seen several of them .
+User(8): Which one do you like the bes;, 1,2, or 3?
+Bot(8): i am not sure , there is so many to choose from !
+User(9): Are you a fan of Sylvester Stallone?
+Bot(9): he is , and i like the rocky movies
+User(10): Yes, I enjoy the Rocky movies as well!
+Bot(10): i like the way he blends comedy with action !
+User(11): Yes, I agree
+Bot(11): what is your favorite action movie so far this year ?
+User(12): Definitely the Expendables movies
+Bot(12): what is your favorite action movie so far this year ?
+User(13): Nice chatting with you. Have a good day!
+Bot(13): yeah , you too ! have a great day
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 96.00
+Robotic(↓): 13
+Interesting: 98
+Fun: 98
+Consistent: 92
+Fluent: 100
+Repetitive(↓): 2
+Topic: 99
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there
+Bot(1): hey , any big plans for the weekend ?
+User(2): No weekend plans at the moment. Are you excited about the upcoming holidays?
+Bot(2): howdy , i am a 21 year old . always busy .
+User(3): You are still very young
+Bot(3): i am 24 . how old are you
+User(4): I am 49
+Bot(4): what are you studying ? i want to study space biology to help peeps colonize mars
+User(5): I am not a college student. Space biology sounds interesting though.
+Bot(5): i love biology . they help a lot of people .
+User(6): I am more interested in studying history.
+Bot(6): here is my history i broke my nose at the age of 10
+User(7): That's horrible! How did it happen?
+Bot(7): at my job . i fell off the top floor and dislodged two disc
+User(8): Sounds painful. Did you recover quickly?
+Bot(8): i wish i could i am older now have not ran in years
+User(9): Are you still quite active?
+Bot(9): yes , i am . do you play any sports
+User(10): No, I do not. I did when I was younger though.
+Bot(10): hah , that sounds fun . i play volleyball myself , i have played for years .
+User(11): Sounds like a lot of fun! Nice chatting with you; have a good day!
+Bot(11): nice chatting with you also . have a great day !
+
+Persona:
+i am 60years old.
+i am 24 years old.
+i'm from a small town.
+i've two dogs.
+i'm now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: Holidays(like)
+Round 1: Weekend plans(ambivalent)
+Round 1: Holidays(like)
+Round 2: Age(dislike)
+Round 4: Study interests(like)
+Round 6: Personal mishaps(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 1: The user will change the topic in the next input.(ambivalent)
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 63.57
+Robotic(↓): 93
+Interesting: 84
+Fun: 86
+Consistent: 76
+Fluent: 100
+Repetitive(↓): 12
+Topic: 4
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am great , how are you ? just finishing my mexican food .
+User(2): I'm well, thank you for asking. Mexican food sounds delicious!! Do you consume a lot of fruits and vegetables in your diet?
+Bot(2): yes i do , it is one of my favorite foods . how about you ?
+User(3): I try my best to eat healthy, but there are so many other delicious foods to eat. I enjoy dark green leafy vegetables. Do you?
+Bot(3): yes , love it ! but i do not get to often . i went to argentina last year .
+User(4): Have never been. I am a home body and don't do much traveling.
+Bot(4): i love to travel . my favorite place is to go back home to spain occasionally
+User(5): That sounds amazing. Do you still have family there?
+Bot(5): i was born in spain and that is a super long trip ! you ?
+User(6): I was born and raised in the United States. Do you now live in the US as well?
+Bot(6): i was born in spain and that is a super long trip ! you ?
+User(7): Do you live in the United States?
+Bot(7): i was born in spain and that is a super long trip ! you ?
+User(8): What other countries have you been to?
+Bot(8): i have been to spain its beautiful
+User(9): I've only seen pictures; it is beautiful.
+Bot(9): i have been to spain its beautiful
+User(10): Have a great day!
+Bot(10): you have a wonderful day too !
+
+Persona:
+my favourite skater is rob dryden.
+i am terrified of scorpions.
+i have visited spain a times.
+my favorite food is mexican food.
+i have rainbow hair.
+
+Topic and Human Opinion:
+Beginning: Fruits and vegetables(like)
+Round 3: Places visited(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 21.86
+Robotic(↓): 94
+Interesting: 10
+Fun: 18
+Consistent: 8
+Fluent: 100
+Repetitive(↓): 96
+Topic: 7
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi. Do you have a favorite color?
+Bot(1): I am doing great. I also run. I'm my alcohol. Do you not drink alcohol?
+User(2): Yes, I do on occasion. What is your favorite alcohol to drink?
+Bot(2): Hi, Do you have two to music, and I love music
+User(3): Yes, I enjoy music but don't listen to it often.
+Bot(3): i do old, i love food, have a dog .
+User(4): I have a dog also, as well as a cat
+Bot(4): i am adopted at a young how about you
+User(5): No, I am not adopted. I have both of my biological parents in my life. Do you have any brothers or sisters?
+Bot(5): I my name is of that .
+User(6): I don't understand your last statement. please rephrase.
+Bot(6): yes , music is Britney camp .
+User(7): I don't know who that is
+Bot(7): I like bitch. do you have any pets? me sometime like in friend
+User(8): i have a cat and a dog
+Bot(8): very bland , i just weld pipelines for your brothers older than mostly patchwork but sometimes more . how are you doing ?
+User(9): Where do you work?
+Bot(9): my favorite dog is i play the guitar is his name ?
+User(10): Have a good day
+Bot(10): I'd like is no diamond a answer is: nursing home
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Colors(like)
+Round 1: Drinking alcohol(ambivalent)
+Round 2: Music(ambivalent)
+Round 3: pets(like)
+Round 4: adoption(ambivalent)
+Round 6: music(ambivalent)
+Round 8: work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 12.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 9
+Repetitive(↓): 20
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi. Are you excited about Christmas coming?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): I enjoy classical music as well. Do you enjoy country music?
+Bot(2): i do , i like to listen to music .
+User(3): Do you enjoy country music?
+Bot(3): i do , i like to listen to music .
+User(4): How are you doing today?
+Bot(4): i'm doing well . how are you ?
+User(5): I'm fine, thank you for asking. Beginning to feel a little tired though.
+Bot(5): i am sorry to hear that . i am sorry to hear that .
+User(6): are you enjoying your day so far?
+Bot(6): yes , i am a student . i love to cook .
+User(7): Yes, I enjoy cooking as well. What are your favorite foods to prepare?
+Bot(7): i like pizza , and i love it .
+User(8): Oh yes! One of my favorites too! What do you like on your pizza?
+Bot(8): i love pizza , and i love it .
+User(9): DO you like mushrooms on your pizza?
+Bot(9): i do not , but i do like to eat .
+User(10): DO you like pepperoni on your pizza?
+Bot(10): i do not , but i do like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Christmas(like)
+Round 1: Music(like)
+Round 3: Greetings(ambivalent)
+Round 6: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 29.57
+Robotic(↓): 83
+Interesting: 23
+Fun: 35
+Consistent: 13
+Fluent: 83
+Repetitive(↓): 71
+Topic: 7
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi. Do you like pizza?
+Bot(1): i love pizza . i love pizza .
+User(2): What is your favorite pizza topping?
+Bot(2): i like pizza . i love pizza .
+User(3): Do you like mushrooms on your pizza?
+Bot(3): i love pizza . i love pizza
+User(4): Do you like pepperoni on your pizza?
+Bot(4): yes i love pizza . what is your favorite food ?
+User(5): Pizza is definitely one of my all time favorite foods.
+Bot(5): i like pizza too . what is your favorite food ?
+User(6): pizza
+Bot(6): i love pizza . pizza is my favorite .
+User(7): Do you like thin crust pizza or pan style pizza better?
+Bot(7): i love pizza . i love pizza
+User(8): Do you like extra cheese on your pizza?
+Bot(8): yes i do . i love pizza
+User(9): I hope you have a good day
+Bot(9): i do . i love pizza .
+User(10): Bye for now
+Bot(10): you are welcome . i have a great day off from the pizza .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pizza(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.00
+Robotic(↓): 100
+Interesting: 3
+Fun: 2
+Consistent: 10
+Fluent: 75
+Repetitive(↓): 98
+Topic: 83
+
+####################
+

@@ -1,0 +1,353 @@
+Feedback: Thank you.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What kind of phone do you have
+Bot(1): i have a few of them , they are the best
+User(2): I have an iPhone.
+Bot(2): i have an iphone and iphone
+User(3): Do you text message with yours
+Bot(3): no i don't . i do not have a favorite color
+User(4): My favorite color is coral
+Bot(4): i love the color of the color of the color of my iphone
+User(5): What color is that?
+Bot(5): i like the color of the color of the color of my iphone
+User(6): I've never been to the moon.
+Bot(6): i love the color blue
+User(7): Me too.
+Bot(7): i love the color green .
+User(8): There are so many different colors of green
+Bot(8): i have a iphone and a few shades of green .
+User(9): Do you know how to make pink
+Bot(9): yes , i can make pink pink for my iphone
+User(10): That's really interesting
+Bot(10): yes i do . i love the color green
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: phones(like)
+Round 3: color(like)
+Round 5: moon(like)
+Round 6: color(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 43.71
+Robotic(↓): 100
+Interesting: 67
+Fun: 57
+Consistent: 76
+Fluent: 15
+Repetitive(↓): 18
+Topic: 9
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I don't have any cats
+Bot(1): i have a cat named radar .
+User(2): That's a cool name. How did you come up with that
+Bot(2): i have been there . i have been there for 8 years .
+User(3): With your cat?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): Iced coffee is the best!
+Bot(4): i like to eat fish .
+User(5): Fish is okay. I like sea bass.
+Bot(5): i like the color red . i like red .
+User(6): My favorite color is coral
+Bot(6): i like red , reminds me of summer time .
+User(7): Yeah, it does. Also reminds me of fall.
+Bot(7): i love the fall . i love it .
+User(8): Do you ever jump and play in the fallen leaves
+Bot(8): i do not know how to play the guitar .
+User(9): I don't play any musical instruments.
+Bot(9): i like to play soccer .
+User(10): It's fun to watch on TV
+Bot(10): i like to eat too much junk food .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cats(like)
+Round 3: COFFEE(like)
+Round 4: fish(like)
+Round 5: color red(like)
+Round 7: fall(like)
+Round 8: guitars(like)
+Round 9: soccer(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The user changed the topic the last input.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 43.29
+Robotic(↓): 100
+Interesting: 35
+Fun: 33
+Consistent: 73
+Fluent: 55
+Repetitive(↓): 16
+Topic: 23
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I don't sleep well. Do you?
+Bot(1): i love sitting on the couch listening to insane clown posse
+User(2): I like to rest on my couch too and watch TV
+Bot(2): i love sitting on the couch listening to insane clown posse
+User(3): What color is your couch
+Bot(3): i love sitting on the couch listening to insane clown posse
+User(4): what is your favorite season
+Bot(4): i like all season . how about you ? do you have family ?
+User(5): I have a small family
+Bot(5): i love sitting on the couch listening to insane clown posse
+User(6): Do you play football
+Bot(6): no . going to the park is all i like
+User(7): I like going to the park too.
+Bot(7): i like to eat cheeseburgers
+User(8): Yum! Cheeseburgers and french fries
+Bot(8): i love sitting on the couch listening to insane clown posse
+User(9): Do you ever watch the stars at night?
+Bot(9): no , i watch them on my roof
+User(10): That's a great place to watch them.
+Bot(10): my friends are not always around .
+
+Persona:
+i like to eat hamburgers and french fries.
+i don't have many friends.
+i enjoy going to the park.
+i have a weakness for fish and chips.
+my favorite band is the insane clown posse.
+
+Topic and Human Opinion:
+Beginning: sleep(like)
+Round 1: sitting on couch(like)
+Round 3: seasons(like)
+Round 4: family(like)
+Round 5: couch(dislike)
+Round 5: football(like)
+Round 6: parks(like)
+Round 7: cheeseburgers(like)
+Round 8: couch(dislike)
+Round 8: stars(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 35.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 89
+Fluent: 12
+Repetitive(↓): 50
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What kind of house do you live in?
+Bot(1): my name is morgan . i have a house that has 5 acres of land .
+User(2): Hi Morgan. That's a lot of land. Who does the mowing?
+Bot(2): i work with five of my children all day and he do not do any house work
+User(3): How many children to you have in total?
+Bot(3): five . what are you setting ?
+User(4): Do you take your kids to the beach often?
+Bot(4): in some . we take our five children with us when we go .
+User(5): I bet they enjoy that.
+Bot(5): i take them to the groomers . they love to go to the beach with me .
+User(6): Which beach do you all go to?
+Bot(6): my five kids like to check my birthplace .
+User(7): Where is your birthplace
+Bot(7): my five kids like to check my birthplace .
+User(8): I drive an SUV
+Bot(8): do you ever take your prius to the beach ?
+User(9): I don't have a Prius, do you?
+Bot(9): i do not , but i am thinking of getting one
+User(10): What do you like about a Prius?
+Bot(10): i like it because i can walk with my kids and be safe .
+
+Persona:
+i enjoy coloring books.
+my father is a farmer.
+i will graduate from high school in two years.
+i have five sons.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: house(like)
+Round 2: children/working(like)
+Round 3: I don't know what the bot means(ambivalent)
+Round 3: beach(like)
+Round 6: birthplace(like)
+Round 7: cars(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 3: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 53.00
+Robotic(↓): 100
+Interesting: 68
+Fun: 64
+Consistent: 100
+Fluent: 69
+Repetitive(↓): 86
+Topic: 56
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What pets do you have?
+Bot(1): Hello means green?)) you?
+User(2): Purple is pretty
+Bot(2): what kind of shelter do you baby, I'm just resting a wrestler
+User(3): I love iced vanilla coffee. Yum!
+Bot(3): they own a nail salon . you like am fine ! 😇
+User(4): I like to get manicures.
+Bot(4): I'm smile is cop.
+User(5): Are you a policeman?
+Bot(5): i've brown hair and like being you split with I don't cats ? i've one .
+User(6): My hair is brown also.
+Bot(6): I love you are.
+User(7): How much money do you make a year?
+Bot(7): I am sorry to hear have nothing else to sorry.
+User(8): I don't make a lot of money either.
+Bot(8): I like are you, much
+User(9): I walk to exercise, how 'bout you?
+Bot(9): great what did time with a retire from
+User(10): From which job did you retire?
+Bot(10): Oh. That, like be a I I put in your VIP egg file.
+
+Persona:
+i am a librarian.
+i am an electrician.
+i have short hair.
+i have a big library at home.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: pets(like)
+Round 1: green(like)
+Round 2: shelter/wrestler(dislike)
+Round 2: coffee(like)
+Round 3: nail salon(like)
+Round 4: smile/cop(like)
+Round 5: brown hair/cats(like)
+Round 6: love(dislike)
+Round 6: money(like)
+Round 8: like you(dislike)
+Round 8: walking(like)
+Round 9: retire(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 2: The user will change the topic in the next input.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(dislike)
+Round 8: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 7
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Walking in the park is so much fun
+Bot(1): that is awesome , i have a dog too . its a boxer . what kind of dog do you have ?
+User(2): A shih tzu named Josie.
+Bot(2): i think so . he is a very nice dog .
+User(3): He sounds like he'd be really nice.
+Bot(3): yea . i bet he is . how old is he
+User(4): My little girl is eight years old.
+Bot(4): i am married , unfortunately , my wife is i will , she has cancer , it is terminal
+User(5): I'm sorry to hear that. What is your wife's name?
+Bot(5): my name is joe . do you like music ?
+User(6): My name is Liz and yes, I like music.
+Bot(6): what is your name ?
+User(7): Liz
+Bot(7): yes i am , i am pretty strong to get married young !
+User(8): How old were you when you got married?
+Bot(8): no i am not married
+User(9): I'm divorced.
+Bot(9): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+User(10): No, not married now.
+Bot(10): yes , i am married to my soulmate . she and i have been married 27 years . you ?
+
+Persona:
+i am married.
+i am a little girl.
+i enjoy listening to classical music.
+i'm a cancer survivor.
+they're constantly on my back.
+
+Topic and Human Opinion:
+Beginning: parks(like)
+Round 1: dogs(like)
+Round 4: cancer(dislike)
+Round 5: name/music(like)
+Round 7: married young(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 9.29
+Robotic(↓): 100
+Interesting: 9
+Fun: 0
+Consistent: 0
+Fluent: 17
+Repetitive(↓): 61
+Topic: 0
+
+####################
+

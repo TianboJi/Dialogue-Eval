@@ -1,0 +1,289 @@
+Feedback: The survey went all well
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): Yes I do and you
+Bot(2): i am good thanks for asking
+User(3): You are welcome
+Bot(3): yes i do and you
+User(4): What's your hobby?
+Bot(4): yes i do i love to read
+User(5): I love to read too
+Bot(5): i love reading and reading
+User(6): You had about cancer?
+Bot(6): no i don't have any
+User(7): Okay good
+Bot(7): i have never heard of it
+User(8): What your favorite color
+Bot(8): i like blue and green
+User(9): That's nice
+Bot(9): i like red and green
+User(10): I like white
+Bot(10): i love blue too . i like red
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a cancer survivor.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 80
+Fluent: 72
+Repetitive(↓): 76
+Topic: 73
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): My name is Bazemore
+Bot(2): ok
+User(3): How are you
+Bot(3): i am great , what do you do for a living
+User(4): Am a manager and you
+Bot(4): good and do you work
+User(5): Yes I do
+Bot(5): noah do you play basketball ?
+User(6): Yes so much ,what about you
+Bot(6): good and do you work
+User(7): What's your favorite color
+Bot(7): green and what is yours
+User(8): Mine is white
+Bot(8): that is a cool color
+User(9): Yes very cool I love it
+Bot(9): it my favorite color and i am surrounded by it
+User(10): That's great,do have a great night ahead
+Bot(10): thanks you have a great night as well
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: since the surgery i have had strange powers.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 85.71
+Robotic(↓): 50
+Interesting: 50
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): oh, i have never been is wrong with like born and raised there.
+User(2): My name is Bazemore
+Bot(2): I Do you like What about you?
+User(3): How are you
+Bot(3): That she’s makes you I love softball. 😁
+User(4): What's your hobbies
+Bot(4): She part of favorite singer.
+User(5): Oh
+Bot(5): I would love to! children and are work my car!
+User(6): You have children
+Bot(6): Hiya. I'm to eat bees. you?
+User(7): Oh
+Bot(7): how exciting want to talk really? has three .
+User(8): Ok
+Bot(8): i am sure it is . i am a blonde 3 do you dream .
+User(9): Yes
+Bot(9): I do not know, i am farmer in a big can cook for you
+User(10): Ok
+Bot(10): No, not really for already heared to race.
+
+Persona:
+i am overweight and unhappy.
+i like to go hiking in the mornings to see the sunset.
+i like to spend my money on cars.
+i also like to cook but i'm not very good at it.
+i enjoy long walks with my dog.
+
+Topic and Human Opinion:
+Beginning: i do not pick up my toys.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 50
+Interesting: 50
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello my name is Bazemore
+Bot(1): i am a dancer , what do you do ?
+User(2): Am a manager
+Bot(2): i love to cook . i love to cook .
+User(3): Same here
+Bot(3): i love to cook . i love to cook .
+User(4): What's your favorite food
+Bot(4): i like pizza , and i love it .
+User(5): Okay
+Bot(5): i love to cook . i love to cook .
+User(6): What's your favorite movies
+Bot(6): i like the classics and the doors .
+User(7): That's cool
+Bot(7): i like to go to the gym and listen to music .
+User(8): Same here
+Bot(8): i love to cook . i love to cook .
+User(9): What's your favorite color
+Bot(9): i like blue , my favorite color is blue .
+User(10): Mine white
+Bot(10): i love to cook . i love to cook .
+User(11): Take care
+Bot(11): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm married with two kids.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.00
+Robotic(↓): 71
+Interesting: 35
+Fun: 46
+Consistent: 50
+Fluent: 42
+Repetitive(↓): 100
+Topic: 36
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): Am good and you
+Bot(2): good , my daughter is napping so i am shopping online . might go swimming today
+User(3): That's great,am just home relaxing
+Bot(3): aww i have 2 dogs and a lizard . i want to be a vet
+User(4): That's nice,I have dog as well
+Bot(4): i have three dogs and love animals . do you have pets ?
+User(5): Yes I have dog and cat
+Bot(5): my drummer has a cat named system . our fav band is system of a down
+User(6): Okay good
+Bot(6): i was thinking of getting a new pen . i write a lot .
+User(7): That's great,what's your favorite color
+Bot(7): my favorite color is blue yours ?
+User(8): Mine is white?
+Bot(8): white is nice but i love blue . . . . so a semi truck ?
+User(9): Yes white is a symbol of peace
+Bot(9): no . it is a literal all black lens for regular digital cameras .
+User(10): Oh
+Bot(10): i am a wealth management consultant and an ivy league graduate . whats your pedigree ?
+User(11): Am an accountant
+Bot(11): i am a doctor , and i get to work every day with my wife she is a nurse
+User(12): That's great,I like that
+Bot(12): when i have free time i read . i also write poetry .
+User(13): Yes I read alot as well
+Bot(13): what do you read ? i just graduated college . i was chicago for school .
+User(14): I read novel and poetry
+Bot(14): not a teacher , i write poetry , am involved in a gun club
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am 24 years old.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 100.00
+Robotic(↓): 0
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): helloooo
+User(2): How are you doing
+Bot(2): good and you ?
+User(3): All reasons to be good as well
+Bot(3): do you compete in the olympics
+User(4): What are you up to
+Bot(4): working and doing some multi taskin
+User(5): Oh that's great,well done
+Bot(5): very
+User(6): You married?
+Bot(6): i am not but i am engaged
+User(7): That's cool,how is your spouse doing?
+Bot(7): i am married to a great man
+User(8): You so lucky to have him,you have kids?
+Bot(8): yes , i have two and yourself
+User(9): Married to a beautiful wife with three kids
+Bot(9): that very nice , you are bless
+User(10): Yes sure no doubt,you are bless too
+Bot(10): i am very lucky so i do appreciate it
+User(11): Off course yeah, appreciate matter most,am very lucky as well
+Bot(11): that very nice , you are bless
+User(12): Yes I am,do have a blessed night
+Bot(12): that very nice , you are bless
+
+Persona:
+i help out at the food bank occasionally.
+i work at a nursing home.
+i am single and with two dogs.
+i'm a gold medalist olympian.
+i've a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: i live in a three storey house.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 81.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 100
+Consistent: 77
+Fluent: 100
+Repetitive(↓): 10
+Topic: 100
+
+####################
+

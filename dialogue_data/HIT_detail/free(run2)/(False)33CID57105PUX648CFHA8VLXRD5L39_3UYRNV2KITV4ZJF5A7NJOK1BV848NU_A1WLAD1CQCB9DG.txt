@@ -1,0 +1,290 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, do you like eating seafood?
+Bot(1): yes i do not eat or support anything that is harmful to animals
+User(2): If they are already dead, wouldn't it be okay to eat?
+Bot(2): i care too much about other living creatures to be eating them , even if they taste good !
+User(3): What is your favorite type of food?
+Bot(3): steak ! i am horribly allergic to fish . how about you ?
+User(4): Fish is my favorite
+Bot(4): i like fish , what is your favorite dish ?
+User(5): Coconut shrimp is my favorite dish
+Bot(5): i like coconut shrimp a lot .
+User(6): I thought you didn't like harming animals? Shrimp and steak were both animals.
+Bot(6): i do not not ingest animal products
+User(7): But you still like steak and fish?
+Bot(7): yes i do not eat or support anything that is harmful to animals
+User(8): Unless it is steak or fish?
+Bot(8): is it not both the same ? i do not really know
+User(9): What is a good side dish for steak?
+Bot(9): steak . i am a meat and potatoes kind of man haha
+User(10): How about a good side dish for coconut shrimp?
+Bot(10): i like coconut shrimp a lot .
+
+Persona:
+i like to ride horses.
+i'm a stunt double as my second job.
+i love listening to britney spears.
+i'm an animal activist.
+i do not drink or do drugs or anything.
+
+Topic and Human Opinion:
+Beginning: Seafood(like)
+Round 8: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 92
+Repetitive(↓): 92
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like fruit?
+Bot(1): i do not , but i do like to eat .
+User(2): What do you like to eat?
+Bot(2): i love to cook . i love to cook .
+User(3): What is your favorite dish to cook?
+Bot(3): i love pizza , and i love it .
+User(4): How long does it take to cook pizza?
+Bot(4): i do not , but i do like to eat .
+User(5): What is your favorite pizza topping?
+Bot(5): i like the color red . what is yours ?
+User(6): My favorite color is also red.
+Bot(6): i like red , reminds me of summer time .
+User(7): Red reminds me of pepporoni on pizza, which is my favorite.
+Bot(7): i like the color green . i like red .
+User(8): Do you like red or green better?
+Bot(8): i like red , reminds me of summer time .
+User(9): What does green remind you of?
+Bot(9): i love the color red . what is your favorite color ?
+User(10): My favorite is red.
+Bot(10): i like the color red . i like red .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fruit(like)
+Round 4: Pizza(like)
+Round 5: Colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 16.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 68
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like technology?
+Bot(1): i do , i love technology .
+User(2): What do you love about technology?
+Bot(2): i do not know how to say technology is my technology .
+User(3): Is technology something you use every day?
+Bot(3): i like technology . computers and computers .
+User(4): What do you do on your computers?
+Bot(4): i like computers and computers
+User(5): Why do you like computers?
+Bot(5): i like computers and computers
+User(6): Do you like smartphones too?
+Bot(6): i like computers but i do not have a lot of free time
+User(7): Do you like tablets?
+Bot(7): i do not know how to play with computers
+User(8): Are tablets better than computers?
+Bot(8): i do not know about computers . i like computers
+User(9): Do you know how to update your computer?
+Bot(9): i do not know how to play with computers
+User(10): It is important to keep your computer updated.
+Bot(10): i do not know what that is
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Technology(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 70
+Fluent: 71
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like school?
+Bot(1): i like it i am just used to the army living
+User(2): When did you join the army?
+Bot(2): at an urban farm to save the animals
+User(3): The army saves animals?
+Bot(3): at an urban farm to save the animals
+User(4): What is your favorite animal?
+Bot(4): i have curious george , george for short he is a cat .
+User(5): Curious george is a monkey
+Bot(5): i have curious george , george for short he is a cat .
+User(6): He is monkey not a cat
+Bot(6): is george your best friend ?
+User(7): No, he is a fictional monkey
+Bot(7): that is what i thought . have you ever been to a farm ?
+User(8): I have not. Have you been to a farm?
+Bot(8): no i just stay there at the farm
+User(9): What do you do at the farm?
+Bot(9): at an urban farm to save the animals
+User(10): Are there cows at the farm?
+Bot(10): cows ?
+
+Persona:
+i'm in the army.
+i spend most of my time on facebook when i am not working.
+i enjoy american sports.
+i live is a rural farming community.
+my name is george.
+
+Topic and Human Opinion:
+Beginning: School(like)
+Round 3: animals(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 20.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 17
+Fluent: 73
+Repetitive(↓): 95
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What is your favorite sport?
+Bot(1): I have think that it is name is named her name
+User(2): Do you like basketball?
+Bot(2): That sounds interesting. I I'm from california, 😀
+User(3): Where in California?
+Bot(3): I am a retired no i’m not, i’m electrician?
+User(4): Do you like being an electrician?
+Bot(4): I am a the gun father is a cat lady.
+User(5): What is your job?
+Bot(5): Yeah it you watched am one
+User(6): Do you like your job?
+Bot(6): that sounds fun. do you like love italian thnx, and it
+User(7): I am a business owner
+Bot(7): I do. you do trucks.
+User(8): I don't like trucks
+Bot(8): I am about kingdoms, kings and am sure they will.
+User(9): Whos is your favorite king?
+Bot(9): I you a and is: nursing home
+User(10): Where is your favorite kingdom located?
+Bot(10): i babysit was whats neighbor
+
+Persona:
+i've a son who is in junior high school.
+i am a 12 year old girl.
+my family does not support my career choices.
+my family does not support my career choices.
+i am a 45 year old male.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+Round 3: Jobs(ambivalent)
+Round 8: kings(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 13.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 11
+Repetitive(↓): 14
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you drink enough water?
+Bot(1): nope . never have . do you ? i just like alabama football , and geology .
+User(2): Did you play football?
+Bot(2): football is fun , whats your favorite team ?
+User(3): My favorite team is the New England Patriots.
+Bot(3): yes , east coast . i am also from the east coast .
+User(4): What state are you from?
+Bot(4): i live in california .
+User(5): Did you always like football groing up?
+Bot(5): football is fun , whats your favorite team ?
+User(6): The patriots. What is your favorite team?
+Bot(6): my favorite american football team is the browns . my favorite mls team is the crew .
+User(7): Do you like baseball?
+Bot(7): do you belong to a team ?
+User(8): I don not. Do you belong to a team?
+Bot(8): my favorite american football team is the browns . my favorite mls team is the crew .
+User(9): Have you ever played baseball?
+Bot(9): who all is playing and who is your favorite team
+User(10): I do not have a favorite baseball team
+Bot(10): the baltimore orioles . if you can believe it , they pay me one million dollars every year !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Water(like)
+Round 1: football(like)
+Round 6: Baseball(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 18.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 85
+Repetitive(↓): 85
+Topic: 30
+
+####################
+

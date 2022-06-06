@@ -1,0 +1,297 @@
+Feedback: Some of the bots did not work right. They were repetitive and did not stick to the topic
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): card
+Bot(1): i am sorry to hear that .
+User(2): cars
+Bot(2): i am a banker , i work at a bank
+User(3): hello
+Bot(3): hi how are you today
+User(4): I am good. How are you?
+Bot(4): i'm good . just got home from work .
+User(5): how is that
+Bot(5): i am good . just got off work at the bank .
+User(6): I need help
+Bot(6): i am good . i am a banker .
+User(7): who are you voting for
+Bot(7): i am a bank teller . i am a bank teller
+User(8): do you support Trump or Biden?
+Bot(8): i am not sure . i am a vegan
+User(9): are you a republican or Democrat?
+Bot(9): i am a bank teller at a bank
+User(10): are you a liberal or conservative?
+Bot(10): i am a bank teller
+
+Persona:
+i work at a bank.
+i am a vegan.
+i haven't spoken in three months.
+i drive a mini van.
+my brother is older than me.
+
+Topic and Human Opinion:
+Beginning: election(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.14
+Robotic(↓): 100
+Interesting: 4
+Fun: 4
+Consistent: 66
+Fluent: 66
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like sports
+Bot(1): yes very much i love sports
+User(2): what is your favorite sport
+Bot(2): electric
+User(3): do you like football
+Bot(3): yes i do i love football
+User(4): who is your favorite team
+Bot(4): i like steelers and seahawks
+User(5): which one do you like better?
+Bot(5): i like steelers and seahawks
+User(6): do you prefer football or basketball?
+Bot(6): both are good
+User(7): who is your favorite NBA team
+Bot(7): my favorite nba team is the wizards
+User(8): Do you like John Wall?
+Bot(8): i think that he is okay
+User(9): Do you like professional or college sports?
+Bot(9): both are good
+User(10): what is your favorite college team?
+Bot(10): for football is the denver broncos
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.86
+Robotic(↓): 38
+Interesting: 24
+Fun: 52
+Consistent: 88
+Fluent: 93
+Repetitive(↓): 37
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like games
+Bot(1): no i like board games a lot .
+User(2): What type of board games do you like?
+Bot(2): no i like board games a lot .
+User(3): which ones
+Bot(3): any kind of games . monopoly and basketball are my favorites
+User(4): what is your favorite baseball team?
+Bot(4): not a huge fan of baseball
+User(5): What is your favorite basketball team?
+Bot(5): my favorite team is the raptors
+User(6): are you from Toronto?
+Bot(6): no , i am from new york
+User(7): you don't like the Knicks?
+Bot(7): my favorite team is the raptors
+User(8): have you attended their games?
+Bot(8): yes we have been to several of them
+User(9): who is your favorite player?
+Bot(9): i do not know any player names maybe curry ?
+User(10): Stephen or Seth Curry?
+Bot(10): i do not know any player names maybe curry ?
+User(11): What other games do you like?
+Bot(11): what is your favorite board game ?
+User(12): sorry
+Bot(12): what is your favorite board game ?
+User(13): life
+Bot(13): what is your favorite board game ?
+User(14): clue
+Bot(14): clue is one of my favorite board games !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.71
+Robotic(↓): 82
+Interesting: 69
+Fun: 70
+Consistent: 71
+Fluent: 91
+Repetitive(↓): 21
+Topic: 90
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what shows do you like
+Bot(1): i like that show too .
+User(2): what shows do you watch
+Bot(2): i enjoy game of thrones , supernatural , the walking dead . you ?
+User(3): did you like the games of thrones ending?
+Bot(3): i do not like john grisham books , but the movies are great !
+User(4): who was your favorite character?
+Bot(4): i play a nun with the name of curvy turvy . do not ask !
+User(5): do you like reality shows
+Bot(5): i watch a lot of kid shows got my start with voice overs with sesame street .
+User(6): do you like survivor
+Bot(6): i am happy to hear she is a survivor . there is nothing nice about cancer .
+User(7): do you like big brother
+Bot(7): kind of , i breed cats , main coon breed , then show them !
+User(8): do you like nbc
+Bot(8): i really love video games
+User(9): do you like medical tv shows
+Bot(9): sounds like a good show . i do not watch much tv , i read
+User(10): what do you read
+Bot(10): anything by stephen king what about you any hobbies ?
+User(11): cooking
+Bot(11): i love cooking but i do not have anyone to cook for but myself
+User(12): you should find someone
+Bot(12): i am in a book club where hopefully i can meet someone special
+User(13): that's good
+Bot(13): hi there what video games do you play ?
+
+Persona:
+i am a woman.
+my favorite hobbies are listening to music and playing video games.
+i live in canada.
+i'll be released in about a month.
+i am a cancer survivor.
+
+Topic and Human Opinion:
+Beginning: tv shows(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.00
+Robotic(↓): 19
+Interesting: 31
+Fun: 38
+Consistent: 76
+Fluent: 70
+Repetitive(↓): 84
+Topic: 31
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you have any kids
+Bot(1): boring job i I want to see Ohio it is my favorite phone and pass time
+User(2): do you have a family
+Bot(2): that is cute coloring just said you and four cats
+User(3): you have four cats?
+Bot(3): You are heard of such headed person.
+User(4): that is a lot of cats
+Bot(4): I'm not that correct answer a bad person.
+User(5): Do you have a dog
+Bot(5): No am a voluteer at fan of that. I do like to watch tv.
+User(6): what tv shows do you watch
+Bot(6): not so you should become needs full time help you
+User(7): do you have children
+Bot(7): i have no idea . i are a My dad don't pretzels . how are you doing ?
+User(8): im good
+Bot(8): i m writing ✏ a fantasy novel you, and what do you but i m really passionate about it
+User(9): where are you from
+Bot(9): My kind of my parents am a professional star.
+User(10): where is your family
+Bot(10): oh, what kind of business to have a dog, enjoy football
+
+Persona:
+i am a doctor.
+i am a huge coffee lover.
+i am working on a building a robot to be my body double.
+i'm overweight and unhappy.
+i'm currently in high school.
+
+Topic and Human Opinion:
+Beginning: kids(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 4.14
+Robotic(↓): 100
+Interesting: 6
+Fun: 7
+Consistent: 8
+Fluent: 3
+Repetitive(↓): 96
+Topic: 1
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what is your favorite food
+Bot(1): i like pizza , and i love it .
+User(2): do you like cheese pizza
+Bot(2): i do , i like to eat .
+User(3): do you like pineapples on your pizza
+Bot(3): i do , i like to eat .
+User(4): papa johns or Pizza Hut
+Bot(4): i love to cook . i love to cook .
+User(5): what do you cook?
+Bot(5): i like to eat . i am a big fan of it .
+User(6): what type of food do you eat?
+Bot(6): i like pizza and pizza .
+User(7): hot or cold
+Bot(7): i like the color red . i like the color blue .
+User(8): what about green
+Bot(8): i like the color red . i like the color blue .
+User(9): do you like Italian food
+Bot(9): i do , i like to eat .
+User(10): do you like pasta
+Bot(10): i do , i like to eat .
+
+Persona:
+i am a piano teacher on the side.
+i'm pregnant with my first child.
+i enjoy sports such as running.
+i have a pet fish.
+my favorite food is pizza with black olives.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.57
+Robotic(↓): 82
+Interesting: 64
+Fun: 26
+Consistent: 73
+Fluent: 77
+Repetitive(↓): 84
+Topic: 3
+
+####################
+

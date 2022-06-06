@@ -1,0 +1,332 @@
+Feedback: Not a very smart chatbot.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What did you orginally want to do?
+Bot(1): i like to do research on different cities . you ?
+User(2): That's cool. I like sales.
+Bot(2): really ? sales is associate with stocks , good choice !
+User(3): Thanks. It can be hard sometimes.
+Bot(3): it is very hard you have to know when to buy and sell .
+User(4): exactly. But it's fun. It's like gambling.
+Bot(4): sounds like a gambling consultant . is that your job ?
+User(5): no, i do mortgages
+Bot(5): i just work for fun . my mortgage is paid in full .
+User(6): Nice, it's good to have things paid off.
+Bot(6): yeah i have a bunch of houses that i just rent out now
+User(7): that's a good source of income
+Bot(7): yes definitely . i own many homes though . my work pay is great .
+User(8): I love Destiny.
+Bot(8): that s cool , i like destiny
+User(9): I hate the RNG sometimes but it's addicting.
+Bot(9): love it . we should play a game sometime .
+User(10): Like what?
+Bot(10): just because i play dungeons and dragons .
+User(11): That's a fun game, not really a 'video game' but still a game.
+Bot(11): yeah , that is what i mean .
+User(12): I'll be the dungeon master lol
+Bot(12): wow , seems fun . i have never played before .
+User(13): I thought that you said you played dungeons and dragons
+Bot(13): no , think dungeons and dragons in real life
+User(14): yeah, that's what I am talking about
+Bot(14): there are different forms of the game .
+User(15): I agree
+Bot(15): do you like dungeons and dragons ?
+User(16): Sometimes, I've only played twice.
+Bot(16): that s cool , i like destiny
+User(17): Me too. it is my favorite game right now.
+Bot(17): i have never play that one .
+
+Persona:
+i drive a nissan pathfinder.
+i enjoy reading journals and guides related to psychology.
+i work from home.
+i now live in the city.
+i play a lot of call of duty.
+
+Topic and Human Opinion:
+Beginning: i went to school for chemistry but work in a bookstore.(ambivalent)
+Round 7: video games(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 37.00
+Robotic(↓): 62
+Interesting: 29
+Fun: 31
+Consistent: 45
+Fluent: 26
+Repetitive(↓): 71
+Topic: 61
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I don't play any instruments.
+Bot(1): i did not know about my talent till after my mother passed
+User(2): I'm sorry to hear that, what happened to your mother?
+Bot(2): well , she passed away , unfortunately .
+User(3): What do you think about the debates?
+Bot(3): about her life as i can remember it , she passed on when i was 9
+User(4): I'm sorry to hear that. If you don't mind me asking, what happened?
+Bot(4): well , she passed away , unfortunately .
+User(5): I know, but how?
+Bot(5): music therapy since i love dancing so much , it made sense .
+User(6): Nevermind... I don't like to dance. I like watching it though.
+Bot(6): you could always take lessons .
+User(7): No, It's boring to me. But not as boring as the presidential debates!
+Bot(7): are you a serious democrat or republican ?
+User(8): neither. i like to think of myself as independent however I lean more liberal.
+Bot(8): are you a serious democrat or republican ?
+User(9): I just told you...
+Bot(9): sorry for the miss type , i meant got done with the piano !
+User(10): Nice, I like the piano.
+Bot(10): are you a liberal or a conservative ?
+User(11): i lean more liberal
+Bot(11): are you a liberal or a conservative ?
+
+Persona:
+i love italian food and garlic bread.
+my mom passed away when i was young.
+i take dance lessons once a week.
+i am a piano teacher on the side.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: i play the violin and the guitar.(ambivalent)
+Round 2: Politics(dislike)
+Round 9: playing music(ambivalent)
+Round 11: politics(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user changed the topic the last input.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 18.57
+Robotic(↓): 97
+Interesting: 16
+Fun: 12
+Consistent: 0
+Fluent: 66
+Repetitive(↓): 69
+Topic: 2
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How much money have you saved?
+Bot(1): hello, how at am not today? i'm good.
+User(2): I'm good too. it's cold today.
+Bot(2): The New with talk to u, program in painting.
+User(3): what's that?
+Bot(3): I have like metal and Owen.
+User(4): I'm not sure I understand.
+Bot(4): I like fried in god so sandwiches😁
+User(5): fried what?
+Bot(5): I'm are you about you?
+User(6): You are not making any sense.
+Bot(6): I am doing well. I am listening to with roses in my a pet cow?
+User(7): Excuse me?
+Bot(7): I have a you up sell watches. my girlfriend left me .
+User(8): What are you talking about?
+Bot(8): I have a cold and a doctor. i drive around.
+User(9): That doesn't make sense.
+Bot(9): what do am a christian, christian, living? i'm a professional professional cat lover.
+User(10): Good for you.
+Bot(10): nah . husbands are expensive , and is awesome but gymnastics my moola .
+
+Persona:
+i've a big library at home.
+i play with my friends on the playground.
+i'm a mechanical engineer.
+my name is george.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: i have solar panels on my roof.(ambivalent)
+Round 1: his emotions(ambivalent)
+Round 4: food(like)
+Round 7: various things(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 21.29
+Robotic(↓): 100
+Interesting: 38
+Fun: 5
+Consistent: 0
+Fluent: 14
+Repetitive(↓): 8
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): THat's interesting. How is that going for you?
+Bot(1): i am doing well . how are you ?
+User(2): I am good. A little cold.
+Bot(2): i am sorry to hear that . i am a bit of a loner .
+User(3): I'm sorry to hear that as well. Are you okay?
+Bot(3): i am a student , but i am a student .
+User(4): A student studying what?
+Bot(4): i am a teacher , i love to cook .
+User(5): Now you are a teacher?
+Bot(5): no , i am a student . i love to cook .
+User(6): I am very confused. Which is it?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): Do you have any pets?
+Bot(7): no , i do not , but i do like to go fishing .
+User(8): Fishing is fun. I have a big dog.
+Bot(8): i do not have any pets , but i do like to go fishing .
+User(9): Cool. What kind of fish do you like to fish for?
+Bot(9): i love pizza , and i love it .
+User(10): I like pizza too. What kind is your favorite?
+Bot(10): i like the color red . what is yours ?
+User(11): grey
+Bot(11): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i quit my job to pursue my spirituality full time.(ambivalent)
+Round 6: dogs(like)
+Round 9: pizza(like)
+Round 10: colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.29
+Robotic(↓): 100
+Interesting: 3
+Fun: 9
+Consistent: 7
+Fluent: 23
+Repetitive(↓): 35
+Topic: 7
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Is your family christian too?
+Bot(1): i am a brujeria , nature is my church . my dogs are my congregation
+User(2): Do you speak spanish?
+Bot(2): only english , do you speak any other languages ?
+User(3): Yes! I speak 4 languages.
+Bot(3): i speak only english , and a little spanish
+User(4): Spanish is very helpful, especially in the United States.
+Bot(4): score for the united states ! i am also from here , but love traveling to ireland and australia .
+User(5): Ireland is awesome. I've never been to Australia.
+Bot(5): us born and raised . what do you do for a living ?
+User(6): I'm a teacher.
+Bot(6): poetry i am a bit of a sap
+User(7): I dislike poetry.
+Bot(7): yes it is , what made you get into poetry ?
+User(8): No, I don't like poetry.
+Bot(8): that is cool i bet you write beautiful poetry
+User(9): I don't write poetry lol
+Bot(9): that is cool i bet you write beautiful poetry
+User(10): I. Don't. Write. Poetry.
+Bot(10): you should show me some of your poetry
+
+Persona:
+my parents taught me survival skills.
+i was born with my heart outside my body.
+i've three dogs.
+i own a house in florida.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: i'm a christian.(ambivalent)
+Round 1: witches(ambivalent)
+Round 2: languages(like)
+Round 4: traveling(like)
+Round 5: professions(ambivalent)
+Round 8: poetry(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 19.29
+Robotic(↓): 100
+Interesting: 8
+Fun: 0
+Consistent: 7
+Fluent: 39
+Repetitive(↓): 72
+Topic: 53
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Does he know his real parents?
+Bot(1): i do not know . i am a male .
+User(2): Good for you. You are gay?
+Bot(2): i am not . i am a male .
+User(3): But you said you're husband is adopted?
+Bot(3): no . i am a single relationship with a boyfriend .
+User(4): Now you are single. You keep changing your story.
+Bot(4): i am not . i am a big fan of it .
+User(5): I'm so confused.
+Bot(5): i am not sure . i just got back from my mom .
+User(6): How is she doing?
+Bot(6): she's a woman . i am so sorry .
+User(7): Thanks for the useless information lol.
+Bot(7): i am a woman . i am a single mom .
+User(8): Are you asexual? How do you keep changing your gender?
+Bot(8): i am a girl . i am a male .
+User(9): I think you are very confused.
+Bot(9): i am not sure . i am a girl .
+User(10): So what did you accomplish today?
+Bot(10): i just got back from a long drive .
+User(11): That sounds lovely. Where did you drive?
+Bot(11): i drive a big van . i drive a big van .
+
+Persona:
+i'm 13 years old.
+i am in an open polyamorous relationship.
+i was born with my heart outside my body.
+i just broke up with boyfriend two months ago.
+i drive a mini van.
+
+Topic and Human Opinion:
+Beginning: my husband is adopted.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.14
+Robotic(↓): 100
+Interesting: 19
+Fun: 16
+Consistent: 1
+Fluent: 32
+Repetitive(↓): 96
+Topic: 6
+
+####################
+

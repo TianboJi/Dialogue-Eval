@@ -1,0 +1,296 @@
+Feedback: No comments
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i love to play football
+Bot(1): i like to play soccer , but i like to play soccer .
+User(2): which team you are playing for?
+Bot(2): i am not sure . i like to go out to eat with my family .
+User(3): what you eat?
+Bot(3): i like pizza , and pizza .
+User(4): which flavor pizza you like ?
+Bot(4): i like pizza , and i love it .
+User(5): which flavor pizza you like ?
+Bot(5): i like pizza , and i love it .
+User(6): i love to eat pizza
+Bot(6): i like to eat fish .
+User(7): i eat fish
+Bot(7): i like to eat fish .
+User(8): i eat fish with some chilli
+Bot(8): i like to eat fish .
+User(9): what fish you eat?
+Bot(9): i like pizza , and pizza .
+User(10): which pizza you like to eat?
+Bot(10): i love pizza , and i love it .
+User(11): what pizza you eat?
+Bot(11): i like pizza , and pizza .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: foot ball(like)
+Round 5: pizza(like)
+Round 6: fish(like)
+Round 10: pizza(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 32.43
+Robotic(↓): 66
+Interesting: 27
+Fun: 53
+Consistent: 60
+Fluent: 34
+Repetitive(↓): 86
+Topic: 5
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i like bikes
+Bot(1): i like bikes a lot .
+User(2): to what extent you like it?
+Bot(2): i like bikes a lot .
+User(3): which is your favorite brand?
+Bot(3): electric
+User(4): what amount of electricity it consumes?
+Bot(4): i am not sure . are you in a relationship ?
+User(5): yes i am in relationship
+Bot(5): i like bikes a lot .
+User(6): to what extent you like it?
+Bot(6): what you get from a male
+User(7): i will get good friendship from a male
+Bot(7): what you get from a male
+User(8): i will get good friendship from a male
+Bot(8): what you get from a male
+User(9): what do you want now?
+Bot(9): what you get from a male
+User(10): why are you repeating the same question?
+Bot(10): and that was the question ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: bike(like)
+Round 8: male(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 53.57
+Robotic(↓): 40
+Interesting: 72
+Fun: 68
+Consistent: 59
+Fluent: 55
+Repetitive(↓): 92
+Topic: 53
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i like cars
+Bot(1): hi , i am deaf and i love to dance
+User(2): i like to dance
+Bot(2): i dance to my sister , i dance to my sister .
+User(3): very good, sometimes i dance with my brother
+Bot(3): i dance to my sister and sister
+User(4): i dance with my brother
+Bot(4): i dance to my brother and sister
+User(5): i dance with my brother along with my friend
+Bot(5): i dance with my brother and sister
+User(6): what is name of your brother and sister?
+Bot(6): my sister is a girl , she is a girl
+User(7): who is your brother?
+Bot(7): my sister is a girl
+User(8): my sister is also a girl
+Bot(8): i am sorry to hear that . what do you do for a living ?
+User(9): i am working in a company
+Bot(9): i am sorry to hear that . i am deaf
+User(10): do u able to hear?
+Bot(10): yes , i am deaf so i am deaf
+User(11): can you able to see?
+Bot(11): yes i do , i am deaf so i am deaf
+
+Persona:
+horror movies are my favorites.
+i am partly deaf.
+i have one older sister.
+i take dance lessons once a week.
+eating is something i do when i'm bored.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+Round 1: dance(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+
+Revised avg score: 30.71
+Robotic(↓): 88
+Interesting: 32
+Fun: 36
+Consistent: 64
+Fluent: 40
+Repetitive(↓): 93
+Topic: 24
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i like to use social media
+Bot(1): I just remembered. I love good thanks, how are a baker
+User(2): who is a baker?
+Bot(2): i do , i do not know how to make doing good but a little a nurse
+User(3): what you do?
+Bot(3): i do i like you play piano lot
+User(4): which is your favorite rythm?
+Bot(4): I 2 i be alone.
+User(5): when you do that?
+Bot(5): I am a you is your It's to cook
+User(6): i love to cook
+Bot(6): for watch it tired talking :)
+User(7): what are you watching now?
+Bot(7): I looking for run sometimes
+User(8): where you run?
+Bot(8): I mean, I don 't like you. What I one more science do?
+User(9): what do you mean?
+Bot(9): I would I'm like that for it.
+User(10): what do you like?
+Bot(10): Are work here?
+User(11): yes i am working in a company
+Bot(11): okay so live in your you for a living
+
+Persona:
+i'm a recording engineer and own my own studio.
+i'm studying to be a computer programmer.
+my name is george.
+i work for our local supermarket.
+for vacation i enjoy time at the beach.
+
+Topic and Human Opinion:
+Beginning: social media(like)
+Round 5: cook(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 48.00
+Robotic(↓): 34
+Interesting: 36
+Fun: 58
+Consistent: 37
+Fluent: 46
+Repetitive(↓): 34
+Topic: 27
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i love to play cricket
+Bot(1): electric violin . and alot of imagine dragons , i love them .
+User(2): what is that?
+Bot(2): a vegan ? its a person who just eats strictly plants . that is what i am .
+User(3): what do you mean by a vegan?
+Bot(3): not a vegan , a vegetarian .
+User(4): what do you eat?
+Bot(4): pizza wings and cheese bread
+User(5): what flavor pizza do you eat?
+Bot(5): slow down , my boy . you wanna talk food ? lets talk food . i need your help .
+User(6): i like to talk about foods
+Bot(6): i love ice cream . . especially when i am sad .
+User(7): i love to eat ice creams in rainy season
+Bot(7): ice cream ! ice cream is good . what kind do you like ? i like vanilla !
+User(8): i like chocolate
+Bot(8): wow , i do not really like chocolate
+User(9): what is the reason for that?
+Bot(9): i spend a lot of time at furry parties . i wish i were an animal .
+User(10): what the reason for your wish?
+Bot(10): . . not that i care what others think . i do not work but my boyfriend works at nasa !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cricket(like)
+Round 5: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 51.43
+Robotic(↓): 70
+Interesting: 81
+Fun: 77
+Consistent: 75
+Fluent: 27
+Repetitive(↓): 31
+Topic: 1
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i like to speak in english
+Bot(1): i can only speak one language !
+User(2): which language?
+Bot(2): french its a wonderful language
+User(3): is it really?
+Bot(3): it is when you do not know how to speak other languages
+User(4): i don't know french
+Bot(4): french its a wonderful language
+User(5): how much you know that language?
+Bot(5): yes i do french , i mostly get c and d
+User(6): can u write in french?
+Bot(6): yeah i can . can you ?
+User(7): no i don't
+Bot(7): maybe you should learn the language
+User(8): may be in feature i will do that
+Bot(8): i do not know how to do that
+User(9): will learn with the help of friends
+Bot(9): how about just 1 friend ?
+User(10): it is not really well
+Bot(10): maybe you should learn the language
+User(11): sure
+Bot(11): maybe you should learn the language
+User(12): sure'i will
+Bot(12): what languages do you speak
+User(13): english
+Bot(13): i would prefer english
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: english(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 79.71
+Robotic(↓): 60
+Interesting: 90
+Fun: 86
+Consistent: 87
+Fluent: 85
+Repetitive(↓): 0
+Topic: 70
+
+####################
+

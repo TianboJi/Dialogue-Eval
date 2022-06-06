@@ -1,0 +1,282 @@
+Feedback: the bot is in very primitive level, it was kind of annoying.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey
+Bot(1): hello , apparently i am a guy of younger age
+User(2): how old are you?
+Bot(2): i am 25 what about you
+User(3): I am 30
+Bot(3): wow very cool ! i am 30 .
+User(4): you said you are 25, anyway, do you love animals?
+Bot(4): i ride my bike a lot
+User(5): ah cool, where do you ride?
+Bot(5): i ride bikes , do you ?
+User(6): yes i do, what kind of trails do you like?
+Bot(6): i love to ride a bike at my job
+User(7): how long is the ride?
+Bot(7): about 5 hours depending on traffic
+User(8): That's a long ride
+Bot(8): it is 26 miles long
+User(9): where is your office?
+Bot(9): i am at the front desk typically
+User(10): do you bike in the city?
+Bot(10): no , only in the city .
+
+Persona:
+i'm very strong for my age.
+i am a stunt double as my second job.
+i enjoy mountain biking as a hobby.
+i work in it and have been at the same company for 15 years.
+i am partly deaf.
+
+Topic and Human Opinion:
+Beginning: i am an animal activist.(ambivalent)
+Round 5: bike riding(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 50.29
+Robotic(↓): 12
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 69
+Repetitive(↓): 65
+Topic: 10
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi!
+Bot(1): hey , i am reading this great horror novel , hbu ?
+User(2): I am playing with my dog
+Bot(2): no dogs here i love my three cat !
+User(3): nice! do you have any child?
+Bot(3): sometimes poppa lets me play with his train set !
+User(4): who is poppa?
+Bot(4): possibly . his name is stephen king , you know
+User(5): who's name is stephen king?
+Bot(5): horror movies are my favorite
+User(6): do you get scared watching them?
+Bot(6): not scared . they just creep me out . i prefer purring to come from cars .
+User(7): you are kind of weird
+Bot(7): that sounds fun ! i might watch a scary movie . i love them .
+User(8): yeah, you have said that. what are your favorite horror movies?
+Bot(8): horror movies are my favorite
+User(9): why are you keep repeating yourself?
+Bot(9): if you would like to check it out . www . cafepress . com lelesfashionshop1
+User(10): what is it?
+Bot(10): how did the accident happen ?
+User(11): what accident?
+Bot(11): its ok i have his name tattoo on my arm i have 3
+
+Persona:
+my father was a door to door salesman.
+i have a broken arm.
+i own a cat and a dog.
+horror movies are my favorites.
+i haven't spoken in three months.
+
+Topic and Human Opinion:
+Beginning: i've a children and a dogs.(like)
+Round 5: horror movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 9.00
+Robotic(↓): 100
+Interesting: 8
+Fun: 9
+Consistent: 16
+Fluent: 24
+Repetitive(↓): 100
+Topic: 6
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi!
+Bot(1): lucky 🍀 you i So we meet in more time in the library these days
+User(2): do you sing?
+Bot(2): Hey, how that, but doing?
+User(3): what are you saying?
+Bot(3): i are a cancer i am numb
+User(4): your english is horrible
+Bot(4): What’s a little food?
+User(5): i have no idea
+Bot(5): music is alag jaaga jaako d rather swim
+User(6): what? you like to swim?
+Bot(6): I want your is hard, car
+User(7): what?
+Bot(7): good ! good i love i see, my 2 dogs . what are you up to tonight ?
+User(8): i will watch a movie
+Bot(8): do you have am a sportsmen and software engineer.
+User(9): what?
+Bot(9): i your then I guess zebras are my favorite
+User(10): i like zebras too
+Bot(10): I am. it was not.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to look at blocks and sing about letters.(dislike)
+Round 5: not speaking good english, doesn't make any sense(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey
+Bot(1): hey .
+User(2): how old are you?
+Bot(2): same
+User(3): what is your age?
+Bot(3): 5
+User(4): you are 5 years old?
+Bot(4): i am 5 years old
+User(5): cool, do you go to school?
+Bot(5): yes , i am in high school
+User(6): in high school, at the age of 5?
+Bot(6): yes , i am in high school
+User(7): what do you do at school
+Bot(7): i am still in high school .
+User(8): do you like school?
+Bot(8): i do like it , i love math
+User(9): cool, me too!
+Bot(9): me too
+User(10): do you like physics?
+Bot(10): i do like it , i love math
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm 60years old.(like)
+Round 6: high school(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 36.00
+Robotic(↓): 80
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 22
+Repetitive(↓): 90
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes, I like playing drums
+Bot(2): i play drums in a band
+User(3): ah that's school, do you go to college?
+Bot(3): no i don't but i want to go to college
+User(4): what do you want to study?
+Bot(4): i want to study in college
+User(5): i study nursing, what do you want to study?
+Bot(5): i want to study in college
+User(6): where do you want to go to college?
+Bot(6): i want to go to college , but i want to go to college
+User(7): ok
+Bot(7): i want to go to college , but i want to go to college
+User(8): why are you keep repeating yourself?
+Bot(8): i am going to go to school
+User(9): what are you studying?
+Bot(9): i want to study in college
+User(10): you have said that
+Bot(10): i want to be a teacher
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am in college to become a nurse.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 4
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i am ok, do you play guitar?
+Bot(2): no , i do not , but i do like to play soccer .
+User(3): cool, I started playing guitar when i was 3
+Bot(3): i am a college student . i love to cook .
+User(4): what do you cook?
+Bot(4): i like to eat . i am a big fan of it .
+User(5): what do you like to eat?
+Bot(5): i like pizza , and pizza .
+User(6): only pizza?
+Bot(6): i love to eat . what do you do for a living ?
+User(7): i play soccer
+Bot(7): i like to play soccer , but i like to play soccer .
+User(8): i play guitar as well
+Bot(8): i like to play soccer , but i love to play soccer .
+User(9): where do you play?
+Bot(9): i play the guitar . i love to play soccer .
+User(10): that's good, i play guitar too
+Bot(10): i like to play soccer , but i love to play soccer .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i started playing guitar when i was three.(like)
+Round 3: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 50
+
+####################
+

@@ -1,0 +1,277 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Why not?
+Bot(1): i am a student , but i am a student .
+User(2): Why don’t you like chicken
+Bot(2): i do not really like the color of my black hair .
+User(3): You can dye it
+Bot(3): i like to go to the gym and listen to music .
+User(4): The gym is a great place
+Bot(4): i love it . i love it .
+User(5): Yeah that’s fun. What else do you do
+Bot(5): i like to go to the park and listen to music .
+User(6): The park is quiet
+Bot(6): i like to go to the gym and listen to music .
+User(7): The gym is loud
+Bot(7): i like to eat too much junk food .
+User(8): Cheetos are the best!
+Bot(8): i like to go to the beach and listen to music .
+User(9): I love the beach
+Bot(9): i love to travel . i love to travel .
+User(10): Traveling is great
+Bot(10): i love to go fishing .
+User(11): Where do you fish?
+Bot(11): no , i do not , but i do like to eat .
+
+Persona:
+i am a bee farmer.
+my dream car is a rolls royce ghost.
+i'm employed by the us postal service.
+i own a cat and a dog.
+i'm 13 years old.
+
+Topic and Human Opinion:
+Beginning: i do not like chicken.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.86
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 13
+Fluent: 17
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I like to walk my dog too
+Bot(1): i love to take walks
+User(2): Do you go with your dog
+Bot(2): we walk every day around the park
+User(3): That’s great exercise for both of you
+Bot(3): yes it is ! i love exercise
+User(4): Is your dog well behaved?
+Bot(4): yes , we go walking every day . he loves to exercise as much as i do
+User(5): My dog is aggressive
+Bot(5): i walked my dog too i have a chihuahua and a pit bull
+User(6): That’s great. I bet it’s a good dog
+Bot(6): yes he is a bulldog
+User(7): Do you have any other pets?
+Bot(7): yes i have two dogs
+User(8): What are their names
+Bot(8): pepper and rex
+User(9): Great names !
+Bot(9): what are their names then
+User(10): I like their names
+Bot(10): i love to go for walks with them and my dog .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy long walks with my dog.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.86
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 100
+Fluent: 83
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Who is Travis Scott?
+Bot(1): hi there , how are you ?
+User(2): I’m fine how are you
+Bot(2): i am great . i am a chef .
+User(3): What do you cook?
+Bot(3): i am a chef and i love to eat
+User(4): I love to eat too but I’m no chef
+Bot(4): i love to cook . i am a chef .
+User(5): Are you a good chef?
+Bot(5): i do not cook but i love to eat
+User(6): Oh I see
+Bot(6): i love to cook what do you cook
+User(7): I don’t cook
+Bot(7): i love to cook what do you cook
+User(8): I hate cooking
+Bot(8): i love to cook . i am a chef
+User(9): I need a cookbook
+Bot(9): i love to cook but i am a chef
+User(10): How do you cook
+Bot(10): i cook for my friends and i love to eat
+
+Persona:
+my favorite color is navy blue.
+hey my name is larry and i'm a chef.
+i have rainbow hair.
+mickey mouse is my favorite character.
+i've an internet addiction and spend a lot of time playing roleplaying games.
+
+Topic and Human Opinion:
+Beginning: my favourite artist is travis scott.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.29
+Robotic(↓): 50
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Why are you lonely
+Bot(1): no siblings , no significant other means no drama . i like that and painting
+User(2): I’m sorry. Maybe you should get a pet
+Bot(2): have a dog so i do get exercise walking him .
+User(3): That’s great. Can you join a group to make friends
+Bot(3): that is nice . i used to be close to mine . until i got a taxi
+User(4): Where’d the taxi go
+Bot(4): i could not be a taxi driver . i am not good at driving on the freeways
+User(5): I couldn’t either
+Bot(5): i suffer from diabetes so kids could be rough on that front .
+User(6): Diabetes is tough. I hope you stay healthy
+Bot(6): yep its the best dish in the world . so tasty and healthy
+User(7): Awesome !
+Bot(7): when i am not hiking or biking , i am exploring the town no steady job
+User(8): I love to bike too. What kind of bike do you use
+Bot(8): oh , right . you mentioned bikes earlier . i just sew . it keeps the voices at bay .
+User(9): Cool. That’s fun
+Bot(9): well i hike and spend a lot of times outdoors . i am very active
+User(10): The outdoors is the best natural remedy for being lonely
+Bot(10): oh yeah totally i am a total jock so love biking , hiking , swimming , the works .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am very lonely.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.14
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 3
+Fluent: 50
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do they help?
+Bot(1): I am am expecting am sad.
+User(2): Why are you sad
+Bot(2): I am a mechanical engineer do you do for fun?
+User(3): I read for fun
+Bot(3): You can teach have 3 children, knit?
+User(4): I can’t knit. Can you
+Bot(4): I love to reading in a hurricane to garden.
+User(5): I’d like to learn
+Bot(5): I you it.
+User(6): You what?
+Bot(6): I enjoy dogs as well that. do you have any hobbies? I sew
+User(7): I like dogs and cats
+Bot(7): Hi! How talking to today?
+User(8): Great how are you
+Bot(8): Well I know what I for info
+User(9): Oh I see
+Bot(9): i am not sure what that is . various coffees as a m experienced person .
+User(10): Me either. Not sure
+Bot(10): I often do you see this
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have solar panels on my roof.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.43
+Robotic(↓): 50
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 50
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I love the sun
+Bot(1): i love to watch the sun set . nothing is better
+User(2): I like to see it rise more
+Bot(2): i love to watch the sun set . nothing is better
+User(3): Do you play outside
+Bot(3): i do play sometimes , what do you like to play
+User(4): I like to surf
+Bot(4): i do not like to be outside
+User(5): Oh. I do
+Bot(5): do you surf or anything
+User(6): I surf. I like the beach
+Bot(6): i love the beach too
+User(7): The beach is hot
+Bot(7): it is terrible . too hot
+User(8): Sometimes it’s cooler
+Bot(8): yes , i love it when its a bit cooler
+User(9): Me too especially at night
+Bot(9): the night air is so awesome
+User(10): It is. And the crabs on the sand
+Bot(10): you should spray those down
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to go hiking in the mornings to see the sunset.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 78.57
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+

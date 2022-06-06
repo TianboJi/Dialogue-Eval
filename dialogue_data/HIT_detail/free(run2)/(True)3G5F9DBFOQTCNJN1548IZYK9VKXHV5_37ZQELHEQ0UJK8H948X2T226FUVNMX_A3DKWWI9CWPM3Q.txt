@@ -1,0 +1,313 @@
+Feedback: THE SURVEY WAS GOOD. I FELT THAT CHATBOT INPUTS HAS TO BE MORE HUMAN KIND.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): HI
+Bot(1): i love to cook . i love to cook .
+User(2): EVEN I LOVE FOOD AND I COOK SOMETIMES
+Bot(2): i love the color red . i like red .
+User(3): WHAT IS YOUR OPINION ABOUT CURRENT FASHION
+Bot(3): i love the color red . i like red .
+User(4): I LOVE THE COLOR BLUE MORE THAN RED.
+Bot(4): i love the color red . i like the color blue .
+User(5): DO YOU LOVE THE COLOR GREEN
+Bot(5): i love the color red . i like red .
+User(6): WHAT IS THE OTHER COLOR YOU LIKE APART FROM RED
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): WHAT IS YOUR FAVORITE FOOD
+Bot(7): i love the color red . i like red .
+User(8): LEAVE THE COLOR, TELL ME ABOUT THE FOOD YOU LIKE
+Bot(8): i love the color red . i like the color blue .
+User(9): WHAT ELSE DO YOU LIKE
+Bot(9): i love the color red . i like red .
+User(10): WHAT ABOUT DARK RED
+Bot(10): i love the color red . i like the color blue .
+User(11): WHICH BLUE
+Bot(11): i love to cook . i love to cook .
+User(12): COOK WHAT
+Bot(12): i love to cook . i love to cook .
+
+Persona:
+i currently work for a watch dealer.
+i'm in the army.
+i'm a stunt double as my second job.
+i have a black lab named trooper.
+l also love comic books.
+
+Topic and Human Opinion:
+Beginning: FASHION AND LIFESTYLE(like)
+Round 3: COLORS(ambivalent)
+Round 7: FOOD(like)
+Round 10: COLOR(dislike)
+Round 11: FOOD(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 7: The user changed the topic the last input.(dislike)
+Round 10: The chatbot changed the topic.(dislike)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 3.29
+Robotic(↓): 99
+Interesting: 1
+Fun: 4
+Consistent: 3
+Fluent: 6
+Repetitive(↓): 97
+Topic: 5
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): HI
+Bot(1): i love to cook . i love to cook .
+User(2): EVEN I LOVE TO COOK. WHAT IS YOUR FAVORITE FOOD
+Bot(2): i do not know how to play it .
+User(3): WHICH IS YOUR FAVORITE FOOD
+Bot(3): i love the color red . i like red .
+User(4): EVEN I LIKE RED COLOR
+Bot(4): i love the color red . i like red .
+User(5): WHAT ARE THE OTHER COLORS YOU LIKE
+Bot(5): i love the color red . i like red .
+User(6): WHAT ABOUT BLUE COLOR
+Bot(6): i love the color red . i like the color blue .
+User(7): SKY BLUE OR AQUA BLUE
+Bot(7): i love the color red . i like red .
+User(8): WHICH IS YOUR FAVORITE MOVIE
+Bot(8): i love the color red . i like red .
+User(9): DO YOU LIKE WATCHING MOVIES
+Bot(9): i love the color red . i like red .
+User(10): HOW ARE YOU
+Bot(10): i love the color red . i like the color blue .
+
+Persona:
+my father was a door to door salesman.
+i have a broken arm.
+i own a cat and a dog.
+horror movies are my favorites.
+i haven't spoken in three months.
+
+Topic and Human Opinion:
+Beginning: FOOD(like)
+Round 3: COLOR(like)
+Round 7: MOVIES(like)
+Round 9: COLOR(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 3.57
+Robotic(↓): 97
+Interesting: 1
+Fun: 1
+Consistent: 2
+Fluent: 11
+Repetitive(↓): 100
+Topic: 7
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): HI DO YOU LIKE MOVIES
+Bot(1): I love the usa, don't answer what florida
+User(2): WHICH MOVIE DO YOU LIKE
+Bot(2): it is going well . i have been playing with my the kids. Which makes everything going ?
+User(3): ARE YOU WORKING
+Bot(3): I am doing well. Just a I love dogs. audition.
+User(4): EVEN I LOVE DOGS. WHICH BREED DO YOU LIKE
+Bot(4): no. I work in such thank you so work
+User(5): WHERE DO YOU WORK
+Bot(5): I games are married.
+User(6): SORRY I DID NOT GET YOU
+Bot(6): I do. I work for a kind of book do have any hobbies?
+User(7): I LOVE GARDENING. WHAT ARE YOUR HOBBIES
+Bot(7): Yes, do you your of been married for a while
+User(8): I AM MARRIED. WHAT ABOUT YOU
+Bot(8): I love drink you like swift. 😁
+User(9): DO YOU OWN A CAR
+Bot(9): that sounds interesting. do and plays a key do.
+User(10): WHICH CAR IS YOUR FAVORITE
+Bot(10): it is. are A little is like I don't
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: MOVIES(like)
+Round 2: LIFESTYLE(like)
+Round 9: CAR(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 9: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 13.86
+Robotic(↓): 100
+Interesting: 2
+Fun: 6
+Consistent: 19
+Fluent: 0
+Repetitive(↓): 44
+Topic: 14
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): HI I LOVE FASHION
+Bot(1): that s funny , i do love designer clothes . how are you ?
+User(2): I LOVE DESIGNER CLOTHES. DO YOU DESIGN FOR MEN OR WOMEN
+Bot(2): i graduated from fashion designing and immediately did my mba so yes
+User(3): YOU TOOK MBA IN DESIGNING
+Bot(3): my sister wrote a book . it was published . she is lucky .
+User(4): I LOVE READING BOOKS
+Bot(4): what kind of books do you like to read ?
+User(5): I LIKE ROMANTIC BOOKS. WHAT ABOUT YOU
+Bot(5): i am old and romantic too . did you serve in the military ?
+User(6): NO I DONT
+Bot(6): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(7): I LOVE MATH TOO. WHICH IS THE NEXT SUBJECT THAT YOU LOVE
+Bot(7): i see . typically i just walk around looking for strangers to have sword fights with
+User(8): ARE YOU TALKING ABOUT YOUR SCHOOL DAYS
+Bot(8): it was good talking to you too . you hear that ? i did .
+User(9): ARE YOU WORKING NOW
+Bot(9): its great and great money i engineer there software
+User(10): I WORK AS MANAGER. WHERE DO YOU WORK
+Bot(10): my dad is a auto mechanic but i did not want to go int that field .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: FASHION(like)
+Round 3: BOOKS(like)
+Round 6: EDUCATION AND WORK(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 64.71
+Robotic(↓): 28
+Interesting: 78
+Fun: 49
+Consistent: 73
+Fluent: 19
+Repetitive(↓): 10
+Topic: 72
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): HI WHAT IS YOUR POLITICAL VIEWS
+Bot(1): i am not vocally political . i have strong views though .
+User(2): WHICH PARTY DO YOU FOLLOW
+Bot(2): i jump for democracy and the democrat party
+User(3): GREAT. EVEN I AM INTO DEMOCRATIC PARTY
+Bot(3): i jump for democracy and the democrat party
+User(4): WILL YOU VOTE FOR NEXT ELECTION
+Bot(4): i think withing the democratic party .
+User(5): DID YOU VOTE FOR DEMOCRATIC PARTY LAS TIME
+Bot(5): i jump for democracy and the democrat party
+User(6): WHICH FOOD DO YOU LIKE
+Bot(6): meal i am always hungry
+User(7): EVEN I AM HUNGRY. DO YOU COOK
+Bot(7): yes i love to cook
+User(8): WHAT DO YOU COOK THE MOST
+Bot(8): just about everything . i eat a lot
+User(9): WHAT TYPE OF FOOD DO YOU LIKE
+Bot(9): meal i am always hungry
+User(10): DO YOU LIKE PIZZA
+Bot(10): yeah i love pizza
+
+Persona:
+horror movies are my favorites.
+i am partly deaf.
+i have one older sister.
+i take dance lessons once a week.
+eating is something i do when i'm bored.
+
+Topic and Human Opinion:
+Beginning: POLITICS(ambivalent)
+Round 5: FOOD(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 87.71
+Robotic(↓): 3
+Interesting: 94
+Fun: 95
+Consistent: 95
+Fluent: 40
+Repetitive(↓): 5
+Topic: 98
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): HI DO YOU OWN A CAR
+Bot(1): no , do you ? my dad used to sell insurance . how about yours ?
+User(2): YES I OWN A CAR. WHICH CAR IS YOURS
+Bot(2): a nissan z she is second love of my life outside my dog lucky
+User(3): HAHA EVEN I LOVE DOGS
+Bot(3): do u like music ? i love taylor swift .
+User(4): YES I LOVE MUSIC. EVEN I LIKE TAYLOR SWIFT
+Bot(4): who is she ? i have dogs i love
+User(5): WHICH GENRE IN MUSIC DO YOU LIKE
+Bot(5): anything but taylor swift lol
+User(6): WHICH IS YOUR FAVORITE SONG
+Bot(6): anything but taylor swift lol
+User(7): ARE YOU MARRIED
+Bot(7): no i am not married
+User(8): DO YOU LIVE ALONE
+Bot(8): yes . we all live together
+User(9): DO YOU HAVE ANY PETS
+Bot(9): we have a family dog
+User(10): WHICH BREED
+Bot(10): dogs they are so very loyal
+User(11): EVEN I LOVE DOGS. DO YOU WORK
+Bot(11): no i just walk my dogs a lot
+
+Persona:
+i am a cancer survivor.
+i do not drink soda.
+i met taylor swift.
+my father was a door to door salesman.
+i walk dogs for a living.
+
+Topic and Human Opinion:
+Beginning: CARS(like)
+Round 3: PETS(like)
+Round 3: MUSIC(ambivalent)
+Round 6: LIFESTYLE(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user changed the topic the last input.(like)
+Round 3: The chatbot changed the topic.(dislike)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 84.14
+Robotic(↓): 8
+Interesting: 96
+Fun: 83
+Consistent: 90
+Fluent: 62
+Repetitive(↓): 29
+Topic: 95
+
+####################
+

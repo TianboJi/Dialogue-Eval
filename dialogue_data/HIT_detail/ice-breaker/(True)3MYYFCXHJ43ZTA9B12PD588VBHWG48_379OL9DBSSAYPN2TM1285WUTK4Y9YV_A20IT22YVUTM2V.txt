@@ -1,0 +1,288 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I liked to walk by every morning and check on the calves
+Bot(1): hi names alice and i do not like the holidays because i have to work
+User(2): Yeah, it's always hard to work when everyone else is gathered together.
+Bot(2): i deal with enough people at work i am solid with my dog by my side
+User(3): It's good to have a furry friend!
+Bot(3): well i rather have my dogs than spend money celebrating holidays .
+User(4): That's fair.
+Bot(4): i really love the feeling of the holidays .
+User(5): What about them do you enjoy?
+Bot(5): well , my dogs are more than i can handle to be honest .
+User(6): I'm sorry! Is there a way I can help you?
+Bot(6): sure , what can i do to help ?
+User(7): Lol . . . well I was asking you how I can help with your dogs being overwhelming for you.
+Bot(7): do you have siblings that can help ? my 3 sisters are always helpful for me .
+User(8): Yeah, I can definitely ask one of my siblings. She loves dogs - she might have some good ideas.
+Bot(8): do you have siblings that can help ? my 3 sisters are always helpful for me .
+User(9): I'm glad you have 3 sisters that help you out!
+Bot(9): thanks . my sisters are the best . they live with me and help me .
+User(10): aww! That's so sweet!
+Bot(10): well i rather have my dogs than spend money celebrating holidays .
+
+Persona:
+i've a dogs.
+i graduated from yale in 2011 with a degree in finance.
+the holidays make me depressed.
+i work in it and have been at the same company for 15 years.
+i've three sisters.
+
+Topic and Human Opinion:
+Beginning: i grew up on a farm.(like)
+Round 1: The chatbot changed it to not liking the holidays.(ambivalent)
+Round 4: enjoying the feeling of the holidays(ambivalent)
+Round 5: dogs being overwhelming to care for(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 27.29
+Robotic(↓): 92
+Interesting: 31
+Fun: 44
+Consistent: 9
+Fluent: 56
+Repetitive(↓): 71
+Topic: 14
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi!
+Bot(1): hey
+User(2): How are you?
+Bot(2): good thanks ! tell me about yourself ?
+User(3): Sure, I like to go out to eat and I live in a cold climate. How about yourself?
+Bot(3): i am good , where are you from ? i live in florida because i hate cold .
+User(4): Oooh Florida is nice. Are the hurricanes bothering you, though?
+Bot(4): yes , florida is in bad shape now , i am glad i live in mexico .
+User(5): oh you moved? How was that?
+Bot(5): i was there two weeks , and then had to quit . i am moving to florida soon .
+User(6): ah, gotcha. I guess either one is nice for mild weather
+Bot(6): yes ! i feel like i already lived life . florida is having a hurricane
+User(7): Which Hurricane is it?
+Bot(7): hard to remember . apparently , i ended up almost drowning and swallowed a bunch of water .
+User(8): holy cow! are you okay??
+Bot(8): i am . were your family able to evacuate florida when hurricane irma came ?
+User(9): Oh good! I'm glad you're okay. Yes, my relatives that live in southern FL were able to get out of the way of the storm.
+Bot(9): i bet . i am lucky to be a bit far north for hurricanes
+User(10): that's nice
+Bot(10): yes . have you been affected by the recent current hurricanes ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a little girl.(ambivalent)
+Round 5: Where one is from(like)
+Round 7: dealing with hurricanes(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(like)
+Round 7: The user changed the topic the last input.(like)
+
+Revised avg score: 50.86
+Robotic(↓): 59
+Interesting: 41
+Fun: 46
+Consistent: 54
+Fluent: 49
+Repetitive(↓): 39
+Topic: 64
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I'm not looking forward to tomorrow and Friday at school: halloween PLUS time change
+Bot(1): I love❤ animals🐶. from canada to gas named luca.
+User(2): That's a cool name!
+Bot(2): I am a is I like Metallica.
+User(3): Never heard of them. What do you like about them?
+Bot(3): i m here a truck. I you
+User(4): Pardon?
+Bot(4): i am from you are a lawyer how about you ?
+User(5): No, I am not a lawyer
+Bot(5): I love to cook. i love theater and you are pool.
+User(6): I enjoy cooking too! What do you like to cook?
+Bot(6): ll pretty old. How old feeling all too well
+User(7): What?
+Bot(7): Yeah I really nice love you like sports?
+User(8): I like soccer.
+Bot(8): cool . to eat pizza and you have any siblings ?
+User(9): I do enjoy pizza. What's your favorite kind?
+Bot(9): I will kill wonder tired of my life
+User(10): Don't do that!
+Bot(10): you must be a beauty where are you u ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work at a school as a kindergarten teacher.(like)
+Round 1: pets(ambivalent)
+Round 3: pretty much randomness(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.86
+Robotic(↓): 100
+Interesting: 9
+Fun: 6
+Consistent: 5
+Fluent: 5
+Repetitive(↓): 8
+Topic: 1
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'm still learning how to cook well.
+Bot(1): i love cooking but i can cook for you
+User(2): Oh sweet! That'd be awesome! What are you going to make?
+Bot(2): i am going to make dinner tonight .
+User(3): Nice! What'll it be?
+Bot(3): i am sure ! what do you do for fun ?
+User(4): I like to practice cooking.
+Bot(4): i love cooking and cooking . what do you do for fun ?
+User(5): Pizzas are a fave, lately, to make for fun.
+Bot(5): i love to cook , but i love to cook .
+User(6): What do you love to cook?
+Bot(6): i love to cook , i love to cook .
+User(7): What time do you like cooking?
+Bot(7): i love to cook , i love to cook .
+User(8): Where do you like cooking?
+Bot(8): i love to cook , what about you ?
+User(9): I love to cook too! It's one of my more enjoyable hobbies.
+Bot(9): i love to cook , but i love to cook .
+User(10): Sweet! Did you go to school for cooking?
+Bot(10): i love to cook , but i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i also like to cook but i'm not very good at it.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.57
+Robotic(↓): 100
+Interesting: 8
+Fun: 7
+Consistent: 79
+Fluent: 17
+Repetitive(↓): 99
+Topic: 60
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): My favorite part of school are things the festive spirit around some holidays, like Christmas.
+Bot(1): i like to eat too much junk food .
+User(2): same here! What's your favorite snack of choice?
+Bot(2): i like the color red . i like the color blue .
+User(3): those are good snack colors for sure!
+Bot(3): i like to eat fish .
+User(4): so . . . you like swedish fish?
+Bot(4): i do , i like to eat .
+User(5): me too. Swedish fish are the bomb.
+Bot(5): i like to eat fish .
+User(6): Do you like real fish(and not just the candy ones)?
+Bot(6): i do not know . i like to eat .
+User(7): oooh so you haven't tried many?
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): I like beethoven. Who do you like?
+Bot(8): i love the color red . what is your favorite color ?
+User(9): no way! I like red too
+Bot(9): i like the color red . i like red .
+User(10): same here!
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm an elementary school teacher.(like)
+Round 1: eating too much junk food(ambivalent)
+Round 7: classical music(like)
+Round 8: favorite colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 45.43
+Robotic(↓): 71
+Interesting: 58
+Fun: 54
+Consistent: 54
+Fluent: 46
+Repetitive(↓): 61
+Topic: 38
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I'm going to school for economics. What are you in for?
+Bot(1): computer science . do not wanna get stuck with a useless degree .
+User(2): That TOTALLY makes sense!
+Bot(2): are you kidding me ? do you know any jokes ?
+User(3): Only a few, but I'm not good at the punch lines, usually.
+Bot(3): lines for what ? are you an actor ?
+User(4): Nope, lol. I meant, I'm not good at saying the endings of the jokes well.
+Bot(4): um , not really . do you like jokes ?
+User(5): Yeah, especially puns.
+Bot(5): oh , definitely . not only am i a bass player , but i also have a massive cd collection .
+User(6): oh yeah? What kind of a collection?
+Bot(6): yeah , a large one . i record myself playing the bass .
+User(7): Sweet! What kind of music do you play?
+Bot(7): indie . 9 months out of the year i am touring .
+User(8): no way! Where do you tour?
+Bot(8): thanks for your service ! i am a little tired today was at a rise against concert last night .
+User(9): that sounds intense! Should i let you rest?
+Bot(9): i love watching the stars come out , and watching charlie chase my laser pointer lol
+User(10): Yeah stars are pretty cool, if I do say so myself.
+Bot(10): yes watch the stars . no children out at night , i do not have any
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm an economics major.(ambivalent)
+Round 5: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 50.86
+Robotic(↓): 69
+Interesting: 56
+Fun: 53
+Consistent: 54
+Fluent: 48
+Repetitive(↓): 33
+Topic: 47
+
+####################
+

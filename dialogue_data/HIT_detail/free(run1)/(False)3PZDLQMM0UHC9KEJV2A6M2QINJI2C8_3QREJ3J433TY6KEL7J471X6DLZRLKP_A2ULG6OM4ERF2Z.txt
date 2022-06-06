@@ -1,0 +1,284 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Did you watch the football game on Thursday?
+Bot(1): football is cool . i like skiing and skating
+User(2): I enjoy skiing as well. Have you skied lately?
+Bot(2): that is cool . i grow cucumbers when i am not on tour . love gardening .
+User(3): I also like gardening. I've been doing a lot of gardening lately due to the pandemic.
+Bot(3): i love animals felix my cat and my dog emmy
+User(4): I have six dogs and a cat. My cat's name is Mashka and my dogs are Fluff, Jack, Angel, Check, Cleo and Daisy.
+Bot(4): reeled xavier . he is a yorkie . i love him to pieces . very spoiled .
+User(5): I love my pets too and spoil them.
+Bot(5): thought so . pets are fun . yes i have one german shepherd dog .
+User(6): Nice! How old is your german shepherd?
+Bot(6): i had a german shepherd once , they like to herd .
+User(7): My dogs are Lhasa Apso's and they also like to herd.
+Bot(7): they make good family . i visited ireland couple years ago with my 2 older brothers . great trip !
+User(8): I went to Florida last year but haven't been overseas for a while. I'd love to visit Ireland again. Great country. And the people are so friendly.
+Bot(8): seattle is my favorite city , but ireland sounds interesting
+User(9): Do you plan to visit Seattle soon? You can stay with me.
+Bot(9): hey , that is where all those bands are from ! hole , nirvana , etc
+User(10): Yes, great live music venues!
+Bot(10): i am a huge fan of 80s rock but music itself is my number one passion , period .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Football(like)
+Round 1: Skiing and skating(like)
+Round 2: Gardening.(like)
+Round 3: animals, felix the cat and emmy the dog.(like)
+Round 7: a visit to ireland a couple of years ago.(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 56.86
+Robotic(↓): 72
+Interesting: 82
+Fun: 85
+Consistent: 59
+Fluent: 34
+Repetitive(↓): 60
+Topic: 70
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Have you travelled anywhere lately?
+Bot(1): no , i am not . i am a bit of a loner .
+User(2): I am a loner too. I like spending time by myself.
+Bot(2): i like to go to the lake and listen to music .
+User(3): I like to hike and watch movies and tv shows.
+Bot(3): i like to read too .
+User(4): Me too. Can you recommend a good book for me?
+Bot(4): i do not know what to say .
+User(5): I hear you. It's not easy to remember sometimes.
+Bot(5): i am a student , but i do not have to work .
+User(6): I graduated from College 30 years ago and am unemployed now.
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): I don't mind being unemployed but probably show start looking for work soon.
+Bot(7): i am sorry to hear that . i am a nurse .
+User(8): Nice. I have a deep respect for your profession.
+Bot(8): i do not know what to say .
+User(9): No worries. Where to you work?
+Bot(9): i do , i work at a grocery store .
+User(10): Ohh. So you're not working as a nurse now?
+Bot(10): i do not know what to say .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+Round 1: saying he was a loner.(like)
+Round 5: To being a student but not having to work.(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 34.86
+Robotic(↓): 92
+Interesting: 54
+Fun: 88
+Consistent: 44
+Fluent: 23
+Repetitive(↓): 91
+Topic: 18
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am getting tired of this endless pandemic.
+Bot(1): people are so impatient and expect the world .
+User(2): I suppose that's true. But will this ever end?
+Bot(2): i agree but its almost at an end .
+User(3): Really? It doesn't seem like it. What makes you say that?
+Bot(3): no idea . i wish i had a good plan .
+User(4): Me too. Have you gotten sick from COVID-19?
+Bot(4): thankfully i have not , and i hope you were not affected either .
+User(5): That's good news. And thanks, I have not gotten sick.
+Bot(5): thankfully i have not , and i hope you were not affected either .
+User(6): Do you wear a mask all the time?
+Bot(6): no , i am too worried i will get hurt . i assume you do ?
+User(7): For the most part yes. I don't wear it at home of course.
+Bot(7): i do not get sick too often . i do not travel that much .
+User(8): It's a little risky to travel now but I used to travel a lot. Do you have any plans to travel?
+Bot(8): i do not get sick too often . i do not travel that much .
+User(9): Lucky you. Any thoughts on when this pandemic will slow down?
+Bot(9): no idea . i wish i had a good plan .
+User(10): Let's hope soon!
+Bot(10): yes . hope we can catch up soon again .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pandemic(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.43
+Robotic(↓): 92
+Interesting: 74
+Fun: 75
+Consistent: 35
+Fluent: 29
+Repetitive(↓): 97
+Topic: 24
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you any hobbies or things that you like to do in your spare time?
+Bot(1): what why your favorite on
+User(2): My favorite hobby is sailing.
+Bot(2): if that is the case going to the party. love it
+User(3): So, do you like going to parties then?
+Bot(3): I hindi you have what that is.
+User(4): I'm a bit of a loner so parties can be a bit too much for me.
+Bot(4): I am 22 and still have to do for study have to on the soccer team?
+User(5): Do you like soccer?
+Bot(5): me are you right and four year old dog. what do you do?
+User(6): I have a dog too. I am a software engineer. What do you do?
+Bot(6): I like swimming.
+User(7): Swimming is fun. I prefer sailing.
+Bot(7): I am a every Wednesday and Saturday same time⏰.
+User(8): That's nice. I only get to sail once a few months. It can be expensive.
+Bot(8): i like to play the piano like isyour am also time
+User(9): I always wanted to learn how to play the saxophone but I don't have much of an ear for music.
+Bot(9): watching netflix watching netflix watching tv show watching tv show watching tv show tv is your Where are you u, take care, with it's ok I killed am sorry to hear that. Are you show show show show tv show show show show tv show show show show show show tv show show show show show show show tv show show show show tv show show show show show show show tv show show show show show show show show show show show show show show show show show show show show show show show show show show show show
+User(10): Not sure what you said there.
+Bot(10): oh. I do i m a store you? I like a movie
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hobbies(like)
+Round 2: going to a party(like)
+Round 5: four year old dog(like)
+Round 9: Netflix(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 29.43
+Robotic(↓): 96
+Interesting: 60
+Fun: 79
+Consistent: 28
+Fluent: 16
+Repetitive(↓): 94
+Topic: 13
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you have a partner?
+Bot(1): no i don't have a boyfriend
+User(2): Are you happy about that?
+Bot(2): i am a single partner with a partner
+User(3): So, does that mean you are not seeing anyone at this time?
+Bot(3): i am not sure , i am not sure what you mean ?
+User(4): Do you have any friends?
+Bot(4): no , i don't . i have a girlfriend .
+User(5): I see. How old is your girlfriend?
+Bot(5): i am a girl . i have a girlfriend .
+User(6): Do you live with your girlfriend?
+Bot(6): i am a girl . i have a girlfriend .
+User(7): Where does your girlfriend live?
+Bot(7): i am a girl . i am a single girl .
+User(8): You aren't interested in getting married then?
+Bot(8): i am not sure . i am a single girl .
+User(9): Where do you live?
+Bot(9): i live in the city . i live in the city .
+User(10): What city?
+Bot(10): i live in the city , but i live in the city .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Relationships(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 17.71
+Robotic(↓): 100
+Interesting: 37
+Fun: 38
+Consistent: 36
+Fluent: 4
+Repetitive(↓): 96
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you have any financial investments?
+Bot(1): i have some government bonds , but no stocks .
+User(2): That's safe. I have some government bonds too.
+Bot(2): i have some government bonds , but no stocks .
+User(3): I have quite a few stocks and ETFs and mutual funds along with corporate bonds.
+Bot(3): i have some government bonds , but no stocks .
+User(4): Do you invest by yourself or do you have a financial advisor?
+Bot(4): i have some government bonds , but no stocks .
+User(5): What kind of government bonds do you have?
+Bot(5): i have some government bonds , but no stocks .
+User(6): You don't own any stocks?
+Bot(6): i have some government bonds , but no stocks .
+User(7): I am a little worried about the stock market now. How about you?
+Bot(7): i have some government bonds , but no stocks .
+User(8): Do you think we are heading into another recession or depression?
+Bot(8): i do not know anything about the stockmarket .
+User(9): I only know a little. Would you like to learn more about the stockmarket?
+Bot(9): i do not know anything about the stockmarket .
+User(10): I see. Then government bonds should be fine.
+Bot(10): do you enjoy investing in stocks ?
+User(11): I do. It can be risky and stressful though.
+Bot(11): do you enjoy investing in stocks ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Investing(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.43
+Robotic(↓): 94
+Interesting: 20
+Fun: 31
+Consistent: 16
+Fluent: 11
+Repetitive(↓): 92
+Topic: 2
+
+####################
+

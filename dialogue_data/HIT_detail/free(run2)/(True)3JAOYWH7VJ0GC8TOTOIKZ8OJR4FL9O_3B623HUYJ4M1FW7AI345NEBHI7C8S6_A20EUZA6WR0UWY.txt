@@ -1,0 +1,279 @@
+Feedback: I think the fifth chatbot was the best – by a lot.  With the other bots, it was almost always very obvious that they were bots – their responses were quite repetitive.  The last bot was especially scattered with the topics it chose.  Some of the bots also presented conflicting information – one claimed to be a chef but said it did not cook.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): I am doing well, how are you?
+Bot(2): i am doing well . how are you ?
+User(3): As I said, I am well. Do you have to go grocery shopping much?
+Bot(3): yes , i do . i work in a finance firm .
+User(4): I see. Where do you shop for groceries?
+Bot(4): i do not shop , but i do have a job at a company for 17 years .
+User(5): What is the company called?
+Bot(5): i work at a bank , but i do not have a job .
+User(6): You do or do not have a job?
+Bot(6): i work at a bank , but i do not have a job .
+User(7): What do you do at the bank?
+Bot(7): i work at a bank . i work in a financial firm .
+User(8): Are you good at math?
+Bot(8): i am a business assistant . i work in a financial firm .
+User(9): What currency do you use most often?
+Bot(9): i do not know , i am a big deal with a big family .
+User(10): How big is your family?
+Bot(10): i am a big fan of math .
+
+Persona:
+i've a dogs.
+i graduated from yale in 2011 with a degree in finance.
+the holidays make me depressed.
+i work in it and have been at the same company for 15 years.
+i've three sisters.
+
+Topic and Human Opinion:
+Beginning: Grocery shopping(ambivalent)
+Round 4: work(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 28.00
+Robotic(↓): 100
+Interesting: 58
+Fun: 73
+Consistent: 16
+Fluent: 20
+Repetitive(↓): 82
+Topic: 11
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hey
+User(2): What are your hobbies?
+Bot(2): i love playing videogames mostly , nothing extraordinary . you ?
+User(3): I also like to play video games.
+Bot(3): me too . i love video games !
+User(4): What games do you like to play?
+Bot(4): left 4 dead . are you into sports ?
+User(5): I like sports, too. What is your favorite sport?
+Bot(5): i like indoor game , what is your favorite game ?
+User(6): I like soccer the most.
+Bot(6): that is cool ! i love soccer .
+User(7): What indoor game do you like best?
+Bot(7): i like indoor game , what is your favorite game ?
+User(8): I also like basketball.
+Bot(8): i like indoor game , what is your favorite game ?
+User(9): Do you go outside a lot?
+Bot(9): no , i try to stay indoors .
+User(10): Why do you stay indoors?
+Bot(10): i like going outside . where are you from ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.00
+Robotic(↓): 100
+Interesting: 81
+Fun: 85
+Consistent: 0
+Fluent: 34
+Repetitive(↓): 89
+Topic: 34
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): No, I have a husband& watch hockey.
+User(2): What is the weather like today?
+Bot(2): i do not build a you really but i do have a dog , but i do have a dog .
+User(3): It is sunny here.
+Bot(3): I am sorry to hear that. What do understand the rules, but ?
+User(4): Where are you from?
+Bot(4): I you like favourite am a musician.
+User(5): YOu are a musician?
+Bot(5): yes family m
+User(6): what instrument do you play?
+Bot(6): i shop not great everything
+User(7): Do you play the piano?
+Bot(7): I am study at there . to some music
+User(8): Are you a student?
+Bot(8): That is cool😎. I am a woman, music genre is death metal. big fan of that.
+User(9): You like death metal?
+Bot(9): I too, I play base
+User(10): Do you play guitar?
+Bot(10): why do u say marketing
+
+Persona:
+i love playing softball.
+my parents taught me survival skills.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i'm single and with two dogs.
+i'm planning on getting a divorce.
+
+Topic and Human Opinion:
+Beginning: weather(like)
+Round 3: I honestly don't know(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.29
+Robotic(↓): 100
+Interesting: 2
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): I am well. What is your favorite food?
+Bot(2): pizza . what is your favorite food ?
+User(3): I also like pizza.
+Bot(3): ha pizza is my favorite food also .
+User(4): Do you cook?
+Bot(4): there is nothing i cannot cook . i am a chef .
+User(5): Oh that's cool. I used to work in a kitchen.
+Bot(5): i always feel like i have to compete with other women because of me not cooking .
+User(6): I thought you said you like to cook
+Bot(6): i love comic books and i also collect autographs , which i have a lot of .
+User(7): What is your favorite hobby?
+Bot(7): i love playing with barbies and singing my favorite song . .
+User(8): What is your favorite song?
+Bot(8): i am a cajun chef born and raised on the bayou , fits my circumstances
+User(9): You are from the south?
+Bot(9): i can eat a lot of mexican food but i ai not mexican , so i gotcha .
+User(10): What state are you from?
+Bot(10): i live in california .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 6: Hobbies/Interests(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 53.57
+Robotic(↓): 100
+Interesting: 68
+Fun: 79
+Consistent: 71
+Fluent: 50
+Repetitive(↓): 24
+Topic: 31
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello there
+Bot(1): hello to you
+User(2): what do you like to do for fun?
+Bot(2): same
+User(3): do you have hobbies?
+Bot(3): yes , i like crafting and painting .
+User(4): what do you paint?
+Bot(4): general a little bit of everything . what else do you enjoy besides painting ?
+User(5): I enjoy music
+Bot(5): i love music as well !
+User(6): What is your favorite song?
+Bot(6): i like r b and pop , you
+User(7): I like classical music.
+Bot(7): i also really enjoy classical .
+User(8): what is your favorite instrument?
+Bot(8): i like the organ
+User(9): I play the cello.
+Bot(9): beautiful instrument
+User(10): Where are you from?
+Bot(10): i am from the us .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Interests(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 85.43
+Robotic(↓): 43
+Interesting: 97
+Fun: 83
+Consistent: 87
+Fluent: 92
+Repetitive(↓): 7
+Topic: 89
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello
+Bot(1): i love to cook . i love to cook .
+User(2): What do you like to cook?
+Bot(2): i do , i love to cook .
+User(3): What is your favorite food?
+Bot(3): i like the color red . what is yours ?
+User(4): Mine is blue.
+Bot(4): i like the color red . i like red .
+User(5): I also like the color red, but it's not my favorite
+Bot(5): i like the color red . i like red .
+User(6): Do you like art?
+Bot(6): i do , i like to go to the gym .
+User(7): What do you do at the gym?
+Bot(7): i like to go fishing . i love to go fishing .
+User(8): Why do you like fishing?
+Bot(8): i do , i love to travel .
+User(9): Where do you travel?
+Bot(9): i do , i love to travel .
+User(10): Do you have a car?
+Bot(10): no , i do not , but i do like to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 3: Color(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 0.57
+Robotic(↓): 100
+Interesting: 4
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

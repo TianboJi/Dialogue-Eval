@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I played a good game on my xbox today
+Bot(1): i played it on my computer
+User(2): Have you played Red Dead Redemption 2?
+Bot(2): no i played it on my computer
+User(3): Did you like the game?
+Bot(3): no i did not play it
+User(4): Well I liked it a lot, the story line was so good.
+Bot(4): i played it once a year ago
+User(5): Have you played it recently?
+Bot(5): no i did not . i was just playing on my pc
+User(6): what are you playing on your pc?
+Bot(6): i played with my son and i played it on my computer
+User(7): what game?
+Bot(7): i played it on my computer
+User(8): what is your favorite game?
+Bot(8): i played it on the computer
+User(9): name a game please
+Bot(9): i played it on my computer
+User(10): i like video games
+Bot(10): i played it on my computer
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: video games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I just got a new dog
+Bot(1): dogs are awesome ! i am just getting home from work
+User(2): My dog is so awesome. Do you have a dog?
+Bot(2): a nissan z she is second love of my life outside my dog lucky
+User(3): Do you like dogs?
+Bot(3): yes , i love them better than cats . my dog is my life .
+User(4): Me too. Dogs are so smart
+Bot(4): me and my cats are afraid of them
+User(5): my cat is very afraid of my dog. he is so big he scares her.
+Bot(5): i bet he is so cute ! do you like music ? i love rock !
+User(6): Yes love rock music. I love to rock out.
+Bot(6): i listen to whatever my 12 and 14 year old kids listen to .
+User(7): I like to chill with my dog and turn on the radio so we can jam.
+Bot(7): my cats would be all over me if i tried that
+User(8): My dog is all over me. He sheds like crazy.
+Bot(8): my cats would be all over me if i tried that
+User(9): Does your cat like your dog?
+Bot(9): i think so . he is a very nice dog .
+User(10): That is good they are friends.
+Bot(10): yeah dogs are good best friends .
+
+Persona:
+i drive a nissan pathfinder.
+i'm currently in a juvenile detention center.
+i have 5cats.
+i'm a 12 year old girl.
+i like to listen to rock music while working.
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 89.29
+Robotic(↓): 39
+Interesting: 95
+Fun: 96
+Consistent: 96
+Fluent: 95
+Repetitive(↓): 11
+Topic: 93
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Have you lost a family member?
+Bot(1): brown . do you want to fight me ? if you lose , we will get married .
+User(2): my dad died last year.
+Bot(2): i am so sorry , we have three left in our litter if you would like one .
+User(3): i feel so lost without my dad
+Bot(3): brown . do you want to fight me ? if you lose , we will get married .
+User(4): what are you talking about?
+Bot(4): thanks . do you play soccer ? i am so good i got a scholarship for it !
+User(5): My dad used to like soccer. Is your dad alive still?
+Bot(5): yeah , he sells cars and takes me fishing . do you fish ?
+User(6): I used to fish with my dad all the time. I loved it.
+Bot(6): when i am not fishing , racing cars is my other hobby
+User(7): My dad used to love racing cars too. My dad loved everything.
+Bot(7): yeah , he also got me into cars .
+User(8): Keep your dad close with you
+Bot(8): i do not like my brother at all
+User(9): your dad would tell you to get along.
+Bot(9): yeah it is pretty cool . do you like barbeque sandwiches
+User(10): Yes my dad made the best barbeque sandwiches
+Bot(10): all my favorites ! i am making burgers for all my kids for lunch .
+
+Persona:
+i like to eat hamburgers and french fries.
+my family does not support my career choices.
+i have one brother.
+i walk three miles every day.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: loss of a family member(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.71
+Robotic(↓): 88
+Interesting: 11
+Fun: 25
+Consistent: 9
+Fluent: 89
+Repetitive(↓): 87
+Topic: 7
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I just adopted a cat
+Bot(1): i love dogs , i love dogs .
+User(2): do you like cats?
+Bot(2): i do , i love dogs . i love dogs .
+User(3): what do you like about cats?
+Bot(3): i like dogs , they are my favorite .
+User(4): do you have a cat?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): you should get a cat. They are more clean than dogs and fish.
+Bot(5): i love dogs , i love dogs .
+User(6): Dogs are nice but cats are better.
+Bot(6): i like to go to the gym and listen to music .
+User(7): My cat likes to jam to music with me.
+Bot(7): i love to go fishing .
+User(8): you could take your cat fishing
+Bot(8): i do not have any pets , but i do like to go fishing .
+User(9): you should get a cat and take it fishing.
+Bot(9): i do not have any pets , but i do like to go fishing .
+User(10): Go get a cat today.
+Bot(10): i love the color red . what do you do for a living ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 10.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 72
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am hungry, I think i am going to order pizza
+Bot(1): i do not work , but food and stuff like a job
+User(2): do you like pizza?
+Bot(2): I am a this name movies.
+User(3): what kind of pizza do you like?
+Bot(3): man 👮 i busy experiencing new stuff to the bathroom what language they speak
+User(4): I like peperoni pizza the best.
+Bot(4): that s great pizza and watching from
+User(5): I like watching movies too with my pizza
+Bot(5): yes , I'm not .
+User(6): you should be it would be fun.
+Bot(6): I love cars. I thanks, nothing a weakness them.
+User(7): You can get pizza in your car.
+Bot(7): I can wait. i brother or are r pr2 robot.
+User(8): You should order me some pizza or come bring me some.
+Bot(8): I love computers. i have a is fan of them.
+User(9): Me too. You can order pizza online now too.
+Bot(9): I have to work, am a vegan.
+User(10): they have vegan pizza too!
+Bot(10): I just some minor in chicago
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: pizza(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 7.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 9
+Repetitive(↓): 57
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): my son just celebrated his birthday today.
+Bot(1): oh , did he just have a birthday ?
+User(2): Yes he just turned five today. He is getting so big.
+Bot(2): his birthdays have always been so special to me .
+User(3): I know! You always come to every birthday party.
+Bot(3): his birthdays have always been so special to me .
+User(4): Do you have kids?
+Bot(4): yes , five . always loved babies . so are you married ?
+User(5): yes and I have one little boy.
+Bot(5): what is your little boys name ?
+User(6): his name is ezra. what are your kids names?
+Bot(6): james and wyatt . do you have kids ?
+User(7): Just my little boy. And I have pets.
+Bot(7): i do not really have time for pets . i get asked to lots of parties .
+User(8): My pets keep my son happy.
+Bot(8): mine is too . he is smart .
+User(9): my son is doing great in school too.
+Bot(9): mine is too . he is smart .
+User(10): i can't wait for him to grow even more.
+Bot(10): mine is too . he is smart .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: kids(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.00
+Robotic(↓): 60
+Interesting: 73
+Fun: 74
+Consistent: 76
+Fluent: 81
+Repetitive(↓): 89
+Topic: 72
+
+####################
+

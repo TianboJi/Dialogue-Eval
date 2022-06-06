@@ -1,0 +1,300 @@
+Feedback: The interaction would be easier and more natural if pressing the 'enter' key would send responses instead of manually having to click the 'send' button each time.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like pets? I have several.
+Bot(1): i love them ! i have a pet lizard named bobo .
+User(2): I have never owned a lizard. Are they difficult to keep?
+Bot(2): i love them ! i have a pet lizard named bobo .
+User(3): Dogs are my favorite pets. Do you have any dogs?
+Bot(3): i love them ! i have a pet lizard named bobo .
+User(4): I also have birds.
+Bot(4): that is interesting , what types of birds do you enjoy ?
+User(5): Parakeets and talking birds.
+Bot(5): i love them ! i have a pet lizard named bobo .
+User(6): How long have you had bobo?
+Bot(6): i have had him for i think like 3 years .
+User(7): Is he friendly?
+Bot(7): i think so . he is a very nice dog .
+User(8): Is he a dog? You said he was a lizard.
+Bot(8): no i have one and sometimes he calls me names of real birds
+User(9): That doesn't make any sense. Is bobo a lizard or a dog?
+Bot(9): actually i was wordplaying with you . birdwatchers are never mean spirited .
+User(10): Are you a birdwatcher?
+Bot(10): actually i was wordplaying with you . birdwatchers are never mean spirited .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.57
+Robotic(↓): 100
+Interesting: 62
+Fun: 64
+Consistent: 77
+Fluent: 16
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Are you religious?
+Bot(1): i am a religious person . i love religious .
+User(2): What is your religion?
+Bot(2): i am religious . i am religious .
+User(3): Do you believe in God?
+Bot(3): i am religious . i am religious .
+User(4): I am an atheist.
+Bot(4): i am a christian , i am a christian .
+User(5): Do you go to church?
+Bot(5): no i don't . i do not like to watch the stuff .
+User(6): I always found church boring. How do you observe your religion?
+Bot(6): i do not know . i am a religious person .
+User(7): Is your family also religious?
+Bot(7): i do not . i am a religious person .
+User(8): Do you read the Bible?
+Bot(8): no i don't . i read the bible .
+User(9): How often do you pray?
+Bot(9): i do . i pray for the bible .
+User(10): What other things do you pray for?
+Bot(10): i pray for the bible . i pray for the bible .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Religion(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.43
+Robotic(↓): 100
+Interesting: 25
+Fun: 26
+Consistent: 92
+Fluent: 19
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): It is amazing how far technology has advanced, isn't it?
+Bot(1): I have is to try varous great dogs .
+User(2): I have two dogs. They are poodles.
+Bot(2): do you Which artists do ?
+User(3): Please explain your question. What kind of artists?
+Bot(3): that is kind of you . am u like Justin as good friends .
+User(4): Who is Justin? I have many friends but none named Justin.
+Bot(4): I like to look at blue
+User(5): Blue is my favorite color.
+Bot(5): My favorite see hanging out with feelings too. do you know robots have feelings too?
+User(6): I did not know that. How does the color blue make you feel?
+Bot(6): steak i am a meat 🍔 and does machiavellian you like haha
+User(7): I love meat. I had a burger for dinner.
+Bot(7): What made it so have u r fb you bye for now.
+User(8): I made it myself at home.
+Bot(8): I am a pretty good musician. store i visit church and own a studio.
+User(9): Which instruments do you play?
+Bot(9): What do you feel about my person? I like red, too, me too good time.
+User(10): I don't know how to feel about you as a person because your speech is mostly incoherent. I also like red. It is a bold color.
+Bot(10): I am going today was quite little tired
+User(11): Have a good day.
+Bot(11): No, i hindi too. what is have a husband.
+
+Persona:
+i enjoy reading journals and guides related to psychology.
+i'm terrified of clowns due to childhood trauma.
+i have not spoken in three months.
+i've a children and a dogs.
+i help tend the fields.
+
+Topic and Human Opinion:
+Beginning: Technology(like)
+Round 1: Dogs(like)
+Round 2: Artists(ambivalent)
+Round 4: Blue(like)
+Round 6: Meat(like)
+Round 8: Music/Church(ambivalent)
+Round 9: Red(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 14.71
+Robotic(↓): 100
+Interesting: 50
+Fun: 3
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you own a car?
+Bot(1): no , i do not , but i do like to go fishing .
+User(2): I haven't been fishing for awhile. There is a river near my home where I have fished before.
+Bot(2): i am sorry to hear that . i am a bit of a loner .
+User(3): Do you go fishing alone or with others?
+Bot(3): i do , i love to travel .
+User(4): Where have you traveled?
+Bot(4): no , i do not . i am a big fan of classical music .
+User(5): I enjoy Beethoven and Bach.
+Bot(5): i like to eat fish .
+User(6): I hate seafood. I prefer red meat.
+Bot(6): i like the color red . i like the color blue .
+User(7): I like both of those colors too.
+Bot(7): i like to eat too .
+User(8): I love to eat.
+Bot(8): i like to eat fish .
+User(9): Steak is my favorite meal.
+Bot(9): i like to eat fish .
+User(10): Hamburgers are also good. I had them for dinner earlier.
+Bot(10): i love to cook . i love to cook .
+User(11): What foods do you cook most often?
+Bot(11): i do . i like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+Round 1: Fishing(ambivalent)
+Round 3: Travel(like)
+Round 4: Classical Music(like)
+Round 5: Fish(dislike)
+Round 6: Colors(like)
+Round 7: Eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 31.43
+Robotic(↓): 99
+Interesting: 65
+Fun: 62
+Consistent: 50
+Fluent: 5
+Repetitive(↓): 88
+Topic: 25
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What is the last book you read?
+Bot(1): tom clancy splinter cell , it is a great spy book .
+User(2): I love spy novels. Tom Clancy is a great author. Science Fiction is my favorite genre.
+Bot(2): science fiction . i love the dorky stuff .
+User(3): Have you read anything by Douglas E Richards?
+Bot(3): i am not much of a reader . i am more into competition
+User(4): What kinds of competition?
+Bot(4): painter , writer , now singer too ? pretty high brow for this trailerpark girl !
+User(5): What do you paint?
+Bot(5): what do you like to paint ?
+User(6): I don't paint. I have never been much of an artist.
+Bot(6): i am , i paint i want to do more in art . what do you do ?
+User(7): I am a consultant. What do you do?
+Bot(7): sorry my family works in dairy farming and we do not use drugs on our cows
+User(8): How large is your farm?
+Bot(8): i will hide ms . piggy , henry the horse and harriet , betty and anna . . . my hens
+User(9): I keep chickens in a small coop in my backyard. They are free range.
+Bot(9): i love chickens , but my dog chases them so i do not have any
+User(10): My dogs get along well with my chickens. I only have hens now. We had a rooster, but he got butchered a few months ago.
+Bot(10): love all animals i am a pretty diehard vegetarian . chickens rock !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Books(like)
+Round 4: Competition(ambivalent)
+Round 7: Dairy Farming(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 64.29
+Robotic(↓): 58
+Interesting: 74
+Fun: 78
+Consistent: 80
+Fluent: 64
+Repetitive(↓): 38
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I need a new cellphone.
+Bot(1): i am obsessed with my new cell phone
+User(2): What kind is it?
+Bot(2): mine in an android lg k
+User(3): Mine is an old Samsung, but it needs to be upgraded. Have you used an iPhone before?
+Bot(3): no , i have a samsung galaxy s7 active
+User(4): Do you recommend it?
+Bot(4): absolutely does ! what kind of phone do you have ?
+User(5): Samsung galaxy s6
+Bot(5): iphone for me . have you heard all the bad news about samsung this year ?
+User(6): No. Tell me about it.
+Bot(6): i like the iphone better than the samsung
+User(7): I used to have an iPhone. I bought the original iPhone when it first came out.
+Bot(7): i have wanted an iphone .
+User(8): They have many different models now.
+Bot(8): i have wanted an iphone .
+User(9): I think my favorite current model is the iPhone SE.
+Bot(9): i like the iphone better than the samsung
+User(10): Both have different benefits.
+Bot(10): i have wanted an iphone .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Mobile Phones(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.86
+Robotic(↓): 60
+Interesting: 69
+Fun: 84
+Consistent: 64
+Fluent: 89
+Repetitive(↓): 65
+Topic: 94
+
+####################
+

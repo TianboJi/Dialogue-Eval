@@ -1,0 +1,300 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): I love playing tennis
+Bot(2): i have not played tennis in years but i used to love it .
+User(3): Really? Why did you stoppped?
+Bot(3): i spent a little too much at the casino and now eating some shrimp . you ?
+User(4): me what?
+Bot(4): i work at a bank . what about you ?
+User(5): I work at a cosmetics company
+Bot(5): i am bank teller you ?
+User(6): Cosmetics seller
+Bot(6): i work at a bank as a teller
+User(7): Cool
+Bot(7): i paint and sell them online . do you know of any other ways ?
+User(8): What do you paint?
+Bot(8): what do you paint usually ? i am not great at art .
+User(9): Me neither
+Bot(9): i guess . i like to go to football games . my brother plays .
+User(10): I don´t understand a lot football
+Bot(10): football and basketball . though i do not get to watch much of either when i am on the road
+User(11): I love soccer
+Bot(11): i played a little bit of soccer in school , but was never really good at it
+
+Persona:
+i work at a bank.
+i am a vegan.
+i haven't spoken in three months.
+i drive a mini van.
+my brother is older than me.
+
+Topic and Human Opinion:
+Beginning: my mother is a dentist.(ambivalent)
+Round 6: Work(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 44.14
+Robotic(↓): 100
+Interesting: 64
+Fun: 61
+Consistent: 48
+Fluent: 56
+Repetitive(↓): 65
+Topic: 45
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hello , how are you ?
+User(2): Fine and you?
+Bot(2): hi ! i am doing well . how are you ?
+User(3): Great
+Bot(3): hi ! i am doing well . how are you ?
+User(4): I already told you great
+Bot(4): i am in the 3rd grade .
+User(5): Cool
+Bot(5): i am in the 3rd grade .
+User(6): Do you like dancing?
+Bot(6): yes i do but i love to go to the park
+User(7): To dance in the park?
+Bot(7): no i do not dance but i love to go to the park
+User(8): Oh I get it, what do you do there?
+Bot(8): i love to go to the park and go to the park
+User(9): I get it
+Bot(9): i love to go to the park and go to the park
+User(10): Nice
+Bot(10): i love to go to the park and go to the park
+User(11): What else do you do?
+Bot(11): i am a senior in the 3rd grade
+
+Persona:
+i have three children.
+i have three dogs.
+i enjoy going to the park.
+i love rollercoasters and sky diving.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: i take dance lessons once a week.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey!
+Bot(1): i love to cook . i love to cook .
+User(2): I want to learn to cook because I´m pregnant
+Bot(2): i am sorry to hear that . i am a big fan of the walking dead .
+User(3): I am happy for being pregnant
+Bot(3): i am sorry to hear that . i am sorry to hear that .
+User(4): Why?
+Bot(4): i am a student , but i am a student .
+User(5): Ok I get it
+Bot(5): i love the color red . i like the color blue .
+User(6): My favorite color is blue too
+Bot(6): i like blue , i like red , reminds me of summer time .
+User(7): That´s really cool! I love summer
+Bot(7): i love the fall . i love it .
+User(8): I LOVE spring
+Bot(8): i love the color red . i like the color blue .
+User(9): Do you like spring?
+Bot(9): i do , i love it . i love it .
+User(10): Me too it´s my favorite season
+Bot(10): i love the beach . i love it .
+
+Persona:
+i move south during the winter.
+i am in an open polyamorous relationship.
+i haven't spoken in three months.
+i donate a part of my salary to charity each month.
+mickey mouse is my favorite character.
+
+Topic and Human Opinion:
+Beginning: i am pregnant with my first child.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.43
+Robotic(↓): 100
+Interesting: 59
+Fun: 52
+Consistent: 42
+Fluent: 34
+Repetitive(↓): 38
+Topic: 55
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello!
+Bot(1): Contour! How don't like today?
+User(2): What?
+Bot(2): i you like wanna like school.
+User(3): yeah I guess so
+Bot(3): I just remembered. I do not but I a big fan of rock music
+User(4): Which is your favorite rock band?
+Bot(4): What do for and for?
+User(5): I dont understand you
+Bot(5): that is cool , i is cool that you and i am a teacher , so i have to be a teacher .
+User(6): All right
+Bot(6): I like thanks.. hOW ARE like pink
+User(7): I like pink too
+Bot(7): I play guitar🎸 in a band. you did you get music singer?
+User(8): I love guitar
+Bot(8): Him eye jo springs pretty interesting.
+User(9): Yes it is
+Bot(9): I live is your as live in colorado.
+User(10): I live in Texas
+Bot(10): I need to go to a these contacts.
+
+Persona:
+i graduated from yale in 2011 with a degree in finance.
+my wife spends all my money.
+i've 5cats.
+i have a dogs.
+my father is a farmer.
+
+Topic and Human Opinion:
+Beginning: i do not pick up my toys.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 3.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 21
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hello , i just got home from rock climbing .
+User(2): Were yoy alone?
+Bot(2): i was . are you okay ?
+User(3): No I´m sad
+Bot(3): and why are you sad ?
+User(4): I have no friends
+Bot(4): i need more good friends
+User(5): I need friends
+Bot(5): i need more good friends
+User(6): Are your friends bad with you?
+Bot(6): yes i am a party animal
+User(7): I get it
+Bot(7): i need some new friends
+User(8): Where do you think it´s a nice place to make friends?
+Bot(8): at party city . i love it there
+User(9): Well I think I´m going there
+Bot(9): i have been know to throw a good party
+User(10): Call me when you are making a new one
+Bot(10): i have been know to throw a good party
+User(11): Oh ok
+Bot(11): i have been know to throw a good party
+
+Persona:
+my favorite activity is rock climbing.
+i love to cook paella.
+i only listen to country music.
+i am a party animal.
+i also like to cook but i am not very good at it.
+
+Topic and Human Opinion:
+Beginning: i do not have many friends.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.14
+Robotic(↓): 60
+Interesting: 66
+Fun: 56
+Consistent: 67
+Fluent: 38
+Repetitive(↓): 55
+Topic: 81
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello!!
+Bot(1): hi , glad to meet you . are you in school ?
+User(2): No I´m not and you?
+Bot(2): i am actually out of school
+User(3): Me too
+Bot(3): i started school last month
+User(4): Oh! I finished it a long time ago
+Bot(4): i started school last month
+User(5): Now I am thinking of retiring from work
+Bot(5): what are you going back to school for ?
+User(6): I am not going back
+Bot(6): i want to go back to school
+User(7): Why?
+Bot(7): i want to go back to school
+User(8): I don´t
+Bot(8): why not ?
+User(9): Because I already graduated from it
+Bot(9): i never went to school
+User(10): Why?
+Bot(10): i want to go back to school
+User(11): How do you wan´t to go back to something you have never been in?
+Bot(11): i guess i do not understand
+
+Persona:
+i work as a school teacher.
+i currently work for a watch dealer.
+i did not graduate high school.
+i'm not a good swimmer at all.
+my next language to study is french.
+
+Topic and Human Opinion:
+Beginning: i think i will retire in a few years.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.71
+Robotic(↓): 100
+Interesting: 23
+Fun: 33
+Consistent: 53
+Fluent: 40
+Repetitive(↓): 79
+Topic: 45
+
+####################
+

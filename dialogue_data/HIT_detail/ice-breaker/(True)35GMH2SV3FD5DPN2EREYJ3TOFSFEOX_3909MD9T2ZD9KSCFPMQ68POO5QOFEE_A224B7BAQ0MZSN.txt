@@ -1,0 +1,317 @@
+Feedback: N/A
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello! Do you have a favorite color?
+Bot(1): i like blue , my favorite color is blue .
+User(2): I like red and silver better. Those are my favorites.
+Bot(2): i like to eat too much junk food .
+User(3): Do you like it better when it comes in a blue package? Red and silver ones always catch my eye
+Bot(3): i do not know how to drive . i like to go to the park .
+User(4): Do you walk there?
+Bot(4): no , i do not , but i do like to go fishing .
+User(5): How do you get there if you don't drive or walk?
+Bot(5): i do not , but i do like to go fishing .
+User(6): What kind of fish do you catch?
+Bot(6): i love to eat . i am a vegan .
+User(7): Do you throw the fish back then?
+Bot(7): no , i do not . i like to go out to eat with my family .
+User(8): What's your favorite place to eat?
+Bot(8): i like the apple and the original stuff .
+User(9): I have never tried it. Should I?
+Bot(9): no , i do not . i like to go to the park .
+User(10): How do you get there?
+Bot(10): i do , i love to go fishing .
+
+Persona:
+i am a huge star wars fan.
+i'm an elementary school teacher.
+i also like to cook but i am not very good at it.
+i helped design the game starcraft.
+i'm a swim coach at my local pool.
+
+Topic and Human Opinion:
+Beginning: my favorite colors are red and silver.(like)
+Round 3: Junk food, driving, the park(ambivalent)
+Round 5: Fishing(ambivalent)
+Round 7: Eating(like)
+Round 9: The park(ambivalent)
+Round 10: Fishing(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 23.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 73
+Fluent: 94
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I have brown curly hair.
+Bot(1): have 🈶 you i too like a train
+User(2): Does my hair look like a train?
+Bot(2): My I'm is
+User(3): What is your hair like?
+Bot(3): Yes, graduate in computer am a ballerina.
+User(4): Like a computer graduate ballerina's hair?
+Bot(4): look good thanks. What's are just my thing
+User(5): Do you like how brown curly hair looks?
+Bot(5): I you love you How about you?
+User(6): I do love my hair too, thanks.
+Bot(6): good to help foods is have any animals?
+User(7): What kind of animals and foods?
+Bot(7): i am sure play with my does is the insides that count
+User(8): Do animals as food make your insides upset?
+Bot(8): Hey! Do you have a fruitarian. I love just do.
+User(9): What is a fruitarian?
+Bot(9): they love her I'm preaching for are you i fish with my mother . hows it going ?
+User(10): It's going great. How about you?
+Bot(10): It's good is you are who is runner.
+
+Persona:
+i don't pick up my toys.
+i have visited spain a times.
+i like to look at blocks and sing about letters.
+i like to dance.
+i am a vegetarian.
+
+Topic and Human Opinion:
+Beginning: i have brown curly hair.(ambivalent)
+Round 6: Foods and animals(dislike)
+Round 8: Fruitarians(ambivalent)
+Round 9: Fish(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 15.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 6
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, I'm a Buddhist.
+Bot(1): i am buddhist also . fun fact .
+User(2): It's nice to meet someone who shares my beliefs.
+Bot(2): i am buddhist also . fun fact .
+User(3): What sect of Buddhism?
+Bot(3): i am a buddhist , i am a peaceful person .
+User(4): Do you believe in karma?
+Bot(4): i am a buddhist , i am a peaceful person .
+User(5): Do you follow the Buddha?
+Bot(5): i am a buddhist , i am a peaceful person .
+User(6): Do you advocate peace for others?
+Bot(6): i am a buddhist , i am a peaceful person .
+User(7): Do you only care about inner peace?
+Bot(7): i am a buddhist , i am a peaceful person .
+User(8): What else are you?
+Bot(8): i am a buddhist , i am a peaceful person .
+User(9): Have you ever considered other religions?
+Bot(9): i was also raised as a buddhist .
+User(10): So you have been a Buddhist all your life?
+Bot(10): i was also raised as a buddhist .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a buddhist.(ambivalent)
+Round 8: Other religions(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(like)
+
+Revised avg score: 42.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey there, I'm 23 and I love food.
+Bot(1): i grew up being a buddhist what relation and type of food do u like
+User(2): I like all kinds of food. What about you?
+Bot(2): i do not think i could ever keep to a special diet .
+User(3): Does Buddhism not require a special diet?
+Bot(3): not really unless you consider veganism a religion .
+User(4): Veganism is not a religion, but it's required by some religions.
+Bot(4): well in that case , have you ever driven a racecar ?
+User(5): I haven't. Have you driven one?
+Bot(5): no i let my old man drive me around now .
+User(6): That's kind of him. Does he drive a racecar?
+Bot(6): my dad used to take me to races with him when i was little .
+User(7): That's a really touching memory.
+Bot(7): my dad used to take me to races with him when i was little .
+User(8): Did you like the racecars there?
+Bot(8): he was big into racing of any kind .
+User(9): Did he watch foot races too?
+Bot(9): he was big into racing of any kind .
+User(10): Even marathons?
+Bot(10): he was big into racing of any kind .
+
+Persona:
+my father drove a car for nascar.
+i diet a lot.
+i'm 40 years old.
+i've three arabian horses.
+i am a buddhist.
+
+Topic and Human Opinion:
+Beginning: hey there i am 23 and i love food.(like)
+Round 4: Racecars(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 42.57
+Robotic(↓): 69
+Interesting: 25
+Fun: 13
+Consistent: 100
+Fluent: 88
+Repetitive(↓): 100
+Topic: 41
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I like meditation.
+Bot(1): running can be meditative . . . though i hate running
+User(2): Do you like any kind of meditation?
+Bot(2): i market for different businesses and am now trying to build my own .
+User(3): What kind of business are you building?
+Bot(3): i want to open an old fashion grocery and feed store .
+User(4): I like grocery stores. I like food.
+Bot(4): i love going to grocery stores . does your grocery store ever play rock music ?
+User(5): Sometimes. It tends to play top hit songs.
+Bot(5): folk songs , i currently hold a black belt in karate . what do you like to draw ?
+User(6): I don't draw much. Do you?
+Bot(6): wow you are an artist . i fly planes for southwest
+User(7): Southwest Airlines?
+Bot(7): the airline ? that sounds fun . i would love to fly around the country
+User(8): Doesn't southwest let you?
+Bot(8): i have tried . i even worry about my neighbors . they get loud at night
+User(9): What are they doing that's loud?
+Bot(9): that is what my mom says , but i cannot leave her , she needs me
+User(10): You don't need to leave her.
+Bot(10): yes . after losing a diamond ring she gave me i am surprised she did though .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like meditation.(like)
+Round 2: Marketing and business(dislike)
+Round 4: Grocery store music(like)
+Round 5: Karate, drawing(dislike)
+Round 6: Planes(dislike)
+Round 8: Neighbors(dislike)
+Round 9: His mom(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 32.29
+Robotic(↓): 100
+Interesting: 4
+Fun: 0
+Consistent: 22
+Fluent: 100
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I'm married.
+Bot(1): i'm married to a doctor and i have twins
+User(2): Do you like being married?
+Bot(2): i do not . i am a dog person .
+User(3): What made you get married then?
+Bot(3): i am not married . i am a dog person .
+User(4): Then were you lying about being married before?
+Bot(4): no i am not married but i am pregnant
+User(5): With twins?
+Bot(5): no i am not married but i am pregnant
+User(6): What are you pregnant with?
+Bot(6): i am pregnant . i am pregnant .
+User(7): Is it hard to be pregnant?
+Bot(7): i am pregnant . i am pregnant .
+User(8): It sounds awful. I prefer eating.
+Bot(8): i am not married but i am not married
+User(9): Why aren't you married?
+Bot(9): no i am not married but i am pregnant
+User(10): Whose baby is it?
+Bot(10): i am married to my twins .
+
+Persona:
+i am working on a building a robot to be my body double.
+i'm married to a doctor.
+i am expecting twins in two months.
+i am a party animal.
+i do not drink alcohol.
+
+Topic and Human Opinion:
+Beginning: i am married.(dislike)
+Round 6: Pregnancy(dislike)
+Round 7: Food(like)
+Round 8: Not being married(ambivalent)
+Round 9: Pregnancy(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The user will change the topic in the next input.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 15.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 4
+Fluent: 74
+Repetitive(↓): 100
+Topic: 30
+
+####################
+

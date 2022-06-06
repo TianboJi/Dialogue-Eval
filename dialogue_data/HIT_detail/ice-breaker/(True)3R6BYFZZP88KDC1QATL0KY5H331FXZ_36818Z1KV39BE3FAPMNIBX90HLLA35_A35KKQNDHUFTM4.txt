@@ -1,0 +1,310 @@
+Feedback: I really found that unpleasant, and I'm not sure why. Some if it is probably the futility of the task, knowing that I'm trying to have a conversation with a machine that isn't cooperating. Actually, that's probably the crux of it: these machines violate Grice's cooperative principle. It's like talking to an insane person, except worse, because there's not even a distorted self-awareness behind it. 
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): So, are you incarcerated?
+Bot(1): are you asking if i am a time traveler ? no . are you
+User(2): I'm not a time traveler, no. I'm just wondering what you'll be released from.
+Bot(2): well , i believe i have just committed a crime .
+User(3): Oh, wow. What crime?
+Bot(3): well , i believe i have just committed a crime .
+User(4): Which crime did you commit?
+Bot(4): well , i believe i have just committed a crime .
+User(5): You're repeating yourself. What did you do?
+Bot(5): well , i believe i have just committed a crime .
+User(6): Okay. could you explain a little more?
+Bot(6): well , i believe i have just committed a crime .
+User(7): Sorry to hear that. I hope no one was hurt.
+Bot(7): no , but it could have been worse than it was . we found help quickly .
+User(8): Well, that's good! what happened?
+Bot(8): the police took over immediately after i called . they never let me know what happened .
+User(9): And now you're in jail?
+Bot(9): yes , um , i have power . i picked a bad time to take my vacation .
+User(10): What kind of power do you have?
+Bot(10): yes , um , i have power . i picked a bad time to take my vacation .
+
+Persona:
+i am a vegan.
+i've rainbow hair.
+i have been traveling the world for a years.
+i spend a lot of time browsing the internet.
+i am a vegan and i love hummus.
+
+Topic and Human Opinion:
+Beginning: i will be released in about a month.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 17
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What's your favorite Star Wars movie?
+Bot(1): so do already a it ?
+User(2): I'm sorry, I didn't understand that.
+Bot(2): it my I like married? any kids?
+User(3): I'm not married, and I don't have children, no.
+Bot(3): I like to go it I like driving friends
+User(4): Where do you and your friends go?
+Bot(4): He is is it going? can so hungry .
+User(5): I'm sorry, I didn't understand that. Is your friend hungry?
+Bot(5): that is funny feeling am 60years old. i donut while i work on my vintage cars
+User(6): What kind of cars do you have? I have a Miata.
+Bot(6): I love astronomy! What and do you have 😉
+User(7): I love astronomy, too.
+Bot(7): did your i m on
+User(8): I'm sorry, that didn't make much sense. Do you have a telescope?
+Bot(8): i love purple you be released in 😁
+User(9): Purple what?
+Bot(9): You think you enjoy doing should do?
+User(10): Sure, if you insist.
+Bot(10): Mostly i used to star wars.
+User(11): I like star wars as well, at least the first three movies.
+Bot(11): do you like to you there am in workout.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a huge star wars fan.(like)
+Round 2: marriage and children(like)
+Round 3: going on road trips with friends(ambivalent)
+Round 5: working on cars(dislike)
+Round 6: astronomy(like)
+Round 10: Star Wars(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 4.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 66
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I used to hang out with a lot of skateboarders in college.
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): Oh, no, it was fun. They're fun guys.
+Bot(2): i do not know how to make a living .
+User(3): Yeah, hard to make a living as a skateboarder, I guess.
+Bot(3): i am sorry to hear that . i am a nurse .
+User(4): Oh, you are? A skateboarding nurse?
+Bot(4): no , i do not . i am a student .
+User(5): Cool. So you're a nursing student?
+Bot(5): no , i am a student . i love to cook .
+User(6): You're a nurse and a student who loves to cook?
+Bot(6): i love to cook , and eat pizza .
+User(7): Well, everyone loves pizza.
+Bot(7): i like to eat fish .
+User(8): Oh, me too! I have some great recipes for baked fish.
+Bot(8): i love pizza , and i love it .
+User(9): Yes, pizza is great. I bet you like anchovies.
+Bot(9): i do not know what to say .
+User(10): Anchovies have that effect on people
+Bot(10): i do not know what to say .
+User(11): What do yo ulike on our pizza?
+Bot(11): i do not know . i like to eat .
+
+Persona:
+eating is something i do when i am bored.
+i'm a huge coffee lover.
+two dogs live with me.
+i spend a lot of time browsing the internet.
+i fantasize about taking over the world.
+
+Topic and Human Opinion:
+Beginning: i am a skateboarder.(like)
+Round 4: being a nurse(dislike)
+Round 7: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.71
+Robotic(↓): 100
+Interesting: 6
+Fun: 6
+Consistent: 7
+Fluent: 29
+Repetitive(↓): 74
+Topic: 29
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What kind of dog do you have?
+Bot(1): he is a poodle i love him but he makes my green car smell
+User(2): yeah, poodles can be hard to potty train!
+Bot(2): i work in insurance , as a secretary
+User(3): That sounds interesting. I'm a professor.
+Bot(3): awesome ! i am from ny not the city , upstate .
+User(4): Oh, I've been to upstate NY. Rochester. Lovely place.
+Bot(4): i think we might work at the same bank . what does your father do at the bank ?
+User(5): My father doesn't work at a bank. he's retired.
+Bot(5): oh wow i wish i could work in a bank
+User(6): I thought you did work at a bank?
+Bot(6): i think we might work at the same bank . what does your father do at the bank ?
+User(7): He doens't do anyting at a bank, because he doesn't work at a bank
+Bot(7): i think we might work at the same bank . what does your father do at the bank ?
+User(8): You're repeating yourself.
+Bot(8): i am great ! i just finished teaching a class on global warming .
+User(9): So . . . you're a secretary and a teacher?
+Bot(9): i work as a secretary for an insurance company
+User(10): Why were you teaching a class on global warming?
+Bot(10): yeah its great ! i teach at a private school in utah . what do you do ?
+
+Persona:
+i love to go to disney world every year.
+i'm currently in a juvenile detention center.
+i work at a bank.
+i have a pet cow.
+i can move objects with my mind.
+
+Topic and Human Opinion:
+Beginning: i enjoy long walks with my dog.(like)
+Round 2: work(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+
+Revised avg score: 6.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 27
+Repetitive(↓): 100
+Topic: 18
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello
+Bot(1): hello how are you doing ? just got through eating some chocolate yum
+User(2): Oh, chocolate is great. I just had some too.
+Bot(2): candy is something i like a lot
+User(3): I also like candy.
+Bot(3): grab you some , do you meditate ?
+User(4): I do meditate, yes. Do you?
+Bot(4): love it . that is when i meditate .
+User(5): I'm actually writing a book abut meditation
+Bot(5): that sounds like a lot of work . i tend to a farm , personally .
+User(6): Really? You're a four-year-old farmer?
+Bot(6): i stay put here and help on the farm . been in the family for generations .
+User(7): I grew up on a family farm
+Bot(7): whoa ! i am a student . and one with brown hair .
+User(8): What do you study?
+Bot(8): my parents where farmers , i run the farm now because they are getting old
+User(9): That's a lot of responsibilty for a four-year-old child
+Bot(9): kids will pull on your hair , that is why my hair is cut very short .
+User(10): Do you have children?
+Bot(10): i do not , i have short hair
+User(11): Good answer.
+Bot(11): what is your dream car ?
+
+Persona:
+i like to eat chocolate candy.
+my dream car is a rolls royce ghost.
+i work my parents farms.
+i like meditation.
+i have short brown hair.
+
+Topic and Human Opinion:
+Beginning: i'm four.(dislike)
+Round 4: meditation(like)
+Round 6: farming(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 24.86
+Robotic(↓): 100
+Interesting: 24
+Fun: 7
+Consistent: 5
+Fluent: 21
+Repetitive(↓): 16
+Topic: 33
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): do you have any hobbies ?
+User(2): Yes, I have many. What about you?
+Bot(2): i am a little tired from home
+User(3): I'm tired as well.
+Bot(3): oh , i am sorry to hear that . what do you do for fun ?
+User(4): I play the piano, and sometimes draw and paint. What about you?
+Bot(4): i like painting and painting . i paint pictures .
+User(5): What kind of pictures do you paint?
+Bot(5): i paint pictures of all kinds .
+User(6): Me too. I like watercolor.
+Bot(6): i paint pictures of my paintings .
+User(7): That's very postmodern of you!
+Bot(7): i do not paint . i paint .
+User(8): And that's downright zen
+Bot(8): i am a bit of a loner . i like to paint .
+User(9): I am also a loner, to some degree
+Bot(9): oh , i see . i am a bit of a loner .
+User(10): Yes, you said that.
+Bot(10): i am not sure what that is .
+User(11): I am no longer afraid of a robot uprising.
+Bot(11): oh , i am sorry . i am sorry .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am an omnivore.(dislike)
+Round 3: hobbies(like)
+Round 10: robot uprising(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+Round 10: The user will change the topic in the next input.(like)
+
+Revised avg score: 27.14
+Robotic(↓): 100
+Interesting: 9
+Fun: 8
+Consistent: 12
+Fluent: 75
+Repetitive(↓): 77
+Topic: 63
+
+####################
+

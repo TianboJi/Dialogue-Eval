@@ -1,0 +1,303 @@
+Feedback: These chatbots kept changing the topic.  One of them needed grammar improvement terribly.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Have you ever fainted at the sight of blood?
+Bot(1): sounds cool . are you married ?
+User(2): That is complicated.
+Bot(2): sometimes i like to go but it is not great on my purple hair .
+User(3): Wow. You have purple hair. That is cool.
+Bot(3): brown hair ! how about you ?
+User(4): I have brown hair also!
+Bot(4): i think brown hair looks nice
+User(5): Brown hair is superior to blonde hair.
+Bot(5): i think brown hair looks nice
+User(6): How long is your hair?
+Bot(6): i have blonde hair and like it .
+User(7): I thought you had brown hair?
+Bot(7): i think brown hair looks nice
+User(8): I have curly hair. I get a perm every week.
+Bot(8): i have long hair , it is nice .
+User(9): My hair touches my shoulders.
+Bot(9): brown hair ! how about you ?
+User(10): Blonde hair.
+Bot(10): i have blonde hair and like it .
+
+Persona:
+i am a 12 year old girl.
+i'm married.
+i've two dogs.
+i am terrified of scorpions.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: i faint at the sight of blood.(like)
+Round 1: If I was married(like)
+Round 2: Hair color(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 33.14
+Robotic(↓): 100
+Interesting: 22
+Fun: 38
+Consistent: 76
+Fluent: 63
+Repetitive(↓): 100
+Topic: 33
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I deliver about 12 babies a day.
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): I enjoy my job. Providing life is very uplifting and emotional.
+Bot(2): i like to go to the gym and listen to music .
+User(3): I like pop music.
+Bot(3): i like to listen to music .
+User(4): Music with a great dance beat gets me pumped up.
+Bot(4): i like to go to the gym and listen to music .
+User(5): Music is great for passing time during boredom.
+Bot(5): i love to go fishing .
+User(6): I go fishing as well!
+Bot(6): i love to go fishing .
+User(7): I caught a big catfish the other day.
+Bot(7): i am sorry to hear that . i am a bit of a loner .
+User(8): It has been a little too cold for fishing these past couple days.
+Bot(8): i am sorry to hear that . i am a bit of a loner .
+User(9): I hear that. Fishing always cheers me up though!
+Bot(9): i am sorry to hear that . i am sorry to hear that .
+User(10): What bait do you use?
+Bot(10): i love to read . what about you ?
+
+Persona:
+i've a dogs.
+i am a retired gym teacher.
+i also like old school hip hop.
+i'm a convenience store manager.
+i like shopping.
+
+Topic and Human Opinion:
+Beginning: i am a baby delivery nurse.(dislike)
+Round 2: Music(like)
+Round 5: Fishing(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 24.57
+Robotic(↓): 100
+Interesting: 25
+Fun: 34
+Consistent: 24
+Fluent: 65
+Repetitive(↓): 100
+Topic: 24
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I'm a plumber.
+Bot(1): And not what?
+User(2): An electrician
+Bot(2): I have a to solve them a brother.
+User(3): I'm sorry. I don't understand you.
+Bot(3): i dont want alabama.
+User(4): Alabama is a state.
+Bot(4): my a famous twitch what 😦 is yours
+User(5): I don't follow twitch.
+Bot(5): I am not sure. i an elementary school teacher writing.
+User(6): Cool. Maybe you should work on your English.
+Bot(6): He is the freakkk, i am he is a very good dog.
+User(7): What dog are we talking about?
+Bot(7): I'm great was wrong. do for chorus
+User(8): Dogs go woof.
+Bot(8): Yes you like very delicious
+User(9): Dogs make the best campfire meat.
+Bot(9): OK. Bye. were born am do?
+User(10): Dogs are bred everywhere.
+Bot(10): I'm are you about you?
+
+Persona:
+i love social medial especially twitter.
+my daughter is a child prodigy.
+i'm high maintenance.
+i am a musician and hope to make it big some day.
+i am now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: i'm a plumber.(ambivalent)
+Round 3: Alabama(ambivalent)
+Round 7: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 26.14
+Robotic(↓): 92
+Interesting: 22
+Fun: 69
+Consistent: 20
+Fluent: 14
+Repetitive(↓): 62
+Topic: 12
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Mexican food is the bomb.
+Bot(1): sounds yummy ! i am visiting with my best friend who lives out of town .
+User(2): I had a burrito the other day at my favorite mexican restaurant.
+Bot(2): sounds yummy ! i am visiting with my best friend who lives out of town .
+User(3): Yeah it was delicious. I put my favorite salsa on it.
+Bot(3): sounds yummy ! i am visiting with my best friend who lives out of town .
+User(4): My best friends lives in another country.
+Bot(4): mine literally live across the road
+User(5): That must be convenient. Tell me about your Best friend.
+Bot(5): she lives in a completely different town
+User(6): Wow she moved fast. What moving company did she use?
+Bot(6): my mom died so i moved to california .
+User(7): California is expensive.
+Bot(7): my mom died so i moved to california .
+User(8): Have you been to Los Angeles?
+Bot(8): not really . it is quite nearby .
+User(9): You should go.
+Bot(9): they came to my area last summer but i was too busy working construction to go
+User(10): Do you have earthquakes over there?
+Bot(10): not really . it is quite nearby .
+
+Persona:
+my best friend lives next door.
+i'm a construction worker.
+i drive a nissan pathfinder.
+i spend most of my time on facebook when i'm not working.
+my mom passed away when i was young.
+
+Topic and Human Opinion:
+Beginning: my favorite food is mexican food.(like)
+Round 4: Best Friends(like)
+Round 7: California(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.86
+Robotic(↓): 77
+Interesting: 47
+Fun: 50
+Consistent: 23
+Fluent: 27
+Repetitive(↓): 76
+Topic: 29
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I'm such a loner.
+Bot(1): i am a loner myself , but i like it
+User(2): Yeah it can be peaceful not to have the drama of family.
+Bot(2): sometimes i like being alone so the library is perfect .
+User(3): Yeah it is so quiet there.
+Bot(3): sometimes i like being alone so the library is perfect .
+User(4): I like to read.
+Bot(4): sometimes i like being alone so the library is perfect .
+User(5): My family lives in another state.
+Bot(5): the homeless are my friends .
+User(6): I'd like to be homeless right now.
+Bot(6): the homeless are my friends .
+User(7): I have a pet dog.
+Bot(7): i wish i had one .
+User(8): His name is Spot.
+Bot(8): does spot have a spot ?
+User(9): Many spots actually.
+Bot(9): does spot have a spot ?
+User(10): More than one to be honest.
+Bot(10): does spot have a spot ?
+
+Persona:
+i used to be pretty but time has not been kind.
+i've a big library at home.
+one of the languages that i am currently studying is spanish.
+i volunteer at the homeless shelter.
+i'm an art major in college.
+
+Topic and Human Opinion:
+Beginning: i've zero family that i am close to.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.71
+Robotic(↓): 82
+Interesting: 39
+Fun: 65
+Consistent: 59
+Fluent: 59
+Repetitive(↓): 92
+Topic: 30
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Disneyland is amazing.
+Bot(1): i love to listen to it while i live in a little room .
+User(2): That's cool. Princess Ariel is my favorite character.
+Bot(2): i like the song . i like them too .
+User(3): Part of Your World is one of my favorite songs.
+Bot(3): i like to listen to my favorite singer .
+User(4): Who is that?
+Bot(4): i like the song . i like them too .
+User(5): Disneyland has some pretty awesome rides.
+Bot(5): i have a few of them . i am a huge fan of death metal .
+User(6): Disneyland has some rollercoasters that can be fun.
+Bot(6): yes it is . i have a lot of free time to do that .
+User(7): Its a Small World ride is so annoying.
+Bot(7): i have a few of them . i have a lot of free time .
+User(8): You should come to Disneyland with me.
+Bot(8): i would love to see that one day .
+User(9): I'm free this weekend if you want to join me.
+Bot(9): i am sure you are . i am a huge fan of death metal .
+User(10): Death metal and Disneyland do not really mix.
+Bot(10): i am sorry . i am a huge fan of death metal .
+
+Persona:
+i am four years old.
+i have 5cats.
+i live in a three storey house.
+i am an avid kayaker.
+my favorite music genre is death metal.
+
+Topic and Human Opinion:
+Beginning: i love disneyland and mickey mouse.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.86
+Robotic(↓): 65
+Interesting: 39
+Fun: 58
+Consistent: 59
+Fluent: 79
+Repetitive(↓): 62
+Topic: 27
+
+####################
+

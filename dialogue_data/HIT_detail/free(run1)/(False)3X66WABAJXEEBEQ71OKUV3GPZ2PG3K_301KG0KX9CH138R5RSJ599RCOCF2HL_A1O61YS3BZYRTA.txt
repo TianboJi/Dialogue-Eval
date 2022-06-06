@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hi
+User(2): how are you today
+Bot(2): i am good just miss meat
+User(3): you miss meat?
+Bot(3): yes but i love meat .
+User(4): then why haven't you eaten it
+Bot(4): i do not either , meat is so dirty .
+User(5): you just said you love meat
+Bot(5): yeah do you eat meat
+User(6): yes I do. I like football
+Bot(6): i totally love football man
+User(7): NFL or college?
+Bot(7): for my college . i wana go pro
+User(8): What position do you play?
+Bot(8): i play college football , linebacker
+User(9): nice, for what school?
+Bot(9): i am a coach you see
+User(10): you just said you were a linebacker
+Bot(10): i coach on the weekends
+User(11): oh that is fun. What level do you coach
+Bot(11): i coach on the weekends
+
+Persona:
+my mother is very traditional while i prefer to be more free spirited.
+i got a new job just yesterday to be a life coach.
+i now live in the city.
+i am a clean eater.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: Football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.00
+Robotic(↓): 100
+Interesting: 24
+Fun: 24
+Consistent: 0
+Fluent: 78
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi do you eat meat?
+Bot(1): yes
+User(2): what is your favorite?
+Bot(2): meat i do not eat meat .
+User(3): I just asked if you ate meat and you said yes
+Bot(3): yes
+User(4): so what is your favorite meat?
+Bot(4): meat i do not eat meat .
+User(5): why do you not eat meat
+Bot(5): because i am a vegan and would like to hear it .
+User(6): like to hear what
+Bot(6): because i am a vegan and would like to hear it .
+User(7): you are repeating yourself
+Bot(7): but you did not answer which is rude .
+User(8): i tried to answer but you didn't answer me
+Bot(8): but you did not answer which is rude .
+User(9): stop repeating yourself
+Bot(9): this is non sense you are not answering me
+User(10): what question do you want answered
+Bot(10): ok what is the answer
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Meat(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you like hiking
+Bot(1): I do not are you want a job.
+User(2): I do not want a job. How is life?
+Bot(2): Are been to france?
+User(3): No i have not
+Bot(3): I just remembered. I at Do You Do my favorite place to dance
+User(4): what are you talking about
+Bot(4): I am from helping farmers. What a cali.
+User(5): helping farmers?
+Bot(5): Yo, I am your life?
+User(6): my life?
+Bot(6): He is a great because i ate a retired teacher .
+User(7): who is great?
+Bot(7): I we change roles? I What do you do?
+User(8): I am a student
+Bot(8): Hello! How is your going? that an you like with my twin boys.
+User(9): what?
+Bot(9): I like it saying that you very relaxing.
+User(10): I like to relax
+Bot(10): what do you have am 13 years i write
+
+Persona:
+i'm partly deaf.
+i am an economics major.
+i help tend the fields.
+i hate school.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: hiking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you like food
+Bot(1): i do , i like to eat .
+User(2): what is your favorite
+Bot(2): i like the color red . what is yours ?
+User(3): blue. But what is your favorite food
+Bot(3): i like pizza , and i love it .
+User(4): yes I love it too. And french fries
+Bot(4): i love the color red . i like red .
+User(5): Ok thats great you already said that
+Bot(5): i like to go to the gym and listen to music .
+User(6): me too! What is your favorite workout
+Bot(6): i like the classics and the doors
+User(7): not music. what is your favorite workout
+Bot(7): i like the classics and the indians .
+User(8): is that music?
+Bot(8): i do , i love to listen to music .
+User(9): me too
+Bot(9): i like to go to the gym and listen to music .
+User(10): why?
+Bot(10): i do not know how to play the guitar .
+
+Persona:
+i am an elementary school teacher.
+my father used to work for home depot.
+i was born in somalia.
+i have three arabian horses.
+i spent a decade working in the human services field.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 1.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 13
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you like basketball
+Bot(1): i do not like basketball , but i am not a good person .
+User(2): why are you not a good person
+Bot(2): i am a librarian and i love to read
+User(3): what type of books
+Bot(3): i am a librarian and i love to read
+User(4): where do you work
+Bot(4): i work at a library . i am a librarian .
+User(5): do you like your job
+Bot(5): i work at a library . i am a librarian .
+User(6): but is it good?
+Bot(6): i work at a library
+User(7): do you write
+Bot(7): i am a librarian and i love to read
+User(8): how much do you get paid
+Bot(8): i do not know what that means
+User(9): how much money do you make
+Bot(9): i do not know what that means
+User(10): do you like james harden
+Bot(10): i do not know what that means
+
+Persona:
+i'm a librarian.
+my favorite band is rascal flats.
+i'm here for shoplifting.
+i'm a librarian.
+i am in college to become a nurse.
+
+Topic and Human Opinion:
+Beginning: basketball(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): why cant i submit
+Bot(1): i am single as well . i am trying to get better at piano to impress them .
+User(2): I like piano
+Bot(2): i am fluent in japanese and some things are hard to say .
+User(3): oh nice, talk to me in japanese
+Bot(3): oh cool do you speak japanese then ?
+User(4): no i do not know it, but I want to hear something in japanese
+Bot(4): do you still speak japanese ?
+User(5): no
+Bot(5): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(6): I love math, what do you like about it
+Bot(6): i do a little of everything , mainly translation . i speak german and spanish .
+User(7): what about math
+Bot(7): i hate math , i am more of a language arts person since i like to read .
+User(8): you just said you love math
+Bot(8): i hate math , i am more of a language arts person since i like to read .
+User(9): sounds good to me
+Bot(9): i take my daughter to the park every day
+User(10): that is fun!
+Bot(10): yes . i am going to do it with some friends .
+
+Persona:
+i'm an art major in college.
+i love wearing skinny jeans and leggings.
+i enjoy going to the park.
+i speak chinese.
+my friends are all skateboarders.
+
+Topic and Human Opinion:
+Beginning: baseball(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

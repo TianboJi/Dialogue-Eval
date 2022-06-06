@@ -1,0 +1,307 @@
+Feedback: The chatbots were very repetitive and did not really stay on topic.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Volunteer in a homeless shelter
+Bot(1): i like collecting teapots and i also volunteer at a shelter .
+User(2): What do you do help with at the shelter?
+Bot(2): i am glad to have my own shelter
+User(3): How many days a week are you at the shelter?
+Bot(3): my wife used to help out at the shelter before she got sick .
+User(4): What did your wife become sick with?
+Bot(4): sick sick no i am not sick
+User(5): Is your wife OK?
+Bot(5): i guess she is ok , she is listening to books on tape .
+User(6): What is shiny?
+Bot(6): nice ! i finished reading david copperfield and baked a cake .
+User(7): What kind of cake did you bake?
+Bot(7): do you bake the cake or buy the cake ?
+User(8): Buy
+Bot(8): i can pretty much bake anything but won first place for my chocolate cake .
+User(9): Tell me more about your chocolate cake
+Bot(9): i love chocolate cake very much
+User(10): Do you like other cakes?
+Bot(10): i love to eat cookies and cakes
+User(11): What is your favorite cookie?
+Bot(11): yeah i have had a ton of em . have you ever had a chocolate chip pancake ?
+User(12): Yes I have, they are very good.
+Bot(12): i like to research fun easy for my students to learn
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i volunteer in a homeless shelter.(ambivalent)
+Round 5: its red with blue stripe so it shiny when i race.(dislike)
+Round 6: baking a cake(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user wants the bot to change the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 31.86
+Robotic(↓): 100
+Interesting: 18
+Fun: 35
+Consistent: 6
+Fluent: 50
+Repetitive(↓): 26
+Topic: 40
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): How many children do you have?
+Bot(1): two children in high school . how many do you have ?
+User(2): I do not have any children.
+Bot(2): his
+User(3): His?
+Bot(3): his
+User(4): How do you feel about his children?
+Bot(4): his
+User(5): How many children does he have?
+Bot(5): i do not have kids so i do not know , sorry .
+User(6): You already said you have children.
+Bot(6): his
+User(7): How many kids do you have?
+Bot(7): so many that i have lost count
+User(8): That must cost a lot of money.
+Bot(8): yeah , they are very expensive
+User(9): How old are they?
+Bot(9): one is 9 and the other is 12 .
+User(10): How old is their mother?
+Bot(10): not sure .
+User(11): What are the kids names?
+Bot(11): the names are one , two , and three .
+User(12): How old is two?
+Bot(12): not sure .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've three children.(ambivalent)
+Round 6: whats up i am a 46 year old single dad 46 a kids.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user wants the bot to change the topic.(dislike)
+
+Revised avg score: 33.86
+Robotic(↓): 99
+Interesting: 28
+Fun: 0
+Consistent: 32
+Fluent: 96
+Repetitive(↓): 70
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorite letter to sing about?
+Bot(1): donald trump was not a good choice , he is the devil
+User(2): Does he hate blocks?
+Bot(2): donald trump was not a good choice , he is the devil
+User(3): Why do you like to look at blocks?
+Bot(3): donald trump was not a good choice , he is the devil
+User(4): So I take it you are not voting for him?
+Bot(4): donald trump was not a good choice , he is the devil
+User(5): What is your least favorite thing about him?
+Bot(5): donald trump was not a good choice , he is the devil
+User(6): Anything else?
+Bot(6): donald trump was not a good choice , he is the devil
+User(7): Do you think he will win the election?
+Bot(7): that donald trump is no good for america . wish i did not vote for him
+User(8): Why did you vote for him?
+Bot(8): donald trump was not a good choice , he is the devil
+User(9): Who will you vote for?
+Bot(9): donald trump was not a good choice , he is the devil
+User(10): Do you like Joe Biden?
+Bot(10): i do not like trump either , i am a democrat , i wanted bernie
+User(11): I would have liked Andrew Yang
+Bot(11): donald trump was not a good choice , he is the devil
+
+Persona:
+i move south during the winter.
+i am in an open polyamorous relationship.
+i haven't spoken in three months.
+i donate a part of my salary to charity each month.
+mickey mouse is my favorite character.
+
+Topic and Human Opinion:
+Beginning: i like to look at blocks and sing about letters.(like)
+Round 3: Donald Trump is the devil(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 52.43
+Robotic(↓): 87
+Interesting: 44
+Fun: 78
+Consistent: 100
+Fluent: 67
+Repetitive(↓): 100
+Topic: 65
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Would you like to be a server?
+Bot(1): i'm good with is work
+User(2): Have you ever worked at a restaurant before?
+Bot(2): I teach you do you love to garden
+User(3): I don't think I understand
+Bot(3): I love soccer so high school in two fan. You live in NYC? 😀
+User(4): I do not live in NYC
+Bot(4): just two to volunteer get to third . you ?
+User(5): I am not a volunteer
+Bot(5): about love to you :)
+User(6): Do you love me?
+Bot(6): i like to sing , and i eating i am married, , and you ?
+User(7): I like to sing, eat but I am not married
+Bot(7): Yes i am. you are is your fan of all animals.
+User(8): I am a fan of animals. I like pandas.
+Bot(8): i summer tacos.
+User(9): Tacos are great too.
+Bot(9): we rarely go out . i'm one of 5 and green told go mountain too expensive
+User(10): Do you like the mountain?
+Bot(10): i live in the united states give you are silly ?
+User(11): I am very silly! :-)
+Bot(11): I you smoke or i love to cook.
+
+Persona:
+i'm an avid kayaker.
+i waitress during the day to supplement my income.
+i've a cat named spook.
+i am a 12 year old girl.
+i have five sons.
+
+Topic and Human Opinion:
+Beginning: i am currently looking for a job preferably at a restaurant.(like)
+Round 3: Living in NYC(like)
+Round 5: Love(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 28.86
+Robotic(↓): 100
+Interesting: 26
+Fun: 50
+Consistent: 14
+Fluent: 0
+Repetitive(↓): 19
+Topic: 31
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your job?
+Bot(1): i am a farmer , i am a farmer
+User(2): Are you also a stunt double?
+Bot(2): i am a farmer , i am a farmer
+User(3): How long have you been a farmer?
+Bot(3): i am in the army . i am a farmer .
+User(4): How long have you been in the army?
+Bot(4): i am in the army . i am in the army .
+User(5): What rank are you in the army?
+Bot(5): i am in the army . i am in the army .
+User(6): Are you a stunt double as your second job?
+Bot(6): i am a farmer , i am a farmer
+User(7): Do you know any stunt doubles?
+Bot(7): no i am not . i am a farmer
+User(8): Did you win the race?
+Bot(8): no , i am a farmer . i am a farmer .
+User(9): Yes, you have said that already. What do you farm?
+Bot(9): i live in a rural area , i live in a rural area .
+User(10): What crops do you have?
+Bot(10): i have a farm that i live in the city .
+
+Persona:
+i'm in the army.
+i spend most of my time on facebook when i am not working.
+i enjoy american sports.
+i live is a rural farming community.
+my name is george.
+
+Topic and Human Opinion:
+Beginning: i am a stunt double as my second job.(like)
+Round 7: its red with blue stripe so it shiny when i race.(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user wants the bot to change the topic.(like)
+
+Revised avg score: 29.71
+Robotic(↓): 100
+Interesting: 5
+Fun: 3
+Consistent: 100
+Fluent: 50
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): How big is your home?
+Bot(1): i do not know . i am a big fan of classical music .
+User(2): How many floors does your home have?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): What is your favorite song?
+Bot(3): i like the color red . i like the color blue .
+User(4): Do you like your first home?
+Bot(4): i do not know . i am a big fan of it .
+User(5): How long have you lived there?
+Bot(5): no , i do not . i am a big fan of classical music .
+User(6): Who is your favorite composer?
+Bot(6): i like the oldies , and the outdoors .
+User(7): What is your favorite song?
+Bot(7): i like the color red . i like the color blue .
+User(8): That's not what I asked
+Bot(8): i am a huge fan of classical music .
+User(9): What other music do you like?
+Bot(9): i like the beatles , and i love country music .
+User(10): I like the beatles too!
+Bot(10): i like to go to the beach and listen to music .
+User(11): I love the beach! It's a great place to go!
+Bot(11): i love to travel . i love to travel .
+
+Persona:
+i like to eat chocolate candy.
+my dream car is a rolls royce ghost.
+i work my parents farms.
+i like meditation.
+i have short brown hair.
+
+Topic and Human Opinion:
+Beginning: i just moved into my first home.(like)
+Round 5: classic music(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 26.00
+Robotic(↓): 100
+Interesting: 44
+Fun: 27
+Consistent: 42
+Fluent: 69
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

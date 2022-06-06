@@ -1,0 +1,305 @@
+Feedback: n/a
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello!
+Bot(1): i am sorry to hear that
+User(2): I have a dog named Maple
+Bot(2): i love to ride my dog , he is my favorite .
+User(3): What kind of dog do you have?
+Bot(3): i have a lab named his dog
+User(4): What do you like to do with your dog?
+Bot(4): i love dogs , i have a dog named radar
+User(5): I thought your dog was named dog?
+Bot(5): i love dogs , what is your name ?
+User(6): Em, what is your name?
+Bot(6): my name is penny , what is yours ?
+User(7): My name is Em
+Bot(7): my name is penny , what is yours ?
+User(8): Em. Do you like your name?
+Bot(8): my name is jim , i have a dog named radar
+User(9): I thought your name was Penny?
+Bot(9): i do not know , i am a dog person
+User(10): I like dogs too!
+Bot(10): i love dogs ! i have a dog named radar
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 5: my name(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 12.71
+Robotic(↓): 100
+Interesting: 23
+Fun: 19
+Consistent: 11
+Fluent: 0
+Repetitive(↓): 100
+Topic: 36
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Cats are my favorite animal.
+Bot(1): I'm you jordan.
+User(2): Do you like cats?
+Bot(2): I good. how are pop music.
+User(3): I love pop music. Who is your favorite singer?
+Bot(3): I love❤ to draw how are you people
+User(4): i am doing well thank you, how are you?
+Bot(4): I am going to be beach cat kill lion a pretty old hippie.
+User(5): That sounds extreme. Do you like the beach?
+Bot(5): spiderman media and favorite.
+User(6): Is Spiderman your favorite movie?
+Bot(6): Yes, only listen ice cream.
+User(7): I love ice cream. Mint is my favorite flavor.
+Bot(7): I am a doctor, what abt a doctor.
+User(8): How long have you been a doctor?
+Bot(8): are you in tan in tanning 😃
+User(9): I am tan! I love to spend time in the sun.
+Bot(9): Hi! I am a hip hop music. what posse.
+User(10): I love hip hop music too!
+Bot(10): Hey! I are just My What about you?
+
+Persona:
+i dance on the weekends.
+i am single and with two dogs.
+i now live in the city.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i was born in the early 80 s.
+
+Topic and Human Opinion:
+Beginning: Cats(like)
+Round 2: Music(like)
+Round 4: Random words(dislike)
+Round 6: Ice cream(like)
+Round 7: Doctor(like)
+Round 8: tanning(like)
+Round 9: Hip hop music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.86
+Robotic(↓): 100
+Interesting: 13
+Fun: 12
+Consistent: 10
+Fluent: 8
+Repetitive(↓): 25
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What kind of music do you like?
+Bot(1): hi my type of music is country ! how about you ?
+User(2): I like country too but my favorite music is pop.
+Bot(2): i used to love hiphop but now i listen country mostly
+User(3): Who is your favorite country singer?
+Bot(3): probably katt williams live , but they are all funny
+User(4): That sounds like a fun concert! I love concerts too!
+Bot(4): i also like to watch soccer
+User(5): I like soccer too. Have you ever played soccer?
+Bot(5): i have played , not for a while though .
+User(6): I haven't played since high school. What position did you play?
+Bot(6): i played with thierry henry for arsenal . . . lol
+User(7): I am not familiar with Thierry Henry, who is that?
+Bot(7): he is the one you will see defending the goal .
+User(8): Oh, he plays goalie. What team does he play on?
+Bot(8): the us national team , i am disappointing that we did not qualify for world cup
+User(9): Have you ever been to the world cup?
+Bot(9): i have not . i have been to south africa , it was amazing .
+User(10): Did you watch soccer in South Africa?
+Bot(10): i have not . i have been to south africa , it was amazing .
+
+Persona:
+my favorite food is papaya.
+i'm on the soccer team.
+i am deathly afraid of heights.
+i love social medial especially twitter.
+i am scared of dying.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 4: Soccer(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 81.14
+Robotic(↓): 43
+Interesting: 91
+Fun: 82
+Consistent: 86
+Fluent: 70
+Repetitive(↓): 13
+Topic: 95
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, do you like computers?
+Bot(1): i do , i like to go to the gym .
+User(2): What do you like to do at the gym?
+Bot(2): i like to go fishing . i love to go fishing .
+User(3): Where do you like to fish?
+Bot(3): i do , i love to eat .
+User(4): What is your favorite food?
+Bot(4): i like the color red . what is yours ?
+User(5): I like the color blue
+Bot(5): i like the color red . i like red .
+User(6): Red is a pretty color. I like red flowers.
+Bot(6): i like red , reminds me of summer time .
+User(7): Me too! Flowers are so beautiful in the summertime.
+Bot(7): i love the ocean . i love it .
+User(8): The ocean is so big and blue!
+Bot(8): i like the color red . i like red .
+User(9): You already said you like the color red. Do you like any other colors?
+Bot(9): i do , i like to listen to music .
+User(10): What is your favorite type of music?
+Bot(10): i like country music . what about you ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Computers(like)
+Round 1: The gym(like)
+Round 2: Fishing(like)
+Round 4: The color red(ambivalent)
+Round 7: Ocean(like)
+Round 8: the color red(like)
+Round 9: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 28.00
+Robotic(↓): 74
+Interesting: 42
+Fun: 38
+Consistent: 22
+Fluent: 32
+Repetitive(↓): 77
+Topic: 13
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite type of car?
+Bot(1): toyota corolla . the best car around .
+User(2): They are nice cars, but have a hard time in the snow.
+Bot(2): i hate driving in snow . do you live up north ?
+User(3): I do! We get a ton of snow. i need a car that can drive well in the snow
+Bot(3): driving a decent vehicle is important here ! snow is no fun .
+User(4): Snow is okay to drive in the snow, the ice is what is really scary to drive in.
+Bot(4): yeah but snow is great !
+User(5): I love the snow. I like to snowboard.
+Bot(5): driving a decent vehicle is important here ! snow is no fun .
+User(6): Do you like to play in the snow
+Bot(6): it is really fun , but i think i prefer snowboarding . i like snow
+User(7): Snowboarding is my favorite winter sport. Do you like to ski?
+Bot(7): it is really fun , but i think i prefer snowboarding . i like snow
+User(8): Where do you like to snowboard?
+Bot(8): chicago is mine . which is good in winter for snow boarding .
+User(9): I like to snowboard in Utah.
+Bot(9): i can not go there i would not be able to snow board .
+User(10): How come?
+Bot(10): i just like going there . i do not have one particular reason .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+Round 4: Snow(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 70.71
+Robotic(↓): 31
+Interesting: 74
+Fun: 75
+Consistent: 77
+Fluent: 70
+Repetitive(↓): 26
+Topic: 56
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like to hike?
+Bot(1): i do , i am planning to move to washington state soon
+User(2): I bet there is a lot of great hiking there!
+Bot(2): oh that is great to hear . do you speak other languages ?
+User(3): I only speak English. Do you?
+Bot(3): i can only speak one language !
+User(4): We are the same. I would like to learn another language!
+Bot(4): no do you speak another language ?
+User(5): I do not. But I would like to learn to speak Spanish.
+Bot(5): i speak english and french and spanish fluently
+User(6): Wow that is amazing, how did you learn all those languages?
+Bot(6): i can only speak one language !
+User(7): I thought you said you can speak three languages?
+Bot(7): i can only speak one language !
+User(8): Is English the only language you know?
+Bot(8): i can only speak one language !
+User(9): What language do you speak?
+Bot(9): i speak english and french and spanish fluently
+User(10): How long have you known French and Spanish?
+Bot(10): i can only speak one language !
+
+Persona:
+i work as a school teacher.
+i currently work for a watch dealer.
+i did not graduate high school.
+i'm not a good swimmer at all.
+my next language to study is french.
+
+Topic and Human Opinion:
+Beginning: Hiking(like)
+Round 2: Language(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 37.14
+Robotic(↓): 22
+Interesting: 25
+Fun: 21
+Consistent: 33
+Fluent: 39
+Repetitive(↓): 67
+Topic: 31
+
+####################
+

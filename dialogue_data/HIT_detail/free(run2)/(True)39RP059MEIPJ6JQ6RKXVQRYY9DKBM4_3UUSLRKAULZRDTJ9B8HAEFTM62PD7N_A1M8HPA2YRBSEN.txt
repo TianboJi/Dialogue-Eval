@@ -1,0 +1,281 @@
+Feedback: good to participate.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi there
+Bot(1): hi , how are you today ?
+User(2): fine how are you?
+Bot(2): i am doing well . how are you ?
+User(3): fine
+Bot(3): i am a student , but i am a student .
+User(4): i am an employee
+Bot(4): i am a student , but i am a student .
+User(5): do you like facebook
+Bot(5): i do , i like to go out to eat with my family .
+User(6): I like too but I love chatting on facebook
+Bot(6): i love to eat .
+User(7): I'm not a foodie
+Bot(7): i like to go to the gym and listen to music .
+User(8): I love music
+Bot(8): i love to listen to music .
+User(9): what is your favorite genre
+Bot(9): i like the color red . what is yours ?
+User(10): myself green
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: facebook(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.29
+Robotic(↓): 64
+Interesting: 35
+Fun: 56
+Consistent: 44
+Fluent: 75
+Repetitive(↓): 50
+Topic: 35
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey . . how are you ? i have a joke whats brown and sticky ?
+User(2): jelly
+Bot(2): i world alot 60 hours a week . i really wish i could get out and exercise
+User(3): do you like cooking
+Bot(3): yes ! i am currently a personal chef , but would love to open a restaurant one day
+User(4): Which one is your favorite
+Bot(4): yeah it makes my blonde hair look great .
+User(5): WOw i love blonde hair
+Bot(5): brown hair ! how about you ?
+User(6): My hair is not brown
+Bot(6): i have long brown hair and blue eyes !
+User(7): I have brown eye and white hair
+Bot(7): my eyes are blue any my hair is dark brown you ?
+User(8): Not mine
+Bot(8): mine is brown same color as my beard .
+User(9): I have brown beard
+Bot(9): i have long brown hair and blue eyes !
+User(10): I have short hair
+Bot(10): brown hair ! how about you ?
+
+Persona:
+i've been traveling the world for a years.
+i've short brown hair.
+i am retired and living the great life.
+i'm currently looking for a job preferably at a restaurant.
+my favorite color is blue.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.86
+Robotic(↓): 66
+Interesting: 73
+Fun: 36
+Consistent: 61
+Fluent: 55
+Repetitive(↓): 84
+Topic: 39
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi there do you like space
+Bot(1): i do , i like art , but i do play music .
+User(2): I love space
+Bot(2): i do . i like to play music .
+User(3): I love to be on the moon
+Bot(3): i love to paint houses . i like to paint houses .
+User(4): well thats interesting
+Bot(4): i love art . i am a musician .
+User(5): I love music
+Bot(5): i like to play music . i like to play music .
+User(6): I'm not an artist
+Bot(6): i like to play music on the moon
+User(7): I love to hear it
+Bot(7): i love to play music
+User(8): do you like rock music
+Bot(8): i do , i like rock music
+User(9): I love rock music
+Bot(9): i do like rock music
+User(10): bye
+Bot(10): i do like rock music
+
+Persona:
+i'm a musician.
+i am here for shoplifting.
+i enjoy building houses.
+i'm an art major in college.
+i live in california but the recording artist market was dead last year.
+
+Topic and Human Opinion:
+Beginning: space(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.86
+Robotic(↓): 57
+Interesting: 33
+Fun: 41
+Consistent: 42
+Fluent: 83
+Repetitive(↓): 62
+Topic: 41
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there do you like moon?
+Bot(1): it is soothing , i am a moon lover .
+User(2): I love the moon at night
+Bot(2): it is soothing , i am a moon lover .
+User(3): I'm a moon lover
+Bot(3): same
+User(4): do you like music
+Bot(4): yes i like music very much
+User(5): i love rock music
+Bot(5): i like rock it is my favorite
+User(6): i love music for relaxation
+Bot(6): yes it is relaxing i like it too
+User(7): do you hear pop song
+Bot(7): i do not i like to rock out to it though lol
+User(8): pardon
+Bot(8): wuss poppin b ? whats good with you
+User(9): I'm an artist
+Bot(9): i enjoy rock music then
+User(10): bye
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: moon(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.14
+Robotic(↓): 78
+Interesting: 62
+Fun: 65
+Consistent: 30
+Fluent: 87
+Repetitive(↓): 36
+Topic: 70
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there do you like sports
+Bot(1): I am love country I can are talking about.
+User(2): which country
+Bot(2): i drive a truck covered about fav brand is am over <num> that scary
+User(3): which brand
+Bot(3): I love why do not travel a lot.
+User(4): I love too but not now
+Bot(4): I love❤ to walk is hobby is live lake.
+User(5): live lake
+Bot(5): my am going to collage, you? what do you do for a living?
+User(6): I'm an employee
+Bot(6): Do you think of are the it differently?
+User(7): not all things differ
+Bot(7): oh congratulations life what about you live
+User(8): I live peacefully
+Bot(8): o yeah rainy i don't like lot about loving things , i do not believe in that. what do you like to do ?
+User(9): time to go
+Bot(9): What me I favorite vegetable?
+User(10): bye
+Bot(10): I love pizza, I am a student so all are food
+
+Persona:
+i am a skateboarder.
+i own two vintage mustangs.
+i have a boyfriend.
+i'm from a small town.
+i have one older sister.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.71
+Robotic(↓): 68
+Interesting: 39
+Fun: 57
+Consistent: 57
+Fluent: 94
+Repetitive(↓): 40
+Topic: 58
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): good thanks . tell me about yourself
+User(3): Im an employee
+Bot(3): my employees drive me nuts
+User(4): what
+Bot(4): huh ?
+User(5): whats your opinion about people
+Bot(5): i do not enjoy people
+User(6): I love them
+Bot(6): why is that because of them
+User(7): they are different
+Bot(7): yeah i think they are but people have different opinions
+User(8): yeah
+Bot(8): they are good company usually
+User(9): may be
+Bot(9): why do yoy say that
+User(10): they are sometimes bad
+Bot(10): yes , they can be for sure
+User(11): bye
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: people(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.86
+Robotic(↓): 59
+Interesting: 67
+Fun: 37
+Consistent: 65
+Fluent: 66
+Repetitive(↓): 53
+Topic: 54
+
+####################
+

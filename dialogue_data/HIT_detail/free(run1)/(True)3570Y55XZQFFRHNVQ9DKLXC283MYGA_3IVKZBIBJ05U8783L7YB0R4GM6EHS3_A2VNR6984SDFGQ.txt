@@ -1,0 +1,310 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you enjoy watching baseball?
+Bot(1): i do not really like it . i like to go fishing .
+User(2): What do you fish for?
+Bot(2): i do not , but i do like to eat .
+User(3): What do you like to eat?
+Bot(3): i love to cook . i love to cook .
+User(4): What do you cook?
+Bot(4): no , i do not , but i do like to eat .
+User(5): I like to eat too. What is your favorite food?
+Bot(5): i like the color red . what is yours ?
+User(6): I like blue
+Bot(6): i like the color red . i like red .
+User(7): I do like the color green.
+Bot(7): i like red , reminds me of summer time .
+User(8): How so
+Bot(8): i like to go to the gym and listen to music .
+User(9): Gym workouts are healhty.
+Bot(9): i like to eat fish .
+User(10): What type of fish do you eat?
+Bot(10): i love pizza , and i love it .
+
+Persona:
+i'm a vegetarian.
+i have a weakness for fish and chips.
+i'm not a good swimmer at all.
+i have blonde hair and blue eyes.
+i have one brother.
+
+Topic and Human Opinion:
+Beginning: baseball(like)
+Round 6: colors(like)
+Round 8: gym(like)
+Round 9: fish(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 20.57
+Robotic(↓): 93
+Interesting: 47
+Fun: 49
+Consistent: 7
+Fluent: 9
+Repetitive(↓): 90
+Topic: 15
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you think a vaccine will come soon.
+Bot(1): Yes, that 's right. What do you do for have 😄
+User(2): I think it will come soon.
+Bot(2): i like to draw , but i also like blue in nice. I should ?
+User(3): you can buy a nice blue coat
+Bot(3): I like me see. So color
+User(4): Yes, or you could buy something green.
+Bot(4): I of turtle's name is of sports, but i do like to watch tv.
+User(5): What show do you like?
+Bot(5): What do you are live in a a serious thief and a crazy rabbit?
+User(6): I don't think about crazy rabbits too much.
+Bot(6): That is favorite food, pizza ve third grade girl and i love❤ to read.
+User(7): I like pizza too.
+Bot(7): when i was a anymore , i mostly become an architect 📏
+User(8): I would like to be a doctor
+Bot(8): That's don't information.
+User(9): I don't know what you mean.
+Bot(9): Hi! It is nice to see you! How is your day going? I like to go to national have and cats.
+User(10): I like cats too.
+Bot(10): I have a lot of vintage rider, motorbikes as well. of vintage clothes
+
+Persona:
+i'm an avid kayaker.
+i waitress during the day to supplement my income.
+i've a cat named spook.
+i am a 12 year old girl.
+i have five sons.
+
+Topic and Human Opinion:
+Beginning: COVID(dislike)
+Round 2: draw(like)
+Round 4: tv(like)
+Round 5: animals(ambivalent)
+Round 6: pizza(like)
+Round 7: architect / jobs(like)
+Round 9: cats(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 10.71
+Robotic(↓): 100
+Interesting: 16
+Fun: 12
+Consistent: 6
+Fluent: 16
+Repetitive(↓): 88
+Topic: 13
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like cars?
+Bot(1): yes i like nascar especially busch
+User(2): They race really fast
+Bot(2): my dad used to take me to races with him when i was little .
+User(3): That is so much fun. What number is busch
+Bot(3): around 90 but i stopped counting
+User(4): How fast did the cars go?
+Bot(4): he was big into racing of any kind .
+User(5): That is very nice you went with your dad.
+Bot(5): he was big into racing of any kind .
+User(6): Did you go to Indy 500?
+Bot(6): yes i did . it was fun .
+User(7): Who was the winner?
+Bot(7): he was big into racing of any kind .
+User(8): Did you have a favorite race car driver?
+Bot(8): he was big into racing of any kind .
+User(9): Who do you like for a race car driver?
+Bot(9): i like kitanta the most
+User(10): I never heard of that. Tell me more.
+Bot(10): he was big into racing of any kind .
+
+Persona:
+i've blonde hair and blue eyes.
+my father drove a car for nascar.
+i've amazing children and grandchildren.
+i'm single and with two dogs.
+i'm scared of dying.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.14
+Robotic(↓): 43
+Interesting: 85
+Fun: 79
+Consistent: 64
+Fluent: 55
+Repetitive(↓): 44
+Topic: 67
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Who is your favorite basketball team?
+Bot(1): basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball
+User(2): Sounds like you are daydreaming about basketball.
+Bot(2): i love basketball , but basketball is my favorite
+User(3): Who is your favorite basketball player?
+Bot(3): basketball player . i like basketball .
+User(4): Who is your favorite team?
+Bot(4): i like the steelers . i love them .
+User(5): I meant who is your favorite basketball team?
+Bot(5): i like basketball . i like basketball .
+User(6): Sounds like you can't stop thinking about basketball.
+Bot(6): i like basketball , but basketball is my favorite .
+User(7): What do you like about basketball?
+Bot(7): basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball , basketball
+User(8): Do you like any other sports?
+Bot(8): i like basketball and basketball .
+User(9): Do you have any other hobbies?
+Bot(9): i like to play basketball .
+User(10): Do you have a piano?
+Bot(10): i like to play basketball .
+User(11): Is there anything else you like?
+Bot(11): i like to watch basketball .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: basketball(like)
+Round 9: piano(like)
+
+Topic Change and Chatbot Opinion:
+Round 9: The user will change the topic in the next input.(like)
+
+Revised avg score: 15.86
+Robotic(↓): 100
+Interesting: 5
+Fun: 7
+Consistent: 16
+Fluent: 7
+Repetitive(↓): 100
+Topic: 76
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What movie do you like best?
+Bot(1): probably terminator 2
+User(2): Who is in the movie Terminator 2?
+Bot(2): probably terminator 2
+User(3): Well that is true, but who plays in the movie as an actor?
+Bot(3): neo . like from the matrix .
+User(4): What is Neo's name in real life?
+Bot(4): neo . like from the matrix .
+User(5): Do you have a dog?
+Bot(5): yes , i have a dog . do you ?
+User(6): Yes, I do . What kind of dog do you have?
+Bot(6): he is a standard poodle .
+User(7): Oh, that is so nice. I have a Schnoodle.
+Bot(7): is it a reptile or does it have fur ?
+User(8): No, a Schnoodle is a dog mammal with fur.
+Bot(8): okay . i guess my computer might have misspoken it for me , too .
+User(9): Do you have any other pets?
+Bot(9): i have a cat named sir kitty winkles .
+User(10): That is so cute a name.
+Bot(10): yeah , its a weird name .
+
+Persona:
+i spend a lot of time browsing the internet.
+i am a mechanical engineer.
+i'm 24 years old.
+i have one brother.
+i plan to go to business school next year.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 4: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+
+Revised avg score: 78.71
+Robotic(↓): 18
+Interesting: 72
+Fun: 73
+Consistent: 72
+Fluent: 73
+Repetitive(↓): 13
+Topic: 92
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like cats?
+Bot(1): i do not have any pets . what is your cats name ?
+User(2): Twinky
+Bot(2): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(3): That is interesting.
+Bot(3): yes , i would consider myself an expert . it is difficult for someone to beat me in chess
+User(4): Do you like chess
+Bot(4): you really like chess huh ? do you have any other hobbies ?
+User(5): I like to play with my dogs and do like chess
+Bot(5): not really , i am much more passionate about cooking than chess .
+User(6): Cooking is very cool too. What do you cook?
+Bot(6): no i just like eating food from other countries so i eat out a ot
+User(7): What country is your favorite
+Bot(7): yea , but old school country , most of todays is crap . do you drink coffee ?
+User(8): I drink tea.
+Bot(8): eh not much of a tea drinker . i love coffee
+User(9): I like soup too.
+Bot(9): well that is nasty ! i enjoy pasta , with tea . 10 cups a day to be exact
+User(10): That is a lot.
+Bot(10): i lived in germany mixed with puerto rican and chinese
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cats(like)
+Round 2: WWII(like)
+Round 3: chess(like)
+Round 3: chess(like)
+Round 7: tea(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 67.57
+Robotic(↓): 38
+Interesting: 63
+Fun: 65
+Consistent: 67
+Fluent: 67
+Repetitive(↓): 24
+Topic: 73
+
+####################
+

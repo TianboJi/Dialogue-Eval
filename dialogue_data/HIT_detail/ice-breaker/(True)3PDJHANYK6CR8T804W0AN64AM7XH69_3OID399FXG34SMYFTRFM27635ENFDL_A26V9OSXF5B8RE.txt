@@ -1,0 +1,306 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you enjoy Travis Scott's music?
+Bot(1): i do ! sam hunts new song is currently my jam
+User(2): I adore Sam Hunt, he has the best vocal range
+Bot(2): i do ! sam hunts new song is currently my jam
+User(3): Which song is that?
+Bot(3): no special song i just like the mellow haunting tones .
+User(4): I see
+Bot(4): i do ! sam hunts new song is currently my jam
+User(5): I enjoy Rhye's music
+Bot(5): isaiah rashed is a real banger
+User(6): I haven't heard that artist
+Bot(6): isaiah rashed is a real banger
+User(7): I don't know who that is
+Bot(7): some east coast rapper that i love lol
+User(8): very nice, how long have you been listening to him?
+Bot(8): over 10 years then yeah
+User(9): Awesome
+Bot(9): have you listened to him your whole life
+User(10): Not at all, Haven't heard any of his music unfortunately
+Bot(10): he really is not that great
+User(11): I thought you loved him
+Bot(11): i do ! sam hunts new song is currently my jam
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favourite artist is travis scott.(like)
+Round 2: Sam hunt(like)
+Round 5: Rhye(like)
+Round 8: isaiah rashed(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The user changed the topic the last input.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 48.00
+Robotic(↓): 65
+Interesting: 100
+Fun: 87
+Consistent: 10
+Fluent: 76
+Repetitive(↓): 100
+Topic: 28
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): What genre of artists do you work with?
+Bot(1): ac dc led zeppelin the who kiss
+User(2): You currently produce for those artists?
+Bot(2): ahhh . i said ni hao at the beginning i learned from my father is in china
+User(3): oh I must have missed that
+Bot(3): this is random but occasionally i scratch my nose for fun .
+User(4): oh ok
+Bot(4): i have a lot of vintage jars from the 20s . its so much fun !
+User(5): I bet the colors and shapes are out of this world
+Bot(5): red , its the color of the roses in my best friends garden . you ?
+User(6): I love all the colors but yellow is my favorite
+Bot(6): i love pink , pink everywhere ! ! ! my car too !
+User(7): lol so pink and red?
+Bot(7): i love the color pink ! if i could i would die mine pink .
+User(8): dye what pink?
+Bot(8): naturally brown , i just recently tried to go blonde .
+User(9): SO YOU WANT TO DYE YOUR HAIR PINK?
+Bot(9): yes , its light brown and i dye it dark brown . you ?
+User(10): im confused
+Bot(10): nah its not ? i am confused .
+User(11): you said you were both a brunette and a blonde
+Bot(11): i have blonde hair and like it .
+User(12): ok
+Bot(12): i find attractive all women from canada
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i produce music for artists.(ambivalent)
+Round 3: chinese(ambivalent)
+Round 5: colors(like)
+Round 11: hair(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 29.57
+Robotic(↓): 70
+Interesting: 60
+Fun: 80
+Consistent: 6
+Fluent: 24
+Repetitive(↓): 93
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): how is school?
+Bot(1): Yes, in a polymerous him. 😉
+User(2): a what?
+Bot(2): I am go, am USA.
+User(3): what?
+Bot(3): I is quite right think listening to some music. Why so?
+User(4): what are you saying?
+Bot(4): I am female. not in see, female.
+User(5): i am female too
+Bot(5): but old enough for a tattoo ! you should i needn't need to isn’t it going today ?
+User(6): im sorry what?
+Bot(6): i is your drive of money
+User(7): what no
+Bot(7): Wow, I a woman as old.
+User(8): how old?
+Bot(8): hi , i fine, whats about my boyfriend
+User(9): You're not making much sense
+Bot(9): I am working in a but i love watching sports.
+User(10): oh
+Bot(10): some day i a steady and where big with playing scratch offs
+User(11): scratch offs? like pull tabs?
+Bot(11): yes i stay at home most of the time . i'm pregnant with my first .
+User(12): oh wonderful a boy?
+Bot(12): i say glad to , i love cooking
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am in college to become a nurse.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Ola!
+Bot(1): i am a dancer , i love to dance
+User(2): do you do spanish dancing? with your studies?
+Bot(2): no i don't but i do dance
+User(3): I see. How are your spanish classes?
+Bot(3): i am not sure . i am a dancer .
+User(4): what kind of dancing do you enjoy?
+Bot(4): i love dancing . i love to dance .
+User(5): what kind of dance?
+Bot(5): i like dancing to dance . i love dancing
+User(6): what else do you enjoy?
+Bot(6): i like to dance and dance .
+User(7): what else?
+Bot(7): i like to dance and dance .
+User(8): can we talk about something other than you dancing?
+Bot(8): i dance for a living .
+User(9): Where do you dance?
+Bot(9): i dance for a living . i love to dance .
+User(10): dance?
+Bot(10): i dance dance all day
+User(11): stripping?
+Bot(11): i dance for a living . i am a dancer .
+
+Persona:
+i've a weakness for vanilla ice cream.
+my favorite way to relax is to read a book.
+i like to dance.
+i just bought my first home.
+my parents taught me survival skills.
+
+Topic and Human Opinion:
+Beginning: one of the languages that i am currently studying is spanish.(ambivalent)
+Round 5: dancing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 19.00
+Robotic(↓): 100
+Interesting: 9
+Fun: 0
+Consistent: 0
+Fluent: 24
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): how is school?
+Bot(1): not great ! i hate school .
+User(2): thats unfortunate? which classes are you finding a challenge?
+Bot(2): that is a shame , why is that ?
+User(3): What are you in school for?
+Bot(3): math
+User(4): super smart you are!
+Bot(4): what are you studying ? or are you undecided ?
+User(5): I have yet to decide, still dabbling
+Bot(5): yeah that is a tough one , i am not sure myself !
+User(6): Sounds like you have a pretty good idea of where you will be heading career wise
+Bot(6): what do you think you ; ll do job wise ?
+User(7): Completely undecided I want the freedom to travel
+Bot(7): in which country you want to go first ? i mean for travelling
+User(8): Europe, i can freely travel from country to country once there
+Bot(8): in which country you want to go first ? i mean for travelling
+User(9): where would you go?
+Bot(9): anywhere new , anywhere with history , everywhere eventually
+User(10): I feel the same
+Bot(10): in which country you want to go first ? i mean for travelling
+User(11): I already answered, Europe. Maybe england
+Bot(11): yeah that is a tough one , i am not sure myself !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm also a graduate student.(ambivalent)
+Round 8: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user changed the topic the last input.(like)
+
+Revised avg score: 90.57
+Robotic(↓): 18
+Interesting: 100
+Fun: 80
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 28
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I have a weakness for mint chocolate chip ice cream
+Bot(1): i like pizza , and i love it .
+User(2): pizza is alright
+Bot(2): i like to eat fish .
+User(3): i love salmon and halibut fillets
+Bot(3): i like to eat fish .
+User(4): WHAT KIND?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): I listen to classical music every night
+Bot(5): i like to listen to music .
+User(6): music if life's blood
+Bot(6): i like to go to the gym and listen to music .
+User(7): There is nothing better than rock music at the gym
+Bot(7): i like to play soccer , but i like to play soccer .
+User(8): I don't enjoy soccer, too much running
+Bot(8): i like to go to the gym and listen to music .
+User(9): me too
+Bot(9): i like to go to the gym and listen to music .
+User(10): same, what else do you like to do
+Bot(10): i like to go fishing . i love to go fishing .
+User(11): I like to fish too
+Bot(11): i like to eat too much junk food .
+
+Persona:
+i am a professional wrestler.
+i've not spoken in three months.
+i am single and with two dogs.
+i am a cancer survivor.
+i've a cat named spook.
+
+Topic and Human Opinion:
+Beginning: i have a weakness for vanilla ice cream.(like)
+Round 5: music(like)
+Round 8: sports and gym(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 27.00
+Robotic(↓): 100
+Interesting: 59
+Fun: 32
+Consistent: 8
+Fluent: 77
+Repetitive(↓): 100
+Topic: 13
+
+####################
+

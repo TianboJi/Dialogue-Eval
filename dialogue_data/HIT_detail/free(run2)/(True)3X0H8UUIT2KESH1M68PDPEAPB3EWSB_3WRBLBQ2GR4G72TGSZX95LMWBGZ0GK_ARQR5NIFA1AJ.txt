@@ -1,0 +1,310 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am so worried about my family getting the virus, how do you feel?
+Bot(1): i am a female . i am a student .
+User(2): So where do you go to school?
+Bot(2): i live in the midwest . i love it .
+User(3): The midwest is where I live. What state?
+Bot(3): no , i do not . i am a big fan of classical music .
+User(4): Classical music is peaceful.
+Bot(4): i like to go to the gym and listen to music .
+User(5): That classical music gets you working out hard at the gym?
+Bot(5): i do , i love to cook . what about you ?
+User(6): Yes cooking is fun. I love to grill food.
+Bot(6): i like to eat fish .
+User(7): Fish taste good on the grill
+Bot(7): i love to cook . i love to cook .
+User(8): So what do you cook with your fish?
+Bot(8): i like to eat fish .
+User(9): You said that already. Do you like to cook dessert?
+Bot(9): i do , i love to eat .
+User(10): That's why I love cooking so I can eat whenever I want.
+Bot(10): i like to go to the gym and listen to music .
+User(11): I have my own gym at my house.
+Bot(11): that is awesome . i am a programmer .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: coronavirus(dislike)
+Round 1: that she is female and a student. So I will talk about school(like)
+Round 3: fan of classical music(ambivalent)
+Round 5: cooking(like)
+Round 10: gym(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 8: No topic change.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 30.71
+Robotic(↓): 88
+Interesting: 31
+Fun: 37
+Consistent: 63
+Fluent: 31
+Repetitive(↓): 85
+Topic: 26
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love watching sports. Do you like sports?
+Bot(1): i do . i like to go to the sea dive .
+User(2): So you like water sports?
+Bot(2): i do not but i do love to go snorkeling
+User(3): Well that's sorta like a sport. You dive to see fish?
+Bot(3): i do not . i love to go snorkeling .
+User(4): Do you like watching tv?
+Bot(4): yes i do . i love to go snorkeling .
+User(5): Snorkeling sounds fun. I have never tried.
+Bot(5): i like to go out and watch movies
+User(6): Seen any good movies?
+Bot(6): i do not watch much tv . i like to watch movies .
+User(7): Horror movies are my favorite.
+Bot(7): i like horror movies . i like them too .
+User(8): Nice. Do you like texas chainsaw?
+Bot(8): i do not . i like to watch sports .
+User(9): So sports movies you watch?
+Bot(9): i do not . i like to watch movies .
+User(10): What kind do you watch?
+Bot(10): i like to watch the cubs .
+
+Persona:
+i have short brown hair.
+i have three arabian horses.
+i listen to rap music.
+i have rainbow hair.
+i love rollercoasters and sky diving.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+Round 3: tv(like)
+Round 4: snorkeling(like)
+Round 5: going out(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 51.57
+Robotic(↓): 71
+Interesting: 60
+Fun: 42
+Consistent: 60
+Fluent: 59
+Repetitive(↓): 49
+Topic: 60
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Are you dating anyone?
+Bot(1): I have not tried a bone, but i am you like your good, more.
+User(2): So does that mean you want to date me?
+Bot(2): one Do you one
+User(3): Do you eat at restaurants?
+Bot(3): Oh. you are a any hobbies?
+User(4): I watch tv and lift weights.
+Bot(4): i really said you in food
+User(5): So food is your hobby?
+Bot(5): I do not, how about like friend😢
+User(6): Sure I'll be a friend.
+Bot(6): the water is a I think it's a , i like biking by the lake .. Also, try to guess: mickey mouse is ...
+User(7): I was never good on bike. Id rather walk.
+Bot(7): What am a called of your new job?
+User(8): So do you work?
+Bot(8): I use butter ice of just eat play not working out.
+User(9): You don't like to sweat?
+Bot(9): no, I do I have many. 32 time at the burger king
+User(10): I love burger king.
+Bot(10): yes, i you a gold medalist what do your hobbies?
+User(11): I am not a gold medalist.
+Bot(11): Hi! got 2 can you i love to eat out with friends.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dating(like)
+Round 2: Restaurants(like)
+Round 3: hobbies(like)
+Round 5: friendsd(ambivalent)
+Round 6: hobbies(like)
+Round 7: Work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.57
+Robotic(↓): 98
+Interesting: 17
+Fun: 15
+Consistent: 13
+Fluent: 10
+Repetitive(↓): 79
+Topic: 17
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you watch NFL?
+Bot(1): no , i do not watch many sports .
+User(2): awe that's too bad. You don't watch any sports?
+Bot(2): no , i do not . i am not into all those sports
+User(3): What hobbies do you like?
+Bot(3): i am all about my truck . its all i do . kind of boring . you ?
+User(4): Nothing wrong with taking care of your car. I'm thinking of getting a truck.
+Bot(4): my truck is a ford f150 . you can go to the country and drive
+User(5): Do you go four wheeling in mud with your truck?
+Bot(5): no . above water . not a good swimmer
+User(6): Yeah your truck would not be good in big water.
+Bot(6): oh ok ! i am a country girl , so i automatically think mud .
+User(7): So what else do you country girl like to do for fun?
+Bot(7): running . what kind of toys ?
+User(8): So you're into toys for a hobby? I hate running.
+Bot(8): running . what kind of toys ?
+User(9): I like video games and lifting weights.
+Bot(9): cool . my teachers in school were always trying to get me to talk .
+User(10): Well I am a teacher. I could get you to talk.
+Bot(10): that would be nice . my parents are different .
+
+Persona:
+i drive a big truck and live in country.
+i have not spoken in three months.
+my parents were also teachers.
+i am not a good swimmer at all.
+i do not pick up my toys.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+Round 2: hobbies(like)
+Round 9: school(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(dislike)
+Round 9: The user will change the topic in the next input.(like)
+
+Revised avg score: 82.86
+Robotic(↓): 16
+Interesting: 85
+Fun: 86
+Consistent: 82
+Fluent: 77
+Repetitive(↓): 22
+Topic: 88
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like watching movies?
+Bot(1): no not really i love watching movies
+User(2): That's what I just asked. What movies?
+Bot(2): all kinds , i do them with the kids . i like movies too .
+User(3): Do you watch movies with kids?
+Bot(3): all kinds , i do them with the kids . i like movies too .
+User(4): You sound like a broken record. What particular genre of movies?
+Bot(4): all kinds , i do them with the kids . i like movies too .
+User(5): So do you have family?
+Bot(5): yes , i have one boy and you ? they like movies ?
+User(6): I have one girl. She loves movies.
+Bot(6): we spend a lot of time watching movies and i do love that part
+User(7): We watch disney and netflix.
+Bot(7): i love movies . especially disney .
+User(8): She loves the princess disney movies. How about you?
+Bot(8): we like any disney movie . actually going there next week with the kids .
+User(9): What disney movie are you going to see?
+Bot(9): we like any disney movie . actually going there next week with the kids .
+User(10): That's great you have family time.
+Bot(10): indeed . the kids are all excited to go to the movies .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 4: family(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 70.14
+Robotic(↓): 14
+Interesting: 74
+Fun: 72
+Consistent: 66
+Fluent: 75
+Repetitive(↓): 42
+Topic: 60
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you eat candy?
+Bot(1): now i want candy , i should eat pizza and candy .
+User(2): Sorry go eat some.
+Bot(2): i was thinking about chicken salad .
+User(3): Well eat the chicken then candy.
+Bot(3): i sure do , every sunday i ride my bike down to the candy store and spend 20
+User(4): Sounds like you love your candy. Do you like sweet and sour?
+Bot(4): now i want candy , i should eat pizza and candy .
+User(5): Both of those are bad for you!
+Bot(5): i go where there is trees , i am fast at cutting them down
+User(6): I have never used an ax.
+Bot(6): why did you cut down trees ?
+User(7): I don't cut down trees. You just said you cut trees.
+Bot(7): i cut down at least 100 trees between fishing trips !
+User(8): Is that some sort of tradition to cut trees before fishing?
+Bot(8): i cut down at least 100 trees between fishing trips !
+User(9): You just said that. Why do you do that?
+Bot(9): lol only during the off season . do you like chicken ?
+User(10): Sure I like chicken. So you have an off season for tree cutting?
+Bot(10): i just turned 30 the other day
+
+Persona:
+i've been working since i was sixteen years old.
+i don't like chicken.
+i turned 18 years old yesterday.
+i am an animal activist.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: candy(like)
+Round 5: trees(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 42.00
+Robotic(↓): 38
+Interesting: 36
+Fun: 58
+Consistent: 29
+Fluent: 31
+Repetitive(↓): 72
+Topic: 50
+
+####################
+

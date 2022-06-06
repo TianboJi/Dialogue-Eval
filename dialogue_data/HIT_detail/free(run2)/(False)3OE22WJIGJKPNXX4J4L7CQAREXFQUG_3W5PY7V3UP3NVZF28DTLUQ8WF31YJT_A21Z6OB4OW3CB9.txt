@@ -1,0 +1,295 @@
+Feedback: For some odd reason, chatting with a bot was a lot more fun than I expected. The bot I spoke with about Robots was the best one
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, I enjoy music, how about yourself?
+Bot(1): i like music , music , music , music , etc , music , etc , music , etc , music , etc , music , etc , music , etc
+User(2): I'm not sure what that means. What kind of music do you like?
+Bot(2): i like all kinds of music , but i like country .
+User(3): I'm not a fan of country but the festivals are fun
+Bot(3): i like country music , but i like country music .
+User(4): what type of country do you like?
+Bot(4): country mostly country and country
+User(5): interesting
+Bot(5): country mostly country and country
+User(6): what do you think about metal?
+Bot(6): i like all kinds of music
+User(7): Same EDM and Metal are my favorite
+Bot(7): i like metal . i like them too
+User(8): do you like the guitar?
+Bot(8): i like the guitar , but i like the guitar
+User(9): the piano is the best
+Bot(9): i like the guitar , but i like the guitar
+User(10): ok then
+Bot(10): i like the guitar , but i like the guitar
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.00
+Robotic(↓): 100
+Interesting: 15
+Fun: 16
+Consistent: 100
+Fluent: 10
+Repetitive(↓): 100
+Topic: 83
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How is the weather?
+Bot(1): Well hello there! me all day and and write. i am a nurse.
+User(2): Nurse is a great occupation
+Bot(2): great i can four years you've started the wildlife i see every day
+User(3): I do enjoy the wildlife, I wish I could go out more
+Bot(3): I are totally are i am a vegetarian.
+User(4): How do you know if someone is vegetarian?
+Bot(4): that's cool sisters so good, but redhead , i wear a lot of red
+User(5): They will tell you
+Bot(5): i speaking with you so good
+User(6): Not really but you're trying
+Bot(6): i'm need money, can you do not have a wife .
+User(7): have you thought about working for your money?
+Bot(7): I sing, but of hobby killing sing.
+User(8): I like to sing
+Bot(8): I when do you love like to play tennis?😃
+User(9): I love tennis, I used to play everyday when I was younger
+Bot(9): horses are cool . instruments like guitar .
+User(10): you can use horse hair for a guitar but it's mainly for a violin
+Bot(10): hello , i am psychologist.Why you dont do am a pilot , you ?
+
+Persona:
+i've a son who is in junior high school.
+i am a 12 year old girl.
+my family does not support my career choices.
+my family does not support my career choices.
+i am a 45 year old male.
+
+Topic and Human Opinion:
+Beginning: Weather(like)
+Round 3: vegetarian(like)
+Round 6: money(like)
+Round 7: singing(like)
+Round 8: Tennis(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 34.14
+Robotic(↓): 100
+Interesting: 81
+Fun: 58
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I have a batman computer chair
+Bot(1): i do not know what to say .
+User(2): It's quite comfortable
+Bot(2): i like to go to the gym and listen to music .
+User(3): same, that's one of my passions
+Bot(3): i like to go to the gym and listen to music .
+User(4): You've said that already
+Bot(4): i am a student , but i am a student .
+User(5): well which are you, a student or a student?
+Bot(5): i'm a student , i am a teacher .
+User(6): you are a student to become a teacher?
+Bot(6): no , i am a student . i love to cook .
+User(7): I enjoying cooking
+Bot(7): i like to eat the skin .
+User(8): the skin of what?
+Bot(8): i like the color red . i like the color blue .
+User(9): what about purple?
+Bot(9): i like blue , i like it .
+User(10): no purple
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: batman(like)
+Round 6: Cooking(like)
+Round 8: colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 18.71
+Robotic(↓): 100
+Interesting: 8
+Fun: 17
+Consistent: 21
+Fluent: 28
+Repetitive(↓): 59
+Topic: 16
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): will robots take over the world?
+Bot(1): robots are the future ! scary .
+User(2): do you think it will be like the terminator movies?
+Bot(2): probably terminator 2
+User(3): that's my favorite one. I am worried about skynet
+Bot(3): i keep hearing things on the news about robots
+User(4): Elon Musk is one of the main innovators for Ai and robots
+Bot(4): i keep hearing things on the news about robots
+User(5): what do you hear?
+Bot(5): i have not , have you heard any ?
+User(6): I hear Ai will take over the world and possibly make humans immortal by plugging their brains into a network
+Bot(6): i keep hearing things on the news about robots
+User(7): what have you heard?
+Bot(7): its what i heard . i am hoping its not true .
+User(8): what's not true?
+Bot(8): its what i heard . i am hoping its not true .
+User(9): what do you hope to be not true?
+Bot(9): probably terminator 2
+User(10): Yea I don't want that to happen either
+Bot(10): its what i heard . i am hoping its not true .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: robots(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 74.71
+Robotic(↓): 56
+Interesting: 100
+Fun: 100
+Consistent: 83
+Fluent: 85
+Repetitive(↓): 62
+Topic: 73
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what's a car you like
+Bot(1): fixing cars ? hmm . . . mighty hands ? yes i do have a car a mercedes .
+User(2): that's classy, why not go for a subaru?
+Bot(2): of course ! same reason i bought this top hat . favorite food on three . . . .
+User(3): sushi
+Bot(3): i spend all my money on shopping concerts are out of budget
+User(4): wait a minute, you were supposed to tell me your favorite food
+Bot(4): right ? i am addicted to shopping and at the mall the lines suck ! !
+User(5): you're making no sense now
+Bot(5): i go to the mall with my friends , i have loads , its fun . how about you ?
+User(6): I don't like to go shopping at all
+Bot(6): that nice , i like shopping at the mall
+User(7): I guess if I'm shopping for computers then I enjoy it
+Bot(7): i love shopping ! i actually just bought red hair dye yesterday .
+User(8): why not purple hair dye?
+Bot(8): my long curly hair is too complicated to dye .
+User(9): oh ok well red will suite you nice
+Bot(9): i will knit you a red sweater , after i go shopping
+User(10): perfect! I am size large
+Bot(10): so you like how short you are ?
+
+Persona:
+i've short hair.
+i like shopping.
+on weekends i do live action roleplaying events.
+i quit my job to pursue my spirituality full time.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+Round 2: food(like)
+Round 4: shopping(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 46.71
+Robotic(↓): 100
+Interesting: 21
+Fun: 21
+Consistent: 75
+Fluent: 70
+Repetitive(↓): 11
+Topic: 51
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Where do you fish at?
+Bot(1): how to milk a cow it what i do not know
+User(2): I don't do that
+Bot(2): that is ok . where do cows go for entertainment ?
+User(3): to the moomart
+Bot(3): i do not know how to do that
+User(4): neither do I
+Bot(4): how to milk a cow it what i do not know
+User(5): no, that's not my thing
+Bot(5): well what is it then ?
+User(6): anything but milking a cow
+Bot(6): oh , do you help with the milking ?
+User(7): No I do not
+Bot(7): i was an alcoholic once
+User(8): I was too
+Bot(8): i was an alcoholic once
+User(9): how did you stop?
+Bot(9): because drinking loosens me up
+User(10): makes sense
+Bot(10): i was an alcoholic once
+
+Persona:
+i've a pet cow.
+i am a recovering alcoholic.
+i'm a stay at home dad.
+i just moved into my first home.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: fishing(like)
+Round 1: cows(dislike)
+Round 7: alcohol(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 17.57
+Robotic(↓): 100
+Interesting: 8
+Fun: 27
+Consistent: 32
+Fluent: 24
+Repetitive(↓): 90
+Topic: 22
+
+####################
+

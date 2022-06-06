@@ -1,0 +1,323 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi how are you? Im a 6 year old girl
+Bot(1): i am a librarian and i am a librarian .
+User(2): Do you like your job?
+Bot(2): i am a librarian and i love to read
+User(3): What kind of books do you like to read?
+Bot(3): i love to read and read
+User(4): I like reading too, my favoritw genre is scifi
+Bot(4): i like to read too . i am a librarian
+User(5): What do you do at the library?
+Bot(5): i read a lot of books
+User(6): What genre of books?
+Bot(6): i like to read and read
+User(7): How long have you been a librarian?
+Bot(7): i like to read and read
+User(8): Who is your favorite author?
+Bot(8): i like to read a lot
+User(9): Do you like to cook?
+Bot(9): i like to read a lot
+User(10): Have you read a cook book?
+Bot(10): i like to read a lot
+
+Persona:
+i'm a librarian.
+my favorite band is rascal flats.
+i'm here for shoplifting.
+i'm a librarian.
+i am in college to become a nurse.
+
+Topic and Human Opinion:
+Beginning: i am a little girl.(dislike)
+Round 8: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 24.86
+Robotic(↓): 88
+Interesting: 30
+Fun: 32
+Consistent: 73
+Fluent: 16
+Repetitive(↓): 100
+Topic: 11
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I enjoy coloring in coloring books, do you like to color?
+Bot(1): that is cool too . i've a degree in daughter with me. She's a use it .
+User(2): Does your daughter like coloring books?
+Bot(2): oh wow 😮 you are my first job
+User(3): What kind of job is it?
+Bot(3): i am a fan of like roleplaying? I do. do not eat it .
+User(4): What kind of roleplaying do you like?
+Bot(4): yes i did , a dinner, I like experienced major
+User(5): What did you have for dinner?
+Bot(5): I like to educate you doing? Where topics.
+User(6): What do you like to teach?
+Bot(6): nice you have a Do life of a christian
+User(7): No i am not entirely religious. Do you attend church?
+Bot(7): i have several cats , enough no i m tell me me a crazy cat lady !
+User(8): What breeds of cats do you have? I love cats too.
+Bot(8): purple is mine . i have purple sofa , don't get girlfriend broke chairs , mirrors , everything ! hows it going tonight ?
+User(9): Why did she break those things?
+Bot(9): I like much does it hike too.
+User(10): Where do you like to go hiking?
+Bot(10): i a 12 year old time i always work never have bill money
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i enjoy coloring books.(like)
+Round 2: Jobs(like)
+Round 3: Roleplaying(like)
+Round 4: Dinner(like)
+Round 5: Education(like)
+Round 6: Religion(like)
+Round 7: Cats(like)
+Round 8: Sofa(ambivalent)
+Round 9: Hiking(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 29.57
+Robotic(↓): 97
+Interesting: 35
+Fun: 29
+Consistent: 23
+Fluent: 34
+Repetitive(↓): 23
+Topic: 6
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am a teacher, what kind of job do you have?
+Bot(1): i work at a restaurant , i love it .
+User(2): What do you at the restaurant?
+Bot(2): no , i do not , but i do like to go fishing .
+User(3): What kind of fish do you like to catch?
+Bot(3): i love pizza , and i love it .
+User(4): What are your favorite toppings?
+Bot(4): i like the color red . i like the color blue .
+User(5): My favorite color is silver
+Bot(5): i like the color red . i like red .
+User(6): Are there any other colors you like? My second favorite is turquoise.
+Bot(6): i like the color red . i like the color blue .
+User(7): Do you know how to ride a bicycle?
+Bot(7): no , i do not . i like to go out to eat with my family .
+User(8): What is your favorite restaurant to eat at?
+Bot(8): i like to eat pizza .
+User(9): What is your favorite pizza place?
+Bot(9): i love pizza , and i love it .
+User(10): What kind of toppings do you like on pizza?
+Bot(10): i love pizza , and i love it .
+
+Persona:
+i have an internet addiction and spend a lot of time playing roleplaying games.
+i've blonde hair and blue eyes.
+i'm not a good swimmer at all.
+i waitress during the day to supplement my income.
+i own a yacht and i rent it out when i am not using it.
+
+Topic and Human Opinion:
+Beginning: i work at a school as a kindergarten teacher.(like)
+Round 1: Restaurant job(like)
+Round 2: Fishing(like)
+Round 3: Food(like)
+Round 4: Favorite colors(like)
+Round 6: Bicycles(like)
+Round 7: Eating with family(like)
+Round 9: Pizza(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 37.86
+Robotic(↓): 84
+Interesting: 61
+Fun: 44
+Consistent: 24
+Fluent: 28
+Repetitive(↓): 25
+Topic: 17
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you enjoy reading poetry? I enjoy good poems
+Bot(1): no , but i should . the natural beauty of the world deserves the written word
+User(2): I can reccomend a few good poets if you are interested into getting into poetry
+Bot(2): that is interesting that you write poetry ! my husband is an author .
+User(3): What genre does your husband like to write in?
+Bot(3): i like kids as long as they stay on the other side of the room .
+User(4): I like kids, do you have any nieces or nephews?
+Bot(4): i do not have any nephews or nieces , but i met an awesome girl last month .
+User(5): Where did you meet her?
+Bot(5): she also likes karate , she is why i got a brown belt !
+User(6): Did you meet her while at karate practice?
+Bot(6): wow ! that is a cool hobby , what belt are you ?
+User(7): I haven't practiced in many years I was a yellow belt
+Bot(7): i am a black belt , these girls have nothing on me .
+User(8): How long did it take you to get a black belt?
+Bot(8): oh wow ! impressive , how long have you played ? karate is awesome , i am jealous
+User(9): I did karate for maybe 2 or so years
+Bot(9): wow ! that is a cool hobby , what belt are you ?
+User(10): A yellow belt
+Bot(10): do you have a yellow car ?
+
+Persona:
+i have a pet turtle.
+i often shop for shoes and watches.
+i like to work on vintage cars.
+whats up i'm a 46 year old single dad 46 a kids.
+i dye my hair every three months.
+
+Topic and Human Opinion:
+Beginning: i enjoy poetry.(like)
+Round 2: Author husband(like)
+Round 3: Kids(like)
+Round 4: Someone they met(like)
+Round 5: Karate(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 52.43
+Robotic(↓): 35
+Interesting: 59
+Fun: 59
+Consistent: 35
+Fluent: 34
+Repetitive(↓): 32
+Topic: 47
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I am allergic to water, do you have any allergies?
+Bot(1): no , are you allergic to anything ?
+User(2): Nothing besides water.
+Bot(2): no , are you allergic to anything ?
+User(3): What are your favorite foods?
+Bot(3): no favorite foods really . what about you ?
+User(4): I enjoy pizza quite a bit and chili cheese fries.
+Bot(4): i also like chili corn dogs and also pizza
+User(5): Do you like fried chicken?
+Bot(5): yes pizza or fried chicken are my favorite foods .
+User(6): Do you have any favorite desserts?
+Bot(6): i like all desserts . do you have a favorite dessert ?
+User(7): I like ice cream a lot since its easy to get
+Bot(7): i like all desserts . do you have a favorite dessert ?
+User(8): Do you like chocolate cake?
+Bot(8): i do like those too , and i am in love with cheese cake
+User(9): What kind of cheesecake do you like most?
+Bot(9): i like all desserts . do you have a favorite dessert ?
+User(10): Yes icecream
+Bot(10): i like all desserts . do you have a favorite dessert ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have an allergy to water.(like)
+Round 2: Favorite foods(like)
+Round 5: Desserts(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 5: The user will change the topic in the next input.(like)
+
+Revised avg score: 67.29
+Robotic(↓): 49
+Interesting: 72
+Fun: 77
+Consistent: 74
+Fluent: 72
+Repetitive(↓): 44
+Topic: 69
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am relates to Christopher Columbus are you related to anyone famous?
+Bot(1): no , not famous . are you famous ?
+User(2): No i am not.
+Bot(2): his
+User(3): Do you like cars?
+Bot(3): yes
+User(4): What kind of cars do you like? I like imports
+Bot(4): i do like ford f150s . do you have any pets ?
+User(5): I have a dog. Do you have any pets?
+Bot(5): i do not do you have any ?
+User(6): Yes just one, named Zoie
+Bot(6): awesome . i have a collie dog named tibby .
+User(7): How old is your dog?
+Bot(7): he is just under a year old . how big are your dogs ?
+User(8): My dog is medium sized not too big or small
+Bot(8): he is just under a year old . how big are your dogs ?
+User(9): What color is your dog?
+Bot(9): his name is sam and he is black
+User(10): My dog is blonde and brown
+Bot(10): how old is your dog ?
+User(11): She is about 4 years old.
+Bot(11): how old is your dog
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a descendant of christopher columbus.(dislike)
+Round 2: Cars(like)
+Round 4: Pets(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 61.86
+Robotic(↓): 42
+Interesting: 78
+Fun: 73
+Consistent: 64
+Fluent: 64
+Repetitive(↓): 63
+Topic: 59
+
+####################
+

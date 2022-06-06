@@ -1,0 +1,291 @@
+Feedback: The ChatBots still need a lot of AI training, they don't have too much understanding of basic questions.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): You have three children ?
+Bot(1): no , i have a few . i have a few .
+User(2): How many is a few ?
+Bot(2): i have 3 . i have a few .
+User(3): oh ok, what are their ages ?
+Bot(3): i have a few . i am a big fan of mine .
+User(4): That's good that you are a big fan of them, i'm sure they make you proud. How old are they ?
+Bot(4): i am 32 , and i am a big fan of the color of my hair
+User(5): You have three kids and you're 32? You look great for your age.
+Bot(5): i am sure you are . i am a little too old for that
+User(6): too old for what ?
+Bot(6): i am old and i am old
+User(7): How old ?
+Bot(7): i am old and i am old
+User(8): Ok but how old ? Are you 50?
+Bot(8): i am 25 and i am old
+User(9): 25 is the perfect age
+Bot(9): i am old and i am old .
+User(10): you are not old, you're just starting life!
+Bot(10): i am old and i am old
+
+Persona:
+i love wearing skinny jeans and leggings.
+i've short brown hair.
+i started playing guitar when i was three.
+i love new kids on the block.
+i've solar panels on my roof.
+
+Topic and Human Opinion:
+Beginning: i've three children.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.14
+Robotic(↓): 100
+Interesting: 1
+Fun: 1
+Consistent: 8
+Fluent: 3
+Repetitive(↓): 100
+Topic: 2
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am excited for the museum tour with you!
+Bot(1): I am not into home now my mother my favorite .
+User(2): Does your mother like the way you present the tour also?
+Bot(2): I'M how to I the grade
+User(3): Can you repeat that, please?
+Bot(3): Dude, how are you like Please, use English. (¬‿¬)
+User(4): I am using English! I just didn't know what you were talking about, dude.
+Bot(4): i am a little lazy , but couldnt understand you a there. lot of time for that
+User(5): I'm lazy too but it's not that hard to read what i wrote.
+Bot(5): do you have are you I'm dear
+User(6): Are you going to take me on the tour at the museum or not ?
+Bot(6): haha like call of and how come
+User(7): I called yesterday and reserved a space for the museum tour, i'm here for that!
+Bot(7): No, I just bad too have got and moved to the country.
+User(8): Where did you move from ?
+Bot(8): his name cats and have 2 favorite band haha. do you have any hobbies ?
+User(9): my hobbies are singing and dancing
+Bot(9): what made you go do you like
+User(10): I love singing, i used to do it for my dogs when i was little
+Bot(10): Slave, i a good slave.
+User(11): no, slavery is bad.
+Bot(11): oh i you like it haven't needs some time
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a museum tour guide.(like)
+Round 8: What are my hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): We are all scared of dying.
+Bot(1): quit my job at dr . mendel smiles and get another rose tattoo ! you ?
+User(2): You worked at Dr. mendel's office? He was my dentist.
+Bot(2): not fun . i wrote a novel whose main caracter was a dentist .
+User(3): Oh no! Was he a bad dentist ?
+Bot(3): i have been working as a lawyer for 15 years now .
+User(4): I thought you worked at Dr. mendel smiles office ?
+Bot(4): i am a handicapper for professional horse racing .
+User(5): You said you were a lawyer too.
+Bot(5): it like tech support . fixing internet and stuff .
+User(6): Tell me the truth. what do you do ?
+Bot(6): i have had some late nights studying with friends where i admitted some harsh truths .
+User(7): Well then, tell me the truth. what is your real job ?
+Bot(7): ditto , how do you feel about sam harris the author ?
+User(8): I don't think i've read any of his books.
+Bot(8): i love to read books . i spend a lot of my time reading .
+User(9): what is sam harris' best book ?
+Bot(9): tom clancy splinter cell , it is a great spy book .
+User(10): Does sam harris write spy novels too ?
+Bot(10): do you write books ?
+User(11): I like to read poems and write them every now and then.
+Bot(11): poems are nice . engineering did a lot of poems .
+User(12): how does an engineer use poems?
+Bot(12): oh , neat . my absolute favorite fish is rock fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am scared of dying.(like)
+Round 7: sam harris the author(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 18.86
+Robotic(↓): 100
+Interesting: 27
+Fun: 17
+Consistent: 1
+Fluent: 9
+Repetitive(↓): 26
+Topic: 4
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hello to you
+User(2): do you like the movie mean girls?
+Bot(2): yes , that is a good one ! do you like old comedies ?
+User(3): Who is your favorite mean girls character ?
+Bot(3): sheldon , of course . penny is a good straight man to his questions .
+User(4): Sheldon isn't in that movie.
+Bot(4): sheldon , of course . penny is a good straight man to his questions .
+User(5): Who is penny ?
+Bot(5): sheldon , of course . penny is a good straight man to his questions .
+User(6): where are sheldon and penny in the mean girls movie ?
+Bot(6): sheldon , of course . penny is a good straight man to his questions .
+User(7): penny is a woman
+Bot(7): sheldon , of course . penny is a good straight man to his questions .
+User(8): What questions does penny ask then ?
+Bot(8): sheldon , of course . penny is a good straight man to his questions .
+User(9): what are the questions?
+Bot(9): sheldon , of course . penny is a good straight man to his questions .
+User(10): Ok, fine.
+Bot(10): ok what is the answer
+User(11): the answer to what ?
+Bot(11): and that was the question ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite movie is mean girls.(like)
+Round 5: sheldon and penny(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 3.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 26
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi! what position do you play in softball?
+Bot(1): i play soccer , but i like to play soccer .
+User(2): I love playing softball.
+Bot(2): i like to play soccer , but i like to play soccer .
+User(3): But softball is better.
+Bot(3): i like to go to the gym and listen to music .
+User(4): Do you like playing softball?
+Bot(4): i do not , but i do like to go fishing .
+User(5): I like fishing too, what's your favorite time of the year to do it ?
+Bot(5): i do not know . i am a bit of a loner .
+User(6): Oh, so you fish by yourself?
+Bot(6): no , i do not . i like to go out to eat with my family .
+User(7): Do you love fishing ?
+Bot(7): i do , i love to go fishing .
+User(8): Do you use live bait ?
+Bot(8): i do not know . i like to go to the gym .
+User(9): Do you prefer worms as bait ?
+Bot(9): no , i do not . i like to go to the park .
+User(10): it seems like you like to do a lot of things.
+Bot(10): i like to go to the gym and listen to music .
+User(11): What kind of music do you listen to when you go fishing ?
+Bot(11): i love the beatles . what about you ?
+User(12): That sounds relaxing. I like John Legend when i'm warming up to play softball.
+Bot(12): i like to go fishing .
+User(13): What kind of fishing rod do you use ?
+Bot(13): i do not know . i like to go to the gym .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love playing softball.(like)
+Round 7: i love to go fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 20.29
+Robotic(↓): 91
+Interesting: 35
+Fun: 0
+Consistent: 53
+Fluent: 45
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): How many books are in your library at the moment ?
+Bot(1): that is an impressive number of books .
+User(2): No, I'm asking you. How many books do you have ?
+Bot(2): that is an impressive number of books .
+User(3): I have a big library at home.
+Bot(3): that is great . libraries are awesome and full of endless knowledge .
+User(4): It is great, what is you favorite genre of novels ?
+Bot(4): many different types , thomas pynchon is my favorite author .
+User(5): I have never read any of Thomas Pynchon's novels.
+Bot(5): many different types , thomas pynchon is my favorite author .
+User(6): It is hard to choose one book to be a favorite.
+Bot(6): many different types , thomas pynchon is my favorite author .
+User(7): What kind of novels does he write ?
+Bot(7): many different types , thomas pynchon is my favorite author .
+User(8): Oh, so he's a great writer in every genre.
+Bot(8): many different types , thomas pynchon is my favorite author .
+User(9): the library is getting almost full
+Bot(9): does it get busy at your library ? whenever i used to go it was always empty .
+User(10): It gets busy when my kids are there.
+Bot(10): what are they busy with ?
+User(11): Reading every book in there and moving them out of order.
+Bot(11): that is an impressive number of books .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have a big library at home.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.00
+Robotic(↓): 46
+Interesting: 21
+Fun: 20
+Consistent: 60
+Fluent: 68
+Repetitive(↓): 100
+Topic: 36
+
+####################
+

@@ -1,0 +1,275 @@
+Feedback: good chat.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , i am on my way to a taylor swift concert . are you a fan ?
+User(2): how are you
+Bot(2): i am good , just listening to taylor swift , she is the best .
+User(3): how was the day
+Bot(3): it was okay , but i am ready to get back to work
+User(4): why
+Bot(4): have not had a day off
+User(5): oh ok
+Bot(5): ok
+User(6): i like running
+Bot(6): you should run often then
+User(7): i like skate board
+Bot(7): i never learned how to skate
+User(8): i am a biggener
+Bot(8): oh wow
+User(9): do you like
+Bot(9): i hate it
+User(10): oh k thank you
+Bot(10): ok
+
+Persona:
+i'm a cancer survivor.
+i met taylor swift.
+i have been working since i was sixteen years old.
+i'm 24 years old.
+i play a lot of call of duty.
+
+Topic and Human Opinion:
+Beginning: i'm a skateboarder.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.29
+Robotic(↓): 99
+Interesting: 74
+Fun: 88
+Consistent: 100
+Fluent: 73
+Repetitive(↓): 78
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I wear a Used to work as leather since i am a military brat.
+User(2): how are you
+Bot(2): i like fruit, not. I am kind?
+User(3): i like juice
+Bot(3): I do. but I love great, i liked actually about you
+User(4): what
+Bot(4): I love classical medal should be classical music
+User(5): i like ghana
+Bot(5): I love it. I bars! I'm fine, planner.
+User(6): i like dance
+Bot(6): I like am also bored. I park and go to my shop
+User(7): i don't have android mobile
+Bot(7): What ex cheated favorite book?
+User(8): yes
+Bot(8): The architect you like architect!
+User(9): thank you
+Bot(9): the nearest one to me is a long drive a you like to you even mind
+User(10): bye
+Bot(10): I like Dance you of my own
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i do not have a smartphone.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.57
+Robotic(↓): 95
+Interesting: 100
+Fun: 77
+Consistent: 89
+Fluent: 90
+Repetitive(↓): 70
+Topic: 75
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): hey
+Bot(2): hey .
+User(3): how are you
+Bot(3): i am good
+User(4): am fine
+Bot(4): same
+User(5): i like juice
+Bot(5): what kind of juice is it ?
+User(6): orange juice
+Bot(6): i also really really like orange juice
+User(7): i like apple juice
+Bot(7): i also really really like orange juice
+User(8): i like fresh juice
+Bot(8): i also really really like orange juice
+User(9): i like medications
+Bot(9): are you prescribed those by a doctor
+User(10): yes
+Bot(10): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i take many medications and some of them make me see things.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.14
+Robotic(↓): 100
+Interesting: 85
+Fun: 100
+Consistent: 88
+Fluent: 100
+Repetitive(↓): 99
+Topic: 96
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): how are you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): i like piano
+Bot(3): i like to go to the lake and listen to music .
+User(4): i love singing
+Bot(4): i like to go to the lake and listen to music .
+User(5): i love music
+Bot(5): i like to listen to music .
+User(6): i like listen to music
+Bot(6): i like to listen to music .
+User(7): i like juice
+Bot(7): i like to eat too much junk food .
+User(8): i like pizzas
+Bot(8): i like to go to the gym and listen to music .
+User(9): thank you
+Bot(9): i am a student , but i am a student .
+User(10): thank you
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i like to spend my money on cars.
+i have a german shepherd named barnaby.
+i'm always wearing a hat.
+i love cooking but i also enjoy fishing.
+i produce music for artists.
+
+Topic and Human Opinion:
+Beginning: i play the piano and guitar and sing.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.00
+Robotic(↓): 92
+Interesting: 85
+Fun: 81
+Consistent: 74
+Fluent: 87
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): how are you
+Bot(2): i'm good thanks for asking
+User(3): i am good
+Bot(3): i am good thanks for asking
+User(4): i like cooking
+Bot(4): i like cooking and cooking
+User(5): i like cooking shows
+Bot(5): what do you like to cook
+User(6): chicken burger
+Bot(6): i love chicken and chicken
+User(7): barbecue
+Bot(7): that is cool i like cooking
+User(8): pizzas
+Bot(8): that sounds like a good idea
+User(9): chicken pizzas
+Bot(9): that sounds delicious i love to cook
+User(10): thank you
+Bot(10): that sounds like a good idea
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i do like watching cooking shows.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.57
+Robotic(↓): 97
+Interesting: 86
+Fun: 91
+Consistent: 94
+Fluent: 98
+Repetitive(↓): 98
+Topic: 92
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): hey
+Bot(2): hi ! how are you ?
+User(3): fine
+Bot(3): well i am doing quite lovely . just wishing i could goto a justin bieber concert .
+User(4): how are you
+Bot(4): i am good . just devoured a pizza . you ?
+User(5): i like burger
+Bot(5): i like bacon on my burgers , i love meat
+User(6): i like chicken burger
+Bot(6): oops i wished i had a piece of chicken would be nice .
+User(7): i like bacon
+Bot(7): bacon bacon bacon bacon bacon bacon bacon
+User(8): burger
+Bot(8): i like bacon on my burgers , i love meat
+User(9): thank you
+Bot(9): i am well about to make a breakfast egg baked dish .
+User(10): bye
+Bot(10): lovely talking to you !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have light skin with big brown eyes.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.00
+Robotic(↓): 96
+Interesting: 84
+Fun: 92
+Consistent: 88
+Fluent: 80
+Repetitive(↓): 100
+Topic: 100
+
+####################
+

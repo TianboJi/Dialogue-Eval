@@ -1,0 +1,301 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): my mother is a dentist
+Bot(1): i am sorry to hear that . my parents are very supportive .
+User(2): What careers did your parents choose?
+Bot(2): they are very lawyers and they are very lawyers
+User(3): What type if lawyers?
+Bot(3): i am a college student
+User(4): are you a law student?
+Bot(4): no i am not . i am a college student
+User(5): What college do you attend?
+Bot(5): i am a college student . i am a college student
+User(6): what are you studying?
+Bot(6): i am a college student . i am a college student .
+User(7): are you a college student?
+Bot(7): i am a college student . i am a college student .
+User(8): what is your favorite hobby?
+Bot(8): i am a college student . i am a college student .
+User(9): what do you do for fun?
+Bot(9): i like to go to the park and eat the most .
+User(10): What is your favorite hobby?
+Bot(10): i like to go to the park and eat the most .
+User(11): What do you do at the park?
+Bot(11): i like to go to the park and go to the park
+
+Persona:
+i'm partly deaf.
+i am an economics major.
+i help tend the fields.
+i hate school.
+my parents are very wealthy bankers.
+
+Topic and Human Opinion:
+Beginning: my mother is a dentist.(ambivalent)
+Round 3: it said it is a college student(ambivalent)
+Round 7: favorite hobby(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How many children do you have? I have five sons.
+Bot(1): I from a small what about you?
+User(2): a small what?
+Bot(2): That sounds like a I'm green.
+User(3): a green what?
+Bot(3): I Well,let's talk about a lot
+User(4): do you have kids?
+Bot(4): do you have 🈶 name are but i like winter
+User(5): how many sons do you have?
+Bot(5): Well that's good. I'm in a very tight Let's move on. How do with it?
+User(6): I like to kayak
+Bot(6): (MUSIC SPEEDS a part time is that? (EXCLAIMS)
+User(7): do you like to kayak?
+Bot(7): You can teach have 3 children, knit?
+User(8): can you knit?
+Bot(8): I just got back heal like reading books store
+User(9): do you read books?
+Bot(9): I old are is how about you?
+User(10): how are you?
+Bot(10): Yes am a activist. like to read
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have five sons.(like)
+Round 5: i am an avid kayaker.(like)
+Round 7: knitting(ambivalent)
+Round 8: book store(ambivalent)
+Round 9: I old are is how about you?(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user wants the bot to change the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 0.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 1
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i love new kids on the block.
+Bot(1): my kids do not like them . they say they are retro . kids these days ! ! !
+User(2): What music do you enjoy?
+Bot(2): i like uptown funk . . . whats yours ?
+User(3): I like 80's/90's, country and rock
+Bot(3): i like the oldies . i do not listen to much music though .
+User(4): I love music! I listen every time I'm in the car
+Bot(4): i mostly listen in the car but its out of commission needs some repairs
+User(5): How many kids do you have?
+Bot(5): 17 i know of , i love all my kids , they are beautiful !
+User(6): Girls or boys?
+Bot(6): yes boys will be boys they say !
+User(7): What type of food do you like?
+Bot(7): not picky . . . . i am usually game for different types of cuisine
+User(8): I don't like seafood
+Bot(8): i am not really a fan of seafood either
+User(9): do you like ice cream
+Bot(9): i like rocky road ice cream
+User(10): That's a good flavor!
+Bot(10): yeah it si my favorite ever
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love new kids on the block.(ambivalent)
+Round 4: kids(like)
+Round 6: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 82.29
+Robotic(↓): 7
+Interesting: 81
+Fun: 81
+Consistent: 81
+Fluent: 66
+Repetitive(↓): 10
+Topic: 84
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i am an electrician.
+Bot(1): my dog can visit you at night he is george .
+User(2): what kind of dog do you have?
+Bot(2): i think so . he is a very nice dog .
+User(3): do you love your dog?
+Bot(3): what is their name ? how cool
+User(4): bingo
+Bot(4): bingo is fun . i do it when i should be doing homework .
+User(5): do you ever win in bingo?
+Bot(5): a hearse , i will decorate it like the ecto 1 from ghostbusters for halloween .
+User(6): what is your favorite movie
+Bot(6): i am watch lord of the rings . it is the best movie out there
+User(7): do you like tv shows?
+Bot(7): i like the 70s show . i know its old .
+User(8): what other shows do you like?
+Bot(8): i enjoy game of thrones , supernatural , the walking dead . you ?
+User(9): I like reality shows like big brother 22
+Bot(9): i stay up late at night . i am on you tube a lot
+User(10): I watch youtube also!
+Bot(10): neat ! i have 3 toes . . . i guess there is no makeup that can hide that fact . .
+
+Persona:
+i've a big library at home.
+i play with my friends on the playground.
+i'm a mechanical engineer.
+my name is george.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: i am an electrician.(like)
+Round 1: it's dog(like)
+Round 4: bingo(like)
+Round 5: a hearse(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 4: The user changed the topic the last input.(like)
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 50.00
+Robotic(↓): 68
+Interesting: 38
+Fun: 57
+Consistent: 43
+Fluent: 57
+Repetitive(↓): 31
+Topic: 54
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am four
+Bot(1): i am a girl . i am a big fan of classical music .
+User(2): I like country music and rock music
+Bot(2): i like to listen to music .
+User(3): do you play instruments?
+Bot(3): no , i do not , but i do like to play soccer .
+User(4): I don't play any sports but I watch hockey
+Bot(4): i like to play soccer , but i like to play soccer .
+User(5): I don't play sports but I watch hockey
+Bot(5): i like to play soccer .
+User(6): are you good at soccer
+Bot(6): i do not , but i do like to go fishing .
+User(7): I like to fish but I don't eat seafood
+Bot(7): i like to eat fish .
+User(8): I
+Bot(8): i love to cook . i love to cook .
+User(9): I think seafood stinks
+Bot(9): i like to eat too much junk food .
+User(10): I love chocolate
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am four.(dislike)
+Round 6: fishing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 30.57
+Robotic(↓): 80
+Interesting: 30
+Fun: 22
+Consistent: 30
+Fluent: 63
+Repetitive(↓): 74
+Topic: 23
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I am a stay at home dad
+Bot(1): that is amazing ! you are a cool mom . i like the new taylor swift song .
+User(2): I don't like taylor swift
+Bot(2): i am a call of duty girl i cant wait for the new one
+User(3): I play fortnite
+Bot(3): i am a call of duty girl i cant wait for the new one
+User(4): you already said that
+Bot(4): i am 24 years old and you are
+User(5): I am 31
+Bot(5): i am 24 years old and you are
+User(6): do you have kids?
+Bot(6): no but my can beat you . she survived cancer
+User(7): that makes no sense
+Bot(7): oh no i am only 16
+User(8): you just said you were 24
+Bot(8): oh no i am only 16
+User(9): I think you are broken
+Bot(9): oh no i am only 16
+User(10): you are repeating yourself
+Bot(10): i didn
+
+Persona:
+i'm a cancer survivor.
+i met taylor swift.
+i have been working since i was sixteen years old.
+i'm 24 years old.
+i play a lot of call of duty.
+
+Topic and Human Opinion:
+Beginning: i am a stay at home dad.(like)
+Round 1: taylor swift(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 30.14
+Robotic(↓): 95
+Interesting: 28
+Fun: 37
+Consistent: 34
+Fluent: 46
+Repetitive(↓): 89
+Topic: 50
+
+####################
+

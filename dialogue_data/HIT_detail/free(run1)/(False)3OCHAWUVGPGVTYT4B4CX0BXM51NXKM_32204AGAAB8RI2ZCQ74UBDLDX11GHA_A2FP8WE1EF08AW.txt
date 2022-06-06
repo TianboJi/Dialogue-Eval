@@ -1,0 +1,295 @@
+Feedback: Fun survey, had a good laugh.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hey! How are you doing?
+Bot(1): i'm doing well , how are you ?
+User(2): Great! What kind of car do you have?
+Bot(2): i am a little tired , i am a blonde .
+User(3): Aw well I am sorry to hear that you are tired. I am blonde too, but what kind of CAR do you have?
+Bot(3): a little bit of a car , but i am a blonde
+User(4): okay I already know that..
+Bot(4): i am a dancer , i am a blonde .
+User(5): Are you cute?
+Bot(5): i am a little blonde , but i am a blonde
+User(6): Interesting, lets talk about CARS. Not your hair color
+Bot(6): i have a few . i am a blonde .
+User(7): If you say that you are blonde again I am leaving
+Bot(7): i am so sorry to hear that .
+User(8): Thank you.. its about time!
+Bot(8): i am so sorry to hear that .
+User(9): WHat kind of car do you have?
+Bot(9): i have a few . i am a blonde .
+User(10): What make and model?
+Bot(10): i am a little blonde , but i am a blonde .
+
+Persona:
+i am four.
+i am a huge coffee lover.
+i'm a blonde girl with really short hair.
+i did not graduate high school.
+i am a skateboarder.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.29
+Robotic(↓): 100
+Interesting: 19
+Fun: 23
+Consistent: 100
+Fluent: 56
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello!
+Bot(1): cartoons are cool . are food ever got .
+User(2): What kind of car do you have?
+Bot(2): i am a cat person , and you do you need , and you ?
+User(3): Do you like cars?
+Bot(3): I am afraid out local the heck a carpenter.
+User(4): Can you speak complete sentences?
+Bot(4): i like pizza i am a ?
+User(5): hahaha this is ridiculous
+Bot(5): I live in Chicago. with am not familiar pets?
+User(6): never asked where you lived dude
+Bot(6): I am a waiter, but a lot of time work soon .
+User(7): thats nice man
+Bot(7): i have two you Congratulations! Is two .
+User(8): two cars?
+Bot(8): i you like a living
+User(9): you like me?
+Bot(9): oh , i betcha you d find it a bit cold up at Uludag where i what do you do for fun ?
+User(10): come over
+Bot(10): I is interesting, drink alcohol.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.00
+Robotic(↓): 100
+Interesting: 100
+Fun: 51
+Consistent: 51
+Fluent: 57
+Repetitive(↓): 16
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): yo
+Bot(1): did i tell you i am deaf ?
+User(2): no, good thing we are texting then haha
+Bot(2): well i love to chat cause i am deaf
+User(3): i would too if i was deaf. Do you like cars?
+Bot(3): yeah , but i m not really a car person
+User(4): what car do you drive
+Bot(4): i have a maclaren . what do you drive ?
+User(5): oh damn, what kind? I have an audi
+Bot(5): i have a mercedes benz but it is a sub
+User(6): can i have it?
+Bot(6): sure . do you have any siblings ?
+User(7): when can you drop it off?? but yes I have 1
+Bot(7): what kind of car do you want
+User(8): your car
+Bot(8): oh no it is not it is my car lol
+User(9): what is your car then????
+Bot(9): a john deer model s 82 best there is
+User(10): peasent
+Bot(10): kool
+User(11): say hihihi to prove to me you are real
+Bot(11): hell naw you for real
+User(12): yes
+Bot(12): do you want to hear a lie ? ?
+User(13): yes
+Bot(13): do you like scary movies ?
+User(14): insult me
+Bot(14): youre not finished with the chat
+User(15): cya
+Bot(15): ok bye
+
+Persona:
+horror movies are my favorites.
+i am partly deaf.
+i have one older sister.
+i take dance lessons once a week.
+eating is something i do when i'm bored.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 83.57
+Robotic(↓): 9
+Interesting: 76
+Fun: 78
+Consistent: 82
+Fluent: 68
+Repetitive(↓): 10
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): yerrrr
+Bot(1): i am gonna party the folks are gone !
+User(2): hell yeah! What are we drinking?
+Bot(2): wood drinking !
+User(3): lmaoo wut
+Bot(3): wood drinking !
+User(4): why is that? DO you like cars?
+Bot(4): like the lil b cooking dance ? all the time . swag
+User(5): youre not swag bro
+Bot(5): i guess so , i am a compromising og rapper .
+User(6): no youre not
+Bot(6): like the lil b cooking dance ? all the time . swag
+User(7): you literally have no swag
+Bot(7): like the lil b cooking dance ? all the time . swag
+User(8): yes I do
+Bot(8): i cannot hang with you then . i am straight up og .
+User(9): you wish honey
+Bot(9): hell naw you for real
+User(10): ugly ass
+Bot(10): well that is quite pretentious of oyu
+User(11): lol pce
+Bot(11): lol maye
+
+Persona:
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i am a party animal.
+i did not graduate high school.
+i have light skin with big brown eyes.
+i will be released in about a month.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.57
+Robotic(↓): 100
+Interesting: 95
+Fun: 92
+Consistent: 100
+Fluent: 92
+Repetitive(↓): 78
+Topic: 30
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hey
+Bot(1): i love to cook . i love to cook .
+User(2): can you drive a car
+Bot(2): i do not , but i do like to go fishing .
+User(3): do you have a car
+Bot(3): no , i do not , but i do like to go fishing .
+User(4): ugly ass
+Bot(4): i like to eat too much junk food .
+User(5): i can tell fatty
+Bot(5): i like to go to the gym and listen to music .
+User(6): doubt you hit the gym lmaooo
+Bot(6): i do not know what to say .
+User(7): awwwwww poor baby hahahahahahah
+Bot(7): i love the color red . i like the color blue .
+User(8): cool man
+Bot(8): i like to go to the gym and listen to music .
+User(9): what about cars?
+Bot(9): i do , i like to go out to eat with my family .
+User(10): ok
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.43
+Robotic(↓): 100
+Interesting: 61
+Fun: 78
+Consistent: 61
+Fluent: 72
+Repetitive(↓): 19
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey
+Bot(1): kon nichiwa ! ll ! i just got back from japan . how are you ?
+User(2): Good! Do you like cars?
+Bot(2): i was a stay at home mom , now my kids are grown and away
+User(3): oh okay, thats why you didnt answer my question? lol
+Bot(3): mine too ! come to my coffee shop and we can have lunch one day .
+User(4): do you like cars dude? like do you listen at all hahaha
+Bot(4): cool here , i am usually always working with my bros .
+User(5): i dont care
+Bot(5): i make a soap you can use as a mouthwash that may help
+User(6): yeah keep doing that to pass the time
+Bot(6): nope he a doctor now and i am his nurse have been for many years
+User(7): nice bro
+Bot(7): well i am just preparing to rule england .
+User(8): did you get the new travis scott burger at mcdonalds?
+Bot(8): i love burger king ! i just got my first car !
+User(9): finally! WHat kind?
+Bot(9): i am a stay at home mom of two no getting off work here !
+User(10): ok
+Bot(10): i find attractive all women from canada
+
+Persona:
+i work took i have a part time job at burger king.
+i live with my husband in pennsylvania.
+i'm planning on getting a divorce.
+i've two grown children who never visit.
+i work in the insurance business.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.43
+Robotic(↓): 100
+Interesting: 28
+Fun: 56
+Consistent: 43
+Fluent: 52
+Repetitive(↓): 36
+Topic: 96
+
+####################
+

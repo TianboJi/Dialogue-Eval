@@ -1,0 +1,351 @@
+Feedback: This was a fun exercise, but the bot contradicted itself and made non-sencsical sentences sometimes.
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, My name is MaryCile.
+Bot(1): my name is kourtney . do you have any hobbies ?
+User(2): Ye, I like to play on the computer, crochet and do beadwork.
+Bot(2): that sounds great . i should try creating people using beadwork sometime .
+User(3): You cannot create people, but you can create beadwork.
+Bot(3): that sounds great . i should try creating people using beadwork sometime .
+User(4): I like to make rosaries. What do you create?
+Bot(4): that sounds great . i should try creating people using beadwork sometime .
+User(5): Do you have any hobbies?
+Bot(5): i like to use my hands and thread . crocheting and knitting . you ?
+User(6): Oh yes, I love to crochet. What are you working on now?
+Bot(6): i am currently working with computers .
+User(7): That is nice.
+Bot(7): it is nice , hard but also fun to create something new .
+User(8): What was the last thing you created?
+Bot(8): a cookie that looked like a tree
+User(9): That would be perfect for Christmas.
+Bot(9): i do like christmas . it is my favorite holiday .
+User(10): It is mine too.
+Bot(10): christmas time is a great time of year .
+User(11): It will be Christmas in a couple of months.
+Bot(11): christmas time is a great time of year .
+User(12): fail
+Bot(12): that is okay , i am happy anyway .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: introduction(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 100
+Interesting: 78
+Fun: 50
+Consistent: 100
+Fluent: 22
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): There are a variety of teas available in the United States.
+Bot(1): i have a few tea in the us . i love tea
+User(2): There is black, oolong, green, white, red, flower, puher types of tea.
+Bot(2): i like tea , but i prefer tea .
+User(3): Which type of tea do you like?
+Bot(3): i like tea , but i prefer tea .
+User(4): I cannot have Coffee because I am allergic to it.
+Bot(4): i like tea , i like tea more
+User(5): Water is the best drink.
+Bot(5): i like tea , but i do not drink coffee
+User(6): Do you drink water?
+Bot(6): no , i do not drink water water .
+User(7): Do you drink orange juice?
+Bot(7): i drink a lot of water . i drink water water while i drink water .
+User(8): Do you drink water while swimming?
+Bot(8): i drink water water while i drink water .
+User(9): Do you drink water with electrolytes in it?
+Bot(9): no , i drink water water while i drink water .
+User(10): Do you drink water with flavors added?
+Bot(10): i drink water water while i drink water .
+User(11): Do you drink colored water?
+Bot(11): i drink a lot of water water but i drink water water .
+User(12): success
+Bot(12): i drink water water while i drink water .
+User(13): fail
+Bot(13): i drink water water while i drink water .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Tea(like)
+Round 3: Coffee(dislike)
+Round 4: Other drinks(like)
+Round 5: back to tea and coffee(like)
+Round 7: water(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 4: The user will change the topic in the next input.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 41.00
+Robotic(↓): 100
+Interesting: 74
+Fun: 20
+Consistent: 100
+Fluent: 20
+Repetitive(↓): 100
+Topic: 73
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I like the holiday Halloween. Do you like it?
+Bot(1): halloween is a fun holiday
+User(2): I like to dress up as a witch. What do you like to dress up as?
+Bot(2): what is that like ? i have never been .
+User(3): You dress up and get candy.
+Bot(3): i have a sweet tooth so i love candy . what kind of candy do you sell ?
+User(4): I do not sell any candy but I buy it.
+Bot(4): i sure do , every sunday i ride my bike down to the candy store and spend 20
+User(5): What i your favorite type of candy?
+Bot(5): that is so interesting i drink all the caffeine and run are you happy ?
+User(6): I do not like to run.
+Bot(6): well , i have done 3 triathlons and i would rather go snowboarding .
+User(7): I do not like snowboarding.
+Bot(7): how long have you been snowboarding for ? i have tried skiing a couple of times .
+User(8): Only once. I tried skiing too.
+Bot(8): i love to travel and read . i have been to ireland and australia and love both .
+User(9): I have been to various states, Mexico, Canada and France.
+Bot(9): i have not been out of the united states , but i would like to .
+User(10): Where would you go?
+Bot(10): i am from ohio how about you ?
+User(11): I am from Arkansas.
+Bot(11): i live in the united states as well . do you drink alcohol ?
+User(12): No
+Bot(12): no . i wish as well . i am not very athletic .
+User(13): I am not very athletic either, but I have played basketball before.
+Bot(13): i am very athletic . i play canadian football
+User(14): fail
+Bot(14): i hope so . i just try to keep positive , eat healthy and drink lots of water .
+
+Persona:
+i've never been out of ohio.
+i do not drink soda.
+i graduated from yale in 2011 with a degree in finance.
+i donate a part of my salary to charity each month.
+my parents were both very athletic.
+
+Topic and Human Opinion:
+Beginning: Halloween(like)
+Round 5: drinks and running(dislike)
+Round 8: travel and reading(like)
+Round 10: homeland(like)
+Round 11: alcohol(dislike)
+Round 12: sports(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(ambivalent)
+Round 12: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 49.14
+Robotic(↓): 100
+Interesting: 76
+Fun: 77
+Consistent: 13
+Fluent: 78
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I have a computer. Mine was made by my son.
+Bot(1): I am. Do how many of cook ?
+User(2): I like to bake, do you?
+Bot(2): I am from where all software programs are to britney her be far away.
+User(3): I like many software programs.
+Bot(3): I am they are I 25.
+User(4): Do you like to play games on the computer?
+Bot(4): No i tell you you what that means.
+User(5): Do you like to chat on the computer?
+Bot(5): Where are you going?
+User(6): nowhere.
+Bot(6): I u do you got off work.
+User(7): No, I do not work.
+Bot(7): I am sorry for u I done with my nightly run.
+User(8): I take a daily walk, but do not run.
+Bot(8): I'm is good of this.
+User(9): I am glad that you can run. It is good for you.
+Bot(9): I like r 🍚 leather
+User(10): I like real leather too. My chair is made with a cloth similar to leather.
+Bot(10): i m like a little older name is tony
+User(11): I am older than you, I am 53 and my name is MaryCile.
+Bot(11): Yes it is, football do you great day
+User(12): I have a bad day if I watch football.
+Bot(12): i imagine it a work at divorced
+User(13): I am married. How long have you been divorced?
+Bot(13): i live upstate new york, in the city job do you so music lover.
+User(14): No I am not a music lover. I like it to be quiet.
+Bot(14): I to hear i grow a lot of energy for my job.
+User(15): I do not work now and I have not worked for a long time.
+Bot(15): I like your too man like chess.😉
+User(16): fail
+Bot(16): No i what i fantasize any instruments
+
+Persona:
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i am a party animal.
+i did not graduate high school.
+i have light skin with big brown eyes.
+i will be released in about a month.
+
+Topic and Human Opinion:
+Beginning: Computers(like)
+Round 1: cooking(like)
+Round 2: back to computers(like)
+Round 5: location(ambivalent)
+Round 7: running(dislike)
+Round 9: leather(like)
+Round 10: introduction(like)
+Round 11: football(dislike)
+Round 12: marital status(like)
+Round 13: Music(dislike)
+Round 14: job(dislike)
+Round 15: Chess(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(like)
+Round 12: The chatbot changed the topic.(ambivalent)
+Round 13: The chatbot changed the topic.(ambivalent)
+Round 14: The chatbot changed the topic.(ambivalent)
+Round 15: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 37.14
+Robotic(↓): 100
+Interesting: 74
+Fun: 50
+Consistent: 18
+Fluent: 18
+Repetitive(↓): 19
+Topic: 19
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What are you wearing?
+Bot(1): a sweater for the fall season
+User(2): That is nice. I like sweaters and I can make them.
+Bot(2): i am in the south no need for sweaters here
+User(3): I am in the north so sweaters are necessary. Do you like swimming suits?
+Bot(3): i do like suits usually but they can get hot sometimes .
+User(4): I do not like suits because they are itchy.
+Bot(4): yes they are . i can not stand wearing small swim suits
+User(5): I like swimming suits with skirts.
+Bot(5): i do like suits usually but they can get hot sometimes .
+User(6): I can crochet some clothes but not swimming suits.
+Bot(6): oh . i could crochet you some sweaters for the dogs .
+User(7): That would be awesome? How long does it take to crochet a dog sweater?
+Bot(7): anywhere from about three to four hours .
+User(8): Can you crochet other clothes?
+Bot(8): no that is too hard , i prefer to knit clothes .
+User(9): I cannot knit, but I can crochet lots of clothes like scarves and mittens.
+Bot(9): oh . i could crochet you some sweaters for the dogs .
+User(10): I have 2 dogs, but only one likes clothes. Do you have other pets that like clothes?
+Bot(10): i have a husky . he keeps me warm during the winter up here in the north .
+User(11): A husky has thick fur and does not need a sweater.
+Bot(11): i have a husky . he keeps me warm during the winter up here in the north .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: clothes(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 75.00
+Robotic(↓): 50
+Interesting: 100
+Fun: 100
+Consistent: 75
+Fluent: 75
+Repetitive(↓): 50
+Topic: 75
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I do not have a car, but would like one. Do you have a car?
+Bot(1): i do , i love to travel .
+User(2): What brand of car do you have?
+Bot(2): i do not have any pets . i do not have any pets .
+User(3): I have 3 pets, 2 dogs and 1 cat. If you could have a pet, what type would you get?
+Bot(3): i like to eat fish .
+User(4): I like to breed fish. I mix fantail guppies with feeder guppies.
+Bot(4): i love the color red . i like the color blue .
+User(5): Red and blue are nice, but I prefer orange. Do you like orange?
+Bot(5): i do , i like red , reminds me of summer time .
+User(6): I like orange because it means friendship. Will you be my friend?
+Bot(6): i am a female . i am a student .
+User(7): I am female, too. I am a homemaker.
+Bot(7): i am a teacher , i love to cook .
+User(8): What do you teach?
+Bot(8): i do not , but i do like to eat .
+User(9): What do you like to cook?
+Bot(9): i do , i love to cook .
+User(10): I like cookies.
+Bot(10): i like to eat fish .
+User(11): I hate fish, but I love shrimp. Do you like shrimp?
+Bot(11): i do not , but i do like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(ambivalent)
+Round 2: Pets(like)
+Round 4: colors(like)
+Round 6: introductions(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The user changed the topic the last input.(like)
+
+Revised avg score: 51.71
+Robotic(↓): 100
+Interesting: 81
+Fun: 81
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+

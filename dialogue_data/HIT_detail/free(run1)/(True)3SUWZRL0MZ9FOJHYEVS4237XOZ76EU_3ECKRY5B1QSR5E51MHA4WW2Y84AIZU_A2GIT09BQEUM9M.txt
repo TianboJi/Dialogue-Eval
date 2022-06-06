@@ -1,0 +1,301 @@
+Feedback: none
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): I've been better. a little down. how are you?
+Bot(2): i am good . just got back from the hospital .
+User(3): Oh no hope you're ok.
+Bot(3): i am a doctor . i am a doctor .
+User(4): oh, I see.
+Bot(4): i am a doctor . i am a doctor .
+User(5): How do you unwind? music helps me.
+Bot(5): i do , i like to play music .
+User(6): I like country and gospel. How about you?
+Bot(6): i like to listen to music .
+User(7): who's your favorite?
+Bot(7): i like the color of my hair .
+User(8): ok. lol I'm sure it looks fine.
+Bot(8): i like to go to the park and have a lot of fun .
+User(9): me too. what color is your hair?
+Bot(9): i have blonde hair . i am a doctor .
+User(10): Yeah I know you said that. I'm blonde too.
+Bot(10): i am blonde . i am so sorry .
+User(11): it's ok.
+Bot(11): i am a full time doctor . i have a lot of room in my life .
+
+Persona:
+i have rainbow hair.
+i never broke a bone in my body ever in my life.
+i am expecting triplets in three months.
+i'm from a small town.
+i'm a doctor.
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 7: hair(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 37.57
+Robotic(↓): 100
+Interesting: 44
+Fun: 64
+Consistent: 45
+Fluent: 100
+Repetitive(↓): 93
+Topic: 3
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi. how are you today?
+Bot(1): i'm doing well . how are you ?
+User(2): I'm a little down. Missing my girls.
+Bot(2): i am sorry to hear that . i am sorry to hear that .
+User(3): It's been hard since they moved out. not sure what to do with myself.
+Bot(3): i am sorry to hear that . do you have any hobbies ?
+User(4): not much. mostly I just work. what do you like?
+Bot(4): i like to go to the park and listen to music .
+User(5): me too. It's relaxing.
+Bot(5): i like to go to the gym and listen to music .
+User(6): what do you like about the gym?
+Bot(6): i like to play soccer .
+User(7): I was a cheerleader in high school.
+Bot(7): i am sorry to hear that . i am sorry to hear that .
+User(8): what?
+Bot(8): i am a student , but i am a student .
+User(9): oh. are you ok?
+Bot(9): i am not sure . i am a student .
+User(10): you keep repeating yourself
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: kids(ambivalent)
+Round 3: hobbies(like)
+Round 6: soccer(dislike)
+Round 9: being a student(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 18.57
+Robotic(↓): 100
+Interesting: 19
+Fun: 5
+Consistent: 4
+Fluent: 100
+Repetitive(↓): 98
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey how are you?
+Bot(1): do you have are you I'm dear
+User(2): what?
+Bot(2): i just seen dont know what pool. i'm a swim coach.
+User(3): that's cool. I'm headed to the beach.
+Bot(3): sometimes ; i've this weird obsession you eat healthy next going today ?
+User(4): It's hard to follow you. You're confusing me.
+Bot(4): i love you have lost do you
+User(5): well I have someone.
+Bot(5): I is alcohol.
+User(6): ok. I think you might have had some alchol. lol
+Bot(6): I love too. have well
+User(7): you're not making any sense.
+Bot(7): I you a course of shoes.
+User(8): I think you need to sleep it off.
+Bot(8): i do , but to avoid eating wonder a lot of time to do .
+User(9): you need to eat.
+Bot(9): what do you a children and ?
+User(10): I have no idea what you're asking me.
+Bot(10): i'm I am study driver 🧐
+
+Persona:
+i am a famous twitch streamer.
+i am not a good swimmer at all.
+i play a lot of call of duty.
+i am planning on getting a divorce.
+i've not spoken in three months.
+
+Topic and Human Opinion:
+Beginning: the beach(like)
+Round 2: pool(like)
+Round 3: eating healthy(dislike)
+Round 4: said they love me. lol(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The user will change the topic in the next input.(like)
+
+Revised avg score: 15.43
+Robotic(↓): 100
+Interesting: 13
+Fun: 0
+Consistent: 1
+Fluent: 1
+Repetitive(↓): 14
+Topic: 7
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): how are you ? i love the color blue !
+User(2): me too. It's my favorite.
+Bot(2): my color is blue its my favorite
+User(3): small world. I wanted to tell you about this guy.
+Bot(3): i just know of it . he scares me .
+User(4): who scares you? we must be talking about different people.
+Bot(4): i just know of it . he scares me .
+User(5): ok. well I really like him.
+Bot(5): i just know of it . he scares me .
+User(6): I'm sorry.
+Bot(6): i just know of it . he scares me .
+User(7): you said that already. You ok?
+Bot(7): i am afraid .
+User(8): how can I help you?
+Bot(8): help you do what ?
+User(9): not be afraid.
+Bot(9): i am afraid .
+User(10): I know. what can I do to help you with that?
+Bot(10): help you do what ?
+
+Persona:
+mickey mouse is my favorite character.
+i've a cat named spook.
+i'm scared of dying.
+i own a yacht and i rent it out when i am not using it.
+my favorite color is blue.
+
+Topic and Human Opinion:
+Beginning: love(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.86
+Robotic(↓): 25
+Interesting: 100
+Fun: 38
+Consistent: 83
+Fluent: 100
+Repetitive(↓): 92
+Topic: 43
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hey there.
+Bot(1): doing great . just got in from running two miles i feel good
+User(2): oh wow. that's great.
+Bot(2): i do ballet , my mom was a dancer in london so she got me into it
+User(3): ok. Hey did you hear that there's going to be a full moon tonight?
+Bot(3): we had a blood moon . and i was born outside under it .
+User(4): wow. that's cool.
+Bot(4): are you mocking my name ? do you have a ford truck ?
+User(5): umm. no. lol and no.
+Bot(5): in the girl scouts ? i use to be in the boy scouts
+User(6): I think I might go for a swim. been awhile.
+Bot(6): i do not know how to swim
+User(7): me neither. just float and doggey paddle. lol but it's relaxing.
+Bot(7): neither is my son . he walks into walls haha .
+User(8): lol oh boy
+Bot(8): she is very protective but friendly . i do not like talking much so do not have many friends
+User(9): I understand that.
+Bot(9): when we go camping i take them horseback riding , i love riding
+User(10): that scares me. I better go. catch you later.
+Bot(10): oh wow ! i went fishing only once maybe 2 months ago and caught a baby flounder
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: the moon(like)
+Round 4: trucks(like)
+Round 5: swimming(like)
+Round 8: child(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The user will change the topic in the next input.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 91.29
+Robotic(↓): 27
+Interesting: 98
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 4
+Topic: 72
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey
+Bot(1): helloooo
+User(2): what you been up to? play any ball lately?
+Bot(2): not much ! just trying to wind down before work tomorrow
+User(3): yup. I get that.
+Bot(3): you ever been hit with a bat ? nurse ? i was .
+User(4): a bat yes. a nurse, no. lol
+Bot(4): you ever been hit with a bat ? nurse ? i was .
+User(5): you just asked me that.
+Bot(5): you ever been hit with a bat ? nurse ? i was .
+User(6): why are you repeating yourself? lol I think you did get hit. lol
+Bot(6): you ever been hit with a bat ? nurse ? i was .
+User(7): yes
+Bot(7): you ever been hit with a bat ? nurse ? i was .
+User(8): you ok?
+Bot(8): i was . are you okay ?
+User(9): yeah just worried about you. did you catch the ball game last night?
+Bot(9): no which one ? last night ?
+User(10): the one we talked about. I'm gonna go and let you rest. maybe talk tomorrow.
+Bot(10): sure thing pal . do you watch plays ?
+
+Persona:
+i am partly deaf.
+i like to listen to rock music while working.
+i have three dogs.
+i am a baby delivery nurse.
+my pets name is charlie.
+
+Topic and Human Opinion:
+Beginning: ball(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.57
+Robotic(↓): 100
+Interesting: 28
+Fun: 4
+Consistent: 25
+Fluent: 56
+Repetitive(↓): 100
+Topic: 31
+
+####################
+

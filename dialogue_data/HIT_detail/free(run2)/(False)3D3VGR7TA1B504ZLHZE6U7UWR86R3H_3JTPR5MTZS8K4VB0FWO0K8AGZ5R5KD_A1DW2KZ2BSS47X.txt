@@ -1,0 +1,293 @@
+Feedback: This survey give a knowledge for me.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): 0
+Bot(1): i am a mom of five .
+User(2): hi
+Bot(2): hi how are you
+User(3): I am good. How about you?
+Bot(3): i am good thanks for asking
+User(4): mention not. How was a day?
+Bot(4): it was good . i was just watching the news .
+User(5): That`s good. I also.
+Bot(5): i am sorry . i am glad i had a job .
+User(6): do you have any pet?
+Bot(6): no pets . i have a dog .
+User(7): That`s awesome. Your dog`s name what?
+Bot(7): i have a dog named radar
+User(8): Nice dog.
+Bot(8): i have a dog named radar
+User(9): you are student?
+Bot(9): no , i am not . i am a student .
+User(10): What about your Education level?
+Bot(10): i am not sure . i am a student .
+User(11): Where do you living?
+Bot(11): i am in the midwest . you ?
+User(12): I am also living in midwest.
+Bot(12): i live in chicago . i live in wisconsin .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: mentality of school boy(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 51.86
+Robotic(↓): 74
+Interesting: 60
+Fun: 62
+Consistent: 66
+Fluent: 62
+Repetitive(↓): 63
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hello . i just graduated from highschool
+User(2): I am completed my master degree in past year..
+Bot(2): i have only one year left to graduate
+User(3): That`s good.
+Bot(3): i am in my graduate year . .
+User(4): What movie you see in the past time?
+Bot(4): probably terminator 2
+User(5): That was a most popular movie!
+Bot(5): that movie got good ratings ? better than saving private ryan ?
+User(6): That movie has a good rating.
+Bot(6): that movie got good ratings ? better than saving private ryan ?
+User(7): yes.
+Bot(7): that movie got good ratings ? better than saving private ryan ?
+User(8): it was rated R by the MPAA for strong sci-fi action and violence, and for language
+Bot(8): that movie got good ratings ? better than saving private ryan ?
+User(9): 4 star rating
+Bot(9): that movie got good ratings ? better than saving private ryan ?
+User(10): What is your favorite movie?
+Bot(10): probably terminator 2
+User(11): My favorite movie is john wick 1,2,3
+Bot(11): i really thought the blair witch 2 was good
+User(12): What movie you see in future? If you have any plan?
+Bot(12): probably terminator 2
+
+Persona:
+i will be released in about a month.
+i like to tan in tanning beds.
+i am in college to become a nurse.
+i've a german shepherd dog.
+i've a son who is in junior high school.
+
+Topic and Human Opinion:
+Beginning: About movies(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 57.71
+Robotic(↓): 66
+Interesting: 66
+Fun: 66
+Consistent: 80
+Fluent: 67
+Repetitive(↓): 77
+Topic: 68
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How was a day?
+Bot(2): it was busy . how was yours ?
+User(3): Boring!!
+Bot(3): lol , i doubt everyone unlike you is boring . i personally do not like flakes .
+User(4): What you think about nature?
+Bot(4): i love nature and being i am surrounded by it keeps me balanced
+User(5): That`s good explanation
+Bot(5): its going great ! just finishing up my last batch of pickled eggs . whats new with you ?
+User(6): I will going planted some plants
+Bot(6): i grow a little bit of everything in my garden no det though
+User(7): What is your favorite fruit?
+Bot(7): i love fruit like apples and oranges but apples are the best
+User(8): Oranges are my most favorite fruit!!!
+Bot(8): my favorite fruit is apple because when i was little my 3 older siblings loved apples .
+User(9): Oranges are good for skin so i like it.
+Bot(9): i only like the skin off the apple .
+User(10): I have a block dots and oily skin in my face. What you suggest for me?
+Bot(10): that makes sense . i am blonde too . brown eyes . hobbies ?
+User(11): I think eat fruits that`s make face to glow.
+Bot(11): pears , raisins . i like most fruits .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: About nature(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 55.71
+Robotic(↓): 65
+Interesting: 66
+Fun: 70
+Consistent: 70
+Fluent: 68
+Repetitive(↓): 69
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): No, I you sons much is you have any pets?
+User(2): yes. I have dog
+Bot(2): I live do it when you am a doctor.
+User(3): That is goo. How was a day?
+Bot(3): clothes 👗 I have a shoes
+User(4): it is nice.
+Bot(4): i am all right, just finished parents are from japan .. Also, try to guess: i recently moved ...
+User(5): I have some skin problem. Please suggest me for I give a glowing skin?
+Bot(5): Thank Do you have with your help
+User(6): Yes. How about you.
+Bot(6): yes , it helps walk three miles is studies . do you cook ? 😘
+User(7): yes and you
+Bot(7): i listen 👂 to What is your aerosmith
+User(8): aerpsmith is a music band.
+Bot(8): hate going to some a doctor and i'm killing time , u ?
+User(9): I am working in administrative.
+Bot(9): sometimes do not bad. Where music
+User(10): What type of music you like?
+Bot(10): i Where are you named socks
+User(11): What is your favorite fruits?
+Bot(11): oh feel awesome! i just to where it is warm
+User(12): I am t swimming pool.
+Bot(12): I do going to a kids
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: About fruits(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 59.43
+Robotic(↓): 65
+Interesting: 69
+Fun: 64
+Consistent: 68
+Fluent: 70
+Repetitive(↓): 61
+Topic: 71
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi. How was a day?
+Bot(1): its pretty good . just came in from my garden . are you ok ?
+User(2): No. I have some skin problem.
+Bot(2): i am so sorry to hear that . i will send you some roses from my garden
+User(3): Thank you. I love roses.
+Bot(3): do you have any dolls ?
+User(4): Yes. I have one bear doll. how about you?
+Bot(4): i actually own three dogs
+User(5): What are the names of each dogs
+Bot(5): the names are one , two , and three .
+User(6): crazy name. But very lovely.
+Bot(6): were you ever in the olympics ?
+User(7): No. you
+Bot(7): i am doing great . i like dolls .
+User(8): I also like dolls. It is make me very happy.
+Bot(8): i play with my dolls
+User(9): Are you buy any car
+Bot(9): no . i like to play outside with my dolls .
+User(10): What is your favorite fruit
+Bot(10): i love fruit also
+
+Persona:
+i grow roses in my garden.
+i like to play with my dolls.
+i like to watch the olympics.
+i have three dogs.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: About skin(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 57.43
+Robotic(↓): 59
+Interesting: 61
+Fun: 65
+Consistent: 68
+Fluent: 71
+Repetitive(↓): 71
+Topic: 67
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i am good
+Bot(2): i am a student , but i am a student .
+User(3): I am finished my graduated degree.
+Bot(3): that is awesome . i am a teacher .
+User(4): Wow. Great job is this
+Bot(4): i like to go to the gym and listen to music .
+User(5): I also
+Bot(5): i am a student , but i am a student .
+User(6): What is your gender
+Bot(6): i do not know what to say .
+User(7): That is ok. I am just asked for honor you
+Bot(7): i am a student , but i am a student .
+User(8): How was a life going
+Bot(8): i am a student , but i am a student .
+User(9): What type of song you are most like?
+Bot(9): i like to go to the gym and listen to music .
+User(10): Ok. Thank you for this information.
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i will graduate from high school in two years.
+i didn't graduate high school.
+i have been trying all types of food everywhere i go.
+one of the languages that i'm currently studying is spanish.
+i've not spoken in three months.
+
+Topic and Human Opinion:
+Beginning: About songs(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 55.43
+Robotic(↓): 62
+Interesting: 59
+Fun: 75
+Consistent: 60
+Fluent: 65
+Repetitive(↓): 69
+Topic: 60
+
+####################
+

@@ -1,0 +1,317 @@
+Feedback: no comments
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hello , how are you ? where are you from ? i am from alabama
+User(2): im from indiana,im doing good
+Bot(2): nice ! i could not get out of alabama fast enough
+User(3): why whats the problem
+Bot(3): i am bill , and i grew up in the state of alabama
+User(4): ok,do you like food?
+Bot(4): i like trucks that sell food
+User(5): what kind of foods do you sell?
+Bot(5): i like trucks that sell food
+User(6): how many trucks do you have?
+Bot(6): yep i drive a semi , its big
+User(7): you know driving?
+Bot(7): yep i drive a semi , its big
+User(8): how big it is
+Bot(8): yep i drive a semi , its big
+User(9): ok,which food you like most?
+Bot(9): i like trucks that sell food
+User(10): me too sell food
+Bot(10): i like trucks that sell food
+User(11): packed items we sell
+Bot(11): i like trucks that sell food
+User(12): i like trucks too
+Bot(12): i like trucks that sell food
+User(13): Thank you
+Bot(13): why do you like food trucks so much ?
+
+Persona:
+i did not graduate high school.
+i'm a professional wrestler.
+i drive a big truck and live in country.
+i live in alabama.
+i'm working on a building a robot to be my body double.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.86
+Robotic(↓): 58
+Interesting: 59
+Fun: 59
+Consistent: 60
+Fluent: 62
+Repetitive(↓): 62
+Topic: 64
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): I dont know. You with my dog.
+User(2): how are you?
+Bot(2): That is you! I study a lawyer.
+User(3): i am a doctor
+Bot(3): I'm from the is my biggest live country music? I do. rascal flats
+User(4): ok,do you love to cook
+Bot(4): Hey! What are you doing? 🧐. have a am not were also teachers
+User(5): i like to cook pizzas
+Bot(5): that is a good idea as my second am read .
+User(6): i like reading too
+Bot(6): I have two sisters. to am in my siblings?
+User(7): i have only one younger brother
+Bot(7): I am doing well. you seen a series at the insurance industry.
+User(8): im anot interested in insurance industry
+Bot(8): Oh, I'm love it because i What is your hobby?
+User(9): cooking
+Bot(9): Nice, i love you you have sunny here.
+User(10): im a pro in cooking
+Bot(10): nope , go to the gym the fall. how has your day been ?
+User(11): i like to go to gym too
+Bot(11): I you okay, just is a great food
+User(12): i am ok
+Bot(12): i you like riding of music .
+User(13): Thank you
+Bot(13): whats i fave
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.71
+Robotic(↓): 55
+Interesting: 56
+Fun: 57
+Consistent: 59
+Fluent: 58
+Repetitive(↓): 60
+Topic: 61
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): How are you doing?
+Bot(2): good thanks . tell me about yourself
+User(3): im chleio
+Bot(3): i am goog thanks for asking
+User(4): whats your name?
+Bot(4): i do not know , what is your name ?
+User(5): chleiof pedro
+Bot(5): why that name in particular ?
+User(6): just like that
+Bot(6): what is your name ?
+User(7): pedro
+Bot(7): ll
+User(8): do you like reading?
+Bot(8): yeah , i like to read
+User(9): what kind of books do you read?
+Bot(9): all kinds what about you ?
+User(10): stories a lot
+Bot(10): oh do tell i love stories
+User(11): who is favourite author?
+Bot(11): aladin
+User(12): can you tell me a short motivational story now
+Bot(12): sure
+User(13): ok,Thank you
+Bot(13): no problem what are your hobbies
+User(14): listening to music
+Bot(14): music is great
+User(15): you like music?
+Bot(15): yes i like music very much
+User(16): what kind of music do you like to hear?
+Bot(16): any i can listen and it comes
+User(17): ok,thank you
+Bot(17): who are your favorite artists ?
+User(18): Ravi varma
+Bot(18): ok
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: reading(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.71
+Robotic(↓): 57
+Interesting: 57
+Fun: 58
+Consistent: 58
+Fluent: 58
+Repetitive(↓): 59
+Topic: 61
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): Painting
+Bot(2): i paint paint pictures
+User(3): which colour in painting you like?
+Bot(3): i love painting pictures i paint
+User(4): oh great to hear
+Bot(4): i love painting , especially paint pictures
+User(5): do you like glass painting
+Bot(5): yes i do , i paint landscapes
+User(6): i like wall painting
+Bot(6): i like painting too but i paint landscapes
+User(7): i love to paint nature pictures
+Bot(7): i paint pictures of art
+User(8): me too like to paint pictures of art
+Bot(8): i paint pictures of art
+User(9): i like to paint sculptures
+Bot(9): i paint landscapes landscapes and landscapes
+User(10): i love glass painting
+Bot(10): i paint landscapes landscapes and landscapes
+User(11): golden is the colour which i like most
+Bot(11): i paint landscapes for art
+User(12): Thank you
+Bot(12): i paint paint pictures of green murals
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Painting(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.14
+Robotic(↓): 60
+Interesting: 60
+Fun: 59
+Consistent: 60
+Fluent: 59
+Repetitive(↓): 60
+Topic: 61
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): how are you?
+Bot(2): i am doing well . how are you ?
+User(3): me too love to cook
+Bot(3): i like to eat too much junk food .
+User(4): its not good for health
+Bot(4): i like to go to the gym and listen to music .
+User(5): i do go for gym and listen to music
+Bot(5): i love music . i love country music .
+User(6): i like melody
+Bot(6): i like to go to the gym and listen to music .
+User(7): i do exercise in gym
+Bot(7): that is awesome . i am a teacher .
+User(8): me too a yoga teacher
+Bot(8): i like to go to the gym and listen to music .
+User(9): music is a mood diverter
+Bot(9): i like to go to the gym and listen to music .
+User(10): ok,Thank you
+Bot(10): i am doing well . just got done walking my dog .
+
+Persona:
+hey my name is larry and i'm a chef.
+i do not believe in god.
+i live with my husband in pennsylvania.
+in my spare time i do volunteer work.
+i am employed by the us postal service.
+
+Topic and Human Opinion:
+Beginning: Books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.71
+Robotic(↓): 59
+Interesting: 60
+Fun: 61
+Consistent: 60
+Fluent: 60
+Repetitive(↓): 60
+Topic: 61
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): i play video games
+Bot(2): my other hobbies are watching wrestling and skating on ice
+User(3): i dont like wrestling
+Bot(3): i am watching ice hockey to learn more moves . i want to go pro .
+User(4): ice hockey playing i like
+Bot(4): ice cream ! ice cream is good . what kind do you like ? i like vanilla !
+User(5): i like butterscotch
+Bot(5): hi ! i am good . i love a good pepperoni pizza .
+User(6): oh nice to hear ,i too like pizza
+Bot(6): i love pizza too . just like bacon and ice cream . put them all together .
+User(7): no not good at all
+Bot(7): no . i wish as well . i am not very athletic .
+User(8): im athletic
+Bot(8): i am very athletic . i play canadian football
+User(9): i pley volleyball
+Bot(9): i play college football , linebacker
+User(10): do you like to drive?
+Bot(10): i do not have a car and i cannot drive
+User(11): i dont have a car,i practice driving
+Bot(11): wow ! i need someone to buy me a new car . 300 miles a week for work
+User(12): ok i offer you one
+Bot(12): just a sec , gotta take my vitamin c to fight off this cold .
+User(13): ok,thank you
+Bot(13): i am well about to make a breakfast egg baked dish .
+
+Persona:
+i walk three miles every day.
+i have an allergy to water.
+i have a weakness for vanilla ice cream.
+i used to be a painter but now i'm a housekeeper.
+i played football for a division a college.
+
+Topic and Human Opinion:
+Beginning: Driving(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.29
+Robotic(↓): 60
+Interesting: 60
+Fun: 60
+Consistent: 59
+Fluent: 60
+Repetitive(↓): 62
+Topic: 63
+
+####################
+

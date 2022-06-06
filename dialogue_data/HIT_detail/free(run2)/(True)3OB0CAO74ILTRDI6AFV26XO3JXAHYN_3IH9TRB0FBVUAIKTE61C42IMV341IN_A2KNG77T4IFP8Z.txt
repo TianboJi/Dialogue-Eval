@@ -1,0 +1,318 @@
+Feedback: All the bots struggled, but the final one was by far the best. 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you have a favorite football team?
+Bot(1): i like a lot of coffee do you drink coffee . no football used too .
+User(2): I prefer decaf, regular coffee makes me to hyper.
+Bot(2): i have never been a big coffee drinker iced or otherwise .
+User(3): What about as an ingredient? I like espresso in cakes and ice cream.
+Bot(3): just plain coffee for me . that is a bit worldly for me .
+User(4): So you do drink coffee? Hot or cold?
+Bot(4): used to drink coffee , now i just pound a liter of cold water
+User(5): Thats a lot of water. How fast can you drink it?
+Bot(5): used to drink coffee , now i just pound a liter of cold water
+User(6): I know you said that already. Why do you drink so much water?
+Bot(6): i drink water most of the time .
+User(7): Do you add any flavoring to it?
+Bot(7): no i drink just water .
+User(8): Do you get it from the tap or do you buy bottles?
+Bot(8): i think just from the store .
+User(9): It can get very expensive to buy it.
+Bot(9): i agree . how do you think you can cut back ? it is probably expensive .
+User(10): I don't buy it anymore. I just use a pitcher to filter tap water.
+Bot(10): someone once told me it dries out the beans .
+User(11): I don't eat beans.
+Bot(11): someone once told me it dries out the beans .
+
+Persona:
+eating is something i do when i am bored.
+i'm a huge coffee lover.
+two dogs live with me.
+i spend a lot of time browsing the internet.
+i fantasize about taking over the world.
+
+Topic and Human Opinion:
+Beginning: football(like)
+Round 1: coffee(ambivalent)
+Round 4: water(ambivalent)
+Round 10: dried out beans(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.43
+Robotic(↓): 100
+Interesting: 9
+Fun: 9
+Consistent: 16
+Fluent: 0
+Repetitive(↓): 61
+Topic: 28
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What are your favorite TV shows?
+Bot(1): i like the oldies , and the outdoors .
+User(2): Are there oldies tv shows?
+Bot(2): no , i do not . i like to go to the park .
+User(3): What do you do at the park?
+Bot(3): i love to go fishing . i love to go fishing .
+User(4): I love to fish! What do you fish for?
+Bot(4): i love to cook . i love to cook .
+User(5): I'm a good cook. I can cook a great steak.
+Bot(5): i love pizza , and i love it .
+User(6): What kind of pizza?
+Bot(6): i do not know . i like to eat .
+User(7): You don't know what kind of pizza you like?
+Bot(7): i like pizza , and pizza .
+User(8): Do you make your own? I just buy mine.
+Bot(8): i do not know what to say .
+User(9): Its okay to admit you just buy it. It can be expensive though.
+Bot(9): i do not know what to say .
+User(10): What would you like to talk about then?
+Bot(10): i would love to . i like to go out to eat with my family .
+
+Persona:
+i have been working since i was sixteen years old.
+i like to work on vintage cars.
+i like to workout a a times a week.
+i am a musician and hope to make it big some day.
+i'm a stay at home dad.
+
+Topic and Human Opinion:
+Beginning: tv(like)
+Round 2: parks(ambivalent)
+Round 3: fishing(like)
+Round 4: cooking(like)
+Round 10: going out to eat with family(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(dislike)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 17.43
+Robotic(↓): 100
+Interesting: 11
+Fun: 15
+Consistent: 7
+Fluent: 12
+Repetitive(↓): 50
+Topic: 27
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I loved playing baseball growing up.
+Bot(1): i play baseball and play baseball
+User(2): What position do you play?
+Bot(2): i play the guitar . i play the guitar .
+User(3): Electric or acoustic?
+Bot(3): i play guitar in a band .
+User(4): What kind of band? So you sing too?
+Bot(4): i play the bass in the band .
+User(5): My dad used to play the bass. Do you play any other instruments?
+Bot(5): no i don't . i play the drums .
+User(6): So you mean to say you do? I used to play the drums in the marching band.
+Bot(6): i play the drums . i play the drums .
+User(7): What kind of drum?
+Bot(7): i play bass guitar . i play drums .
+User(8): What kind of music do you play?
+Bot(8): drums . i play drums .
+User(9): They are a lot of fun to play.
+Bot(9): i play drums . i play drums .
+User(10): Have you played them for a long time?
+Bot(10): no , i play the drums .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+Round 2: guitar(dislike)
+Round 5: drums(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 13.14
+Robotic(↓): 100
+Interesting: 19
+Fun: 4
+Consistent: 30
+Fluent: 1
+Repetitive(↓): 71
+Topic: 9
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I'm trying to decide what car to buy?
+Bot(1): are you a mechanic ? i know nothing about cars .
+User(2): I'm not, but I've been trying to get better at working on them. I want to be able to fix them.
+Bot(2): that is a great skill . can you fix cars ?
+User(3): Some, it depends on what the problem is.
+Bot(3): you are a shoe salesman ? neat ! my dad used to do that with cars . haha .
+User(4): I never said I was a shoe salesman.
+Bot(4): i am a writer , i go to the beach and writer , when weather is okay
+User(5): What do you write?
+Bot(5): what do you like to write
+User(6): I don't really write much. I used to for school, but I haven't since then.
+Bot(6): do you write for a living or as a hobby
+User(7): I don't write.
+Bot(7): what do you like to write
+User(8): I don't like to write, so I don't.
+Bot(8): i am a writer for my local newspaper but i wish i did not work
+User(9): What would you like to do?
+Bot(9): i like to work an stay busy
+User(10): I thought you didn't like to work?
+Bot(10): its within walking distance to my apartment so its convenient mostly
+
+Persona:
+i have been working since i was sixteen years old.
+i like to work on vintage cars.
+i like to workout a a times a week.
+i am a musician and hope to make it big some day.
+i'm a stay at home dad.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+Round 3: shoe sales(dislike)
+Round 4: writing(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 20.43
+Robotic(↓): 92
+Interesting: 24
+Fun: 19
+Consistent: 22
+Fluent: 10
+Repetitive(↓): 66
+Topic: 26
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I'm so tired from the hike I went on today.
+Bot(1): it can be . do you enjoy movies like to kind of food love katt williams
+User(2): Who is Katt Williams?
+Bot(2): I am ! where do you love to draw
+User(3): I don't draw.
+Bot(3): No, I do you have any kids.
+User(4): I don't have any kids. I don't really like them.
+Bot(4): Hi, I am a mechanic. am constructor, do you tv.
+User(5): What do you work on?
+Bot(5): hi, i love to hike as in a slave you?
+User(6): Its so cathartic, just to be out in the nature.
+Bot(6): that sounds things just came is yours?
+User(7): I take my dog with me, and food. We just make a day of it.
+Bot(7): i like books on me watch too much number
+User(8): What books do you read?
+Bot(8): I fav colour travel.
+User(9): Where do you like to travel to?
+Bot(9): Hey! But yesterday I a lot?
+User(10): How are you doing today?
+Bot(10): i what is your and very unhappy
+
+Persona:
+i compete in dog agility classes.
+i have a black lab named trooper.
+i do not drink alcohol.
+i'm a stunt double as my second job.
+i do not like chicken.
+
+Topic and Human Opinion:
+Beginning: hiking(like)
+Round 1: movies and katt williams(dislike)
+Round 2: drawing(dislike)
+Round 3: kids(dislike)
+Round 4: mechanics and construction and tv(ambivalent)
+Round 5: hiking(like)
+Round 7: books(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 15.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 6
+Consistent: 5
+Fluent: 0
+Repetitive(↓): 5
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I'm so sad summer is over. I wish I could live at the beach all year long.
+Bot(1): me too , i wish i lived near the beach .
+User(2): Do you like the water or the sun? I like both.
+Bot(2): in fact i love both .
+User(3): I remember when I was a kid playing in the sand.
+Bot(3): toes in the sand is sure a wonderful way to spend the day .
+User(4): With a lovely picnic, it's the perfect day.
+Bot(4): toes in the sand is sure a wonderful way to spend the day .
+User(5): I'd love to own a beach house one day. Right on the water, with maybe a boat.
+Bot(5): i would love to live on a house boat . the water and beach are awesome .
+User(6): I rented a houseboat once, it was so nice.
+Bot(6): i would love to live on a house boat . the water and beach are awesome .
+User(7): It can be really busy and crowded though, and I don't like that.
+Bot(7): too crowded , and i do not find swimming in salt water enjoyable .
+User(8): It isn't quite as fun, especially with the bigger waves you tend to find on the ocean.
+Bot(8): too crowded , and i do not find swimming in salt water enjoyable .
+User(9): I like to find smaller beaches where there aren't as many people.
+Bot(9): too crowded , and i do not find swimming in salt water enjoyable .
+User(10): It can really dehydrate you quickly.
+Bot(10): too crowded , and i do not find swimming in salt water enjoyable .
+
+Persona:
+i'm currently in a juvenile detention center.
+they're constantly on my back.
+i love rollercoasters and sky diving.
+i'm a famous twitch streamer.
+i'm a musician.
+
+Topic and Human Opinion:
+Beginning: the beach(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.71
+Robotic(↓): 92
+Interesting: 50
+Fun: 56
+Consistent: 40
+Fluent: 18
+Repetitive(↓): 50
+Topic: 70
+
+####################
+

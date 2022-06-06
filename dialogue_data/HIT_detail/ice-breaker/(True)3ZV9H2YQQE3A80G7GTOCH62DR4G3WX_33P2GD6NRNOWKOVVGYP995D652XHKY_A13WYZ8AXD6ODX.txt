@@ -1,0 +1,288 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): good morning , am fed up of my brother
+User(2): why is that
+Bot(2): because i am autistic and stuf
+User(3): does he upset you
+Bot(3): yes a lot i think he is mad at me
+User(4): why is he mad
+Bot(4): because it seems humans are only there to annoy
+User(5): they can do other thing like be friendly
+Bot(5): why would they get annoyed
+User(6): maybe they are just tired
+Bot(6): why would they get annoyed
+User(7): they don't know how to act
+Bot(7): why would they get annoyed
+User(8): they are shallow
+Bot(8): yeah they are just spoiled
+User(9): maybe they need a friend
+Bot(9): i had a friend in my school
+User(10): that is nice
+Bot(10): i do not like my brother at all
+
+Persona:
+i am partly deaf.
+i have one brother.
+i am a professional tennis player.
+i work at a school.
+i enjoy being around people.
+
+Topic and Human Opinion:
+Beginning: i do not have many friends.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.14
+Robotic(↓): 100
+Interesting: 58
+Fun: 30
+Consistent: 34
+Fluent: 99
+Repetitive(↓): 100
+Topic: 60
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hello , how are you ?
+User(2): i just got fired
+Bot(2): hi , i am ok . i am 25 years old .
+User(3): are you male or female
+Bot(3): i am a female , i am 10 years old .
+User(4): i thought you were 25
+Bot(4): i am from the south . i am from the south .
+User(5): the deep south
+Bot(5): i am from north carolina .
+User(6): do you have a job
+Bot(6): i do not but i am only 10
+User(7): do you like the sauces there
+Bot(7): i do but i do not like to drink soda
+User(8): soda is bad for you
+Bot(8): i do not like to drink soda
+User(9): what do you like
+Bot(9): i like to drink soda and drink soda
+User(10): what kind of soda
+Bot(10): i like soda and soda
+
+Persona:
+i am 100 years old.
+i do not drink soda.
+my mom is coming to visit me tomorrow.
+i do not like chicken.
+my best friend lives next door.
+
+Topic and Human Opinion:
+Beginning: i recently was fired and had to get a new job.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 23
+Fluent: 100
+Repetitive(↓): 100
+Topic: 17
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): not so good
+Bot(2): i am a student , but i am a student .
+User(3): i am an electrician
+Bot(3): oh , i am sorry to hear that . do you have any hobbies ?
+User(4): playing video games
+Bot(4): i like to play soccer , but i like to play soccer .
+User(5): soccer is cool
+Bot(5): i like to go to the gym and listen to music .
+User(6): what kind of music
+Bot(6): i like country music . i love it .
+User(7): do you wear cowboy boots
+Bot(7): i do not , i like to eat .
+User(8): what do you eat
+Bot(8): i like to eat pizza .
+User(9): me too
+Bot(9): i like to go to the gym and listen to music .
+User(10): pumpin iron
+Bot(10): i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm an electrician.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 100
+Repetitive(↓): 89
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): no, i out with already got rich people need to be rich.
+User(2): like money do you
+Bot(2): what do you do for don’t and i’m doing a dad in human services
+User(3): i play guitar
+Bot(3): that is where are you like sleeping.
+User(4): i jam in a band
+Bot(4): I can, but i can do it. I am learning are a bit don't but play ping pong?
+User(5): i play ping pong
+Bot(5): I would ok. i live that
+User(6): sounds interesting
+Bot(6): that is cool . i Do you do any .
+User(7): i watch tv
+Bot(7): Anywhere in the country. I'm vegan happened should see a eat meat.
+User(8): i am a vegetarian
+Bot(8): I am from Russia. What to make a lot of money
+User(9): sell vodka
+Bot(9): Hey! What's up? 😅. not. I am a am party animal
+User(10): bring the vodka
+Bot(10): I am very curious.
+
+Persona:
+i drive a big truck and live in country.
+i am a recording engineer and own my own studio.
+my mom passed away when i was young.
+i've been trying all types of food everywhere i go.
+i go to the gym regularly.
+
+Topic and Human Opinion:
+Beginning: i play the piano and guitar and sing.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 6
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , its raining here . i love the rain .
+User(2): i like rain too
+Bot(2): i guess so . . . . i should order my dinner . . . . it is sushi night . . . love sushi
+User(3): i don't like dead animals
+Bot(3): i have curious george , george for short he is a cat .
+User(4): i like cats
+Bot(4): i do not have any pets . what is your cats name ?
+User(5): sunny
+Bot(5): do you get to go to the beach much
+User(6): i used to
+Bot(6): what do you do for a living ? i need to slow my partying down .
+User(7): i like to drink a lot
+Bot(7): work behind a computer all day i need the gym .
+User(8): try working mturk for pennies all day
+Bot(8): hi ! great , chatting from the beach ! you ?
+User(9): sitting in my garbage hole
+Bot(9): what do you do ? i work at the beach a lifeguard .
+User(10): I slave away on mturk
+Bot(10): i was housed as a slave for 10 years . i am now a carpenter .
+
+Persona:
+i'm a recording engineer and own my own studio.
+i'm studying to be a computer programmer.
+my name is george.
+i work for our local supermarket.
+for vacation i enjoy time at the beach.
+
+Topic and Human Opinion:
+Beginning: i play a lot of call of duty.(like)
+Round 1: rain(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 37.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 21
+Fluent: 93
+Repetitive(↓): 24
+Topic: 71
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello
+Bot(1): hello ?
+User(2): how are you
+Bot(2): i am great , my name is tom , and work a computer programer
+User(3): sounds fun
+Bot(3): very
+User(4): copmuters are cool
+Bot(4): i thought those were dangerous ?
+User(5): they can be
+Bot(5): my turtles eat bugs sorry
+User(6): they need to eat something
+Bot(6): my turtles eat bugs sorry
+User(7): delicious
+Bot(7): i love my friends and food
+User(8): sound great
+Bot(8): i love to eat tacos with them
+User(9): tasty tacos
+Bot(9): i love to eat tacos with them
+User(10): sounds good
+Bot(10): i love to eat tacos with them
+
+Persona:
+i currently work for a watch dealer.
+i love eating out with friends.
+my favorite food is papaya.
+i'm studying to be a computer programmer.
+i've a pet turtle.
+
+Topic and Human Opinion:
+Beginning: my father is in the army.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.14
+Robotic(↓): 100
+Interesting: 17
+Fun: 24
+Consistent: 76
+Fluent: 100
+Repetitive(↓): 74
+Topic: 80
+
+####################
+

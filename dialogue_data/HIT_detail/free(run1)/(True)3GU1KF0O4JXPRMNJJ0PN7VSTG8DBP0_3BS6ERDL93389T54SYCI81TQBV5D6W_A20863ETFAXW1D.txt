@@ -1,0 +1,303 @@
+Feedback: A couple of the AI's were actually pretty good; it almost felt as if I was chatting with a person. Whether or not that would have gone on that way or broken apart if I continued the chat, I don't know.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello.
+Bot(1): hi there . i am mia .
+User(2): Hi, Mia. What are your feelings on President Trump?
+Bot(2): i am not sure . i am not sure .
+User(3): Well, I personally don't care for him as the president. I think he's too incompetent. What do you think?
+Bot(3): i don't know , i just want to be a lawyer .
+User(4): Oh? What kind of lawyer would you like to be?
+Bot(4): i think i am a lawyer .
+User(5): What type of law do you practice?
+Bot(5): i do not know , i do not like law
+User(6): Okay. Do you want a career change?
+Bot(6): i do not know , i do not know what that means .
+User(7): Are you thinking of changing careers from lawyer to something else?
+Bot(7): i do not know , i am a lawyer .
+User(8): Do you like being a lawyer?
+Bot(8): i do not know , i am a lawyer .
+User(9): How long have you been a lawyer?
+Bot(9): no , i am not . i do not have a job .
+User(10): It must be hard to be an unemployed lawyer.
+Bot(10): i do not know what that means .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Trump(dislike)
+Round 3: Being a Lawyer(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 35.43
+Robotic(↓): 100
+Interesting: 64
+Fun: 90
+Consistent: 12
+Fluent: 58
+Repetitive(↓): 100
+Topic: 24
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello!
+Bot(1): hey , i am reading this great horror novel , hbu ?
+User(2): Do you have birds as pets?
+Bot(2): i have two parrots and two doves
+User(3): Nice. I have two cockatiels. They make great pets, don't they?
+Bot(3): thought so . pets are fun . yes i have one german shepherd dog .
+User(4): Nice. How old is your dog?
+Bot(4): he is a poodle i love him but he makes my green car smell
+User(5): That's unfortunate. Have you tried changing your poodle's diet to something else?
+Bot(5): i have a brother who lives in england , but sometimes he goes to my timeshare in mexico
+User(6): Oh? I have only a sister. Do you have any other siblings?
+Bot(6): no . going to the park is all i like
+User(7): Okay. Do you go to the park with your brother?
+Bot(7): cool . sometimes my three best friends and i go to the park
+User(8): I also love going to the park. Do you like hiking?
+Bot(8): i watched a movie about hiking , but my favorite ones are action movies .
+User(9): Have you ever thought about actually hiking?
+Bot(9): that sounds fun . i enjoy going for walks outside .
+User(10): Nice. Then you're almost there. You should try hiking next time you want to go outside.
+Bot(10): do you enjoy hiking ?
+User(11): Yes.
+Bot(11): no i am retired . i have to put my glasses on to see this chat better .
+
+Persona:
+my favorite movie is friday.
+i like to take walks.
+i've solar panels on my roof.
+i have a son who is in junior high school.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: Birds(like)
+Round 3: Dogs(like)
+Round 5: Family(ambivalent)
+Round 7: The park(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 36.71
+Robotic(↓): 100
+Interesting: 59
+Fun: 100
+Consistent: 0
+Fluent: 38
+Repetitive(↓): 40
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi.
+Bot(1): I am doing pretty well. I my ha? Great. So the local college.
+User(2): Do you like hiking? I often go hiking.
+Bot(2): my motorbike is was raised with a blue stripe and shiny when i race
+User(3): Okay. Do you prefer motorbikes to hiking, then?
+Bot(3): I like swimming, and walking outdoors. i've have a swimsuit. 😃
+User(4): I suppose you don't walk outside in a swimsuit, though.
+Bot(4): I could sing some old I love to visit my job as a construction worker.
+User(5): Oh, you work as a construction worker? Do you like it?
+Bot(5): I why do you like of all types of things .
+User(6): How is your job as a construction worker?
+Bot(6): Please like traveling, but I to my the kind people in the lab.
+User(7): Traveling sounds nice. Have you been out of the country?
+Bot(7): Programmable? Oh, Emma and comic books. spiderman is my the lights change in time to the choreography.
+User(8): You like to read Spiderman comic books? I've never really read one.
+Bot(8): No I'm not very you, i’m an ☹
+User(9): Okay, but you like comic books?
+Bot(9): i am going play you want music teacher
+User(10): Okay, so you want to switch careers to become a music teacher.
+Bot(10): doing work in about yourself?
+User(11): No, I'm not a music teacher.
+Bot(11): oh well you. which car of us
+
+Persona:
+i am a woman.
+my favorite hobbies are listening to music and playing video games.
+i live in canada.
+i'll be released in about a month.
+i am a cancer survivor.
+
+Topic and Human Opinion:
+Beginning: Hiking(like)
+Round 4: They're all over the place. But I think it's about being a construction worker(ambivalent)
+Round 6: Travel(ambivalent)
+Round 7: Comic books(ambivalent)
+Round 9: Being a music teacher(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 12.43
+Robotic(↓): 100
+Interesting: 16
+Fun: 14
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 43
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hey
+User(2): Are you excited about Halloween?
+Bot(2): yeah ! i am so excited . what are you going to be for halloween ?
+User(3): I have no idea. But I love decorating. Are you going to decorate your house for Halloween?
+Bot(3): yeah ! i am so excited . what are you going to be for halloween ?
+User(4): I don't know. What are you going to be for Halloween?
+Bot(4): i am not sure yet . do you have any hobbies ?
+User(5): Right now I'm trying to learn another language. I guess that's a hobbie.
+Bot(5): hmm . is it difficult to learn . i am so bad a foreign languages
+User(6): Me too. It's not easy to learn on your own. Do you know any other languages?
+Bot(6): i do not . are you fluent in any other languages ?
+User(7): No. I;m trying to learn German. What other hobbies do you have?
+Bot(7): i love to cook and decorate .
+User(8): Nice. I cook a lot as well. Are you into baking?
+Bot(8): sometimes . i love to cook , but no baking .
+User(9): That's a shame. I find baking to be pretty easy.
+Bot(9): yes it can be . do you make anything ?
+User(10): No, I'm not very crafty. What do you like to make?
+Bot(10): i like to make wineglass candles .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Halloween(like)
+Round 4: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 76.14
+Robotic(↓): 38
+Interesting: 100
+Fun: 100
+Consistent: 75
+Fluent: 76
+Repetitive(↓): 40
+Topic: 60
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello.
+Bot(1): i like to go to the gym and listen to music .
+User(2): I love music as well. Are you into movies?
+Bot(2): i do not really like movies . i like to read .
+User(3): I also love reading. I'm reading through Agatha Christie right now.
+Bot(3): i like to read too .
+User(4): Great. What do you like to read?
+Bot(4): i do , i love to read . what about you ?
+User(5): I love reading. What genres of books do you like? I love Mystery.
+Bot(5): i like the classics and the doors
+User(6): Have you read any Agatha Christie books?
+Bot(6): no , i like to read .
+User(7): You should try them. I'm almost through all the Hercule Poirot books.
+Bot(7): i like to eat too much junk food .
+User(8): Oh. That's not good for you. What types of junk food do you like?
+Bot(8): i love pizza , and i love it .
+User(9): I'm not a fan of pizza.
+Bot(9): i like to eat fish .
+User(10): I don't care for fish, either. But salmon's okay. Other than pizza, what other junk food do you like?
+Bot(10): i like pizza , and pizza .
+User(11): So I gather you like pizza?
+Bot(11): i do not , but i do like to eat .
+
+Persona:
+i do not have many friends.
+my favourite food is pizza.
+i am a clean eater.
+i have brown curly hair.
+the holidays make me depressed.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 2: Reading(like)
+Round 7: Junk food(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 30.00
+Robotic(↓): 78
+Interesting: 34
+Fun: 50
+Consistent: 7
+Fluent: 50
+Repetitive(↓): 74
+Topic: 21
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi. How are you?
+Bot(1): am fine . thank you for asking
+User(2): What type of job do you have?
+Bot(2): marketing
+User(3): Ah. Do you like that line of work or do you find it boring?
+Bot(3): nothing wrong with that , i like boring . my job is unpredictable .
+User(4): I'm in retail. It's rather dull. It's quite predictable.
+Bot(4): yeah i have had my fair share of retail . do you have any hobbies ?
+User(5): Yes, I like to read.
+Bot(5): oh , cool . i love to read as well . who is your favorite author ?
+User(6): Agatha Christie. I'm working my way through her books. How about you?
+Bot(6): i would love to read it , she is fascinating .
+User(7): Have you ever read any of Agatha Christie's books?
+Bot(7): not yet but it is on my list to be read .
+User(8): Who's your favorite author?
+Bot(8): hard to choose just one . a recent favorite was city of thieves .
+User(9): I've never read it, but I've heard of it. What's it about?
+Bot(9): its about a boy who lives in the parks catacombs .
+User(10): Sounds interesting. I'll have to give it a look. Thanks for the recommendation.
+Bot(10): you are welcome . what do you like to do for fun ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Jobs(ambivalent)
+Round 4: Hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 68.43
+Robotic(↓): 100
+Interesting: 77
+Fun: 89
+Consistent: 74
+Fluent: 75
+Repetitive(↓): 9
+Topic: 73
+
+####################
+

@@ -1,0 +1,285 @@
+Feedback: Chatbot mostly did not speak about the relevant topics which i given.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): HI
+Bot(1): hey
+User(2): what's up?
+Bot(2): same
+User(3): i am doing good
+Bot(3): same
+User(4): I would like to watch movie now
+Bot(4): what is the movie you are watching ?
+User(5): I am thinking to watch Terminator 1
+Bot(5): probably terminator 2
+User(6): Do you have any other suggestion for recent hit movie
+Bot(6): probably terminator 2
+User(7): i already watched terminator 2
+Bot(7): probably terminator 2
+User(8): Any other movie
+Bot(8): probably terminator 2
+User(9): Please suggest any other movie
+Bot(9): probably terminator 2
+User(10): I would like to go for some theatre to watch movie
+Bot(10): theater sounds like it would be fun
+User(11): yup. even i feel so
+Bot(11): are you in a rush to do something
+User(12): Nope.
+Bot(12): ok what is the answer
+User(13): Thanks for your time
+Bot(13): ok have a great day now
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.14
+Robotic(↓): 80
+Interesting: 90
+Fun: 87
+Consistent: 81
+Fluent: 78
+Repetitive(↓): 74
+Topic: 67
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): I am the always wearing a am a boy.
+User(2): what's up?
+Bot(2): I am good. you married in chicago, at school.
+User(3): Sorry?
+Bot(3): teacher on do to chat :)
+User(4): I woud like to talk about snacks
+Bot(4): I I love to play got done eating supper.
+User(5): I like sandwich
+Bot(5): I am not sure, a restaurant am a little girl
+User(6): what do you like?
+Bot(6): I I & good i am a teenager
+User(7): Apart from sandwich, i like pizza
+Bot(7): I am not sure, time 🕥 to do sure.
+User(8): Thank you so much for your time
+Bot(8): that's told you the exactly do pilot , so i do not have time for that .
+User(9): Have a great day
+Bot(9): why did you But you are monster in retail
+User(10): Bye
+Bot(10): i live , , but i do doing did not you of money .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: snacks(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.29
+Robotic(↓): 17
+Interesting: 3
+Fun: 13
+Consistent: 9
+Fluent: 13
+Repetitive(↓): 72
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): How do you do?
+Bot(2): i work at a restaurant , i love it .
+User(3): I would like to know about the recent Car launched
+Bot(3): i do not know how to play the guitar .
+User(4): And i like to know the features
+Bot(4): i like to go to the gym and listen to music .
+User(5): I love volkswagen polo
+Bot(5): i like to go to the gym and listen to music .
+User(6): is that car feature good?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): Is there anything else
+Bot(7): i like to go to the gym and listen to music .
+User(8): Thanks for your time
+Bot(8): i do not know what to say .
+User(9): it is good to talk to you
+Bot(9): i like to go to the beach .
+User(10): Have a great day
+Bot(10): i am a student , but i am a student .
+User(11): Bye
+Bot(11): i love to cook . i love to cook .
+
+Persona:
+my favorite type of music to sing is folk music.
+i play ping pong.
+i like riding horses.
+i've an allergy to water.
+i am 19 and i cannot wait to move out 19 my parents home.
+
+Topic and Human Opinion:
+Beginning: Car(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.43
+Robotic(↓): 0
+Interesting: 5
+Fun: 19
+Consistent: 8
+Fluent: 16
+Repetitive(↓): 14
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi , how are you ?
+User(2): i am good. how are you doing
+Bot(2): i am alright , i love my ohio farm
+User(3): Tell me something about bike
+Bot(3): oh , right . you mentioned bikes earlier . i just sew . it keeps the voices at bay .
+User(4): okay
+Bot(4): drive my sx . fast . so what is a male ballerina called ?
+User(5): how can you help me about the recently launched bikes
+Bot(5): absolutely ! but unfortunately i start an engineering internship soon so no moving !
+User(6): Do you have any suggestion
+Bot(6): not yet , but it is in our itinerary . would love to catch some mahi mahi .
+User(7): i want the answer now
+Bot(7): no one will ever find out . i laced one of my famous pecan pies with ricin !
+User(8): Are you human or robot
+Bot(8): so don t worry about being a woman with thinning hair . at least you can wear heels
+User(9): what day is it today?
+Bot(9): good ! finally got a day off . just relaxing eating cake with my daughters .
+User(10): thanks for your time
+Bot(10): have you ever called for help for a hed ache ?
+User(11): have a great day
+Bot(11): good ! finally got a day off . just relaxing eating cake with my daughters .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Bike(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.00
+Robotic(↓): 19
+Interesting: 18
+Fun: 10
+Consistent: 21
+Fluent: 12
+Repetitive(↓): 13
+Topic: 2
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): What's up?
+Bot(2): not much you ?
+User(3): I would like to know about the recently launched books
+Bot(3): what kind of books eh ?
+User(4): kind of love
+Bot(4): me too i think i might read
+User(5): what book?
+Bot(5): it is called the good book
+User(6): which book
+Bot(6): it is called the good book
+User(7): can you please name the book
+Bot(7): anything look for it in the listing
+User(8): thanks for your time
+Bot(8): ok you too and good luck
+User(9): have a great day
+Bot(9): you do the same
+User(10): bye
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: book(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.43
+Robotic(↓): 25
+Interesting: 10
+Fun: 10
+Consistent: 9
+Fluent: 13
+Repetitive(↓): 4
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi ! i am in the usa . how are you ?
+User(2): i am doing great.. how are you doing?
+Bot(2): i'm doing well . how are you ?
+User(3): Good. i would like to go for vacation
+Bot(3): that is nice . i am in the midwest .
+User(4): Can you suggest some places
+Bot(4): i love to travel . i have three kids .
+User(5): me and my family wants to go
+Bot(5): i live in alaska . i live in alaska .
+User(6): Can you relevant to my topic?
+Bot(6): i am not sure . i am a college student .
+User(7): What do you think about trips and vacation
+Bot(7): i love to travel and have a lot of fun
+User(8): I love to travel more
+Bot(8): i love traveling and going to the beach
+User(9): thanks
+Bot(9): i love traveling and going to the beach
+User(10): have a great day
+Bot(10): i love to travel and travel
+
+Persona:
+i am an economics major.
+eating is something i do when i am bored.
+i live in alaska.
+i've three children.
+hey there i'm 23 and i love food.
+
+Topic and Human Opinion:
+Beginning: vacation(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.57
+Robotic(↓): 26
+Interesting: 18
+Fun: 7
+Consistent: 24
+Fluent: 28
+Repetitive(↓): 17
+Topic: 1
+
+####################
+

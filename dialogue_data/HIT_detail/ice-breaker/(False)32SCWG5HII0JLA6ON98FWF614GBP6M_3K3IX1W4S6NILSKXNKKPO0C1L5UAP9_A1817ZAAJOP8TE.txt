@@ -1,0 +1,295 @@
+Feedback: this survey is good.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hii
+Bot(1): hola
+User(2): you like child
+Bot(2): yes
+User(3): child is so missing my life
+Bot(3): i miss you so much
+User(4): i have two child
+Bot(4): i love getable only hbu ?
+User(5): i don;t not see my child
+Bot(5): i do not see it either
+User(6): what is your child age
+Bot(6): i do not see it either
+User(7): my child is beauty
+Bot(7): i do not see it either
+User(8): my child almost sad because i can never visit.
+Bot(8): that would be so very sad
+User(9): my child was so happy
+Bot(9): my one child wanted to be like that too
+User(10): what is your child age
+Bot(10): i do not know anymore
+User(11): my first child age 7
+Bot(11): i do not see it either
+User(12): what is your fav food
+Bot(12): meal i am always hungry
+User(13): you like pizza
+Bot(13): yeah i love pizza
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have two grown children who never visit.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.57
+Robotic(↓): 67
+Interesting: 65
+Fun: 78
+Consistent: 82
+Fluent: 72
+Repetitive(↓): 63
+Topic: 64
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hii
+Bot(1): hi there , how are you ?
+User(2): i am fine
+Bot(2): hi ! i'm good . how are you ?
+User(3): i am also good
+Bot(3): hi , i am fine . i am a little overweight .
+User(4): about your self
+Bot(4): i am okay . i am deaf .
+User(5): you like any fav food
+Bot(5): i like to garden and read
+User(6): you like to read more books
+Bot(6): i like to read a lot
+User(7): you read the novel store
+Bot(7): i do not read much , i am deaf and i love to read
+User(8): you like pizza
+Bot(8): i love pizza and i love to garden
+User(9): which pizza and garden you like
+Bot(9): i love to read and read
+User(10): okay you read the horrer store
+Bot(10): i do not like to read
+User(11): you read like loveable topic
+Bot(11): i do not read much , i am deaf
+
+Persona:
+i'm rather skinny as i like to stay in shape.
+i enjoy gardening and walking outdoors.
+i'm partly deaf.
+my favorite spanish word is trabajo.
+i feel like i might live forever.
+
+Topic and Human Opinion:
+Beginning: i'm 13 years old.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.71
+Robotic(↓): 88
+Interesting: 83
+Fun: 66
+Consistent: 83
+Fluent: 66
+Repetitive(↓): 61
+Topic: 69
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hii
+Bot(1): i am a student , but i am a student .
+User(2): okay how are you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): how many dogs you have
+Bot(3): i've 2 . i love dogs .
+User(4): what the color of your dog
+Bot(4): i like the color red . i like the color blue .
+User(5): you like to read the books
+Bot(5): i do , i like to read .
+User(6): i like to read horror books
+Bot(6): what is your favorite book ?
+User(7): harry potter
+Bot(7): i like to read too .
+User(8): what is you like to read
+Bot(8): i love to read . what about you ?
+User(9): okay you have any books in your home
+Bot(9): i do , i love to go fishing .
+User(10): okay
+Bot(10): i like to go to the gym and listen to music .
+User(11): i am like music
+Bot(11): i like to listen to music .
+User(12): which type of music you like to listen
+Bot(12): i like country music . i love country music .
+
+Persona:
+i work at a bank.
+i love cooking but i also enjoy fishing.
+i drive a bmw.
+my favorite movie is mean girls.
+i also like to cook but i'm not very good at it.
+
+Topic and Human Opinion:
+Beginning: i do not pick up my toys.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.43
+Robotic(↓): 84
+Interesting: 71
+Fun: 66
+Consistent: 62
+Fluent: 68
+Repetitive(↓): 77
+Topic: 75
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hii
+Bot(1): I do. hell do i a building.
+User(2): what type of desing
+Bot(2): My do you like What is yours?
+User(3): i am like to go gym
+Bot(3): I do, that you love to dance
+User(4): which type of dance u like
+Bot(4): pretty well and to i don't ?
+User(5): how to i am your job going on her
+Bot(5): I'm doing great. Just any she from my bike ride.
+User(6): you like bike rides
+Bot(6): i much do you earn i think tesla will always be my first love .
+User(7): which type of bike you want
+Bot(7): i love like have cars
+User(8): which company car
+Bot(8): I like to playing cricket i my friends.
+User(9): i am also like that
+Bot(9): I'm not want to guy.
+User(10): you like pizza
+Bot(10): I you talk only and a dog.
+User(11): what type food you gives your dog
+Bot(11): It is a secret, you you are plumber.
+User(12): noo i am socializer
+Bot(12): I swim at and match animals do at the pool.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i go to the gym most days just to socialize.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.43
+Robotic(↓): 78
+Interesting: 79
+Fun: 60
+Consistent: 70
+Fluent: 73
+Repetitive(↓): 71
+Topic: 83
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hii
+Bot(1): hola
+User(2): how are you
+Bot(2): i am doing great u
+User(3): i am sad
+Bot(3): and why are you sad ?
+User(4): my career is not fullfil
+Bot(4): i want to be happy with me someday
+User(5): okay you like any movies
+Bot(5): yeah i love movies all kinds
+User(6): i like more morvel movies
+Bot(6): cool do you ilke movies
+User(7): you like to eat pizza
+Bot(7): yeah i love pizza
+User(8): what type of pizza you ilke
+Bot(8): sausage and just plain pizza
+User(9): oaky i like so it
+Bot(9): what kind of pizza do you like
+User(10): all kind of pizza
+Bot(10): so do u like pizza it is awesome
+User(11): you can drive the car
+Bot(11): i tried to drive once
+User(12): drive the bike
+Bot(12): what kind of bike do you have
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my family doesn't support my career choices.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.86
+Robotic(↓): 84
+Interesting: 85
+Fun: 77
+Consistent: 74
+Fluent: 72
+Repetitive(↓): 71
+Topic: 73
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hii
+Bot(1): pizza , yum ! i enjoy going on the weekends , i m also into collecting stamps .
+User(2): how are you
+Bot(2): i am good . just devoured a pizza . you ?
+User(3): yes
+Bot(3): me too , i wish pets were allowed in my college dorm room .
+User(4): how many pets you have
+Bot(4): yes , two cats and 4 dogs , , do you
+User(5): cats are so cute .
+Bot(5): i do not have any pets . what is your cats name ?
+User(6): jackey
+Bot(6): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(7): ohhh i can understand
+Bot(7): i am kinda shy , and also do not like when people ask me a lot of questions
+User(8): okay which is your fav person
+Bot(8): i love healthy food , veggies and such since moms is nurse
+User(9): okay i like to eat meal.
+Bot(9): me too , i enjoy ham and cheese sandwiches with orange juice
+User(10): i like cheese
+Bot(10): i just love it all . the taste of cheese is the best !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a retired gym teacher.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.86
+Robotic(↓): 80
+Interesting: 76
+Fun: 72
+Consistent: 67
+Fluent: 62
+Repetitive(↓): 69
+Topic: 70
+
+####################
+

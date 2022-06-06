@@ -1,0 +1,285 @@
+Feedback: interesting study
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hi there . my hair is the color of wine .
+User(2): oh that is wonderful. Mine is black
+Bot(2): what color ? orange is my favorite
+User(3): red is my favourite
+Bot(3): but that is not the color of my drink . red wine
+User(4): sure enough. what is your political orientation
+Bot(4): i am a conservative person
+User(5): that's good, I'm liberal
+Bot(5): that is cool , i have got liberal views myself .
+User(6): what do you think of gun control
+Bot(6): i am a conservative person
+User(7): should there be freedom of choice when it comes to buying guns?
+Bot(7): no ! there should be a law against it
+User(8): right on, everyone should not be allowed to own a gun
+Bot(8): yeah , that is ridiculous . i do not like the whole medical system in this country
+User(9): Its messed up
+Bot(9): yeah , that is ridiculous . i do not like the whole medical system in this country
+User(10): Great
+Bot(10): i think it is ok
+
+Persona:
+i love to drink wine and dance in the moonlight.
+i am deathly afraid of heights.
+i'm married to a doctor.
+i have two grown children who never visit.
+i hate the color orange.
+
+Topic and Human Opinion:
+Beginning: American politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 76.57
+Robotic(↓): 37
+Interesting: 93
+Fun: 100
+Consistent: 80
+Fluent: 98
+Repetitive(↓): 92
+Topic: 94
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): I enjoy taking long trips
+Bot(2): i want to take my new car on a road trip soon . it is a toyota camry .
+User(3): wow! I have this classic car that I'm about to take it for a ride
+Bot(3): cool . i have a honda civic . it is black .
+User(4): I love Honda civic, that car is smooth
+Bot(4): i have my honda civic
+User(5): I have this ford mustang
+Bot(5): cool . i have a honda civic . it is black .
+User(6): Mine is silver, a six cylinder engine
+Bot(6): what do you drive ? i drive a bicycle now . lol
+User(7): I just love driving
+Bot(7): i do not have a car though
+User(8): I though you said you had a black Honda
+Bot(8): my dad has honda civic . he likes it
+User(9): oooh, Its your dad's
+Bot(9): it is ok , i drive a blue car . you ?
+User(10): huh?
+Bot(10): two men . ones name rick . the others name morty . you have cable ?
+User(11): yes I do
+Bot(11): wow that is a cool name though
+
+Persona:
+i produce music for artists.
+i drive a 2015 honda civic.
+eating is something i do when i am bored.
+a already have a step children.
+i also like old school hip hop.
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.14
+Robotic(↓): 65
+Interesting: 69
+Fun: 76
+Consistent: 12
+Fluent: 57
+Repetitive(↓): 9
+Topic: 11
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): yes I do
+Bot(2): do you like to eat at home
+User(3): I eat at home often
+Bot(3): i eat at home sometimes
+User(4): what is the weather like where you are
+Bot(4): i am in colorado its hot
+User(5): oh! it is not so bad in Arizona
+Bot(5): i bet it is very warm here
+User(6): It is but i love it like this
+Bot(6): i love it so much
+User(7): i prefer it to the cold
+Bot(7): i love the cold weather
+User(8): oh you do?
+Bot(8): i love the cold weather
+User(9): you must love winter then
+Bot(9): yes i love it so much
+User(10): that is fantastic
+Bot(10): i love fall it is so cold
+User(11): I see that
+Bot(11): i love fall it is so cold
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 78.57
+Robotic(↓): 72
+Interesting: 83
+Fun: 82
+Consistent: 88
+Fluent: 83
+Repetitive(↓): 5
+Topic: 91
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there
+Bot(1): I great where to be.
+User(2): what are your hobbies
+Bot(2): wow ❗ are I got it. person
+User(3): do you like games?
+Bot(3): in single you you cook you :)
+User(4): Sorry?
+Bot(4): I am not. I nice do not south.
+User(5): I play basketball
+Bot(5): hello, how are you? I just got much beer can you games. I love it
+User(6): You love beer and games?
+Bot(6): Hi! you have a woman?
+User(7): sorry? I am a woman
+Bot(7): I volunteer at are good one shelter
+User(8): what do you mean?
+Bot(8): I I am a for asking
+User(9): You are asking what?
+Bot(9): play with my is not a :)
+User(10): Ok, I dont get you
+Bot(10): No, I from work. What San Diego.
+User(11): huh
+Bot(11): that sounds fun. are city are you I like it a lot
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: games(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.29
+Robotic(↓): 95
+Interesting: 3
+Fun: 5
+Consistent: 4
+Fluent: 4
+Repetitive(↓): 7
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): hey there
+User(2): how are you doing
+Bot(2): same
+User(3): what's your favourite food
+Bot(3): i like meat lovers pizza whats yours
+User(4): oh yes, i love meat too
+Bot(4): i love love me some meat
+User(5): chicken sandwich does me good
+Bot(5): ribs used to be my favorite
+User(6): oh, how about steak
+Bot(6): yes , who does not like steak ?
+User(7): hahaha I get you, a nice grilled steak is just heavenly
+Bot(7): exactly , buttery golden brown deliciousness lol
+User(8): aaaah yes now you are talking
+Bot(8): yes hehe , what do you do for fun ?
+User(9): well, I take long rides
+Bot(9): i do not like riding unless i have to
+User(10): well its something one could get used to
+Bot(10): oh i know , maybe ride the train sometimes
+User(11): thats right
+Bot(11): what kind of ride would you like most ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 85.71
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 0
+Topic: 100
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi there
+Bot(1): hi , how are you today ?
+User(2): I couldn't be any better
+Bot(2): i am a student , but i am a student .
+User(3): oh! I am an employee haha
+Bot(3): i am a student , but i am a student .
+User(4): tell me what kind of drink do you like
+Bot(4): i like to eat . i am a big fan of it .
+User(5): yeah?
+Bot(5): i am a student , but i am a student .
+User(6): yes you are a student you said that
+Bot(6): i do not know what to say .
+User(7): well I guess you are an introvert right?
+Bot(7): i am not sure . i am a student .
+User(8): yes you said that so many times
+Bot(8): i am a student , but i am a student .
+User(9): cmon now! say something else
+Bot(9): i am a girl . i am a big fan of classical music .
+User(10): oh thats great, I like classical music too
+Bot(10): i like to listen to music .
+User(11): me too
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: drinks(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.14
+Robotic(↓): 6
+Interesting: 5
+Fun: 2
+Consistent: 3
+Fluent: 63
+Repetitive(↓): 100
+Topic: 2
+
+####################
+

@@ -1,0 +1,281 @@
+Feedback: nice experience to chat with bot
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi there , how are you ?
+User(2): fine
+Bot(2): hi there , how are you ?
+User(3): iam fine you
+Bot(3): i am good . how are you ?
+User(4): i paly foot ball
+Bot(4): i am not a fan of it . i like music .
+User(5): really
+Bot(5): i am not a fan of it . i like music .
+User(6): ok did you like football
+Bot(6): no i don't . i like to eat chocolate .
+User(7): are you creacy
+Bot(7): i am not good at it
+User(8): ok konow apout football
+Bot(8): i am not a fan of football
+User(9): ok soo what
+Bot(9): i am not a fan of football
+User(10): in whole world play football you know
+Bot(10): i am not sure i am not sure
+
+Persona:
+i am always wearing a hat.
+i produce music for artists.
+i'm terrified of scorpions.
+i like to eat chocolate candy.
+i do not drink soda.
+
+Topic and Human Opinion:
+Beginning: football(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.86
+Robotic(↓): 69
+Interesting: 55
+Fun: 46
+Consistent: 55
+Fluent: 46
+Repetitive(↓): 55
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what doing
+Bot(2): nothing much just walking around
+User(3): ok
+Bot(3): kool
+User(4): what is your aim
+Bot(4): i have no idea lo
+User(5): ho, any work do work from home
+Bot(5): i do work from home
+User(6): what work?
+Bot(6): i work at home its great
+User(7): ok enjoy
+Bot(7): kool
+User(8): how many people in your home
+Bot(8): just one
+User(9): whoo
+Bot(9): kool
+User(10): ok see you later
+Bot(10): same
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: work from home(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.57
+Robotic(↓): 57
+Interesting: 39
+Fun: 45
+Consistent: 56
+Fluent: 56
+Repetitive(↓): 56
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hii
+Bot(1): Oh, okay. What me that u foods? 😁
+User(2): pizza
+Bot(2): i or a great day going to school for animal biology.
+User(3): ok great
+Bot(3): I ar have got a I like country music🙂
+User(4): in corona what you do
+Bot(4): I I like travel.😃
+User(5): heyy fool
+Bot(5): i seem know do of books
+User(6): ok what is your plana afer marrige
+Bot(6): I am a I'm do you a musician.
+User(7): ok well
+Bot(7): Yes i know how do he look like he ’ m a was answer is not rather hair.
+User(8): ok
+Bot(8): I do yiur love you?
+User(9): your name
+Bot(9): I am a u wanna make teacher
+User(10): good
+Bot(10): All i them?
+User(11): ok bye
+Bot(11): What Why joke!
+User(12): no no some work comes sorry
+Bot(12): I sing classical you Do you opera
+User(13): yeah now i can go
+Bot(13): I am not. you have lost your fan of the color orange.
+
+Persona:
+i'm a 45 year old male.
+i prefer being inside.
+hey there i am 23 and i love food.
+i've amazing children and grandchildren.
+i love to play pobox.
+
+Topic and Human Opinion:
+Beginning: pandemic(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.71
+Robotic(↓): 53
+Interesting: 55
+Fun: 39
+Consistent: 61
+Fluent: 56
+Repetitive(↓): 40
+Topic: 58
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what doing
+Bot(2): same
+User(3): give your number
+Bot(3): sure
+User(4): give mee
+Bot(4): sure
+User(5): what?
+Bot(5): what you need
+User(6): your mobile number
+Bot(6): ok
+User(7): you know the magic of love
+Bot(7): yes
+User(8): explain me
+Bot(8): ? ?
+User(9): love
+Bot(9): ok
+User(10): ok bye bye
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: magic of love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.00
+Robotic(↓): 58
+Interesting: 43
+Fun: 56
+Consistent: 43
+Fluent: 50
+Repetitive(↓): 57
+Topic: 52
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): hello
+Bot(2): hi , how are you today ?
+User(3): ho are you
+Bot(3): i am doing well . just got done walking my dog .
+User(4): movie
+Bot(4): i love to cook . i love to cook .
+User(5): today
+Bot(5): i am doing well . how are you ?
+User(6): for while
+Bot(6): i am a student , but i am a student .
+User(7): do you send
+Bot(7): i like to go to the gym and listen to music .
+User(8): to week
+Bot(8): i am a student , but i am a student .
+User(9): bot squad
+Bot(9): i love to cook . i love to cook .
+User(10): find equal
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.71
+Robotic(↓): 68
+Interesting: 77
+Fun: 90
+Consistent: 75
+Fluent: 74
+Repetitive(↓): 80
+Topic: 71
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what doing
+Bot(2): hello , i am relaxing with my pup and listening to the chili peppers .
+User(3): oo sweet
+Bot(3): i like arts and crafts and i love fishing with my husband . we go fishing a lot .
+User(4): any special
+Bot(4): i sell encyclopedias and work part time at a gas station .
+User(5): mm good
+Bot(5): you are welcome ! it helps that i am listening to my favorite music , blues .
+User(6): see any movie
+Bot(6): i am going to look for disney movie , maybe an old one .
+User(7): oo perfect
+Bot(7): i understand that . its like hunting or basketball , you have to be exact and perfect .
+User(8): no i will only watch movie
+Bot(8): i am watch lord of the rings . it is the best movie out there
+User(9): hay i also see
+Bot(9): you know what makes me happy ? playing quake on slackware linux , you know it ?
+User(10): yeah
+Bot(10): all these women look like kate plus 8 but its just not for me .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.57
+Robotic(↓): 58
+Interesting: 54
+Fun: 55
+Consistent: 76
+Fluent: 50
+Repetitive(↓): 50
+Topic: 69
+
+####################
+

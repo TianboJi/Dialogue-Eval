@@ -1,0 +1,308 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you enjoy knitting?
+Bot(1): yes i do i love sewing
+User(2): Oh, do you like sewing more than knitting?
+Bot(2): yes , i do . sewing is my passion .
+User(3): What do you like about sewing?
+Bot(3): sewing is my passion . i love sewing
+User(4): I also enjoy sewing!
+Bot(4): i do not sew , i sew and sew
+User(5): What do you sew?
+Bot(5): sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing
+User(6): You just said the word "sewing" 17 times.
+Bot(6): i do not have a sewing style . i sew
+User(7): Oh, you don't have a particular style?
+Bot(7): i do not know , i do not know much about it .
+User(8): But you were just talking about how much you like sewing
+Bot(8): i sew and sew , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing ,
+User(9): I think sewing is a fine activity.
+Bot(9): i sew and sew , i sew
+User(10): That's good for you.
+Bot(10): thank you , i love sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing , sewing ,
+User(11): Goodbye.
+Bot(11): i am sorry to hear that .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: knitting is my passion.(ambivalent)
+Round 2: sewing is my passion(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 25.86
+Robotic(↓): 100
+Interesting: 5
+Fun: 5
+Consistent: 93
+Fluent: 0
+Repetitive(↓): 100
+Topic: 78
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): So you like kayaking?
+Bot(1): i love it , but i also enjoy to kayaking when i am free . do you ?
+User(2): I also enjoy kayaking! Especially on the lake.
+Bot(2): the lake ? lake of the ozarks ?
+User(3): Lake Superior! But I'm sure Lake of the Ozarks is also beautiful to kayak on.
+Bot(3): sometimes the lake , sometimes the mountains
+User(4): Oh, do you like to kayak in the mountains?
+Bot(4): we drive the mountains in vegas
+User(5): That's really nice! There are some very nice mountain drives.
+Bot(5): do you road trip places ? i have a few ferraris and love going on long drives
+User(6): I love to take road trips! We usually rent a car and drive through the mountains in West Virginia.
+Bot(6): i have my honda civic
+User(7): Those are really reliable cars, I think
+Bot(7): race cars . i am developing a car that will run off mac and cheese though .
+User(8): Haha, really? I've heard of cars that run on corn, but never mac and cheese.
+Bot(8): mac and cheese is another family classic food . we all love pasta !
+User(9): Is your family Italian? Is that why you all love pasta and mac and cheese?
+Bot(9): mac and cheese is another family classic food . we all love pasta !
+User(10): I enjoy pasta, too
+Bot(10): i could eat pasta everyday , and i love chicken too
+User(11): Chicken is also delicious. And pasta and chicken combined? Even better.
+Bot(11): my girlfriend loves chicken . we can get good chicken here in the city .
+User(12): Me too! What city? We have good Peruvian chicken here.
+Bot(12): i like chicken . especially chicken tacos . i love mexican food !
+
+Persona:
+i drive a 2015 honda civic.
+in my free time i like to watch nascar racing and ufc.
+i do not like chicken.
+i live in california but the recording artist market was dead last year.
+i am a convenience store manager.
+
+Topic and Human Opinion:
+Beginning: i am an avid kayaker.(like)
+Round 4: driving through the mountains(like)
+Round 8: mac and cheese(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 49.43
+Robotic(↓): 68
+Interesting: 93
+Fun: 76
+Consistent: 31
+Fluent: 40
+Repetitive(↓): 34
+Topic: 8
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I also have brown curly hair!
+Bot(1): I els do little depressed.
+User(2): Oh really? I'm sorry to hear that
+Bot(2): I'll say not is your kids one day.
+User(3): I don't have any kids
+Bot(3): Tell me you your mean marriage.
+User(4): I'm also not married, unfortunately.
+Bot(4): i don’t really cold winters
+User(5): I actually enjoy cold winters! I'm originally from Minnesota
+Bot(5): If the dog was poor is not important be a dog.
+User(6): I don't really understand what you mean by that.
+Bot(6): I play bass always wearing a band.
+User(7): A band of what?
+Bot(7): nice do you so stuppid fukking children
+User(8): I think that's a rude thing to say, sorry
+Bot(8): do it. So how old I like to go to spain and travel
+User(9): Oh, I've never been to Spain but I'd love to go!
+Bot(9): cool My little like music
+User(10): What kind of music?
+Bot(10): what asked me about restaurant 🤣
+User(11): I asked you about music, not restaurants
+Bot(11): I cool. Do you will one day.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've brown curly hair.(ambivalent)
+Round 3: family(ambivalent)
+Round 4: winter(ambivalent)
+Round 8: travelling(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 27.00
+Robotic(↓): 92
+Interesting: 37
+Fun: 23
+Consistent: 5
+Fluent: 11
+Repetitive(↓): 0
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): How many people are in your family?
+Bot(1): yes very large family . people everywhere
+User(2): Haha. Mine too - but my immediate family is small, only four of us.
+Bot(2): you have a large family . how is that ?
+User(3): I actually really enjoy it! I think they're a lot of fun to spend time with
+Bot(3): i love my adopting ones , wish they had adopted more than myself .
+User(4): Do you have adopted children? Is that what you mean?
+Bot(4): no , i was adopted and do not have children myself . do you have kids ?
+User(5): I understand! No, I don't. But hopefully I will have kids someday.
+Bot(5): www , maybe one day ! and adoption is always an option .
+User(6): Yes, agreed! I would absolutely adopt children if I couldn't have any biologically.
+Bot(6): well , it would be harder to adopt them to someone . but , if that is what you like . . .
+User(7): Yeah, the process of adoption is really difficult.
+Bot(7): it definitely is not always easy , but it is also very rewarding , you know ?
+User(8): Yeah, I can understand that! Like giving a good family to a child who might not otherwise have one
+Bot(8): agreed ! i was put up for adoption at birth . what are you into ?
+User(9): What am I into? Like in terms of people?
+Bot(9): i do not really like people . . . i always end up mixing up my words .
+User(10): Haha, no that's fine. I understand. I do actually like people. They're very entertaining
+Bot(10): not me . i love to be with people ! do you have hobbies ?
+
+Persona:
+i am a famous twitch streamer.
+i love to sing songs from the movie frozen.
+my next language to study is french.
+i was raised in a single parent household.
+i like to go hiking in the mornings to see the sunset.
+
+Topic and Human Opinion:
+Beginning: i love to spend time with my family.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 84.86
+Robotic(↓): 33
+Interesting: 93
+Fun: 88
+Consistent: 95
+Fluent: 75
+Repetitive(↓): 16
+Topic: 92
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Are you Jewish? Is that why you eat kosher?
+Bot(1): i do not know . i am a vegan .
+User(2): Oh you're a vegan and not kosher?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): What does classical music have to do with being kosher?
+Bot(3): i do not know . i am a big fan of classical music .
+User(4): What kinds of composers do you like?
+Bot(4): i love the beatles . what about you ?
+User(5): I wouldn't say that the Beatles are classical music, haha.
+Bot(5): i like to listen to music .
+User(6): Yeah, me too. I like Beethoven and Bach, very traditional
+Bot(6): i love the color red . i like the color blue .
+User(7): My favorite color is blue!
+Bot(7): i like blue , i like red , reminds me of summer time .
+User(8): I think orange and yellow most remind me of summertime!
+Bot(8): i like to eat too much kale
+User(9): Kale? I think the color of kale is really nice - like an olive green
+Bot(9): i like to eat too much junk food .
+User(10): I've actually been trying to cut down on the amount of junk food
+Bot(10): i like to eat too much junk food .
+User(11): I really don't
+Bot(11): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i only eat kosher.(ambivalent)
+Round 3: classical music(ambivalent)
+Round 6: favorite colors(ambivalent)
+Round 9: eating food(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 48.43
+Robotic(↓): 12
+Interesting: 57
+Fun: 57
+Consistent: 6
+Fluent: 79
+Repetitive(↓): 64
+Topic: 16
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Are you a professional electrician?
+Bot(1): bar work , that is where my job is , at a bar , yehaaa !
+User(2): So you're not an electrician?
+Bot(2): i have never had any broken bones
+User(3): Oh? I have. I broke my elbow a few years ago
+Bot(3): i have never had any broken bones
+User(4): That's good for you
+Bot(4): yeah , i am at a bar at the moment . its money i guess
+User(5): I also work as a bartender! I really enjoy it
+Bot(5): i am a bartender every night
+User(6): Do you like it or not?
+Bot(6): i love it ! what do you do for fun ?
+User(7): I like to go hiking
+Bot(7): i have not gone hiking a while
+User(8): That's unfortunate, you definitely should!
+Bot(8): but my hair is so blond
+User(9): What does being blond have to do with hiking?
+Bot(9): because you are out on the water and have an opportunity to see the sunset !
+User(10): Ohh, like photobleaching. That's true
+Bot(10): i do not like it either . i like it natural
+
+Persona:
+i'm a blonde girl with really short hair.
+i have rainbow hair.
+i never broke a bone in my body ever in my life.
+i work at a bar at night to pay for college.
+i only eat kosher.
+
+Topic and Human Opinion:
+Beginning: i am an electrician.(ambivalent)
+Round 3: broken bones(ambivalent)
+Round 4: working as a bartender(like)
+Round 7: hiking(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 48.57
+Robotic(↓): 92
+Interesting: 58
+Fun: 67
+Consistent: 9
+Fluent: 77
+Repetitive(↓): 10
+Topic: 31
+
+####################
+

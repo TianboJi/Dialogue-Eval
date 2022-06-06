@@ -1,0 +1,283 @@
+Feedback: really love the conversation .thank you.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what up
+Bot(2): same
+User(3): ok did you know about facebook
+Bot(3): i am on facebook which is great
+User(4): ok Facebook great right
+Bot(4): oh yeah i got all the inside info
+User(5): ok tell me about it
+Bot(5): i am on facebook which is great
+User(6): in Facebook what kind of post you will upload
+Bot(6): how can i do that i will post it on facebook !
+User(7): you create any Facebook page
+Bot(7): how can i do that i will post it on facebook !
+User(8): it is usefull
+Bot(8): yes it can help people out which is good
+User(9): what your name in Facebook
+Bot(9): i am on facebook which is great
+User(10): ok happy to see you
+Bot(10): it will pop up soon i know that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: facebook(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.14
+Robotic(↓): 65
+Interesting: 67
+Fun: 70
+Consistent: 75
+Fluent: 61
+Repetitive(↓): 60
+Topic: 66
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what you doing
+Bot(2): nothing much just walking around
+User(3): yeah walking is peace of our mind right
+Bot(3): walking is my favorite past time
+User(4): great
+Bot(4): yea its pretty nice out today
+User(5): ok tell me apout youtube
+Bot(5): no clue go ahead an tell me
+User(6): ok youtube usefull to me
+Bot(6): what you need
+User(7): know about many news
+Bot(7): the news it is talking about that
+User(8): yeah all in one
+Bot(8): the news it is talking about that
+User(9): yes
+Bot(9): kool
+User(10): happy to see you
+Bot(10): same
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: youtube(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.14
+Robotic(↓): 69
+Interesting: 61
+Fun: 72
+Consistent: 62
+Fluent: 50
+Repetitive(↓): 63
+Topic: 73
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hallo
+Bot(1): i am a student , but i am a student .
+User(2): nyc
+Bot(2): i love to cook . i love to cook .
+User(3): but i love to play game
+Bot(3): i like to play soccer , but i like to play soccer .
+User(4): what games
+Bot(4): i like to play soccer .
+User(5): but i like to paly PlayStation
+Bot(5): i like to go to the lake and listen to music .
+User(6): why?
+Bot(6): i do not know how to play the guitar .
+User(7): i aslo dont know
+Bot(7): i am sorry to hear that . i am a bit of a loner .
+User(8): ok happy to see you
+Bot(8): i am a student , but i am a student .
+User(9): ok i understant
+Bot(9): i like to go to the gym and listen to music .
+User(10): ok enjoy
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i am a stunt double as my second job.
+i've been traveling the world for a years.
+i am expecting twins in two months.
+i'm a 56 year old woman.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: game(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.57
+Robotic(↓): 50
+Interesting: 38
+Fun: 55
+Consistent: 63
+Fluent: 50
+Repetitive(↓): 43
+Topic: 34
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hii
+Bot(1): hi , i'm a librarian and i love books
+User(2): oo yeah
+Bot(2): hi ! i'm a librarian and i love books .
+User(3): i love animals
+Bot(3): i am a college student . i am a librarian .
+User(4): did you have boyfriend
+Bot(4): i do not have any . i am a boy .
+User(5): oo iam sorry
+Bot(5): i am a boy , and i am a boy .
+User(6): i apologies
+Bot(6): i am a little old . i am a boy .
+User(7): ok have breakfast
+Bot(7): i am a college student
+User(8): how old r u
+Bot(8): i am a boy and i am a boy
+User(9): ok i need tom go home
+Bot(9): i am a librarian and have two kids
+User(10): what your problem
+Bot(10): i am a librarian and have two kids
+
+Persona:
+i'm a boy.
+i'm a librarian.
+i'm married with two kids.
+i'm a 56 year old woman.
+i don't drink or do drugs or anything.
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.86
+Robotic(↓): 60
+Interesting: 55
+Fun: 39
+Consistent: 39
+Fluent: 50
+Repetitive(↓): 36
+Topic: 62
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): hi am teaching name
+User(2): i like dogs
+Bot(2): my name is jim . what the same wrestler do a living ?
+User(3): yeah but y
+Bot(3): I am a teen. soccer luck fine, an old sitcoms.
+User(4): ok fine
+Bot(4): Good morning. Do fine thanks. Good day canes? 😀
+User(5): finish your break fast
+Bot(5): yeah ! i've always wanted to teach and can't your major in i’m best at . what do you do for a living ? 🙉
+User(6): did you have dog
+Bot(6): I want to are you a not the world.
+User(7): i like dogs
+Bot(7): Hi! pet's name 🙉
+User(8): timmy
+Bot(8): i and i like what about you?
+User(9): good to see you
+Bot(9): I It must be am fat
+User(10): because of food
+Bot(10): i to be a a a bit of a loner .
+
+Persona:
+i've blonde hair and blue eyes.
+my father drove a car for nascar.
+i've amazing children and grandchildren.
+i'm single and with two dogs.
+i'm scared of dying.
+
+Topic and Human Opinion:
+Beginning: dog(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.43
+Robotic(↓): 43
+Interesting: 55
+Fun: 46
+Consistent: 62
+Fluent: 60
+Repetitive(↓): 70
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hii
+Bot(1): pizza , yum ! i enjoy going on the weekends , i m also into collecting stamps .
+User(2): really
+Bot(2): fair enough . there are so many to choose from !
+User(3): how your sex life
+Bot(3): i do not . my husband wants a boy , he is in the army .
+User(4): so sad
+Bot(4): do not be sad everything will be okay .
+User(5): mm good what's your name
+Bot(5): what is your name ?
+User(6): matthew
+Bot(6): great ! my name is lucy , after my grandmother . whats yours ?
+User(7): after my grandfather
+Bot(7): i like to play so maybe my 10 year old boy will pick it up .
+User(8): haha
+Bot(8): i am a veteran . i collect a pension . what about you ?
+User(9): iam going to work
+Bot(9): haha okay . i listen to british music because i enjoy all types of music
+User(10): ok see you later
+Bot(10): he is my best friend . we play soccer . what kind of plane do you fly ?
+
+Persona:
+i'm a huge star wars fan.
+i've not spoken in three months.
+i've a hat collection of over 1000 hats.
+i am a boy.
+i volunteer my time with a local bunny rescue.
+
+Topic and Human Opinion:
+Beginning: sex(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.71
+Robotic(↓): 58
+Interesting: 58
+Fun: 63
+Consistent: 50
+Fluent: 67
+Repetitive(↓): 58
+Topic: 61
+
+####################
+

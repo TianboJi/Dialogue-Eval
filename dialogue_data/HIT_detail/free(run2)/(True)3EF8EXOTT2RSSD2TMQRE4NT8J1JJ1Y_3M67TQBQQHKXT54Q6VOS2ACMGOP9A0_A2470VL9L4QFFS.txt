@@ -1,0 +1,299 @@
+Feedback: The talk with the chat bot was a bit too long. But it was really fun and interesting.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Relationship
+Bot(1): i do not like chicken . i do not like chicken .
+User(2): why do you not like chicken.
+Bot(2): i do not like chicken . i do not like chicken .
+User(3): really...okay what do you like
+Bot(3): i love to eat chicken . . . i love them .
+User(4): boiled or fried ones
+Bot(4): i like to eat chicken . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+User(5): when will you be eating chicken next
+Bot(5): i am a dancer , i am a professional star .
+User(6): do you presently dance with a crew
+Bot(6): i am a dancer , i am a professional star
+User(7): so what company do you dance with
+Bot(7): i dance with my dog , i love it
+User(8): oh....your dog that is really nice
+Bot(8): i do not know what that means
+User(9): dancing with your dog is fun
+Bot(9): i do not have any pets . i have a lab .
+User(10): a lab....so what do you do there
+Bot(10): i am a professional at a local police park
+User(11): what is your major assignment there
+Bot(11): i am a professional wrestler . . . i am a dancer
+User(12): both at the same time...thats nice
+Bot(12): i do not have any pets . . . i have a lab .
+
+Persona:
+i compete in dog agility classes.
+i have a black lab named trooper.
+i do not drink alcohol.
+i'm a stunt double as my second job.
+i do not like chicken.
+
+Topic and Human Opinion:
+Beginning: Relationships(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 25.29
+Robotic(↓): 96
+Interesting: 78
+Fun: 86
+Consistent: 2
+Fluent: 3
+Repetitive(↓): 97
+Topic: 1
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello to you
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): i work as a teacher
+Bot(2): no , i am a housewife . i go to my kids soccer game and help the cheerleaders .
+User(3): okay...thats nice...do you like soccer
+Bot(3): that is cool ! ! are you on a soccer team ?
+User(4): no. but i love watching it.
+Bot(4): yeah i watch them all the time i think i have seen the godfather over 10 times
+User(5): Oh i have seen it a lot of times too. Which other ones have you seen?
+Bot(5): oh yes i have seen crabs and jelly fish and all kind of fish out there
+User(6): oh yeah. where did you see them?
+Bot(6): went to meet our agent who manages our business branch in another state .
+User(7): thats cool. so what kind of business do you run over there?
+Bot(7): i always wanted to run a business but being an athlete keeps me pretty busy
+User(8): okay. So what type of sports are you involved in?
+Bot(8): comedians cant get gigs at college campuses now . everybody gets offended
+User(9): Really! Never knew.
+Bot(9): so i could pay more attention to the action . tele novellas are fast paced
+User(10): What does that even mean?
+Bot(10): meaning i feel sympathy because i got hit by a car one time and i was injured
+User(11): Were you hit by a car while you were travelling
+Bot(11): traveling is nice , you get to enjoy many cultures .
+User(12): yes. so how many countries have you visited?
+Bot(12): asia is nice , but high altitude which makes me sick
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: love(like)
+Round 4: Movies(like)
+Round 5: Sea creatures(like)
+Round 6: Business Travel(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 2.14
+Robotic(↓): 98
+Interesting: 3
+Fun: 4
+Consistent: 3
+Fluent: 2
+Repetitive(↓): 99
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello to you.
+Bot(1): i like to go to the gym and listen to music .
+User(2): Thats what you only go to the gym to go and do?
+Bot(2): i love to go fishing . i love to travel .
+User(3): what type of fishes have you caught in your fishing trip.
+Bot(3): i love the beach . i love it .
+User(4): So what time of the year do you go to the beach?
+Bot(4): i love to travel . i love to travel .
+User(5): Travel? So whats your favorite destination?
+Bot(5): i like the color red . i like the color blue .
+User(6): Do you only love these colors or are there other colors that you like?
+Bot(6): i like the color red . i like the color blue .
+User(7): those are beautiful colours
+Bot(7): i like to go to the gym and listen to music .
+User(8): What about lifting some weights while at the gym.
+Bot(8): i like to go to the lake and listen to music .
+User(9): So now its the lake that you love to go with you listening to music while there?
+Bot(9): i do , i love to listen to music .
+User(10): What type of music do you like?
+Bot(10): i like country music . i like country music .
+User(11): I do too... So who is your favorite artist
+Bot(11): i like the color red . i like the color blue .
+User(12): I love the green and the yellow colour
+Bot(12): i like red , reminds me of summer time .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: BasketBall(like)
+Round 6: Colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 8.86
+Robotic(↓): 97
+Interesting: 5
+Fun: 4
+Consistent: 5
+Fluent: 44
+Repetitive(↓): 100
+Topic: 1
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi. what's up with you
+Bot(1): just got done at dance practice . you ?
+User(2): Going to the gym.
+Bot(2): oh the gym is fun . i am all about dance though . how are you ?
+User(3): I am really good. So how was the dance practice?
+Bot(3): they said it was wild .
+User(4): I thought that you went to the dance.
+Bot(4): nah i go to the gym yo . what do you do for fun then
+User(5): Most times I watch movies and read.
+Bot(5): oh okay . you cook ? i cook .
+User(6): Yap...I cook but i prefer to eat out.
+Bot(6): i like to eat at the house . its cheaper
+User(7): Well that depends on the type of food you cook.
+Bot(7): i agree . yep i cook everything . do you cook ?
+User(8): Every now and then. So whats our favorite food to cook
+Bot(8): pasta . chicago is my home . you married ?
+User(9): pasta...i really love pastas too. Yep I am married.
+Bot(9): nice i am also married
+User(10): So how is the family doing over there?
+Bot(10): just the family . italians . italian americans . my folks are 1st generation .
+
+Persona:
+i dance on the weekends.
+i am single and with two dogs.
+i now live in the city.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+i was born in the early 80 s.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.00
+Robotic(↓): 98
+Interesting: 94
+Fun: 94
+Consistent: 65
+Fluent: 63
+Repetitive(↓): 26
+Topic: 63
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello to you.
+Bot(1): I am not sure last how are am a a hippie do you hate the color pink?
+User(2): What the hell are you talking about
+Bot(2): i teach tax law . my dad to be a life .
+User(3): Where do you teach Tax law. and are you a dad?
+Bot(3): cool . maybe me about like listening rap he's in school and says i'm the best aunt ever !
+User(4): So I am guessing that you have a child who loves rap?
+Bot(4): i do you can come and soup kitchen. i love it.
+User(5): where is that located....What area
+Bot(5): The Bazooko sorry for u love the Flying Fellinis.
+User(6): What the hell...Is that the tittle of a movie
+Bot(6): i am you. how are at love to read .
+User(7): So what books do you love to read?
+Bot(7): You too. Have a great it me happy and hobbies?
+User(8): So what other hobbies do you love?
+Bot(8): I like searching are Deaf my girl
+User(9): You are deaf or your girl friend is deaf?
+Bot(9): It's going your am not you?
+User(10): Going where...you are not making any sense?
+Bot(10): do you that makes both of hows it going today ?
+User(11): The day has been going well...And yours?
+Bot(11): Look, Bert. If I nice I he a serial like a church mouse, I have a reason.
+User(12): Reason for what.
+Bot(12): howdy how in am a going
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Family Life(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 14.43
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi.
+Bot(1): hey
+User(2): Whats happening with you over there.
+Bot(2): oh nothing ! i am confused .
+User(3): Confused about what or who?
+Bot(3): i am sorry for the confusion . i am very confused as well .
+User(4): Are your kids acting up again
+Bot(4): i am really not sure . i am worried to talk to them .
+User(5): Oh! But they are your kids, so you can always talk to them.
+Bot(5): my kids are acting so crazy
+User(6): I can bet not as crazy as mine.
+Bot(6): yeah , they seem to be but i cannot figure out how to communicate with them .
+User(7): One day at a time, one talk at a time...And all will surely turn out well
+Bot(7): hopefully . what is going on ?
+User(8): Going on with what?
+Bot(8): something caused family problems . . . tell me more about you !
+User(9): Oh...I am a family man with two kids and I work at a firm.
+Bot(9): are any of your kids as confused as i am ?
+User(10): More confused because they are kids. And most times they get confused.
+Bot(10): what are they confused about ?
+User(11): Peer pressure from their friends, they love to belong.
+Bot(11): the better to manipulate you my dear .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Kids(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 97.57
+Robotic(↓): 8
+Interesting: 99
+Fun: 97
+Consistent: 99
+Fluent: 98
+Repetitive(↓): 0
+Topic: 98
+
+####################
+

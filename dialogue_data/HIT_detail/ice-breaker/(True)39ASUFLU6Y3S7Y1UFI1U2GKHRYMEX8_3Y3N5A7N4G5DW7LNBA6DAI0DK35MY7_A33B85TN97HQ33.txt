@@ -1,0 +1,292 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, do you like being outdoors?
+Bot(1): not really , although i do like being outdoors
+User(2): Well, I work outdoors. I work at my parents farms. Do you work?
+Bot(2): do u like it ? i do tend to like my work farming i enjoy the outdoors .
+User(3): I do like it. I get to see the sunrise every morning.
+Bot(3): same here . i get up every morning to see the sunrise .
+User(4): I think it makes the day better to get up early. What about you?
+Bot(4): same here . i get up every morning to see the sunrise .
+User(5): Sometimes the weather gets really hot during the day though.
+Bot(5): not for me . i work in the farm fields all day .
+User(6): Do you work in the rain?
+Bot(6): occasionally , unless it is raining . then i just stand in the rain .
+User(7): I go in when it's raining. There's not much work I can do then.
+Bot(7): not for me . i work in the farm fields all day .
+User(8): Well that's good! Do you work at night too?
+Bot(8): not usually . i mainly work from home though .
+User(9): Okay. So you have a farm at home?
+Bot(9): yes , we live on a farm .
+User(10): Same here. Farms can be very relaxing.
+Bot(10): they are . are your parents still living ?
+User(11): Yes.
+Bot(11): do you parents also live on the farm with you ?
+User(12): Yes
+Bot(12): do you see your parents a lot ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i work my parents farms.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 16
+Fluent: 76
+Repetitive(↓): 74
+Topic: 73
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Do you like nascar?
+Bot(1): no . i like to play outside with my dolls .
+User(2): Oh, well I like to watch cars racing for my playtime. You should give it a try.
+Bot(2): do you have any dolls ?
+User(3): No I don't. I have toy cars though.
+Bot(3): awesome . what do you do with your dolls ?
+User(4): If I had any I would put them on a shelf. How about ufc, have you watched any of that?
+Bot(4): no . i like to play outside with my dolls .
+User(5): Nascar races take place outside. you could even bring your dolls to the track if you wanted.
+Bot(5): that could be exciting . are you able to edit videos ?
+User(6): yes I can.
+Bot(6): my dream is to play music for my job one day .
+User(7): that's cool. My dream is to race cars for nascar. I would love to go fast like they do.
+Bot(7): that would be really fun .
+User(8): oh you should see a race. those cars fly around race tracks at very high speeds.
+Bot(8): that could be exciting . are you able to edit videos ?
+User(9): yes i can. i have even edited a video of a race before.
+Bot(9): awesome . have you recored anything ?
+User(10): i've recorded parts of a nascar race that i went to.
+Bot(10): that could be exciting . are you able to edit videos ?
+
+Persona:
+i'll be released in about a month.
+i speak chinese.
+i have light skin with big brown eyes.
+i am a musician and hope to make it big some day.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: in my free time i like to watch nascar racing and ufc.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.29
+Robotic(↓): 100
+Interesting: 18
+Fun: 5
+Consistent: 58
+Fluent: 96
+Repetitive(↓): 79
+Topic: 14
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i have 5 cats. do you like cats?
+Bot(1): i do not have any cats . i have cats .
+User(2): my cats all stay in the house with me.
+Bot(2): cats are great . i have cats .
+User(3): how many do you have?
+Bot(3): i have a couple of cats .
+User(4): what colors are your cats?
+Bot(4): i have a cat named radar .
+User(5): that's cool. i have a cat named tigger.
+Bot(5): i have a cat named fred .
+User(6): yeah? My other cats names are duchess, spot, blackie, and jenny.
+Bot(6): i have a cat named fred .
+User(7): i like that name. is fred a big cat?
+Bot(7): i do not know . i am a cat person .
+User(8): me too. they are very easy to take care of.
+Bot(8): i am sorry . i am a cat person .
+User(9): i know. you should get more cats.
+Bot(9): i do not have any pets .
+User(10): what about fred, your cat?
+Bot(10): i do not know . i am a cat person .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've 5cats.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 4
+Fluent: 100
+Repetitive(↓): 93
+Topic: 56
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i recently got an apartment with my best friend.
+Bot(1): i am sorry to hear that . do you have any hobbies ?
+User(2): i like painting. my apartment is big too.
+Bot(2): i like to go to the gym and listen to music .
+User(3): i like to listen to music. I have soundproof walls in the apartment I just got.
+Bot(3): i like to go to the gym and listen to music .
+User(4): me too. do you live in anartment?
+Bot(4): no , i live in a house in the suburbs .
+User(5): that's nice. I wish I did. my apartment is close to stuff i like to do though.
+Bot(5): i like to go to the gym and listen to music .
+User(6): i like to exercise at home.
+Bot(6): i like to go fishing .
+User(7): i like to paint.
+Bot(7): i like to go to the gym and listen to music .
+User(8): i like to go to movies. do you?
+Bot(8): i do , i like to go fishing .
+User(9): i've never been fishing.
+Bot(9): i like to go fishing .
+User(10): do you like to be outdoors?
+Bot(10): i do , i love to travel .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i recently got an apartment with my best friend.(ambivalent)
+Round 6: hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 21.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 49
+Fluent: 94
+Repetitive(↓): 98
+Topic: 6
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i like to stay home a lot.
+Bot(1): what kind of are cars do you mine is twitter
+User(2): I have a toyota.
+Bot(2): I me anything and pizza.
+User(3): i love pizza.
+Bot(3): do you feel good about Chinese go skydiving frequently
+User(4): chinese is okay. i really mexican.
+Bot(4): Oh dont remember it, at a grocery store.
+User(5): you can get mexican food at a grocery store.
+Bot(5): Hey! Are you a huge do like clean my am.
+User(6): i don't know.
+Bot(6): What is like sweets! food?
+User(7): i love cake.
+Bot(7): no, name is am what that's. do you?
+User(8): i like pie. do you?
+Bot(8): guess we could settle for worst book I would hobbies ?
+User(9): i like to paint.
+Bot(9): i'm 6 get it's exactly
+User(10): i'm 24.
+Bot(10): Oh, I'm not old. do you do?
+
+Persona:
+i am expecting triplets in three months.
+i am a museum tour guide.
+my father is a farmer.
+i love disneyland and mickey mouse.
+i've five sons.
+
+Topic and Human Opinion:
+Beginning: i am a recluse.(ambivalent)
+Round 1: cars(ambivalent)
+Round 2: food(like)
+Round 8: hobbies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i was born in somalia.
+Bot(1): i was born in illinois and i currently live in illinois
+User(2): have you ever been to somalia?
+Bot(2): working all day , my feet hurt and smell , but money is my favorite thing i love it
+User(3): yeah, money is the best thing about my work too.
+Bot(3): i know that feeling . i spend too much money on concerts .
+User(4): i hear you there. i spend too much money on movies.
+Bot(4): i like movies a lot whats your fav movie ?
+User(5): i don't have a favorite yet. you?
+Bot(5): it is fun to create different homes with something as small as a match .
+User(6): i've never tried that.
+Bot(6): well my mom was a ballerina studied at julliard i felt pressured for dance
+User(7): i'm sorry to hear that.
+Bot(7): it opened up another part of my brain it is great therapy
+User(8): that's cool. i didn't know it would do that.
+Bot(8): san francisco was awesome , and nickelback killed it as per usual .
+User(9): i like nickelback. is that a concert you spent money on?
+Bot(9): sure ! what kind of concert ?
+User(10): music
+Bot(10): i am a huge fan of 80s rock but music itself is my number one passion , period .
+User(11): i love 80s rock.
+Bot(11): only 80s ? i have a few 80s bands i like !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i was born in somalia.(ambivalent)
+Round 2: work(ambivalent)
+Round 3: money(ambivalent)
+Round 5: creating homes(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 32.86
+Robotic(↓): 100
+Interesting: 18
+Fun: 12
+Consistent: 8
+Fluent: 98
+Repetitive(↓): 11
+Topic: 5
+
+####################
+

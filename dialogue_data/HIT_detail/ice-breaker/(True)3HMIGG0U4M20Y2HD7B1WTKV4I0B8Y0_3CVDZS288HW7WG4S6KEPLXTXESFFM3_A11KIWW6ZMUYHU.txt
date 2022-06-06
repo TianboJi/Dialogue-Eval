@@ -1,0 +1,333 @@
+Feedback: It was interesting talking with a bot, but there was no doubt that it was a bot.  Some of the conversation was garbled with nonsense, but at other times the bot did a good job of talking.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi! I understand that you are a dog owner.
+Bot(1): i do not have any pets , but i do like to go fishing .
+User(2): I like to go fishing as well and I take my dogs with me when I go.
+Bot(2): i love the beach . i love it .
+User(3): Do you like cats? Would you consider getting a cat as a pet?
+Bot(3): i do not have any pets . i do not have any pets .
+User(4): I know, but would you like to own one?
+Bot(4): i do not know . i am a big fan of classical music .
+User(5): Who are some of your favorite composers?
+Bot(5): i like the color red . i like the color blue .
+User(6): I thought you wanted to talk about classical music.
+Bot(6): i like to listen to music .
+User(7): What other types of music do you enjoy?
+Bot(7): i like country music . what about you ?
+User(8): I like country music, but Rock is my favorite.
+Bot(8): i like to listen to music .
+User(9): Which Country music groups do you like the best?
+Bot(9): i do , i love it .
+User(10): Do you have a favorite group?
+Bot(10): i like the oldies , and the outdoors .
+User(11): Country oldies? Which Singers?
+Bot(11): no , i do not . i like to go to the park .
+User(12): Do you listen to music in the park?
+Bot(12): no , i do not . i like to go out to eat .
+User(13): You seem to be a bit distracted, what would you like to talk about?
+Bot(13): i am a student , but i am a student .
+User(14): What classes are you taking?
+Bot(14): i am a student , i am a teacher .
+User(15): What classes do you teach?
+Bot(15): i do not , but i do not like to cook .
+
+Persona:
+i've a dogs.
+i've short hair.
+i was forced to marry when i was a.
+my pets name is charlie.
+i live in california but the recording artist market was dead last year.
+
+Topic and Human Opinion:
+Beginning: i have a dogs.(like)
+Round 2: Cats(like)
+Round 4: Classical Music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 4.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 3
+Fluent: 17
+Repetitive(↓): 89
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Tell me about your relationship.
+Bot(1): i am a mom in her forties and have two sons in high school
+User(2): It is challenging to raise teenagers.
+Bot(2): i have no idea what it is like to be a farmer . i am a city girl
+User(3): I also enjoy being inside, there are many ways to spend your time indoors.
+Bot(3): there are a lot of orchards near me , eight in a three mile radius .
+User(4): Can you see them from your window?
+Bot(4): no , i watch them on my roof
+User(5): Do you have a balcony up on your roof?
+Bot(5): no , i watch them on my roof
+User(6): Do you spend a lot of time up on your roof?
+Bot(6): well if it is for fun in the backyard i do .
+User(7): I thought that you prefer to spend your time inside.
+Bot(7): as long as the weather holds , i do roofing .
+User(8): Do you prefer being inside?
+Bot(8): i like it because i can walk with my kids and be safe .
+User(9): How often do you get the chance to play softball?
+Bot(9): i play baseball every weekend .
+User(10): Who do you play with?
+Bot(10): i am a high school junior and i play football and baseball .
+User(11): That sounds fun. How long have you played softball?
+Bot(11): since i can remember . i enjoy it a lot .
+User(12): What position do you play?
+Bot(12): i am started shortstop . i am in baseball team .
+User(13): How many games did you win last season?
+Bot(13): i played baseball for 9 years !
+User(14): Have you been in the playoffs?
+Bot(14): no , no time since i have been in a new team
+
+Persona:
+i enjoy coloring books.
+my father is a farmer.
+i will graduate from high school in two years.
+i have five sons.
+i coach little league baseball.
+
+Topic and Human Opinion:
+Beginning: i am in an open polyamorous relationship.(ambivalent)
+Round 2: i prefer being inside.(like)
+Round 8: i love playing softball.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user wants the bot to change the topic.(dislike)
+Round 8: The user wants the bot to change the topic.(dislike)
+
+Revised avg score: 47.71
+Robotic(↓): 69
+Interesting: 52
+Fun: 34
+Consistent: 37
+Fluent: 54
+Repetitive(↓): 5
+Topic: 31
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What are your favorite places to shop for organic food?
+Bot(1): i love to shop for organic food
+User(2): what do you like about it?
+Bot(2): i like to eat organic food .
+User(3): Why do you like organic food?
+Bot(3): i like organic food . i like to eat organic .
+User(4): what type of organic food do you buy?
+Bot(4): i like to eat organic food .
+User(5): That's great! Where do you live?
+Bot(5): canada , i live in canada .
+User(6): What part of Canada?
+Bot(6): i live in canada , i live in canada
+User(7): I have never been to canada, but I would like to visit.
+Bot(7): i live in canada , i live in canada
+User(8): What do you spend your spare time doing in Canada?
+Bot(8): i go to canada and go to the mall
+User(9): What do you shop for while at the mall?
+Bot(9): i shop for a living .
+User(10): Does it pay well?
+Bot(10): i shop for a living .
+User(11): Are you a paid assistant that shops for other people?
+Bot(11): yes , i do . i am a full time student
+User(12): what are you majoring in at school?
+Bot(12): i am in school right now .
+User(13): what classes do you take?
+Bot(13): i am a student , but i am a student .
+User(14): what is your best class?
+Bot(14): i am going to school for a few years .
+User(15): What is your field of study?
+Bot(15): math , i am a student .
+User(16): What do you plan to do with your math degree?
+Bot(16): i want to be a teacher
+User(17): that's great! what age group will you teach?
+Bot(17): i am going to be a teacher .
+
+Persona:
+i have short brown hair.
+i'm four years old.
+i live in canada.
+my boyfriend and i are moving into an apartment together next week.
+i had cancer but its gone now.
+
+Topic and Human Opinion:
+Beginning: i buy only organic food products.(like)
+Round 4: i recently got an apartment with my best friend.(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user wants the bot to change the topic.(like)
+
+Revised avg score: 35.43
+Robotic(↓): 90
+Interesting: 34
+Fun: 33
+Consistent: 40
+Fluent: 46
+Repetitive(↓): 58
+Topic: 43
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How often do you party?
+Bot(1): I am I should try a construction company
+User(2): Do you party all night long and then get up and go to work in the morning?
+Bot(2): that sounds like with sea ok i do you work?
+User(3): Where do you work?
+Bot(3): What is How about color?
+User(4): Do you have a job?
+Bot(4): oh really ? i've been married for for a What is .
+User(5): What is your favorite color?
+Bot(5): i doing fine.. Bdw did you but managing the restaurant with my brothers is great !
+User(6): Ok, lets talk about your work with your brother, what type of work do you do at the restaurant?
+Bot(6): i to meet beatles .
+User(7): tell me about beatles.
+Bot(7): i you work in a shops . how about you ?
+User(8): Is that where you meet beatles?
+Bot(8): I you like to play i want to do yet.
+User(9): What shop do you work in?
+Bot(9): i sorts so texas actually
+User(10): Do you live in Texas?
+Bot(10): yes , i do . i love to play , studying nothing, i play mobile sports .
+User(11): what sports do you play?
+Bot(11): I wish in a homeless not i am not doing that
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a party animal.(like)
+Round 2: work(ambivalent)
+Round 4: color(like)
+Round 6: beatles(ambivalent)
+Round 10: mobile sports in texas(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 2.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 80
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): How long i your hair?
+Bot(1): i have long hair , it is nice .
+User(2): Do you ever wear it in a braid?
+Bot(2): i have always had long black hair !
+User(3): Is your hair brown or black?
+Bot(3): brown hair ! how about you ?
+User(4): I have brown hair also, but it is not curly.
+Bot(4): that is cool . my best friend has dark curly hair too . his boyfriend loves it
+User(5): What color of hair do your parents have?
+Bot(5): to what color was your hair ?
+User(6): My hair is still brown. Do your siblings also have brown hair?
+Bot(6): i have long brown hair and blue eyes !
+User(7): How many times a week do you eat out with friends?
+Bot(7): me and my kids like to go hiking during the summer . love the weather .
+User(8): that sounds like fun. How many kids do you have?
+Bot(8): four girls . do you have any ?
+User(9): Yes I have three kids.
+Bot(9): i am 12 years old . i like to play quake using the slackware linux ! ! ! ! ! !
+User(10): How often do you play?
+Bot(10): electric violin . and alot of imagine dragons , i love them .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've brown curly hair.(ambivalent)
+Round 6: i love eating out with friends.(like)
+Round 7: hiking in the summer(ambivalent)
+Round 9: playing quake using the slackware linux(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user wants the bot to change the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 11.00
+Robotic(↓): 93
+Interesting: 14
+Fun: 0
+Consistent: 6
+Fluent: 3
+Repetitive(↓): 53
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like yellow too, but my favorite color is teal.
+Bot(1): that yellow color , its my favorite for sure !
+User(2): Is your home decorated in yellow?
+Bot(2): yes yellow is so i paint my walls that colour
+User(3): Do you also like to dress in yellow?
+Bot(3): yes
+User(4): What other colors do you like?
+Bot(4): i like a lot of different colors , but i guess my favorite would be teal .
+User(5): have you changed your mind about yellow?
+Bot(5): yes ! i absolutely love teal and yellow . you ?
+User(6): Teal and purple are my favorites.
+Bot(6): i prefer teal , i have so much in that color .
+User(7): is your car yellow or teal?
+Bot(7): i do not have a preference , both are pretty . do you have any hobbies ?
+User(8): I enjoy hiking and camping, how about you?
+Bot(8): i painted my house yellow , what is your favorite color ?
+User(9): I told you already, can you remember?
+Bot(9): yes , you said that already . do you have memory issues ?
+User(10): It appears that you do. What hobbies do you like?
+Bot(10): i painted my house yellow , what is your favorite color ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite color is yellow.(like)
+Round 7: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 34.57
+Robotic(↓): 87
+Interesting: 38
+Fun: 26
+Consistent: 31
+Fluent: 30
+Repetitive(↓): 65
+Topic: 69
+
+####################
+

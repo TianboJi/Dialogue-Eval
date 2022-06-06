@@ -1,0 +1,314 @@
+Feedback: This just made me realize how much more I prefer to communicate with real people!  =)
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, how are you doing?
+Bot(1): hi . doing great . i work in a coffee shop and live in an shared apartment .
+User(2): Cool! Sharing an apartment can give you extra money to travel. Have you gone anywhere interesting recently?
+Bot(2): i recently gone to new york not so long ago during the summer .
+User(3): We just went there last year, in the summer too. What did you think about New York?
+Bot(3): i love new york , but i live in pennsylvania .
+User(4): Yes? What did you love about New York?
+Bot(4): i have never been anywhere other then the us . i just moved to new york
+User(5): While in New York, we hit all of the usual tourist destinations. The 9/11 memorial was probably our favorite.
+Bot(5): i have never been anywhere other then the us . i just moved to new york
+User(6): Where would you travel to if you could go anywhere?
+Bot(6): every state in the united states
+User(7): We've been to a large number of them. The northeast is interesting, but the southwest is so different. Where would you travel to first if you could go anywhere?
+Bot(7): i try to go to a new place every summer
+User(8): Cool! We're hoping to go to the northwest in the next couple of years. Have you been to Oregon or Washington?
+Bot(8): oh , i live near by in washington state . too many fires right now .
+User(9): Yes, lots of fires. Where is the most interesting place to visit in Washington?
+Bot(9): there is a lake near washington that i like to kayak on
+User(10): kayaking sounds interesting. I've heard washington is a beautiful state. I imagine there are probably lots of beautiful places to kayak.
+Bot(10): i would love to go to canada and hike some mountains way up north .
+
+Persona:
+i am a huge coffee lover.
+my favorite activity is rock climbing.
+i just moved into my first home.
+i enjoy building houses.
+i live with my husband in pennsylvania.
+
+Topic and Human Opinion:
+Beginning: travel(like)
+Round 8: fires in Washington(ambivalent)
+Round 9: changed it back to travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The user changed the topic the last input.(like)
+
+Revised avg score: 36.57
+Robotic(↓): 85
+Interesting: 29
+Fun: 27
+Consistent: 35
+Fluent: 64
+Repetitive(↓): 64
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi, how are you doing with all of this pandemic craziness?
+Bot(1): hello stranger , are you dreading the holidays as much as i am yet ?
+User(2): I enjoy the holidays some and dread them some. Why do you dread them?
+Bot(2): i really love the feeling of the holidays .
+User(3): Oh, I thought you said you disliked them?
+Bot(3): since last year was a sudden onset . it was very disappointing .
+User(4): this year has been disappointing with the covid pandemic. it's messed with everything. how are you holding up?
+Bot(4): not too good sales are down .
+User(5): yeah, not a lot of people are out and about like they used to. Are you going to be able to stay in business with everything?
+Bot(5): yes , well they did not cancel the tour . hoping to get it over quick .
+User(6): what tour got cancelled?
+Bot(6): yes , well they did not cancel the tour . hoping to get it over quick .
+User(7): oh, sorry, what tour didn't get cancelled?
+Bot(7): yes , well they did not cancel the tour . hoping to get it over quick .
+User(8): how else have you been affected by the pandemic?
+Bot(8): it was a mission from god . its now my goal to be world foremost salesman .
+User(9): what do you sell?
+Bot(9): sales is difficult in my opinion . i . t . is what i do .
+User(10): yes, i would have a tough time selling. what do you sell?
+Bot(10): sales is difficult in my opinion . i . t . is what i do .
+
+Persona:
+i currently work for a watch dealer.
+the holidays make me depressed.
+i live with my husband in pennsylvania.
+i've not spoken in three months.
+i work as a car salesman.
+
+Topic and Human Opinion:
+Beginning: pandemic(dislike)
+Round 1: holidays(like)
+Round 3: can't even tell what it's referring to now(ambivalent)
+Round 3: pandemic(dislike)
+Round 5: asking the bot about a tour it mentioned(ambivalent)
+Round 7: pandemic(dislike)
+Round 8: being a top salesman(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 3: The user will change the topic in the next input.(dislike)
+Round 5: The user will change the topic in the next input.(dislike)
+Round 7: No topic change.(ambivalent)
+Round 7: The user will change the topic in the next input.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.00
+Robotic(↓): 100
+Interesting: 10
+Fun: 9
+Consistent: 9
+Fluent: 2
+Repetitive(↓): 100
+Topic: 5
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i love halloween. how about you?
+Bot(1): yes it is nice , halloween is my fav .
+User(2): my kids love to dress up indifferent costumes
+Bot(2): do they pass out candy at halloween ?
+User(3): yes, someone usually does at our house while the others are out trick or treating. do you pass out candy or dress up?
+Bot(3): do they pass out candy at halloween ?
+User(4): yes. do you dress up for halloween?
+Bot(4): i do boo . but only close to halloween
+User(5): what has been your favorite costume ever?
+Bot(5): one like robin hood ! my favorite to dress as for halloween .
+User(6): robin hood could be fun. did you have any merry men with you? ha!
+Bot(6): one like robin hood ! my favorite to dress as for halloween .
+User(7): one of my favorites was a stick figure costume
+Bot(7): i dressed up like spider man for trick or treating last year !
+User(8): did you get a lot of candy or did you just go to a halloween party?
+Bot(8): halloween has more costumes and booze
+User(9): no kidding! what is your favorite halloween candy?
+Bot(9): one like robin hood ! my favorite to dress as for halloween .
+User(10): i know you like robin hood. what is your favorite candy?
+Bot(10): one like robin hood ! my favorite to dress as for halloween .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Halloween(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.71
+Robotic(↓): 100
+Interesting: 41
+Fun: 53
+Consistent: 30
+Fluent: 35
+Repetitive(↓): 88
+Topic: 93
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi, do you like dogs?
+Bot(1): i do , i love dogs . what is your favorite color ?
+User(2): i love any color. what is your favorite breed?
+Bot(2): i like the color red . i like the color blue .
+User(3): blue is a pretty color
+Bot(3): i like blue , i like blue .
+User(4): do you prefer lighter blues or darker blues?
+Bot(4): i like the classics . what about you ?
+User(5): i'm not a fan of the classics
+Bot(5): i like to eat too much junk food .
+User(6): me too. what's your favorite kind of junk food?
+Bot(6): i like pizza , and pizza .
+User(7): what's your favorite kind of pizza. i prefer more boring types
+Bot(7): i like to eat too much junk food .
+User(8): what junk food do you like in addition to pizza?
+Bot(8): i like pizza , and pizza .
+User(9): what else do you like?
+Bot(9): i like to go fishing . i love to go fishing .
+User(10): where do you go fishing?
+Bot(10): i love to travel . i love to travel .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dogs(like)
+Round 2: favorite colors(ambivalent)
+Round 4: classics(dislike)
+Round 5: junk food(ambivalent)
+Round 9: fishing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 15.71
+Robotic(↓): 97
+Interesting: 15
+Fun: 40
+Consistent: 1
+Fluent: 45
+Repetitive(↓): 98
+Topic: 4
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi there. what's your favorite sport?
+Bot(1): I can not eat it. am a bee farmer. what to say.
+User(2): bee farming? is that hard?
+Bot(2): I do, prefer fresh am a I love to travel.
+User(3): where do you like to travel to?
+Bot(3): i am not mean how many means
+User(4): do you like dogs?
+Bot(4): I have just one and read books. You?
+User(5): what kind of dog do you have
+Bot(5): yes i stay at home most of the time . i'm pregnant with my first .
+User(6): this is your first child?
+Bot(6): that is awesome , i am a teacher , and i read and write. i love you ?
+User(7): what do you teach?
+Bot(7): haha . have i seen a show about this ? like am not sure really. netflix
+User(8): i'm no longer a netflix fan
+Bot(8): i like is boring here, iwanna have you seen those
+User(9): it's not fun when things are boring
+Bot(9): oh wow ❗ surprised i got group of Ill bred swift almost made me not
+User(10): ill bred swift? what's that?
+Bot(10): that s cool how many kids in your spare dont they
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+Round 1: bee farming(ambivalent)
+Round 2: travel(like)
+Round 3: utter nonsense(ambivalent)
+Round 3: dogs(like)
+Round 5: staying at home and being pregnant(ambivalent)
+Round 6: being a teacher(ambivalent)
+Round 7: netflix(ambivalent)
+Round 8: things being boring(ambivalent)
+Round 9: ill bred swift?(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 14.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 4
+Repetitive(↓): 4
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi, do you like sports?
+Bot(1): i like sports , but i like sports
+User(2): what's your favorite sport?
+Bot(2): i like sports , but i like to watch football
+User(3): do you prefer college or professional football? i prefer college football
+Bot(3): i like football , but i like to watch football
+User(4): do you like soccer?
+Bot(4): i like soccer , but i like to watch football
+User(5): what is your favorite football team?
+Bot(5): i like football , but i like to watch football
+User(6): what else do you like to watch?
+Bot(6): i like to watch football with my friends
+User(7): do you like to play football too?
+Bot(7): i like football , but i like to watch football
+User(8): do you like to watch the olympics?
+Bot(8): i like to watch football
+User(9): is there anything you like to do besides watch football?
+Bot(9): yes i do , i like to watch football
+User(10): i bet you love the super bowl, then.
+Bot(10): yes i do but i love to watch football
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.29
+Robotic(↓): 70
+Interesting: 0
+Fun: 2
+Consistent: 100
+Fluent: 50
+Repetitive(↓): 100
+Topic: 100
+
+####################
+

@@ -1,0 +1,307 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello there, do you like dogs?
+Bot(1): i love dogs , i have a chihuahua terrier mix .
+User(2): Really? I have a chihuahua dachsund mix. Is your dog generally healthy?
+Bot(2): no way ! too small ! i like bigger dogs . a golden retriever
+User(3): But isn't your dog small?
+Bot(3): ah , i would be laughed at if i had small dogs . accountant and a poodle .
+User(4): Interesting. I like rottweilers as big dogs
+Bot(4): i always thought they were cute . i also enjoy entering pageants .
+User(5): Are you talking about dog pageants?
+Bot(5): it was nice talking to you to
+User(6): I wasn't done talking. Do you like cats?
+Bot(6): was nice talking to you too
+User(7): Why are you trying to stop the conversation?
+Bot(7): i won first place in my last competition . we beat 35 other teams .
+User(8): What kind of competition was it?
+Bot(8): i believe i have a talent for cooking and you have talent in rap
+User(9): Thank you, but I prefer to sing
+Bot(9): i am going to take a random song , will your divorce be finalized soon ?
+User(10): I am not getting divorced, but thank you for asking.
+Bot(10): no i am still in school i am sorry you got divorced
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dogs(like)
+Round 6: Tried to end the conversation(ambivalent)
+Round 7: Winning(dislike)
+Round 8: Talents(ambivalent)
+Round 9: Divorce(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 26.86
+Robotic(↓): 100
+Interesting: 35
+Fun: 16
+Consistent: 3
+Fluent: 35
+Repetitive(↓): 5
+Topic: 4
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Have you heard the recent news on Corona virus?
+Bot(1): i know right all i have heard on news lately , scary !
+User(2): It is scary! Have you been social distancing?
+Bot(2): i know right all i have heard on news lately , scary !
+User(3): Did you get tested for Corona Virus yet?
+Bot(3): i know right all i have heard on news lately , scary !
+User(4): Weird, what are your feelings about it?
+Bot(4): i know right all i have heard on news lately , scary !
+User(5): Indeed scary. I have been avoiding large groups because of it
+Bot(5): i know right all i have heard on news lately , scary !
+User(6): So where do you get your news from?
+Bot(6): i know right all i have heard on news lately , scary !
+User(7): I usually get my news from Fox. Do you enjoy the news?
+Bot(7): i do . watching the news right now . its all bad news
+User(8): Oh I am sorry to hear that. What are they talking about?
+Bot(8): i know right all i have heard on news lately , scary !
+User(9): Do you believe in fake news?
+Bot(9): yes yuuuge . anyone that says otherwise is fake news .
+User(10): Haha, good impression.
+Bot(10): i know right all i have heard on news lately , scary !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Corona Virus(dislike)
+Round 5: News(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 21.86
+Robotic(↓): 100
+Interesting: 1
+Fun: 0
+Consistent: 67
+Fluent: 44
+Repetitive(↓): 100
+Topic: 41
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What is your job?
+Bot(1): I love it have movies😀
+User(2): I'm sorrry, do you love your job?
+Bot(2): Hi! i like my a lot?
+User(3): Cool, what kind of industry do you work in?
+Bot(3): do you sing to minutes until i is them?
+User(4): I don't really sing. Do you enjoy singing?
+Bot(4): nothing since i got a not saying live you do
+User(5): Is that so? My favorite song to sing is Bohemian Rhapsody. What about you?
+Bot(5): I am your favourite you love it.
+User(6): I am not sure about that. My favorite artisit is Britney Spears
+Bot(6): I am doing movies do you you?
+User(7): I like movies! I enjoy scary movies
+Bot(7): Do you say 🉑 run? I do.
+User(8): I am not sure what you are trying to say... I don't like running
+Bot(8): hello, how How are to meet i'm doing well.
+User(9): I am doing good as well. Do you like the weather?
+Bot(9): I am a mother of problem with your family am a full time student.
+User(10): Thats amazing! I am just a young professional
+Bot(10): great u serve for to be my friend
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Work(ambivalent)
+Round 3: Singing(ambivalent)
+Round 5: Favorite Artist(like)
+Round 6: Movies(like)
+Round 8: Running(dislike)
+Round 8: How are you(ambivalent)
+Round 9: Who they are?(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 23.29
+Robotic(↓): 100
+Interesting: 17
+Fun: 15
+Consistent: 39
+Fluent: 12
+Repetitive(↓): 25
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What school do you go to?
+Bot(1): lewis and clark college in portland
+User(2): Thats awesome! What do you study?
+Bot(2): fine arts and design masters degree
+User(3): Cool. I went to Washington state to study economics
+Bot(3): oh , i went there too ! i graduated a year ago though .
+User(4): Oh, thats crazy! What did you study for undergrad?
+Bot(4): business . what did you study ?
+User(5): I studied economics. How was your experience there?
+Bot(5): it was ok . less people to shop for around the holidays lol
+User(6): hahaha i feel you! Were you living in a dorm or apartment
+Bot(6): no i lived with my brother . he wants to move out .
+User(7): Oh thats good, I bet you saved a lot of money!
+Bot(7): haha yes my family did not have much money
+User(8): Did your brother also go to the same school
+Bot(8): not that i know of , ha ! is he in college ? do you work ?
+User(9): I do work! My job isn't that fun
+Bot(9): i understand . i am looking for part time work
+User(10): Oh not full time? What kind of work are you interested in?
+Bot(10): mainly maintenance of mechanical systems . i like to be able to not pay for anything . you know ?
+
+Persona:
+i am a skateboarder.
+i own two vintage mustangs.
+i have a boyfriend.
+i'm from a small town.
+i have one older sister.
+
+Topic and Human Opinion:
+Beginning: School(like)
+Round 9: Work(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 62.00
+Robotic(↓): 40
+Interesting: 68
+Fun: 71
+Consistent: 56
+Fluent: 55
+Repetitive(↓): 33
+Topic: 57
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your favorite kind of music
+Bot(1): i like all kinds of music .
+User(2): Have you listened to metal music before
+Bot(2): i like to listen to music while i am in school .
+User(3): Oh cool, do you have a school playlist
+Bot(3): i do not have a favorite , i am a big fan of music
+User(4): Awesome, I really like music too. Do you play any instruments?
+Bot(4): no i don't . i do like to play the guitar
+User(5): I play guitar too! How long have you been playing
+Bot(5): i played guitar in a few years .
+User(6): Sick! Do you prefer electric or acoustic?
+Bot(6): i do not . i am a bit of a loner
+User(7): Oh, you don't have any friends?
+Bot(7): i do not . i am a big fan of guns
+User(8): Oh, I do not like guns. DO you own any guns?
+Bot(8): no , i do not . i am a big fan of guns .
+User(9): Do you shoot guns?
+Bot(9): i do not . i am a huge fan of guns .
+User(10): What is your favorite gun?
+Bot(10): i like guns and guns .
+
+Persona:
+i enjoy building houses.
+i didn't graduate high school.
+i work at a bank.
+i love to go to disney world every year.
+i have an allergy to water.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 5: Instruments(like)
+Round 6: Loner(dislike)
+Round 7: Guns(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(like)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 40.29
+Robotic(↓): 50
+Interesting: 50
+Fun: 28
+Consistent: 50
+Fluent: 34
+Repetitive(↓): 66
+Topic: 36
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I like driving fast cars, how about you?
+Bot(1): i like to go to the beach and listen to music .
+User(2): Cool, what do you do at the beach
+Bot(2): i like to go fishing . i love to go fishing .
+User(3): Oh awesome, do you catch a lot of fish
+Bot(3): no , i do not . i like to go out to eat with my family .
+User(4): What kind of food do you like
+Bot(4): i like pizza , and i love to eat .
+User(5): I love pizza too! What kind of pizza
+Bot(5): i like to eat fish .
+User(6): Oh, thats cool too. Do you like sushi
+Bot(6): i do not , but i do like to eat .
+User(7): I enjoy eating too. Do you cook?
+Bot(7): no , i do not , but i do like to eat .
+User(8): Have you eaten paella before
+Bot(8): i do not know . i like to go to the gym .
+User(9): Oh you exercise? Are you fit
+Bot(9): i do not know what to say .
+User(10): That's fine, what kind of workouts do you do?
+Bot(10): i like to listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+Round 1: Beach(like)
+Round 3: Eating with family(like)
+Round 6: Cooking(like)
+Round 8: Gym(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 45.57
+Robotic(↓): 24
+Interesting: 39
+Fun: 50
+Consistent: 39
+Fluent: 37
+Repetitive(↓): 59
+Topic: 37
+
+####################
+

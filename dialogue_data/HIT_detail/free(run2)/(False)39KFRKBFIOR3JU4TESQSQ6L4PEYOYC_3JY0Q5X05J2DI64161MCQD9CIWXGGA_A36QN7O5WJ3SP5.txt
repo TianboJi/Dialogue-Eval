@@ -1,0 +1,305 @@
+Feedback: nice
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): ya i am fine
+Bot(2): i am doing well . just got done walking my dog .
+User(3): yes i am walking
+Bot(3): i like to go to the gym and listen to music .
+User(4): i like gym
+Bot(4): i like to go to the lake and listen to music .
+User(5): same i am listen music
+Bot(5): i like to listen to music .
+User(6): what music
+Bot(6): i like to listen to music .
+User(7): i like also listen music
+Bot(7): i like to listen to music .
+User(8): i like pop music
+Bot(8): i like the band korn . i love it .
+User(9): i like band big
+Bot(9): i like to go to the gym and listen to music .
+User(10): i like also gym work out
+Bot(10): i like to go to the gym and listen to music .
+User(11): very much i like
+Bot(11): i like to go to the gym and listen to music .
+User(12): yes i am go to gym reagular
+Bot(12): i like to go to the lake and listen to music .
+User(13): i like pop music
+Bot(13): i like the band korn . i love it .
+User(14): i like love
+Bot(14): i like to go to the gym and listen to music .
+User(15): i like pop music
+Bot(15): i like the band korn . i love it .
+User(16): devadas
+Bot(16): i love to cook . i love to cook .
+User(17): i cook maggi
+Bot(17): i like to eat fish .
+User(18): i like meat
+Bot(18): i like to eat fish .
+User(19): i like chicken
+Bot(19): i like to eat fish .
+User(20): i like mutton
+Bot(20): i like to go to the gym and listen to music .
+User(21): i like pop music
+Bot(21): i like the band korn . i love it .
+
+Persona:
+my wife spends all my money.
+i now live in the city.
+my favorite band is the who.
+for vacation i enjoy time at the beach.
+i am a vegan.
+
+Topic and Human Opinion:
+Beginning: dcn nlp(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.29
+Robotic(↓): 66
+Interesting: 72
+Fun: 76
+Consistent: 61
+Fluent: 62
+Repetitive(↓): 67
+Topic: 63
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I love music. younger, I hated rock.
+User(2): i like pop music
+Bot(2): I am great to be a asking 😃
+User(3): yes
+Bot(3): Oh, language do i.
+User(4): i like english
+Bot(4): I love fine how alone.☹
+User(5): i am relation ship
+Bot(5): what is your favorite your me too! But do you have any hobbies?
+User(6): my hobbie is tv
+Bot(6): will you make and an I am hungry
+User(7): i am not hungry
+Bot(7): great about have a you today?
+User(8): i am great
+Bot(8): now where so how do 💬 from
+User(9): yes fine
+Bot(9): oh is do u deaf do you read
+User(10): love u
+Bot(10): i think pasta to but my favourite . i am not very good at it .
+
+Persona:
+my sister is a pole dancer.
+i am married to a doctor.
+i've amazing children and grandchildren.
+i haven't spoken in three months.
+i like doing the treadmill and rowing machine.
+
+Topic and Human Opinion:
+Beginning: gym(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.86
+Robotic(↓): 79
+Interesting: 66
+Fun: 66
+Consistent: 69
+Fluent: 67
+Repetitive(↓): 83
+Topic: 78
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you today ?
+User(2): fine
+Bot(2): i am a stay at home mom i have 3 kids
+User(3): no i am free
+Bot(3): i like to go out for ice cream . i am about to go right now . bye !
+User(4): i like ice cream
+Bot(4): yes , i do like ice cream . sometimes i make my own ice cream at home .
+User(5): i like ice
+Bot(5): ice cream ! ice cream is good . what kind do you like ? i like vanilla !
+User(6): love
+Bot(6): yes . i love that i married my sweetheart
+User(7): i am married
+Bot(7): no i am not married
+User(8): ok
+Bot(8): awesome , i am not from the united states .
+User(9): yes
+Bot(9): you know what you like , that is good . i play the guitar do you know how ?
+User(10): yes
+Bot(10): i am catholic
+
+Persona:
+i don't drink alcohol.
+i play several instruments.
+i am an elementary school teacher.
+i've superpowers.
+i'm married with two kids.
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.14
+Robotic(↓): 85
+Interesting: 67
+Fun: 64
+Consistent: 67
+Fluent: 67
+Repetitive(↓): 78
+Topic: 70
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi , do you have any soda ?
+User(2): yes
+Bot(2): ok
+User(3): yes
+Bot(3): very
+User(4): yes
+Bot(4): very
+User(5): i like
+Bot(5): very
+User(6): yes
+Bot(6): very
+User(7): very
+Bot(7): ok
+User(8): very
+Bot(8): this is a hard worl
+User(9): yes
+Bot(9): this is a hard worl
+User(10): yes
+Bot(10): ok
+
+Persona:
+i'm fluent in english spanish and french.
+i do not drink soda.
+my mom passed away when i was young.
+i've amazing children and grandchildren.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.71
+Robotic(↓): 89
+Interesting: 73
+Fun: 70
+Consistent: 77
+Fluent: 69
+Repetitive(↓): 83
+Topic: 73
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what
+Bot(2): ok
+User(3): the like
+Bot(3): what ?
+User(4): good
+Bot(4): ok
+User(5): ok
+Bot(5): same
+User(6): ok
+Bot(6): same
+User(7): ok
+Bot(7): same
+User(8): ok
+Bot(8): same
+User(9): same
+Bot(9): awesome
+User(10): ok
+Bot(10): yep
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: dog(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.57
+Robotic(↓): 80
+Interesting: 74
+Fun: 77
+Consistent: 72
+Fluent: 70
+Repetitive(↓): 65
+Topic: 69
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): gfgdf
+Bot(2): i am a homebody
+User(3): hgjgfg
+Bot(3): i do not know what that means
+User(4): hjhjhj
+Bot(4): i do not know what that means
+User(5): i love u
+Bot(5): i do not know what that is
+User(6): what aru u do
+Bot(6): i am a nerd i guess
+User(7): kjgh
+Bot(7): i do not know much about computers
+User(8): ,mbnn
+Bot(8): i do not know what that means
+User(9): is computer fault
+Bot(9): i do not know what that means
+User(10): hcvcv
+Bot(10): that's cool i like computers
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.14
+Robotic(↓): 79
+Interesting: 72
+Fun: 70
+Consistent: 70
+Fluent: 68
+Repetitive(↓): 67
+Topic: 59
+
+####################
+

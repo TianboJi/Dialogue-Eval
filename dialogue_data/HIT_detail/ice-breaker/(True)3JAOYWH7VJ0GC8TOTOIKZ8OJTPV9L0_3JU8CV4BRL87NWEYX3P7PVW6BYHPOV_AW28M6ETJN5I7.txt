@@ -1,0 +1,320 @@
+Feedback: Some conversations were very repetitive, off subject. and were nonsensical.  The bot kept going back to the same subjects even after several topic changes. 
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Being born with your heart outside your body sounds painful.
+Bot(1): i am so sorry to hear that . . . what makes it feel better ? new york has my heart
+User(2): An operation to place my heart inside my body makes it feel better.
+Bot(2): nice . heart is actually pretty awesome i have to admit . what do you do for school work ?
+User(3): I am no longer in school.
+Bot(3): i have to remember to make an appt . with the nail salon to cut my long nails
+User(4): What color nail polish do you like?
+Bot(4): my favorite color is blue yours ?
+User(5): My favorite color is red.
+Bot(5): omg that is my favorite color ! ! my iphone is even red ! do you have an iphone ?
+User(6): I have an android phone.
+Bot(6): i have a iphone 6s . what kind of phone do you have ?
+User(7): I have an lg tribute.
+Bot(7): egyptian themed needs orange or hot pink ! ! ! that is the color of my moped ! ! !
+User(8): Where do you ride your moped?
+Bot(8): do you think my grandchildren would think i was cool on a moped ?
+User(9): Yes, they will think you're cool!
+Bot(9): never seen a bear in an african documentary but i guess there is a first for everything
+User(10): I do not think bears live in Africa.
+Bot(10): well bears do not live in africa but yes the wild . i love seeing them daily .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i was born with my heart outside my body.(like)
+Round 2: What do you do for schoolwork?(like)
+Round 3: remember to make appointment at nail salon to cut long nails(like)
+Round 5: do you have an iphone?(like)
+Round 7: egyptian themed needs orange or hot pink!!! that is the color of my moped!(like)
+Round 9: bear in African documentary(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 70.29
+Robotic(↓): 100
+Interesting: 89
+Fun: 90
+Consistent: 70
+Fluent: 62
+Repetitive(↓): 8
+Topic: 89
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Third grade math is hard.
+Bot(1): i love to play with my black hair .
+User(2): Is your hair long or short?
+Bot(2): yes , i do . i love to eat .
+User(3): Me too.
+Bot(3): i do not have long hair . i am blonde .
+User(4): No pork is allowed in a kosher diet.
+Bot(4): i love to eat meat . i love to eat .
+User(5): I do not eat meat.
+Bot(5): i love meat . i love to eat meat .
+User(6): Do you eat fish?
+Bot(6): i do not . i love to eat fish .
+User(7): Eating fish is good for you.
+Bot(7): i do . i love fish .
+User(8): Do you eat shellfish?
+Bot(8): i do not eat meat . i do not eat meat .
+User(9): Kosher kitchens are special.
+Bot(9): i do . i love to eat .
+User(10): I love to eat too.
+Bot(10): i do not eat meat . i do not eat meat .
+
+Persona:
+i enjoy building houses.
+i drive a nissan pathfinder.
+i enjoy mowing my lawn on sunny days.
+i like to take walks.
+i am a blonde girl with really short hair.
+
+Topic and Human Opinion:
+Beginning: i am in the third grade.(like)
+Round 1: i love to play with my black hair(ambivalent)
+Round 2: i love to eat(like)
+Round 3: I have long blonde hair(ambivalent)
+Round 3: i only eat kosher.(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 3: The user wants the bot to change the topic.(ambivalent)
+
+Revised avg score: 23.43
+Robotic(↓): 100
+Interesting: 31
+Fun: 42
+Consistent: 25
+Fluent: 27
+Repetitive(↓): 77
+Topic: 16
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What grade are you in?
+Bot(1): i am in college . i am a student .
+User(2): I am in tenth grade.
+Bot(2): i am sorry to hear that . i am sorry to hear that .
+User(3): Why are you sorry to hear that?
+Bot(3): i am not sure . i am a student .
+User(4): What is your favorite subject?
+Bot(4): i like to go to the gym and listen to music .
+User(5): Is gym your favorite class?
+Bot(5): i like to go to the gym and play the guitar .
+User(6): Do you play the guitar in the gym?
+Bot(6): no , i do not , but i do like to go fishing .
+User(7): Fishing is very relaxing.
+Bot(7): i like to go to the beach and listen to music .
+User(8): Do you fish from the beach?
+Bot(8): no , i do not . i like to go out to eat with my family .
+User(9): I like to go to Mexican restaurants with my family.
+Bot(9): i like to go to the gym and listen to music .
+User(10): Why?
+Bot(10): i am a student , but i am a student .
+User(11): You like to go to the gym and listen to music because you are a student?
+Bot(11): no , i am a teacher . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am currently in high school.(like)
+Round 6: i like to go fishing(like)
+Round 8: I like to go out and eat with my family.(like)
+Round 9: go to the gym to listen to music(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 14.43
+Robotic(↓): 100
+Interesting: 26
+Fun: 22
+Consistent: 6
+Fluent: 29
+Repetitive(↓): 82
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): My father build houses.
+Bot(1): I am you up intresting you?
+User(2): Do you like construction workers?
+Bot(2): most of the people 👭 in my family in i have to like at all
+User(3): Who is in your family?
+Bot(3): that is odd for alaska . i always close friends so you fish !
+User(4): I like to catch fish in Alaska.
+Bot(4): I'm not saying am persuing my right.
+User(5): I love to cook!
+Bot(5): I have never seen a dog. I mine with me almost girl.
+User(6): I have a dog.
+Bot(6): I u Because everybody of it.
+User(7): My dog is a good boy.
+Bot(7): hi it of doing today
+User(8): You are not making sense.
+Bot(8): I am husband can i call of that .
+User(9): Do you eat bacon?
+Bot(9): How work at you have?
+User(10): You are not making sense.
+Bot(10): i'm going to read my house if thats a tons of books from work . 🤠
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my father was a construction worker.(like)
+Round 2: most of the people in my family i have to like at all(dislike)
+Round 3: Alaska, friends, fish(like)
+Round 4: Cooking is fun(like)
+Round 5: never seen a dog(like)
+Round 8: i only eat kosher.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The user will change the topic in the next input.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+Round 8: The user wants the bot to change the topic.(dislike)
+
+Revised avg score: 12.57
+Robotic(↓): 100
+Interesting: 9
+Fun: 5
+Consistent: 3
+Fluent: 0
+Repetitive(↓): 29
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Clean eaters stay away from highly processed foods.
+Bot(1): your mom is right . it is important to take care of teeth . how old are you
+User(2): It's important to brush and floss your teeth.
+Bot(2): your mom is right . it is important to take care of teeth . how old are you
+User(3): You are repeating yourself.
+Bot(3): my mom told me i had to get them to fix my teeth .
+User(4): Do you have cavities in your teeth?
+Bot(4): my mom told me i had to get them to fix my teeth .
+User(5): Are your teeth crocked?
+Bot(5): my mom told me i had to get them to fix my teeth .
+User(6): You are repeating yourself again.
+Bot(6): my mom told me i had to get them to fix my teeth .
+User(7): German shepherds are great dogs!
+Bot(7): my mom told me i had to get them to fix my teeth .
+User(8): We are not talking about teeth now.
+Bot(8): my mom told me i had to get them to fix my teeth .
+User(9): Are you studying to be a lawyer?
+Bot(9): yes . i hope to become a dentist soon .
+User(10): Lawyers are not dentists.
+Bot(10): my mom told me i had to get them to fix my teeth .
+
+Persona:
+my favorite kind of movie is a documentary.
+i used to be pretty but time has not been kind.
+since the surgery i have had strange powers.
+i was born in the early 80 s.
+my mother is a dentist.
+
+Topic and Human Opinion:
+Beginning: they are constantly on my back.(dislike)
+Beginning: i am a clean eater.(like)
+Round 1: taking care of teeth and age(ambivalent)
+Round 6: i have a german shepherd named barnaby.(like)
+Round 8: talking about teeth again(dislike)
+Round 8: i want to be a lawyer.(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: The user wants the bot to change the topic.(ambivalent)
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 6: The user wants the bot to change the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 8: The user wants the bot to change the topic.(like)
+
+Revised avg score: 3.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 15
+Fluent: 9
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): How old are you?
+Bot(1): i am older than you . . . guess !
+User(2): are you 15?
+Bot(2): i am 15 . do you work ? i am in school .
+User(3): I am not working now.
+Bot(3): i teach first grade , where do you work ?
+User(4): I work at home.
+Bot(4): that is good , i am a teacher .
+User(5): I like teachers.
+Bot(5): i did not get to finish college .
+User(6): How long did you go to college?
+Bot(6): i finished school about a year ago . i still want to go back though .
+User(7): What is your major?
+Bot(7): college .
+User(8): Is there a college class that you like a lot?
+Bot(8): it is not my strongest subject .
+User(9): Math is my strongest subject.
+Bot(9): it is not my strongest subject .
+User(10): I am 13 years old.
+Bot(10): i did not get to finish college .
+
+Persona:
+i work as a school teacher.
+i currently work for a watch dealer.
+i did not graduate high school.
+i'm not a good swimmer at all.
+my next language to study is french.
+
+Topic and Human Opinion:
+Beginning: i'm 13 years old.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 76.71
+Robotic(↓): 85
+Interesting: 89
+Fun: 90
+Consistent: 90
+Fluent: 75
+Repetitive(↓): 9
+Topic: 87
+
+####################
+

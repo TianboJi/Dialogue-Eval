@@ -1,0 +1,306 @@
+Feedback: Chatbot is evolving. but it is having problem to stick to a topic as well as it is repetitive.  May be it needs to expand its knowledge bank.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Movies
+Bot(1): hello ! i like movies . what is your favorite movie ?
+User(2): Limelight by charlie chaplin
+Bot(2): madonna
+User(3): Is that your favorite movie or singer
+Bot(3): madonna
+User(4): which part of the movie you like most
+Bot(4): uh , it would depend on the movie i guess
+User(5): You said you like madonna the movie
+Bot(5): i love musicals . i am not sure what movie that is though
+User(6): what is your favorite musical
+Bot(6): madonna
+User(7): ok. bye
+Bot(7): ok bye
+User(8): books
+Bot(8): ok bye
+User(9): hello are you there
+Bot(9): ok bye
+User(10): looks like you are logging off
+Bot(10): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 8: books(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 42.43
+Robotic(↓): 99
+Interesting: 25
+Fun: 63
+Consistent: 20
+Fluent: 99
+Repetitive(↓): 79
+Topic: 68
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello
+Bot(1): Don't eat is your favorite eat meat.
+User(2): that is funny
+Bot(2): that is good . do that short. and i how is your weekend going ?
+User(3): ok so far
+Bot(3): i is wrong raleigh
+User(4): do feel like talking about books
+Bot(4): with friends you do in spare needs enemies ? 🙊
+User(5): I did not get that
+Bot(5): It seems like partys and What I hate my job
+User(6): do you want to talk about books
+Bot(6): do tacos do you mean a dad? i love my family farm.
+User(7): do you like sports
+Bot(7): do you watching a tv off
+User(8): I am talking to you now not watching tv
+Bot(8): i job , money don't you no favorite teams . i just like to pick winners .
+User(9): so who did you picked this year
+Bot(9): I am sorry the world. I have am trying to start a new job.
+User(10): that is nice.
+Bot(10): Hey! What are see long is 😅
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Books(like)
+Round 6: sports(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 19.00
+Robotic(↓): 100
+Interesting: 15
+Fun: 20
+Consistent: 5
+Fluent: 33
+Repetitive(↓): 50
+Topic: 10
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hello , do you like dogs ? i love animals , i have 2 dogs .
+User(2): I like dogs too. in this weather I can not take them outside
+Bot(2): rainy cold and feels like winter is breathing down the hills
+User(3): do you know how long the rain is going to last
+Bot(3): i guess so . . . . i should order my dinner . . . . it is sushi night . . . love sushi
+User(4): is it going to rain tomorrow too
+Bot(4): yea , a good bit . i live in grand rapids , michigan .
+User(5): I used to there a lot about 20 years ago
+Bot(5): i admire that . i wanted to be a nurse but that did not happen .
+User(6): there are nice hospitals in grand rapids
+Bot(6): my family is from grand rapids michigan that is funny . i live in georgia
+User(7): so you are a georgian
+Bot(7): i am all country . the music , the farm , pigs , horses , hens and i am a vegan .
+User(8): wow a vegan georgian
+Bot(8): i been a vegan two years ago
+User(9): before that were you a vegetarian
+Bot(9): vegan , not vegetarian . there is a difference .
+User(10): so you were a non vegetarian previously
+Bot(10): yes i am vegan . do you eat all meats ?
+User(11): I an omnivorous.
+Bot(11): hi ! i am good ! just playing with my dogs !
+
+Persona:
+i like meditation.
+my favorite band is aerosmith.
+i work at a bank.
+i hate my job.
+i've two dogs.
+
+Topic and Human Opinion:
+Beginning: weather(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 44.29
+Robotic(↓): 97
+Interesting: 20
+Fun: 72
+Consistent: 21
+Fluent: 84
+Repetitive(↓): 25
+Topic: 35
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey how are you doing
+Bot(1): i'm doing well . how are you ?
+User(2): So far nothing to complain. so how are the reds doing this year
+Bot(2): i am a bit of a loner . i am a big fan of classical music .
+User(3): you do not like baseball
+Bot(3): i do , i like to go out to eat with my family .
+User(4): where you plan to go
+Bot(4): i am in the midwest . i love it .
+User(5): that is good I from midwest too.
+Bot(5): i love to travel . i love to travel .
+User(6): I like to travel too
+Bot(6): i love to travel . i love to travel .
+User(7): where did you travel recently
+Bot(7): i live in the midwest . i love it .
+User(8): where in midwest do you live
+Bot(8): i live in the midwest . i love to go fishing .
+User(9): I love to travel as well
+Bot(9): i love to travel . i love to travel .
+User(10): where did you travel last
+Bot(10): i live in the midwest . i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: baseball(like)
+Round 3: eating out(ambivalent)
+Round 4: place of residence(like)
+Round 5: travel(like)
+Round 7: region of residence(like)
+Round 8: travel(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 16.71
+Robotic(↓): 100
+Interesting: 5
+Fun: 11
+Consistent: 7
+Fluent: 88
+Repetitive(↓): 100
+Topic: 6
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello, do you like painting
+Bot(1): heck yea i do ! my favorite is country music
+User(2): but that is music
+Bot(2): oh no no no , i do not like country
+User(3): do you like old country music or the newer ones
+Bot(3): i like softer music mostly
+User(4): so like patsy kliene, pat boone
+Bot(4): i am into the avett brothers right now just heard they are touring
+User(5): I have not heard them are the playing in southwest ohio
+Bot(5): they just released their sixteenth studio album
+User(6): that is impressive
+Bot(6): yeah van halen is actually coming over to party with me and my sister later
+User(7): So you are fan of hard rock as well
+Bot(7): no not really i am into country music
+User(8): So van halen is just a coincidence
+Bot(8): i think it is a little bit of both
+User(9): is van halen your sisters favorite band
+Bot(9): i do not even now what my sister dog is
+User(10): i am curious about your party with van halen
+Bot(10): we had a big party this weekend
+
+Persona:
+i'm rather skinny as i like to stay in shape.
+my favourite music is country music.
+i have a boyfriend.
+i have a dogs.
+i've one older sister.
+
+Topic and Human Opinion:
+Beginning: painting(like)
+Round 2: country music(like)
+Round 9: sisters dog(dislike)
+Round 10: party with van halen(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 42.00
+Robotic(↓): 91
+Interesting: 57
+Fun: 56
+Consistent: 19
+Fluent: 89
+Repetitive(↓): 72
+Topic: 36
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello, are you from midwest
+Bot(1): hi , i am from dallas , how about you ?
+User(2): I am from midwest
+Bot(2): hi , i am from wisconsin , how about you ?
+User(3): ithought you are from dallas
+Bot(3): i am from texas , i am in florida
+User(4): is it hot in texas this time o the year
+Bot(4): i am in texas , i am a nurse
+User(5): how is living down there
+Bot(5): i am in texas , i am a nurse
+User(6): that is interesting profession
+Bot(6): i am not sure what that is
+User(7): I mean you being a nurse
+Bot(7): i am deaf so i am deaf
+User(8): that is ok
+Bot(8): i am a nurse and i love to eat
+User(9): what is your favorite food
+Bot(9): i love pizza and i love to eat
+User(10): what type of pizza you like
+Bot(10): i love pizza and pizza
+User(11): that is nice
+Bot(11): i love pizza and pizza
+
+Persona:
+i am partly deaf.
+i like to listen to rock music while working.
+i have three dogs.
+i am a baby delivery nurse.
+my pets name is charlie.
+
+Topic and Human Opinion:
+Beginning: midwest(like)
+Round 3: texas living(ambivalent)
+Round 5: job(like)
+Round 7: being deaf(ambivalent)
+Round 8: eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(dislike)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 49.43
+Robotic(↓): 100
+Interesting: 62
+Fun: 68
+Consistent: 20
+Fluent: 96
+Repetitive(↓): 31
+Topic: 31
+
+####################
+

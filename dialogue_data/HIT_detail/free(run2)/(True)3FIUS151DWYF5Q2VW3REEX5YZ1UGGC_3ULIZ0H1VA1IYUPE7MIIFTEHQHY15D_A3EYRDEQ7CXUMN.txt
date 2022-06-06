@@ -1,0 +1,300 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello
+Bot(1): aloha my good friend how are you
+User(2): I am fine. I am looking for places to travel
+Bot(2): i want to visit my friend in japan
+User(3): Have you been to japan before?
+Bot(3): i have but right now i am in japan
+User(4): How do you like japan?
+Bot(4): i love it . the japanese are very sophisticated
+User(5): In what way?
+Bot(5): i love it . the japanese are very sophisticated
+User(6): How are they sophisticated?
+Bot(6): i love it . the japanese are very sophisticated
+User(7): Where else do you want to travel?
+Bot(7): japan is one place i want to go
+User(8): Yes, any other countries?
+Bot(8): japan is one place i want to go
+User(9): What about Korea?
+Bot(9): japan is one place i want to go
+User(10): Do you like korea?
+Bot(10): i like it very much
+User(11): I hope to go
+Bot(11): why do you want to go there ?
+
+Persona:
+i recently got an apartment with my best friend.
+i like doing the treadmill and rowing machine.
+i've a german shepherd dog.
+i've been traveling the world for a years.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.00
+Robotic(↓): 79
+Interesting: 44
+Fun: 45
+Consistent: 43
+Fluent: 59
+Repetitive(↓): 91
+Topic: 59
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): What type of food do you like?
+Bot(2): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(3): I like mac n cheese too
+Bot(3): mac and cheese is another family classic food . we all love pasta !
+User(4): Do you like ice cream?
+Bot(4): yes , i do like ice cream . sometimes i make my own ice cream at home .
+User(5): How do you make ice cream?
+Bot(5): that sounds great i also like ice cream
+User(6): What flavor do you like?
+Bot(6): oh nice ! strawberry reminds me of my long red hair . guess the like colors , ha !
+User(7): Cool
+Bot(7): i am kidding its actually someone who makes maps , i also paint outdoors
+User(8): I dont like map making
+Bot(8): going to the gym in about an hour , going to get buff ll
+User(9): I also like the gym
+Bot(9): it was not for anything bad , it was for national ice cream day .
+User(10): Ok
+Bot(10): i find attractive all women from canada
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 7: Map making(dislike)
+Round 8: Gym(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 42.00
+Robotic(↓): 81
+Interesting: 65
+Fun: 55
+Consistent: 25
+Fluent: 50
+Repetitive(↓): 39
+Topic: 19
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): Oh, objectivity doesn't make from then?
+User(2): Do you like to watch TV>
+Bot(2): i am less afraid what about how is am terrified of clowns though .
+User(3): Why clowns?
+Bot(3): No, ! no.
+User(4): No, what?
+Bot(4): what are you going to not my got i you live alone?
+User(5): I dont live alone
+Bot(5): I to see you! this is happening.
+User(6): What is happening?
+Bot(6): I sell you am good insurance
+User(7): I dont want to buy
+Bot(7): I am not. i am on you, is a it.
+User(8): What?
+Bot(8): well today i do plan to make my way to the beach for some relaxation . how see you you like evening ? 😁
+User(9): I dont understand
+Bot(9): I am not. I am english to english lol boyfriend.
+User(10): I like the beach
+Bot(10): Hi, I not have a singer.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: TV(like)
+Round 2: Clowns(dislike)
+Round 4: Living alone(ambivalent)
+Round 6: Insurance(dislike)
+Round 9: Beach(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 33.86
+Robotic(↓): 34
+Interesting: 31
+Fun: 28
+Consistent: 29
+Fluent: 13
+Repetitive(↓): 43
+Topic: 13
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): I am fine
+Bot(2): hi , i am a mother of a dentist .
+User(3): Do you like cars?
+Bot(3): i do not know much about cars . i like to read and read books .
+User(4): I like to read too
+Bot(4): i like to read and read books .
+User(5): What books do you read?
+Bot(5): i read a lot of fiction and read books
+User(6): Me too
+Bot(6): i read a lot of books and i love to read
+User(7): Cool
+Bot(7): i like to read and read books
+User(8): I like fiction
+Bot(8): i like to read and read books
+User(9): And travel
+Bot(9): my mom is a dentist . she's a dentist .
+User(10): Bye
+Bot(10): i like to read and read books
+
+Persona:
+my mother is a dentist.
+i listen to rap music.
+i'm a buddhist.
+my main transportation is my motorbike.
+i enjoy reading journals and guides related to psychology.
+
+Topic and Human Opinion:
+Beginning: Cars(ambivalent)
+Round 3: Books(like)
+Round 9: Dentist(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 43.57
+Robotic(↓): 51
+Interesting: 43
+Fun: 34
+Consistent: 34
+Fluent: 52
+Repetitive(↓): 38
+Topic: 31
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Do you like parks?
+Bot(2): i do , i like to go out to eat with my family .
+User(3): Parks
+Bot(3): i love to cook . i love to cook .
+User(4): I like cooking
+Bot(4): i like to eat the skin .
+User(5): The skin?
+Bot(5): i love to eat . i am a bit of a loner .
+User(6): What foods do you like?
+Bot(6): i love pizza , and i love it .
+User(7): Me too
+Bot(7): i am a student , but i am a student .
+User(8): What are you studying
+Bot(8): i am a student , i am a teacher .
+User(9): I like chemistry
+Bot(9): i like to go to the gym and listen to music .
+User(10): Ok
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Parks(like)
+Round 3: Cook(like)
+Round 7: Student(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 43.57
+Robotic(↓): 45
+Interesting: 46
+Fun: 40
+Consistent: 36
+Fluent: 33
+Repetitive(↓): 31
+Topic: 26
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hello george my name is pink
+User(2): Do you like movies?
+Bot(2): yeah i love movies all kinds
+User(3): Cool
+Bot(3): yeah , i like movies . i go all the time with all the friends i have .
+User(4): Me too
+Bot(4): same
+User(5): When did you last see a movie?
+Bot(5): i finished sorting all the books at the library
+User(6): You like books?
+Bot(6): i do . friends say my library is arranged well .
+User(7): Nice
+Bot(7): same
+User(8): Same what
+Bot(8): same
+User(9): Ok
+Bot(9): ok
+User(10): See you
+Bot(10): same
+User(11): Bye
+Bot(11): ok bye
+
+Persona:
+i've a big library at home.
+i play with my friends on the playground.
+i'm a mechanical engineer.
+my name is george.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+Round 5: Books(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 43.86
+Robotic(↓): 44
+Interesting: 42
+Fun: 40
+Consistent: 35
+Fluent: 33
+Repetitive(↓): 30
+Topic: 31
+
+####################
+

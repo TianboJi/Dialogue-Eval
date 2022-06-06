@@ -1,0 +1,339 @@
+Feedback: No Comments
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hai
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): quite comfortable
+Bot(2): where do you live ? i live in chicago .
+User(3): i live in Texas
+Bot(3): i have never been to texas . can i visit ?
+User(4): Yes ,Sure
+Bot(4): i am very fat and old
+User(5): oh my god,why not not a problem
+Bot(5): and they have to have spiky black hair like me to be cool .
+User(6): Do you watch tv?
+Bot(6): i work form my home and the gym i teach yoga
+User(7): Good great to hear about it...do you watch tv
+Bot(7): i do . i am a walking dead fan
+User(8): oh what programs do you like to watch in tv
+Bot(8): i do . i am a walking dead fan
+User(9): Nice to hear ,walking is a good exercise
+Bot(9): haha no . i want to be a professional eater .
+User(10): are you a foodie,me too
+Bot(10): i love food , but i tend to stick to my old favorites
+User(11): what is that professional eater
+Bot(11): you should be a pro pizza eater
+User(12): Yes
+Bot(12): what city are you from ?
+User(13): Danville
+Bot(13): great ! my name is lucy , after my grandmother . whats yours ?
+User(14): chleio,its my name
+Bot(14): what is your name ?
+User(15): your name is lucy right
+Bot(15): i am great , loving this city life , how are you ?
+User(16): i am doing good
+Bot(16): i am pretty good , just got home from working out at the gym . what are you up to ?
+User(17): me too doing exercises in gym
+Bot(17): oh okay i love to run i do not go to the gym much
+User(18): ok,Thank you,bye
+Bot(18): o am i but i do enjoy being active d
+
+Persona:
+i now live in the city.
+i'm a clean eater.
+i'm 60years old.
+i have rainbow hair.
+i am a retired gym teacher.
+
+Topic and Human Opinion:
+Beginning: Tv(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.14
+Robotic(↓): 59
+Interesting: 60
+Fun: 61
+Consistent: 61
+Fluent: 61
+Repetitive(↓): 65
+Topic: 60
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi How are you?
+Bot(1): i am great , excited to be planning a trip to europe
+User(2): Do you like travelling?
+Bot(2): not as much as i love travelling
+User(3): then what you like most?
+Bot(3): on my trip to italy
+User(4): what happened
+Bot(4): on my trip to italy
+User(5): when did you went a trip to italy?
+Bot(5): on my trip to italy
+User(6): i never went to italy
+Bot(6): . . . that is weird my german shepherd will not like that venice here we come
+User(7): Venice is the place i want to see very much interested
+Bot(7): . . . that is weird my german shepherd will not like that venice here we come
+User(8): Good what else
+Bot(8): i want to travel to italy or france and see the vineyards .
+User(9): Good to hear,can i join with you
+Bot(9): only if you would dance with me
+User(10): i m a great dancer you know
+Bot(10): okay , do you have dogs
+User(11): yes,i have its name is cooper
+Bot(11): how did you come up with that name
+User(12): just like that i selected
+Bot(12): okay , do you have dogs
+User(13): i dont have dogs
+Bot(13): oh that is sad i have a german shepard
+User(14): good
+Bot(14): i have to go somewhere new once a year
+User(15): nice job
+Bot(15): thank you
+User(16): thank you
+Bot(16): ok
+
+Persona:
+i married a super model from italy.
+i've a german shepherd dog.
+i'm a vegan.
+i love to drink wine and dance in the moonlight.
+i visit europe twice a year.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.14
+Robotic(↓): 56
+Interesting: 58
+Fun: 58
+Consistent: 59
+Fluent: 60
+Repetitive(↓): 63
+Topic: 63
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): do you have any hobbies ?
+User(2): yes i love travelling
+Bot(2): i travel a lot
+User(3): where you recently travelled
+Bot(3): i have been to europe
+User(4): Do u like the pyramids?
+Bot(4): i do not really like it
+User(5): then what other things do you like to watch there
+Bot(5): i like to watch shows on tv
+User(6): which is your favourite show
+Bot(6): i like to watch the show
+User(7): i love singing programs
+Bot(7): i like to sing and i love to sing
+User(8): i love to dance too
+Bot(8): i like to sing and dance
+User(9): both well sing and dance,
+Bot(9): i like to sing and dance
+User(10): im very much interested in singing
+Bot(10): that is cool i like to sing
+User(11): ok,thank you
+Bot(11): i like to sing and dance
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.71
+Robotic(↓): 59
+Interesting: 59
+Fun: 61
+Consistent: 61
+Fluent: 60
+Repetitive(↓): 60
+Topic: 61
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hello i am pat and i am 23
+User(2): Good to hear,im bryan
+Bot(2): who r u and wat is this
+User(3): do u like music?
+Bot(3): yes , love music , but i like to sewing
+User(4): me too interested in sewing clothes
+Bot(4): i trrwally like to knit
+User(5): ok how many type of stitches do you know
+Bot(5): none now . i have 36 stitched where the cat ripped it oit
+User(6): oh ok, how many dresses you stitched so far?
+Bot(6): so many that i have lost count
+User(7): what kind of music do you like?
+Bot(7): i like r b and pop , you
+User(8): me too the same
+Bot(8): what kind of music u like
+User(9): i like believer song
+Bot(9): i like mucic a lot
+User(10): do you play any musical instruments?
+Bot(10): no , but i could learn some
+User(11): yes that s a good hobby
+Bot(11): i love animals and crafting
+User(12): yes i have dog
+Bot(12): i have a dog as well
+User(13): name is cooper
+Bot(13): his name is pavin dads pick
+User(14): ok,thank you
+Bot(14): no problem , tell me something about you
+
+Persona:
+whats up i am a 46 year old single dad 46 a kids.
+i am employed by the us postal service.
+hey there i'm 23 and i love food.
+i'm an animal activist.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.86
+Robotic(↓): 58
+Interesting: 59
+Fun: 59
+Consistent: 61
+Fluent: 62
+Repetitive(↓): 62
+Topic: 63
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): i escaped to do video games
+User(2): You like pubg
+Bot(2): hello, how are you i playing gitar since got back from disney world
+User(3): i like to play guitar
+Bot(3): I do board games. So can have any siblings.
+User(4): yes i have only one
+Bot(4): Robots are to be with my real estate agent .
+User(5): yes do you use it?
+Bot(5): i am to drive my know
+User(6): you like travellig?
+Bot(6): I have never seen a dog. I mine with me almost girl.
+User(7): oh good
+Bot(7): I like the Beatles, am good. How are fan of the Beatles
+User(8): what kind of beatles?
+Bot(8): i'm not you a dog how do not have a lot of money .
+User(9): you can earn very much
+Bot(9): they are dr. fine. .
+User(10): ok,which food you like?
+Bot(10): what kind of good, what I like insane clown. do you like donuts?
+User(11): i like very much donuts
+Bot(11): i was. of meat hey 14.
+User(12): ok nice to hear
+Bot(12): I am glad to hear that you are female.. I honestly think you should sit down, horses but i don't have calmly think things over.
+User(13): ok,whats new over there
+Bot(13): i was up studying all night that’s drive a it's monday
+User(14): what you are studying now
+Bot(14): I would think about Do you like sports?
+User(15): i like sports very much
+Bot(15): I like to listen to music when I love to drink wine car
+User(16): im a volleyball player
+Bot(16): Nice chatting with you! sorry to hear watching?
+User(17): Thank you
+Bot(17): we are at that meet your i’m doing . good venue . try it out
+
+Persona:
+i'm an animal activist.
+i've a pet cow.
+i do not drink soda.
+i love to spend time with my family.
+i have a boyfriend.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.71
+Robotic(↓): 58
+Interesting: 59
+Fun: 60
+Consistent: 60
+Fluent: 62
+Repetitive(↓): 65
+Topic: 65
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): Me too
+Bot(2): i am a student , but i am a student .
+User(3): ok,what you love to cook
+Bot(3): i love to cook , and eat pizza .
+User(4): i love pizza
+Bot(4): i like to eat fish .
+User(5): which kind of fish you would like to cook?
+Bot(5): i love pizza , and pizza .
+User(6): i am a lover of pizza
+Bot(6): i like to eat fish .
+User(7): you like eating fish me too
+Bot(7): i do not like the meat . i love it .
+User(8): i like chicken
+Bot(8): i like to eat fish .
+User(9): do i cook for you this fish item?
+Bot(9): no , i do not . i like to eat .
+User(10): me too love eating fish
+Bot(10): i like to eat fish .
+User(11): do you like river fish or sea fish?
+Bot(11): i love the ocean . i love it .
+User(12): ok,Thank you
+Bot(12): i am doing well . just got done walking my dog .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.43
+Robotic(↓): 59
+Interesting: 58
+Fun: 59
+Consistent: 60
+Fluent: 62
+Repetitive(↓): 63
+Topic: 64
+
+####################
+

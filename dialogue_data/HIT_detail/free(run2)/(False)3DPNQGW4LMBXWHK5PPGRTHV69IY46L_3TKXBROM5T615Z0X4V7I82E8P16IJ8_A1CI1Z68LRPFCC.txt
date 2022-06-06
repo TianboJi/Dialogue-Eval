@@ -1,0 +1,281 @@
+Feedback: very good 
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): HAI
+Bot(1): i love to cook . i love to cook .
+User(2): I like also cooking
+Bot(2): i like to eat the skin .
+User(3): i like to eat fish
+Bot(3): i like to eat fish .
+User(4): I like to watch movies
+Bot(4): i like to read too .
+User(5): do you like to watch movies?
+Bot(5): i do not really like movies . i like to read .
+User(6): good
+Bot(6): i am a student , but i am a student .
+User(7): i am a home maker
+Bot(7): i like to go to the gym and listen to music .
+User(8): very good habits
+Bot(8): i love to eat .
+User(9): i love you
+Bot(9): i am doing well . just got done walking my dog .
+User(10): dog is my favourite pet
+Bot(10): i love dogs , i love dogs .
+User(11): nice
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+i'm a mechanical engineer.
+my father used to work for home depot.
+my father keeps trying to set me up on blind dates.
+my father played violin professionally.
+i live in canada.
+
+Topic and Human Opinion:
+Beginning: MOVIES(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.14
+Robotic(↓): 72
+Interesting: 63
+Fun: 78
+Consistent: 28
+Fluent: 28
+Repetitive(↓): 24
+Topic: 29
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hai
+Bot(1): hey
+User(2): how are you?
+Bot(2): good thanks . tell me about yourself
+User(3): am fine
+Bot(3): good ! what are your hobbies
+User(4): sports is my hobby
+Bot(4): i love to play sports
+User(5): good. what type of sports you interest
+Bot(5): any sports will work for me
+User(6): ok i like to play chess
+Bot(6): i have not played chess in years
+User(7): ok
+Bot(7): do you like sports
+User(8): i love it very much
+Bot(8): and its fun to play too
+User(9): yes
+Bot(9): what is your favorite
+User(10): my favorite player is Vishwanath anandh
+Bot(10): i am not familiar with keno
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 65.00
+Robotic(↓): 65
+Interesting: 90
+Fun: 95
+Consistent: 34
+Fluent: 95
+Repetitive(↓): 16
+Topic: 22
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hai
+Bot(1): i am fantastic . i just bought a new ergonomic keyboard and chair . its comfortable .
+User(2): do you like to eat food?
+Bot(2): nothing healthy ! basically top ramen , microwave ready mac and cheese , yum .
+User(3): these are jung food you know
+Bot(3): the cave dwelling , car driving , guy named fred from a cartoon .
+User(4): you like indian food?
+Bot(4): i have never tried indian food
+User(5): i like most indian food and healthy foods
+Bot(5): good advice . i count cards when i am in vegas to supplement their college fund
+User(6): what graduate you doing?
+Bot(6): i m a business major . i ll graduate within two years hopefully
+User(7): super
+Bot(7): well , work tomorrow , gotta get early to the base . packed brownies for lunch
+User(8): wow good
+Bot(8): he loves double cheese burgers and chicken nuggets
+User(9): do you like fish?
+Bot(9): no but i do fish for a living
+User(10): fantastic
+Bot(10): yes , as a grown woman i have at least 10 tattoos and never lost a fight .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.86
+Robotic(↓): 82
+Interesting: 88
+Fun: 90
+Consistent: 98
+Fluent: 95
+Repetitive(↓): 24
+Topic: 31
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hai
+Bot(1): I have a an for you! You is my favorite.
+User(2): i love you
+Bot(2): no not yet . but you can cook for me . i am vegan so it may be difficult. Also, is my greatest you like with ...
+User(3): i am a home maker. i like to cooking
+Bot(3): i do a activist. I any either
+User(4): super
+Bot(4): I cool. Do you will one day.
+User(5): do you like music?
+Bot(5): I did not go play can help like it
+User(6): when i feel loneliness hearing music
+Bot(6): i like dogs , but i have you like country do .
+User(7): i like also
+Bot(7): i do not favorite try me, i not have any hobbies .
+User(8): oh k k
+Bot(8): I am a farmer, I am a huge you have allergie for man
+User(9): nice to meet you
+Bot(9): I overcome name is kalpesh music and listen to music
+User(10): farmer is a good profession i know
+Bot(10): at food name for like you :)
+User(11): fish
+Bot(11): That is a very good way to say. I that I am a be .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 76.00
+Robotic(↓): 34
+Interesting: 85
+Fun: 84
+Consistent: 99
+Fluent: 97
+Repetitive(↓): 22
+Topic: 23
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hai
+Bot(1): hello , how are you ? i am from ohio .
+User(2): i am fine
+Bot(2): hey are you spiritual at all ?
+User(3): what about you?
+Bot(3): i am okay tired in ohio
+User(4): no but i believe god
+Bot(4): good god is the best
+User(5): yes
+Bot(5): do you watch scary movies
+User(6): no i like to reading books
+Bot(6): what kind of books then
+User(7): history, space related, horror
+Bot(7): horror movies are my favorite
+User(8): me too
+Bot(8): have you ever been outside of ohio ?
+User(9): no
+Bot(9): ok
+User(10): do you like reading?
+Bot(10): yes i read books
+User(11): nice to meet you
+Bot(11): same
+
+Persona:
+i am married to a doctor.
+i play the piano and guitar and sing.
+i quit my job to pursue my spirituality full time.
+horror movies are my favorites.
+i've never been out of ohio.
+
+Topic and Human Opinion:
+Beginning: reading books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 75.57
+Robotic(↓): 30
+Interesting: 84
+Fun: 97
+Consistent: 95
+Fluent: 79
+Repetitive(↓): 35
+Topic: 39
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hai
+Bot(1): i am sorry to hear that
+User(2): mm
+Bot(2): i am a fast rapper
+User(3): oh r u a male or female?
+Bot(3): i am a female
+User(4): then how did you rapper to male
+Bot(4): i am a female i am female
+User(5): do you love male
+Bot(5): i am a female i am female
+User(6): good
+Bot(6): i am a female i am a female
+User(7): i am also a female
+Bot(7): i am a female i am a female
+User(8): do you like art work?
+Bot(8): yes i do i love art
+User(9): super
+Bot(9): i do art for a living
+User(10): very good . r u interesting?
+Bot(10): yeah i love art
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: designer(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 48.29
+Robotic(↓): 40
+Interesting: 73
+Fun: 23
+Consistent: 41
+Fluent: 69
+Repetitive(↓): 65
+Topic: 37
+
+####################
+

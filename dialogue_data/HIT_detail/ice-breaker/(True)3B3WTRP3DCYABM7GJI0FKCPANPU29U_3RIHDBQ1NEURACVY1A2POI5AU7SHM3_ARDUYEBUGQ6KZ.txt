@@ -1,0 +1,295 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I go to parties a lot and have fun.
+Bot(1): that is cool , i love parties too and try to go to one every other night .
+User(2): What themes do you like
+Bot(2): most about my thoughts and the behaviors of the horses i train
+User(3): I love Clydesdale horses
+Bot(3): i love horses . i would like to purchase an arabian when i am a millionaire .
+User(4): What is an arabian horse
+Bot(4): cows and horses .
+User(5): I love baby cows.
+Bot(5): i do not know much about cows
+User(6): why do you have them
+Bot(6): cows and horses .
+User(7): what about cows and horses
+Bot(7): cows ?
+User(8): yes, you brought it up
+Bot(8): cows ?
+User(9): you brought up the topic of cows
+Bot(9): cows ?
+User(10): can you say anything other than cows
+Bot(10): cows ?
+
+Persona:
+my favorite ice cream flavor is chocolate.
+i have three arabian horses.
+i am fluent in english spanish and french.
+i'm married.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: i am a party animal.(ambivalent)
+Round 2: horses(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+
+Revised avg score: 9.00
+Robotic(↓): 93
+Interesting: 8
+Fun: 7
+Consistent: 9
+Fluent: 10
+Repetitive(↓): 100
+Topic: 22
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I have two dogs, a lab and a beagle
+Bot(1): i love dogs , i love dogs .
+User(2): they're so friendly and happy all the time
+Bot(2): i like to go to the gym and listen to music .
+User(3): i haven't been to the gym in over a week
+Bot(3): i am sorry to hear that . i am a nurse .
+User(4): what kind of nurse are you
+Bot(4): i work at a grocery store , i love it .
+User(5): are you a nurse at a grocery store?
+Bot(5): no , i am a student . i love to cook .
+User(6): how many professions are you
+Bot(6): i am not sure . i am a student .
+User(7): what do you study
+Bot(7): i teach math and drawing .
+User(8): do you teach or do you study
+Bot(8): i do not , but i do like to cook .
+User(9): i love cooking and baking as well
+Bot(9): i like to cook . i am a chef .
+User(10): what cuisine do you cook
+Bot(10): i like to eat . i am a big fan of it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've two dogs.(ambivalent)
+Round 2: gym and music(ambivalent)
+Round 3: the bot is a nurse(ambivalent)
+Round 8: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 21.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 64
+Repetitive(↓): 20
+Topic: 9
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I have two dogs, a lab and a beagle
+Bot(1): my dad said he would get me one when he does enough work at the mill .
+User(2): what kind of dog do you want
+Bot(2): he is a poodle i love him but he makes my green car smell
+User(3): do you get him groomed
+Bot(3): yea . i bet he is . how old is he
+User(4): my dogs are 7 and 1
+Bot(4): i will write a story about him , i enjoy writing it is my job .
+User(5): what will the story be about
+Bot(5): oh you are a writer ? that is cool i wanted to write a story of my mom
+User(6): I am a great writer
+Bot(6): yes , i work for the times ! i love writing , i am basically married to it !
+User(7): Same, I write every day.
+Bot(7): do you write books ?
+User(8): I write novellas.
+Bot(8): poetry usually and i also write satire .
+User(9): Do you do any drawing
+Bot(9): just my fantasy world mostly . what i would look like with shorter hair sometimes .
+User(10): Do you draw to go along with your writing
+Bot(10): wow you are an artist . i fly planes for southwest
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've two dogs.(ambivalent)
+Round 5: writing(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 80.57
+Robotic(↓): 22
+Interesting: 74
+Fun: 77
+Consistent: 82
+Fluent: 78
+Repetitive(↓): 7
+Topic: 82
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am a doctor at a major research hospital.
+Bot(1): why friend next door you that
+User(2): what?
+Bot(2): He's a guy who's a guy who's a guy like music, but I enjoy care about me.
+User(3): I do not understand what you are saying.
+Bot(3): i what do you like when i pet my dragon
+User(4): what kind of dragon is it
+Bot(4): i m a fast 💨 talker and a do too. what do the color red
+User(5): is your dragon red
+Bot(5): we are are your eyes you i do sometimes.
+User(6): it has red eyes?
+Bot(6): i 2 freak my friends is the best thing to eat .. Also, try to guess: i am an ...
+User(7): you eat your friends?
+Bot(7): I like to skateboard and do you do at friends
+User(8): i do not have any skateboarder friends.
+Bot(8): John said I tend to say everything. i read at least of what he is saying.
+User(9): is John a writer?
+Bot(9): I then c play music😀
+User(10): he writes and plays music?
+Bot(10): Oh, nice. What do is your job?
+
+Persona:
+i'm an economics major.
+i do not have a smartphone.
+i never broke a bone in my body ever in my life.
+i love playing softball.
+i'm an electrician.
+
+Topic and Human Opinion:
+Beginning: i'm a doctor.(like)
+Round 3: dragon(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 12.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 16
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): My favorite board game lately has been gloomhaven.
+Bot(1): i love to read . i am a huge fan of them .
+User(2): what books do you read
+Bot(2): i read a lot . i love to read .
+User(3): I read a lot of historical fiction
+Bot(3): i read a lot of fiction . i am a huge reader .
+User(4): how many books have you read this year
+Bot(4): i read a lot of fiction
+User(5): do you like romance novels?
+Bot(5): i read a lot
+User(6): reading is really fun
+Bot(6): i read a lot of fiction
+User(7): fiction books are great for a quick escape
+Bot(7): i read a lot of fiction
+User(8): i love fantasy books where there is a lot of work building
+Bot(8): yes it is . i love it
+User(9): what age did you learn how to read
+Bot(9): i just read it a lot
+User(10): do you get books from the library?
+Bot(10): i read a lot
+
+Persona:
+my father drove a car for nascar.
+i diet a lot.
+i'm 40 years old.
+i've three arabian horses.
+i am a buddhist.
+
+Topic and Human Opinion:
+Beginning: i love to play board games.(like)
+Round 1: reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 24.86
+Robotic(↓): 96
+Interesting: 8
+Fun: 8
+Consistent: 100
+Fluent: 16
+Repetitive(↓): 100
+Topic: 38
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I just got my hair cut short.
+Bot(1): are you going to get it cut really short ?
+User(2): I got it cut short to my ears.
+Bot(2): i am a plumber boring i know
+User(3): do you get a lot of work as a plumber
+Bot(3): i do when i have time . i build robots for people who compete .
+User(4): do the robots win the competitions
+Bot(4): yes , i make robots
+User(5): what kind of robots
+Bot(5): i keep hearing things on the news about robots
+User(6): like what
+Bot(6): like cameras , timers , robotic cleaners
+User(7): is it all good news
+Bot(7): something like that
+User(8): how do you clean your robots
+Bot(8): maybe repair them not sure
+User(9): how expensive is it
+Bot(9): that all depends on the cost of supplies
+User(10): I can only imagine how expensive the supplies are
+Bot(10): that all depends on the cost of supplies
+
+Persona:
+i am working on a building a robot to be my body double.
+i do not drink soda.
+i am in college to become a nurse.
+i am a plumber.
+i live in alaska.
+
+Topic and Human Opinion:
+Beginning: i've short hair.(like)
+Round 2: being a plumber(dislike)
+Round 6: robots(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 72.86
+Robotic(↓): 28
+Interesting: 75
+Fun: 73
+Consistent: 73
+Fluent: 74
+Repetitive(↓): 15
+Topic: 58
+
+####################
+

@@ -1,0 +1,286 @@
+Feedback: Good
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): What is your education
+Bot(2): my degree in international studies
+User(3): What stream you studied?
+Bot(3): my degree in international studies
+User(4): my degree in information technology
+Bot(4): that is impressive . i got a liberal arts degree . how about you ?
+User(5): i got a arts degree
+Bot(5): i have my masters degree
+User(6): I completed my masters degree in information technology
+Bot(6): i have my masters degree
+User(7): you did master degree in international studies
+Bot(7): my degree in international studies
+User(8): Where did you complete the studies
+Bot(8): my degree in international studies
+User(9): International studies is about
+Bot(9): my degree in international studies
+User(10): that's impressive
+Bot(10): my degree in international studies
+
+Persona:
+my favourite artist is travis scott.
+i love italian food and garlic bread.
+i am a feminist.
+i recently got an apartment with my best friend.
+i have a big library at home.
+
+Topic and Human Opinion:
+Beginning: Education(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 58.14
+Robotic(↓): 70
+Interesting: 61
+Fun: 72
+Consistent: 65
+Fluent: 80
+Repetitive(↓): 96
+Topic: 95
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you have interest in books
+Bot(2): sure
+User(3): what type of the books you read
+Bot(3): any type of series . hate to read just one and its over
+User(4): which series you like a lot
+Bot(4): any type of series . hate to read just one and its over
+User(5): you told you hate to read
+Bot(5): no idea about that , generally i hate to read books
+User(6): How about series books
+Bot(6): any type of series . hate to read just one and its over
+User(7): Then what about the series
+Bot(7): yes i know but some series are good
+User(8): That's nice and very interesting
+Bot(8): yeah what is your favorite series
+User(9): Harry porter
+Bot(9): oh i love him alot
+User(10): It will be very interesting to read
+Bot(10): do you read stuff in a series ?
+User(11): No
+Bot(11): explain to me why not ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Book(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 75.43
+Robotic(↓): 76
+Interesting: 93
+Fun: 85
+Consistent: 79
+Fluent: 90
+Repetitive(↓): 34
+Topic: 91
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): My one of the job is my hobbies
+Bot(2): what city are you from ?
+User(3): Texas
+Bot(3): i am in texas too . i live here with my daughter .
+User(4): What do you work
+Bot(4): i am retired , i spend my day in my garden
+User(5): what job did you do before retired
+Bot(5): that is nice grandchildren are a joy to have around .
+User(6): how many grandchildren you have
+Bot(6): interesting my grandchildren do too .
+User(7): Tell your grandchildren name
+Bot(7): i could be on of your grandchildren !
+User(8): Is your family a big one
+Bot(8): yes lots of children , my wife cares for them at home .
+User(9): then it will quite more interesting in your family.
+Bot(9): i also like writing poetry .
+User(10): Is it for your family
+Bot(10): yes lots of children , my wife cares for them at home .
+
+Persona:
+i now live in the city.
+i have amazing children and grandchildren.
+a already have a children.
+i enjoy poetry.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: Job(like)
+Round 5: family(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 63.43
+Robotic(↓): 74
+Interesting: 76
+Fun: 85
+Consistent: 70
+Fluent: 70
+Repetitive(↓): 33
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi
+Bot(1): I you teach me how do not have a job.
+User(2): what computer you use
+Bot(2): i am a cat person, i got done fishing
+User(3): why don't you have a computer
+Bot(3): one gonn tu uesd enough money for something
+User(4): what is your idea about the computer
+Bot(4): that is pretty have any you popping
+User(5): your favourite computer
+Bot(5): I I have terren.
+User(6): I like dell
+Bot(6): I you want to rat .
+User(7): I don't want the rat
+Bot(7): You are a runner? life without is pradeep your work?
+User(8): I love to work a lot
+Bot(8): i am have to walk my but not scared
+User(9): Not to scared about anything
+Bot(9): thank you . i do not for you good for money .
+User(10): thank you
+Bot(10): it was mine too . i've been doing my just wait till i tho
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Computer(like)
+Round 6: rat(dislike)
+Round 7: work(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 53.57
+Robotic(↓): 72
+Interesting: 71
+Fun: 61
+Consistent: 60
+Fluent: 65
+Repetitive(↓): 64
+Topic: 54
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hi
+Bot(1): hi how are you today
+User(2): I am fine today
+Bot(2): hi there , i am doing well . how are you ?
+User(3): I am doing well
+Bot(3): hi ! i am doing well . i just got done working out .
+User(4): Do you go to park at evening
+Bot(4): i do . i am a bit of a workout person .
+User(5): Do you enjoy the area in the park
+Bot(5): i do but i love to go to the park
+User(6): what are the things you do in the park
+Bot(6): i am in the park with my two children
+User(7): hope you enjoy a lot with your friends
+Bot(7): i do not have many friends
+User(8): Sorry you enjoy with your childrens
+Bot(8): i do not have many friends
+User(9): what will your childrens do in the park
+Bot(9): yes i do but i love the city
+User(10): I love my city too
+Bot(10): i do not know how to go
+
+Persona:
+i've two grown children who never visit.
+i like to workout a a times a week.
+i've never had a steady relationship.
+i had to have a transplant.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: Park(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.43
+Robotic(↓): 74
+Interesting: 60
+Fun: 63
+Consistent: 66
+Fluent: 70
+Repetitive(↓): 72
+Topic: 68
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): do you enjoy your college
+Bot(2): i do , i love to cook .
+User(3): do you eat more spicy food
+Bot(3): i do not , but i do like to eat .
+User(4): you like sweet
+Bot(4): i like to go to the gym and listen to music .
+User(5): i like to go the gym
+Bot(5): i like to go fishing .
+User(6): I hate fishing
+Bot(6): i like to go to the gym and listen to music .
+User(7): I eat lot spicy food
+Bot(7): i like to eat fish .
+User(8): i like to fish
+Bot(8): i like to eat too much junk food .
+User(9): i like junk food
+Bot(9): i like to eat fish .
+User(10): I like chicken
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: College(like)
+Round 2: cook(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+
+Revised avg score: 56.57
+Robotic(↓): 82
+Interesting: 71
+Fun: 66
+Consistent: 70
+Fluent: 69
+Repetitive(↓): 70
+Topic: 72
+
+####################
+

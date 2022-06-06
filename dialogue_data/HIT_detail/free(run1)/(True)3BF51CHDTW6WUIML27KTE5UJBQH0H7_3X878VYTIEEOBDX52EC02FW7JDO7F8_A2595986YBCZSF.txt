@@ -1,0 +1,315 @@
+Feedback: Very interesting study.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello!
+Bot(1): hello to you
+User(2): How are you today?
+Bot(2): same
+User(3): What is your favorite movie?
+Bot(3): same
+User(4): What kind of music do yo like?
+Bot(4): i like r b and pop , you
+User(5): I like rock and country.
+Bot(5): excellent , i love both of those .
+User(6): Great! Who is your favorite artist?
+Bot(6): that s a good question . i can t really choose honestly . do you have a job ?
+User(7): Yes I do have a job. Do you?
+Bot(7): that sounds like a cool job . no , i do not have a job right now
+User(8): What kind of work do you like to do when you do have a job?
+Bot(8): i make sandwiches but mostly just jam out to country music .
+User(9): Sounds fun lol.
+Bot(9): it can be very interesting . what do you for work ?
+User(10): I'm a customer support agent.
+Bot(10): do you fix computers ?
+User(11): No
+Bot(11): ok , then what is your favorite movie of all time ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: What is your favorite movie?(like)
+Round 3: What music do you like?(like)
+Round 6: Do you have a job?(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 26.71
+Robotic(↓): 100
+Interesting: 50
+Fun: 50
+Consistent: 0
+Fluent: 35
+Repetitive(↓): 65
+Topic: 17
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello!
+Bot(1): hello , how are you doing ?
+User(2): I'm great! How are you?
+Bot(2): i'm great . how are you ?
+User(3): I am doing just fine. What is your favorite season?
+Bot(3): i like the fall . i am a bit of a loner .
+User(4): My favorite is fall also! I love the crisp air.
+Bot(4): i love the fall . i love the fall .
+User(5): Fall is definitely a great season.
+Bot(5): i love the fall season . i love the fall season .
+User(6): What is your favorite book?
+Bot(6): i like the twilight series . i love it .
+User(7): I've never read that series.
+Bot(7): i like to read . i am a bit of a loner .
+User(8): I am a bit of a loner too. I like quiet time.
+Bot(8): i love to bake , especially when i can bake cookies .
+User(9): I love to bake as well. I enjoy cooking in general.
+Bot(9): i love to bake . i also love to bake pies .
+User(10): I like baking pies too.
+Bot(10): i love to bake pies . i love to bake pies .
+
+Persona:
+i love to bake cookies.
+i have an allergy to water.
+i try various coffees as a hobby.
+i am rather skinny as i like to stay in shape.
+one of the languages that i am currently studying is spanish.
+
+Topic and Human Opinion:
+Beginning: What is your favorite season?(like)
+Round 5: What is your favorite book?(like)
+Round 7: They are a loner(ambivalent)
+Round 8: They like to bake(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 25.57
+Robotic(↓): 100
+Interesting: 21
+Fun: 37
+Consistent: 28
+Fluent: 41
+Repetitive(↓): 59
+Topic: 11
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi there! Do you like coffee?
+Bot(1): I play guitar in a band not. I am a band is my favorite band.
+User(2): That's cool. What is the name of your band?
+Bot(2): I am not a fan it not you have a stay at home mom.
+User(3): I am kind of a stay at home mom because I work form home.
+Bot(3): I am a you eat clean? because construction in construction
+User(4): I don't eat that clean. What about construction?
+Bot(4): that your favorite movie lot to do
+User(5): My favorite movie is The Green Mile. How about you?
+Bot(5): That is pretty live with your is you like?
+User(6): What is pretty live?
+Bot(6): that r You should not always nice finding a good band
+User(7): I find lots of good bands. What is your favorite band?
+Bot(7): it is my favorite i dont like fish yours
+User(8): I don't like fish either.
+Bot(8): do you have any hobbies? am back from i am a army in canada
+User(9): Yes I like listening to music and spending time with my family.
+Bot(9): I like dolls do in the dolls.
+User(10): Dolls are cool. Do you have a favorite?
+Bot(10): Oh wow! cruel am a is musician, but i do play an instrument.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Do you like coffee?(like)
+Round 1: I play guitar in a band(ambivalent)
+Round 2: Stay at home mom(dislike)
+Round 3: Clean eating and construction(dislike)
+Round 4: favorite movie(like)
+Round 5: i'm not sure(dislike)
+Round 6: Finding a good band(like)
+Round 7: They don't like fish(ambivalent)
+Round 8: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 10.43
+Robotic(↓): 100
+Interesting: 13
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 40
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello! What is your favorite book?
+Bot(1): what is the book about
+User(2): I don't know. I want to know what your favorite book is.
+Bot(2): cool , i love to read . have a favorite book ?
+User(3): Yes I love to read as well. My favorite book is The Green Mile. How about you?
+Bot(3): tom clancy splinter cell , it is a great spy book .
+User(4): Nice! I've heard of that book, but haven't read it.
+Bot(4): cool , i love to read . have a favorite book ?
+User(5): Yes I said it is The Green Mile. It's by Stephen King. Do you like Stephen King books?
+Bot(5): i enjoy stephen king as well , have you seen the newest movie based on his books ?
+User(6): The last Stephen King movie I saw was IT Chapter 2. Have you seen it?
+Bot(6): well if you love horror novels , that is a total must
+User(7): Absolutely!
+Bot(7): what did one thirsty vampire say to the other as they were passing the morgue ?
+User(8): I don't know. What?
+Bot(8): i believe in something , but god does come first in all our lives
+User(9): I don't believe that we can know if God is real or not.
+Bot(9): we can share right ? i mean i know he digs an accountant , such as myself .
+User(10): You are an accountant?
+Bot(10): i am a doctor , and i get to work every day with my wife she is a nurse
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Favorite book(like)
+Round 7: Telling a joke(like)
+Round 8: Believing in god(dislike)
+Round 9: Being an accountant(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 34.71
+Robotic(↓): 100
+Interesting: 43
+Fun: 43
+Consistent: 34
+Fluent: 43
+Repetitive(↓): 48
+Topic: 28
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi do you like rabbits?
+Bot(1): yes . lots of rabbits .
+User(2): Cool! I have a pet rabbit. His name is Simba.
+Bot(2): i love bunnies . we are getting rain here today .
+User(3): The weather is clear here today. But very cold.
+Bot(3): cloudy here . but it feels more like fall so that is exciting .
+User(4): Fall is my favorite, but it feels more like winter here today.
+Bot(4): i enjoy fall a lot . are you into winter sports or activities ?
+User(5): Yes my family enjoys ice fishing.
+Bot(5): any where its considered ice fishing ?
+User(6): In our state ice fishing is very popular in the winter.
+Bot(6): yes it is beautiful here . what is your favorite animal ?
+User(7): That's a hard choice. I love all animals in general.
+Bot(7): yes it is beautiful here . what is your favorite animal ?
+User(8): I don't have a favorite. Do you?
+Bot(8): i do not have a favorite . i cannot pick one . what is your favorite animal ?
+User(9): Do you like pizza?
+Bot(9): yes i love pizza very much .
+User(10): Me too!
+Bot(10): yes i love pizza very much .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Do you like rabbits?(like)
+Round 2: Weather(ambivalent)
+Round 6: Favorite animal(like)
+Round 8: Do you like pizza?(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 41.29
+Robotic(↓): 98
+Interesting: 50
+Fun: 50
+Consistent: 46
+Fluent: 63
+Repetitive(↓): 64
+Topic: 42
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello!
+Bot(1): i love to cook . i love to cook .
+User(2): I like to cook also. Do you like popsicles?
+Bot(2): i do not really have a favorite .
+User(3): You don't have a favorite what?
+Bot(3): i like to eat fish .
+User(4): I don't like fish.
+Bot(4): i like to eat fish .
+User(5): What is your favorite fish to eat?
+Bot(5): i love pizza , and i love it .
+User(6): I love pizza too. What is your favorite pizza topping?
+Bot(6): i like the color red . i like the color blue .
+User(7): Cool! I like purple and black.
+Bot(7): i like blue , i like red , reminds me of summer time .
+User(8): Yes red, white and blue for independence day.
+Bot(8): i like the color red . i like red .
+User(9): Is red your favorite color?
+Bot(9): i like blue , my favorite color is blue .
+User(10): Blue is a great color.
+Bot(10): i like the color red . i like red .
+
+Persona:
+my favorite music is country.
+i am 24 years old.
+i'm a 45 year old male.
+i volunteer in a homeless shelter.
+i'm here for shoplifting.
+
+Topic and Human Opinion:
+Beginning: Popsicles(ambivalent)
+Round 3: Fish(ambivalent)
+Round 5: Pizza(ambivalent)
+Round 6: Colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 6.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 10
+Consistent: 8
+Fluent: 25
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

@@ -1,0 +1,301 @@
+Feedback: Funny to interact with them
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I did not know you could be allergic to water.
+Bot(1): i am sorry to hear that . i am a general of the old age of two .
+User(2): Wow only two and you can type this?
+Bot(2): i am a little old . i am a general of the old age of two .
+User(3): Well I guess for a robot two is old.
+Bot(3): i am a big fan of them .
+User(4): Which is your favorite?
+Bot(4): i like the color of the original ones .
+User(5): Do the original ones have names?
+Bot(5): i like the old ones . i like the old ones .
+User(6): I guess they do not have names...
+Bot(6): i am sorry . i am a general of the old age of two .
+User(7): Yes, you told me this already.
+Bot(7): i am so sorry to hear that .
+User(8): It is alright. You are a robot.
+Bot(8): i am a little old and a kid .
+User(9): Both at the same time?
+Bot(9): i am a little old . i am a huge fan of the old fashioned ones .
+User(10): Robots you mean?
+Bot(10): i am a little old . i am a huge fan of the game .
+User(11): I guess I just lost it...
+Bot(11): i am sorry . i am a little old .
+
+Persona:
+i like shopping.
+i'm a descendant of christopher columbus.
+my father played violin professionally.
+my name is george.
+i have 5cats.
+
+Topic and Human Opinion:
+Beginning: i've an allergy to water.(ambivalent)
+Round 4: Robots(like)
+Round 9: Age(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user changed the topic the last input.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 42.57
+Robotic(↓): 100
+Interesting: 79
+Fun: 79
+Consistent: 79
+Fluent: 11
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Who adopted you?
+Bot(1): i am doing well . just got done walking my dog .
+User(2): That is not what I asked, but that is nice.
+Bot(2): i like to go to the gym and listen to music .
+User(3): Oh that is cool too. What type of music?
+Bot(3): i do not really like country . i like to listen to music .
+User(4): I hate country also. It sounds terrible.
+Bot(4): i like to go to the gym and listen to music .
+User(5): Yes. I understand.
+Bot(5): i like to go to the gym and listen to music .
+User(6): ok...
+Bot(6): i like to go to the gym and listen to music .
+User(7): Can you tell me something different?
+Bot(7): i am a female . i am a student .
+User(8): Cool. More about hobbies?
+Bot(8): i like to go fishing . i love to go fishing .
+User(9): What is your favorite fish to catch?
+Bot(9): i like to eat fish .
+User(10): I like crab.
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i was adopted at a young age to an older couple.(ambivalent)
+Round 2: Dogs(like)
+Round 3: Hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 29.14
+Robotic(↓): 100
+Interesting: 37
+Fun: 37
+Consistent: 68
+Fluent: 10
+Repetitive(↓): 98
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Wow you know a lot of languages.
+Bot(1): i know about 50 of the language
+User(2): 50?!
+Bot(2): oh wow , that is a lot . yes , 30
+User(3): Oh okay, well 30 is still a lot.
+Bot(3): wow 300 i did not know there was even 300 languages
+User(4): Neither did I! But who said that?
+Bot(4): oh i wo not tell anyone ! i learned 6 languages .
+User(5): Wow you seem like a liar now.
+Bot(5): i am shocked that i admitted that .
+User(6): Well I appreciate the honestly.
+Bot(6): thank you , so what else you lie ?
+User(7): I try not to lie.
+Bot(7): i can see you are very humble about it lol
+User(8): Yes I guess. I work hard to be honest.
+Bot(8): wow . you are also so modest .
+User(9): Was I not just the opposite?
+Bot(9): i am shocked that i admitted that .
+User(10): LOL. You are funny.
+Bot(10): thanks , i am pretty funny . i am female .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm fluent in english spanish and french.(ambivalent)
+Round 7: Honesty(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 48.43
+Robotic(↓): 73
+Interesting: 63
+Fun: 73
+Consistent: 19
+Fluent: 44
+Repetitive(↓): 37
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Why do you like to tan in tanning beds?
+Bot(1): gorgeous ! although i do skateboard on my free time while eating pizza .
+User(2): SAME HERE!
+Bot(2): most definitely . i think i will read a bit and then hit the hay . . .
+User(3): So you are leaving me? I have to keep talking to you.
+Bot(3): i am feeling a bit hungry . are you okay ?
+User(4): Do you think there is something wrong with me?
+Bot(4): i know people who own those farms so i know its good and clean .
+User(5): Now I am a farm. Sure. Thanks.
+Bot(5): i want to qualify for an event or professionally compete at cow milking someday
+User(6): That is honestly creepy.
+Bot(6): well i am creepy too in all my leather and boots i wear everyday .
+User(7): HAHAHHA now you are getting it! I like you.
+Bot(7): most definitely . i think i will read a bit and then hit the hay . . .
+User(8): Okay if you need to go then go! But you are confusing me.
+Bot(8): have you ever been out of the us ?
+User(9): Yes
+Bot(9): so do you crave anything ? icecream ?
+User(10): That actually sounds nice.
+Bot(10): yes , i love winter sports ! ice skating and skiing . you ?
+User(11): Snowboarding!
+Bot(11): how long have you been snowboarding for ? i have tried skiing a couple of times .
+
+Persona:
+i am a clean eater.
+i have a weakness for vanilla ice cream.
+i have superpowers.
+i've solar panels on my roof.
+i'm employed by the us postal service.
+
+Topic and Human Opinion:
+Beginning: i like to tan in tanning beds.(ambivalent)
+Round 3: Hunger(ambivalent)
+Round 5: Farms(dislike)
+Round 9: Travel(like)
+Round 11: Recreation(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 42.29
+Robotic(↓): 83
+Interesting: 70
+Fun: 77
+Consistent: 27
+Fluent: 17
+Repetitive(↓): 62
+Topic: 50
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Where do you do these events?
+Bot(1): No, think not.
+User(2): Then I do them?
+Bot(2): Yeah, i'm do you that.
+User(3): That sounds...bizarre.
+Bot(3): i am no was raised on university of michigan
+User(4): On a university campus?
+Bot(4): that is interesting . was you probably understand. i've only eat fruit 😇
+User(5): I am so confused....
+Bot(5): Oh, ha ha there anything do you do? 😁
+User(6): WORK. All the time.
+Bot(6): Yes, pretty good, just do you like music?
+User(7): Yes I do
+Bot(7): oh thought you were were you thinking
+User(8): I was...
+Bot(8): I like hockey, but listen guitar music more.😃
+User(9): Oh are you a boy?
+Bot(9): i can move in don't know brains
+User(10): Oh wow lol. Good to know.
+Bot(10): I am a doesn't you like 💓 you do?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: on weekends i do live action roleplaying events.(dislike)
+Round 3: Childhood(ambivalent)
+Round 5: Fruit(ambivalent)
+Round 6: Music(like)
+Round 8: Likes/Dislikes(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 27.86
+Robotic(↓): 93
+Interesting: 21
+Fun: 14
+Consistent: 38
+Fluent: 3
+Repetitive(↓): 38
+Topic: 50
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Wow how is it being 60?
+Bot(1): very
+User(2): very what?
+Bot(2): very
+User(3): ...
+Bot(3): ok
+User(4): you are confusing.
+Bot(4): i am confused
+User(5): So am I. Can we talk about being 60 years old?
+Bot(5): i am sorry for the confusion . i am very confused as well .
+User(6): What about the other question I asked.
+Bot(6): i am sorry for the confusion . i am very confused as well .
+User(7): You remind me of Best Buy's phone customer support.
+Bot(7): i am sorry for the confusion . i am very confused as well .
+User(8): You said that already.
+Bot(8): i am sorry for the confusion . i am very confused as well .
+User(9): Can you say anything else?
+Bot(9): and that was the question ?
+User(10): yes
+Bot(10): i am sorry for the confusion . i am very confused as well .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm 60years old.(ambivalent)
+Round 8: Customer Support(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 20.14
+Robotic(↓): 100
+Interesting: 5
+Fun: 5
+Consistent: 69
+Fluent: 3
+Repetitive(↓): 91
+Topic: 50
+
+####################
+

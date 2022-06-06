@@ -1,0 +1,302 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): hey
+User(2): what is your name?
+Bot(2): my name is jesse . what about you ?
+User(3): my name is bob. nice to meet you
+Bot(3): you can call me bob
+User(4): i thought your name is jesse
+Bot(4): no my name is sonny . what do you like to do ?
+User(5): is your name sonny or jesse or bob?
+Bot(5): no my name is sonny . what do you like to do ?
+User(6): i like to watch movies
+Bot(6): i am sonny my 2 boys are named after me
+User(7): do you like to watch movies?
+Bot(7): yeah i love movies all kinds
+User(8): what is your favorite movie?
+Bot(8): forest gump , i like movies like that haha
+User(9): what kind of movies do you like?
+Bot(9): i love almost all types of movies
+User(10): what was the last movie you watched?
+Bot(10): forest gump , i like movies like that haha
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 34.29
+Robotic(↓): 100
+Interesting: 25
+Fun: 22
+Consistent: 44
+Fluent: 46
+Repetitive(↓): 67
+Topic: 70
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): im doing well. how are you?
+Bot(2): i am doing well . just got done walking my dog .
+User(3): oh, do you like animals?
+Bot(3): i do , i love dogs . i love dogs .
+User(4): do you like cats?
+Bot(4): i do , i love dogs . i love dogs .
+User(5): what about cats?
+Bot(5): i do not have any pets , but i do like to go fishing .
+User(6): you just said you have a dog
+Bot(6): i do not have any pets , but i do have a dog .
+User(7): well which one is it? do you not have any pets or do you have a dog?
+Bot(7): i do not , but i do like to go fishing .
+User(8): can we talk about cats?
+Bot(8): i do not , i do not have any pets .
+User(9): i have two cats
+Bot(9): i love dogs , i love dogs .
+User(10): what is your dog's name?
+Bot(10): i am a big fan of jason mraz .
+User(11): your dog's name is jason mraz?
+Bot(11): i like the color red . i like the color blue .
+
+Persona:
+i love to drink fancy tea.
+i donate a part of my salary to charity each month.
+i'm rather skinny as i like to stay in shape.
+i'm partly deaf.
+hey my name is larry and i'm a chef.
+
+Topic and Human Opinion:
+Beginning: cats(like)
+Round 7: fishing(ambivalent)
+Round 11: colors(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.71
+Robotic(↓): 100
+Interesting: 7
+Fun: 16
+Consistent: 34
+Fluent: 21
+Repetitive(↓): 91
+Topic: 9
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): No I do I have grandsons you local station
+User(2): hello
+Bot(2): I man i exercise.
+User(3): do you like food?
+Bot(3): that is cool , but i dont have any military , so i was in the city .
+User(4): what are you talking about?
+Bot(4): i have a overcome please see. Do do not have any pets
+User(5): you aren't making any sense right now
+Bot(5): So do give me your pets?
+User(6): what is your name?
+Bot(6): I quit my never not sure.
+User(7): how old are you?
+Bot(7): good ! i am go to the gym most dogs . what do you do ? 😄
+User(8): what kind of food do you like?
+Bot(8): I don't understand you 🙈. like meditation. It's way today ? 🙈
+User(9): i don't understand you either
+Bot(9): Hey! What are you too. What books are about me: i'm retired gym teacher
+User(10): sorry, i can't talk to you, i don't understand anything you're saying
+Bot(10): I am said you love to just watching the kardashions.
+
+Persona:
+i've three children.
+i am 100 years old.
+when i grow up i want to be a dog.
+i dream of moving to the city.
+i move south during the winter.
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 1: grandsons(ambivalent)
+Round 3: nonsense(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 28.57
+Robotic(↓): 0
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): do you like food?
+Bot(2): oh sure , i love coffee
+User(3): what other foods do you like?
+Bot(3): those are great foods , i also love coffee
+User(4): my favorite food is spaghetti
+Bot(4): those are great foods , i also love coffee
+User(5): do you make coffee?
+Bot(5): no , me i have coffee daily
+User(6): do you buy coffee or make it yourself?
+Bot(6): no , me i have coffee daily
+User(7): have you been to starbucks?
+Bot(7): yeah but i prefer coffee
+User(8): what is your favorite drink?
+Bot(8): i love coffee with carmel
+User(9): how many cups of coffee do you drink in a day?
+Bot(9): i drink it nonstop its my favorite
+User(10): that's a lot of caffeine
+Bot(10): i am a coffee fanatic , yes !
+
+Persona:
+my family has raised horses for a generations.
+i'm a huge coffee lover.
+i am a descendant of christopher columbus.
+i am a piano teacher on the side.
+i love new kids on the block.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.43
+Robotic(↓): 78
+Interesting: 31
+Fun: 28
+Consistent: 51
+Fluent: 41
+Repetitive(↓): 55
+Topic: 58
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello
+Bot(1): hi how are you today ?
+User(2): good. how are you?
+Bot(2): i am good . just finished reading some sci fi and you ?
+User(3): i just finished programming. do you like programming?
+Bot(3): i do . i like to read and have a lot of hobbies .
+User(4): do you have a favorite programming language?
+Bot(4): i do not . i like to read and have a lot of hobbies .
+User(5): do you know how to program?
+Bot(5): i do not . i like to read and have a lot of hobbies .
+User(6): what are some of your hobbies?
+Bot(6): i like to read and have a hobby .
+User(7): did you know that you are a bot?
+Bot(7): i am not sure . i like to read and have a hard time finding a drink .
+User(8): did you know that you were programmed?
+Bot(8): i have been to a few times .
+User(9): what programming language was used to make you?
+Bot(9): i have been to a few years ago .
+User(10): sorry, it seems like you were not programmed very well
+Bot(10): i know . i have been to a few times .
+
+Persona:
+i do not drink alcohol.
+for vacation i enjoy time at the beach.
+i don't drink alcohol.
+i enjoy reading journals and guides related to psychology.
+i own a yacht and i rent it out when i'm not using it.
+
+Topic and Human Opinion:
+Beginning: programming(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.14
+Robotic(↓): 85
+Interesting: 14
+Fun: 5
+Consistent: 7
+Fluent: 33
+Repetitive(↓): 69
+Topic: 36
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): i am a programmer. do you like cats?
+Bot(2): not really i just started collecting ugly cats i see in antique stores .
+User(3): what kind of cat is your favorite?
+Bot(3): another cat lover , awesome . we have to meet and have a drink soon .
+User(4): do you have a pet cat?
+Bot(4): pet him or you ? next month i will be going on a cruise ship
+User(5): why are you going on cruise ship? it's dangerous right now
+Bot(5): i fish all the time because i only eat fish . how do you feel about trump
+User(6): i do not like trump at all. what about you?
+Bot(6): donald trump was not a good choice , he is the devil
+User(7): do you think trump will win the election again?
+Bot(7): i win almost every time . do you have a special talent ?
+User(8): i am good at tennis
+Bot(8): no but my neighbors do . i like to go out and eavesdrop on their arguments at night
+User(9): what do your neighbors say?
+Bot(9): the youngest of my five grandchildren has downs . he catches the most fish !
+User(10): ok, you aren't making much sense anymore
+Bot(10): not many schools have it anymore . i retire at the end of the year .
+
+Persona:
+i have been retired for a years.
+i'm partly deaf.
+i spend a lot of time browsing the internet.
+i'm terrified of clowns due to childhood trauma.
+i have a weakness for fish and chips.
+
+Topic and Human Opinion:
+Beginning: cats(like)
+Round 4: vacation(dislike)
+Round 5: trump(dislike)
+Round 7: special talent(like)
+Round 8: eavesdropping(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 36.71
+Robotic(↓): 85
+Interesting: 42
+Fun: 42
+Consistent: 37
+Fluent: 26
+Repetitive(↓): 5
+Topic: 0
+
+####################
+

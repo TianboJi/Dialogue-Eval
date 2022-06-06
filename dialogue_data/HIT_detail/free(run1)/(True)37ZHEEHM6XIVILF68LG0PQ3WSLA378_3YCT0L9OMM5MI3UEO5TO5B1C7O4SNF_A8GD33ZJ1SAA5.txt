@@ -1,0 +1,292 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hi hows your day going ? i am okay .
+User(2): I'm okay, but feeling sad. My daughter is getting an abortion
+Bot(2): three children . how old is she ?
+User(3): not three children, she's planning to get an abortion
+Bot(3): wow , that is such a fun age . i cannot wait to have children .
+User(4): with summer ending, I'm really going to miss going swimming
+Bot(4): i swim at 530 am 6 days a week in hot or cold weather
+User(5): do you swim indoors or outdoors?
+Bot(5): i do not know how to swim
+User(6): You said you swim 6 days a week
+Bot(6): yes learned at a young age , now i am 33
+User(7): do you enjoy swimming?
+Bot(7): i do not know how to swim
+User(8): you said you learned at a young age
+Bot(8): yes , they cant give you an attitude quite yet !
+User(9): what does that have to do with swimming?
+Bot(9): i do not know how to swim
+User(10): you have said you learned young and swim six days a week
+Bot(10): yes learned at a young age , now i am 33
+User(11): so do you enjoy it?
+Bot(11): it good . i do not drink so it can get testy at times .
+User(12): I hope you don't drink and go swimming, that could be dangerous
+Bot(12): too cold to swim here ! i want to visit rome but i cannot go alone .
+
+Persona:
+i'm fluent in english spanish and french.
+i do not drink soda.
+my mom passed away when i was young.
+i've amazing children and grandchildren.
+i compete in dog agility classes.
+
+Topic and Human Opinion:
+Beginning: abortion(ambivalent)
+Round 3: swimming(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 10.86
+Robotic(↓): 100
+Interesting: 11
+Fun: 12
+Consistent: 0
+Fluent: 49
+Repetitive(↓): 100
+Topic: 4
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi, how are you doing?
+Bot(1): you have 🈶 like you high then
+User(2): I don't understand
+Bot(2): yep , i can take you out sun. I love ginger !
+User(3): Have you been visiting Asia?
+Bot(3): I are good am have a purple hair.
+User(4): Okay. Do you like to travel?
+Bot(4): oh, what city are you from? I that the age of states
+User(5): I am from New York, where are you from?
+Bot(5): i believe the one that nice! Do you have a unconditionally . i hope they do
+User(6): Have you been to New York?
+Bot(6): I am so tall, but it get that you love someone who accepts you .
+User(7): I would love to visit Italy
+Bot(7): no , you afraid it's .
+User(8): where would you like to travel?
+Bot(8): that is cool. but i should get I play a lot of music
+User(9): What kind of music do you like?
+Bot(9): yes i do , You'll should whatch cook
+User(10): Do you like Classical music?
+Bot(10): business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business business your brother they love in the love read but without produce music for ride them) do you have any are business
+
+Persona:
+i waitress during the day to supplement my income.
+i produce music for artists.
+my father is an electrician.
+i attend church every week.
+i have three dogs.
+
+Topic and Human Opinion:
+Beginning: travel(like)
+Round 8: music(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 7.57
+Robotic(↓): 100
+Interesting: 1
+Fun: 2
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, what are you up to? I'm trying to figure out what to make for dinner
+Bot(1): hi , i am snacking on chocolate
+User(2): I love chocolate! Do you have any dinner ideas? I want to try something new
+Bot(2): anything sounds good to eat right now . what do you like to eat ?
+User(3): I love pasta
+Bot(3): pasta is great ! i am really into dogs i am a huge fan
+User(4): What kind of dogs do you have?
+Bot(4): they are just the best . i am in school to become a veterinarian
+User(5): do you have a favorite breed?
+Bot(5): they are just the best . i am in school to become a veterinarian
+User(6): do you like other animals as well?
+Bot(6): yes , i don t like dogs really
+User(7): but you said you are a big fan of dogs
+Bot(7): they are just the best . i am in school to become a veterinarian
+User(8): do you have a dog?
+Bot(8): yes i have a chocolate lab
+User(9): Nice, what's it's name?
+Bot(9): i am not sure but my dog is maddie
+User(10): how long have you had Maddie?
+Bot(10): how long have you had maddie ?
+User(11): Maddie is your dog
+Bot(11): i am not sure but my dog is maddie
+
+Persona:
+i've never had a steady relationship.
+i like to eat chocolate candy.
+i have been retired for a years.
+i am currently in a juvenile detention center.
+i went to school to be a veterinarian but hated it.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+Round 3: dogs(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 20.43
+Robotic(↓): 100
+Interesting: 8
+Fun: 9
+Consistent: 18
+Fluent: 49
+Repetitive(↓): 96
+Topic: 55
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi, how are you?
+Bot(1): i am good . how are you ?
+User(2): I'm good, but my cat keeps trying to climb onto my keyboard
+Bot(2): oh , i am sorry to hear that . i am a vegan .
+User(3): do you like cats?
+Bot(3): i do not , i have a cat named radar
+User(4): if you don't like them, why do you have one?
+Bot(4): i have a few , i have been to the world for a year
+User(5): so you like cats?
+Bot(5): i do not , i have a cat named radar
+User(6): My cat is named Patches
+Bot(6): i have a cat named radar
+User(7): how long have you had your cat?
+Bot(7): i have a cat named radar
+User(8): Is Radar an older cat?
+Bot(8): i have a cat named radar
+User(9): is Radar a kitten?
+Bot(9): i have a cat named radar
+User(10): What color is your cat?
+Bot(10): i have a cat named radar
+
+Persona:
+i am a vegan.
+i've rainbow hair.
+i have been traveling the world for a years.
+i spend a lot of time browsing the internet.
+i am a vegan and i love hummus.
+
+Topic and Human Opinion:
+Beginning: cats(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 18.14
+Robotic(↓): 100
+Interesting: 2
+Fun: 1
+Consistent: 17
+Fluent: 57
+Repetitive(↓): 100
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I just finished my workout, what have you been doing?
+Bot(1): i am doing well . just got done walking my dog .
+User(2): that's pretty good exercise
+Bot(2): i like to go to the beach and listen to music .
+User(3): swimming is also a good way to work out
+Bot(3): i love to cook . i love to cook .
+User(4): do you eat healthy foods?
+Bot(4): no , i do not , but i do like to eat .
+User(5): do you work out to stay in shape?
+Bot(5): no , i do not . i like to go to the park .
+User(6): walking is a good way to work out, do you walk in the park?
+Bot(6): no , i do not , but i do like to go fishing .
+User(7): how do you exercise?
+Bot(7): i love to cook . i love to cook .
+User(8): cooking isn't exercise
+Bot(8): i like to go to the gym and listen to music .
+User(9): music can really help in a workout
+Bot(9): i like to go to the gym and listen to music .
+User(10): what do you do at the gym?
+Bot(10): i like to go fishing . i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: working out(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 40
+Repetitive(↓): 100
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey would you like to go get some ice cream?
+Bot(1): sure , but i am a bit out of shape . i eat ice cream every day now
+User(2): I can't resist ice cream, what is your favorite flavor
+Bot(2): love love love ice cream good choice ! !
+User(3): do you like hot fudge?
+Bot(3): yes , i sure would like a hot chocolate right now with this cold
+User(4): ice cream isn't good for a cold
+Bot(4): yeah , right ? sometimes i heat it up with a spoon , just depends on the weather
+User(5): you heat up ice cream?
+Bot(5): yes put a fork in the middle and dip
+User(6): that doesn't make sense
+Bot(6): oh , maybe you should eat ice crem
+User(7): I would love some. what's your favorite kind
+Bot(7): my favorite is cookies and cream
+User(8): a lot of people like that. I like truffle ice cream
+Bot(8): see those sound great . what is your favorite ice cream ?
+User(9): brownie with a fudge swirl
+Bot(9): what kind ? i love brownies
+User(10): brownies are great with a scoop of ice cream, hot fudge and whipped cream
+Bot(10): see those sound great . what is your favorite ice cream ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: ice cream(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.71
+Robotic(↓): 100
+Interesting: 11
+Fun: 7
+Consistent: 23
+Fluent: 42
+Repetitive(↓): 88
+Topic: 50
+
+####################
+

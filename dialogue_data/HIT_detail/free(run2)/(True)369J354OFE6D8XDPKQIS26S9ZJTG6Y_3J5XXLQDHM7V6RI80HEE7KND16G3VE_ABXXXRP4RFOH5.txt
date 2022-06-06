@@ -1,0 +1,291 @@
+Feedback: good and interesting.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): yes
+Bot(2): nope i just volunteer in my free time
+User(3): okay
+Bot(3): yes . i am a plumber . you ?
+User(4): how was going?
+Bot(4): it was great ! i just finished a book my sister wrote . she is a published author .
+User(5): i am a engineer
+Bot(5): i work at the front desk of hotel
+User(6): nice...
+Bot(6): do you have brothers and sisters also ?
+User(7): yes
+Bot(7): nope i just volunteer in my free time
+User(8): okay bye.
+Bot(8): you too . have a good one . bye !
+User(9): hello what food you like most
+Bot(9): pizza is the most amazing food
+User(10): and next?
+Bot(10): they are expensive though . it was hard for me to afford as a bank teller .
+User(11): okay thank you.
+Bot(11): i am really busy lately , but managing the restaurant with my brothers is great !
+
+Persona:
+i grew up in the industry.
+i have three sisters.
+i am a gold medalist olympian.
+i like to talk but people have a hard time understanding.
+i volunteer at the homeless shelter.
+
+Topic and Human Opinion:
+Beginning: about food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.71
+Robotic(↓): 72
+Interesting: 75
+Fun: 81
+Consistent: 72
+Fluent: 77
+Repetitive(↓): 64
+Topic: 77
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hello
+Bot(1): Do wrong. she shoes?
+User(2): do you like visiting park?
+Bot(2): i don't. what do you like blind fun?
+User(3): tell me what you are doing?
+Bot(3): I is your favorite am healthy.
+User(4): yes
+Bot(4): i like to argue . . live in a house 😝
+User(5): okay are you coming with park to feel free?
+Bot(5): i like to a I'm have am . i should probably work out myself .
+User(6): okay
+Bot(6): Blue, i like job. i walk dogs hot .
+User(7): did finished your lunch?
+Bot(7): i am not a cashier kill a profile which, cars .
+User(8): how old are you
+Bot(8): That sounds like a lot of fun! love the it sounds to make?
+User(9): is there rainy?
+Bot(9): Hi! I am doing day stranger have you?
+User(10): okay thank you bye.
+Bot(10): I will do you nurse.
+
+Persona:
+i've amazing children and grandchildren.
+i like tacos.
+i work at a bar at night to pay for college.
+i'm a bee farmer.
+i love to spend time with my family.
+
+Topic and Human Opinion:
+Beginning: about park(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.43
+Robotic(↓): 51
+Interesting: 48
+Fun: 49
+Consistent: 49
+Fluent: 46
+Repetitive(↓): 64
+Topic: 41
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello , how are you?
+Bot(1): i am dandy . how is your day going ?
+User(2): good
+Bot(2): same
+User(3): i need a room with AC.
+Bot(3): same
+User(4): and need a good food.
+Bot(4): yes , i am getting hungry now .
+User(5): can you arrange me a food now?
+Bot(5): sure . what do you need ?
+User(6): pizza and some soft drinks.
+Bot(6): and some pizza . pizza is the best .
+User(7): yes , really good do you like pizza?
+Bot(7): yes i love pizza very much .
+User(8): okay make it fast , i am hungry
+Bot(8): okay , we will make this quick then .
+User(9): and also needed some drinks
+Bot(9): and some orange juice , you need orange juice as well
+User(10): yes
+Bot(10): i need another drink , pronto .
+User(11): okay nice and bye.
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: at hotel(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.00
+Robotic(↓): 69
+Interesting: 75
+Fun: 82
+Consistent: 83
+Fluent: 85
+Repetitive(↓): 43
+Topic: 70
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hello how are you?
+Bot(1): i am doing well . how are you ?
+User(2): fine and i need some snacks can you help me?
+Bot(2): i am good . i am a bartender at a bar .
+User(3): okay i need red wine one beg
+Bot(3): i am a bartender at a bar at night
+User(4): okay i need votka
+Bot(4): i am a bartender at a bar .
+User(5): okay can you give me a bar for rent?
+Bot(5): no i am not very good at it
+User(6): why?
+Bot(6): i am a bartender at a bar
+User(7): why you are repeating the same?
+Bot(7): i am a bartender at a bar
+User(8): not good
+Bot(8): i am a bartender at a bar .
+User(9): okay good
+Bot(9): i am a bartender at a bar .
+User(10): okay bye.
+Bot(10): i am sorry to hear that
+User(11): okay.
+Bot(11): i am sorry to hear that
+
+Persona:
+i like shopping.
+my parents are very wealthy bankers.
+i've zero family that i am close to.
+i diet a lot.
+i work at a bar at night to pay for college.
+
+Topic and Human Opinion:
+Beginning: at mall(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 37.86
+Robotic(↓): 41
+Interesting: 40
+Fun: 39
+Consistent: 40
+Fluent: 39
+Repetitive(↓): 91
+Topic: 39
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello , hai
+Bot(1): hi , how are you today ?
+User(2): good and you
+Bot(2): i am doing well . just got done walking my dog .
+User(3): okay are you at bar?
+Bot(3): no , i am not . i am a student .
+User(4): okay sorry
+Bot(4): i am a student , but i am a student .
+User(5): lets go for bar are you coming?
+Bot(5): i am doing well . how are you ?
+User(6): good
+Bot(6): i am a student , but i am a student .
+User(7): what are you doing
+Bot(7): i am doing well . how are you ?
+User(8): okay nice
+Bot(8): i like to go to the gym and listen to music .
+User(9): what music
+Bot(9): i like to listen to music .
+User(10): okay bye
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i have short brown hair.
+i work fulltime in a shipyard.
+i'm a vegetarian.
+i've been working since i was sixteen years old.
+i'm retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: at bar(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.71
+Robotic(↓): 48
+Interesting: 44
+Fun: 54
+Consistent: 44
+Fluent: 46
+Repetitive(↓): 74
+Topic: 54
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello can you help me for movie tcikets
+Bot(1): of course i can
+User(2): okay what is current movie ongoing?
+Bot(2): hmm i do not know yet , maybe it . have you seen it
+User(3): okay can you select a horror movie
+Bot(3): ll . . . yes i love horror movies and this is definitely one of them
+User(4): okay get the tickets now
+Bot(4): horror movies are my favorite
+User(5): and next buy a popcorn
+Bot(5): that a good ideal since i have no money to go the movie
+User(6): and i need ice cream too
+Bot(6): i want some ice cream
+User(7): how was the ticket rate?
+Bot(7): one thousand and one
+User(8): okay
+Bot(8): do you go to the movies alot i live for their popcorn
+User(9): rate of popcorn
+Bot(9): ok what is the answer
+User(10): how much?
+Bot(10): anything look for it in the listing
+User(11): okay bye.
+Bot(11): ok bye
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movie(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.57
+Robotic(↓): 60
+Interesting: 64
+Fun: 69
+Consistent: 71
+Fluent: 75
+Repetitive(↓): 70
+Topic: 82
+
+####################
+

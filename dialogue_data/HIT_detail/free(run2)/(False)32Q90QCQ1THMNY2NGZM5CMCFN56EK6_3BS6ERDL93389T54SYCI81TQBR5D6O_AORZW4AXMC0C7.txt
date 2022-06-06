@@ -1,0 +1,285 @@
+Feedback: good chatting
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi , how are you doing ?
+User(2): chatting
+Bot(2): hi there , how are you ?
+User(3): i am there and what about you
+Bot(3): hi ! i am a little tired from a long day at work .
+User(4): i also tired and i watch a love movie romieo juliet
+Bot(4): i am a huge fan of tacos .
+User(5): ok. you like lovers
+Bot(5): i love to read and i am a huge fan of tacos
+User(6): ok. i love to elephants
+Bot(6): i love to eat tacos . i love tacos .
+User(7): i love cooking to someone special
+Bot(7): i love tacos and i am a vegetarian .
+User(8): i am a non vegtrian and my partner also
+Bot(8): i work at a bar at a bar at a bar
+User(9): ok i am a officer
+Bot(9): i work at a bar at a bar at a bar
+User(10): i am a junior level manager in dell
+Bot(10): i work at a bar at a bar at a bar
+
+Persona:
+i've amazing children and grandchildren.
+i like tacos.
+i work at a bar at night to pay for college.
+i'm a bee farmer.
+i love to spend time with my family.
+
+Topic and Human Opinion:
+Beginning: love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.29
+Robotic(↓): 83
+Interesting: 91
+Fun: 92
+Consistent: 91
+Fluent: 85
+Repetitive(↓): 90
+Topic: 92
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I apologize. What why this is happening you have hiked?
+User(2): no need
+Bot(2): what 😦 do live in not that a living
+User(3): usa
+Bot(3): I love speak chinese? Cause I been to france in the england.
+User(4): i love speak france
+Bot(4): oh that's interesting . eat with my about speed mcqueen ? 🤓
+User(5): hmm. i love comdey scenes
+Bot(5): yes you have any at home
+User(6): i am also in home
+Bot(6): I like a is too i at all .
+User(7): i like mr.bean
+Bot(7): what do you great! i enjoy reading skips church ?
+User(8): am also
+Bot(8): and is have is that
+User(9): super
+Bot(9): I went to strong, so am I'm a was great. How to make a unicorn cry?
+User(10): excellent
+Bot(10): I love to swim, my cats. I college.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: comedy(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.29
+Robotic(↓): 85
+Interesting: 85
+Fun: 86
+Consistent: 90
+Fluent: 91
+Repetitive(↓): 91
+Topic: 88
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): good
+Bot(2): i am a student , but i am a student .
+User(3): i am officer
+Bot(3): i am sorry to hear that . i am sorry to hear that .
+User(4): ok
+Bot(4): i like to go to the gym and listen to music .
+User(5): i like to go seashore and bath
+Bot(5): i like to go fishing .
+User(6): i like to eat
+Bot(6): i like to eat too much junk food .
+User(7): same
+Bot(7): i am a student , but i am a student .
+User(8): ok
+Bot(8): i like to go to the gym and listen to music .
+User(9): ok
+Bot(9): i like to go to the gym and listen to music .
+User(10): same
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: actors(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.14
+Robotic(↓): 80
+Interesting: 82
+Fun: 80
+Consistent: 78
+Fluent: 83
+Repetitive(↓): 84
+Topic: 83
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): i am enjoying hearings songs
+Bot(2): folk songs , i currently hold a black belt in karate . what do you like to draw ?
+User(3): i like water painting
+Bot(3): i like the arts too . i am a pretty big radiohead fan . do you like any bands ?
+User(4): ravi varma
+Bot(4): i am great , just got done with my daily workout . u ?
+User(5): same
+Bot(5): most definitely . i think i will read a bit and then hit the hay . . .
+User(6): same
+Bot(6): i am a deployed army ranger how about you ?
+User(7): do you know cooking
+Bot(7): i love to cook ! especially from my own home grown food !
+User(8): i like and love cook to eat myself
+Bot(8): i love comic books and i also collect autographs , which i have a lot of .
+User(9): i love story tales
+Bot(9): awesome . hey u know anyone interested in dating an obese blonde lady ?
+User(10): hmm my boyfriend venkat
+Bot(10): ya ariel is my favorite princess . i don t have a boyfriend
+
+Persona:
+i've two grown children who never visit.
+i like to workout a a times a week.
+i've never had a steady relationship.
+i had to have a transplant.
+on weekends i do live action roleplaying events.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.86
+Robotic(↓): 74
+Interesting: 84
+Fun: 87
+Consistent: 89
+Fluent: 88
+Repetitive(↓): 82
+Topic: 90
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): pretty good are you married ?
+User(3): no i am not married
+Bot(3): i am sorry . i have two really cool dogs
+User(4): ok . i love someone
+Bot(4): i have two adorable puppies
+User(5): i like to groe small cute elephant is my desires
+Bot(5): good . i have a couple of dogs . that sounds cool
+User(6): ok
+Bot(6): i have a daughter with long brown hair like me
+User(7): i like hairstyle
+Bot(7): i keep my hair long for a boy
+User(8): i like elephant tail hair
+Bot(8): i keep my hair long for a boy
+User(9): i like bob cutting
+Bot(9): i keep my hair long for a boy
+User(10): super
+Bot(10): i was made for this
+
+Persona:
+i am a 12 year old girl.
+i'm married.
+i've two dogs.
+i am terrified of scorpions.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: elephant(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.57
+Robotic(↓): 82
+Interesting: 87
+Fun: 90
+Consistent: 92
+Fluent: 93
+Repetitive(↓): 93
+Topic: 93
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ? i am just kinda board now that i have retired .
+User(2): ok
+Bot(2): huh ?
+User(3): what you mean
+Bot(3): huh ?
+User(4): not understand
+Bot(4): what are you confused about ?
+User(5): i am confused
+Bot(5): what are you confused about ?
+User(6): nothing
+Bot(6): i guess i do not understand
+User(7): are you married
+Bot(7): no i am not i just retired
+User(8): i love my couple very much
+Bot(8): marriage can take a lot of time
+User(9): true
+Bot(9): my husband wants to retire next year
+User(10): congrates
+Bot(10): very
+User(11): thanks
+Bot(11): how
+
+Persona:
+i've been retired for a years.
+i love to play board games.
+i am four.
+i am always wearing a hat.
+my favorite colors are red and silver.
+
+Topic and Human Opinion:
+Beginning: couples(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.71
+Robotic(↓): 67
+Interesting: 83
+Fun: 86
+Consistent: 87
+Fluent: 88
+Repetitive(↓): 88
+Topic: 92
+
+####################
+

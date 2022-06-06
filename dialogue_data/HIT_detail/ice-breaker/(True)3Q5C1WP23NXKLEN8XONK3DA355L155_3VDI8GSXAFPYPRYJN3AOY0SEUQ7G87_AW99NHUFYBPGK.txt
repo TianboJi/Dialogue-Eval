@@ -1,0 +1,292 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): I have a German Shepard named barnaby
+Bot(2): i love the color red . i like the color blue .
+User(3): My dog is pretty big
+Bot(3): i like the color red . i like the color blue .
+User(4): I named him Barnaby because I found the name in a book and I really liked the name
+Bot(4): i like the color red . i like the color blue .
+User(5): do you like to cook?
+Bot(5): i do , i love to cook .
+User(6): what all do you like to cook?
+Bot(6): i love to cook , and eat pizza .
+User(7): what kind of pizza?
+Bot(7): i like pizza , and pizza .
+User(8): I do too
+Bot(8): i like to go to the gym and listen to music .
+User(9): I am not a fan of going to the gym
+Bot(9): i like to go fishing .
+User(10): Me too. I have always fished since I was a young child
+Bot(10): i am sorry to hear that . i am sorry to hear that .
+
+Persona:
+i've one brother.
+i used to be pretty but time hasn't been kind.
+i am a librarian.
+i live in canada.
+i can move objects with my mind.
+
+Topic and Human Opinion:
+Beginning: i have a german shepherd named barnaby.(like)
+Round 4: cooking(like)
+Round 8: gym(dislike)
+Round 9: fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 12.43
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 64
+Repetitive(↓): 77
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I drive a bmw
+Bot(1): what Dude. Be love favorite travel spot ?
+User(2): I dont understand.
+Bot(2): i love art handle How are you surf bum living out in california .. Also, try to guess: my pets name ...
+User(3): this is confusing me
+Bot(3): I like all kinds. I am children. Do you have hip hop.
+User(4): no I do not
+Bot(4): I am a is a good what a huge fan of meat.
+User(5): I like bmws
+Bot(5): What are have a in?
+User(6): what
+Bot(6): I'm you I are you?
+User(7): not correct English
+Bot(7): Do on. Are kids?
+User(8): I have kids
+Bot(8): i am a country singer , and i love kind of hair do ?
+User(9): thats awsome
+Bot(9): No, i do not. i do not have a lot and it's named have tv.
+User(10): what tv do you have?
+Bot(10): I love food, like to we be so I love food
+
+Persona:
+i now live in the city.
+i'm a clean eater.
+i'm 60years old.
+i have rainbow hair.
+i am a retired gym teacher.
+
+Topic and Human Opinion:
+Beginning: i drive a bmw.(like)
+Round 1: idk(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+
+Revised avg score: 11.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 6
+Repetitive(↓): 23
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like music. do you?
+Bot(1): hi . not much of a cook but i like to much documentaries
+User(2): im a piano teacher on the side
+Bot(2): awesome . i speak english and spanish .
+User(3): are you a teacher
+Bot(3): yes i do french , i mostly get c and d
+User(4): this is pretty bad
+Bot(4): i am getting a divorce
+User(5): thats awful
+Bot(5): i am getting a divorce
+User(6): music teacher
+Bot(6): i am getting a divorce
+User(7): why
+Bot(7): i am getting a divorce
+User(8): are you getting a divorce?
+Bot(8): i am getting a divorce
+User(9): sorry to hear that
+Bot(9): i am learning the language now
+User(10): what new language are you learning?
+Bot(10): french its a wonderful language
+
+Persona:
+i'm fluent in english spanish and french.
+i am planning on getting a divorce.
+i have superpowers.
+my next language to study is french.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: i'm a piano teacher on the side.(dislike)
+Round 7: divorce(dislike)
+Round 10: language(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 18.71
+Robotic(↓): 100
+Interesting: 22
+Fun: 6
+Consistent: 2
+Fluent: 62
+Repetitive(↓): 61
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): is that the lan
+Bot(1): no its a lawn game with clubs and stuff
+User(2): hello friend
+Bot(2): yep
+User(3): can you guess what my name is?
+Bot(3): well , sure , none of my friend call me by my birth name
+User(4): my name is George
+Bot(4): i am george . nice to meet you .
+User(5): nice to meet you
+Bot(5): i am george . nice to meet you .
+User(6): My name is Tiffany
+Bot(6): nice to meet you , my name is tiffany
+User(7): wait a minute. now your just copying me
+Bot(7): nice to meet you , my name is tiffany
+User(8): you are copying me
+Bot(8): nice to meet you , my name is tiffany
+User(9): my name is sam
+Bot(9): nice to meet you , my name is tiffany
+User(10): sma
+Bot(10): jessie
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my name is george.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.57
+Robotic(↓): 100
+Interesting: 4
+Fun: 0
+Consistent: 8
+Fluent: 59
+Repetitive(↓): 63
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you ?
+User(2): I am doing well, thank you for asking
+Bot(2): what do you do for a living ? i am a legal assistant that handles real estate work .
+User(3): i went to school for chemistry but work in a bookstore.
+Bot(3): oh okay . i do not read books often , normally books in french are my go to .
+User(4): How many languages do you speak?
+Bot(4): i speak only english , and a little spanish
+User(5): But you said books in French are your go to. wouldn’t you have to know the language of French to be able to read a French book?
+Bot(5): only english , do you speak any other languages ?
+User(6): Yes, I speak 3 languages. English, Spanish and arbic
+Bot(6): which languages do you speak ?
+User(7): English, Spanish and arbic
+Bot(7): which languages do you speak ?
+User(8): not to be rude but I already told you what languages that I like to read
+Bot(8): i speak english and french and spanish fluently
+User(9): thats great. what is your native tongue?
+Bot(9): he was born in hawaii . hoping i can visit there when i graduate highschool
+User(10): who was born in Hawaii?
+Bot(10): that is cool . i was born in nevada , but am living in new mexico now .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i went to school for chemistry but work in a bookstore.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.00
+Robotic(↓): 67
+Interesting: 35
+Fun: 20
+Consistent: 32
+Fluent: 95
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hi how are you today
+User(2): Great.what is your name
+Bot(2): my name is jim . i am a activist .
+User(3): thats awesome. what kind of activist work do you do?
+Bot(3): i am a professional at a local animal shelter
+User(4): thats good. my kids tell me we should get a dog from an animal shelter
+Bot(4): i love animals . i am a activist .
+User(5): they are constantly on my back.
+Bot(5): i love animals . i am a activist .
+User(6): they are constantly on my back.
+Bot(6): i love dogs too . i am a activist
+User(7): I like dogs too I have one
+Bot(7): i love dogs . i have a dog .
+User(8): her name is Honey
+Bot(8): i love dogs . i have a dog named radar .
+User(9): thats a good name
+Bot(9): i love dogs . i am a activist .
+User(10): I like dogs too
+Bot(10): i love dogs too . i am a activist
+
+Persona:
+i like to ride horses.
+i'm a stunt double as my second job.
+i love listening to britney spears.
+i'm an animal activist.
+i do not drink or do drugs or anything.
+
+Topic and Human Opinion:
+Beginning: they are constantly on my back.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.29
+Robotic(↓): 64
+Interesting: 22
+Fun: 30
+Consistent: 32
+Fluent: 64
+Repetitive(↓): 50
+Topic: 41
+
+####################
+

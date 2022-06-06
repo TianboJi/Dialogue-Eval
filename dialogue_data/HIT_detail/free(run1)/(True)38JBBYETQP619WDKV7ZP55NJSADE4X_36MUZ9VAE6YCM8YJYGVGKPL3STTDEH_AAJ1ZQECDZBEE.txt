@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what do you like to eat?
+Bot(1): pizza wings and cheese bread
+User(2): oh yeah, me too.
+Bot(2): we could have our water balloon fight at the beach . i love the beach !
+User(3): me too and we can have lunch there
+Bot(3): i am getting ready to watch some college football and also nfl football tomorrow love it
+User(4): are you going to eat pizza while watching the game
+Bot(4): ha pizza is my favorite food also .
+User(5): maybe have some wings with it as well
+Bot(5): i never been a big fan of wings . my fav is chicken enchiladas
+User(6): me too. what other foods do you like to put in your mouth
+Bot(6): i eat anything really i love mexican food tho
+User(7): yeah how about a big burrito
+Bot(7): yeah , taco bell has vegan beans . give me energy for hiking and other outdoor stuff .
+User(8): taking food with you on a hike is fun
+Bot(8): a hike to the creek ? to drink beer ? and hold me ?
+User(9): yeah, I can do all of that
+Bot(9): we could have our water balloon fight at the beach . i love the beach !
+User(10): sounds good to me
+Bot(10): yep . he helps me study for my classes and makes me vegan food .
+
+Persona:
+i'm a feminist.
+i enjoy reading journals and guides related to psychology.
+i'm an electrician.
+hey there i am 23 and i love food.
+i like donuts.
+
+Topic and Human Opinion:
+Beginning: food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.86
+Robotic(↓): 81
+Interesting: 59
+Fun: 77
+Consistent: 40
+Fluent: 49
+Repetitive(↓): 20
+Topic: 32
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you enjoy sex
+Bot(1): yes i do i love to go to the movies
+User(2): what things do you enjoy about sex
+Bot(2): i love to go to the movies
+User(3): What does movies have to do with sex
+Bot(3): i like to hang out with friends
+User(4): are you uncomfortable talking about sex
+Bot(4): i do not like women
+User(5): Oh, I see
+Bot(5): that is a good thing
+User(6): Why don't you like women
+Bot(6): that is true i love women
+User(7): I definitely love women
+Bot(7): that is a good thing
+User(8): that's for sure
+Bot(8): you should try it
+User(9): I do try a lot of things during sex
+Bot(9): i like to think women are so hard
+User(10): what do you mean that women are hard
+Bot(10): i think women are so expensive
+User(11): They are expensive
+Bot(11): yes i do but i am a woman
+User(12): Are you blonde or brunette
+Bot(12): i am blonde and i am blonde
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sex(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 68.00
+Robotic(↓): 33
+Interesting: 87
+Fun: 81
+Consistent: 64
+Fluent: 49
+Repetitive(↓): 30
+Topic: 58
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): do you like the outdoors
+Bot(1): i do , but i do not have a favorite .
+User(2): I like to hike
+Bot(2): i love to travel . i love to travel .
+User(3): where have you traveled to
+Bot(3): i live in california . i love it .
+User(4): really? I heard california wasn't very nice
+Bot(4): i do , i love it . i love it .
+User(5): what do you love about it
+Bot(5): i like to go to the gym and listen to music .
+User(6): I prefer being outdoors
+Bot(6): i like to go fishing .
+User(7): I do as well
+Bot(7): i love to cook . i love to cook .
+User(8): what do you love cooking
+Bot(8): i like to eat . i am a big fan of it .
+User(9): I can understand that
+Bot(9): i do not know what to say .
+User(10): do you enjoy cooking outdoors
+Bot(10): i do , i love to cook .
+
+Persona:
+my parents taught me survival skills.
+i was born with my heart outside my body.
+i've three dogs.
+i own a house in florida.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: outdoors(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.29
+Robotic(↓): 66
+Interesting: 54
+Fun: 51
+Consistent: 34
+Fluent: 47
+Repetitive(↓): 60
+Topic: 15
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you own a car
+Bot(1): i I eat it in i am not really into sports .
+User(2): do you drive a car
+Bot(2): Because it's watched do bartending It bit of a woman.
+User(3): I like to drive fast
+Bot(3): I've a my live in is wanton.
+User(4): Can you learn to drive
+Bot(4): i live upstate new york, in the city job do you so music lover.
+User(5): how do you get around
+Bot(5): i'm in california. what If you think food?
+User(6): can you speak about automobiles
+Bot(6): she's an ex singer from the early 2000s 💬 to him much last and the like
+User(7): can we talk about cars
+Bot(7): what kind of games the meaning of our love pobox
+User(8): have you seen a tesla
+Bot(8): i usually go now. nice to to come for dinner
+User(9): they have great designs to their cars
+Bot(9): reporter for you ask newspaper
+User(10): I am going for a drive
+Bot(10): I'm not to music genre you surely not everyone does.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 15.00
+Robotic(↓): 97
+Interesting: 5
+Fun: 4
+Consistent: 4
+Fluent: 5
+Repetitive(↓): 16
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): can you believe there is another hurricane
+Bot(1): yes i am in atlanta and people are freaking out .
+User(2): will you get effects from the storm
+Bot(2): no , we are not in an evacuation zone yet so we are ok
+User(3): that's good
+Bot(3): hurricane irma is a very powerful storm
+User(4): yes and now here comes Sally
+Bot(4): hurricane irma is a very powerful storm
+User(5): how powerful was irma
+Bot(5): hurricane irma is a very powerful storm
+User(6): what category is irma
+Bot(6): hurricane irma is a very powerful storm
+User(7): yes I know, but what category was irma
+Bot(7): hurricane irma is a very powerful storm
+User(8): you do know that you are repeating yourself, right
+Bot(8): hurricane irma is a very powerful storm
+User(9): I like snow
+Bot(9): hurricane irma is a very powerful storm
+User(10): I hope we get some snow this winter
+Bot(10): yeah it will be a long and cold one
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: weather(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.43
+Robotic(↓): 98
+Interesting: 2
+Fun: 1
+Consistent: 60
+Fluent: 5
+Repetitive(↓): 100
+Topic: 45
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): have you ever had a sexual encounter
+Bot(1): yuck no , i cant say i have
+User(2): why do you say yuck
+Bot(2): its one of those closet situations hard to say
+User(3): I was hoping you wanted to talk about it
+Bot(3): of course ! i am a four year old
+User(4): huh? how are you a four year old
+Bot(4): its complicated to explain , i am the youngest of four
+User(5): Oh you mean you are the yougest in your family
+Bot(5): no i mean i am a boy with long hair
+User(6): That's okay. I saw an oriole today
+Bot(6): wow did you fish it out
+User(7): no, I just let it fly away
+Bot(7): i could not let it go i like fish to eat lol
+User(8): I love the taste of oysters
+Bot(8): they taste pretty good i get them sometimes
+User(9): have you tried them raw
+Bot(9): only once . do you like them ?
+User(10): I love them. sometimes they remind me of other things
+Bot(10): they taste pretty good i get them sometimes
+
+Persona:
+i have a weakness for fish and chips.
+i enjoy coloring books.
+i don't drink soda.
+i am four years old.
+i have brown curly hair.
+
+Topic and Human Opinion:
+Beginning: sexual encounters(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.57
+Robotic(↓): 50
+Interesting: 40
+Fun: 40
+Consistent: 25
+Fluent: 55
+Repetitive(↓): 6
+Topic: 1
+
+####################
+

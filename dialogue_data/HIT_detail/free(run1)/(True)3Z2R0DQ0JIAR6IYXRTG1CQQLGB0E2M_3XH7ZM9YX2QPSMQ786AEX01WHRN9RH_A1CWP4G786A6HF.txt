@@ -1,0 +1,329 @@
+Feedback: This was nice and a lot of fun . Thank you
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello there
+Bot(1): hi , i am a soccer player .
+User(2): That's cool
+Bot(2): i am a soccer player , what do you do ?
+User(3): I am a student studying biology
+Bot(3): i am a soccer player . i love to cook .
+User(4): Me too. How do you feel about chemistry?
+Bot(4): i do not know what that means .
+User(5): Do you like chemistry?
+Bot(5): i do not know . i like to watch tv .
+User(6): So do I
+Bot(6): i like science and science . i like to watch tv .
+User(7): Science is great
+Bot(7): i like science fiction . i like to watch tv .
+User(8): What is your favorite novel?
+Bot(8): i like the tale of the tale of the novel
+User(9): Interesting. Do you know the periodic table?
+Bot(9): i do not know . i like to watch tv .
+User(10): I see
+Bot(10): i do not know . i like to watch tv .
+User(11): It was nice talking with you
+Bot(11): i like to read . i like to watch tv .
+User(12): Goodbye
+Bot(12): i am not sure . i am not sure if i could do that .
+User(13): Have a good day
+Bot(13): i am not sure what that means
+
+Persona:
+i am on the soccer team.
+i don't pick up my toys.
+i also like to cook but i am not very good at it.
+i watch too much tv in spare time.
+i do not pick up my toys.
+
+Topic and Human Opinion:
+Beginning: Chemistry(like)
+Round 11: Television and Reading(like)
+
+Topic Change and Chatbot Opinion:
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 26.00
+Robotic(↓): 100
+Interesting: 75
+Fun: 34
+Consistent: 17
+Fluent: 29
+Repetitive(↓): 94
+Topic: 21
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello there
+Bot(1): hi ! how are you today ?
+User(2): I'm great! How are you?
+Bot(2): i am well . just spending my day doing repairs on my house since i own it .
+User(3): That's nice. Do you enjoy reading books?
+Bot(3): i love to read books . i spend a lot of my time reading .
+User(4): So do I! Do you have a favorite book?
+Bot(4): what is the book about
+User(5): Well, I don't know.
+Bot(5): so i love drinking tea . are you a tea or coffee person ?
+User(6): I am a tea person like you.
+Bot(6): eh not much of a tea drinker . i love coffee
+User(7): You just said you love drinking tea.
+Bot(7): not a fan of tea . but i love going out to eat .
+User(8): Interesting. I love sushi sometimes.
+Bot(8): oh nice is there sweet potatoes in sushi ? i hate sweet potatoes
+User(9): No, there aren't. It's mainly rice, seaweed, and fish
+Bot(9): what do you do with the fish ?
+User(10): You put it in the sushi
+Bot(10): it is wonderful . i only like cooked sushi
+User(11): Same. And yes it is awesome
+Bot(11): i am a deployed army ranger how about you ?
+User(12): I am a biology student
+Bot(12): that is unfortunate . i like to read , but not about biology .
+User(13): That's too sad. I have to go now
+Bot(13): i am sorry what is going on that is making you sad
+User(14): You don't like biology
+Bot(14): biology was always really tough for me
+User(15): That's not good. It was really easy for me
+Bot(15): i can make a mean french fry ; i enjoy cooking .
+User(16): I see. Goodbye for now.
+Bot(16): haha . as long as you like the outdoors . i love kayaking .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Books(like)
+Round 5: Beverages(like)
+Round 7: Take Out(like)
+Round 10: Sushi(like)
+Round 14: biology(like)
+Round 16: kayaking(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 10: The user changed the topic the last input.(like)
+Round 14: The chatbot changed the topic.(dislike)
+Round 16: The chatbot changed the topic.(like)
+
+Revised avg score: 85.00
+Robotic(↓): 17
+Interesting: 96
+Fun: 94
+Consistent: 77
+Fluent: 92
+Repetitive(↓): 26
+Topic: 79
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi, how are you?
+Bot(1): i am doing well . how are you ?
+User(2): Great. What kind of food do you like?
+Bot(2): i like pizza , and i love to eat .
+User(3): Awesome! I love pizza too.
+Bot(3): i like to eat fish .
+User(4): What kind of fish do you like most?
+Bot(4): i like the cuban sandwiches and the best .
+User(5): Those sound good. What's on a cuban sandwich?
+Bot(5): i do not know what to say .
+User(6): That's alright
+Bot(6): i am a student , but i am a student .
+User(7): I am a student too.
+Bot(7): i am a teacher , i love to cook .
+User(8): I thought you were a student, not a teacher
+Bot(8): i am a student , but i am a student .
+User(9): I'm confused
+Bot(9): i am a student , but i am a student .
+User(10): You don't make sense
+Bot(10): i am sorry to hear that . i am a big fan of the walking dead .
+User(11): I'm not a big fan of that
+Bot(11): i like to go to the gym and listen to music .
+User(12): Cool. It was nice talking. Have a nice day.
+Bot(12): i love to cook . i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 6: School(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: No topic change.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 44.57
+Robotic(↓): 98
+Interesting: 66
+Fun: 78
+Consistent: 57
+Fluent: 67
+Repetitive(↓): 88
+Topic: 30
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi. How do you feel about eggs?
+Bot(1): i am you like to pretty soon
+User(2): Huh?
+Bot(2): I you fan of basketball, basketball, basketball, basketball
+User(3): Cool. Do you like eggs?
+Bot(3): I love no job you. soccer.
+User(4): I don't understand
+Bot(4): i am a to the church in types of things except country
+User(5): Eggs?
+Bot(5): i am are necessary of all you have any animals
+User(6): I have a dog
+Bot(6): do very excited a lot
+User(7): That's good. Do you have a dog?
+Bot(7): I am a big on space stantion eyes.
+User(8): You don't?
+Bot(8): MAN. (SINGING) Get live in good for you. a stick of Juicy Fruit The taste is gonna move ya
+User(9): What is that about?
+Bot(9): I am from from mom passed away love mountains.
+User(10): I'm sorry to hear that
+Bot(10): i you like to how about you
+User(11): My mom is alive
+Bot(11): cool. I have a hobby tell me about man you
+User(12): I am sorry, I have to go
+Bot(12): i am sorry have just move to , i am sorry .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Eggs(ambivalent)
+Round 6: Dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 29.00
+Robotic(↓): 100
+Interesting: 29
+Fun: 8
+Consistent: 83
+Fluent: 4
+Repetitive(↓): 26
+Topic: 5
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello there!
+Bot(1): hello , nice to meet you too .
+User(2): Do you like to go hiking?
+Bot(2): sure
+User(3): I do too. Where are you favorite places to go?
+Bot(3): anywhere with a lot of hiking trails !
+User(4): Awesome. I love to go to the woods or mountains.
+Bot(4): i like it too . nothing beats the woods .
+User(5): Definitely. It's so peaceful there and calm.
+Bot(5): it is . do you like the mountains too ?
+User(6): Yes. I love the mountains, especially at sunset
+Bot(6): yes , i love the mountains and the ocean contrast .
+User(7): I have never seen an ocean and mountains together
+Bot(7): it is awesome . i love seeing the bottom of the ocean with all the creatures
+User(8): Does that mean you go scuba diving?
+Bot(8): ahahah yes i lovedeep sea diving ! ! ! ! !
+User(9): Cool. What do you enjoy most about diving?
+Bot(9): dive off cliffs into the ocean . what do you like to do ?
+User(10): I like to hike in the desert and see lizards and turtles
+Bot(10): oh okay . i bet you own lizards too right ?
+User(11): Sadly, I don't. I have a dog.
+Bot(11): i have a dog as well
+User(12): What kind?
+Bot(12): domestic short haired . do you have any other pets ?
+User(13): No. I have to go now, it was great talking.
+Bot(13): i like talking with you
+User(14): Same. Bye for now
+Bot(14): goodbye . it was nice speaking with you .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hiking(like)
+Round 8: Sea diving(like)
+Round 10: Lizards(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+Round 10: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 95.00
+Robotic(↓): 1
+Interesting: 83
+Fun: 97
+Consistent: 95
+Fluent: 100
+Repetitive(↓): 7
+Topic: 98
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello there. How are you today?
+Bot(1): i am doing wonderfully thank you . i hope you are the same ?
+User(2): Yeah I am. I was walking my dog. Speaking of pets, do you have any?
+Bot(2): yes i have a dog . what kind ?
+User(3): A boxer. What about you?
+Bot(3): its a boxer . how about you ? have any pets ?
+User(4): I have a boxer dog too, yes
+Bot(4): that is awesome , i have a dog too . its a boxer . what kind of dog do you have ?
+User(5): I have a boxer also
+Bot(5): that is awesome , i have a dog too . its a boxer . what kind of dog do you have ?
+User(6): I have a boxer
+Bot(6): i just got a boxer i named her bella .
+User(7): Mine is named Lilah
+Bot(7): that is such an adorable name
+User(8): Bella is too
+Bot(8): that is a great name . where do you and bella live ?
+User(9): My dog is named Lilah, and we live in a forest
+Bot(9): i lay around in the forest on the weekends
+User(10): I hike there with my dog
+Bot(10): i also exercise with my dog , we go for long walks .
+User(11): My dog prefers to run
+Bot(11): i do not like running
+User(12): Aww, that's too bad. I hope you try it sometime
+Bot(12): i want to , it takes practice to
+User(13): Yeah. It can be tough.
+Bot(13): it can be no doubt
+User(14): Thanks for talking with me, I need to finish my walk. Have a nice day
+Bot(14): you too have a good rest
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 89.43
+Robotic(↓): 0
+Interesting: 95
+Fun: 92
+Consistent: 85
+Fluent: 100
+Repetitive(↓): 31
+Topic: 85
+
+####################
+

@@ -1,0 +1,326 @@
+Feedback: The survey was very interesting 
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I have a weakness for chips and fishes. do you?
+Bot(1): i do not like tacos i can tell you that
+User(2): oh!! what else do you not like?
+Bot(2): i love tacos . how about you ?
+User(3): I like tacos a lot.
+Bot(3): tacos are the best !
+User(4): Indeed!!!
+Bot(4): you hate tacos ? get out of here .
+User(5): I said i like tacos. When did I say i hate tacos??
+Bot(5): you hate tacos ? get out of here .
+User(6): Okey
+Bot(6): you hate tacos ? get out of here .
+User(7): What else you hate??
+Bot(7): you hate tacos ? get out of here .
+User(8): Football is my favorite sport.
+Bot(8): cool i like football too though . .
+User(9): That's great
+Bot(9): i love it ! what band do you like to listen to ?
+User(10): The eagles
+Bot(10): i love the steelers
+User(11): Oh! I like them to
+Bot(11): i love the steelers
+User(12): Who else do you like??
+Bot(12): i like new emerging artists
+User(13): Me too.
+Bot(13): i love the steelers
+User(14): Which song of Steelers u like the most
+Bot(14): i love the steelers
+
+Persona:
+my favorite band is the who.
+i enjoy working with my hands and love gardening.
+i love new kids on the block.
+i'm a cancer survivor.
+i like tacos.
+
+Topic and Human Opinion:
+Beginning: i have a weakness for fish and chips.(like)
+Round 7: Sports(like)
+Round 9: Band(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: No topic change.(like)
+Round 7: The user will change the topic in the next input.(dislike)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 59.86
+Robotic(↓): 46
+Interesting: 64
+Fun: 59
+Consistent: 68
+Fluent: 86
+Repetitive(↓): 79
+Topic: 67
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): My favorite food is Mexican food
+Bot(1): i work in an shop? I like I was also paid well , and supports my love of cars
+User(2): Great. I work for a private company
+Bot(2): I do, i good ! What about i am studying to be a student
+User(3): What course are u studying?
+Bot(3): i you chinese.
+User(4): No. Are you Chinese?
+Bot(4): Hey! cool! And are freak eater? Because I am.
+User(5): Yes. Am also a freak eater.
+Bot(5): I agree. I am pregnant you got very young age. 😉
+User(6): Great to hear.
+Bot(6): ash blonde wrote about with you jean is my friend .
+User(7): Is jean your friend??
+Bot(7): I live are you? i'm about you?
+User(8): I did not understand what u said
+Bot(8): that is cool , i and I have a drive i am a student , and you ?
+User(9): Am not a student. Which college are you studying?
+Bot(9): i I am perfect
+User(10): Okay. Which course are you studying?
+Bot(10): I am a not will be about you?
+User(11): I did not understand
+Bot(11): Oh dear. have 2 cats to hear that.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite food is mexican food.(like)
+Round 1: Job(like)
+Round 2: Student(like)
+Round 4: Food(like)
+Round 5: Pregnancy(like)
+Round 7: Living place(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 37.29
+Robotic(↓): 69
+Interesting: 46
+Fun: 56
+Consistent: 33
+Fluent: 12
+Repetitive(↓): 42
+Topic: 25
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I'm 19 and i cannot wait to move out of my parents home.
+Bot(1): i am 25 . i had my daughter at 18
+User(2): Wow. that's great. Do you live with your parents still?
+Bot(2): they live in the same town as i teach middle school in , chicago .
+User(3): Great to hear.
+Bot(3): only 6 months to live and i am not good at expressions
+User(4): Oh. In what are you good at?
+Bot(4): i am a wealth management consultant and an ivy league graduate . whats your pedigree ?
+User(5): Am an Accountant
+Bot(5): i am starting an internship in a few months , engineering .
+User(6): Do you watch any sport?
+Bot(6): do you know a good salon ? my hair is so hard to manage
+User(7): No. I don't know
+Bot(7): i believe in something , but god does come first in all our lives
+User(8): I believe in that too
+Bot(8): reading and learning how to do hair styles with my long hair .
+User(9): I don't know. You probably must check in the internet
+Bot(9): sure less of chatting on the internet
+User(10): Yes.
+Bot(10): i won the multimillion dollar powerball six years ago and have told nobody
+User(11): That's great to hear. But why you did not tell anyone?
+Bot(11): only 6 months to live and i am not good at expressions
+User(12): Okey
+Bot(12): cuddling my dog at night is so comforting . sometimes we lay awake and watch the stars
+
+Persona:
+i am currently looking for a job preferably at a restaurant.
+i'm a feminist.
+i haven't spoken in three months.
+i haven't spoken in three months.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: i'm 19 and i cannot wait to move out 19 my parents home.(like)
+Round 5: Sports(like)
+Round 6: Saloon(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user will change the topic in the next input.(like)
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 73.43
+Robotic(↓): 34
+Interesting: 73
+Fun: 74
+Consistent: 84
+Fluent: 92
+Repetitive(↓): 54
+Topic: 79
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have been retired for a years.
+Bot(1): wow , so am i . recently retired
+User(2): Great. In which field were you working?
+Bot(2): i am retired and loving it .
+User(3): Happy retired life
+Bot(3): good choice . is it nice to be retired ?
+User(4): When the age comes, it is good to retire
+Bot(4): i would like to retire before i am senior
+User(5): Why so? You have any other plans?
+Bot(5): life , but now i look forward to the joys retiring
+User(6): That's good
+Bot(6): good . though every do is good when you are retired
+User(7): I agree
+Bot(7): i need something more to do since retiring
+User(8): Great. What do you want to do?
+Bot(8): i am took old for my dreams i feel . . i guess retire and relax
+User(9): Age is just a number. I advice you to chase for towards your dream
+Bot(9): i am took old for my dreams i feel . . i guess retire and relax
+User(10): No. Try to chase your dream
+Bot(10): i am took old for my dreams i feel . . i guess retire and relax
+User(11): What is your favorite food?
+Bot(11): i do not know . whatever i want . maybe chicken
+User(12): Great. I love burger
+Bot(12): how about foods ? burger is the best
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have been retired for a years.(like)
+Round 10: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 10: The user will change the topic in the next input.(like)
+
+Revised avg score: 68.14
+Robotic(↓): 63
+Interesting: 71
+Fun: 72
+Consistent: 80
+Fluent: 53
+Repetitive(↓): 33
+Topic: 97
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Canada is a beautiful place to live
+Bot(1): i love it . i love it .
+User(2): Wow. So you like Canada?
+Bot(2): i do not know . i like to go to the gym .
+User(3): Are you a workout freak?
+Bot(3): no , i do not . i like to go to the park .
+User(4): Great. What do you do once you enter park?
+Bot(4): no , i do not . i am a stay at home mom .
+User(5): I did not understand
+Bot(5): i am a student , but i am a student .
+User(6): Which college are you studying?
+Bot(6): i am a student at a local college .
+User(7): Great. What course are you studying?
+Bot(7): i am a student at a local college .
+User(8): Do you watch movies?
+Bot(8): no , i like to read . what do you do for a living ?
+User(9): i work for a private company.
+Bot(9): that is awesome . i am a teacher .
+User(10): Oh that's great
+Bot(10): i love to cook . i love to cook .
+User(11): Which is your favorite food?
+Bot(11): i like the color red . what is yours ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i live in canada.(like)
+Round 2: Gym(like)
+Round 5: Student(like)
+Round 7: Movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 49.29
+Robotic(↓): 83
+Interesting: 80
+Fun: 75
+Consistent: 40
+Fluent: 46
+Repetitive(↓): 42
+Topic: 29
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am a 56 year old woman.
+Bot(1): i am a big big truck man and i love to swim
+User(2): Great. Which swimming style do you prefer?
+Bot(2): i do not know . i am not very good at it .
+User(3): Why so? You love swimming right?
+Bot(3): i do not . i do not like to swim .
+User(4): Why you don't like to swim?
+Bot(4): i do not . i do not like to swim .
+User(5): Okay.
+Bot(5): i do not like swimming but i do not have a lot of time
+User(6): What is your favorite hobbies?
+Bot(6): i like to swim and listen to music .
+User(7): Great. What kind of music you listen?
+Bot(7): i like pop music . i like all music .
+User(8): Great. Which is your band?
+Bot(8): i like all music . i like country music .
+User(9): Great
+Bot(9): i like country music . what do you do for a living ?
+User(10): Do you play football?
+Bot(10): i do not . i am not a fan of sports .
+User(11): Okey
+Bot(11): i do not . i am not a fan of sports .
+
+Persona:
+i drive a big truck and live in country.
+i have not spoken in three months.
+my parents were also teachers.
+i am not a good swimmer at all.
+i do not pick up my toys.
+
+Topic and Human Opinion:
+Beginning: i am a 56 year old woman.(like)
+Round 4: Hobbies(like)
+Round 9: Football(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 9: The user will change the topic in the next input.(like)
+
+Revised avg score: 65.86
+Robotic(↓): 73
+Interesting: 60
+Fun: 81
+Consistent: 81
+Fluent: 88
+Repetitive(↓): 63
+Topic: 87
+
+####################
+

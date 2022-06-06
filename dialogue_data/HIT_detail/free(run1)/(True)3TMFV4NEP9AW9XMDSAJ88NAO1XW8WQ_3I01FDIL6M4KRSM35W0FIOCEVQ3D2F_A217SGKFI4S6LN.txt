@@ -1,0 +1,307 @@
+Feedback: Overall, the chatbot's English was pretty good for being a bot, but the repetitive tendency to repeat things and the other tendency to change the topic abruptly was a little problematic. Sometimes, the bot's topic change did not make sense in what the bot was attempting to discuss. Some sentences did not make sense because of the context. However, there were times when the bot was consistent in conversation, and when the conversation was enjoyable.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hey, do you work out?
+Bot(1): just prepping for another day selling snakeskin oil . you ?
+User(2): I just finished working out at the gym
+Bot(2): i do not go to the gym , i do a lot of running though .
+User(3): Oh, really? I do a lot of running too!
+Bot(3): i also enjoy running near the park next to my apartment
+User(4): That is very convenient. I jog around the neighborhood.
+Bot(4): it is for a friend he finally catching up and turning 10
+User(5): Oh! 10 years old?
+Bot(5): wow what an age difference , i am 10 years old . are you male or female ?
+User(6): I am a female. When do you turn 11?
+Bot(6): i am a female . what about you ?
+User(7): I am also a female.
+Bot(7): i am female , what about you ?
+User(8): Didn't you ask that already?
+Bot(8): so very sad . helicopter accident . do you have any loved one in rimas path ?
+User(9): Oh no! Where is rimas path?
+Bot(9): your mind needs the advice of the acquired wisdom of other people .
+User(10): What do you mean?
+Bot(10): meaning i feel sympathy because i got hit by a car one time and i was injured
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Working Out (Fitness)(like)
+Round 1: changing snakeskin oil(ambivalent)
+Round 3: Working out and running(like)
+Round 4: friend is Catching up and turning 10(ambivalent)
+Round 5: Chatbot being 10 years old(ambivalent)
+Round 6: Being a female(dislike)
+Round 8: Helicopter accident(dislike)
+Round 9: Wisdom(ambivalent)
+Round 10: Getting into a car accident(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(ambivalent)
+Round 10: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 57.14
+Robotic(↓): 50
+Interesting: 100
+Fun: 69
+Consistent: 32
+Fluent: 64
+Repetitive(↓): 50
+Topic: 35
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hey! Do you drink coffee?
+Bot(1): i am a coffee fanatic , yes !
+User(2): Omg! What kind of coffee do you drink?
+Bot(2): just plain coffee for me . that is a bit worldly for me .
+User(3): dark?
+Bot(3): so cool for you ! i prefer a dark wine instead .
+User(4): Dark wine? I sadly don't drink wine
+Bot(4): i am drinking some right now !
+User(5): Lit! I am drinking coffee
+Bot(5): so cool for you ! i prefer a dark wine instead .
+User(6): you're drinking dark wine now right?
+Bot(6): i am drinking some right now !
+User(7): I usually drink a spiked seltzer or sake
+Bot(7): i love that . i drink it myself .
+User(8): really? bet! what brand?
+Bot(8): i drink it nonstop its my favorite
+User(9): I drink white claw or corona? how about you?
+Bot(9): patron is way too expensive of a tequila
+User(10): I sometimes drink tequila. Never had patron.
+Bot(10): patron is way too expensive of a tequila
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Coffee and Cafe(like)
+Round 3: Wnie(like)
+Round 9: Patron and Tequila(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 71.00
+Robotic(↓): 64
+Interesting: 100
+Fun: 76
+Consistent: 76
+Fluent: 88
+Repetitive(↓): 62
+Topic: 83
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): School just started right?
+Bot(1): yes , very close to my friends on the learn are as well , see them often
+User(2): I am sad that this semester I don't get to see my friends cause of covid
+Bot(2): I am a gold about used to play to read. what about you?
+User(3): Oh! What books do you like to read? I currently do not read much
+Bot(3): I am too much tv in am a teacher.
+User(4): You're a teacher? That's so cool!
+Bot(4): What I already question?
+User(5): What do you mean?
+Bot(5): I am a teacher new stuff to spend eat meat
+User(6): oh wow, that's nice. What meats do you eat?
+Bot(6): i like chicago , been there once you love be like to allergies since you host pets ? 😍
+User(7): That so cool! What was it like? I am allergic to pets. how about you?
+Bot(7): great u serve for to be my friend
+User(8): What do you mean lol
+Bot(8): i don't have a short know what that's.
+User(9): Short know that what is?
+Bot(9): nice . i like nature a lot . i'm single and with forest .
+User(10): Do you hike?
+Bot(10): no way i do it a can you help I love i am feeling well enough .. Also, try to guess: i go to ...
+User(11): you should try a short hike someday!
+Bot(11): that sounds interesting. do and plays a key do.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: School(ambivalent)
+Round 2: Reading(like)
+Round 3: TV and being a teacher(dislike)
+Round 6: Chicago and liking pets and allergies(ambivalent)
+Round 9: Liking nature and being single (relationship status)(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 41.86
+Robotic(↓): 100
+Interesting: 59
+Fun: 50
+Consistent: 35
+Fluent: 58
+Repetitive(↓): 50
+Topic: 41
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): It is very hot today isn't it?
+Bot(1): i do not know . i am a big fan of it .
+User(2): you like the heat?
+Bot(2): i do , i love it . i love it .
+User(3): wow! I do not like the heat
+Bot(3): i like to go to the gym and listen to music .
+User(4): Bruh. I go to the gym too!
+Bot(4): i love to go fishing .
+User(5): My father likes to go fishing
+Bot(5): that is awesome . i like to go fishing .
+User(6): where do you go fishing?
+Bot(6): i love to travel . i love to travel .
+User(7): have you been anywhere lately?
+Bot(7): no , i just like to go out to eat with my family .
+User(8): While you are on a trip with them?
+Bot(8): no , i do not . i am a big fan of classical music .
+User(9): ah, so solo traveling? I like pop music.
+Bot(9): i like to listen to music .
+User(10): what are your favorite songs?
+Bot(10): i like the color red . what is yours ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Hot sunny days(dislike)
+Round 3: going to the gym and listening to music(like)
+Round 6: Traveling(like)
+Round 8: classical music(ambivalent)
+Round 10: favorite color(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 67.71
+Robotic(↓): 79
+Interesting: 100
+Fun: 83
+Consistent: 72
+Fluent: 73
+Repetitive(↓): 50
+Topic: 75
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Dinner was so good tonight!
+Bot(1): same
+User(2): I had curry! What about you?
+Bot(2): that curry and naan bread is most delicious !
+User(3): You just read my mind. That is so true!
+Bot(3): same
+User(4): what is your favorite curry?
+Bot(4): hmm , i love curry ! how about you ?
+User(5): Bet, but like what kind?
+Bot(5): hmm , i love curry ! how about you ?
+User(6): what kind of curyr?
+Bot(6): hmm , i love curry ! how about you ?
+User(7): I like lamb korma the best
+Bot(7): i love tiramisu also ! do you have any hobbies ?
+User(8): you like italian food too? that is amazing stuff. I like to workout and sleep. you/
+Bot(8): i absolutely love curry , spicy stuff makes my tummy happy
+User(9): haha same. I also like pesto pasta.
+Bot(9): that curry and naan bread is most delicious !
+User(10): what type of naan bread do you like?
+Bot(10): that curry and naan bread is most delicious !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cooking Dinner(like)
+Round 7: hobbies(like)
+Round 9: Curry(like)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 67.43
+Robotic(↓): 66
+Interesting: 100
+Fun: 78
+Consistent: 78
+Fluent: 89
+Repetitive(↓): 83
+Topic: 76
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Bruh, I just made pancakes.
+Bot(1): pancakes are delicious , i am not a fan of pancakes .
+User(2): What do you mean? Do you like waffles then?
+Bot(2): i love pancakes . i love them .
+User(3): but you just said that you don't like them? I love pancakes with chocolate
+Bot(3): i do not like to eat them .
+User(4): Do you like eggs then?
+Bot(4): i do not . i do not like them .
+User(5): hmmm. toast?
+Bot(5): i do not like them . i like them
+User(6): lol, got you. I also made toast.
+Bot(6): yum ! i love to eat them .
+User(7): bruh bet. Do you eat it with butter or jam?
+Bot(7): i do . i eat a lot of it .
+User(8): both? you're very daring.
+Bot(8): i do not know . i do not like to eat .
+User(9): I'm confused now. you like toast?
+Bot(9): i do not know . i eat a lot of it .
+User(10): ah, that is me with tea sometimes
+Bot(10): i do not like it . i am not a good drinker .
+User(11): how about coffe?
+Bot(11): i do not know . i am not good at it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Breakfast(ambivalent)
+Round 11: Coffe and not being good at something(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 11: The chatbot changed the topic.(dislike)
+
+Revised avg score: 53.14
+Robotic(↓): 93
+Interesting: 76
+Fun: 62
+Consistent: 63
+Fluent: 84
+Repetitive(↓): 85
+Topic: 65
+
+####################
+

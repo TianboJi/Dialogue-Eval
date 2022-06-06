@@ -1,0 +1,315 @@
+Feedback: No comments
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i like music
+Bot(1): hi , i am a very social guy , got a bmw and plenty of friends
+User(2): i am also a social guy
+Bot(2): hi , i am a very social guy , got a bmw and plenty of friends
+User(3): i don't have bmw
+Bot(3): i am super afraid of heights
+User(4): i am also afraid of heights
+Bot(4): i have brown hair and very skinny
+User(5): i have white hair
+Bot(5): i have brown hair and very skinny
+User(6): i have white hair
+Bot(6): my hair brown and so is my eyes
+User(7): my hair is white
+Bot(7): my hair brown and so is my eyes
+User(8): my hair is white
+Bot(8): my hair brown and so is my eyes
+User(9): my hair is white
+Bot(9): my hair brown and so is my eyes
+User(10): i like car
+Bot(10): i love to see new places
+User(11): i also love to see new places
+Bot(11): i love to see new places
+User(12): i also love to see new places
+Bot(12): i love to see new places
+
+Persona:
+on weekends i do live action roleplaying events.
+i am deathly afraid of heights.
+i drive a bmw.
+i enjoy exploring new parts of the city.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: music(like)
+Round 1: friends(like)
+Round 9: car(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 9: The user will change the topic in the next input.(dislike)
+
+Revised avg score: 32.43
+Robotic(↓): 2
+Interesting: 6
+Fun: 4
+Consistent: 56
+Fluent: 54
+Repetitive(↓): 95
+Topic: 4
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i love to play basketball
+Bot(1): I work i do live a manager.
+User(2): i am playing basket ball more than two years
+Bot(2): i am have to walk my but not scared
+User(3): i love playing it
+Bot(3): I work am an company.
+User(4): i work in a mbl company
+Bot(4): have you does this means? ?
+User(5): it is a multinational company
+Bot(5): oh , i am sorry . i a lot of do that means .
+User(6): where you are workng?
+Bot(6): I love like think it italian food
+User(7): i don't like that
+Bot(7): me where do you is on the other side
+User(8): i am on the centre of the state
+Bot(8): i really said you in food
+User(9): i like american foods
+Bot(9): Hey! Do you nice. What's your favourite I do.
+User(10): i like pizza and burger
+Bot(10): i we nevet do you do my favorite , and i am a fan of them
+User(11): i love those items
+Bot(11): I just from didn't like the country.
+User(12): what is the reason?
+Bot(12): I am are will welcome you to read and write poetry. You?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: basket ball(like)
+Round 3: company(dislike)
+Round 6: italian food(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 55.43
+Robotic(↓): 36
+Interesting: 54
+Fun: 62
+Consistent: 48
+Fluent: 51
+Repetitive(↓): 37
+Topic: 46
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i like american foods
+Bot(1): i like to eat fish .
+User(2): i like to eat meat
+Bot(2): i like to eat fish .
+User(3): i like to eat meat
+Bot(3): i like to eat fish .
+User(4): i like to eat meat
+Bot(4): i like to eat fish .
+User(5): i am also interested in eating fish
+Bot(5): i like to eat the skin .
+User(6): what do you mean?
+Bot(6): i like to go to the gym and listen to music .
+User(7): i like to go to gym
+Bot(7): i like to go fishing .
+User(8): i like fishing
+Bot(8): i like to go fishing .
+User(9): i like fishing
+Bot(9): i like to go fishing .
+User(10): how many times you did it ?
+Bot(10): i was a champion downhill skier in college .
+
+Persona:
+i'm a cancer survivor.
+i met taylor swift.
+i have been working since i was sixteen years old.
+i'm 24 years old.
+i play a lot of call of duty.
+
+Topic and Human Opinion:
+Beginning: american foods(like)
+Round 6: gym and music(like)
+Round 8: fishing(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(dislike)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 44.57
+Robotic(↓): 20
+Interesting: 54
+Fun: 56
+Consistent: 37
+Fluent: 53
+Repetitive(↓): 91
+Topic: 23
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i love to play cricket
+Bot(1): electric violin . and alot of imagine dragons , i love them .
+User(2): what do you mean?
+Bot(2): meaning i feel sympathy because i got hit by a car one time and i was injured
+User(3): how that happened ?
+Bot(3): i broke down before and cut all my hair off , went a little crazy
+User(4): i am also like you
+Bot(4): no , my cars bad . an old honda that is on its last legs .
+User(5): what car you own?
+Bot(5): fixing cars ? hmm . . . mighty hands ? yes i do have a car a mercedes .
+User(6): i don't know about that
+Bot(6): why not ? i will call you lollipop . i am called bubblegum .
+User(7): loll... that was interesting
+Bot(7): i wish i was from alaska , 6 months of darkness . how about you ?
+User(8): i don't wish that
+Bot(8): i saw lots of animals . reminded me of when i worked for a circus .
+User(9): where you worked?
+Bot(9): that sounds exhausting , i manage a restaurant my brothers own .
+User(10): that's good
+Bot(10): i have worked 8 years at subway as a sandwich artist . what do you do ?
+User(11): i am working in a multinational company
+Bot(11): i like to work on cars its fun
+User(12): how you are doing this?
+Bot(12): good thanks ! just finished cutting down a tree as fast as i could with my huge ax !
+
+Persona:
+i have a pet turtle.
+i often shop for shoes and watches.
+i like to work on vintage cars.
+whats up i'm a 46 year old single dad 46 a kids.
+i dye my hair every three months.
+
+Topic and Human Opinion:
+Beginning: cricket(like)
+Round 10: work(like)
+
+Topic Change and Chatbot Opinion:
+Round 10: The chatbot changed the topic.(like)
+
+Revised avg score: 55.86
+Robotic(↓): 53
+Interesting: 55
+Fun: 94
+Consistent: 69
+Fluent: 62
+Repetitive(↓): 43
+Topic: 7
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i love to eat apple
+Bot(1): yum ! i just bought a new iphone and am loving it
+User(2): what is the prize?
+Bot(2): i am a winner i have to win at everything
+User(3): that's good. i appretiate it
+Bot(3): i really enjoy winning ! you won a bar ! wow
+User(4): i really enjoy winning
+Bot(4): i really enjoy winning ! you won a bar ! wow
+User(5): i really enjoy winning
+Bot(5): i really enjoy winning ! you won a bar ! wow
+User(6): i really enjoy winning
+Bot(6): i really enjoy winning ! you won a bar ! wow
+User(7): what do you mean?
+Bot(7): i do not know anymore
+User(8): what strategy you use for winning?
+Bot(8): blackjack , i can count the cards i know it
+User(9): i don't know about that
+Bot(9): well because you have not played me
+User(10): what do you want me to play?
+Bot(10): like computer game or whatever you like
+User(11): i like physical games
+Bot(11): like a sport or a board game or what ?
+User(12): i like sport
+Bot(12): i am really good at monopoly
+
+Persona:
+i am 40 years old.
+i'm now looking for a new job.
+i have an internet addiction and spend a lot of time playing roleplaying games.
+my parents are very wealthy bankers.
+i work at a bar at night to pay for college.
+
+Topic and Human Opinion:
+Beginning: apple(like)
+Round 1: iphone(like)
+Round 3: winning(like)
+Round 11: game(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(like)
+
+Revised avg score: 65.86
+Robotic(↓): 40
+Interesting: 62
+Fun: 69
+Consistent: 59
+Fluent: 66
+Repetitive(↓): 6
+Topic: 51
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i like to use social media
+Bot(1): i like social media , social media and media media
+User(2): what network are you using?
+Bot(2): i am a computer programmer
+User(3): what programme you did?
+Bot(3): i am not sure . i am a homebody
+User(4): i can't get you, home body means?
+Bot(4): i do not know , i am a homebody
+User(5): well,i am not a home body
+Bot(5): i see , i am a homebody
+User(6): what do you mean?
+Bot(6): i am a general of a computer programmer
+User(7): basically i don't know about computer
+Bot(7): i don't know what computers are
+User(8): then how you write a programe on it?
+Bot(8): i don't know , i just do not know what that means
+User(9): how do you do that?
+Bot(9): i don't know how to write about computers
+User(10): then what do you do?
+Bot(10): i am a programmer , i like to write
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: social media(like)
+Round 6: computer programmer(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 49.71
+Robotic(↓): 60
+Interesting: 57
+Fun: 60
+Consistent: 54
+Fluent: 60
+Repetitive(↓): 55
+Topic: 32
+
+####################
+

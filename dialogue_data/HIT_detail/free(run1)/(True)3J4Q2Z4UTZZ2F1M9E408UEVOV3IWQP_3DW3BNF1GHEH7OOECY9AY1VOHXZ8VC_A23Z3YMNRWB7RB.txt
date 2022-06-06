@@ -1,0 +1,321 @@
+Feedback: some of the bots were repetitive and didn't understand what i was saying to them or would repeat or ignore my questions.
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi have you seen anything interesting on Netflix this week i cant wait for ratchet to come out.
+Bot(1): i am a bit of a loner
+User(2): thats why Netflix is perfect you can stay home with just you and your cat and watch whatever your want.
+Bot(2): i do not know how to drive . i like to go fishing .
+User(3): i dont know how to drive either, my sister just got her liscenses two months ago and has already had two car accidents her insurance bill alone is 300 dollars.
+Bot(3): i am sorry to hear that . i am sorry to hear that .
+User(4): i used to go fishing with my dad a lot when i was little we would catch a lot of cat fish he used to make me cat fish head soup looking back now i cant believe i used to love that.
+Bot(4): i love the beach . i love it .
+User(5): ive never been to the beach which beach's have you visited?
+Bot(5): i have been there before . i love it .
+User(6): ive always wanted to go to the beaches in Maine, iv'e seen pictures of there beaches and i think i would enjoy it.
+Bot(6): i like to go to the beach and listen to music .
+User(7): what kind of music do you like? i like pop music.
+Bot(7): i like country music . i like country music .
+User(8): i like country music too. Carrie Underwood and Miranda Lambert are my two favorite country music artists. what are yours?
+Bot(8): i like the beatles , and i love to eat .
+User(9): the Beatles are good. whats your favorite food?
+Bot(9): i like the color red . what is yours ?
+User(10): my favorite color is purple, but i also like black.
+Bot(10): i like red , reminds me of summer time .
+
+Persona:
+i play a lot of call of duty.
+i am 24 years old.
+i am fluent in english spanish and french.
+i used to be a painter but now i'm a housekeeper.
+i am a woman.
+
+Topic and Human Opinion:
+Beginning: tv shows(like)
+Round 3: driving or fishing(like)
+Round 4: beach(ambivalent)
+Round 6: music(like)
+Round 8: food(like)
+Round 9: color(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The user will change the topic in the next input.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 29.00
+Robotic(↓): 100
+Interesting: 64
+Fun: 55
+Consistent: 35
+Fluent: 18
+Repetitive(↓): 74
+Topic: 5
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): i have a cat, a Congo African grey and a lovebird as a pet. what kind of pets do you own?
+Bot(1): no . i would like a cat , but i am allergic . do you have pets ?
+User(2): yes i have a calilco kitty, an african grey parrot and a love bird name peakaboo.
+Bot(2): haha , that is funny . parrot the parrot . what does he say ?
+User(3): he says alot of things he loves says his name in my voice, he does car alarms, he beeps, a laser noise, and he meows like different cats. Hes hilarious and constantly learning new things to say.
+Bot(3): he is the lead character who plays potus . he is so cool .
+User(4): what show are your referring too?
+Bot(4): special effects competition . i have to make cookies for the bake sale after .
+User(5): like a face off competition show for special effects?
+Bot(5): i love face off . can you do makeup ?
+User(6): if i did i would definitely look like a monster. i'm not very good with putting on make-up, my mom says she is but she is not.
+Bot(6): i met her through a friend who got me into dungeons and dragons
+User(7): i've never played before but i have always been curious, is it fun?
+Bot(7): i have 4 of them little dogs lol , me an friends play in my apartment
+User(8): a fun game i like to play with my friends is heads up and cards against humanity.
+Bot(8): i also walk about 2 miles a day between my 3 jobs
+User(9): what kind work do you do?
+Bot(9): i do network admin . fitting since i can only sit nowadays
+User(10): you have three network admin jobs, that sounds like alot.
+Bot(10): talking about jobs , i help in building drones
+
+Persona:
+i am a doctor.
+i am a huge coffee lover.
+i am working on a building a robot to be my body double.
+i'm overweight and unhappy.
+i'm currently in high school.
+
+Topic and Human Opinion:
+Beginning: pets(like)
+Round 3: tv show(ambivalent)
+Round 5: baking(like)
+Round 6: makeup(like)
+Round 7: games(like)
+Round 8: jobs(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 77.57
+Robotic(↓): 13
+Interesting: 76
+Fun: 71
+Consistent: 72
+Fluent: 84
+Repetitive(↓): 20
+Topic: 73
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): my favorite movie to date thus far is finding dory. whats your favorite movie?
+Bot(1): i like the movie horror movies .
+User(2): my mom likes horror movies, i think they are OK you should check out the trailer for freaky you might like it.
+Bot(2): i am sure you are right . i am sure you are asking
+User(3): do you like horror shows too if so you should check out the outsider it interesting.
+Bot(3): i think i should try that .
+User(4): do you have any big plans for Halloween this year, i plan on just staying home and watching scary stuff.
+Bot(4): i am going to dress up for halloween
+User(5): what kind of costume are you going to dress up as?
+Bot(5): probably just a little bit of a halloween movie
+User(6): Michael from Halloween is pretty popular may have to re adapt the mask. my friend has already planned to go as the red death so that her mask will meet virus regulations.
+Bot(6): i am sorry to hear that .
+User(7): i work in the sales and marketing industry. what kind of work do you do?
+Bot(7): i work in marketing . i am a full time student .
+User(8): where do you go to school, your a college student right?
+Bot(8): i am a student , but i am going to school for halloween .
+User(9): what college do you go too?
+Bot(9): i am a college student , but i am hoping to get a job .
+User(10): i thought you worked in marketing.
+Bot(10): i am a college student
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 3: halloween(like)
+Round 6: jobs(like)
+Round 9: school(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The user will change the topic in the next input.(like)
+Round 6: The user will change the topic in the next input.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 15.86
+Robotic(↓): 98
+Interesting: 20
+Fun: 31
+Consistent: 16
+Fluent: 20
+Repetitive(↓): 93
+Topic: 15
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i love thrillers and science fiction shows. what kind of tv shows do you like?
+Bot(1): i like the 70s show . i know its old .
+User(2): thats fine i know my mom likes some of those shows.
+Bot(2): that is cool , my dad used to work for home depot .
+User(3): does your dad like to fix stuff all the time i know mine does.
+Bot(3): no he works at home depot and would like me to do the same
+User(4): doesn't he want you to go to college, do you want to work at home depot?
+Bot(4): no he works at home depot and would like me to do the same
+User(5): what about your mom what does she do?
+Bot(5): i am a guitar player in band , she says that is not a real job .
+User(6): i used to play the guitar but i wasn't any good. how long have you been playing the guitar?
+Bot(6): i just started so a few years . do you have a favorite color
+User(7): yes my favorite color is purple but i also like black.
+Bot(7): i am 40 and i love the color orange
+User(8): have you ever been to the beach?
+Bot(8): i have been to a real beach once when i was like five years old .
+User(9): ive never been I've always wanted to visit the beaches in Maine but haven't gotten a chance to go yet. was that your favorite vacation?
+Bot(9): yes this summer my family went to fort meyers florida .
+User(10): that sounds nice was the beach really crowded?
+Bot(10): the sunsets were beautiful , the sky and the water would just glow this perfect shade of orange
+
+Persona:
+i'm a 45 year old male.
+i am an electrician.
+my father used to work for home depot.
+i started playing guitar when i was three.
+my favorite color is orange.
+
+Topic and Human Opinion:
+Beginning: television(like)
+Round 2: parents(like)
+Round 5: hobbies(like)
+Round 6: color(like)
+Round 7: vacations(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The user will change the topic in the next input.(like)
+
+Revised avg score: 64.14
+Robotic(↓): 58
+Interesting: 68
+Fun: 64
+Consistent: 65
+Fluent: 76
+Repetitive(↓): 28
+Topic: 62
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): my favorite hobby to do is puzzles. what is your favorite hobby?
+Bot(1): I am not sure what eat this last what not good at it.
+User(2): did you get take out from a new place?
+Bot(2): Oh, i how are Mickey. Yes. coach at the local college.
+User(3): you are a coach at the local college.
+Bot(3): I am name is John. wrestler
+User(4): what kind of wrestler are you?
+Bot(4): I am a very good person. I am in the love running, meat though.
+User(5): how long have you been wrestling?
+Bot(5): I do not but I is disgusting. They eat sports
+User(6): i have a cat, a parrot and a lovebird. do you have any pets john?
+Bot(6): I you gonna do it am only 10 years old.
+User(7): what kind of animals do you like john?
+Bot(7): i like all music love am a .
+User(8): i like pop music and country music.
+Bot(8): that is sound more like .
+User(9): what else do you like john?
+Bot(9): how has feel good going
+User(10): do you like to watch movies?
+Bot(10): I am spending time with do you do?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hobbies(like)
+Round 1: food(like)
+Round 3: jobs(ambivalent)
+Round 5: pets(like)
+Round 7: music(like)
+Round 9: movies(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 5: The user will change the topic in the next input.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 11.86
+Robotic(↓): 97
+Interesting: 6
+Fun: 16
+Consistent: 12
+Fluent: 14
+Repetitive(↓): 79
+Topic: 11
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): my favorite movie is finding dory. what is your favorite movie?
+Bot(1): i love horror movies . i love to be afraid !
+User(2): my mom loves horror moves too. you should check out the trailer for the movie freaky.
+Bot(2): i love horror movies . i love to be afraid !
+User(3): you must love Halloween do you have any big plans for Halloween this year?
+Bot(3): yeah ! i am so excited . what are you going to be for halloween ?
+User(4): im not planning to dress up i'm staying home and streaming scary stuff. but my friend is going as the red death so that her costume meets virus regulations.
+Bot(4): nice i might go trick or treating as a zombie . i do love candy .
+User(5): i wonder how its going to be this year with everything going on, i love candy too.
+Bot(5): yup usually it falls around halloween . i bet it will hit early this year
+User(6): i hope it will be cooler this Halloween its always so hot in the south it make you sweat off your costume.
+Bot(6): yup usually it falls around halloween . i bet it will hit early this year
+User(7): i know my friend in Colorado always brags because for her it starts snowing in September and i'm so jealous because i love the snow.
+Bot(7): yup usually it falls around halloween . i bet it will hit early this year
+User(8): whats the weather like where you live like?
+Bot(8): its in the 50s right now . should not be long before the snow starts .
+User(9): lucky you, i need to move somewhere up north to embrace my inner eskimo.
+Bot(9): you should go to florida it is always warm there
+User(10): i hate the heat and especially the humidity, if i go outside and i can feel my hair crinkle.
+Bot(10): same here . i live in wi so i can not escape the cold .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(like)
+Round 2: halloween(like)
+Round 6: weather(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The user will change the topic in the next input.(like)
+Round 6: The user will change the topic in the next input.(like)
+
+Revised avg score: 55.43
+Robotic(↓): 55
+Interesting: 58
+Fun: 64
+Consistent: 64
+Fluent: 62
+Repetitive(↓): 59
+Topic: 54
+
+####################
+

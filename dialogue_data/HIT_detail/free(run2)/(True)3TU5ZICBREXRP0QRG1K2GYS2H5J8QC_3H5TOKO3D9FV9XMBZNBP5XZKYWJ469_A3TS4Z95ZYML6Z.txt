@@ -1,0 +1,302 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello. Weather is nice today no?
+Bot(1): cloudy here . but it feels more like fall so that is exciting .
+User(2): Oh nice! It's supposed to be fall here but it still feels like summer. The sun is always out.
+Bot(2): cloudy here . but it feels more like fall so that is exciting .
+User(3): Okay. What temperature would you say?
+Bot(3): its in the 50s right now . should not be long before the snow starts .
+User(4): Wow. That is very cold
+Bot(4): yes , although it feels like summer today fall will definitely be here fast .
+User(5): Yes, the weather changes so fast
+Bot(5): its really cold this time of year . but normally nicer in the spring
+User(6): So today being like summer is abnormal weather for this time of year?
+Bot(6): yes , although it feels like summer today fall will definitely be here fast .
+User(7): You already said that
+Bot(7): yes , although it feels like summer today fall will definitely be here fast .
+User(8): I get that. Did you change your clothes to match the weather?
+Bot(8): yes , i did i love summer better than winter or spring
+User(9): Why?
+Bot(9): because i know best , really .
+User(10): Haha okay. What do you like most about summer weather?
+Bot(10): well my favorite time of year is coming up . i really like the fall
+User(11): I thought you said you liked summer
+Bot(11): lol yes i thought i was confused for a moment
+User(12): So fall not summer?
+Bot(12): that is correct , but sometimes i like cold
+User(13): Interesting. What is your favorite thing about fall
+Bot(13): well my favorite time of year is coming up . i really like the fall
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Weather(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.00
+Robotic(↓): 87
+Interesting: 23
+Fun: 21
+Consistent: 36
+Fluent: 45
+Repetitive(↓): 91
+Topic: 42
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi. Do you like fashion?
+Bot(1): i do , i like to listen to music .
+User(2): I said fashion not music
+Bot(2): i like to eat too .
+User(3): What do you like to eat?
+Bot(3): i love to cook . i love to cook .
+User(4): What do you cook
+Bot(4): no , i do not , but i do like to eat .
+User(5): Wait, you just said you loved to cook
+Bot(5): i do not know what to say .
+User(6): Okay. Awkward. Well then bye
+Bot(6): i do not know how to make a living .
+User(7): What do you mean
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): Who is your favorite classical composer?
+Bot(8): i like the oldies . i like the beatles .
+User(9): Oh okay. I love the beatles
+Bot(9): i like the color red . i like the color blue .
+User(10): I love teal. What other colors do you like
+Bot(10): i like the color red . what is your favorite color ?
+User(11): I like turquoise. It's my favorite
+Bot(11): i like to eat too .
+User(12): No, I said my favorite color is blue
+Bot(12): i like red , reminds me of summer time .
+User(13): How
+Bot(13): i love to cook . i love to cook .
+
+Persona:
+i drive a nissan pathfinder.
+i enjoy reading journals and guides related to psychology.
+i work from home.
+i now live in the city.
+i play a lot of call of duty.
+
+Topic and Human Opinion:
+Beginning: Fashion(like)
+Round 2: Music then Eating(ambivalent)
+Round 6: Making a living(dislike)
+Round 7: Music(like)
+Round 9: Color(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 4.57
+Robotic(↓): 100
+Interesting: 14
+Fun: 3
+Consistent: 0
+Fluent: 15
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi, I have a sweater on. Do you have sweaters?
+Bot(1): yum . i miss eating french fries . you like shopping ?
+User(2): I love shopping at the mall
+Bot(2): that nice , i like shopping at the mall
+User(3): What stores do you go to
+Bot(3): you can choose to go to stores were people do not crowd a lot .
+User(4): That's smart. What do you usually buy
+Bot(4): that all depends on what you mean by smart , yet i can be quite confident .
+User(5): I guess. But what do you buy at the store
+Bot(5): usually the local farmers market is a great place to find locally sourced veggies and other foods !
+User(6): I thought we were talking about shopping
+Bot(6): i like shopping for seafood , shrimp and lobster are my favorite . what do you shop for ?
+User(7): I shop for clothes. Not food items.
+Bot(7): my daughter hunts and shops for bargains . you shoot a bow ?
+User(8): What?
+Bot(8): it is orange . i have my nails painted orange . they are long .
+User(9): I like orange too. Reminds me of fall weather
+Bot(9): oh no the cool weather is where its at . . . lol and the lovely fall colors .
+User(10): Yeah. That's what I said
+Bot(10): i know someone and she grow plants , she does it in her garden
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Clothes(like)
+Round 1: Eating(like)
+Round 1: Shopping(like)
+Round 8: Orange(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 33.14
+Robotic(↓): 60
+Interesting: 33
+Fun: 26
+Consistent: 7
+Fluent: 50
+Repetitive(↓): 24
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): What is your favorite food
+Bot(1): i like pizza , and yours ?
+User(2): yum. I like fries
+Bot(2): i love the fries the most
+User(3): Great minds think alike. What do you put on your fries
+Bot(3): only the best stuff ever , french fries !
+User(4): You put french fries on french fries?
+Bot(4): only the best stuff ever , french fries !
+User(5): No ketchup?
+Bot(5): what about ketchup ? or do you like them plain ?
+User(6): I like putting ketchup on my fries
+Bot(6): what about ketchup ? or do you like them plain ?
+User(7): Or thousand island dressing
+Bot(7): what about ketchup ? or do you like them plain ?
+User(8): Do you like them plain
+Bot(8): i do not like them except in ketchup but sometimes they are okay
+User(9): I thought you said you liked fries
+Bot(9): i do not like them except in ketchup but sometimes they are okay
+User(10): so no fries?
+Bot(10): no , only french fries at home
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.71
+Robotic(↓): 73
+Interesting: 29
+Fun: 44
+Consistent: 26
+Fluent: 50
+Repetitive(↓): 67
+Topic: 48
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I have sneaker shoes
+Bot(1): i am sure they are new How are as travel .
+User(2): sorry?
+Bot(2): my name is charlie, do u so what a rap artist.
+User(3): Cardi B
+Bot(3): do you live in don't have man just house? i'm in a house.
+User(4): I don't understand
+Bot(4): oh ! its called never been to the city .. Also, that walk? how did you to ...
+User(5): Sorry? What
+Bot(5): Buongiorno! Such a nice day! How are you?. Some facts am are yours and u favorite
+User(6): I am so confused right now
+Bot(6): What for my car?
+User(7): Your car?
+Bot(7): I don't understand why there are you want to i have world who don't have insurance.
+User(8): You have insurance?
+Bot(8): Not really. at a local listen to music
+User(9): what songs do you like
+Bot(9): I don't understand you 🙈. like meditation. It's way today ? 🙈
+User(10): I don't know what you're saying
+Bot(10): Because Do you like trying to impress you.
+User(11): Thank you but no
+Bot(11): hence i will mention that to girlfriend they cheat just like men
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Shoes(like)
+Round 2: Rap(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+
+Revised avg score: 10.29
+Robotic(↓): 100
+Interesting: 12
+Fun: 3
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 43
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What is your favorite color
+Bot(1): i like blue , what is your hair color ?
+User(2): Dark brown. Yours?
+Bot(2): i love brown . i am a plumber .
+User(3): That does not sound right lol
+Bot(3): i love red . i am a plumber .
+User(4): I thought you loved brown
+Bot(4): i do not know what that is .
+User(5): You don't know what brown is?
+Bot(5): i have a brown hair and a brown hair
+User(6): Me too
+Bot(6): i have brown hair . i love red
+User(7): I like red. It is pretty
+Bot(7): i love red . i am a plumber
+User(8): You said that already
+Bot(8): i do not know what that is .
+User(9): Okay. Well... what is the color of the sky for you right now
+Bot(9): i have a very short hair . i am a plumber .
+User(10): Brown, short hair?
+Bot(10): i have brown hair . i am a plumber
+
+Persona:
+i am a plumber.
+i've short hair.
+since the surgery i have had strange powers.
+i am planning on getting a divorce.
+when i grow up i want to be a dog.
+
+Topic and Human Opinion:
+Beginning: Color(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 24.14
+Robotic(↓): 93
+Interesting: 29
+Fun: 28
+Consistent: 23
+Fluent: 50
+Repetitive(↓): 100
+Topic: 32
+
+####################
+

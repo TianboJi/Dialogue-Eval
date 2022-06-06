@@ -1,0 +1,281 @@
+Feedback: Some of the bots struggled to answer certain questions, or at least to elaborate more when they were being probed about their interests and such. 
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hello , how are you ?
+User(2): I am good, and you?
+Bot(2): i am good . you see the sunset tonight ? i loved it !
+User(3): too bad, I didn't get to see it. maybe tomorrow
+Bot(3): that sounds nice , any fishing spots around the hike ? i love to fish
+User(4): I didn't hike today
+Bot(4): do you enjoy hiking ?
+User(5): yes
+Bot(5): good for you . i enjoy playing soccer too
+User(6): soccer is great! what's your favorite team?
+Bot(6): that is cool ! ! are you on a soccer team ?
+User(7): no unfortunately
+Bot(7): i have a fish . i am away from home a lot with the job .
+User(8): what is the name of your fish
+Bot(8): what do you do with the fish ?
+User(9): I don't have a fish.
+Bot(9): no but i do fish for a living
+User(10): oh very interesting.
+Bot(10): i fish with my dogs all day
+User(11): dogs are my favorite!
+Bot(11): i love dogs but i love fish better
+
+Persona:
+i am a 56 year old woman.
+i enjoy long walks with my dog.
+i'm on the soccer team.
+i like to go hiking in the mornings to see the sunset.
+i have a pet fish.
+
+Topic and Human Opinion:
+Beginning: racism(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.00
+Robotic(↓): 92
+Interesting: 31
+Fun: 73
+Consistent: 58
+Fluent: 78
+Repetitive(↓): 97
+Topic: 22
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey there
+Bot(1): hello , nice to meet you . i just graduated with a degree in nursing .
+User(2): awesome! I was a psychology major in college
+Bot(2): cool ! i have my degree in nursing
+User(3): where do you work now?
+Bot(3): i am a doctor ! good luck in nursing school tough career .
+User(4): I thought you had a degree in nursing?
+Bot(4): i just signed up for nursing school
+User(5): oh did you wish to switch career paths?
+Bot(5): absolutely , i graduated and became a rn
+User(6): oh nice, but what about being a doctor?
+Bot(6): lol i want to start my life as a doctor
+User(7): but you're in nursing school? that doesn't make sense
+Bot(7): yeah , i am doing it to put myself through nursing school .
+User(8): you are working as a doctor to support your nursing career?
+Bot(8): yeah , i am doing it to put myself through nursing school .
+User(9): oh, very weird way of going about it but interesting nonetheless
+Bot(9): yeah , i am doing it to put myself through nursing school .
+User(10): yes you have said that already lol
+Bot(10): lol i want to start my life as a doctor
+
+Persona:
+i'm working on a building a robot to be my body double.
+i will graduate from high school in two years.
+i spend most of my time on facebook when i'm not working.
+i'm a baby delivery nurse.
+my favorite music is country.
+
+Topic and Human Opinion:
+Beginning: working out(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.14
+Robotic(↓): 100
+Interesting: 58
+Fun: 29
+Consistent: 71
+Fluent: 90
+Repetitive(↓): 100
+Topic: 68
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like psychology?
+Bot(1): wee i majored in psychology and it is a waste of time .
+User(2): so did I but I loved it
+Bot(2): i went to college for psychology !
+User(3): I know! I now work as a research assistant in psychology
+Bot(3): i went to college for psychology !
+User(4): you already said that dear
+Bot(4): you said that already
+User(5): right lol
+Bot(5): lol i know bye haha ; p
+User(6): why bye?
+Bot(6): i already told you that
+User(7): is there something you'd like to discuss about psychology?
+Bot(7): you said that already
+User(8): I have not ever mentioned that
+Bot(8): you said that already
+User(9): what do you want to talk about?
+Bot(9): i already told you that
+User(10): oh man this is a mess
+Bot(10): you said that already
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: psychology(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 74
+Fluent: 84
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you believe that blacks lives matter?
+Bot(1): I just you like freak hockey games
+User(2): what?
+Bot(2): Oh, color shoes do you you like it there?
+User(3): do you believe in protesting?
+Bot(3): It not married, but you do you do for fun?
+User(4): how are you today?
+Bot(4): goodbye it was You seem to you
+User(5): why are you saying goodbye?
+Bot(5): i me picture of clinic for children .
+User(6): this does not make sense. is everything okay?
+Bot(6): How are a musician. today?
+User(7): are you a musician?
+Bot(7): i Where are you from? photos are second nature
+User(8): bot, I am currently tired
+Bot(8): that is cool. I love is pole great, and any hobbies? I enjoy cooking
+User(9): I like to cook too.
+Bot(9): that sounds like a organic food from a horses. do you?
+User(10): horses eat organically? that's new
+Bot(10): i love to go to the beach a striker, score lots beach
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: systemic racism(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 11.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 22
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what is your favorite movie?
+Bot(1): i like the classics , and the indians .
+User(2): what's an indian movie?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): but if you like indian movies, how would you not know what it is?
+Bot(3): i love to eat .
+User(4): right, so do I
+Bot(4): i like to go to the gym and listen to music .
+User(5): I love doing both things. we would be great friends
+Bot(5): i am a girl . i am a big fan of classical music .
+User(6): I am also a girl! who is your favorite musician?
+Bot(6): i like the color red . i like the color blue .
+User(7): yes, but who is your favorite classical music artist?
+Bot(7): i like the oldies , and i love to listen to music .
+User(8): what is a good song?
+Bot(8): i am a huge fan of classical music .
+User(9): yes, but what kind of classical music?
+Bot(9): i like country music . i like country music .
+User(10): who is your favorite country artist then? I don't really like it
+Bot(10): i like the oldies . i like to listen to music .
+
+Persona:
+my parents are not very supportive of my dream.
+i also like to cook but i am not very good at it.
+i'm four years old.
+i'm an omnivore.
+my favorite color is yellow.
+
+Topic and Human Opinion:
+Beginning: movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 56.14
+Robotic(↓): 94
+Interesting: 64
+Fun: 63
+Consistent: 81
+Fluent: 93
+Repetitive(↓): 100
+Topic: 86
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): do you like rock music?
+Bot(1): i do like rock music i like rock
+User(2): do you listen to the beatles?
+Bot(2): i do not listen to them while i listen to rock
+User(3): okay, so who do you listen to?
+Bot(3): i like rock music , what is your favorite band ?
+User(4): I like the 1975.
+Bot(4): i like the beatles , but i listen to them while i listen to rock
+User(5): I thought you didn't listen to the beatles lol
+Bot(5): i am not sure . i am not familiar with the beatles
+User(6): but you just said that you listened to them silly
+Bot(6): i know what you mean .
+User(7): right, so who else do you listen to
+Bot(7): i listen to the beatles , but i am not sure what you mean
+User(8): okay what is your favorite song by the beatles?
+Bot(8): i like the beatles . they are the best
+User(9): yes but what is your favorite song? I personally like "don't let me down"
+Bot(9): i like the beatles , but i like the beatles
+User(10): yes you do friend
+Bot(10): i am a little bit of a guy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.57
+Robotic(↓): 89
+Interesting: 61
+Fun: 57
+Consistent: 91
+Fluent: 98
+Repetitive(↓): 100
+Topic: 85
+
+####################
+

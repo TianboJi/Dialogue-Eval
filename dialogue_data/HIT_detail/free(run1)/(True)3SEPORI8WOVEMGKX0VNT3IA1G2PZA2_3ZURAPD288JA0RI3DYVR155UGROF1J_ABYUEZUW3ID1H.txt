@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I do not know much about phishing
+Bot(1): yes i am new to this site so i am still learning how it all works
+User(2): there seems to be no rhyme or reason as to when the hits drop
+Bot(2): i do not know that also
+User(3): how long have you been on it?
+Bot(3): i have been doing it for a good 3 months now , i am still quite new
+User(4): are you approaching 1,000?
+Bot(4): yes and i want the number to increase every day
+User(5): find some cheap hits that are fast
+Bot(5): how long does this hit go on ?
+User(6): a few more minutes
+Bot(6): how long does this hit go on ?
+User(7): its almost over
+Bot(7): how long does this hit go on ?
+User(8): long enough
+Bot(8): how long does this hit go on ?
+User(9): counting down
+Bot(9): that is about how long it will take
+User(10): yes
+Bot(10): how long does this hit go on ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: phishing(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.71
+Robotic(↓): 79
+Interesting: 60
+Fun: 63
+Consistent: 64
+Fluent: 66
+Repetitive(↓): 64
+Topic: 59
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i am looking for good hits
+Bot(1): i am looking for a new job . i am looking for a new job
+User(2): what kind?
+Bot(2): i am looking for a new game
+User(3): action?
+Bot(3): nothing much just like the rolling stones
+User(4): role-playing?
+Bot(4): i am not sure , but i am looking for a few words
+User(5): sci-fi?
+Bot(5): i am not sure . i am looking for a new game
+User(6): fortnite?
+Bot(6): i am not sure . i am looking for a new game
+User(7): I hope you find it
+Bot(7): i am not sure . what is your favorite band ?
+User(8): Nirvana
+Bot(8): i am not sure . i am looking for a new game
+User(9): call of duty?
+Bot(9): i think i am not sure . i am not familiar with it
+User(10): doom?
+Bot(10): no , i don't know . i am not much of a fan of music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: hits(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.29
+Robotic(↓): 76
+Interesting: 57
+Fun: 61
+Consistent: 62
+Fluent: 57
+Repetitive(↓): 58
+Topic: 63
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am looking fwd to 2021
+Bot(1): oh , i am sorry . i am sorry .
+User(2): why?
+Bot(2): i do not know how to play the guitar .
+User(3): there are many tutorial online
+Bot(3): i like to go to the gym and listen to music .
+User(4): which gym?
+Bot(4): i like to play soccer .
+User(5): at the gym?
+Bot(5): i do , i like to go fishing .
+User(6): ice fishing?
+Bot(6): i do , i love to go fishing .
+User(7): ok
+Bot(7): i like to go to the gym and listen to music .
+User(8): me too
+Bot(8): i like to go to the gym and listen to music .
+User(9): this conversation sounds artificial
+Bot(9): i like to go to the gym and listen to music .
+User(10): I think thats it for now
+Bot(10): i do not know how to make it .
+
+Persona:
+my parents taught me survival skills.
+i was born with my heart outside my body.
+i've three dogs.
+i own a house in florida.
+i enjoy poetry.
+
+Topic and Human Opinion:
+Beginning: 2021(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.71
+Robotic(↓): 71
+Interesting: 60
+Fun: 62
+Consistent: 66
+Fluent: 58
+Repetitive(↓): 59
+Topic: 60
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like to the gym and listen to music
+Bot(1): i do, you really this kind of food?
+User(2): no
+Bot(2): i like to draw , but i also like blue in nice. I should ?
+User(3): i am not sure
+Bot(3): well that is right up there with some for you very lol
+User(4): do you think I should try it?
+Bot(4): why do have any this
+User(5): i dunno
+Bot(5): Thanks. What do you loves to grew living?
+User(6): evolution
+Bot(6): Nice which one music
+User(7): music genome
+Bot(7): I a city they will.
+User(8): yes, I know
+Bot(8): what father is you
+User(9): none
+Bot(9): i'd like to so Do you like dancer in london like my mother. what do you like to do ? 😂
+User(10): london sounds good
+Bot(10): i do years old by the , i do not have a job .
+
+Persona:
+i work took i've a part time job at burger king.
+i often shop for shoes and watches.
+i'll be released in about a month.
+my favorite color is grey.
+i've three arabian horses.
+
+Topic and Human Opinion:
+Beginning: gym(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.57
+Robotic(↓): 77
+Interesting: 62
+Fun: 72
+Consistent: 68
+Fluent: 67
+Repetitive(↓): 64
+Topic: 61
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): how are you ? i just got back from the library !
+User(2): anything good there?
+Bot(2): bad but good
+User(3): i am so sorry
+Bot(3): its okay , i can mess around on the internet
+User(4): yes, it is a great tool
+Bot(4): my house is already paid
+User(5): really?
+Bot(5): i have used it once or twice
+User(6): no kidding
+Bot(6): sweet
+User(7): awesome!
+Bot(7): awesome
+User(8): binary search tree
+Bot(8): wow !
+User(9): binomial theorem
+Bot(9): i am so bad at math
+User(10): you'll learn, have faith!
+Bot(10): i have a lot of faith but i am hurt
+User(11): then you must heal
+Bot(11): i need glasses , i have them !
+User(12): put them on
+Bot(12): my house is already paid
+
+Persona:
+i just bought a house recently.
+my father keeps trying to set me up on blind dates.
+my favorite food is papaya.
+my wife spends all my money.
+i've a big library at home.
+
+Topic and Human Opinion:
+Beginning: enron(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.71
+Robotic(↓): 81
+Interesting: 68
+Fun: 70
+Consistent: 71
+Fluent: 71
+Repetitive(↓): 63
+Topic: 68
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I like computers
+Bot(1): nice ! computers and technology fascinate me . what would you like to do with them ?
+User(2): I want them to become more human
+Bot(2): so don t worry about being a woman with thinning hair . at least you can wear heels
+User(3): I never have, but I guess there can always be a first time
+Bot(3): oh okay . california is on fire and i sing karaoke . you sing ?
+User(4): i used to.. i think i can get back into it
+Bot(4): i had to get glasses recently due to some retina problems
+User(5): i hope you get that fixed - i hate splitting horizons
+Bot(5): no , i am a artist and my three ring binder has a special drawing
+User(6): which ring is it on?
+Bot(6): i love my ring . its gorgeous . he designed it himself .
+User(7): I would like to hear it sometime
+Bot(7): c amon down . i will introduce you to my sister and her dog ciales . ll .
+User(8): i am a little shy
+Bot(8): i am also kind of shy but i am always looking to fall in love .
+User(9): well, fall is almost over
+Bot(9): absolutely , i love the fall . halloween is my favorite holiday . do you like the fall ?
+User(10): i am it it
+Bot(10): have you ever almost died ? i nearly did from urinary cancer when i was 18 .
+User(11): no, can't say that I have,, but I may be mis-remembering
+Bot(11): did you catch that ufc fight last week so sad my boy connor mcgregger did not win though .
+User(12): i haven't watched much since i gave up martial arts
+Bot(12): do you enjoy martial arts ?
+User(13): i used to
+Bot(13): i had to get glasses recently due to some retina problems
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: computers(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.29
+Robotic(↓): 78
+Interesting: 64
+Fun: 71
+Consistent: 60
+Fluent: 65
+Repetitive(↓): 60
+Topic: 58
+
+####################
+

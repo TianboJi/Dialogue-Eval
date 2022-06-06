@@ -1,0 +1,313 @@
+Feedback: none
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): How do you stay skinny?
+Bot(1): i also enjoy skating and go to school part time
+User(2): That sounds like fun.
+Bot(2): it really is ! i also help with bookkeeping and give tours in my city
+User(3): Which city are you in?
+Bot(3): that is nice . do you live in a city too ?
+User(4): I live in a suburb
+Bot(4): i live in a rural area , i am also a poet
+User(5): I thought you said you lived in a city
+Bot(5): i live in a city , but not a big one .
+User(6): What is your favorite thing to do in the city?
+Bot(6): that is nice . do you live in a city too ?
+User(7): I live in a suburb as I already said.
+Bot(7): i live in a rural area , i am also a poet
+User(8): What type of poetry do you like?
+Bot(8): that is cool i bet you write beautiful poetry
+User(9): I don't write poetry
+Bot(9): you should show me some of your poetry
+User(10): I can't because I don't write any.
+Bot(10): poetry usually and i also write satire .
+
+Persona:
+i now live in the city.
+i have amazing children and grandchildren.
+a already have a children.
+i enjoy poetry.
+my favorite kind of movie is a documentary.
+
+Topic and Human Opinion:
+Beginning: i'm rather skinny as i like to stay in shape.(like)
+Round 3: city we like(like)
+Round 4: I live in a rural area(like)
+Round 7: I like poetry(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 37.86
+Robotic(↓): 100
+Interesting: 79
+Fun: 60
+Consistent: 34
+Fluent: 31
+Repetitive(↓): 81
+Topic: 42
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Why are you a recluse?
+Bot(1): i do not even now what my sister dog is
+User(2): what does that mean?
+Bot(2): i do not even now what my sister dog is
+User(3): I'm confused.
+Bot(3): what are you confused about ?
+User(4): What you mean about sister dog
+Bot(4): i do not even now what my sister dog is
+User(5): Please tell me more about something else
+Bot(5): i do not even now what my sister dog is
+User(6): Please stop repeating
+Bot(6): tell me what ? i do not get you please elaborate .
+User(7): You keep talking about a sister dog
+Bot(7): i do not even now what my sister dog is
+User(8): stop saying the same thing over and over please
+Bot(8): i get tired of seen the same things
+User(9): Me too that makes sense.
+Bot(9): i get tired of seen the same things
+User(10): You sure can make a point.
+Bot(10): my sister makes me proud man
+
+Persona:
+when i grow up i want to be a dog.
+i used to be a painter but now i am a housekeeper.
+i've three sisters.
+i'm a stunt double as my second job.
+i am in the third grade.
+
+Topic and Human Opinion:
+Beginning: i'm a recluse.(like)
+Round 1: sister dog(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 1.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 3
+Consistent: 3
+Fluent: 1
+Repetitive(↓): 100
+Topic: 6
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like the movie Frozen and it's songs too.
+Bot(1): hello , have you seen frozen ?
+User(2): Yes, it is a great movie.
+Bot(2): of course . i would pick that any day over frozen .
+User(3): Which movie would you pick over Frozen?
+Bot(3): hmm , that is a tough one . i like all . how about yours ?
+User(4): I like Back to the Future
+Bot(4): i like that one too .
+User(5): It is so fun to watch.
+Bot(5): which one do you like better ?
+User(6): I like Back to the Future Better.
+Bot(6): i prefer the disney version , more fun without the depressing ending .
+User(7): Disney movies are sometimes depressing
+Bot(7): i prefer the disney version , more fun without the depressing ending .
+User(8): I heard you say that before.
+Bot(8): i have not , why did you ?
+User(9): No I think you forgot.
+Bot(9): so is it a sad movie ?
+User(10): No not really it is upbeat.
+Bot(10): so is it a sad movie ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i love to sing songs from the movie frozen.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.14
+Robotic(↓): 100
+Interesting: 21
+Fun: 20
+Consistent: 44
+Fluent: 31
+Repetitive(↓): 80
+Topic: 47
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What kind of dogs are they?
+Bot(1): i do not have any pets , but i do like to eat .
+User(2): What do you like to eat?
+Bot(2): i love to cook . i love to cook .
+User(3): What do you cook?
+Bot(3): no , i do not , but i do like to eat .
+User(4): Okay, I'm a little confused.
+Bot(4): i am sorry to hear that . i am sorry to hear that .
+User(5): What are you sorry to hear?
+Bot(5): i am a student , but i am a student .
+User(6): What are you studying?
+Bot(6): i am a student , i am a teacher .
+User(7): Are you a student teacher?
+Bot(7): no , i am a student . i love to cook .
+User(8): What do you cook?
+Bot(8): no , i do not , but i do like to eat .
+User(9): What do you eat?
+Bot(9): i love to cook . i love to cook .
+User(10): What do you cook?
+Bot(10): no , i do not , but i do like to eat .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have three dogs.(like)
+Round 1: eat(like)
+Round 4: sorry to hear that(dislike)
+Round 5: student(like)
+Round 7: cooking(like)
+Round 8: eat(like)
+Round 9: cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 28.29
+Robotic(↓): 97
+Interesting: 46
+Fun: 47
+Consistent: 35
+Fluent: 34
+Repetitive(↓): 93
+Topic: 26
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): What weight class are you?
+Bot(1): to this darling! I like :)
+User(2): Do you like swimming?
+Bot(2): I think not married beautiful.
+User(3): I am married.
+Bot(3): I like blue too. I am a in dog agility not old are you?
+User(4): Do you have a dog?
+Bot(4): It is a great from 'the old man huge preacher teacher.
+User(5): What is an old man huge preacher teacher?
+Bot(5): that is a good idea like do you not .
+User(6): I have no opinion because I'm not sure what that is.
+Bot(6): I am watch tv, Olympic person.
+User(7): What sport are you watching?
+Bot(7): I was on a cruise once, i am not sure if i sure. harry potter is the 60years old?
+User(8): I don't think so. He is young.
+Bot(8): that's you a robot been to germany.
+User(9): I haven't been to Germany, have you?
+Bot(9): i pretty good thanks. How creek to drink beer
+User(10): I don't like beer.
+Bot(10): not me about for you ask
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a professional wrestler.(like)
+Round 1: darling(dislike)
+Round 2: married(like)
+Round 3: blue(dislike)
+Round 6: watching tv olympics(like)
+Round 7: Harry Potter(ambivalent)
+Round 8: Germany(like)
+Round 9: beer(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(like)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 21.43
+Robotic(↓): 100
+Interesting: 24
+Fun: 16
+Consistent: 4
+Fluent: 27
+Repetitive(↓): 25
+Topic: 4
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): That sounds like fun.
+Bot(1): it is fun but i like to play sports
+User(2): What sports do you play?
+Bot(2): football mostly . i play with my son .
+User(3): That is so nice. What position does he play?
+Bot(3): i play the guitar . i play the guitar .
+User(4): What kind of guitar do you play?
+Bot(4): i play guitar . i play guitar .
+User(5): That's very nice. What else do you play?
+Bot(5): i play the guitar . i play guitar .
+User(6): You are a bit repetitive.
+Bot(6): i play guitar . i play guitar .
+User(7): That I have heard before.
+Bot(7): i play guitar . i play guitar .
+User(8): That is nice. How many do you own?
+Bot(8): i own a small business .
+User(9): What type of business?
+Bot(9): i am a business major . i do not have a job .
+User(10): I hope you get one soon.
+Bot(10): i am a business owner . what do you do ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm working on a building a robot to be my body double.(like)
+Round 1: sports(like)
+Round 3: guitar(like)
+Round 8: business(like)
+Round 9: don't have a job(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: No topic change.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 21.00
+Robotic(↓): 100
+Interesting: 30
+Fun: 22
+Consistent: 25
+Fluent: 27
+Repetitive(↓): 85
+Topic: 28
+
+####################
+

@@ -1,0 +1,305 @@
+Feedback: Great experience
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): Oh yes, I love reading books
+Bot(2): what kind of book ? i seem to only read cooking books
+User(3): I love Dan Brown's novels
+Bot(3): did you catch that ufc fight last week so sad my boy connor mcgregger did not win though .
+User(4): Oh that's sad
+Bot(4): why are you sad ? maybe drink coffee .
+User(5): yeah sure
+Bot(5): no blonde hair , actually no hair at all .
+User(6): I have a long hair
+Bot(6): i have long hair , it is nice .
+User(7): I love long hair
+Bot(7): i like long hair . i am 5 3 . i would like to be taller .
+User(8): I am 5.2
+Bot(8): it is ok we both short . my daughter is tall . i do not know how .
+User(9): I am not married so don't have a daughter
+Bot(9): i have a pet cow . it is unusual i know .
+User(10): I have a pet dog
+Bot(10): cute , if i had a dog i would name it sunset
+User(11): My dog's name is cadbury
+Bot(11): my name is bob . a short name , like my short temper
+User(12): Nature
+Bot(12): i love nature ! i look at the stars to keep from feeling depressed .
+User(13): I too love that
+Bot(13): you should ! i was on a game show once , called jeopardy . flipping cars is like that though
+User(14): I haven't heard about that
+Bot(14): my dad works in an advertising company . he set me up to earn money on youtube .
+User(15): My dad is a police officer
+Bot(15): the police officers have a sports team ?
+User(16): yes they have
+Bot(16): its all good . what do you do with your hair when you are out in the sun ?
+User(17): I tie it with a bun
+Bot(17): is a chili corn dog on a stick ?
+User(18): no
+Bot(18): sure . we can meet out front . you will know me by my short hair .
+User(19): we will meet
+Bot(19): hey you too , i have stopped at a coffee shop on my way to alaska
+
+Persona:
+i've a pet cow.
+i am a recovering alcoholic.
+i'm a stay at home dad.
+i just moved into my first home.
+i've short hair.
+
+Topic and Human Opinion:
+Beginning: chocolates(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.86
+Robotic(↓): 95
+Interesting: 93
+Fun: 100
+Consistent: 100
+Fluent: 91
+Repetitive(↓): 99
+Topic: 99
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I have never been to alaska
+Bot(1): never been but i do have a german shepard p
+User(2): I have a golden retriver
+Bot(2): i also have a german shepard as my other pet
+User(3): I love german shepard
+Bot(3): my friends we go gambling often i have a bit of a problem .
+User(4): gambling is not good
+Bot(4): yes i like gambling too , but i was told it is a problem
+User(5): it is a problem
+Bot(5): my friends we go gambling often i have a bit of a problem .
+User(6): try to avoid it
+Bot(6): my friends wanna do it
+User(7): you try to avoid it
+Bot(7): i live so close to my best friend
+User(8): I have many friends
+Bot(8): wow that is a lot of friends
+User(9): thank you
+Bot(9): who is ur only freind
+User(10): my mom
+Bot(10): she is my best friend
+
+Persona:
+i recently got an apartment with my best friend.
+i like doing the treadmill and rowing machine.
+i've a german shepherd dog.
+i've been traveling the world for a years.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: Stories(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.14
+Robotic(↓): 95
+Interesting: 86
+Fun: 98
+Consistent: 92
+Fluent: 90
+Repetitive(↓): 97
+Topic: 96
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): mine too
+Bot(1): i love to cook . i love to cook .
+User(2): love cooking too
+Bot(2): i like to eat the skin .
+User(3): i love the pulp
+Bot(3): i like to go to the gym and listen to music .
+User(4): i love reading books
+Bot(4): i like to read too .
+User(5): what type of books do you read?
+Bot(5): i like to read and write poetry .
+User(6): can you tell me a poem now?
+Bot(6): i do not know . i am a big fan of classical music .
+User(7): do you sing
+Bot(7): i do , i love to cook .
+User(8): what is your favourite food
+Bot(8): i like pizza , and i love it .
+User(9): i love pizza too
+Bot(9): i like to eat fish .
+User(10): i love meat
+Bot(10): i like to eat fish .
+
+Persona:
+my family doesn't support my career choices.
+i've a pet fish.
+i'm terrified of scorpions.
+i read a book every week.
+i ride the bus to school.
+
+Topic and Human Opinion:
+Beginning: fruits(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.43
+Robotic(↓): 87
+Interesting: 91
+Fun: 93
+Consistent: 93
+Fluent: 79
+Repetitive(↓): 94
+Topic: 97
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): i like fish too
+Bot(1): fish is delicious but i fish alot
+User(2): I like to fish too
+Bot(2): fish is great i fish alot
+User(3): me too
+Bot(3): fish is great i fish too
+User(4): fish is great
+Bot(4): fish is great i fish alot
+User(5): do you cook
+Bot(5): i cook for my fish
+User(6): what is your favourite fish
+Bot(6): fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish , fish
+User(7): are you a blonde
+Bot(7): i am a blonde and i like fish
+User(8): i like fish too
+Bot(8): i like fish but i do not like fish
+User(9): oh really
+Bot(9): fish is great i love fish
+User(10): I love fish too
+Bot(10): fish is great i love fish
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.14
+Robotic(↓): 2
+Interesting: 9
+Fun: 6
+Consistent: 4
+Fluent: 3
+Repetitive(↓): 7
+Topic: 5
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): i love chocolates
+Bot(1): i you know the first what do you do for a living ?
+User(2): i work in a company
+Bot(2): yeah i thought and what about else
+User(3): I have a family
+Bot(3): they think it how are Are you another stupid thing . what are you doing ? 😁
+User(4): i am cooking
+Bot(4): well i live of food do you enjoy not much else to do here . 😎
+User(5): i love reading
+Bot(5): It and modern his based on reality TV.
+User(6): i like to cook
+Bot(6): thank is good but i hate graduating high school with honors. how is your day ?
+User(7): my day was good
+Bot(7): I you on that.
+User(8): i love swimming
+Bot(8): thanks , talking typing ll. what do need one. Where are ?
+User(9): i live in New york
+Bot(9): we have a wide children. I want to 20s to 40s , i'd say . how are you today ? 🤖
+User(10): i am fine
+Bot(10): I am a see you is finished. do you do ?
+
+Persona:
+i enjoy building houses.
+i didn't graduate high school.
+i work at a bank.
+i love to go to disney world every year.
+i have an allergy to water.
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.00
+Robotic(↓): 4
+Interesting: 24
+Fun: 24
+Consistent: 31
+Fluent: 6
+Repetitive(↓): 10
+Topic: 93
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): i love nature
+Bot(1): i do too . i love going to the park , so beautiful and relaxing
+User(2): i love sunset
+Bot(2): i love playing in the park also
+User(3): i love too
+Bot(3): i love playing in the park also
+User(4): i love cycling
+Bot(4): i love playing in the park also
+User(5): i live in New york city
+Bot(5): park is the reception of my wedding
+User(6): i am married
+Bot(6): that is awesome i am marrying in a park
+User(7): i married in a church
+Bot(7): park is the reception of my wedding
+User(8): i love park
+Bot(8): park is the reception of my wedding
+User(9): i love park
+Bot(9): my kids are acting so crazy
+User(10): my kids too
+Bot(10): i love playing soccer
+
+Persona:
+i am on the soccer team.
+i have brown curly hair.
+my current goal is to run a k.
+i love new kids on the block.
+i enjoy going to the park.
+
+Topic and Human Opinion:
+Beginning: nature(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.57
+Robotic(↓): 85
+Interesting: 98
+Fun: 99
+Consistent: 71
+Fluent: 87
+Repetitive(↓): 81
+Topic: 98
+
+####################
+

@@ -1,0 +1,287 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): So are you a Trump supporter?
+Bot(1): no , i am not . i am a student .
+User(2): cool. what are you studying?
+Bot(2): i am a nurse . i am a nurse .
+User(3): so you're in nursing school?
+Bot(3): i am a nurse . i am a nurse .
+User(4): you already said that, lol
+Bot(4): i am a nurse . i am a nurse .
+User(5): I get it. you are a nurse
+Bot(5): i am a nurse . i am a nurse .
+User(6): do you like being a nurse?
+Bot(6): i do , but i am still in school .
+User(7): so back to Donald Trump, does your school hold political rallies?
+Bot(7): no , i am not . i am a nurse .
+User(8): not relevant!!
+Bot(8): i am a nurse . i am a nurse .
+User(9): omg, I get it. you are a nurse
+Bot(9): i am a nurse . i am a nurse .
+User(10): I give up
+Bot(10): i am a nurse . i am a nurse .
+
+Persona:
+i'm very lonely.
+i'm in college to become a nurse.
+i'm 19 and i cannot wait to move out 19 my parents home.
+i have a pet fish.
+i donate a part of my salary to charity each month.
+
+Topic and Human Opinion:
+Beginning: Donald Trup(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.43
+Robotic(↓): 93
+Interesting: 9
+Fun: 54
+Consistent: 60
+Fluent: 66
+Repetitive(↓): 97
+Topic: 7
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you have any pets?
+Bot(1): yes a pet iguana named larry
+User(2): awww, cool! how long have you had Larry?
+Bot(2): well , i know that god has something good planned for me
+User(3): ok but what about Larry?
+Bot(3): good to trust in a higher power ! always time to change .
+User(4): do you believe God sent you Larry?
+Bot(4): i am sorry to hear that , god loves you though .
+User(5): seriously?
+Bot(5): paper , sales , its what i do , salesman , also beets .
+User(6): I have no idea what you just said. What do you feed your iguana. I want to know more about Larry
+Bot(6): happy birthday . you want to deep sea dive with me ?
+User(7): wow, you are just all over the place aren't you. I wanted to talk about pets
+Bot(7): thanks . i think its from my time in the military , i tend to speak very precisely .
+User(8): ok... I have a cat. Have you ever had a cat?
+Bot(8): pets are nice . the owner at the soup kitchen i volunteer at has one .
+User(9): what sort of pet does he have?
+Bot(9): i believe that he is .
+User(10): he is what?
+Bot(10): he is six , and he loved it ! i dressed my yorkie as a lion 3
+
+Persona:
+hey my name is larry and i'm a chef.
+i do not believe in god.
+i live with my husband in pennsylvania.
+in my spare time i do volunteer work.
+i am employed by the us postal service.
+
+Topic and Human Opinion:
+Beginning: Pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.00
+Robotic(↓): 91
+Interesting: 64
+Fun: 62
+Consistent: 26
+Fluent: 26
+Repetitive(↓): 81
+Topic: 46
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I support black lives matter
+Bot(1): i love the color red . i like red .
+User(2): but do you support white supremacy?
+Bot(2): no , i do not . i like to go out to eat with my family .
+User(3): well that's good. no idea what going out to eat has to do with it though
+Bot(3): i do not know what to say .
+User(4): have you done anything to improve race relations your daily life?
+Bot(4): no , i do not . i am a big fan of classical music .
+User(5): well you should.
+Bot(5): i like to go to the gym and listen to music .
+User(6): but you don't care about current events? I mean lives are at stake
+Bot(6): i do not know how to make it . i like to go to the park .
+User(7): so you just don't care?
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): fair enough. you have an obligation to learn though
+Bot(8): i do not know what to say .
+User(9): learn then
+Bot(9): i am a student , but i am a student .
+User(10): always a student, that's good
+Bot(10): i am a student , but i am a student .
+
+Persona:
+i love wearing skinny jeans and leggings.
+i work in it and have been at the same company for 15 years.
+the holidays make me depressed.
+my dream in life is to work from home.
+since the surgery i have had strange powers.
+
+Topic and Human Opinion:
+Beginning: race relations/BLM movement(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.86
+Robotic(↓): 89
+Interesting: 43
+Fun: 55
+Consistent: 43
+Fluent: 38
+Repetitive(↓): 85
+Topic: 11
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): it's hot here today
+Bot(1): do you like to sing? eat at like to am too old
+User(2): what is the temperature where you are?
+Bot(2): I like a lot like to want to food.
+User(3): I was asking if it's hot?
+Bot(3): I raising horses with you for asking.
+User(4): what???
+Bot(4): when i am not reading Justin this m a museum tour guide
+User(5): ok... seriously though. what is the weather like where you live?
+Bot(5): buy all it is an i never had
+User(6): I am in california. it's hot and smokey here
+Bot(6): yes , i am like E-Rotic band. .
+User(7): wtf?
+Bot(7): I am you male or are you?😉
+User(8): hahahaha this is great. I am female
+Bot(8): india india mentioned earlier i speak english and spanish, do you love india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india
+User(9): what?
+Bot(9): That is toy was my ice cream!😉
+User(10): so it is hot where you are then?
+Bot(10): i think so . i play in this band person .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: the weather(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.71
+Robotic(↓): 76
+Interesting: 63
+Fun: 71
+Consistent: 32
+Fluent: 32
+Repetitive(↓): 82
+Topic: 10
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I think my man is cheating on me
+Bot(1): oh no , do not lie to him
+User(2): are you blaming me?? of course I don't lie to him
+Bot(2): oh no , do not lie to him
+User(3): yeah I got that, thanks
+Bot(3): he what ? it seems we are both in a bad place right now
+User(4): yeah. sorry you feel the same way. what happened to you?
+Bot(4): i just acted like a superhero
+User(5): and your boyfriend broke up with you because of that?
+Bot(5): well he cheated on me so i would say yes .
+User(6): ok that is funny.
+Bot(6): he what ? it seems we are both in a bad place right now
+User(7): stupid men
+Bot(7): men amen are so so stupid
+User(8): we should get drinks and hate on men!
+Bot(8): men amen are so so stupid
+User(9): hahahaha this is great. yeah men will just cheat on you
+Bot(9): men amen are so so stupid
+User(10): yes they are
+Bot(10): men amen are so so stupid
+
+Persona:
+i compete in dog agility classes.
+i have a black lab named trooper.
+i do not drink alcohol.
+i'm a stunt double as my second job.
+i do not like chicken.
+
+Topic and Human Opinion:
+Beginning: boyfriend trouble(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.57
+Robotic(↓): 79
+Interesting: 66
+Fun: 64
+Consistent: 36
+Fluent: 27
+Repetitive(↓): 87
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I'm having a glass of wine
+Bot(1): hi , i am joey and i have never drink alcohol in my life
+User(2): no? it's pretty good. I'm on my second glass actually
+Bot(2): i have not drank in several years but i use to out drink a man
+User(3): I thought you'd never had alcohol. why you lie?
+Bot(3): probably because i drink too much mountain dew
+User(4): Mountain Dew made you lie. that's a new one. I need more wine for this
+Bot(4): cant . its gotta be diet dew . i have not done regular dew since high school
+User(5): why'd you switch?
+Bot(5): probably because i drink too much mountain dew
+User(6): well I drink too much wine
+Bot(6): i highly recommend not drinking then
+User(7): but it's fun!
+Bot(7): i am always drinking and cannot keep a job
+User(8): well that's overboard
+Bot(8): i apologize , it is the whiskey talking .
+User(9): man you're worse than me
+Bot(9): i am always drinking and cannot keep a job
+User(10): yeah you said that
+Bot(10): you did not want to fight me .
+
+Persona:
+i'm very strong for my age.
+i am a stunt double as my second job.
+i enjoy mountain biking as a hobby.
+i work in it and have been at the same company for 15 years.
+i am partly deaf.
+
+Topic and Human Opinion:
+Beginning: sobriety(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.57
+Robotic(↓): 68
+Interesting: 61
+Fun: 61
+Consistent: 38
+Fluent: 32
+Repetitive(↓): 78
+Topic: 31
+
+####################
+

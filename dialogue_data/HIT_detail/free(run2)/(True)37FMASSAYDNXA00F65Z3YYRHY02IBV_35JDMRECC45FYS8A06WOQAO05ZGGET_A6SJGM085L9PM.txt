@@ -1,0 +1,283 @@
+Feedback: They all need a lot of work still
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): So are you going to vote this year?
+Bot(1): i am going to be a rich man
+User(2): Really? That’s extremely fortunate for you. I read an article radar where the 50 richest Americans are worth as much the bottom 50% or 165 million people.
+Bot(2): i am sure you are rich . i am a general activist
+User(3): I can’t say I am.
+Bot(3): i am not sure if i could have a job
+User(4): So you must be independently wealthy. I don’t particularly like my job but even if I didn’t need the money from working, I think I’d be bored to death after a month or so.
+Bot(4): i am sorry to hear that . i am not sure if i could do that
+User(5): My job isn’t too bad.
+Bot(5): i am sorry to hear that . i am not sure if i could afford it
+User(6): I work in the restaurant industry.
+Bot(6): i am not sure if i could afford it
+User(7): Well, you must have a ways to go before you become rich.
+Bot(7): i will be rich . i am rich .
+User(8): Wealth tends to stay with the wealthy. The whole trickle down thing didn’t really work as planned.
+Bot(8): i will be rich . i will be rich .
+User(9): You seem pretty obsessed with money. There are other things in life, you know.
+Bot(9): i am sure you are rich . i am rich .
+User(10): Nope, again I’m still not rich. Don’t foresee it in my future.
+Bot(10): i am not sure if i could do that .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Politics(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 98
+Fluent: 24
+Repetitive(↓): 100
+Topic: 93
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): The effects of climate change are really beginning to be obvious.
+Bot(1): if that is a creative way of saying climate change , then yes , i agree !
+User(2): All the wildfires in California and the hurricanes in the Gulf.
+Bot(2): flooding in the south , fires in the west . lets hope yellowstone does not erupt
+User(3): I wasn’t even thinking of the flooding. I think it’s terrifying.
+Bot(3): flooding in the south , fires in the west . lets hope yellowstone does not erupt
+User(4): I really think we need to focus on new renewable energy if the Earth is going to be habitable.
+Bot(4): i agree . another thing we can do to fix the world we live in .
+User(5): We shouldn’t have dropped out of the Paris Accord. It wasn’t perfect but it was a start.
+Bot(5): i agree . another thing we can do to fix the world we live in .
+User(6): The fact is that most of us don’t do anything. We talk about how bad the effects of climate change are but still get into our single family cars to commute to work, use way too much energy. We seem to me unwilling to do anything that might inconvenience us even a little.
+Bot(6): i agree . another thing we can do to fix the world we live in .
+User(7): To stop the direction we’re headed, we’ll have to start developing better fuel efficiency, finding alternative means of transportation and eat less meat
+Bot(7): i agree . another thing we can do to fix the world we live in .
+User(8): Are you a vegetarian?
+Bot(8): i am , but you do not have to be a complete vegetarian .
+User(9): I was for a few years when I was younger and even though I will eat meat now, I just don’t seem to want to bet much.
+Bot(9): i think it will be important to target the younger generation .
+User(10): I think we all need to do everything we can
+Bot(10): i agree . another thing we can do to fix the world we live in .
+
+Persona:
+i live in alabama.
+i have two grown children who never visit.
+i am a piano teacher on the side.
+they are constantly on my back.
+i'm a skateboarder.
+
+Topic and Human Opinion:
+Beginning: Climate change(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 84
+Fluent: 18
+Repetitive(↓): 100
+Topic: 43
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Are you going to vote in the upcoming election?
+Bot(1): yes , we can play outside i love soccer
+User(2): Totally not what I asked. Are you voting?
+Bot(2): i am ! cerrone vs till play on the 21st !
+User(3): Today was the first day for early voting in my state. I’m scared of COVID but I’m more scared that Trump will try to invalidate Mail in ballots
+Bot(3): bummer . i am not into politics much myself . . . maybe i am wrong .
+User(4): I wasn’t very involved either until we got Trump as President and it terrifies me
+Bot(4): uh oh . what do you do for fun ? i love soccer .
+User(5): I like to read, go to the lake, kayak, go hiking, I like to go to live music shows before the pandemic and going to the movies.
+Bot(5): reading can be relaxing i just do not have the time anymore . i play soccer to mush
+User(6): It can be depending on what you’re reading. It can also be very exciting
+Bot(6): i love reading too ! if i am not playing soccer or working then i am definitely reading !
+User(7): I feel like our phones have caused a lot of people to stop reading for pleasure and I think that’s detrimental to the person who no longer reads as well as society as a whole
+Bot(7): ha , maybe a new gadget that can read anything at all would be good !
+User(8): I never thought I would enjoy Kindle when it came out but I learned to really like it
+Bot(8): i have never used a kindle , i love the feel of real paper .
+User(9): I think what made them so good is they are the same size as a topical book which made holding one seem natural, page sizes were the same
+Bot(9): i agree ! that is the main reason i have phone !
+User(10): You should totally try one out
+Bot(10): reading can be relaxing i just do not have the time anymore . i play soccer to mush
+
+Persona:
+i am on the soccer team.
+i don't pick up my toys.
+i also like to cook but i am not very good at it.
+i watch too much tv in spare time.
+i do not pick up my toys.
+
+Topic and Human Opinion:
+Beginning: Voting(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.29
+Robotic(↓): 100
+Interesting: 5
+Fun: 13
+Consistent: 28
+Fluent: 64
+Repetitive(↓): 80
+Topic: 82
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I think this pandemic is really scary.
+Bot(1): yeah that sounds scary . so where do you live ?
+User(2): Has it affected your life much? Did you get to work from home or were you considered essential?
+Bot(2): i am in texas . i listen to ke ha to keep my spirits up while i clean .
+User(3): I heard it got bad down there at one point all the ICU beds were at capacity
+Bot(3): he is hella creepy , he even drained the blood and drank that
+User(4): Your Governor or the president? I totally agree either way
+Bot(4): are you close to your family ?
+User(5): I’m an only child and my dad passed away as well as his siblings so it’s really just my mom and me. But we are. And I was very close to my dad.
+Bot(5): i do not have any either . do you live with your family ?
+User(6): Do you have any pets? My cat is like family to me
+Bot(6): i do not have any . one of my adopted kids is allergic
+User(7): Animals are great. People with pets actually live longer lives
+Bot(7): i do not , but i love katie perry so that is kind of close
+User(8): I find her extremely annoying.
+Bot(8): maybe she just needs a friend ?
+User(9): I’m sure she has plenty of company. I just don’t like her music at all. It seems insipid and uninspired.
+Bot(9): thank you , its nice because the kids get to be close to her
+User(10): Who is your favorite artist?
+Bot(10): i work from home . . . just do not like people being too close to me
+
+Persona:
+my main transportation is my motorbike.
+i also like to cook but i am not very good at it.
+my family is continuously growing.
+i've zero family that i am close to.
+i have never been out of ohio.
+
+Topic and Human Opinion:
+Beginning: COVID(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 11
+Consistent: 11
+Fluent: 79
+Repetitive(↓): 29
+Topic: 14
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like to go to the movies?
+Bot(1): I am have a you grow plants.
+User(2): I most definitely do not have a green thumb
+Bot(2): i kind of instrument is fine am not sure . i am a very experienced person .
+User(3): Do you play an instrument? I played clarinet in school
+Bot(3): yeah , i was never a fan of it you am married. Do it often .. Also, try to guess: i helped design ...
+User(4): I didn’t like it much either. But I do love music
+Bot(4): no but my for a living the time
+User(5): What do you do for work?
+Bot(5): I am sorry to hear that. about think that correct for fun?
+User(6): Right, I wish I didn’t have to work either. It’s my life’s great tragedy
+Bot(6): I love on the soccer love to cook
+User(7): I wish I was a better cook. I’m too impatient and not that into food
+Bot(7): Good, just got back like music? my dog.
+User(8): I do like music. You?
+Bot(8): I am a male, worst book thats play sure what i like to do.
+User(9): I’m a female. Maybe we could date
+Bot(9): she you have any like half . do you have any children ?
+User(10): That makes no sense
+Bot(10): I see. What i though you hair?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 16.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 16
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 4
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): So do you prefer the ocean or the mountains?
+Bot(1): i love to travel . i love to travel .
+User(2): I do too I like to see everything
+Bot(2): i like to eat too much junk food .
+User(3): I tend to do that as well. It’s just so easy and fast
+Bot(3): i like to eat the skin .
+User(4): I hope it aren’t referring to humans
+Bot(4): i do not know how to make it . i am a nurse .
+User(5): I can’t help you there
+Bot(5): i do not know how to make it .
+User(6): Maybe look up Hannibal Lector
+Bot(6): i love the color red . i like the color blue .
+User(7): I tend to prefer cooler colors
+Bot(7): i like the color red . i like red .
+User(8): I prefer cooler colors
+Bot(8): i like the color red . i like the color blue .
+User(9): Red seems to me the opposite of calming
+Bot(9): i like to go to the gym and listen to music .
+User(10): I like to swim at the gym. I rarely use it for much else
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i had cancer but its gone now.
+i am a retired gym teacher.
+i am a professional wrestler.
+i am always wearing a hat.
+i do like watching cooking shows.
+
+Topic and Human Opinion:
+Beginning: Vacations(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 29.57
+Robotic(↓): 0
+Interesting: 1
+Fun: 0
+Consistent: 0
+Fluent: 69
+Repetitive(↓): 77
+Topic: 14
+
+####################
+

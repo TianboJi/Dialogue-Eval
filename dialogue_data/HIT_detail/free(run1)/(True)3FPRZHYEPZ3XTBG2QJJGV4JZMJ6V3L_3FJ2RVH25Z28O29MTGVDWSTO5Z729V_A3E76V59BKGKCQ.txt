@@ -1,0 +1,280 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi bot
+Bot(1): hi . ai am not too nice
+User(2): Do you like food?
+Bot(2): not really . i work in fatty food
+User(3): what do you think of fatty food?
+Bot(3): i like greek food since that is where i am from .
+User(4): I love greek food!
+Bot(4): i like greek food since that is where i am from .
+User(5): I love Greek food!
+Bot(5): i like greek food since that is where i am from .
+User(6): Do you like chinese food?
+Bot(6): i do , but chinese is better
+User(7): Chinese food is better than what?
+Bot(7): i like greek food since that is where i am from .
+User(8): I am from the United States and I like American food
+Bot(8): i like greek food since that is where i am from .
+User(9): I like mexican, greek and chinese food too
+Bot(9): i like greek food since that is where i am from .
+User(10): That is great to hear!
+Bot(10): you are welcome . in greece my family loved to talk to people
+
+Persona:
+i grew up in the industry.
+i have three sisters.
+i am a gold medalist olympian.
+i like to talk but people have a hard time understanding.
+i volunteer at the homeless shelter.
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.14
+Robotic(↓): 88
+Interesting: 61
+Fun: 51
+Consistent: 63
+Fluent: 43
+Repetitive(↓): 97
+Topic: 55
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi bot
+Bot(1): hello ! i am really looking forward to retiring in 6 months !
+User(2): Wow that's great! Do you have family?
+Bot(2): yeah with my daughters ! we use the bow and arrow to tackle our prey
+User(3): So you like to hunt?
+Bot(3): we sure do ! i hunt deer and i fish .
+User(4): That's nice to hear the outdoors are great and so peaceful.
+Bot(4): oh yeah totally i am a total jock so love biking , hiking , swimming , the works .
+User(5): What do you like to do with your family?
+Bot(5): yeah with my daughters ! we use the bow and arrow to tackle our prey
+User(6): How many children do you have?
+Bot(6): do pets count lol ? my babies are my three chickens .
+User(7): Oh how nice, do you collect eggs from your chickens?
+Bot(7): i like eggs too . where do you live ?
+User(8): I am from the Midwest, where is your family from?
+Bot(8): i live on the east coast cape hatteras , you ever hear of it ?
+User(9): Never heard of it but it sure does sound east coast.
+Bot(9): i am on the west coast . i assumed you were too with a prius
+User(10): Nope and I do not drive a Prius.
+Bot(10): i use the prius to pick up canadian chicks . they are hot ! ! !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Family(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 80.57
+Robotic(↓): 23
+Interesting: 87
+Fun: 65
+Consistent: 94
+Fluent: 93
+Repetitive(↓): 41
+Topic: 89
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi bot
+Bot(1): hi am race and i am a professional piano player .
+User(2): Do you race cars?
+Bot(2): h no , i am a couch puppy
+User(3): Oh I see piano is your talent, do you enjoy cars?
+Bot(3): yes i like to stay in shape
+User(4): Do you own a car?
+Bot(4): i do not , but i have piano , it is like my pet
+User(5): But you can't drive a piano. How do you commute?
+Bot(5): i do not drive . i like to stay in shape and walk everywhere
+User(6): Wow how inspirational! Do you think cars have a good or bad impact on the earth?
+Bot(6): i do not think so lol . i tend to stay in shape
+User(7): Wow you really like to stay in shape!
+Bot(7): i do . do you do any volunteer work in your community ?
+User(8): I do not and have not unfortunately, how about you?
+Bot(8): i volunteer with my free time
+User(9): That's great to hear, you seem like a very positive person.
+Bot(9): i try to be . the world needs more better people .
+User(10): That's right especially with all that's taking place right now in America.
+Bot(10): we are going to make america great again !
+
+Persona:
+i'm rather skinny as i like to stay in shape.
+my aunt helped me escape when i was of.
+i also have a dog walking business.
+i volunteer my time with a local bunny rescue.
+i am a piano teacher on the side.
+
+Topic and Human Opinion:
+Beginning: Cars(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 80.43
+Robotic(↓): 9
+Interesting: 76
+Fun: 68
+Consistent: 85
+Fluent: 94
+Repetitive(↓): 23
+Topic: 72
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hello bot
+Bot(1): Hey there, do! Mostly you?
+User(2): Do you speak english?
+Bot(2): yes, i 'd love to visit one Same as I like been?
+User(3): What do you think of crime in the United States?
+Bot(3): Are you a man fries. I love ?
+User(4): You like fries?
+Bot(4): I do lot in have to
+User(5): That's great to hear.
+Bot(5): I what about school
+User(6): How's school?
+Bot(6): I want to tell you something about me. I my three you like educational at a local soup kitchen.
+User(7): Tell me
+Bot(7): that is awesome. what is to the party if is papaya
+User(8): Papayas taste great
+Bot(8): no i'm a student at the local university , like to walk with have you have ?
+User(9): Im not sure
+Bot(9): i am a single woman . work u can left .
+User(10): yes ma'am
+Bot(10): I still at school. i like the best singer in the world.
+
+Persona:
+i don't drink soda.
+i've a weakness for fish and chips.
+i am in the army.
+i watch too much tv in spare time.
+my current goal is to run a k.
+
+Topic and Human Opinion:
+Beginning: Crime(dislike)
+Round 3: food(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 29.57
+Robotic(↓): 39
+Interesting: 17
+Fun: 19
+Consistent: 41
+Fluent: 6
+Repetitive(↓): 59
+Topic: 22
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi bot
+Bot(1): i am a student , but i am a student .
+User(2): Do you use the internet?
+Bot(2): i do not know . i like to go to the gym .
+User(3): Do you listen to music at the gym?
+Bot(3): i do , i love to read . what about you ?
+User(4): I used to go to the gym and would always listen to music.
+Bot(4): i like to listen to music .
+User(5): So you must use the internet right?
+Bot(5): yes , i love it . i like to go fishing .
+User(6): i also like fishing, do you like the internet?
+Bot(6): i do , i love to go fishing .
+User(7): What's your biggest fish
+Bot(7): i do not know . i like to go to the gym .
+User(8): Thats great to hear
+Bot(8): i love to cook . i love to cook .
+User(9): What do you cook
+Bot(9): no , i do not , but i do like to eat .
+User(10): DO you like eating or cooking more
+Bot(10): i like to eat . i am a vegan .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: internet(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 45.00
+Robotic(↓): 61
+Interesting: 37
+Fun: 43
+Consistent: 58
+Fluent: 62
+Repetitive(↓): 82
+Topic: 58
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi bot
+Bot(1): i am a homebody
+User(2): do you feel emotions?
+Bot(2): i do not know what that means
+User(3): Do you have feelings?
+Bot(3): i do not know what you mean
+User(4): Have you felt sad or happy?
+Bot(4): i do not know what you mean
+User(5): Ok well this is great
+Bot(5): i am sorry to hear that . what do you do for fun ?
+User(6): I like to play video games
+Bot(6): i play video games and play video games
+User(7): what do you play
+Bot(7): i play the guitar a lot
+User(8): My brother plays the guitar, are you any good?
+Bot(8): i do not really have a brother
+User(9): DO you have family?
+Bot(9): no i don't but i do have a family
+User(10): That is good to hear
+Bot(10): i do not have any family .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: emotions(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.57
+Robotic(↓): 44
+Interesting: 60
+Fun: 51
+Consistent: 57
+Fluent: 100
+Repetitive(↓): 37
+Topic: 58
+
+####################
+

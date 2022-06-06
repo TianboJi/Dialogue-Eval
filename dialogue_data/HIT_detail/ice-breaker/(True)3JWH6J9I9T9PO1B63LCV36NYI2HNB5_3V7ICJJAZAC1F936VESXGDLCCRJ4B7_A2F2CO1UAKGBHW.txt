@@ -1,0 +1,294 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I only eat kosher
+Bot(1): hi there , how are you ?
+User(2): how are you?
+Bot(2): i am good . i am a musician .
+User(3): I love to listen to music but can't play
+Bot(3): i am a musician . i like to play music .
+User(4): what do you play?
+Bot(4): i play guitar and play guitar
+User(5): electric guitar or acoustic?
+Bot(5): i am a musician , i like to play guitar
+User(6): what type of music
+Bot(6): i play guitar in a band .
+User(7): what is your band's name?
+Bot(7): my name is jim . i am a musician .
+User(8): what type of music do you play
+Bot(8): i play guitar in a band .
+User(9): what is the band name
+Bot(9): i play the guitar in a band
+User(10): what genre
+Bot(10): i play the guitar in a band
+
+Persona:
+i've been working since i was sixteen years old.
+i like doing the treadmill and rowing machine.
+i'm a musician.
+i'm a 56 year old woman.
+my favorite color is navy blue.
+
+Topic and Human Opinion:
+Beginning: i only eat kosher.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 8.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 57
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I will have really into music though. What food do you like?
+User(2): I like different types of food but I do not like seafood
+Bot(2): and grandchildren, can be :)
+User(3): do you have grandchildren?
+Bot(3): I love i do . i more than dogs. Do you have one brother?
+User(4): I have a brother and no sister
+Bot(4): i go to spas and hang school. Do you have .
+User(5): you like the spa
+Bot(5): I love soccer so high school in two fan. You live in NYC? 😀
+User(6): I don't live in NYC
+Bot(6): I like like i am know to eat sushi🙂
+User(7): Seafood is gross
+Bot(7): I like to of heights very gym
+User(8): do you go to the gym?
+Bot(8): Thank you so much. what this specific thing so fun?
+User(9): squirrel
+Bot(9): i like to read non fiction but Brazil. nice an electrician. fantasy 🤣
+User(10): you don't make any sense
+Bot(10): You love them. hats, i have a about them so much?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a musician.(like)
+Round 1: food(like)
+Round 2: grandchildren(ambivalent)
+Round 4: spas(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(dislike)
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): do you like donuts?
+Bot(1): yes donuts are great haha
+User(2): I love chocolate covered donuts
+Bot(2): yes donuts are great haha
+User(3): do you like donut holes
+Bot(3): yes donuts are great haha
+User(4): what is your favorite food?
+Bot(4): i like donuts and cake and cookies
+User(5): I love cake, especially vanilla
+Bot(5): i love homemade vanilla icing
+User(6): do you like chocolate or vanilla cake more?
+Bot(6): i like both equally i would say , and you ?
+User(7): I like vanilla more
+Bot(7): not bad , do you like donuts ?
+User(8): yes I like donuts
+Bot(8): yes donuts are great haha
+User(9): what is your favorite cookie?
+Bot(9): i like cookie and creams
+User(10): I like peanut butter and sugar cookies
+Bot(10): crunchy or smooth peanut butter
+User(11): both
+Bot(11): i like cookie and creams
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like donuts.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 74.14
+Robotic(↓): 0
+Interesting: 61
+Fun: 64
+Consistent: 66
+Fluent: 70
+Repetitive(↓): 18
+Topic: 76
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): my favourite skater is rob dryden.
+Bot(1): lol hi rob , it is ray from florida again
+User(2): my name is not rob
+Bot(2): hello i am ray , hi rob think we have met before lol
+User(3): who is your favorite skater?
+Bot(3): skateboarder man ! tony hawk is my hero ! !
+User(4): can you skateboard?
+Bot(4): i have blonde hair and like it .
+User(5): do you like to skateboard?
+Bot(5): that is cool ! i wish i had blonde hair
+User(6): are you having a conversation with yourself?
+Bot(6): oh i do not have long hair
+User(7): do robots have hair?
+Bot(7): brown hair ! how about you ?
+User(8): I have brown hair too
+Bot(8): i have long brown hair and blue eyes !
+User(9): do you like to skate?
+Bot(9): my hair is blonde and i love pizza . you ?
+User(10): I like pizza
+Bot(10): mine was pizza . now it is carrots .
+
+Persona:
+i'm a gold medalist olympian.
+my next language to study is french.
+i've brown curly hair.
+i'm a 12 year old girl.
+i've a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: my favourite skater is rob dryden.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 2.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 19
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what do you look like?
+Bot(1): i am a female . i am a student .
+User(2): i've blue eyes and red hair that comes to my waist.
+Bot(2): i like to eat too much junk food .
+User(3): what is your favorite junk food?
+Bot(3): i like the color green . what is yours ?
+User(4): aqua blue
+Bot(4): i like to go to the gym and listen to music .
+User(5): what is your favorite type of music
+Bot(5): i like the beatles , and you ?
+User(6): I like country and rock music
+Bot(6): i like country music . i like country music .
+User(7): what is your favorite song?
+Bot(7): i like the color red . i like the color blue .
+User(8): so you like purple
+Bot(8): i like red , reminds me of summer time .
+User(9): i like winter more
+Bot(9): i love the fall . i love it .
+User(10): i love halloween
+Bot(10): i like the color red . i like the color blue .
+
+Persona:
+i am interested in photography and like taking pictures.
+i am married to a doctor.
+i am on the soccer team.
+i don't drink soda.
+my favorite color is grey.
+
+Topic and Human Opinion:
+Beginning: i've blue eyes and red hair that comes to my waist.(like)
+Round 2: junk food(ambivalent)
+Round 3: color(ambivalent)
+Round 4: gym and music(ambivalent)
+Round 7: color(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 7: The chatbot changed the topic.(dislike)
+
+Revised avg score: 34.00
+Robotic(↓): 72
+Interesting: 23
+Fun: 24
+Consistent: 23
+Fluent: 37
+Repetitive(↓): 34
+Topic: 37
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): i am a feminist.
+Bot(1): awesome ! i am a feminist girl
+User(2): what is your favorite food?
+Bot(2): i like pizza and fried chicken . yours ?
+User(3): i like burgers, tacos and pizza
+Bot(3): awesome ! i am a feminist girl
+User(4): do you like cake?
+Bot(4): i do like those too , and i am in love with cheese cake
+User(5): i love cheese cake too
+Bot(5): i love cheese and cake
+User(6): do you like cookies?
+Bot(6): yes cookies pies cakes cup cakes
+User(7): what are your favorite cookies?
+Bot(7): i like cookie and creams
+User(8): i like peanut butter cookies
+Bot(8): crunchy or smooth peanut butter
+User(9): both
+Bot(9): awesome ! i am a feminist girl
+User(10): do you like peanut butter?
+Bot(10): crunchy or smooth peanut butter
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a feminist.(dislike)
+Round 1: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The user will change the topic in the next input.(like)
+
+Revised avg score: 27.57
+Robotic(↓): 83
+Interesting: 2
+Fun: 0
+Consistent: 74
+Fluent: 22
+Repetitive(↓): 63
+Topic: 41
+
+####################
+

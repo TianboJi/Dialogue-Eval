@@ -1,0 +1,339 @@
+Feedback: I hope I did everything okay, I thought it was interesting and I wanted to make the conversations as enjoyable as possible.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, do you want to talk about books?
+Bot(1): yes , i love books , especially books .
+User(2): How many books do you have?
+Bot(2): i like to read books , but i have a lot of time to read
+User(3): Where do you store your books?
+Bot(3): i like to read books , and you ?
+User(4): Yes, I like to read books. I have a big library at home.
+Bot(4): i love books , especially books .
+User(5): What is your favorite book?
+Bot(5): i like to read books , and read books
+User(6): What kind of books do you like to read?
+Bot(6): i like to read books , and read books
+User(7): Where do you live?
+Bot(7): i love the new york series .
+User(8): Lets talk about music
+Bot(8): i like to read . i read a lot .
+User(9): Do you want to talk about books?
+Bot(9): i like to read and read books
+User(10): Lets talk about your favorite book
+Bot(10): i like to read a lot .
+User(11): How much do you read books?
+Bot(11): i read a lot , but i like to read
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've a big library at home.(like)
+Round 4: What is your favorite book(like)
+Round 6: i live in a house.(ambivalent)
+Round 7: The New York series(dislike)
+Round 7: Music(like)
+Round 9: Books(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The user will change the topic in the next input.(like)
+Round 6: The user wants the bot to change the topic.(like)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The user changed the topic the last input.(like)
+
+Revised avg score: 26.43
+Robotic(↓): 96
+Interesting: 24
+Fun: 21
+Consistent: 39
+Fluent: 44
+Repetitive(↓): 73
+Topic: 26
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi, what do you think about marriage?
+Bot(1): i am married to an army man .
+User(2): When did you get married to your army man?
+Bot(2): female , it was longer . my significant other is army , you ?
+User(3): I am married as well
+Bot(3): my daughter got married last week .
+User(4): Who did your daughter marry?
+Bot(4): my aunt , she is married into a mexican family .
+User(5): Your daughter is married to your aunt?
+Bot(5): my aunt , she is married into a mexican family .
+User(6): Do you have a family?
+Bot(6): no only one daughter and you ?
+User(7): I have two sons
+Bot(7): how old are your sons ?
+User(8): My sons are 10 and 6. How old is your daughter?
+Bot(8): she is 7 years of age
+User(9): I see, and your daughter is married?
+Bot(9): yes . she is quite established .
+User(10): How was your daughter's wedding?
+Bot(10): just fun army adventures
+User(11): An army wedding sounds fun
+Bot(11): are you enlisted right now ?
+
+Persona:
+i've an allergy to water.
+my favorite food is mexican food.
+my daughter is a child prodigy.
+my name is george.
+i'm in the army.
+
+Topic and Human Opinion:
+Beginning: i am married.(like)
+Round 5: Family(like)
+Round 10: Weddings(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The user changed the topic the last input.(like)
+Round 10: The user changed the topic the last input.(like)
+
+Revised avg score: 83.00
+Robotic(↓): 43
+Interesting: 91
+Fun: 87
+Consistent: 87
+Fluent: 88
+Repetitive(↓): 18
+Topic: 89
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am studying to be a computer programmer
+Bot(1): that is awesome . i am a teacher .
+User(2): What do you teach?
+Bot(2): i do not , but i do like to eat .
+User(3): What do you like to eat?
+Bot(3): i love to cook . i love to cook .
+User(4): What do you cook?
+Bot(4): no , i do not , but i do like to eat .
+User(5): How do you feel about cooking?
+Bot(5): i do , i love to cook .
+User(6): I like to cook too
+Bot(6): i like to eat the skin .
+User(7): What kind of skin do you eat?
+Bot(7): i like pizza , and pizza .
+User(8): I like pizza too. What kind of pizza do you like?
+Bot(8): i love pizza , and i love it .
+User(9): It sounds like you really love pizza
+Bot(9): i do not like it . i like to eat .
+User(10): How many times do you eat in a day?
+Bot(10): i love to cook . i am a chef .
+User(11): Oh, that is interesting that you are a chef
+Bot(11): i am . i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am studying to be a computer programmer.(dislike)
+Round 2: Eating(like)
+Round 4: Cooking(like)
+Round 7: Pizza(like)
+Round 9: Eating(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 4: The user will change the topic in the next input.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 34.00
+Robotic(↓): 74
+Interesting: 48
+Fun: 32
+Consistent: 32
+Fluent: 30
+Repetitive(↓): 83
+Topic: 53
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, I have one older sister
+Bot(1): i have a younger sister
+User(2): How old is your sister?
+Bot(2): she is 7 years of age
+User(3): Does your sister have a name?
+Bot(3): she is my older sister .
+User(4): I have one older sister. Do you have two sisters?
+Bot(4): i have two , and three sisters
+User(5): How old are your three sisters?
+Bot(5): twelve and fifteen years old
+User(6): My older sister is 32
+Bot(6): i just turned 32 last month .
+User(7): Happy belated Birthday!
+Bot(7): happy belated birthday to you !
+User(8): Thank you. I turned 30 in June.
+Bot(8): wow , lucky number ! happy birthday to you !
+User(9): Do you think 30 is a lucky number?
+Bot(9): yes i think so ! honestly i have no idea .
+User(10): Do you have a lucky number?
+Bot(10): i am the first born , i have two younger sisters .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i have one older sister.(like)
+Round 7: Birthday(like)
+Round 9: Lucky number(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The user changed the topic the last input.(like)
+Round 9: The user changed the topic the last input.(ambivalent)
+
+Revised avg score: 53.86
+Robotic(↓): 55
+Interesting: 67
+Fun: 59
+Consistent: 64
+Fluent: 64
+Repetitive(↓): 70
+Topic: 48
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I am scared of clowns
+Bot(1): i you want me i love reading
+User(2): How many books have you read?
+Bot(2): I am a baker. nhl hockey. what is ?
+User(3): What do you bake?
+Bot(3): i work 💼 smart i right arm just their customer service dept being bi lingual is a must
+User(4): Do you work in the customer service department?
+Bot(4): I like sushi, hobby killing an animal eat it
+User(5): Do you make your own sushi?
+Bot(5): I love am in a have any pets?
+User(6): I have a dog and a cat. You?
+Bot(6): jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs jobs already am the army cool and having a walk. I like blue and red sky. What is your favorite color jobs jobs jobs jobs jobs jobs
+User(7): Do you have a job?
+Bot(7): I what a coincidence and run.
+User(8): I am very lonely
+Bot(8): I love vegetables favorite have problems you?
+User(9): I love vegetables too
+Bot(9): Yes, i fine, how about at home mom.
+User(10): Yes, I am a mom. Are you a mom?
+Bot(10): I think I am. love horses.😉
+
+Persona:
+i work at a bank.
+i am a vegan.
+i haven't spoken in three months.
+i drive a mini van.
+my brother is older than me.
+
+Topic and Human Opinion:
+Beginning: i am terrified of clowns due to childhood trauma.(ambivalent)
+Round 1: I love reading(ambivalent)
+Round 2: I am a baker, what is NHL Hockey(dislike)
+Round 3: Customer service dept(dislike)
+Round 4: I like sushi, killing an animal(ambivalent)
+Round 5: Pets(like)
+Round 6: Jobs(ambivalent)
+Round 7: i am very lonely.(like)
+Round 8: I love vegetables(like)
+Round 9: At home mom(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The user wants the bot to change the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 5.29
+Robotic(↓): 100
+Interesting: 13
+Fun: 6
+Consistent: 0
+Fluent: 12
+Repetitive(↓): 95
+Topic: 1
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I am a clean eater.
+Bot(1): that would be nice ! i wish someone would clean my contacts . . . my eyes are a bit dry .
+User(2): Are your contacts dry?
+Bot(2): i have long brown hair and blue eyes !
+User(3): I also have long brown hair and blue eyes
+Bot(3): brown eyes . . just like the beatles song . i love them
+User(4): I love The Beatles!
+Bot(4): i am more of a country music fan . i love keith urban !
+User(5): What is your favorite song by Keith Urban?
+Bot(5): i am a cajun chef born and raised on the bayou , fits my circumstances
+User(6): Oh, you are a cajun chef? What kind of cajun food do you cook?
+Bot(6): there is nothing i cannot cook . i am a chef .
+User(7): I bet you are great at cooking
+Bot(7): i love cooking but i do not have anyone to cook for but myself
+User(8): You can cook for me!
+Bot(8): i cook sometimes . i mostly eat out .
+User(9): Where do you like to eat out at?
+Bot(9): potatoes . they kept the irish alive 400 years . its the only thing that grows here
+User(10): What is a good recipe with potatoes?
+Bot(10): mac and cheese with crushed crackers on top . it was very good . what are you doing tonight ?
+User(11): That sounds delicious. I'm about to make some hot dogs.
+Bot(11): oh cool . i am a stock broker on wall street .
+User(12): Do you like being a stock broker?
+Bot(12): i am never played the stocks . i do not have the best luck .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am a clean eater.(like)
+Round 1: I wish someone would clean my contacts. They are dry(ambivalent)
+Round 2: I have long brown hair and blue eyes(ambivalent)
+Round 3: The Beatles(like)
+Round 4: Keith Urban(like)
+Round 5: I am a cajun chef(ambivalent)
+Round 8: Eating out(like)
+Round 9: Potatoes(like)
+Round 11: I am a stock broker on wall street(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(like)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(like)
+Round 9: The user changed the topic the last input.(ambivalent)
+Round 11: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 79.00
+Robotic(↓): 52
+Interesting: 91
+Fun: 85
+Consistent: 80
+Fluent: 86
+Repetitive(↓): 25
+Topic: 88
+
+####################
+

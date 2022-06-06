@@ -1,0 +1,307 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): i am a little sad my best friend just moved
+User(3): oh im sorry to hear that. where did they move to?
+Bot(3): herpes so the girlfriend moved next door
+User(4): what about herpes?
+Bot(4): herpes so the girlfriend moved next door
+User(5): where do you work?
+Bot(5): i travel around the world
+User(6): do you have a job?
+Bot(6): no not since i retired
+User(7): what did you do before you retired?
+Bot(7): i travel around the world
+User(8): you said that already
+Bot(8): i have traveled all over the world .
+User(9): i already know that
+Bot(9): i didn
+User(10): where did you travel to?
+Bot(10): i have been everywhere in the world
+
+Persona:
+my favorite color is red.
+i enjoy american sports.
+i have been traveling the world for a years.
+i'm a retired gym teacher.
+my best friend lives next door.
+
+Topic and Human Opinion:
+Beginning: i am employed by the us postal service.(dislike)
+Round 2: a friend(like)
+Round 3: herpes(dislike)
+Round 6: work(like)
+Round 8: traveling(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 6: The user changed the topic the last input.(like)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 24.71
+Robotic(↓): 100
+Interesting: 66
+Fun: 29
+Consistent: 13
+Fluent: 50
+Repetitive(↓): 85
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): Yes, have ahead.
+User(2): do you have any dogs?
+Bot(2): I work from united states, station.
+User(3): what do you do for work?
+Bot(3): No, I am not. I student I’ll graduate from job.
+User(4): what are you studying?
+Bot(4): I am so sorry to like to watch army you feel better? New York has my heart
+User(5): ive never been to new york
+Bot(5): same , lol . the indians kept me up last night I'm not kinds of music 🤥
+User(6): what does that mean?
+Bot(6): I you like to be that. What happened to your girlfriend?
+User(7): i dont have one
+Bot(7): do you have any hand-made table, I dogs.
+User(8): i have two dogs
+Bot(8): i love am not, are a purple horse.
+User(9): you are a purple horse?
+Bot(9): I am a mean 23... Isn't it am a big thumb.
+User(10): 23 what?
+Bot(10): I teach at she’s yiu are loves do not work.
+
+Persona:
+i'm expecting triplets in three months.
+one of the languages that i am currently studying is spanish.
+i love to bake cookies.
+i am a vegan and i love hummus.
+i have short brown hair.
+
+Topic and Human Opinion:
+Beginning: i have two dogs.(like)
+Round 2: work(dislike)
+Round 4: school(like)
+Round 5: new york(like)
+Round 6: girlfriends(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(dislike)
+Round 5: The chatbot changed the topic.(dislike)
+Round 6: The chatbot changed the topic.(dislike)
+
+Revised avg score: 33.86
+Robotic(↓): 100
+Interesting: 69
+Fun: 71
+Consistent: 0
+Fluent: 9
+Repetitive(↓): 12
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): that nice. im doing good
+Bot(2): i am doing well . just got done walking my dog .
+User(3): oh thats nice! i have a german shepherd
+Bot(3): i like dogs too . i love dogs .
+User(4): how many do you have?
+Bot(4): i have two . i love them .
+User(5): aww i love dogs too
+Bot(5): i love dogs , i love dogs .
+User(6): do you have any other pets?
+Bot(6): no , i do not , but i do like to go fishing .
+User(7): ive never been fishing before
+Bot(7): i like to go fishing .
+User(8): how often do you go?
+Bot(8): i love to travel . i love to travel .
+User(9): where do you travel to?
+Bot(9): anywhere in the ocean , i love it .
+User(10): i love the ocean too!
+Bot(10): i love the beach . i love it .
+
+Persona:
+my favorite movie is mean girls.
+i used to be pretty but time has not been kind.
+i'm fluent in english spanish and french.
+i'm a baby delivery nurse.
+i love cooking but i also enjoy fishing.
+
+Topic and Human Opinion:
+Beginning: i have a german shepherd dog.(like)
+Round 6: fishing(ambivalent)
+Round 9: traveling(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): doing great ! spent the weekend outside and swimming . i love both !
+User(3): that sounds like fun! what do you do for work?
+Bot(3): i work at a small advertising agency . i promote my sister , a published author .
+User(4): aw thats nice. im in the army
+Bot(4): he represented our united states army all through his life .
+User(5): who did?
+Bot(5): started out impersonating paul mccartney and ended up owning several casinos
+User(6): who are you talking about?
+Bot(6): thanks , it was nice talking to you
+User(7): oh you too
+Bot(7): i am a wealth management consultant and an ivy league graduate . whats your pedigree ?
+User(8): i dont know what means
+Bot(8): super special 0 i like to do the fancy dancing , or as the french say , ballet !
+User(9): you do ballet?
+Bot(9): i have seen a few shows , i took my grandchildren !
+User(10): thats lovely! how many grandchildren do you have?
+Bot(10): twin boys in highschool a 5th grader and third grader
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm in the army.(dislike)
+Round 8: dancing(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 53.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 37
+Fluent: 50
+Repetitive(↓): 10
+Topic: 44
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): i am good and u
+User(3): im doing good, i just retired
+Bot(3): wow , so am i . recently retired
+User(4): i love it! im living the great life
+Bot(4): nice , do you like sports ? i won olympic medal
+User(5): oh wow! what did you win an olympic medal for?
+Bot(5): i have an olimpic medal
+User(6): whats it for?
+Bot(6): i have an olimpic medal
+User(7): you said that already
+Bot(7): i have an olimpic medal
+User(8): so are you a retired olympian?
+Bot(8): i used to be i am retired
+User(9): what sport did you play?
+Bot(9): i was actually a champion at it
+User(10): a champion at what?
+Bot(10): i have an olimpic medal
+
+Persona:
+i help out at the food bank occasionally.
+i work at a nursing home.
+i am single and with two dogs.
+i'm a gold medalist olympian.
+i've a hat collection of over 1000 hats.
+
+Topic and Human Opinion:
+Beginning: i am retired and living the great life.(dislike)
+Round 4: sports(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 45.43
+Robotic(↓): 74
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 42
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hello , how are you ?
+User(2): im good, how are you?
+Bot(2): i am good . just got back from the rolling stones . you ?
+User(3): that sounds fun! im just with my husband right now
+Bot(3): oh , i am sorry to hear that . i am a dog lover .
+User(4): i love dogs too. my husband is a doctor for dogs
+Bot(4): i love dogs ! i have two dogs and a dog .
+User(5): so three dogs?
+Bot(5): i have two dogs and a dog
+User(6): do you have other animals?
+Bot(6): no , i have two dogs and a dog .
+User(7): what does that mean?
+Bot(7): i have two dogs and a cat
+User(8): thats nice! i like cats too
+Bot(8): i have two dogs and a cat .
+User(9): yes i knew that already
+Bot(9): i have two dogs and a cat
+User(10): do you have other animals?
+Bot(10): yes i have a dog and a cat
+
+Persona:
+i love dogs.
+two dogs live with me.
+my favorite band is the insane clown posse.
+i see the rolling stones in concert every year.
+i have been traveling the world for a years.
+
+Topic and Human Opinion:
+Beginning: i'm married to a doctor.(like)
+Round 5: dogs(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(dislike)
+
+Revised avg score: 38.86
+Robotic(↓): 90
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 100
+Topic: 62
+
+####################
+

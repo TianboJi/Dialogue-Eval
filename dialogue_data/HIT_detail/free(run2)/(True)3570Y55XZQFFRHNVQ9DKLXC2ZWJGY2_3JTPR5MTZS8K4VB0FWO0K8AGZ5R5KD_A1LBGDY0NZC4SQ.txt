@@ -1,0 +1,310 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello
+Bot(1): hello , how are you ?
+User(2): I am good, how are you?
+Bot(2): i am good . just got back from a museum trip .
+User(3): That sounds fun. What type of museum was it?
+Bot(3): it was a pleasure . i was just a kid .
+User(4): That's cool. I have a question
+Bot(4): i am a museum agent . i love to travel .
+User(5): Do you enjoy travelling during Autumn?
+Bot(5): i do . i love it . i love the fall .
+User(6): What is your favorite thing about fall?
+Bot(6): i love it . i love the fall .
+User(7): Do you enjoy the leaves falling?
+Bot(7): i do not . i like to travel .
+User(8): Where do you travel to?
+Bot(8): i travel a lot . i travel a lot .
+User(9): Where is your favorite place to travel?
+Bot(9): i love to travel . i travel a lot .
+User(10): Have you been to Paris?
+Bot(10): i have never been to paris . i have been there for years .
+User(11): That does not make sense.
+Bot(11): i love to travel . i have been to paris a few times .
+User(12): Was it fun?
+Bot(12): i have never been there . i am a museum agent .
+
+Persona:
+i am a vegetarian.
+i've been retired for a years.
+i am a museum tour guide.
+i like to talk but people have a hard time understanding.
+i drive a ford pinto.
+
+Topic and Human Opinion:
+Beginning: Autumn(like)
+Round 7: Travel(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 21.43
+Robotic(↓): 98
+Interesting: 31
+Fun: 18
+Consistent: 16
+Fluent: 39
+Repetitive(↓): 94
+Topic: 38
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): What is your favorite song?
+Bot(2): i like uptown funk . . . whats yours ?
+User(3): If the world was ending by JP Saxe
+Bot(3): hmm , title track says hearts in atlantis
+User(4): Who sings that?
+Bot(4): i do not remember , but it was a funny song
+User(5): Lol, what is your favorite album?
+Bot(5): anything but taylor swift lol
+User(6): I totally agree. She has become way too mainstream
+Bot(6): she is ok , rock is better to be honest
+User(7): What is your favorite rockband?
+Bot(7): megadeath what about your self ?
+User(8): I don't really have one. I love alt and emo
+Bot(8): i love alternative rock the best
+User(9): Who's your favorite alt rock artist?
+Bot(9): slipknot . i want to visit the pyramids
+User(10): Is that a song by them?
+Bot(10): yes they are a rock group . they sing some really inspiring music
+User(11): I may have to listen to them sometime. Any other artists you would recommend?
+Bot(11): anything but taylor swift lol
+User(12): Anyone specific you would recommend?
+Bot(12): anything but taylor swift lol
+User(13): Do you like taylor swift?
+Bot(13): she is ok , rock is better to be honest
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.71
+Robotic(↓): 41
+Interesting: 63
+Fun: 71
+Consistent: 52
+Fluent: 60
+Repetitive(↓): 71
+Topic: 98
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): What is your favorite food?
+Bot(2): pizza . what is your favorite food ?
+User(3): Asian foods.
+Bot(3): but eating snake meat is an aphrodisiac in some country lets try it .
+User(4): No thank you.
+Bot(4): i am really busy lately , but managing the restaurant with my brothers is great !
+User(5): You manage a restaurant?
+Bot(5): an italian restaurant my dad owns . he was a cop , but now he is a restaurant owner
+User(6): That's cool. What is the restaurant called?
+Bot(6): what is your favorite restaurant
+User(7): Thai Spice.
+Bot(7): funny you should ask for pumpkin spice , orange is my fave color lol
+User(8): you're being random
+Bot(8): yeah . it is random ? i feel like it is normal
+User(9): What is your restaurant called?`
+Bot(9): an italian restaurant my dad owns . he was a cop , but now he is a restaurant owner
+User(10): What is it called?
+Bot(10): it is call veggie and fish . i eat fish but no red meat
+User(11): Is that for religious reasons?
+Bot(11): if you count going to church on holidays as religious . you ?
+User(12): no
+Bot(12): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(13): Do you like school?
+Bot(13): i would like to go into acting . rober denaro is my inspiration .
+User(14): That's cool. Are you into theatre?
+Bot(14): ahh i agree . some soccer players are amazing actors when it comes to conveying pain
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+Round 12: religion(dislike)
+Round 12: school(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 12: The chatbot changed the topic.(ambivalent)
+Round 12: The chatbot changed the topic.(dislike)
+
+Revised avg score: 44.71
+Robotic(↓): 54
+Interesting: 52
+Fun: 53
+Consistent: 33
+Fluent: 21
+Repetitive(↓): 21
+Topic: 29
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): oh ! yep it to work in there you’re for you .. Also, try to guess: i love listening ...
+User(2): what?
+Bot(2): Yes i have. say did you it ?
+User(3): do you like kids?
+Bot(3): Hi, Nisha, I absolutely right. Russian took ballet.
+User(4): you make no sense
+Bot(4): i is athletic
+User(5): What sports do you play?
+Bot(5): My bf brand of your lot
+User(6): what?
+Bot(6): i live in ca get married in the from ?
+User(7): You are engaged?
+Bot(7): i will probably go home and read. that what is tge i live with ...
+User(8): You enjoy reading?
+Bot(8): I like to listen to volunteer at the am not working.
+User(9): Where do you volunteer
+Bot(9): I don't go, get favorite.
+User(10): cool
+Bot(10): I like can help love on my own.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Kids(ambivalent)
+Round 4: Athletics(like)
+Round 6: Relationships(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 11.57
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 19
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hey
+User(2): Do you like coffee?
+Bot(2): yes
+User(3): Do you add sugar to your coffee?
+Bot(3): no , me i have coffee daily
+User(4): With cream?
+Bot(4): i always have them i hate sugar
+User(5): I love sugar and cream in my coffee
+Bot(5): i prefer vanilla myself .
+User(6): I bet that is delicious.
+Bot(6): yes , ice cold and pleasantly delicious
+User(7): Do you own a keurig?
+Bot(7): yes that is my favorite with coffee as a drink .
+User(8): What do you think about Starbucks?
+Bot(8): yeah it is starbucks it is not so bad
+User(9): There's this place I like called Scooters. It's the cutest little shop. Their coffee and baked goods are amazing.
+Bot(9): i hear they have great coffee , and i love that
+User(10): We should go sometime!
+Bot(10): i would love to ! let me know the date .
+User(11): How about tomorrow? What time works for you?
+Bot(11): it is 3 46 , i have a late schedule . what time is it there ?
+User(12): Right now it is 12:53 AM
+Bot(12): it is 3 46 , i have a late schedule . what time is it there ?
+User(13): 12 56
+Bot(13): 10 22 now . gotta work tomorrow ?
+User(14): Yes, I do. What about you?
+Bot(14): 10 22 now . gotta work tomorrow ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Coffee(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 77.57
+Robotic(↓): 34
+Interesting: 80
+Fun: 91
+Consistent: 61
+Fluent: 80
+Repetitive(↓): 29
+Topic: 94
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hi
+Bot(1): i love to cook . i love to cook .
+User(2): I like to cook too
+Bot(2): i like to eat the skin .
+User(3): Are you a cannibal?
+Bot(3): no , i like to go to the gym .
+User(4): I have a gym in my house
+Bot(4): i love to cook . i love to cook .
+User(5): What do you like to cook?
+Bot(5): i do , i love to cook .
+User(6): What is your favorite recipe?
+Bot(6): i like the color red . i like the color blue .
+User(7): What is your favorite color?
+Bot(7): i like blue , i like blue .
+User(8): Cool. I like green
+Bot(8): i like the color red . i like red .
+User(9): Pick your favorite
+Bot(9): i like to go to the gym and listen to music .
+User(10): I love listening to music
+Bot(10): i like to listen to music .
+User(11): What is your favorite song?
+Bot(11): i like the color red . i like the color blue .
+
+Persona:
+i am currently in high school.
+i like to ride horses.
+i'm a plumber.
+i waitress during the day to supplement my income.
+i enjoy working with my hands and love gardening.
+
+Topic and Human Opinion:
+Beginning: Love(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.57
+Robotic(↓): 100
+Interesting: 24
+Fun: 0
+Consistent: 0
+Fluent: 45
+Repetitive(↓): 99
+Topic: 25
+
+####################
+

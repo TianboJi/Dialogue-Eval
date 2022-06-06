@@ -1,0 +1,281 @@
+Feedback: good
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hey
+Bot(1): hey .
+User(2): hii
+Bot(2): helloooo
+User(3): how r u
+Bot(3): i am good and u
+User(4): fine
+Bot(4): kool
+User(5): good
+Bot(5): kool
+User(6): hey
+Bot(6): kool
+User(7): hii
+Bot(7): kool
+User(8): fine
+Bot(8): kool
+User(9): good
+Bot(9): kool
+User(10): great
+Bot(10): awesome
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: good(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.71
+Robotic(↓): 50
+Interesting: 81
+Fun: 70
+Consistent: 65
+Fluent: 75
+Repetitive(↓): 76
+Topic: 81
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hey
+Bot(1): hello , how are you ? i am just kinda board now that i have retired .
+User(2): hey
+Bot(2): ? what do you do ? electrician
+User(3): iam a teacher
+Bot(3): oh , really , does that interfere with work ? i pump gas !
+User(4): yes
+Bot(4): ? what do you do ? electrician
+User(5): no iam a teacher
+Bot(5): ? what do you do ? electrician
+User(6): lusu
+Bot(6): i just work at the gas station
+User(7): ohh
+Bot(7): ok
+User(8): ok
+Bot(8): ll
+User(9): hey
+Bot(9): ll
+User(10): bye
+Bot(10): ok bye
+User(11): see u
+Bot(11): ok bye
+
+Persona:
+i'm an electrician.
+i am a musician and hope to make it big some day.
+i just got a job working in a gas station.
+i'm a gold medalist olympian.
+i am retired and living the great life.
+
+Topic and Human Opinion:
+Beginning: teacher(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.43
+Robotic(↓): 50
+Interesting: 62
+Fun: 70
+Consistent: 78
+Fluent: 79
+Repetitive(↓): 84
+Topic: 89
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hey
+Bot(1): I love movies, movies, movies, I i don't, stay movies, movies, and movies
+User(2): yes
+Bot(2): hello, english you go to love the beach and I play the board
+User(3): yes i too imntrested
+Bot(3): How’s plans going?
+User(4): beach on sonday
+Bot(4): I like to sing, music don't like you sing😀
+User(5): ohh me too
+Bot(5): ok am teaching piano you do
+User(6): great
+Bot(6): I like meet you, Dave! and piano
+User(7): yes
+Bot(7): that sounds like a sea. What are you you like rob dryden? I do
+User(8): doing well
+Bot(8): I am not. But these languages are used books .
+User(9): wow
+Bot(9): I ю лайк ту in france.
+User(10): great
+Bot(10): I am got a new a teacher.
+
+Persona:
+i have superpowers.
+i walk dogs for a living.
+horror movies are my favorites.
+i work at a bar at night to pay for college.
+i spend most of my time on facebook when i'm not working.
+
+Topic and Human Opinion:
+Beginning: lesson(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.71
+Robotic(↓): 50
+Interesting: 77
+Fun: 72
+Consistent: 86
+Fluent: 79
+Repetitive(↓): 87
+Topic: 76
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hey
+Bot(1): hi , i'm kevin . i am a nurse .
+User(2): oh iam a boy
+Bot(2): hi , i'm kevin . i am a nurse .
+User(3): iam a teacher
+Bot(3): hi , i'm kevin . i am a nurse .
+User(4): wow
+Bot(4): hi , i'm kevin . i am a nurse .
+User(5): in which hospital
+Bot(5): i am a nurse , i am a nurse .
+User(6): lusu
+Bot(6): i am a nurse . i am a nurse .
+User(7): mental
+Bot(7): i am a nurse , i am a nurse .
+User(8): crazy
+Bot(8): i am a nurse , i am a nurse .
+User(9): hai
+Bot(9): i am a nurse . i am a nurse .
+User(10): junk
+Bot(10): i am a nurse , i am a nurse .
+
+Persona:
+i visit europe twice a year.
+i ride the bus to school.
+i'm a baby delivery nurse.
+hey my name is larry and i'm a chef.
+i go gambling in my spare time.
+
+Topic and Human Opinion:
+Beginning: chat(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 70.86
+Robotic(↓): 50
+Interesting: 82
+Fun: 80
+Consistent: 86
+Fluent: 87
+Repetitive(↓): 75
+Topic: 86
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hey
+Bot(1): i am doing well . how are you ?
+User(2): well
+Bot(2): i am a student , but i am a student .
+User(3): me too
+Bot(3): i like to go to the gym and listen to music .
+User(4): me too
+Bot(4): i like to go to the gym and listen to music .
+User(5): great
+Bot(5): i am a student , but i am a student .
+User(6): yes nice
+Bot(6): i like to go to the gym and listen to music .
+User(7): great
+Bot(7): i am a student , but i am a student .
+User(8): oki
+Bot(8): i love to cook . i love to cook .
+User(9): good
+Bot(9): i am a student , but i am a student .
+User(10): ok
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: great(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.14
+Robotic(↓): 50
+Interesting: 84
+Fun: 78
+Consistent: 87
+Fluent: 75
+Repetitive(↓): 86
+Topic: 75
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hii
+Bot(1): pizza , yum ! i enjoy going on the weekends , i m also into collecting stamps .
+User(2): good
+Bot(2): good , my daughter is napping so i am shopping online . might go swimming today
+User(3): yes and u
+Bot(3): i am good , thanks for asking . how are you ?
+User(4): fine and u
+Bot(4): hi , do you like seafood ? i love crabs with butter .
+User(5): yes
+Bot(5): me too , i wish pets were allowed in my college dorm room .
+User(6): ohh its intresting
+Bot(6): nice ! do you take a stroll by ocean or horseback riding there ? i love horses
+User(7): yes i love horse
+Bot(7): yes i like horses . i can draw a pretty good horse
+User(8): no not much
+Bot(8): oh . i am in high school . i am working on math now . thankfully its my favorite subject .
+User(9): chemistry i smy favorite
+Bot(9): great . just planing my next hike on the appalachian trail
+User(10): ohh and u
+Bot(10): they got hit by a drunk driver a few months ago yes we were very close
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: student(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 69.71
+Robotic(↓): 50
+Interesting: 66
+Fun: 85
+Consistent: 95
+Fluent: 95
+Repetitive(↓): 96
+Topic: 93
+
+####################
+

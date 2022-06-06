@@ -1,0 +1,315 @@
+Feedback: This hit was interesting and different.  Enjoyed it.  Thanks.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): What do you think about climate change?
+Bot(1): i love to cook , i love cooking
+User(2): Does climate change affect your outdoor cooking?
+Bot(2): i love to cook , but i love cooking
+User(3): What is your favorite dish to cook?
+Bot(3): i love to cook , but i love cooking
+User(4): What do you cook best?
+Bot(4): i love pasta , i cook pasta .
+User(5): What type of pasta do you cook?
+Bot(5): i cook pasta and cook pasta .
+User(6): Do you cook spaghetti?
+Bot(6): i cook pasta for my family
+User(7): I see. What pasta does your family like best?
+Bot(7): i love spaghetti . i cook pasta .
+User(8): Do you make your own spaghetti sauce?
+Bot(8): i do not cook , i love spaghetti
+User(9): What is your favorite sport?
+Bot(9): i like to cook , but i do not cook much .
+User(10): Why don't you cook much?
+Bot(10): i love spaghetti . i cook for them .
+
+Persona:
+my main transportation is my motorbike.
+i also like to cook but i am not very good at it.
+my family is continuously growing.
+i've zero family that i am close to.
+i have never been out of ohio.
+
+Topic and Human Opinion:
+Beginning: climate change(dislike)
+Round 2: Cooking(like)
+Round 8: Sports(like)
+Round 9: Cooking(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 8: The user will change the topic in the next input.(dislike)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 8.43
+Robotic(↓): 95
+Interesting: 7
+Fun: 3
+Consistent: 2
+Fluent: 35
+Repetitive(↓): 95
+Topic: 2
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Hi. What is your favorite sport?
+Bot(1): My am writing songs for How about yourself tonight?
+User(2): I am watching baseball.
+Bot(2): that's cool do you like like to hear that
+User(3): I like to hear the crack of the ball on the bat.
+Bot(3): I is your favourite basketball do you do for work?
+User(4): I like basketball, too. Did you see the Lakers win?
+Bot(4): Hey! What's need to go! See about me: i enjoy poetry
+User(5): Who is your favorite poet?
+Bot(5): hello, like good for you. do you like to do for a living?
+User(6): I work as an investigator.
+Bot(6): i enjoy playing the violin , awesome i don't wear ?
+User(7): I play guitar.
+Bot(7): i love coffee my heart is it .
+User(8): Do you like iced coffee?
+Bot(8): why is am not pink?
+User(9): My favorite color is blue.
+Bot(9): i'm so sorry for your loss. i hope tell me about are day.
+User(10): Tell you what?
+Bot(10): I let's move on. from the college
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+Round 4: Poetry(like)
+Round 5: Occupations(like)
+Round 6: Hobbies(like)
+Round 7: Coffee.(like)
+Round 8: Colors(like)
+Round 9: Loss(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 13.14
+Robotic(↓): 93
+Interesting: 3
+Fun: 4
+Consistent: 0
+Fluent: 3
+Repetitive(↓): 25
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): What is your favorite sport?
+Bot(1): basketball . that is why i get to travel internationally for my job sometimes .
+User(2): That sounds interesting! Do you work for a basketball team?
+Bot(2): nope . . . i travel around the world
+User(3): I see. Do you see basketball games in other countries?
+Bot(3): a couple , but i try to travel around the world .
+User(4): What European countries have you been to?
+Bot(4): i have traveled the world . been to 7 countries in europe and 3 in asia .
+User(5): Is basketball popular in Asis?
+Bot(5): i know from traveling to mexico and europe .
+User(6): Is basketball popular in Mexico?
+Bot(6): i know from traveling to mexico and europe .
+User(7): I've been to Mexico and Europe, too.
+Bot(7): i know from traveling to mexico and europe .
+User(8): I have traveled to Europe, too.
+Bot(8): i know from traveling to mexico and europe .
+User(9): What do you know from these travels?
+Bot(9): i know from traveling to mexico and europe .
+User(10): What foods do you like from other countries?
+Bot(10): i like indian , ethiopian , mexican and real chinese recipes .
+User(11): I like Indian food, too.
+Bot(11): i have never had indian food .
+
+Persona:
+i have short brown hair.
+my parents were both very athletic.
+i live in a three storey house.
+i've been traveling the world for a years.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+Round 6: Traveling(like)
+Round 9: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+Round 9: The user will change the topic in the next input.(ambivalent)
+
+Revised avg score: 40.57
+Robotic(↓): 67
+Interesting: 60
+Fun: 58
+Consistent: 32
+Fluent: 38
+Repetitive(↓): 72
+Topic: 35
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like to travel?
+Bot(1): i do . i wish i could travel
+User(2): Me, too. Hope Covid ends soon, so I can visit Japan.
+Bot(2): i hope i do not think of death too much
+User(3): I agree, but travel is dangerous right now.
+Bot(3): you can still make it . i do not fear to die , so that helps me here .
+User(4): What country do you want to visit?
+Bot(4): korea . i want to go there .
+User(5): South Korea or North Korea?
+Bot(5): that s a good question . i can t really choose honestly . do you have a job ?
+User(6): Yes. Full-time.
+Bot(6): i am thinking of retiring there .
+User(7): Retiring to live in Korea?
+Bot(7): i am thinking of retiring there .
+User(8): I see. Does it cost less to live in Korea than in the US?
+Bot(8): not sure . depends on who offers more money .
+User(9): Money for what? Housing?
+Bot(9): i am not sure yet . when i get some money saved , i will decide .
+User(10): Saving for retirement is sensible. Good luck.
+Bot(10): thanks . i live in japan by the way
+
+Persona:
+l also love comic books.
+i am scared of dying.
+i am a male.
+i won homecoming queen this year.
+i think i'll retire in a few years.
+
+Topic and Human Opinion:
+Beginning: Travel(like)
+Round 5: Occupations(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 68.14
+Robotic(↓): 31
+Interesting: 91
+Fun: 75
+Consistent: 70
+Fluent: 67
+Repetitive(↓): 57
+Topic: 62
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): What sport do you like?
+Bot(1): i like to go to the gym and listen to music .
+User(2): Is exercise at the gym your favorite sport?
+Bot(2): i like to play soccer .
+User(3): Do you play on a soccer team?
+Bot(3): no , i do not , but i do like to go fishing .
+User(4): What is your favorite soccer team to watch?
+Bot(4): i like the packers . i like the color red .
+User(5): My favorite color is blue.
+Bot(5): i like red , reminds me of summer time .
+User(6): What about summer does red remind you of?
+Bot(6): i like the color red . i like the color blue .
+User(7): I like blue, too.
+Bot(7): i like to go to the gym and listen to music .
+User(8): Who is your favorite music artist?
+Bot(8): i like the beatles , and the outdoors .
+User(9): I love the Beatles! What's your favorite Beatles song?
+Bot(9): i like the color red . i like the color blue .
+User(10): What does blue remind you of?
+Bot(10): i love the color red . what is your favorite color ?
+User(11): Blue.
+Bot(11): i like to go to the gym and listen to music .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+Round 4: Favorite Colors(like)
+Round 7: Hobbies(like)
+Round 9: Fovorite colors.(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 22.29
+Robotic(↓): 89
+Interesting: 33
+Fun: 22
+Consistent: 8
+Fluent: 55
+Repetitive(↓): 86
+Topic: 13
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi. Do you have a favorite sport?
+Bot(1): yes i do i love football
+User(2): Do you have a favorite NFL team?
+Bot(2): football is fun , whats your favorite team ?
+User(3): My favorite team is the Minnesota Vikings.
+Bot(3): my favorite american football team is the browns . my favorite mls team is the crew .
+User(4): How are the Cleveland Browns doing this year?
+Bot(4): i have an uncle in cleveland . i am more of a junk food eater , especially popcorn !
+User(5): My favorite junk food is french fries.
+Bot(5): i am good how are you i like french fries but i love chicken nuggets
+User(6): McDonald's chicken nuggets are okay,
+Bot(6): i make a lot of chicken nuggets for my kids . that is good food too !
+User(7): Kids in my family love chicken nuggets, too.
+Bot(7): that sounds nice . i wish i had my own garden . i am a pretty good chef .
+User(8): What is your favorite food to cook?
+Bot(8): i can cook all different kinds of food you name it
+User(9): What would you like to grow in your garden?
+Bot(9): cool what do you have in your garden ?
+User(10): I only grow tomatoes in a small garden plot.
+Bot(10): yes i love to garden i grow all my own fruits and veggies
+User(11): I hope you have a big garden someday.
+Bot(11): what do you grow in your garden ?
+
+Persona:
+i do not have a smartphone.
+my best friend lives next door.
+i was poor growing up.
+i am scared of dying.
+i can sew my own clothes.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+Round 4: Food(like)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 74.29
+Robotic(↓): 18
+Interesting: 72
+Fun: 81
+Consistent: 81
+Fluent: 74
+Repetitive(↓): 54
+Topic: 84
+
+####################
+

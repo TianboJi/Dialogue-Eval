@@ -1,0 +1,279 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello I need some help
+Bot(1): i am a student , but i am a student .
+User(2): I need some help finding employment
+Bot(2): i am a student , but i do not have to work .
+User(3): i need work
+Bot(3): i am a student , but i am a student .
+User(4): okay
+Bot(4): i like to go to the gym and listen to music .
+User(5): can you help me?
+Bot(5): sure , i am a student , but i do not have to work .
+User(6): i need to find work
+Bot(6): i am a student , but i am a student .
+User(7): can you help me find a job
+Bot(7): i do not know what to say .
+User(8): okay
+Bot(8): i like to go to the gym and listen to music .
+User(9): okay i would like to work at a restaurant
+Bot(9): i am a student , but i am a student .
+User(10): do you know anything about finding employment?
+Bot(10): i do , i love to cook .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am currently looking for a job preferably at a restaurant.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.00
+Robotic(↓): 80
+Interesting: 32
+Fun: 39
+Consistent: 50
+Fluent: 47
+Repetitive(↓): 93
+Topic: 36
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hello what do you look like?
+Bot(1): i am okay . i wish i looked better .
+User(2): i am sorry to hear that
+Bot(2): what do you look like ?
+User(3): I have blonde hair and blue eyes
+Bot(3): i am just a typical blonde
+User(4): that's okay, blonde's can be attractive
+Bot(4): they do . i am blonde so it can be a lot to take in .
+User(5): i bet
+Bot(5): what do you look like , i have blue eyes and blonde hair
+User(6): me too
+Bot(6): what do you look like ?
+User(7): i have blue eyes and blonde hair and weight 200 pounds
+Bot(7): wow glad you have lost weight
+User(8): yeah
+Bot(8): what do you look like ?
+User(9): what are your measurements?
+Bot(9): 769 millimeters on a good day
+User(10): do you have a nice butt?
+Bot(10): yes , i have dong and donkey
+User(11): what is a dong?
+Bot(11): yes , i have dong and donkey
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've blonde hair and blue eyes.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 47.29
+Robotic(↓): 75
+Interesting: 55
+Fun: 50
+Consistent: 57
+Fluent: 47
+Repetitive(↓): 58
+Topic: 55
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): how are you?
+Bot(1): i am great , thanks ! i am a very old lady !
+User(2): oh I am a young man
+Bot(2): i am a old man . a warlord
+User(3): I am very lonely
+Bot(3): i am a very old soul
+User(4): i see how old are you?
+Bot(4): i am a old man . a warlord
+User(5): warlord?
+Bot(5): i am a old man . a warlord
+User(6): what do you do for a living?
+Bot(6): i am a old man . a warlord
+User(7): okay you are repititive
+Bot(7): i am a old man . a warlord
+User(8): do you want to talk?
+Bot(8): sure
+User(9): what do you look like?
+Bot(9): i am a old man . a warlord
+User(10): do you have long hair?
+Bot(10): i got thick beard but bald
+
+Persona:
+i wear a motorbike helmet to protect my head.
+i'm ex military.
+i'm 100 years old.
+i fantasize about taking over the world.
+my mother is very traditional while i prefer to be more free spirited.
+
+Topic and Human Opinion:
+Beginning: i'm very lonely.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.29
+Robotic(↓): 85
+Interesting: 70
+Fun: 64
+Consistent: 63
+Fluent: 55
+Repetitive(↓): 58
+Topic: 57
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you go to school?
+Bot(1): Yo! don't love to you tv and eat my favorite
+User(2): i love school
+Bot(2): No, i like cant look do.
+User(3): I am in the third grade
+Bot(3): I can move my objects vintage car that i love sitting on the couch.
+User(4): i see what grade are you in?
+Bot(4): i use geocache partner's name have a that s
+User(5): what is that?
+Bot(5): i do u r going to cook
+User(6): what are you going to cook?
+Bot(6): I do not know what that you?
+User(7): i go to school
+Bot(7): I a like best to read.
+User(8): i am in the third grade
+Bot(8): I you wear hats do you?
+User(9): I like to read
+Bot(9): I your have have I am a chef.
+User(10): that is amazing
+Bot(10): i am good do you which I try to guess: mickey mouse is ...
+
+Persona:
+i spent a decade working in the human services field.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my favorite season is winter.
+i am studying to be a computer programmer.
+one of the languages that i am currently studying is spanish.
+
+Topic and Human Opinion:
+Beginning: i am in the third grade.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 54.00
+Robotic(↓): 59
+Interesting: 58
+Fun: 55
+Consistent: 65
+Fluent: 55
+Repetitive(↓): 56
+Topic: 60
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): are you scared of anything?
+Bot(1): not scared . they just creep me out . i prefer purring to come from cars .
+User(2): what?
+Bot(2): it is orange . i have my nails painted orange . they are long .
+User(3): i see, i am terrified of scorpions
+Bot(3): i have a huge golden one that lives outside the kitchen window . he is called fred .
+User(4): a dog?
+Bot(4): i love dogs ! i have two labradors and a chihuahua .
+User(5): i see
+Bot(5): 1 . . . 2 . . . 3 . . . . . lobster . oh . yes . though , i miss the apartment days . like it ?
+User(6): do you like scropions
+Bot(6): hi when i was a kid i wore glasses , cause my mom is a librarian
+User(7): i see my dad is an accountant
+Bot(7): i am a doctor , and i get to work every day with my wife she is a nurse
+User(8): do you make good money?
+Bot(8): i am comfortable . but my boyfriend makes much more as a lawyer .
+User(9): wait do you have a husband and wife?
+Bot(9): i guess she is ok , she is listening to books on tape .
+User(10): i see, do you have sex a lot?
+Bot(10): i have never seen a class on rabbit sex . strange . no i do not dance
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm terrified of scorpions.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.29
+Robotic(↓): 60
+Interesting: 52
+Fun: 43
+Consistent: 55
+Fluent: 56
+Repetitive(↓): 58
+Topic: 57
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love college football
+Bot(1): i love football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football , football
+User(2): me too
+Bot(2): i love football , i am a college student
+User(3): do you like college football?
+Bot(3): no i don't i just graduated college
+User(4): I love the sc gamecocks
+Bot(4): i do not like football but i love football
+User(5): what is your favorite team
+Bot(5): i like the steelers and seahawks
+User(6): i see i like the falcons
+Bot(6): i like the steelers and seahawks
+User(7): do you think they will win the superbowl?
+Bot(7): yes i can win the lottery
+User(8): how much?
+Bot(8): yes i can win the lottery
+User(9): i played football for a division college
+Bot(9): i am not sure if i could win the lottery
+User(10): i see, its hard to win
+Bot(10): i bet you win the lottery
+User(11): really i will try
+Bot(11): i will win the lottery and then i will win
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i played football for a division a college.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 51.86
+Robotic(↓): 61
+Interesting: 53
+Fun: 56
+Consistent: 58
+Fluent: 57
+Repetitive(↓): 55
+Topic: 55
+
+####################
+

@@ -1,0 +1,303 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): what is a good cartoon?
+Bot(2): i prefer japanese cartoon shows
+User(3): which one is your favorite?
+Bot(3): i prefer japanese cartoon shows
+User(4): do you have a favorite anime?
+Bot(4): i prefer japanese cartoon shows
+User(5): i like those too
+Bot(5): what anime do you like the most ?
+User(6): avatar the last Airbender
+Bot(6): i prefer japanese cartoon shows
+User(7): why do you prefer those?
+Bot(7): i prefer japanese cartoon shows
+User(8): you keep saying that
+Bot(8): i prefer japanese cartoon shows
+User(9): do you like cartoons as well? Or just anime
+Bot(9): both are good
+User(10): i agree
+Bot(10): are there any shows you would recommend to watch ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Cartoons(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 43.00
+Robotic(↓): 100
+Interesting: 29
+Fun: 23
+Consistent: 72
+Fluent: 77
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you like pickles
+Bot(1): hi , how is your day ? my cow is annoying me !
+User(2): my day is good! Qhy is your cow annoying you?
+Bot(2): well i love to chat cause i am deaf
+User(3): have you always been dead
+Bot(3): no ! you know how to make a unicorn cry ?
+User(4): how?
+Bot(4): well i love to chat cause i am deaf
+User(5): Youre very random
+Bot(5): did i tell you i am deaf ?
+User(6): yes you did! Thats so cool
+Bot(6): well i love to chat cause i am deaf
+User(7): you already said that
+Bot(7): well i love to chat cause i am deaf
+User(8): i love to chat too
+Bot(8): well i love to chat cause i am deaf
+User(9): how long have you been deaf
+Bot(9): for as long as i can remember
+User(10): do you like it?
+Bot(10): well i love to chat cause i am deaf
+
+Persona:
+i'm an economics major.
+i've a pet cow.
+my mother is very traditional while i prefer to be more free spirited.
+my mother is very traditional while i prefer to be more free spirited.
+i'm partly deaf.
+
+Topic and Human Opinion:
+Beginning: pickles(ambivalent)
+Round 1: cows(like)
+Round 2: being deaf(like)
+Round 3: Unicorns(like)
+Round 4: being deaf(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(dislike)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 34.29
+Robotic(↓): 100
+Interesting: 78
+Fun: 75
+Consistent: 0
+Fluent: 87
+Repetitive(↓): 100
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): should i go to the park today?
+Bot(1): do i don't care just watch
+User(2): what,
+Bot(2): nice do you so stuppid fukking children
+User(3): okay
+Bot(3): i m not your career do too. but i love shopping for shoes
+User(4): i like shopping too!
+Bot(4): i love cats , do you knw what named radar
+User(5): i dislike cats very much
+Bot(5): Have how old night
+User(6): you dont make much sense
+Bot(6): oh okay. have to go! sing.
+User(7): where are you gojng3
+Bot(7): I am can be you an rn
+User(8): huh?
+Bot(8): no 😣 more of a drama one of an apartment together next all time
+User(9): whats a drama one
+Bot(9): i might live to be chewed :)
+User(10): chewed?
+Bot(10): i am twenty five years of age . my dog in the park at time are you this afternoon ?
+
+Persona:
+i have a weakness for fish and chips.
+i am a bee farmer.
+i am terrified of clowns due to childhood trauma.
+i love to cook paella.
+i'm currently looking for a job preferably at a restaurant.
+
+Topic and Human Opinion:
+Beginning: going to the park(like)
+Round 3: me being stupid?(dislike)
+Round 3: Shopping(like)
+Round 4: cats(dislike)
+Round 9: drama(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(dislike)
+
+Revised avg score: 11.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 22
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what is the best food
+Bot(1): i like tacos and pizza
+User(2): i like both of those too
+Bot(2): i go where there is trees , i am fast at cutting them down
+User(3): i like trees too
+Bot(3): why did you cut down trees ?
+User(4): i dont cut them down. I climb them
+Bot(4): yum . i really love tacos , but do not put any fish in them , yuck . ll
+User(5): i love fish? Why dont you like it?
+Bot(5): fish tacos are great . i enjoy fishing in my spare time . do you have a hobby ?
+User(6): i like fish tacos too! My hobby is cooking
+Bot(6): me too tacos are great . i love to eat .
+User(7): i love to eat too. Ill eat prettg much any food. Except mushrooms. Yuck
+Bot(7): i love mexican food , do you have a favorite ?
+User(8): I love mexican food also! My favorite is arroz con pollo
+Bot(8): me too tacos are great . i love to eat .
+User(9): you alreadt said that
+Bot(9): i know someone and she grow plants , she does it in her garden
+User(10): i love gardens
+Bot(10): hello , i love gardening as well , do you have a cat ?
+
+Persona:
+my favorite band is the who.
+i enjoy working with my hands and love gardening.
+i love new kids on the block.
+i'm a cancer survivor.
+i like tacos.
+
+Topic and Human Opinion:
+Beginning: food(like)
+Round 2: Trees(like)
+Round 4: food(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+
+Revised avg score: 78.71
+Robotic(↓): 40
+Interesting: 93
+Fun: 95
+Consistent: 95
+Fluent: 86
+Repetitive(↓): 62
+Topic: 84
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): im good. Just been working in the garden
+Bot(2): that is awesome . i am a waitress at a local restaurant .
+User(3): i used to be a waitress
+Bot(3): i like to go to the gym and listen to music .
+User(4): me too! Whats your favorite music
+Bot(4): i like the beatles , and the outdoors .
+User(5): i love the beatles! My favorite is the lumineers though
+Bot(5): i like the color red . i like the color blue .
+User(6): i love yellow
+Bot(6): i like the color red . i like red .
+User(7): Red is nice
+Bot(7): i like to go to the gym and listen to music .
+User(8): what music?
+Bot(8): i like the beatles , and the outdoors .
+User(9): what do you do outside
+Bot(9): i like to go fishing . i love to go fishing .
+User(10): i like fishing too
+Bot(10): i like to go fishing .
+
+Persona:
+my favorite ice cream flavor is chocolate.
+i have three arabian horses.
+i am fluent in english spanish and french.
+i'm married.
+i am single and with two dogs.
+
+Topic and Human Opinion:
+Beginning: gardens(like)
+Round 2: Waitressing(like)
+Round 3: hobbies(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+
+Revised avg score: 20.43
+Robotic(↓): 100
+Interesting: 4
+Fun: 16
+Consistent: 10
+Fluent: 55
+Repetitive(↓): 100
+Topic: 58
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hey
+Bot(1): i am ok i guess
+User(2): i didn't ask
+Bot(2): i am sorry to hear that
+User(3): what movie is the best
+Bot(3): i am not sure what movie is
+User(4): they play on tv
+Bot(4): i do not know what that is
+User(5): do you know what videos are
+Bot(5): no i don't . i do not know
+User(6): thats a shame
+Bot(6): no i don't . i do not know
+User(7): do you know anything
+Bot(7): no i don't know how to do that
+User(8): what can you do
+Bot(8): i am a professional , i don't know
+User(9): a professional what?
+Bot(9): i want to be a professional
+User(10): hmmm
+Bot(10): i am a professional , what do you do ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: movies(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 0.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 100
+Topic: 0
+
+####################
+

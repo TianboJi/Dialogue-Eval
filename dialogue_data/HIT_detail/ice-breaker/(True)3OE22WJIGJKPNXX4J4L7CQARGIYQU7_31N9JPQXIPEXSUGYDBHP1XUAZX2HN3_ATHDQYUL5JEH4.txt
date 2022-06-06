@@ -1,0 +1,277 @@
+Feedback: None
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): HI
+Bot(1): hey
+User(2): how are you
+Bot(2): good thanks . tell me about yourself
+User(3): i'm very lonely. what about you
+Bot(3): i am very sad and lonely
+User(4): why is that
+Bot(4): i am very sad and lonely
+User(5): be cheerful i am there for you
+Bot(5): i jut adore kind people
+User(6): even you are kind
+Bot(6): i jut adore kind people
+User(7): how do you feel now
+Bot(7): just very sad right now
+User(8): smile
+Bot(8): people tell me they love when i smile
+User(9): yes that's true
+Bot(9): i am sad like always
+User(10): you shouldn't be
+Bot(10): i am sad like always
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm very lonely.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.14
+Robotic(↓): 69
+Interesting: 67
+Fun: 71
+Consistent: 70
+Fluent: 86
+Repetitive(↓): 80
+Topic: 69
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): just got done with my part time job at the gas station .
+User(2): i have been working since i was sixteen years old.
+Bot(2): where do you work ? i work as a cashier at a gas station
+User(3): i work in a store
+Bot(3): i can get better job opportunities than my gas station gig there too .
+User(4): yes
+Bot(4): that is when i work at the gas station
+User(5): how much do you get
+Bot(5): right now i am making 20 cents a hour .
+User(6): that is really low pay
+Bot(6): its at the gas station an i hate it
+User(7): why don't you change your job
+Bot(7): its at the gas station an i hate it
+User(8): what do you do
+Bot(8): i just work at the gas station
+User(9): timing
+Bot(9): that is when i work at the gas station
+User(10): what is your age
+Bot(10): i am 17 years old
+User(11): from what age are you working
+Bot(11): i just work at the gas station
+User(12): for how many year have you been working
+Bot(12): yes and no i also work half time at a gas station
+
+Persona:
+i like meditation.
+i've three sisters.
+i'm rather skinny as i like to stay in shape.
+i just got a job working in a gas station.
+i've zero family that i am close to.
+
+Topic and Human Opinion:
+Beginning: i have been working since i was sixteen years old.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 64.86
+Robotic(↓): 86
+Interesting: 86
+Fun: 79
+Consistent: 79
+Fluent: 94
+Repetitive(↓): 80
+Topic: 82
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): yeah so your mother definetly, live
+User(2): yes and yours
+Bot(2): i like to walk dogs. it's also what i do is ypur love green , job?
+User(3): i'm a baby delivery nurse.
+Bot(3): oh that s wonderful intelligent way to prefer dates often
+User(4): what do you do
+Bot(4): Is Do you final answer?
+User(5): no
+Bot(5): i have two children too. But are great dogs .
+User(6): are you married
+Bot(6): i have a lot of more than many languages .
+User(7): are you alright
+Bot(7): I do not have time for mountain biking. I could do it for shipyard
+User(8): what are you saying
+Bot(8): i hate lifting weights old man from body
+User(9): why
+Bot(9): italian food! it because you like cheeseburgers too.
+User(10): i think i am done with you
+Bot(10): I am a teacher. what is your like the gym or work? I have been
+User(11): there is something wrong with you
+Bot(11): I am study at there . to some music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a baby delivery nurse.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 27.00
+Robotic(↓): 100
+Interesting: 34
+Fun: 26
+Consistent: 23
+Fluent: 88
+Repetitive(↓): 90
+Topic: 8
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you
+Bot(2): i am good . just devoured a pizza . you ?
+User(3): i am fine
+Bot(3): i just came from a swim . i have been swimming since a baby
+User(4): even i like it. also i am planning for a vacation
+Bot(4): i have absolutely no energy ! i stay home with the kids . but i am a serious cleaner
+User(5): where do you want to go for vation
+Bot(5): anywhere new , anywhere with history , everywhere eventually
+User(6): do you like beach
+Bot(6): the beach is nice , but i do not get to go too often .
+User(7): for vacation i enjoy time at the beach.
+Bot(7): i love the beach and the ocean !
+User(8): have you been to beach
+Bot(8): the beach is nice , but i do not get to go too often .
+User(9): what do you like
+Bot(9): i prefer designing the games but playing them is a good way to gain inspiration !
+User(10): what game do you like
+Bot(10): i mostly like single player rpgs on my xbox
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: for vacation i enjoy time at the beach.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 67.14
+Robotic(↓): 74
+Interesting: 66
+Fun: 72
+Consistent: 84
+Fluent: 82
+Repetitive(↓): 34
+Topic: 74
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): yes and you
+Bot(2): i am good and you
+User(3): i am fine
+Bot(3): i am good thanks for asking
+User(4): what color do you like
+Bot(4): i like red what do you like
+User(5): my favorite color is yellow.
+Bot(5): i like red what do you like
+User(6): why do you like red
+Bot(6): red is my favorite color
+User(7): do you like yellow
+Bot(7): i like red what do you like
+User(8): what is you name
+Bot(8): red . i like red
+User(9): okay
+Bot(9): red is my favorite color
+User(10): i am done with you
+Bot(10): i am a red eyed person
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: my favorite color is yellow.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 36.57
+Robotic(↓): 87
+Interesting: 31
+Fun: 32
+Consistent: 28
+Fluent: 80
+Repetitive(↓): 94
+Topic: 66
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): great
+Bot(2): i am a student , but i am a student .
+User(3): do you workout
+Bot(3): i do , i love to cook .
+User(4): what do you cook
+Bot(4): i like to eat . i am a big fan of it .
+User(5): i like to workout a a times a week.
+Bot(5): i am sorry to hear that . i am a nurse .
+User(6): which hospital
+Bot(6): i am a student , but i am a student .
+User(7): are you a nurse
+Bot(7): no , i am a student . i love to cook .
+User(8): what is your name
+Bot(8): i am good . how are you ?
+User(9): do you workout
+Bot(9): i do , i love to cook .
+User(10): i like food
+Bot(10): i like to eat fish .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to workout a a times a week.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.14
+Robotic(↓): 74
+Interesting: 65
+Fun: 57
+Consistent: 54
+Fluent: 87
+Repetitive(↓): 74
+Topic: 36
+
+####################
+

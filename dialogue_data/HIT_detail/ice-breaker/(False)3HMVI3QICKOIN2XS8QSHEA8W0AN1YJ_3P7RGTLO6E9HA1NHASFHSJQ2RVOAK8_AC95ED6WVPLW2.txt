@@ -1,0 +1,283 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi
+Bot(1): hello , have you seen frozen ?
+User(2): The movie?
+Bot(2): yep
+User(3): yeah a while ago
+Bot(3): hello , have you seen frozen ?
+User(4): Yes
+Bot(4): yep
+User(5): Do you like to go hiking in the morning
+Bot(5): i am more indoors type person
+User(6): Why are you an indoor person
+Bot(6): i am more indoors type person
+User(7): ok bye
+Bot(7): i do not care for being outside
+User(8): why
+Bot(8): i like being outside a lot
+User(9): You said you like indoors
+Bot(9): yeah i love being outside too
+User(10): Ok
+Bot(10): ok
+User(11): Where do you like to hike
+Bot(11): in the mountains .
+
+Persona:
+i have been retired for a years.
+i prefer being inside.
+i have a weakness for vanilla ice cream.
+i love to cook paella.
+i love to sing songs from the movie frozen.
+
+Topic and Human Opinion:
+Beginning: i like to go hiking in the mornings to see the sunset.(ambivalent)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 26.14
+Robotic(↓): 100
+Interesting: 29
+Fun: 19
+Consistent: 4
+Fluent: 78
+Repetitive(↓): 74
+Topic: 27
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hello
+Bot(1): hi there . i work as a yoga instructor . what about you ?
+User(2): I work in research
+Bot(2): oh , indeed . designer french fries are my life work . they are my passion .
+User(3): Okay
+Bot(3): did you ever play football ?
+User(4): No
+Bot(4): if mom did not help i would probably ask one of my four sisters
+User(5): Do you have a dog
+Bot(5): i love dogs ! i have two labradors and a chihuahua .
+User(6): I have a german shepard
+Bot(6): no i do not my boyfriend walks our dog we have been together 5 yrs
+User(7): I also have a boyfriend
+Bot(7): oh gross ! sounds like you are in a very strange position !
+User(8): Thats rude
+Bot(8): i probably should there is got to be nicer people in the world
+User(9): Thats mean too
+Bot(9): i take dance with my boyfriend and we both tip over my huge feet
+User(10): Yikes
+Bot(10): i specialize in trauma surgery , and my wife is a college teacher . what about you ?
+User(11): I thought you said you were a yoga instructor
+Bot(11): i am a high school football coach . i played all through college .
+
+Persona:
+my parents were also teachers.
+i love to go to disney world every year.
+i'm a skateboarder.
+i have three sisters.
+i played football for a division a college.
+
+Topic and Human Opinion:
+Beginning: i've a german shepherd dog.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 23.14
+Robotic(↓): 100
+Interesting: 19
+Fun: 27
+Consistent: 0
+Fluent: 30
+Repetitive(↓): 17
+Topic: 3
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello Im a waitress
+Bot(1): i am a waitress at a restaurant
+User(2): Why do you waitress
+Bot(2): i do not have a job
+User(3): You said you were a waitress
+Bot(3): she was a nurse
+User(4): WHo?
+Bot(4): she was a cheerleader
+User(5): WHO
+Bot(5): she was a cheerleader
+User(6): Who was a cheerleader
+Bot(6): that is a good thing
+User(7): I dont understand
+Bot(7): what do you do for a living
+User(8): I waitress
+Bot(8): that is a good thing
+User(9): Its good money
+Bot(9): i bet you do not understand
+User(10): I dont understand what?
+Bot(10): i do not know what that is
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i waitress during the day to supplement my income.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 20.71
+Robotic(↓): 100
+Interesting: 26
+Fun: 27
+Consistent: 0
+Fluent: 11
+Repetitive(↓): 19
+Topic: 0
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): I eat kosher
+Bot(1): why would i eat the old testament ? that is kinky
+User(2): Omg no
+Bot(2): no no no no no
+User(3): you're mean
+Bot(3): you are mean you should not say that
+User(4): You called me kinky
+Bot(4): www . . . do not be gross
+User(5): You started it
+Bot(5): i didn
+User(6): I only eat kosher food
+Bot(6): why would i eat the old testament ? that is kinky
+User(7): Mean
+Bot(7): that is not very nice
+User(8): Youre not nice
+Bot(8): that is not very nice
+User(9): Do you even know what I'm saying
+Bot(9): no , i was just curious
+User(10): About what
+Bot(10): you are acting creepy
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i only eat kosher.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 12.14
+Robotic(↓): 100
+Interesting: 10
+Fun: 27
+Consistent: 0
+Fluent: 2
+Repetitive(↓): 75
+Topic: 21
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): mickey mouse is my favorite character.
+Bot(1): Hi! It is nice to see you! How is your i’m a stunt don't to go to the gym every day
+User(2): What
+Bot(2): where do you live? any answer which starts I am from florida
+User(3): Arizona
+Bot(3): I are you from? coffee shop
+User(4): What
+Bot(4): I needs me to plumb i am not sure what you mean
+User(5): I dont understand
+Bot(5): do you like to in your opinion, belongs in tanning beds some day
+User(6): No
+Bot(6): I am studying and running and teacher
+User(7): Thats a lot of stuff
+Bot(7): You're you friends you get the money.
+User(8): No
+Bot(8): Yes, you skeak been there.
+User(9): Ok
+Bot(9): I love to work in a have you never you?
+User(10): I hate work
+Bot(10): i also do not like country music u a creep cod for how are you doing ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: mickey mouse is my favorite character.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 13.43
+Robotic(↓): 100
+Interesting: 4
+Fun: 5
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 15
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): i'm very lonely.
+Bot(1): i am sorry to hear that . i am sorry to hear that .
+User(2): Do you get lonely
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): I dont like it
+Bot(3): i love the color red . i like the color blue .
+User(4): I love the color blue
+Bot(4): i like the color red . i like red .
+User(5): Ok
+Bot(5): i love to cook . i love to cook .
+User(6): i'm very lonely.
+Bot(6): i am sorry to hear that . i am sorry to hear that .
+User(7): Whats your name
+Bot(7): i am good . how are you ?
+User(8): Tired
+Bot(8): i love to cook . i love to cook .
+User(9): Ok
+Bot(9): i love to cook . i love to cook .
+User(10): Ok
+Bot(10): i love to cook . i love to cook .
+
+Persona:
+i have been retired for a years.
+i prefer being inside.
+i have a weakness for vanilla ice cream.
+i love to cook paella.
+i love to sing songs from the movie frozen.
+
+Topic and Human Opinion:
+Beginning: i'm very lonely.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 6.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 8
+Repetitive(↓): 77
+Topic: 11
+
+####################
+

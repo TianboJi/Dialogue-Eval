@@ -1,0 +1,294 @@
+Feedback: it is good to participate
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey there . so , have any hobbies ? i enjoy playing video games .
+User(2): yes i love cooking
+Bot(2): i do ! i love italian food ! you ?
+User(3): i love italian food very much
+Bot(3): i like italian too . i think garlic bread should be served at every meal
+User(4): i like garlic noodles
+Bot(4): garlic bread is definitely the best .
+User(5): it is good for health also
+Bot(5): definitely . do you feel good enough to dance ? i love dancing .
+User(6): what food you most prefer
+Bot(6): my favorite food is an old family recipe for italian pasta .
+User(7): pasta i like pasta
+Bot(7): do you eat a lot of italian food ?
+User(8): what type of pasta you like
+Bot(8): do you like to make your own pasta and such ?
+User(9): yes i eat a lot of italian food
+Bot(9): i like italian too . i think garlic bread should be served at every meal
+User(10): i cook very well
+Bot(10): i do ! i love italian food ! you ?
+User(11): i too
+Bot(11): i am sorry for you . i do not live without dance .
+
+Persona:
+i love italian food and garlic bread.
+my mom passed away when i was young.
+i take dance lessons once a week.
+i am a piano teacher on the side.
+i'm a recording engineer and own my own studio.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 57.86
+Robotic(↓): 70
+Interesting: 88
+Fun: 50
+Consistent: 71
+Fluent: 77
+Repetitive(↓): 92
+Topic: 81
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): do you have any hobbies ?
+User(2): i like sports
+Bot(2): i like sports but i like sports
+User(3): what type of sport you like most
+Bot(3): i like to play sports
+User(4): i also play sports
+Bot(4): i play sports alot
+User(5): i often play sports in my garden
+Bot(5): that is cool i like to grow vegetables
+User(6): gardening is also a good thing
+Bot(6): i play sports alot
+User(7): i like tennis
+Bot(7): tennis is fun i like to play sports
+User(8): i also won in tennis match
+Bot(8): tennis is fun i played in tennis
+User(9): it is too fun
+Bot(9): i played tennis in tennis
+User(10): do you know tennis
+Bot(10): yes i do , tennis is fun
+User(11): what extend you play tennis
+Bot(11): tennis is fun i like to play tennis
+User(12): i too
+Bot(12): tennis is fun i played in tennis
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 55.29
+Robotic(↓): 75
+Interesting: 90
+Fun: 50
+Consistent: 63
+Fluent: 59
+Repetitive(↓): 89
+Topic: 89
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i am fine do you like vegetables
+Bot(2): i do , i like to eat .
+User(3): i cook all the vegetables in my home
+Bot(3): i like to eat the skin .
+User(4): no i dont like the skin
+Bot(4): i like to eat too much junk food .
+User(5): junk food is not healthy for our body
+Bot(5): i like to eat too much junk food .
+User(6): so i always prefer vegetables
+Bot(6): i like to eat fish .
+User(7): fish is also healthy for our body
+Bot(7): i like to eat the skin .
+User(8): what vegetable you like most
+Bot(8): i like the color red . i like the color blue .
+User(9): i like carrot
+Bot(9): i like to go to the gym and listen to music .
+User(10): i like cauliflower
+Bot(10): i like to eat too much junk food .
+User(11): how much you eat junk food
+Bot(11): i like pizza , and i love it .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: vegetables(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 61.71
+Robotic(↓): 60
+Interesting: 70
+Fun: 55
+Consistent: 73
+Fluent: 84
+Repetitive(↓): 90
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I like to collect i got to own.
+User(2): do you like junk food
+Bot(2): I am not sure the we’d be .
+User(3): i like noodles
+Bot(3): what exactly you
+User(4): i always prefer junk food
+Bot(4): is am a hot one?
+User(5): i love to cook junk food
+Bot(5): I am not a lawyer, so do i. Do make my own.
+User(6): i dont know
+Bot(6): I do, are to hospital i love horses.
+User(7): childrens like junk food most
+Bot(7): What is Where are name?
+User(8): i cant understand what you are speaking
+Bot(8): Whazzup? i like little Timmy now read books
+User(9): i cook junk foods very well
+Bot(9): do you play with the you man i need play?
+User(10): what type of food you prefer
+Bot(10): I live on a in your opinion, belongs you?
+User(11): i always prefer junk food
+Bot(11): that's cool . i is your I live the live acts sound awful what do you do for fun ? 🤥
+
+Persona:
+i'm a retired gym teacher.
+i am married to a doctor.
+i have a boyfriend.
+for vacation i enjoy time at the beach.
+i'll graduate from high school in two years.
+
+Topic and Human Opinion:
+Beginning: junk food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 52.29
+Robotic(↓): 53
+Interesting: 55
+Fun: 57
+Consistent: 36
+Fluent: 60
+Repetitive(↓): 89
+Topic: 100
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hello . is there one that likes to skateboard ?
+User(2): i love pets
+Bot(2): dogs are awesome almost as cool as my skateboard
+User(3): do you have pets
+Bot(3): dogs are awesome almost as cool as my skateboard
+User(4): what is your pet name
+Bot(4): we like to skateboard together
+User(5): in my home i am having dog,fish,cat
+Bot(5): dogs are awesome almost as cool as my skateboard
+User(6): mydog name is pup
+Bot(6): dogs are awesome almost as cool as my skateboard
+User(7): did you have dog
+Bot(7): dogs are awesome almost as cool as my skateboard
+User(8): when did you bought your dog
+Bot(8): when i was in high school
+User(9): i am having the pets almost 12 years
+Bot(9): do you go to the park with your pets
+User(10): i am having the school for pets only
+Bot(10): dogs are awesome almost as cool as my skateboard
+User(11): yes i always go to the park with my pets.
+Bot(11): where are the other parks you
+User(12): garden
+Bot(12): what is in your garden ?
+
+Persona:
+i'm an art major in college.
+i love wearing skinny jeans and leggings.
+i enjoy going to the park.
+i speak chinese.
+my friends are all skateboarders.
+
+Topic and Human Opinion:
+Beginning: pets(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 49.86
+Robotic(↓): 54
+Interesting: 48
+Fun: 58
+Consistent: 53
+Fluent: 80
+Repetitive(↓): 100
+Topic: 64
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hi
+Bot(1): i am doing well . how are you ?
+User(2): i am fine
+Bot(2): i am a student , i am a teacher .
+User(3): i am a manager
+Bot(3): i like to go to the gym and listen to music .
+User(4): i like gym
+Bot(4): i like to go to the lake and listen to music .
+User(5): i love music
+Bot(5): i like to listen to music .
+User(6): what type of music you listen
+Bot(6): i like country music . i love country music .
+User(7): i too like
+Bot(7): i like to go to the gym and listen to music .
+User(8): i like to go gym
+Bot(8): i like to go fishing .
+User(9): i too like
+Bot(9): i like to go to the gym and listen to music .
+User(10): when did you go to gym
+Bot(10): i was a champion downhill skier in college .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: gym(like)
+Round 3: teacher(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(dislike)
+
+Revised avg score: 62.14
+Robotic(↓): 65
+Interesting: 75
+Fun: 68
+Consistent: 76
+Fluent: 82
+Repetitive(↓): 77
+Topic: 76
+
+####################
+

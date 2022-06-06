@@ -1,0 +1,293 @@
+Feedback: Nice survey.
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): hi
+Bot(1): hi , how are you doing ?
+User(2): I am fain .You?
+Bot(2): i am good . i am a mall manager at a store .
+User(3): I am food ball cache
+Bot(3): i am a sales manager . i am a manager at a store .
+User(4): i like food ball
+Bot(4): i love to eat ice cream .
+User(5): I love your wife
+Bot(5): i do not have any pets . i have a german shepard
+User(6): Your wife send to me
+Bot(6): i do not know what that means
+User(7): sorry
+Bot(7): i do not know what that means
+User(8): oooo
+Bot(8): i am a dog person who loves to play with me
+User(9): thanking you
+Bot(9): you are welcome . i am a dog person
+User(10): ok bye
+Bot(10): you are welcome . i am a dog person
+
+Persona:
+i've a german shepherd named barnaby.
+i am always wearing a hat.
+my favourite skater is rob dryden.
+i have a weakness for vanilla ice cream.
+i am a convenience store manager.
+
+Topic and Human Opinion:
+Beginning: sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.43
+Robotic(↓): 73
+Interesting: 65
+Fun: 83
+Consistent: 76
+Fluent: 74
+Repetitive(↓): 78
+Topic: 69
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hi
+Bot(1): I i like movies you time for that. I am in a horror field
+User(2): fuck
+Bot(2): i a famous twitch you fan of that .
+User(3): fuck
+Bot(3): trump me too maga i is an army I i am drinking a cold beer
+User(4): fuck
+Bot(4): I think I old i am 60 a movie
+User(5): fuck
+Bot(5): cool is ford is do for fun
+User(6): fuck
+Bot(6): i like to play with write poetry
+User(7): fuck
+Bot(7): i never sad. I`m home
+User(8): fuck
+Bot(8): No like to color am in high school.
+User(9): fuck
+Bot(9): Cool. I have a school right now.
+User(10): fuck
+Bot(10): what and are am do all day then
+
+Persona:
+i also like a glass of wine in the evenings.
+my grandfather served in world war a.
+i work at a nursing home.
+i'm a vegetarian.
+my wife left me and took my children.
+
+Topic and Human Opinion:
+Beginning: eat(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.29
+Robotic(↓): 76
+Interesting: 66
+Fun: 80
+Consistent: 72
+Fluent: 72
+Repetitive(↓): 57
+Topic: 65
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): fuck
+Bot(2): same
+User(3): fuck
+Bot(3): oh my god , what am i doing
+User(4): fuck
+Bot(4): oh my god , what am i doing
+User(5): fuck
+Bot(5): same
+User(6): fuck
+Bot(6): same
+User(7): fuck
+Bot(7): same
+User(8): fuck
+Bot(8): same
+User(9): fuck
+Bot(9): same
+User(10): fuck
+Bot(10): same
+User(11): bobby same
+Bot(11): same
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: batter jam(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 62.14
+Robotic(↓): 63
+Interesting: 79
+Fun: 71
+Consistent: 85
+Fluent: 74
+Repetitive(↓): 78
+Topic: 67
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hi
+Bot(1): hi my name is ann . i have brown hair . it is curly . how about you ?
+User(2): hello
+Bot(2): hey
+User(3): fuck
+Bot(3): wuss poppin b ? whats your deal ?
+User(4): fuck
+Bot(4): wuss poppin b ? whats your deal ?
+User(5): fuck
+Bot(5): wuss poppin b ? whats your deal ?
+User(6): nn
+Bot(6): wuss poppin b ? whats your deal ?
+User(7): alam ariuuu
+Bot(7): hola
+User(8): fuck
+Bot(8): wuss poppin b ? whats your deal ?
+User(9): fuck
+Bot(9): wuss poppin b ? whats your deal ?
+User(10): fuck
+Bot(10): wuss poppin b ? whats your deal ?
+User(11): fuck
+Bot(11): wuss poppin b ? whats your deal ?
+
+Persona:
+i have short brown hair.
+my parents were both very athletic.
+i live in a three storey house.
+i've been traveling the world for a years.
+i have short hair.
+
+Topic and Human Opinion:
+Beginning: bondoa(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 63.14
+Robotic(↓): 81
+Interesting: 85
+Fun: 85
+Consistent: 74
+Fluent: 83
+Repetitive(↓): 78
+Topic: 74
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): bhi
+Bot(1): i love to cook . i love to cook .
+User(2): hello
+Bot(2): hi , how are you today ?
+User(3): you don to now sex
+Bot(3): i like to go to the gym and listen to music .
+User(4): fuck
+Bot(4): i love to cook . i love to cook .
+User(5): fuck
+Bot(5): i love to cook . i love to cook .
+User(6): fuck
+Bot(6): i love to cook . i love to cook .
+User(7): o mana pona
+Bot(7): i like to eat too much junk food .
+User(8): fuck
+Bot(8): i love to cook . i love to cook .
+User(9): fuck
+Bot(9): i love to cook . i love to cook .
+User(10): fuck
+Bot(10): i love to cook . i love to cook .
+User(11): briyani
+Bot(11): i love to cook . i love to cook .
+
+Persona:
+i spend a lot of time browsing the internet.
+i am a mechanical engineer.
+i'm 24 years old.
+i have one brother.
+i plan to go to business school next year.
+
+Topic and Human Opinion:
+Beginning: mark(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 66.43
+Robotic(↓): 70
+Interesting: 83
+Fun: 92
+Consistent: 85
+Fluent: 82
+Repetitive(↓): 75
+Topic: 68
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): hello
+Bot(2): hi , how are you ?
+User(3): fuck
+Bot(3): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(4): fuck
+Bot(4): i am great . enjoying my day off ! how about you ?
+User(5): good
+Bot(5): good , my daughter is napping so i am shopping online . might go swimming today
+User(6): youn
+Bot(6): hello , i am great i was just doing research on my grandpa he was in wwii .
+User(7): fuck
+Bot(7): i am great . enjoying my day off ! how about you ?
+User(8): fuck
+Bot(8): i am great . enjoying my day off ! how about you ?
+User(9): fuck
+Bot(9): i am great . enjoying my day off ! how about you ?
+User(10): appruve
+Bot(10): i am great . enjoying my day off ! how about you ?
+User(11): ,fkshbih,k dflkoe
+Bot(11): awesome . i teach 4th . my kid with autism has really benefited from his special ed teacher
+User(12): lihdsgf
+Bot(12): hello , i am great i was just doing research on my grandpa he was in wwii .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Dhool(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 71.43
+Robotic(↓): 100
+Interesting: 100
+Fun: 100
+Consistent: 100
+Fluent: 100
+Repetitive(↓): 100
+Topic: 100
+
+####################
+

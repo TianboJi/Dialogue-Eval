@@ -1,0 +1,275 @@
+Feedback: None
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): I like shopping
+Bot(1): shopping is fun .
+User(2): I love stores that have home goods so i can decorate my house
+Bot(2): i love to wear jeans
+User(3): I love leggings
+Bot(3): what kind ? are they skinny jeans ?
+User(4): They are Stretchy workout clothes
+Bot(4): i love wearing them so comfy
+User(5): I always chose comfort over style
+Bot(5): i love wearing them so comfy
+User(6): Comfy warm and not expensive
+Bot(6): i love wearing them so comfy
+User(7): Very comfy
+Bot(7): i love wearing them so comfy
+User(8): I love hoodies too
+Bot(8): i love wearing them so comfy
+User(9): Where do you shop
+Bot(9): i shop for practically everything
+User(10): Same. I love shopping even grocery shopping
+Bot(10): that does sound better than groceries
+
+Persona:
+i prefer being inside.
+i used to be a painter but now i am a housekeeper.
+i love wearing skinny jeans and leggings.
+i am a museum tour guide.
+i drive a ford pinto.
+
+Topic and Human Opinion:
+Beginning: i like shopping.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.57
+Robotic(↓): 100
+Interesting: 54
+Fun: 55
+Consistent: 61
+Fluent: 56
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Blue eyes are beautiful
+Bot(1): blue eyes can be really pretty .
+User(2): With long red hair is gorgeous
+Bot(2): red heads are great . very handsome
+User(3): Yes especially in the sunlight red heads hair shine
+Bot(3): yees , i was told it was because i have bright red hair lol
+User(4): I have natural red highlights makes my hair gorgeous
+Bot(4): awesome sauce people always comment on my hair its red my favorite color
+User(5): Is your red hair curly
+Bot(5): yes i love it as much as i love me and my brothers bright red hair
+User(6): Red hair runs in the family do you all have blue eyes
+Bot(6): no but my brother and i have long red hair
+User(7): How long is your red hair
+Bot(7): the red hair i got it too but i do not like the curly
+User(8): I love how curly and wavy mine is boucy red hair
+Bot(8): the red hair i got it too but i do not like the curly
+User(9): Cool
+Bot(9): awesome sauce people always comment on my hair its red my favorite color
+User(10): I bet
+Bot(10): i dyed my hair red today
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i've blue eyes and red hair that comes to my waist.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 60.00
+Robotic(↓): 54
+Interesting: 62
+Fun: 63
+Consistent: 63
+Fluent: 67
+Repetitive(↓): 81
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I see the rolling stomes in concert every year
+Bot(1): I work on fine. But what meditation
+User(2): No rolling stones the band
+Bot(2): I to meet don't and movies
+User(3): Rolling stones the music band
+Bot(3): I cool! Today money.
+User(4): I see
+Bot(4): i love to sit on the some want to be games myself
+User(5): Games
+Bot(5): You are a crazy😆 person! I am a stenographer and doing computer technical what future.
+User(6): Sounds bright
+Bot(6): I'd like to but s time to is: pizza
+User(7): I love pizza
+Bot(7): I like big am great, about you?
+User(8): Good
+Bot(8): i am a woman is rock climbing what you ?
+User(9): Vollyeball player
+Bot(9): hey, how fine! What is today? i'm good.
+User(10): Cool see you soon
+Bot(10): lol a son who is would love to come by
+
+Persona:
+i dream of moving to the city.
+i own a cat and a dog.
+i grew up on a farm.
+whats up i'm a 46 year old single dad 46 a kids.
+i like to play with my dolls.
+
+Topic and Human Opinion:
+Beginning: i see the rolling stones in concert every year.(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.86
+Robotic(↓): 100
+Interesting: 100
+Fun: 25
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 23
+Topic: 0
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Im a buddhist
+Bot(1): chicago is mine . which is good in winter for snow boarding .
+User(2): Buffalo is pretty insane during the winter too
+Bot(2): well , in winter , instead of grilling meat , i grill green apples .
+User(3): Are they gooe
+Bot(3): florida the northern part , how bout you
+User(4): Southern
+Bot(4): most i know about trucker comes from watching ice road truckers and burt reynolds films lol
+User(5): Lol funnt
+Bot(5): but i am also a brown eyed blond , so always attracted men from a distance .
+User(6): Okay
+Bot(6): drive my sx . fast . so what is a male ballerina called ?
+User(7): Not sure
+Bot(7): so i love drinking tea . are you a tea or coffee person ?
+User(8): Tea i love tea
+Bot(8): eh not much of a tea drinker . i love coffee
+User(9): I hate coffee
+Bot(9): i like coffee as well ! i drive my acura to the coffee shop every morning .
+User(10): Perfect
+Bot(10): i understand that . its like hunting or basketball , you have to be exact and perfect .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i'm a buddhist.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.86
+Robotic(↓): 100
+Interesting: 74
+Fun: 76
+Consistent: 35
+Fluent: 40
+Repetitive(↓): 39
+Topic: 14
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Vintage cars
+Bot(1): i like vintage cars cars and cars
+User(2): I do work on them
+Bot(2): i work on them on the side
+User(3): Really!? For fun or for money
+Bot(3): i like to make money on the internet
+User(4): Working on vintage cars
+Bot(4): i like vintage cars and cars
+User(5): Me too
+Bot(5): i love cars , especially cars
+User(6): Vintage ones?
+Bot(6): i like vintage cars and vintage cars
+User(7): Make and models?
+Bot(7): i like vintage cars and vintage cars
+User(8): They are fun
+Bot(8): i like vintage cars and vintage cars
+User(9): Vintage
+Bot(9): i would love to see them .
+User(10): Really
+Bot(10): i like vintage cars and vintage cars
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i like to work on vintage cars.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 31.71
+Robotic(↓): 100
+Interesting: 17
+Fun: 38
+Consistent: 68
+Fluent: 38
+Repetitive(↓): 100
+Topic: 61
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): I am 100 years old
+Bot(1): oh , i am sorry to hear that . do you have any hobbies ?
+User(2): Im 100 i like tonsit
+Bot(2): i like to eat too much junk food .
+User(3): Me too and watch tv
+Bot(3): i like to read too .
+User(4): I get bored reading
+Bot(4): i like to read and write poetry .
+User(5): I love to write poetry and songs and stories
+Bot(5): i like to go to the gym and listen to music .
+User(6): Same
+Bot(6): i love to cook . i love to cook .
+User(7): Omg me too i cook everything snd bake
+Bot(7): oh , i like to eat fish .
+User(8): I hate fish
+Bot(8): i like to eat fish .
+User(9): Gross
+Bot(9): i love to cook . i love to cook .
+User(10): Yeah me too
+Bot(10): i am a student , but i am a student .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: i am 100 years old.(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 39.86
+Robotic(↓): 100
+Interesting: 37
+Fun: 64
+Consistent: 66
+Fluent: 61
+Repetitive(↓): 88
+Topic: 39
+
+####################
+

@@ -1,0 +1,329 @@
+Feedback: none
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Good evening. What do you think about the wildfires in California right now?
+Bot(1): no wild fires here .
+User(2): Where are you?
+Bot(2): no wild fires here .
+User(3): There are wildfires in California. Have you heard about them?
+Bot(3): i have not , have you heard any ?
+User(4): Yes. They are destroying national parks.
+Bot(4): i have not , have you heard any ?
+User(5): Yes. Like I said they are destroying national parks in California.
+Bot(5): no wild fires here .
+User(6): Some people are trapped in the park.
+Bot(6): no wild fires here .
+User(7): The helicopters cannot land because of all of the smoke.
+Bot(7): no wild fires here .
+User(8): What do you think they should do to help them?
+Bot(8): what should we do ? seriously .
+User(9): What should the emergency response teams do to help them?
+Bot(9): what should we do ? seriously .
+User(10): No, not us. What should the rescuers do?
+Bot(10): what should we do ? seriously .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Wildfires in California(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 21.86
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 50
+Fluent: 11
+Repetitive(↓): 100
+Topic: 92
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I love to paint.
+Bot(1): i paint pictures of watercolors
+User(2): What kind of pictures do you paint?
+Bot(2): i paint pictures of all kinds of pictures .
+User(3): Do you paint portraits?
+Bot(3): i paint pictures of watercolors .
+User(4): Do you paint landscapes?
+Bot(4): i paint landscapes landscapes . i paint landscapes .
+User(5): I like to paint portraits with oil paint. Have you ever used oil paint?
+Bot(5): no , i paint landscapes . i paint landscapes .
+User(6): You can paint landscapes with oil paint. Do you only use watercolors?
+Bot(6): no , i paint landscapes . i paint landscapes .
+User(7): Do you like to paint mountains?
+Bot(7): i do . i paint landscapes . i paint landscapes .
+User(8): Do you like to paint anything else besides landscapes?
+Bot(8): i do . i paint landscapes . i paint landscapes .
+User(9): What was your favorite landscape painting of?
+Bot(9): i paint landscapes landscapes . i paint landscapes .
+User(10): I like landscape paintings.
+Bot(10): i paint landscapes landscapes . i paint landscapes .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: oil painting(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 28.43
+Robotic(↓): 100
+Interesting: 2
+Fun: 2
+Consistent: 93
+Fluent: 2
+Repetitive(↓): 100
+Topic: 100
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Good evening. What do you think of the keto diet?
+Bot(1): that is cool. I a festival of a as a teacher. do you work?
+User(2): I do work yes. What do you teach?
+Bot(2): what are also prefer being married
+User(3): Me too. How long have you been married?
+Bot(3): Hi, I'm an actress. green?)) My favorite do?
+User(4): I like to watch T.V.
+Bot(4): 3 me old.
+User(5): I'm 42. You're only three?
+Bot(5): i what do you like when i pet my dragon
+User(6): You have a dragon?
+Bot(6): do president is you have do. what is your favorite color?
+User(7): My favorite color is blue. What is yours?
+Bot(7): yes , i do , as a good bye .
+User(8): Do you want to leave now?
+Bot(8): Spider do you not mutant spider.
+User(9): Are you talking about Spiderman or an actual spider?
+Bot(9): Hi, I should I must respond love to be in the olympics.
+User(10): What would you compete in in the Olympics?
+Bot(10): Hey! What are you doing? 🧐. Cut a long story vintage mustangs. i like alcohol
+
+Persona:
+i've been traveling the world for a years.
+i've superpowers.
+i work as a car salesman.
+i like to listen to rock music while working.
+i love playing softball.
+
+Topic and Human Opinion:
+Beginning: keto diet(like)
+Round 1: employment(ambivalent)
+Round 2: marriage(like)
+Round 3: I'm not sure, being an actress and favorite things to do maybe. The English is not great.(ambivalent)
+Round 4: Age(ambivalent)
+Round 5: dragons(ambivalent)
+Round 6: favorite color(like)
+Round 7: good-byes(ambivalent)
+Round 8: mutant spiders(like)
+Round 9: the olympics(like)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+Round 9: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 19.29
+Robotic(↓): 100
+Interesting: 17
+Fun: 18
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 0
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Good evening. I just went to a family party. Do you like to go to parties?
+Bot(1): i love to travel . i love to travel .
+User(2): Do you travel to parties?
+Bot(2): no , i do not , but i do like to go fishing .
+User(3): I have not been fishing for a long time. Is it fun?
+Bot(3): i do not really have a favorite . i like to go fishing .
+User(4): Do you go fishing with anyone else?
+Bot(4): no , i do not . i like to go out to eat with my family .
+User(5): So do I. I like to go to steak restaurants. Where do you like to go?
+Bot(5): i love to travel . i love to travel .
+User(6): Where have you traveled to?
+Bot(6): no , i do not . i am a big fan of the boston celtics .
+User(7): I do not really watch sports. Is that a baseball team?
+Bot(7): no , i do not . i like to go to the gym .
+User(8): Me too. It's hard to go to the gym now though. How often do you go?
+Bot(8): i love to travel . i love to travel .
+User(9): Have you ever been to Ohio?
+Bot(9): no , i do not . i am a big fan of classical music .
+User(10): Who is your favorite composer?
+Bot(10): i like the oldies , and the outdoors .
+
+Persona:
+i am partly deaf.
+i have one brother.
+i am a professional tennis player.
+i work at a school.
+i enjoy being around people.
+
+Topic and Human Opinion:
+Beginning: family parties(like)
+Round 2: fishing(ambivalent)
+Round 4: eating out(like)
+Round 5: travel(like)
+Round 6: the Boston Celtics(dislike)
+Round 7: going to the gym(like)
+Round 8: travel(like)
+Round 9: classical music(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(like)
+Round 7: The chatbot changed the topic.(like)
+Round 8: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 21.86
+Robotic(↓): 100
+Interesting: 16
+Fun: 16
+Consistent: 50
+Fluent: 16
+Repetitive(↓): 50
+Topic: 5
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello. I really want to go for a hike.
+Bot(1): being that i am in the city i cannot hike much
+User(2): Do you ever get to a park?
+Bot(2): i do . i have to make it up the mountain .
+User(3): Hiking in the mountains is fun. Do you wear good hiking boots?
+Bot(3): no the boots would hurt my feet
+User(4): What do you where when you go up the moutain?
+Bot(4): dive off cliffs into the ocean . what do you like to do ?
+User(5): I like to just hike. I think diving off the cliffs sounds scary. Is it scary?
+Bot(5): yea it can be , but i am very scared of heights so i would do roofing
+User(6): Why would you do roofing if you are scared?
+Bot(6): i figure it might make me more secure . i tend to be unsure .
+User(7): I get it. The more practice you have, the less scared you may be?
+Bot(7): i do get a little scared but that is what makes it fun
+User(8): Being scared can be fun sometimes. Do you ride roller coasters?
+Bot(8): yes , i ride it a lot . some interesting one , some very dangerous .
+User(9): A dangerous roller coaster would not be a good idea.
+Bot(9): i have toyed with the idea , i just like to play things safe . what are your dreams ?
+User(10): My dreams are just to live a good, happy life.
+Bot(10): that is an odd goal to have but to each his own .
+
+Persona:
+on weekends i do live action roleplaying events.
+i am deathly afraid of heights.
+i drive a bmw.
+i enjoy exploring new parts of the city.
+i've short brown hair.
+
+Topic and Human Opinion:
+Beginning: hiking(like)
+Round 5: roofing(ambivalent)
+Round 7: roller coasters(like)
+Round 9: dreams(like)
+
+Topic Change and Chatbot Opinion:
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The user will change the topic in the next input.(like)
+Round 9: The chatbot changed the topic.(like)
+
+Revised avg score: 49.57
+Robotic(↓): 85
+Interesting: 66
+Fun: 50
+Consistent: 49
+Fluent: 32
+Repetitive(↓): 19
+Topic: 54
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Hi there. I could really go for a bowl of ice cream right now.
+Bot(1): yes , i do like ice cream . sometimes i make my own ice cream at home .
+User(2): What is your favorite flavor?
+Bot(2): i like surprises like steven king novels you never know where he is gonna go
+User(3): I like Steven King, but I would rather read something less scary.
+Bot(3): that sounds great ! i work as a remote programmer .
+User(4): I work as an attorney.
+Bot(4): oh one of my coaches is an attorney . i couch girls volley ball .
+User(5): That's fantastic. My daughter plays volleyball.
+Bot(5): it is fantastic . 42 is my lucky number
+User(6): Why is that your lucky number?
+Bot(6): interesting , never heard of it . i wish i was a 7 i wear a 14
+User(7): Yes, I think we all wish were wore a little smaller of a size.
+Bot(7): do you like skydive ? i go skydiving frequently
+User(8): I never have gone skydiving. Isn't that scary?
+Bot(8): oh , no ! do not cook animals . i can speak german . how about you ? any languages ?
+User(9): I speak English. I know a little Spanish.
+Bot(9): which languages do you speak ?
+User(10): English and a little bit of Spanish. I took Spanish courses in high school and college.
+Bot(10): i speak only english , and a little spanish
+
+Persona:
+i spent a decade working in the human services field.
+i'm 19 and i cannot wait to move out 19 my parents home.
+my favorite season is winter.
+i am studying to be a computer programmer.
+one of the languages that i am currently studying is spanish.
+
+Topic and Human Opinion:
+Beginning: ice cream(like)
+Round 2: novels(like)
+Round 3: employment(ambivalent)
+Round 4: volleyball(like)
+Round 6: clothing sizes(dislike)
+Round 7: skydiving(like)
+Round 8: languages(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 3: The chatbot changed the topic.(like)
+Round 4: The chatbot changed the topic.(like)
+Round 6: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(like)
+
+Revised avg score: 27.14
+Robotic(↓): 76
+Interesting: 23
+Fun: 14
+Consistent: 8
+Fluent: 35
+Repetitive(↓): 25
+Topic: 11
+
+####################
+

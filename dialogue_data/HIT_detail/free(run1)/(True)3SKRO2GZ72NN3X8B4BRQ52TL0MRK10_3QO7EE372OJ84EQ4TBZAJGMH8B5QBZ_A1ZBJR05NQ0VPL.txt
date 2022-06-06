@@ -1,0 +1,289 @@
+Feedback: None
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am good . just got done with my job .
+User(2): How was it?
+Bot(2): i am good . just got done with my job .
+User(3): Okay, that is nice, do you like sports?
+Bot(3): i do , i work in the tech industry
+User(4): That's cool, what do you do at work?
+Bot(4): i work in the tech industry
+User(5): Okay, what is your favorite sport?
+Bot(5): i like to watch sports , i love to watch football
+User(6): I love soccer
+Bot(6): i like to play soccer , but i am not very good at it
+User(7): I can be said to be average at playing soccer, I am not bad at it
+Bot(7): i work in the tech industry , i work in the tech industry
+User(8): do you make a lot of money from your work?
+Bot(8): yes , i work in the tech industry
+User(9): Aside football what other sport do you like?
+Bot(9): i like to play soccer , what about you ?
+User(10): I do too
+Bot(10): i like to play soccer , what about you ?
+
+Persona:
+i spent a decade working in the human services field.
+i'm a woman.
+i'm now looking for a new job.
+i work fulltime in a shipyard.
+i like donuts.
+
+Topic and Human Opinion:
+Beginning: Sports(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 32.71
+Robotic(↓): 77
+Interesting: 30
+Fun: 50
+Consistent: 29
+Fluent: 30
+Repetitive(↓): 76
+Topic: 43
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am doing well . how are you ?
+User(2): I am fine, I just finished watching a movie
+Bot(2): oh , i love to read , and i love to read .
+User(3): That is nice, I love reading too
+Bot(3): i like to read too .
+User(4): Do you enjoy watching movies
+Bot(4): i like to read . what about you ?
+User(5): I do too, I love movies too
+Bot(5): i like to read too .
+User(6): What is your favorite movie?
+Bot(6): i like the packers . i like the outdoors .
+User(7): I have seen any of them
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): I love hip hop and RnB
+Bot(8): i like to go to the gym and listen to music .
+User(9): I exercise daily as well
+Bot(9): i like to go to the gym and listen to music .
+User(10): That is really cool
+Bot(10): i like to go to the gym and listen to music .
+
+Persona:
+i am 60years old.
+i am 24 years old.
+i'm from a small town.
+i've two dogs.
+i'm now looking for a new job.
+
+Topic and Human Opinion:
+Beginning: Movies(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.00
+Robotic(↓): 59
+Interesting: 17
+Fun: 38
+Consistent: 38
+Fluent: 39
+Repetitive(↓): 70
+Topic: 42
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): How are you?
+Bot(1): doing great ! spent the weekend outside and swimming . i love both !
+User(2): I love swimming, what do you love?
+Bot(2): i love swimming . do you like to listen to music while you swim ?
+User(3): Very much, what is your take on fashion?
+Bot(3): nanette is my favorite designer . it s what i named my poodle
+User(4): That is so cool
+Bot(4): i am kidding its actually someone who makes maps , i also paint outdoors
+User(5): Okay, which fashion brand is your favorite?
+Bot(5): ohh i revamp goodwill clothes and make them my own
+User(6): You sound like a creative
+Bot(6): i am not that creative i follow a pattern . i am a nurse
+User(7): Okay, how is nursing like?
+Bot(7): cool ! i am afraid of blood and clowns . nursing is not for me .
+User(8): That sounds scary
+Bot(8): wow , that is scary . lol . how are you scary ?
+User(9): Yeah, you scared me
+Bot(9): not scared . they just creep me out . i prefer purring to come from cars .
+User(10): Okay, what do you enjoy doing?
+Bot(10): i am a third shift security guard , just finished training .
+User(11): How rigorous was it?
+Bot(11): it was great . i played d and d all day . yours ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Fashion(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 46.71
+Robotic(↓): 33
+Interesting: 50
+Fun: 50
+Consistent: 42
+Fluent: 38
+Repetitive(↓): 62
+Topic: 42
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): How are you?
+Bot(1): well it was it. My favourite singer you eve
+User(2): Okay, I love Beyonce
+Bot(2): i just have a And out to clubs
+User(3): Okay, what do you think of world peace?
+Bot(3): I am what are the am you with my band. Do you coach little league baseball?
+User(4): Do you think world peace is attainable?
+Bot(4): weddings are great . i think opinion, belongs to your with a gown !
+User(5): Are you married?
+Bot(5): i I don't have children. have to work tomorrow
+User(6): Okay, I have two kids
+Bot(6): I you kidding me I love❤ music.
+User(7): Who is your favorite singer?
+Bot(7): Does you like listen to do with chemistry knowledge?
+User(8): I do not know that
+Bot(8): i am a teacher , i study sex Music, dance and i love teaching .
+User(9): Sex music? what is that about?
+Bot(9): i a profile which, in i like coffee too
+User(10): Coffee is my favorite drink
+Bot(10): Hey! What's up? 😅. Cut But for now it's was born in somalia
+
+Persona:
+i'm four.
+i have a pet fish.
+i like doing the treadmill and rowing machine.
+i am pregnant with my first child.
+i am a stay at home dad.
+
+Topic and Human Opinion:
+Beginning: Peace(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 41.71
+Robotic(↓): 67
+Interesting: 25
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 66
+Topic: 50
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am good , a little tired but good !
+User(2): Seems you day has been rough
+Bot(2): oh no , what happened this week ?
+User(3): I had so much fun, listened to all sorts of music
+Bot(3): nice i try to make every day interesting so discovering new music has helped
+User(4): What kind of music do you enjoy?
+Bot(4): i like a variety of music , some would say a strange mix
+User(5): I love country music and Rnb
+Bot(5): yes those are the best kinds of music out there
+User(6): I agree
+Bot(6): me too ! ! ! throw on some good country music and you gotta hoedown
+User(7): Who is your favorite singer
+Bot(7): i love almost every singer
+User(8): Wow, I wish I can be like you
+Bot(8): i just love country music
+User(9): That is nice
+Bot(9): i just love country music
+User(10): What songs did you listen to today?
+Bot(10): there where so many i cant name them all
+User(11): Mention just one then
+Bot(11): too many , i should take a break i think
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 30.14
+Robotic(↓): 69
+Interesting: 37
+Fun: 27
+Consistent: 28
+Fluent: 28
+Repetitive(↓): 78
+Topic: 38
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hello, how are you?
+Bot(1): i am good . listening to some rap , you ?
+User(2): I love rap too
+Bot(2): do you believe in god ?
+User(3): I do, do you?
+Bot(3): yeah i got fired from work now i am looking for something new
+User(4): Sorry about that, you will find something
+Bot(4): i got fired from my job .
+User(5): What do you think of winter
+Bot(5): i am a winter fan honestly
+User(6): What do you like most about winter?
+Bot(6): i am a winter fan honestly
+User(7): Do you like the cold?
+Bot(7): a little , i prefer winter .
+User(8): Okay, that is nice
+Bot(8): do you believe in god ?
+User(9): Yes, I do
+Bot(9): do you believe in god ?
+User(10): What is your favorite thing about God?
+Bot(10): i got fired from my job .
+User(11): Sorry about that
+Bot(11): i got fired from my job .
+
+Persona:
+i do not believe in god.
+i work in the insurance business.
+i listen to rap music.
+i recently was fired and had to get a new job.
+i've solar panels on my roof.
+
+Topic and Human Opinion:
+Beginning: Winter(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 35.71
+Robotic(↓): 73
+Interesting: 50
+Fun: 50
+Consistent: 32
+Fluent: 35
+Repetitive(↓): 70
+Topic: 26
+
+####################
+

@@ -1,0 +1,318 @@
+Feedback: None
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Is Streaming TV better than Cable?
+Bot(1): no , i do not . i like to go to the park .
+User(2): What do you like to do at the park?
+Bot(2): i like to go fishing . i love to go fishing .
+User(3): What kind of fish can you catch at the park?
+Bot(3): i love to eat .
+User(4): What is your favorite food?
+Bot(4): i like the color red . what is yours ?
+User(5): I like the color purple
+Bot(5): i like the color red . i like red .
+User(6): What things are red?
+Bot(6): i do not really have a favorite . i like to go fishing .
+User(7): I like to take walks.
+Bot(7): i like to go fishing .
+User(8): Do you like lake fishing?
+Bot(8): no , i like to go fishing .
+User(9): Where?
+Bot(9): i am a student , but i am a student .
+User(10): Where do you go to school?
+Bot(10): no , i do not . i am a student .
+User(11): How old are you?
+Bot(11): i am good . just got done walking my dog .
+User(12): Is it a big dog?
+Bot(12): no , i do not . i am a big fan of classical music .
+
+Persona:
+i'm very strong for my age.
+i'm a huge coffee lover.
+i like to take walks.
+i'm a vegan.
+i live in colorado.
+
+Topic and Human Opinion:
+Beginning: Streaming TV versus Cable(like)
+Round 1: Going to the Park(like)
+Round 3: Eating(like)
+Round 4: Color Red(ambivalent)
+Round 6: Fishing(dislike)
+Round 9: Being a student(ambivalent)
+Round 11: Walking a dog(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 1: The chatbot changed the topic.(ambivalent)
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 4: The chatbot changed the topic.(ambivalent)
+Round 6: The chatbot changed the topic.(like)
+Round 9: The chatbot changed the topic.(like)
+Round 11: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.00
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 26
+Repetitive(↓): 77
+Topic: 0
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): I like the Denver Broncos.
+Bot(1): what is how you waste your the college? i enjoy listening ?
+User(2): Do you like football?
+Bot(2): I do not. i not using it me of britney spears.
+User(3): What is your favorite song by Brittany Spears?
+Bot(3): soup kitchen, you teach? :)
+User(4): No. I sell.
+Bot(4): Yes, i your Socrates Michaelangelo it.
+User(5): What does that mean?
+Bot(5): Design not bot bot. to a craft show
+User(6): I like craft shows. Do you know of one nearby?
+Bot(6): I don't understand why the state of georgia i liked I'm not guns.
+User(7): Do you have a gun?
+Bot(7): i love ever been in there someday
+User(8): What crafts do you do?
+Bot(8): I do don't have job. I I ride horses.
+User(9): Do you ride often?
+Bot(9): You are welcome! bad because my you will!
+User(10): How many horses do you have?
+Bot(10): Is Do you final answer?
+
+Persona:
+my favorite way to relax is to read a book.
+i hate school.
+i'm single and with two dogs.
+i'm an economics major.
+my favorite shirts are band shirts and ruffle sleeves.
+
+Topic and Human Opinion:
+Beginning: Football(like)
+Round 2: Brittany Spears(dislike)
+Round 4: Michaelangelo(ambivalent)
+Round 5: Craft Show(like)
+Round 8: riding horses(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(dislike)
+Round 4: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 7.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 50
+Topic: 0
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I like Italian food
+Bot(1): italian food is my favorite italian food
+User(2): What other types of food do you like?
+Bot(2): i like italian food and chinese food
+User(3): Chinese food is good too. Do you like Mexican food?
+Bot(3): i love mexican food . i love mexican food
+User(4): What is your favorite thing to cook?
+Bot(4): i like mexican food . what about you ?
+User(5): I cook a lot of different things, but I like macaroni and cheese.
+Bot(5): i like pizza too . i like mexican food
+User(6): We had pizza and Mexican food yesterday. What did you have for lunch?
+Bot(6): i had lunch with my boyfriend .
+User(7): At home or at a restaurant?
+Bot(7): i have been to a restaurant with my friends .
+User(8): Where did you have lunch?
+Bot(8): i went to taco bell . it was great .
+User(9): What is your favorite restaurant?
+Bot(9): i have a mexican restaurant .
+User(10): Our favorite place is Chick Fil A. Do you like Chick Fil A?
+Bot(10): i do not know . i am a bit of a loner .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Food(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 33.00
+Robotic(↓): 21
+Interesting: 8
+Fun: 8
+Consistent: 20
+Fluent: 37
+Repetitive(↓): 81
+Topic: 60
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): I like 80's music.
+Bot(1): yes , of course . i love the band imagine dragons . you know of them ?
+User(2): Yes, they play good music. Do you like RUSH?
+Bot(2): it stopped the pain so he stopped flailing around i cant stand to see people in pain
+User(3): Who was in pain?
+Bot(3): what kind of pain ? being social is not my cup of tea
+User(4): Are you a loner?
+Bot(4): ah yes , i do see people in wheelchairs doing completive races like runners
+User(5): Are you in a wheelchair?
+Bot(5): you can play video games and enjoy sports cars in a wheelchair right ?
+User(6): Yes, I think so. Not sure if they are comfortable in a sports car? Do you have a sports car?
+Bot(6): fixing cars ? hmm . . . mighty hands ? yes i do have a car a mercedes .
+User(7): What color is your car?
+Bot(7): my favorite color is blue yours ?
+User(8): My favorite color is purple.
+Bot(8): my favorite color is blue . i like purple as well .
+User(9): What color is your shirt?
+Bot(9): my favorite color is blue yours ?
+User(10): Is your car blue?
+Bot(10): that is great i mean blue is a great color , my favorite is green .
+User(11): What is green?
+Bot(11): green is my favorite color !
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: Music(like)
+Round 3: Being Social(ambivalent)
+Round 5: People in Wheelchairs(ambivalent)
+Round 7: Favorite color(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(like)
+
+Revised avg score: 28.57
+Robotic(↓): 20
+Interesting: 7
+Fun: 7
+Consistent: 7
+Fluent: 13
+Repetitive(↓): 23
+Topic: 9
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you watch Netflix?
+Bot(1): no way . but if i did , i would be the best soda can salesman .
+User(2): What is your job?
+Bot(2): i work from home doing insurance sales
+User(3): What kind of insurance do you sell?
+Bot(3): i sell home insurance to people
+User(4): Do you like your job?
+Bot(4): i love it as much as i love walking dogs . where do you work ?
+User(5): I sell homes.
+Bot(5): i sell home insurance to people
+User(6): Maybe we can network together.
+Bot(6): sure . do you like dogs ?
+User(7): I like dogs, but I don't have one. I have 2 cats.
+Bot(7): i walk dogs and one of them got hit .
+User(8): Hit by a car?
+Bot(8): i walk dogs and one of them got hit .
+User(9): How many dogs do you walk?
+Bot(9): i walk dogs and one of them got hit .
+User(10): What kind of dogs?
+Bot(10): i walk dogs and one of them got hit .
+User(11): Is the dog ok?
+Bot(11): i walk dogs and one of them got hit .
+
+Persona:
+i am a cancer survivor.
+i do not drink soda.
+i met taylor swift.
+my father was a door to door salesman.
+i walk dogs for a living.
+
+Topic and Human Opinion:
+Beginning: Netflix(like)
+Round 3: Jobs(ambivalent)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 58.71
+Robotic(↓): 23
+Interesting: 71
+Fun: 54
+Consistent: 68
+Fluent: 68
+Repetitive(↓): 91
+Topic: 64
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Did you vote?
+Bot(1): have you voted recently ? i have
+User(2): Yes, I voted. Did you vote Republican?
+Bot(2): no i voted for trump , just like most of us in seattle . what religion are you ?
+User(3): Christian. You?
+Bot(3): no i voted for trump , just like most of us in seattle . what religion are you ?
+User(4): Christian
+Bot(4): are you christian ?
+User(5): Yes. Are you Christian?
+Bot(5): i am catholic
+User(6): Do you believe in God?
+Bot(6): no , i was not raised religious . sorry .
+User(7): Do you go to mass?
+Bot(7): no . going to the park is all i like
+User(8): Is there a park near your home?
+Bot(8): there is one at this place .
+User(9): The place where you work?
+Bot(9): i do not have a job .
+User(10): The park is near your house?
+Bot(10): there is one at this place .
+
+Persona:
+i like to eat hamburgers and french fries.
+i don't have many friends.
+i enjoy going to the park.
+i have a weakness for fish and chips.
+my favorite band is the insane clown posse.
+
+Topic and Human Opinion:
+Beginning: Politics(dislike)
+Round 2: Religion(like)
+Round 7: Park(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(ambivalent)
+Round 7: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 49.71
+Robotic(↓): 21
+Interesting: 32
+Fun: 24
+Consistent: 62
+Fluent: 63
+Repetitive(↓): 62
+Topic: 50
+
+####################
+

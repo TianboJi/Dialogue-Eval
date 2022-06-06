@@ -1,0 +1,303 @@
+Feedback: Good to participate.
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): Hi there
+Bot(1): hi i am ned and planning my trip to europe
+User(2): Wow thats a good idea
+Bot(2): its cool i also live a vegan lifestyle
+User(3): I dont like vagan
+Bot(3): gross i am a vegan
+User(4): Im not a vagan
+Bot(4): gross i am a vegan
+User(5): What
+Bot(5): gross i am a vegan
+User(6): Say something else
+Bot(6): i am just a person who is a vegan
+User(7): Im not a vegan
+Bot(7): ok
+User(8): Do you like cooking
+Bot(8): yes i love to cook
+User(9): Which one is your favorite?
+Bot(9): both are good
+User(10): Well thats good
+Bot(10): ii love to cook too
+
+Persona:
+i married a super model from italy.
+i've a german shepherd dog.
+i'm a vegan.
+i love to drink wine and dance in the moonlight.
+i visit europe twice a year.
+
+Topic and Human Opinion:
+Beginning: cooking(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 22.57
+Robotic(↓): 64
+Interesting: 25
+Fun: 19
+Consistent: 26
+Fluent: 30
+Repetitive(↓): 93
+Topic: 15
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): Do you like walking?
+Bot(1): i is your favorite technician .
+User(2): Nope
+Bot(2): I am a little tired. your u a good bye mom. Do you work from home?
+User(3): Yeah I like
+Bot(3): i am adopted at a young how about you
+User(4): Im not adopted
+Bot(4): yes , i is a horse would a lot of family .
+User(5): I dont catch you
+Bot(5): I do not have a hand-made table, I have done have to go to the gym
+User(6): And then
+Bot(6): yellow family doesn't allow love white
+User(7): What are you saying?
+Bot(7): I am doing great. I have just move to a gym. Do you live in a house🏠?
+User(8): yes
+Bot(8): Dude!. Thanks for telling me wars and I'm a teacher.
+User(9): Do you like walking?
+Bot(9): I've always admired am a cancer you! Congratulations!
+User(10): See you later
+Bot(10): lol 😆 that is very true like it’s... do streams hobbies
+
+Persona:
+i'm a swim coach at my local pool.
+i think i'll retire in a few years.
+i'm a museum tour guide.
+i am a blonde girl with really short hair.
+my grandfather served in world war a.
+
+Topic and Human Opinion:
+Beginning: Walk(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 40.86
+Robotic(↓): 63
+Interesting: 23
+Fun: 59
+Consistent: 60
+Fluent: 36
+Repetitive(↓): 70
+Topic: 41
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): Do you like moon?
+Bot(1): it is soothing , i am a moon lover .
+User(2): I've always admired
+Bot(2): it is soothing , i am a moon lover .
+User(3): What are you saying?
+Bot(3): i think the moon is fake
+User(4): but why
+Bot(4): well , i was born right under a moon !
+User(5): Do you work from home?
+Bot(5): yes i work from home
+User(6): Do you like moon walk
+Bot(6): no i do not like it .
+User(7): Do you live in a house🏠?
+Bot(7): no i have my own house
+User(8): well that's good
+Bot(8): i still live at home
+User(9): Do you love watching moon
+Bot(9): i hate it
+User(10): why
+Bot(10): i have to feed my children
+
+Persona:
+i am a cancer survivor.
+i was raised in a single parent household.
+i am a recording engineer and own my own studio.
+i have two grown children who never visit.
+if i'm not cooking in the kitchen then i'm definitely on the water.
+
+Topic and Human Opinion:
+Beginning: Moon(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.71
+Robotic(↓): 72
+Interesting: 63
+Fun: 39
+Consistent: 68
+Fluent: 62
+Repetitive(↓): 34
+Topic: 50
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Do you like books?
+Bot(1): yes i love books how about you
+User(2): I've always admired
+Bot(2): i love books . i read them all the time
+User(3): I also
+Bot(3): i love books . i read them all the time .
+User(4): And then
+Bot(4): i love books . i read them all the time
+User(5): You are boring
+Bot(5): i love books . i read a lot
+User(6): I love books
+Bot(6): i love books too
+User(7): Do you work from home?
+Bot(7): yes i work from home
+User(8): I have done have to go to the gym
+Bot(8): i do not work from home
+User(9): Do you live in a house🏠?
+Bot(9): no i don't i just read
+User(10): See you
+Bot(10): no i don't i just read
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: books(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 59.43
+Robotic(↓): 35
+Interesting: 68
+Fun: 36
+Consistent: 32
+Fluent: 76
+Repetitive(↓): 28
+Topic: 67
+
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): Do you like space?
+Bot(1): going to space is exciting but i prefer going to the beach
+User(2): Why do you like it
+Bot(2): its pretty miserable , will not lie , fast food is not fun
+User(3): Do you work from home?
+Bot(3): i walk dogs and other things . i live in nyc , plenty of work to be had .
+User(4): What are you saying?
+Bot(4): playing a pickup football game later . might walk my dog at some point .
+User(5): I have done have to go to the gym
+Bot(5): it was not for anything bad , it was for national ice cream day .
+User(6): well thats good
+Bot(6): i am in love with sweets .
+User(7): I like sweets
+Bot(7): ice cream ! ice cream is good . what kind do you like ? i like vanilla !
+User(8): I like choco
+Bot(8): hi ! i am good . i love a good pepperoni pizza .
+User(9): I love baby corn pizza
+Bot(9): i love pizza too . just like bacon and ice cream . put them all together .
+User(10): I have to go
+Bot(10): i like hiking around here maybe that s why never been to any places
+
+Persona:
+i walk three miles every day.
+i have an allergy to water.
+i have a weakness for vanilla ice cream.
+i used to be a painter but now i'm a housekeeper.
+i played football for a division a college.
+
+Topic and Human Opinion:
+Beginning: Space(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 50.00
+Robotic(↓): 50
+Interesting: 50
+Fun: 50
+Consistent: 50
+Fluent: 50
+Repetitive(↓): 50
+Topic: 50
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): Do you like space?
+Bot(1): going to space is exciting but i prefer going to the beach
+User(2): Why do you like it
+Bot(2): its pretty miserable , will not lie , fast food is not fun
+User(3): Do you work from home?
+Bot(3): i walk dogs and other things . i live in nyc , plenty of work to be had .
+User(4): What are you saying?
+Bot(4): playing a pickup football game later . might walk my dog at some point .
+User(5): I have done have to go to the gym
+Bot(5): it was not for anything bad , it was for national ice cream day .
+User(6): well thats good
+Bot(6): i am in love with sweets .
+User(7): I like sweets
+Bot(7): ice cream ! ice cream is good . what kind do you like ? i like vanilla !
+User(8): I like choco
+Bot(8): hi ! i am good . i love a good pepperoni pizza .
+User(9): I love baby corn pizza
+Bot(9): i love pizza too . just like bacon and ice cream . put them all together .
+User(10): I have to go
+Bot(10): i like hiking around here maybe that s why never been to any places
+User(11): see you later
+Bot(11): oh ok i am glad to hear that . i would not mind some ice cream but i cannot .
+User(12): Do you like ships
+Bot(12): i love pizza , and i love it .
+User(13): I love pasta
+Bot(13): i like to eat fish .
+User(14): I love fish fry
+Bot(14): i like to eat fish .
+User(15): What else
+Bot(15): i love to cook . i love to cook .
+User(16): I dont know
+Bot(16): i like to go to the gym and listen to music .
+User(17): I have done have to go to the gym
+Bot(17): i like to go fishing .
+User(18): I love to fishing
+Bot(18): i like to go fishing .
+User(19): i like to go fishing .
+Bot(19): i like to go fishing .
+User(20): i have to go bye
+Bot(20): i love to go fishing .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Round 1: Ship(like)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 53.57
+Robotic(↓): 75
+Interesting: 32
+Fun: 74
+Consistent: 77
+Fluent: 34
+Repetitive(↓): 30
+Topic: 63
+
+####################
+

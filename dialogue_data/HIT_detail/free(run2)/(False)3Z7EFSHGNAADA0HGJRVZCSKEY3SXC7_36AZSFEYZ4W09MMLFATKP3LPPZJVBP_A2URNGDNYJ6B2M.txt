@@ -1,0 +1,280 @@
+Feedback: I felt so much better.
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): hello
+Bot(1): hello ! i am really looking forward to retiring in 6 months !
+User(2): are you like mountain
+Bot(2): true . i can do anything so i bet i could climb a mountain
+User(3): When and with whom did you do that race?
+Bot(3): my resume says professional horse racing handicapper , but i really want to teach it .
+User(4): can you teach me?
+Bot(4): japanese is a hard language to learn . do you like sports
+User(5): yes i like sports
+Bot(5): my three kids keep me busy and i consider that a sport , what are yours
+User(6): same here but i have two kids.
+Bot(6): i have 3 do you have any ?
+User(7): i have 2
+Bot(7): that is a lot of grandkids . expecting more ?
+User(8): no i am just 21 so i did't have grand kids.
+Bot(8): yes i do i have 34 grand kids
+User(9): special you live a wonderful life.
+Bot(9): super special 0 i like to do the fancy dancing , or as the french say , ballet !
+User(10): what kind of dance do you like?
+Bot(10): i love to dance as well
+
+Persona:
+i am fluent in english spanish and french.
+my wife spends all my money.
+i like to dance.
+i'm expecting triplets in three months.
+i own a house in florida.
+
+Topic and Human Opinion:
+Beginning: About mountain(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 63.86
+Robotic(↓): 60
+Interesting: 87
+Fun: 75
+Consistent: 65
+Fluent: 78
+Repetitive(↓): 40
+Topic: 42
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): Hai
+Bot(1): i am sorry to hear that
+User(2): what happened any problem?
+Bot(2): i don't know what you mean
+User(3): i would like to know the reason for your grief.
+Bot(3): i am sorry to hear that . i am sorry to hear that .
+User(4): sorry, i understand yours feelings.
+Bot(4): i think so . i feel like i am happy .
+User(5): life is very short so always be happy.
+Bot(5): i think so . i am happy with you .
+User(6): thank you so much for your words.
+Bot(6): thank you . i hope you feel better .
+User(7): yes i will be very nice and as beautiful as yours mind.
+Bot(7): thank you . i hope you are happy .
+User(8): yes i am happy with my pets.
+Bot(8): i love dogs . i wish i had a dog .
+User(9): how many dogs you have?
+Bot(9): i have a lab . he is a lab .
+User(10): you have cat?
+Bot(10): i have a cat named radar .
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: About pets(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 57.57
+Robotic(↓): 79
+Interesting: 71
+Fun: 83
+Consistent: 84
+Fluent: 50
+Repetitive(↓): 73
+Topic: 67
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): hello
+Bot(1): heya , you like tv or movies more ?
+User(2): how are you?
+Bot(2): pretty good , my diet is very unhealthy
+User(3): you are a religious person?
+Bot(3): yes . i only eat healthy foods .
+User(4): you believe gods?
+Bot(4): i do but i need to eat diet
+User(5): where are you know?
+Bot(5): i do not know either . that would not be very christian of me
+User(6): i like catholic and you?
+Bot(6): i am catholic
+User(7): did you pray today?
+Bot(7): i didn
+User(8): go to church.
+Bot(8): do you attend church ?
+User(9): god will help you
+Bot(9): i hope so .
+User(10): pray every day.
+Bot(10): and my diet makes me feel good
+
+Persona:
+i am overweight and unhappy.
+my favorite movie is mean girls.
+i diet a lot.
+i'm a clean eater.
+i watch too much tv in spare time.
+
+Topic and Human Opinion:
+Beginning: About god(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 57.86
+Robotic(↓): 81
+Interesting: 72
+Fun: 77
+Consistent: 63
+Fluent: 78
+Repetitive(↓): 68
+Topic: 64
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): hai
+Bot(1): i l am is and a son .
+User(2): how are you?
+Bot(2): i am a huge star wars want to do yet .
+User(3): how was today?
+Bot(3): I am not. I as it might singer.
+User(4): do you like songs?
+Bot(4): I yoy have problem a lot of things.
+User(5): you are a singer?
+Bot(5): lol answering too you believe speak fluently in four languages and help the boy scouts
+User(6): are you intreasted in pop songs
+Bot(6): that is cool something else then. i love sports , i am a pro soccer player
+User(7): do you like music?
+Bot(7): Hiya! I like to play video games and day you How are video games
+User(8): who is your favorite singer?
+Bot(8): no ❎ it don't like raises wagyu
+User(9): what kind of songs do you like?
+Bot(9): Thanks. What do you loves to grew living?
+User(10): please dedicate a song for me.
+Bot(10): i you speak am a shepherd. i want a lab.
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: About singers(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+Beginning: No topic change.(like)
+
+Revised avg score: 59.86
+Robotic(↓): 82
+Interesting: 67
+Fun: 83
+Consistent: 63
+Fluent: 94
+Repetitive(↓): 78
+Topic: 72
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): hi
+Bot(1): hey
+User(2): how are you?
+Bot(2): same
+User(3): what you think about trips?
+Bot(3): sure
+User(4): can you join with me in trip?
+Bot(4): sure i would love to do that
+User(5): i have a plan about a big trip
+Bot(5): are you coming with me ?
+User(6): do you like trips?
+Bot(6): not as much as i love travelling
+User(7): which kind of trips do you like?
+Bot(7): those are the best , mine always loved our trips .
+User(8): family trips ?
+Bot(8): those are the best , mine always loved our trips .
+User(9): you like do travel with your friends?
+Bot(9): sometimes along , sometimes i travel with friends .
+User(10): how was your last trip?
+Bot(10): it was good thanks for asking
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: About trips(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 61.43
+Robotic(↓): 82
+Interesting: 74
+Fun: 90
+Consistent: 78
+Fluent: 82
+Repetitive(↓): 80
+Topic: 68
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): hello
+Bot(1): hi , how are you today ?
+User(2): how are you?
+Bot(2): i am doing well . how are you ?
+User(3): how was the day?
+Bot(3): it is going good . just got done walking my dog .
+User(4): you like kids?
+Bot(4): i do , i love to eat .
+User(5): how many kids you have?
+Bot(5): i've 2 . i am a girl .
+User(6): where are you know?
+Bot(6): i am in the midwest . i love to go fishing .
+User(7): what about your kids?
+Bot(7): i do not , but i do like to eat .
+User(8): did you spend time with your kids?
+Bot(8): i do , i love to go out to eat with my family .
+User(9): are you enjoying with your kids?
+Bot(9): no , i am not . i am a big fan of classical music .
+User(10): be happy with your kids.
+Bot(10): i do not know how to drive . i like to go fishing .
+
+Persona:
+i'm a huge star wars fan.
+my favorite color is red.
+i have been retired for a years.
+i am a professional wrestler.
+i was adopted at a young age to an older couple.
+
+Topic and Human Opinion:
+Beginning: About kids(like)
+
+Topic Change and Chatbot Opinion:
+Beginning: No topic change.(like)
+
+Revised avg score: 67.43
+Robotic(↓): 80
+Interesting: 87
+Fun: 75
+Consistent: 95
+Fluent: 83
+Repetitive(↓): 69
+Topic: 81
+
+####################
+

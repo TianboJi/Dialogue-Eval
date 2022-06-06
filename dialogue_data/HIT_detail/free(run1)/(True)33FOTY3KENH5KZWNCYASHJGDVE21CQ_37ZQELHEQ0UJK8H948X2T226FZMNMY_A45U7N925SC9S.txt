@@ -1,0 +1,288 @@
+Feedback: None
+####################
+
+Model: kvmemnn
+
+Conversation:
+User(1): what is your favorite color?
+Bot(1): my favorite color is blue yours ?
+User(2): my favorite color is red. do you want to know why?
+Bot(2): omg that is my favorite color ! ! my iphone is even red ! do you have an iphone ?
+User(3): I do not have an iphone, I have an android phone
+Bot(3): i have an android . i like both iphone and android . you ?
+User(4): I prefer android, but that's just me
+Bot(4): have you ever owned an android before ?
+User(5): yes I have. I have one now
+Bot(5): i love crab legs with butter . where are you from ?
+User(6): I am from california, how about you?
+Bot(6): i have never been to the west coast
+User(7): where do you live?
+Bot(7): i am in texas now . i speak spanish and english so i understand everyone here
+User(8): where in texas do you live? it's a big state
+Bot(8): i have never been to texas . can i visit ?
+User(9): but you just said you lived in texas. do you live somewhere else?
+Bot(9): i just moved from texas . i want to visit iceland maybe one day . maybe live there
+User(10): why iceland?
+Bot(10): i think cold winters are the best ! what do you do in your spare time ?
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: the color red(ambivalent)
+Round 2: iphones(like)
+Round 5: location(like)
+
+Topic Change and Chatbot Opinion:
+Round 2: The chatbot changed the topic.(like)
+Round 5: The chatbot changed the topic.(like)
+
+Revised avg score: 66.71
+Robotic(↓): 14
+Interesting: 63
+Fun: 61
+Consistent: 55
+Fluent: 53
+Repetitive(↓): 11
+Topic: 60
+
+####################
+
+Model: biencoder
+
+Conversation:
+User(1): do you take drugs?
+Bot(1): yes . i am the youngest of four and you will never guess when i was born
+User(2): what drugs do you take?
+Bot(2): drugs are the best . i highly recommend advil
+User(3): do you take any illegal drugs?
+Bot(3): sorry my family works in dairy farming and we do not use drugs on our cows
+User(4): do your cows get sick?
+Bot(4): sorry my family works in dairy farming and we do not use drugs on our cows
+User(5): tell me about your cows
+Bot(5): they take after their father , he grew up on a cattle ranch .
+User(6): do you kill your cows and eat them?
+Bot(6): only with cheese . cows are my friends
+User(7): so you get their milk and cheese, but save the beef?
+Bot(7): only with cheese . cows are my friends
+User(8): do you like cheese?
+Bot(8): only with cheese . cows are my friends
+User(9): do you have other friends?
+Bot(9): just me and my parents
+User(10): in texas?
+Bot(10): cows ?
+
+Persona:
+i'm four.
+i'm a descendant of christopher columbus.
+i like to go to country concerts on weekends.
+i am a vegan and i love hummus.
+i work my parents farms.
+
+Topic and Human Opinion:
+Beginning: drugs(dislike)
+
+Topic Change and Chatbot Opinion:
+None
+
+Revised avg score: 42.71
+Robotic(↓): 12
+Interesting: 32
+Fun: 30
+Consistent: 36
+Fluent: 58
+Repetitive(↓): 61
+Topic: 16
+
+####################
+
+Model: seq2seq
+
+Conversation:
+User(1): I am chewing gum
+Bot(1): dr jack gum gum . i hate gum
+User(2): who is dr jack gum gum?
+Bot(2): dr jack gum . pepper gum . pepper gum gum .
+User(3): pepper gum? what is that? gum that tastes like pepper?
+Bot(3): i do not know . pepper is my favorite .
+User(4): you like to chew on pepper flavored gum?
+Bot(4): i do not know . pepper is my favorite .
+User(5): I like salt more than pepper
+Bot(5): i like dr pepper . pepper is my favorite .
+User(6): dr pepper is a good drink
+Bot(6): i like dr pepper . pepper is my favorite .
+User(7): do you like soda?
+Bot(7): i do like soda and soda
+User(8): what is your favorite soda?
+Bot(8): i like soda and soda
+User(9): do you like to eat?
+Bot(9): i like to eat soda and listen to music
+User(10): what kind of music do you listen to?
+Bot(10): i listen to music while i listen to music
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: gum(like)
+Round 4: pepper(dislike)
+
+Topic Change and Chatbot Opinion:
+Round 4: The chatbot changed the topic.(dislike)
+
+Revised avg score: 4.71
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 16
+Fluent: 0
+Repetitive(↓): 83
+Topic: 0
+
+####################
+
+Model: polyencoder
+
+Conversation:
+User(1): what are your thoughts on wedding rings?
+Bot(1): omg ! yes ! you have any blue ones ?
+User(2): I do not have a wedding ring, I think they are dangerous to wear
+Bot(2): i thought those were dangerous ?
+User(3): yeah, many accidents have happened with people who wear wedding rings all the time
+Bot(3): i do not know , why do they ?
+User(4): because they can get stuck on your finger and if you fall it can pull your finger nearly off
+Bot(4): the machine tear them easily , they are not so well glued it seems .
+User(5): you don't need to glue them on, but they can get stuck on your finger if your finger gets fatter
+Bot(5): the machine tear them easily , they are not so well glued it seems .
+User(6): what do you want to talk about?
+Bot(6): totally random , but what is your biggest fear ?
+User(7): my biggest fear is horses
+Bot(7): i see , you have a bad experience with horses ?
+User(8): yes, I grew up around horses and they are horrible animals
+Bot(8): me and my cats are afraid of them
+User(9): what is your biggest fear?
+Bot(9): that is a tough question , i cannot really qualify it
+User(10): is there anything that you fear?
+Bot(10): that is a tough question , i cannot really qualify it
+
+Persona:
+mickey mouse is my favorite character.
+i've a cat named spook.
+i'm scared of dying.
+i own a yacht and i rent it out when i am not using it.
+my favorite color is blue.
+
+Topic and Human Opinion:
+Beginning: wedding rings(dislike)
+Round 6: fears(like)
+
+Topic Change and Chatbot Opinion:
+Round 6: The chatbot changed the topic.(like)
+
+Revised avg score: 25.43
+Robotic(↓): 100
+Interesting: 26
+Fun: 57
+Consistent: 35
+Fluent: 10
+Repetitive(↓): 89
+Topic: 39
+
+####################
+
+Model: qc
+
+Conversation:
+User(1): do you own any guns?
+Bot(1): i do but i also are about taking over to guess: i grew up ...
+User(2): where did you grow up?
+Bot(2): I am not sure a good day for my mom.
+User(3): what happened to your mom?
+Bot(3): What have sorry to studying?
+User(4): no I am not studying, are you?
+Bot(4): i you been do homework
+User(5): what kind of homework are you doing?
+Bot(5): I that the age who is a friend😉
+User(6): what age is that?
+Bot(6): If don't like tv, i kind of robot what would it be?
+User(7): a tv robot would be scary, especially if it played horror movies
+Bot(7): Good to four years ex cheated and read and listen to my grandpa in the army.
+User(8): what rank did your grandpa get in the army?
+Bot(8): I am I have to go but i like to shop. Do you like shopping?
+User(9): yes i love to shop, especially for clothes
+Bot(9): i like to read , and alot to enjoy walking you ?
+User(10): walking is good, when there are no fires
+Bot(10): Yeah, them are it.😄
+
+Persona:
+None
+
+Topic and Human Opinion:
+Beginning: guns(dislike)
+Round 3: studying(like)
+Round 8: shopping(like)
+
+Topic Change and Chatbot Opinion:
+Round 3: The chatbot changed the topic.(ambivalent)
+Round 8: The chatbot changed the topic.(dislike)
+
+Revised avg score: 5.14
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 64
+Topic: 0
+
+####################
+
+Model: lan_model
+
+Conversation:
+User(1): what do you watch on youtube?
+Bot(1): i like to eat fish .
+User(2): have you ever eating food on youtube for other people to see?
+Bot(2): i do not know . i am a big fan of classical music .
+User(3): I listen to music on youtube, including classical music
+Bot(3): i like to listen to music .
+User(4): what music do you like?
+Bot(4): i like country music . what about you ?
+User(5): I like rock and roll music. do you listen to music on youtube?
+Bot(5): no , i do not . i like to go to the park .
+User(6): I like to watch videos about parks on youtube. do you know what youtube is?
+Bot(6): no , i do not . i like to go to the gym .
+User(7): can we please talk about something else?
+Bot(7): i do not know . i am a big fan of classical music .
+User(8): who is your favorite classical musician?
+Bot(8): i like the color red . i like the color blue .
+User(9): I like the color green, and only the color green. all other colors are stupid
+Bot(9): i like red , reminds me of summer time .
+User(10): how does it remind you of summer?
+Bot(10): i love the fall . i love it .
+
+Persona:
+i have short brown hair.
+i have three arabian horses.
+i listen to rap music.
+i have rainbow hair.
+i love rollercoasters and sky diving.
+
+Topic and Human Opinion:
+Beginning: youtube(like)
+Round 8: colors(like)
+
+Topic Change and Chatbot Opinion:
+Round 8: The chatbot changed the topic.(ambivalent)
+
+Revised avg score: 4.29
+Robotic(↓): 100
+Interesting: 0
+Fun: 0
+Consistent: 0
+Fluent: 0
+Repetitive(↓): 75
+Topic: 5
+
+####################
+
