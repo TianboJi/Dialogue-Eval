@@ -69,3 +69,6 @@ The following is the Bibtex formatted citation if you are interested in citing o
 }
 ```
 
+## Notes
+1. If you encounter any problems, please do not hesitate to contact me jitianbo@gmail.com
+2. Let me know if you are interested in the processing codes for topic-related content, such as the wordcloud of topics. I plan to upload them later.
