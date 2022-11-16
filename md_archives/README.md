@@ -1,0 +1,1 @@
+This directory just stores example figures for `README.md` on the home page.
