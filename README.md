@@ -39,8 +39,14 @@ Update:
 ## Code
 1. `mturk_process.py` is the code for processing a normative json file. It will put all generated files in the `Results` directory in the same directory of that json file. It looks like: ![generated files](md_archives/generated_results.png)
     - `01-process-all-json.sh` provides examples of using `mturk_process.py`
+    - `Results/system_scores.xlsx` is the final $z$ score of system scores.
+    - `Results/passrate.xlsx` reports the passrates in the experiment
+    - `Results/duration.xlsx` reports the average duration per HIT.
 2. `mturk_statistics.py` is the code for statistics such as rater agreement and significance tests. It generates `statistic/` directory under `Results/` from previous step, as: ![generated files](md_archives/generated_statistics.png)
     - `02-process-result-dirs.sh` provides examples of using `mturk_statistics.py`
+    - `statistic/sig_test.pdf` is the figure of significance test.
+    - `statistic/rater_agreement.pdf` is the rater agreement.
+
 
 ## Citation
 The following is the Bibtex formatted citation if you are interested in citing our work:
