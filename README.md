@@ -9,7 +9,7 @@ Update:
 ## Structure
 1. Directory `data/` contains two directories: `normative_json/` and `raw_mturk_csv/`
 
-  - `normative_json/` stores the json files that our code can process. Please convert your files to the following format if you would like to use our evaluation method in your own experiment.
+  - `normative_json/` stores the json files (`hits_data.json`) that our code can process. Please convert your files to `json files` in the following structure if you would like to use our evaluation method in your own experiment.
     + `metadata`: stores the metadata for scores and models
       - `score`: stores scorename-attributes pairs
         - `scorename`: the name of ratings, such as robotic and interesting in our experiment, with following attributes
@@ -36,7 +36,13 @@ Update:
 2. Diretory `dialogue_data/` stores the detailed conversations.
 3. Diretory `md_archives/` simply stores images which are used in this `README.md`.
 
+## Code
+1. `mturk_process.py` is the code for processing a normative json file. It will put all generated files in the `Results` directory in the same directory of that json file. It looks like: ![generated files](md_archives/generated_results.png)
+    - `01-process-all-json.sh` provides examples of using `mturk_process.py`
+2. `mturk_statistics.py` is the code for statistics such as rater agreement and significance tests. It generates `statistic/` directory under `Results/` from previous step, as: ![generated files](md_archives/generated_statistics.png)
+    - `02-process-result-dirs.sh` provides examples of using `mturk_statistics.py`
 
+## Citation
 The following is the Bibtex formatted citation if you are interested in citing our work:
 ```
 @inproceedings{ji-etal-2022-achieving,
@@ -57,4 +63,3 @@ The following is the Bibtex formatted citation if you are interested in citing o
 }
 ```
 
-![generated files](md_archives/generated_files.png)
