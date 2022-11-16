@@ -18,7 +18,7 @@ Update:
           - `max`: number, It is used for reversing scores with attribute `positive=false` by `max-original_score`. `100` in our experiment.
       - `model`: a list of your models to be evaluated (except the quality-control model). In our experiment, it is [biencoder, biencoder_p, kvmemnn, kvmemnn_p, lan_model, lan_model_p, polyencoder, polyencoder_p, seq2seq, seq2seq_p].
       - `qc-model`: name of the quality-control model. In our paper it is called "qc".
-      - `ranking`: `null` or a list of ranked models. If null, our code will sort models result by their overall $z$ scores. Otherwise, models follow the given ranking. In our experiment, the first run is `null`, while second run and ice-breaker use the ranking from the first run.
+      - `ranking`: `null` or a list of ranked models. If null, our code will sort models by their overall $z$ scores. Otherwise, models follow the given ranking. In our experiment, the first run is `null`, while second run and ice-breaker use the ranking from the first run.
       - `sorted_scores`: `null` or a list of sorted scorenames (except $z$ and $raw$ scores). If specified, our code will present scores in the order of given orders. In our paper, the order is [interesting, fun, consistent, fluent, topic, robotic, repetitive].
     + `data`: a list of result per HIT, of which each element is as follows:
       - `result`: a list of collected data from the HIT, each element means the result of a model. In our experiment, it contains six elements: 5 competing models and a quality control model.
@@ -26,15 +26,15 @@ Update:
         - `score`: scorenames with  numerical values. For example, {robotic: 100, interesting: 37, ...}
         - `persona`: optional. List of personas.
         - `dialogue`: optional. Conversations between workers and models. It is not necessary since our code only handles rating scores. 
-        - `topic-related`: optional. It can be used to conduct meta evaluation of topicsk, but it is currently unnessary for ranking models.
+        - `topic-related`: optional. It can be used to conduct meta evaluation of topics, but it is currently unnecessary.
       - `hit`: HIT ID
       - `assignment`: Assignment ID
       - `worker`: WorkerID
       - `duration in seconds`: elapsed time of a HIT in seconds
-      - `feedback`: optinal. Feedback from the worker.
+      - `feedback`: optional. Feedback from the worker.
   - `raw_mturk_csv/` stores the original csv files we collected from MTurk. We simply provide it as a backup.
-2. Diretory `dialogue_data/` stores the detailed conversations.
-3. Diretory `md_archives/` simply stores images which are used in this `README.md`.
+2. Directory `dialogue_data/` stores the detailed conversations.
+3. Directory `md_archives/` simply stores images which are used in this `README.md`.
 
 ## Code
 1. `mturk_process.py` is the code for processing a normative json file. It will put all generated files in the `Results` directory in the same directory of that json file. It looks like: ![generated files](md_archives/generated_results.png)
