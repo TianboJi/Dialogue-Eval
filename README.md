@@ -31,11 +31,11 @@ Files of code and data for our [[paper](https://aclanthology.org/2022.acl-long.4
     - `statistic/sig_test.pdf` is the figure of significance test.
     - `statistic/rater_agreement.pdf` is the rater agreement.
     - All files generated in this step are presented as follows: 
-      <img src="md_archives/generated_statistics.png" alt="process_results" />
+      <img src="https://raw.githubusercontent.com/TianboJi/Dialogue-Eval/main/md_archives/generated_statistics.png" alt="process_results" />
 3. File `mturk_self_replication.py` is the code for self replication experiment. It accepted two `Results` directories of first and second experiment runs. It generates `corr-r1r2/` directory under `Results/` of first run.
     - `03-process-self-replication.sh` provides examples of using `mturk_self_replication.py`
     - All files generated in this step are presented as follows: 
-      <img src="md_archives/generated_self_rep.png" alt="self_rep" />
+      <img src="https://raw.githubusercontent.com/TianboJi/Dialogue-Eval/main/md_archives/generated_self_rep.png" alt="self_rep" />
 
 ## Usage: a tool with user interface
 File `human_eval_gui.py` provides a tool with basic user interface to run our code.
@@ -44,10 +44,13 @@ File `human_eval_gui.py` provides a tool with basic user interface to run our co
     > python run_gui.py
     ```
     <img src="md_archives/01-open-gui.gif" alt="open_gui" />
+
   - Process a JSON file
     <img src="md_archives/02-process-json.gif" alt="process_json" />
+  
   - Process the generated 'Results/' directory
     <img src="md_archives/03-process-results.gif" alt="process_results" />
+  
   - Process self-replication experiment
     <img src="md_archives/04-process-self-rep.gif" alt="process_self_rep" />
     
