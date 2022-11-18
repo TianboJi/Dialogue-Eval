@@ -25,7 +25,7 @@ Files of code and data for our [[paper](https://aclanthology.org/2022.acl-long.4
     - `Results/passrate.xlsx` reports the passrates in the experiment
     - `Results/duration.xlsx` reports the average duration per HIT.
     - All files generated in this step are presented as follows:
-      <img src="md_archives/generated_results.png" alt="process_json" />
+      <img src="https://raw.githubusercontent.com/TianboJi/Dialogue-Eval/main/md_archives/generated_results.png" alt="process_json" />
 2. File `mturk_statistics.py` is the code for statistics such as rater agreement and significance tests. It generates `statistic/` directory under `Results/` from previous step.
     - `02-process-result-dirs.sh` provides examples of using `mturk_statistics.py`
     - `statistic/sig_test.pdf` is the figure of significance test.
