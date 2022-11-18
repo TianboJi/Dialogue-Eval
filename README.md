@@ -2,6 +2,8 @@
 
 Files of code and data for our [[paper](https://aclanthology.org/2022.acl-long.445/)] in ACL 2022. 
 
+---
+
 ## Update:
 - 2022/11/18 
   + upload code for self replication experiment
@@ -11,21 +13,24 @@ Files of code and data for our [[paper](https://aclanthology.org/2022.acl-long.4
   + update the description of JSON file structure for our code
 - 2022/06/06
   + upload collected dialogue files
+---
 
 ## Requirement
 - Pandas
 - Numpy
 - SciPy
 - PySimpleGUI (for GUI)
-
+---
 ## Usage: command line
-1. File `mturk_process.py` is the code for processing a normative JSON file. It puts all generated files under the generated `Results` directory in the same directory of that JSON file. 
+
+1. File `mturk_process.py` is the code for processing a normative JSON file. It puts all generated files under the generated `Results` directory in the same directory of that JSON file. Run it by:
     - To run this code, please check the examples in `01-process-all-json.sh`.
     - `Results/system_scores.xlsx` is the final $z$ score of system scores.
     - `Results/passrate.xlsx` reports the passrates in the experiment
     - `Results/duration.xlsx` reports the average duration per HIT.
     - All files generated in this step are presented as follows:
       <img src="https://raw.githubusercontent.com/TianboJi/Dialogue-Eval/main/md_archives/generated_results.png" alt="process_json" />
+      
 2. File `mturk_statistics.py` is the code for statistics such as rater agreement and significance tests. It generates `statistic/` directory under `Results/` from previous step.
     - `02-process-result-dirs.sh` provides examples of using `mturk_statistics.py`
     - `statistic/sig_test.pdf` is the figure of significance test.
@@ -36,6 +41,8 @@ Files of code and data for our [[paper](https://aclanthology.org/2022.acl-long.4
     - `03-process-self-replication.sh` provides examples of using `mturk_self_replication.py`
     - All files generated in this step are presented as follows: 
       <img src="https://raw.githubusercontent.com/TianboJi/Dialogue-Eval/main/md_archives/generated_self_rep.png" alt="self_rep" />
+
+---
 
 ## Usage: a tool with user interface
 File `human_eval_gui.py` provides a tool with basic user interface to run our code.
@@ -54,7 +61,7 @@ File `human_eval_gui.py` provides a tool with basic user interface to run our co
   - Process self-replication experiment
     <img src="md_archives/04-process-self-rep.gif" alt="process_self_rep" />
     
-
+---
 
 
 ## Data Structure
@@ -88,7 +95,7 @@ File `human_eval_gui.py` provides a tool with basic user interface to run our co
 3. Directory `md_archives/` simply stores images which are used in this `README.md`.
 
 
-
+---
 
 ## Citation
 The following is the Bibtex formatted citation if you are interested in citing our work:
@@ -110,7 +117,7 @@ The following is the Bibtex formatted citation if you are interested in citing o
     pages = "6416--6437",
 }
 ```
-
+---
 ## Notes
 1. If you encounter any problems, please do not hesitate to contact me jitianbo@gmail.com
 2. Let me know if you are interested in the processing codes for topic-related content, such as the wordcloud of topics. I plan to upload them later.
